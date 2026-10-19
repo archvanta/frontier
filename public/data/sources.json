@@ -74,10 +74,9 @@
    "kind": "official",
    "tier": 1,
    "lang": "en",
-   "enabled": true,
-   "status": "error",
-   "notes": "Official Microsoft blog AI category feed.",
-   "lastError": "HTTP 410"
+   "enabled": false,
+   "status": "disabled",
+   "notes": "Official Microsoft blog AI category feed. Disabled 2026-10-19 — returned HTTP 410 Gone on GitHub's runners; find a replacement feed before re-enabling."
   },
   {
    "id": "nvidia-blog",
@@ -166,9 +165,9 @@
    "tier": 3,
    "lang": "en",
    "enabled": true,
-   "status": "error",
+   "status": "ok",
    "notes": "Preprints, not peer reviewed; capped to 5 per run so papers don't flood the news feed. arXiv asks bots to poll RSS at most a few times a day — hourly polling of one feed is within its published RSS guidance.",
-   "lastError": "parse error: no entries (empty feed)"
+   "verifiedOn": "2026-10-19"
   },
   {
    "id": "techcrunch-ai",
@@ -251,15 +250,15 @@
   {
    "id": "guardian-ai",
    "name": "The Guardian — Artificial intelligence",
-   "homepage": "https://www.theguardian.com/technology/artificialintelligence",
-   "feed": "https://www.theguardian.com/technology/artificialintelligence/rss",
+   "homepage": "https://www.theguardian.com/technology/artificialintelligenceai",
+   "feed": "https://www.theguardian.com/technology/artificialintelligenceai/rss",
    "kind": "media",
    "tier": 2,
    "lang": "en",
    "enabled": true,
-   "status": "error",
+   "status": "ok",
    "notes": "Topic RSS feed; Guardian terms allow feed headline/summary display with links.",
-   "lastError": "HTTP 404"
+   "verifiedOn": "2026-10-19"
   },
   {
    "id": "the-decoder",
@@ -282,10 +281,9 @@
    "kind": "media",
    "tier": 3,
    "lang": "en",
-   "enabled": true,
-   "status": "error",
-   "notes": "AI trade publication.",
-   "lastError": "HTTP 403"
+   "enabled": false,
+   "status": "disabled",
+   "notes": "AI trade publication. Disabled 2026-10-19 — returns HTTP 403 to the collector on GitHub's runners (bot blocking); not worked around."
   },
   {
    "id": "simon-willison",
