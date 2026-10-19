@@ -42,7 +42,7 @@ def cmd_collect(args: argparse.Namespace) -> int:
     fetcher = Fetcher(allowed_hosts(sources))
     steps.attach_fetcher(fetcher)
     report = run(Path(args.out), sources, fetcher, now, enrichers=steps.enrichers, finalizers=steps.finalizers, translation_info=steps.translation_info)
-    report.notes.extend(steps.notes)
+    report.notes.extend(steps.notes())
     text = _summary(report)
     sys.stdout.write(text)
     summary_file = os.environ.get("GITHUB_STEP_SUMMARY")

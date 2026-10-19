@@ -10,8 +10,8 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | 4 Ingestion | ✅ Passed (live feed verification pending Actions run) | `docs/phases/PHASE-04-NEWS-INGESTION.md#evidence` | `feat(phase-4)` |
 | 5 Images | ✅ Passed | `docs/phases/PHASE-05-IMAGES.md#evidence` | `feat(phase-5)` |
 | 6 Ranking & picks | ✅ Passed | `docs/phases/PHASE-06-RANKING-PICKS.md#evidence` | `feat(phase-6)` |
-| 7 i18n & translation | ⏳ Next | | |
-| 8 Actions & Pages | ○ | | |
+| 7 i18n & translation | ✅ Passed (real model check pending Actions run) | `docs/phases/PHASE-07-I18N-TRANSLATION.md#evidence` | `feat(phase-7)` |
+| 8 Actions & Pages | ⏳ Next | | |
 | 9 QA & release | ○ | | |
 
 ## Resume
