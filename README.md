@@ -51,7 +51,7 @@ python -m signal_pipeline collect --out ../public/data --no-translate --no-og
 - **Sources:** feeds change or break; a failing source is recorded and skipped without stopping the run. Some publishers have no RSS (Anthropic is read through a community mirror, see `docs/SOURCE-REGISTER.md`).
 - **Ranking** is a deterministic editorial signal (source tier, independent coverage, recency, topic, novelty), not a truth rating or popularity count. See `docs/ARCHITECTURE.md#ranking-phase-6`.
 - **Translation** is offline machine translation (Argos Translate en→fa) and can be wrong; the original English and the source link are always shown.
-- **Images:** publisher images are linked, not copied. Stories mainly about Claude, OpenAI or Gemini use fixed, unofficial editorial character illustrations; these are not company logos or mascots.
+- **Images:** publisher images are linked, not copied; a story without one shows a category graphic. Fixed, unofficial character illustrations for Claude, OpenAI and Gemini stories are in `public/images/ai-brands/` but currently switched off (`BRAND_ART_ENABLED` in `pipeline/signal_pipeline/config.py`).
 
 ## Project docs
 
