@@ -7,7 +7,7 @@ Bilingual (Persian RTL / English LTR) AI-news intelligence site. Python collecto
 - **No secrets** in the repo or bundle. Only the automatic `GITHUB_TOKEN` in workflows.
 - **Never fabricate** news, sources, dates, images, translations, verification or test results. Mock data is generated only in `--mode mock`, titles start with `[MOCK]`, and the UI shows a mock banner.
 - **Attribution:** keep original title, source name, publication time, canonical URL; store short excerpts only, never full articles.
-- **Images:** Claude/Anthropic, OpenAI, Gemini *primary-topic* stories use the fixed character art in `public/images/ai-brands/` (unofficial editorial illustrations). Other stories use the genuine feed/og image, else a category fallback. Never generate images.
+- **Images:** every story uses the genuine feed/og image, else a category fallback. The fixed Claude/OpenAI/Gemini character art in `public/images/ai-brands/` (unofficial editorial illustrations) is **switched off** at the owner's request (`BRAND_ART_ENABLED = False` in `pipeline/signal_pipeline/config.py`); keep the files, and turn it back on only when the owner asks. Never generate images.
 - **Reference media** (`references/`, the two UI videos, extracted frames) is never committed. The hero clip `public/videos/signal-ai-intro.mp4` is a shipped asset.
 - The external master prompt TXT is never committed.
 - Git: work on a branch, PR into `main`, no force-push or history rewrite.

@@ -88,11 +88,11 @@ export function buildMockDataset(now: Date): MockDataset {
     const published = new Date(anchor.getTime() - h * 3_600_000 + 7 * 60_000);
     const id = hex(i);
     const day = utcDay(published);
-    const image = seed.b
-      ? { url: `images/ai-brands/${seed.b}-character.webp`, kind: 'brand' as const, alt: `${seed.b} editorial character illustration` }
-      : seed.img
-        ? { url: `images/fallbacks/${FALLBACK_BY_CATEGORY[seed.c]}.svg`, kind: 'fallback' as const, alt: '' }
-        : null;
+    // Brand character art is switched off in the collector (BRAND_ART_ENABLED), so brand stories
+    // look like any other story here too.
+    const image = seed.b || seed.img
+      ? { url: `images/fallbacks/${FALLBACK_BY_CATEGORY[seed.c]}.svg`, kind: 'fallback' as const, alt: '' }
+      : null;
     const total = Math.max(20, 92 - i * 3);
     return {
       id,

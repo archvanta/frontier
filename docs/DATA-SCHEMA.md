@@ -26,7 +26,7 @@ TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_
 | `category`, `tags`, `entities` | keyword rules; `entities` lists companies detected (`openai`, `anthropic`, `google`, …) |
 | `brand` | `claude` / `openai` / `gemini` / `null` — primary-subject rule |
 | `image` | `{url, kind: feed|og|brand|fallback, alt, credit, sourceUrl}` |
-| `sourceImage` | genuine source image when brand art replaced the thumbnail |
+| `sourceImage` | genuine source image when brand art replaced the thumbnail (only while `BRAND_ART_ENABLED` is on) |
 | `eventId`, `related` | cross-source event cluster |
 | `score` | `{total, parts{reliability, corroboration, recency, topic, novelty}, asOf}` — only on articles inside `picks.json` (recency depends on the window); day files carry no score, so they do not churn as time passes |
 | `tr.fa` | `{title, excerpt, engine, at}` offline machine translation; original fields are never overwritten |

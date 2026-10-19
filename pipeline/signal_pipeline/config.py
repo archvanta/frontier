@@ -54,6 +54,11 @@ TOPIC_WEIGHTS = {
 NOVELTY_LOOKBACK_DAYS = 7     # a story is compared with other events from this many days before it
 NOVELTY_FOLLOW_UP = 0.5       # multiplier for later reports of an event that was already covered
 
+# Card art for Claude/OpenAI/Gemini primary-topic stories (public/images/ai-brands/). Off by the
+# owner's request (2026-10-19): those stories show their own source image like every other story.
+# The artwork files stay in the repository; set True to bring them back (stored stories follow).
+BRAND_ART_ENABLED = False
+
 PICKS_CLOCK_STEP_HOURS = 6     # picks advance at least this often even when no new stories arrive
 
 # Pick windows: length, recency half-life (scaled to the window), list size and diversity caps.

@@ -109,12 +109,12 @@ def test_run_assigns_feed_og_brand_and_fallback_images(sources, routes, make_fet
     undated = arts["https://example.com/news/undated"]
     assert undated["image"] == {"url": "https://example.com/img/undated-hero.jpg", "alt": "Hero image", "kind": "og", "sourceUrl": "https://example.com/news/undated"}
 
-    # OpenAI headline on a third-party site: brand artwork, but the real source image is kept alongside.
+    # OpenAI headline on a third-party site: the brand is recorded, but brand art is off by default,
+    # so the story gets its own image (here the category fallback, since the feed has none).
     voice = arts["https://wire.example.org/2026/10/19/openai-voice"]
     assert voice["brand"] == "openai"
-    assert voice["image"]["kind"] == "brand"
-    assert voice["image"]["url"] == "images/ai-brands/openai-character.webp"
-    assert "unofficial" in voice["image"]["alt"]
+    assert voice["image"]["kind"] != "brand"
+    assert "sourceImage" not in voice
 
     # No image anywhere and og:image not allowed for this host: category fallback.
     audit = arts["https://wire.example.org/2026/10/18/ai-audit-rules"]
@@ -166,3 +166,39 @@ def test_og_page_without_image_or_failing_falls_back(make_fetcher, sources, now)
     ]
     step(new, new, {"lab": lab}, now)
     assert [a["image"]["kind"] for a in new] == ["fallback", "fallback"]
+
+
+def test_brand_art_when_enabled_keeps_the_genuine_image(make_fetcher, sources, now):
+    lab = next(s for s in sources if s.id == "lab")
+    step = ImageStep(og_enabled=False, brand_art=True)
+    a = {"url": "https://example.com/news/x", "sourceId": "lab", "title": "OpenAI ships GPT-6 to ChatGPT users",
+         "category": "models", "_media": [{"url": "https://cdn.example.com/gpt6.jpg", "source": "media:content"}], "_html": ""}
+    step([a], [a], {"lab": lab}, now)
+    assert a["brand"] == "openai"
+    assert a["image"]["kind"] == "brand"
+    assert a["image"]["url"] == "images/ai-brands/openai-character.webp"
+    assert "unofficial" in a["image"]["alt"]
+    assert a["sourceImage"]["url"] == "https://cdn.example.com/gpt6.jpg"
+
+
+def test_turning_brand_art_off_restores_stored_stories(sources, now):
+    stored_with_photo = {"brand": "claude", "category": "models",
+                         "image": {"url": "images/ai-brands/claude-character.webp", "kind": "brand", "alt": "x"},
+                         "sourceImage": {"url": "https://cdn.example.com/c.jpg", "kind": "feed"}}
+    stored_without = {"brand": "gemini", "category": "products",
+                      "image": {"url": "images/ai-brands/gemini-character.webp", "kind": "brand", "alt": "x"},
+                      "sourceImage": None}
+    plain = {"brand": None, "category": "research", "image": {"url": "https://cdn.example.com/p.jpg", "kind": "feed"}}
+    pool = [stored_with_photo, stored_without, plain]
+    ImageStep(brand_art=False)([], pool, {}, now)
+    assert stored_with_photo["image"] == {"url": "https://cdn.example.com/c.jpg", "kind": "feed"}
+    assert stored_without["image"] == {"url": "images/fallbacks/products.svg", "kind": "fallback"}
+    assert all("sourceImage" not in a for a in pool)
+    assert plain["image"]["kind"] == "feed"
+
+    # Turning it back on brings the art back and keeps the genuine image alongside.
+    ImageStep(brand_art=True)([], pool, {}, now)
+    assert stored_with_photo["image"]["kind"] == "brand"
+    assert stored_with_photo["sourceImage"]["url"] == "https://cdn.example.com/c.jpg"
+    assert stored_without["image"]["kind"] == "brand" and stored_without["sourceImage"] is None
+    assert plain["image"]["kind"] == "feed" and "sourceImage" not in plain

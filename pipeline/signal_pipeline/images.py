@@ -1,6 +1,7 @@
 """Chooses a genuine image for each new story (feed media → inline img → allowlisted og:image),
-or the fixed brand artwork when the story is primarily about Claude, OpenAI or Gemini.
-Images are referenced by URL only; nothing is downloaded into the repository. No image generation."""
+or, when `config.BRAND_ART_ENABLED` is on, the fixed brand artwork for stories primarily about
+Claude, OpenAI or Gemini. Images are referenced by URL only; nothing is downloaded into the
+repository. No image generation."""
 from __future__ import annotations
 
 import re
@@ -8,6 +9,7 @@ from html.parser import HTMLParser
 from typing import Any
 from urllib.parse import urljoin, urlsplit
 
+from . import config
 from .brands import BRAND_ART, BRAND_LABEL, primary_brand
 from .fetch import Fetcher
 from .sources import Source
@@ -113,9 +115,30 @@ def og_image(article_url: str, fetcher: Fetcher) -> dict[str, Any] | None:
     return {"url": url, "alt": (p.meta.get("og:image:alt") or p.meta.get("twitter:image:alt") or "")[:200]}
 
 
+def fallback_image(a: dict[str, Any]) -> dict[str, Any]:
+    return {"url": f"images/fallbacks/{a['category']}.svg", "kind": "fallback"}
+
+
+def brand_image(brand: str) -> dict[str, Any]:
+    return {"url": BRAND_ART[brand], "kind": "brand", "alt": f"{BRAND_LABEL[brand]} — unofficial editorial character illustration"}
+
+
+def apply_brand_art(a: dict[str, Any], enabled: bool) -> None:
+    """Puts a stored story's image in line with the brand-art setting, keeping the genuine image."""
+    img = a.get("image") or {}
+    if enabled and a.get("brand") in BRAND_ART:
+        if img.get("kind") != "brand":
+            a["sourceImage"] = img if img.get("kind") in ("feed", "og") else None
+            a["image"] = brand_image(a["brand"])
+    elif img.get("kind") == "brand":
+        a["image"] = a.get("sourceImage") or fallback_image(a)
+        a.pop("sourceImage", None)
+
+
 class ImageStep:
-    def __init__(self, og_enabled: bool = True) -> None:
+    def __init__(self, og_enabled: bool = True, brand_art: bool | None = None) -> None:
         self.og_enabled = og_enabled
+        self.brand_art = config.BRAND_ART_ENABLED if brand_art is None else brand_art
         self.fetcher: Fetcher | None = None
         self.og_used: dict[str, int] = {}
 
@@ -143,18 +166,14 @@ class ImageStep:
                 return {**img, "kind": "og", "sourceUrl": a["url"]}
         return None
 
-    def __call__(self, new: list[dict[str, Any]], _pool: list[dict[str, Any]], sources: dict[str, Source], _now: Any) -> None:
+    def __call__(self, new: list[dict[str, Any]], pool: list[dict[str, Any]], sources: dict[str, Source], _now: Any) -> None:
         for a in new:
             src = sources[a["sourceId"]]
             found = self._source_image(a, src)
             if found is not None:
                 found = {k: v for k, v in found.items() if v not in ("", None)}
-            brand = primary_brand(a["title"], src)
-            a["brand"] = brand
-            if brand:
-                a["image"] = {"url": BRAND_ART[brand], "kind": "brand", "alt": f"{BRAND_LABEL[brand]} — unofficial editorial character illustration"}
-                a["sourceImage"] = found
-            elif found:
-                a["image"] = found
-            else:
-                a["image"] = {"url": f"images/fallbacks/{a['category']}.svg", "kind": "fallback"}
+            a["brand"] = primary_brand(a["title"], src)
+            a["image"] = found or fallback_image(a)
+            apply_brand_art(a, self.brand_art)
+        for a in pool:  # stored stories follow a change of the setting (idempotent otherwise)
+            apply_brand_art(a, self.brand_art)

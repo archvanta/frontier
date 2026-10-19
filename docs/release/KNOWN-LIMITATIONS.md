@@ -22,7 +22,7 @@ Honest list of what SIGNAL AI does not do, or does only partly. Keep it current.
 
 ## Images
 - Publisher images are hot-linked, not copied, so they can disappear or be blocked; the card then falls back to the category graphic.
-- Stories mainly about Claude/Anthropic, OpenAI or Gemini use fixed, unofficial editorial character illustrations, labelled as such. Brand detection is headline-based and deliberately strict, so some brand stories show a normal image instead.
+- The Claude/OpenAI/Gemini character illustrations are switched off (`BRAND_ART_ENABLED = False`), so those stories show their own publisher image, or the category graphic when the feed has none. Turning the setting back on restores the art on stored stories at the next collector run.
 
 ## Site
 - Hash-based URLs (`#/story/...`) are used because GitHub Pages has no server-side routing.
