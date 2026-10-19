@@ -1,9 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="POLICY category artwork">
-<defs><radialGradient id="g" cx="78%" cy="40%" r="70%"><stop offset="0" stop-color="#1f2a12"/><stop offset="1" stop-color="#0d0f0e"/></radialGradient></defs>
-<rect width="640" height="360" fill="url(#g)"/>
-<g stroke="#efeadf" stroke-opacity=".06" stroke-width="1"><path d="M0 0V360"/><path d="M40 0V360"/><path d="M80 0V360"/><path d="M120 0V360"/><path d="M160 0V360"/><path d="M200 0V360"/><path d="M240 0V360"/><path d="M280 0V360"/><path d="M320 0V360"/><path d="M360 0V360"/><path d="M400 0V360"/><path d="M440 0V360"/><path d="M480 0V360"/><path d="M520 0V360"/><path d="M560 0V360"/><path d="M600 0V360"/><path d="M640 0V360"/><path d="M0 0H640"/><path d="M0 40H640"/><path d="M0 80H640"/><path d="M0 120H640"/><path d="M0 160H640"/><path d="M0 200H640"/><path d="M0 240H640"/><path d="M0 280H640"/><path d="M0 320H640"/><path d="M0 360H640"/></g>
-<g transform="translate(390 70) scale(1.1)" fill="none" stroke="#c6ff3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M100 20L170 50V100C170 140 140 168 100 182C60 168 30 140 30 100V50Z"/><path d="M70 100L92 122L132 78"/></g>
-<rect x="32" y="32" width="10" height="10" fill="#c6ff3d"/>
-<text x="52" y="42" fill="#efeadf" fill-opacity=".7" font-family="ui-monospace,Menlo,monospace" font-size="13" letter-spacing="2">SIGNAL AI / CATEGORY</text>
-<text x="32" y="318" fill="#efeadf" font-family="Space Grotesk,Inter,system-ui,sans-serif" font-weight="700" font-size="46" letter-spacing="-1">POLICY</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a1c"/><stop offset=".6" stop-color="#0b0e26"/><stop offset="1" stop-color="#120e33"/></linearGradient>
+<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="#8a5cff" stop-opacity=".62"/><stop offset="1" stop-color="#8a5cff" stop-opacity="0"/></radialGradient>
+<radialGradient id="gb" cx="22%" cy="88%" r="46%"><stop offset="0" stop-color="#3a6bff" stop-opacity=".32"/><stop offset="1" stop-color="#3a6bff" stop-opacity="0"/></radialGradient>
+<radialGradient id="fade" cx="50%" cy="45%" r="62%"><stop offset=".35" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="m"><rect width="640" height="360" fill="url(#fade)"/></mask>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#3a6bff" stop-opacity=".45"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="360" fill="url(#bg)"/>
+<rect width="640" height="360" fill="url(#ga)"/>
+<rect width="640" height="360" fill="url(#gb)"/>
+<g stroke="#b0beff" stroke-opacity=".07" stroke-width="1" mask="url(#m)"><path d="M0 0V360"/><path d="M32 0V360"/><path d="M64 0V360"/><path d="M96 0V360"/><path d="M128 0V360"/><path d="M160 0V360"/><path d="M192 0V360"/><path d="M224 0V360"/><path d="M256 0V360"/><path d="M288 0V360"/><path d="M320 0V360"/><path d="M352 0V360"/><path d="M384 0V360"/><path d="M416 0V360"/><path d="M448 0V360"/><path d="M480 0V360"/><path d="M512 0V360"/><path d="M544 0V360"/><path d="M576 0V360"/><path d="M608 0V360"/><path d="M640 0V360"/><path d="M0 0H640"/><path d="M0 32H640"/><path d="M0 64H640"/><path d="M0 96H640"/><path d="M0 128H640"/><path d="M0 160H640"/><path d="M0 192H640"/><path d="M0 224H640"/><path d="M0 256H640"/><path d="M0 288H640"/><path d="M0 320H640"/><path d="M0 352H640"/></g>
+<circle cx="420" cy="150" r="118" fill="none" stroke="#fff" stroke-opacity=".06"/>
+<circle cx="420" cy="150" r="160" fill="none" stroke="#fff" stroke-opacity=".035"/>
+<rect x="335" y="65" width="170" height="170" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
+<g transform="translate(375 105) scale(.45)" fill="none" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><path d="M100 20L170 50V100C170 140 140 168 100 182C60 168 30 140 30 100V50Z"/><path d="M70 100L92 122L132 78"/></g>
+<g fill="#c6ff3d"><rect x="32" y="34" width="3" height="8" rx="1.5"/><rect x="38" y="30" width="3" height="16" rx="1.5"/><rect x="44" y="27" width="3" height="22" rx="1.5"/><rect x="50" y="31" width="3" height="14" rx="1.5"/><rect x="56" y="35" width="3" height="6" rx="1.5"/></g>
+<text x="68" y="43" fill="#f2f4fb" fill-opacity=".6" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3">SIGNAL AI · POLICY</text>
 </svg>

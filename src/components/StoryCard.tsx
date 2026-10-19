@@ -7,9 +7,20 @@ import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { StoryImage } from './StoryImage';
 
+/**
+ * Editorial variants, each with its own image ratio and type size:
+ * - feature: image-led lead story, copy set over the photo (Top Signals #1)
+ * - split:   secondary story, copy beside a wide image (Top Signals #2–3)
+ * - lead:    first story of a day, large horizontal composition
+ * - grid:    standard card, 3:2 image on top
+ * - list:    structured feed row with a small thumbnail
+ * - row:     text-only ranked row
+ */
+export type StoryVariant = 'feature' | 'split' | 'lead' | 'grid' | 'list' | 'row';
+
 interface Props {
   article: Article;
-  variant?: 'grid' | 'feature' | 'row';
+  variant?: StoryVariant;
   /** Show only the time (inside a day section) instead of the full date. */
   timeOnly?: boolean;
   rank?: number;
@@ -35,6 +46,18 @@ export function BookmarkButton({ article }: { article: Article }) {
   );
 }
 
+/** Small first-letter mark next to a source name (no third-party favicons are fetched). */
+export function SourceMark({ name }: { name: string }) {
+  const letter = Array.from(name.replace(/^the\s+/i, '').trim())[0] ?? '·';
+  return (
+    <span className="src-mark" aria-hidden="true">
+      {letter.toUpperCase()}
+    </span>
+  );
+}
+
+const WITH_EXCERPT: StoryVariant[] = ['feature', 'split', 'lead', 'grid', 'list'];
+
 export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3 }: Props) {
   const { t, locale } = useI18n();
   const title = displayTitle(article, locale);
@@ -43,38 +66,55 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
   const H = `h${headingLevel}` as const;
   const when = timeOnly ? formatTime(article.publishedAt, locale) : formatDateTime(article.publishedAt, locale);
   const link = href(storyPath(article));
+  const rankLabel = rank !== undefined ? String(rank).padStart(2, '0') : null;
+  // Dense list rows carry the category as quiet text; every other variant uses the chip.
+  const chip = (
+    <a className={variant === 'list' ? 'kicker-cat' : 'chip'} href={href('/explore', { c: article.category })}>
+      {categoryLabel(locale, article.category)}
+    </a>
+  );
 
   return (
     <article className={`story-card is-${variant}`} data-testid="story-card" data-id={article.id}>
       {variant !== 'row' && (
-        <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
-          <StoryImage article={article} eager={eagerImage} />
-        </a>
+        <div className="story-media-wrap">
+          <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
+            <StoryImage article={article} eager={eagerImage} />
+          </a>
+          {variant === 'grid' && <div className="story-media-chip">{chip}</div>}
+        </div>
       )}
       <div className="story-body">
         <div className="story-kicker">
-          {rank !== undefined && <span className="rank">{String(rank).padStart(2, '0')}</span>}
-          <a className="chip" href={href('/explore', { c: article.category })}>
-            {categoryLabel(locale, article.category)}
-          </a>
-          <span className="kicker-source">{article.sourceName}</span>
+          {rankLabel && (
+            <span className="rank">
+              <span className="visually-hidden">{t('pick_rank')} </span>
+              {rankLabel}
+            </span>
+          )}
+          {variant !== 'grid' && chip}
+          <span className="kicker-source">
+            <SourceMark name={article.sourceName} />
+            {article.sourceName}
+          </span>
         </div>
         <H className="story-title" lang={title.lang} dir="auto">
           <a href={link}>{title.text}</a>
         </H>
         {title.translated && <span className="mt-label">{t('translation_machine')}</span>}
-        {variant !== 'row' && excerpt.text && (
+        {WITH_EXCERPT.includes(variant) && excerpt.text && (
           <p className="story-excerpt" lang={excerpt.lang} dir="auto">
             {excerpt.text}
           </p>
         )}
         <div className="story-meta">
           <time dateTime={article.publishedAt} title={article.dateEstimated ? t('date_estimated') : `${t('published')}: ${formatDateTime(article.publishedAt, locale)}`}>
+            <Icon name="clock" size={13} />
             {when}
             {article.dateEstimated && <span aria-hidden="true">*</span>}
           </time>
           {article.score && (
-            <span className="score-pill" title={t('score')} aria-label={`${t('score')} ${article.score.total}`}>
+            <span className="score-pill" title={t('score')} aria-label={`${t('score')} ${Math.round(article.score.total)}`}>
               <span className="score-bar" style={{ inlineSize: `${Math.max(4, article.score.total)}%` }} />
               {Math.round(article.score.total)}
             </span>

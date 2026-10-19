@@ -1,5 +1,7 @@
 """Generates the category fallback artwork in public/images/fallbacks/ (abstract, no photos).
 
+Navy/violet lighting with a small glass tile and the category glyph in lime, matching the site design.
+
 Run: python3 scripts/make_fallbacks.py
 """
 from pathlib import Path
@@ -24,18 +26,45 @@ LABELS = {
 }
 
 
+# Per-category lighting: (primary glow, secondary glow) from the site's violet / blue / cyan palette.
+LIGHT = {
+    "models": ("#7c5cff", "#33d6ff"),
+    "research": ("#3a6bff", "#7c5cff"),
+    "products": ("#33d6ff", "#3a6bff"),
+    "business": ("#5b6bff", "#33d6ff"),
+    "policy": ("#8a5cff", "#3a6bff"),
+    "open-source": ("#2fb8ff", "#7c5cff"),
+    "hardware": ("#6a4dff", "#2fd0e0"),
+    "safety": ("#4a5cff", "#9a6bff"),
+}
+
+
 def svg(cat: str) -> str:
-    grid = "".join(f'<path d="M{x} 0V360"/>' for x in range(0, 641, 40)) + "".join(
-        f'<path d="M0 {y}H640"/>' for y in range(0, 361, 40)
+    a, b = LIGHT[cat]
+    grid = "".join(f'<path d="M{x} 0V360"/>' for x in range(0, 641, 32)) + "".join(
+        f'<path d="M0 {y}H640"/>' for y in range(0, 361, 32)
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="{LABELS[cat]} category artwork">
-<defs><radialGradient id="g" cx="78%" cy="40%" r="70%"><stop offset="0" stop-color="#1f2a12"/><stop offset="1" stop-color="#0d0f0e"/></radialGradient></defs>
-<rect width="640" height="360" fill="url(#g)"/>
-<g stroke="#efeadf" stroke-opacity=".06" stroke-width="1">{grid}</g>
-<g transform="translate(390 70) scale(1.1)" fill="none" stroke="#c6ff3d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">{GLYPHS[cat]}</g>
-<rect x="32" y="32" width="10" height="10" fill="#c6ff3d"/>
-<text x="52" y="42" fill="#efeadf" fill-opacity=".7" font-family="ui-monospace,Menlo,monospace" font-size="13" letter-spacing="2">SIGNAL AI / CATEGORY</text>
-<text x="32" y="318" fill="#efeadf" font-family="Space Grotesk,Inter,system-ui,sans-serif" font-weight="700" font-size="46" letter-spacing="-1">{LABELS[cat]}</text>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a1c"/><stop offset=".6" stop-color="#0b0e26"/><stop offset="1" stop-color="#120e33"/></linearGradient>
+<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="{a}" stop-opacity=".62"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></radialGradient>
+<radialGradient id="gb" cx="22%" cy="88%" r="46%"><stop offset="0" stop-color="{b}" stop-opacity=".32"/><stop offset="1" stop-color="{b}" stop-opacity="0"/></radialGradient>
+<radialGradient id="fade" cx="50%" cy="45%" r="62%"><stop offset=".35" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="m"><rect width="640" height="360" fill="url(#fade)"/></mask>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="{b}" stop-opacity=".45"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="640" height="360" fill="url(#bg)"/>
+<rect width="640" height="360" fill="url(#ga)"/>
+<rect width="640" height="360" fill="url(#gb)"/>
+<g stroke="#b0beff" stroke-opacity=".07" stroke-width="1" mask="url(#m)">{grid}</g>
+<circle cx="420" cy="150" r="118" fill="none" stroke="#fff" stroke-opacity=".06"/>
+<circle cx="420" cy="150" r="160" fill="none" stroke="#fff" stroke-opacity=".035"/>
+<rect x="335" y="65" width="170" height="170" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
+<g transform="translate(375 105) scale(.45)" fill="none" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">{GLYPHS[cat]}</g>
+<g fill="#c6ff3d"><rect x="32" y="34" width="3" height="8" rx="1.5"/><rect x="38" y="30" width="3" height="16" rx="1.5"/><rect x="44" y="27" width="3" height="22" rx="1.5"/><rect x="50" y="31" width="3" height="14" rx="1.5"/><rect x="56" y="35" width="3" height="6" rx="1.5"/></g>
+<text x="68" y="43" fill="#f2f4fb" fill-opacity=".6" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3">SIGNAL AI · {LABELS[cat]}</text>
 </svg>
 """
 

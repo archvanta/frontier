@@ -57,7 +57,7 @@ export function ExplorePage({ params }: { params: URLSearchParams }) {
         <p className="eyebrow">{t('nav_search')}</p>
         <h1 className="page-title">{filters.c ? categoryLabel(locale, filters.c) : t('explore_title')}</h1>
         <form
-          className="filters"
+          className="filters glass"
           role="search"
           onSubmit={(ev) => {
             ev.preventDefault();

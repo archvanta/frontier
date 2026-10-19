@@ -1,35 +1,55 @@
 /* SIGNAL AI design tokens. See docs/DESIGN-SYSTEM.md. */
 :root {
-  /* Surfaces: near-black layers */
-  --bg: #0a0b0a;
-  --surface-1: #111312;
-  --surface-2: #171a18;
-  --surface-3: #1f2320;
-  --line: rgba(239, 234, 223, 0.1);
-  --line-strong: rgba(239, 234, 223, 0.2);
+  /* Foundations: deep black and midnight navy */
+  --bg: #04050b;
+  --bg-navy: #070a1a;
+  --surface-1: #0a0e1d;
+  --surface-2: #0f1427;
+  --surface-3: #171d35;
+  --line: rgba(176, 190, 255, 0.1);
+  --line-strong: rgba(176, 190, 255, 0.18);
 
-  /* Text */
-  --text: #efeadf;
-  --text-2: #b9b5ab;
-  --text-3: #8a877f;
-  --text-inverse: #0a0b0a;
+  /* Text (all ≥ 4.5:1 on --surface-1) */
+  --text: #f2f4fb;
+  --text-2: #b4bad0;
+  --text-3: #8d94ad;
+  --text-inverse: #05060c;
 
-  /* Signature accent — acid lime, used with restraint */
+  /* Signature accent: acid lime, reserved for signals, active states and the main call to action */
   --accent: #c6ff3d;
-  --accent-dim: rgba(198, 255, 61, 0.14);
-  --accent-ink: #0a0b0a;
+  --accent-soft: rgba(198, 255, 61, 0.12);
+  --accent-line: rgba(198, 255, 61, 0.45);
+  --accent-glow: rgba(198, 255, 61, 0.38);
+  --accent-ink: #07090f;
+  /* kept for older selectors */
+  --accent-dim: var(--accent-soft);
+
+  /* Lighting accents (gradients and glows only, never body text) */
+  --violet: #7c5cff;
+  --blue: #3a6bff;
+  --cyan: #33d6ff;
+  --teal: #3dd6c6;
 
   /* Supporting signal colours */
   --warn: #ffb347;
   --danger: #ff6b5b;
   --ok: #7ee787;
-  --violet: #8b7bff;
-  --teal: #3dd6c6;
 
   /* Brand art tints (frames around the character art only) */
   --brand-claude: #d97842;
   --brand-openai: #8fd3b0;
   --brand-gemini: #8b7bff;
+
+  /* Liquid glass: reserved for navigation, search/filters, picks controls and floating utilities */
+  --glass-bg: rgba(16, 20, 40, 0.58);
+  --glass-bg-strong: rgba(11, 14, 30, 0.82);
+  --glass-fallback: #0d1226;
+  --glass-border: rgba(255, 255, 255, 0.11);
+  --glass-sheen: linear-gradient(180deg, rgba(255, 255, 255, 0.085), rgba(255, 255, 255, 0.015) 55%, rgba(255, 255, 255, 0.03));
+  --glass-edge: linear-gradient(140deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.06) 32%, rgba(255, 255, 255, 0) 60%, rgba(150, 170, 255, 0.28));
+  --glass-blur: blur(20px) saturate(165%);
+  --glass-blur-soft: blur(12px) saturate(150%);
+  --shadow-glass: inset 0 1px 0 rgba(255, 255, 255, 0.09), inset 0 -1px 0 rgba(0, 0, 0, 0.35), 0 22px 48px -24px rgba(0, 0, 0, 0.85), 0 2px 10px rgba(0, 0, 0, 0.25);
 
   /* Type */
   --font-display: 'Space Grotesk Variable', 'Vazirmatn Variable', system-ui, sans-serif;
@@ -42,8 +62,9 @@
   --fs-md: 1rem;
   --fs-lg: 1.125rem;
   --fs-xl: 1.375rem;
-  --fs-2xl: clamp(1.5rem, 1.1rem + 1.4vw, 2.125rem);
-  --fs-3xl: clamp(2rem, 1.2rem + 2.8vw, 3.5rem);
+  --fs-2xl: clamp(1.5rem, 1.1rem + 1.2vw, 2rem);
+  --fs-3xl: clamp(2rem, 1.2rem + 2.6vw, 3.25rem);
+  --fs-hero: clamp(2rem, 0.9rem + 2.6vw, 3.4rem);
 
   /* Space (4px base) */
   --s-1: 0.25rem;
@@ -54,23 +75,29 @@
   --s-6: 2rem;
   --s-7: 3rem;
   --s-8: 4rem;
+  --section-gap: clamp(3rem, 1.75rem + 3vw, 4.75rem);
 
-  --radius-sm: 4px;
-  --radius: 8px;
-  --radius-lg: 14px;
+  --radius-sm: 6px;
+  --radius: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
   --container: 1320px;
   --gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
   --header-h: 64px;
+  --header-top: 12px;
 
-  --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 10px 30px -18px rgba(0, 0, 0, 0.9);
+  --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 18px 40px -24px rgba(0, 0, 0, 0.9);
+  --shadow-lift: 0 26px 50px -28px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(176, 190, 255, 0.16);
   --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
 
   --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
   --dur: 220ms;
+  --dur-slow: 700ms;
 }
 
 @media (prefers-reduced-motion: reduce) {
   :root {
     --dur: 0ms;
+    --dur-slow: 0ms;
   }
 }

@@ -19,7 +19,7 @@ export function PicksPage({ window: w }: { window: PickWindow }) {
       <header className="page-head">
         <p className="eyebrow">{t('nav_picks')}</p>
         <h1 className="page-title">{pickWindowLabel(locale, w)}</h1>
-        <nav className="tabs is-links" aria-label={t('picks_window')}>
+        <nav className="tabs is-links glass-control" aria-label={t('picks_window')}>
           {(['daily', 'weekly', 'monthly'] as const).map((x) => (
             <a key={x} className="tab" href={href(`/picks/${x}`)} aria-current={x === w ? 'page' : undefined}>
               {pickWindowLabel(locale, x)}

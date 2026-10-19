@@ -9,8 +9,8 @@ export function SignalStatus({ meta, todayCount }: { meta: Meta | null; todayCou
   const { t, locale } = useI18n();
   const n = (v: number | null | undefined) => (v === null || v === undefined ? '—' : formatNumber(v, locale));
   return (
-    <aside className="signal-status" aria-label="SIGNAL status">
-      <p className="status-label">SIGNAL / STATUS</p>
+    <section className="signal-status" aria-label={t('signal_status')}>
+      <p className="status-label">{t('signal_status')}</p>
       <dl className="status-grid">
         <div>
           <dt>{t('today')}</dt>
@@ -45,6 +45,6 @@ export function SignalStatus({ meta, todayCount }: { meta: Meta | null; todayCou
           </a>
         ))}
       </div>
-    </aside>
+    </section>
   );
 }
