@@ -1,0 +1,333 @@
+# SIGNAL AI source registry.
+# A source is only reported as verified after a real pipeline run fetched and parsed it
+# (see public/data/sources.json → verifiedOn). Do not mark verification by hand.
+#
+# Fields
+#   id, name, homepage, feed       identity and feed URL (RSS or Atom)
+#   kind      official | research | media | community
+#   tier      1 primary/official · 2 major reputable media · 3 specialist outlet · 4 community/mirror
+#   owner     corporate group, so sister outlets don't count as independent corroboration
+#   lang      source language
+#   category  default category when keyword rules don't decide
+#   filter    ai = keep only items that look AI-related (general feeds); none = keep all
+#   brand     official channel of a brand → its stories map to that brand's artwork (see brands.py)
+#   og_image  allow fetching og:image from article pages on og_hosts when the feed has no image
+#   max_items cap per run
+#   notes     terms / caveats
+
+sources:
+  # ---------- Official labs & companies ----------
+  - id: openai-news
+    name: OpenAI News
+    homepage: https://openai.com/news/
+    feed: https://openai.com/news/rss.xml
+    kind: official
+    tier: 1
+    owner: openai
+    lang: en
+    category: models
+    filter: none
+    brand: openai
+    og_image: false
+    notes: Official RSS feed offered by OpenAI for its newsroom.
+
+  - id: anthropic-news
+    name: Anthropic News (community mirror)
+    homepage: https://www.anthropic.com/news
+    feed: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    kind: community
+    tier: 2
+    owner: anthropic
+    lang: en
+    category: models
+    filter: none
+    brand: claude
+    og_image: true
+    og_hosts: [www.anthropic.com]
+    notes: Anthropic publishes no official RSS. This is an open-source community feed (github.com/Olshansk/rss-feeds) generated from anthropic.com/news; links point to anthropic.com. Treated as tier 2 because it is a mirror, not the publisher.
+
+  - id: google-ai-blog
+    name: Google — The Keyword (AI)
+    homepage: https://blog.google/technology/ai/
+    feed: https://blog.google/technology/ai/rss/
+    kind: official
+    tier: 1
+    owner: google
+    lang: en
+    category: products
+    filter: none
+    og_image: false
+    notes: Official Google blog AI section feed.
+
+  - id: google-deepmind
+    name: Google DeepMind Blog
+    homepage: https://deepmind.google/discover/blog/
+    feed: https://deepmind.google/blog/rss.xml
+    kind: official
+    tier: 1
+    owner: google
+    lang: en
+    category: research
+    filter: none
+    og_image: false
+    notes: Official DeepMind blog feed.
+
+  - id: google-research
+    name: Google Research Blog
+    homepage: https://research.google/blog/
+    feed: https://research.google/blog/rss/
+    kind: research
+    tier: 1
+    owner: google
+    lang: en
+    category: research
+    filter: none
+    og_image: false
+    notes: Official Google Research feed.
+
+  - id: microsoft-ai
+    name: Microsoft AI Blog
+    homepage: https://blogs.microsoft.com/ai/
+    feed: https://blogs.microsoft.com/ai/feed/
+    kind: official
+    tier: 1
+    owner: microsoft
+    lang: en
+    category: products
+    filter: none
+    og_image: false
+    notes: Official Microsoft blog AI category feed.
+
+  - id: nvidia-blog
+    name: NVIDIA Blog
+    homepage: https://blogs.nvidia.com/
+    feed: https://blogs.nvidia.com/feed/
+    kind: official
+    tier: 1
+    owner: nvidia
+    lang: en
+    category: hardware
+    filter: ai
+    max_items: 15
+    og_image: false
+    notes: Official NVIDIA blog; general feed filtered to AI items.
+
+  - id: aws-ml
+    name: AWS Machine Learning Blog
+    homepage: https://aws.amazon.com/blogs/machine-learning/
+    feed: https://aws.amazon.com/blogs/machine-learning/feed/
+    kind: official
+    tier: 1
+    owner: amazon
+    lang: en
+    category: products
+    filter: none
+    max_items: 10
+    og_image: false
+    notes: Official AWS ML blog feed (high volume, capped).
+
+  - id: huggingface-blog
+    name: Hugging Face Blog
+    homepage: https://huggingface.co/blog
+    feed: https://huggingface.co/blog/feed.xml
+    kind: official
+    tier: 1
+    owner: huggingface
+    lang: en
+    category: open-source
+    filter: none
+    og_image: true
+    og_hosts: [huggingface.co]
+    notes: Official Hugging Face blog feed.
+
+  - id: github-blog-ai
+    name: GitHub Blog — AI & ML
+    homepage: https://github.blog/ai-and-ml/
+    feed: https://github.blog/ai-and-ml/feed/
+    kind: official
+    tier: 1
+    owner: microsoft
+    lang: en
+    category: products
+    filter: none
+    max_items: 10
+    og_image: false
+    notes: Official GitHub blog category feed.
+
+  # ---------- Research ----------
+  - id: bair
+    name: Berkeley AI Research (BAIR) Blog
+    homepage: https://bair.berkeley.edu/blog/
+    feed: https://bair.berkeley.edu/blog/feed.xml
+    kind: research
+    tier: 1
+    owner: berkeley
+    lang: en
+    category: research
+    filter: none
+    og_image: false
+    notes: Academic lab blog.
+
+  - id: mit-news-ai
+    name: MIT News — Artificial intelligence
+    homepage: https://news.mit.edu/topic/artificial-intelligence2
+    feed: https://news.mit.edu/rss/topic/artificial-intelligence2
+    kind: research
+    tier: 1
+    owner: mit
+    lang: en
+    category: research
+    filter: none
+    max_items: 10
+    og_image: false
+    notes: Official MIT News topic feed.
+
+  - id: arxiv-cs-ai
+    name: arXiv cs.AI (new submissions)
+    homepage: https://arxiv.org/list/cs.AI/recent
+    feed: https://rss.arxiv.org/rss/cs.AI
+    kind: research
+    tier: 3
+    owner: arxiv
+    lang: en
+    category: research
+    filter: none
+    max_items: 5
+    og_image: false
+    notes: Preprints, not peer reviewed; capped to 5 per run so papers don't flood the news feed. arXiv asks bots to poll RSS at most a few times a day — hourly polling of one feed is within its published RSS guidance.
+
+  # ---------- Media ----------
+  - id: techcrunch-ai
+    name: TechCrunch AI
+    homepage: https://techcrunch.com/category/artificial-intelligence/
+    feed: https://techcrunch.com/category/artificial-intelligence/feed/
+    kind: media
+    tier: 2
+    owner: yahoo
+    lang: en
+    category: business
+    filter: none
+    og_image: false
+    notes: Category RSS feed; headlines + short summary only.
+
+  - id: verge-ai
+    name: The Verge — AI
+    homepage: https://www.theverge.com/ai-artificial-intelligence
+    feed: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    kind: media
+    tier: 2
+    owner: vox-media
+    lang: en
+    category: products
+    filter: none
+    og_image: false
+    notes: Atom feed; summaries only are stored.
+
+  - id: ars-ai
+    name: Ars Technica — AI
+    homepage: https://arstechnica.com/ai/
+    feed: https://arstechnica.com/ai/feed/
+    kind: media
+    tier: 2
+    owner: conde-nast
+    lang: en
+    category: research
+    filter: none
+    og_image: false
+    notes: Category RSS feed.
+
+  - id: wired-ai
+    name: WIRED — AI
+    homepage: https://www.wired.com/tag/ai/
+    feed: https://www.wired.com/feed/tag/ai/latest/rss
+    kind: media
+    tier: 2
+    owner: conde-nast
+    lang: en
+    category: business
+    filter: none
+    og_image: false
+    notes: Tag RSS feed.
+
+  - id: mit-tech-review-ai
+    name: MIT Technology Review — AI
+    homepage: https://www.technologyreview.com/topic/artificial-intelligence/
+    feed: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    kind: media
+    tier: 2
+    owner: mit-technology-review
+    lang: en
+    category: research
+    filter: none
+    og_image: false
+    notes: Topic RSS feed.
+
+  - id: venturebeat-ai
+    name: VentureBeat AI
+    homepage: https://venturebeat.com/category/ai/
+    feed: https://venturebeat.com/category/ai/feed/
+    kind: media
+    tier: 3
+    owner: venturebeat
+    lang: en
+    category: business
+    filter: none
+    max_items: 15
+    og_image: false
+    notes: Category RSS feed.
+
+  - id: guardian-ai
+    name: The Guardian — Artificial intelligence
+    homepage: https://www.theguardian.com/technology/artificialintelligence
+    feed: https://www.theguardian.com/technology/artificialintelligence/rss
+    kind: media
+    tier: 2
+    owner: guardian
+    lang: en
+    category: policy
+    filter: none
+    max_items: 15
+    og_image: false
+    notes: Topic RSS feed; Guardian terms allow feed headline/summary display with links.
+
+  - id: the-decoder
+    name: The Decoder
+    homepage: https://the-decoder.com/
+    feed: https://the-decoder.com/feed/
+    kind: media
+    tier: 3
+    owner: the-decoder
+    lang: en
+    category: models
+    filter: none
+    max_items: 15
+    og_image: false
+    notes: AI-specialist outlet.
+
+  - id: ai-news
+    name: AI News (TechForge)
+    homepage: https://www.artificialintelligence-news.com/
+    feed: https://www.artificialintelligence-news.com/feed/
+    kind: media
+    tier: 3
+    owner: techforge
+    lang: en
+    category: business
+    filter: none
+    max_items: 10
+    og_image: false
+    notes: AI trade publication.
+
+  - id: simon-willison
+    name: Simon Willison's Weblog
+    homepage: https://simonwillison.net/
+    feed: https://simonwillison.net/atom/entries/
+    kind: community
+    tier: 3
+    owner: simon-willison
+    lang: en
+    category: products
+    filter: ai
+    max_items: 10
+    og_image: false
+    notes: Independent practitioner blog widely cited on LLM tooling; long-form entries feed, AI-filtered.

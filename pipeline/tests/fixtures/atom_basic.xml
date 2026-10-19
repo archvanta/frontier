@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TEST FIXTURE — synthetic feed, not real news. -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Fixture Wire</title>
+  <id>urn:fixture:wire</id>
+  <updated>2026-10-19T10:00:00Z</updated>
+  <entry>
+    <title>Nova-3 reasoning model from Fixture Lab arrives with open weights</title>
+    <link rel="alternate" href="https://wire.example.org/2026/10/19/nova-3-open-weights/"/>
+    <id>urn:fixture:wire:1</id>
+    <updated>2026-10-19T10:00:00+02:00</updated>
+    <summary type="html">&lt;p&gt;Independent coverage of the Nova-3 release.&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>Regulators publish draft rules for AI audits</title>
+    <link rel="alternate" href="https://wire.example.org/2026/10/18/ai-audit-rules"/>
+    <id>urn:fixture:wire:2</id>
+    <published>2026-10-18T16:45:00Z</published>
+    <updated>2026-10-18T18:00:00Z</updated>
+    <summary>Draft regulation would require audits for general-purpose AI.</summary>
+  </entry>
+  <entry>
+    <title>OpenAI ships new ChatGPT voice feature</title>
+    <link rel="alternate" href="https://wire.example.org/2026/10/19/openai-voice"/>
+    <id>urn:fixture:wire:3</id>
+    <published>2026-10-19T08:00:00Z</published>
+    <summary>Voice mode gets an update.</summary>
+  </entry>
+</feed>

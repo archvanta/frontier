@@ -1,0 +1,76 @@
+/* SIGNAL AI design tokens. See docs/DESIGN-SYSTEM.md. */
+:root {
+  /* Surfaces: near-black layers */
+  --bg: #0a0b0a;
+  --surface-1: #111312;
+  --surface-2: #171a18;
+  --surface-3: #1f2320;
+  --line: rgba(239, 234, 223, 0.1);
+  --line-strong: rgba(239, 234, 223, 0.2);
+
+  /* Text */
+  --text: #efeadf;
+  --text-2: #b9b5ab;
+  --text-3: #8a877f;
+  --text-inverse: #0a0b0a;
+
+  /* Signature accent — acid lime, used with restraint */
+  --accent: #c6ff3d;
+  --accent-dim: rgba(198, 255, 61, 0.14);
+  --accent-ink: #0a0b0a;
+
+  /* Supporting signal colours */
+  --warn: #ffb347;
+  --danger: #ff6b5b;
+  --ok: #7ee787;
+  --violet: #8b7bff;
+  --teal: #3dd6c6;
+
+  /* Brand art tints (frames around the character art only) */
+  --brand-claude: #d97842;
+  --brand-openai: #8fd3b0;
+  --brand-gemini: #8b7bff;
+
+  /* Type */
+  --font-display: 'Space Grotesk Variable', 'Vazirmatn Variable', system-ui, sans-serif;
+  --font-body: 'Inter Variable', 'Vazirmatn Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono Variable', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --font-fa: 'Vazirmatn Variable', Tahoma, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: clamp(1.5rem, 1.1rem + 1.4vw, 2.125rem);
+  --fs-3xl: clamp(2rem, 1.2rem + 2.8vw, 3.5rem);
+
+  /* Space (4px base) */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --container: 1320px;
+  --gutter: clamp(1rem, 0.5rem + 2vw, 2rem);
+  --header-h: 64px;
+
+  --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 10px 30px -18px rgba(0, 0, 0, 0.9);
+  --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur: 220ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur: 0ms;
+  }
+}
