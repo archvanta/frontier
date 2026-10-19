@@ -122,6 +122,10 @@ export function buildMockDataset(now: Date): MockDataset {
     };
   });
 
+  for (const a of articles) {
+    a.related = articles.filter((o) => o.eventId === a.eventId && o.id !== a.id).map((o) => o.id);
+  }
+
   const days: Record<string, DayFile> = {};
   for (const a of articles) {
     days[a.day] ??= { schemaVersion: SCHEMA_VERSION, day: a.day, articles: [] };

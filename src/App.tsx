@@ -8,8 +8,14 @@ import { DataProvider } from './lib/dataContext';
 import { useAsync } from './lib/hooks';
 import { useI18n } from './lib/i18n';
 import { href, parseHash, useHash, type Route } from './lib/router';
+import { AboutPage } from './pages/AboutPage';
+import { ArchivePage, DayPage } from './pages/ArchivePage';
+import { ExplorePage } from './pages/ExplorePage';
 import { HomePage } from './pages/HomePage';
 import { PicksPage } from './pages/PicksPage';
+import { SavedPage } from './pages/SavedPage';
+import { SourcesPage } from './pages/SourcesPage';
+import { StoryPage } from './pages/StoryPage';
 
 function useNow(intervalMs = 60_000): Date {
   const [now, setNow] = useState(() => new Date());
@@ -27,6 +33,20 @@ function Page({ route, now, meta }: { route: Route; now: Date; meta: import('./l
       return <HomePage page={route.page} meta={meta} now={now} />;
     case 'picks':
       return <PicksPage window={route.window} />;
+    case 'explore':
+      return <ExplorePage params={route.params} />;
+    case 'archive':
+      return <ArchivePage />;
+    case 'day':
+      return <DayPage day={route.day} />;
+    case 'story':
+      return <StoryPage day={route.day} id={route.id} />;
+    case 'saved':
+      return <SavedPage />;
+    case 'about':
+      return <AboutPage />;
+    case 'sources':
+      return <SourcesPage />;
     default:
       return (
         <div className="page container-narrow">

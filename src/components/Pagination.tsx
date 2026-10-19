@@ -13,10 +13,10 @@ export function pageWindow(page: number, total: number, span = 2): (number | 'â€
   return out;
 }
 
-export function Pagination({ page, total, path = '/' }: { page: number; total: number; path?: string }) {
+export function Pagination({ page, total, path = '/', params }: { page: number; total: number; path?: string; params?: Record<string, string> }) {
   const { t, locale } = useI18n();
   if (total <= 1) return null;
-  const link = (p: number) => href(path, { page: p === 1 ? undefined : p });
+  const link = (p: number) => href(path, { ...params, page: p === 1 ? undefined : p });
   return (
     <nav className="pagination" aria-label={t('pagination')}>
       {page > 1 ? (

@@ -24,11 +24,11 @@ Phases 1–2.
 Unit tests for grouping, pagination, search/filter, bookmarks; Playwright deep-link reload on the built site.
 
 ## Acceptance criteria
-- [ ] Grouping/pagination test-covered on real JSON shape
-- [ ] Search/filters without backend
-- [ ] Deep links survive reload
-- [ ] Polished empty/no-result states
-- [ ] No duplicate cards across pages/filters
+- [x] Grouping/pagination test-covered on real JSON shape
+- [x] Search/filters without backend
+- [x] Deep links survive reload
+- [x] Polished empty/no-result states
+- [x] No duplicate cards across pages/filters
 
 ## Asset dependencies
 —
@@ -45,4 +45,9 @@ Revert phase commit.
 > Read `CLAUDE.md`, `docs/IMPLEMENTATION-STATUS.md`, `docs/phases/MODEL-EFFORT-MATRIX.md` and this file. Verify the previous phase's gate evidence. Implement Phase 3 (News feed, story details, search and archives) only, run the tests listed above, record real evidence below, update the status file, commit and push. Do not claim anything you did not verify.
 
 ## Evidence
-_Pending — filled in when the phase gate runs._
+Run 2026-10-19:
+- `npm run check`: typecheck + lint clean, **31/31 unit tests passed** (new: search tokens/Persian normalisation/filters/date range/dedup/pagination, URL-param sanitising, bookmarks toggle/corrupt storage/remove), build OK.
+- `npx playwright test` on the mock build: **16/16 passed** (new: story deep link survives hard reload and shows Published vs Collected times and a `noopener noreferrer` source link; page 1 = Today+Yesterday and page 2 contains a disjoint set of stories, page survives reload; search + category filter live in the URL with a polished no-results state; bookmarks persist across reload with the local-only note; archive → day page; unknown route → not-found with a way home).
+- Archive policy documented in `src/lib/archive.ts` and `docs/ARCHITECTURE.md` (UTC days; page 1 today+yesterday; 3 older days per page).
+
+Result: **PASS**.

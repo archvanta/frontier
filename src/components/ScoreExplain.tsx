@@ -33,7 +33,7 @@ export function ScoreExplain({ score, weights = DEFAULT_WEIGHTS, compact = false
               <span className="se-track" aria-hidden="true">
                 <span className="se-fill" style={{ inlineSize: `${v}%` }} />
               </span>
-              <span className="se-value">
+              <span className="se-value" dir="ltr">
                 {v} → {(v * w).toFixed(1)}
               </span>
             </li>
