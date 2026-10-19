@@ -1,0 +1,1421 @@
+{
+ "schemaVersion": 1,
+ "asOf": "2026-10-19T19:00:12Z",
+ "weights": {
+  "reliability": 0.3,
+  "corroboration": 0.25,
+  "recency": 0.2,
+  "topic": 0.15,
+  "novelty": 0.1
+ },
+ "windows": {
+  "daily": {
+   "from": "2026-10-18T19:00:12Z",
+   "to": "2026-10-19T19:00:12Z",
+   "halfLifeHours": 12,
+   "picks": [
+    {
+     "article": {
+      "id": "0dbde1ea11534cb3",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:20:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "research",
+       "imaging",
+       "health care",
+       "medical devices",
+       "artificial intelligence",
+       "computer vision"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
+       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "0dbde1ea11534cb3",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.2,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
+        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f73f11092849b85a",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:47:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "github copilot app",
+       "github copilot app for beginners"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f73f11092849b85a",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.8,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه به ادامه یک جلسه برنامه GitHub Copilot در VS Code",
+        "excerpt": "یاد بگیرید که چگونه یک جلسه عامل را از برنامه GitHub Copilot به VS Code بدون از دست دادن گفتگو، تغییرات کد یا زمینه کاری حرکت دهید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c5ffbd108a109045",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "excerpt": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21811-1.png",
+       "alt": "Flow diagram contrasting the standard prefill-to-decode KV path (blue) with the bi-directional additions numbered one through six (red)",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c5ffbd108a109045",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.3,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بهبود TTFT برای کار چند منظوره با انتقال دو طرفه KV در vLLM",
+        "excerpt": "چند نوبت کار عامل تغییر در زمینه مکالمه رو به رشد هر نوبت، رانندگی تاخیر. مشاهده کنید که چگونه انتقال حافظه دو طرفه به قبل از پر کردن و رمزگشایی گره ها قبل از محاسبه متن در سراسر چرخش، برش زمان به توکن اول تا 1.6x برای Qwen3-32B و 3.3x برای GLM-5-FP8 در آمازون EC2 P5en با EFA.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "134c1a21491eedf5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "excerpt": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:23:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "aws trainium",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-1-1.png",
+       "alt": "Nova-3 encoder and decoder compiled ahead of time to NEFFs and served by a data-parallel Rust runtime on AWS Trainium2",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "134c1a21491eedf5",
+      "related": [],
+      "score": {
+       "total": 65.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.0,
+        "topic": 65.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "How Deepgram بهینه سازی صدا AI در مقیاس با AWS Trainium",
+        "excerpt": "Deepgram با تیم مهندسی پیشرفته AWS همکاری کرد تا مدل نوا-3 گفتار به متن خود را به AWS Trainium2 برای استنتاج دسته آفلاین منتقل کند. این پست پورتینگ را به پشته Neuron AWS، تنظیم سطح هسته، یک نوار داده-parallel Rust Runtime، و خروجی و نتایج هزینه بر روی رونویسی دسته پوشش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "59d7a62039657567",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:22:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "artificial intelligence",
+       "app",
+       "the algorithm"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "59d7a62039657567",
+      "related": [],
+      "score": {
+       "total": 64.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.5,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بهتر کردن اینترنت برای عوامل هوش مصنوعی ممکن است آن را برای همه بدتر کند",
+        "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. تا همین اواخر می توانید کاربران اینترنت را به دو دسته تقسیم کنید: ربات ها و افراد. وب سایت ها مدت زیادی به ربات ها اجازه داده اند تا وظایف خودکار را انجام دهند، مانند ثبت محتوای صفحات وب، اما قوانین ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "25c38f880dd1c0b8",
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
+      "excerpt": "After drawing acquisition interest earlier this year, the Nvidia challenger raised $1.5 billion to remain independent.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:37:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "fundraising",
+       "tc",
+       "venture",
+       "tenstorrent"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "25c38f880dd1c0b8",
+      "related": [],
+      "score": {
+       "total": 63.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 70.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Tenstorrent به ارزش گذاری $6.2B برای مقیاس تراشه های باز وزن AI",
+        "excerpt": "پس از جلب علاقه در اوایل سال جاری، چالش Nvidia 1.5 میلیارد دلار برای مستقل ماندن را افزایش داد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-12T19:00:12Z",
+   "to": "2026-10-19T19:00:12Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "0dbde1ea11534cb3",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:20:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "research",
+       "imaging",
+       "health care",
+       "medical devices",
+       "artificial intelligence",
+       "computer vision"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
+       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "0dbde1ea11534cb3",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
+        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f73f11092849b85a",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:47:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "github copilot app",
+       "github copilot app for beginners"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f73f11092849b85a",
+      "related": [],
+      "score": {
+       "total": 68.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه به ادامه یک جلسه برنامه GitHub Copilot در VS Code",
+        "excerpt": "یاد بگیرید که چگونه یک جلسه عامل را از برنامه GitHub Copilot به VS Code بدون از دست دادن گفتگو، تغییرات کد یا زمینه کاری حرکت دهید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c5ffbd108a109045",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "excerpt": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21811-1.png",
+       "alt": "Flow diagram contrasting the standard prefill-to-decode KV path (blue) with the bi-directional additions numbered one through six (red)",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c5ffbd108a109045",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.2,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بهبود TTFT برای کار چند منظوره با انتقال دو طرفه KV در vLLM",
+        "excerpt": "چند نوبت کار عامل تغییر در زمینه مکالمه رو به رشد هر نوبت، رانندگی تاخیر. مشاهده کنید که چگونه انتقال حافظه دو طرفه به قبل از پر کردن و رمزگشایی گره ها قبل از محاسبه متن در سراسر چرخش، برش زمان به توکن اول تا 1.6x برای Qwen3-32B و 3.3x برای GLM-5-FP8 در آمازون EC2 P5en با EFA.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "134c1a21491eedf5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "excerpt": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:23:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "aws trainium",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-1-1.png",
+       "alt": "Nova-3 encoder and decoder compiled ahead of time to NEFFs and served by a data-parallel Rust runtime on AWS Trainium2",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "134c1a21491eedf5",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.5,
+        "topic": 65.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "How Deepgram بهینه سازی صدا AI در مقیاس با AWS Trainium",
+        "excerpt": "Deepgram با تیم مهندسی پیشرفته AWS همکاری کرد تا مدل نوا-3 گفتار به متن خود را به AWS Trainium2 برای استنتاج دسته آفلاین منتقل کند. این پست پورتینگ را به پشته Neuron AWS، تنظیم سطح هسته، یک نوار داده-parallel Rust Runtime، و خروجی و نتایج هزینه بر روی رونویسی دسته پوشش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9dbc0d55ff9123c6",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "amazon",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/open-source.svg",
+       "kind": "fallback"
+      },
+      "eventId": "9dbc0d55ff9123c6",
+      "related": [],
+      "score": {
+       "total": 67.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.3,
+        "topic": 75.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "631c78f18e2760a2",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "materials science and engineering",
+       "artificial intelligence",
+       "machine learning",
+       "data",
+       "dmse"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
+       "credit": "Image: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "631c78f18e2760a2",
+      "related": [],
+      "score": {
+       "total": 65.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 68.7,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
+        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "59d7a62039657567",
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:22:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "artificial intelligence",
+       "app",
+       "the algorithm"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "59d7a62039657567",
+      "related": [],
+      "score": {
+       "total": 64.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بهتر کردن اینترنت برای عوامل هوش مصنوعی ممکن است آن را برای همه بدتر کند",
+        "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. تا همین اواخر می توانید کاربران اینترنت را به دو دسته تقسیم کنید: ربات ها و افراد. وب سایت ها مدت زیادی به ربات ها اجازه داده اند تا وظایف خودکار را انجام دهند، مانند ثبت محتوای صفحات وب، اما قوانین ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9279cf6bb0c3cf64",
+      "url": "https://www.theverge.com/policy/1013113/democrats-ai-midterms",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Democrats think cracking down on AI could give them an edge",
+      "excerpt": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That",
+      "lang": "en",
+      "publishedAt": "2026-10-19T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "policy",
+       "politics",
+       "report"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25334821/STK466_ELECTION_2024_CVirginia_C.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Graphic photo illustration of a voting sign that reads “Vote here”.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "9279cf6bb0c3cf64",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 93.5,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دموکرات ها فکر می کنند شکستن در AI می تواند به آنها یک لبه بدهد",
+        "excerpt": "دموکرات ها می توانند در ماه نوامبر کنترل کنگره را به دست بگیرند و اگر این کار را انجام دهند، باید تصمیم بگیرند که چگونه به یکی از جدیدترین و جسورترین مسائل سیاسی کشور یعنی AI نزدیک شوند. نظرسنجی ها پیش بینی می کنند که دموکرات ها حداقل یک اتاق کنگره را در انتخابات میان دوره ای که رهبری کمیته را در دستان خود قرار می دهد، تغییر خواهند داد. این است که",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "monthly": {
+   "from": "2026-09-19T19:00:12Z",
+   "to": "2026-10-19T19:00:12Z",
+   "halfLifeHours": 240,
+   "picks": [
+    {
+     "article": {
+      "id": "0dbde1ea11534cb3",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:20:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "research",
+       "imaging",
+       "health care",
+       "medical devices",
+       "artificial intelligence",
+       "computer vision"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
+       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "0dbde1ea11534cb3",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
+        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4a2f3ca18eb9cee6",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "lang": "en",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-16",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/ai-brands/openai-character.webp",
+       "kind": "brand",
+       "alt": "OpenAI — unofficial editorial character illustration"
+      },
+      "sourceImage": null,
+      "eventId": "4a2f3ca18eb9cee6",
+      "related": [],
+      "score": {
+       "total": 69.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 76.9,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شرکای خیابانی به سوالات سریع تر با Codex پاسخ می دهند",
+        "excerpt": "Anant Kumar ابزارهایی را برای مقایسه ارزش های وام و تجزیه و تحلیل توافقنامه های اعتباری، با استفاده از Codex برای بررسی کد و پیگیری سریع تر ایجاد می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9dbc0d55ff9123c6",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "amazon",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/open-source.svg",
+       "kind": "fallback"
+      },
+      "eventId": "9dbc0d55ff9123c6",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.7,
+        "topic": 75.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a72d1e4da6b0e106",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "lang": "en",
+      "publishedAt": "2026-10-15T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-15",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/ai-brands/openai-character.webp",
+       "kind": "brand",
+       "alt": "OpenAI — unofficial editorial character illustration"
+      },
+      "sourceImage": null,
+      "eventId": "a72d1e4da6b0e106",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 75.8,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن GPT-Rosalind به آزمایشگاه های تحقیقاتی دانشگاهی",
+        "excerpt": "معرفی برنامه علمی Rosalind، ارائه آزمایشگاه های دانشگاهی واجد شرایط حمایت از دسترسی به GPT-Rosalind و ابزار برای پیشبرد تحقیقات علوم زندگی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "631c78f18e2760a2",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "materials science and engineering",
+       "artificial intelligence",
+       "machine learning",
+       "data",
+       "dmse"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
+       "credit": "Image: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "631c78f18e2760a2",
+      "related": [],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.3,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
+        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f73f11092849b85a",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:47:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "github copilot app",
+       "github copilot app for beginners"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f73f11092849b85a",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه به ادامه یک جلسه برنامه GitHub Copilot در VS Code",
+        "excerpt": "یاد بگیرید که چگونه یک جلسه عامل را از برنامه GitHub Copilot به VS Code بدون از دست دادن گفتگو، تغییرات کد یا زمینه کاری حرکت دهید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c5ffbd108a109045",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "excerpt": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21811-1.png",
+       "alt": "Flow diagram contrasting the standard prefill-to-decode KV path (blue) with the bi-directional additions numbered one through six (red)",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c5ffbd108a109045",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بهبود TTFT برای کار چند منظوره با انتقال دو طرفه KV در vLLM",
+        "excerpt": "چند نوبت کار عامل تغییر در زمینه مکالمه رو به رشد هر نوبت، رانندگی تاخیر. مشاهده کنید که چگونه انتقال حافظه دو طرفه به قبل از پر کردن و رمزگشایی گره ها قبل از محاسبه متن در سراسر چرخش، برش زمان به توکن اول تا 1.6x برای Qwen3-32B و 3.3x برای GLM-5-FP8 در آمازون EC2 P5en با EFA.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2f3282e483141f68",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "The EU’s next chapter in AI is agentic",
+      "excerpt": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "lang": "en",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-14",
+      "category": "models",
+      "tags": [
+       "global affairs"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/ai-brands/openai-character.webp",
+       "kind": "brand",
+       "alt": "OpenAI — unofficial editorial character illustration"
+      },
+      "sourceImage": null,
+      "eventId": "2f3282e483141f68",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 66.9,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "فصل بعدی اتحادیه اروپا در AI عامل است",
+        "excerpt": "تجزیه و تحلیل جدید نشان می دهد که چگونه پذیرش هوش مصنوعی در سراسر شرکت های اتحادیه اروپا و کسب و کارهای کوچک در حال رشد است و در آن استفاده عمیق تر می تواند ارزش بیشتری را باز کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "68b02ba462b0e816",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Fostering community amid Kendall Square’s innovation",
+      "excerpt": "The 18th annual Kendall Square Association Annual Meeting explored how new technologies could be a force for shared prosperity in society.",
+      "lang": "en",
+      "publishedAt": "2026-10-16T16:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-16",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "kendall square",
+       "cambridge, boston and region",
+       "industry",
+       "energy",
+       "sustainability"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-KSA26-05-press_0.jpg?itok=cb_ebGQl",
+       "credit": "Credit: Flavio D Photography",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "68b02ba462b0e816",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.5,
+        "topic": 80.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توسعه جامعه در میان نوآوری میدان کند",
+        "excerpt": "نشست سالانه انجمن میدان کندال در سال 18 بررسی کرد که چگونه فن آوری های جدید می توانند نیرویی برای رفاه مشترک در جامعه باشند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "134c1a21491eedf5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "excerpt": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T16:23:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "aws trainium",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-1-1.png",
+       "alt": "Nova-3 encoder and decoder compiled ahead of time to NEFFs and served by a data-parallel Rust runtime on AWS Trainium2",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "134c1a21491eedf5",
+      "related": [],
+      "score": {
+       "total": 67.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 65.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-19T19:00:12Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "How Deepgram بهینه سازی صدا AI در مقیاس با AWS Trainium",
+        "excerpt": "Deepgram با تیم مهندسی پیشرفته AWS همکاری کرد تا مدل نوا-3 گفتار به متن خود را به AWS Trainium2 برای استنتاج دسته آفلاین منتقل کند. این پست پورتینگ را به پشته Neuron AWS، تنظیم سطح هسته، یک نوار داده-parallel Rust Runtime، و خروجی و نتایج هزینه بر روی رونویسی دسته پوشش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 10,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  }
+ }
+}
