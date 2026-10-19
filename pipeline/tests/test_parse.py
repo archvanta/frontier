@@ -33,3 +33,10 @@ def test_invalid_feeds_raise_feed_error(name):
 def test_empty_bytes():
     with pytest.raises(FeedError):
         parse_feed(b"")
+
+
+def test_valid_feed_with_no_items_is_not_an_error():
+    from signal_pipeline.parse import parse_feed
+
+    empty = b'<?xml version="1.0"?><rss version="2.0"><channel><title>arXiv cs.AI</title><link>https://arxiv.org/</link></channel></rss>'
+    assert parse_feed(empty) == []
