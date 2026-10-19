@@ -50,9 +50,6 @@ def parse_feed(content: bytes) -> list[RawItem]:
     """Parses feed bytes. Raises FeedError when nothing usable could be read."""
     parsed = feedparser.parse(content, sanitize_html=False, resolve_relative_uris=False)
     entries = parsed.get("entries") or []
-    if not entries and parsed.get("version") and not parsed.get("bozo"):
-        # A well-formed feed with no items (e.g. arXiv on days without announcements) is healthy.
-        return []
     if not entries:
         reason = parsed.get("bozo_exception")
         raise FeedError(f"no entries ({type(reason).__name__ if reason else 'empty feed'})")
