@@ -1,11 +1,14 @@
 # Hourly (best-effort) news collection. Commits public/data only when it changed, then redeploys.
 # Commits made with GITHUB_TOKEN do not trigger other workflows, so there is no update loop;
 # the deploy is called explicitly below instead.
+# GitHub may skip a scheduled run when it is busy, so there are two slots per hour; a slot with no
+# news makes no commit and no deploy, so the second one costs about a minute of runner time.
 name: Update news
 
 on:
   schedule:
     - cron: "17 * * * *"
+    - cron: "47 * * * *"
   workflow_dispatch:
     inputs:
       translate:
