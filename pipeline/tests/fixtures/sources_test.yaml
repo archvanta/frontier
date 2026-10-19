@@ -1,0 +1,8 @@
+# TEST FIXTURE registry — hosts are example domains served by FakeTransport.
+sources:
+  - {id: lab, name: Fixture Lab, homepage: "https://example.com/", feed: "https://example.com/feed.xml", kind: official, tier: 1, owner: lab, lang: en, category: models, filter: none, og_image: true, og_hosts: [example.com]}
+  - {id: wire, name: Fixture Wire, homepage: "https://wire.example.org/", feed: "https://wire.example.org/atom", kind: media, tier: 2, owner: wire-group, lang: en, category: business, filter: none}
+  - {id: general, name: General Fixture, homepage: "https://general.example.net/", feed: "https://general.example.net/rss", kind: media, tier: 2, owner: general, lang: en, category: business, filter: ai}
+  - {id: broken, name: Broken Feed, homepage: "https://broken.example.com/", feed: "https://broken.example.com/rss", kind: media, tier: 3, owner: broken, lang: en, category: business, filter: none}
+  - {id: down, name: Down Feed, homepage: "https://down.example.com/", feed: "https://down.example.com/rss", kind: media, tier: 3, owner: down, lang: en, category: business, filter: none}
+  - {id: disabled-src, name: Disabled Feed, homepage: "https://off.example.com/", feed: "https://off.example.com/rss", kind: media, tier: 3, owner: off, lang: en, category: business, filter: none, enabled: false}

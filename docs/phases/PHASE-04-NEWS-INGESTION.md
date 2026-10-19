@@ -24,12 +24,12 @@ Phase 1 schema.
 `python -m pytest -q` with fixture feeds: malformed XML, bad/missing dates, UTC offsets, duplicate items, failing source, rerun no-diff.
 
 ## Acceptance criteria
-- [ ] Local run produces normalised articles
-- [ ] Rerun → no diff
-- [ ] Failed sources isolated
-- [ ] Attribution + canonical links preserved
-- [ ] Date parsing tests
-- [ ] Verified vs candidate sources separated
+- [x] Local run produces normalised articles
+- [x] Rerun → no diff
+- [x] Failed sources isolated
+- [x] Attribution + canonical links preserved
+- [x] Date parsing tests
+- [x] Verified vs candidate sources separated
 
 ## Asset dependencies
 Network access to feeds (available on GitHub runners; blocked in the build container).
@@ -46,4 +46,8 @@ Generated data can be reverted by reverting the data commit.
 > Read `CLAUDE.md`, `docs/IMPLEMENTATION-STATUS.md`, `docs/phases/MODEL-EFFORT-MATRIX.md` and this file. Verify the previous phase's gate evidence. Implement Phase 4 (Source registry, RSS ingestion and deduplication) only, run the tests listed above, record real evidence below, update the status file, commit and push. Do not claim anything you did not verify.
 
 ## Evidence
-_Pending — filled in when the phase gate runs._
+Run 2026-10-19 (Python 3.13 venv, feedparser 6.0.14, requests 2.34.2, PyYAML 6.0.3):
+- `python -m pytest` → **30 passed**: HTML→text (scripts/styles dropped, entities decoded), excerpt boilerplate + truncation, canonical URLs (tracking params, fragments, ports, slashes), stable ids across http/https, dates (+03:30 and −07:00 offsets → UTC, naive → UTC, missing → fetch time flagged `dateEstimated`, malformed, far-future), AI filter, categories/entities; fetcher allowlist incl. redirect to 169.254.169.254 blocked, size caps (streamed + Content-Length), retries on 5xx, no retry on 404, timeouts, per-host spacing; RSS media/enclosure + Atom parsing; malformed XML and HTML-instead-of-feed raise `FeedError`; full run with 2 failing sources isolated (`HTTP 503`, parse error) and one disabled; same-source repost dropped keeping the original; cross-source event clustering; brand names alone never merge; **rerun 1 h later → 0 added, `changed=False`, byte-identical files incl. `meta.dataUpdatedAt`**; history kept when a source later fails; `verifiedOn` keeps the first success day.
+- Real-network check from the build container: only the GitHub-hosted Anthropic mirror is reachable here; `python -m signal_pipeline collect --only anthropic-news,openai-news` stored 11 real stories and recorded OpenAI as `network error: ProxyError` without failing the run. Remaining feeds are verified on GitHub's runners in Phase 8.
+
+Result: **PASS** (feed verification of the other sources deferred to the first Actions run, recorded in `docs/SOURCE-REGISTER.md`).
