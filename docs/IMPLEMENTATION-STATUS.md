@@ -11,8 +11,8 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | 5 Images | ✅ Passed | `docs/phases/PHASE-05-IMAGES.md#evidence` | `feat(phase-5)` |
 | 6 Ranking & picks | ✅ Passed | `docs/phases/PHASE-06-RANKING-PICKS.md#evidence` | `feat(phase-6)` |
 | 7 i18n & translation | ✅ Passed (real model ran on Actions: 164 headlines) | `docs/phases/PHASE-07-I18N-TRANSLATION.md#evidence` | `feat(phase-7)` |
-| 8 Actions & Pages | ⚠️ Collector live; deploy blocked until Pages is enabled | `docs/phases/PHASE-08-GITHUB-DEPLOYMENT.md#evidence` | `feat(phase-8)` |
-| 9 QA & release | ⏳ In progress (live-site checks wait for the deploy) | `docs/release/QA-REPORT.md` | |
+| 8 Actions & Pages | ✅ Passed (collector live; Pages deploy run 39311450758 succeeded) | `docs/phases/PHASE-08-GITHUB-DEPLOYMENT.md#evidence` | `feat(phase-8)` |
+| 9 QA & release | ✅ Passed (live page not opened from the build container; see QA report) | `docs/phases/PHASE-09-QA-RELEASE.md#evidence` | `docs(phase-9)` |
 
 ## Resume
 Run `/continue-phase` (see `.claude/commands/continue-phase.md`).

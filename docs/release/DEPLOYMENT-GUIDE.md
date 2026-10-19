@@ -14,7 +14,7 @@ The build uses the base path reported by `actions/configure-pages` (the reposito
 
 ## Verifying a deploy
 1. The *deploy* job of the run shows the `github-pages` environment URL and writes "Published to <url>" in the run summary.
-2. Open that URL: the header shows "Data last updated", the Sources page lists each feed's status, and there is no MOCK DATA banner.
+2. Open that URL: the footer shows the last data update, the Sources page lists each feed's status, and there is no MOCK DATA banner.
 3. `<url>data/meta.json` returns the latest `dataUpdatedAt`.
 
 ## Rollback
@@ -23,4 +23,7 @@ The build uses the base path reported by `actions/configure-pages` (the reposito
 - Stop automation temporarily: Actions → *Update news* → ⋯ → *Disable workflow*.
 
 ## Verified deployment
-_Filled in only after a successful Pages deployment has been observed and the published URL opened._
+- **URL:** https://sadeghimohammadamin83-ship-it.github.io/SIGNAL_AI/
+- **First successful deploy:** run 39311450758 (push to `main`, commit `edf3ad4`), 2026-10-19 19:29–19:30 UTC. Build and deploy jobs succeeded; `actions/deploy-pages` logged "Reported success!" and the `github-pages` environment URL above.
+- **Hourly path:** collector run 39311850418 committed data `bdc3f25` and deployed it through the same workflow; deploy job "Reported success!" for the same URL (2026-10-19 19:33 UTC).
+- **How it was checked:** from GitHub's own deployment record (run status, job log, environment URL). The build container used for this work cannot reach `github.io` (its network policy refuses the host), so the page itself was not loaded from there; the same production build with the same data was opened in a local browser before release. Open the URL in a browser to confirm it end to end (checklist under *Verifying a deploy*).
