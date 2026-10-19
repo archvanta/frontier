@@ -7,7 +7,7 @@
 
 ## How a deploy happens
 - Push to `main` (for example merging a pull request) → `Deploy to GitHub Pages` builds and publishes.
-- Hourly at minute 17 (best effort) → `Update news` collects; if `public/data/` changed it commits as `github-actions[bot]` and calls the same deploy workflow for that commit.
+- Twice an hour, at minutes 17 and 47 (best effort) → `Update news` collects; if `public/data/` changed it commits as `github-actions[bot]` and calls the same deploy workflow for that commit.
 - By hand: Actions → *Update news* → *Run workflow* (always redeploys), or Actions → *Deploy to GitHub Pages* → *Run workflow*.
 
 The build uses the base path reported by `actions/configure-pages` (the repository name, `/SIGNAL_AI/`), so assets and data resolve on the project site. Routes use `#/…` URLs, so deep links work without server rewrites.

@@ -3,7 +3,7 @@
 Honest list of what SIGNAL AI does not do, or does only partly. Keep it current.
 
 ## Data and sources
-- **Hourly is best effort.** Scheduled GitHub Actions runs can be delayed or skipped when GitHub is busy, and schedules stop after 60 days without repository activity (re-enable them in the Actions tab).
+- **Hourly is best effort.** Scheduled GitHub Actions runs can be delayed or skipped when GitHub is busy (on the first evening, 2026-10-19, no scheduled run fired for over two hours after the workflow was added; the collector now has two slots per hour and can always be run by hand), and schedules stop after 60 days without repository activity (re-enable them in the Actions tab).
 - **Feed coverage depends on publishers.** A feed that changes, rate-limits or disappears is marked as failing on the Sources page and skipped; the rest of the run continues. Some organisations publish no RSS (Anthropic is read through a community mirror on GitHub, which can lag behind the official site).
 - **Excerpts only.** The site stores headline, link, times, a ≤400-character feed excerpt and image URLs. It never copies full articles; readers follow the source link.
 - **Undated items** get the time they were first collected and are labelled as estimated.

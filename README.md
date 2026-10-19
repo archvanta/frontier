@@ -33,7 +33,7 @@ python -m signal_pipeline collect --out ../public/data --no-translate --no-og
 | Workflow | Trigger | Permissions | What it does |
 |---|---|---|---|
 | `ci.yml` | push, pull request, manual | read only | typecheck, lint, unit tests, builds, Playwright e2e, pytest, workflow policy checks |
-| `update-news.yml` | `17 * * * *` schedule, manual | `contents: write` on the collect job only | collects, commits `public/data/` **only if it changed**, then calls the deploy |
+| `update-news.yml` | `17 * * * *` and `47 * * * *` schedule, manual | `contents: write` on the collect job only | collects, commits `public/data/` **only if it changed**, then calls the deploy |
 | `deploy.yml` | push to `main`, manual, called by the update | build: read · deploy: `pages: write`, `id-token: write` | builds with the exact Pages base path and deploys with the official Pages actions |
 
 - **Manual update:** Actions → *Update news* → *Run workflow* (untick *translate* to skip translation for that run).
@@ -44,7 +44,7 @@ python -m signal_pipeline collect --out ../public/data --no-translate --no-og
 
 ## Limits and assumptions
 
-- **Hourly is best effort.** GitHub may delay or skip scheduled runs when it is busy, and disables schedules in a repository with no activity for 60 days (re-enable from the Actions tab). This is not a real-time feed.
+- **Hourly is best effort.** GitHub may delay or skip scheduled runs when it is busy (the collector has two slots per hour, at minutes 17 and 47, so one skipped run does not leave the site stale for long), and disables schedules in a repository with no activity for 60 days (re-enable from the Actions tab). This is not a real-time feed.
 - **Free tier:** the repository is public, so Actions minutes for standard runners are free; one run usually takes a few minutes (longer the first time, when the translation model is downloaded and cached). GitHub Pages limits apply (published site up to 1 GB, soft bandwidth limit of 100 GB per month).
 - **Public repository:** all source code and the collected data (headlines, links, short excerpts, image URLs) are public. Nothing private belongs here.
 - **Retention:** day files are kept indefinitely; the collector only reads the last 90 days and never deletes older files. Expect the data folder to grow by roughly a few megabytes per month. The search index covers the last 90 days.

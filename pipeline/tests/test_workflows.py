@@ -36,7 +36,7 @@ def test_default_permissions_are_read_only():
 
 def test_collector_schedule_dispatch_and_minimal_write_scope():
     wf = load("update-news.yml")
-    assert wf["on"]["schedule"] == [{"cron": "17 * * * *"}]
+    assert wf["on"]["schedule"] == [{"cron": "17 * * * *"}, {"cron": "47 * * * *"}]
     assert "workflow_dispatch" in wf["on"]
     assert "push" not in wf["on"]  # data commits can never retrigger collection
     assert wf["concurrency"]["cancel-in-progress"] is False
