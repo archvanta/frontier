@@ -1,0 +1,34 @@
+# Dependencies & builds
+node_modules/
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+playwright-report/
+test-results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local caches / logs
+.cache/
+*.log
+.DS_Store
+
+# Reference-only design media (NEVER commit) — the hero clip in public/videos IS committed
+references/
+design-references/
+reference-frames/
+*.reference.mp4
+tmp/
+
+# External master prompt must never be committed
+SIGNAL_AI_COMPLETE_MASTER_PROMPT*.txt
+
+# Secrets
+.env
+.env.*
