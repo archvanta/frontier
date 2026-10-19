@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "asOf": "2026-10-19T19:00:12Z",
+ "asOf": "2026-10-19T19:28:34Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-18T19:00:12Z",
-   "to": "2026-10-19T19:00:12Z",
+   "from": "2026-10-18T19:28:34Z",
+   "to": "2026-10-19T19:28:34Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -47,15 +47,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 93.6,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -105,15 +105,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 96.1,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -125,6 +125,67 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "037c22a3c2937ce4",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "excerpt": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive",
+      "lang": "en",
+      "publishedAt": "2026-10-19T19:27:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:32:48Z",
+      "day": "2026-10-19",
+      "category": "business",
+      "tags": [
+       "ai",
+       "digital twin",
+       "gtc 2026",
+       "industrial and manufacturing",
+       "open source",
+       "physical ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/26gtc-eu-prenote-berlin-invest-in-germany-summit-jhh-on-stage-LD1_2344-scaled.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "037c22a3c2937ce4",
+      "related": [],
+      "score": {
+       "total": 67.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 55.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:28:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آلمان می خواهد جهان را در AI صنعتی رهبری کند: چگونه NVIDIA کمک خواهد کرد",
+        "excerpt": "در سالن غارنشین کرافتwerk، یک ایستگاه قدرت سابق در برلین، صدراعظم آلمان Friedrich Merz و NVIDIA موسس و مدیر عامل Jensen Huang برای بحث در مورد نقشه راه AI آلمان و به ویژه کاربردهای صنعتی AI نشست. هوانگ با ردیابی رابطه طولانی مدت NVIDIA با صنعت آلمان، با سیستم های بازی، ایستگاه های کاری و خودرو افتتاح شد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:32:48Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -163,15 +224,15 @@
       "eventId": "c5ffbd108a109045",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 82.1,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -182,7 +243,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -222,15 +283,15 @@
       "eventId": "134c1a21491eedf5",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.0,
+        "recency": 83.7,
         "topic": 65.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -241,7 +302,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -277,15 +338,15 @@
       "eventId": "59d7a62039657567",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 63.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 93.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -293,66 +354,6 @@
         "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. تا همین اواخر می توانید کاربران اینترنت را به دو دسته تقسیم کنید: ربات ها و افراد. وب سایت ها مدت زیادی به ربات ها اجازه داده اند تا وظایف خودکار را انجام دهند، مانند ثبت محتوای صفحات وب، اما قوانین ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9533996fc8a61997",
-      "url": "https://www.theguardian.com/politics/2026/oct/19/we-need-to-stop-disinformation-in-uk-political-adverts-heres-a-chance-to-do-so",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "We need to stop disinformation in UK political adverts. Here’s a chance to do so | Letter",
-      "excerpt": "Alex Tait on a proposed amendment to the representation of the people bill, and Dr Joseph Mullen on Russian interference in the Brexit referendum Andy Burnham’s comments about Russian interference in Brexit (Report, 11 October) and the warning by the MI5 chief, Ken McCallum, against exaggerating its impact (Report, 13 October) risk overlooking another serious threat to electoral integrity…",
-      "lang": "en",
-      "publishedAt": "2026-10-19T17:17:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:21:48Z",
-      "day": "2026-10-19",
-      "category": "policy",
-      "tags": [
-       "brexit",
-       "european union",
-       "europe",
-       "andy burnham",
-       "mi5",
-       "politics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/480eed546c13cb30afc122dc8f8fb7e7218f0abb/342_0_3601_2881/master/3601.jpg?width=700&quality=85&auto=format&fit=max&s=4b93f004799a63d17a379edebe457aa2",
-       "credit": "Photograph: Tuomas A Lehtinen/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "9533996fc8a61997",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.6,
-        "topic": 85.0,
-        "novelty": 94.4
-       },
-       "asOf": "2026-10-19T19:00:12Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ما باید اطلاعات را در تبلیغات سیاسی انگلستان متوقف کنیم. در اینجا فرصتی برای انجام این کار وجود دارد 😉",
-        "excerpt": "الکس تات در اصلاحیه پیشنهادی برای نمایندگی از لایحه مردم، و دکتر جوزف مولن در مداخله روسیه در رفراندوم Brexit نظر اندی برنهام در مورد دخالت روسیه در Brexit (گزارش، 11 اکتبر) و هشدار رئیس MI5، مک کلیم، در برابر افزایش تاثیر آن (گزارش، 13 اکتبر) خطر نادیده گرفتن تهدید انتخاباتی جدی دیگر برای یکپارچگی ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:21:48Z"
        }
       }
      },
@@ -367,8 +368,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-12T19:00:12Z",
-   "to": "2026-10-19T19:00:12Z",
+   "from": "2026-10-12T19:28:34Z",
+   "to": "2026-10-19T19:28:34Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +405,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -462,15 +463,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.3,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -520,15 +521,15 @@
       "eventId": "c5ffbd108a109045",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.8,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -579,15 +580,15 @@
       "eventId": "134c1a21491eedf5",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 97.1,
         "topic": 65.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -599,6 +600,67 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "037c22a3c2937ce4",
+      "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "excerpt": "In the cavernous hall of Kraftwerk, a former power station in Berlin, German Chancellor Friedrich Merz and NVIDIA founder and CEO Jensen Huang sat down to discuss Germany’s AI roadmap, and in particular, the industrial applications of AI. Huang opened by tracing NVIDIA’s longstanding relationship with German industry, beginning with gaming systems, workstations and automotive",
+      "lang": "en",
+      "publishedAt": "2026-10-19T19:27:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:32:48Z",
+      "day": "2026-10-19",
+      "category": "business",
+      "tags": [
+       "ai",
+       "digital twin",
+       "gtc 2026",
+       "industrial and manufacturing",
+       "open source",
+       "physical ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/26gtc-eu-prenote-berlin-invest-in-germany-summit-jhh-on-stage-LD1_2344-scaled.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "037c22a3c2937ce4",
+      "related": [],
+      "score": {
+       "total": 67.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-19T19:28:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آلمان می خواهد جهان را در AI صنعتی رهبری کند: چگونه NVIDIA کمک خواهد کرد",
+        "excerpt": "در سالن غارنشین کرافتwerk، یک ایستگاه قدرت سابق در برلین، صدراعظم آلمان Friedrich Merz و NVIDIA موسس و مدیر عامل Jensen Huang برای بحث در مورد نقشه راه AI آلمان و به ویژه کاربردهای صنعتی AI نشست. هوانگ با ردیابی رابطه طولانی مدت NVIDIA با صنعت آلمان، با سیستم های بازی، ایستگاه های کاری و خودرو افتتاح شد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:32:48Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -633,15 +695,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.3,
+        "recency": 82.9,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -651,7 +713,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -692,15 +754,15 @@
       "eventId": "9533996fc8a61997",
       "related": [],
       "score": {
-       "total": 65.9,
+       "total": 65.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.9,
         "topic": 85.0,
         "novelty": 94.4
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -711,7 +773,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -752,15 +814,15 @@
       "eventId": "631c78f18e2760a2",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.7,
+        "recency": 68.4,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -771,65 +833,10 @@
        }
       }
      },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "59d7a62039657567",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like capturing the content of web pages, but rules…",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:22:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "research",
-      "tags": [
-       "artificial intelligence",
-       "app",
-       "the algorithm"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "59d7a62039657567",
-      "related": [],
-      "score": {
-       "total": 64.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-19T19:00:12Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بهتر کردن اینترنت برای عوامل هوش مصنوعی ممکن است آن را برای همه بدتر کند",
-        "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. تا همین اواخر می توانید کاربران اینترنت را به دو دسته تقسیم کنید: ربات ها و افراد. وب سایت ها مدت زیادی به ربات ها اجازه داده اند تا وظایف خودکار را انجام دهند، مانند ثبت محتوای صفحات وب، اما قوانین ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -837,8 +844,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-19T19:00:12Z",
-   "to": "2026-10-19T19:00:12Z",
+   "from": "2026-09-19T19:28:34Z",
+   "to": "2026-10-19T19:28:34Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -874,15 +881,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -933,11 +940,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.9,
+        "recency": 76.8,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -983,15 +990,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 94.5,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1043,11 +1050,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.8,
+        "recency": 75.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1103,11 +1110,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 89.2,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1157,15 +1164,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.8,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1215,15 +1222,15 @@
       "eventId": "c5ffbd108a109045",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 99.0,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1276,11 +1283,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.9,
+        "recency": 66.8,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1336,11 +1343,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.5,
+        "recency": 80.4,
         "topic": 80.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
@@ -1395,11 +1402,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 99.1,
         "topic": 65.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-19T19:00:12Z"
+       "asOf": "2026-10-19T19:28:34Z"
       },
       "tr": {
        "fa": {
