@@ -96,7 +96,8 @@ sources:
     category: products
     filter: none
     og_image: false
-    notes: Official Microsoft blog AI category feed.
+    enabled: false
+    notes: Official Microsoft blog AI category feed. Disabled 2026-10-19 — returned HTTP 410 Gone on GitHub's runners; find a replacement feed before re-enabling.
 
   - id: nvidia-blog
     name: NVIDIA Blog
@@ -278,8 +279,8 @@ sources:
 
   - id: guardian-ai
     name: The Guardian — Artificial intelligence
-    homepage: https://www.theguardian.com/technology/artificialintelligence
-    feed: https://www.theguardian.com/technology/artificialintelligence/rss
+    homepage: https://www.theguardian.com/technology/artificialintelligenceai
+    feed: https://www.theguardian.com/technology/artificialintelligenceai/rss
     kind: media
     tier: 2
     owner: guardian
@@ -316,7 +317,8 @@ sources:
     filter: none
     max_items: 10
     og_image: false
-    notes: AI trade publication.
+    enabled: false
+    notes: AI trade publication. Disabled 2026-10-19 — returns HTTP 403 to the collector on GitHub's runners (bot blocking); not worked around.
 
   - id: simon-willison
     name: Simon Willison's Weblog
