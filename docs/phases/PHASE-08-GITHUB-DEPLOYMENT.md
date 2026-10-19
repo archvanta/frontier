@@ -23,13 +23,13 @@ Phases 1–7.
 YAML parse/actionlint; real Actions runs: CI green, collector run, second collector run with no commit, deploy success + page_url.
 
 ## Acceptance criteria
-- [ ] Local build works
-- [ ] Workflows valid
-- [ ] Manual update triggerable
-- [ ] Valid Pages artifact
-- [ ] Two runs w/o news → no commit
-- [ ] Minimal permissions, no secrets
-- [ ] README honest
+- [x] Local build works
+- [x] Workflows valid
+- [x] Manual update triggerable
+- [ ] Valid Pages artifact — blocked: Pages is not enabled for the repository yet (owner setting)
+- [x] Two runs w/o news → no commit
+- [x] Minimal permissions, no secrets
+- [x] README honest
 
 ## Asset dependencies
 Pages source = GitHub Actions (repo setting, user action if not auto-enabled).
@@ -46,4 +46,12 @@ Disable workflows from the Actions tab; revert.
 > Read `CLAUDE.md`, `docs/IMPLEMENTATION-STATUS.md`, `docs/phases/MODEL-EFFORT-MATRIX.md` and this file. Verify the previous phase's gate evidence. Implement Phase 8 (Hourly automation, data persistence and GitHub Pages deployment) only, run the tests listed above, record real evidence below, update the status file, commit and push. Do not claim anything you did not verify.
 
 ## Evidence
-_Pending — filled in when the phase gate runs._
+Recorded 2026-10-19 (UTC):
+- Local: `SIGNAL_BASE=/SIGNAL_AI/ npm run build` → `dist/` 3.1 MB with assets under `/SIGNAL_AI/assets/`; actionlint 1.7.12 reports no errors; `pipeline/tests/test_workflows.py` (6 tests) checks SHA pinning, read-only defaults, the `17 * * * *` schedule, scoped write permissions, no force-push, and no secrets.
+- CI on GitHub: PR #1 (head `6f3039a`) and PR #2 (head `9bb651c`) green on both jobs; merged as `b74a0bc` and `32a112b`.
+- Collector, run 1 (`workflow_dispatch`, run 39309098078, code `b74a0bc`): 18/23 feeds OK, **215 stories**, Argos en→fa model downloaded and cached (≈123 MB cache), **149 headlines translated**, commit `025bbf0` by github-actions[bot].
+- Collector, run 2 (run 39310318326, code `32a112b` with feed fixes): Guardian and arXiv now OK, 20/21 enabled feeds OK (VentureBeat HTTP 429), 230 stories, 164 translated, commit `63b8ef0`.
+- Collector, run 3 (run 39310632220) right after: collect succeeded and **made no commit** (`main` stayed at `63b8ef0`).
+- Deploy: every attempt (push run 39309079986 and the deploy jobs called from the three collector runs) stopped at `actions/configure-pages` with "Get Pages site failed … Not Found": GitHub Pages is not enabled for the repository. Needs the owner to set Settings → Pages → Source: GitHub Actions. Not worked around (the workflow token cannot enable Pages).
+
+Result: **PASS except deployment, which is blocked on the one-time Pages setting.**
