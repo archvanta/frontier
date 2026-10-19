@@ -5,6 +5,7 @@ from dataclasses import dataclass, field
 from typing import Any, Callable
 
 from .fetch import Fetcher
+from .images import ImageStep
 from .sources import Source
 
 
@@ -22,4 +23,8 @@ class Steps:
 
 
 def default_steps(sources: list[Source], og_images: bool = True, translate: bool = True) -> Steps:
-    return Steps()
+    steps = Steps()
+    images = ImageStep(og_enabled=og_images)
+    steps.enrichers.append(images)
+    steps._fetcher_slots.append(images.attach)
+    return steps

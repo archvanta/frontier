@@ -47,6 +47,7 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
   const external = safeUrl(a.url);
   const lang = LANG_NAMES[a.lang]?.[locale] ?? a.lang;
   const credit = a.image?.kind === 'brand' ? t('brand_art_note') : a.image?.credit;
+  const publisherImage = a.image?.kind === 'brand' ? safeUrl(a.sourceImage?.url) : null;
 
   return (
     <article className="page story-page container-narrow">
@@ -85,6 +86,14 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
             {(credit || a.image?.sourceUrl) && (
               <figcaption>
                 {t('image_credit')}: {credit ?? hostOf(a.image?.sourceUrl ?? a.url)}
+                {publisherImage && (
+                  <>
+                    {' · '}
+                    <a href={publisherImage} target="_blank" rel="noopener noreferrer">
+                      {t('publisher_image')}
+                    </a>
+                  </>
+                )}
               </figcaption>
             )}
           </figure>

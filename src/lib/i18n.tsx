@@ -99,6 +99,7 @@ const en = {
   original_title: 'Original title',
   brand_art_note: 'Unofficial editorial illustration',
   image_credit: 'Image',
+  publisher_image: "Publisher's image",
   sources_title: 'Sources',
   sources_intro:
     'Feeds the collector reads. A source is marked verified only after a real pipeline run fetched it successfully.',
@@ -219,6 +220,7 @@ const fa: Record<MessageKey, string> = {
   original_title: 'عنوان اصلی',
   brand_art_note: 'تصویرسازی ادیتوریال غیررسمی',
   image_credit: 'تصویر',
+  publisher_image: 'تصویر ناشر',
   sources_title: 'منابع',
   sources_intro: 'فیدهایی که گردآورنده می‌خواند. منبع فقط پس از دریافت موفق در یک اجرای واقعی «تأییدشده» علامت می‌خورد.',
   status_ok: 'فعال',
