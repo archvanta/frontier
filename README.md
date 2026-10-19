@@ -2,7 +2,7 @@
 
 Bilingual (Persian / English) AI news intelligence, published as a free static site on GitHub Pages.
 
-- **Live site:** see the latest successful run of the *Deploy to GitHub Pages* workflow (its `github-pages` environment shows the URL). The verified address is also recorded in `docs/release/DEPLOYMENT-GUIDE.md`.
+- **Live site:** https://sadeghimohammadamin83-ship-it.github.io/SIGNAL_AI/ (address reported by the successful Pages deployments recorded in `docs/release/DEPLOYMENT-GUIDE.md`).
 - **What it does:** about once an hour a GitHub Actions job reads a maintained list of public RSS/Atom feeds from AI labs, research groups and tech media (`pipeline/signal_pipeline/sources.yaml`), removes duplicates, groups stories about the same event, picks images, ranks Daily / Weekly / Monthly picks, optionally machine-translates new headlines into Persian offline, and commits JSON files to `public/data/`. The site reads those files; visiting it never triggers collection, translation or any AI call.
 - **No paid services:** no Claude, OpenAI, Gemini, translation, image or search API, and no secrets are needed.
 
@@ -38,7 +38,7 @@ python -m signal_pipeline collect --out ../public/data --no-translate --no-og
 
 - **Manual update:** Actions → *Update news* → *Run workflow* (untick *translate* to skip translation for that run).
 - **Turn translation off for scheduled runs:** Settings → Secrets and variables → Actions → Variables → add `SIGNAL_TRANSLATE` = `0`.
-- **Health:** each run writes a summary (new stories, data changed, failing sources with their error, translation status). On the site, the header shows the last data update and the *Sources* page shows each feed's status.
+- **Health:** each run writes a summary (new stories, data changed, failing sources with their error, translation status). On the site, the footer shows the last data update and the *Sources* page shows each feed's status.
 - **No loops:** commits pushed with `GITHUB_TOKEN` don't start other workflows, the collector has no `push` trigger, and runs never overlap (`concurrency`). Pushes are retried with a rebase of the single data commit; nothing is ever force-pushed.
 - All third-party actions are pinned to commit SHAs.
 

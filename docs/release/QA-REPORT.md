@@ -11,7 +11,7 @@ Date: 2026-10-19 (UTC). Every result below comes from a command or workflow run 
 | Type check / lint | local + CI | `tsc -b` and `eslint .` clean |
 | Workflow lint | local | actionlint 1.7.12: no errors |
 
-CI on GitHub was green for both merged pull requests (#1 head `6f3039a`, #2 head `9bb651c`).
+CI on GitHub was green for every merged pull request (#1 head `6f3039a`, #2 head `9bb651c`, #3 head `446d418`) and on `main` after each merge.
 
 ## Real data (GitHub Actions)
 - Run 1: 18/23 feeds, 215 stories, 149 Persian headlines (model downloaded and cached).
@@ -37,6 +37,10 @@ CI on GitHub was green for both merged pull requests (#1 head `6f3039a`, #2 head
 - JS 283 KB (88 KB gzip), CSS 37 KB (9.7 KB gzip); fonts self-hosted. Hero video uses `preload="metadata"`, is muted, pauses off-screen, and is replaced by a poster for reduced motion, small screens and Save-Data.
 - Data after two runs: 544 KB total; search index 105 KB; picks 54 KB; day files load per page.
 
+## Deployment
+- GitHub Pages deploy run 39311450758 (commit `edf3ad4`) succeeded; GitHub reports the site at https://sadeghimohammadamin83-ship-it.github.io/SIGNAL_AI/ (details in `DEPLOYMENT-GUIDE.md#verified-deployment`).
+- Collector run 39311850418 committed fresh data (`bdc3f25`, 232 stories, 166 Persian headlines) and redeployed it successfully, so the scheduled path collect → commit → deploy works end to end.
+
 ## Not yet verified
-- **Live site.** No GitHub Pages deployment has succeeded yet because Pages is not enabled for the repository (see `DEPLOYMENT-GUIDE.md`). Live-URL checks (home, deep link reload, data freshness, both languages on a phone) are pending that setting.
+- **The live page in a browser.** The build container cannot reach `github.io`, so home, deep-link reload, data freshness and both languages on a phone were not checked on the live URL itself; they were checked on the same production build locally. The owner should open the URL once to confirm.
 - Lighthouse scores were not measured.

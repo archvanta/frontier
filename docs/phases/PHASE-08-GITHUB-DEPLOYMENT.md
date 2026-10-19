@@ -26,7 +26,7 @@ YAML parse/actionlint; real Actions runs: CI green, collector run, second collec
 - [x] Local build works
 - [x] Workflows valid
 - [x] Manual update triggerable
-- [ ] Valid Pages artifact — blocked: Pages is not enabled for the repository yet (owner setting)
+- [x] Valid Pages artifact — deployed by run 39311450758 after the owner enabled Pages
 - [x] Two runs w/o news → no commit
 - [x] Minimal permissions, no secrets
 - [x] README honest
@@ -53,5 +53,7 @@ Recorded 2026-10-19 (UTC):
 - Collector, run 2 (run 39310318326, code `32a112b` with feed fixes): Guardian and arXiv now OK, 20/21 enabled feeds OK (VentureBeat HTTP 429), 230 stories, 164 translated, commit `63b8ef0`.
 - Collector, run 3 (run 39310632220) right after: collect succeeded and **made no commit** (`main` stayed at `63b8ef0`).
 - Deploy: every attempt (push run 39309079986 and the deploy jobs called from the three collector runs) stopped at `actions/configure-pages` with "Get Pages site failed … Not Found": GitHub Pages is not enabled for the repository. Needs the owner to set Settings → Pages → Source: GitHub Actions. Not worked around (the workflow token cannot enable Pages).
+- After the owner enabled Pages (source: GitHub Actions), the push to `main` from merging PR #3 (`edf3ad4`) started deploy run 39311450758: build and deploy jobs both succeeded, `actions/deploy-pages` logged "Reported success!" and the `github-pages` environment URL **https://sadeghimohammadamin83-ship-it.github.io/SIGNAL_AI/**.
+- Collector + deploy end to end (run 39311850418, dispatched after Pages was on): collect succeeded with the cached model, committed `bdc3f25` (232 stories, 20/21 enabled feeds OK, 166 translated), and the called deploy built that exact commit (artifact 2.96 MB, `data/meta.json` present) and published it: "Reported success!", page URL as above. The run is green end to end.
 
-Result: **PASS except deployment, which is blocked on the one-time Pages setting.**
+Result: **PASS.**
