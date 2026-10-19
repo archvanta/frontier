@@ -30,11 +30,35 @@ EVENT_WINDOW_HOURS = 72
 SEARCH_WINDOW_DAYS = 90
 WORKING_WINDOW_DAYS = 90    # day files loaded into memory each run (older files are left untouched)
 
-# Scoring (Phase 6)
+# Scoring (Phase 6). Every factor is normalised to 0–100; the total is the weighted sum.
 WEIGHTS = {
     "reliability": 0.30,
     "corroboration": 0.25,
     "recency": 0.20,
     "topic": 0.15,
     "novelty": 0.10,
+}
+# Source tier (sources.yaml) → reliability factor. An editorial prior, not a truth rating.
+TIER_RELIABILITY = {1: 100, 2: 80, 3: 60, 4: 40}
+# Topic importance per category (editable editorial weights).
+TOPIC_WEIGHTS = {
+    "models": 100,
+    "safety": 90,
+    "policy": 85,
+    "research": 80,
+    "open-source": 75,
+    "hardware": 70,
+    "products": 65,
+    "business": 55,
+}
+NOVELTY_LOOKBACK_DAYS = 7     # a story is compared with other events from this many days before it
+NOVELTY_FOLLOW_UP = 0.5       # multiplier for later reports of an event that was already covered
+
+PICKS_CLOCK_STEP_HOURS = 6     # picks advance at least this often even when no new stories arrive
+
+# Pick windows: length, recency half-life (scaled to the window), list size and diversity caps.
+PICK_WINDOWS = {
+    "daily": {"hours": 24, "half_life_hours": 12, "size": 6, "per_source": 2, "per_subject": 2, "per_category": 3},
+    "weekly": {"hours": 24 * 7, "half_life_hours": 72, "size": 8, "per_source": 2, "per_subject": 3, "per_category": 3},
+    "monthly": {"hours": 24 * 30, "half_life_hours": 240, "size": 10, "per_source": 3, "per_subject": 3, "per_category": 4},
 }

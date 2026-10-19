@@ -129,7 +129,7 @@ export interface PicksFile {
   schemaVersion: number;
   asOf: string;
   weights: ScoreParts;
-  windows: Record<PickWindow, { from: string; to: string; picks: PickEntry[] }>;
+  windows: Record<PickWindow, { from: string; to: string; halfLifeHours?: number; picks: PickEntry[] }>;
 }
 
 export type SourceStatus = 'ok' | 'error' | 'disabled' | 'unverified';

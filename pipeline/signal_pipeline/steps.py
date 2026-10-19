@@ -6,6 +6,7 @@ from typing import Any, Callable
 
 from .fetch import Fetcher
 from .images import ImageStep
+from .picks import PicksStep
 from .sources import Source
 
 
@@ -27,4 +28,5 @@ def default_steps(sources: list[Source], og_images: bool = True, translate: bool
     images = ImageStep(og_enabled=og_images)
     steps.enrichers.append(images)
     steps._fetcher_slots.append(images.attach)
+    steps.finalizers.append(PicksStep(sources))
     return steps

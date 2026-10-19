@@ -8,7 +8,7 @@ TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_
 | `meta.json` | `dataUpdatedAt` (last time stored data changed), counts, `latestDay`, source ok/failed counts, translation stats, `timezone: "UTC"` |
 | `archive-index.json` | `days: [{day, count}]`, newest first |
 | `days/YYYY-MM-DD.json` | `{day, articles: Article[]}` newest first |
-| `picks.json` | `asOf`, `weights`, `windows.{daily,weekly,monthly}.{from,to,picks[]}` |
+| `picks.json` | `asOf`, `weights`, `windows.{daily,weekly,monthly}.{from,to,halfLifeHours,picks[{article,rank,sources,reason[]}]}`; each pick embeds the article with its `score` for that window |
 | `sources.json` | registry + health (`status`, `verifiedOn`, `lastError`, `items`) |
 | `search-index.json` | compact entries for the last `windowDays` (90) days |
 
@@ -28,7 +28,7 @@ TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_
 | `image` | `{url, kind: feed|og|brand|fallback, alt, credit, sourceUrl}` |
 | `sourceImage` | genuine source image when brand art replaced the thumbnail |
 | `eventId`, `related` | cross-source event cluster |
-| `score` | `{total, parts{reliability, corroboration, recency, topic, novelty}, asOf}` |
+| `score` | `{total, parts{reliability, corroboration, recency, topic, novelty}, asOf}` — only on articles inside `picks.json` (recency depends on the window); day files carry no score, so they do not churn as time passes |
 | `tr.fa` | `{title, excerpt, engine, at}` offline machine translation; original fields are never overwritten |
 
 ## Evolution
