@@ -81,7 +81,6 @@ const FALLBACK_BY_CATEGORY: Record<CategoryId, string> = {
 };
 
 export function buildMockDataset(now: Date): MockDataset {
-  const base = import.meta.env.BASE_URL ?? '/';
   const anchor = new Date(Math.floor(now.getTime() / 3_600_000) * 3_600_000);
   const articles: Article[] = HOURS_AGO.map((h, i) => {
     const seed = SEEDS[i % SEEDS.length]!;
@@ -90,9 +89,9 @@ export function buildMockDataset(now: Date): MockDataset {
     const id = hex(i);
     const day = utcDay(published);
     const image = seed.b
-      ? { url: `${base}images/ai-brands/${seed.b}-character.webp`, kind: 'brand' as const, alt: `${seed.b} editorial character illustration` }
+      ? { url: `images/ai-brands/${seed.b}-character.webp`, kind: 'brand' as const, alt: `${seed.b} editorial character illustration` }
       : seed.img
-        ? { url: `${base}images/fallbacks/${FALLBACK_BY_CATEGORY[seed.c]}.svg`, kind: 'fallback' as const, alt: '' }
+        ? { url: `images/fallbacks/${FALLBACK_BY_CATEGORY[seed.c]}.svg`, kind: 'fallback' as const, alt: '' }
         : null;
     const total = Math.max(20, 92 - i * 3);
     return {
