@@ -1,6 +1,7 @@
 """Generates the category fallback artwork in public/images/fallbacks/ (abstract, no photos).
 
 Navy/violet lighting with a small glass tile and the category glyph in lime, matching the site design.
+No text in the art: cards crop it freely and already show the category chip.
 
 Run: python3 scripts/make_fallbacks.py
 """
@@ -63,8 +64,6 @@ def svg(cat: str) -> str:
 <circle cx="420" cy="150" r="160" fill="none" stroke="#fff" stroke-opacity=".035"/>
 <rect x="335" y="65" width="170" height="170" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
 <g transform="translate(375 105) scale(.45)" fill="none" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">{GLYPHS[cat]}</g>
-<g fill="#c6ff3d"><rect x="32" y="34" width="3" height="8" rx="1.5"/><rect x="38" y="30" width="3" height="16" rx="1.5"/><rect x="44" y="27" width="3" height="22" rx="1.5"/><rect x="50" y="31" width="3" height="14" rx="1.5"/><rect x="56" y="35" width="3" height="6" rx="1.5"/></g>
-<text x="68" y="43" fill="#f2f4fb" fill-opacity=".6" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3">SIGNAL AI · {LABELS[cat]}</text>
 </svg>
 """
 
