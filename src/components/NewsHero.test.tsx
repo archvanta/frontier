@@ -52,18 +52,22 @@ describe('NewsHero', () => {
     expect(screen.queryByTestId('hero-slide')).toBeNull();
   });
 
-  it('falls back to the gradient backdrop when the story image fails to load', () => {
-    renderHero([story('a'), story('b'), story('c')]);
-    const slide = screen.getAllByTestId('hero-slide')[0]!;
-    const img = slide.querySelector('img')!;
+  it('keeps the same frame on every slide and shows a placeholder when the photo fails to load', () => {
+    renderHero([story('a'), story('b'), story('c', null)]);
+    const slides = screen.getAllByTestId('hero-slide');
+    expect(slides.map((sl) => sl.querySelectorAll('.nh-frame').length)).toEqual([1, 1, 1]);
+    const img = slides[0]!.querySelector('img')!;
     expect(img).toHaveAttribute('src', 'https://img.example.com/a.jpg');
-    expect(slide).not.toHaveClass('is-art');
+    expect(slides[0]).toHaveAttribute('data-photo', 'yes');
     fireEvent.error(img);
-    expect(slide.querySelector('img')).toBeNull();
-    expect(slide).toHaveClass('is-art');
+    expect(slides[0]!.querySelector('img')).toBeNull();
+    expect(slides[0]!.querySelector('.nh-frame')).toHaveClass('is-empty');
+    expect(slides[0]).toHaveAttribute('data-photo', 'no');
+    // No image at all: the same frame with the placeholder.
+    expect(slides[2]!.querySelector('.nh-frame.is-empty')).not.toBeNull();
   });
 
-  it('chooses cover, whole-picture or no picture from the photo size', () => {
+  it('fills the frame with any photo big enough and drops only tiny ones', () => {
     renderHero([story('a'), story('b'), story('c')]);
     const load = (k: number, width: number, height: number) => {
       const slide = screen.getAllByTestId('hero-slide')[k]!;
@@ -73,16 +77,12 @@ describe('NewsHero', () => {
       fireEvent.load(img);
       return slide;
     };
-    const wide = load(0, 1600, 900);
-    expect(wide).toHaveAttribute('data-fit', 'cover');
-    expect(wide.querySelector('.nh-blur')).toBeNull();
-    const square = load(1, 800, 800);
-    expect(square).toHaveAttribute('data-fit', 'contain');
-    expect(square.querySelector('.nh-blur')).toHaveAttribute('src', 'https://img.example.com/b.jpg');
+    expect(load(0, 1600, 900)).toHaveAttribute('data-photo', 'yes');
+    expect(load(1, 600, 900)).toHaveAttribute('data-photo', 'yes');
     fireEvent.click(screen.getByRole('button', { name: 'Story 3 of 3' })); // a slide's image mounts once it is current or next
     const tiny = load(2, 120, 90);
-    expect(tiny).toHaveClass('is-art');
-    expect(tiny.querySelector('img')).toBeNull();
+    expect(tiny).toHaveAttribute('data-photo', 'no');
+    expect(tiny.querySelector('.nh-frame.is-empty')).not.toBeNull();
   });
 
   it('never clamps the headline', () => {

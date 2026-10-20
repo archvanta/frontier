@@ -3,9 +3,10 @@ import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { genuineImage } from '../lib/heroStories';
 import { useMediaQuery } from '../lib/hooks';
-import { judgeHeroImage, rememberHeroFit, rememberedHeroFit, type HeroFit } from '../lib/imageFit';
+import { judgeCardImage, rememberCardFit, rememberedCardFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
+import { categoryIcon } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { resolveImageUrl } from './StoryImage';
@@ -25,40 +26,37 @@ interface SlideProps {
   total: number;
   active: boolean;
   mountImage: boolean;
-  /** The slide's layout changed (its image was judged), so the copy may need to be fitted again. */
-  onLayout: () => void;
 }
 
-type SlideMode = 'art' | 'pending' | HeroFit;
-
-function Slide({ story, index, total, active, mountImage, onLayout }: SlideProps) {
+/**
+ * One fixed template for every story: the copy on the start side and a rounded frame of one fixed size on the end side (stacked above the copy
+ * on phones), filled edge to edge by the story's photo. A story without a usable photo (none, broken or tiny) keeps the same frame with a quiet
+ * gradient and its category icon, so the layout never changes from one story to the next.
+ */
+function Slide({ story, index, total, active, mountImage }: SlideProps) {
   const { t, locale } = useI18n();
   const title = displayTitle(story, locale);
   const excerpt = displayExcerpt(story, locale);
   const external = safeUrl(story.url);
   const src = resolveImageUrl(genuineImage(story)?.url);
-  const [fit, setFit] = useState<HeroFit | 'pending'>(() => (src ? (rememberedHeroFit(src) ?? 'pending') : 'art'));
-  const showImage = Boolean(src) && mountImage && fit !== 'art';
-  // `pending`: the image is loading and is judged on arrival (cover, contain over a blurred copy, or dropped for the gradient backdrop).
-  const mode: SlideMode = showImage ? fit : 'art';
-  useEffect(() => onLayout(), [mode, onLayout]);
-  const decide = (next: HeroFit) => {
-    if (src) rememberHeroFit(src, next);
-    setFit(next);
+  const [broken, setBroken] = useState(() => Boolean(src) && rememberedCardFit(src!) === 'hide');
+  const showImage = Boolean(src) && mountImage && !broken;
+  const drop = () => {
+    if (src) rememberCardFit(src, 'hide');
+    setBroken(true);
   };
 
   return (
     <div
-      className={`nh-slide ${active ? 'is-active' : ''} is-${mode}`}
+      className={`nh-slide ${active ? 'is-active' : ''}`}
       role="group"
       aria-roledescription="slide"
       aria-label={t('hero_story', { n: index + 1, total })}
       aria-hidden={!active}
       inert={!active}
       data-testid="hero-slide"
-      data-fit={mode}
+      data-photo={showImage ? 'yes' : 'no'}
     >
-      {showImage && src && fit === 'contain' && <img className="nh-blur" src={src} alt="" aria-hidden="true" decoding="async" referrerPolicy="no-referrer" />}
       <div className="nh-inner container">
         <div className="nh-content">
           <p className="nh-cat">{categoryLabel(locale, story.category)}</p>
@@ -99,8 +97,8 @@ function Slide({ story, index, total, active, mountImage, onLayout }: SlideProps
             )}
           </div>
         </div>
-        {showImage && src && (
-          <div className="nh-frame">
+        <div className={`nh-frame ${showImage ? '' : 'is-empty'}`} aria-hidden="true">
+          {showImage && src ? (
             <img
               className="nh-img"
               src={src}
@@ -108,11 +106,17 @@ function Slide({ story, index, total, active, mountImage, onLayout }: SlideProps
               decoding="async"
               referrerPolicy="no-referrer"
               fetchPriority={index === 0 ? 'high' : 'auto'}
-              onError={() => decide('art')}
-              onLoad={(e) => decide(judgeHeroImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight }))}
+              onError={drop}
+              onLoad={(e) => {
+                const fit = judgeCardImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
+                rememberCardFit(src, fit);
+                if (fit === 'hide') setBroken(true);
+              }}
             />
-          </div>
-        )}
+          ) : (
+            <Icon name={categoryIcon(story.category)} size={44} />
+          )}
+        </div>
       </div>
     </div>
   );
@@ -129,19 +133,26 @@ export function fitSlides(stage: HTMLElement, viewportH: number, top: number): v
     const inner = slide.querySelector<HTMLElement>('.nh-inner');
     if (!inner) return;
     slide.style.removeProperty('--nh-scale');
+    // The template stretches to fill the slide; measure its natural height instead.
+    // No transition while measuring: a transitioning `flex` would keep reporting the stretched size.
+    inner.style.transition = 'none';
+    inner.style.flex = 'none';
     let scale = 1;
     while (scale > MIN_COPY_SCALE && inner.offsetHeight > room) {
       scale = Math.round((scale - COPY_SCALE_STEP) * 100) / 100;
       slide.style.setProperty('--nh-scale', String(scale));
     }
+    inner.style.removeProperty('flex');
+    void inner.offsetHeight;
+    inner.style.removeProperty('transition');
   });
 }
 
 /**
- * Full-bleed homepage carousel over real stories (see lib/heroStories.ts).
- * - Advances every SLIDE_MS with a crossfade, slow zoom and staged text; loops; any manual change restarts the timer.
+ * Full-width homepage carousel over real stories (see lib/heroStories.ts), every story in the same fixed template (see Slide).
+ * - Advances every SLIDE_MS with a crossfade and staged text; loops; any manual change restarts the timer.
  * - Pauses on hover, keyboard focus, hidden tab and off-screen; has an explicit pause button; autoplay is off under reduced motion.
- * - Dots, prev/next, arrow keys and touch swipe (direction follows RTL). Broken or tiny images fall back to the gradient backdrop.
+ * - Dots, prev/next, arrow keys and touch swipe (direction follows RTL). Broken or tiny images leave the frame with its placeholder.
  * - `stories === null` means loading; an empty list degrades to the brand intro.
  */
 export function NewsHero({ stories }: { stories: Article[] | null }) {
@@ -158,7 +169,6 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const [tabVisible, setTabVisible] = useState(() => typeof document === 'undefined' || !document.hidden);
   const root = useRef<HTMLElement>(null);
   const stage = useRef<HTMLDivElement>(null);
-  const [layoutTick, setLayoutTick] = useState(0);
   const dots = useRef<HTMLDivElement>(null);
   const elapsed = useRef(0);
   const swipe = useRef<{ x: number; y: number } | null>(null);
@@ -167,7 +177,6 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const autoplay = total > 1 && (userPaused === null ? !reduced : !userPaused);
   const running = autoplay && !hover && !focusIn && onScreen && tabVisible;
 
-  const relayout = useCallback(() => setLayoutTick((n) => n + 1), []);
   const fitCopy = useCallback(() => {
     const el = stage.current;
     if (!el) return;
@@ -176,7 +185,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
     el.style.setProperty('--nh-top', `${top}px`);
     fitSlides(el, window.innerHeight, top);
   }, []);
-  useLayoutEffect(() => fitCopy(), [fitCopy, stories, locale, layoutTick]);
+  useLayoutEffect(() => fitCopy(), [fitCopy, stories, locale]);
   useEffect(() => {
     let raf = 0;
     const again = () => {
@@ -302,15 +311,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
         {total > 0 && (
           <div className="nh-slides" aria-live={running ? 'off' : 'polite'}>
             {list.map((s, i) => (
-              <Slide
-                key={s.id}
-                story={s}
-                index={i}
-                total={total}
-                active={i === current}
-                mountImage={visited.has(i) || i === (current + 1) % total}
-                onLayout={relayout}
-              />
+              <Slide key={s.id} story={s} index={i} total={total} active={i === current} mountImage={visited.has(i) || i === (current + 1) % total} />
             ))}
           </div>
         )}
