@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { focusSection } from './components/HeroVideo';
 import { EmptyState } from './components/States';
 import { createDataSource, type DataSource } from './lib/data';
 import { DataProvider } from './lib/dataContext';
+import { focusSection } from './lib/focus';
 import { useAsync } from './lib/hooks';
 import { useI18n } from './lib/i18n';
 import { href, parseHash, useHash, type Route } from './lib/router';
@@ -26,11 +26,11 @@ function useNow(intervalMs = 60_000): Date {
   return now;
 }
 
-function Page({ route, now, meta }: { route: Route; now: Date; meta: import('./lib/types').Meta | null }) {
+function Page({ route, now, meta, heroSlot }: { route: Route; now: Date; meta: import('./lib/types').Meta | null; heroSlot: HTMLElement | null }) {
   const { t } = useI18n();
   switch (route.name) {
     case 'home':
-      return <HomePage page={route.page} meta={meta} now={now} />;
+      return <HomePage page={route.page} meta={meta} now={now} heroSlot={heroSlot} />;
     case 'picks':
       return <PicksPage window={route.window} />;
     case 'explore':
@@ -67,6 +67,7 @@ export function App({ source }: { source?: DataSource }) {
   const hash = useHash();
   const route = useMemo(() => parseHash(hash), [hash]);
   const now = useNow();
+  const [heroSlot, setHeroSlot] = useState<HTMLElement | null>(null);
   const meta = useAsync(() => data.meta(), [data]);
 
   useEffect(() => {
@@ -84,8 +85,12 @@ export function App({ source }: { source?: DataSource }) {
         </p>
       )}
       <Header route={route} />
-      <main id="main" className="container site-main">
-        <Page route={route} now={now} meta={meta.status === 'ready' ? meta.data : null} />
+      <main id="main">
+        {/* Edge-to-edge slot for the homepage hero, which lives outside the width-limited column. */}
+        <div ref={setHeroSlot} className="hero-slot" />
+        <div className="container site-main">
+          <Page route={route} now={now} meta={meta.status === 'ready' ? meta.data : null} heroSlot={heroSlot} />
+        </div>
       </main>
       <Footer meta={meta.status === 'ready' ? meta.data : null} />
     </DataProvider>

@@ -1,20 +1,23 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { DaySection } from '../components/DaySection';
-import { HeroVideo } from '../components/HeroVideo';
 import { Icon } from '../components/Icon';
+import { NewsHero } from '../components/NewsHero';
 import { Pagination } from '../components/Pagination';
 import { PicksPanel } from '../components/PicksPanel';
 import { SignalStatus } from '../components/SignalStatus';
+import { SignalWall } from '../components/SignalWall';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { WeeklyBrief } from '../components/WeeklyBrief';
 import { planHomePage, sortNewestFirst, uniqueById } from '../lib/archive';
 import { useData } from '../lib/dataContext';
 import { formatNumber } from '../lib/dates';
+import { pickHeroStories } from '../lib/heroStories';
 import { useAsync } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { CATEGORY_IDS, type CategoryId, type Meta } from '../lib/types';
 
-export function HomePage({ page, meta, now }: { page: number; meta: Meta | null; now: Date }) {
+export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Meta | null; now: Date; heroSlot: HTMLElement | null }) {
   const data = useData();
   const { t, locale } = useI18n();
 
@@ -40,9 +43,16 @@ export function HomePage({ page, meta, now }: { page: number; meta: Meta | null;
   }, [feed]);
   useEffect(() => setCategory('all'), [page]);
 
+  // Carousel and wall use only what the feed already loaded: today's and yesterday's real stories, newest first.
+  const newest = useMemo(() => (feed.status === 'ready' ? sortNewestFirst(feed.data.groups.flatMap((g) => g.articles)) : []), [feed]);
+  const heroStories = useMemo(
+    () => (feed.status === 'loading' ? null : feed.status === 'ready' ? pickHeroStories(newest, feed.data.picks) : []),
+    [feed, newest],
+  );
+
   return (
     <>
-      {page === 1 && <HeroVideo />}
+      {page === 1 && heroSlot && createPortal(<NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} />, heroSlot)}
       {feed.status === 'loading' && <Loading rows={3} />}
       {feed.status === 'error' && <ErrorState onRetry={feed.reload} />}
       {feed.status === 'ready' && (
@@ -53,6 +63,7 @@ export function HomePage({ page, meta, now }: { page: number; meta: Meta | null;
             </EmptyState>
           )}
           {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} />}
+          {page === 1 && <SignalWall stories={newest} now={now} />}
           <div className="latest-layout">
             <aside className="latest-aside" aria-label={t('weekly_brief')}>
               {page === 1 && <WeeklyBrief picks={feed.data.picks} />}

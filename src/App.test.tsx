@@ -46,16 +46,21 @@ describe('App with mock data', () => {
     expect(document.documentElement.lang).toBe('fa');
   });
 
-  it('shows the hero as a poster when reduced motion is requested', () => {
+  it('renders the hero carousel over real stories with a single active slide', async () => {
     renderApp();
-    // jsdom has no matchMedia → treated as no preference, but also no IntersectionObserver; the
-    // video element must still be muted and inline.
-    const video = screen.queryByTestId('hero-video') as HTMLVideoElement | null;
-    if (video) {
-      expect(video.muted).toBe(true);
-      expect(video.hasAttribute('playsinline')).toBe(true);
-    } else {
-      expect(screen.getByTestId('hero-poster')).toBeInTheDocument();
-    }
+    const slides = await screen.findAllByTestId('hero-slide');
+    expect(slides.length).toBeGreaterThanOrEqual(3);
+    expect(slides.filter((s) => s.getAttribute('aria-hidden') === 'false')).toHaveLength(1);
+    expect(screen.getByRole('button', { name: 'Next story' })).toBeInTheDocument();
+    expect(screen.getByRole('button', { name: 'Pause slideshow' })).toBeInTheDocument();
+    const active = slides.find((s) => s.getAttribute('aria-hidden') === 'false')!;
+    expect(within(active).getByRole('link', { name: /Read full story/ })).toHaveAttribute('href', expect.stringContaining('#/story/'));
+  });
+
+  it('shows the signal wall with real headlines', async () => {
+    renderApp();
+    const wall = await screen.findByTestId('signal-wall');
+    expect(within(wall).getByRole('heading', { name: 'Signal wall' })).toBeInTheDocument();
+    expect(within(wall).getAllByTestId('wall-card').length).toBeGreaterThan(0);
   });
 });

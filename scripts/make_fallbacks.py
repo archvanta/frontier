@@ -1,6 +1,6 @@
 """Generates the category fallback artwork in public/images/fallbacks/ (abstract, no photos).
 
-Navy/violet lighting with a small glass tile and the category glyph in lime, matching the site design.
+Black ground with a soft blue light, a small glass tile and the category glyph in the site's blue accent.
 No text in the art: cards crop it freely and already show the category chip.
 
 Run: python3 scripts/make_fallbacks.py
@@ -27,16 +27,16 @@ LABELS = {
 }
 
 
-# Per-category lighting: (primary glow, secondary glow) from the site's violet / blue / cyan palette.
+# Per-category lighting: (primary glow, secondary glow), all from the single blue family.
 LIGHT = {
-    "models": ("#7c5cff", "#33d6ff"),
-    "research": ("#3a6bff", "#7c5cff"),
-    "products": ("#33d6ff", "#3a6bff"),
-    "business": ("#5b6bff", "#33d6ff"),
-    "policy": ("#8a5cff", "#3a6bff"),
-    "open-source": ("#2fb8ff", "#7c5cff"),
-    "hardware": ("#6a4dff", "#2fd0e0"),
-    "safety": ("#4a5cff", "#9a6bff"),
+    "models": ("#3a6bff", "#9fd0ff"),
+    "research": ("#2e6bf0", "#6fb4ff"),
+    "products": ("#4a82ff", "#2e6bf0"),
+    "business": ("#2f5fe0", "#8cc4ff"),
+    "policy": ("#3a6bff", "#5b9dff"),
+    "open-source": ("#4f8dff", "#2e6bf0"),
+    "hardware": ("#2e6bf0", "#9fd0ff"),
+    "safety": ("#3f6ef0", "#6fb4ff"),
 }
 
 
@@ -47,8 +47,8 @@ def svg(cat: str) -> str:
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="{LABELS[cat]} category artwork">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a1c"/><stop offset=".6" stop-color="#0b0e26"/><stop offset="1" stop-color="#120e33"/></linearGradient>
-<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="{a}" stop-opacity=".62"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></radialGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030305"/><stop offset=".6" stop-color="#06070c"/><stop offset="1" stop-color="#0a0d1a"/></linearGradient>
+<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="{a}" stop-opacity=".5"/><stop offset="1" stop-color="{a}" stop-opacity="0"/></radialGradient>
 <radialGradient id="gb" cx="22%" cy="88%" r="46%"><stop offset="0" stop-color="{b}" stop-opacity=".32"/><stop offset="1" stop-color="{b}" stop-opacity="0"/></radialGradient>
 <radialGradient id="fade" cx="50%" cy="45%" r="62%"><stop offset=".35" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
 <mask id="m"><rect width="640" height="360" fill="url(#fade)"/></mask>
@@ -59,11 +59,11 @@ def svg(cat: str) -> str:
 <rect width="640" height="360" fill="url(#bg)"/>
 <rect width="640" height="360" fill="url(#ga)"/>
 <rect width="640" height="360" fill="url(#gb)"/>
-<g stroke="#b0beff" stroke-opacity=".07" stroke-width="1" mask="url(#m)">{grid}</g>
+<g stroke="#ffffff" stroke-opacity=".05" stroke-width="1" mask="url(#m)">{grid}</g>
 <circle cx="420" cy="150" r="118" fill="none" stroke="#fff" stroke-opacity=".06"/>
 <circle cx="420" cy="150" r="160" fill="none" stroke="#fff" stroke-opacity=".035"/>
 <rect x="335" y="65" width="170" height="170" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
-<g transform="translate(375 105) scale(.45)" fill="none" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">{GLYPHS[cat]}</g>
+<g transform="translate(375 105) scale(.45)" fill="none" stroke="#5b9dff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">{GLYPHS[cat]}</g>
 </svg>
 """
 

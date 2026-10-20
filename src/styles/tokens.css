@@ -1,34 +1,36 @@
 /* SIGNAL AI design tokens. See docs/DESIGN-SYSTEM.md. */
 :root {
-  /* Foundations: deep black and midnight navy */
-  --bg: #04050b;
-  --bg-navy: #070a1a;
-  --surface-1: #0a0e1d;
-  --surface-2: #0f1427;
-  --surface-3: #171d35;
-  --line: rgba(176, 190, 255, 0.1);
-  --line-strong: rgba(176, 190, 255, 0.18);
+  /* Foundations: true black with neutral graphite surfaces */
+  --bg: #000000;
+  --bg-navy: #050507;
+  --surface-1: #0a0a0d;
+  --surface-2: #101014;
+  --surface-3: #18181e;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
 
   /* Text (all ≥ 4.5:1 on --surface-1) */
-  --text: #f2f4fb;
-  --text-2: #b4bad0;
-  --text-3: #8d94ad;
-  --text-inverse: #05060c;
+  --text: #f5f6f8;
+  --text-2: #b7bac4;
+  --text-3: #8b8f9c;
+  --text-inverse: #000000;
 
-  /* Signature accent: acid lime, reserved for signals, active states and the main call to action */
-  --accent: #c6ff3d;
-  --accent-soft: rgba(198, 255, 61, 0.12);
-  --accent-line: rgba(198, 255, 61, 0.45);
-  --accent-glow: rgba(198, 255, 61, 0.38);
-  --accent-ink: #07090f;
+  /* Signature accent: luminous blue, reserved for signals, active states and the main call to action */
+  --accent: #5b9dff;
+  /* Filled accent surfaces (primary button, pills) carry white text at ≥ 4.5:1 */
+  --accent-strong: #2e6bf0;
+  --accent-soft: rgba(91, 157, 255, 0.12);
+  --accent-line: rgba(91, 157, 255, 0.45);
+  --accent-glow: rgba(70, 130, 255, 0.4);
+  --accent-ink: #ffffff;
   /* kept for older selectors */
   --accent-dim: var(--accent-soft);
 
-  /* Lighting accents (gradients and glows only, never body text) */
-  --violet: #7c5cff;
-  --blue: #3a6bff;
-  --cyan: #33d6ff;
-  --teal: #3dd6c6;
+  /* Blue lighting (the glass-fold shader and its fallbacks); one hue family, never body text */
+  --violet: #3a6bff;
+  --blue: #2e6bf0;
+  --cyan: #9fd0ff;
+  --teal: #6fb4ff;
 
   /* Supporting signal colours */
   --warn: #ffb347;
@@ -41,12 +43,12 @@
   --brand-gemini: #8b7bff;
 
   /* Liquid glass: reserved for navigation, search/filters, picks controls and floating utilities */
-  --glass-bg: rgba(16, 20, 40, 0.58);
-  --glass-bg-strong: rgba(11, 14, 30, 0.82);
-  --glass-fallback: #0d1226;
+  --glass-bg: rgba(14, 14, 18, 0.55);
+  --glass-bg-strong: rgba(8, 8, 11, 0.84);
+  --glass-fallback: #0d0d11;
   --glass-border: rgba(255, 255, 255, 0.11);
   --glass-sheen: linear-gradient(180deg, rgba(255, 255, 255, 0.085), rgba(255, 255, 255, 0.015) 55%, rgba(255, 255, 255, 0.03));
-  --glass-edge: linear-gradient(140deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.06) 32%, rgba(255, 255, 255, 0) 60%, rgba(150, 170, 255, 0.28));
+  --glass-edge: linear-gradient(140deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.06) 32%, rgba(255, 255, 255, 0) 60%, rgba(120, 170, 255, 0.3));
   --glass-blur: blur(20px) saturate(165%);
   --glass-blur-soft: blur(12px) saturate(150%);
   --shadow-glass: inset 0 1px 0 rgba(255, 255, 255, 0.09), inset 0 -1px 0 rgba(0, 0, 0, 0.35), 0 22px 48px -24px rgba(0, 0, 0, 0.85), 0 2px 10px rgba(0, 0, 0, 0.25);
