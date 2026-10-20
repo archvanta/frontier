@@ -14,6 +14,7 @@ import { useData } from '../lib/dataContext';
 import { formatNumber } from '../lib/dates';
 import { pickHeroStories } from '../lib/heroStories';
 import { useAsync } from '../lib/hooks';
+import { useReveal, useSlidingIndicator } from '../lib/motion';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { CATEGORY_IDS, type CategoryId, type Meta } from '../lib/types';
 
@@ -42,6 +43,8 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
     return CATEGORY_IDS.filter((c) => ids.has(c));
   }, [feed]);
   useEffect(() => setCategory('all'), [page]);
+  const revealLatest = useReveal<HTMLElement>('head');
+  const chips = useSlidingIndicator<HTMLDivElement>(`${category}:${present.length}`);
 
   // Carousel and wall use only what the feed already loaded: today's and yesterday's real stories, newest first.
   const newest = useMemo(() => (feed.status === 'ready' ? sortNewestFirst(feed.data.groups.flatMap((g) => g.articles)) : []), [feed]);
@@ -70,7 +73,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
               <SignalStatus meta={meta} todayCount={todayCount} />
             </aside>
             <div id="latest" className="feed" aria-label={t('stories')}>
-              <header className="section-head latest-head">
+              <header ref={revealLatest} className="section-head latest-head">
                 <h2 className="section-title">
                   <span className="section-glyph" aria-hidden="true">
                     <Icon name="signal" size={22} />
@@ -78,7 +81,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
                   {t('latest_news')}
                 </h2>
                 {present.length > 1 && (
-                  <div className="filter-chips pill-track" role="group" aria-label={t('filter_by_category')}>
+                  <div ref={chips} className="filter-chips pill-track" role="group" aria-label={t('filter_by_category')}>
                     {(['all', ...present] as const).map((c) => (
                       <button key={c} type="button" className="filter-chip" aria-pressed={category === c} onClick={() => setCategory(c)}>
                         {c === 'all' ? t('filter_all') : categoryLabel(locale, c)}
@@ -94,7 +97,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
               )}
               {feed.data.groups.map((g, i) => (
                 <DaySection
-                  key={g.day}
+                  key={`${g.day}:${category}`} // a new filter remounts the day, so its cards enter again instead of jumping
                   day={g.day}
                   level={3}
                   articles={category === 'all' ? g.articles : g.articles.filter((a) => a.category === category)}

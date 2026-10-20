@@ -138,7 +138,8 @@ export function ExplorePage({ params }: { params: URLSearchParams }) {
             </EmptyState>
           ) : (
             <>
-              <ol className="result-list">
+              {/* New results fade in place of the old ones; the rest of the page stays put. */}
+              <ol key={`${JSON.stringify(filters)}:${pageData.page}`} className="result-list swap-in">
                 {pageData.items.map((e) => (
                   <ResultRow key={e.id} e={e} />
                 ))}

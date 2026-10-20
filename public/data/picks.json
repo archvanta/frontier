@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "asOf": "2026-10-20T06:00:18Z",
+ "asOf": "2026-10-20T09:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T06:00:18Z",
-   "to": "2026-10-20T06:00:18Z",
+   "from": "2026-10-19T09:00:00Z",
+   "to": "2026-10-20T09:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -48,15 +48,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 79.4,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -106,15 +106,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.8,
+        "recency": 57.9,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -129,6 +129,62 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56702cb0c64f6365",
+      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "excerpt": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction…",
+      "lang": "en",
+      "publishedAt": "2026-10-20T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T10:27:50Z",
+      "day": "2026-10-20",
+      "category": "hardware",
+      "tags": [
+       "artificial intelligence",
+       "app"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840",
+       "alt": "globe indicating South Korea",
+       "kind": "feed",
+       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      "eventId": "56702cb0c64f6365",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-20T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بازدید از مرکز نیمه هادی جدید سامسونگ",
+        "excerpt": "مدل های هوش مصنوعی Generative بر روی تراشه های قدرتمند شناخته شده به عنوان GPU اجرا می شوند که به پشته های تراشه های حافظه تخصصی بسته بندی شده با پردازنده بستگی دارد. برای پاسخگویی به تقاضای رو به رشد برای حافظه، سامسونگ در حال ساخت یک مجتمع بزرگ تولید نیمه هادی جدید در Pyeongtaek، کره جنوبی است. سه شیر در حال حاضر در اطراف ساعت کار می کنند و یک چهارم آن به صورت آنلاین عرضه می شود. ساخت ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T10:27:50Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -166,15 +222,15 @@
       "eventId": "432d7e650ee614db",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 61.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -182,66 +238,6 @@
         "excerpt": "دولت می گوید که می تواند دولت را با هوش مصنوعی تغییر دهد، اما برای جریان های حاصل از ماشین آلات تولید شده مطابقت ندارد. همه ما هزینه یک صبح دیگر را پرداخت می کنیم، یکی دیگر از مزایای ایمیل. حتی پس از یک ضرب و شتم گناه، صندوق ورودی من بیش از 7000 نشسته است، اما اخیرا من شروع به شرح زیر به نظریه کوئنتین Crisp از خانه: چرا ناراحتی، زمانی که پس از چهار سال و یا پس از آن شما متوجه.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "03041eba281f778d",
-      "url": "https://www.theguardian.com/film/2026/oct/20/ai-actors-val-kilmer-as-deep-as-the-grave-tilly-norwood",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Hollywood AI-listers: is the technology ready to rival flesh-and-blood film stars?",
-      "excerpt": "As a freaky Val Kilmer doppelganger stars in a new western and faux starlet Tilly Norwood is set for her feature debut, experts are split on whether mainstream adoption is a long way down the line – or just around the corner ‘Don’t fear the dead – and don’t fear me.” An exact facsimile of a young Val Kilmer, not quite dead and not quite alive, utters that baiting line in the trailer for the new…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T06:00:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T07:42:41Z",
-      "day": "2026-10-20",
-      "category": "products",
-      "tags": [
-       "film",
-       "ai (artificial intelligence)",
-       "val kilmer",
-       "tilly norwood (ai character)",
-       "culture",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/69f15733860f5f7d23d5d775e35e0d3d293c3a18/187_0_906_725/master/906.jpg?width=700&quality=85&auto=format&fit=max&s=d2f40fdcd7b786946c580f705c948e43",
-       "credit": "Computer-generated: Particle6",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "03041eba281f778d",
-      "related": [],
-      "score": {
-       "total": 62.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T06:00:18Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانلود موسیقی متن فیلم Hollywood AI-listers: آیا تکنولوژی آماده رقابت با ستاره های فیلم گوشت و خون است؟",
-        "excerpt": "به عنوان یک ستاره عجیب و غریب Val Kilmer doppelganger در یک ستاره جدید غربی و faux Tilly Norwood برای اولین ویژگی خود تنظیم شده است، کارشناسان تقسیم شده اند که آیا پذیرش اصلی یک راه طولانی پایین خط است - یا فقط در اطراف گوشه \"نترس از مردگان - و از من ترس نیست.\"",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T07:42:41Z"
        }
       }
      },
@@ -255,54 +251,46 @@
     },
     {
      "article": {
-      "id": "87cd33ee12bd9f5e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Developers can now access SageMaker Studio through the new AWS experience",
-      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "id": "7a364f356aab4946",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "lang": "en",
-      "publishedAt": "2026-10-19T22:39:24Z",
+      "publishedAt": "2026-10-19T12:00:00Z",
       "dateEstimated": false,
       "fetchedAt": "2026-10-19T22:56:03Z",
       "day": "2026-10-19",
-      "category": "products",
+      "category": "models",
       "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "amazon sagemaker studio",
-       "announcements"
+       "publication"
       ],
       "entities": [
-       "amazon",
-       "apple",
-       "google",
-       "microsoft"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
-       "alt": "The Sign up for AWS page with an email field and sign-in options for Google, GitHub, Apple, and Amazon",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "87cd33ee12bd9f5e",
+      "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 60.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.4,
-        "topic": 65.0,
-        "novelty": 91.7
+        "recency": 29.7,
+        "topic": 100.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "توسعه دهندگان اکنون می توانند از طریق تجربه جدید AWS به SageMaker Studio دسترسی داشته باشند.",
-        "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
+        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
+        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T22:56:03Z"
        }
@@ -318,50 +306,53 @@
     },
     {
      "article": {
-      "id": "e9f6e03adc36285a",
-      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
-      "excerpt": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "id": "fec5078de3754d8b",
+      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘These risks are real’: the threat of AI bioweapons – podcast",
+      "excerpt": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK’s intelligence service, MI5, warned that AI had the potential to ‘change the stakes’ on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has…",
       "lang": "en",
-      "publishedAt": "2026-10-20T01:27:03Z",
+      "publishedAt": "2026-10-20T04:00:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T01:54:18Z",
+      "fetchedAt": "2026-10-20T05:25:37Z",
       "day": "2026-10-20",
       "category": "policy",
       "tags": [
-       "ai",
-       "government & policy",
-       "ai now institute",
-       "ai regulation",
-       "mamdani"
+       "science",
+       "mi5",
+       "uk news",
+       "uk security and counter-terrorism",
+       "ai (artificial intelligence)",
+       "technology"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/a79e23d080eb53cbc53f3416c637200ed693036a/366_0_3656_2924/master/3656.jpg?width=700&quality=85&auto=format&fit=max&s=e1284759478aa2baa9a30f444c6a23e8",
+       "credit": "Photograph: Arun Sankar/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "e9f6e03adc36285a",
+      "eventId": "fec5078de3754d8b",
       "related": [],
       "score": {
-       "total": 61.5,
+       "total": 59.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 76.9,
+        "recency": 74.9,
         "topic": 85.0,
-        "novelty": 93.3
+        "novelty": 81.8
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Mamdani می گوید که تغذیه شده در AI، از نیویورکی ها می خواهد تا به عقب برگردند.",
-        "excerpt": "شهردار Zohran Mamdani روز دوشنبه گفت که نیویورکی ها باید در برابر این روایت مقاومت کنند که تصاحب AI اجتناب ناپذیر است و خواستار مقرراتی است که از عموم مردم محافظت می کند و قدرت را در دستان خود قرار می دهد.",
+        "title": "\"این ریسک ها واقعی هستند\": تهدید بیوتراپیون های AI - پادکست",
+        "excerpt": "در سخنرانی سالانه خود در مورد تهدید به ملت، سر کن مک کالم، رئیس سرویس اطلاعاتی انگلستان، MI5، هشدار داد که AI پتانسیل تغییر سهام را در زیست محیطی موجود و حتی جدید دارد. برای پیدا کردن چرا و چگونه، ایان نمونه به دکتر تام اینگلسبی، مدیر مرکز جان هاپکینز برای امنیت بهداشت و مدرسه بهداشت عمومی بلومبرگ صحبت می کند. او توضیح می دهد که چه چیزی ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T01:54:18Z"
+        "at": "2026-10-20T05:25:37Z"
        }
       }
      },
@@ -376,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T06:00:18Z",
-   "to": "2026-10-20T06:00:18Z",
+   "from": "2026-10-13T09:00:00Z",
+   "to": "2026-10-20T09:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -411,15 +402,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 91.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -466,15 +457,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 81.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -527,15 +518,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 96.2,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -587,15 +578,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.4,
+        "recency": 86.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -650,15 +641,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 90.5,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -708,15 +699,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.8,
+        "recency": 87.2,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -768,15 +759,15 @@
       "eventId": "432d7e650ee614db",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 96.2,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -822,15 +813,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 65.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 72.8,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -851,8 +842,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T06:00:18Z",
-   "to": "2026-10-20T06:00:18Z",
+   "from": "2026-09-20T09:00:00Z",
+   "to": "2026-10-20T09:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -883,15 +874,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 94.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -941,15 +932,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 97.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1001,15 +992,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 95.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1062,15 +1053,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.9,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1115,15 +1106,15 @@
       "eventId": "4a2f3ca18eb9cee6",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.5,
+        "recency": 73.8,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1135,59 +1126,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9dbc0d55ff9123c6",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "amazon",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
-      },
-      "eventId": "9dbc0d55ff9123c6",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.7,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T06:00:18Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1223,15 +1161,15 @@
       "eventId": "a72d1e4da6b0e106",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.4,
+        "recency": 72.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1242,7 +1180,120 @@
        }
       }
      },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9dbc0d55ff9123c6",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "amazon",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/open-source.svg",
+       "kind": "fallback"
+      },
+      "eventId": "9dbc0d55ff9123c6",
+      "related": [],
+      "score": {
+       "total": 68.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.9,
+        "topic": 75.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-20T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "631c78f18e2760a2",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "materials science and engineering",
+       "artificial intelligence",
+       "machine learning",
+       "data",
+       "dmse"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
+       "credit": "Image: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "631c78f18e2760a2",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 85.8,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-20T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
+        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1286,15 +1337,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 97.1,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1302,66 +1353,6 @@
         "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "631c78f18e2760a2",
-      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Giving AI a “crystal clear” view of the materials world",
-      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "lang": "en",
-      "publishedAt": "2026-10-18T04:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-18",
-      "category": "research",
-      "tags": [
-       "research",
-       "materials science and engineering",
-       "artificial intelligence",
-       "machine learning",
-       "data",
-       "dmse"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
-       "credit": "Image: MIT News; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "631c78f18e2760a2",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.6,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T06:00:18Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
-        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
        }
       }
      },
@@ -1404,15 +1395,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 96.0,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T06:00:18Z"
+       "asOf": "2026-10-20T09:00:00Z"
       },
       "tr": {
        "fa": {

@@ -133,9 +133,17 @@
   --shadow-card: 0 30px 60px -34px rgba(0, 0, 0, 0.9);
   --focus: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
 
-  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  /* Motion: one curve family and five durations for the whole site (lib/motion.ts holds the same numbers; styles/motion.css uses them). */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in: cubic-bezier(0.55, 0, 0.75, 0.2);
   --dur: 220ms;
   --dur-slow: 700ms;
+  --dur-press: 140ms;
+  --dur-tab: 200ms;
+  --dur-overlay: 240ms;
+  --dur-page: 380ms;
+  --dur-reveal: 640ms;
 }
 
 /* Persian pages: Vazirmatn for every text role. SF (and -apple-system's own Arabic fallback) never reaches Persian glyphs. */
@@ -235,5 +243,17 @@ html[data-theme='light'] :is(.news-hero, .story-card[data-tone], .wall-card[data
   :root {
     --dur: 0ms;
     --dur-slow: 0ms;
+    --dur-press: 0ms;
+    --dur-tab: 0ms;
+    --dur-overlay: 0ms;
+    --dur-page: 0ms;
+    --dur-reveal: 0ms;
   }
+}
+
+/* Save-Data, 2G or a low-memory device (lib/motion.ts): the same motion, shorter. */
+html[data-motion='lite'] {
+  --dur-slow: 360ms;
+  --dur-page: 240ms;
+  --dur-reveal: 360ms;
 }

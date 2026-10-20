@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type FocusEvent, type FormEvent, type KeyboardEvent } from 'react';
 import { categoryDescription, categoryLabel, useI18n } from '../lib/i18n';
+import { DUR, runTransition, usePresence, useSlidingIndicator } from '../lib/motion';
 import { href, navigate, type Route } from '../lib/router';
 import { useTheme } from '../lib/theme';
 import { toneFor, categoryIcon, type Tone } from '../lib/tones';
@@ -44,12 +45,13 @@ export function Wordmark() {
 /** FA / EN segmented switch. Each button names its language in both scripts. */
 export function LangSwitch() {
   const { locale, setLocale } = useI18n();
+  const track = useSlidingIndicator<HTMLDivElement>(locale);
   const options: { id: Locale; short: string; label: string }[] = [
     { id: 'fa', short: 'FA', label: 'فارسی (Persian)' },
     { id: 'en', short: 'EN', label: 'English (انگلیسی)' },
   ];
   return (
-    <div className="lang-switch" role="group" aria-label="Language / زبان">
+    <div ref={track} className="lang-switch" role="group" aria-label="Language / زبان">
       {options.map((o) => (
         <button
           key={o.id}
@@ -59,7 +61,7 @@ export function LangSwitch() {
           aria-label={o.label}
           title={o.label}
           lang={o.id}
-          onClick={() => setLocale(o.id)}
+          onClick={() => locale !== o.id && setLocale(o.id)}
         >
           {o.short}
         </button>
@@ -75,7 +77,7 @@ export function ThemeToggle() {
   const toLight = theme === 'dark';
   const label = toLight ? t('theme_to_light') : t('theme_to_dark');
   return (
-    <button type="button" className="theme-toggle" aria-label={label} title={label} data-theme-current={theme} onClick={toggle}>
+    <button type="button" className="theme-toggle" aria-label={label} title={label} data-theme-current={theme} onClick={() => runTransition(toggle, 'theme')}>
       <Icon name={toLight ? 'sun' : 'moon'} size={18} />
     </button>
   );
@@ -104,6 +106,8 @@ function NavGroup({ group, open, onToggle, onClose }: { group: MenuGroup; open: 
   const trigger = useRef<HTMLButtonElement>(null);
   const panel = useRef<HTMLUListElement>(null);
   const panelId = `nav-panel-${group.id}`;
+  // The panel stays mounted briefly after closing so it can animate out; it is inert meanwhile.
+  const { mounted, closing } = usePresence(open, DUR.press);
 
   const links = () => Array.from(panel.current?.querySelectorAll<HTMLAnchorElement>('a') ?? []);
   const focusAt = (i: number) => {
@@ -152,8 +156,16 @@ function NavGroup({ group, open, onToggle, onClose }: { group: MenuGroup; open: 
         {group.label}
         <Icon name="chevronDown" size={14} />
       </button>
-      {open && (
-        <ul ref={panel} id={panelId} className="nav-panel" aria-label={group.label} onKeyDown={onPanelKey}>
+      {mounted && (
+        <ul
+          ref={panel}
+          id={panelId}
+          className="nav-panel"
+          data-state={closing ? 'closing' : 'open'}
+          inert={closing}
+          aria-label={group.label}
+          onKeyDown={onPanelKey}
+        >
           {group.items.map((it) => (
             <li key={it.key}>
               <a className="nav-row" href={href(it.to, it.params)} aria-current={it.current ? 'page' : undefined}>
@@ -176,6 +188,7 @@ function NavGroup({ group, open, onToggle, onClose }: { group: MenuGroup; open: 
 export function Header({ route }: { route: Route }) {
   const { t, locale } = useI18n();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const mobile = usePresence(mobileOpen, DUR.press);
   const [openGroup, setOpenGroup] = useState<string | null>(null);
   const [q, setQ] = useState('');
   const [scrolled, setScrolled] = useState(false);
@@ -303,7 +316,7 @@ export function Header({ route }: { route: Route }) {
     <header ref={bar} className={`site-header ${scrolled ? 'is-scrolled' : ''}`}>
       <div className="container header-bar">
         <Wordmark />
-        <nav className={`primary-nav ${mobileOpen ? 'is-open' : ''}`} aria-label="Primary" id="primary-nav">
+        <nav className={`primary-nav ${mobile.mounted ? 'is-open' : ''} ${mobile.closing ? 'is-closing' : ''}`} aria-label="Primary" id="primary-nav">
           <ul className="nav-list">
             <li className="nav-item">
               <a className="nav-link" href={href('/')} aria-current={isActive(route, 'home') ? 'page' : undefined}>
