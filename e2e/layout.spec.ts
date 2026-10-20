@@ -59,6 +59,65 @@ test('hero advances every 5 seconds, loops, and shows exactly one active slide',
   await expect(counter(page)).toContainText('01'); // wrapped around
 });
 
+for (const [w, h] of [
+  [1440, 900],
+  [390, 844],
+] as const) {
+  test(`hero: one fixed template on every story; fast clicks settle on one fully visible slide that matches the counter @${w}`, async ({ page }) => {
+    await page.setViewportSize({ width: w, height: h });
+    await page.goto('./#/');
+    await expect(activeSlide(page)).toHaveCount(1);
+    // Scrolled a little, as on the reported screens.
+    await page.mouse.wheel(0, 160);
+    const next = page.getByRole('button', { name: 'Next story' });
+    const total = await page.locator('.nh-dot').count();
+    const frames = new Set<string>();
+    for (let k = 0; k < total + 2; k++) {
+      if (await next.isVisible()) await next.click();
+      else
+        await page
+          .locator('.nh-dot')
+          .nth((k + 1) % total)
+          .click();
+      await page.waitForTimeout(80);
+    }
+    await page.mouse.move(2, 2);
+    for (let k = 0; k < total; k++) {
+      await page.locator('.nh-dot').nth(k).click();
+      await page.mouse.move(2, 2);
+      await expect
+        .poll(() =>
+          page.evaluate(() => {
+            const a = document.querySelector<HTMLElement>('.nh-slide.is-active')!;
+            const parts = Array.from(a.querySelectorAll<HTMLElement>('.nh-content > *, .nh-frame'));
+            return Math.min(+getComputedStyle(a).opacity, ...parts.map((e) => +getComputedStyle(e).opacity));
+          }),
+        )
+        .toBe(1);
+      const m = await page.evaluate(() => {
+        const slides = Array.from(document.querySelectorAll<HTMLElement>('.nh-slide'));
+        const a = document.querySelector<HTMLElement>('.nh-slide.is-active')!;
+        const f = a.querySelector('.nh-frame')!.getBoundingClientRect();
+        const c = document.querySelector('.nh-controls')!.getBoundingClientRect();
+        return {
+          visible: slides.filter((s) => +getComputedStyle(s).opacity > 0).length,
+          activeIndex: slides.indexOf(a),
+          dot: Array.from(document.querySelectorAll('.nh-dot')).findIndex((d) => d.getAttribute('aria-current') === 'true'),
+          frame: `${Math.round(f.x)},${Math.round(f.y)},${Math.round(f.width)}x${Math.round(f.height)}`,
+          clearOfControls: f.bottom <= c.top + 1,
+        };
+      });
+      expect(m.visible).toBe(1);
+      expect(m.activeIndex).toBe(k);
+      expect(m.dot).toBe(k);
+      expect(m.clearOfControls).toBe(true);
+      frames.add(m.frame);
+    }
+    await expect(counter(page)).toContainText(String(total).padStart(2, '0'));
+    expect(frames.size, [...frames].join(' | ')).toBe(1);
+  });
+}
+
 test('hero: indicators, arrows and keyboard navigate, and a manual change restarts the timer', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');

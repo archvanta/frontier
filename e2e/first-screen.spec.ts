@@ -2,8 +2,8 @@ import { expect, test, type Page } from '@playwright/test';
 
 /**
  * Mobile overflow, whole-card text and photos, and the hero's first-screen rules (issues reported on phones, 2026-10-20).
- * The mock build only has category artwork, so hero photo modes (cover / whole picture / none) are covered by unit tests;
- * here the long-headline case is exercised by putting a long title into every slide and re-fitting.
+ * Every hero story uses one fixed template (copy + one rounded photo frame); photo handling is covered by unit tests, and here
+ * the long-headline case is exercised by putting a long title into every slide and re-fitting.
  */
 
 const PHONES = [360, 390, 430];
