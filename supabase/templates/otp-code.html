@@ -1,0 +1,21 @@
+<!--
+  SIGNAL AI sign-in code email. Paste this into BOTH Supabase templates:
+  Authentication → Emails → Templates → "Magic Link" and "Confirm signup".
+  (Supabase sends "Confirm signup" to a new address and "Magic Link" to an existing one; the app
+  only uses the 6-digit {{ .Token }}, never the link.) Subject suggestion:
+  "Your SIGNAL AI code: {{ .Token }}  |  کد ورود SIGNAL AI"
+-->
+<div style="background:#000;padding:32px 16px;font-family:Inter,Segoe UI,Tahoma,Arial,sans-serif;color:#f5f6f8">
+  <div style="max-width:440px;margin:0 auto;background:#111116;border:1px solid #26262e;border-radius:24px;padding:32px;text-align:center">
+    <p style="margin:0 0 4px;font-size:13px;letter-spacing:.2em;color:#5b9dff">SIGNAL AI</p>
+    <h1 style="margin:0 0 16px;font-size:22px">Your sign-in code</h1>
+    <p style="margin:0 0 20px;color:#b7bac4;font-size:14px">Enter this code on the SIGNAL AI sign-in screen. It expires in 10 minutes.</p>
+    <p dir="ltr" style="margin:0 0 20px;font-family:JetBrains Mono,Consolas,monospace;font-size:34px;font-weight:700;letter-spacing:.35em;color:#fff">{{ .Token }}</p>
+    <hr style="border:0;border-top:1px solid #26262e;margin:20px 0">
+    <div dir="rtl" lang="fa" style="font-family:Vazirmatn,Tahoma,sans-serif">
+      <h2 style="margin:0 0 8px;font-size:18px">کد ورود شما</h2>
+      <p style="margin:0;color:#b7bac4;font-size:14px">این کد را در صفحهٔ ورود SIGNAL AI وارد کنید. پس از ۱۰ دقیقه منقضی می‌شود.</p>
+    </div>
+    <p style="margin:24px 0 0;color:#8b8f9c;font-size:12px">If you did not ask for this code, you can ignore this email. Nobody can sign in without it.<br><span dir="rtl" lang="fa">اگر این کد را درخواست نکرده‌اید، این ایمیل را نادیده بگیرید.</span></p>
+  </div>
+</div>
