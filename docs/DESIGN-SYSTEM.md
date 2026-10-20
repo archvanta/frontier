@@ -78,8 +78,15 @@ Port of the 21st.dev "3D testimonials" Marquee to plain CSS keyframes (props `ve
 Category fallback art (`scripts/make_fallbacks.py`): black with soft blue light, a small tile and the glyph in blue; it works on every card tone and in both themes.
 
 ## Motion
-- Card entry fade/rise 520 ms; image zoom 1.035 and an underline that draws under the title on hover; drop-down panel fade/slide 220 ms; live-dot pulse; skeleton shimmer. (A site-wide motion system, page transitions and a theme-switch transition are a separate step.)
-- Everything is disabled under `prefers-reduced-motion` (`--dur: 0ms`, animations off): the carousel does not autoplay and the marquee is off. The intro video (`public/videos/`) is kept but no longer used.
+One system for the whole site: `src/lib/motion.ts` (script side) and `src/styles/motion.css` (every keyframe and transition), with the numbers in `tokens.css`.
+- **Curve and durations**: `--ease-out` = `cubic-bezier(0.22, 1, 0.36, 1)` (`--ease-in` for exits); press 140 ms, tabs 200 ms, menus 240 ms, page 380 ms, scroll reveal 640 ms. Entrances and exits animate only opacity and transform (plus a short blur on photos as they appear).
+- **Pages**: the hash router commits a change of page inside `document.startViewTransition` (`runTransition`, `flushSync`): the header stays, the old page fades and lifts away, the new one rises in. Query-only changes (search text, filters, page number) update in place. Back, Forward and deep links go through the same path; a direct load or refresh renders at once. Browsers without view transitions play the same entrance on the new page (keyed by route). Scroll resets before the new page is captured.
+- **Language and theme**: a short cross-fade (language 140/220 ms so the RTL and LTR layouts never overlap for long; theme 320 ms).
+- **Scroll reveal**: section heads and story cards enter once, the first time they scroll into view (IntersectionObserver); neighbours entering together stagger by 60 ms, at most 5 steps. The featured story has the one stronger entrance. Photos fade in out of a slight blur after their card.
+- **Controls**: one highlight slides under the active Picks tab, category chip and language (`useSlidingIndicator`); controls sink to 0.96 while pressed; the bookmark pops once when a story is saved; arrows nudge towards where they lead (mirrored in RTL); the search field gains a soft ring on focus.
+- **Menus**: drop-downs and the mobile sheet scale/fade in and animate out; a closing panel stays mounted for its exit (`usePresence`) and is `inert` meanwhile.
+- **Cards and hero**: gradient cards lift 3 px on hover, the featured card gathers a soft accent light; hero controls arrive after the first headline; as the page scrolls, the hero copy drifts up and dims (CSS scroll-driven animation, full mode only). Filter results, tab panels, search results and empty/error states fade in on change.
+- **Modes** (`<html data-motion>`): `full`; `lite` with Save-Data, a 2G connection or ≤2 GB device memory (shorter, no scroll-linked effects); `reduced` under `prefers-reduced-motion`: no view transitions, no reveal wait, menus close at once, the carousel does not autoplay and the marquee is off. The intro video (`public/videos/`) is kept but no longer used.
 
 ## Accessibility
 - Skip button to main, visible blue focus ring, landmarks, one `h1` per page, `aria-current` on nav/pagination, `aria-pressed` on bookmarks, language buttons and filter chips, `aria-expanded` on drop-down buttons, a labelled theme button, ARIA tabs with RTL-aware arrow keys.

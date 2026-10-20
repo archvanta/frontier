@@ -6,6 +6,7 @@ import { useData } from '../lib/dataContext';
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { useAsync } from '../lib/hooks';
 import { pickWindowLabel, useI18n } from '../lib/i18n';
+import { useSlidingIndicator } from '../lib/motion';
 import { href } from '../lib/router';
 import type { PickWindow } from '../lib/types';
 
@@ -13,13 +14,14 @@ export function PicksPage({ window: w }: { window: PickWindow }) {
   const data = useData();
   const { t, locale } = useI18n();
   const res = useAsync(() => data.picks(), [data]);
+  const track = useSlidingIndicator<HTMLElement>(w);
 
   return (
     <div className="page container-narrow">
       <header className="page-head">
         <p className="eyebrow">{t('nav_picks')}</p>
         <h1 className="page-title">{pickWindowLabel(locale, w)}</h1>
-        <nav className="tabs is-links pill-track" aria-label={t('picks_window')}>
+        <nav ref={track} className="tabs is-links pill-track" aria-label={t('picks_window')}>
           {(['daily', 'weekly', 'monthly'] as const).map((x) => (
             <a key={x} className="tab" href={href(`/picks/${x}`)} aria-current={x === w ? 'page' : undefined}>
               {pickWindowLabel(locale, x)}

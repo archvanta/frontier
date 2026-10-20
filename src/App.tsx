@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { EmptyState } from './components/States';
@@ -7,7 +7,7 @@ import { DataProvider } from './lib/dataContext';
 import { focusSection } from './lib/focus';
 import { useAsync } from './lib/hooks';
 import { useI18n } from './lib/i18n';
-import { href, parseHash, useHash, type Route } from './lib/router';
+import { href, parseHash, routePath, useHash, type Route } from './lib/router';
 import { AboutPage } from './pages/AboutPage';
 import { ArchivePage, DayPage } from './pages/ArchivePage';
 import { ExplorePage } from './pages/ExplorePage';
@@ -70,7 +70,8 @@ export function App({ source }: { source?: DataSource }) {
   const [heroSlot, setHeroSlot] = useState<HTMLElement | null>(null);
   const meta = useAsync(() => data.meta(), [data]);
 
-  useEffect(() => {
+  // Layout effect: inside a page transition the scroll must be reset before the browser captures the new page.
+  useLayoutEffect(() => {
     if (route.name !== 'home' || route.page !== 1) window.scrollTo({ top: 0 });
   }, [route]);
 
@@ -88,7 +89,8 @@ export function App({ source }: { source?: DataSource }) {
       <main id="main">
         {/* Edge-to-edge slot for the homepage hero, which lives outside the width-limited column. */}
         <div ref={setHeroSlot} className="hero-slot" />
-        <div className="container site-main">
+        {/* Keyed by page: without view transitions the new page plays a short CSS entrance instead (styles/motion.css). */}
+        <div key={routePath(hash)} className="container site-main route-view">
           <Page route={route} now={now} meta={meta.status === 'ready' ? meta.data : null} heroSlot={heroSlot} />
         </div>
       </main>
