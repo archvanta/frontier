@@ -59,3 +59,11 @@ Same method: ffprobe + 4-frame-per-16 s contact sheets in a session scratch fold
 | Mockup's decorative 01/02/03 hero rail | Not used (no function behind it) |
 | Mockup headline "AI IS MOVING FAST." | Kept the specified "TRACK THE SIGNAL." line, with the mockup's lime-on-key-word treatment |
 | Mockup's cyberpunk hero portrait | Not available as an asset and images are never generated; the real intro clip fills that role |
+
+## v3 references (2026-10-20): Sigma site screenshots
+Four stills supplied by the owner replace the glass direction ("exactly this"):
+1. Buttons: solid white pill with dark type and a leading icon; secondary is a translucent violet-tinted pill with white type; large radius.
+2. Header bar: full width, near-black gradient with a faint warm glow, logo mark + wordmark, grey links with small chevrons for drop-downs, a dark rounded "AI Chat" pill and a white "Download" pill. The open drop-down is a dark glossy rounded panel with a 1px border; rows have a rounded icon tile, a white title over a grey subtitle and thin dividers.
+3. Feature cards: large rounded cards with a vertical gradient (violet; teal to green), a muted label over a big light title, the product UI as an inset preview bleeding off the bottom.
+4. Three-up cards on black (violet / red / blue): icon tile top-left, "Learn more" pill top-right, title, two-line description, a divider, an illustration below.
+Mapping to SIGNAL AI is in `docs/DESIGN-SYSTEM.md` (header, drop-downs, buttons, gradient cards). The WebGL glass fold from the earlier GradFlow reference was removed.

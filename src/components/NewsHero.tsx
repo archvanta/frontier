@@ -6,14 +6,13 @@ import { useMediaQuery } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import type { Article } from '../lib/types';
-import { GlassFold } from './GlassFold';
 import { Icon } from './Icon';
 import { resolveImageUrl } from './StoryImage';
 
 /** Time each story stays on screen. */
 export const SLIDE_MS = 5000;
 const SWIPE_PX = 50;
-/** Feed thumbnails narrower than this look soft at full width, so the slide uses the glass-fold backdrop instead. */
+/** Feed thumbnails narrower than this look soft at full width, so the slide uses the gradient backdrop instead. */
 const MIN_IMAGE_WIDTH = 640;
 
 interface SlideProps {
@@ -80,12 +79,19 @@ function Slide({ story, index, total, active, mountImage, noImage, onImageBad }:
           )}
         </p>
         <div className="nh-actions">
-          <a className="nh-read" href={href(storyPath(story))}>
-            {t('hero_read')} <Icon name="arrow" size={16} directional />
+          <a className="btn is-primary is-lg nh-read" href={href(storyPath(story))}>
+            <Icon name="book" size={18} />
+            {t('hero_read')}
           </a>
           {external && (
-            <a className="nh-source" href={external} target="_blank" rel="noopener noreferrer" aria-label={`${t('read_source')}: ${story.sourceName}`}>
-              {t('read_source')} <Icon name="external" size={14} />
+            <a
+              className="btn is-violet is-lg nh-source"
+              href={external}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${t('read_source')}: ${story.sourceName}`}
+            >
+              {t('read_source')} <Icon name="external" size={15} />
             </a>
           )}
         </div>
@@ -98,7 +104,7 @@ function Slide({ story, index, total, active, mountImage, noImage, onImageBad }:
  * Full-bleed homepage carousel over real stories (see lib/heroStories.ts).
  * - Advances every SLIDE_MS with a crossfade, slow zoom and staged text; loops; any manual change restarts the timer.
  * - Pauses on hover, keyboard focus, hidden tab and off-screen; has an explicit pause button; autoplay is off under reduced motion.
- * - Dots, prev/next, arrow keys and touch swipe (direction follows RTL). Broken or tiny images fall back to the glass-fold backdrop.
+ * - Dots, prev/next, arrow keys and touch swipe (direction follows RTL). Broken or tiny images fall back to the gradient backdrop.
  * - `stories === null` means loading; an empty list degrades to the brand intro.
  */
 export function NewsHero({ stories }: { stories: Article[] | null }) {
@@ -122,8 +128,6 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const current = Math.min(index, Math.max(0, total - 1));
   const autoplay = total > 1 && (userPaused === null ? !reduced : !userPaused);
   const running = autoplay && !hover && !focusIn && onScreen && tabVisible;
-  const active = list[current];
-  const activeIsArt = !active || !genuineImage(active) || bad.has(active.id);
 
   const setProgress = useCallback((p: number) => dots.current?.style.setProperty('--p', String(p)), []);
 
@@ -233,7 +237,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
       onPointerCancel={() => (swipe.current = null)}
     >
       <div className="nh-stage">
-        <GlassFold active={activeIsArt && onScreen} />
+        <div className="nh-backdrop" aria-hidden="true" />
         {total > 0 && (
           <div className="nh-slides" aria-live={running ? 'off' : 'polite'}>
             {list.map((s, i) => (

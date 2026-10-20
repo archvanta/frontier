@@ -18,6 +18,16 @@ const en = {
   nav_sources: 'Sources',
   nav_search: 'Search',
   nav_menu: 'Menu',
+  nav_more: 'More',
+  menu_daily_d: "The day's top-ranked stories",
+  menu_weekly_d: "The week's strongest signals",
+  menu_monthly_d: 'The month in review',
+  menu_archive_d: 'Every collected day, newest first',
+  menu_sources_d: 'The feeds the collector reads',
+  menu_about_d: 'How stories are ranked',
+  theme_to_light: 'Switch to light theme',
+  theme_to_dark: 'Switch to dark theme',
+  card_read: 'Read',
   lang_switch: 'فارسی',
   lang_switch_label: 'Switch language to Persian',
   hero_title: 'THE WORLD IS CHANGING.',
@@ -160,6 +170,16 @@ const fa: Record<MessageKey, string> = {
   nav_sources: 'منابع',
   nav_search: 'جستجو',
   nav_menu: 'منو',
+  nav_more: 'بیشتر',
+  menu_daily_d: 'برترین خبرهای امروز',
+  menu_weekly_d: 'قوی‌ترین سیگنال‌های هفته',
+  menu_monthly_d: 'مروری بر ماه',
+  menu_archive_d: 'همهٔ روزهای جمع‌آوری‌شده، تازه‌ترین اول',
+  menu_sources_d: 'فیدهایی که گردآورنده می‌خواند',
+  menu_about_d: 'شیوهٔ رتبه‌بندی خبرها',
+  theme_to_light: 'تغییر به تم روشن',
+  theme_to_dark: 'تغییر به تم تیره',
+  card_read: 'خواندن',
   lang_switch: 'English',
   lang_switch_label: 'تغییر زبان به انگلیسی',
   hero_title: 'THE WORLD IS CHANGING.',
@@ -314,6 +334,33 @@ export function translate(locale: Locale, key: MessageKey, vars?: Record<string,
 
 export function categoryLabel(locale: Locale, id: CategoryId): string {
   return CATEGORY_LABELS[locale][id] ?? id;
+}
+
+const CATEGORY_DESCRIPTIONS: Record<Locale, Record<CategoryId, string>> = {
+  en: {
+    models: 'Model releases and updates',
+    research: 'Papers, benchmarks and labs',
+    products: 'Apps, tools and launches',
+    business: 'Funding, deals and strategy',
+    policy: 'Regulation and government',
+    'open-source': 'Open weights and community code',
+    hardware: 'Chips, compute and data centres',
+    safety: 'Alignment, security and risk',
+  },
+  fa: {
+    models: 'عرضه و به‌روزرسانی مدل‌ها',
+    research: 'مقاله‌ها، بنچمارک‌ها و آزمایشگاه‌ها',
+    products: 'اپ‌ها، ابزارها و عرضه‌ها',
+    business: 'سرمایه‌گذاری، قراردادها و راهبرد',
+    policy: 'قانون‌گذاری و دولت‌ها',
+    'open-source': 'وزن‌های باز و کد جامعه',
+    hardware: 'تراشه، توان محاسباتی و مراکز داده',
+    safety: 'همسویی، امنیت و ریسک',
+  },
+};
+
+export function categoryDescription(locale: Locale, id: CategoryId): string {
+  return CATEGORY_DESCRIPTIONS[locale][id] ?? '';
 }
 
 export function pickWindowLabel(locale: Locale, w: PickWindow): string {

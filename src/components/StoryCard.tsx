@@ -3,17 +3,18 @@ import { useBookmarks } from '../lib/bookmarks';
 import { formatDateTime, formatTime } from '../lib/dates';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
+import { categoryIcon, toneFor } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { StoryImage } from './StoryImage';
 
 /**
- * Editorial variants, each with its own image ratio and type size:
- * - feature: image-led lead story, copy set over the photo (Top Signals #1)
- * - split:   secondary story, copy beside a wide image (Top Signals #2–3)
- * - lead:    first story of a day, large horizontal composition
- * - grid:    standard card, 3:2 image on top
- * - list:    structured feed row with a small thumbnail
+ * Variants. The first four are gradient cards (tone follows the category, white type, the story's real image as the preview):
+ * - feature: large card, muted label over a big title, image bleeding off the bottom (Top Signals #1)
+ * - split:   secondary card, copy beside the image (Top Signals #2–3)
+ * - lead:    first story of a day, wide horizontal card
+ * - grid:    three-up card: icon tile and "Read" pill, title, two-line excerpt, divider, image
+ * - list:    open feed row with a small thumbnail
  * - row:     text-only ranked row
  */
 export type StoryVariant = 'feature' | 'split' | 'lead' | 'grid' | 'list' | 'row';
@@ -67,24 +68,42 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
   const when = timeOnly ? formatTime(article.publishedAt, locale) : formatDateTime(article.publishedAt, locale);
   const link = href(storyPath(article));
   const rankLabel = rank !== undefined ? String(rank).padStart(2, '0') : null;
-  // Dense list rows carry the category as quiet text; every other variant uses the chip.
-  const chip = (
-    <a className={variant === 'list' ? 'kicker-cat' : 'chip'} href={href('/explore', { c: article.category })}>
+  const gradient = variant === 'feature' || variant === 'split' || variant === 'lead' || variant === 'grid';
+  // Dense list rows carry the category as quiet text, ranked rows as a chip, gradient cards as a muted label above the title.
+  const catLink = (
+    <a className={variant === 'row' ? 'chip' : 'kicker-cat'} href={href('/explore', { c: article.category })}>
       {categoryLabel(locale, article.category)}
     </a>
   );
+  const source = (
+    <span className="kicker-source">
+      <SourceMark name={article.sourceName} />
+      {article.sourceName}
+    </span>
+  );
+  const media = variant !== 'row' && (
+    <div className="story-media-wrap">
+      <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
+        <StoryImage article={article} eager={eagerImage} />
+      </a>
+    </div>
+  );
+  const mediaFirst = variant === 'lead' || variant === 'list';
 
   return (
-    <article className={`story-card is-${variant}`} data-testid="story-card" data-id={article.id}>
-      {variant !== 'row' && (
-        <div className="story-media-wrap">
-          <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
-            <StoryImage article={article} eager={eagerImage} />
-          </a>
-          {variant === 'grid' && <div className="story-media-chip">{chip}</div>}
-        </div>
-      )}
+    <article className={`story-card is-${variant}`} data-testid="story-card" data-id={article.id} data-tone={gradient ? toneFor(article.category) : undefined}>
+      {mediaFirst && media}
       <div className="story-body">
+        {variant === 'grid' && (
+          <div className="story-top">
+            <span className="story-tile" aria-hidden="true">
+              <Icon name={categoryIcon(article.category)} size={22} />
+            </span>
+            <span className="story-pill" aria-hidden="true">
+              {t('card_read')}
+            </span>
+          </div>
+        )}
         <div className="story-kicker">
           {rankLabel && (
             <span className="rank">
@@ -92,11 +111,8 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
               {rankLabel}
             </span>
           )}
-          {variant !== 'grid' && chip}
-          <span className="kicker-source">
-            <SourceMark name={article.sourceName} />
-            {article.sourceName}
-          </span>
+          {catLink}
+          {!gradient && source}
         </div>
         <H className="story-title" lang={title.lang} dir="auto">
           <a href={link}>{title.text}</a>
@@ -108,7 +124,11 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
           </p>
         )}
         <div className="story-meta">
-          <time dateTime={article.publishedAt} title={article.dateEstimated ? t('date_estimated') : `${t('published')}: ${formatDateTime(article.publishedAt, locale)}`}>
+          {gradient && source}
+          <time
+            dateTime={article.publishedAt}
+            title={article.dateEstimated ? t('date_estimated') : `${t('published')}: ${formatDateTime(article.publishedAt, locale)}`}
+          >
             <Icon name="clock" size={13} />
             {when}
             {article.dateEstimated && <span aria-hidden="true">*</span>}
@@ -122,12 +142,20 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
           <span className="meta-spacer" />
           <BookmarkButton article={article} />
           {external && (
-            <a className="icon-btn" href={external} target="_blank" rel="noopener noreferrer" aria-label={`${t('read_source')}: ${article.sourceName}`} title={t('read_source')}>
+            <a
+              className="icon-btn"
+              href={external}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${t('read_source')}: ${article.sourceName}`}
+              title={t('read_source')}
+            >
               <Icon name="external" />
             </a>
           )}
         </div>
       </div>
+      {!mediaFirst && media}
     </article>
   );
 }

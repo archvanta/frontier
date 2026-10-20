@@ -78,7 +78,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
                   {t('latest_news')}
                 </h2>
                 {present.length > 1 && (
-                  <div className="filter-chips glass-control" role="group" aria-label={t('filter_by_category')}>
+                  <div className="filter-chips pill-track" role="group" aria-label={t('filter_by_category')}>
                     {(['all', ...present] as const).map((c) => (
                       <button key={c} type="button" className="filter-chip" aria-pressed={category === c} onClick={() => setCategory(c)}>
                         {c === 'all' ? t('filter_all') : categoryLabel(locale, c)}

@@ -3,31 +3,44 @@
 Derived from `docs/design/reference-analysis.md` (v2: the "Signal AI — The Future Moves Fast" mockup, the Sigma and Resflow site recordings). Tokens: `src/styles/tokens.css`. Components: `src/components/`.
 
 ## Direction
-Black, minimal, cinematic. True-black ground with graphite surfaces, white type and **one** accent: luminous blue. News stays editorial (sharp type, real images, open layouts, hairlines instead of boxes); glass is reserved for things you operate. The only decorative light is the blue "glass fold" in the hero. No violet, cyan, lime or lit card gradients.
+Black by default, white on request, always the same system: a full-width header bar, white and violet pill buttons, drop-down panels with icon tiles, and large rounded **gradient cards** with a muted label over a big light title and the story's real image as an inset preview (the look of the owner's Sigma reference screenshots, 2026-10-20). News stays editorial (real images, sharp type, hairlines between feed rows). No glass or blur anywhere: surfaces are opaque. The one decorative light is the deep navy-to-violet glow behind hero slides that have no photo.
 
 ## Colour
-| Token | Value | Use |
-|---|---|---|
-| `--bg`, `--bg-navy` | `#000000`, `#050507` | Page foundation |
-| `--surface-1/2/3` | `#0a0a0d` / `#101014` / `#18181e` | Opaque editorial surfaces (split cards, status, facts, tables, wall cards) |
-| `--line`, `--line-strong` | white at 8% / 16% | Hairlines between feed rows and sections |
-| `--text`, `--text-2`, `--text-3` | `#f5f6f8`, `#b7bac4`, `#8b8f9c` | Body ≥ 4.5:1 on every surface (axe-checked) |
-| `--accent` | `#5b9dff` blue | Active states (nav filament, selected tab/chip, current page), category labels, rank numerals, score rings, the active carousel indicator |
-| `--accent-strong` | `#2e6bf0` | Filled accent surfaces (primary button, rank pill); white text, 4.7:1 |
-| `--violet`, `--blue`, `--cyan`, `--teal` | blue family only | Legacy token names, now all blues; used by the fallback art and the shader |
-| `--warn`, `--danger`, `--ok` | amber, coral, green | Source health, mock banner, errors |
+Tokens: `src/styles/tokens.css`. Dark values are `:root`; `html[data-theme='light']` redefines the surface, line, text, overlay, button and header tokens.
+| Token | Dark | Light | Use |
+|---|---|---|---|
+| `--bg`, `--bg-navy` | `#000000`, `#050507` | `#ffffff`, `#f7f7fa` | Page foundation |
+| `--surface-1/2/3` | `#0a0a0d` / `#101014` / `#18181e` | `#f5f5f8` / `#ececf1` / `#e2e2ea` | Opaque panels (filter panel, Weekly Brief, status, tables, track behind tabs) |
+| `--line`, `--line-strong` | white at 8% / 16% | ink at 10% / 20% | Hairlines |
+| `--text`, `--text-2`, `--text-3` | `#f5f6f8`, `#b7bac4`, `#8b8f9c` | `#0b0b10`, `#3f4250`, `#5c5f6e` | Body ≥ 4.5:1 on every surface in both themes (axe-checked) |
+| `--accent` | `#5b9dff` | `#2459d6` | Active states, links, focus ring, current-page underline, rank numerals, score rings |
+| `--btn-primary-bg/ink` | white / near-black | near-black / white | Primary pill (solid white in dark) |
+| `--btn-secondary-*` | violet-tinted translucent, white type | pale violet, deep violet type | Secondary pill |
+| `--btn-dark-*` | `#202024` | `#ececf1` | Utility pills (search, language, theme, menu) |
+| `--tone-violet/blue/indigo/teal/crimson` | vertical gradients, deep at the top to saturated at the foot | same | Story-card, wall-card and menu-tile fills; always carry white type |
+| `--ov-1…3`, `--well` | white overlays | ink overlays | Hover fills, kbd hints, input wells |
+| `--warn`, `--danger`, `--ok` | amber, coral, green | darker amber, red, green | Source health, mock banner, errors |
 
-## Liquid glass (selective)
+Surfaces that stay dark in the light theme (the hero, gradient cards, wall cards) re-declare the dark text, accent and button values (`html[data-theme='light'] :is(.news-hero, .story-card[data-tone], .wall-card[data-tone])`), so nothing inside them needs a light variant.
+
+Category → tone: models violet, research blue, products indigo, business teal, policy crimson, open-source teal, hardware indigo, safety crimson (`src/lib/tones.ts`, together with the category icons).
+
+## Themes
+- **Switch**: the sun/moon button in the header (`ThemeToggle`; its label names the theme it switches to). Dark is the default.
+- **Persistence**: `localStorage['signal-ai:theme']`. `public/theme-init.js` is a tiny blocking classic script in `<head>` (allowed by the production CSP's `script-src 'self'`) that sets `data-theme` before first paint, so there is no flash; `src/lib/theme.ts` keeps the `theme-color` meta in sync and exposes `useTheme()`. Storage being blocked falls back to dark.
+- **Light-theme specifics**: the hero stays a dark stage (white type over the photo or gradient) with rounded bottom corners instead of fading into the page; gradient cards keep their dark gradients and white type; primary buttons invert to near-black.
+
+## Surfaces
 | Class | Treatment | Used on |
 |---|---|---|
-| `.glass` | sheen gradient + `--glass-bg`, 20px blur, inner top highlight, masked gradient edge (`::before`) | Floating header bar, mobile menu, Explore filter panel |
-| `.glass-control` | lighter sheen, 12px blur | Top Signals tabs, Latest News category chips, Picks page tabs |
-| Weekly Brief | glass-tinted panel without backdrop blur (sticky, so blur would cost scrolling) | Recommendations |
+| `.surface` | opaque `--surface-1`, 1px `--line-strong`, soft shadow | Explore filter panel |
+| `.pill-track` | opaque `--surface-2` with a hairline | Track behind the Top Signals / Picks tabs and the Latest News category chips |
+| Header, drop-down panels | `--header-bg` (near-black gradient with a faint warm glow), `--panel-bg` (dark glossy gradient), 1px `--panel-line`, inner top highlight | Header bar, nav panels, mobile menu |
 
-Not glass: story cards, feed rows, day sections, story page, hero controls (plain translucent black). `@supports not (backdrop-filter)` swaps every glass surface for an opaque graphite (`--glass-fallback`).
+There is no `backdrop-filter` anywhere.
 
-## Glass fold (hero atmosphere)
-`GlassFold.tsx`: a ~60-line fragment shader (no library, no texture, no network) drawing three layers of flowing blue ribbons with glowing creases, at up to 960px render size and 30 fps. A CSS rendering of the same look (`.glass-fold-static`) sits underneath and is the whole effect when WebGL is missing, the context is lost, motion is reduced, or before the first frame. It runs only while it is on screen, the tab is visible and the active slide has no usable photo; it stops and releases the context otherwise.
+## Hero backdrop
+Slides without a usable photo (or whose photo failed or is under 640px wide) sit on `.nh-backdrop`: layered CSS radial gradients (violet at the foot on the reading side, blue at the opposite corner, a faint lift at the top) over `#07050f`. No canvas, no WebGL, no dependency. It mirrors in RTL.
 
 ## Type
 - Display: **Space Grotesk** (variable) — hero (uppercase, −0.035em, up to 3.4rem), section titles (uppercase), lead/feature headlines.
@@ -37,36 +50,38 @@ Not glass: story cards, feed rows, day sections, story page, hero controls (plai
 
 ## Layout
 - Container 1320px, gutter `clamp(1rem, …, 2rem)`, 4px spacing scale, `--section-gap` between major sections.
-- **Header**: floating glass bar, 12px below the top, sticky, drawn over the hero. Wordmark, nav with lit capsule + blue filament for the active page, search well with `/` shortcut, FA/EN switch. ≤1080px the nav moves into a glass drop-down that also lists categories.
-- **Hero (news carousel)**: edge to edge, `clamp(540px, 88svh, 860px)`, starting under the header (rendered through a portal into `#hero-slot`, outside the width-limited column). The current story's real image fills the scene under a soft dark gradient; the copy sits bottom-start: category label (accent), headline, 1–2 line excerpt, source · time, "Read full story" link and a quiet source link. See below for behaviour.
-- **Top Signals**: one image-led feature (#1, copy over photo, ≥480px), two split secondaries (#2–3), then "Also ranking" text rows (#4–6). Daily/Weekly/Monthly tabs.
+- **Header**: a full-width sticky bar (68px) on a near-black gradient with a faint warm glow and a hairline underneath. Inline-start: the SIGNAL AI mark (rounded gradient tile with the signal bars) and wordmark. Then plain grey links, white when current with a short accent underline: Top Signals, **Picks ▾** (Daily / Weekly / Monthly), **Categories ▾** (the eight categories), Explore, **More ▾** (Archive, Sources, Method). Inline-end: dark search pill (`/` focuses it), dark FA/EN pill, dark theme button and a solid white **Saved** pill. Mirrored in Persian.
+- **Drop-downs** (`NavGroup` in `Header.tsx`): a disclosure button (`aria-expanded`) opens a dark glossy panel with a 1px border; each row is a rounded gradient icon tile, a white title, a grey one-line description and a hairline divider. Click toggles; one panel at a time; ArrowDown on the button enters the panel, Arrow/Home/End move between rows, Escape closes and returns focus to the button, an outside click, focus leaving or navigation closes. The current page is `aria-current`.
+- **≤1180px** the nav becomes a full-width panel under the bar (menu button), groups turn into accordions with the same rows, and Saved moves into the list.
+- **Hero (news carousel)**: edge to edge, `clamp(520px, 88svh − header, 820px)`, directly under the header bar (rendered through a portal into `#hero-slot`, outside the width-limited column). The current story's real image fills the scene under a soft dark gradient; the copy sits bottom-start: category label (accent), headline, 1–2 line excerpt, source · time, "Read full story" link and a quiet source link. See below for behaviour.
+- **Top Signals**: a large gradient feature card (#1: rank and muted category label, big light title, excerpt, source · time · actions, image bleeding off the bottom), two split gradient cards (#2–3: copy beside a rounded image), then "Also ranking" text rows (#4–6). Daily/Weekly/Monthly tabs are a segmented control whose active segment is the primary pill.
 - **Signal wall**: the newest real headlines as mini cards in four tilted vertical marquee columns, faded into the black page at every edge.
-- **Latest News**: chronological day sections beside a sticky aside (Weekly Brief + Signal status). Each day: a large lead, three 3:2 image cards, then a two-column list. Category chips filter the loaded days in place.
+- **Latest News**: chronological day sections beside a sticky aside (Weekly Brief + Signal status). Each day: a wide gradient lead card, three three-up cards (icon tile top-left, "Read" pill top-right, title, two-line excerpt, meta, divider, image off the bottom edge), then a two-column open list. Category chips filter the loaded days in place.
 - ≤1080px the aside drops above the feed; ≤760px lists and secondaries go single-column.
 
 ## News carousel (`NewsHero`)
-- **Stories** (`lib/heroStories.ts`): today's top-ranked daily picks first, then the newest stories, only those with a genuine feed/og image (never category art or brand art), up to 6, no duplicates. If fewer than 3 have a real image the carousel is filled to 3 with the next stories (their slide shows the glass-fold backdrop instead of a photo). No stories: the brand intro (`THE WORLD IS CHANGING. TRACK THE SIGNAL.`) on the glass fold.
+- **Stories** (`lib/heroStories.ts`): today's top-ranked daily picks first, then the newest stories, only those with a genuine feed/og image (never category art or brand art), up to 6, no duplicates. If fewer than 3 have a real image the carousel is filled to 3 with the next stories (their slide shows the gradient backdrop instead of a photo). No stories: the brand intro (`THE WORLD IS CHANGING. TRACK THE SIGNAL.`) on the gradient backdrop.
 - **Timing**: 5 s per story, counted in visible, un-paused time; crossfade 1.2 s, slow zoom 1.09 → 1, copy rises in with a short stagger. Loops. Any manual change restarts the timer.
 - **Pauses**: pointer hover, keyboard focus, hidden tab, hero less than 35% visible, and the explicit pause button. Under `prefers-reduced-motion` there is no autoplay, zoom or text motion; the button starts it on request.
 - **Input**: clickable indicators (the active one fills with the accent as progress), prev/next, arrow keys (flipped in RTL), touch swipe ≥ 50px (flipped in RTL).
-- **Images**: first image high priority, the next one preloaded, others not mounted until visited. A failed or narrower-than-640px image swaps that slide to the glass-fold backdrop.
+- **Images**: first image high priority, the next one preloaded, others not mounted until visited. A failed or narrower-than-640px image swaps that slide to the gradient backdrop.
 - **A11y**: carousel/slide roles, inactive slides `inert` + `aria-hidden`, live region off while rotating, one visually hidden `h1` with the brand line, slide titles are `h2`.
 
 ## Signal wall (`SignalWall`, `Marquee`)
 Port of the 21st.dev "3D testimonials" Marquee to plain CSS keyframes (props `vertical`, `reverse`, `pauseOnHover`, `repeat`; the same translate-by-one-track loop; the same `perspective` + `rotateX/Y/Z` plane, mirrored in RTL). Tailwind and shadcn were deliberately not introduced for one component: the site is plain CSS with tokens and logical properties. Cards are real stories (thumbnail, category, headline, source · time). The moving wall repeats stories listed in full below, so it is `aria-hidden` and its links are out of the tab order; with reduced motion, or under 6 stories, a plain grid of real links replaces it. Columns pause on hover, off-screen and in hidden tabs.
 
 ## Components
-`Header` (`Wordmark`, `LangSwitch`), `NewsHero`, `GlassFold`, `SignalWall`, `Marquee`, `PicksPanel`, `StoryCard` (feature / split / lead / grid / list / row), `StoryImage` (fixed ratio, fallback on error), `WeeklyBrief` (`ScoreRing`), `SignalStatus`, `DaySection`, `Pagination`, `ScoreExplain`, `States`, `Footer`/`LastUpdate`.
+`Header` (`Wordmark`, `NavGroup`, `LangSwitch`, `ThemeToggle`), `NewsHero`, `SignalWall`, `Marquee`, `PicksPanel`, `StoryCard` (feature / split / lead / grid / list / row), `StoryImage` (fixed ratio, fallback on error), `WeeklyBrief` (`ScoreRing`), `SignalStatus`, `DaySection`, `Pagination`, `ScoreExplain`, `States`, `Footer`/`LastUpdate`.
 
-Category fallback art (`scripts/make_fallbacks.py`): black with soft blue light, a small glass tile and the glyph in blue.
+Category fallback art (`scripts/make_fallbacks.py`): black with soft blue light, a small tile and the glyph in blue; it works on every card tone and in both themes.
 
 ## Motion
-- Card entry fade/rise 520 ms; image zoom 1.035 and a accent underline that draws under the title on hover; header opacity on scroll; live-dot pulse; skeleton shimmer.
-- Everything is disabled under `prefers-reduced-motion` (`--dur: 0ms`, animations off): the carousel does not autoplay, the shader and the marquee are off. The intro video (`public/videos/`) is kept but no longer used.
+- Card entry fade/rise 520 ms; image zoom 1.035 and an underline that draws under the title on hover; drop-down panel fade/slide 220 ms; live-dot pulse; skeleton shimmer. (A site-wide motion system, page transitions and a theme-switch transition are a separate step.)
+- Everything is disabled under `prefers-reduced-motion` (`--dur: 0ms`, animations off): the carousel does not autoplay and the marquee is off. The intro video (`public/videos/`) is kept but no longer used.
 
 ## Accessibility
-- Skip button to main, visible blue focus ring, landmarks, one `h1` per page, `aria-current` on nav/pagination, `aria-pressed` on bookmarks, language buttons and filter chips, ARIA tabs with RTL-aware arrow keys.
+- Skip button to main, visible blue focus ring, landmarks, one `h1` per page, `aria-current` on nav/pagination, `aria-pressed` on bookmarks, language buttons and filter chips, `aria-expanded` on drop-down buttons, a labelled theme button, ARIA tabs with RTL-aware arrow keys.
 - Feed text is rendered as text only; titles get `dir="auto"` and `lang`.
 
 ## RTL
-Logical CSS properties throughout; directional icons flip (`.icon-dir`, `.icon-back`); mask gradients on the hero plate and split images flip direction under `[dir='rtl']`.
+Logical CSS properties throughout; directional icons flip (`.icon-dir`, `.icon-back`); the hero backdrop and its text mirror under `[dir='rtl']`; the header, drop-downs and cards mirror through logical properties.
