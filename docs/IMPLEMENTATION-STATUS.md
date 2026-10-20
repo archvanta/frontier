@@ -14,5 +14,10 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | 8 Actions & Pages | ✅ Passed (collector live; Pages deploy run 39311450758 succeeded) | `docs/phases/PHASE-08-GITHUB-DEPLOYMENT.md#evidence` | `feat(phase-8)` |
 | 9 QA & release | ✅ Passed (live page not opened from the build container; see QA report) | `docs/phases/PHASE-09-QA-RELEASE.md#evidence` | `docs(phase-9)` |
 
+## Post-release changes
+| Change | Evidence |
+|---|---|
+| UI/UX redesign v2: cinematic hero, floating glass header, editorial Top Signals / Latest News, Weekly Brief, selective liquid glass, navy/violet/cyan palette | `docs/DESIGN-SYSTEM.md`, `docs/design/reference-analysis.md#v2-references-redesign-2026-10-19`; `npm run check` + 32 Playwright e2e/axe tests on the mock build |
+
 ## Resume
 Run `/continue-phase` (see `.claude/commands/continue-phase.md`).

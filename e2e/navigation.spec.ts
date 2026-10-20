@@ -58,3 +58,37 @@ test('unknown routes show a not-found state with a way home', async ({ page }) =
   await page.goto('./#/nope/nothing');
   await expect(page.getByRole('link', { name: 'Go to Top Signals' })).toBeVisible();
 });
+
+test('home category chips filter the latest feed in place', async ({ page }) => {
+  await page.goto('./#/');
+  const cards = page.locator('#latest [data-testid=story-card]');
+  await expect(cards.first()).toBeVisible();
+  const all = await cards.count();
+  const chips = page.getByRole('group', { name: 'Filter stories by category' });
+  const chip = chips.getByRole('button').nth(1);
+  const label = (await chip.textContent())!.trim();
+  await chip.click();
+  await expect(chip).toHaveAttribute('aria-pressed', 'true');
+  const filtered = await cards.count();
+  expect(filtered).toBeGreaterThan(0);
+  expect(filtered).toBeLessThan(all);
+  const shown = await page.locator('#latest [data-testid=story-card] :is(.chip, .kicker-cat)').allTextContents();
+  expect(shown.every((t) => t.trim() === label)).toBe(true);
+  await chips.getByRole('button', { name: 'All' }).click();
+  await expect(cards).toHaveCount(all);
+});
+
+test('"/" focuses the header search and the mobile menu exposes categories', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/');
+  await expect(page.getByTestId('story-card').first()).toBeVisible();
+  await page.keyboard.press('/');
+  await expect(page.locator('#site-search')).toBeFocused();
+  await page.locator('#site-search').blur();
+  await page.getByRole('button', { name: 'Menu' }).click();
+  const nav = page.locator('#primary-nav');
+  await expect(nav.getByRole('link', { name: 'Explore' })).toBeVisible();
+  await expect(nav.getByRole('list', { name: 'Categories' }).getByRole('link').first()).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(nav.getByRole('link', { name: 'Explore' })).toBeHidden();
+});

@@ -26,14 +26,18 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
     document.getElementById(`${base}-tab-${w}`)?.focus();
   };
 
+  const [second, third, ...more] = rest;
+
   return (
     <section className="picks" aria-labelledby={`${base}-h`} id="top-signals">
       <header className="section-head">
         <h2 id={`${base}-h`} className="section-title">
-          <span className="section-dot" aria-hidden="true" />
+          <span className="section-glyph" aria-hidden="true">
+            <Icon name="signal" size={22} />
+          </span>
           {t('top_signals')}
         </h2>
-        <div className="tabs" role="tablist" aria-label={t('picks_window')}>
+        <div className="tabs glass-control" role="tablist" aria-label={t('picks_window')}>
           {WINDOWS.map((w) => (
             <button
               key={w}
@@ -51,21 +55,38 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
             </button>
           ))}
         </div>
+        <a className="section-link" href={href('/picks/' + active)}>
+          {t('view_all')} <Icon name="arrow" size={14} directional />
+        </a>
       </header>
       <div id={`${base}-panel`} role="tabpanel" aria-labelledby={`${base}-tab-${active}`} className="picks-body">
         {!first ? (
           <EmptyState title={t('picks_empty')} />
         ) : (
-          <div className="picks-grid">
-            <StoryCard article={first.article} variant="feature" rank={first.rank} eagerImage headingLevel={3} />
-            <ol className="picks-list">
-              {rest.map((p) => (
-                <li key={p.article.id}>
-                  <StoryCard article={p.article} variant="row" rank={p.rank} headingLevel={3} />
-                </li>
-              ))}
-            </ol>
-          </div>
+          <>
+            <div className="picks-grid">
+              <StoryCard article={first.article} variant="feature" rank={first.rank} eagerImage headingLevel={3} />
+              {(second || third) && (
+                <div className="picks-secondary">
+                  {[second, third].map(
+                    (p) => p && <StoryCard key={p.article.id} article={p.article} variant="split" rank={p.rank} eagerImage headingLevel={3} />,
+                  )}
+                </div>
+              )}
+            </div>
+            {more.length > 0 && (
+              <div className="picks-more">
+                <p className="picks-more-label">{t('also_ranking')}</p>
+                <ol className="picks-list">
+                  {more.map((p) => (
+                    <li key={p.article.id}>
+                      <StoryCard article={p.article} variant="row" rank={p.rank} headingLevel={3} />
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
+          </>
         )}
         <p className="picks-note">
           <Icon name="info" size={14} /> {t('picks_note')}{' '}

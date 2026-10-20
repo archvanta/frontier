@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useMediaQuery } from '../lib/hooks';
 import { useI18n } from '../lib/i18n';
 import { Icon } from './Icon';
@@ -28,12 +28,12 @@ function prefersLowData(): boolean {
 }
 
 /**
- * Compact cinematic intro. The clip has no audio track and is always muted.
+ * Wide cinematic intro: the clip is graded into the hero's lighting, copy sits in the scene. The clip has no audio track and is always muted.
  * - Autoplays only when ≥25% visible, pauses when scrolled away.
  * - Reduced motion, Save-Data/2G and small screens get the poster frame; the user may still press play.
  * - Fixed aspect ratio box, so nothing shifts while the video loads.
  */
-export function HeroVideo({ aside }: { aside?: ReactNode }) {
+export function HeroVideo() {
   const { t } = useI18n();
   const ref = useRef<HTMLVideoElement>(null);
   const reducedMotion = useMediaQuery('(prefers-reduced-motion: reduce)');
@@ -95,59 +95,70 @@ export function HeroVideo({ aside }: { aside?: ReactNode }) {
     }
   };
 
+  // The brand line stays English in both locales; the last word of the sub-line carries the accent.
+  const sub = t('hero_sub');
+  const cut = sub.lastIndexOf(' ');
+  const subLead = cut > 0 ? sub.slice(0, cut + 1) : '';
+  const subLast = cut > 0 ? sub.slice(cut + 1) : sub;
+
   return (
     <section className="hero" aria-labelledby="hero-title">
       <div className="hero-frame">
-        {loadVideo ? (
-          <video
-            ref={ref}
-            className="hero-video"
-            poster={POSTER}
-            muted
-            playsInline
-            loop
-            preload="metadata"
-            aria-hidden="true"
-            tabIndex={-1}
-            disablePictureInPicture
-            onPause={() => setPlaying(false)}
-            onPlay={() => setPlaying(true)}
-            data-testid="hero-video"
-          >
-            {/* MP4 (H.264) first for Safari/iOS; VP9 WebM for browsers without H.264. */}
-            <source src={VIDEO_MP4} type="video/mp4" />
-            <source src={VIDEO_WEBM} type="video/webm" onError={() => setFailed(true)} />
-          </video>
-        ) : (
-          <img className="hero-video" src={POSTER} alt="" width={1280} height={720} data-testid="hero-poster" />
-        )}
-        <div className="hero-shade" aria-hidden="true" />
+        <div className="hero-atmosphere" aria-hidden="true" />
+        <div className={`hero-media ${playing ? 'is-playing' : ''}`}>
+          {loadVideo ? (
+            <video
+              ref={ref}
+              className="hero-video"
+              poster={POSTER}
+              muted
+              playsInline
+              loop
+              preload="metadata"
+              aria-hidden="true"
+              tabIndex={-1}
+              disablePictureInPicture
+              onPause={() => setPlaying(false)}
+              onPlay={() => setPlaying(true)}
+              data-testid="hero-video"
+            >
+              {/* MP4 (H.264) first for Safari/iOS; VP9 WebM for browsers without H.264. */}
+              <source src={VIDEO_MP4} type="video/mp4" />
+              <source src={VIDEO_WEBM} type="video/webm" onError={() => setFailed(true)} />
+            </video>
+          ) : (
+            <img className="hero-video" src={POSTER} alt="" width={1280} height={720} data-testid="hero-poster" />
+          )}
+          <div className="hero-grade" aria-hidden="true" />
+        </div>
         <div className="hero-copy">
           <p className="hero-kicker">
-            <Icon name="pulse" size={16} /> SIGNAL AI
+            <span className="hero-kicker-dot" aria-hidden="true" />
+            {t('hero_kicker')}
           </p>
           <h1 id="hero-title" className="hero-title" lang="en" dir="ltr">
-            <span>{t('hero_title')}</span>
-            <span className="hero-sub">{t('hero_sub')}</span>
+            <span className="hero-line">{t('hero_title')}</span>
+            <span className="hero-line hero-sub">
+              {subLead}
+              <span className="hero-accent">{subLast}</span>
+            </span>
           </h1>
           <p className="hero-body">{t('hero_body')}</p>
-          <button type="button" className="hero-cta" onClick={() => focusSection('latest')}>
-            {t('hero_cta')} <Icon name="arrow" directional />
-          </button>
+          <div className="hero-actions">
+            <button type="button" className="btn is-primary hero-cta" onClick={() => focusSection('top-signals')}>
+              <Icon name="arrow" directional size={16} /> {t('hero_cta')}
+            </button>
+            {!failed && (
+              <button type="button" className="btn is-glass hero-toggle" onClick={toggle}>
+                <span className="hero-toggle-icon" aria-hidden="true">
+                  <Icon name={playing ? 'pause' : 'play'} size={14} filled />
+                </span>
+                {playing ? t('hero_pause') : t('hero_play')}
+              </button>
+            )}
+          </div>
         </div>
-        {!failed && (
-          <button
-            type="button"
-            className="hero-toggle icon-btn"
-            onClick={toggle}
-            aria-label={playing ? t('hero_pause') : t('hero_play')}
-            title={playing ? t('hero_pause') : t('hero_play')}
-          >
-            <Icon name={playing ? 'pause' : 'play'} />
-          </button>
-        )}
       </div>
-      {aside && <div className="hero-aside">{aside}</div>}
     </section>
   );
 }
