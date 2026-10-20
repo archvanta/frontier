@@ -56,7 +56,7 @@ export function SavedPage() {
   return (
     <div className="page container-narrow">
       <header className="page-head">
-        <p className="eyebrow">SIGNAL / SAVED</p>
+        <p className="eyebrow">FRONTIER / SAVED</p>
         <h1 className="page-title">{t('saved_title')}</h1>
         <p className="page-intro">
           <Icon name="info" size={14} /> {saved.cloud ? at('saved_cloud_note') : t('saved_note')}

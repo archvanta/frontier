@@ -29,14 +29,36 @@ function isTyping(target: EventTarget | null): boolean {
   return !!el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName));
 }
 
-export function Wordmark() {
+/** The FRONTIER mark: a rising line breaking past a horizon. */
+export function BrandMark({ size = 20 }: { size?: number }) {
   return (
-    <a className="wordmark" href={href('/')} aria-label="SIGNAL AI">
+    <svg
+      className="icon"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M4 19h16" />
+      <path d="M6 15l4.5-4.5 3 3L19 8" />
+      <path d="M15 8h4v4" />
+    </svg>
+  );
+}
+
+export function Wordmark() {
+  const { t } = useI18n();
+  return (
+    <a className="wordmark" href={href('/')} aria-label={t('brand')}>
       <span className="wordmark-glyph" aria-hidden="true">
-        <Icon name="signal" size={20} />
+        <BrandMark />
       </span>
       <span className="wordmark-text" lang="en" dir="ltr">
-        SIGNAL<span>AI</span>
+        FRONTIER
       </span>
     </a>
   );

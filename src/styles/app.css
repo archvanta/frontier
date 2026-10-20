@@ -358,7 +358,7 @@ html[lang='fa'] .mt-label {
   flex: none;
 }
 
-/* The SIGNAL AI mark: a rounded tile with the signal bars. */
+/* The FRONTIER mark: a rounded tile with a rising line over a horizon. */
 .wordmark-glyph {
   display: inline-grid;
   place-items: center;
@@ -389,16 +389,6 @@ html[lang='fa'] .mt-label {
   letter-spacing: 0.02em;
 }
 
-.wordmark-text span,
-.footer-brand > span:last-child {
-  color: var(--accent);
-  margin-inline-start: 0.28em;
-}
-
-.wordmark-text span {
-  color: var(--text-2);
-  font-weight: 500;
-}
 
 .primary-nav {
   margin-inline-start: auto;
