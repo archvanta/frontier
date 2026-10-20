@@ -76,6 +76,9 @@ test('hero: indicators, arrows and keyboard navigate, and a manual change restar
 test('hero pauses on hover and with the pause button', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
+  // The hero remounts when the stories arrive; hover only counts on the final element, so wait for it before moving in.
+  await expect(counter(page)).toContainText('01');
+  await page.mouse.move(700, 300);
   await page.mouse.move(700, 400);
   await page.waitForTimeout(6500);
   await expect(counter(page)).toContainText('01');
