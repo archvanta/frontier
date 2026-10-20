@@ -20,16 +20,22 @@ export function genuineImage(a: Pick<Article, 'image' | 'sourceImage'>): Article
  * Chooses the carousel stories from data the page already loaded; nothing is invented.
  * Order: today's top-ranked picks first (the most important story opens the page), then the newest stories.
  * Only stories with a genuine feed/og image qualify, unless fewer than HERO_MIN do.
+ * `preferred` (stories on followed topics) moves those stories to the front before that choice.
  */
-export function pickHeroStories(newestFirst: readonly Article[], picks: PicksFile | null, max = HERO_MAX): Article[] {
-  const ranked = (picks?.windows.daily.picks ?? []).slice().sort((a, b) => a.rank - b.rank).map((p) => p.article);
-  const ordered: Article[] = [];
+export function pickHeroStories(newestFirst: readonly Article[], picks: PicksFile | null, max = HERO_MAX, preferred?: (a: Article) => boolean): Article[] {
+  const ranked = (picks?.windows.daily.picks ?? [])
+    .slice()
+    .sort((a, b) => a.rank - b.rank)
+    .map((p) => p.article);
+  let ordered: Article[] = [];
   const seen = new Set<string>();
   for (const a of [...ranked, ...newestFirst]) {
     if (seen.has(a.id)) continue;
     seen.add(a.id);
     ordered.push(a);
   }
+  // Stories on topics the reader follows come first (each group keeps its order).
+  if (preferred) ordered = [...ordered.filter(preferred), ...ordered.filter((a) => !preferred(a))];
   const withImage = ordered.filter((a) => genuineImage(a)).slice(0, max);
   if (withImage.length >= HERO_MIN) return withImage;
   const chosen = new Set(withImage.map((a) => a.id));

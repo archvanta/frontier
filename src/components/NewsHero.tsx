@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState, type FocusEvent, type KeyboardEvent, type PointerEvent } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent, type PointerEvent } from 'react';
 import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article';
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { genuineImage } from '../lib/heroStories';
@@ -9,6 +9,7 @@ import { href } from '../lib/router';
 import { categoryIcon } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
+import { StoryCard } from './StoryCard';
 import { resolveImageUrl } from './StoryImage';
 
 /** Time each story stays on screen. */
@@ -128,9 +129,17 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
               fetchPriority={index === 0 ? 'high' : 'auto'}
               onError={drop}
               onLoad={(e) => {
-                const fit = judgeCardImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
+                const fit = judgeCardImage({
+                  width: e.currentTarget.naturalWidth,
+                  height: e.currentTarget.naturalHeight,
+                });
                 rememberCardFit(src, fit);
-                const bg = fit === 'ok' && judgeBackgroundImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
+                const bg =
+                  fit === 'ok' &&
+                  judgeBackgroundImage({
+                    width: e.currentTarget.naturalWidth,
+                    height: e.currentTarget.naturalHeight,
+                  });
                 rememberBackground(src, bg);
                 setBgOk(bg);
                 if (fit === 'hide') setBroken(true);
@@ -151,7 +160,10 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
  * `--nh-scale` (1 = normal size). Below MIN_COPY_SCALE the hero simply grows (the copy is never clipped and the title never gets an ellipsis).
  */
 export function fitSlides(stage: HTMLElement, viewportH: number, top: number): void {
-  const room = Math.max(MIN_STAGE_PX, viewportH - top);
+  // The stage pads its two frames; the slider frame is that much shorter than the stage.
+  const cs = getComputedStyle(stage);
+  const pad = (parseFloat(cs.paddingBlockStart) || 0) + (parseFloat(cs.paddingBlockEnd) || 0);
+  const room = Math.max(MIN_STAGE_PX, viewportH - top) - pad;
   stage.querySelectorAll<HTMLElement>('.nh-slide').forEach((slide) => {
     const inner = slide.querySelector<HTMLElement>('.nh-inner');
     if (!inner) return;
@@ -172,13 +184,15 @@ export function fitSlides(stage: HTMLElement, viewportH: number, top: number): v
 }
 
 /**
+ * (`standalone: false` when the page already has its own heading and intro: no h1 and no brand copy, only the carousel.)
  * Full-width homepage carousel over real stories (see lib/heroStories.ts), every story in the same fixed template (see Slide).
  * - Advances every SLIDE_MS with a crossfade and staged text; loops; any manual change restarts the timer.
- * - Pauses on hover, keyboard focus, hidden tab and off-screen; has an explicit pause button; autoplay is off under reduced motion.
+ * - Never stops for the mouse or for focus: every story leaves after SLIDE_MS. It waits only while the tab is hidden or the hero is off-screen,
+ *   has an explicit pause button, and autoplay is off under reduced motion.
  * - Dots, prev/next, arrow keys and touch swipe (direction follows RTL). Broken or tiny images leave the frame with its placeholder.
  * - `stories === null` means loading; an empty list degrades to the brand intro.
  */
-export function NewsHero({ stories }: { stories: Article[] | null }) {
+export function NewsHero({ stories, standalone = true }: { stories: Article[] | null; standalone?: boolean }) {
   const { t, dir, locale } = useI18n();
   const reduced = useMediaQuery('(prefers-reduced-motion: reduce)');
   const list = stories ?? [];
@@ -186,8 +200,6 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const [index, setIndex] = useState(0);
   const [visited, setVisited] = useState<ReadonlySet<number>>(() => new Set([0]));
   const [userPaused, setUserPaused] = useState<boolean | null>(null);
-  const [hover, setHover] = useState(false);
-  const [focusIn, setFocusIn] = useState(false);
   const [onScreen, setOnScreen] = useState(true);
   const [tabVisible, setTabVisible] = useState(() => typeof document === 'undefined' || !document.hidden);
   const root = useRef<HTMLElement>(null);
@@ -198,13 +210,17 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
 
   const current = Math.min(index, Math.max(0, total - 1));
   const autoplay = total > 1 && (userPaused === null ? !reduced : !userPaused);
-  const running = autoplay && !hover && !focusIn && onScreen && tabVisible;
+  const running = autoplay && onScreen && tabVisible;
+
+  // The side card shows the story that comes next, so the reader sees what is queued behind the one on screen.
+  const sideIndex = total > 1 ? (current + 1) % total : -1;
+  const side = sideIndex >= 0 ? list[sideIndex]! : null;
 
   const fitCopy = useCallback(() => {
     const el = stage.current;
     if (!el) return;
-    // Where the hero starts on the page when scrolled to the top; the stage's CSS height reads it back as `--nh-top`.
-    const top = Math.max(0, Math.round(el.getBoundingClientRect().top + window.scrollY));
+    // The hero is a full screen of its own below the intro: it fills the viewport under the sticky header (`--nh-top` is the header's height).
+    const top = document.querySelector<HTMLElement>('.site-header')?.offsetHeight ?? 0;
     el.style.setProperty('--nh-top', `${top}px`);
     fitSlides(el, window.innerHeight, top);
   }, []);
@@ -237,7 +253,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
     [total, autoplay, setProgress],
   );
 
-  // Timer: counts visible, un-paused time so hover/pause resume where they stopped; a manual change zeroes it.
+  // Timer: counts visible, un-paused time so the pause button and scrolling away resume where they stopped; a manual change zeroes it.
   useEffect(() => {
     if (!running) return;
     let raf = 0;
@@ -294,16 +310,13 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
     if (Math.abs(dx) < SWIPE_PX || Math.abs(dx) < Math.abs(dy) * 1.2) return;
     step((dir === 'rtl' ? dx > 0 : dx < 0) ? 1 : -1);
   };
-  const onBlur = (e: FocusEvent<HTMLElement>) => {
-    if (!e.currentTarget.contains(e.relatedTarget)) setFocusIn(false);
-  };
 
   const loading = stories === null;
   const sub = t('hero_sub');
   const cut = sub.lastIndexOf(' ');
   const pad = (n: number) => (n < 10 ? formatNumber(0, locale) : '') + formatNumber(n, locale);
   // The brand line stays English in both locales. With stories on screen it is the page's h1 for assistive technology only.
-  const brand = (
+  const brand = !standalone ? null : (
     <h1 className={total > 0 ? 'visually-hidden' : 'nh-brand'} id="hero-title" lang="en" dir="ltr">
       <span className="nh-brand-line">{t('hero_title')}</span>{' '}
       <span className="nh-brand-line">
@@ -316,93 +329,105 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   return (
     <section
       ref={root}
+      id="news-hero"
+      tabIndex={-1}
       className={`news-hero ${running ? '' : 'is-paused'}`}
       aria-roledescription={total > 0 ? 'carousel' : undefined}
       aria-label={t('hero_label')}
       aria-busy={loading}
       onKeyDown={onKeyDown}
-      onPointerEnter={(e) => e.pointerType === 'mouse' && setHover(true)}
-      onPointerLeave={(e) => e.pointerType === 'mouse' && setHover(false)}
-      onFocus={(e) => setFocusIn(e.target.matches(':focus-visible'))} // keyboard focus pauses; a mouse click on a control does not
-      onBlur={onBlur}
       onPointerDown={onPointerDown}
       onPointerUp={onPointerUp}
       onPointerCancel={() => (swipe.current = null)}
     >
-      <div ref={stage} className="nh-stage">
-        <div className="nh-backdrop" aria-hidden="true" />
-        {total > 0 && (
-          <div className="nh-slides" aria-live={running ? 'off' : 'polite'}>
-            {list.map((s, i) => (
-              <Slide key={s.id} story={s} index={i} total={total} active={i === current} mountImage={visited.has(i) || i === (current + 1) % total} />
-            ))}
-          </div>
-        )}
-        <div className="nh-scrim" aria-hidden="true" />
-
-        {total === 0 ? (
-          <div className="nh-inner nh-intro container">
-            <div className="nh-content">
-              <p className="nh-cat">{t('hero_kicker')}</p>
-              {brand}
-              {loading ? (
-                <p className="visually-hidden" role="status">
-                  {t('hero_loading')}
-                </p>
-              ) : (
-                <p className="nh-desc">{t('hero_body')}</p>
-              )}
-            </div>
-          </div>
-        ) : (
-          brand
-        )}
-
-        {total > 0 && (
-          <div className="nh-controls container">
-            <div className="nh-dots" ref={dots} role="group" aria-label={t('hero_label')}>
+      <div ref={stage} className={`nh-stage ${side ? 'has-side' : ''}`}>
+        <div className="nh-main">
+          <div className="nh-backdrop" aria-hidden="true" />
+          {total > 0 && (
+            <div className="nh-slides" aria-live={running ? 'off' : 'polite'}>
               {list.map((s, i) => (
-                <button
+                <Slide
                   key={s.id}
-                  type="button"
-                  className="nh-dot"
-                  aria-label={t('hero_story', { n: i + 1, total })}
-                  aria-current={i === current ? 'true' : undefined}
-                  onClick={() => goTo(i)}
-                >
-                  <span className="nh-dot-bar">
-                    <span className="nh-dot-fill" />
-                  </span>
-                </button>
+                  story={s}
+                  index={i}
+                  total={total}
+                  active={i === current}
+                  mountImage={visited.has(i) || i === (current + 1) % total}
+                />
               ))}
             </div>
-            <div className="nh-nav">
-              <span className="nh-count" aria-hidden="true">
-                {pad(current + 1)} <span>/ {pad(total)}</span>
-              </span>
-              {total > 1 && (
-                <>
-                  <button type="button" className="nh-btn nh-prev" aria-label={t('hero_prev')} onClick={() => step(-1)}>
-                    <Icon name="arrow" size={18} back />
-                  </button>
-                  <button type="button" className="nh-btn nh-next" aria-label={t('hero_next')} onClick={() => step(1)}>
-                    <Icon name="arrow" size={18} directional />
-                  </button>
-                  <button
-                    type="button"
-                    className="nh-btn nh-toggle"
-                    aria-label={autoplay ? t('hero_slides_pause') : t('hero_slides_play')}
-                    aria-pressed={!autoplay}
-                    onClick={() => {
-                      setUserPaused(autoplay);
-                    }}
-                  >
-                    <Icon name={autoplay ? 'pause' : 'play'} size={14} filled />
-                  </button>
-                </>
-              )}
+          )}
+          <div className="nh-scrim" aria-hidden="true" />
+
+          {total === 0 ? (
+            <div className="nh-inner nh-intro container">
+              <div className="nh-content">
+                {standalone && <p className="nh-cat">{t('hero_kicker')}</p>}
+                {brand}
+                {loading ? (
+                  <p className="visually-hidden" role="status">
+                    {t('hero_loading')}
+                  </p>
+                ) : (
+                  standalone && <p className="nh-desc">{t('hero_body')}</p>
+                )}
+              </div>
             </div>
-          </div>
+          ) : (
+            brand
+          )}
+
+          {total > 0 && (
+            <div className="nh-controls container">
+              <div className="nh-dots" ref={dots} role="group" aria-label={t('hero_label')}>
+                {list.map((s, i) => (
+                  <button
+                    key={s.id}
+                    type="button"
+                    className="nh-dot"
+                    aria-label={t('hero_story', { n: i + 1, total })}
+                    aria-current={i === current ? 'true' : undefined}
+                    onClick={() => goTo(i)}
+                  >
+                    <span className="nh-dot-bar">
+                      <span className="nh-dot-fill" />
+                    </span>
+                  </button>
+                ))}
+              </div>
+              <div className="nh-nav">
+                <span className="nh-count" aria-hidden="true">
+                  {pad(current + 1)} <span>/ {pad(total)}</span>
+                </span>
+                {total > 1 && (
+                  <>
+                    <button type="button" className="nh-btn nh-prev" aria-label={t('hero_prev')} onClick={() => step(-1)}>
+                      <Icon name="arrow" size={18} back />
+                    </button>
+                    <button type="button" className="nh-btn nh-next" aria-label={t('hero_next')} onClick={() => step(1)}>
+                      <Icon name="arrow" size={18} directional />
+                    </button>
+                    <button
+                      type="button"
+                      className="nh-btn nh-toggle"
+                      aria-label={autoplay ? t('hero_slides_pause') : t('hero_slides_play')}
+                      aria-pressed={!autoplay}
+                      onClick={() => {
+                        setUserPaused(autoplay);
+                      }}
+                    >
+                      <Icon name={autoplay ? 'pause' : 'play'} size={14} filled />
+                    </button>
+                  </>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        {side && (
+          <aside className="nh-side" aria-label={t('hero_up_next')}>
+            <StoryCard key={side.id} article={side} variant="split" rank={sideIndex + 1} tone="crimson" still eagerImage headingLevel={3} />
+          </aside>
         )}
       </div>
     </section>

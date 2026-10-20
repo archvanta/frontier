@@ -66,6 +66,13 @@ describe('pickHeroStories', () => {
     expect(pickHeroStories(few, null).map((a) => a.id)).toEqual(['a', 'b', 'c']);
   });
 
+  it('moves stories on followed topics to the front of the carousel', () => {
+    const mine = story('mine', 'feed', undefined, { category: 'hardware' });
+    const out = pickHeroStories([...latest, mine], null, 6, (a) => a.category === 'hardware');
+    expect(out[0]!.id).toBe('mine');
+    expect(out).toHaveLength(6);
+  });
+
   it('returns an empty list when there is nothing to show', () => {
     expect(pickHeroStories([], null)).toEqual([]);
   });

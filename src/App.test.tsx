@@ -20,7 +20,7 @@ describe('App with mock data', () => {
   it('renders hero, top signals, today and yesterday with a mock banner', async () => {
     renderApp();
     expect(screen.getByRole('note')).toHaveTextContent('MOCK DATA');
-    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('THE WORLD IS CHANGING.');
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent('FRONTIER');
     expect(await screen.findByRole('heading', { name: 'Top Signals' })).toBeInTheDocument();
     const today = await screen.findByRole('heading', { name: 'Today' });
     const yesterday = screen.getByRole('heading', { name: 'Yesterday' });
