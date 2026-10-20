@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "asOf": "2026-10-20T19:34:19Z",
+ "asOf": "2026-10-20T22:11:34Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,243 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T19:34:19Z",
-   "to": "2026-10-20T19:34:19Z",
+   "from": "2026-10-19T22:11:34Z",
+   "to": "2026-10-20T22:11:34Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "7f6bb9c0aa5027ea",
+      "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Google’s more personalized Gemini AI is heading to your car",
+      "excerpt": "Google is bringing Personal Intelligence to Gemini AI in your car. With this update, Gemini in Android Auto and cars with Google built-in can tap into your information across Google apps, including Gmail, Calendar, Maps, Photos, YouTube, and Search. As an example, Google says you can ask Gemini about your flight status if you're driving",
+      "lang": "en",
+      "publishedAt": "2026-10-20T22:11:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T22:22:53Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [
+       "ai",
+       "google",
+       "news",
+       "tech",
+       "transportation"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/google-gemini-personal-intelligence.png?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An image showing Gemini’s Personal Intelligence feature on a car’s display",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "7f6bb9c0aa5027ea",
+      "related": [],
+      "score": {
+       "total": 67.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Google’s Most Personal Gemini AI به سمت ماشین شما می رود",
+        "excerpt": "گوگل اطلاعات شخصی را به Gemini AI در ماشین شما وارد می کند. با این به روز رسانی، Gemini در Android Auto و اتومبیل با Google Built-in می تواند به اطلاعات شما در سراسر برنامه های گوگل، از جمله Gmail، Calendar، Maps، Photos، YouTube و Search ضربه بزند. به عنوان مثال، گوگل می گوید شما می توانید در مورد وضعیت پرواز خود سوال کنید اگر رانندگی می کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T22:22:53Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "65f689d035704c2c",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "excerpt": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T21:14:10Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T22:22:53Z",
+      "day": "2026-10-20",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "aws trainium",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21817-1.png",
+       "alt": "NeuronCore-v3 internal architecture",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "65f689d035704c2c",
+      "related": [],
+      "score": {
+       "total": 67.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.6,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "فراتر از حافظه KV: آموزش و خدمت به مدل توجه خطی i14 در AWS Trainium2 با PyTorch بومی",
+        "excerpt": "یاد بگیرید که چگونه i14 آموزش داده و خدمت Laplace 3B، یک مدل توجه خطی، در AWS Trainium2 با استفاده از PyTorch بومی. حالت تکراری آن در 29.5 MB در هر توالی بدون توجه به طول زمینه ثابت باقی می ماند، اجتناب از حافظه در حال رشد کلیدی از مدل های ترانسفورماتور و حفظ حافظه قابل پیش بینی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T22:22:53Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "aeaa448f66c5e86e",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "excerpt": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T20:35:10Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T22:22:53Z",
+      "day": "2026-10-20",
+      "category": "business",
+      "tags": [
+       "ai",
+       "tc",
+       "biotech",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "dbaa902542534b3a",
+      "related": [
+       "dbaa902542534b3a"
+      ],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 91.1,
+        "topic": 55.0,
+        "novelty": 45.8
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ارکستر Bio⁠ را به دست می آورد تا کسب و کار بیوتکنولوژی خود را افزایش دهد",
+        "excerpt": "OpenAI می گوید که اضافه کردن تیم و تکنولوژی ارکستر برای کار بر روی Rosalind، مدل AI آن برای تحقیقات علوم زندگی، و به ابزار مرتبط Rosalind Workbench، یک اهرم است که هدف آن کمک به محققان برای برنامه ریزی آزمایشات و تجزیه و تحلیل نتایج است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T22:22:53Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 67.3,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "753fc98bb47cb9f3",
@@ -47,15 +280,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 72.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -66,60 +299,7 @@
        }
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 78.3,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -155,190 +335,19 @@
       "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 79.8,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d42536b869033e81",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
-      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T17:34:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
-       "alt": "High-level architecture of Octave’s AI foundation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "d42536b869033e81",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
-        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7dbe1527a2734996",
-      "url": "https://www.theguardian.com/global/2026/oct/19/midterm-elections-tech-broligarchs",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Americans, this is your chance to slap down the tech broligarchs",
-      "excerpt": "The midterms will be a referendum on the GOP’s alignment with tech overlords over the public they’re meant to serve Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Robert Reich highlighted the link between corruption and affordability. Today’s edition was written by Guardian US columnist Rebecca Solnit…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T19:16:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T19:39:16Z",
-      "day": "2026-10-20",
-      "category": "safety",
-      "tags": [
-       "us midterm elections 2026",
-       "ai (artificial intelligence)",
-       "technology",
-       "us news",
-       "us politics",
-       "datacenters – us"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/418_0_4202_3362/master/4202.jpg?width=700&quality=85&auto=format&fit=max&s=97a3f191bd03ae86eb6ff397a93925f0",
-       "credit": "Photograph: Evelyn Hockstein/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "7dbe1527a2734996",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 90.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آمریکایی ها، این شانس شماست که به برونگان تکنولوژی ضربه بزنید",
-        "excerpt": "میان دوره ها یک رفراندوم در مورد تراز GOP با بیش از مدیران فن آوری در سراسر عمومی است که آنها به منظور خدمت به چگونه ما برنده، یک سری نظر گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا است. هفته گذشته، رابرت رایش ارتباط بین فساد و هزینه پذیری را برجسته کرد. نسخه امروز توسط روزنامه گاردین ایالات متحده ربکا Solnit نوشته شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T19:39:16Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b3fcb2e42d321123",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "b3fcb2e42d321123",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 57.5,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
-        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T18:31:30Z"
        }
@@ -355,10 +364,68 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T19:34:19Z",
-   "to": "2026-10-20T19:34:19Z",
+   "from": "2026-10-13T22:11:34Z",
+   "to": "2026-10-20T22:11:34Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "dbaa902542534b3a",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI acquires Orchestra Bio",
+      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "business",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "dbaa902542534b3a",
+      "related": [
+       "aeaa448f66c5e86e"
+      ],
+      "score": {
+       "total": 75.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 80.8,
+        "topic": 55.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI به دست آوردن ارکستر Bio",
+        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "94e7f4f5c0e52bb7",
@@ -386,15 +453,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 93.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -404,7 +471,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -445,15 +512,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -464,7 +531,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -498,15 +565,15 @@
       "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 88.9,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -517,7 +584,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -553,15 +620,15 @@
       "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 96.3,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -571,7 +638,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -610,15 +677,15 @@
       "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 95.6,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -629,7 +696,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -667,15 +734,15 @@
       "eventId": "eb477756520c8ff8",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 94.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -686,7 +753,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -728,15 +795,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 84.7,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -744,66 +811,6 @@
         "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbde1ea11534cb3",
-      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:20:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "research",
-      "tags": [
-       "research",
-       "imaging",
-       "health care",
-       "medical devices",
-       "artificial intelligence",
-       "computer vision"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
-       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "0dbde1ea11534cb3",
-      "related": [],
-      "score": {
-       "total": 66.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 78.4,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
-        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
        }
       }
      },
@@ -818,10 +825,68 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T19:34:19Z",
-   "to": "2026-10-20T19:34:19Z",
+   "from": "2026-09-20T22:11:34Z",
+   "to": "2026-10-20T22:11:34Z",
    "halfLifeHours": 240,
    "picks": [
+    {
+     "article": {
+      "id": "dbaa902542534b3a",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI acquires Orchestra Bio",
+      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "business",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "dbaa902542534b3a",
+      "related": [
+       "aeaa448f66c5e86e"
+      ],
+      "score": {
+       "total": 78.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 93.8,
+        "topic": 55.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-20T22:11:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI به دست آوردن ارکستر Bio",
+        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "94e7f4f5c0e52bb7",
@@ -849,15 +914,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -867,7 +932,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -901,15 +966,15 @@
       "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.5,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -920,7 +985,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -961,15 +1026,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -980,7 +1045,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -990,52 +1055,55 @@
     },
     {
      "article": {
-      "id": "7a364f356aab4946",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "id": "ea83f0dd69c5142c",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
       "lang": "en",
-      "publishedAt": "2026-10-19T12:00:00Z",
+      "publishedAt": "2026-10-19T23:32:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
+      "fetchedAt": "2026-10-20T00:44:19Z",
       "day": "2026-10-19",
       "category": "models",
       "tags": [
-       "publication"
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
       ],
       "entities": [
-       "openai"
+       "amazon",
+       "anthropic"
       ],
-      "brand": "openai",
+      "brand": "claude",
       "image": {
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "7a364f356aab4946",
+      "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 93.7,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 80.0
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
-        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
-        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
+        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
+        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
+        "at": "2026-10-20T00:44:19Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1071,15 +1139,15 @@
       "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.9,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -1089,7 +1157,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1128,15 +1196,15 @@
       "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.7,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -1147,7 +1215,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1182,15 +1250,15 @@
       "eventId": "ca293d8533a3487d",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.3,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -1200,7 +1268,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1241,15 +1309,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 92.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -1260,7 +1328,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1302,15 +1370,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 95.2,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T19:34:19Z"
+       "asOf": "2026-10-20T22:11:34Z"
       },
       "tr": {
        "fa": {
@@ -1318,64 +1386,6 @@
         "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e5f6d3284f597c04",
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Securing AI agent identity with X.509 PKI on AWS",
-      "excerpt": "Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T16:03:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-1.png",
-       "alt": "Three-layer PKI authentication architecture showing credential flow between the user, agents, and the MCP tool server",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "e5f6d3284f597c04",
-      "related": [],
-      "score": {
-       "total": 68.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.0,
-        "topic": 65.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T19:34:19Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تشخیص هویت AI با X.509 PKI در AWS",
-        "excerpt": "یاد بگیرید که چگونه سیستم های هوش مصنوعی چند عامل را با هویت رمزنگاری با استفاده از کلیدی EJBCA و خدمات AWS امن کنید. این معماری مرجع ترکیبی از پاکت های درخواست امضا شده، ادعاهای هیئت کاربر امضا شده، RFC 8693 نشانه های مخاطبان-scope، و دعوت نامه OCSP در زمان واقعی برای اثبات هویت عامل و جلوگیری از جعل درخواست در سراسر نمایندگی به عامل و ابزار MCP.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
