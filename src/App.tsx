@@ -1,7 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
+import { AccountToast } from './components/account/AccountToast';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { EmptyState } from './components/States';
+import { AccountProvider } from './lib/account/AccountProvider';
+import type { AccountConfig } from './lib/account/config';
+import type { AccountBackend } from './lib/account/types';
 import { createDataSource, type DataSource } from './lib/data';
 import { DataProvider } from './lib/dataContext';
 import { focusSection } from './lib/focus';
@@ -9,6 +13,11 @@ import { useAsync } from './lib/hooks';
 import { useI18n } from './lib/i18n';
 import { href, parseHash, useHash, type Route } from './lib/router';
 import { AboutPage } from './pages/AboutPage';
+import { AccountPage } from './pages/account/AccountPage';
+import { ForYouPage } from './pages/account/ForYouPage';
+import { OnboardingPage } from './pages/account/OnboardingPage';
+import { PrivacyPage } from './pages/account/PrivacyPage';
+import { SignInPage } from './pages/account/SignInPage';
 import { ArchivePage, DayPage } from './pages/ArchivePage';
 import { ExplorePage } from './pages/ExplorePage';
 import { HomePage } from './pages/HomePage';
@@ -47,6 +56,16 @@ function Page({ route, now, meta, heroSlot }: { route: Route; now: Date; meta: i
       return <AboutPage />;
     case 'sources':
       return <SourcesPage />;
+    case 'signin':
+      return <SignInPage create={route.create} next={route.next} />;
+    case 'welcome':
+      return <OnboardingPage />;
+    case 'account':
+      return <AccountPage />;
+    case 'for-you':
+      return <ForYouPage now={now} />;
+    case 'privacy':
+      return <PrivacyPage />;
     default:
       return (
         <div className="page container-narrow">
@@ -61,7 +80,7 @@ function Page({ route, now, meta, heroSlot }: { route: Route; now: Date; meta: i
   }
 }
 
-export function App({ source }: { source?: DataSource }) {
+export function App({ source, account }: { source?: DataSource; account?: { config?: AccountConfig; backend?: AccountBackend } }) {
   const data = useMemo(() => source ?? createDataSource(), [source]);
   const { t } = useI18n();
   const hash = useHash();
@@ -76,6 +95,7 @@ export function App({ source }: { source?: DataSource }) {
 
   return (
     <DataProvider source={data}>
+      <AccountProvider config={account?.config} backend={account?.backend}>
       <button type="button" className="skip-link" onClick={() => focusSection('main')}>
         {t('skipToContent')}
       </button>
@@ -93,6 +113,8 @@ export function App({ source }: { source?: DataSource }) {
         </div>
       </main>
       <Footer meta={meta.status === 'ready' ? meta.data : null} />
+      <AccountToast />
+      </AccountProvider>
     </DataProvider>
   );
 }

@@ -4,7 +4,7 @@ import { expect, test } from '@playwright/test';
 // WCAG 2.1 A/AA rules from axe-core on the main routes, in both languages and both colour themes.
 for (const theme of ['dark', 'light'] as const) {
   for (const locale of ['en', 'fa'] as const) {
-    for (const route of ['#/', '#/picks/weekly', '#/explore', '#/archive', '#/about', '#/sources', '#/saved']) {
+    for (const route of ['#/', '#/picks/weekly', '#/explore', '#/archive', '#/about', '#/sources', '#/saved', '#/signin', '#/privacy']) {
       test(`no WCAG A/AA violations — ${theme} ${locale} ${route}`, async ({ page }) => {
         await page.addInitScript(
           ([l, t]) => {

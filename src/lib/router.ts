@@ -17,6 +17,11 @@ export type Route =
   | { name: 'saved' }
   | { name: 'about' }
   | { name: 'sources' }
+  | { name: 'signin'; create: boolean; next: string | null }
+  | { name: 'welcome' }
+  | { name: 'account' }
+  | { name: 'for-you' }
+  | { name: 'privacy' }
   | { name: 'not-found'; path: string };
 
 const WINDOWS: readonly PickWindow[] = ['daily', 'weekly', 'monthly'];
@@ -63,6 +68,16 @@ export function parseHash(hash: string): Route {
       return { name: 'about' };
     case 'sources':
       return { name: 'sources' };
+    case 'signin':
+      return { name: 'signin', create: params.get('mode') === 'create', next: params.get('next') };
+    case 'welcome':
+      return { name: 'welcome' };
+    case 'account':
+      return { name: 'account' };
+    case 'for-you':
+      return { name: 'for-you' };
+    case 'privacy':
+      return { name: 'privacy' };
   }
   return { name: 'not-found', path: pathPart };
 }
