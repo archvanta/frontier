@@ -1,20 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="PRODUCTS category artwork">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a1c"/><stop offset=".6" stop-color="#0b0e26"/><stop offset="1" stop-color="#120e33"/></linearGradient>
-<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="#33d6ff" stop-opacity=".62"/><stop offset="1" stop-color="#33d6ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="gb" cx="22%" cy="88%" r="46%"><stop offset="0" stop-color="#3a6bff" stop-opacity=".32"/><stop offset="1" stop-color="#3a6bff" stop-opacity="0"/></radialGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#030305"/><stop offset=".6" stop-color="#06070c"/><stop offset="1" stop-color="#0a0d1a"/></linearGradient>
+<radialGradient id="ga" cx="66%" cy="38%" r="48%"><stop offset="0" stop-color="#4a82ff" stop-opacity=".5"/><stop offset="1" stop-color="#4a82ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="gb" cx="22%" cy="88%" r="46%"><stop offset="0" stop-color="#2e6bf0" stop-opacity=".32"/><stop offset="1" stop-color="#2e6bf0" stop-opacity="0"/></radialGradient>
 <radialGradient id="fade" cx="50%" cy="45%" r="62%"><stop offset=".35" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
 <mask id="m"><rect width="640" height="360" fill="url(#fade)"/></mask>
 <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
-<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#3a6bff" stop-opacity=".45"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".45" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#2e6bf0" stop-opacity=".45"/></linearGradient>
 <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect width="640" height="360" fill="url(#bg)"/>
 <rect width="640" height="360" fill="url(#ga)"/>
 <rect width="640" height="360" fill="url(#gb)"/>
-<g stroke="#b0beff" stroke-opacity=".07" stroke-width="1" mask="url(#m)"><path d="M0 0V360"/><path d="M32 0V360"/><path d="M64 0V360"/><path d="M96 0V360"/><path d="M128 0V360"/><path d="M160 0V360"/><path d="M192 0V360"/><path d="M224 0V360"/><path d="M256 0V360"/><path d="M288 0V360"/><path d="M320 0V360"/><path d="M352 0V360"/><path d="M384 0V360"/><path d="M416 0V360"/><path d="M448 0V360"/><path d="M480 0V360"/><path d="M512 0V360"/><path d="M544 0V360"/><path d="M576 0V360"/><path d="M608 0V360"/><path d="M640 0V360"/><path d="M0 0H640"/><path d="M0 32H640"/><path d="M0 64H640"/><path d="M0 96H640"/><path d="M0 128H640"/><path d="M0 160H640"/><path d="M0 192H640"/><path d="M0 224H640"/><path d="M0 256H640"/><path d="M0 288H640"/><path d="M0 320H640"/><path d="M0 352H640"/></g>
+<g stroke="#ffffff" stroke-opacity=".05" stroke-width="1" mask="url(#m)"><path d="M0 0V360"/><path d="M32 0V360"/><path d="M64 0V360"/><path d="M96 0V360"/><path d="M128 0V360"/><path d="M160 0V360"/><path d="M192 0V360"/><path d="M224 0V360"/><path d="M256 0V360"/><path d="M288 0V360"/><path d="M320 0V360"/><path d="M352 0V360"/><path d="M384 0V360"/><path d="M416 0V360"/><path d="M448 0V360"/><path d="M480 0V360"/><path d="M512 0V360"/><path d="M544 0V360"/><path d="M576 0V360"/><path d="M608 0V360"/><path d="M640 0V360"/><path d="M0 0H640"/><path d="M0 32H640"/><path d="M0 64H640"/><path d="M0 96H640"/><path d="M0 128H640"/><path d="M0 160H640"/><path d="M0 192H640"/><path d="M0 224H640"/><path d="M0 256H640"/><path d="M0 288H640"/><path d="M0 320H640"/><path d="M0 352H640"/></g>
 <circle cx="420" cy="150" r="118" fill="none" stroke="#fff" stroke-opacity=".06"/>
 <circle cx="420" cy="150" r="160" fill="none" stroke="#fff" stroke-opacity=".035"/>
 <rect x="335" y="65" width="170" height="170" rx="40" fill="url(#glass)" stroke="url(#edge)" stroke-width="1.5"/>
-<g transform="translate(375 105) scale(.45)" fill="none" stroke="#c6ff3d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><rect x="40" y="25" width="120" height="150" rx="14"/><path d="M40 55H160M80 160H120"/><circle cx="100" cy="105" r="22"/></g>
+<g transform="translate(375 105) scale(.45)" fill="none" stroke="#5b9dff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"><rect x="40" y="25" width="120" height="150" rx="14"/><path d="M40 55H160M80 160H120"/><circle cx="100" cy="105" r="22"/></g>
 </svg>

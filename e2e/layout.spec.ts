@@ -1,4 +1,4 @@
-import { expect, test } from '@playwright/test';
+import { expect, test, type Page } from '@playwright/test';
 
 const WIDTHS = [375, 768, 1440];
 const SHOTS = process.env.E2E_SCREENSHOTS;
@@ -18,44 +18,134 @@ for (const locale of ['en', 'fa'] as const) {
   }
 }
 
-test('hero sits between navigation and Top Signals and stays compact', async ({ page }) => {
+test('hero is a full-bleed carousel that starts under the header and leads into Top Signals', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
+  const stage = page.locator('.nh-stage');
+  await expect(page.getByTestId('hero-slide').first()).toBeAttached();
   const header = await page.locator('.site-header').boundingBox();
-  const hero = await page.locator('.hero-frame').boundingBox();
+  const hero = await stage.boundingBox();
   const picks = await page.locator('#top-signals').boundingBox();
   expect(header && hero && picks).toBeTruthy();
-  expect(hero!.y).toBeGreaterThanOrEqual(header!.y + header!.height - 1);
+  expect(hero!.x).toBeLessThanOrEqual(0.5);
+  expect(hero!.width).toBeGreaterThanOrEqual(1430);
+  expect(hero!.y).toBeLessThanOrEqual(header!.y + 1);
+  expect(hero!.height).toBeGreaterThanOrEqual(540);
+  expect(hero!.height).toBeLessThanOrEqual(861);
   expect(picks!.y).toBeGreaterThan(hero!.y + hero!.height - 1);
-  expect(hero!.height).toBeGreaterThanOrEqual(300);
-  expect(hero!.height).toBeLessThanOrEqual(421);
   await expect(page.getByRole('heading', { level: 1 })).toContainText('THE WORLD IS CHANGING.');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('TRACK THE SIGNAL.');
 });
 
-test('hero video is muted, inline and pauses off-screen', async ({ page }) => {
+const counter = (page: Page) => page.locator('.nh-count');
+const activeSlide = (page: Page) => page.locator('.nh-slide.is-active');
+
+test('hero advances every 5 seconds, loops, and shows exactly one active slide', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  const video = page.getByTestId('hero-video');
-  await expect(video).toBeVisible();
-  expect(await video.evaluate((v: HTMLVideoElement) => v.muted && v.playsInline && v.loop)).toBe(true);
-  await page.waitForFunction(() => {
-    const v = document.querySelector('video');
-    return v && !v.paused;
-  });
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-  await page.waitForFunction(() => document.querySelector('video')?.paused === true);
+  await expect(counter(page)).toContainText('01');
+  const t0 = Date.now();
+  await expect(counter(page)).toContainText('02', { timeout: 8000 });
+  const dt = Date.now() - t0;
+  expect(dt).toBeGreaterThan(3000);
+  expect(dt).toBeLessThan(7000);
+  await expect(activeSlide(page)).toHaveCount(1);
+  await expect(page.locator('.nh-slide[aria-hidden="false"]')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Next story' }).click();
+  await page.getByRole('button', { name: 'Next story' }).click();
+  await expect(counter(page)).toContainText('01'); // wrapped around
 });
 
-test('reduced motion shows the poster instead of autoplaying', async ({ browser }) => {
+test('hero: indicators, arrows and keyboard navigate, and a manual change restarts the timer', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  await page.getByRole('button', { name: 'Story 3 of 3' }).click();
+  await expect(counter(page)).toContainText('03');
+  await expect(page.getByRole('button', { name: 'Story 3 of 3' })).toHaveAttribute('aria-current', 'true');
+  await page.getByRole('button', { name: 'Previous story' }).click();
+  await expect(counter(page)).toContainText('02');
+  await page.getByRole('button', { name: 'Next story' }).focus();
+  await page.keyboard.press('ArrowLeft');
+  await expect(counter(page)).toContainText('01');
+  // Timer restarted at the manual change: still on 01 well within the next 5 s.
+  await page.waitForTimeout(2500);
+  await expect(counter(page)).toContainText('01');
+});
+
+test('hero pauses on hover and with the pause button', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  await page.mouse.move(700, 400);
+  await page.waitForTimeout(6500);
+  await expect(counter(page)).toContainText('01');
+  await page.getByRole('button', { name: 'Pause slideshow' }).click();
+  await expect(page.getByRole('button', { name: 'Start slideshow' })).toHaveAttribute('aria-pressed', 'true');
+  await page.mouse.move(5, 895);
+  const before = await counter(page).textContent();
+  await page.waitForTimeout(6500);
+  expect(await counter(page).textContent()).toBe(before);
+});
+
+test('hero swipes on touch and follows the reading direction in RTL', async ({ page }) => {
+  const swipe = (dx: number) =>
+    page.evaluate((d) => {
+      const el = document.querySelector('.news-hero')!;
+      const fire = (type: string, x: number) =>
+        el.dispatchEvent(new PointerEvent(type, { bubbles: true, pointerType: 'touch', clientX: x, clientY: 300, isPrimary: true }));
+      fire('pointerdown', 200);
+      fire('pointerup', 200 + d);
+    }, dx);
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/');
+  await expect(counter(page)).toHaveCount(1);
+  await page.getByRole('button', { name: 'Pause slideshow' }).click();
+  await swipe(-120); // LTR: swipe left = next
+  await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'Story 2 of 3');
+  await swipe(120);
+  await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'Story 1 of 3');
+  await swipe(30); // too short
+  await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'Story 1 of 3');
+
+  await page.evaluate(() => localStorage.setItem('signal-ai:locale', 'fa'));
+  await page.reload();
+  await page.getByRole('button', { name: 'توقف نمایش خودکار' }).click();
+  await swipe(120); // RTL: swipe right = next
+  await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'خبر 2 از 3');
+});
+
+test('reduced motion: no autoplay, no shader, static wall', async ({ browser }) => {
   const ctx = await browser.newContext({ reducedMotion: 'reduce', viewport: { width: 1440, height: 900 } });
   const page = await ctx.newPage();
   await page.goto('./#/');
-  await expect(page.getByTestId('hero-poster')).toBeVisible();
-  await expect(page.getByTestId('hero-video')).toHaveCount(0);
-  await page.getByRole('button', { name: 'Play intro video' }).click();
-  await expect(page.getByTestId('hero-video')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Start slideshow' })).toBeVisible();
+  await page.waitForTimeout(6000);
+  await expect(counter(page)).toContainText('01');
+  await expect(page.locator('.glass-fold-canvas')).toHaveCount(0);
+  await expect(page.locator('.wall-static')).toBeVisible();
+  await expect(page.locator('.marquee')).toHaveCount(0);
+  await page.getByRole('button', { name: 'Start slideshow' }).click();
+  await page.mouse.move(5, 895); // hovering the hero would pause it again
+  await expect(counter(page)).toContainText('02', { timeout: 8000 });
   await ctx.close();
+});
+
+test('signal wall shows real story cards in tilted drifting columns', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  const wall = page.getByTestId('signal-wall');
+  await expect(wall.getByRole('heading', { name: 'Signal wall' })).toBeVisible();
+  await wall.scrollIntoViewIfNeeded();
+  await expect(wall.locator('.wall-stage')).toHaveAttribute('aria-hidden', 'true');
+  expect(await wall.locator('.marquee').count()).toBe(4);
+  // Only the first copy of each column carries links, and they are out of the tab order.
+  const tabbable = await wall.locator('a[href]:not([tabindex="-1"])').count();
+  expect(tabbable).toBe(0);
+  const first = await wall.getByTestId('wall-card').first().getAttribute('href');
+  expect(first).toMatch(/#\/story\/\d{4}-\d{2}-\d{2}\//);
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await expect
+    .poll(() => wall.locator('.marquee').first().evaluate((m) => getComputedStyle(m.querySelector('.marquee-track')!).animationPlayState))
+    .toBe('paused'); // paused while off-screen
 });
 
 test('keyboard: skip link and picks tabs are operable', async ({ page }) => {

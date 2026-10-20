@@ -1,5 +1,7 @@
 # Hero video
 
+> The homepage hero is now the news carousel (`src/components/NewsHero.tsx`). These intro-video files are kept as shipped assets for a possible return of the video, but nothing on the site loads them at the moment.
+
 | File | What it is |
 |---|---|
 | `signal-ai-intro.mp4` | The user-supplied 10 s intro clip (`gemini_generated_video_11fc5a59.mp4`, 1280×720, 24 fps), re-encoded with ffmpeg: H.264 High, CRF 27, `+faststart`, **audio track removed** (4.96 MB → 1.05 MB). |
