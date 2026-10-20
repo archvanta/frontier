@@ -95,3 +95,7 @@ One system for the whole site: `src/lib/motion.ts` (script side) and `src/styles
 
 ## RTL
 Logical CSS properties throughout; directional icons flip (`.icon-dir`, `.icon-back`); the hero backdrop and its text mirror under `[dir='rtl']`; the header, drop-downs and cards mirror through logical properties.
+
+
+## Name and mark
+The site is called **FRONTIER** (Persian: فرانتیر), tagline "News from the frontier of technology" / «خبر از مرز فناوری» (renamed from SIGNAL AI on 2026-10-20 because the scope grew beyond AI). The wordmark is the Latin word FRONTIER (always LTR) next to a rounded blue-violet tile holding a rising line over a horizon (`BrandMark` in `Header.tsx`, mirrored by `public/favicon.svg`). The repository name `SIGNAL_AI`, the Pages URL and internal identifiers stay unchanged.

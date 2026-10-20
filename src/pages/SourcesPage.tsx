@@ -20,7 +20,7 @@ export function SourcesPage() {
   return (
     <div className="page container-narrow">
       <header className="page-head">
-        <p className="eyebrow">SIGNAL / SOURCES</p>
+        <p className="eyebrow">FRONTIER / SOURCES</p>
         <h1 className="page-title">{t('sources_title')}</h1>
         <p className="page-intro">{t('sources_intro')}</p>
       </header>

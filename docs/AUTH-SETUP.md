@@ -35,7 +35,7 @@ setting itself is the same.
    **Email OTP Expiration** to `600` seconds (the app tells readers codes last 10 minutes).
 2. **Authentication → Emails → Templates**: open **Magic Link** and **Confirm signup**, and paste
    [`supabase/templates/otp-code.html`](../supabase/templates/otp-code.html) into both. Suggested subject:
-   `Your SIGNAL AI code: {{ .Token }}`. The template must contain `{{ .Token }}`; the app uses only
+   `Your FRONTIER code: {{ .Token }}`. The template must contain `{{ .Token }}`; the app uses only
    the code, not the link.
 
 ### Why custom SMTP is required
@@ -57,7 +57,7 @@ the Supabase dashboard.
 | **Brevo** | about 300 emails/day | a verified sender; authenticate your domain for good Gmail delivery |
 | **Gmail SMTP** with an App Password | small personal volumes (about 500/day) | 2-step verification on the Google account; fine for testing, not for a public launch |
 
-Settings: host and port from the provider (usually port `465` or `587`), sender name `SIGNAL AI`,
+Settings: host and port from the provider (usually port `465` or `587`), sender name `FRONTIER`,
 sender email on the verified domain. Then **Authentication → Rate Limits**: keep "emails sent per hour"
 inside the provider's quota.
 
@@ -76,7 +76,7 @@ sign-in, removes the code from the address bar and opens the reader's dashboard 
 Google OAuth is a separate method. It does **not** send a code.
 
 1. <https://console.cloud.google.com> → create (or pick) a project → **APIs & Services → OAuth consent screen**:
-   app name `SIGNAL AI`, your support email, scopes `email`, `profile`, `openid`; publish it.
+   app name `FRONTIER`, your support email, scopes `email`, `profile`, `openid`; publish it.
 2. **Credentials → Create credentials → OAuth client ID → Web application**:
    - Authorized JavaScript origins: `https://sadeghimohammadamin83-ship-it.github.io`
    - Authorized redirect URIs: `https://<project-ref>.supabase.co/auth/v1/callback`

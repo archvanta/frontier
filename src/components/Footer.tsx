@@ -2,6 +2,7 @@ import { formatDateTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import type { Meta } from '../lib/types';
+import { BrandMark } from './Header';
 import { Icon, type IconName } from './Icon';
 
 export function LastUpdate({ meta }: { meta: Meta | null | undefined }) {
@@ -33,9 +34,9 @@ export function Footer({ meta }: { meta: Meta | null | undefined }) {
         <div className="footer-top">
           <p className="footer-brand" lang="en" dir="ltr">
             <span className="footer-glyph" aria-hidden="true">
-              <Icon name="signal" size={22} />
+              <BrandMark size={22} />
             </span>
-            SIGNAL<span>AI</span>
+            <span className="footer-name">FRONTIER</span>
           </p>
           <ul className="footer-features">
             {features.map((f) => (

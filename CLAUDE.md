@@ -1,6 +1,6 @@
-# SIGNAL AI — project contract
+# FRONTIER (repo `SIGNAL_AI`) — project contract
 
-Bilingual (Persian RTL / English LTR) AI-news intelligence site. Python collector on GitHub Actions (~hourly) → versioned JSON in `public/data/` → static Vite/React site on GitHub Pages (`/SIGNAL_AI/`, hash routing).
+Bilingual (Persian RTL / English LTR) technology-news site (formerly SIGNAL AI; the repo name, Pages URL and internal identifiers such as `signal-ai:` storage keys and `signal_pipeline` keep the old name). Python collector on GitHub Actions (~hourly) → versioned JSON in `public/data/` → static Vite/React site on GitHub Pages (`/SIGNAL_AI/`, hash routing).
 
 ## Non-negotiables
 - **No paid APIs.** No LLM, translation, image or search API calls anywhere. Translation is optional, offline (Argos en→fa model via CTranslate2), cached per article.

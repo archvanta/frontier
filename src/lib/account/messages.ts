@@ -7,8 +7,8 @@ import type { AccountErrorKind } from './types';
 const en = {
   sign_in: 'Sign in',
   create_account: 'Create account',
-  signin_title: 'Sign in to SIGNAL AI',
-  create_title: 'Create your SIGNAL AI account',
+  signin_title: 'Sign in to FRONTIER',
+  create_title: 'Create your FRONTIER account',
   signin_sub: 'We’ll email you a 6-digit code. No password needed.',
   email_label: 'Email address',
   email_placeholder: 'you@example.com',
@@ -180,8 +180,8 @@ export type AccountMessageKey = keyof typeof en;
 const fa: Record<AccountMessageKey, string> = {
   sign_in: 'ورود',
   create_account: 'ساخت حساب',
-  signin_title: 'ورود به SIGNAL AI',
-  create_title: 'ساخت حساب SIGNAL AI',
+  signin_title: 'ورود به فرانتیر',
+  create_title: 'ساخت حساب فرانتیر',
   signin_sub: 'یک کد ۶ رقمی به ایمیل شما می‌فرستیم. رمز عبور لازم نیست.',
   email_label: 'نشانی ایمیل',
   email_placeholder: 'you@example.com',
