@@ -1,21 +1,30 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { I18nProvider } from '../lib/i18n';
+import { forgetImageFits } from '../lib/imageFit';
 import type { Article } from '../lib/types';
 import { StoryImage, resolveImageUrl } from './StoryImage';
 
 type Img = Pick<Article, 'image' | 'category' | 'brand' | 'title'>;
 
-function renderImage(article: Img) {
+function renderImage(article: Img, onFit?: (fit: 'ok' | 'hide') => void) {
   const { container } = render(
     <I18nProvider initial="en">
-      <StoryImage article={article} />
+      <StoryImage article={article} onFit={onFit} />
     </I18nProvider>,
   );
   return container.querySelector('img')!;
 }
 
+function load(img: HTMLImageElement, width: number, height: number) {
+  Object.defineProperty(img, 'naturalWidth', { value: width, configurable: true });
+  Object.defineProperty(img, 'naturalHeight', { value: height, configurable: true });
+  fireEvent.load(img);
+}
+
 describe('StoryImage', () => {
+  beforeEach(() => forgetImageFits());
+
   it('resolves only http(s) and site-relative URLs', () => {
     expect(resolveImageUrl('https://cdn.example.com/a.jpg')).toBe('https://cdn.example.com/a.jpg');
     expect(resolveImageUrl('images/fallbacks/models.svg')).toMatch(/images\/fallbacks\/models\.svg$/);
@@ -24,19 +33,54 @@ describe('StoryImage', () => {
     expect(resolveImageUrl(null)).toBeNull();
   });
 
-  it('swaps a broken source image for the category artwork', () => {
-    const img = renderImage({ title: 't', category: 'research', brand: null, image: { url: 'https://cdn.example.com/broken.jpg', kind: 'feed', alt: 'A chart' } });
+  it('drops a broken source image instead of showing something else in its place', () => {
+    const onFit = vi.fn();
+    const img = renderImage(
+      { title: 't', category: 'research', brand: null, image: { url: 'https://cdn.example.com/broken.jpg', kind: 'feed', alt: 'A chart' } },
+      onFit,
+    );
     expect(img.getAttribute('src')).toBe('https://cdn.example.com/broken.jpg');
     expect(img).toHaveAttribute('alt', 'A chart');
     expect(img).toHaveAttribute('loading', 'lazy');
     expect(img).toHaveAttribute('referrerpolicy', 'no-referrer');
     fireEvent.error(img);
-    expect(img.getAttribute('src')).toMatch(/images\/fallbacks\/research\.svg$/);
-    expect(img).toHaveAttribute('alt', '');
+    expect(document.querySelector('.story-media')).toBeNull();
+    expect(onFit).toHaveBeenCalledWith('hide');
+  });
+
+  it('shows an ordinary photo whole and drops a tiny or extreme one', () => {
+    const ok = vi.fn();
+    load(renderImage({ title: 't', category: 'models', brand: null, image: { url: 'https://cdn.example.com/wide.jpg', kind: 'og' } }, ok), 1200, 630);
+    expect(document.querySelector('.story-media img')).not.toBeNull();
+    expect(ok).not.toHaveBeenCalledWith('hide');
+    for (const [w, h] of [
+      [160, 90],
+      [500, 900],
+      [1500, 300],
+    ] as const) {
+      const hide = vi.fn();
+      const { unmount } = render(
+        <I18nProvider initial="en">
+          <StoryImage
+            article={{ title: 't', category: 'models', brand: null, image: { url: `https://cdn.example.com/${w}x${h}.jpg`, kind: 'og' } }}
+            onFit={hide}
+          />
+        </I18nProvider>,
+      );
+      load(document.querySelector<HTMLImageElement>(`img[src$="${w}x${h}.jpg"]`)!, w, h);
+      expect(hide).toHaveBeenCalledWith('hide');
+      expect(document.querySelector(`img[src$="${w}x${h}.jpg"]`)).toBeNull();
+      unmount();
+    }
   });
 
   it('labels brand character art as an unofficial illustration', () => {
-    renderImage({ title: 't', category: 'models', brand: 'claude', image: { url: 'images/ai-brands/claude-character.webp', kind: 'brand', alt: 'Claude / Anthropic — unofficial editorial character illustration' } });
+    renderImage({
+      title: 't',
+      category: 'models',
+      brand: 'claude',
+      image: { url: 'images/ai-brands/claude-character.webp', kind: 'brand', alt: 'Claude / Anthropic — unofficial editorial character illustration' },
+    });
     expect(screen.getByText('Unofficial editorial illustration')).toBeInTheDocument();
   });
 

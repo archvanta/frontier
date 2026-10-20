@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useRef, useState, type FocusEvent, type KeyboardEvent, type PointerEvent } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type FocusEvent, type KeyboardEvent, type PointerEvent } from 'react';
 import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article';
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { genuineImage } from '../lib/heroStories';
 import { useMediaQuery } from '../lib/hooks';
+import { judgeHeroImage, rememberHeroFit, rememberedHeroFit, type HeroFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import type { Article } from '../lib/types';
@@ -12,8 +13,11 @@ import { resolveImageUrl } from './StoryImage';
 /** Time each story stays on screen. */
 export const SLIDE_MS = 5000;
 const SWIPE_PX = 50;
-/** Feed thumbnails narrower than this look soft at full width, so the slide uses the gradient backdrop instead. */
-const MIN_IMAGE_WIDTH = 640;
+/** The headline never shrinks below this share of its normal size; if the copy still does not fit, the hero grows instead of clipping it. */
+const MIN_COPY_SCALE = 0.55;
+const COPY_SCALE_STEP = 0.05;
+/** The hero is never shorter than this, whatever the viewport. Keep in sync with `.nh-stage` in app.css. */
+const MIN_STAGE_PX = 480;
 
 interface SlideProps {
   story: Article;
@@ -21,83 +25,116 @@ interface SlideProps {
   total: number;
   active: boolean;
   mountImage: boolean;
-  noImage: boolean;
-  onImageBad: (id: string) => void;
+  /** The slide's layout changed (its image was judged), so the copy may need to be fitted again. */
+  onLayout: () => void;
 }
 
-function Slide({ story, index, total, active, mountImage, noImage, onImageBad }: SlideProps) {
+type SlideMode = 'art' | 'pending' | HeroFit;
+
+function Slide({ story, index, total, active, mountImage, onLayout }: SlideProps) {
   const { t, locale } = useI18n();
   const title = displayTitle(story, locale);
   const excerpt = displayExcerpt(story, locale);
   const external = safeUrl(story.url);
   const src = resolveImageUrl(genuineImage(story)?.url);
-  const showImage = Boolean(src) && !noImage && mountImage;
+  const [fit, setFit] = useState<HeroFit | 'pending'>(() => (src ? (rememberedHeroFit(src) ?? 'pending') : 'art'));
+  const showImage = Boolean(src) && mountImage && fit !== 'art';
+  // `pending`: the image is loading and is judged on arrival (cover, contain over a blurred copy, or dropped for the gradient backdrop).
+  const mode: SlideMode = showImage ? fit : 'art';
+  useEffect(() => onLayout(), [mode, onLayout]);
+  const decide = (next: HeroFit) => {
+    if (src) rememberHeroFit(src, next);
+    setFit(next);
+  };
 
   return (
     <div
-      className={`nh-slide ${active ? 'is-active' : ''} ${showImage ? '' : 'is-art'}`}
+      className={`nh-slide ${active ? 'is-active' : ''} is-${mode}`}
       role="group"
       aria-roledescription="slide"
       aria-label={t('hero_story', { n: index + 1, total })}
       aria-hidden={!active}
       inert={!active}
       data-testid="hero-slide"
+      data-fit={mode}
     >
-      {showImage && src && (
-        <img
-          className="nh-img"
-          src={src}
-          alt=""
-          decoding="async"
-          referrerPolicy="no-referrer"
-          fetchPriority={index === 0 ? 'high' : 'auto'}
-          onError={() => onImageBad(story.id)}
-          onLoad={(e) => {
-            if (e.currentTarget.naturalWidth < MIN_IMAGE_WIDTH) onImageBad(story.id);
-          }}
-        />
-      )}
-      <div className="nh-content container">
-        <p className="nh-cat">{categoryLabel(locale, story.category)}</p>
-        <h2 className="nh-title" lang={title.lang} dir="auto">
-          {title.text}
-        </h2>
-        {excerpt.text && (
-          <p className="nh-desc" lang={excerpt.lang} dir="auto">
-            {excerpt.text}
+      {showImage && src && fit === 'contain' && <img className="nh-blur" src={src} alt="" aria-hidden="true" decoding="async" referrerPolicy="no-referrer" />}
+      <div className="nh-inner container">
+        <div className="nh-content">
+          <p className="nh-cat">{categoryLabel(locale, story.category)}</p>
+          <h2 className="nh-title" lang={title.lang} dir="auto">
+            {title.text}
+          </h2>
+          {excerpt.text && (
+            <p className="nh-desc" lang={excerpt.lang} dir="auto">
+              {excerpt.text}
+            </p>
+          )}
+          <p className="nh-meta">
+            <span>{story.sourceName}</span>
+            <span className="nh-sep" aria-hidden="true" />
+            <time dateTime={story.publishedAt}>{formatDateTime(story.publishedAt, locale)}</time>
+            {title.translated && (
+              <>
+                <span className="nh-sep" aria-hidden="true" />
+                <span>{t('translation_machine')}</span>
+              </>
+            )}
           </p>
-        )}
-        <p className="nh-meta">
-          <span>{story.sourceName}</span>
-          <span className="nh-sep" aria-hidden="true" />
-          <time dateTime={story.publishedAt}>{formatDateTime(story.publishedAt, locale)}</time>
-          {title.translated && (
-            <>
-              <span className="nh-sep" aria-hidden="true" />
-              <span>{t('translation_machine')}</span>
-            </>
-          )}
-        </p>
-        <div className="nh-actions">
-          <a className="btn is-primary is-lg nh-read" href={href(storyPath(story))}>
-            <Icon name="book" size={18} />
-            {t('hero_read')}
-          </a>
-          {external && (
-            <a
-              className="btn is-violet is-lg nh-source"
-              href={external}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={`${t('read_source')}: ${story.sourceName}`}
-            >
-              {t('read_source')} <Icon name="external" size={15} />
+          <div className="nh-actions">
+            <a className="btn is-primary is-lg nh-read" href={href(storyPath(story))}>
+              <Icon name="book" size={18} />
+              {t('hero_read')}
             </a>
-          )}
+            {external && (
+              <a
+                className="btn is-violet is-lg nh-source"
+                href={external}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${t('read_source')}: ${story.sourceName}`}
+              >
+                {t('read_source')} <Icon name="external" size={15} />
+              </a>
+            )}
+          </div>
         </div>
+        {showImage && src && (
+          <div className="nh-frame">
+            <img
+              className="nh-img"
+              src={src}
+              alt=""
+              decoding="async"
+              referrerPolicy="no-referrer"
+              fetchPriority={index === 0 ? 'high' : 'auto'}
+              onError={() => decide('art')}
+              onLoad={(e) => decide(judgeHeroImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight }))}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
+}
+
+/**
+ * Shrinks each slide's headline just enough that its copy fits the first screen: the hero is at least as tall as the viewport below its own top
+ * (the header, plus the mock-data banner in mock builds), the copy sits at its bottom, and nothing may poke out of the top. Each slide gets
+ * `--nh-scale` (1 = normal size). Below MIN_COPY_SCALE the hero simply grows (the copy is never clipped and the title never gets an ellipsis).
+ */
+export function fitSlides(stage: HTMLElement, viewportH: number, top: number): void {
+  const room = Math.max(MIN_STAGE_PX, viewportH - top);
+  stage.querySelectorAll<HTMLElement>('.nh-slide').forEach((slide) => {
+    const inner = slide.querySelector<HTMLElement>('.nh-inner');
+    if (!inner) return;
+    slide.style.removeProperty('--nh-scale');
+    let scale = 1;
+    while (scale > MIN_COPY_SCALE && inner.offsetHeight > room) {
+      scale = Math.round((scale - COPY_SCALE_STEP) * 100) / 100;
+      slide.style.setProperty('--nh-scale', String(scale));
+    }
+  });
 }
 
 /**
@@ -114,13 +151,14 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const total = list.length;
   const [index, setIndex] = useState(0);
   const [visited, setVisited] = useState<ReadonlySet<number>>(() => new Set([0]));
-  const [bad, setBad] = useState<ReadonlySet<string>>(() => new Set());
   const [userPaused, setUserPaused] = useState<boolean | null>(null);
   const [hover, setHover] = useState(false);
   const [focusIn, setFocusIn] = useState(false);
   const [onScreen, setOnScreen] = useState(true);
   const [tabVisible, setTabVisible] = useState(() => typeof document === 'undefined' || !document.hidden);
   const root = useRef<HTMLElement>(null);
+  const stage = useRef<HTMLDivElement>(null);
+  const [layoutTick, setLayoutTick] = useState(0);
   const dots = useRef<HTMLDivElement>(null);
   const elapsed = useRef(0);
   const swipe = useRef<{ x: number; y: number } | null>(null);
@@ -128,6 +166,30 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const current = Math.min(index, Math.max(0, total - 1));
   const autoplay = total > 1 && (userPaused === null ? !reduced : !userPaused);
   const running = autoplay && !hover && !focusIn && onScreen && tabVisible;
+
+  const relayout = useCallback(() => setLayoutTick((n) => n + 1), []);
+  const fitCopy = useCallback(() => {
+    const el = stage.current;
+    if (!el) return;
+    // Where the hero starts on the page when scrolled to the top; the stage's CSS height reads it back as `--nh-top`.
+    const top = Math.max(0, Math.round(el.getBoundingClientRect().top + window.scrollY));
+    el.style.setProperty('--nh-top', `${top}px`);
+    fitSlides(el, window.innerHeight, top);
+  }, []);
+  useLayoutEffect(() => fitCopy(), [fitCopy, stories, locale, layoutTick]);
+  useEffect(() => {
+    let raf = 0;
+    const again = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(fitCopy);
+    };
+    window.addEventListener('resize', again);
+    void document.fonts?.ready.then(again);
+    return () => {
+      window.removeEventListener('resize', again);
+      cancelAnimationFrame(raf);
+    };
+  }, [fitCopy]);
 
   const setProgress = useCallback((p: number) => dots.current?.style.setProperty('--p', String(p)), []);
 
@@ -203,7 +265,6 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
   const onBlur = (e: FocusEvent<HTMLElement>) => {
     if (!e.currentTarget.contains(e.relatedTarget)) setFocusIn(false);
   };
-  const markBad = useCallback((id: string) => setBad((b) => (b.has(id) ? b : new Set(b).add(id))), []);
 
   const loading = stories === null;
   const sub = t('hero_sub');
@@ -236,7 +297,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
       onPointerUp={onPointerUp}
       onPointerCancel={() => (swipe.current = null)}
     >
-      <div className="nh-stage">
+      <div ref={stage} className="nh-stage">
         <div className="nh-backdrop" aria-hidden="true" />
         {total > 0 && (
           <div className="nh-slides" aria-live={running ? 'off' : 'polite'}>
@@ -248,8 +309,7 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
                 total={total}
                 active={i === current}
                 mountImage={visited.has(i) || i === (current + 1) % total}
-                noImage={bad.has(s.id)}
-                onImageBad={markBad}
+                onLayout={relayout}
               />
             ))}
           </div>
@@ -257,16 +317,18 @@ export function NewsHero({ stories }: { stories: Article[] | null }) {
         <div className="nh-scrim" aria-hidden="true" />
 
         {total === 0 ? (
-          <div className="nh-content nh-intro container">
-            <p className="nh-cat">{t('hero_kicker')}</p>
-            {brand}
-            {loading ? (
-              <p className="visually-hidden" role="status">
-                {t('hero_loading')}
-              </p>
-            ) : (
-              <p className="nh-desc">{t('hero_body')}</p>
-            )}
+          <div className="nh-inner nh-intro container">
+            <div className="nh-content">
+              <p className="nh-cat">{t('hero_kicker')}</p>
+              {brand}
+              {loading ? (
+                <p className="visually-hidden" role="status">
+                  {t('hero_loading')}
+                </p>
+              ) : (
+                <p className="nh-desc">{t('hero_body')}</p>
+              )}
+            </div>
           </div>
         ) : (
           brand

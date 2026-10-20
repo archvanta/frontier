@@ -1,8 +1,9 @@
 import { act, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { I18nProvider } from '../lib/i18n';
+import { forgetImageFits } from '../lib/imageFit';
 import type { Article } from '../lib/types';
-import { NewsHero, SLIDE_MS } from './NewsHero';
+import { NewsHero, SLIDE_MS, fitSlides } from './NewsHero';
 
 function story(id: string, image: Article['image'] = { url: `https://img.example.com/${id}.jpg`, kind: 'og' }): Article {
   return {
@@ -37,6 +38,7 @@ const renderHero = (stories: Article[] | null) =>
 describe('NewsHero', () => {
   beforeEach(() => {
     window.localStorage.clear();
+    forgetImageFits();
   });
   afterEach(() => vi.useRealTimers());
 
@@ -61,13 +63,33 @@ describe('NewsHero', () => {
     expect(slide).toHaveClass('is-art');
   });
 
-  it('treats a tiny feed thumbnail as unusable at full width', () => {
+  it('chooses cover, whole-picture or no picture from the photo size', () => {
     renderHero([story('a'), story('b'), story('c')]);
-    const slide = screen.getAllByTestId('hero-slide')[0]!;
-    const img = slide.querySelector('img')!;
-    Object.defineProperty(img, 'naturalWidth', { value: 120 });
-    fireEvent.load(img);
-    expect(slide).toHaveClass('is-art');
+    const load = (k: number, width: number, height: number) => {
+      const slide = screen.getAllByTestId('hero-slide')[k]!;
+      const img = slide.querySelector<HTMLImageElement>('.nh-img')!;
+      Object.defineProperty(img, 'naturalWidth', { value: width });
+      Object.defineProperty(img, 'naturalHeight', { value: height });
+      fireEvent.load(img);
+      return slide;
+    };
+    const wide = load(0, 1600, 900);
+    expect(wide).toHaveAttribute('data-fit', 'cover');
+    expect(wide.querySelector('.nh-blur')).toBeNull();
+    const square = load(1, 800, 800);
+    expect(square).toHaveAttribute('data-fit', 'contain');
+    expect(square.querySelector('.nh-blur')).toHaveAttribute('src', 'https://img.example.com/b.jpg');
+    fireEvent.click(screen.getByRole('button', { name: 'Story 3 of 3' })); // a slide's image mounts once it is current or next
+    const tiny = load(2, 120, 90);
+    expect(tiny).toHaveClass('is-art');
+    expect(tiny.querySelector('img')).toBeNull();
+  });
+
+  it('never clamps the headline', () => {
+    renderHero([story('a')]);
+    const title = screen.getByRole('heading', { level: 2 });
+    expect(title.style.webkitLineClamp).toBe('');
+    expect(title.closest('.nh-inner')).not.toBeNull();
   });
 
   it('keeps inactive slides out of the accessibility tree and advances on a timer', () => {
@@ -109,5 +131,37 @@ describe('NewsHero', () => {
     expect(screen.getAllByTestId('hero-slide')[2]).toHaveAttribute('aria-hidden', 'false');
     fireEvent.click(screen.getByRole('button', { name: 'Next story' }));
     expect(screen.getAllByTestId('hero-slide')[0]).toHaveAttribute('aria-hidden', 'false');
+  });
+});
+
+describe('fitSlides', () => {
+  /** jsdom has no layout: a slide's copy is as tall as 600px × its headline scale. */
+  function stageWith(heights: number[]) {
+    const stage = document.createElement('div');
+    for (const h of heights) {
+      const slide = document.createElement('div');
+      slide.className = 'nh-slide';
+      const inner = document.createElement('div');
+      inner.className = 'nh-inner';
+      Object.defineProperty(inner, 'offsetHeight', { get: () => h * Number(slide.style.getPropertyValue('--nh-scale') || 1) });
+      slide.append(inner);
+      stage.append(slide);
+    }
+    return stage;
+  }
+  const scales = (stage: HTMLElement) => [...stage.querySelectorAll<HTMLElement>('.nh-slide')].map((s) => s.style.getPropertyValue('--nh-scale') || '1');
+
+  it('leaves copy that fits alone and shrinks taller copy just enough', () => {
+    const stage = stageWith([500, 800, 3000]);
+    fitSlides(stage, 900, 68); // room: 832px
+    expect(scales(stage)).toEqual(['1', '1', '0.55']);
+    fitSlides(stage, 700, 68); // room: 632px
+    expect(scales(stage)).toEqual(['1', '0.75', '0.55']);
+  });
+
+  it('never plans for less than the minimum hero height', () => {
+    const stage = stageWith([470]);
+    fitSlides(stage, 300, 68);
+    expect(scales(stage)).toEqual(['1']);
   });
 });

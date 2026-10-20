@@ -258,7 +258,6 @@ html[lang='fa'] .mock-banner {
   font-size: var(--fs-md);
 }
 
-
 .icon-btn {
   display: inline-grid;
   place-items: center;
@@ -724,8 +723,7 @@ html[lang='fa'] .mt-label {
   background:
     radial-gradient(70% 95% at 10% 115%, rgba(104, 58, 220, 0.78), transparent 64%),
     radial-gradient(60% 85% at 94% 108%, rgba(38, 82, 220, 0.58), transparent 64%),
-    radial-gradient(55% 60% at 62% -12%, rgba(78, 46, 168, 0.3), transparent 70%),
-    linear-gradient(180deg, #07050f 0%, #0a0820 100%);
+    radial-gradient(55% 60% at 62% -12%, rgba(78, 46, 168, 0.3), transparent 70%), linear-gradient(180deg, #07050f 0%, #0a0820 100%);
 }
 
 [dir='rtl'] .nh-backdrop {
@@ -745,22 +743,35 @@ html[lang='fa'] .mt-label {
 }
 
 .nh-stage {
+  --nh-pad-top: 1.25rem;
+  --nh-pad-bottom: 4.75rem;
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  block-size: clamp(520px, calc(88vh - var(--header-h)), 820px);
-  block-size: clamp(520px, calc(88svh - var(--header-h)), 820px);
+  display: grid;
+  /* The first screen below the header is the hero and nothing else: it reaches from its own top (`--nh-top`, measured by NewsHero; the header
+     height until then) to the bottom of the viewport, and grows (never clips) when a long headline needs more room. `fitSlides` shrinks
+     headlines first. */
+  min-block-size: max(30rem, calc(100vh - var(--nh-top, calc(var(--header-h) + 1px))));
+  min-block-size: max(30rem, calc(100svh - var(--nh-top, calc(var(--header-h) + 1px))));
   background: #05030f;
 }
 
 .nh-slides {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
+  display: grid;
+  min-block-size: 0;
 }
 
 .nh-slide {
-  position: absolute;
-  inset: 0;
+  position: relative;
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-inline-size: 0;
+  overflow: hidden;
+  isolation: isolate;
   opacity: 0;
   visibility: hidden;
   transition:
@@ -777,48 +788,91 @@ html[lang='fa'] .mt-label {
     visibility 0s;
 }
 
-.nh-img {
+/* The photo. cover: fills the stage (wide, large photos only). contain: the whole picture, framed on the end side (stacked above the copy on
+   phones) over a blurred, darkened copy of itself. pending/art: no photo is shown (the stage's gradient backdrop is behind). */
+.nh-frame {
   position: absolute;
   inset: 0;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  min-inline-size: 0;
+  pointer-events: none;
+}
+
+.nh-img {
   inline-size: 100%;
   block-size: 100%;
   object-fit: cover;
   object-position: 50% 35%;
   transform-origin: 50% 40%;
+  opacity: 1;
+  transition: opacity 0.7s var(--ease);
 }
 
-.nh-slide.is-active .nh-img {
+.nh-slide.is-pending .nh-img {
+  opacity: 0;
+}
+
+.nh-slide.is-active.is-cover .nh-img {
   animation: nh-zoom 7s cubic-bezier(0.2, 0.6, 0.25, 1) both;
 }
 
-/* Subtle dark gradient: darker at the foot for the copy and at the top for the header, a little from the reading side. */
+.nh-blur {
+  position: absolute;
+  inset: -8%;
+  z-index: 0;
+  inline-size: 116%;
+  block-size: 116%;
+  object-fit: cover;
+  filter: blur(28px) brightness(0.4) saturate(1.15);
+  pointer-events: none;
+}
+
+.nh-slide.is-contain .nh-img {
+  inline-size: auto;
+  block-size: auto;
+  max-inline-size: 100%;
+  max-block-size: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.14),
+    0 30px 70px -24px rgba(0, 0, 0, 0.85);
+}
+
+/* Strong scrim: the headline sits on near-black whatever the photo shows (screenshots and text-heavy images included). */
 .nh-slide::after {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
   pointer-events: none;
   background:
-    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.82) 20%, rgba(0, 0, 0, 0.4) 48%, rgba(0, 0, 0, 0.06) 70%, rgba(0, 0, 0, 0.5) 100%),
-    linear-gradient(to right, rgba(0, 0, 0, 0.45), transparent 60%);
+    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 24%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.22) 74%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) 46%, transparent 74%);
 }
 
 [dir='rtl'] .nh-slide::after {
   background:
-    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.82) 20%, rgba(0, 0, 0, 0.4) 48%, rgba(0, 0, 0, 0.06) 70%, rgba(0, 0, 0, 0.5) 100%),
-    linear-gradient(to left, rgba(0, 0, 0, 0.45), transparent 60%);
+    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 24%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.22) 74%, rgba(0, 0, 0, 0.55) 100%),
+    linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) 46%, transparent 74%);
+}
+
+/* The picture is shown whole on its own, so it gets only a light vignette. */
+.nh-slide.is-contain::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 55%, transparent 100%);
 }
 
 /* Slides on the gradient backdrop only need the copy corner darkened a little. */
-.nh-slide.is-art::after {
-  background:
-    linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%),
-    linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent 60%);
+.nh-slide.is-art::after,
+.nh-slide.is-pending::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%), linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent 60%);
 }
 
-[dir='rtl'] .nh-slide.is-art::after {
-  background:
-    linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%),
-    linear-gradient(to left, rgba(0, 0, 0, 0.3), transparent 60%);
+[dir='rtl'] .nh-slide.is-art::after,
+[dir='rtl'] .nh-slide.is-pending::after {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%), linear-gradient(to left, rgba(0, 0, 0, 0.3), transparent 60%);
 }
 
 /* Blends the foot of the hero into the page (dark theme); the light theme keeps a clean edge instead. */
@@ -837,20 +891,31 @@ html[data-theme='light'] .nh-stage {
   border-end-end-radius: var(--radius-xl);
 }
 
-.nh-content {
-  position: absolute;
-  inset-inline: 0;
-  inset-block-end: 0;
+/* Copy block: in flow at the bottom of the slide, so a long headline pushes the hero taller instead of poking out above it.
+   Bottom padding keeps clear of the controls. */
+.nh-inner {
+  flex: none;
+  padding-block: var(--nh-pad-top) var(--nh-pad-bottom);
+}
+
+.nh-intro {
+  grid-area: 1 / 1;
+  align-self: end;
   z-index: 1;
-  margin-inline: auto;
+}
+
+.nh-content {
+  position: relative;
+  z-index: 2;
   display: grid;
   justify-items: start;
   gap: var(--s-4);
-  padding-block-end: 7.25rem;
+  max-inline-size: min(100%, 50rem);
+  min-inline-size: 0;
 }
 
 .nh-content > * {
-  max-inline-size: 46rem;
+  max-inline-size: 100%;
   min-inline-size: 0;
 }
 
@@ -906,6 +971,7 @@ html[data-theme='light'] .nh-stage {
   font-family: var(--font-mono);
   font-size: var(--fs-xs);
   font-weight: 500;
+  line-height: 1.6;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--accent);
@@ -924,34 +990,32 @@ html[lang='fa'] .nh-cat {
   letter-spacing: 0;
 }
 
+/* Headline: never clamped. `--nh-scale` (set by fitSlides) shrinks it just enough for the copy to fit the first screen. */
 .nh-title {
-  font-size: clamp(1.9rem, 1.1rem + 2.8vw, 3.6rem);
+  font-size: calc(clamp(1.75rem, 1rem + 2.8vw, 3.6rem) * var(--nh-scale, 1));
   font-weight: 700;
   letter-spacing: -0.03em;
-  line-height: 1.06;
+  line-height: 1.08;
   color: #fff;
   text-shadow: 0 2px 36px rgba(0, 0, 0, 0.55);
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 html[lang='fa'] .nh-title {
   letter-spacing: 0;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 .nh-desc {
   font-size: clamp(0.95rem, 0.86rem + 0.35vw, 1.15rem);
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.82);
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .nh-meta {
@@ -960,7 +1024,7 @@ html[lang='fa'] .nh-title {
   flex-wrap: wrap;
   gap: var(--s-2) var(--s-3);
   font-size: var(--fs-sm);
-  color: var(--text-2);
+  color: rgba(255, 255, 255, 0.72);
 }
 
 .nh-sep {
@@ -975,7 +1039,7 @@ html[lang='fa'] .nh-title {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: var(--s-3) var(--s-5);
+  gap: var(--s-3) var(--s-4);
   margin-block-start: var(--s-1);
 }
 
@@ -1006,17 +1070,24 @@ html[dir='rtl'] .nh-brand {
   color: var(--accent);
 }
 
-/* Controls */
+/* Controls: compact and quiet along the foot of the hero, always inside it. */
 .nh-controls {
   position: absolute;
   inset-inline: 0;
-  inset-block-end: 1.75rem;
+  inset-block-end: 1rem;
   z-index: 3;
   margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: var(--s-5);
+  gap: var(--s-4);
+  opacity: 0.8;
+  transition: opacity var(--dur) var(--ease);
+}
+
+.nh-controls:hover,
+.nh-controls:focus-within {
+  opacity: 1;
 }
 
 .nh-dots {
@@ -1026,7 +1097,7 @@ html[dir='rtl'] .nh-brand {
 
 .nh-dot {
   position: relative;
-  inline-size: 44px;
+  inline-size: 38px;
   block-size: 32px;
   padding: 0;
   border: 0;
@@ -1086,9 +1157,9 @@ html[dir='rtl'] .nh-brand {
 }
 
 .nh-count {
-  margin-inline-end: var(--s-3);
+  margin-inline-end: var(--s-2);
   font-family: var(--font-mono);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   letter-spacing: 0.08em;
   color: #fff;
   direction: ltr;
@@ -1099,16 +1170,15 @@ html[dir='rtl'] .nh-brand {
   color: var(--text-3);
 }
 
-
 .nh-btn {
   display: inline-grid;
   place-items: center;
-  inline-size: 42px;
-  block-size: 42px;
+  inline-size: 36px;
+  block-size: 36px;
   padding: 0;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.32);
   color: #fff;
   cursor: pointer;
   transition:
@@ -1129,22 +1199,77 @@ html[dir='rtl'] .nh-brand {
   stroke-width: 0;
 }
 
+/* Contain mode on a wide screen: the whole picture sits on the end side, the copy on the start side. */
+@media (min-width: 900px) {
+  .nh-slide.is-contain .nh-frame {
+    inset-block: var(--nh-pad-top) var(--nh-pad-bottom);
+    inset-inline: auto max(var(--gutter), calc((100% - var(--container)) / 2 + var(--gutter)));
+    inline-size: min(38%, 38rem);
+  }
+  .nh-slide.is-contain .nh-content {
+    max-inline-size: min(50rem, calc(100% - min(38vw, 38rem) - 2rem));
+  }
+}
+
+@media (max-width: 899px) {
+  /* Phones and tablets: the picture is stacked above the copy at a modest height. */
+  .nh-slide.is-contain {
+    --nh-frame-h: clamp(7rem, 24vh, 16rem);
+    --nh-frame-h: clamp(7rem, 24svh, 16rem);
+  }
+  .nh-slide.is-contain .nh-inner {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+  }
+  .nh-slide.is-contain .nh-frame {
+    position: relative;
+    inset: auto;
+    order: -1;
+    inline-size: 100%;
+    block-size: var(--nh-frame-h);
+  }
+  .nh-slide.is-contain .nh-img {
+    max-block-size: var(--nh-frame-h);
+  }
+}
+
 @media (max-width: 760px) {
   .nh-stage {
-    block-size: clamp(480px, calc(80vh - var(--header-h)), 700px);
-    block-size: clamp(480px, calc(80svh - var(--header-h)), 700px);
+    --nh-pad-top: 1rem;
+    --nh-pad-bottom: 3.75rem;
   }
   .nh-content {
-    padding-block-end: 6rem;
     gap: var(--s-3);
   }
+  .nh-actions .btn.is-lg {
+    min-block-size: 46px;
+    padding: 0.55rem 1rem;
+    border-radius: 16px;
+    font-size: var(--fs-sm);
+  }
   .nh-dot {
-    inline-size: 34px;
+    inline-size: 32px;
   }
   .nh-prev,
   .nh-next,
   .nh-count {
     display: none;
+  }
+}
+
+/* Short screens: a two-line summary and a smaller picture keep the headline and the buttons in view. */
+@media (max-height: 700px) {
+  .nh-desc {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+}
+
+@media (max-width: 899px) and (max-height: 720px) {
+  .nh-slide.is-contain {
+    --nh-frame-h: clamp(4.5rem, 16vh, 9rem);
+    --nh-frame-h: clamp(4.5rem, 16svh, 9rem);
   }
 }
 
@@ -1292,6 +1417,10 @@ html[dir='rtl'] .nh-brand {
   background: var(--tone-crimson);
 }
 
+.wall-card {
+  background-origin: border-box;
+}
+
 a.wall-card:hover {
   border-color: rgba(255, 255, 255, 0.3);
   color: var(--card-ink);
@@ -1299,9 +1428,9 @@ a.wall-card:hover {
 
 .wall-thumb {
   flex: none;
-  inline-size: 48px;
-  block-size: 48px;
-  border-radius: 10px;
+  inline-size: 64px;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.3);
 }
@@ -1309,7 +1438,7 @@ a.wall-card:hover {
 .wall-thumb img {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .wall-text {
@@ -1336,11 +1465,7 @@ html[lang='fa'] .wall-cat {
   font-weight: 600;
   line-height: 1.4;
   color: var(--card-ink);
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .wall-meta {
@@ -1431,7 +1556,6 @@ html[lang='fa'] .section-title {
 .filter-chips::-webkit-scrollbar {
   display: none;
 }
-
 
 .tab,
 .filter-chip {
@@ -1587,14 +1711,19 @@ html[lang='fa'] .picks-more-label {
 .story-media img {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: cover;
-  transition:
-    transform var(--dur-slow) var(--ease),
-    filter var(--dur-slow) var(--ease);
+  /* The whole photo, never cropped: a different shape from the frame leaves room around it. */
+  object-fit: contain;
+  transition: filter var(--dur-slow) var(--ease);
 }
 
 .story-card:hover .story-media img {
-  transform: scale(1.035);
+  filter: brightness(1.06);
+}
+
+/* Our own artwork (category fallbacks, brand character art) is drawn for this frame and fills it. */
+.story-media.is-fallback img,
+.story-media.is-brand img {
+  object-fit: cover;
 }
 
 .story-media.is-brand {
@@ -1655,12 +1784,10 @@ html[lang='fa'] .media-tag {
   align-items: center;
   gap: 0.4rem;
   min-inline-size: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   font-size: var(--fs-xs);
   font-weight: 500;
   color: var(--text-2);
+  overflow-wrap: break-word;
 }
 
 .kicker-cat {
@@ -1703,6 +1830,12 @@ html[lang='fa'] .media-tag {
   overflow-wrap: anywhere;
 }
 
+/* Persian needs more air between lines than the Latin-tuned variant values give (dots and marks collide at 1.2). */
+html[lang='fa'] .story-card .story-title {
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
 .story-title a {
   text-decoration: none;
   background-image: linear-gradient(var(--accent-line), var(--accent-line));
@@ -1740,16 +1873,14 @@ html[lang='fa'] .media-tag {
   font-size: var(--fs-sm);
   line-height: 1.6;
   color: var(--text-2);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .story-meta {
   display: flex;
   align-items: center;
-  gap: var(--s-3);
+  flex-wrap: wrap;
+  gap: var(--s-1) var(--s-3);
   margin-block-start: auto;
   padding-block-start: var(--s-1);
   font-size: var(--fs-xs);
@@ -1825,6 +1956,12 @@ html[lang='fa'] .media-tag {
   background: var(--tone-crimson);
 }
 
+/* The gradient spans the border box. Left at the default (padding box) it tiles into the translucent rim, which then shows the opposite end of
+   the gradient as a coloured line along the top edge. Declared after the tone rules, whose `background` shorthand would reset it. */
+.story-card[data-tone] {
+  background-origin: border-box;
+}
+
 .story-card[data-tone]:hover {
   border-color: rgba(255, 255, 255, 0.28);
 }
@@ -1896,9 +2033,9 @@ html[lang='fa'] .media-tag {
   color: var(--card-ink-3);
 }
 
-/* grid: three-up card. Icon tile and "Read" pill, title, two-line excerpt, meta, divider, image off the bottom edge. */
+/* grid: three-up card. Icon tile and "Read" pill, title, excerpt, meta, divider, then the whole image in a framed preview with room below. */
 .story-card.is-grid {
-  padding: var(--s-5) var(--s-5) 0;
+  padding: var(--s-5);
   gap: var(--s-4);
 }
 
@@ -1957,14 +2094,14 @@ html[lang='fa'] .media-tag {
 }
 
 .story-card.is-grid .story-media-wrap {
-  margin-block-start: var(--s-1);
+  margin-block-start: auto;
   padding-block-start: var(--s-4);
   border-block-start: 1px solid var(--card-line);
 }
 
 .story-card.is-grid .story-media {
   aspect-ratio: 16 / 10;
-  border-radius: 16px 16px 0 0;
+  border-radius: 14px;
 }
 
 /* Narrow cards: the source gets its own line so time, score and the two buttons keep their size. */
@@ -2007,7 +2144,6 @@ html[lang='fa'] .media-tag {
 }
 
 .story-card.is-lead .story-excerpt {
-  -webkit-line-clamp: 4;
   font-size: var(--fs-md);
 }
 
@@ -2048,7 +2184,7 @@ html[lang='fa'] .media-tag {
 .story-card.is-feature .story-body {
   flex: none;
   gap: var(--s-3);
-  padding: clamp(1.5rem, 1rem + 1.6vw, 2.5rem) clamp(1.5rem, 1rem + 1.6vw, 2.5rem) 0;
+  padding: clamp(1.5rem, 1rem + 1.6vw, 2.5rem);
 }
 
 .story-card.is-feature .kicker-cat {
@@ -2078,12 +2214,12 @@ html[lang='fa'] .story-card.is-feature .story-title {
 
 .story-card.is-feature .story-media-wrap {
   margin-block-start: auto;
-  padding: var(--s-5) clamp(1.5rem, 1rem + 1.6vw, 2.5rem) 0;
+  padding: 0 clamp(1.5rem, 1rem + 1.6vw, 2.5rem) clamp(1.5rem, 1rem + 1.6vw, 2.5rem);
 }
 
 .story-card.is-feature .story-media {
-  aspect-ratio: 16 / 8;
-  border-radius: 18px 18px 0 0;
+  aspect-ratio: 16 / 9;
+  border-radius: 18px;
 }
 
 .story-card.is-feature .rank,
@@ -2114,14 +2250,11 @@ html[lang='fa'] .story-card.is-feature .story-title {
 }
 
 .story-card.is-split .story-media-wrap {
-  align-self: stretch;
+  align-self: start;
 }
 
-.story-card.is-split .story-media-link,
 .story-card.is-split .story-media {
-  block-size: 100%;
-  aspect-ratio: auto;
-  min-block-size: 180px;
+  aspect-ratio: 4 / 3;
 }
 
 .story-card.is-split .story-media {
@@ -2131,6 +2264,17 @@ html[lang='fa'] .story-card.is-feature .story-title {
 .story-card.is-split .story-title {
   font-size: clamp(1.1rem, 0.9rem + 0.5vw, 1.4rem);
   line-height: 1.2;
+}
+
+/* A story whose photo cannot be shown whole at a reasonable size has no media block at all: the text takes the full card. */
+.story-card.is-lead.is-text-only,
+.story-card.is-list.is-text-only,
+.story-card.is-split.is-text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.story-card.is-feature.is-text-only {
+  min-block-size: 0;
 }
 
 /* row: text-only ranked entry */
@@ -2178,6 +2322,8 @@ html[lang='fa'] .story-card.is-feature .story-title {
   grid-column: 1;
   grid-row: 1;
   display: grid;
+  /* An implicit `auto` track would be as wide as its widest unbreakable child (the filter chips), pushing the whole feed off a phone screen. */
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--s-7);
   min-inline-size: 0;
 }
@@ -2188,6 +2334,7 @@ html[lang='fa'] .story-card.is-feature .story-title {
 
 .day-section {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--s-5);
 }
 
@@ -2231,6 +2378,7 @@ html[lang='fa'] .day-title {
 
 .day-body {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--s-6);
 }
 
@@ -2348,10 +2496,7 @@ html[lang='fa'] .brief-title {
   font-weight: 600;
   line-height: 1.35;
   letter-spacing: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow-wrap: anywhere;
 }
 
 .brief-story a {
@@ -2373,9 +2518,7 @@ html[lang='fa'] .brief-title {
   margin-block-start: 2px;
   font-size: 0.6875rem;
   color: var(--text-3);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: anywhere;
 }
 
 .brief-link {
@@ -2830,8 +2973,7 @@ html[lang='fa'] .eyebrow {
 .site-footer {
   position: relative;
   border-block-start: 1px solid var(--line);
-  background:
-    var(--bg);
+  background: var(--bg);
   padding-block: var(--s-7) var(--s-6);
 }
 
@@ -3415,16 +3557,13 @@ html[lang='fa'] .facts dt {
     grid-template-rows: auto;
   }
   .story-card.is-feature {
-    min-block-size: 420px;
+    min-block-size: 0;
   }
   .story-card.is-split {
     grid-template-columns: minmax(0, 1fr);
   }
-  .story-card.is-split .story-media-link,
   .story-card.is-split .story-media {
-    min-block-size: 0;
     aspect-ratio: 16 / 9;
-    block-size: auto;
   }
   .picks-more {
     grid-template-columns: minmax(0, 1fr);
@@ -3488,15 +3627,9 @@ html[lang='fa'] .facts dt {
   .section-link {
     margin-inline-start: 0;
   }
-  .story-card.is-feature {
-    min-block-size: 380px;
-  }
   .story-card.is-list {
     grid-template-columns: 88px minmax(0, 1fr);
     gap: var(--s-3);
-  }
-  .story-card.is-list .story-excerpt {
-    display: none;
   }
   .footer-grid {
     grid-template-columns: minmax(0, 1fr);
