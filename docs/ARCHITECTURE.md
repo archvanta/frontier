@@ -18,9 +18,10 @@
 
 ## Frontend (`src/`)
 - Vite + React 19 + TypeScript strict. No UI framework; plain CSS with tokens.
-- **Routing:** hash routes (`#/`, `#/picks/weekly`, `#/explore?q=`, `#/archive`, `#/day/<d>`, `#/story/<d>/<id>`, `#/saved`, `#/sources`, `#/about`) so deep links survive reloads on Pages (no server rewrites).
+- **Routing:** hash routes (`#/`, `#/picks/weekly`, `#/explore?q=`, `#/archive`, `#/day/<d>`, `#/story/<d>/<id>`, `#/saved`, `#/sources`, `#/about`, and the account routes `#/signin`, `#/welcome`, `#/for-you`, `#/account`, `#/privacy`) so deep links survive reloads on Pages (no server rewrites).
 - **Data layer** (`lib/data.ts`): fetches `data/*.json` relative to `import.meta.env.BASE_URL`, caches per path, 404 → `null` (empty day). `--mode mock` swaps in a generated, labelled dataset that is never in the live bundle.
-- **State:** URL query for filters; `localStorage` for language and bookmarks only.
+- **State:** URL query for filters; `localStorage` for language and bookmarks (and the Supabase session when signed in).
+- **Accounts (optional):** Supabase Auth + Postgres with RLS, loaded on demand; see [ACCOUNTS.md](ACCOUNTS.md).
 
 ## Pipeline (`pipeline/signal_pipeline/`)
 | Module | Job |
@@ -45,7 +46,7 @@ See `DATA-SCHEMA.md`. Day-partitioned files keep diffs small; indexes are derive
 Publication times stored as ISO-8601 UTC. Archive days are UTC dates. The UI displays times in the viewer's local timezone and labels that days are grouped in UTC. Recency is measured against the newest stored publication time so reruns don't churn files.
 
 ## Security
-No secrets; `GITHUB_TOKEN` only. Fetches limited to allowlisted hosts with size/time caps. All feed text is converted to plain text in the pipeline and rendered as text by React. Only `http(s)` URLs are kept for links/images.
+No secrets; `GITHUB_TOKEN` only (the optional Supabase URL and publishable key are public by design). Fetches limited to allowlisted hosts with size/time caps. All feed text is converted to plain text in the pipeline and rendered as text by React. Only `http(s)` URLs are kept for links/images.
 
 ## Ranking (Phase 6)
 All constants live in `pipeline/signal_pipeline/config.py` and are editable.

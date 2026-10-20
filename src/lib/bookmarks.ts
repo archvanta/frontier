@@ -2,7 +2,8 @@ import { useCallback, useSyncExternalStore } from 'react';
 import type { Article } from './types';
 
 /**
- * Bookmarks live only in this browser's localStorage. Nothing is synced or sent anywhere.
+ * Bookmarks of signed-out readers live only in this browser's localStorage and are never sent anywhere.
+ * Signed-in readers save to their account instead (lib/account); local ones are only copied there when the reader agrees.
  * A small snapshot is kept so saved stories still render if the day file changes.
  */
 export interface Bookmark {
@@ -49,25 +50,27 @@ function write(next: Bookmark[]) {
   listeners.forEach((l) => l());
 }
 
+/** The attribution snapshot kept for a saved story (also used for account bookmarks). */
+export function snapshotOf(a: Article, now = new Date()): Bookmark {
+  return {
+    id: a.id,
+    day: a.day,
+    title: a.title,
+    titleFa: a.tr?.fa?.title,
+    sourceName: a.sourceName,
+    url: a.url,
+    publishedAt: a.publishedAt,
+    savedAt: now.toISOString(),
+  };
+}
+
 export function toggleBookmark(a: Article, now = new Date()): boolean {
   const list = readBookmarks();
   if (list.some((b) => b.id === a.id)) {
     write(list.filter((b) => b.id !== a.id));
     return false;
   }
-  write([
-    {
-      id: a.id,
-      day: a.day,
-      title: a.title,
-      titleFa: a.tr?.fa?.title,
-      sourceName: a.sourceName,
-      url: a.url,
-      publishedAt: a.publishedAt,
-      savedAt: now.toISOString(),
-    },
-    ...list,
-  ]);
+  write([snapshotOf(a, now), ...list]);
   return true;
 }
 

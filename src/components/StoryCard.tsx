@@ -1,6 +1,6 @@
 import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article';
 import { useCallback, useState } from 'react';
-import { useBookmarks } from '../lib/bookmarks';
+import { useSavedStories } from '../lib/account/saved';
 import { formatDateTime, formatTime } from '../lib/dates';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { rememberedCardFit, type CardFit } from '../lib/imageFit';
@@ -34,7 +34,7 @@ interface Props {
 
 export function BookmarkButton({ article }: { article: Article }) {
   const { t } = useI18n();
-  const { isSaved, toggle } = useBookmarks();
+  const { isSaved, toggle } = useSavedStories();
   const saved = isSaved(article.id);
   // Pops once on the click that saves the story (styles/motion.css), never on load or on unsave.
   const [pop, setPop] = useState(false);

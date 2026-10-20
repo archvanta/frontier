@@ -5,6 +5,7 @@ import { href, navigate, type Route } from '../lib/router';
 import { useTheme } from '../lib/theme';
 import { toneFor, categoryIcon, type Tone } from '../lib/tones';
 import { CATEGORY_IDS, type Locale } from '../lib/types';
+import { UserMenu } from './account/UserMenu';
 import { Icon, type IconName } from './Icon';
 
 function isActive(route: Route, key: string): boolean {
@@ -385,6 +386,7 @@ export function Header({ route }: { route: Route }) {
           </form>
           <LangSwitch />
           <ThemeToggle />
+          <UserMenu route={route} />
           <a className="btn is-primary header-cta" href={href('/saved')} aria-current={route.name === 'saved' ? 'page' : undefined}>
             <Icon name="bookmark" size={16} />
             {t('nav_saved')}

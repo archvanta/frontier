@@ -29,6 +29,14 @@ describe('parseHash', () => {
     expect(parseHash('#/data-centers')).toMatchObject({ name: 'section', id: 'data-centers' });
     expect(parseHash('#/ai-games/extra').name).toBe('not-found');
   });
+  it('parses account routes', () => {
+    expect(parseHash('#/signin')).toEqual({ name: 'signin', create: false, next: null });
+    expect(parseHash('#/signin?mode=create&next=/saved')).toEqual({ name: 'signin', create: true, next: '/saved' });
+    expect(parseHash('#/welcome')).toEqual({ name: 'welcome' });
+    expect(parseHash('#/account')).toEqual({ name: 'account' });
+    expect(parseHash('#/for-you')).toEqual({ name: 'for-you' });
+    expect(parseHash('#/privacy')).toEqual({ name: 'privacy' });
+  });
   it('builds hrefs without empty params', () => {
     expect(href('/explore', { q: 'claude', c: '', page: undefined })).toBe('#/explore?q=claude');
   });
