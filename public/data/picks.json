@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "asOf": "2026-10-20T09:00:00Z",
+ "asOf": "2026-10-20T13:07:24Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,174 +10,177 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T09:00:00Z",
-   "to": "2026-10-20T09:00:00Z",
+   "from": "2026-10-19T13:07:24Z",
+   "to": "2026-10-20T13:07:24Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "da019040563955b2",
-      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "excerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some",
+      "id": "3309b6ce15f483d4",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "excerpt": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
       "lang": "en",
-      "publishedAt": "2026-10-20T05:00:00Z",
+      "publishedAt": "2026-10-20T13:07:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
+      "fetchedAt": "2026-10-20T13:38:57Z",
       "day": "2026-10-20",
-      "category": "hardware",
+      "category": "models",
       "tags": [
        "ai",
-       "supercomputing",
-       "agentic ai",
-       "ai factory",
-       "ai for good",
-       "artificial intelligence"
+       "government & policy",
+       "artificial intelligance",
+       "deepseek"
       ],
       "entities": [
-       "nvidia"
+       "deepseek"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "da019040563955b2",
+      "eventId": "3309b6ce15f483d4",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 70.0,
-        "novelty": 90.9
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 63.6
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "استارت آپ های مبتنی بر اسپانیا نوآوری منطقه ای را با مرکز Supercomputing بارسلونا پیشرفت می کنند",
-        "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
+        "title": "ایالات متحده به سازمان های فدرال دستور می دهد تا AI DeepSeek چین را از سیستم های خود حذف کنند",
+        "excerpt": "ایالات متحده به سازمان های غیر نظامی فدرال دستور داده است تا محصولات DeepSeek و خدمات شخص ثالث را که با استفاده از تکنولوژی آن ساخته شده اند، با توجه به نگرانی های امنیت ملی، حذف کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "id": "69c4ea275f87c68a",
+      "url": "https://www.theguardian.com/technology/2026/oct/20/ai-human-judgment",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "I’m a CTO. AI still needs your human expertise | Madhu Shashanka",
+      "excerpt": "AI is increasingly getting good at doing some tasks, but it can never replace human workers’ judgment Autonomous cars, which may be the safest we have built, keep getting easily avoidable parking tickets. While Waymos crash far less often than human drivers over tens of millions of miles, they’re still terrible at performing basic tasks – keeping out of disabled parking spots and tow-away zones…",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-20T12:30:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "policy",
       "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
+       "ai (artificial intelligence)",
+       "computing",
+       "technology",
+       "job losses"
       ],
-      "entities": [
-       "amazon",
-       "anthropic"
-      ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/1ec14522bb2e09e892ab197b6436169a94f4fac9/0_0_2836_2269/master/2836.jpg?width=700&quality=85&auto=format&fit=max&s=23b975a6b043b20da50d51f3bed0b023",
+       "credit": "Illustration: Guardian Design/Westend61/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "eventId": "69c4ea275f87c68a",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 65.3,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 57.9,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 96.5,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "من CTO هستم. هوش مصنوعی هنوز به تخصص انسانی شما نیاز دارد – Madhu Shashanka",
+        "excerpt": "AI به طور فزاینده ای در انجام برخی از وظایف خوب است، اما هرگز نمی تواند جایگزین ماشین های خودکار قضاوت کارکنان انسان شود، که ممکن است امن ترین ما ساخته شده است، به راحتی بلیط پارکینگ اجتناب ناپذیر دریافت کنید. در حالی که Waymos به مراتب کمتر از رانندگان انسانی در بیش از ده ها میلیون مایل سقوط می کند، آنها هنوز در انجام کارهای اساسی وحشتناک هستند - خارج از نقاط پارکینگ غیر فعال و مناطق دور ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
      "rank": 2,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "56702cb0c64f6365",
-      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "A visit to Samsung’s massive new semiconductor hub",
-      "excerpt": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate around the clock, and a fourth is coming online. Construction…",
+      "id": "add383da2fc04409",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "excerpt": "A single query is all that's required to find thousands of conversations listed by title.",
       "lang": "en",
-      "publishedAt": "2026-10-20T09:00:00Z",
+      "publishedAt": "2026-10-20T12:33:13Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T10:27:50Z",
+      "fetchedAt": "2026-10-20T13:38:57Z",
       "day": "2026-10-20",
-      "category": "hardware",
+      "category": "research",
       "tags": [
-       "artificial intelligence",
-       "app"
+       "ai",
+       "biz & it",
+       "security",
+       "meta",
+       "muse",
+       "privacy"
       ],
-      "entities": [],
+      "entities": [
+       "meta"
+      ],
       "brand": null,
       "image": {
-       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840",
-       "alt": "globe indicating South Korea",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
+       "credit": "Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "56702cb0c64f6365",
+      "eventId": "add383da2fc04409",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 64.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 100.0
+        "recency": 96.8,
+        "topic": 80.0,
+        "novelty": 86.7
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "بازدید از مرکز نیمه هادی جدید سامسونگ",
-        "excerpt": "مدل های هوش مصنوعی Generative بر روی تراشه های قدرتمند شناخته شده به عنوان GPU اجرا می شوند که به پشته های تراشه های حافظه تخصصی بسته بندی شده با پردازنده بستگی دارد. برای پاسخگویی به تقاضای رو به رشد برای حافظه، سامسونگ در حال ساخت یک مجتمع بزرگ تولید نیمه هادی جدید در Pyeongtaek، کره جنوبی است. سه شیر در حال حاضر در اطراف ساعت کار می کنند و یک چهارم آن به صورت آنلاین عرضه می شود. ساخت ...",
+        "title": "Meta Muse اسرار شخصی و تجاری کاربران را در زمانی که آنها به اشتراک گذاری مکالمات",
+        "excerpt": "یک پرس و جو تنها چیزی است که برای پیدا کردن هزاران مکالمه ذکر شده توسط عنوان لازم است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T10:27:50Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
@@ -191,53 +194,48 @@
     },
     {
      "article": {
-      "id": "432d7e650ee614db",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
-      "excerpt": "The government says it can transform the state with AI, but it is no match for the resulting stream of machine-generated slop. And we all pay the cost Another morning, another avalanche of emails. Even after a guilty cull, my inbox is sitting at well over 7,000, but lately I’ve started subscribing to the Quentin Crisp theory of housework: why bother, when after four years or so you stop noticing…",
+      "id": "0a18db4caf216ec0",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "excerpt": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably…",
       "lang": "en",
-      "publishedAt": "2026-10-20T05:00:17Z",
+      "publishedAt": "2026-10-20T12:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
+      "fetchedAt": "2026-10-20T13:38:57Z",
       "day": "2026-10-20",
-      "category": "policy",
+      "category": "research",
       "tags": [
-       "ai (artificial intelligence)",
-       "chatgpt",
-       "openai",
-       "computing",
-       "technology",
-       "politics"
+       "artificial intelligence",
+       "sponsored"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/5780af026543a0c2aa03d9c1fe593cf80d95d458/334_0_1666_1333/master/1666.jpg?width=700&quality=85&auto=format&fit=max&s=aa69da6cfc1cba4b7580c46a7145097e",
-       "credit": "Photograph: Katie Adkins/AP",
+       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
       },
-      "eventId": "432d7e650ee614db",
+      "eventId": "0a18db4caf216ec0",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 63.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 93.7,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "فریب نخورید. هوش مصنوعی که قرار بود زمان ما را نجات دهد، درست برعکس عمل می کند. Gaby Hinsliff",
-        "excerpt": "دولت می گوید که می تواند دولت را با هوش مصنوعی تغییر دهد، اما برای جریان های حاصل از ماشین آلات تولید شده مطابقت ندارد. همه ما هزینه یک صبح دیگر را پرداخت می کنیم، یکی دیگر از مزایای ایمیل. حتی پس از یک ضرب و شتم گناه، صندوق ورودی من بیش از 7000 نشسته است، اما اخیرا من شروع به شرح زیر به نظریه کوئنتین Crisp از خانه: چرا ناراحتی، زمانی که پس از چهار سال و یا پس از آن شما متوجه.",
+        "title": "پذیرش AI توسط صنعت نشان می دهد که چه بخش های دیگر می توانند یاد بگیرند",
+        "excerpt": "روایت فعلی در مورد هوش مصنوعی در محل کار عمدتا توسط سیلیکون دره هدایت می شود. اما درمان بخش فناوری به عنوان یک جزیره روند واقعی در پذیرش تکنولوژی را از دست می دهد - تکنولوژی تنها اولین صنعت در خط است. به عنوان ابزار عمومی هوش مصنوعی و اتوماسیون بالغ، تغییرات در حال حاضر مهندسی نرم افزار را تغییر می دهد و مدیریت محصول به ناچار...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
@@ -251,108 +249,115 @@
     },
     {
      "article": {
-      "id": "7a364f356aab4946",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "id": "af3e08fe45e19629",
+      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
+      "excerpt": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a",
       "lang": "en",
-      "publishedAt": "2026-10-19T12:00:00Z",
+      "publishedAt": "2026-10-20T13:06:44Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
-      "category": "models",
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "products",
       "tags": [
-       "publication"
+       "adobe",
+       "ai",
+       "apps",
+       "creators",
+       "news",
+       "tech"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/lightroom1.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A before and after photo showing open eyes added to a photo of a person with their eyes closed.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "7a364f356aab4946",
+      "eventId": "af3e08fe45e19629",
       "related": [],
       "score": {
-       "total": 60.0,
+       "total": 63.1,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 29.7,
-        "topic": 100.0,
-        "novelty": 90.9
+        "recency": 99.9,
+        "topic": 65.0,
+        "novelty": 93.3
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
-        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
+        "title": "Adobe Lightroom Mobile اکنون می تواند چشمان بسته را در عکس ها با یک ضربه ساده باز کند",
+        "excerpt": "ادوبی دیروز اعلام کرد که نسخه موبایل Lightroom که برای iOS، iPadOS و Android در دسترس است، اکنون می تواند چشمان بسته را در عکس هایی با استفاده از هوش مصنوعی عمومی با یک ضربه واحد باز کند. هنگامی که برنامه یک فرد یا گروهی از افراد را تشخیص می دهد، چشم خود را در یک عکس بسته می کند، به طور خودکار کاربران را با یک عکس ارائه می دهد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "fec5078de3754d8b",
-      "url": "https://www.theguardian.com/science/audio/2026/oct/20/these-risks-are-real-the-threat-of-ai-bioweapons-podcast",
+      "id": "5ecb5ba802c4747d",
+      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘These risks are real’: the threat of AI bioweapons – podcast",
-      "excerpt": "In his annual speech on threats to the nation, Sir Ken McCallum, the head of the UK’s intelligence service, MI5, warned that AI had the potential to ‘change the stakes’ on existing and even new bioweapons. To find out why, and how, Ian Sample speaks to Dr Tom Inglesby, director of the Johns Hopkins Center for Health Security and the Bloomberg School of Public Health. He explains what has…",
+      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
+      "excerpt": "Use of tools ‘may result in the transfer of sensitive data’ to China, defense department says The US government on Monday ordered its agencies to stop using artificial intelligence (AI) tools from the Chinese startup DeepSeek, as the countries race for dominance in the fast-moving sector. A notice from the Department of Homeland Security (DHS) announced the ban on products developed by DeepSeek…",
       "lang": "en",
-      "publishedAt": "2026-10-20T04:00:15Z",
+      "publishedAt": "2026-10-20T12:33:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
+      "fetchedAt": "2026-10-20T13:38:57Z",
       "day": "2026-10-20",
       "category": "policy",
       "tags": [
-       "science",
-       "mi5",
-       "uk news",
-       "uk security and counter-terrorism",
+       "trump administration",
+       "deepseek",
+       "us politics",
        "ai (artificial intelligence)",
-       "technology"
+       "us news",
+       "china"
       ],
-      "entities": [],
+      "entities": [
+       "deepseek"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/a79e23d080eb53cbc53f3416c637200ed693036a/366_0_3656_2924/master/3656.jpg?width=700&quality=85&auto=format&fit=max&s=e1284759478aa2baa9a30f444c6a23e8",
-       "credit": "Photograph: Arun Sankar/AFP/Getty Images",
+       "url": "https://i.guim.co.uk/img/media/6f8ade7b2c623ea3ba988db863da7a2fd1af5796/560_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=ede4ab52cf7de92ee748c3ed90819436",
+       "credit": "Photograph: Andy Wong/AP",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "fec5078de3754d8b",
+      "eventId": "5ecb5ba802c4747d",
       "related": [],
       "score": {
-       "total": 59.9,
+       "total": 62.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 96.8,
         "topic": 85.0,
-        "novelty": 81.8
+        "novelty": 63.6
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "\"این ریسک ها واقعی هستند\": تهدید بیوتراپیون های AI - پادکست",
-        "excerpt": "در سخنرانی سالانه خود در مورد تهدید به ملت، سر کن مک کالم، رئیس سرویس اطلاعاتی انگلستان، MI5، هشدار داد که AI پتانسیل تغییر سهام را در زیست محیطی موجود و حتی جدید دارد. برای پیدا کردن چرا و چگونه، ایان نمونه به دکتر تام اینگلسبی، مدیر مرکز جان هاپکینز برای امنیت بهداشت و مدرسه بهداشت عمومی بلومبرگ صحبت می کند. او توضیح می دهد که چه چیزی ...",
+        "title": "آمریکا استفاده از ابزارهای DeepSeek AI چین را توسط سازمان های دولتی ممنوع می کند",
+        "excerpt": "استفاده از ابزار \"ممکن است منجر به انتقال داده های حساس\" به چین، وزارت دفاع می گوید که دولت ایالات متحده روز دوشنبه به سازمان های خود دستور داد تا استفاده از ابزارهای هوش مصنوعی (AI) را از استارت آپ چینی DeepSeek متوقف کنند، زیرا کشورها برای تسلط بر بخش سریع حرکت می کنند. اطلاع از وزارت امنیت داخلی (DHS) ممنوعیت محصولات توسعه یافته توسط DeepSeek را اعلام کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
@@ -367,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T09:00:00Z",
-   "to": "2026-10-20T09:00:00Z",
+   "from": "2026-10-13T13:07:24Z",
+   "to": "2026-10-20T13:07:24Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -402,15 +407,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 87.7,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -457,15 +462,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 78.5,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -477,6 +482,59 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3eb18e5ff7f2a0ef",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "MPS in PyTorch 2.15",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
+      },
+      "eventId": "3eb18e5ff7f2a0ef",
+      "related": [],
+      "score": {
+       "total": 68.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.1,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-20T13:07:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "MPS در PyTorch 2.15",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -518,15 +576,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 92.5,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -537,7 +595,61 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2596ff929aeef557",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "apple",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
+      },
+      "eventId": "2596ff929aeef557",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.1,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-20T13:07:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -578,15 +690,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
+        "recency": 83.5,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -597,7 +709,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -641,15 +753,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.5,
+        "recency": 87.0,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -660,7 +772,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -670,171 +782,58 @@
     },
     {
      "article": {
-      "id": "f73f11092849b85a",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "sourceId": "github-blog-ai",
-      "sourceName": "GitHub Blog — AI & ML",
-      "title": "How to continue a GitHub Copilot app session in VS Code",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:47:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "products",
-      "tags": [
-       "ai & ml",
-       "github copilot",
-       "github copilot app",
-       "github copilot app for beginners"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f73f11092849b85a",
-      "related": [],
-      "score": {
-       "total": 66.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.2,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه به ادامه یک جلسه برنامه GitHub Copilot در VS Code",
-        "excerpt": "یاد بگیرید که چگونه یک جلسه عامل را از برنامه GitHub Copilot به VS Code بدون از دست دادن گفتگو، تغییرات کد یا زمینه کاری حرکت دهید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "432d7e650ee614db",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/20/ai-supposed-to-save-time-opposite-government-uk",
+      "id": "69c4ea275f87c68a",
+      "url": "https://www.theguardian.com/technology/2026/oct/20/ai-human-judgment",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Don’t be fooled. The AI that was supposed to save us time is doing just the opposite | Gaby Hinsliff",
-      "excerpt": "The government says it can transform the state with AI, but it is no match for the resulting stream of machine-generated slop. And we all pay the cost Another morning, another avalanche of emails. Even after a guilty cull, my inbox is sitting at well over 7,000, but lately I’ve started subscribing to the Quentin Crisp theory of housework: why bother, when after four years or so you stop noticing…",
+      "title": "I’m a CTO. AI still needs your human expertise | Madhu Shashanka",
+      "excerpt": "AI is increasingly getting good at doing some tasks, but it can never replace human workers’ judgment Autonomous cars, which may be the safest we have built, keep getting easily avoidable parking tickets. While Waymos crash far less often than human drivers over tens of millions of miles, they’re still terrible at performing basic tasks – keeping out of disabled parking spots and tow-away zones…",
       "lang": "en",
-      "publishedAt": "2026-10-20T05:00:17Z",
+      "publishedAt": "2026-10-20T12:30:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
+      "fetchedAt": "2026-10-20T13:38:57Z",
       "day": "2026-10-20",
       "category": "policy",
       "tags": [
        "ai (artificial intelligence)",
-       "chatgpt",
-       "openai",
        "computing",
        "technology",
-       "politics"
+       "job losses"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/5780af026543a0c2aa03d9c1fe593cf80d95d458/334_0_1666_1333/master/1666.jpg?width=700&quality=85&auto=format&fit=max&s=aa69da6cfc1cba4b7580c46a7145097e",
-       "credit": "Photograph: Katie Adkins/AP",
+       "url": "https://i.guim.co.uk/img/media/1ec14522bb2e09e892ab197b6436169a94f4fac9/0_0_2836_2269/master/2836.jpg?width=700&quality=85&auto=format&fit=max&s=23b975a6b043b20da50d51f3bed0b023",
+       "credit": "Illustration: Guardian Design/Westend61/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "432d7e650ee614db",
+      "eventId": "69c4ea275f87c68a",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 65.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 99.4,
         "topic": 85.0,
-        "novelty": 92.3
+        "novelty": 92.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
-        "title": "فریب نخورید. هوش مصنوعی که قرار بود زمان ما را نجات دهد، درست برعکس عمل می کند. Gaby Hinsliff",
-        "excerpt": "دولت می گوید که می تواند دولت را با هوش مصنوعی تغییر دهد، اما برای جریان های حاصل از ماشین آلات تولید شده مطابقت ندارد. همه ما هزینه یک صبح دیگر را پرداخت می کنیم، یکی دیگر از مزایای ایمیل. حتی پس از یک ضرب و شتم گناه، صندوق ورودی من بیش از 7000 نشسته است، اما اخیرا من شروع به شرح زیر به نظریه کوئنتین Crisp از خانه: چرا ناراحتی، زمانی که پس از چهار سال و یا پس از آن شما متوجه.",
+        "title": "من CTO هستم. هوش مصنوعی هنوز به تخصص انسانی شما نیاز دارد – Madhu Shashanka",
+        "excerpt": "AI به طور فزاینده ای در انجام برخی از وظایف خوب است، اما هرگز نمی تواند جایگزین ماشین های خودکار قضاوت کارکنان انسان شود، که ممکن است امن ترین ما ساخته شده است، به راحتی بلیط پارکینگ اجتناب ناپذیر دریافت کنید. در حالی که Waymos به مراتب کمتر از رانندگان انسانی در بیش از ده ها میلیون مایل سقوط می کند، آنها هنوز در انجام کارهای اساسی وحشتناک هستند - خارج از نقاط پارکینگ غیر فعال و مناطق دور ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9dbc0d55ff9123c6",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "amazon",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
-      },
-      "eventId": "9dbc0d55ff9123c6",
-      "related": [],
-      "score": {
-       "total": 65.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 72.8,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
+        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -842,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T09:00:00Z",
-   "to": "2026-10-20T09:00:00Z",
+   "from": "2026-09-20T13:07:24Z",
+   "to": "2026-10-20T13:07:24Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -874,15 +873,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 93.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -932,15 +931,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -952,6 +951,59 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3eb18e5ff7f2a0ef",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "MPS in PyTorch 2.15",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
+      },
+      "eventId": "3eb18e5ff7f2a0ef",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.3,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-20T13:07:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "MPS در PyTorch 2.15",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -992,15 +1044,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 94.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -1011,7 +1063,61 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2596ff929aeef557",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "apple",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
+      },
+      "eventId": "2596ff929aeef557",
+      "related": [],
+      "score": {
+       "total": 69.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.3,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-20T13:07:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1053,15 +1159,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 97.7,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -1072,7 +1178,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1106,15 +1212,15 @@
       "eventId": "4a2f3ca18eb9cee6",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.8,
+        "recency": 73.0,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -1125,7 +1231,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1161,15 +1267,15 @@
       "eventId": "a72d1e4da6b0e106",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.8,
+        "recency": 71.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -1180,7 +1286,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1215,15 +1321,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 89.8,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
@@ -1233,7 +1339,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1274,141 +1380,20 @@
       "eventId": "631c78f18e2760a2",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 84.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T09:00:00Z"
+       "asOf": "2026-10-20T13:07:24Z"
       },
       "tr": {
        "fa": {
         "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
         "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "87cd33ee12bd9f5e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Developers can now access SageMaker Studio through the new AWS experience",
-      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T22:39:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "amazon sagemaker studio",
-       "announcements"
-      ],
-      "entities": [
-       "amazon",
-       "apple",
-       "google",
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
-       "alt": "The Sign up for AWS page with an email field and sign-in options for Google, GitHub, Apple, and Amazon",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "87cd33ee12bd9f5e",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.1,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توسعه دهندگان اکنون می توانند از طریق تجربه جدید AWS به SageMaker Studio دسترسی داشته باشند.",
-        "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f73f11092849b85a",
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "sourceId": "github-blog-ai",
-      "sourceName": "GitHub Blog — AI & ML",
-      "title": "How to continue a GitHub Copilot app session in VS Code",
-      "excerpt": "Learn how to move an agent session from the GitHub Copilot app into VS Code without losing the conversation, code changes, or working context.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:47:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "products",
-      "tags": [
-       "ai & ml",
-       "github copilot",
-       "github copilot app",
-       "github copilot app for beginners"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f73f11092849b85a",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.0,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه به ادامه یک جلسه برنامه GitHub Copilot در VS Code",
-        "excerpt": "یاد بگیرید که چگونه یک جلسه عامل را از برنامه GitHub Copilot به VS Code بدون از دست دادن گفتگو، تغییرات کد یا زمینه کاری حرکت دهید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T19:13:17Z"
        }
