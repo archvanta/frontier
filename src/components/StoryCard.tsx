@@ -6,7 +6,7 @@ import { categoryLabel, useI18n } from '../lib/i18n';
 import { rememberedCardFit, type CardFit } from '../lib/imageFit';
 import { useReveal } from '../lib/motion';
 import { href } from '../lib/router';
-import { categoryIcon, toneFor } from '../lib/tones';
+import { categoryIcon, toneFor, type Tone } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { StoryImage, resolveImageUrl } from './StoryImage';
@@ -30,6 +30,10 @@ interface Props {
   rank?: number;
   eagerImage?: boolean;
   headingLevel?: 2 | 3 | 4;
+  /** Gradient tone instead of the one the category gives (the hero's side card stays red). */
+  tone?: Tone;
+  /** Skip the scroll-in entrance (a card that is swapped in place, like the hero's side card). */
+  still?: boolean;
 }
 
 export function BookmarkButton({ article }: { article: Article }) {
@@ -68,7 +72,7 @@ export function SourceMark({ name }: { name: string }) {
 
 const WITH_EXCERPT: StoryVariant[] = ['feature', 'split', 'lead', 'grid', 'list'];
 
-export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3 }: Props) {
+export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3, tone, still = false }: Props) {
   const { t, locale } = useI18n();
   // A broken or tiny photo is dropped, and the text then takes the full card.
   const [noPhoto, setNoPhoto] = useState(() => {
@@ -109,11 +113,11 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
 
   return (
     <article
-      ref={reveal}
+      ref={still ? undefined : reveal}
       className={`story-card is-${variant} ${noPhoto && variant !== 'row' ? 'is-text-only' : ''}`}
       data-testid="story-card"
       data-id={article.id}
-      data-tone={gradient ? toneFor(article.category) : undefined}
+      data-tone={gradient ? (tone ?? toneFor(article.category)) : undefined}
     >
       {mediaFirst && media}
       <div className="story-body">

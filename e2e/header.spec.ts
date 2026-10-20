@@ -145,3 +145,48 @@ test('the site is called FRONTIER in the tab title, the wordmark and the footer,
   await expect(page.getByRole('link', { name: 'فرانتیر' }).first()).toBeVisible();
   await expect(page.locator('body')).not.toContainText('SIGNAL AI');
 });
+
+for (const theme of ['dark', 'light'] as const) {
+  test(`the logo is the bare arrow glyph, no tile behind it, and stands out from the header — ${theme}`, async ({ page }) => {
+    await page.addInitScript((t) => localStorage.setItem('signal-ai:theme', t), theme);
+    await page.goto('./#/');
+    const glyph = page.locator('.wordmark-glyph');
+    await expect(glyph).toBeVisible();
+    const m = await page.evaluate(() => {
+      const g = document.querySelector<HTMLElement>('.wordmark-glyph')!;
+      const cs = getComputedStyle(g);
+      const svg = g.querySelector('svg')!.getBoundingClientRect();
+      const text = document.querySelector('.wordmark-text')!.getBoundingClientRect();
+      const lum = (c: string) => {
+        const [r, gg, b] = c
+          .match(/\d+(\.\d+)?/g)!
+          .slice(0, 3)
+          .map((v) => {
+            const x = Number(v) / 255;
+            return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4;
+          });
+        return 0.2126 * r! + 0.7152 * gg! + 0.0722 * b!;
+      };
+      return {
+        bgImage: cs.backgroundImage,
+        bgColor: cs.backgroundColor,
+        radius: cs.borderRadius,
+        shadow: cs.boxShadow,
+        svgH: svg.height,
+        textH: text.height,
+        color: cs.color,
+        glyphL: lum(cs.color),
+        // The header is a gradient (#111114 to #070708 dark, #fff to #f6f6f9 light); take its lighter end for the contrast check.
+        headerL: lum(document.documentElement.dataset.theme === 'light' ? 'rgb(246,246,249)' : 'rgb(17,17,20)'),
+      };
+    });
+    expect(m.bgImage).toBe('none');
+    expect(m.bgColor).toBe('rgba(0, 0, 0, 0)');
+    expect(m.shadow).toBe('none');
+    // A little taller than the wordmark's text.
+    expect(m.svgH).toBeGreaterThan(m.textH);
+    // Contrast against the header (WCAG: non-text graphics need 3:1).
+    const [hi, lo] = m.glyphL > m.headerL ? [m.glyphL, m.headerL] : [m.headerL, m.glyphL];
+    expect((hi + 0.05) / (lo + 0.05)).toBeGreaterThan(3);
+  });
+}

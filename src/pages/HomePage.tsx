@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { DaySection } from '../components/DaySection';
 import { Icon } from '../components/Icon';
+import { FollowTopics } from '../components/FollowTopics';
+import { HomeIntro } from '../components/HomeIntro';
 import { NewsHero } from '../components/NewsHero';
 import { Pagination } from '../components/Pagination';
 import { PicksPanel } from '../components/PicksPanel';
@@ -12,6 +14,7 @@ import { WeeklyBrief } from '../components/WeeklyBrief';
 import { planHomePage, sortNewestFirst, uniqueById } from '../lib/archive';
 import { useData } from '../lib/dataContext';
 import { formatNumber } from '../lib/dates';
+import { followsAny, prioritizeFollowed, useFollowedTopics } from '../lib/follow';
 import { pickHeroStories } from '../lib/heroStories';
 import { useAsync } from '../lib/hooks';
 import { useReveal, useSlidingIndicator } from '../lib/motion';
@@ -48,14 +51,36 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
 
   // Carousel and wall use only what the feed already loaded: today's and yesterday's real stories, newest first.
   const newest = useMemo(() => (feed.status === 'ready' ? sortNewestFirst(feed.data.groups.flatMap((g) => g.articles)) : []), [feed]);
+  const { topics: followed } = useFollowedTopics();
   const heroStories = useMemo(
-    () => (feed.status === 'loading' ? null : feed.status === 'ready' ? pickHeroStories(newest, feed.data.picks) : []),
-    [feed, newest],
+    () =>
+      feed.status === 'loading'
+        ? null
+        : feed.status === 'ready'
+          ? pickHeroStories(newest, feed.data.picks, undefined, followed.length ? (a) => followsAny(a, followed) : undefined)
+          : [],
+    [feed, newest, followed],
   );
+  const goTo = (id: string) => () => {
+    const el = document.getElementById(id);
+    el?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    el?.focus({ preventScroll: true });
+  };
 
   return (
     <>
-      {page === 1 && heroSlot && createPortal(<NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} />, heroSlot)}
+      {page === 1 &&
+        heroSlot &&
+        createPortal(
+          <>
+            <HomeIntro onContinue={goTo('follow')} />
+            <FollowTopics onSkip={goTo('news-hero')} />
+            {heroStories === null || heroStories.length > 0 ? (
+              <NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} standalone={false} />
+            ) : null}
+          </>,
+          heroSlot,
+        )}
       {feed.status === 'loading' && <Loading rows={3} />}
       {feed.status === 'error' && <ErrorState onRetry={feed.reload} />}
       {feed.status === 'ready' && (
@@ -100,7 +125,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
                   key={`${g.day}:${category}`} // a new filter remounts the day, so its cards enter again instead of jumping
                   day={g.day}
                   level={3}
-                  articles={category === 'all' ? g.articles : g.articles.filter((a) => a.category === category)}
+                  articles={prioritizeFollowed(category === 'all' ? g.articles : g.articles.filter((a) => a.category === category), followed)}
                   emptyText={category === 'all' ? undefined : t('filter_empty')}
                   label={feed.data.plan.page === 1 ? (i === 0 ? t('today') : t('yesterday')) : undefined}
                 />

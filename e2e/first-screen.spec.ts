@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { revealHero } from './helpers';
 
 /**
  * Mobile overflow, whole-card text and photos, and the hero's first-screen rules (issues reported on phones, 2026-10-20).
@@ -92,6 +93,7 @@ for (const locale of ['en', 'fa'] as const) {
     test(`hero fills the first screen and every headline fits under the header — ${locale} @${w}x${h}`, async ({ page }) => {
       await page.emulateMedia({ reducedMotion: 'reduce' });
       await open(page, locale, w, h);
+      await revealHero(page);
       // Worst case: a very long headline on every slide, then let the hero re-fit.
       await page.evaluate(
         (text) => {
@@ -101,6 +103,7 @@ for (const locale of ['en', 'fa'] as const) {
         locale === 'fa' ? LONG_FA : LONG_EN,
       );
       await page.waitForTimeout(150);
+      await revealHero(page);
       const n = await page.getByTestId('hero-slide').count();
       expect(n).toBeGreaterThan(1);
       for (let k = 0; k < n; k++) {
@@ -123,14 +126,22 @@ for (const locale of ['en', 'fa'] as const) {
             stageBottom: box('.nh-stage').bottom,
             picks: box('#top-signals').top,
             clamp: getComputedStyle(title).webkitLineClamp,
+            frameBottom: slide.querySelector('.nh-frame')!.getBoundingClientRect().bottom,
+            mainBottom: box('.nh-main').bottom,
           };
         });
         expect(m.cat, `slide ${k}: label under the header`).toBeGreaterThanOrEqual(m.header);
         expect(m.title, `slide ${k}: headline under the header`).toBeGreaterThanOrEqual(m.header);
         expect(m.actions, `slide ${k}: buttons run into the controls`).toBeLessThanOrEqual(m.controlsTop + 1);
         expect(m.controlsBottom, `slide ${k}: controls below the fold`).toBeLessThanOrEqual(m.vh);
-        expect(m.stageBottom, `slide ${k}: hero shorter than the screen`).toBeGreaterThanOrEqual(m.vh - 1);
-        expect(m.picks, `slide ${k}: Top Signals peeks into the first screen`).toBeGreaterThanOrEqual(m.vh - 1);
+        if (w >= 900) {
+          expect(m.stageBottom, `slide ${k}: hero shorter than the screen`).toBeGreaterThanOrEqual(m.vh - 1);
+          expect(m.picks, `slide ${k}: Top Signals peeks into the first screen`).toBeGreaterThanOrEqual(m.vh - 1);
+        } else {
+          // Stacked (phones, tablets): the copy follows the photo frame directly and the slider is only as tall as its content.
+          expect(m.cat - m.frameBottom, `slide ${k}: dead space between the photo and the text`).toBeLessThanOrEqual(48);
+          expect(m.mainBottom - m.actions, `slide ${k}: dead space below the buttons`).toBeLessThanOrEqual(110);
+        }
         expect(m.clamp === '' || m.clamp === 'none').toBe(true);
       }
     });
