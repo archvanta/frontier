@@ -3,6 +3,283 @@
  "day": "2026-10-20",
  "articles": [
   {
+   "id": "4dc8a56e037376de",
+   "url": "https://simonwillison.net/2026/Oct/20/battledrones",
+   "sourceId": "simon-willison",
+   "sourceName": "Simon Willison's Weblog",
+   "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+   "excerpt": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I'm somewhat embarrassed to admit that I got there by telling Claude to \"Make it a LOT more fun\". It also supports multiplayer between nearby devices using audio to synchronize game state! Here's…",
+   "lang": "en",
+   "publishedAt": "2026-10-20T19:34:19Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "research",
+   "tags": [
+    "game-design",
+    "projects",
+    "ai",
+    "generative-ai",
+    "llms",
+    "claude"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://static.simonwillison.net/static/2026/battledrones-v1.webp",
+    "alt": "Game screen. Down the right are text icons to build Fab, Airpad, Turret, Harv, Sting, Flak, Scout, Wasp, Raptor. There is a blocky fog of war on a 2D battlefield. There are some gems, an HQ building b",
+    "kind": "feed",
+    "sourceUrl": "https://simonwillison.net/atom/entries/"
+   },
+   "eventId": "4dc8a56e037376de",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "هواپیماهای بدون سرنشین - یک RTS با چند نفره مبتنی بر صدا",
+     "excerpt": "آخرین آزمایش بازی کد شده من یک بازی اکشن و پیروزی سبک RTS (استراتژی زمان واقعی) به نام هواپیماهای بدون سرنشین (بازی آن در اینجا) است. بر خلاف آزمایش های قبلی من، این یکی واقعا سرگرم کننده بازی کردن است. کمی خجالت می کشم که اعتراف کنم با گفتن کلود به اینجا آمده ام که «خیلی سرگرم کننده ترش کنم.» همچنین از چند نفره بین دستگاه های نزدیک با استفاده از صدا برای همگام سازی حالت بازی پشتیبانی می کند! اینجا ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "7dbe1527a2734996",
+   "url": "https://www.theguardian.com/global/2026/oct/19/midterm-elections-tech-broligarchs",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Americans, this is your chance to slap down the tech broligarchs",
+   "excerpt": "The midterms will be a referendum on the GOP’s alignment with tech overlords over the public they’re meant to serve Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Robert Reich highlighted the link between corruption and affordability. Today’s edition was written by Guardian US columnist Rebecca Solnit…",
+   "lang": "en",
+   "publishedAt": "2026-10-20T19:16:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "safety",
+   "tags": [
+    "us midterm elections 2026",
+    "ai (artificial intelligence)",
+    "technology",
+    "us news",
+    "us politics",
+    "datacenters – us"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/a49e30a11ac40a6645f2c7e72f02d47b8b5b7b42/418_0_4202_3362/master/4202.jpg?width=700&quality=85&auto=format&fit=max&s=97a3f191bd03ae86eb6ff397a93925f0",
+    "credit": "Photograph: Evelyn Hockstein/Reuters",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "7dbe1527a2734996",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "آمریکایی ها، این شانس شماست که به برونگان تکنولوژی ضربه بزنید",
+     "excerpt": "میان دوره ها یک رفراندوم در مورد تراز GOP با بیش از مدیران فن آوری در سراسر عمومی است که آنها به منظور خدمت به چگونه ما برنده، یک سری نظر گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا است. هفته گذشته، رابرت رایش ارتباط بین فساد و هزینه پذیری را برجسته کرد. نسخه امروز توسط روزنامه گاردین ایالات متحده ربکا Solnit نوشته شده است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "07acb4f727b7c654",
+   "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations",
+   "excerpt": "Elevenlabs' new Eleven Realtime speech-to-speech models combine speed and accuracy. The v1 Max variant scores 98.8 percent on the Big Bench Audio benchmark with a 0.57-second response time. Elevenlabs says no model on the Artificial Analysis leaderboard is both faster and more accurate. The article Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations…",
+   "lang": "en",
+   "publishedAt": "2026-10-20T19:03:15Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "research",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai and audio",
+    "audio",
+    "elevenlabs"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/10/elevenlabs.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "07acb4f727b7c654",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "11labs دو مدل جدید گفتار به صدای طراحی شده برای مکالمات هوش مصنوعی در زمان واقعی را منتشر می کند",
+     "excerpt": "مدل های جدید یازده نفره سخنرانی در زمان واقعی با سرعت و دقت ترکیب می شوند. نسخه V1 Max امتیاز 98.8 درصد در مقیاس بزرگ صوتی با 0.57 ثانیه زمان پاسخ. 11labs می گوید که هیچ مدلی در صفحه کلید تجزیه و تحلیل مصنوعی، سریع تر و دقیق تر نیست. مقاله 11labs دو مدل سخنرانی جدید را منتشر می کند که برای مکالمات هوش مصنوعی در زمان واقعی طراحی شده اند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "b4ae2175fbc5cd90",
+   "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+   "excerpt": "Deepseek is open-sourcing DeepInfer, the inference framework behind its fast V4.1-Flash model. The vLLM-based system cuts compute costs and energy use when running AI models. The release adds more pricing pressure on Western providers like OpenAI and Anthropic. The article Deepseek open-sources the inference engine that powers its fastest and cheapest AI model appeared first on The Decoder.",
+   "lang": "en",
+   "publishedAt": "2026-10-20T18:56:15Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "models",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai in china",
+    "china",
+    "deepseek"
+   ],
+   "entities": [
+    "anthropic",
+    "deepseek",
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/08/deepseek_deepseek_logo.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "b4ae2175fbc5cd90",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Deepseek Open Sources موتور استنتاج است که سریع ترین و ارزان ترین مدل AI خود را دارد",
+     "excerpt": "Deepseek منبع باز DeepInfer، چارچوب استنتاج پشت مدل V4.1Flash است. سیستم مبتنی بر vLLM کاهش هزینه ها و استفاده از انرژی را هنگام اجرای مدل های AI محاسبه می کند. این انتشار فشار قیمت گذاری بیشتری را بر ارائه دهندگان غربی مانند OpenAI و Anthropic اضافه می کند. مقاله Deepseek open sourcesference Engine است که سریع ترین و ارزان ترین مدل AI خود را در Decoder نشان می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "a0506b224e71d0bc",
+   "url": "https://www.pcgamer.com/gaming-industry/founder-of-bankrupt-samson-studio-mulls-how-to-use-ai-for-his-next-attempt-cutting-corners-in-game-development-has-a-habit-of-coming-back-to-bite-you-in-the-ass",
+   "sourceId": "pc-gamer",
+   "sourceName": "PC Gamer",
+   "title": "Founder of bankrupt Samson studio mulls how to use AI for his next attempt: 'Cutting corners in game development has a habit of coming back to bite you in the ass'",
+   "excerpt": "Christopher Sundberg said the goal for his next studio is to make \"a game we can afford to finish without needing every sales forecast to come true.\"",
+   "lang": "en",
+   "publishedAt": "2026-10-20T18:43:15Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "products",
+   "tags": [
+    "gaming industry"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://cdn.mos.cms.futurecdn.net/XDWYfjRDYcAqUhXhck2X8D-1920-80.png",
+    "alt": "Samson trailer still - tough guy holding a wrench",
+    "credit": "Liquid Swords",
+    "kind": "feed",
+    "sourceUrl": "https://www.pcgamer.com/rss/"
+   },
+   "eventId": "a0506b224e71d0bc",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "موسس استودیوی ورشکسته سامسون چگونگی استفاده از هوش مصنوعی را برای تلاش بعدی خود به کار می برد: \" گوشه های خالی در توسعه بازی عادت دارد که شما را در الاغ ها گاز بگیرد.\"",
+     "excerpt": "کریستوفر ساندبرگ گفت که هدف استودیوی بعدی او این است که «بازیی را که می توانیم بدون نیاز به پیش بینی فروش به پایان برسانیم، به پایان برسانیم.»",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "2e553dc4556561f8",
+   "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+   "excerpt": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+   "lang": "en",
+   "publishedAt": "2026-10-20T18:38:24Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "products",
+   "tags": [
+    "ai",
+    "hardware",
+    "tc",
+    "google"
+   ],
+   "entities": [
+    "amazon",
+    "google",
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "2e553dc4556561f8",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل به آمازون در حمله به استحکام Nvidia در توسعه دهندگان برنامه AI پیوست",
+     "excerpt": "گوگل در انتشار یک ابزار توسعه دهنده به آمازون ملحق شده است که باعث می شود کاربران PyTorch برنامه های خود را از GPU های Nvidia انتقال دهند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
+   "id": "b799bf523cce9fee",
+   "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "ChatGPT now lets you lock your chats",
+   "excerpt": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+   "lang": "en",
+   "publishedAt": "2026-10-20T18:36:53Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-20T19:39:16Z",
+   "day": "2026-10-20",
+   "category": "products",
+   "tags": [
+    "ai",
+    "apps",
+    "chatgpt"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b799bf523cce9fee",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چت GPT در حال حاضر به شما اجازه می دهد چت خود را قفل کنید",
+     "excerpt": "این شرکت می گوید که این ویژگی برای موقعیت هایی طراحی شده است که کاربران ممکن است در مورد چیزی شخصی یا برنامه ریزی کنند و می خواهند آن مکالمات را خصوصی نگه دارند، در حالی که دستگاه خود را به دوستان یا خانواده تحویل می دهند تا چیزی را در یک چت دیگر نشان دهند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-20T19:39:16Z"
+    }
+   }
+  },
+  {
    "id": "ecaaea07b7401208",
    "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice",
    "sourceId": "ars-ai",
