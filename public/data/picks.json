@@ -1,6 +1,6 @@
 {
- "schemaVersion": 1,
- "asOf": "2026-10-20T15:19:48Z",
+ "schemaVersion": 2,
+ "asOf": "2026-10-20T18:22:54Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T15:19:48Z",
-   "to": "2026-10-20T15:19:48Z",
+   "from": "2026-10-19T18:22:54Z",
+   "to": "2026-10-20T18:22:54Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "753fc98bb47cb9f3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T16:42:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
+       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "753fc98bb47cb9f3",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.8,
+        "topic": 100.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
+        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "94e7f4f5c0e52bb7",
@@ -41,15 +101,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 83.8,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -59,7 +119,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -69,290 +129,219 @@
     },
     {
      "article": {
-      "id": "e127463b704d26f9",
-      "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
-      "excerpt": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
+      "id": "4eb9f7080b11166e",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-20T15:07:43Z",
+      "publishedAt": "2026-10-20T18:17:47Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
-      "category": "research",
-      "tags": [
-       "culture",
-       "culture / digital culture",
-       "agentic ai",
-       "artificial intelligence",
-       "internet",
-       "research"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
       },
-      "eventId": "e127463b704d26f9",
+      "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 70.4,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
-        "topic": 80.0,
-        "novelty": 92.9
+        "recency": 99.5,
+        "topic": 75.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "یک عامل هوش مصنوعی به لیستی از محققان برتر اینترنت ملحق شد. پاسخ: تمام هرج و مرج هنوز هم برابر نیست",
-        "excerpt": "Hysteria بیش از ظاهر نماینده در یک گروه ۷۵۰۰ نفره نشان می دهد که کارشناسان اینترنت مفاهیم قدیمی حریم خصوصی دارند.",
+        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f71b5653c551ca33",
-      "url": "https://www.theguardian.com/global/2026/oct/19/musk-ukraine-ai-music",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The dangers of letting tech billionaires shape our world",
-      "excerpt": "As SpaceX impacts Ukraine and AI-generated music divides artists and fans, critics are asking what happens when technology has too much control over our lives This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here Hello, and welcome to TechScape. I’m Blake Montgomery, US tech editor at the Guardian, writing to you while sitting…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T14:31:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "technology",
-       "ai (artificial intelligence)",
-       "elon musk",
-       "music",
-       "spacex",
-       "ukraine"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/9df3eaa715484d3f560e4dea76d7dda82597ac00/188_0_4077_3262/master/4077.jpg?width=700&quality=85&auto=format&fit=max&s=eb7d4d3430fb65489d561ac7267dc9cd",
-       "credit": "Photograph: Gonzalo Fuentes/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "f71b5653c551ca33",
-      "related": [],
-      "score": {
-       "total": 64.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 95.5,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "خطرات اجازه دادن به میلیاردرهای فناوری جهان ما را شکل می دهد",
-        "excerpt": "از آنجایی که اسپیس ایکس بر اوکراین و موسیقی تولید شده هوش مصنوعی تأثیر می گذارد، منتقدان می پرسند که چه اتفاقی می افتد زمانی که تکنولوژی کنترل زیادی بر زندگی ما داشته باشد که در ابتدا در TechScape منتشر شد، خبرنامه ای در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا Hello دریافت کنید و به TechScape خوش آمدید. من بلیک مونتگومری، سردبیر فناوری ایالات متحده در گاردین، نوشتن به شما در هنگام نشستن ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "1b3da64625ac546a",
-      "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
-      "excerpt": "Australian workers expect the government to act to protect them from AI harms. There is a clear reform solution at hand Get our new political email, free app or daily news podcast Australia’s major political parties are edging towards rare consensus. Labor and the Coalition increasingly want to take a major bet on artificial intelligence. Yet, just as the parties are coming together, the…",
+      "id": "d42536b869033e81",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
       "lang": "en",
-      "publishedAt": "2026-10-20T14:00:38Z",
+      "publishedAt": "2026-10-20T17:34:04Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
       "category": "policy",
       "tags": [
-       "ai (artificial intelligence)",
-       "australia news",
-       "australian politics",
-       "labor party",
-       "coalition",
-       "liberal party"
+       "amazon bedrock",
+       "customer solutions"
       ],
-      "entities": [],
+      "entities": [
+       "amazon"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/9c9ec69d76f8fe3ecc5633e32f9280cf5f31c95d/596_0_5955_4764/master/5955.jpg?width=700&quality=85&auto=format&fit=max&s=16c9d9d26f29763e2a092e56c6ae8df0",
-       "credit": "Photograph: James Ross/AAP",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
+       "alt": "High-level architecture of Octave’s AI foundation",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "1b3da64625ac546a",
+      "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 69.5,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
+        "recency": 95.4,
         "topic": 85.0,
-        "novelty": 95.0
+        "novelty": 76.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "کار و ائتلاف آماده اند تا یک قمار بی پروا در AI انجام دهند. آیا آنها متوجه نشده اند که حمایت از جامعه از بین رفته است؟ ادوارد سانتوس و سارا ساچر",
-        "excerpt": "کارگران استرالیایی انتظار دارند که دولت برای محافظت از آنها از آسیب های AI اقدام کند. یک راه حل اصلاحات روشن در دست ما ایمیل جدید سیاسی، برنامه رایگان یا اخبار روزانه است که احزاب سیاسی اصلی استرالیا به سمت اجماع نادر متعهد هستند. کار و ائتلاف به طور فزاینده ای می خواهند شرط بزرگی بر هوش مصنوعی بگذارند. با این حال، همانطور که احزاب با هم می آیند، ...",
+        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
+        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "3309b6ce15f483d4",
-      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
-      "excerpt": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "id": "b3fcb2e42d321123",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "lang": "en",
-      "publishedAt": "2026-10-20T13:07:24Z",
+      "publishedAt": "2026-10-20T10:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
       "category": "models",
-      "tags": [
-       "ai",
-       "government & policy",
-       "artificial intelligance",
-       "deepseek"
-      ],
+      "tags": [],
       "entities": [
-       "deepseek"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "3309b6ce15f483d4",
+      "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 66.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 61.6,
         "topic": 100.0,
-        "novelty": 63.6
+        "novelty": 86.7
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "ایالات متحده به سازمان های فدرال دستور می دهد تا AI DeepSeek چین را از سیستم های خود حذف کنند",
-        "excerpt": "ایالات متحده به سازمان های غیر نظامی فدرال دستور داده است تا محصولات DeepSeek و خدمات شخص ثالث را که با استفاده از تکنولوژی آن ساخته شده اند، با توجه به نگرانی های امنیت ملی، حذف کنند.",
+        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
+        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "e85a4c5da2af52ae",
-      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "excerpt": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday, which says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and",
+      "id": "ecaaea07b7401208",
+      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "excerpt": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
       "lang": "en",
-      "publishedAt": "2026-10-20T14:18:37Z",
+      "publishedAt": "2026-10-20T18:22:54Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
-      "category": "products",
+      "category": "research",
       "tags": [
        "ai",
-       "apps",
-       "entertainment",
-       "music",
-       "news",
-       "spotify"
+       "tech",
+       "ai drones",
+       "battlefield medicine",
+       "drones",
+       "military"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951391/STK088_VRG_Illo_N_Barclay_4_spotify.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Spotify’s logo",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Ukraine-drone-evacuation-1152x648.jpg",
+       "alt": "Screenshot",
+       "credit": "92nd Separate Assault Brigade of the Ukrainian Ground Forces",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "e85a4c5da2af52ae",
+      "eventId": "ecaaea07b7401208",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 65.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.3,
-        "topic": 65.0,
+        "recency": 100.0,
+        "topic": 80.0,
         "novelty": 94.1
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "Spotify 50 میلیون AI را از توصیه های خود حذف کرد",
-        "excerpt": "اسپاتیفای می گوید که بیش از 50 میلیون آهنگ را که در سال گذشته از توصیه های کاربران استفاده می شود، حذف کرده است. با توجه به اعلام روز سه شنبه، که می گوید Spotify نیز تغییراتی در سیستم توصیه خود ایجاد کرده است تا موسیقی بیشتری را که توسط هنرمندان انسانی ساخته شده است برجسته کند. سردبیران ما همان استاندارد و",
+        "title": "نجات هواپیماهای بدون سرنشین اوکراین از سربازان زخمی ایده های بسیار زیادی را به عمل می آورد",
+        "excerpt": "آخرین نوآوری پهپادی اوکراین ممکن است شانس غم انگیزی از تلفات را افزایش دهد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
@@ -367,8 +356,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T15:19:48Z",
-   "to": "2026-10-20T15:19:48Z",
+   "from": "2026-10-13T18:22:54Z",
+   "to": "2026-10-20T18:22:54Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +387,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -426,17 +415,17 @@
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "id": "753fc98bb47cb9f3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-20T16:42:53Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
       "category": "models",
       "tags": [
        "amazon bedrock",
@@ -445,32 +434,34 @@
       ],
       "entities": [
        "amazon",
-       "anthropic"
+       "openai"
       ],
-      "brand": "claude",
+      "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
+       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.9,
+        "recency": 98.4,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 76.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
+        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
@@ -484,21 +475,19 @@
     },
     {
      "article": {
-      "id": "7a364f356aab4946",
-      "url": "https://openai.com/index/low-resource-programming-languages",
+      "id": "b3fcb2e42d321123",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
       "lang": "en",
-      "publishedAt": "2026-10-19T12:00:00Z",
+      "publishedAt": "2026-10-20T10:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
       "category": "models",
-      "tags": [
-       "publication"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
@@ -507,25 +496,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "7a364f356aab4946",
+      "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.9,
+        "recency": 92.2,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 86.7
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
-        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
+        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
+        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
@@ -539,50 +528,166 @@
     },
     {
      "article": {
-      "id": "3eb18e5ff7f2a0ef",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "id": "4eb9f7080b11166e",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "MPS in PyTorch 2.15",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
+      "publishedAt": "2026-10-20T18:17:47Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
       "category": "open-source",
       "tags": [],
       "entities": [
-       "huggingface"
+       "huggingface",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
+       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
       },
-      "eventId": "3eb18e5ff7f2a0ef",
+      "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.3,
+        "recency": 99.9,
         "topic": 75.0,
-        "novelty": 100.0
+        "novelty": 92.3
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "MPS در PyTorch 2.15",
+        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d42536b869033e81",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T17:34:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
+       "alt": "High-level architecture of Octave’s AI foundation",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "d42536b869033e81",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 85.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
+        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "eb477756520c8ff8",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "excerpt": "Three Java Champions share how they use GitHub Copilot to solve problems, accelerate development, and keep humans responsible for the results.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T16:05:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "java"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "eb477756520c8ff8",
+      "related": [],
+      "score": {
+       "total": 67.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه 3 قهرمان جاوا از GitHub Copilot برای افزایش بهره وری استفاده می کنند",
+        "excerpt": "سه قهرمان جاوا به اشتراک می گذارند که چگونه از GitHub Copilot برای حل مشکلات، سرعت توسعه و نگه داشتن انسان مسئول نتایج استفاده می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -624,15 +729,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.5,
+        "recency": 87.9,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -643,7 +748,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -684,15 +789,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 79.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -700,129 +805,6 @@
         "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1b3da64625ac546a",
-      "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
-      "excerpt": "Australian workers expect the government to act to protect them from AI harms. There is a clear reform solution at hand Get our new political email, free app or daily news podcast Australia’s major political parties are edging towards rare consensus. Labor and the Coalition increasingly want to take a major bet on artificial intelligence. Yet, just as the parties are coming together, the…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T14:00:38Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australia news",
-       "australian politics",
-       "labor party",
-       "coalition",
-       "liberal party"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/9c9ec69d76f8fe3ecc5633e32f9280cf5f31c95d/596_0_5955_4764/master/5955.jpg?width=700&quality=85&auto=format&fit=max&s=16c9d9d26f29763e2a092e56c6ae8df0",
-       "credit": "Photograph: James Ross/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "1b3da64625ac546a",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.7,
-        "topic": 85.0,
-        "novelty": 95.0
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کار و ائتلاف آماده اند تا یک قمار بی پروا در AI انجام دهند. آیا آنها متوجه نشده اند که حمایت از جامعه از بین رفته است؟ ادوارد سانتوس و سارا ساچر",
-        "excerpt": "کارگران استرالیایی انتظار دارند که دولت برای محافظت از آنها از آسیب های AI اقدام کند. یک راه حل اصلاحات روشن در دست ما ایمیل جدید سیاسی، برنامه رایگان یا اخبار روزانه است که احزاب سیاسی اصلی استرالیا به سمت اجماع نادر متعهد هستند. کار و ائتلاف به طور فزاینده ای می خواهند شرط بزرگی بر هوش مصنوعی بگذارند. با این حال، همانطور که احزاب با هم می آیند، ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "87cd33ee12bd9f5e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Developers can now access SageMaker Studio through the new AWS experience",
-      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T22:39:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "amazon sagemaker studio",
-       "announcements"
-      ],
-      "entities": [
-       "amazon",
-       "apple",
-       "google",
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
-       "alt": "The Sign up for AWS page with an email field and sign-in options for Google, GitHub, Apple, and Amazon",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "87cd33ee12bd9f5e",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.2,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توسعه دهندگان اکنون می توانند از طریق تجربه جدید AWS به SageMaker Studio دسترسی داشته باشند.",
-        "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
        }
       }
      },
@@ -837,8 +819,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T15:19:48Z",
-   "to": "2026-10-20T15:19:48Z",
+   "from": "2026-09-20T18:22:54Z",
+   "to": "2026-10-20T18:22:54Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -868,15 +850,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -887,6 +869,119 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b3fcb2e42d321123",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T10:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "b3fcb2e42d321123",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.6,
+        "topic": 100.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
+        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "753fc98bb47cb9f3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T16:42:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
+       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "753fc98bb47cb9f3",
+      "related": [],
+      "score": {
+       "total": 72.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 100.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
+        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -922,15 +1017,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 91.6,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -941,7 +1036,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -951,55 +1046,51 @@
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "id": "4eb9f7080b11166e",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-20T18:17:47Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "amazon",
-       "anthropic"
+       "huggingface",
+       "nvidia"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1009,16 +1100,74 @@
     },
     {
      "article": {
-      "id": "3eb18e5ff7f2a0ef",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "id": "d42536b869033e81",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T17:34:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
+       "alt": "High-level architecture of Octave’s AI foundation",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "d42536b869033e81",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 85.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-10-20T18:22:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
+        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ca293d8533a3487d",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "MPS in PyTorch 2.15",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
+      "publishedAt": "2026-10-20T16:09:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
+      "fetchedAt": "2026-10-20T18:31:30Z",
       "day": "2026-10-20",
       "category": "open-source",
       "tags": [],
@@ -1027,32 +1176,32 @@
       ],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
+       "sourceUrl": "https://huggingface.co/blog/allenai/fairstress"
       },
-      "eventId": "3eb18e5ff7f2a0ef",
+      "eventId": "ca293d8533a3487d",
       "related": [],
       "score": {
        "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 99.4,
         "topic": 75.0,
-        "novelty": 100.0
+        "novelty": 92.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "MPS در PyTorch 2.15",
+        "title": "FairStress: ارزیابی عمیق تر عدالت در تصمیم گیری LLM",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1093,15 +1242,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 93.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -1112,61 +1261,7 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2596ff929aeef557",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
-      },
-      "eventId": "2596ff929aeef557",
-      "related": [],
-      "score": {
-       "total": 69.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.7,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1208,15 +1303,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 96.2,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
@@ -1224,119 +1319,6 @@
         "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4a2f3ca18eb9cee6",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "lang": "en",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-16",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "4a2f3ca18eb9cee6",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 72.5,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شرکای خیابانی به سوالات سریع تر با Codex پاسخ می دهند",
-        "excerpt": "Anant Kumar ابزارهایی را برای مقایسه ارزش های وام و تجزیه و تحلیل توافقنامه های اعتباری، با استفاده از Codex برای بررسی کد و پیگیری سریع تر ایجاد می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "631c78f18e2760a2",
-      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Giving AI a “crystal clear” view of the materials world",
-      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "lang": "en",
-      "publishedAt": "2026-10-18T04:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-18",
-      "category": "research",
-      "tags": [
-       "research",
-       "materials science and engineering",
-       "artificial intelligence",
-       "machine learning",
-       "data",
-       "dmse"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
-       "credit": "Image: MIT News; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "631c78f18e2760a2",
-      "related": [],
-      "score": {
-       "total": 68.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.3,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T15:19:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
-        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
        }
       }
      },
@@ -1350,56 +1332,51 @@
     },
     {
      "article": {
-      "id": "87cd33ee12bd9f5e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
+      "id": "e5f6d3284f597c04",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Developers can now access SageMaker Studio through the new AWS experience",
-      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "title": "Securing AI agent identity with X.509 PKI on AWS",
+      "excerpt": "Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.",
       "lang": "en",
-      "publishedAt": "2026-10-19T22:39:24Z",
+      "publishedAt": "2026-10-20T16:03:48Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
       "category": "products",
       "tags": [
        "advanced (300)",
-       "amazon sagemaker ai",
-       "amazon sagemaker studio",
-       "announcements"
+       "customer solutions"
       ],
       "entities": [
-       "amazon",
-       "apple",
-       "google",
-       "microsoft"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
-       "alt": "The Sign up for AWS page with an email field and sign-in options for Google, GitHub, Apple, and Amazon",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-1.png",
+       "alt": "Three-layer PKI authentication architecture showing credential flow between the user, agents, and the MCP tool server",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "87cd33ee12bd9f5e",
+      "eventId": "e5f6d3284f597c04",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 99.3,
         "topic": 65.0,
-        "novelty": 91.7
+        "novelty": 90.9
        },
-       "asOf": "2026-10-20T15:19:48Z"
+       "asOf": "2026-10-20T18:22:54Z"
       },
       "tr": {
        "fa": {
-        "title": "توسعه دهندگان اکنون می توانند از طریق تجربه جدید AWS به SageMaker Studio دسترسی داشته باشند.",
-        "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
+        "title": "تشخیص هویت AI با X.509 PKI در AWS",
+        "excerpt": "یاد بگیرید که چگونه سیستم های هوش مصنوعی چند عامل را با هویت رمزنگاری با استفاده از کلیدی EJBCA و خدمات AWS امن کنید. این معماری مرجع ترکیبی از پاکت های درخواست امضا شده، ادعاهای هیئت کاربر امضا شده، RFC 8693 نشانه های مخاطبان-scope، و دعوت نامه OCSP در زمان واقعی برای اثبات هویت عامل و جلوگیری از جعل درخواست در سراسر نمایندگی به عامل و ابزار MCP.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
