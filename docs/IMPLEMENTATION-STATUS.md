@@ -24,6 +24,7 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | Card photos fill their rounded frame again (`cover`); only broken or tiny photos are dropped (PR #11) | `npm run check` (65 unit tests) + 76 Playwright tests |
 | Motion system: view transitions for page, language and theme changes on the hash router (instant fallback), scroll reveal, sliding tab/chip/language indicator, menu exit animations, micro-interactions, full/lite/reduced modes (Save-Data, `prefers-reduced-motion`) | `docs/DESIGN-SYSTEM.md#motion`; `src/lib/motion.test.ts`, `src/lib/router.test.ts`, `e2e/motion.spec.ts` |
 | Hero bug fix: removed the scroll-driven drift that dimmed copy and moved the photo frame; one fixed template for every slide (copy + fixed frame, cover); Persian digits in ranks, score rings and counter use Vazirmatn | `docs/DESIGN-SYSTEM.md`; `npm run check` + 86 Playwright tests incl. the fast-click hero test in `e2e/layout.spec.ts` |
+| Optional accounts: email-code sign-in (Supabase Auth, optional Google), onboarding, profile, deterministic *For You* ranking with reasons, account bookmarks with a local-merge offer, privacy page, account deletion; RLS migration. Needs the owner's Supabase/SMTP setup before it is live (`docs/AUTH-SETUP.md`) | `docs/ACCOUNTS.md`; `npm run check` (125 unit tests, incl. 10 RLS isolation tests on the real migration in PGlite) + 90 Playwright e2e/axe tests on the mock build; real email delivery not yet tested |
 
 ## Resume
 Run `/continue-phase` (see `.claude/commands/continue-phase.md`).

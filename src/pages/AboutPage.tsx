@@ -9,7 +9,7 @@ const EN = [
   ['Images', 'Stories whose main subject is Claude/Anthropic, OpenAI or Gemini use fixed, unofficial editorial character illustrations commissioned for this site; they are not company mascots and not news photos. Other stories show the image the publisher supplied in its feed or page metadata, credited and linked; otherwise an abstract category graphic.'],
   ['Persian translation', 'New headlines and excerpts may be machine-translated offline on the GitHub runner with an open-source Argos Translate model. Translations can be wrong; the original English title and the source link are always available. If translation is unavailable, the original text is shown.'],
   ['Time and archive', 'Times are shown in your local timezone. Archive days are grouped by UTC date. "Data last updated" is when the stored data last changed — not when a story was published.'],
-  ['Limits', 'Coverage is limited to the configured sources; feeds can fail, arrive late or omit images. GitHub may delay scheduled runs. Bookmarks and language choice are stored only in your browser.'],
+  ['Limits', 'Coverage is limited to the configured sources; feeds can fail, arrive late or omit images. GitHub may delay scheduled runs. Without an account, bookmarks and language choice are stored only in your browser; an optional account syncs them (see Accounts & privacy).'],
 ] as const;
 
 const FA = [
@@ -20,7 +20,7 @@ const FA = [
   ['تصاویر', 'خبرهایی که موضوع اصلی‌شان Claude/Anthropic، OpenAI یا Gemini است، از تصویرسازی‌های ثابت و غیررسمی این سایت استفاده می‌کنند؛ این‌ها نشان رسمی شرکت‌ها یا عکس خبری نیستند. سایر خبرها تصویری را نشان می‌دهند که ناشر در فید یا متادیتای صفحه داده است، همراه با اعتبار و پیوند؛ در غیر این صورت یک گرافیک انتزاعی دسته‌ای.'],
   ['ترجمهٔ فارسی', 'عنوان‌ها و خلاصه‌های جدید ممکن است به‌صورت آفلاین روی اجراکنندهٔ GitHub با مدل متن‌باز Argos Translate ترجمهٔ ماشینی شوند. ترجمه ممکن است اشتباه باشد؛ عنوان اصلی انگلیسی و پیوند منبع همیشه در دسترس است. اگر ترجمه در دسترس نباشد، متن اصلی نمایش داده می‌شود.'],
   ['زمان و آرشیو', 'زمان‌ها به وقت محلی شما نمایش داده می‌شوند. روزهای آرشیو بر اساس تاریخ UTC گروه‌بندی می‌شوند. «آخرین به‌روزرسانی داده» زمانی است که داده‌های ذخیره‌شده آخرین بار تغییر کرده‌اند، نه زمان انتشار خبر.'],
-  ['محدودیت‌ها', 'پوشش محدود به منابع تنظیم‌شده است؛ فیدها ممکن است از کار بیفتند، دیر برسند یا تصویر نداشته باشند. GitHub ممکن است اجراهای زمان‌بندی‌شده را با تأخیر انجام دهد. نشانک‌ها و انتخاب زبان فقط در مرورگر شما ذخیره می‌شوند.'],
+  ['محدودیت‌ها', 'پوشش محدود به منابع تنظیم‌شده است؛ فیدها ممکن است از کار بیفتند، دیر برسند یا تصویر نداشته باشند. GitHub ممکن است اجراهای زمان‌بندی‌شده را با تأخیر انجام دهد. بدون حساب، نشانک‌ها و انتخاب زبان فقط در مرورگر شما ذخیره می‌شوند؛ حساب اختیاری آن‌ها را همگام می‌کند (بخش حساب کاربری و حریم خصوصی).'],
 ] as const;
 
 export function AboutPage() {
