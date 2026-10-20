@@ -359,22 +359,6 @@ html[data-motion='reduced'] [data-reveal] .story-media img {
   box-shadow: 0 0 12px var(--accent-glow);
 }
 
-/* As the page scrolls away from the hero its copy drifts up and dims a little (scroll-linked, no script; full motion only). */
-@supports (animation-timeline: scroll()) {
-  html[data-motion='full'] .nh-slide.is-active .nh-inner {
-    animation: nh-drift linear both;
-    animation-timeline: scroll(root block);
-    animation-range: 0 90vh;
-  }
-}
-
-@keyframes nh-drift {
-  to {
-    transform: translateY(-40px);
-    opacity: 0.4;
-  }
-}
-
 /* ---------- Reduced motion ---------- */
 html[data-motion='reduced'] *,
 html[data-motion='reduced'] *::before,
@@ -383,8 +367,4 @@ html[data-motion='reduced'] *::after {
   animation-delay: 0ms !important;
   animation-iteration-count: 1 !important;
   transition-duration: 0.01ms !important;
-}
-
-html[data-motion='reduced'] .nh-inner {
-  animation: none !important;
 }

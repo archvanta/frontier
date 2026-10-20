@@ -767,13 +767,11 @@ html[lang='fa'] .mt-label {
   flex-direction: column;
   justify-content: flex-end;
   min-inline-size: 0;
-  overflow: hidden;
-  isolation: isolate;
   opacity: 0;
   visibility: hidden;
   transition:
-    opacity 1.2s var(--ease),
-    visibility 0s linear 1.2s;
+    opacity 0.6s var(--ease-out),
+    visibility 0s linear 0.6s;
 }
 
 .nh-slide.is-active {
@@ -781,95 +779,35 @@ html[lang='fa'] .mt-label {
   visibility: visible;
   z-index: 1;
   transition:
-    opacity 1.2s var(--ease),
+    opacity 0.6s var(--ease-out),
     visibility 0s;
 }
 
-/* The photo. cover: fills the stage (wide, large photos only). contain: the whole picture, framed on the end side (stacked above the copy on
-   phones) over a blurred, darkened copy of itself. pending/art: no photo is shown (the stage's gradient backdrop is behind). */
+/* One template for every story: the copy on the start side, one rounded frame of a fixed size on the end side (stacked above the copy on
+   phones), filled edge to edge by the photo. Without a usable photo the frame stays, with a quiet gradient and the category icon. */
 .nh-frame {
-  position: absolute;
-  inset: 0;
-  z-index: 0;
+  position: relative;
   display: grid;
   place-items: center;
-  min-inline-size: 0;
-  pointer-events: none;
-}
-
-.nh-img {
   inline-size: 100%;
-  block-size: 100%;
-  object-fit: cover;
-  object-position: 50% 35%;
-  transform-origin: 50% 40%;
-  opacity: 1;
-  transition: opacity 0.7s var(--ease);
-}
-
-.nh-slide.is-pending .nh-img {
-  opacity: 0;
-}
-
-.nh-slide.is-active.is-cover .nh-img {
-  animation: nh-zoom 7s cubic-bezier(0.2, 0.6, 0.25, 1) both;
-}
-
-.nh-blur {
-  position: absolute;
-  inset: -8%;
-  z-index: 0;
-  inline-size: 116%;
-  block-size: 116%;
-  object-fit: cover;
-  filter: blur(28px) brightness(0.4) saturate(1.15);
-  pointer-events: none;
-}
-
-.nh-slide.is-contain .nh-img {
-  inline-size: auto;
-  block-size: auto;
-  max-inline-size: 100%;
-  max-block-size: 100%;
-  object-fit: contain;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
   border-radius: 20px;
+  background:
+    radial-gradient(80% 90% at 20% 110%, rgba(104, 58, 220, 0.45), transparent 70%),
+    radial-gradient(70% 80% at 100% 0%, rgba(38, 82, 220, 0.35), transparent 70%), #0c0a1e;
   box-shadow:
     0 0 0 1px rgba(255, 255, 255, 0.14),
     0 30px 70px -24px rgba(0, 0, 0, 0.85);
+  color: rgba(255, 255, 255, 0.4);
 }
 
-/* Strong scrim: the headline sits on near-black whatever the photo shows (screenshots and text-heavy images included). */
-.nh-slide::after {
-  content: '';
+.nh-img {
   position: absolute;
   inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background:
-    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 24%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.22) 74%, rgba(0, 0, 0, 0.55) 100%),
-    linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) 46%, transparent 74%);
-}
-
-[dir='rtl'] .nh-slide::after {
-  background:
-    linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 24%, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.22) 74%, rgba(0, 0, 0, 0.55) 100%),
-    linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) 46%, transparent 74%);
-}
-
-/* The picture is shown whole on its own, so it gets only a light vignette. */
-.nh-slide.is-contain::after {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 55%, transparent 100%);
-}
-
-/* Slides on the gradient backdrop only need the copy corner darkened a little. */
-.nh-slide.is-art::after,
-.nh-slide.is-pending::after {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%), linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent 60%);
-}
-
-[dir='rtl'] .nh-slide.is-art::after,
-[dir='rtl'] .nh-slide.is-pending::after {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 55%), linear-gradient(to left, rgba(0, 0, 0, 0.3), transparent 60%);
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
 }
 
 /* Blends the foot of the hero into the page (dark theme); the light theme keeps a clean edge instead. */
@@ -895,6 +833,20 @@ html[data-theme='light'] .nh-stage {
   padding-block: var(--nh-pad-top) var(--nh-pad-bottom);
 }
 
+/* The template fills the slide, so the frame sits at exactly the same place on every story (centred on the end side); the copy keeps to
+   the foot of the slide. */
+.nh-slide .nh-inner {
+  flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) min(40%, 36rem);
+  align-items: end;
+  gap: clamp(1.5rem, 4vw, 4rem);
+}
+
+.nh-slide .nh-frame {
+  align-self: center;
+}
+
 .nh-intro {
   grid-area: 1 / 1;
   align-self: end;
@@ -917,47 +869,40 @@ html[data-theme='light'] .nh-stage {
 }
 
 .nh-slide.is-active .nh-content > * {
-  animation: nh-rise 0.95s var(--ease) both;
+  animation: nh-rise 0.7s var(--ease-out) both;
 }
 .nh-slide.is-active .nh-content > :nth-child(1) {
-  animation-delay: 0.2s;
+  animation-delay: 0.1s;
 }
 .nh-slide.is-active .nh-content > :nth-child(2) {
-  animation-delay: 0.3s;
+  animation-delay: 0.16s;
 }
 .nh-slide.is-active .nh-content > :nth-child(3) {
-  animation-delay: 0.42s;
+  animation-delay: 0.24s;
 }
 .nh-slide.is-active .nh-content > :nth-child(4) {
-  animation-delay: 0.52s;
+  animation-delay: 0.3s;
 }
 .nh-slide.is-active .nh-content > :nth-child(5) {
-  animation-delay: 0.62s;
+  animation-delay: 0.36s;
 }
 
-.news-hero.is-paused .nh-slide.is-active .nh-img {
-  animation-play-state: paused;
+.nh-slide.is-active .nh-frame {
+  animation: nh-frame-in 0.8s var(--ease-out) 0.08s both;
 }
 
-@keyframes nh-zoom {
-  from {
-    transform: scale(1.09);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
+/* Every entrance ends fully opaque and in place (no fill state is left behind if a slide changes mid-way). */
 @keyframes nh-rise {
   from {
     opacity: 0;
-    transform: translateY(18px);
-    filter: blur(6px);
+    transform: translateY(14px);
   }
-  to {
-    opacity: 1;
-    transform: none;
-    filter: none;
+}
+
+@keyframes nh-frame-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
   }
 }
 
@@ -1196,38 +1141,23 @@ html[dir='rtl'] .nh-brand {
   stroke-width: 0;
 }
 
-/* Contain mode on a wide screen: the whole picture sits on the end side, the copy on the start side. */
-@media (min-width: 900px) {
-  .nh-slide.is-contain .nh-frame {
-    inset-block: var(--nh-pad-top) var(--nh-pad-bottom);
-    inset-inline: auto max(var(--gutter), calc((100% - var(--container)) / 2 + var(--gutter)));
-    inline-size: min(38%, 38rem);
-  }
-  .nh-slide.is-contain .nh-content {
-    max-inline-size: min(50rem, calc(100% - min(38vw, 38rem) - 2rem));
-  }
-}
-
+/* Phones and tablets: the same template stacked, the frame above the copy at one fixed height. */
 @media (max-width: 899px) {
-  /* Phones and tablets: the picture is stacked above the copy at a modest height. */
-  .nh-slide.is-contain {
+  .nh-slide .nh-inner {
     --nh-frame-h: clamp(7rem, 24vh, 16rem);
     --nh-frame-h: clamp(7rem, 24svh, 16rem);
-  }
-  .nh-slide.is-contain .nh-inner {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
     gap: var(--s-4);
   }
-  .nh-slide.is-contain .nh-frame {
-    position: relative;
-    inset: auto;
+  .nh-slide .nh-frame {
     order: -1;
-    inline-size: 100%;
+    align-self: start;
+    aspect-ratio: auto;
     block-size: var(--nh-frame-h);
   }
-  .nh-slide.is-contain .nh-img {
-    max-block-size: var(--nh-frame-h);
+  .nh-slide .nh-content {
+    align-self: end;
   }
 }
 
@@ -1264,7 +1194,7 @@ html[dir='rtl'] .nh-brand {
 }
 
 @media (max-width: 899px) and (max-height: 720px) {
-  .nh-slide.is-contain {
+  .nh-slide .nh-inner {
     --nh-frame-h: clamp(4.5rem, 16vh, 9rem);
     --nh-frame-h: clamp(4.5rem, 16svh, 9rem);
   }
@@ -1275,7 +1205,7 @@ html[dir='rtl'] .nh-brand {
   .nh-slide.is-active {
     transition: none;
   }
-  .nh-slide.is-active .nh-img,
+  .nh-slide.is-active .nh-frame,
   .nh-slide.is-active .nh-content > * {
     animation: none;
   }
@@ -4274,4 +4204,37 @@ html[lang='fa'] .game-cell-title {
   .games-feed {
     padding: var(--s-3);
   }
+}
+
+/* Persian digits (Vazirmatn) run smaller than the Latin mono digits the sizes above were tuned for: give counters, rank badges and score
+   rings a little more size and weight, without tracking. */
+html[lang='fa'] .rank,
+html[lang='fa'] .brief-rank,
+html[lang='fa'] .score-ring-value,
+html[lang='fa'] .nh-count {
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+html[lang='fa'] .rank {
+  font-size: 1rem;
+}
+
+html[lang='fa'] .brief-rank {
+  font-size: var(--fs-sm);
+}
+
+html[lang='fa'] .score-ring-value {
+  font-size: 0.95rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+html[lang='fa'] .nh-count {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+html[lang='fa'] .story-card.is-row .rank {
+  letter-spacing: 0;
 }

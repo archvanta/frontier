@@ -50,9 +50,7 @@
   --btn-dark-ink: #f5f6f8;
 
   /* Header bar and drop-down panels */
-  --header-bg:
-    radial-gradient(36% 220% at 34% -40%, rgba(150, 62, 52, 0.26), transparent 70%),
-    linear-gradient(180deg, #111114 0%, #070708 100%);
+  --header-bg: radial-gradient(36% 220% at 34% -40%, rgba(150, 62, 52, 0.26), transparent 70%), linear-gradient(180deg, #111114 0%, #070708 100%);
   --header-line: rgba(255, 255, 255, 0.07);
   --header-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.9);
   --panel-bg: linear-gradient(180deg, #19191f 0%, #0d0d11 100%);
@@ -151,6 +149,8 @@ html[lang='fa'],
 [lang='fa'] {
   --font-display: var(--font-fa);
   --font-body: var(--font-fa);
+  /* The Latin mono has no Persian digits, so numbers, counters and badges would fall back to a random thin font. */
+  --font-mono: var(--font-fa);
 }
 
 html[data-theme='light'] {
@@ -193,9 +193,7 @@ html[data-theme='light'] {
   --btn-dark-hover: #e0e0e8;
   --btn-dark-ink: #0b0b10;
 
-  --header-bg:
-    radial-gradient(36% 220% at 34% -40%, rgba(255, 150, 120, 0.16), transparent 70%),
-    linear-gradient(180deg, #ffffff 0%, #f6f6f9 100%);
+  --header-bg: radial-gradient(36% 220% at 34% -40%, rgba(255, 150, 120, 0.16), transparent 70%), linear-gradient(180deg, #ffffff 0%, #f6f6f9 100%);
   --header-line: rgba(10, 10, 20, 0.1);
   --header-shadow: 0 18px 40px -30px rgba(20, 20, 40, 0.35);
   --panel-bg: linear-gradient(180deg, #ffffff 0%, #f4f4f8 100%);
