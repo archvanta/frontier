@@ -489,14 +489,6 @@ html[lang='fa'] .mt-label {
   border: 1px solid var(--panel-line);
   background: var(--panel-bg);
   box-shadow: var(--panel-shadow);
-  animation: nav-panel-in var(--dur) var(--ease) both;
-}
-
-@keyframes nav-panel-in {
-  from {
-    opacity: 0;
-    transform: translateY(-6px);
-  }
 }
 
 .nav-panel > li + li {
@@ -1673,18 +1665,9 @@ html[lang='fa'] .picks-more-label {
   flex-direction: column;
   min-inline-size: 0;
   border-radius: var(--radius-lg);
-  animation: card-in 520ms var(--ease) both;
-}
-
-@keyframes card-in {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .story-card,
   .live-dot {
     animation: none;
   }
@@ -2275,7 +2258,6 @@ html[lang='fa'] .story-card.is-feature .story-title {
 .story-card.is-row {
   padding-block-start: var(--s-4);
   border-radius: 0;
-  animation: none;
 }
 
 .story-card.is-row .story-body {

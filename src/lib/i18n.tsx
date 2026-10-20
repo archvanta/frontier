@@ -1,4 +1,5 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { createContext, useCallback, useContext, useLayoutEffect, useMemo, useState, type ReactNode } from 'react';
+import { runTransition } from './motion';
 import type { CategoryId, Locale, PickWindow } from './types';
 
 const en = {
@@ -401,7 +402,8 @@ const I18nContext = createContext<I18nValue | null>(null);
 export function I18nProvider({ children, initial }: { children: ReactNode; initial?: Locale }) {
   const [locale, setLocaleState] = useState<Locale>(() => initial ?? initialLocale());
 
-  useEffect(() => {
+  // Layout effect: inside a language view transition the new direction must be on <html> before the new snapshot.
+  useLayoutEffect(() => {
     const root = document.documentElement;
     root.lang = locale;
     root.dir = dirFor(locale);
@@ -412,8 +414,9 @@ export function I18nProvider({ children, initial }: { children: ReactNode; initi
     }
   }, [locale]);
 
-  const setLocale = useCallback((l: Locale) => setLocaleState(l), []);
-  const toggle = useCallback(() => setLocaleState((l) => (l === 'en' ? 'fa' : 'en')), []);
+  // A short cross-fade between the two layouts (RTL ↔ LTR) instead of a jump; instant without view transitions.
+  const setLocale = useCallback((l: Locale) => runTransition(() => setLocaleState(l), 'lang'), []);
+  const toggle = useCallback(() => runTransition(() => setLocaleState((l) => (l === 'en' ? 'fa' : 'en')), 'lang'), []);
   const value = useMemo<I18nValue>(
     () => ({ locale, dir: dirFor(locale), t: (k, v) => translate(locale, k, v), setLocale, toggle }),
     [locale, setLocale, toggle],

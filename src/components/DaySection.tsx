@@ -1,5 +1,6 @@
 import { formatDay, formatNumber } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
+import { useReveal } from '../lib/motion';
 import type { Article } from '../lib/types';
 import { EmptyState } from './States';
 import { StoryCard } from './StoryCard';
@@ -25,6 +26,7 @@ export function DaySection({
 }) {
   const { t, locale } = useI18n();
   const hid = `day-${day}`;
+  const revealHead = useReveal<HTMLElement>('head');
   const H = `h${level}` as const;
   const cardLevel = level === 2 ? 3 : 4;
   const [lead, ...others] = articles;
@@ -32,7 +34,7 @@ export function DaySection({
   const list = others.slice(3);
   return (
     <section className="day-section" aria-labelledby={hid} id={id}>
-      <header className="day-head">
+      <header ref={revealHead} className="day-head">
         <H id={hid} className="day-title">
           {label ?? formatDay(day, locale, 'short')}
         </H>

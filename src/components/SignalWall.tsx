@@ -2,6 +2,7 @@ import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { relativeTime } from '../lib/dates';
 import { useMediaQuery } from '../lib/hooks';
+import { useReveal } from '../lib/motion';
 import { judgeCardImage, rememberCardFit, rememberedCardFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
@@ -81,6 +82,7 @@ function WallCard({ story, now, decorative = false, quiet = false }: { story: Ar
 export function SignalWall({ stories, now }: { stories: Article[]; now: Date }) {
   const { t } = useI18n();
   const headingId = useId();
+  const revealHead = useReveal<HTMLElement>('head');
   const reduced = useMediaQuery('(prefers-reduced-motion: reduce)');
   const stage = useRef<HTMLDivElement>(null);
   const [onScreen, setOnScreen] = useState(false);
@@ -111,7 +113,7 @@ export function SignalWall({ stories, now }: { stories: Article[]; now: Date }) 
 
   return (
     <section className="signal-wall" aria-labelledby={headingId} data-testid="signal-wall">
-      <header className="section-head">
+      <header ref={revealHead} className="section-head">
         <h2 id={headingId} className="section-title">
           <span className="section-glyph" aria-hidden="true">
             <Icon name="pulse" size={22} />

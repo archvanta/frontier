@@ -1,5 +1,6 @@
 import { useId, useState, type KeyboardEvent } from 'react';
 import { pickWindowLabel, useI18n } from '../lib/i18n';
+import { useReveal, useSlidingIndicator } from '../lib/motion';
 import { href } from '../lib/router';
 import type { PicksFile, PickWindow } from '../lib/types';
 import { Icon } from './Icon';
@@ -12,6 +13,8 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
   const { t, locale } = useI18n();
   const [active, setActive] = useState<PickWindow>(initial);
   const base = useId();
+  const track = useSlidingIndicator<HTMLDivElement>(active);
+  const revealHead = useReveal<HTMLElement>('head');
   const entries = picks?.windows[active]?.picks.slice(0, limit) ?? [];
   const [first, ...rest] = entries;
 
@@ -30,14 +33,14 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
 
   return (
     <section className="picks" aria-labelledby={`${base}-h`} id="top-signals">
-      <header className="section-head">
+      <header ref={revealHead} className="section-head">
         <h2 id={`${base}-h`} className="section-title">
           <span className="section-glyph" aria-hidden="true">
             <Icon name="signal" size={22} />
           </span>
           {t('top_signals')}
         </h2>
-        <div className="tabs pill-track" role="tablist" aria-label={t('picks_window')}>
+        <div ref={track} className="tabs pill-track" role="tablist" aria-label={t('picks_window')}>
           {WINDOWS.map((w) => (
             <button
               key={w}
@@ -59,7 +62,7 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
           {t('view_all')} <Icon name="arrow" size={14} directional />
         </a>
       </header>
-      <div id={`${base}-panel`} role="tabpanel" aria-labelledby={`${base}-tab-${active}`} className="picks-body">
+      <div key={active} id={`${base}-panel`} role="tabpanel" aria-labelledby={`${base}-tab-${active}`} className="picks-body swap-in">
         {!first ? (
           <EmptyState title={t('picks_empty')} />
         ) : (

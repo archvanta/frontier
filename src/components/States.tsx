@@ -19,7 +19,7 @@ export function Loading({ rows = 3 }: { rows?: number }) {
 
 export function EmptyState({ title, children, tone = 'neutral' }: { title: string; children?: ReactNode; tone?: 'neutral' | 'error' }) {
   return (
-    <div className={`empty-state ${tone === 'error' ? 'is-error' : ''}`} role={tone === 'error' ? 'alert' : undefined}>
+    <div className={`empty-state swap-in ${tone === 'error' ? 'is-error' : ''}`} role={tone === 'error' ? 'alert' : undefined}>
       <span className="empty-mark" aria-hidden="true" />
       <p className="empty-title">{title}</p>
       {children && <div className="empty-body">{children}</div>}

@@ -4,6 +4,7 @@ import { useBookmarks } from '../lib/bookmarks';
 import { formatDateTime, formatTime } from '../lib/dates';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { rememberedCardFit, type CardFit } from '../lib/imageFit';
+import { useReveal } from '../lib/motion';
 import { href } from '../lib/router';
 import { categoryIcon, toneFor } from '../lib/tones';
 import type { Article } from '../lib/types';
@@ -35,14 +36,20 @@ export function BookmarkButton({ article }: { article: Article }) {
   const { t } = useI18n();
   const { isSaved, toggle } = useBookmarks();
   const saved = isSaved(article.id);
+  // Pops once on the click that saves the story (styles/motion.css), never on load or on unsave.
+  const [pop, setPop] = useState(false);
   return (
     <button
       type="button"
-      className={`icon-btn bookmark ${saved ? 'is-on' : ''}`}
+      className={`icon-btn bookmark ${saved ? 'is-on' : ''} ${pop ? 'is-pop' : ''}`}
       aria-pressed={saved}
       aria-label={saved ? t('unsave') : t('save')}
       title={saved ? t('unsave') : t('save')}
-      onClick={() => toggle(article)}
+      onClick={() => {
+        setPop(!saved);
+        toggle(article);
+      }}
+      onAnimationEnd={() => setPop(false)}
     >
       <Icon name="bookmark" filled={saved} />
     </button>
@@ -69,6 +76,8 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
     return Boolean(url) && rememberedCardFit(url!) === 'hide';
   });
   const onFit = useCallback((fit: CardFit) => setNoPhoto(fit === 'hide'), []);
+  // Enters once, the first time it scrolls into view; the featured story gets a slightly stronger entrance.
+  const reveal = useReveal<HTMLElement>(variant === 'feature' ? 'feature' : 'up');
   const title = displayTitle(article, locale);
   const excerpt = displayExcerpt(article, locale);
   const external = safeUrl(article.url);
@@ -100,6 +109,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
 
   return (
     <article
+      ref={reveal}
       className={`story-card is-${variant} ${noPhoto && variant !== 'row' ? 'is-text-only' : ''}`}
       data-testid="story-card"
       data-id={article.id}
