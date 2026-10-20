@@ -2,16 +2,16 @@ import { describe, expect, it } from 'vitest';
 import { judgeCardImage, judgeHeroImage } from './imageFit';
 
 describe('judgeCardImage', () => {
-  it('keeps ordinary landscape photos', () => {
+  it('keeps every photo big enough to fill the frame', () => {
     expect(judgeCardImage({ width: 1200, height: 675 })).toBe('ok');
     expect(judgeCardImage({ width: 640, height: 480 })).toBe('ok');
     expect(judgeCardImage({ width: 800, height: 800 })).toBe('ok');
+    expect(judgeCardImage({ width: 500, height: 900 })).toBe('ok');
+    expect(judgeCardImage({ width: 1500, height: 300 })).toBe('ok');
   });
-  it('drops tiny, tall and banner images and anything with no size', () => {
+  it('keeps tall and banner photos (the frame crops them) and drops tiny images and anything with no size', () => {
     expect(judgeCardImage({ width: 200, height: 150 })).toBe('hide');
     expect(judgeCardImage({ width: 600, height: 100 })).toBe('hide');
-    expect(judgeCardImage({ width: 500, height: 900 })).toBe('hide');
-    expect(judgeCardImage({ width: 1500, height: 300 })).toBe('hide');
     expect(judgeCardImage({ width: 0, height: 0 })).toBe('hide');
   });
 });

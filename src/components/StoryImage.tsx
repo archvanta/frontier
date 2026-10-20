@@ -27,13 +27,13 @@ interface Props {
   className?: string;
   eager?: boolean;
   sizes?: string;
-  /** Called when the photo has been judged. `hide` means it cannot be shown whole at a reasonable size: the caller drops the whole media block. */
+  /** Called when the photo has been judged. `hide` means the photo is broken or tiny: the caller drops the whole media block. */
   onFit?: (fit: CardFit) => void;
 }
 
 /**
- * Fixed-ratio frame that never collapses the grid and never crops the photo (`object-fit: contain`, see `lib/imageFit.ts`).
- * A story with no image at all shows its category artwork; a photo that fails to load, is tiny or has an extreme shape is dropped (`onFit('hide')`).
+ * Fixed-ratio rounded frame that never collapses the grid; the photo fills it edge to edge (`object-fit: cover`, see `lib/imageFit.ts`).
+ * A story with no image at all shows its category artwork; a photo that fails to load or is tiny is dropped (`onFit('hide')`).
  * Brand character art is labelled as an unofficial illustration.
  */
 export function StoryImage({ article, className = '', eager = false, onFit }: Props) {

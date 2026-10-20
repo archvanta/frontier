@@ -1,9 +1,9 @@
 /**
- * Whether a story photo can be shown whole at a reasonable size. Decisions are made from the natural size once the image has loaded
- * (the feed data carries no dimensions) and remembered per URL, so a card that remounts does not flash.
+ * Whether a story photo is usable. Decisions are made from the natural size once the image has loaded (the feed data carries no
+ * dimensions) and remembered per URL, so a card that remounts does not flash.
  *
- * Cards show the photo inside a fixed 16:9 frame with `object-fit: contain`, never cropped. A photo that would end up tiny or a thin
- * strip in that frame (small, very tall, or a banner) is dropped and the text takes the full card width.
+ * Cards show the photo filling a fixed-ratio rounded frame (`object-fit: cover`) that sits fully inside the card. Only a broken or tiny
+ * image (a feed icon or tracking pixel, blurry when stretched to the frame) is dropped; the text then takes the full card width.
  */
 export type CardFit = 'ok' | 'hide';
 /** Hero: `cover` fills the stage (wide, large, close to the stage's shape); `contain` shows the whole picture over a blurred copy; `art` drops it. */
@@ -16,8 +16,6 @@ export interface NaturalSize {
 
 export const CARD_MIN_WIDTH = 240;
 export const CARD_MIN_HEIGHT = 120;
-export const CARD_MIN_RATIO = 1;
-export const CARD_MAX_RATIO = 3;
 
 export const HERO_MIN_WIDTH = 480;
 export const HERO_MIN_HEIGHT = 270;
@@ -28,9 +26,7 @@ export const HERO_MAX_RATIO = 3.2;
 
 export function judgeCardImage({ width, height }: NaturalSize): CardFit {
   if (!(width > 0 && height > 0)) return 'hide';
-  if (width < CARD_MIN_WIDTH || height < CARD_MIN_HEIGHT) return 'hide';
-  const ratio = width / height;
-  return ratio < CARD_MIN_RATIO || ratio > CARD_MAX_RATIO ? 'hide' : 'ok';
+  return width < CARD_MIN_WIDTH || height < CARD_MIN_HEIGHT ? 'hide' : 'ok';
 }
 
 export function judgeHeroImage({ width, height }: NaturalSize): HeroFit {
