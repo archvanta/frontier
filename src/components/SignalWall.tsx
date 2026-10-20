@@ -2,6 +2,7 @@ import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { relativeTime } from '../lib/dates';
 import { useMediaQuery } from '../lib/hooks';
+import { judgeCardImage, rememberCardFit, rememberedCardFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import { toneFor } from '../lib/tones';
@@ -16,13 +17,29 @@ const MAX_STORIES = 24;
 const MIN_FOR_MOTION = 6;
 const DURATIONS = [46, 58, 40, 52];
 
+/** Small square thumbnail with the whole photo (never cropped); a photo that is tiny, extreme or broken is left out and the text fills the card. */
 function Thumb({ story }: { story: Article }) {
-  const [failed, setFailed] = useState(false);
   const own = resolveImageUrl(story.image?.url);
-  const src = !own || failed ? fallbackFor(story.category) : own;
+  const [hidden, setHidden] = useState(() => Boolean(own) && rememberedCardFit(own!) === 'hide');
+  if (hidden) return null;
   return (
     <span className="wall-thumb">
-      <img src={src} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" width={96} height={96} onError={() => setFailed(true)} />
+      <img
+        src={own ?? fallbackFor(story.category)}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        referrerPolicy="no-referrer"
+        width={96}
+        height={96}
+        onLoad={(e) => {
+          if (!own) return;
+          const fit = judgeCardImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
+          rememberCardFit(own, fit);
+          if (fit === 'hide') setHidden(true);
+        }}
+        onError={() => setHidden(true)}
+      />
     </span>
   );
 }

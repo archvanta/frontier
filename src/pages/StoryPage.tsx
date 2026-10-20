@@ -1,3 +1,4 @@
+import { useCallback, useState } from 'react';
 import { Icon } from '../components/Icon';
 import { ScoreExplain } from '../components/ScoreExplain';
 import { EmptyState, ErrorState, Loading } from '../components/States';
@@ -9,12 +10,40 @@ import { formatDateTime } from '../lib/dates';
 import { useAsync } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
-import type { SearchEntry } from '../lib/types';
+import type { CardFit } from '../lib/imageFit';
+import type { Article, SearchEntry } from '../lib/types';
 
 const LANG_NAMES: Record<string, { en: string; fa: string }> = {
   en: { en: 'English', fa: 'انگلیسی' },
   fa: { en: 'Persian', fa: 'فارسی' },
 };
+
+/** The story's photo, shown whole with its credit; dropped together with the caption when it cannot be shown at a reasonable size. */
+function StoryFigure({ article, caption, publisherImage }: { article: Article; caption?: string; publisherImage: string | null }) {
+  const { t } = useI18n();
+  const [hidden, setHidden] = useState(false);
+  const onFit = useCallback((fit: CardFit) => setHidden(fit === 'hide'), []);
+  if (hidden) return null;
+  const credit = caption ?? (article.image?.credit || undefined);
+  return (
+    <figure className="story-figure">
+      <StoryImage article={article} eager onFit={onFit} />
+      {(credit || article.image?.sourceUrl) && (
+        <figcaption>
+          {t('image_credit')}: {credit ?? hostOf(article.image?.sourceUrl ?? article.url)}
+          {publisherImage && (
+            <>
+              {' · '}
+              <a href={publisherImage} target="_blank" rel="noopener noreferrer">
+                {t('publisher_image')}
+              </a>
+            </>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
 
 export function StoryPage({ day, id }: { day: string; id: string }) {
   const data = useData();
@@ -81,22 +110,7 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
 
       <div className="story-layout">
         <div className="story-main">
-          <figure className="story-figure">
-            <StoryImage article={a} eager />
-            {(credit || a.image?.sourceUrl) && (
-              <figcaption>
-                {t('image_credit')}: {credit ?? hostOf(a.image?.sourceUrl ?? a.url)}
-                {publisherImage && (
-                  <>
-                    {' · '}
-                    <a href={publisherImage} target="_blank" rel="noopener noreferrer">
-                      {t('publisher_image')}
-                    </a>
-                  </>
-                )}
-              </figcaption>
-            )}
-          </figure>
+          <StoryFigure article={a} caption={credit ?? undefined} publisherImage={publisherImage} />
           {excerpt.text && (
             <p className="story-lede" lang={excerpt.lang} dir="auto">
               {excerpt.text}

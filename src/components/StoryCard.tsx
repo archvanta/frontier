@@ -1,12 +1,14 @@
 import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article';
+import { useCallback, useState } from 'react';
 import { useBookmarks } from '../lib/bookmarks';
 import { formatDateTime, formatTime } from '../lib/dates';
 import { categoryLabel, useI18n } from '../lib/i18n';
+import { rememberedCardFit, type CardFit } from '../lib/imageFit';
 import { href } from '../lib/router';
 import { categoryIcon, toneFor } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
-import { StoryImage } from './StoryImage';
+import { StoryImage, resolveImageUrl } from './StoryImage';
 
 /**
  * Variants. The first four are gradient cards (tone follows the category, white type, the story's real image as the preview):
@@ -61,6 +63,12 @@ const WITH_EXCERPT: StoryVariant[] = ['feature', 'split', 'lead', 'grid', 'list'
 
 export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3 }: Props) {
   const { t, locale } = useI18n();
+  // A photo that cannot be shown whole at a reasonable size is dropped, and the text then takes the full card.
+  const [noPhoto, setNoPhoto] = useState(() => {
+    const url = resolveImageUrl(article.image?.url);
+    return Boolean(url) && rememberedCardFit(url!) === 'hide';
+  });
+  const onFit = useCallback((fit: CardFit) => setNoPhoto(fit === 'hide'), []);
   const title = displayTitle(article, locale);
   const excerpt = displayExcerpt(article, locale);
   const external = safeUrl(article.url);
@@ -81,17 +89,22 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
       {article.sourceName}
     </span>
   );
-  const media = variant !== 'row' && (
+  const media = variant !== 'row' && !noPhoto && (
     <div className="story-media-wrap">
       <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
-        <StoryImage article={article} eager={eagerImage} />
+        <StoryImage article={article} eager={eagerImage} onFit={onFit} />
       </a>
     </div>
   );
   const mediaFirst = variant === 'lead' || variant === 'list';
 
   return (
-    <article className={`story-card is-${variant}`} data-testid="story-card" data-id={article.id} data-tone={gradient ? toneFor(article.category) : undefined}>
+    <article
+      className={`story-card is-${variant} ${noPhoto && variant !== 'row' ? 'is-text-only' : ''}`}
+      data-testid="story-card"
+      data-id={article.id}
+      data-tone={gradient ? toneFor(article.category) : undefined}
+    >
       {mediaFirst && media}
       <div className="story-body">
         {variant === 'grid' && (

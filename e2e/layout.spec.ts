@@ -18,7 +18,7 @@ for (const locale of ['en', 'fa'] as const) {
   }
 }
 
-test('hero is a full-bleed carousel that starts right under the header bar and leads into Top Signals', async ({ page }) => {
+test('hero is a full-bleed carousel that fills the first screen under the header bar, Top Signals below the fold', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const stage = page.locator('.nh-stage');
@@ -31,9 +31,11 @@ test('hero is a full-bleed carousel that starts right under the header bar and l
   expect(hero!.width).toBeGreaterThanOrEqual(1430);
   expect(hero!.y).toBeGreaterThanOrEqual(header!.y + header!.height - 1);
   expect(hero!.y).toBeLessThanOrEqual(header!.y + header!.height + 1);
-  expect(hero!.height).toBeGreaterThanOrEqual(540);
-  expect(hero!.height).toBeLessThanOrEqual(861);
+  // The first screen is the hero and nothing else: it reaches the bottom of the viewport and Top Signals starts below the fold.
+  expect(hero!.y + hero!.height).toBeGreaterThanOrEqual(899);
+  expect(hero!.y + hero!.height).toBeLessThanOrEqual(901);
   expect(picks!.y).toBeGreaterThan(hero!.y + hero!.height - 1);
+  expect(picks!.y).toBeGreaterThanOrEqual(900);
   await expect(page.getByRole('heading', { level: 1 })).toContainText('THE WORLD IS CHANGING.');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('TRACK THE SIGNAL.');
 });
@@ -127,7 +129,7 @@ test('reduced motion: no autoplay, static wall', async ({ browser }) => {
   await expect(page.locator('.wall-static')).toBeVisible();
   await expect(page.locator('.marquee')).toHaveCount(0);
   await page.getByRole('button', { name: 'Start slideshow' }).click();
-  await page.mouse.move(5, 895); // hovering the hero would pause it again
+  await page.mouse.move(5, 5); // hovering the hero (now the whole first screen below the header) would pause it again
   await expect(counter(page)).toContainText('02', { timeout: 8000 });
   await ctx.close();
 });
@@ -147,7 +149,12 @@ test('signal wall shows real story cards in tilted drifting columns', async ({ p
   expect(first).toMatch(/#\/story\/\d{4}-\d{2}-\d{2}\//);
   await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
   await expect
-    .poll(() => wall.locator('.marquee').first().evaluate((m) => getComputedStyle(m.querySelector('.marquee-track')!).animationPlayState))
+    .poll(() =>
+      wall
+        .locator('.marquee')
+        .first()
+        .evaluate((m) => getComputedStyle(m.querySelector('.marquee-track')!).animationPlayState),
+    )
     .toBe('paused'); // paused while off-screen
 });
 

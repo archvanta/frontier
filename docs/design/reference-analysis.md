@@ -33,7 +33,7 @@ Method: `ffprobe` metadata + `ffmpeg` contact sheets (one frame every 5 s, 3×3 
 |---|---|
 | Acid-lime panels | `--accent: #c6ff3d` for active nav, picks tab, focus ring, score bars, a single lime "signal" strip; never as large text backgrounds behind long copy |
 | Black/cream contrast | Near-black surfaces `#0a0b0a` / `#111312` / `#171a18`; cream `#efeadf` for headline text accents |
-| Grotesk headlines | Space Grotesk (variable) for display, Inter for body, JetBrains Mono for labels, Vazirmatn for Persian |
+| Grotesk headlines | San Francisco where installed (Apple devices, or a local SF Pro) with Inter as the open stand-in for display and body, SF Mono / JetBrains Mono for labels, Vazirmatn for Persian (see DESIGN-SYSTEM.md, Type) |
 | Mono uppercase labels | Category/source/time meta in small mono caps (`SOURCE / 14:05`) |
 | Modular grid with rules | 12-col grid, 1px hairline borders `rgba(239,234,223,.1)`, tiles share borders |
 | Gradient glows (ref 02) | Very subtle radial violet/teal glow behind the picks module only |

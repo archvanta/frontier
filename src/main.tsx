@@ -1,5 +1,4 @@
 import '@fontsource-variable/inter';
-import '@fontsource-variable/space-grotesk';
 import '@fontsource-variable/jetbrains-mono';
 import '@fontsource-variable/vazirmatn';
 import './styles/app.css';
