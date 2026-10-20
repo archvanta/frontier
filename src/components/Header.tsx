@@ -389,7 +389,7 @@ export function Header({ route }: { route: Route }) {
           <UserMenu route={route} />
           <a className="btn is-primary header-cta" href={href('/saved')} aria-current={route.name === 'saved' ? 'page' : undefined}>
             <Icon name="bookmark" size={16} />
-            {t('nav_saved')}
+            <span className="cta-label">{t('nav_saved')}</span>
           </a>
           <button
             type="button"
