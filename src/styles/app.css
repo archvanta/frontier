@@ -389,7 +389,6 @@ html[lang='fa'] .mt-label {
   letter-spacing: 0.02em;
 }
 
-
 .primary-nav {
   margin-inline-start: auto;
   min-inline-size: 0;
@@ -4227,4 +4226,84 @@ html[lang='fa'] .nh-count {
 
 html[lang='fa'] .story-card.is-row .rank {
   letter-spacing: 0;
+}
+
+/* ---------- Slide background photo ----------
+   Behind the same template (copy at the start, frame at the end): a photo that is big and landscape enough fills the slide, darkened on the
+   copy side so the text stays readable. The gradient flips with the reading direction. */
+.nh-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.nh-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(5, 3, 15, 0.82) 0%, rgba(5, 3, 15, 0) 34%),
+    linear-gradient(to right, rgba(5, 3, 15, 0.94) 0%, rgba(5, 3, 15, 0.84) 36%, rgba(5, 3, 15, 0.46) 64%, rgba(5, 3, 15, 0.22) 100%);
+}
+
+html[dir='rtl'] .nh-bg::after {
+  background:
+    linear-gradient(to top, rgba(5, 3, 15, 0.82) 0%, rgba(5, 3, 15, 0) 34%),
+    linear-gradient(to left, rgba(5, 3, 15, 0.94) 0%, rgba(5, 3, 15, 0.84) 36%, rgba(5, 3, 15, 0.46) 64%, rgba(5, 3, 15, 0.22) 100%);
+}
+
+.nh-bg-img {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  /* The focal area sits on the frame's side. */
+  object-position: 68% 50%;
+  opacity: 0;
+  transition: opacity 0.5s var(--ease-out);
+}
+
+html[dir='rtl'] .nh-bg-img {
+  object-position: 32% 50%;
+}
+
+.nh-bg-img.is-loaded {
+  opacity: 1;
+}
+
+/* A restrained zoom while the slide is on screen (5 s plus the crossfade). */
+html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
+  animation: nh-bg-zoom 6s linear both;
+}
+
+@keyframes nh-bg-zoom {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.nh-slide .nh-inner {
+  position: relative;
+  z-index: 1;
+}
+
+/* A portrait stage would crop a landscape photo down to a sliver: there the framed photo carries the image on its own. */
+@media (max-aspect-ratio: 1/1) {
+  .nh-bg {
+    display: none;
+  }
+}
+
+/* Stacked phone layout in landscape: the copy spans the width, so darken evenly. */
+@media (max-width: 899px) {
+  .nh-bg::after,
+  html[dir='rtl'] .nh-bg::after {
+    background: rgba(5, 3, 15, 0.74);
+  }
 }

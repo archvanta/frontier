@@ -21,11 +21,31 @@ export function judgeCardImage({ width, height }: NaturalSize): CardFit {
   return width < CARD_MIN_WIDTH || height < CARD_MIN_HEIGHT ? 'hide' : 'ok';
 }
 
+/**
+ * A photo may also be the slide background of the homepage carousel when it is big and landscape enough to fill a wide stage without
+ * stretching or cropping most of it away. Anything else keeps only the framed photo (and the plain gradient behind the slide).
+ */
+export const BG_MIN_WIDTH = 1000;
+export const BG_MIN_HEIGHT = 520;
+export const BG_MIN_RATIO = 1.45;
+export const BG_MAX_RATIO = 2.4;
+
+export function judgeBackgroundImage({ width, height }: NaturalSize): boolean {
+  if (!(width >= BG_MIN_WIDTH && height >= BG_MIN_HEIGHT)) return false;
+  const ratio = width / height;
+  return ratio >= BG_MIN_RATIO && ratio <= BG_MAX_RATIO;
+}
+
 const cardMemo = new Map<string, CardFit>();
+const backgroundMemo = new Map<string, boolean>();
+
+export const rememberedBackground = (url: string): boolean | undefined => backgroundMemo.get(url);
+export const rememberBackground = (url: string, ok: boolean) => void backgroundMemo.set(url, ok);
 
 export const rememberedCardFit = (url: string): CardFit | undefined => cardMemo.get(url);
 export const rememberCardFit = (url: string, fit: CardFit) => void cardMemo.set(url, fit);
 /** Tests only. */
 export function forgetImageFits() {
   cardMemo.clear();
+  backgroundMemo.clear();
 }
