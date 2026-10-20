@@ -3,8 +3,8 @@ import { runTransition } from './motion';
 import type { CategoryId, Locale, PickWindow } from './types';
 
 const en = {
-  brand: 'SIGNAL AI',
-  tagline: 'AI news intelligence',
+  brand: 'FRONTIER',
+  tagline: 'News from the frontier of technology',
   skipToContent: 'Skip to news',
   nav_home: 'Top Signals',
   nav_picks: 'Picks',
@@ -34,7 +34,7 @@ const en = {
   hero_title: 'THE WORLD IS CHANGING.',
   hero_sub: 'TRACK THE SIGNAL.',
   hero_body:
-    'SIGNAL AI collects AI news from public RSS feeds and official sources about every hour, removes duplicates, and ranks stories with an open, deterministic formula.',
+    'FRONTIER collects AI news from public RSS feeds and official sources about every hour, removes duplicates, and ranks stories with an open, deterministic formula.',
   hero_kicker: 'AI news intelligence',
   latest_news: 'Latest News',
   weekly_brief: 'Weekly Brief',
@@ -133,8 +133,7 @@ const en = {
   image_credit: 'Image',
   publisher_image: "Publisher's image",
   sources_title: 'Sources',
-  sources_intro:
-    'Feeds the collector reads. A source is marked verified only after a real pipeline run fetched it successfully.',
+  sources_intro: 'Feeds the collector reads. A source is marked verified only after a real pipeline run fetched it successfully.',
   status_ok: 'Working',
   status_error: 'Failing',
   status_disabled: 'Disabled',
@@ -143,8 +142,7 @@ const en = {
   tier: 'Tier',
   failed_sources: 'source(s) failed on the last run',
   about_title: 'Method',
-  footer_note:
-    'Headlines, excerpts and images belong to their publishers and link back to the original. SIGNAL AI stores only short excerpts.',
+  footer_note: 'Headlines, excerpts and images belong to their publishers and link back to the original. FRONTIER stores only short excerpts.',
   footer_cost: 'No paid APIs. Static site on GitHub Pages.',
   not_found: 'Page not found',
   go_home: 'Go to Top Signals',
@@ -155,8 +153,8 @@ const en = {
 export type MessageKey = keyof typeof en;
 
 const fa: Record<MessageKey, string> = {
-  brand: 'SIGNAL AI',
-  tagline: 'رصد هوشمند اخبار هوش مصنوعی',
+  brand: 'فرانتیر',
+  tagline: 'خبر از مرز فناوری',
   skipToContent: 'رفتن به اخبار',
   nav_home: 'سیگنال‌های برتر',
   nav_picks: 'منتخب‌ها',
@@ -186,7 +184,7 @@ const fa: Record<MessageKey, string> = {
   hero_title: 'THE WORLD IS CHANGING.',
   hero_sub: 'TRACK THE SIGNAL.',
   hero_body:
-    'SIGNAL AI تقریباً هر ساعت اخبار هوش مصنوعی را از فیدهای عمومی RSS و منابع رسمی جمع می‌کند، موارد تکراری را حذف می‌کند و با فرمولی باز و قطعی رتبه‌بندی می‌کند.',
+    'فرانتیر تقریباً هر ساعت اخبار هوش مصنوعی را از فیدهای عمومی RSS و منابع رسمی جمع می‌کند، موارد تکراری را حذف می‌کند و با فرمولی باز و قطعی رتبه‌بندی می‌کند.',
   hero_kicker: 'رصد هوشمند اخبار هوش مصنوعی',
   latest_news: 'تازه‌ترین اخبار',
   weekly_brief: 'خلاصهٔ هفته',
@@ -294,7 +292,7 @@ const fa: Record<MessageKey, string> = {
   tier: 'رده',
   failed_sources: 'منبع در آخرین اجرا خطا داشت',
   about_title: 'روش کار',
-  footer_note: 'عنوان‌ها، خلاصه‌ها و تصاویر متعلق به ناشران اصلی‌اند و به منبع پیوند دارند. SIGNAL AI فقط خلاصه‌های کوتاه نگه می‌دارد.',
+  footer_note: 'عنوان‌ها، خلاصه‌ها و تصاویر متعلق به ناشران اصلی‌اند و به منبع پیوند دارند. فرانتیر فقط خلاصه‌های کوتاه نگه می‌دارد.',
   footer_cost: 'بدون API پولی. سایت ایستا روی GitHub Pages.',
   not_found: 'صفحه پیدا نشد',
   go_home: 'رفتن به سیگنال‌های برتر',

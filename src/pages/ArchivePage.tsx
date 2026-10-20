@@ -28,7 +28,7 @@ export function ArchivePage() {
   return (
     <div className="page container-narrow">
       <header className="page-head">
-        <p className="eyebrow">SIGNAL / ARCHIVE</p>
+        <p className="eyebrow">FRONTIER / ARCHIVE</p>
         <h1 className="page-title">{t('archive_title')}</h1>
         <p className="page-intro">{t('archive_intro')}</p>
       </header>

@@ -77,7 +77,7 @@ describe('email code sign-in', () => {
   it('requests a code, rejects a wrong one, then signs a new user into onboarding', async () => {
     const backend = createMockBackend();
     renderApp('#/signin', backend);
-    await screen.findByRole('heading', { name: 'Sign in to SIGNAL AI' });
+    await screen.findByRole('heading', { name: 'Sign in to FRONTIER' });
 
     typeEmail('not-an-email');
     sendCode();
@@ -154,7 +154,7 @@ describe('email code sign-in', () => {
 
   it('renders right-to-left in Persian while email and code stay left-to-right', async () => {
     renderApp('#/signin', createMockBackend(), 'fa');
-    expect(await screen.findByRole('heading', { name: 'ورود به SIGNAL AI' })).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'ورود به فرانتیر' })).toBeInTheDocument();
     expect(document.documentElement.dir).toBe('rtl');
     expect(screen.getByLabelText('نشانی ایمیل')).toHaveAttribute('dir', 'ltr');
     fireEvent.change(screen.getByLabelText('نشانی ایمیل'), { target: { value: 'ada@example.com' } });

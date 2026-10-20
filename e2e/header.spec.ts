@@ -134,3 +134,14 @@ test.describe('theme', () => {
     ).toBe('rgb(255, 255, 255)');
   });
 });
+
+test('the site is called FRONTIER in the tab title, the wordmark and the footer, in both languages', async ({ page }) => {
+  await page.goto('./#/');
+  await expect(page).toHaveTitle(/FRONTIER/);
+  await expect(page.locator('.wordmark-text')).toHaveText('FRONTIER');
+  await expect(page.getByRole('link', { name: 'FRONTIER' }).first()).toBeVisible();
+  await expect(page.locator('.footer-name')).toHaveText('FRONTIER');
+  await page.getByRole('button', { name: 'فارسی (Persian)' }).click();
+  await expect(page.getByRole('link', { name: 'فرانتیر' }).first()).toBeVisible();
+  await expect(page.locator('body')).not.toContainText('SIGNAL AI');
+});
