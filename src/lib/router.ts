@@ -1,8 +1,8 @@
 import { useSyncExternalStore } from 'react';
 import { isDay } from './dates';
 import { runTransition } from './motion';
-import type { CategoryId, PickWindow } from './types';
-import { CATEGORY_IDS } from './types';
+import type { CategoryId, PickWindow, SectionId } from './types';
+import { CATEGORY_IDS, SECTION_IDS } from './types';
 
 /**
  * Hash routing: GitHub Pages has no SPA fallback, so every deep link lives after
@@ -12,6 +12,7 @@ export type Route =
   | { name: 'home'; page: number }
   | { name: 'picks'; window: PickWindow }
   | { name: 'explore'; params: URLSearchParams }
+  | { name: 'section'; id: SectionId; params: URLSearchParams }
   | { name: 'archive' }
   | { name: 'day'; day: string }
   | { name: 'story'; day: string; id: string }
@@ -57,6 +58,10 @@ export function parseHash(hash: string): Route {
       if (a && (CATEGORY_IDS as readonly string[]).includes(a)) {
         return { name: 'explore', params: new URLSearchParams({ c: a as CategoryId }) };
       }
+      break;
+    case 'ai-games':
+    case 'data-centers':
+      if (!a && (SECTION_IDS as readonly string[]).includes(head)) return { name: 'section', id: head as SectionId, params };
       break;
     case 'archive':
       return { name: 'archive' };

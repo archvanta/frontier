@@ -2,7 +2,7 @@ import type { IconName } from '../components/Icon';
 import type { CategoryId } from './types';
 
 /** Gradient family of a story card (`data-tone`); the gradients themselves are tokens in styles/tokens.css. */
-export type Tone = 'violet' | 'blue' | 'indigo' | 'teal' | 'crimson';
+export type Tone = 'violet' | 'blue' | 'indigo' | 'teal' | 'crimson' | 'lime';
 
 const TONES: Record<CategoryId, Tone> = {
   models: 'violet',

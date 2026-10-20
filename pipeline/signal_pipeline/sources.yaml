@@ -333,3 +333,125 @@ sources:
     max_items: 10
     og_image: false
     notes: Independent practitioner blog widely cited on LLM tooling; long-form entries feed, AI-filtered.
+
+  # ---------- AI Games section (games outlets, filtered to AI items) ----------
+  # `sections: [ai-games]` puts every kept item in the AI Games section; outlets that also cover
+  # hardware (PC Gamer, Rock Paper Shotgun) rely on the section's keyword rule instead (sections.py).
+  - id: game-developer
+    name: Game Developer
+    homepage: https://www.gamedeveloper.com/
+    feed: https://www.gamedeveloper.com/rss.xml
+    kind: media
+    tier: 3
+    owner: informa
+    lang: en
+    category: products
+    filter: ai
+    sections: [ai-games]
+    max_items: 15
+    og_image: false
+    notes: Game-industry trade outlet (formerly Gamasutra); site-wide feed filtered to AI items. Added 2026-10-20, unverified until the first collector run.
+
+  - id: gamesindustry-biz
+    name: GamesIndustry.biz
+    homepage: https://www.gamesindustry.biz/
+    feed: https://www.gamesindustry.biz/feed/news
+    kind: media
+    tier: 3
+    owner: reedpop
+    lang: en
+    category: business
+    filter: ai
+    sections: [ai-games]
+    max_items: 15
+    og_image: false
+    notes: Game-industry business news feed filtered to AI items. Added 2026-10-20, unverified until the first collector run.
+
+  - id: verge-games
+    name: The Verge — Gaming
+    homepage: https://www.theverge.com/games
+    feed: https://www.theverge.com/rss/games/index.xml
+    kind: media
+    tier: 2
+    owner: vox-media
+    lang: en
+    category: products
+    filter: ai
+    sections: [ai-games]
+    max_items: 15
+    og_image: false
+    notes: Gaming section feed filtered to AI items; summaries only are stored. Added 2026-10-20, unverified until the first collector run.
+
+  - id: pc-gamer
+    name: PC Gamer
+    homepage: https://www.pcgamer.com/
+    feed: https://www.pcgamer.com/rss/
+    kind: media
+    tier: 3
+    owner: future-plc
+    lang: en
+    category: products
+    filter: ai
+    max_items: 15
+    og_image: false
+    notes: PC games outlet; site-wide feed filtered to AI items. Joins AI Games only when a story is about games (it also covers hardware). Added 2026-10-20, unverified until the first collector run.
+
+  - id: rock-paper-shotgun
+    name: Rock Paper Shotgun
+    homepage: https://www.rockpapershotgun.com/
+    feed: https://www.rockpapershotgun.com/feed
+    kind: media
+    tier: 3
+    owner: reedpop
+    lang: en
+    category: products
+    filter: ai
+    max_items: 15
+    og_image: false
+    notes: PC games outlet; site-wide feed filtered to AI items, AI Games by keyword. Added 2026-10-20, unverified until the first collector run.
+
+  # ---------- Data Center Design section (data-center trade press, filtered to AI items) ----------
+  - id: datacenter-dynamics
+    name: DatacenterDynamics
+    homepage: https://www.datacenterdynamics.com/en/
+    feed: https://www.datacenterdynamics.com/en/rss/
+    kind: media
+    tier: 3
+    owner: dcd
+    lang: en
+    category: hardware
+    filter: ai
+    sections: [data-centers]
+    max_items: 15
+    og_image: false
+    notes: Data-center design, construction, power and cooling trade outlet; filtered to AI items so the main feed stays AI news. Added 2026-10-20, unverified until the first collector run.
+
+  - id: datacenter-knowledge
+    name: Data Center Knowledge
+    homepage: https://www.datacenterknowledge.com/
+    feed: https://www.datacenterknowledge.com/rss.xml
+    kind: media
+    tier: 3
+    owner: informa
+    lang: en
+    category: hardware
+    filter: ai
+    sections: [data-centers]
+    max_items: 15
+    og_image: false
+    notes: Data-center industry trade outlet; filtered to AI items. Added 2026-10-20, unverified until the first collector run.
+
+  - id: register-datacentre
+    name: The Register — Data Centre
+    homepage: https://www.theregister.com/data_centre/
+    feed: https://www.theregister.com/data_centre/headlines.atom
+    kind: media
+    tier: 2
+    owner: situation-publishing
+    lang: en
+    category: hardware
+    filter: ai
+    sections: [data-centers]
+    max_items: 15
+    og_image: false
+    notes: Data-centre section feed; filtered to AI items. Added 2026-10-20, unverified until the first collector run.

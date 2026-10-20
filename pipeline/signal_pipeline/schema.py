@@ -3,10 +3,12 @@ from __future__ import annotations
 
 from typing import Any, Literal, TypedDict
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 
 CATEGORIES = ("models", "research", "products", "business", "policy", "open-source", "hardware", "safety")
 BRANDS = ("claude", "openai", "gemini")
+# Topic sections written to data/sections/<id>.json (see sections.py).
+SECTIONS = ("ai-games", "data-centers")
 
 Category = Literal["models", "research", "products", "business", "policy", "open-source", "hardware", "safety"]
 

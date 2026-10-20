@@ -16,6 +16,8 @@ import type {
   PicksFile,
   PickWindow,
   SearchIndex,
+  SectionFile,
+  SectionId,
   SourceInfo,
   SourcesFile,
 } from '../lib/types';
@@ -33,6 +35,7 @@ export interface MockDataset {
   picks: PicksFile;
   sources: SourcesFile;
   searchIndex: SearchIndex;
+  sections: Record<SectionId, SectionFile>;
 }
 
 const SOURCES: SourceInfo[] = [
@@ -66,6 +69,8 @@ const SEEDS: Seed[] = [
   { t: 'Safety researchers release red-teaming dataset for agents', fa: 'پژوهشگران ایمنی مجموعه‌دادهٔ ردتیمینگ عامل‌ها را منتشر می‌کنند', c: 'safety', b: null, e: [], s: 2, img: false },
   { t: 'Anthropic expands Claude availability to new regions', fa: 'Anthropic دسترسی Claude را به مناطق جدید گسترش می‌دهد', c: 'business', b: 'claude', e: ['anthropic'], s: 1, img: false },
   { t: 'Paper proposes cheaper retrieval for long documents', fa: null, c: 'research', b: null, e: [], s: 2, img: true },
+  { t: 'Indie studio ships a game with AI-generated dialogue and art in fixture scenario', fa: 'استودیوی مستقل بازی‌ای با دیالوگ و هنر تولیدشده با AI منتشر می‌کند (سناریوی آزمایشی)', c: 'products', b: null, e: ['openai'], s: 1, img: true },
+  { t: 'Hyperscale data centre design adds liquid cooling for AI racks in fixture scenario', fa: 'طراحی دیتاسنتر ابرمقیاس خنک‌سازی مایع برای رک‌های AI اضافه می‌کند (سناریوی آزمایشی)', c: 'hardware', b: null, e: ['nvidia'], s: 1, img: true },
   { t: 'Cloud provider launches managed fine-tuning service', fa: 'ارائه‌دهندهٔ ابری سرویس تنظیم دقیق مدیریت‌شده راه‌اندازی می‌کند', c: 'products', b: null, e: ['microsoft'], s: 3, img: true },
 ];
 
@@ -152,6 +157,11 @@ export function buildMockDataset(now: Date): MockDataset {
     return [name, { from: from.toISOString(), to: anchor.toISOString(), picks }] as const;
   };
 
+  const section = (id: SectionId, test: RegExp): SectionFile => {
+    const members = articles.filter((a) => test.test(a.title)).sort((x, y) => y.publishedAt.localeCompare(x.publishedAt));
+    return { schemaVersion: SCHEMA_VERSION, section: id, windowDays: 90, total: members.length, articles: members };
+  };
+
   return {
     meta: {
       schemaVersion: SCHEMA_VERSION,
@@ -177,6 +187,7 @@ export function buildMockDataset(now: Date): MockDataset {
       windows: Object.fromEntries([window('daily', 24, 6), window('weekly', 24 * 7, 8), window('monthly', 24 * 30, 10)]) as PicksFile['windows'],
     },
     sources: { schemaVersion: SCHEMA_VERSION, sources: SOURCES },
+    sections: { 'ai-games': section('ai-games', /\bgame\b/i), 'data-centers': section('data-centers', /data cent/i) },
     searchIndex: {
       schemaVersion: SCHEMA_VERSION,
       windowDays: 90,
