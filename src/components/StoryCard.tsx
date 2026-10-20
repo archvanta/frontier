@@ -63,7 +63,7 @@ const WITH_EXCERPT: StoryVariant[] = ['feature', 'split', 'lead', 'grid', 'list'
 
 export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3 }: Props) {
   const { t, locale } = useI18n();
-  // A photo that cannot be shown whole at a reasonable size is dropped, and the text then takes the full card.
+  // A broken or tiny photo is dropped, and the text then takes the full card.
   const [noPhoto, setNoPhoto] = useState(() => {
     const url = resolveImageUrl(article.image?.url);
     return Boolean(url) && rememberedCardFit(url!) === 'hide';

@@ -17,7 +17,7 @@ const MAX_STORIES = 24;
 const MIN_FOR_MOTION = 6;
 const DURATIONS = [46, 58, 40, 52];
 
-/** Small square thumbnail with the whole photo (never cropped); a photo that is tiny, extreme or broken is left out and the text fills the card. */
+/** Small square thumbnail filled by the photo; a photo that is tiny or broken is left out and the text fills the card. */
 function Thumb({ story }: { story: Article }) {
   const own = resolveImageUrl(story.image?.url);
   const [hidden, setHidden] = useState(() => Boolean(own) && rememberedCardFit(own!) === 'hide');

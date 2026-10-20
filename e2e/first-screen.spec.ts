@@ -36,7 +36,9 @@ for (const locale of ['en', 'fa'] as const) {
             wide.push(`${el.tagName.toLowerCase()}.${String(el.className).split(' ')[0]} ${Math.round(r.left)}..${Math.round(r.right)}`);
         }
         const cut: string[] = [];
-        for (const el of Array.from(document.querySelectorAll<HTMLElement>('.story-card .story-title, .story-card .story-excerpt, .wall-title, .brief-story'))) {
+        for (const el of Array.from(
+          document.querySelectorAll<HTMLElement>('.story-card .story-title, .story-card .story-excerpt, .wall-title, .brief-story'),
+        )) {
           const cs = getComputedStyle(el);
           if (cs.textOverflow === 'ellipsis' || (cs.webkitLineClamp && cs.webkitLineClamp !== 'none')) cut.push(el.className);
         }
@@ -48,7 +50,7 @@ for (const locale of ['en', 'fa'] as const) {
   }
 }
 
-test('gradient cards: whole picture inside the card with room below, no rim line along the top', async ({ page }) => {
+test('gradient cards: photo fills a rounded frame that sits inside the card with room below, no rim line along the top', async ({ page }) => {
   await open(page, 'en', 390, 800);
   // Let every lazy preview load.
   for (let y = 0; y < 12000; y += 600) await page.evaluate((yy) => window.scrollTo(0, yy), y);
@@ -62,7 +64,8 @@ test('gradient cards: whole picture inside the card with room below, no rim line
         variant: Array.from(c.classList).find((k) => k.startsWith('is-') && k !== 'is-text-only'),
         origin: getComputedStyle(c).backgroundOrigin,
         gapBelow: mr ? cr.bottom - mr.bottom : null,
-        fit: img && !media!.classList.contains('is-fallback') ? getComputedStyle(img).objectFit : 'contain',
+        fit: img ? getComputedStyle(img).objectFit : 'cover',
+        frameInside: mr ? mr.left >= cr.left - 0.5 && mr.right <= cr.right + 0.5 : true,
         inside: cr.left >= -0.5 && cr.right <= document.documentElement.clientWidth + 0.5,
       };
     }),
@@ -71,7 +74,8 @@ test('gradient cards: whole picture inside the card with room below, no rim line
   for (const c of cards) {
     expect(c.origin, c.variant).toBe('border-box');
     expect(c.inside, c.variant).toBe(true);
-    expect(c.fit, c.variant).toBe('contain');
+    expect(c.fit, c.variant).toBe('cover');
+    expect(c.frameInside, c.variant).toBe(true);
     if (c.gapBelow !== null) expect(c.gapBelow, c.variant).toBeGreaterThanOrEqual(8);
   }
 });

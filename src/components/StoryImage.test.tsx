@@ -48,15 +48,14 @@ describe('StoryImage', () => {
     expect(onFit).toHaveBeenCalledWith('hide');
   });
 
-  it('shows an ordinary photo whole and drops a tiny or extreme one', () => {
+  it('keeps a photo big enough to fill the frame and drops a tiny one', () => {
     const ok = vi.fn();
     load(renderImage({ title: 't', category: 'models', brand: null, image: { url: 'https://cdn.example.com/wide.jpg', kind: 'og' } }, ok), 1200, 630);
     expect(document.querySelector('.story-media img')).not.toBeNull();
     expect(ok).not.toHaveBeenCalledWith('hide');
     for (const [w, h] of [
       [160, 90],
-      [500, 900],
-      [1500, 300],
+      [600, 100],
     ] as const) {
       const hide = vi.fn();
       const { unmount } = render(

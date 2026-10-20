@@ -1438,7 +1438,7 @@ a.wall-card:hover {
 .wall-thumb img {
   inline-size: 100%;
   block-size: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .wall-text {
@@ -1711,19 +1711,13 @@ html[lang='fa'] .picks-more-label {
 .story-media img {
   inline-size: 100%;
   block-size: 100%;
-  /* The whole photo, never cropped: a different shape from the frame leaves room around it. */
-  object-fit: contain;
+  /* The photo fills its rounded frame edge to edge; the frame itself always sits fully inside the card. */
+  object-fit: cover;
   transition: filter var(--dur-slow) var(--ease);
 }
 
 .story-card:hover .story-media img {
   filter: brightness(1.06);
-}
-
-/* Our own artwork (category fallbacks, brand character art) is drawn for this frame and fills it. */
-.story-media.is-fallback img,
-.story-media.is-brand img {
-  object-fit: cover;
 }
 
 .story-media.is-brand {
@@ -2266,7 +2260,7 @@ html[lang='fa'] .story-card.is-feature .story-title {
   line-height: 1.2;
 }
 
-/* A story whose photo cannot be shown whole at a reasonable size has no media block at all: the text takes the full card. */
+/* A story whose photo is broken or tiny has no media block at all: the text takes the full card. */
 .story-card.is-lead.is-text-only,
 .story-card.is-list.is-text-only,
 .story-card.is-split.is-text-only {

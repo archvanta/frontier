@@ -18,7 +18,7 @@ const LANG_NAMES: Record<string, { en: string; fa: string }> = {
   fa: { en: 'Persian', fa: 'فارسی' },
 };
 
-/** The story's photo, shown whole with its credit; dropped together with the caption when it cannot be shown at a reasonable size. */
+/** The story's photo with its credit; dropped together with the caption when it is broken or tiny. */
 function StoryFigure({ article, caption, publisherImage }: { article: Article; caption?: string; publisherImage: string | null }) {
   const { t } = useI18n();
   const [hidden, setHidden] = useState(false);
