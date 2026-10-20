@@ -135,7 +135,7 @@ rollback;
 
 Then with two real accounts in two browsers: save different stories, follow different companies,
 and confirm neither account ever shows the other's data. Finally check the built bundle holds no
-secret key: `node scripts/check-bundle-secrets.mjs dist` (the deploy workflow runs it on every
+secret key: `node scripts/check-bundle-keys.mjs dist` (the deploy workflow runs it on every
 build). It looks for real `sb_secret_…` keys and JWTs whose role is `service_role`; the bare words
 appear in the bundle on purpose, as part of the guard that refuses such keys.
 

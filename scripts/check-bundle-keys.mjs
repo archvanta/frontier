@@ -1,7 +1,7 @@
 // Fails if a built site contains a Supabase secret key or a service_role JWT.
 // The bundle legitimately holds the words "sb_secret_" and "service_role" (the guard in
 // src/lib/account/config.ts and the SDK), so this looks for real key shapes instead.
-// Usage: node scripts/check-bundle-secrets.mjs dist
+// Usage: node scripts/check-bundle-keys.mjs dist
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 

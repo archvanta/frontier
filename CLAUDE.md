@@ -4,7 +4,7 @@ Bilingual (Persian RTL / English LTR) AI-news intelligence site. Python collecto
 
 ## Non-negotiables
 - **No paid APIs.** No LLM, translation, image or search API calls anywhere. Translation is optional, offline (Argos en→fa model via CTranslate2), cached per article.
-- **No secrets** in the repo or bundle. Only the automatic `GITHUB_TOKEN` in workflows. Optional accounts (Supabase) use only the public URL + publishable key from Actions **variables**; a secret/service_role key fails the build (`vite.config.ts`, `scripts/check-bundle-secrets.mjs`). Never commit user data, SMTP or OAuth credentials.
+- **No secrets** in the repo or bundle. Only the automatic `GITHUB_TOKEN` in workflows. Optional accounts (Supabase) use only the public URL + publishable key from Actions **variables**; a secret/service_role key fails the build (`vite.config.ts`, `scripts/check-bundle-keys.mjs`). Never commit user data, SMTP or OAuth credentials.
 - **Never fabricate** news, sources, dates, images, translations, verification or test results. Mock data is generated only in `--mode mock`, titles start with `[MOCK]`, and the UI shows a mock banner.
 - **Attribution:** keep original title, source name, publication time, canonical URL; store short excerpts only, never full articles.
 - **Images:** every story uses the genuine feed/og image, else a category fallback. The fixed Claude/OpenAI/Gemini character art in `public/images/ai-brands/` (unofficial editorial illustrations) is **switched off** at the owner's request (`BRAND_ART_ENABLED = False` in `pipeline/signal_pipeline/config.py`); keep the files, and turn it back on only when the owner asks. Never generate images.
