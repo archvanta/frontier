@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "asOf": "2026-10-20T13:07:24Z",
+ "asOf": "2026-10-20T15:19:48Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,242 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T13:07:24Z",
-   "to": "2026-10-20T13:07:24Z",
+   "from": "2026-10-19T15:19:48Z",
+   "to": "2026-10-20T15:19:48Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 74.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e127463b704d26f9",
+      "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+      "excerpt": "Hysteria over the agent's appearance in a 7,500-person group reveals that internet experts have outdated notions of privacy.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:07:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "research",
+      "tags": [
+       "culture",
+       "culture / digital culture",
+       "agentic ai",
+       "artificial intelligence",
+       "internet",
+       "research"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6ad2cc7064b24534a6bc5044/master/pass/culture_ai_agent_internet_research_listserv.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "e127463b704d26f9",
+      "related": [],
+      "score": {
+       "total": 65.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.8,
+        "topic": 80.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک عامل هوش مصنوعی به لیستی از محققان برتر اینترنت ملحق شد. پاسخ: تمام هرج و مرج هنوز هم برابر نیست",
+        "excerpt": "Hysteria بیش از ظاهر نماینده در یک گروه ۷۵۰۰ نفره نشان می دهد که کارشناسان اینترنت مفاهیم قدیمی حریم خصوصی دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f71b5653c551ca33",
+      "url": "https://www.theguardian.com/global/2026/oct/19/musk-ukraine-ai-music",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "The dangers of letting tech billionaires shape our world",
+      "excerpt": "As SpaceX impacts Ukraine and AI-generated music divides artists and fans, critics are asking what happens when technology has too much control over our lives This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here Hello, and welcome to TechScape. I’m Blake Montgomery, US tech editor at the Guardian, writing to you while sitting…",
+      "lang": "en",
+      "publishedAt": "2026-10-20T14:31:45Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "technology",
+       "ai (artificial intelligence)",
+       "elon musk",
+       "music",
+       "spacex",
+       "ukraine"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/9df3eaa715484d3f560e4dea76d7dda82597ac00/188_0_4077_3262/master/4077.jpg?width=700&quality=85&auto=format&fit=max&s=eb7d4d3430fb65489d561ac7267dc9cd",
+       "credit": "Photograph: Gonzalo Fuentes/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "f71b5653c551ca33",
+      "related": [],
+      "score": {
+       "total": 64.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 95.5,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "خطرات اجازه دادن به میلیاردرهای فناوری جهان ما را شکل می دهد",
+        "excerpt": "از آنجایی که اسپیس ایکس بر اوکراین و موسیقی تولید شده هوش مصنوعی تأثیر می گذارد، منتقدان می پرسند که چه اتفاقی می افتد زمانی که تکنولوژی کنترل زیادی بر زندگی ما داشته باشد که در ابتدا در TechScape منتشر شد، خبرنامه ای در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا Hello دریافت کنید و به TechScape خوش آمدید. من بلیک مونتگومری، سردبیر فناوری ایالات متحده در گاردین، نوشتن به شما در هنگام نشستن ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1b3da64625ac546a",
+      "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
+      "excerpt": "Australian workers expect the government to act to protect them from AI harms. There is a clear reform solution at hand Get our new political email, free app or daily news podcast Australia’s major political parties are edging towards rare consensus. Labor and the Coalition increasingly want to take a major bet on artificial intelligence. Yet, just as the parties are coming together, the…",
+      "lang": "en",
+      "publishedAt": "2026-10-20T14:00:38Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "australia news",
+       "australian politics",
+       "labor party",
+       "coalition",
+       "liberal party"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/9c9ec69d76f8fe3ecc5633e32f9280cf5f31c95d/596_0_5955_4764/master/5955.jpg?width=700&quality=85&auto=format&fit=max&s=16c9d9d26f29763e2a092e56c6ae8df0",
+       "credit": "Photograph: James Ross/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "1b3da64625ac546a",
+      "related": [],
+      "score": {
+       "total": 64.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.7,
+        "topic": 85.0,
+        "novelty": 95.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کار و ائتلاف آماده اند تا یک قمار بی پروا در AI انجام دهند. آیا آنها متوجه نشده اند که حمایت از جامعه از بین رفته است؟ ادوارد سانتوس و سارا ساچر",
+        "excerpt": "کارگران استرالیایی انتظار دارند که دولت برای محافظت از آنها از آسیب های AI اقدام کند. یک راه حل اصلاحات روشن در دست ما ایمیل جدید سیاسی، برنامه رایگان یا اخبار روزانه است که احزاب سیاسی اصلی استرالیا به سمت اجماع نادر متعهد هستند. کار و ائتلاف به طور فزاینده ای می خواهند شرط بزرگی بر هوش مصنوعی بگذارند. با این حال، همانطور که احزاب با هم می آیند، ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "3309b6ce15f483d4",
@@ -45,255 +277,20 @@
       "eventId": "3309b6ce15f483d4",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 63.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 88.0,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
         "title": "ایالات متحده به سازمان های فدرال دستور می دهد تا AI DeepSeek چین را از سیستم های خود حذف کنند",
         "excerpt": "ایالات متحده به سازمان های غیر نظامی فدرال دستور داده است تا محصولات DeepSeek و خدمات شخص ثالث را که با استفاده از تکنولوژی آن ساخته شده اند، با توجه به نگرانی های امنیت ملی، حذف کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "69c4ea275f87c68a",
-      "url": "https://www.theguardian.com/technology/2026/oct/20/ai-human-judgment",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I’m a CTO. AI still needs your human expertise | Madhu Shashanka",
-      "excerpt": "AI is increasingly getting good at doing some tasks, but it can never replace human workers’ judgment Autonomous cars, which may be the safest we have built, keep getting easily avoidable parking tickets. While Waymos crash far less often than human drivers over tens of millions of miles, they’re still terrible at performing basic tasks – keeping out of disabled parking spots and tow-away zones…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T12:30:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "computing",
-       "technology",
-       "job losses"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/1ec14522bb2e09e892ab197b6436169a94f4fac9/0_0_2836_2269/master/2836.jpg?width=700&quality=85&auto=format&fit=max&s=23b975a6b043b20da50d51f3bed0b023",
-       "credit": "Illustration: Guardian Design/Westend61/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "69c4ea275f87c68a",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.5,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "من CTO هستم. هوش مصنوعی هنوز به تخصص انسانی شما نیاز دارد – Madhu Shashanka",
-        "excerpt": "AI به طور فزاینده ای در انجام برخی از وظایف خوب است، اما هرگز نمی تواند جایگزین ماشین های خودکار قضاوت کارکنان انسان شود، که ممکن است امن ترین ما ساخته شده است، به راحتی بلیط پارکینگ اجتناب ناپذیر دریافت کنید. در حالی که Waymos به مراتب کمتر از رانندگان انسانی در بیش از ده ها میلیون مایل سقوط می کند، آنها هنوز در انجام کارهای اساسی وحشتناک هستند - خارج از نقاط پارکینگ غیر فعال و مناطق دور ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "add383da2fc04409",
-      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
-      "excerpt": "A single query is all that's required to find thousands of conversations listed by title.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T12:33:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "research",
-      "tags": [
-       "ai",
-       "biz & it",
-       "security",
-       "meta",
-       "muse",
-       "privacy"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg",
-       "credit": "Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "add383da2fc04409",
-      "related": [],
-      "score": {
-       "total": 64.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.8,
-        "topic": 80.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Meta Muse اسرار شخصی و تجاری کاربران را در زمانی که آنها به اشتراک گذاری مکالمات",
-        "excerpt": "یک پرس و جو تنها چیزی است که برای پیدا کردن هزاران مکالمه ذکر شده توسط عنوان لازم است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0a18db4caf216ec0",
-      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "AI adoption by industry shows what other sectors can learn",
-      "excerpt": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "research",
-      "tags": [
-       "artificial intelligence",
-       "sponsored"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840",
-       "kind": "feed",
-       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
-      },
-      "eventId": "0a18db4caf216ec0",
-      "related": [],
-      "score": {
-       "total": 63.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 93.7,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پذیرش AI توسط صنعت نشان می دهد که چه بخش های دیگر می توانند یاد بگیرند",
-        "excerpt": "روایت فعلی در مورد هوش مصنوعی در محل کار عمدتا توسط سیلیکون دره هدایت می شود. اما درمان بخش فناوری به عنوان یک جزیره روند واقعی در پذیرش تکنولوژی را از دست می دهد - تکنولوژی تنها اولین صنعت در خط است. به عنوان ابزار عمومی هوش مصنوعی و اتوماسیون بالغ، تغییرات در حال حاضر مهندسی نرم افزار را تغییر می دهد و مدیریت محصول به ناچار...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "af3e08fe45e19629",
-      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Adobe Lightroom mobile can now open closed eyes in photos with a simple tap",
-      "excerpt": "Adobe announced yesterday that the mobile version of Lightroom, available for iOS, iPadOS, and Android, can now open closed eyes in photos using generative AI with just a single tap. When the app detects a person, or a group of people, have their eyes closed in a photo it will automatically present users with a",
-      "lang": "en",
-      "publishedAt": "2026-10-20T13:06:44Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "products",
-      "tags": [
-       "adobe",
-       "ai",
-       "apps",
-       "creators",
-       "news",
-       "tech"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/lightroom1.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A before and after photo showing open eyes added to a photo of a person with their eyes closed.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "af3e08fe45e19629",
-      "related": [],
-      "score": {
-       "total": 63.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.9,
-        "topic": 65.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Adobe Lightroom Mobile اکنون می تواند چشمان بسته را در عکس ها با یک ضربه ساده باز کند",
-        "excerpt": "ادوبی دیروز اعلام کرد که نسخه موبایل Lightroom که برای iOS، iPadOS و Android در دسترس است، اکنون می تواند چشمان بسته را در عکس هایی با استفاده از هوش مصنوعی عمومی با یک ضربه واحد باز کند. هنگامی که برنامه یک فرد یا گروهی از افراد را تشخیص می دهد، چشم خود را در یک عکس بسته می کند، به طور خودکار کاربران را با یک عکس ارائه می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T13:38:57Z"
        }
@@ -309,55 +306,53 @@
     },
     {
      "article": {
-      "id": "5ecb5ba802c4747d",
-      "url": "https://www.theguardian.com/us-news/2026/oct/20/us-bans-china-deepseek-ai-tools-government-agencies",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "US bans use of China’s DeepSeek AI tools by government agencies",
-      "excerpt": "Use of tools ‘may result in the transfer of sensitive data’ to China, defense department says The US government on Monday ordered its agencies to stop using artificial intelligence (AI) tools from the Chinese startup DeepSeek, as the countries race for dominance in the fast-moving sector. A notice from the Department of Homeland Security (DHS) announced the ban on products developed by DeepSeek…",
+      "id": "e85a4c5da2af52ae",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "excerpt": "Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations over the past year. That's according to an announcement on Tuesday, which says Spotify has also made changes to its recommendation system to highlight more music made by human artists. \"Our editors hold the same standard and",
       "lang": "en",
-      "publishedAt": "2026-10-20T12:33:27Z",
+      "publishedAt": "2026-10-20T14:18:37Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
+      "fetchedAt": "2026-10-20T15:24:21Z",
       "day": "2026-10-20",
-      "category": "policy",
+      "category": "products",
       "tags": [
-       "trump administration",
-       "deepseek",
-       "us politics",
-       "ai (artificial intelligence)",
-       "us news",
-       "china"
+       "ai",
+       "apps",
+       "entertainment",
+       "music",
+       "news",
+       "spotify"
       ],
-      "entities": [
-       "deepseek"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/6f8ade7b2c623ea3ba988db863da7a2fd1af5796/560_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=ede4ab52cf7de92ee748c3ed90819436",
-       "credit": "Photograph: Andy Wong/AP",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23951391/STK088_VRG_Illo_N_Barclay_4_spotify.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Spotify’s logo",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "5ecb5ba802c4747d",
+      "eventId": "e85a4c5da2af52ae",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 62.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.8,
-        "topic": 85.0,
-        "novelty": 63.6
+        "recency": 94.3,
+        "topic": 65.0,
+        "novelty": 94.1
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
-        "title": "آمریکا استفاده از ابزارهای DeepSeek AI چین را توسط سازمان های دولتی ممنوع می کند",
-        "excerpt": "استفاده از ابزار \"ممکن است منجر به انتقال داده های حساس\" به چین، وزارت دفاع می گوید که دولت ایالات متحده روز دوشنبه به سازمان های خود دستور داد تا استفاده از ابزارهای هوش مصنوعی (AI) را از استارت آپ چینی DeepSeek متوقف کنند، زیرا کشورها برای تسلط بر بخش سریع حرکت می کنند. اطلاع از وزارت امنیت داخلی (DHS) ممنوعیت محصولات توسعه یافته توسط DeepSeek را اعلام کرد.",
+        "title": "Spotify 50 میلیون AI را از توصیه های خود حذف کرد",
+        "excerpt": "اسپاتیفای می گوید که بیش از 50 میلیون آهنگ را که در سال گذشته از توصیه های کاربران استفاده می شود، حذف کرده است. با توجه به اعلام روز سه شنبه، که می گوید Spotify نیز تغییراتی در سیستم توصیه خود ایجاد کرده است تا موسیقی بیشتری را که توسط هنرمندان انسانی ساخته شده است برجسته کند. سردبیران ما همان استاندارد و",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
+        "at": "2026-10-20T15:24:21Z"
        }
       }
      },
@@ -372,10 +367,63 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T13:07:24Z",
-   "to": "2026-10-20T13:07:24Z",
+   "from": "2026-10-13T15:19:48Z",
+   "to": "2026-10-20T15:19:48Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 74.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ea83f0dd69c5142c",
@@ -407,15 +455,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.7,
+        "recency": 85.9,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -426,7 +474,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -462,15 +510,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.5,
+        "recency": 76.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -481,7 +529,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -516,15 +564,15 @@
       "eventId": "3eb18e5ff7f2a0ef",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 86.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -534,7 +582,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -576,15 +624,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 90.5,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -592,60 +640,6 @@
         "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2596ff929aeef557",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
-      },
-      "eventId": "2596ff929aeef557",
-      "related": [],
-      "score": {
-       "total": 68.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.1,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
        }
       }
      },
@@ -690,15 +684,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.5,
+        "recency": 81.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -710,6 +704,643 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1b3da64625ac546a",
+      "url": "https://www.theguardian.com/technology/commentisfree/2026/oct/21/labor-coalition-poised-to-take-reckless-gamble-on-ai-joint-select-committee",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Labor and the Coalition are poised to take a reckless gamble on AI. Haven’t they realised community support has collapsed? | Edward Santow and Sarah Sacher",
+      "excerpt": "Australian workers expect the government to act to protect them from AI harms. There is a clear reform solution at hand Get our new political email, free app or daily news podcast Australia’s major political parties are edging towards rare consensus. Labor and the Coalition increasingly want to take a major bet on artificial intelligence. Yet, just as the parties are coming together, the…",
+      "lang": "en",
+      "publishedAt": "2026-10-20T14:00:38Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "australia news",
+       "australian politics",
+       "labor party",
+       "coalition",
+       "liberal party"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/9c9ec69d76f8fe3ecc5633e32f9280cf5f31c95d/596_0_5955_4764/master/5955.jpg?width=700&quality=85&auto=format&fit=max&s=16c9d9d26f29763e2a092e56c6ae8df0",
+       "credit": "Photograph: James Ross/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "1b3da64625ac546a",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 85.0,
+        "novelty": 95.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کار و ائتلاف آماده اند تا یک قمار بی پروا در AI انجام دهند. آیا آنها متوجه نشده اند که حمایت از جامعه از بین رفته است؟ ادوارد سانتوس و سارا ساچر",
+        "excerpt": "کارگران استرالیایی انتظار دارند که دولت برای محافظت از آنها از آسیب های AI اقدام کند. یک راه حل اصلاحات روشن در دست ما ایمیل جدید سیاسی، برنامه رایگان یا اخبار روزانه است که احزاب سیاسی اصلی استرالیا به سمت اجماع نادر متعهد هستند. کار و ائتلاف به طور فزاینده ای می خواهند شرط بزرگی بر هوش مصنوعی بگذارند. با این حال، همانطور که احزاب با هم می آیند، ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "87cd33ee12bd9f5e",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "excerpt": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T22:39:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T22:56:03Z",
+      "day": "2026-10-19",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "amazon sagemaker studio",
+       "announcements"
+      ],
+      "entities": [
+       "amazon",
+       "apple",
+       "google",
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
+       "alt": "The Sign up for AWS page with an email field and sign-in options for Google, GitHub, Apple, and Amazon",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "87cd33ee12bd9f5e",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 85.2,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توسعه دهندگان اکنون می توانند از طریق تجربه جدید AWS به SageMaker Studio دسترسی داشته باشند.",
+        "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T22:56:03Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "monthly": {
+   "from": "2026-09-20T15:19:48Z",
+   "to": "2026-10-20T15:19:48Z",
+   "halfLifeHours": 240,
+   "picks": [
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 74.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7a364f356aab4946",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T22:56:03Z",
+      "day": "2026-10-19",
+      "category": "models",
+      "tags": [
+       "publication"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "7a364f356aab4946",
+      "related": [],
+      "score": {
+       "total": 72.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.4,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
+        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T22:56:03Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ea83f0dd69c5142c",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T23:32:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T00:44:19Z",
+      "day": "2026-10-19",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "ea83f0dd69c5142c",
+      "related": [],
+      "score": {
+       "total": 72.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.5,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
+        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T00:44:19Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3eb18e5ff7f2a0ef",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "MPS in PyTorch 2.15",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
+      },
+      "eventId": "3eb18e5ff7f2a0ef",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.7,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "MPS در PyTorch 2.15",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0dbde1ea11534cb3",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T18:20:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-19",
+      "category": "research",
+      "tags": [
+       "research",
+       "imaging",
+       "health care",
+       "medical devices",
+       "artificial intelligence",
+       "computer vision"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
+       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "0dbde1ea11534cb3",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.1,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
+        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2596ff929aeef557",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T13:38:57Z",
+      "day": "2026-10-20",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "apple",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
+      },
+      "eventId": "2596ff929aeef557",
+      "related": [],
+      "score": {
+       "total": 69.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.7,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T13:38:57Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "da019040563955b2",
+      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "excerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some",
+      "lang": "en",
+      "publishedAt": "2026-10-20T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T05:25:37Z",
+      "day": "2026-10-20",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "supercomputing",
+       "agentic ai",
+       "ai factory",
+       "ai for good",
+       "artificial intelligence"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "da019040563955b2",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.1,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "استارت آپ های مبتنی بر اسپانیا نوآوری منطقه ای را با مرکز Supercomputing بارسلونا پیشرفت می کنند",
+        "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T05:25:37Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4a2f3ca18eb9cee6",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "lang": "en",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-16",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "4a2f3ca18eb9cee6",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 72.5,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شرکای خیابانی به سوالات سریع تر با Codex پاسخ می دهند",
+        "excerpt": "Anant Kumar ابزارهایی را برای مقایسه ارزش های وام و تجزیه و تحلیل توافقنامه های اعتباری، با استفاده از Codex برای بررسی کد و پیگیری سریع تر ایجاد می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "631c78f18e2760a2",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "lang": "en",
+      "publishedAt": "2026-10-18T04:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T19:13:17Z",
+      "day": "2026-10-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "materials science and engineering",
+       "artificial intelligence",
+       "machine learning",
+       "data",
+       "dmse"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
+       "credit": "Image: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "631c78f18e2760a2",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.3,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-20T15:19:48Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
+        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T19:13:17Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -753,15 +1384,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 95.3,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T13:07:24Z"
+       "asOf": "2026-10-20T15:19:48Z"
       },
       "tr": {
        "fa": {
@@ -769,633 +1400,6 @@
         "excerpt": "مشتریان جدید آمازون SageMaker AI در حال حاضر می توانند در یک محیط کاملا پیکربندی شده SageMaker Studio تنها در چند مرحله فرود آیند. ثبت نام با هویت شما در حال حاضر، مانند آمازون، اپل، GitHub یا گوگل، بدون حساب پیشرفته AWS یا کارت اعتباری مورد نیاز برای اکثر مشتریان، به علاوه 100 دلار در AWS Free Tier اعتبارات.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "69c4ea275f87c68a",
-      "url": "https://www.theguardian.com/technology/2026/oct/20/ai-human-judgment",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I’m a CTO. AI still needs your human expertise | Madhu Shashanka",
-      "excerpt": "AI is increasingly getting good at doing some tasks, but it can never replace human workers’ judgment Autonomous cars, which may be the safest we have built, keep getting easily avoidable parking tickets. While Waymos crash far less often than human drivers over tens of millions of miles, they’re still terrible at performing basic tasks – keeping out of disabled parking spots and tow-away zones…",
-      "lang": "en",
-      "publishedAt": "2026-10-20T12:30:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "computing",
-       "technology",
-       "job losses"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/1ec14522bb2e09e892ab197b6436169a94f4fac9/0_0_2836_2269/master/2836.jpg?width=700&quality=85&auto=format&fit=max&s=23b975a6b043b20da50d51f3bed0b023",
-       "credit": "Illustration: Guardian Design/Westend61/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "69c4ea275f87c68a",
-      "related": [],
-      "score": {
-       "total": 65.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "من CTO هستم. هوش مصنوعی هنوز به تخصص انسانی شما نیاز دارد – Madhu Shashanka",
-        "excerpt": "AI به طور فزاینده ای در انجام برخی از وظایف خوب است، اما هرگز نمی تواند جایگزین ماشین های خودکار قضاوت کارکنان انسان شود، که ممکن است امن ترین ما ساخته شده است، به راحتی بلیط پارکینگ اجتناب ناپذیر دریافت کنید. در حالی که Waymos به مراتب کمتر از رانندگان انسانی در بیش از ده ها میلیون مایل سقوط می کند، آنها هنوز در انجام کارهای اساسی وحشتناک هستند - خارج از نقاط پارکینگ غیر فعال و مناطق دور ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "monthly": {
-   "from": "2026-09-20T13:07:24Z",
-   "to": "2026-10-20T13:07:24Z",
-   "halfLifeHours": 240,
-   "picks": [
-    {
-     "article": {
-      "id": "7a364f356aab4946",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
-      "category": "models",
-      "tags": [
-       "publication"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "7a364f356aab4946",
-      "related": [],
-      "score": {
-       "total": 72.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.0,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
-        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon",
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "ea83f0dd69c5142c",
-      "related": [],
-      "score": {
-       "total": 72.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.2,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3eb18e5ff7f2a0ef",
-      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "MPS in PyTorch 2.15",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/mps-pytorch-2-15/thumbnail.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/mps-pytorch-2-15"
-      },
-      "eventId": "3eb18e5ff7f2a0ef",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 75.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "MPS در PyTorch 2.15",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbde1ea11534cb3",
-      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:20:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "research",
-      "tags": [
-       "research",
-       "imaging",
-       "health care",
-       "medical devices",
-       "artificial intelligence",
-       "computer vision"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
-       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "0dbde1ea11534cb3",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.7,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
-        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2596ff929aeef557",
-      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T13:38:57Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/anylanguagemodel-1-0/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anylanguagemodel-1-0"
-      },
-      "eventId": "2596ff929aeef557",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هر زبان مدل 1.0: یک سال مدل های محلی در پلتفرم های اپل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T13:38:57Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "da019040563955b2",
-      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "excerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some",
-      "lang": "en",
-      "publishedAt": "2026-10-20T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
-      "day": "2026-10-20",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "supercomputing",
-       "agentic ai",
-       "ai factory",
-       "ai for good",
-       "artificial intelligence"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "da019040563955b2",
-      "related": [],
-      "score": {
-       "total": 69.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.7,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استارت آپ های مبتنی بر اسپانیا نوآوری منطقه ای را با مرکز Supercomputing بارسلونا پیشرفت می کنند",
-        "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4a2f3ca18eb9cee6",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "excerpt": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "lang": "en",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-16",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "4a2f3ca18eb9cee6",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 73.0,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شرکای خیابانی به سوالات سریع تر با Codex پاسخ می دهند",
-        "excerpt": "Anant Kumar ابزارهایی را برای مقایسه ارزش های وام و تجزیه و تحلیل توافقنامه های اعتباری، با استفاده از Codex برای بررسی کد و پیگیری سریع تر ایجاد می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a72d1e4da6b0e106",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "lang": "en",
-      "publishedAt": "2026-10-15T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-15",
-      "category": "models",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "a72d1e4da6b0e106",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.9,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن GPT-Rosalind به آزمایشگاه های تحقیقاتی دانشگاهی",
-        "excerpt": "معرفی برنامه علمی Rosalind، ارائه آزمایشگاه های دانشگاهی واجد شرایط حمایت از دسترسی به GPT-Rosalind و ابزار برای پیشبرد تحقیقات علوم زندگی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9dbc0d55ff9123c6",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "amazon",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
-      },
-      "eventId": "9dbc0d55ff9123c6",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.8,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "TorchNeuron: اجرای مدل های HF در قطار AWS آسان تر از همیشه است",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "631c78f18e2760a2",
-      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Giving AI a “crystal clear” view of the materials world",
-      "excerpt": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "lang": "en",
-      "publishedAt": "2026-10-18T04:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-18",
-      "category": "research",
-      "tags": [
-       "research",
-       "materials science and engineering",
-       "artificial intelligence",
-       "machine learning",
-       "data",
-       "dmse"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Synthetic-Narratives-01-press.jpg?itok=Bh8fzury",
-       "credit": "Image: MIT News; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "631c78f18e2760a2",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.8,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-20T13:07:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دادن هوش مصنوعی یک دیدگاه واضح از جهان مواد",
-        "excerpt": "تحقیقات جدید می تواند به مدل های AI کمک کند تا مواد کریستالی را در 3D و دلیل در مورد خواص خود درک کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
        }
       }
      },
