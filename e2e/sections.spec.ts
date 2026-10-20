@@ -4,7 +4,7 @@ test('Sections menu opens AI Games with the character cast and filterable storie
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   await page.getByRole('button', { name: 'Sections' }).click();
-  await page.getByRole('link', { name: /AI Games/ }).click();
+  await page.locator('.site-header').getByRole('link', { name: /AI Games/ }).click();
   await expect(page).toHaveURL(/#\/ai-games$/);
   await expect(page.getByRole('heading', { level: 1, name: 'Games made with AI.' })).toBeVisible();
   const cells = page.getByTestId('game-cell');

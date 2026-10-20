@@ -79,3 +79,70 @@ test('Persian: intro and topics are right-to-left with a Latin wordmark', async 
   expect(overflow).toBeLessThanOrEqual(0);
   await expect(page.locator('.home-intro')).toBeVisible();
 });
+
+test('three ways in sit under the intro text: AI Games with a tiny character thumbnail, Data Centers, AI News', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  const links = page.locator('.hi-links .hi-link');
+  await expect(links).toHaveCount(3);
+  await expect(links.nth(0)).toContainText('AI Games');
+  await expect(links.nth(1)).toContainText('Data Centers');
+  await expect(links.nth(2)).toContainText('AI News');
+  const m = await page.evaluate(() => {
+    const body = document.querySelector('.hi-body')!.getBoundingClientRect();
+    const nav = document.querySelector('.hi-links')!.getBoundingClientRect();
+    const img = document.querySelector<HTMLImageElement>('.hi-link-art')!;
+    const r = img.getBoundingClientRect();
+    return { below: nav.top >= body.bottom, gap: nav.top - body.bottom, w: r.width, natural: img.naturalWidth, loaded: img.complete };
+  });
+  expect(m.below).toBe(true);
+  expect(m.gap).toBeLessThan(60);
+  expect(m.w).toBeLessThanOrEqual(40);
+  expect(m.loaded && m.natural > 0).toBe(true);
+  // The thumbnail is a small file, not the original artwork.
+  const res = await page.request.get(await page.locator('.hi-link-art').evaluate((i: HTMLImageElement) => i.src));
+  expect((await res.body()).length).toBeLessThan(10_000);
+  await links.nth(0).click();
+  await expect(page).toHaveURL(/#\/ai-games$/);
+  await page.goBack();
+  await page.locator('.hi-link[data-entry=data-centers]').click();
+  await expect(page).toHaveURL(/#\/data-centers$/);
+  await page.goBack();
+  await page.locator('.hi-link[data-entry=ai-news]').click();
+  await expect(page).toHaveURL(/#\/explore$/);
+});
+
+test('the Sections menu also lists AI News', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  await page.getByRole('button', { name: 'Sections' }).click();
+  const item = page.locator('.site-header').getByRole('link', { name: /AI News/ });
+  await expect(item).toBeVisible();
+  await expect(item).toContainText('searchable');
+  await item.click();
+  await expect(page).toHaveURL(/#\/explore$/);
+});
+
+test('animated intro backdrop: moves in full motion, pauses off-screen, stands still under reduced motion', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 800 });
+  await page.goto('./#/');
+  const state = () =>
+    page.evaluate(() => {
+      const names = ['.hi-glow-a', '.hi-glow-b', '.hi-glow-c', '.hi-grid', '.hi-beam', '.hi-specks i'].map((s) => {
+        const cs = getComputedStyle(document.querySelector(s)!);
+        return `${cs.animationName}:${cs.animationPlayState}`;
+      });
+      return names;
+    });
+  const html = page.locator('html');
+  const mode = await html.getAttribute('data-motion');
+  if (mode === 'full') {
+    for (const s of await state()) expect(s).toMatch(/^hi-.*:running$/);
+    await page.evaluate(() => window.scrollTo(0, 2400));
+    await expect.poll(async () => (await state())[0]).toMatch(/:paused$/);
+  }
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.reload();
+  await page.evaluate(() => window.scrollTo(0, 0));
+  for (const s of await state()) expect(s.startsWith('none')).toBe(true);
+});
