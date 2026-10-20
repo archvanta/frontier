@@ -20,6 +20,11 @@ import type {
   SourcesFile,
 } from '../lib/types';
 import { SCHEMA_VERSION } from '../lib/types';
+import boxyUrl from './images/mock-boxy.svg?url&no-inline';
+import wideUrl from './images/mock-wide.svg?url&no-inline';
+
+/** Bundled assets come back with the site base; story image paths are stored relative to it. */
+const relative = (url: string) => (url.startsWith(import.meta.env.BASE_URL) ? url.slice(import.meta.env.BASE_URL.length) : url);
 
 export interface MockDataset {
   meta: Meta;
@@ -45,11 +50,13 @@ interface Seed {
   e: string[];
   s: number;
   img: boolean;
+  /** Mock-only photo: a wide one (also usable as a slide background) or a boxy one (frame only). */
+  photo?: 'wide' | 'boxy';
 }
 
 const SEEDS: Seed[] = [
-  { t: 'Claude model update ships longer context in fixture scenario', fa: 'به‌روزرسانی مدل Claude با زمینهٔ طولانی‌تر (سناریوی آزمایشی)', c: 'models', b: 'claude', e: ['anthropic'], s: 0, img: false },
-  { t: 'OpenAI announces developer tooling refresh in fixture scenario', fa: 'OpenAI ابزارهای توسعه‌دهندگان را به‌روز می‌کند (سناریوی آزمایشی)', c: 'products', b: 'openai', e: ['openai'], s: 1, img: false },
+  { t: 'Claude model update ships longer context in fixture scenario', fa: 'به‌روزرسانی مدل Claude با زمینهٔ طولانی‌تر (سناریوی آزمایشی)', c: 'models', b: 'claude', e: ['anthropic'], s: 0, img: false, photo: 'wide' },
+  { t: 'OpenAI announces developer tooling refresh in fixture scenario', fa: 'OpenAI ابزارهای توسعه‌دهندگان را به‌روز می‌کند (سناریوی آزمایشی)', c: 'products', b: 'openai', e: ['openai'], s: 1, img: false, photo: 'boxy' },
   { t: 'Gemini gains multimodal reasoning features in fixture scenario', fa: 'Gemini قابلیت‌های استدلال چندوجهی می‌گیرد (سناریوی آزمایشی)', c: 'models', b: 'gemini', e: ['google'], s: 1, img: false },
   { t: 'Benchmark study compares small open models on reasoning tasks', fa: 'مطالعهٔ بنچمارک مدل‌های باز کوچک را مقایسه می‌کند', c: 'research', b: null, e: [], s: 2, img: true },
   { t: 'Regulators publish draft guidance for general-purpose AI audits', fa: null, c: 'policy', b: null, e: [], s: 1, img: true },
@@ -90,7 +97,9 @@ export function buildMockDataset(now: Date): MockDataset {
     const day = utcDay(published);
     // Brand character art is switched off in the collector (BRAND_ART_ENABLED), so brand stories
     // look like any other story here too.
-    const image = seed.b || seed.img
+    const image = seed.photo
+      ? { url: relative(seed.photo === 'wide' ? wideUrl : boxyUrl), kind: 'feed' as const, alt: '' }
+      : seed.b || seed.img
       ? { url: `images/fallbacks/${FALLBACK_BY_CATEGORY[seed.c]}.svg`, kind: 'fallback' as const, alt: '' }
       : null;
     const total = Math.max(20, 92 - i * 3);

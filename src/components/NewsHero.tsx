@@ -3,7 +3,7 @@ import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { genuineImage } from '../lib/heroStories';
 import { useMediaQuery } from '../lib/hooks';
-import { judgeCardImage, rememberCardFit, rememberedCardFit } from '../lib/imageFit';
+import { judgeBackgroundImage, judgeCardImage, rememberBackground, rememberCardFit, rememberedBackground, rememberedCardFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import { categoryIcon } from '../lib/tones';
@@ -32,6 +32,9 @@ interface SlideProps {
  * One fixed template for every story: the copy on the start side and a rounded frame of one fixed size on the end side (stacked above the copy
  * on phones), filled edge to edge by the story's photo. A story without a usable photo (none, broken or tiny) keeps the same frame with a quiet
  * gradient and its category icon, so the layout never changes from one story to the next.
+ * Only the layer behind the template differs: a photo that is big and landscape enough (see judgeBackgroundImage) also fills the slide's
+ * background under a dark gradient on the copy side; any other story keeps the plain gradient. The background reuses the frame photo's URL, so
+ * the browser fetches it once, and it is judged when the (pre-mounted) frame photo loads, before its slide is shown.
  */
 function Slide({ story, index, total, active, mountImage }: SlideProps) {
   const { t, locale } = useI18n();
@@ -40,7 +43,10 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
   const external = safeUrl(story.url);
   const src = resolveImageUrl(genuineImage(story)?.url);
   const [broken, setBroken] = useState(() => Boolean(src) && rememberedCardFit(src!) === 'hide');
+  const [bgOk, setBgOk] = useState(() => Boolean(src) && rememberedBackground(src!) === true);
+  const [bgLoaded, setBgLoaded] = useState(false);
   const showImage = Boolean(src) && mountImage && !broken;
+  const showBackground = showImage && bgOk;
   const drop = () => {
     if (src) rememberCardFit(src, 'hide');
     setBroken(true);
@@ -56,7 +62,21 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
       inert={!active}
       data-testid="hero-slide"
       data-photo={showImage ? 'yes' : 'no'}
+      data-bg={showBackground ? 'yes' : 'no'}
     >
+      {showBackground && src && (
+        <div className="nh-bg" aria-hidden="true">
+          <img
+            className={`nh-bg-img ${bgLoaded ? 'is-loaded' : ''}`}
+            src={src}
+            alt=""
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onLoad={() => setBgLoaded(true)}
+            onError={() => setBgOk(false)}
+          />
+        </div>
+      )}
       <div className="nh-inner container">
         <div className="nh-content">
           <p className="nh-cat">{categoryLabel(locale, story.category)}</p>
@@ -110,6 +130,9 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
               onLoad={(e) => {
                 const fit = judgeCardImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
                 rememberCardFit(src, fit);
+                const bg = fit === 'ok' && judgeBackgroundImage({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight });
+                rememberBackground(src, bg);
+                setBgOk(bg);
                 if (fit === 'hide') setBroken(true);
               }}
             />
