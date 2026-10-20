@@ -37,7 +37,7 @@ export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: Pic
           </span>
           {t('top_signals')}
         </h2>
-        <div className="tabs glass-control" role="tablist" aria-label={t('picks_window')}>
+        <div className="tabs pill-track" role="tablist" aria-label={t('picks_window')}>
           {WINDOWS.map((w) => (
             <button
               key={w}

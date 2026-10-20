@@ -18,7 +18,7 @@ for (const locale of ['en', 'fa'] as const) {
   }
 }
 
-test('hero is a full-bleed carousel that starts under the header and leads into Top Signals', async ({ page }) => {
+test('hero is a full-bleed carousel that starts right under the header bar and leads into Top Signals', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const stage = page.locator('.nh-stage');
@@ -29,7 +29,8 @@ test('hero is a full-bleed carousel that starts under the header and leads into 
   expect(header && hero && picks).toBeTruthy();
   expect(hero!.x).toBeLessThanOrEqual(0.5);
   expect(hero!.width).toBeGreaterThanOrEqual(1430);
-  expect(hero!.y).toBeLessThanOrEqual(header!.y + 1);
+  expect(hero!.y).toBeGreaterThanOrEqual(header!.y + header!.height - 1);
+  expect(hero!.y).toBeLessThanOrEqual(header!.y + header!.height + 1);
   expect(hero!.height).toBeGreaterThanOrEqual(540);
   expect(hero!.height).toBeLessThanOrEqual(861);
   expect(picks!.y).toBeGreaterThan(hero!.y + hero!.height - 1);
@@ -75,6 +76,9 @@ test('hero: indicators, arrows and keyboard navigate, and a manual change restar
 test('hero pauses on hover and with the pause button', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
+  // The hero remounts when the stories arrive; hover only counts on the final element, so wait for it before moving in.
+  await expect(counter(page)).toContainText('01');
+  await page.mouse.move(700, 300);
   await page.mouse.move(700, 400);
   await page.waitForTimeout(6500);
   await expect(counter(page)).toContainText('01');
@@ -113,14 +117,13 @@ test('hero swipes on touch and follows the reading direction in RTL', async ({ p
   await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'خبر 2 از 3');
 });
 
-test('reduced motion: no autoplay, no shader, static wall', async ({ browser }) => {
+test('reduced motion: no autoplay, static wall', async ({ browser }) => {
   const ctx = await browser.newContext({ reducedMotion: 'reduce', viewport: { width: 1440, height: 900 } });
   const page = await ctx.newPage();
   await page.goto('./#/');
   await expect(page.getByRole('button', { name: 'Start slideshow' })).toBeVisible();
   await page.waitForTimeout(6000);
   await expect(counter(page)).toContainText('01');
-  await expect(page.locator('.glass-fold-canvas')).toHaveCount(0);
   await expect(page.locator('.wall-static')).toBeVisible();
   await expect(page.locator('.marquee')).toHaveCount(0);
   await page.getByRole('button', { name: 'Start slideshow' }).click();

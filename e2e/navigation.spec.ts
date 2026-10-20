@@ -88,6 +88,7 @@ test('"/" focuses the header search and the mobile menu exposes categories', asy
   await page.getByRole('button', { name: 'Menu' }).click();
   const nav = page.locator('#primary-nav');
   await expect(nav.getByRole('link', { name: 'Explore' })).toBeVisible();
+  await nav.getByRole('button', { name: 'Categories' }).click();
   await expect(nav.getByRole('list', { name: 'Categories' }).getByRole('link').first()).toBeVisible();
   await page.keyboard.press('Escape');
   await expect(nav.getByRole('link', { name: 'Explore' })).toBeHidden();

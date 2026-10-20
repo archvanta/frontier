@@ -4,6 +4,7 @@ import { relativeTime } from '../lib/dates';
 import { useMediaQuery } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
+import { toneFor } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { Marquee } from './Marquee';
@@ -45,9 +46,11 @@ function WallCard({ story, now, decorative = false, quiet = false }: { story: Ar
     </>
   );
   return decorative ? (
-    <div className="wall-card">{body}</div>
+    <div className="wall-card" data-tone={toneFor(story.category)}>
+      {body}
+    </div>
   ) : (
-    <a className="wall-card" href={href(storyPath(story))} tabIndex={quiet ? -1 : undefined} data-testid="wall-card">
+    <a className="wall-card" data-tone={toneFor(story.category)} href={href(storyPath(story))} tabIndex={quiet ? -1 : undefined} data-testid="wall-card">
       {body}
     </a>
   );

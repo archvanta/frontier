@@ -50,7 +50,7 @@ describe('NewsHero', () => {
     expect(screen.queryByTestId('hero-slide')).toBeNull();
   });
 
-  it('falls back to the glass-fold backdrop when the story image fails to load', () => {
+  it('falls back to the gradient backdrop when the story image fails to load', () => {
     renderHero([story('a'), story('b'), story('c')]);
     const slide = screen.getAllByTestId('hero-slide')[0]!;
     const img = slide.querySelector('img')!;

@@ -18,7 +18,8 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | Change | Evidence |
 |---|---|
 | UI/UX redesign v2: cinematic hero, floating glass header, editorial Top Signals / Latest News, Weekly Brief, selective liquid glass, navy/violet/cyan palette | `docs/DESIGN-SYSTEM.md`, `docs/design/reference-analysis.md#v2-references-redesign-2026-10-19`; `npm run check` + 32 Playwright e2e/axe tests on the mock build |
-| Black/minimal + blue theme; news-carousel hero (replaces the intro-video hero), glass-fold WebGL backdrop, 3D "signal wall" marquee | `docs/DESIGN-SYSTEM.md`; `npm run check` (52 unit tests) + 36 Playwright e2e/axe tests on the mock build |
+| Black/minimal + blue theme; news-carousel hero (replaces the intro-video hero), glass-fold WebGL backdrop (since removed), 3D "signal wall" marquee | `docs/DESIGN-SYSTEM.md`; `npm run check` (52 unit tests) + 36 Playwright e2e/axe tests on the mock build |
+| Reference look (Sigma screenshots): full-width header with drop-down panels, white/violet pill buttons, gradient story cards, no glass or WebGL; switchable dark/light theme (saved, applied before first paint) | `docs/DESIGN-SYSTEM.md`; `npm run check` (52 unit tests) + 61 Playwright e2e/axe tests on the mock build (axe in dark and light, English and Persian, 7 routes) |
 
 ## Resume
 Run `/continue-phase` (see `.claude/commands/continue-phase.md`).
