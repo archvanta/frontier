@@ -1,6 +1,6 @@
 {
  "schemaVersion": 1,
- "asOf": "2026-10-20T00:00:00Z",
+ "asOf": "2026-10-20T01:27:03Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T00:00:00Z",
-   "to": "2026-10-20T00:00:00Z",
+   "from": "2026-10-19T01:27:03Z",
+   "to": "2026-10-20T01:27:03Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -45,15 +45,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 89.5,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -68,6 +68,63 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e9f6e03adc36285a",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "excerpt": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T01:27:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T01:54:18Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "government & policy",
+       "ai now institute",
+       "ai regulation",
+       "mamdani"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "e9f6e03adc36285a",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-20T01:27:03Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Mamdani می گوید که تغذیه شده در AI، از نیویورکی ها می خواهد تا به عقب برگردند.",
+        "excerpt": "شهردار Zohran Mamdani روز دوشنبه گفت که نیویورکی ها باید در برابر این روایت مقاومت کنند که تصاحب AI اجتناب ناپذیر است و خواستار مقرراتی است که از عموم مردم محافظت می کند و قدرت را در دستان خود قرار می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T01:54:18Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -108,15 +165,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 65.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 85.1,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -127,7 +184,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -168,15 +225,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 64.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.1,
+        "recency": 66.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -187,7 +244,62 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7a364f356aab4946",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "lang": "en",
+      "publishedAt": "2026-10-19T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-19T22:56:03Z",
+      "day": "2026-10-19",
+      "category": "models",
+      "tags": [
+       "publication"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "7a364f356aab4946",
+      "related": [],
+      "score": {
+       "total": 63.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 46.0,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-20T01:27:03Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
+        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-19T22:56:03Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -225,15 +337,15 @@
       "eventId": "2eba6fdc38ff53cf",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 62.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 93.4,
+        "recency": 85.9,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -241,120 +353,6 @@
         "excerpt": "آزمایشگاه های AI شهرت خود را در معیار مدل سازی به خطر انداخته اند – سیستم ظاهرا خنثی و دقیق ارزیابی هایی که برای اندازه گیری اینکه آیا یک محصول AI بهتر از دیگری است، طراحی شده اند. با این حال، روش های پشت این ارزیابی ها پیچیده است و هنوز هم در حال بلوغ است، گفت: ایرن سورلامن، هوینگینگ مدیر ارشد سیاست چهره، در طول بحث در TechCrunchch",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7a364f356aab4946",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T22:56:03Z",
-      "day": "2026-10-19",
-      "category": "models",
-      "tags": [
-       "publication"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "7a364f356aab4946",
-      "related": [],
-      "score": {
-       "total": 64.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 50.0,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-20T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Advancing Coding در زبان های برنامه نویسی کم منبع",
-        "excerpt": "یاد بگیرید که چگونه OpenAI در حال بهبود ChatGPT در زبان های برنامه نویسی کم منبع، با ارزیابی های جدید برای مهندسی نرم افزار، SQLite و مهاجرت COBOL است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T22:56:03Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "073765c16b4994fd",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "excerpt": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T21:28:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T21:38:27Z",
-      "day": "2026-10-19",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "analysis",
-       "business",
-       "microsoft",
-       "nvidia",
-       "openai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "073765c16b4994fd",
-      "related": [],
-      "score": {
-       "total": 64.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 86.4,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-20T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بدهی CoreWeave در حال تبدیل شدن به کل مشکل صنعت AI است",
-        "excerpt": "شرکت Core Weave هفته گذشته بدی داشت. اوراق قرضه آن با یک تعریف مشترک به قلمرو آشفته سقوط کرد – زمانی که سرمایه گذاران 1000 امتیاز بیشتر از اوراق قرضه دولتی می خواهند. Last Tuesady Chamath \"SPAC King\" Palihapitiya متوجه بدهی ناراحت شده و همچنین پرسید که آیا ساخت AI یک حباب اعتباری خصوصی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T21:38:27Z"
        }
       }
      },
@@ -369,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T00:00:00Z",
-   "to": "2026-10-20T00:00:00Z",
+   "from": "2026-10-13T01:27:03Z",
+   "to": "2026-10-20T01:27:03Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +402,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -459,15 +457,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 87.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -519,15 +517,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 93.4,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -582,15 +580,15 @@
       "eventId": "87cd33ee12bd9f5e",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 97.3,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -640,15 +638,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 93.8,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -663,6 +661,63 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e9f6e03adc36285a",
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "excerpt": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T01:27:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T01:54:18Z",
+      "day": "2026-10-20",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "government & policy",
+       "ai now institute",
+       "ai regulation",
+       "mamdani"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "e9f6e03adc36285a",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-20T01:27:03Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Mamdani می گوید که تغذیه شده در AI، از نیویورکی ها می خواهد تا به عقب برگردند.",
+        "excerpt": "شهردار Zohran Mamdani روز دوشنبه گفت که نیویورکی ها باید در برابر این روایت مقاومت کنند که تصاحب AI اجتناب ناپذیر است و خواستار مقرراتی است که از عموم مردم محافظت می کند و قدرت را در دستان خود قرار می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T01:54:18Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -701,15 +756,15 @@
       "eventId": "037c22a3c2937ce4",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 94.4,
         "topic": 55.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -720,69 +775,10 @@
        }
       }
      },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "073765c16b4994fd",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-      "excerpt": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds. Last Tuesady Chamath \"SPAC King\" Palihapitiya noticed the distressed debt, and also asked whether the AI buildout was a private credit bubble.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T21:28:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T21:38:27Z",
-      "day": "2026-10-19",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "analysis",
-       "business",
-       "microsoft",
-       "nvidia",
-       "openai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Vrg_Illo_AI_Bubble.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "073765c16b4994fd",
-      "related": [],
-      "score": {
-       "total": 66.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.6,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-20T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بدهی CoreWeave در حال تبدیل شدن به کل مشکل صنعت AI است",
-        "excerpt": "شرکت Core Weave هفته گذشته بدی داشت. اوراق قرضه آن با یک تعریف مشترک به قلمرو آشفته سقوط کرد – زمانی که سرمایه گذاران 1000 امتیاز بیشتر از اوراق قرضه دولتی می خواهند. Last Tuesady Chamath \"SPAC King\" Palihapitiya متوجه بدهی ناراحت شده و همچنین پرسید که آیا ساخت AI یک حباب اعتباری خصوصی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T21:38:27Z"
-       }
-      }
-     },
      "rank": 7,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -814,15 +810,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.4,
+        "recency": 78.3,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -843,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T00:00:00Z",
-   "to": "2026-10-20T00:00:00Z",
+   "from": "2026-09-20T01:27:03Z",
+   "to": "2026-10-20T01:27:03Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,15 +871,15 @@
       "eventId": "7a364f356aab4946",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -933,15 +929,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.4,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -993,15 +989,15 @@
       "eventId": "0dbde1ea11534cb3",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 98.0,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1050,11 +1046,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.8,
+        "recency": 75.5,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1100,15 +1096,15 @@
       "eventId": "9dbc0d55ff9123c6",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 92.9,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1158,11 +1154,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.7,
+        "recency": 74.4,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1221,11 +1217,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 99.2,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1281,11 +1277,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 87.7,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1335,15 +1331,15 @@
       "eventId": "f73f11092849b85a",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 98.1,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
@@ -1393,15 +1389,15 @@
       "eventId": "c5ffbd108a109045",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 97.3,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-20T00:00:00Z"
+       "asOf": "2026-10-20T01:27:03Z"
       },
       "tr": {
        "fa": {
