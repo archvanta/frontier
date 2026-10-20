@@ -43,10 +43,11 @@ There is no `backdrop-filter` anywhere.
 Slides without a usable photo (or whose photo failed or is under 640px wide) sit on `.nh-backdrop`: layered CSS radial gradients (violet at the foot on the reading side, blue at the opposite corner, a faint lift at the top) over `#07050f`. No canvas, no WebGL, no dependency. It mirrors in RTL.
 
 ## Type
-- Display: **Space Grotesk** (variable) — hero (uppercase, −0.035em, up to 3.4rem), section titles (uppercase), lead/feature headlines.
-- Body: **Inter** (variable); meta is sans, not mono. Labels (kicker, eyebrow, chips, rank): **JetBrains Mono**, uppercase, tracked.
-- Persian: **Vazirmatn** for all text in `fa`; uppercase/tracking removed; the English brand headline keeps Space Grotesk and aligns right in RTL.
-- Fluid scale `--fs-xs` … `--fs-3xl`, `--fs-hero`. All fonts self-hosted (Fontsource, OFL).
+- **San Francisco, where the visitor already has it.** Latin text (display, body, labels) uses `-apple-system` / `BlinkMacSystemFont` (SF on Apple devices) and a locally installed `SF Pro Display` / `SF Pro Text` / `SF Pro` (for example from [SFWindows](https://github.com/bradleyhodges/SFWindows)); mono labels use `ui-monospace` / `SF Mono`. Everyone else gets **Inter** (variable, self-hosted, OFL) as the visible stand-in, with **JetBrains Mono** behind the mono stack.
+- **No Apple font file is shipped or committed.** Apple's San Francisco licence limits the font to UI mock-ups for Apple platforms and forbids embedding, redistributing it or using it in website content, so the stack only *names* fonts that are already on the visitor's device. Do not add SF/New York files to `public/` or `src/` unless Apple's terms change or the owner decides to take that risk in writing.
+- Hierarchy: hero (uppercase, −0.035em, up to 3.4rem), section titles (uppercase), lead/feature headlines; meta is sans, not mono. Labels (kicker, eyebrow, chips, rank) are mono, uppercase, tracked.
+- Persian: **Vazirmatn** for all text in `fa` (SF has no Persian glyphs, and `-apple-system` would otherwise fall back to a system Arabic face); uppercase/tracking removed. `html[lang='fa']` and any `[lang='fa']` element redefine `--font-display` / `--font-body` to Vazirmatn. The Latin-only brand marks (wordmark, footer brand, source initials) use `--font-latin` so they stay SF/Inter in Persian pages.
+- Fluid scale `--fs-xs` … `--fs-3xl`, `--fs-hero`. Web fonts are self-hosted through Fontsource (Inter, JetBrains Mono, Vazirmatn; all OFL). Space Grotesk was removed.
 
 ## Layout
 - Container 1320px, gutter `clamp(1rem, …, 2rem)`, 4px spacing scale, `--section-gap` between major sections.
