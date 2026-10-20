@@ -28,6 +28,8 @@ EVENT_WINDOW_HOURS = 72
 
 # Output
 SEARCH_WINDOW_DAYS = 90
+SECTION_WINDOW_DAYS = 90    # topic sections (data/sections/*.json) cover this many days
+SECTION_MAX_STORIES = 60    # newest stories written per section file
 WORKING_WINDOW_DAYS = 90    # day files loaded into memory each run (older files are left untouched)
 
 # Scoring (Phase 6). Every factor is normalised to 0–100; the total is the weighted sum.

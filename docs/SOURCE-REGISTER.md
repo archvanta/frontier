@@ -44,3 +44,18 @@ First GitHub Actions run (2026-10-19 19:13 UTC): 18 of 23 feeds OK, 215 stories 
 | `the-decoder` | [The Decoder](https://the-decoder.com/) | media | 3 | the-decoder | none | `https://the-decoder.com/feed/` | verified 2026-10-19 |
 | `ai-news` | [AI News (TechForge)](https://www.artificialintelligence-news.com/) | media | 3 | techforge | none | `https://www.artificialintelligence-news.com/feed/` | failed: HTTP 403 — blocks the collector (HTTP 403); disabled |
 | `simon-willison` | [Simon Willison's Weblog](https://simonwillison.net/) | community | 3 | simon-willison | ai | `https://simonwillison.net/atom/entries/` | verified 2026-10-19 |
+
+### Section sources (added 2026-10-20)
+Feeds for the AI Games and Data Centers sections. All use `filter: ai`, so the main AI news feed stays AI-only, and none is marked verified until a real collector run fetches it (the first run on Actions sets `verifiedOn`; a failing feed is reported on the Sources page like any other). The build container could not reach these hosts, so the URLs come from each publisher's own feed advertisement or a public feed directory and still need that first run.
+
+| ID | Source | Tier | Section | Feed | Status |
+|---|---|---|---|---|---|
+| `game-developer` | [Game Developer](https://www.gamedeveloper.com/) | 3 | ai-games | `https://www.gamedeveloper.com/rss.xml` | not yet run |
+| `gamesindustry-biz` | [GamesIndustry.biz](https://www.gamesindustry.biz/) | 3 | ai-games | `https://www.gamesindustry.biz/feed/news` | not yet run |
+| `verge-games` | [The Verge — Gaming](https://www.theverge.com/games) | 2 | ai-games | `https://www.theverge.com/rss/games/index.xml` | not yet run |
+| `pc-gamer` | [PC Gamer](https://www.pcgamer.com/) | 3 | by keyword | `https://www.pcgamer.com/rss/` | not yet run |
+| `rock-paper-shotgun` | [Rock Paper Shotgun](https://www.rockpapershotgun.com/) | 3 | by keyword | `https://www.rockpapershotgun.com/feed` | not yet run |
+| `datacenter-dynamics` | [DatacenterDynamics](https://www.datacenterdynamics.com/en/) | 3 | data-centers | `https://www.datacenterdynamics.com/en/rss/` | not yet run |
+| `datacenter-knowledge` | [Data Center Knowledge](https://www.datacenterknowledge.com/) | 3 | data-centers | `https://www.datacenterknowledge.com/rss.xml` | not yet run |
+| `register-datacentre` | [The Register — Data Centre](https://www.theregister.com/data_centre/) | 2 | data-centers | `https://www.theregister.com/data_centre/headlines.atom` | not yet run |
+

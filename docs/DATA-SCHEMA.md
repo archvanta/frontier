@@ -1,4 +1,4 @@
-# Data schema (v1)
+# Data schema (v2)
 
 TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_pipeline/schema.py`. Bump `SCHEMA_VERSION` in both and record the change here.
 
@@ -11,6 +11,7 @@ TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_
 | `picks.json` | `asOf`, `weights`, `windows.{daily,weekly,monthly}.{from,to,halfLifeHours,picks[{article,rank,sources,reason[]}]}`; each pick embeds the article with its `score` for that window |
 | `sources.json` | registry + health (`status`, `verifiedOn`, `lastError`, `items`) |
 | `search-index.json` | compact entries for the last `windowDays` (90) days |
+| `sections/<id>.json` | v2. Topic sections `ai-games` and `data-centers`: `{section, windowDays, total, articles: Article[]}`, newest first, at most `SECTION_MAX_STORIES` (60). A story joins when its source lists the section in `sources.yaml` (`sections:`), or its headline/summary matches the section rule in `pipeline/signal_pipeline/sections.py`. A story keeps its category; sections are not categories. |
 
 ## Article
 | Field | Notes |
@@ -33,3 +34,5 @@ TypeScript source of truth: `src/lib/types.ts`. Python mirror: `pipeline/signal_
 
 ## Evolution
 - v1 (2026-10-19): initial schema.
+
+**v2 (2026-10-20):** added `sections/<id>.json` and the optional `sections` field of a source in `sources.yaml`. Additive: existing files keep their shape; the version number moves on the next collector run.
