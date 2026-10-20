@@ -29,6 +29,8 @@ const PATHS = {
   scale: 'M12 4v16M7 20h10M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z',
   code: 'M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14',
   chip: 'M7 7h10v10H7zM10 10h4v4h-4zM9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4',
+  gamepad: 'M7 8h10a4 4 0 0 1 4 4.2l-.4 3.6a2.4 2.4 0 0 1-4.2 1.2L15 15.5H9L7.6 17a2.4 2.4 0 0 1-4.2-1.2L3 12.2A4 4 0 0 1 7 8zM8 10.5v3M6.5 12h3M15.5 11.5h.01M17.5 13.5h.01',
+  server: 'M4 5h16v5H4zM4 14h16v5H4zM7.5 7.5h.01M7.5 16.5h.01M11 7.5h6M11 16.5h6',
 } as const;
 
 export type IconName = keyof typeof PATHS;

@@ -11,6 +11,7 @@ from .dedup import find_event, is_same_source_duplicate, refresh_related
 from .fetch import Fetcher
 from .normalize import ENTITY_PATTERNS, article_id, canonical_url, categorize, detect_entities, looks_ai_related, parse_published, to_iso
 from .parse import FeedError, RawItem, parse_feed
+from .sections import build_sections
 from .sources import Source
 from .store import Store
 from .text import clean_excerpt, html_to_text, truncate
@@ -170,9 +171,10 @@ def run(
     for a in pool:
         for k in [k for k in a if k.startswith("_")]:
             del a[k]
+    sections = build_sections(pool, now, by_id)
 
     translation = translation_info(pool) if translation_info else {"enabled": False, "engine": None, "translated": 0}
-    report.changed = store.write(pool, now, health, picks, translation)
+    report.changed = store.write(pool, now, health, picks, translation, sections)
     report.added = len(new)
     report.sources = health
     return report

@@ -1,4 +1,4 @@
-import type { ArchiveIndex, DayFile, Meta, PicksFile, SearchIndex, SourcesFile } from './types';
+import type { ArchiveIndex, DayFile, Meta, PicksFile, SearchIndex, SectionFile, SectionId, SourcesFile } from './types';
 
 declare const __SIGNAL_DATA_MODE__: 'mock' | 'live';
 
@@ -13,6 +13,7 @@ export interface DataSource {
   picks(): Promise<PicksFile | null>;
   sources(): Promise<SourcesFile | null>;
   searchIndex(): Promise<SearchIndex | null>;
+  section(id: SectionId): Promise<SectionFile | null>;
 }
 
 export class DataError extends Error {}
@@ -43,6 +44,7 @@ function createLiveSource(baseUrl: string, fetcher: typeof fetch = fetch): DataS
     picks: () => get<PicksFile>('picks.json'),
     sources: () => get<SourcesFile>('sources.json'),
     searchIndex: () => get<SearchIndex>('search-index.json'),
+    section: (id) => get<SectionFile>(`sections/${id}.json`),
   };
 }
 
@@ -57,6 +59,7 @@ function createMockSource(now: Date): DataSource {
     picks: () => ds.then((d) => d.picks),
     sources: () => ds.then((d) => d.sources),
     searchIndex: () => ds.then((d) => d.searchIndex),
+    section: (id) => ds.then((d) => d.sections[id] ?? null),
   };
 }
 

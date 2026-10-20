@@ -14,6 +14,7 @@ import { ExplorePage } from './pages/ExplorePage';
 import { HomePage } from './pages/HomePage';
 import { PicksPage } from './pages/PicksPage';
 import { SavedPage } from './pages/SavedPage';
+import { SectionPage } from './pages/SectionPage';
 import { SourcesPage } from './pages/SourcesPage';
 import { StoryPage } from './pages/StoryPage';
 
@@ -35,6 +36,8 @@ function Page({ route, now, meta, heroSlot }: { route: Route; now: Date; meta: i
       return <PicksPage window={route.window} />;
     case 'explore':
       return <ExplorePage params={route.params} />;
+    case 'section':
+      return <SectionPage id={route.id} params={route.params} />;
     case 'archive':
       return <ArchivePage />;
     case 'day':

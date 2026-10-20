@@ -96,6 +96,7 @@ class Store:
         sources: list[dict[str, Any]],
         picks: dict[str, Any] | None,
         translation: dict[str, Any],
+        sections: dict[str, dict[str, Any]] | None = None,
     ) -> bool:
         start = self.window_start(now)
         by_day: dict[str, list[dict[str, Any]]] = {}
@@ -138,6 +139,8 @@ class Store:
         changed |= write_if_changed(self.out / "sources.json", dumps({"schemaVersion": SCHEMA_VERSION, "sources": sources}))
         if picks is not None:
             changed |= write_if_changed(self.out / "picks.json", dumps(picks))
+        for section, body in (sections or {}).items():
+            changed |= write_if_changed(self.out / "sections" / f"{section}.json", dumps(body))
 
         ok = sum(1 for s in sources if s["status"] == "ok")
         failed = sum(1 for s in sources if s["status"] == "error")

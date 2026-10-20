@@ -23,6 +23,12 @@ describe('parseHash', () => {
     const r = parseHash('#/explore?q=gemini&c=models');
     expect(r.name === 'explore' && r.params.get('q')).toBe('gemini');
   });
+  it('parses the topic sections and their company filter', () => {
+    const r = parseHash('#/ai-games?e=openai');
+    expect(r.name === 'section' && r.id === 'ai-games' && r.params.get('e')).toBe('openai');
+    expect(parseHash('#/data-centers')).toMatchObject({ name: 'section', id: 'data-centers' });
+    expect(parseHash('#/ai-games/extra').name).toBe('not-found');
+  });
   it('builds hrefs without empty params', () => {
     expect(href('/explore', { q: 'claude', c: '', page: undefined })).toBe('#/explore?q=claude');
   });

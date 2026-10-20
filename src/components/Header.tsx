@@ -290,6 +290,31 @@ export function Header({ route }: { route: Route }) {
       current: activeCategory === c,
     })),
   };
+  const sections: MenuGroup = {
+    id: 'sections',
+    label: t('nav_sections'),
+    current: route.name === 'section',
+    items: [
+      {
+        key: 'ai-games',
+        to: '/ai-games',
+        icon: 'gamepad',
+        tone: 'lime',
+        title: t('nav_ai_games'),
+        desc: t('menu_ai_games_d'),
+        current: route.name === 'section' && route.id === 'ai-games',
+      },
+      {
+        key: 'data-centers',
+        to: '/data-centers',
+        icon: 'server',
+        tone: 'blue',
+        title: t('nav_data_centers'),
+        desc: t('menu_data_centers_d'),
+        current: route.name === 'section' && route.id === 'data-centers',
+      },
+    ],
+  };
   const more: MenuGroup = {
     id: 'more',
     label: t('nav_more'),
@@ -329,6 +354,7 @@ export function Header({ route }: { route: Route }) {
                 {t('nav_explore')}
               </a>
             </li>
+            {group(sections)}
             {group(more)}
             <li className="nav-item nav-mobile-only">
               <a className="nav-link" href={href('/saved')} aria-current={route.name === 'saved' ? 'page' : undefined}>

@@ -2,7 +2,7 @@
  * Data contracts shared with the Python pipeline (pipeline/signal_pipeline/schema.py).
  * Schema changes must bump SCHEMA_VERSION on both sides and be recorded in docs/DATA-SCHEMA.md.
  */
-export const SCHEMA_VERSION = 1;
+export const SCHEMA_VERSION = 2;
 
 export type Locale = 'en' | 'fa';
 
@@ -26,6 +26,11 @@ export const CATEGORY_IDS: readonly CategoryId[] = [
   'hardware',
   'safety',
 ];
+
+/** Topic sections: curated slices of the stored stories, each with its own page and `data/sections/<id>.json`. */
+export type SectionId = 'ai-games' | 'data-centers';
+
+export const SECTION_IDS: readonly SectionId[] = ['ai-games', 'data-centers'];
 
 /** Brands that get the user's fixed character artwork when they are the story's primary subject. */
 export type BrandId = 'claude' | 'openai' | 'gemini';
@@ -130,6 +135,16 @@ export interface PicksFile {
   asOf: string;
   weights: ScoreParts;
   windows: Record<PickWindow, { from: string; to: string; halfLifeHours?: number; picks: PickEntry[] }>;
+}
+
+export interface SectionFile {
+  schemaVersion: number;
+  section: SectionId;
+  /** How many days back the section covers. */
+  windowDays: number;
+  /** Matching stories in the window; `articles` holds the newest of them. */
+  total: number;
+  articles: Article[];
 }
 
 export type SourceStatus = 'ok' | 'error' | 'disabled' | 'unverified';

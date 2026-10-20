@@ -8,7 +8,7 @@ from urllib.parse import urlsplit
 import yaml
 
 from .config import MAX_ITEMS_PER_SOURCE
-from .schema import BRANDS, CATEGORIES
+from .schema import BRANDS, CATEGORIES, SECTIONS
 
 REGISTRY_PATH = Path(__file__).with_name("sources.yaml")
 KINDS = ("official", "research", "media", "community")
@@ -29,6 +29,7 @@ class Source:
     brand: str | None = None
     og_image: bool = False
     og_hosts: tuple[str, ...] = field(default_factory=tuple)
+    sections: tuple[str, ...] = field(default_factory=tuple)
     max_items: int = MAX_ITEMS_PER_SOURCE
     enabled: bool = True
     notes: str = ""
@@ -65,6 +66,9 @@ def _validate(raw: dict, seen: set[str]) -> Source:
         raise RegistryError(f"source {sid}: unknown brand {raw['brand']}")
     if raw.get("filter", "none") not in ("ai", "none"):
         raise RegistryError(f"source {sid}: filter must be ai|none")
+    sections = raw.get("sections") or []
+    if not isinstance(sections, list) or any(x not in SECTIONS for x in sections):
+        raise RegistryError(f"source {sid}: sections must be a list of {SECTIONS}")
     return Source(
         id=sid,
         name=str(raw["name"]),
@@ -79,6 +83,7 @@ def _validate(raw: dict, seen: set[str]) -> Source:
         brand=raw.get("brand"),
         og_image=bool(raw.get("og_image", False)),
         og_hosts=tuple(raw.get("og_hosts") or ()),
+        sections=tuple(sections),
         max_items=int(raw.get("max_items", MAX_ITEMS_PER_SOURCE)),
         enabled=bool(raw.get("enabled", True)),
         notes=str(raw.get("notes", "")).strip(),
