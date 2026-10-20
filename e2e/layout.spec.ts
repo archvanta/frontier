@@ -118,6 +118,107 @@ for (const [w, h] of [
   });
 }
 
+// The mock data has three slides: a wide photo (frame and background), a boxy photo (frame only) and no photo (frame placeholder only).
+for (const locale of ['en', 'fa'] as const) {
+  test(`hero: background photo on suitable images only, same template and sides on every slide — ${locale}`, async ({ page }) => {
+    await page.addInitScript((l) => localStorage.setItem('signal-ai:locale', l), locale);
+    await page.setViewportSize({ width: 1440, height: 820 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto('./#/');
+    await expect(activeSlide(page)).toHaveCount(1);
+    const slides = page.getByTestId('hero-slide');
+    await expect.poll(() => slides.nth(1).getAttribute('data-photo')).toBe('yes'); // the next slide's photo is preloaded
+    const n = await slides.count();
+    expect(n).toBe(3);
+    const seen: { bg: string | null; photo: string | null; copyBeforeFrame: boolean; frame: string; bgFillsStage: boolean | null }[] = [];
+    for (let k = 0; k < n; k++) {
+      await page.locator('.nh-dot').nth(k).click();
+      await page.mouse.move(2, 2);
+      await expect(slides.nth(k)).toHaveClass(/is-active/);
+      if (k === 0) await expect(slides.nth(0).locator('.nh-bg-img')).toHaveClass(/is-loaded/);
+      seen.push(
+        await page.evaluate((rtl) => {
+          const a = document.querySelector<HTMLElement>('.nh-slide.is-active')!;
+          const content = a.querySelector('.nh-content')!.getBoundingClientRect();
+          const frame = a.querySelector('.nh-frame')!.getBoundingClientRect();
+          const stage = document.querySelector('.nh-stage')!.getBoundingClientRect();
+          const bg = a.querySelector('.nh-bg')?.getBoundingClientRect();
+          return {
+            bg: a.dataset.bg ?? null,
+            photo: a.dataset.photo ?? null,
+            // The copy is on the start side and the photo frame on the end side, for every slide.
+            copyBeforeFrame: rtl ? content.left > frame.left : content.left < frame.left,
+            frame: `${Math.round(frame.x)},${Math.round(frame.y)},${Math.round(frame.width)}x${Math.round(frame.height)}`,
+            bgFillsStage: bg ? Math.abs(bg.width - stage.width) < 2 && Math.abs(bg.height - stage.height) < 2 : null,
+          };
+        }, locale === 'fa'),
+      );
+    }
+    expect(seen.map((s) => [s.bg, s.photo])).toEqual([
+      ['yes', 'yes'],
+      ['no', 'yes'],
+      ['no', 'no'],
+    ]);
+    expect(seen.every((s) => s.copyBeforeFrame)).toBe(true);
+    expect(new Set(seen.map((s) => s.frame)).size).toBe(1);
+    expect(seen[0]!.bgFillsStage).toBe(true);
+    // Text stays readable over the photo: the overlay is dark where the copy sits.
+    const overlay = await page.evaluate(() => getComputedStyle(document.querySelector('.nh-slide .nh-bg')!, '::after').backgroundImage);
+    expect(overlay).toContain('linear-gradient');
+    // The copy-side gradient flips with the reading direction (to right = 90deg, to left = 270deg).
+    expect(overlay).toContain(locale === 'fa' ? '270deg' : '90deg');
+  });
+}
+
+test('hero: the background reuses the frame photo (one request) and the next photo is loaded before its slide shows', async ({ page }) => {
+  const photoRequests: string[] = [];
+  page.on('request', (r) => /mock-(wide|boxy)-.*\.svg/.test(r.url()) && photoRequests.push(r.url()));
+  await page.setViewportSize({ width: 1440, height: 820 });
+  await page.goto('./#/');
+  await expect(activeSlide(page)).toHaveCount(1);
+  await expect(page.locator('.nh-slide').first().locator('.nh-bg-img')).toHaveClass(/is-loaded/);
+  // The upcoming slide's photo is already decoded while it is still hidden.
+  const next = await page
+    .locator('.nh-slide')
+    .nth(1)
+    .locator('.nh-img')
+    .evaluate((img: HTMLImageElement) => ({ done: img.complete, w: img.naturalWidth }));
+  expect(next).toEqual({ done: true, w: 800 });
+  await page.waitForTimeout(500);
+  expect(photoRequests.filter((u) => u.includes('mock-wide')).length).toBe(1);
+  expect(photoRequests.filter((u) => u.includes('mock-boxy')).length).toBe(1);
+});
+
+test('hero: every slide stays exactly 5 seconds', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 820 });
+  await page.goto('./#/');
+  await expect(counter(page)).toContainText('01');
+  const marks = await page.evaluate(
+    () =>
+      new Promise<number[]>((resolve) => {
+        const el = document.querySelector('.nh-count')!;
+        const times: number[] = [];
+        let last = el.textContent;
+        const mo = new MutationObserver(() => {
+          if (el.textContent !== last) {
+            last = el.textContent;
+            times.push(performance.now());
+            if (times.length === 3) {
+              mo.disconnect();
+              resolve(times);
+            }
+          }
+        });
+        mo.observe(el, { childList: true, characterData: true, subtree: true });
+      }),
+  );
+  const gaps = [marks[1]! - marks[0]!, marks[2]! - marks[1]!];
+  for (const g of gaps) {
+    expect(g).toBeGreaterThan(4800);
+    expect(g).toBeLessThan(5400);
+  }
+});
+
 test('hero: indicators, arrows and keyboard navigate, and a manual change restarts the timer', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');

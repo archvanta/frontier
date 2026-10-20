@@ -85,6 +85,30 @@ describe('NewsHero', () => {
     expect(tiny.querySelector('.nh-frame.is-empty')).not.toBeNull();
   });
 
+  it('uses a big landscape photo as the slide background too, with the same URL and the same frame; other slides keep the plain gradient', () => {
+    renderHero([story('a'), story('b'), story('c')]);
+    const load = (k: number, width: number, height: number) => {
+      const slide = screen.getAllByTestId('hero-slide')[k]!;
+      const img = slide.querySelector<HTMLImageElement>('.nh-img')!;
+      Object.defineProperty(img, 'naturalWidth', { value: width });
+      Object.defineProperty(img, 'naturalHeight', { value: height });
+      fireEvent.load(img);
+      return slide;
+    };
+    const wide = load(0, 1600, 900);
+    expect(wide).toHaveAttribute('data-bg', 'yes');
+    expect(wide.querySelector('.nh-bg-img')).toHaveAttribute('src', 'https://img.example.com/a.jpg');
+    expect(wide.querySelector('.nh-frame img')).toHaveAttribute('src', 'https://img.example.com/a.jpg');
+    const boxy = load(1, 800, 600);
+    expect(boxy).toHaveAttribute('data-photo', 'yes');
+    expect(boxy).toHaveAttribute('data-bg', 'no');
+    expect(boxy.querySelector('.nh-bg')).toBeNull();
+    // A failing background copy falls back to the plain gradient and leaves the frame alone.
+    fireEvent.error(wide.querySelector('.nh-bg-img')!);
+    expect(wide).toHaveAttribute('data-bg', 'no');
+    expect(wide.querySelector('.nh-frame img')).not.toBeNull();
+  });
+
   it('never clamps the headline', () => {
     renderHero([story('a')]);
     const title = screen.getByRole('heading', { level: 2 });
