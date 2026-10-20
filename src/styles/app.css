@@ -4469,24 +4469,232 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
   mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, transparent 70%);
 }
 
+.hi-glow-c {
+  inset-block-start: 22%;
+  inset-inline-start: 38%;
+  inline-size: 34vmax;
+  block-size: 34vmax;
+  background: radial-gradient(circle, rgba(40, 190, 230, 0.34), transparent 65%);
+  opacity: 0.45;
+}
+
+/* Moving backdrop, full-motion mode only. Everything animates transform or opacity (compositor only), and it all pauses while the scene is
+   scrolled out of view. */
 html[data-motion='full'] .hi-glow-a {
-  animation: hi-drift-a 26s ease-in-out infinite alternate;
+  animation: hi-drift-a 18s ease-in-out infinite alternate;
 }
 
 html[data-motion='full'] .hi-glow-b {
-  animation: hi-drift-b 32s ease-in-out infinite alternate;
+  animation: hi-drift-b 22s ease-in-out infinite alternate;
+}
+
+html[data-motion='full'] .hi-glow-c {
+  animation: hi-drift-c 15s ease-in-out infinite alternate;
 }
 
 @keyframes hi-drift-a {
   to {
-    transform: translate3d(9vmax, 6vmax, 0) scale(1.12);
+    transform: translate3d(22vmax, 12vmax, 0) scale(1.2);
   }
 }
 
 @keyframes hi-drift-b {
   to {
-    transform: translate3d(-8vmax, -5vmax, 0) scale(1.1);
+    transform: translate3d(-20vmax, -10vmax, 0) scale(1.15);
   }
+}
+
+@keyframes hi-drift-c {
+  from {
+    transform: translate3d(-16vmax, 6vmax, 0) scale(0.9);
+  }
+  to {
+    transform: translate3d(18vmax, -8vmax, 0) scale(1.25);
+  }
+}
+
+/* The grid is drawn on a layer one tile larger than the scene and slid by exactly one tile, so the loop has no seam. */
+.hi-grid {
+  inset: -64px;
+}
+
+html[data-motion='full'] .hi-grid {
+  animation: hi-grid 9s linear infinite;
+}
+
+@keyframes hi-grid {
+  to {
+    transform: translate3d(64px, 64px, 0);
+  }
+}
+
+/* A soft diagonal sweep of light. */
+.hi-beam,
+.hi-specks {
+  display: none;
+}
+
+html[data-motion='full'] .hi-beam {
+  display: block;
+  position: absolute;
+  inset-block: -20%;
+  inset-inline-start: -30%;
+  inline-size: 26%;
+  transform: translate3d(0, 0, 0) skewX(-18deg);
+  background: linear-gradient(90deg, transparent, rgba(140, 180, 255, 0.13), transparent);
+  animation: hi-beam 11s ease-in-out infinite;
+}
+
+html[dir='rtl'][data-motion='full'] .hi-beam {
+  inset-inline-start: auto;
+  inset-inline-end: -30%;
+  animation-name: hi-beam-rtl;
+}
+
+@keyframes hi-beam {
+  0%,
+  12% {
+    transform: translate3d(0, 0, 0) skewX(-18deg);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  88%,
+  100% {
+    transform: translate3d(480%, 0, 0) skewX(-18deg);
+    opacity: 0;
+  }
+}
+
+@keyframes hi-beam-rtl {
+  0%,
+  12% {
+    transform: translate3d(0, 0, 0) skewX(18deg);
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  88%,
+  100% {
+    transform: translate3d(-480%, 0, 0) skewX(18deg);
+    opacity: 0;
+  }
+}
+
+/* A few specks of light rising slowly, like signals. */
+html[data-motion='full'] .hi-specks {
+  display: block;
+  position: absolute;
+  inset: 0;
+}
+
+.hi-specks i {
+  position: absolute;
+  inset-block-end: -4%;
+  inset-inline-start: var(--x);
+  inline-size: var(--s);
+  block-size: var(--s);
+  border-radius: 50%;
+  background: rgba(170, 205, 255, 0.9);
+  box-shadow: 0 0 10px 2px rgba(110, 160, 255, 0.55);
+  opacity: 0;
+  animation: hi-rise var(--d) linear var(--w) infinite;
+}
+
+@keyframes hi-rise {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.85;
+  }
+  80% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translate3d(0, -70vmin, 0);
+    opacity: 0;
+  }
+}
+
+.home-intro[data-live='false'] .hi-backdrop * {
+  animation-play-state: paused;
+}
+
+/* The three ways in, right under the intro text. */
+.hi-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s-3);
+  margin-block: var(--s-2);
+}
+
+.hi-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-block-size: 44px;
+  padding: 0.35rem 1rem 0.35rem 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  text-decoration: none;
+  transition:
+    transform var(--dur) var(--ease),
+    background var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
+}
+
+.hi-link:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(140, 180, 255, 0.55);
+}
+
+.hi-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.hi-link .icon:last-child {
+  opacity: 0.6;
+}
+
+.hi-link-art,
+.hi-link-icon {
+  flex: none;
+  inline-size: 30px;
+  block-size: 30px;
+  border-radius: 50%;
+}
+
+.hi-link-art {
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
+}
+
+.hi-link-icon {
+  display: inline-grid;
+  place-items: center;
+  background: linear-gradient(145deg, #6aa8ff 0%, #3a5af0 55%, #6d3df0 100%);
+  color: #fff;
+}
+
+html[lang='fa'] .hi-link {
+  font-weight: 700;
 }
 
 .hi-inner {
@@ -4629,8 +4837,14 @@ html[lang='fa'] .follow-title {
 
 @media (prefers-reduced-motion: reduce) {
   .hi-glow,
+  .hi-grid,
+  .hi-beam,
+  .hi-specks i,
   .hi-scroll .icon {
     animation: none !important;
+  }
+  .hi-link:hover {
+    transform: none;
   }
 }
 

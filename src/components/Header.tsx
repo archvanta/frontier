@@ -336,6 +336,15 @@ export function Header({ route }: { route: Route }) {
         desc: t('menu_data_centers_d'),
         current: route.name === 'section' && route.id === 'data-centers',
       },
+      {
+        key: 'ai-news',
+        to: '/explore',
+        icon: 'sparkle',
+        tone: 'violet',
+        title: t('intro_link_news'),
+        desc: t('menu_ai_news_d'),
+        current: false,
+      },
     ],
   };
   const more: MenuGroup = {
