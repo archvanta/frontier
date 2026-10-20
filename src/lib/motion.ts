@@ -74,6 +74,8 @@ export function useMotionMode(): MotionMode {
 
 interface ViewTransitionLike {
   finished: Promise<void>;
+  ready?: Promise<void>;
+  updateCallbackDone?: Promise<void>;
 }
 type DocWithVT = Document & { startViewTransition?: (cb: () => void | Promise<void>) => ViewTransitionLike };
 
@@ -100,6 +102,9 @@ export function runTransition(update: () => void, kind: TransitionKind): void {
     const vt = (document as DocWithVT).startViewTransition!(() => {
       flushSync(update);
     });
+    // A transition overtaken by a newer one is skipped and its promises reject; that is expected, not an error.
+    void vt.ready?.catch(() => undefined);
+    void vt.updateCallbackDone?.catch(() => undefined);
     void vt.finished
       .catch(() => undefined)
       .finally(() => {
@@ -224,5 +229,7 @@ export function usePresence(open: boolean, ms: number = DUR.overlay): { mounted:
     const id = window.setTimeout(() => setMounted(false), ms);
     return () => window.clearTimeout(id);
   }, [open, ms]);
+  // Under reduced motion a closed panel leaves in the same render, not an effect later.
+  if (motionMode() === 'reduced') return { mounted: open, closing: false };
   return { mounted: open || mounted, closing: !open && mounted };
 }

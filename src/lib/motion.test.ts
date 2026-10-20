@@ -83,6 +83,18 @@ describe('runTransition', () => {
     expect(update).toHaveBeenCalledTimes(1);
   });
 
+  it('treats a transition overtaken by a newer one as normal, with no unhandled rejection', async () => {
+    const skipped = () => Promise.reject(new DOMException('Transition was skipped. New ViewTransition started', 'AbortError'));
+    (document as unknown as Doc).startViewTransition = (cb: () => void) => {
+      cb();
+      return { ready: skipped(), updateCallbackDone: Promise.resolve(), finished: Promise.resolve() };
+    };
+    const update = vi.fn();
+    runTransition(update, 'page');
+    await new Promise((r) => setTimeout(r, 0));
+    expect(update).toHaveBeenCalledTimes(1);
+  });
+
   it('still applies the change if starting the transition throws', () => {
     (document as unknown as Doc).startViewTransition = () => {
       throw new Error('InvalidStateError');
