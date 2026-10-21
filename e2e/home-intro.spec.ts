@@ -2,39 +2,47 @@ import { expect, test } from '@playwright/test';
 
 const KEY = 'signal-ai:followed-topics:v1';
 
-test('the first screen introduces the site; topics and the hero follow below it', async ({ page }) => {
+test('homepage order: intro, hero, signal wall, topics to follow, Latest News', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const h1 = page.getByRole('heading', { level: 1 });
   await expect(h1).toHaveText('FRONTIER');
   await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
   await expect(h1).toBeInViewport();
-  // Order: intro, topics, hero, then the news.
-  const tops = await page.evaluate(() =>
-    ['.home-intro', '#follow', '#news-hero', '#top-signals'].map((s) => document.querySelector(s)!.getBoundingClientRect().top + window.scrollY),
+  const sels = ['.home-intro', '#news-hero', '[data-testid=signal-wall]', '#follow', '#latest'];
+  const boxes = await page.evaluate(
+    (ss) =>
+      ss.map((s) => {
+        const r = document.querySelector(s)!.getBoundingClientRect();
+        return { top: r.top + window.scrollY, bottom: r.bottom + window.scrollY };
+      }),
+    sels,
   );
-  expect(tops).toEqual([...tops].sort((a, b) => a - b));
-  // The intro fills the first screen: the topic picker starts at or below the fold.
-  expect(tops[1]).toBeGreaterThanOrEqual(899);
-  await expect(page.locator('#follow')).not.toBeInViewport();
+  expect(boxes.map((b) => b.top)).toEqual(boxes.map((b) => b.top).sort((a, b) => a - b));
+  // The intro fills the first screen.
+  expect(boxes[1]!.top).toBeGreaterThanOrEqual(899);
+  // The topic panel sits in the gap under the wall with the same spacing above and below.
+  const above = boxes[3]!.top - boxes[2]!.bottom;
+  const below = boxes[4]!.top - boxes[3]!.bottom;
+  expect(above).toBeGreaterThan(20);
+  expect(Math.abs(above - below)).toBeLessThan(2);
 });
 
-test('"scroll" on the intro brings the topics into view', async ({ page }) => {
+test('"scroll" on the intro brings the hero into view', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('./#/');
   await page.locator('.hi-scroll').click();
-  await expect(page.locator('#follow-title')).toBeInViewport();
-  await expect(page.locator('#follow')).toBeFocused();
+  await expect(page.locator('.nh-main')).toBeInViewport({ ratio: 0.8 });
 });
 
-test('skipping the topics goes straight to the hero slider', async ({ page }) => {
+test('"Skip to the news" under the topics goes to Latest News', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('./#/');
+  await page.locator('#follow').scrollIntoViewIfNeeded();
   await page.getByRole('button', { name: /Skip to the news/ }).click();
-  await expect(page.locator('.nh-main')).toBeInViewport({ ratio: 0.8 });
-  await expect(page.locator('.nh-count')).toContainText('01');
+  await expect(page.locator('#latest .section-title')).toBeInViewport();
 });
 
 test('choosing topics is saved on this device and puts those stories first', async ({ page }) => {

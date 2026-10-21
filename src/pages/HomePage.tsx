@@ -73,8 +73,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
         heroSlot &&
         createPortal(
           <>
-            <HomeIntro onContinue={goTo('follow')} />
-            <FollowTopics onSkip={goTo('news-hero')} />
+            <HomeIntro onContinue={goTo('news-hero')} />
             {heroStories === null || heroStories.length > 0 ? (
               <NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} standalone={false} />
             ) : null}
@@ -92,6 +91,7 @@ export function HomePage({ page, meta, now, heroSlot }: { page: number; meta: Me
           )}
           {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} />}
           {page === 1 && <SignalWall stories={newest} now={now} />}
+          {page === 1 && <FollowTopics onSkip={goTo('latest')} />}
           <div className="latest-layout">
             <aside className="latest-aside" aria-label={t('weekly_brief')}>
               {page === 1 && <WeeklyBrief picks={feed.data.picks} />}
