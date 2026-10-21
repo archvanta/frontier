@@ -14,6 +14,7 @@
 #   og_image  allow fetching og:image from article pages on og_hosts when the feed has no image
 #   max_items cap per run
 #   notes     terms / caveats
+#   expect_title  optional: the feed's own title must equal this (YouTube channel name), else the source errors
 
 sources:
   # ---------- Official labs & companies ----------
@@ -455,3 +456,116 @@ sources:
     max_items: 15
     og_image: false
     notes: Data-centre section feed; filtered to AI items. Added 2026-10-20, unverified until the first collector run.
+
+  # ---------- Video channels ----------
+  # Public YouTube channel feeds (youtube.com/feeds/videos.xml, no key, no quota). Each item is a
+  # video: the site plays it in the page through the privacy-enhanced youtube-nocookie.com player
+  # (click to load), with the channel named and a link to the video on YouTube. Nothing is
+  # downloaded or re-hosted. `expect_title` must equal the channel's name in the feed, so a wrong
+  # channel id shows up as an error on the Sources page instead of collecting someone else's videos.
+  - id: openai-youtube
+    name: OpenAI (YouTube)
+    homepage: https://www.youtube.com/@OpenAI
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A
+    expect_title: OpenAI
+    kind: official
+    tier: 1
+    owner: openai
+    lang: en
+    category: models
+    filter: none
+    brand: openai
+    max_items: 8
+    og_image: false
+    notes: Official OpenAI YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.
+
+  - id: anthropic-youtube
+    name: Anthropic (YouTube)
+    homepage: https://www.youtube.com/@anthropic-ai
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA
+    expect_title: Anthropic
+    kind: official
+    tier: 1
+    owner: anthropic
+    lang: en
+    category: models
+    filter: none
+    brand: claude
+    max_items: 8
+    og_image: false
+    notes: Official Anthropic YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.
+
+  - id: deepmind-youtube
+    name: Google DeepMind (YouTube)
+    homepage: https://www.youtube.com/@googledeepmind
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A
+    expect_title: Google DeepMind
+    kind: official
+    tier: 1
+    owner: google
+    lang: en
+    category: research
+    filter: none
+    max_items: 8
+    og_image: false
+    notes: Official Google DeepMind YouTube channel feed. Added 2026-10-21, unverified until the first collector run.
+
+  - id: google-developers-youtube
+    name: Google for Developers (YouTube)
+    homepage: https://www.youtube.com/@GoogleDevelopers
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw
+    expect_title: Google for Developers
+    kind: official
+    tier: 1
+    owner: google
+    lang: en
+    category: products
+    filter: ai
+    max_items: 8
+    og_image: false
+    notes: Official Google developer channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.
+
+  - id: nvidia-youtube
+    name: NVIDIA (YouTube)
+    homepage: https://www.youtube.com/@NVIDIA
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g
+    expect_title: NVIDIA
+    kind: official
+    tier: 1
+    owner: nvidia
+    lang: en
+    category: hardware
+    filter: ai
+    max_items: 8
+    og_image: false
+    notes: Official NVIDIA YouTube channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.
+
+  - id: two-minute-papers
+    name: Two Minute Papers (YouTube)
+    homepage: https://www.youtube.com/@TwoMinutePapers
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg
+    expect_title: Two Minute Papers
+    kind: media
+    tier: 3
+    owner: two-minute-papers
+    lang: en
+    category: research
+    filter: none
+    max_items: 6
+    og_image: false
+    notes: Independent channel explaining new AI and graphics research papers. Added 2026-10-21, unverified until the first collector run.
+
+  - id: verge-youtube
+    name: The Verge (YouTube)
+    homepage: https://www.youtube.com/@TheVerge
+    feed: https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ
+    expect_title: The Verge
+    kind: media
+    tier: 2
+    owner: vox-media
+    lang: en
+    category: products
+    filter: ai
+    max_items: 6
+    og_image: false
+    notes: The Verge's YouTube channel; filtered to AI items. Same owner as The Verge AI feed, so it never counts as independent corroboration. Added 2026-10-21, unverified until the first collector run.

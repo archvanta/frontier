@@ -13,6 +13,7 @@ from . import config
 from .brands import BRAND_ART, BRAND_LABEL, primary_brand
 from .fetch import Fetcher
 from .sources import Source
+from .video import youtube_thumbnail
 
 OG_MAX_BYTES = 512_000
 OG_PER_SOURCE_PER_RUN = 10
@@ -164,7 +165,7 @@ class ImageStep:
             img = og_image(a["url"], self.fetcher)
             if img:
                 return {**img, "kind": "og", "sourceUrl": a["url"]}
-        return None
+        return youtube_thumbnail(a.get("video"))
 
     def __call__(self, new: list[dict[str, Any]], pool: list[dict[str, Any]], sources: dict[str, Source], _now: Any) -> None:
         for a in new:

@@ -1,4 +1,4 @@
-"""Topic sections (AI Games, Data Center Design): curated slices of the stored stories.
+"""Topic sections (AI Games, Data Center Design, Videos): curated slices of the stored stories.
 
 A section is not a category. A story keeps its category (a game studio's funding round stays
 "business") and can also belong to a section. Membership is decided here, once per run, so the site
@@ -6,6 +6,9 @@ never re-implements the rules:
 
 - every story from a source whose `sections` list in sources.yaml names the section, and
 - every other stored story whose title, excerpt or feed tags match the section's keyword rule.
+
+The Videos section is a format, not a topic: it holds every story with a playable video (video.py),
+whatever its source.
 
 Every stored story is already AI-related (AI feeds, or general feeds filtered to AI items), so the
 rules only have to recognise the topic. Each section is written to data/sections/<id>.json, newest
@@ -68,15 +71,21 @@ def is_data_center(a: dict[str, Any]) -> bool:
     return len(_DATA_CENTER.findall(a.get("excerpt", ""))) >= 2
 
 
+def is_video(a: dict[str, Any]) -> bool:
+    """Every story with a playable video (see video.py)."""
+    return bool(a.get("video"))
+
+
 RULES = {
     "ai-games": is_ai_game,
     "data-centers": is_data_center,
+    "videos": is_video,
 }
 
 
 def in_section(section: str, a: dict[str, Any], sources: dict[str, Source]) -> bool:
     src = sources.get(a.get("sourceId", ""))
-    if src is not None and section in src.sections:
+    if section != "videos" and src is not None and section in src.sections:
         return True
     return RULES[section](a)
 
