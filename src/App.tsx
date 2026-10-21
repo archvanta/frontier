@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
 import { AccountToast } from './components/account/AccountToast';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import { SiteIntro } from './components/SiteIntro';
 import { EmptyState } from './components/States';
 import { AccountProvider } from './lib/account/AccountProvider';
 import type { AccountConfig } from './lib/account/config';
@@ -121,6 +122,7 @@ export function App({ source, account }: { source?: DataSource; account?: { conf
       </main>
       <Footer meta={meta.status === 'ready' ? meta.data : null} />
       <AccountToast />
+      <SiteIntro />
       </AccountProvider>
     </DataProvider>
   );

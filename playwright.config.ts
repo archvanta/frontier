@@ -11,6 +11,8 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:4174/SIGNAL_AI/',
     trace: 'retain-on-failure',
+    // The opening animation is switched off for the suite (so it never covers the page under test); e2e/site-intro.spec.ts turns it back on.
+    storageState: { cookies: [], origins: [{ origin: 'http://localhost:4174', localStorage: [{ name: 'signal-ai:intro', value: 'off' }] }] },
     launchOptions: executablePath ? { executablePath } : undefined,
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
