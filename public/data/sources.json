@@ -204,10 +204,9 @@
    "tier": 2,
    "lang": "en",
    "enabled": true,
-   "status": "error",
+   "status": "ok",
    "notes": "Category RSS feed.",
-   "verifiedOn": "2026-10-19",
-   "lastError": "HTTP 503"
+   "verifiedOn": "2026-10-19"
   },
   {
    "id": "wired-ai",
@@ -347,9 +346,10 @@
    "tier": 3,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "PC games outlet; site-wide feed filtered to AI items. Joins AI Games only when a story is about games (it also covers hardware). Added 2026-10-20, unverified until the first collector run.",
-   "verifiedOn": "2026-10-20"
+   "verifiedOn": "2026-10-20",
+   "lastError": "response too large"
   },
   {
    "id": "rock-paper-shotgun",

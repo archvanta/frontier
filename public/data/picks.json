@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-21T13:42:05Z",
+ "asOf": "2026-10-21T17:35:36Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,175 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-20T13:42:05Z",
-   "to": "2026-10-21T13:42:05Z",
+   "from": "2026-10-20T17:35:36Z",
+   "to": "2026-10-21T17:35:36Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "354f89a6c7dbf10c",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T17:35:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+      },
+      "eventId": "354f89a6c7dbf10c",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8477c3daca9c4e08",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-10-21T16:23:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine perception"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "8477c3daca9c4e08",
+      "related": [],
+      "score": {
+       "total": 69.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.3,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "74fcf21eca7add4a",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "product"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "74fcf21eca7add4a",
+      "related": [],
+      "score": {
+       "total": 69.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 76.7,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات ChatGPT به 26 کشور جدید گسترش یافته است زیرا بیش از 100،000 تبلیغ کننده از این پلتفرم استفاده کرده اند.",
+        "excerpt": "از کسب و کارهای محلی تا مارک های جهانی، تبلیغ کنندگان بیشتری اکنون می توانند به افرادی که در حال بررسی، مقایسه و تصمیم به خرید در ChatGPT هستند، دسترسی پیدا کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "38715d90bd30f009",
@@ -42,15 +207,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 76.1,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -60,7 +225,468 @@
        }
       }
      },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f66886777241fd98",
+      "url": "https://www.youtube.com/watch?v=4idQxzAyPDo",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How AI Enables Better, More Connected Patient Care",
+      "excerpt": "Better care starts when the systems around a doctor and a patient work together. AI connects conversations, lab results, operating room planning, supplies, and recovery support. This gives care teams better information to provide you with what you need. Connected digital tools and AI-powered equipment can help doctors spend more time being your doctor. Follow us: X: https://nvda.ws/4hi2sxB…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T16:16:52Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i1.ytimg.com/vi/4idQxzAyPDo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "4idQxzAyPDo",
+       "url": "https://www.youtube.com/watch?v=4idQxzAyPDo"
+      },
+      "eventId": "f66886777241fd98",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.7,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه هوش مصنوعی بیمار را بهتر و متصل تر می کند",
+        "excerpt": "مراقبت بهتر زمانی شروع می شود که سیستم های اطراف یک پزشک و بیمار با هم کار کنند. AI مکالمات، نتایج آزمایشگاه، برنامه ریزی اتاق عمل، تدارکات و حمایت از بهبودی را به هم متصل می کند. این به تیم های مراقبت اطلاعات بهتر می دهد تا شما را با آنچه که نیاز دارید، ارائه دهند. ابزارهای دیجیتال متصل و تجهیزات مبتنی بر هوش مصنوعی می توانند به پزشکان کمک کنند تا زمان بیشتری را صرف پزشک کنند. ما را دنبال کنید: X: https://nvda.ws/4hi2sxB",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "841e916aec0ebd36",
+      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
+      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T14:00:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "Y39uub4n0LA",
+       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
+      },
+      "eventId": "841e916aec0ebd36",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 81.3,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
+        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-14T17:35:36Z",
+   "to": "2026-10-21T17:35:36Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "74fcf21eca7add4a",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "product"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "74fcf21eca7add4a",
+      "related": [],
+      "score": {
+       "total": 73.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.7,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات ChatGPT به 26 کشور جدید گسترش یافته است زیرا بیش از 100،000 تبلیغ کننده از این پلتفرم استفاده کرده اند.",
+        "excerpt": "از کسب و کارهای محلی تا مارک های جهانی، تبلیغ کنندگان بیشتری اکنون می توانند به افرادی که در حال بررسی، مقایسه و تصمیم به خرید در ChatGPT هستند، دسترسی پیدا کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "dbaa902542534b3a",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI acquires Orchestra Bio",
+      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "business",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "dbaa902542534b3a",
+      "related": [
+       "aeaa448f66c5e86e"
+      ],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 67.0,
+        "topic": 55.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI به دست آوردن ارکستر Bio",
+        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T18:31:30Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "38715d90bd30f009",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:51:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "safety",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
+      },
+      "eventId": "38715d90bd30f009",
+      "related": [],
+      "score": {
+       "total": 71.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.5,
+        "topic": 90.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T13:55:00Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8477c3daca9c4e08",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-10-21T16:23:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine perception"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "8477c3daca9c4e08",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "354f89a6c7dbf10c",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T17:35:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+      },
+      "eventId": "354f89a6c7dbf10c",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "841e916aec0ebd36",
+      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
+      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T14:00:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "Y39uub4n0LA",
+       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
+      },
+      "eventId": "841e916aec0ebd36",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.6,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
+        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -100,15 +726,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 94.2,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -119,7 +745,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -129,212 +755,56 @@
     },
     {
      "article": {
-      "id": "99ae24e773f80392",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "excerpt": "",
+      "id": "4292624d42f865f0",
+      "url": "https://www.youtube.com/shorts/v45XAMqH7pE",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "You need a better headshot.",
+      "excerpt": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
       "lang": "en",
-      "publishedAt": "2026-10-21T10:59:42Z",
+      "publishedAt": "2026-10-20T13:00:34Z",
       "dateEstimated": false,
       "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "open-source",
+      "day": "2026-10-20",
+      "category": "models",
       "tags": [],
       "entities": [
-       "huggingface"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
-      },
-      "eventId": "99ae24e773f80392",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.5,
-        "topic": 75.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "da2f8b0b93e185d1",
-      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
-      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T11:20:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/v45XAMqH7pE/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "IqhDPbRrsh4",
-       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
+       "id": "v45XAMqH7pE",
+       "url": "https://www.youtube.com/watch?v=v45XAMqH7pE"
       },
-      "eventId": "da2f8b0b93e185d1",
+      "eventId": "4292624d42f865f0",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
-        "topic": 80.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "db73069fa994e255",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "excerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T10:45:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "cloud",
-       "hardware",
-       "networking",
-       "gtc 2026",
-       "nemotron"
-      ],
-      "entities": [
-       "google",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GoogleCloud-VeraRubin-1920x1080-1.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "db73069fa994e255",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.3,
-        "topic": 70.0,
+        "recency": 75.9,
+        "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
-        "title": "Google Cloud و NVIDIA اعلام کردند که دسترسی عمومی زیرساخت NVIDIA Vera Rubin",
-        "excerpt": "در دسترس بودن عمومی موارد ماه آینده با گسترش برنامه ریزی شده در دسترس بودن به اروپا - آوردن یک پلت فرم یکپارچه برای آموزش، استنتاج و یادگیری تقویت در مقیاس بزرگ به مشتریان ابر. نمونه های A5X NVL72، NVIDIA ConnectX-9 SuperNICs، Google Cloud Virgo Network و نسل چهارم پیشرفته مایع سازی پیشرفته Google Cloud را گرد هم می آورد.",
+        "title": "شما نیاز به یک شات بهتر دارید.",
+        "excerpt": "این JUST IN: شما نیاز به یک شات بهتر دارید. حال خود را در تصاویر ChatGPT ایجاد کنید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T12:28:47Z"
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [],
-      "score": {
-       "total": 65.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.6,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -344,10 +814,10 @@
     }
    ]
   },
-  "weekly": {
-   "from": "2026-10-14T13:42:05Z",
-   "to": "2026-10-21T13:42:05Z",
-   "halfLifeHours": 72,
+  "monthly": {
+   "from": "2026-09-21T17:35:36Z",
+   "to": "2026-10-21T17:35:36Z",
+   "halfLifeHours": 240,
    "picks": [
     {
      "article": {
@@ -379,15 +849,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 73.4,
+       "total": 77.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.6,
+        "recency": 88.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -403,6 +873,116 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "74fcf21eca7add4a",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "product"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "74fcf21eca7add4a",
+      "related": [],
+      "score": {
+       "total": 74.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات ChatGPT به 26 کشور جدید گسترش یافته است زیرا بیش از 100،000 تبلیغ کننده از این پلتفرم استفاده کرده اند.",
+        "excerpt": "از کسب و کارهای محلی تا مارک های جهانی، تبلیغ کنندگان بیشتری اکنون می توانند به افرادی که در حال بررسی، مقایسه و تصمیم به خرید در ChatGPT هستند، دسترسی پیدا کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "edef63b51aedc012",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "excerpt": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "edef63b51aedc012",
+      "related": [],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه تبلیغ جدید ChatGPT را برای اعتماد کاربر و ارتباط برقرار کنیم",
+        "excerpt": "یاد بگیرید که OpenAI چگونه پشته تبلیغات LLM مبتنی بر ChatGPT را برای درک هدف مکالمه ایجاد کرد، تبلیغات را از پاسخ جدا نگه دارید و تبلیغات مربوطه را در مقیاس ارائه دهید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -435,15 +1015,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.6,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -453,7 +1033,60 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 72.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.7,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-21T17:35:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -497,11 +1130,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 98.2,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -510,162 +1143,6 @@
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T13:55:00Z"
        }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "99ae24e773f80392",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T10:59:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
-      },
-      "eventId": "99ae24e773f80392",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 75.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4292624d42f865f0",
-      "url": "https://www.youtube.com/shorts/v45XAMqH7pE",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "You need a better headshot.",
-      "excerpt": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T13:00:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/v45XAMqH7pE/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "v45XAMqH7pE",
-       "url": "https://www.youtube.com/watch?v=v45XAMqH7pE"
-      },
-      "eventId": "4292624d42f865f0",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 78.8,
-        "topic": 100.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شما نیاز به یک شات بهتر دارید.",
-        "excerpt": "این JUST IN: شما نیاز به یک شات بهتر دارید. حال خود را در تصاویر ChatGPT ایجاد کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T12:28:47Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "da2f8b0b93e185d1",
-      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
-      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T11:20:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "IqhDPbRrsh4",
-       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
-      },
-      "eventId": "da2f8b0b93e185d1",
-      "related": [],
-      "score": {
-       "total": 69.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.7,
-        "topic": 80.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-21T13:42:05Z"
       }
      },
      "rank": 6,
@@ -678,53 +1155,52 @@
     },
     {
      "article": {
-      "id": "753fc98bb47cb9f3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
+      "id": "841e916aec0ebd36",
+      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
+      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
       "lang": "en",
-      "publishedAt": "2026-10-20T16:42:53Z",
+      "publishedAt": "2026-10-21T14:00:29Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
       "entities": [
-       "amazon",
-       "openai"
+       "nvidia"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
-       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
+       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "753fc98bb47cb9f3",
+      "video": {
+       "provider": "youtube",
+       "id": "Y39uub4n0LA",
+       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
+      },
+      "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
-        "topic": 100.0,
-        "novelty": 76.9
+        "recency": 99.0,
+        "topic": 80.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
-        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
-        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
+        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
+        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
@@ -738,402 +1214,54 @@
     },
     {
      "article": {
-      "id": "db73069fa994e255",
-      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
-      "excerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling…",
+      "id": "8477c3daca9c4e08",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "excerpt": "Health & Bioscience",
       "lang": "en",
-      "publishedAt": "2026-10-21T10:45:17Z",
+      "publishedAt": "2026-10-21T16:23:53Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
+      "fetchedAt": "2026-10-21T17:42:19Z",
       "day": "2026-10-21",
-      "category": "hardware",
+      "category": "research",
       "tags": [
-       "ai infrastructure",
-       "cloud",
-       "hardware",
-       "networking",
-       "gtc 2026",
-       "nemotron"
+       "health & bioscience",
+       "machine perception"
       ],
       "entities": [
-       "google",
-       "nvidia"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GoogleCloud-VeraRubin-1920x1080-1.png",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png",
        "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "db73069fa994e255",
+      "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
-        "topic": 70.0,
-        "novelty": 88.9
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
-        "title": "Google Cloud و NVIDIA اعلام کردند که دسترسی عمومی زیرساخت NVIDIA Vera Rubin",
-        "excerpt": "در دسترس بودن عمومی موارد ماه آینده با گسترش برنامه ریزی شده در دسترس بودن به اروپا - آوردن یک پلت فرم یکپارچه برای آموزش، استنتاج و یادگیری تقویت در مقیاس بزرگ به مشتریان ابر. نمونه های A5X NVL72، NVIDIA ConnectX-9 SuperNICs، Google Cloud Virgo Network و نسل چهارم پیشرفته مایع سازی پیشرفته Google Cloud را گرد هم می آورد.",
+        "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
+        "excerpt": "سلامت و علوم زیستی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T12:28:47Z"
+        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
      "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "monthly": {
-   "from": "2026-09-21T13:42:05Z",
-   "to": "2026-10-21T13:42:05Z",
-   "halfLifeHours": 240,
-   "picks": [
-    {
-     "article": {
-      "id": "dbaa902542534b3a",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI acquires Orchestra Bio",
-      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "business",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "dbaa902542534b3a",
-      "related": [
-       "aeaa448f66c5e86e"
-      ],
-      "score": {
-       "total": 77.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 89.7,
-        "topic": 55.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI به دست آوردن ارکستر Bio",
-        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "38715d90bd30f009",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:51:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
-      },
-      "eventId": "38715d90bd30f009",
-      "related": [],
-      "score": {
-       "total": 72.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 90.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 72.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.7,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4292624d42f865f0",
-      "url": "https://www.youtube.com/shorts/v45XAMqH7pE",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "You need a better headshot.",
-      "excerpt": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T13:00:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/v45XAMqH7pE/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "v45XAMqH7pE",
-       "url": "https://www.youtube.com/watch?v=v45XAMqH7pE"
-      },
-      "eventId": "4292624d42f865f0",
-      "related": [],
-      "score": {
-       "total": 72.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.1,
-        "topic": 100.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شما نیاز به یک شات بهتر دارید.",
-        "excerpt": "این JUST IN: شما نیاز به یک شات بهتر دارید. حال خود را در تصاویر ChatGPT ایجاد کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T12:28:47Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b3fcb2e42d321123",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "b3fcb2e42d321123",
-      "related": [],
-      "score": {
-       "total": 72.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.3,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
-        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4eb2d0aea125c558",
-      "url": "https://www.youtube.com/watch?v=xaHdyqGtG1M",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Introducing NVIDIA OpenShell Reference Architecture for Safer AI Agents",
-      "excerpt": "Introducing NVIDIA OpenShell Reference Architecture, an open hardware and software architecture for securing autonomous AI agents across the full stack. As agents take on long-running workflows at scale, safety requires controls outside the agents themselves. See why model alignment alone is not enough—and how models, tools, harnesses, and runtimes fit together. Without proper governance, agents…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T11:20:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i1.ytimg.com/vi/xaHdyqGtG1M/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "xaHdyqGtG1M",
-       "url": "https://www.youtube.com/watch?v=xaHdyqGtG1M"
-      },
-      "eventId": "4eb2d0aea125c558",
-      "related": [],
-      "score": {
-       "total": 71.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.3,
-        "topic": 90.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی NVIDIA OpenShell Architecture for Safer AI Agents",
-        "excerpt": "معرفی معماری مرجع NVIDIA OpenShell، یک سخت افزار باز و معماری نرم افزار برای امنیت عوامل هوش مصنوعی مستقل در سراسر پشته کامل. همانطور که عوامل در جریان کار طولانی مدت در مقیاس قرار می گیرند، ایمنی نیاز به کنترل خارج از خود عوامل دارد. ببینید که چرا تراز مدل به تنهایی کافی نیست و چگونه مدل ها، ابزار، مهار و زمان اجرا با هم مناسب است. بدون حکومت مناسب، عوامل ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1172,15 +1300,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 88.6,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
@@ -1189,103 +1317,6 @@
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T00:44:19Z"
        }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "99ae24e773f80392",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T10:59:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
-      },
-      "eventId": "99ae24e773f80392",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 75.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-10-21T13:42:05Z"
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "da2f8b0b93e185d1",
-      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
-      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T11:20:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T12:28:47Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "IqhDPbRrsh4",
-       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
-      },
-      "eventId": "da2f8b0b93e185d1",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.3,
-        "topic": 80.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-21T13:42:05Z"
       }
      },
      "rank": 9,
@@ -1298,51 +1329,46 @@
     },
     {
      "article": {
-      "id": "d42536b869033e81",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
-      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
+      "id": "354f89a6c7dbf10c",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-20T17:34:04Z",
+      "publishedAt": "2026-10-21T17:35:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions"
-      ],
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
-       "alt": "High-level architecture of Octave’s AI foundation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
       },
-      "eventId": "d42536b869033e81",
+      "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 85.0,
-        "novelty": 76.9
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-21T13:42:05Z"
+       "asOf": "2026-10-21T17:35:36Z"
       },
       "tr": {
        "fa": {
-        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
-        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
+        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
