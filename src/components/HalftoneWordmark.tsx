@@ -33,6 +33,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     let px = -1e5;
     let py = -1e5;
     let raf = 0;
+    let idle = 0;
     let visible = true;
     let ring = { x: 0, y: 0, t: -1 };
     let dots = new Float32Array(0); // x, y, vx, vy, hx, hy, r
@@ -155,12 +156,16 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
       const b = canvas.getBoundingClientRect();
       return [e.clientX - b.left, e.clientY - b.top];
     };
-    const onMove = (e: PointerEvent) => {
-      [px, py] = local(e);
+    const onLeave = () => {
+      window.clearTimeout(idle);
+      px = py = -1e5;
       wake();
     };
-    const onLeave = () => {
-      px = py = -1e5;
+    // A pointer that stops (or is parked at the edge) lets go after a moment, so no dot stays pushed out and clipped at the canvas edge.
+    const onMove = (e: PointerEvent) => {
+      [px, py] = local(e);
+      window.clearTimeout(idle);
+      idle = window.setTimeout(onLeave, 1200);
       wake();
     };
     const onDown = (e: PointerEvent) => {
@@ -205,6 +210,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     return () => {
       alive = false;
       cancelAnimationFrame(raf);
+      window.clearTimeout(idle);
       ro.disconnect();
       io.disconnect();
       mo.disconnect();

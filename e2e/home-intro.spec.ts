@@ -181,13 +181,13 @@ test('AI News page is the news front page: slideshow with the red card, then the
   await expect(page.locator('.site-header').getByRole('link', { name: /AI News/ })).toHaveAttribute('aria-current', 'page');
 });
 
-test('home feed labels stories of AI Games and Data Centers and can filter to them', async ({ page }) => {
+test('home feed labels stories of AI Games, Data Centers and Videos and can filter to them', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const badge = page.locator('#latest .sec-badge').first();
   await expect(badge).toBeVisible();
   const name = (await badge.textContent())!.trim();
-  expect(['AI Games', 'Data Centers']).toContain(name);
+  expect(['AI Games', 'Data Centers', 'Videos']).toContain(name);
   const all = await page.locator('#latest [data-testid=story-card]').count();
   await page.locator('#latest .filter-chip', { hasText: name }).click();
   const cards = page.locator('#latest [data-testid=story-card]');

@@ -3,7 +3,8 @@ import { defineConfig, loadEnv, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // GitHub Pages cannot send headers, so production builds carry a CSP meta tag. Only same-origin
-// scripts, data and fonts; publisher images may come from any https host. The only other origin
+// scripts, data and fonts; publisher images and video files may come from any https host. YouTube
+// videos play only in the privacy-enhanced youtube-nocookie.com player frame. The only other origin
 // the page may call is the Supabase project, when accounts are configured. (Not in dev: Vite's
 // dev server injects inline scripts.)
 function contentSecurityPolicy(supabaseOrigin: string | null): string {
@@ -12,7 +13,8 @@ function contentSecurityPolicy(supabaseOrigin: string | null): string {
     "script-src 'self'",
     "style-src 'self'",
     "img-src 'self' https: data:",
-    "media-src 'self'",
+    "media-src 'self' https:",
+    "frame-src https://www.youtube-nocookie.com",
     "font-src 'self' data:", // Vite inlines very small font subsets as data: URLs
     `connect-src 'self'${supabaseOrigin ? ` ${supabaseOrigin}` : ''}`,
     "object-src 'none'",

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE in the shape of a YouTube channel feed (youtube.com/feeds/videos.xml). Not real videos. -->
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCfixturechannel000000000"/>
+ <id>yt:channel:fixturechannel000000000</id>
+ <yt:channelId>fixturechannel000000000</yt:channelId>
+ <title>Fixture Channel</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCfixturechannel000000000"/>
+ <author>
+  <name>Fixture Channel</name>
+  <uri>https://www.youtube.com/channel/UCfixturechannel000000000</uri>
+ </author>
+ <published>2020-01-01T00:00:00+00:00</published>
+ <entry>
+  <id>yt:video:AbCdEfGhI_1</id>
+  <yt:videoId>AbCdEfGhI_1</yt:videoId>
+  <yt:channelId>UCfixturechannel000000000</yt:channelId>
+  <title>Fixture demo: a new AI model explained</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AbCdEfGhI_1"/>
+  <author>
+   <name>Fixture Channel</name>
+   <uri>https://www.youtube.com/channel/UCfixturechannel000000000</uri>
+  </author>
+  <published>2026-10-19T08:00:00+00:00</published>
+  <updated>2026-10-19T09:00:00+00:00</updated>
+  <media:group>
+   <media:title>Fixture demo: a new AI model explained</media:title>
+   <media:content url="https://www.youtube.com/v/AbCdEfGhI_1?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/AbCdEfGhI_1/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A short walkthrough of the fixture model and what it can do.</media:description>
+   <media:community>
+    <media:starRating count="10" average="5.00" min="1" max="5"/>
+    <media:statistics views="100"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ZyXwVuTsR-2</id>
+  <yt:videoId>ZyXwVuTsR-2</yt:videoId>
+  <yt:channelId>UCfixturechannel000000000</yt:channelId>
+  <title>Fixture livestream: building agents with AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ZyXwVuTsR-2"/>
+  <author>
+   <name>Fixture Channel</name>
+   <uri>https://www.youtube.com/channel/UCfixturechannel000000000</uri>
+  </author>
+  <published>2026-10-18T15:00:00+00:00</published>
+  <updated>2026-10-18T16:00:00+00:00</updated>
+  <media:group>
+   <media:title>Fixture livestream: building agents with AI</media:title>
+   <media:content url="https://www.youtube.com/v/ZyXwVuTsR-2?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ZyXwVuTsR-2/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Recorded livestream.</media:description>
+  </media:group>
+ </entry>
+</feed>

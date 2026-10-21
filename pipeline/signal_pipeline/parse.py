@@ -23,6 +23,7 @@ class RawItem:
     published_raw: str = ""
     media: list[dict[str, Any]] = field(default_factory=list)
     tags: list[str] = field(default_factory=list)
+    video_id: str = ""  # YouTube feeds: <yt:videoId>
 
 
 def _media_from_entry(e: Any) -> list[dict[str, Any]]:
@@ -36,8 +37,10 @@ def _media_from_entry(e: Any) -> list[dict[str, Any]]:
     for m in e.get("media_thumbnail") or []:
         out.append({"url": m.get("url", ""), "type": "", "medium": "image", "width": m.get("width"), "source": "media:thumbnail", "credit": credit})
     for link in e.get("links") or []:
-        if link.get("rel") == "enclosure" and str(link.get("type", "")).startswith("image/"):
-            out.append({"url": link.get("href", ""), "type": link.get("type", ""), "medium": "image", "width": None, "source": "enclosure", "credit": credit})
+        ltype = str(link.get("type", ""))
+        if link.get("rel") == "enclosure" and ltype.startswith(("image/", "video/")):
+            medium = "image" if ltype.startswith("image/") else "video"
+            out.append({"url": link.get("href", ""), "type": ltype, "medium": medium, "width": None, "source": "enclosure", "credit": credit})
     alt = ""
     if e.get("media_text"):
         alt = str(e.get("media_text"))
@@ -48,11 +51,17 @@ def _media_from_entry(e: Any) -> list[dict[str, Any]]:
 
 def parse_feed(content: bytes) -> list[RawItem]:
     """Parses feed bytes. Raises FeedError when nothing usable could be read."""
+    return parse_feed_titled(content)[1]
+
+
+def parse_feed_titled(content: bytes) -> tuple[str, list[RawItem]]:
+    """Like parse_feed, and also returns the feed's own title (a YouTube channel's name)."""
     parsed = feedparser.parse(content, sanitize_html=False, resolve_relative_uris=False)
+    feed_title = str((parsed.get("feed") or {}).get("title") or "").strip()
     entries = parsed.get("entries") or []
     if not entries and parsed.get("version") and not parsed.get("bozo"):
         # A well-formed feed with no items (e.g. arXiv on days without announcements) is healthy.
-        return []
+        return feed_title, []
     if not entries:
         reason = parsed.get("bozo_exception")
         raise FeedError(f"no entries ({type(reason).__name__ if reason else 'empty feed'})")
@@ -76,8 +85,9 @@ def parse_feed(content: bytes) -> list[RawItem]:
                 published_raw=str(e.get("published") or e.get("updated") or ""),
                 media=_media_from_entry(e),
                 tags=[str(t.get("term")) for t in (e.get("tags") or []) if t.get("term")],
+                video_id=str(e.get("yt_videoid") or "").strip(),
             )
         )
     if not items:
         raise FeedError("no entries with title and link")
-    return items
+    return feed_title, items

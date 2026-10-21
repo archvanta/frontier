@@ -8,6 +8,7 @@ import { useReveal } from '../lib/motion';
 import { href } from '../lib/router';
 import { categoryIcon, toneFor, type Tone } from '../lib/tones';
 import type { Article, SectionId } from '../lib/types';
+import { playableVideo } from '../lib/video';
 import { Icon } from './Icon';
 import { StoryImage, resolveImageUrl } from './StoryImage';
 
@@ -105,10 +106,17 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
       {article.sourceName}
     </span>
   );
+  const video = playableVideo(article);
   const media = variant !== 'row' && !noPhoto && (
     <div className="story-media-wrap">
       <a href={link} className="story-media-link" tabIndex={-1} aria-hidden="true">
         <StoryImage article={article} eager={eagerImage} onFit={onFit} />
+        {video && (
+          <span className="video-badge">
+            <Icon name="play" size={14} filled />
+            {t('video_label')}
+          </span>
+        )}
       </a>
     </div>
   );
@@ -123,6 +131,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
       data-testid="story-card"
       data-id={article.id}
       data-tone={gradient ? (tone ?? toneFor(article.category)) : undefined}
+      data-video={video ? video.provider : undefined}
     >
       {mediaFirst && media}
       <div className="story-body">
@@ -147,6 +156,11 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
           {section && (
             <a className="sec-badge" href={href(`/${section}`)} data-section={section}>
               {sectionLabel(t, section)}
+            </a>
+          )}
+          {video && section !== 'videos' && (variant === 'row' || noPhoto) && (
+            <a className="sec-badge" href={href('/videos')} data-section="videos">
+              {t('video_label')}
             </a>
           )}
           {!sourceBelow && source}

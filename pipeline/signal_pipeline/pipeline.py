@@ -10,11 +10,12 @@ from . import config
 from .dedup import find_event, is_same_source_duplicate, refresh_related
 from .fetch import Fetcher
 from .normalize import ENTITY_PATTERNS, article_id, canonical_url, categorize, detect_entities, looks_ai_related, parse_published, to_iso
-from .parse import FeedError, RawItem, parse_feed
+from .parse import FeedError, RawItem, parse_feed_titled
 from .sections import build_sections
 from .sources import Source
 from .store import Store
 from .text import clean_excerpt, html_to_text, tidy_excerpt, truncate
+from .video import find_video
 
 Enricher = Callable[[list[dict[str, Any]], list[dict[str, Any]], dict[str, Source], datetime], None]
 
@@ -46,12 +47,13 @@ def build_article(item: RawItem, src: Source, now: datetime) -> dict[str, Any] |
     when = published or now
     if when < now - timedelta(days=config.MAX_AGE_DAYS):
         return None
+    video = find_video(item.video_id, item.link, item.media, item.content_html or item.summary_html)
     tags = []
     for t in item.tags[:6]:
         clean = html_to_text(t)[:40].strip()
         if clean and clean.lower() not in tags:
             tags.append(clean.lower())
-    return {
+    article: dict[str, Any] = {
         "id": article_id(url),
         "url": url,
         "sourceId": src.id,
@@ -75,6 +77,9 @@ def build_article(item: RawItem, src: Source, now: datetime) -> dict[str, Any] |
         "_media": item.media,
         "_html": item.content_html or item.summary_html,
     }
+    if video:
+        article["video"] = video
+    return article
 
 
 def _short_error(msg: str) -> str:
@@ -86,11 +91,13 @@ def collect_source(src: Source, fetcher: Fetcher, now: datetime) -> tuple[list[d
     if not res.ok:
         return [], _short_error(res.error or f"HTTP {res.status}")
     try:
-        items = parse_feed(res.content)
+        feed_title, items = parse_feed_titled(res.content)
     except FeedError as exc:
         return [], _short_error(f"parse error: {exc}")
     except Exception as exc:  # feedparser can raise on pathological input
         return [], _short_error(f"parse error: {type(exc).__name__}")
+    if src.expect_title and feed_title.casefold() != src.expect_title.casefold():
+        return [], _short_error(f"unexpected feed title: {feed_title or '(none)'}")
     built = [a for a in (build_article(i, src, now) for i in items) if a]
     # Only the newest max_items entries of the feed are considered, so reruns see the same window.
     built.sort(key=lambda a: (a["publishedAt"], a["id"]), reverse=True)

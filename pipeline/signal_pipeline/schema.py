@@ -3,12 +3,12 @@ from __future__ import annotations
 
 from typing import Any, Literal, TypedDict
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3
 
 CATEGORIES = ("models", "research", "products", "business", "policy", "open-source", "hardware", "safety")
 BRANDS = ("claude", "openai", "gemini")
 # Topic sections written to data/sections/<id>.json (see sections.py).
-SECTIONS = ("ai-games", "data-centers")
+SECTIONS = ("ai-games", "data-centers", "videos")
 
 Category = Literal["models", "research", "products", "business", "policy", "open-source", "hardware", "safety"]
 
@@ -19,6 +19,13 @@ class Image(TypedDict, total=False):
     alt: str
     credit: str
     sourceUrl: str
+
+
+class Video(TypedDict, total=False):
+    provider: Literal["youtube", "file"]
+    id: str      # YouTube video id (provider "youtube")
+    url: str     # watch page (youtube) or https video file (file)
+    type: str    # MIME type (provider "file")
 
 
 class Article(TypedDict, total=False):
@@ -39,6 +46,7 @@ class Article(TypedDict, total=False):
     brand: str | None
     image: Image | None
     sourceImage: Image | None
+    video: Video
     eventId: str
     related: list[str]
     score: dict[str, Any]
@@ -48,7 +56,7 @@ class Article(TypedDict, total=False):
 # Field order used when writing JSON, so files diff cleanly.
 ARTICLE_KEY_ORDER = (
     "id", "url", "sourceId", "sourceName", "title", "excerpt", "lang", "publishedAt", "dateEstimated",
-    "fetchedAt", "day", "category", "tags", "entities", "brand", "image", "sourceImage", "eventId",
+    "fetchedAt", "day", "category", "tags", "entities", "brand", "image", "sourceImage", "video", "eventId",
     "related", "score", "tr",
 )
 

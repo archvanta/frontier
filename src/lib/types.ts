@@ -2,7 +2,7 @@
  * Data contracts shared with the Python pipeline (pipeline/signal_pipeline/schema.py).
  * Schema changes must bump SCHEMA_VERSION on both sides and be recorded in docs/DATA-SCHEMA.md.
  */
-export const SCHEMA_VERSION = 2;
+export const SCHEMA_VERSION = 3;
 
 export type Locale = 'en' | 'fa';
 
@@ -27,10 +27,13 @@ export const CATEGORY_IDS: readonly CategoryId[] = [
   'safety',
 ];
 
-/** Topic sections: curated slices of the stored stories, each with its own page and `data/sections/<id>.json`. */
-export type SectionId = 'ai-games' | 'data-centers';
+/**
+ * Sections: curated slices of the stored stories, each with its own page and `data/sections/<id>.json`.
+ * `videos` is a format rather than a topic: every story with a playable video.
+ */
+export type SectionId = 'ai-games' | 'data-centers' | 'videos';
 
-export const SECTION_IDS: readonly SectionId[] = ['ai-games', 'data-centers'];
+export const SECTION_IDS: readonly SectionId[] = ['ai-games', 'data-centers', 'videos'];
 
 /** Brands that get the user's fixed character artwork when they are the story's primary subject. */
 export type BrandId = 'claude' | 'openai' | 'gemini';
@@ -46,6 +49,14 @@ export interface ArticleImage {
   /** Page the image metadata came from (feed URL or article URL). */
   sourceUrl?: string;
 }
+
+/**
+ * A video the site can play in the page. Only a reference is stored: a YouTube id (played through the
+ * youtube-nocookie.com player, loaded on click) or an https video file the publisher's feed offers.
+ */
+export type ArticleVideo =
+  | { provider: 'youtube'; id: string; url: string }
+  | { provider: 'file'; url: string; type: string };
 
 export interface ScoreParts {
   reliability: number;
@@ -96,6 +107,8 @@ export interface Article {
   image: ArticleImage | null;
   /** Genuine source image kept when brand artwork replaces the card thumbnail. */
   sourceImage?: ArticleImage | null;
+  /** Playable video of the story, when the feed carried one (v3). */
+  video?: ArticleVideo;
   eventId: string;
   /** Other article ids in the same event cluster (other sources covering it). */
   related: string[];

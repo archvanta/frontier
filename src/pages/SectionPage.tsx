@@ -8,10 +8,11 @@ import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article
 import { useData } from '../lib/dataContext';
 import { formatDateTime, formatNumber } from '../lib/dates';
 import { useAsync } from '../lib/hooks';
-import { useI18n } from '../lib/i18n';
+import { useI18n, type MessageKey } from '../lib/i18n';
 import { rememberedCardFit } from '../lib/imageFit';
 import { href, navigate } from '../lib/router';
 import type { Article, SectionFile, SectionId } from '../lib/types';
+import { VideosPage } from './VideosPage';
 
 /** Stories revealed per click of "More stories". */
 const STEP = 9;
@@ -36,18 +37,18 @@ function isEntity(v: string | null): v is Entity {
   return CAST.some((c) => c.entity === v);
 }
 
-function useSection(id: SectionId) {
+export function useSection(id: SectionId) {
   const data = useData();
   return useAsync<SectionFile | null>(() => data.section(id), [data, id]);
 }
 
-function sourceCount(articles: Article[]): number {
+export function sourceCount(articles: Article[]): number {
   return new Set(articles.map((a) => a.sourceId)).size;
 }
 
 /* ---------- Shared pieces ---------- */
 
-function Stat({ value, label }: { value: string; label: string }) {
+export function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div className="sec-stat">
       <dt>{label}</dt>
@@ -56,7 +57,7 @@ function Stat({ value, label }: { value: string; label: string }) {
   );
 }
 
-function SectionEmpty() {
+export function SectionEmpty() {
   const { t } = useI18n();
   return (
     <EmptyState title={t('section_empty')}>
@@ -65,12 +66,12 @@ function SectionEmpty() {
   );
 }
 
-function HowNote() {
+export function HowNote({ body = 'section_how_body' }: { body?: MessageKey }) {
   const { t } = useI18n();
   return (
     <aside className="sec-how" aria-labelledby="sec-how-title">
       <h2 id="sec-how-title">{t('section_how')}</h2>
-      <p>{t('section_how_body')}</p>
+      <p>{t(body)}</p>
       <a className="sec-how-link" href={href('/sources')}>
         {t('nav_sources')}
         <Icon name="arrow" size={14} directional />
@@ -350,5 +351,6 @@ export function DataCentersPage() {
 }
 
 export function SectionPage({ id, params }: { id: SectionId; params: URLSearchParams }) {
+  if (id === 'videos') return <VideosPage />;
   return id === 'ai-games' ? <GamesPage params={params} /> : <DataCentersPage />;
 }

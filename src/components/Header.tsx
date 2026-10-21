@@ -337,6 +337,15 @@ export function Header({ route }: { route: Route }) {
         current: route.name === 'section' && route.id === 'data-centers',
       },
       {
+        key: 'videos',
+        to: '/videos',
+        icon: 'play',
+        tone: 'crimson',
+        title: t('nav_videos'),
+        desc: t('menu_videos_d'),
+        current: route.name === 'section' && route.id === 'videos',
+      },
+      {
         key: 'ai-news',
         to: '/ai-news',
         icon: 'sparkle',

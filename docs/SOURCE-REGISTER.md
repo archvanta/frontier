@@ -59,3 +59,20 @@ Feeds for the AI Games and Data Centers sections. All use `filter: ai`, so the m
 | `datacenter-knowledge` | [Data Center Knowledge](https://www.datacenterknowledge.com/) | 3 | data-centers | `https://www.datacenterknowledge.com/rss.xml` | not yet run |
 | `register-datacentre` | [The Register — Data Centre](https://www.theregister.com/data_centre/) | 2 | data-centers | `https://www.theregister.com/data_centre/headlines.atom` | not yet run |
 
+### Video channels (added 2026-10-21)
+Public YouTube channel feeds (`https://www.youtube.com/feeds/videos.xml?channel_id=…`, no API key, no quota). Every item is a video, stored as a reference only (`video: {provider: "youtube", id, url}`) and played on the site in the privacy-enhanced `youtube-nocookie.com` player after the viewer presses play. Nothing is downloaded or re-hosted; the story keeps the channel name, publication time and a link to the video on YouTube. The thumbnail is the feed's own `media:thumbnail`.
+
+Each entry has `expect_title`: the collector compares it with the channel name in the fetched feed and reports a mismatch as a source error, so a wrong channel id can never put another channel's videos on the site. The build container could not reach youtube.com, so the ids are not yet confirmed by a run; the first collector run on Actions verifies them (or shows `unexpected feed title` / `HTTP 404` on the Sources page).
+
+| ID | Channel | Tier | Filter | Channel id | Status |
+|---|---|---|---|---|---|
+| `openai-youtube` | [OpenAI](https://www.youtube.com/@OpenAI) | 1 | none | `UCXZCJLdBC09xxGZ6gcdrc6A` | not yet run |
+| `anthropic-youtube` | [Anthropic](https://www.youtube.com/@anthropic-ai) | 1 | none | `UCrDwWp7EBBv4NwvScIpBDOA` | not yet run |
+| `deepmind-youtube` | [Google DeepMind](https://www.youtube.com/@googledeepmind) | 1 | none | `UCP7jMXSY2xbc3KCAE0MHQ-A` | not yet run |
+| `google-developers-youtube` | [Google for Developers](https://www.youtube.com/@GoogleDevelopers) | 1 | ai | `UC_x5XG1OV2P6uZZ5FSM9Ttw` | not yet run |
+| `nvidia-youtube` | [NVIDIA](https://www.youtube.com/@NVIDIA) | 1 | ai | `UCHuiy8bXnmK5nisYHUd1J5g` | not yet run |
+| `two-minute-papers` | [Two Minute Papers](https://www.youtube.com/@TwoMinutePapers) | 3 | none | `UCbfYPyITQ-7l4upoX8nvctg` | not yet run |
+| `verge-youtube` | [The Verge](https://www.youtube.com/@TheVerge) | 2 | ai | `UCddiUEpeqJcYeBxX1IVBKvQ` | not yet run |
+
+Videos are also picked up from the existing article feeds: a YouTube player embedded in an item's HTML, or an https `video/mp4|webm|ogg` file offered as `media:content` / enclosure (played from the publisher's server). See `pipeline/signal_pipeline/video.py`.
+

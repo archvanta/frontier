@@ -21,7 +21,7 @@ export function introStats(stories: readonly Article[], sectionOf: ReadonlyMap<s
   const t = now.getTime();
   let lastMs = -Infinity;
   let last: string | null = null;
-  const fresh = { news: 0, sections: { 'ai-games': 0, 'data-centers': 0 } as Record<SectionId, number> };
+  const fresh = { news: 0, sections: { 'ai-games': 0, 'data-centers': 0, videos: 0 } as Record<SectionId, number> };
   const mentions = new Map<string, number>();
   for (const a of stories) {
     const ms = Date.parse(a.publishedAt);

@@ -47,7 +47,7 @@ export function HomePage({
   const { t, locale } = useI18n();
 
   const feed = useAsync(async () => {
-    const [index, picks, ...sectionFiles] = await Promise.all([data.archiveIndex(), data.picks(), ...SECTION_IDS.map((id) => data.section(id))]);
+    const [index, picks, ...sectionFiles] = await Promise.all([data.archiveIndex(), data.picks(), ...SECTION_IDS.map((id) => data.section(id).catch(() => null))]);
     const plan = planHomePage(index?.days ?? [], page, now);
     const files = await Promise.all(plan.days.map((d) => data.day(d)));
     const seen = new Set<string>();
