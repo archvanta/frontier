@@ -4444,11 +4444,11 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
   min-block-size: max(30rem, calc(100vh - var(--header-h)));
   min-block-size: max(30rem, calc(100svh - var(--header-h)));
-  padding-block: var(--s-8) 5rem;
+  padding-block: var(--s-6) 4.5rem;
   background: #05030f;
   color: #fff;
   text-align: center;
@@ -4720,11 +4720,90 @@ html[lang='fa'] .hi-link {
   font-weight: 700;
 }
 
+.hi-link-count {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #7fd0ff;
+}
+
 .hi-inner {
   position: relative;
+  flex: 1;
   display: grid;
+  align-content: center;
   justify-items: center;
-  gap: var(--s-5);
+  gap: var(--s-4);
+  padding-block: var(--s-4);
+}
+
+/* Live status pill: what the collector actually knows right now (source count, newest story, most-named company). */
+.hi-status {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 0;
+  margin: 0;
+  padding: 0.4rem 0.4rem;
+  list-style: none;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+  opacity: 0;
+  transition: opacity var(--dur-slow, 0.4s) var(--ease);
+}
+
+.hi-status.is-ready {
+  opacity: 1;
+}
+
+html[lang='fa'] .hi-status {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.hi-status li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding-inline: 0.9rem;
+}
+
+.hi-status li + li {
+  border-inline-start: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hi-status b {
+  font-weight: 700;
+  color: #fff;
+}
+
+.hi-live {
+  font-weight: 700;
+  color: #5ee59a;
+}
+
+.hi-live i {
+  inline-size: 8px;
+  block-size: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 10px currentColor;
+}
+
+html[data-motion='full'] .hi-live i {
+  animation: hi-live 2s ease-in-out infinite;
+}
+
+@keyframes hi-live {
+  50% {
+    opacity: 0.35;
+  }
 }
 
 .hi-kicker {
@@ -4741,13 +4820,18 @@ html[lang='fa'] .hi-kicker {
 
 .hi-title {
   font-family: var(--font-latin);
-  font-size: clamp(3.2rem, 0.6rem + 12.5vw, 11rem);
+  font-size: clamp(3.2rem, 0.6rem + 12vw, 10rem);
   font-weight: 800;
   line-height: 0.9;
   letter-spacing: -0.045em;
   text-transform: uppercase;
+  /* Glossy wordmark: a soft white-to-lilac fill with a blue glow under it. */
   color: #fff;
-  text-shadow: 0 6px 60px rgba(91, 157, 255, 0.28);
+  background: linear-gradient(180deg, #fff 20%, #d5dcff 58%, #9aa6f5 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 6px 36px rgba(91, 157, 255, 0.4));
 }
 
 .hi-body {
@@ -4787,26 +4871,141 @@ html[data-theme='light'] .hi-scroll {
   color: var(--text-3);
 }
 
-.hi-scroll {
+.hi-signals {
+  position: relative;
   z-index: 1;
-  position: absolute;
-  inset-block-end: 1.5rem;
-  inset-inline: 0;
-  margin-inline: auto;
-  inline-size: max-content;
   display: grid;
-  justify-items: center;
-  gap: 0.3rem;
+  gap: var(--s-3);
+}
+
+.hi-signals-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+}
+
+.hi-signals-title {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.62);
+}
+
+html[lang='fa'] .hi-signals-title {
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 700;
+}
+
+.hi-signal-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Glass cards: a translucent fill and a hairline border, no backdrop blur (cheap on phones). */
+.hi-signal {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 0.2rem 0.7rem;
+  block-size: 100%;
+  padding: 0.85rem 1rem;
+  text-align: start;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: var(--radius-lg, 18px);
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+  color: #fff;
+  text-decoration: none;
+  transition:
+    transform var(--dur) var(--ease),
+    border-color var(--dur) var(--ease);
+}
+
+.hi-signal:hover {
+  transform: translateY(-2px);
+  border-color: rgba(140, 180, 255, 0.55);
+}
+
+.hi-signal:focus-visible {
+  outline: 2px solid #8fb6ff;
+  outline-offset: 2px;
+}
+
+.hi-signal-rank {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: #8fb6ff;
+}
+
+.hi-signal-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 650;
+  font-size: var(--fs-sm);
+  line-height: 1.4;
+}
+
+.hi-signal-score {
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(94, 229, 154, 0.16);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #7ff0b3;
+}
+
+.hi-signal-meta {
+  grid-column: 2 / -1;
+  overflow: hidden;
+  font-size: var(--fs-xs);
+  color: rgba(255, 255, 255, 0.55);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 899px) {
+  /* Phones and tablets: three compact rows instead of three columns. */
+  .hi-signal-list {
+    grid-template-columns: 1fr;
+    gap: var(--s-2);
+  }
+  .hi-signal {
+    padding: 0.65rem 0.8rem;
+  }
+  .hi-status {
+    border-radius: 18px;
+  }
+  .hi-status li {
+    padding-block: 0.1rem;
+  }
+}
+
+.hi-scroll {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   padding: 0.4rem 0.9rem;
   border: 0;
   border-radius: 999px;
   background: none;
   font-family: var(--font-mono);
   font-size: var(--fs-xs);
-  letter-spacing: 0.22em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
+  margin-inline-start: auto;
 }
 
 html[lang='fa'] .hi-scroll {
