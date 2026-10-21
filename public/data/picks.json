@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-21T20:27:41Z",
+ "asOf": "2026-10-21T22:05:10Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,65 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-20T20:27:41Z",
-   "to": "2026-10-21T20:27:41Z",
+   "from": "2026-10-20T22:05:10Z",
+   "to": "2026-10-21T22:05:10Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "2ed22a61b2f19a0c",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Broad access through consistent standards",
+      "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T22:26:30Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2ed22a61b2f19a0c",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.9,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-21T22:05:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دسترسی گسترده از طریق استانداردهای ثابت",
+        "excerpt": "چگونه OpenAI با شرکای توزیع کار می کند تا از مزایای ثابت، پشتیبانی از دسترسی مسئولانه و روشن کردن انتظارات در سیاست های استفاده ما حمایت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T22:26:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "61f4d0141ff303c0",
@@ -45,15 +100,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 72.5,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 61.3,
+        "recency": 55.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +119,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -105,15 +160,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 83.7,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +179,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -169,15 +224,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 85.3,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -188,7 +243,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -198,50 +253,56 @@
     },
     {
      "article": {
-      "id": "4ab93569e260b2b0",
-      "url": "https://openai.com/index/att-legal",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "excerpt": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "id": "d841fc8b370bc211",
+      "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "excerpt": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
       "lang": "en",
-      "publishedAt": "2026-10-21T17:00:00Z",
+      "publishedAt": "2026-10-21T21:23:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T18:44:22Z",
+      "fetchedAt": "2026-10-21T22:26:30Z",
       "day": "2026-10-21",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "technical how-to"
       ],
-      "brand": "openai",
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-19699-1.png",
+       "alt": "AAIF three-layer architecture with an SLM orchestrator routing requests to local processing tools or to Amazon Bedrock cloud processing",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "4ab93569e260b2b0",
+      "eventId": "d841fc8b370bc211",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.9,
-        "topic": 100.0,
-        "novelty": 77.8
+        "recency": 96.1,
+        "topic": 65.0,
+        "novelty": 84.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه AT&T در مورد کار قانونی در خانه با OpenAI تجدید نظر می کند",
-        "excerpt": "AT&T با OpenAI کار می کند تا دسترسی به دانش حقوقی را آسان تر کند. یاد بگیرید که چگونه تیم حقوقی آن در حال تجدید نظر در مصرف و اندازه گیری قضاوت قانونی است.",
+        "title": "چارچوب هوش تطبیقی با استفاده از Strand Agents",
+        "excerpt": "Adaptive Agentic Intelligence Framework (AAIF)، ساخته شده با Strands Agents، وظایف روزمره را به صورت محلی با مدل های زبان کوچک و مسیرهای پیچیده برای مدل های ابر از طریق Amazon Bedrock اداره می کند. این پست از طریق ساخت AAIF با SLM های محلی از طریق Ollama و Amazon Bedrock، با استفاده از یک اینترنت از سناریو نظارت بر اشیاء است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T18:44:22Z"
+        "at": "2026-10-21T22:26:30Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -277,74 +338,21 @@
       "eventId": "7104bc51c29585cc",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 81.0,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA Kumo Outperforms Supervised Machine Learning در داده های ارتباطی، بدون آموزش مورد نیاز",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T18:44:22Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "354f89a6c7dbf10c",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T17:35:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
-      },
-      "eventId": "354f89a6c7dbf10c",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.7,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-21T20:27:41Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
@@ -359,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-14T20:27:41Z",
-   "to": "2026-10-21T20:27:41Z",
+   "from": "2026-10-14T22:05:10Z",
+   "to": "2026-10-21T22:05:10Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -394,15 +402,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.7,
+       "total": 78.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 92.2,
+        "recency": 90.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -424,20 +432,20 @@
     },
     {
      "article": {
-      "id": "74fcf21eca7add4a",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "id": "2ed22a61b2f19a0c",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "title": "Broad access through consistent standards",
+      "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "lang": "en",
-      "publishedAt": "2026-10-21T13:00:00Z",
+      "publishedAt": "2026-10-21T21:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
+      "fetchedAt": "2026-10-21T22:26:30Z",
       "day": "2026-10-21",
       "category": "models",
       "tags": [
-       "product"
+       "safety"
       ],
       "entities": [
        "openai"
@@ -447,25 +455,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "74fcf21eca7add4a",
+      "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
        "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 99.0,
         "topic": 100.0,
-        "novelty": 92.3
+        "novelty": 80.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
-        "title": "تبلیغات ChatGPT به 26 کشور جدید گسترش یافته است زیرا بیش از 100،000 تبلیغ کننده از این پلتفرم استفاده کرده اند.",
-        "excerpt": "از کسب و کارهای محلی تا مارک های جهانی، تبلیغ کنندگان بیشتری اکنون می توانند به افرادی که در حال بررسی، مقایسه و تصمیم به خرید در ChatGPT هستند، دسترسی پیدا کنند.",
+        "title": "دسترسی گسترده از طریق استانداردهای ثابت",
+        "excerpt": "چگونه OpenAI با شرکای توزیع کار می کند تا از مزایای ثابت، پشتیبانی از دسترسی مسئولانه و روشن کردن انتظارات در سیاست های استفاده ما حمایت کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
+        "at": "2026-10-21T22:26:30Z"
        }
       }
      },
@@ -505,15 +513,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 91.5,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -563,15 +571,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 97.1,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -627,15 +635,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 97.4,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -684,15 +692,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 94.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -743,15 +751,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 92.5,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -797,15 +805,15 @@
       "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 95.8,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -826,8 +834,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-21T20:27:41Z",
-   "to": "2026-10-21T20:27:41Z",
+   "from": "2026-09-21T22:05:10Z",
+   "to": "2026-10-21T22:05:10Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -861,15 +869,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.8,
+       "total": 79.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 97.6,
+        "recency": 97.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -919,15 +927,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 77.1,
+       "total": 77.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 87.9,
+        "recency": 87.5,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -975,15 +983,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 97.4,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1030,15 +1038,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 97.4,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1083,15 +1091,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 91.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1141,15 +1149,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 99.1,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1200,15 +1208,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 96.9,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1259,15 +1267,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.7,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1316,15 +1324,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.4,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
@@ -1345,51 +1353,57 @@
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "id": "33738f7743b5e180",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-21T19:19:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "policy",
       "tags": [
-       "amazon bedrock",
-       "announcements",
+       "amazon quick suite",
+       "customer solutions",
        "intermediate (200)"
       ],
       "entities": [
-       "amazon",
-       "anthropic"
+       "amazon"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
+       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "video": {
+       "provider": "youtube",
+       "id": "8ZrNIBT24ug",
+       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
+      },
+      "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.8,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 99.2,
+        "topic": 85.0,
+        "novelty": 78.6
        },
-       "asOf": "2026-10-21T20:27:41Z"
+       "asOf": "2026-10-21T22:05:10Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
+        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-21T20:55:40Z"
        }
       }
      },
