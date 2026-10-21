@@ -4261,7 +4261,9 @@ html[lang='fa'] .game-cell-title {
   font-weight: 700;
   color: var(--text);
   text-decoration: none;
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+  transition:
+    background var(--dur) var(--ease),
+    color var(--dur) var(--ease);
 }
 
 .game-read:hover {
@@ -4441,6 +4443,7 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
 /* First screen: what the site is, in one calm scene (the look of the owner's studio-site reference: a huge condensed word, a short line, a scroll
    cue). Always dark, like the news hero below it. */
 .home-intro {
+  --hi-fade: 6.5rem;
   position: relative;
   isolation: isolate;
   overflow: hidden;
@@ -4448,7 +4451,7 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
   flex-direction: column;
   min-block-size: max(30rem, calc(100vh - var(--header-h)));
   min-block-size: max(30rem, calc(100svh - var(--header-h)));
-  padding-block: var(--s-6) 4.5rem;
+  padding-block: var(--s-6) var(--hi-fade);
   background: #05030f;
   color: #fff;
   text-align: center;
@@ -4486,7 +4489,8 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
 .hi-grid {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
   background-size: 64px 64px;
   -webkit-mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, transparent 70%);
   mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, transparent 70%);
@@ -4862,9 +4866,14 @@ html[lang='fa'] .hi-meta {
   position: absolute;
   inset-inline: 0;
   inset-block-end: -1px;
-  block-size: clamp(7rem, 22%, 11rem);
-  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--bg) 55%, transparent) 55%, var(--bg));
+  block-size: var(--hi-fade);
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--bg) 60%, transparent) 60%, var(--bg));
   pointer-events: none;
+}
+
+/* Light theme: the purple scene meets a white page, so the fade passes through a soft lilac instead of grey, and sits below the content. */
+html[data-theme='light'] .home-intro::after {
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, #8b7cf6 22%, var(--bg)) 55%, var(--bg));
 }
 
 html[data-theme='light'] .hi-scroll {
@@ -5041,9 +5050,7 @@ html[data-motion='full'] .hi-scroll .icon {
   padding: clamp(1.5rem, 1rem + 2vw, 3rem);
   border: 1px solid var(--line);
   border-radius: var(--radius-xl, 28px);
-  background:
-    radial-gradient(60% 90% at 0% 0%, var(--accent-soft), transparent 70%),
-    var(--surface-1);
+  background: radial-gradient(60% 90% at 0% 0%, var(--accent-soft), transparent 70%), var(--surface-1);
 }
 
 .follow-head {
