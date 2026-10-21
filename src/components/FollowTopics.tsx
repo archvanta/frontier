@@ -8,7 +8,7 @@ export function FollowTopics({ onSkip }: { onSkip: () => void }) {
   const { topics, setTopics } = useFollowedTopics();
   return (
     <section id="follow" className="follow-topics" aria-labelledby="follow-title" tabIndex={-1}>
-      <div className="container">
+      <div className="follow-panel">
         <header className="follow-head">
           <p className="hi-kicker">[ {t('follow_kicker')} ]</p>
           <h2 id="follow-title" className="follow-title">

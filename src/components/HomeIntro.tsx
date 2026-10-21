@@ -53,7 +53,7 @@ export function HomeIntro({ onContinue }: { onContinue: () => void }) {
   const entries: Entry[] = [
     { key: 'ai-games', to: '/ai-games', label: t('nav_ai_games'), icon: 'gamepad', art: assetUrl('images/games/chip-openai.webp') },
     { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), icon: 'server' },
-    { key: 'ai-news', to: '/explore', label: t('intro_link_news'), icon: 'sparkle' },
+    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), icon: 'sparkle' },
   ];
 
   return (

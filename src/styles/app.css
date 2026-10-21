@@ -1812,6 +1812,29 @@ html[lang='fa'] .media-tag {
   text-decoration: underline;
 }
 
+/* Section label on a story that also belongs to AI Games or Data Centers (home feed). */
+.sec-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--text-2);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.sec-badge:hover {
+  color: var(--text);
+}
+
+.story-card[data-tone] .sec-badge {
+  color: var(--card-ink-2, var(--card-ink-3));
+}
+
 .src-mark {
   display: inline-grid;
   place-items: center;
@@ -4698,6 +4721,7 @@ html[lang='fa'] .hi-link {
 }
 
 .hi-inner {
+  position: relative;
   display: grid;
   justify-items: center;
   gap: var(--s-5);
@@ -4748,7 +4772,23 @@ html[lang='fa'] .hi-meta {
   letter-spacing: 0;
 }
 
+/* The scene dissolves into the page below instead of ending on a hard edge (the page colour follows the theme). */
+.home-intro::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  inset-block-end: -1px;
+  block-size: clamp(7rem, 22%, 11rem);
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--bg) 55%, transparent) 55%, var(--bg));
+  pointer-events: none;
+}
+
+html[data-theme='light'] .hi-scroll {
+  color: var(--text-3);
+}
+
 .hi-scroll {
+  z-index: 1;
   position: absolute;
   inset-block-end: 1.5rem;
   inset-inline: 0;
@@ -4793,9 +4833,18 @@ html[data-motion='full'] .hi-scroll .icon {
   }
 }
 
+/* A panel of its own between the signal wall and Latest News; the column's section gap spaces it like every other block. */
 .follow-topics {
-  padding-block: var(--s-9, 5rem) var(--s-8);
   scroll-margin-block-start: var(--header-h);
+}
+
+.follow-panel {
+  padding: clamp(1.5rem, 1rem + 2vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl, 28px);
+  background:
+    radial-gradient(60% 90% at 0% 0%, var(--accent-soft), transparent 70%),
+    var(--surface-1);
 }
 
 .follow-head {

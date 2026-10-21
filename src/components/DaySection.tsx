@@ -1,7 +1,7 @@
 import { formatDay, formatNumber } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import { useReveal } from '../lib/motion';
-import type { Article } from '../lib/types';
+import type { Article, SectionId } from '../lib/types';
 import { EmptyState } from './States';
 import { StoryCard } from './StoryCard';
 
@@ -16,6 +16,7 @@ export function DaySection({
   id,
   level = 2,
   emptyText,
+  sectionOf,
 }: {
   day: string;
   label?: string;
@@ -23,6 +24,8 @@ export function DaySection({
   id?: string;
   level?: 2 | 3;
   emptyText?: string;
+  /** Story id to its curated section; those stories get a section label next to the category. */
+  sectionOf?: ReadonlyMap<string, SectionId>;
 }) {
   const { t, locale } = useI18n();
   const hid = `day-${day}`;
@@ -48,18 +51,18 @@ export function DaySection({
         <EmptyState title={emptyText ?? t('day_empty')} />
       ) : (
         <div className="day-body">
-          <StoryCard article={lead} variant="lead" timeOnly headingLevel={cardLevel} />
+          <StoryCard article={lead} variant="lead" timeOnly headingLevel={cardLevel} section={sectionOf?.get(lead.id)} />
           {cards.length > 0 && (
             <div className="story-grid">
               {cards.map((a) => (
-                <StoryCard key={a.id} article={a} timeOnly headingLevel={cardLevel} />
+                <StoryCard key={a.id} article={a} timeOnly headingLevel={cardLevel} section={sectionOf?.get(a.id)} />
               ))}
             </div>
           )}
           {list.length > 0 && (
             <div className="story-list">
               {list.map((a) => (
-                <StoryCard key={a.id} article={a} variant="list" timeOnly headingLevel={cardLevel} />
+                <StoryCard key={a.id} article={a} variant="list" timeOnly headingLevel={cardLevel} section={sectionOf?.get(a.id)} />
               ))}
             </div>
           )}
