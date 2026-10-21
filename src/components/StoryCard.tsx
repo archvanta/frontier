@@ -19,8 +19,9 @@ import { StoryImage, resolveImageUrl } from './StoryImage';
  * - grid:    three-up card: icon tile and "Read" pill, title, two-line excerpt, divider, image
  * - list:    open feed row with a small thumbnail
  * - row:     text-only ranked row
+ * - tile:    carousel tile: picture on top, category, title, source and time (neutral surface)
  */
-export type StoryVariant = 'feature' | 'split' | 'lead' | 'grid' | 'list' | 'row';
+export type StoryVariant = 'feature' | 'split' | 'lead' | 'grid' | 'list' | 'row' | 'tile';
 
 interface Props {
   article: Article;
@@ -111,7 +112,9 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
       </a>
     </div>
   );
-  const mediaFirst = variant === 'lead' || variant === 'list';
+  const mediaFirst = variant === 'lead' || variant === 'list' || variant === 'tile';
+  // Gradient cards and tiles keep the source in the bottom line; the other variants show it beside the category.
+  const sourceBelow = gradient || variant === 'tile';
 
   return (
     <article
@@ -146,7 +149,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
               {sectionLabel(t, section)}
             </a>
           )}
-          {!gradient && source}
+          {!sourceBelow && source}
         </div>
         <H className="story-title" lang={title.lang} dir="auto">
           <a href={link}>{title.text}</a>
@@ -158,7 +161,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
           </p>
         )}
         <div className="story-meta">
-          {gradient && source}
+          {sourceBelow && source}
           <time
             dateTime={article.publishedAt}
             title={article.dateEstimated ? t('date_estimated') : `${t('published')}: ${formatDateTime(article.publishedAt, locale)}`}

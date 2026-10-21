@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
+import { Carousel } from '../components/Carousel';
 import { DaySection } from '../components/DaySection';
 import { Icon } from '../components/Icon';
 import { FollowTopics } from '../components/FollowTopics';
@@ -25,6 +26,8 @@ import { CATEGORY_IDS, SECTION_IDS, type Article, type CategoryId, type Meta, ty
 /** `home` is the intro page (all three sections mixed, with a section label on each story); `ai-news` is the plain news front page: slideshow and the full feed. */
 /** Stories per day shown as plain rows before "Show more"; the rest of a long day stays one tap away. */
 const FEED_LIST_LIMIT = 12;
+/** Stories in each homepage carousel. */
+const CAROUSEL_STORIES = 10;
 
 export function HomePage({
   page,
@@ -56,7 +59,18 @@ export function HomePage({
     // Which curated section (AI Games, Data Centers) a story belongs to, so the one feed can label and filter all three.
     const sectionOf = new Map<string, SectionId>();
     SECTION_IDS.forEach((id, i) => sectionFiles[i]?.articles.forEach((a) => sectionOf.has(a.id) || sectionOf.set(a.id, id)));
-    return { plan, groups, picks, sectionOf, hasAny: (index?.days.length ?? 0) > 0 };
+    const sectionStories = Object.fromEntries(SECTION_IDS.map((id, i) => [id, sortNewestFirst(sectionFiles[i]?.articles ?? [])])) as Record<
+      SectionId,
+      Article[]
+    >;
+    return {
+      plan,
+      groups,
+      picks,
+      sectionOf,
+      sectionStories,
+      hasAny: (index?.days.length ?? 0) > 0,
+    };
   }, [data, page, now.toISOString().slice(0, 13)]);
 
   const todayCount = feed.status === 'ready' && feed.data.plan.page === 1 ? (feed.data.groups[0]?.articles.length ?? 0) : null;
@@ -103,12 +117,22 @@ export function HomePage({
   }, [newest, featured]);
 
   const introData = useMemo(
-    () => (feed.status === 'ready' ? { stats: introStats(newest, feed.data.sectionOf, meta, now), signals: topSignals(feed.data.picks), now } : null),
+    () =>
+      feed.status === 'ready'
+        ? {
+            stats: introStats(newest, feed.data.sectionOf, meta, now),
+            signals: topSignals(feed.data.picks),
+            now,
+          }
+        : null,
     [feed, newest, meta, now],
   );
   const goTo = (id: string) => () => {
     const el = document.getElementById(id);
-    el?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    el?.scrollIntoView({
+      behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',
+      block: 'start',
+    });
     el?.focus({ preventScroll: true });
   };
 
@@ -136,7 +160,24 @@ export function HomePage({
           )}
           {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} />}
           {page === 1 && <SignalWall stories={wallStories} now={now} />}
-          {page === 1 && home && <FollowTopics onSkip={goTo('latest')} />}
+          {page === 1 && home && (
+            <>
+              <Carousel title={t('intro_link_news')} seeAllTo="/ai-news" articles={newest.slice(0, CAROUSEL_STORIES)} />
+              <Carousel
+                title={t('nav_ai_games')}
+                seeAllTo="/ai-games"
+                section="ai-games"
+                articles={feed.data.sectionStories['ai-games'].slice(0, CAROUSEL_STORIES)}
+              />
+              <Carousel
+                title={t('nav_data_centers')}
+                seeAllTo="/data-centers"
+                section="data-centers"
+                articles={feed.data.sectionStories['data-centers'].slice(0, CAROUSEL_STORIES)}
+              />
+              <FollowTopics onSkip={goTo('latest')} />
+            </>
+          )}
           <div className="latest-layout">
             <aside className="latest-aside" aria-label={t('weekly_brief')}>
               {page === 1 && <WeeklyBrief picks={feed.data.picks} />}

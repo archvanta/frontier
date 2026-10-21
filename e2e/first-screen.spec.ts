@@ -29,8 +29,8 @@ for (const locale of ['en', 'fa'] as const) {
         const vw = document.documentElement.clientWidth;
         const wide: string[] = [];
         for (const el of Array.from(document.querySelectorAll<HTMLElement>('.site-main *, .site-header *, .news-hero *'))) {
-          // Scrollers (chip rows), the tilted signal wall, inactive or zooming hero layers and visually hidden text are clipped on purpose.
-          if (el.closest('.wall-stage, .nh-slide, .visually-hidden') || el.parentElement?.closest('[class*="chips"], .tabs, .pill-track')) continue;
+          // Scrollers (chip rows), the tilted signal wall, the sideways story rows, inactive or zooming hero layers and visually hidden text are clipped on purpose.
+          if (el.closest('.wall-stage, .nh-slide, .visually-hidden, .carousel-track') || el.parentElement?.closest('[class*="chips"], .tabs, .pill-track')) continue;
           const r = el.getBoundingClientRect();
           if (r.width === 0 || r.height === 0) continue;
           if (r.right > vw + 1 || r.left < -1)
