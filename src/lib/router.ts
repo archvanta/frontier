@@ -10,6 +10,7 @@ import { CATEGORY_IDS, SECTION_IDS } from './types';
  */
 export type Route =
   | { name: 'home'; page: number }
+  | { name: 'ai-news'; page: number }
   | { name: 'picks'; window: PickWindow }
   | { name: 'explore'; params: URLSearchParams }
   | { name: 'section'; id: SectionId; params: URLSearchParams }
@@ -48,6 +49,12 @@ export function parseHash(hash: string): Route {
     return { name: 'home', page: Number.isFinite(page) && page > 0 ? page : 1 };
   }
   switch (head) {
+    case 'ai-news':
+      if (!a) {
+        const page = Number.parseInt(params.get('page') ?? '1', 10);
+        return { name: 'ai-news', page: Number.isFinite(page) && page > 0 ? page : 1 };
+      }
+      break;
     case 'picks':
       if (a && (WINDOWS as readonly string[]).includes(a)) return { name: 'picks', window: a as PickWindow };
       if (!a) return { name: 'picks', window: 'daily' };
