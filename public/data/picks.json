@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "asOf": "2026-10-20T22:24:02Z",
+ "asOf": "2026-10-21T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,63 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-19T22:24:02Z",
-   "to": "2026-10-20T22:24:02Z",
+   "from": "2026-10-20T00:00:00Z",
+   "to": "2026-10-21T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 60.6,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-21T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "7f6bb9c0aa5027ea",
@@ -48,15 +101,15 @@
       "eventId": "7f6bb9c0aa5027ea",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 65.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 90.1,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -67,7 +120,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -107,15 +160,15 @@
       "eventId": "65f689d035704c2c",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 85.2,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -126,7 +179,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -167,15 +220,15 @@
        "dbaa902542534b3a"
       ],
       "score": {
-       "total": 67.3,
+       "total": 65.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 90.0,
+        "recency": 82.1,
         "topic": 55.0,
         "novelty": 45.8
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -186,64 +239,11 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 66.5,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-20T22:24:02Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -280,15 +280,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.0,
+        "recency": 65.7,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -309,54 +309,60 @@
     },
     {
      "article": {
-      "id": "4eb9f7080b11166e",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "excerpt": "",
+      "id": "6559d9cb2b558fef",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "excerpt": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent medical examination or",
       "lang": "en",
-      "publishedAt": "2026-10-20T18:17:47Z",
+      "publishedAt": "2026-10-20T23:04:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
+      "fetchedAt": "2026-10-21T01:03:44Z",
       "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "openai",
+       "policy"
+      ],
       "entities": [
-       "huggingface",
-       "nvidia"
+       "openai"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/STK201_SAM_ALTMAN_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An image of Sam Altman, OpenAI CEO.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "4eb9f7080b11166e",
+      "eventId": "6559d9cb2b558fef",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 65.3,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 78.9,
-        "topic": 75.0,
-        "novelty": 92.3
+        "recency": 94.8,
+        "topic": 85.0,
+        "novelty": 95.5
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
+        "title": "قاضی شکایت جنسی خواهر سام آلتمن را رد می کند",
+        "excerpt": "روز سه شنبه، قاضی منطقه ایالات متحده، زکریا بلوستون، دادخواستی که آن آلتمن در سال گذشته ثبت کرد را رد کرد و ادعا کرد که برادرش، مدیر عامل OpenAI، سام آلتمن، از نظر جنسی او را در دوران کودکی مورد آزار جنسی قرار داده است. همانطور که پیشتر توسط گاردین گزارش شد، قاضی نوشت که در طول سال گذشته، آن نتوانست برای معاینه پزشکی مستقل یا معاینه پزشکی مستقل ظاهر شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-21T01:03:44Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -364,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-13T22:24:02Z",
-   "to": "2026-10-20T22:24:02Z",
+   "from": "2026-10-14T00:00:00Z",
+   "to": "2026-10-21T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +404,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 75.6,
+       "total": 75.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 80.6,
+        "recency": 79.4,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -453,15 +459,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.4,
+        "recency": 92.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -512,15 +518,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 93.2,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -565,15 +571,15 @@
       "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.7,
+        "recency": 87.4,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -620,15 +626,15 @@
       "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 94.7,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -677,15 +683,15 @@
       "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.0,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -734,15 +740,15 @@
       "eventId": "eb477756520c8ff8",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 92.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -795,15 +801,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.6,
+        "recency": 83.3,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -825,8 +831,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-20T22:24:02Z",
-   "to": "2026-10-20T22:24:02Z",
+   "from": "2026-09-21T00:00:00Z",
+   "to": "2026-10-21T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -863,11 +869,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 93.7,
+        "recency": 93.3,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -914,15 +920,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 97.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -966,15 +972,15 @@
       "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 96.0,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1026,15 +1032,15 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1084,15 +1090,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 93.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1143,11 +1149,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.4,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1196,15 +1202,15 @@
       "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 98.2,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1250,15 +1256,15 @@
       "eventId": "ca293d8533a3487d",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.8,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1313,11 +1319,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 91.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1370,15 +1376,15 @@
       "eventId": "da019040563955b2",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 94.7,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-20T22:24:02Z"
+       "asOf": "2026-10-21T00:00:00Z"
       },
       "tr": {
        "fa": {
