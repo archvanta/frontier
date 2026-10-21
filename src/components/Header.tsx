@@ -405,7 +405,7 @@ export function Header({ route }: { route: Route }) {
           </ul>
         </nav>
         <div className="header-actions">
-          <form className="header-search" role="search" onSubmit={submit}>
+          <form className="header-search" role="search" onSubmit={submit} onClick={() => searchRef.current?.focus()}>
             <label className="visually-hidden" htmlFor="site-search">
               {t('search_label')}
             </label>
