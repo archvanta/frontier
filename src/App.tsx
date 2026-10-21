@@ -41,6 +41,8 @@ function Page({ route, now, meta, heroSlot }: { route: Route; now: Date; meta: i
   switch (route.name) {
     case 'home':
       return <HomePage page={route.page} meta={meta} now={now} heroSlot={heroSlot} />;
+    case 'ai-news':
+      return <HomePage variant="ai-news" page={route.page} meta={meta} now={now} heroSlot={heroSlot} />;
     case 'picks':
       return <PicksPage window={route.window} />;
     case 'explore':

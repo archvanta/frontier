@@ -2,12 +2,12 @@ import { displayExcerpt, displayTitle, safeUrl, storyPath } from '../lib/article
 import { useCallback, useState } from 'react';
 import { useSavedStories } from '../lib/account/saved';
 import { formatDateTime, formatTime } from '../lib/dates';
-import { categoryLabel, useI18n } from '../lib/i18n';
+import { categoryLabel, sectionLabel, useI18n } from '../lib/i18n';
 import { rememberedCardFit, type CardFit } from '../lib/imageFit';
 import { useReveal } from '../lib/motion';
 import { href } from '../lib/router';
 import { categoryIcon, toneFor, type Tone } from '../lib/tones';
-import type { Article } from '../lib/types';
+import type { Article, SectionId } from '../lib/types';
 import { Icon } from './Icon';
 import { StoryImage, resolveImageUrl } from './StoryImage';
 
@@ -34,6 +34,8 @@ interface Props {
   tone?: Tone;
   /** Skip the scroll-in entrance (a card that is swapped in place, like the hero's side card). */
   still?: boolean;
+  /** Curated section the story belongs to (AI Games, Data Centers), shown as a label beside the category. */
+  section?: SectionId;
 }
 
 export function BookmarkButton({ article }: { article: Article }) {
@@ -72,7 +74,7 @@ export function SourceMark({ name }: { name: string }) {
 
 const WITH_EXCERPT: StoryVariant[] = ['feature', 'split', 'lead', 'grid', 'list'];
 
-export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3, tone, still = false }: Props) {
+export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, eagerImage, headingLevel = 3, tone, still = false, section }: Props) {
   const { t, locale } = useI18n();
   // A broken or tiny photo is dropped, and the text then takes the full card.
   const [noPhoto, setNoPhoto] = useState(() => {
@@ -139,6 +141,11 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
             </span>
           )}
           {catLink}
+          {section && (
+            <a className="sec-badge" href={href(`/${section}`)} data-section={section}>
+              {sectionLabel(t, section)}
+            </a>
+          )}
           {!gradient && source}
         </div>
         <H className="story-title" lang={title.lang} dir="auto">

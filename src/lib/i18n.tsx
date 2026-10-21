@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useLayoutEffect, useMemo, useState, type ReactNode } from 'react';
 import { runTransition } from './motion';
-import type { CategoryId, Locale, PickWindow } from './types';
+import type { CategoryId, Locale, PickWindow, SectionId } from './types';
 
 const en = {
   brand: 'FRONTIER',
@@ -164,7 +164,7 @@ const en = {
   nav_sections: 'Sections',
   menu_ai_games_d: 'News about games made with AI',
   menu_data_centers_d: 'Design, power and cooling for AI',
-  menu_ai_news_d: 'Every AI story, searchable',
+  menu_ai_news_d: 'The news front page with the live slideshow',
   nav_ai_games: 'AI Games',
   nav_data_centers: 'Data Centers',
   section_stories: 'stories',
@@ -361,7 +361,7 @@ const fa: Record<MessageKey, string> = {
   nav_sections: 'بخش‌ها',
   menu_ai_games_d: 'خبر بازی‌های ساخته‌شده با AI',
   menu_data_centers_d: 'طراحی، برق و خنک‌سازی برای AI',
-  menu_ai_news_d: 'همه‌ی خبرهای AI، با جست‌وجو و فیلتر',
+  menu_ai_news_d: 'صفحه‌ی اخبار با اسلایدر زنده',
   nav_ai_games: 'بازی‌های AI',
   nav_data_centers: 'دیتاسنتر',
   section_stories: 'خبر',
@@ -426,6 +426,11 @@ export function translate(locale: Locale, key: MessageKey, vars?: Record<string,
 
 export function categoryLabel(locale: Locale, id: CategoryId): string {
   return CATEGORY_LABELS[locale][id] ?? id;
+}
+
+/** Name of a curated section (AI Games, Data Centers) in the current language. */
+export function sectionLabel(t: (key: MessageKey) => string, id: SectionId): string {
+  return id === 'ai-games' ? t('nav_ai_games') : t('nav_data_centers');
 }
 
 const CATEGORY_DESCRIPTIONS: Record<Locale, Record<CategoryId, string>> = {

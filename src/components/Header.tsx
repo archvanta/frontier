@@ -316,7 +316,7 @@ export function Header({ route }: { route: Route }) {
   const sections: MenuGroup = {
     id: 'sections',
     label: t('nav_sections'),
-    current: route.name === 'section',
+    current: route.name === 'section' || route.name === 'ai-news',
     items: [
       {
         key: 'ai-games',
@@ -338,12 +338,12 @@ export function Header({ route }: { route: Route }) {
       },
       {
         key: 'ai-news',
-        to: '/explore',
+        to: '/ai-news',
         icon: 'sparkle',
         tone: 'violet',
         title: t('intro_link_news'),
         desc: t('menu_ai_news_d'),
-        current: false,
+        current: route.name === 'ai-news',
       },
     ],
   };

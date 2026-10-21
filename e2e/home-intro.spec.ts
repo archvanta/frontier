@@ -117,7 +117,7 @@ test('three ways in sit under the intro text: AI Games with a tiny character thu
   await expect(page).toHaveURL(/#\/data-centers$/);
   await page.goBack();
   await page.locator('.hi-link[data-entry=ai-news]').click();
-  await expect(page).toHaveURL(/#\/explore$/);
+  await expect(page).toHaveURL(/#\/ai-news$/);
 });
 
 test('the Sections menu also lists AI News', async ({ page }) => {
@@ -126,9 +126,9 @@ test('the Sections menu also lists AI News', async ({ page }) => {
   await page.getByRole('button', { name: 'Sections' }).click();
   const item = page.locator('.site-header').getByRole('link', { name: /AI News/ });
   await expect(item).toBeVisible();
-  await expect(item).toContainText('searchable');
+  await expect(item).toContainText('slideshow');
   await item.click();
-  await expect(page).toHaveURL(/#\/explore$/);
+  await expect(page).toHaveURL(/#\/ai-news$/);
 });
 
 test('animated intro backdrop: moves in full motion, pauses off-screen, stands still under reduced motion', async ({ page }) => {
@@ -153,4 +153,35 @@ test('animated intro backdrop: moves in full motion, pauses off-screen, stands s
   await page.reload();
   await page.evaluate(() => window.scrollTo(0, 0));
   for (const s of await state()) expect(s.startsWith('none')).toBe(true);
+});
+
+test('AI News page is the news front page: slideshow with the red card, then the feed, no intro', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/ai-news');
+  await expect(page.locator('.home-intro')).toHaveCount(0);
+  await expect(page.locator('#follow')).toHaveCount(0);
+  await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
+  await expect(page.locator('#news-hero .nh-main')).toBeVisible();
+  await expect(page.locator('#news-hero .nh-side')).toBeVisible();
+  await expect(page.locator('#latest .day-section').first()).toBeVisible();
+  await page.getByRole('button', { name: 'Sections' }).click();
+  await expect(page.locator('.site-header').getByRole('link', { name: /AI News/ })).toHaveAttribute('aria-current', 'page');
+});
+
+test('home feed labels stories of AI Games and Data Centers and can filter to them', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  const badge = page.locator('#latest .sec-badge').first();
+  await expect(badge).toBeVisible();
+  const name = (await badge.textContent())!.trim();
+  expect(['AI Games', 'Data Centers']).toContain(name);
+  const all = await page.locator('#latest [data-testid=story-card]').count();
+  await page.locator('#latest .filter-chip', { hasText: name }).click();
+  const cards = page.locator('#latest [data-testid=story-card]');
+  const n = await cards.count();
+  expect(n).toBeGreaterThan(0);
+  expect(n).toBeLessThan(all);
+  await expect(page.locator('#latest [data-testid=story-card] .sec-badge')).toHaveCount(n);
+  await page.locator('#latest .filter-chip', { hasText: 'All' }).click();
+  await expect(cards).toHaveCount(all);
 });
