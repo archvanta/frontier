@@ -5157,6 +5157,42 @@ html[lang] .hi-title {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 6px 36px rgba(91, 157, 255, 0.4));
+  /* Halftone wordmark colours: lilac ink, acid-lime warmth. The scene stays dark in both themes, so one pair serves both. */
+  --hw-ink: #d5dcff;
+  --hw-warm: #c6ff4a;
+}
+
+/* The Persian heading rule (face, spacing, 1.5 line height) must not reach the wordmark: both languages show the same Latin word at the same size. */
+html[lang] .hi-title {
+  font-family: var(--font-latin);
+  letter-spacing: -0.045em;
+  line-height: 0.9;
+}
+
+/* The canvas takes over once it is running; the text stays as the heading and as the fallback. The canvas is a little taller than the word
+   so dots can fly past its edges, and sized from the heading, so Persian and English pages get the same word. */
+.hw {
+  display: block;
+  position: relative;
+}
+
+.hw-canvas {
+  position: absolute;
+  inset-block: -0.16em;
+  inset-inline: -0.05em;
+  inline-size: calc(100% + 0.1em);
+  block-size: calc(100% + 0.32em);
+  touch-action: pan-y;
+  cursor: crosshair;
+}
+
+.hi-title[data-halftone='on'] {
+  background: none;
+  filter: none;
+}
+
+.hi-title[data-halftone='on'] .hw-text {
+  opacity: 0;
 }
 
 .hi-body {

@@ -5,6 +5,7 @@ import { useI18n } from '../lib/i18n';
 import type { IntroStats } from '../lib/introStats';
 import { href } from '../lib/router';
 import type { PickEntry } from '../lib/types';
+import { HalftoneWordmark } from './HalftoneWordmark';
 import { Icon, type IconName } from './Icon';
 import { assetUrl } from './StoryImage';
 
@@ -111,7 +112,7 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
         </ul>
         <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
         <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
-          FRONTIER
+          <HalftoneWordmark word="FRONTIER" />
         </h1>
         <p className="hi-body">{t('intro_body')}</p>
         <nav className="hi-links" aria-label={t('intro_links')}>
