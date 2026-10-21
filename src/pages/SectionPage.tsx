@@ -290,9 +290,10 @@ export function DataCentersPage() {
   const res = useSection('data-centers');
   const [shown, setShown] = useState(STEP);
   const all = useMemo(() => (res.status === 'ready' ? (res.data?.articles ?? []) : []), [res.status, res.data]);
+  const [first, second, third, ...more] = all;
 
   return (
-    <div className="page container-narrow dc-page">
+    <div className="page dc-page">
       <header className="page-head">
         <p className="eyebrow">
           <Icon name="server" size={14} /> {t('nav_data_centers')}
@@ -314,17 +315,29 @@ export function DataCentersPage() {
           <SectionEmpty />
         ) : (
           <>
-            <div className="day-body">
-              <StoryCard article={all[0]!} variant="lead" headingLevel={2} eagerImage />
-              {all.length > 1 && (
-                <div className="story-grid">
-                  {all.slice(1, shown).map((a) => (
-                    <StoryCard key={a.id} article={a} headingLevel={2} />
-                  ))}
+            <div className="picks-grid">
+              <StoryCard article={first!} variant="feature" rank={1} eagerImage headingLevel={2} />
+              {(second || third) && (
+                <div className="picks-secondary">
+                  {[second, third].map(
+                    (a, i) => a && <StoryCard key={a.id} article={a} variant="split" rank={i + 2} eagerImage headingLevel={2} />,
+                  )}
                 </div>
               )}
             </div>
-            {all.length > shown && (
+            {more.length > 0 && (
+              <div className="picks-more">
+                <p className="picks-more-label">{t('dc_also')}</p>
+                <ol className="picks-list" start={4}>
+                  {more.slice(0, shown).map((a, i) => (
+                    <li key={a.id}>
+                      <StoryCard article={a} variant="row" rank={i + 4} headingLevel={2} />
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
+            {more.length > shown && (
               <button type="button" className="btn dc-more" onClick={() => setShown((n) => n + STEP)}>
                 {t('section_more')}
               </button>

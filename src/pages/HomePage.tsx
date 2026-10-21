@@ -12,6 +12,7 @@ import { SignalWall } from '../components/SignalWall';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { WeeklyBrief } from '../components/WeeklyBrief';
 import { planHomePage, sortNewestFirst, uniqueById } from '../lib/archive';
+import { introStats, topSignals } from '../lib/introStats';
 import { useData } from '../lib/dataContext';
 import { formatNumber } from '../lib/dates';
 import { followsAny, prioritizeFollowed, useFollowedTopics } from '../lib/follow';
@@ -71,7 +72,9 @@ export function HomePage({
     return SECTION_IDS.filter((s) => have.has(s));
   }, [feed, home]);
   const matches = (a: Article, sectionOf: ReadonlyMap<string, SectionId>) =>
-    category === 'all' || (SECTION_IDS as readonly string[]).includes(category) ? category === 'all' || sectionOf.get(a.id) === category : a.category === category;
+    category === 'all' || (SECTION_IDS as readonly string[]).includes(category)
+      ? category === 'all' || sectionOf.get(a.id) === category
+      : a.category === category;
   useEffect(() => setCategory('all'), [page, variant]);
   const revealLatest = useReveal<HTMLElement>('head');
   const chips = useSlidingIndicator<HTMLDivElement>(`${category}:${present.length}`);
@@ -98,6 +101,11 @@ export function HomePage({
     const rest = newest.filter((a) => !featured.has(a.id));
     return rest.length >= 4 ? rest : newest;
   }, [newest, featured]);
+
+  const introData = useMemo(
+    () => (feed.status === 'ready' ? { stats: introStats(newest, feed.data.sectionOf, meta, now), signals: topSignals(feed.data.picks), now } : null),
+    [feed, newest, meta, now],
+  );
   const goTo = (id: string) => () => {
     const el = document.getElementById(id);
     el?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
@@ -110,7 +118,7 @@ export function HomePage({
         heroSlot &&
         createPortal(
           <>
-            {home && <HomeIntro onContinue={goTo('news-hero')} />}
+            {home && <HomeIntro onContinue={goTo('news-hero')} data={introData} />}
             {heroStories === null || heroStories.length > 0 ? (
               <NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} standalone={!home} />
             ) : null}
@@ -146,7 +154,11 @@ export function HomePage({
                   <div ref={chips} className="filter-chips pill-track" role="group" aria-label={t('filter_by_category')}>
                     {(['all', ...present, ...presentSections] as const).map((c) => (
                       <button key={c} type="button" className="filter-chip" aria-pressed={category === c} onClick={() => setCategory(c)}>
-                        {c === 'all' ? t('filter_all') : (SECTION_IDS as readonly string[]).includes(c) ? sectionLabel(t, c as SectionId) : categoryLabel(locale, c as CategoryId)}
+                        {c === 'all'
+                          ? t('filter_all')
+                          : (SECTION_IDS as readonly string[]).includes(c)
+                            ? sectionLabel(t, c as SectionId)
+                            : categoryLabel(locale, c as CategoryId)}
                       </button>
                     ))}
                   </div>

@@ -185,3 +185,40 @@ test('home feed labels stories of AI Games and Data Centers and can filter to th
   await page.locator('#latest .filter-chip', { hasText: 'All' }).click();
   await expect(cards).toHaveCount(all);
 });
+
+test('intro shows live status and the top three signals from the stored feed, with real links', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  const status = page.locator('.hi-status');
+  await expect(status).toHaveClass(/is-ready/);
+  await expect(status).toContainText('sources monitored');
+  await expect(status).toContainText('Last signal');
+  const cards = page.locator('.hi-signal');
+  await expect(cards).toHaveCount(3);
+  await expect(page.locator('.hi-signals-title')).toHaveText('Top signals right now');
+  // Same stories, same order as the Weekly Brief / picks list: the first card is the top-ranked story.
+  const first = cards.first();
+  await expect(first.locator('.hi-signal-score')).toHaveText(/^\d+$/);
+  await expect(first.locator('.hi-signal-meta')).toContainText(' · ');
+  await first.click();
+  await expect(page).toHaveURL(/#\/story\/\d{4}-\d{2}-\d{2}\/[a-f0-9]+$/);
+});
+
+test('intro chips carry the count of stories from the last 24 hours, and nothing is shown when there are none', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  await expect(page.locator('.hi-status')).toHaveClass(/is-ready/);
+  const news = page.locator('.hi-link[data-entry=ai-news] .hi-link-count');
+  await expect(news).toHaveText(/^\+\d+/);
+  expect(await page.locator('.hi-link-count').evaluateAll((els) => els.every((e) => !/\+0\b/.test(e.textContent ?? '')))).toBe(true);
+});
+
+test('Persian intro: status and signals are RTL, on a phone without sideways scroll', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('signal-ai:locale', 'fa'));
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/');
+  await expect(page.locator('.hi-status')).toHaveClass(/is-ready/);
+  await expect(page.locator('.hi-signals-title')).toHaveText('سیگنال‌های برتر همین حالا');
+  await expect(page.locator('.hi-signal')).toHaveCount(3);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
+});
