@@ -5,7 +5,7 @@ import { pickHeroStories } from '../lib/heroStories';
 import { useI18n } from '../lib/i18n';
 import { motionMode, useMotionMode } from '../lib/motion';
 import { parseHash } from '../lib/router';
-import { introSeen, markIntroSeen } from '../lib/tunnel';
+import { INTRO_ENABLED, introSeen, markIntroSeen } from '../lib/tunnel';
 import type { Article } from '../lib/types';
 import { TunnelScene } from './TunnelScene';
 
@@ -16,7 +16,7 @@ const LEAVE_MS = 520;
 const CARDS = 12;
 
 function shouldRun(): boolean {
-  return motionMode() !== 'reduced' && !introSeen() && parseHash(window.location.hash).name === 'home';
+  return INTRO_ENABLED && motionMode() !== 'reduced' && !introSeen() && parseHash(window.location.hash).name === 'home';
 }
 
 /**
