@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Pagination } from '../components/Pagination';
+import { persianDigits } from '../lib/article';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { useData } from '../lib/dataContext';
 import { formatDateTime, formatNumber } from '../lib/dates';
@@ -21,7 +22,7 @@ function ResultRow({ e }: { e: SearchEntry }) {
         <span className="kicker-source">{e.sn}</span>
       </div>
       <h2 className="result-title" lang={translated ? 'fa' : 'en'} dir="auto">
-        <a href={href(`/story/${e.d}/${e.id}`)}>{translated ? e.tf : e.t}</a>
+        <a href={href(`/story/${e.d}/${e.id}`)}>{translated ? persianDigits(translated) : e.t}</a>
       </h2>
       {translated && <span className="mt-label">{t('translation_machine')}</span>}
       <time className="result-time" dateTime={e.p}>
@@ -30,6 +31,11 @@ function ResultRow({ e }: { e: SearchEntry }) {
     </li>
   );
 }
+
+const RANGE_DAYS = [0, 1, 7, 30, 90] as const;
+
+/** The UTC day `n` days back, in the YYYY-MM-DD form the filters and the index use. */
+const daysAgo = (n: number) => new Date(Date.now() - n * 86_400_000).toISOString().slice(0, 10);
 
 export function ExplorePage({ params }: { params: URLSearchParams }) {
   const data = useData();
@@ -99,14 +105,35 @@ export function ExplorePage({ params }: { params: URLSearchParams }) {
               <option value="gemini">Gemini / Google</option>
             </select>
           </div>
-          <div>
-            <label htmlFor="f-from">{t('filter_from')}</label>
-            <input id="f-from" type="date" value={filters.from} onChange={(ev) => apply({ from: ev.target.value })} />
-          </div>
-          <div>
-            <label htmlFor="f-to">{t('filter_to')}</label>
-            <input id="f-to" type="date" value={filters.to} onChange={(ev) => apply({ to: ev.target.value })} />
-          </div>
+          {locale === 'fa' ? (
+            // The browser's date field shows its own language and the Gregorian calendar; Persian readers get ready-made ranges instead.
+            <div className="filter-range" role="group" aria-label={t('filter_range')}>
+              <span className="filter-range-label" aria-hidden="true">
+                {t('filter_range')}
+              </span>
+              <div className="filter-range-chips">
+                {RANGE_DAYS.map((n) => {
+                  const from = n === 0 ? '' : daysAgo(n);
+                  return (
+                    <button key={n} type="button" className="filter-chip" aria-pressed={filters.from === from && !filters.to} onClick={() => apply({ from, to: '' })}>
+                      {n === 0 ? t('filter_all') : n === 1 ? t('today') : t('range_days', { n: formatNumber(n, locale) })}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ) : (
+            <>
+              <div>
+                <label htmlFor="f-from">{t('filter_from')}</label>
+                <input id="f-from" type="date" value={filters.from} onChange={(ev) => apply({ from: ev.target.value })} />
+              </div>
+              <div>
+                <label htmlFor="f-to">{t('filter_to')}</label>
+                <input id="f-to" type="date" value={filters.to} onChange={(ev) => apply({ to: ev.target.value })} />
+              </div>
+            </>
+          )}
           <div className="filter-actions">
             <button type="submit" className="btn is-primary">
               {t('nav_search')}

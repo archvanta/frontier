@@ -76,3 +76,21 @@ def test_categories_and_entities():
     assert categorize("Nvidia unveils new GPU", "", "models") == "hardware"
     assert categorize("Something vague", "", "research") == "research"
     assert detect_entities("OpenAI and Anthropic", "Gemini too") == ["anthropic", "google", "openai"]
+
+
+def test_clean_excerpt_strips_arxiv_header_and_tex_commands():
+    raw = "arXiv:2610.27711v1 Announce Type: new Abstract: A classifier-head (\\textsc{cls}) paradigm beats \\textbf{\\textsc{s2s}} on detection."
+    assert clean_excerpt(raw, 400) == "A classifier-head (cls) paradigm beats s2s on detection."
+    assert clean_excerpt("arXiv:2610.28316v1 Announce Type: cross Abstract: Instruction-based editing.", 400) == "Instruction-based editing."
+
+
+def test_clean_excerpt_drops_cover_image_captions():
+    assert clean_excerpt("Cover image for the e-Conomy SEA 2026 report. A 3D illustration shows a star.", 400) == ""
+    assert clean_excerpt("The cover image for the report was updated, and the story is about X.", 400).startswith("The cover image")
+
+
+def test_tidy_excerpt_is_idempotent():
+    from signal_pipeline.text import tidy_excerpt
+
+    once = tidy_excerpt("arXiv:2610.01234v2 Announce Type: replace Abstract: Uses \\emph{care}.")
+    assert once == "Uses care." and tidy_excerpt(once) == once

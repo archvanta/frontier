@@ -93,3 +93,41 @@ test('"/" focuses the header search and the mobile menu exposes categories', asy
   await page.keyboard.press('Escape');
   await expect(nav.getByRole('link', { name: 'Explore' })).toBeHidden();
 });
+
+test('Persian Explore offers ready-made date ranges instead of a Gregorian date field', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('signal-ai:locale', 'fa'));
+  await page.goto('./#/explore');
+  await expect(page.locator('input[type=date]')).toHaveCount(0);
+  const week = page.getByRole('button', { name: /۷ روز اخیر/ });
+  await expect(week).toHaveAttribute('aria-pressed', 'false');
+  await week.click();
+  await expect(week).toHaveAttribute('aria-pressed', 'true');
+  expect(page.url()).toMatch(/from=\d{4}-\d{2}-\d{2}/);
+  await page.getByRole('button', { name: 'همه', exact: true }).click();
+  expect(page.url()).not.toContain('from=');
+});
+
+test('English Explore keeps the native date fields', async ({ page }) => {
+  await page.goto('./#/explore');
+  await expect(page.locator('input[type=date]')).toHaveCount(2);
+});
+
+test('on a phone the header search rests as an icon and opens over the header', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/');
+  const form = page.locator('.header-search');
+  await expect(form).toBeVisible();
+  expect((await form.boundingBox())!.width).toBeLessThanOrEqual(44);
+  await form.click();
+  await expect(page.locator('#site-search')).toBeFocused();
+  expect((await form.boundingBox())!.width).toBeGreaterThan(250);
+  await page.locator('#site-search').fill('claude');
+  await page.keyboard.press('Enter');
+  await expect(page).toHaveURL(/explore\?.*q=claude/);
+});
+
+test('the sign-in link has an accessible name even when only its icon shows', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/');
+  await expect(page.locator('.user-signin')).toHaveAccessibleName('Sign in');
+});

@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { displayExcerpt, displayTitle } from './article';
+import { displayExcerpt, displayTitle, persianDigits } from './article';
 import { MESSAGES, dirFor, initialLocale, translate } from './i18n';
 
 const placeholders = (s: string) => [...s.matchAll(/\{(\w+)\}/g)].map((m) => m[1]).sort();
@@ -54,5 +54,24 @@ describe('translated story text', () => {
     expect(displayTitle(base, 'fa')).toEqual({ text: 'Model released', translated: false, lang: 'en' });
     const titleOnly = { ...base, tr: { fa: { title: 'مدل', engine: 'x', at: 'y' } } };
     expect(displayExcerpt(titleOnly, 'fa')).toEqual({ text: 'Weights are out.', translated: false, lang: 'en' });
+  });
+});
+
+describe('Persian digits in machine-translated text', () => {
+  it('turns standalone numbers into Persian digits', () => {
+    expect(persianDigits('آسیا به قیمت 68 میلیارد دلار')).toBe('آسیا به قیمت ۶۸ میلیارد دلار');
+    expect(persianDigits('اگر +50 نفر کشته شوند در 2026')).toBe('اگر +۵۰ نفر کشته شوند در ۲۰۲۶');
+  });
+
+  it('keeps digits that belong to product, model or benchmark names', () => {
+    for (const name of ['GPT-6', 'GPT-5.6', 'i14', 'Trainium2', '3D', 'τ2-bench', 'X.509', 'FSR 4.1']) {
+      expect(persianDigits(name)).toBe(name.replace('4.1', '۴.۱'));
+    }
+  });
+
+  it('applies only to translated Persian text', () => {
+    const a = { title: 'Raises $68 billion', excerpt: '', lang: 'en', tr: { fa: { title: 'جذب 68 میلیارد', engine: 'x', at: 'y' } } };
+    expect(displayTitle(a, 'fa').text).toBe('جذب ۶۸ میلیارد');
+    expect(displayTitle(a, 'en').text).toBe('Raises $68 billion');
   });
 });
