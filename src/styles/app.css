@@ -5136,13 +5136,6 @@ html[lang='fa'] .hi-kicker {
   letter-spacing: 0.04em;
 }
 
-/* The wordmark is Latin in both languages: html[lang='fa'] h1 must not re-space or re-set it, so the scene has the same size in Persian. */
-html[lang] .hi-title {
-  font-family: var(--font-latin);
-  line-height: 0.9;
-  letter-spacing: -0.045em;
-}
-
 .hi-title {
   font-family: var(--font-latin);
   font-size: clamp(3.2rem, 0.6rem + 12vw, 10rem);
