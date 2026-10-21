@@ -2,28 +2,35 @@ import { expect, test } from '@playwright/test';
 
 const KEY = 'signal-ai:followed-topics:v1';
 
-test('homepage order: intro, hero, signal wall, topics to follow, Latest News', async ({ page }) => {
+test('homepage order: intro, hero, signal wall, story rows, topics to follow, Latest News', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const h1 = page.getByRole('heading', { level: 1 });
   await expect(h1).toHaveText('FRONTIER');
   await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
   await expect(h1).toBeInViewport();
-  const sels = ['.home-intro', '#news-hero', '[data-testid=signal-wall]', '#follow', '#latest'];
+  const sels = ['.home-intro', '#news-hero', '[data-testid=signal-wall]', '.carousel', '#follow', '#latest'];
   const boxes = await page.evaluate(
     (ss) =>
       ss.map((s) => {
         const r = document.querySelector(s)!.getBoundingClientRect();
-        return { top: r.top + window.scrollY, bottom: r.bottom + window.scrollY };
+        return {
+          top: r.top + window.scrollY,
+          bottom: r.bottom + window.scrollY,
+        };
       }),
     sels,
   );
   expect(boxes.map((b) => b.top)).toEqual(boxes.map((b) => b.top).sort((a, b) => a - b));
   // The intro fills the first screen.
   expect(boxes[1]!.top).toBeGreaterThanOrEqual(899);
-  // The topic panel sits in the gap under the wall with the same spacing above and below.
-  const above = boxes[3]!.top - boxes[2]!.bottom;
-  const below = boxes[4]!.top - boxes[3]!.bottom;
+  // The topic panel sits between the story rows and Latest News with the same spacing above and below.
+  const lastRow = await page.evaluate(() => {
+    const rows = document.querySelectorAll('.carousel');
+    return rows[rows.length - 1]!.getBoundingClientRect().bottom + window.scrollY;
+  });
+  const above = boxes[4]!.top - lastRow;
+  const below = boxes[5]!.top - boxes[4]!.bottom;
   expect(above).toBeGreaterThan(20);
   expect(Math.abs(above - below)).toBeLessThan(2);
 });
@@ -101,7 +108,13 @@ test('three ways in sit under the intro text: AI Games with a tiny character thu
     const nav = document.querySelector('.hi-links')!.getBoundingClientRect();
     const img = document.querySelector<HTMLImageElement>('.hi-link-art')!;
     const r = img.getBoundingClientRect();
-    return { below: nav.top >= body.bottom, gap: nav.top - body.bottom, w: r.width, natural: img.naturalWidth, loaded: img.complete };
+    return {
+      below: nav.top >= body.bottom,
+      gap: nav.top - body.bottom,
+      w: r.width,
+      natural: img.naturalWidth,
+      loaded: img.complete,
+    };
   });
   expect(m.below).toBe(true);
   expect(m.gap).toBeLessThan(60);

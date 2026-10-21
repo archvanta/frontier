@@ -2214,6 +2214,241 @@ html[lang='fa'] .story-card .story-title {
   font-size: 0.8125rem;
 }
 
+/* tile: carousel card. Picture on top, then category, title and a source/time/bookmark line, on a neutral surface. */
+.story-card.is-tile {
+  block-size: 100%;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface-1);
+  transition:
+    border-color var(--dur) var(--ease),
+    transform var(--dur) var(--ease);
+}
+
+.story-card.is-tile:hover {
+  border-color: var(--line-strong);
+}
+
+.story-card.is-tile .story-media {
+  aspect-ratio: 16 / 10;
+  border-radius: 0;
+}
+
+.story-card.is-tile .story-body {
+  gap: var(--s-2);
+  padding: var(--s-4);
+}
+
+.story-card.is-tile .story-title {
+  font-size: var(--fs-md);
+  line-height: 1.3;
+}
+
+html[lang='fa'] .story-card.is-tile .story-title {
+  line-height: 1.6;
+}
+
+.story-card.is-tile .story-excerpt {
+  display: none;
+}
+
+.story-card.is-tile .story-meta {
+  padding-block-start: var(--s-2);
+}
+
+.story-card.is-tile .kicker-source {
+  flex: 1 1 auto;
+  min-inline-size: 0;
+}
+
+/* ---------- Carousel (horizontal story row) ---------- */
+.carousel {
+  display: grid;
+  gap: var(--s-4);
+  min-inline-size: 0;
+}
+
+.carousel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+}
+
+.carousel-title {
+  font-size: var(--fs-xl);
+}
+
+.carousel-all {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  min-block-size: 32px;
+  padding-inline: var(--s-3);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    border-color var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.carousel-all:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.carousel-stage {
+  position: relative;
+  min-inline-size: 0;
+}
+
+.carousel-track {
+  display: flex;
+  align-items: stretch;
+  gap: var(--s-4);
+  margin: 0;
+  padding: 2px;
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 2px;
+  scrollbar-width: none;
+  border-radius: var(--radius-lg);
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-track:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.carousel-item {
+  flex: 0 0 min(78%, 17rem);
+  min-inline-size: 0;
+  scroll-snap-align: start;
+}
+
+/* The first story is the large, outlined one; the rest peek in beside it. */
+.carousel-item.is-lead {
+  flex-basis: min(86%, 26rem);
+}
+
+.carousel-item.is-lead .story-card.is-tile {
+  border-color: var(--accent-line);
+  box-shadow: 0 0 0 1px var(--accent-soft);
+}
+
+.carousel-item.is-lead .story-card.is-tile .story-title {
+  font-size: var(--fs-xl);
+}
+
+.carousel-arrow {
+  position: absolute;
+  inset-block-start: 38%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  inline-size: 40px;
+  block-size: 40px;
+  padding: 0;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--text);
+  box-shadow: var(--shadow-1);
+  cursor: pointer;
+  transform: translateY(-50%);
+  transition:
+    opacity var(--dur) var(--ease),
+    border-color var(--dur) var(--ease),
+    color var(--dur) var(--ease);
+}
+
+.carousel-arrow:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.carousel-arrow:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.carousel-arrow.is-prev {
+  inset-inline-start: calc(var(--s-3) * -1);
+}
+
+.carousel-arrow.is-next {
+  inset-inline-end: calc(var(--s-3) * -1);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+}
+
+/* A 24px tap target around a small dot. */
+.carousel-dot {
+  position: relative;
+  inline-size: 24px;
+  block-size: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.carousel-dot::before {
+  content: '';
+  position: absolute;
+  inset: 8px;
+  border-radius: 50%;
+  background: var(--line-strong);
+  transition:
+    background var(--dur) var(--ease),
+    inset var(--dur) var(--ease);
+}
+
+.carousel-dot[aria-current='true']::before {
+  inset: 7px;
+  background: var(--accent);
+}
+
+@media (min-width: 720px) {
+  .carousel-item {
+    flex-basis: min(34%, 18rem);
+  }
+  .carousel-item.is-lead {
+    flex-basis: min(46%, 30rem);
+  }
+}
+
+/* Touch screens swipe; the arrows would only cover the cards. */
+@media (hover: none), (max-width: 719px) {
+  .carousel-arrow {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-arrow,
+  .carousel-all,
+  .story-card.is-tile,
+  .carousel-dot::before {
+    transition: none;
+  }
+}
+
 /* A long day folds behind a button instead of a very long page. */
 .show-more {
   margin-block-start: var(--s-4);
@@ -4531,6 +4766,8 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
   background: #05030f;
   color: #fff;
   text-align: center;
+  /* Same rhythm in both languages (Persian would otherwise inherit the taller page line-height). */
+  line-height: 1.55;
 }
 
 .hi-backdrop {
@@ -4747,7 +4984,8 @@ html[data-motion='full'] .hi-specks {
   align-items: center;
   gap: 0.6rem;
   min-block-size: 44px;
-  padding: 0.35rem 1rem 0.35rem 0.4rem;
+  padding-block: 0.35rem;
+  padding-inline: 0.4rem 1rem;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.06);
@@ -4958,7 +5196,7 @@ html[lang] .hi-title {
 }
 
 html[lang='fa'] .hi-body {
-  line-height: 1.9;
+  line-height: 1.65;
 }
 
 .hi-meta {
@@ -4984,8 +5222,22 @@ html[lang='fa'] .hi-meta {
 }
 
 /* Light theme: the purple scene meets a white page, so the fade passes through a soft lilac instead of grey, and sits below the content. */
+html[data-theme='light'] .home-intro {
+  --hi-fade: 11rem;
+}
+
+/* Many eased stops, each a tint of the scene's own violet that lightens step by step: alpha-blending plain white over near-black would pass through grey. */
 html[data-theme='light'] .home-intro::after {
-  background: linear-gradient(to bottom, transparent, color-mix(in srgb, #8b7cf6 22%, var(--bg)) 55%, var(--bg));
+  background: linear-gradient(
+    to bottom,
+    rgba(110, 90, 220, 0) 0%,
+    rgba(110, 90, 220, 0.1) 14%,
+    rgba(125, 105, 230, 0.3) 30%,
+    rgba(160, 145, 242, 0.58) 48%,
+    rgba(200, 190, 248, 0.82) 66%,
+    rgba(236, 233, 253, 0.95) 82%,
+    var(--bg) 100%
+  );
 }
 
 html[data-theme='light'] .hi-scroll {
