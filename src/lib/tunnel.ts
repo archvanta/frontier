@@ -89,6 +89,9 @@ export const warpEase = (t: number): number => {
   return c * c * (3 - 2 * c);
 };
 
+/** Master switch for the opening animation (`SiteIntro`). Off at the owner's request; the code stays so it can be turned back on. The hero backdrop is separate. */
+export const INTRO_ENABLED = false;
+
 /** Whether the opening animation should run: once per browser session, only on the home page, never under reduced motion. */
 export const INTRO_KEY = 'signal-ai:intro-seen:v1';
 
