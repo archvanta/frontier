@@ -264,6 +264,7 @@ html[data-motion='reduced'] [data-reveal] .story-media img {
 .filter-chip,
 .lang-option,
 .theme-toggle,
+.header-github,
 .menu-toggle,
 .nh-btn,
 .story-pill {
@@ -273,7 +274,7 @@ html[data-motion='reduced'] [data-reveal] .story-media img {
 }
 
 /* A press sinks the control a little; it answers on pointer-down, not after the click. */
-:is(.btn, .icon-btn, .tab, .filter-chip, .lang-option, .theme-toggle, .menu-toggle, .nh-btn, .nh-dot):active {
+:is(.btn, .icon-btn, .tab, .filter-chip, .lang-option, .theme-toggle, .header-github, .menu-toggle, .nh-btn, .nh-dot):active {
   transform: scale(0.96);
   transition-duration: 60ms;
 }

@@ -453,7 +453,8 @@ html[lang='fa'] .mt-label {
   transform: rotate(180deg);
 }
 
-.nav-mobile-only {
+.nav-mobile-only,
+.nav-phone-only {
   display: none;
 }
 
@@ -657,6 +658,7 @@ html[lang='fa'] .mt-label {
 }
 
 .theme-toggle,
+.header-github,
 .menu-toggle {
   display: inline-grid;
   place-items: center;
@@ -673,6 +675,7 @@ html[lang='fa'] .mt-label {
 }
 
 .theme-toggle:hover,
+.header-github:hover,
 .menu-toggle:hover {
   background: var(--btn-dark-hover);
 }
@@ -3934,6 +3937,16 @@ html[lang='fa'] .facts dt {
   .story-card.is-lead {
     grid-template-columns: minmax(0, 1fr);
     gap: var(--s-4);
+  }
+}
+
+/* Below 390px the header has no room for the GitHub button; the menu panel carries the link instead. */
+@media (max-width: 389px) {
+  .header-github {
+    display: none;
+  }
+  .nav-phone-only {
+    display: block;
   }
 }
 

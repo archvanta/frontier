@@ -190,3 +190,33 @@ for (const theme of ['dark', 'light'] as const) {
     expect((hi + 0.05) / (lo + 0.05)).toBeGreaterThan(3);
   });
 }
+
+test('the GitHub button opens the source repository in a new tab, in both languages, and moves into the menu on the narrowest phones', async ({ page }) => {
+  const repo = 'https://github.com/sadeghimohammadamin83-ship-it/SIGNAL_AI';
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto('./#/');
+  const button = page.getByRole('link', { name: 'View source on GitHub' });
+  await expect(button).toBeVisible();
+  await expect(button).toHaveAttribute('href', repo);
+  await expect(button).toHaveAttribute('target', '_blank');
+  await expect(button).toHaveAttribute('rel', 'noopener noreferrer');
+  // It sits beside Sign in, at the same height as the other header controls.
+  const gh = (await button.boundingBox())!;
+  const signIn = (await page.locator('.user-signin').boundingBox())!;
+  expect(signIn.x - (gh.x + gh.width)).toBeLessThanOrEqual(12);
+  expect(gh.height).toBe(signIn.height);
+
+  await page.getByRole('button', { name: 'فارسی (Persian)' }).click();
+  await expect(page.getByRole('link', { name: 'مشاهده کد منبع در گیت‌هاب' })).toHaveAttribute('href', repo);
+
+  await page.setViewportSize({ width: 390, height: 800 });
+  await expect(page.getByRole('link', { name: 'مشاهده کد منبع در گیت‌هاب' })).toBeVisible();
+
+  await page.setViewportSize({ width: 360, height: 800 });
+  await expect(page.locator('.header-github')).toBeHidden();
+  await page.getByRole('button', { name: 'منو' }).click();
+  const item = page.locator('#primary-nav').getByRole('link', { name: 'کد منبع سایت' });
+  await expect(item).toBeVisible();
+  await expect(item).toHaveAttribute('href', repo);
+  await expect(item).toHaveAttribute('rel', 'noopener noreferrer');
+});
