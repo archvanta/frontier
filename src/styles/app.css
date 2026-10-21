@@ -1418,6 +1418,21 @@ html[dir='rtl'] .nh-brand {
     linear-gradient(to right, var(--bg) 0%, transparent 14%, transparent 86%, var(--bg) 100%);
 }
 
+/* Light theme: a white overlay on dark cards washes them grey and leaves the side edges hard. Instead the stage itself is masked on both axes, so the cards
+   dissolve into whatever the page colour is. Eased stops, wide side margins. */
+html[data-theme='light'] .wall-fade {
+  display: none;
+}
+
+html[data-theme='light'] .wall-stage {
+  --wall-mask-y: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.18) 7%, rgba(0, 0, 0, 0.55) 14%, #000 26%, #000 72%, rgba(0, 0, 0, 0.55) 86%, rgba(0, 0, 0, 0.15) 94%, transparent 100%);
+  --wall-mask-x: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 6%, rgba(0, 0, 0, 0.6) 13%, #000 24%, #000 76%, rgba(0, 0, 0, 0.6) 87%, rgba(0, 0, 0, 0.2) 94%, transparent 100%);
+  -webkit-mask-image: var(--wall-mask-y), var(--wall-mask-x);
+  -webkit-mask-composite: source-in;
+  mask-image: var(--wall-mask-y), var(--wall-mask-x);
+  mask-composite: intersect;
+}
+
 .wall-card {
   display: flex;
   align-items: flex-start;
