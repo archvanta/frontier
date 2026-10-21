@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-21T17:35:36Z",
+ "asOf": "2026-10-21T18:26:30Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,117 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-20T17:35:36Z",
-   "to": "2026-10-21T17:35:36Z",
+   "from": "2026-10-20T18:26:30Z",
+   "to": "2026-10-21T18:26:30Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "4ab93569e260b2b0",
+      "url": "https://openai.com/index/att-legal",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "excerpt": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T18:44:22Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "4ab93569e260b2b0",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.0,
+        "topic": 100.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-10-21T18:26:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه AT&T در مورد کار قانونی در خانه با OpenAI تجدید نظر می کند",
+        "excerpt": "AT&T با OpenAI کار می کند تا دسترسی به دانش حقوقی را آسان تر کند. یاد بگیرید که چگونه تیم حقوقی آن در حال تجدید نظر در مصرف و اندازه گیری قضاوت قانونی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T18:44:22Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7104bc51c29585cc",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T18:26:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T18:44:22Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/i-Flass3NMPRmc6lVfwO_.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-relational"
+      },
+      "eventId": "7104bc51c29585cc",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-21T18:26:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Kumo Outperforms Supervised Machine Learning در داده های ارتباطی، بدون آموزش مورد نیاز",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T18:44:22Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "354f89a6c7dbf10c",
@@ -41,15 +148,15 @@
       "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 95.2,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -59,7 +166,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -97,15 +204,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 88.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -116,7 +223,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -152,15 +259,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.7,
+        "recency": 73.0,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -171,61 +278,7 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "38715d90bd30f009",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:51:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
-      },
-      "eventId": "38715d90bd30f009",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 76.1,
-        "topic": 90.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-21T17:35:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -265,79 +318,20 @@
       "eventId": "f66886777241fd98",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
+        "recency": 88.3,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه هوش مصنوعی بیمار را بهتر و متصل تر می کند",
         "excerpt": "مراقبت بهتر زمانی شروع می شود که سیستم های اطراف یک پزشک و بیمار با هم کار کنند. AI مکالمات، نتایج آزمایشگاه، برنامه ریزی اتاق عمل، تدارکات و حمایت از بهبودی را به هم متصل می کند. این به تیم های مراقبت اطلاعات بهتر می دهد تا شما را با آنچه که نیاز دارید، ارائه دهند. ابزارهای دیجیتال متصل و تجهیزات مبتنی بر هوش مصنوعی می توانند به پزشکان کمک کنند تا زمان بیشتری را صرف پزشک کنند. ما را دنبال کنید: X: https://nvda.ws/4hi2sxB",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "841e916aec0ebd36",
-      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
-      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T14:00:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Y39uub4n0LA",
-       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
-      },
-      "eventId": "841e916aec0ebd36",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.3,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-21T17:35:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
-        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T17:42:19Z"
        }
@@ -354,8 +348,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-14T17:35:36Z",
-   "to": "2026-10-21T17:35:36Z",
+   "from": "2026-10-14T18:26:30Z",
+   "to": "2026-10-21T18:26:30Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -386,15 +380,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -443,15 +437,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 67.0,
+        "recency": 66.5,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -499,15 +493,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -555,15 +549,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -575,59 +569,6 @@
       }
      },
      "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "354f89a6c7dbf10c",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T17:35:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
-      },
-      "eventId": "354f89a6c7dbf10c",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-21T17:35:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -667,20 +608,73 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
         "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "354f89a6c7dbf10c",
+      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T17:35:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
+      },
+      "eventId": "354f89a6c7dbf10c",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-21T18:26:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T17:42:19Z"
        }
@@ -726,15 +720,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 93.4,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -785,15 +779,15 @@
       "eventId": "4292624d42f865f0",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.9,
+        "recency": 75.3,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -815,8 +809,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-21T17:35:36Z",
-   "to": "2026-10-21T17:35:36Z",
+   "from": "2026-09-21T18:26:30Z",
+   "to": "2026-10-21T18:26:30Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -853,11 +847,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.7,
+        "recency": 88.5,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -905,15 +899,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -964,11 +958,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 96.7,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1019,11 +1013,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 98.4,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1072,11 +1066,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
+        "recency": 92.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1130,11 +1124,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 98.0,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1189,11 +1183,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.7,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1246,11 +1240,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 99.4,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1304,11 +1298,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 88.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
@@ -1354,15 +1348,15 @@
       "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.8,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T17:35:36Z"
+       "asOf": "2026-10-21T18:26:30Z"
       },
       "tr": {
        "fa": {
