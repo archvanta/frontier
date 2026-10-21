@@ -190,6 +190,7 @@ const en = {
   games_art_note: 'Unofficial editorial illustrations. Not mascots of Anthropic, OpenAI or Google.',
   games_wall: 'CLAUDE · OPENAI · GEMINI · UNREAL · UNITY · ROBLOX · MINECRAFT · NPCS · MODS · ENGINES',
   games_empty_hint: 'No story matches this company yet.',
+  dc_also: 'Also new',
   dc_title: 'Where AI gets built.',
   dc_body:
     'Data center design, construction, power and cooling: the buildings, grids and chips behind AI, from public trade and news feeds.',
@@ -387,6 +388,7 @@ const fa: Record<MessageKey, string> = {
   games_art_note: 'تصویرسازی‌های سرمقاله‌ای غیررسمی؛ نماد رسمی Anthropic، OpenAI یا Google نیستند.',
   games_wall: 'CLAUDE · OPENAI · GEMINI · UNREAL · UNITY · ROBLOX · MINECRAFT · NPCS · MODS · ENGINES',
   games_empty_hint: 'هنوز خبری برای این شرکت نیست.',
+  dc_also: 'خبرهای بعدی',
   dc_title: 'جایی که هوش مصنوعی ساخته می‌شود.',
   dc_body:
     'طراحی، ساخت، برق و خنک‌سازی دیتاسنترها: ساختمان‌ها، شبکه‌های برق و تراشه‌های پشت هوش مصنوعی، از فیدهای عمومی خبری و تخصصی.',
