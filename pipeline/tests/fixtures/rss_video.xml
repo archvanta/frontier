@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE: an article feed whose items carry videos in different ways. Not real news. -->
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>Fixture Blog</title>
+  <link>https://blog.example.com/</link>
+  <description>fixture</description>
+  <item>
+    <title>Fixture blog post with an embedded AI demo video</title>
+    <link>https://blog.example.com/posts/demo</link>
+    <pubDate>Mon, 19 Oct 2026 07:00:00 +0000</pubDate>
+    <content:encoded><![CDATA[<p>Watch the AI demo.</p><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qw3rTy_Ui0p?si=x" allowfullscreen></iframe>]]></content:encoded>
+  </item>
+  <item>
+    <title>Fixture clip of an AI robot, as a video file</title>
+    <link>https://blog.example.com/posts/clip</link>
+    <pubDate>Mon, 19 Oct 2026 06:00:00 +0000</pubDate>
+    <description>Short AI robot clip.</description>
+    <enclosure url="https://media.example.com/clip.mp4" length="1000" type="video/mp4"/>
+    <media:content url="https://media.example.com/clip-poster.jpg" type="image/jpeg" width="1280"/>
+  </item>
+  <item>
+    <title>Fixture AI post with an insecure video file</title>
+    <link>https://blog.example.com/posts/http-clip</link>
+    <pubDate>Mon, 19 Oct 2026 05:00:00 +0000</pubDate>
+    <description>Plain http video is not playable on the https site.</description>
+    <enclosure url="http://media.example.com/clip.mp4" length="1000" type="video/mp4"/>
+  </item>
+</channel>
+</rss>

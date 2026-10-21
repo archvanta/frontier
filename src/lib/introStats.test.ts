@@ -9,7 +9,7 @@ const art = (id: string, hoursAgo: number, entities: string[] = []): Article =>
 describe('introStats', () => {
   it('counts the last 24 hours in all and per section, and finds the newest story', () => {
     const s = introStats([art('a', 1), art('b', 5), art('c', 30)], new Map([['b', 'ai-games' as const]]), null, now);
-    expect(s.fresh).toEqual({ news: 2, sections: { 'ai-games': 1, 'data-centers': 0 } });
+    expect(s.fresh).toEqual({ news: 2, sections: { 'ai-games': 1, 'data-centers': 0, videos: 0 } });
     expect(s.lastSignal).toBe(art('a', 1).publishedAt);
     expect(s.sources).toBeNull();
   });

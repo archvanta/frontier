@@ -55,15 +55,17 @@ interface Seed {
   img: boolean;
   /** Mock-only photo: a wide one (also usable as a slide background) or a boxy one (frame only). */
   photo?: 'wide' | 'boxy';
+  /** Mock video: a placeholder YouTube id that is not a real video, or the site's own bundled intro clip as a "file". */
+  video?: 'youtube' | 'file';
 }
 
 const SEEDS: Seed[] = [
   { t: 'Claude model update ships longer context in fixture scenario', fa: 'به‌روزرسانی مدل Claude با زمینهٔ طولانی‌تر (سناریوی آزمایشی)', c: 'models', b: 'claude', e: ['anthropic'], s: 0, img: false, photo: 'wide' },
-  { t: 'OpenAI announces developer tooling refresh in fixture scenario', fa: 'OpenAI ابزارهای توسعه‌دهندگان را به‌روز می‌کند (سناریوی آزمایشی)', c: 'products', b: 'openai', e: ['openai'], s: 1, img: false, photo: 'boxy' },
+  { t: 'OpenAI announces developer tooling refresh in fixture scenario', fa: 'OpenAI ابزارهای توسعه‌دهندگان را به‌روز می‌کند (سناریوی آزمایشی)', c: 'products', b: 'openai', e: ['openai'], s: 1, img: false, photo: 'boxy', video: 'youtube' },
   { t: 'Gemini gains multimodal reasoning features in fixture scenario', fa: 'Gemini قابلیت‌های استدلال چندوجهی می‌گیرد (سناریوی آزمایشی)', c: 'models', b: 'gemini', e: ['google'], s: 1, img: false },
   { t: 'Benchmark study compares small open models on reasoning tasks', fa: 'مطالعهٔ بنچمارک مدل‌های باز کوچک را مقایسه می‌کند', c: 'research', b: null, e: [], s: 2, img: true },
   { t: 'Regulators publish draft guidance for general-purpose AI audits', fa: null, c: 'policy', b: null, e: [], s: 1, img: true },
-  { t: 'Chipmaker outlines next accelerator roadmap for data centres', fa: 'سازندهٔ تراشه نقشهٔ راه شتاب‌دهندهٔ بعدی را ارائه می‌کند', c: 'hardware', b: null, e: ['nvidia'], s: 1, img: true },
+  { t: 'Chipmaker outlines next accelerator roadmap for data centres', fa: 'سازندهٔ تراشه نقشهٔ راه شتاب‌دهندهٔ بعدی را ارائه می‌کند', c: 'hardware', b: null, e: ['nvidia'], s: 1, img: true, video: 'file' },
   { t: 'Open-source inference engine adds speculative decoding', fa: 'موتور استنتاج متن‌باز رمزگشایی گمانه‌زنانه اضافه می‌کند', c: 'open-source', b: null, e: [], s: 3, img: false },
   { t: 'Startup raises funding to build evaluation infrastructure', fa: null, c: 'business', b: null, e: [], s: 1, img: true },
   { t: 'Safety researchers release red-teaming dataset for agents', fa: 'پژوهشگران ایمنی مجموعه‌دادهٔ ردتیمینگ عامل‌ها را منتشر می‌کنند', c: 'safety', b: null, e: [], s: 2, img: false },
@@ -125,6 +127,11 @@ export function buildMockDataset(now: Date): MockDataset {
       entities: seed.e,
       brand: seed.b,
       image,
+      ...(seed.video === 'youtube'
+        ? { video: { provider: 'youtube' as const, id: 'MOCKvideo01', url: 'https://www.youtube.com/watch?v=MOCKvideo01' } }
+        : seed.video === 'file'
+        ? { video: { provider: 'file' as const, url: 'videos/signal-ai-intro.mp4', type: 'video/mp4' } }
+        : {}),
       eventId: i === 1 ? hex(2) : id,
       related: [],
       score: {
@@ -157,8 +164,8 @@ export function buildMockDataset(now: Date): MockDataset {
     return [name, { from: from.toISOString(), to: anchor.toISOString(), picks }] as const;
   };
 
-  const section = (id: SectionId, test: RegExp): SectionFile => {
-    const members = articles.filter((a) => test.test(a.title)).sort((x, y) => y.publishedAt.localeCompare(x.publishedAt));
+  const section = (id: SectionId, test: RegExp | ((a: Article) => boolean)): SectionFile => {
+    const members = articles.filter((a) => (typeof test === 'function' ? test(a) : test.test(a.title))).sort((x, y) => y.publishedAt.localeCompare(x.publishedAt));
     return { schemaVersion: SCHEMA_VERSION, section: id, windowDays: 90, total: members.length, articles: members };
   };
 
@@ -187,7 +194,11 @@ export function buildMockDataset(now: Date): MockDataset {
       windows: Object.fromEntries([window('daily', 24, 6), window('weekly', 24 * 7, 8), window('monthly', 24 * 30, 10)]) as PicksFile['windows'],
     },
     sources: { schemaVersion: SCHEMA_VERSION, sources: SOURCES },
-    sections: { 'ai-games': section('ai-games', /\bgame\b/i), 'data-centers': section('data-centers', /data cent/i) },
+    sections: {
+      'ai-games': section('ai-games', /\bgame\b/i),
+      'data-centers': section('data-centers', /data cent/i),
+      videos: section('videos', (a) => Boolean(a.video)),
+    },
     searchIndex: {
       schemaVersion: SCHEMA_VERSION,
       windowDays: 90,

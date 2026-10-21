@@ -4,6 +4,7 @@ import { ScoreExplain } from '../components/ScoreExplain';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { BookmarkButton } from '../components/StoryCard';
 import { StoryImage } from '../components/StoryImage';
+import { VideoPlayer } from '../components/VideoPlayer';
 import { displayExcerpt, displayTitle, hostOf, persianDigits, safeUrl } from '../lib/article';
 import { useData } from '../lib/dataContext';
 import { formatDateTime, formatDay } from '../lib/dates';
@@ -11,7 +12,8 @@ import { useAsync } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
 import type { CardFit } from '../lib/imageFit';
-import type { Article, SearchEntry } from '../lib/types';
+import type { Article, ArticleVideo, SearchEntry } from '../lib/types';
+import { playableVideo, videoSourceUrl } from '../lib/video';
 
 const LANG_NAMES: Record<string, { en: string; fa: string }> = {
   en: { en: 'English', fa: 'انگلیسی' },
@@ -41,6 +43,28 @@ function StoryFigure({ article, caption, publisherImage }: { article: Article; c
           )}
         </figcaption>
       )}
+    </figure>
+  );
+}
+
+/** The story's video, played in the page, credited to its publisher with a link to the original. */
+function StoryVideo({ article, video }: { article: Article; video: ArticleVideo }) {
+  const { t } = useI18n();
+  const source = safeUrl(videoSourceUrl(video));
+  return (
+    <figure className="story-figure story-video">
+      <VideoPlayer article={article} video={video} eager />
+      <figcaption>
+        {t('video_credit')}: {article.sourceName}
+        {source && (
+          <>
+            {' · '}
+            <a href={source} target="_blank" rel="noopener noreferrer">
+              {video.provider === 'youtube' ? t('video_watch_youtube') : t('video_open_file')}
+            </a>
+          </>
+        )}
+      </figcaption>
     </figure>
   );
 }
@@ -77,6 +101,7 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
   const lang = LANG_NAMES[a.lang]?.[locale] ?? a.lang;
   const credit = a.image?.kind === 'brand' ? t('brand_art_note') : a.image?.credit;
   const publisherImage = a.image?.kind === 'brand' ? safeUrl(a.sourceImage?.url) : null;
+  const video = playableVideo(a);
 
   return (
     <article className="page story-page container-narrow">
@@ -92,6 +117,11 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
           <a className="chip" href={href('/explore', { c: a.category })}>
             {categoryLabel(locale, a.category)}
           </a>
+          {video && (
+            <a className="sec-badge" href={href('/videos')} data-section="videos">
+              {t('video_label')}
+            </a>
+          )}
           <span className="kicker-source">{a.sourceName}</span>
         </div>
         <h1 className="story-headline" lang={title.lang} dir="auto">
@@ -112,7 +142,11 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
 
       <div className="story-layout">
         <div className="story-main">
-          <StoryFigure article={a} caption={credit ?? undefined} publisherImage={publisherImage} />
+          {video ? (
+            <StoryVideo article={a} video={video} />
+          ) : (
+            <StoryFigure article={a} caption={credit ?? undefined} publisherImage={publisherImage} />
+          )}
           {excerpt.text && (
             <p className="story-lede" lang={excerpt.lang} dir="auto">
               {excerpt.text}

@@ -68,6 +68,7 @@ export function parseHash(hash: string): Route {
       break;
     case 'ai-games':
     case 'data-centers':
+    case 'videos':
       if (!a && (SECTION_IDS as readonly string[]).includes(head)) return { name: 'section', id: head as SectionId, params };
       break;
     case 'archive':

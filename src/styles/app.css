@@ -5223,3 +5223,256 @@ html[lang='fa'] .follow-title {
 .follow-topics:focus {
   outline: none;
 }
+
+/* ---------- Video stories: in-page player, card badge and the Videos page ---------- */
+/* The frame keeps 16:9 before and after play, so pressing play never moves the page. */
+.video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-frame .story-media {
+  position: absolute;
+  inset: 0;
+  aspect-ratio: auto;
+  border-radius: 0;
+}
+
+.video-frame iframe,
+.video-frame video {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  border: 0;
+  background: #000;
+}
+
+.video-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-2);
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  padding: 0;
+  color: #fff;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.55));
+  cursor: pointer;
+}
+
+.video-play-icon {
+  display: grid;
+  place-items: center;
+  inline-size: 72px;
+  block-size: 72px;
+  border-radius: 50%;
+  background: rgba(5, 6, 14, 0.72);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.35),
+    0 12px 30px -10px rgba(0, 0, 0, 0.8);
+  transition:
+    transform var(--dur-tab) var(--ease),
+    background var(--dur-tab) var(--ease);
+}
+
+/* The triangle sits optically centred, not geometrically. */
+.video-play-icon .icon {
+  margin-inline-start: 4px;
+}
+
+.video-frame.is-compact .video-play-icon {
+  inline-size: 52px;
+  block-size: 52px;
+}
+
+.video-play:hover .video-play-icon,
+.video-play:focus-visible .video-play-icon {
+  transform: scale(1.06);
+  background: var(--accent-strong);
+}
+
+.video-play:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -4px;
+}
+
+.video-play-label {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(5, 6, 14, 0.72);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+
+.video-note {
+  position: absolute;
+  inset-block-end: var(--s-2);
+  inset-inline-start: var(--s-2);
+  padding: 0.1rem 0.45rem;
+  border-radius: var(--radius-sm);
+  background: rgba(5, 6, 14, 0.78);
+  color: #d6d8e0;
+  font-size: 0.6875rem;
+  pointer-events: none;
+}
+
+/* "Video" label on a card's thumbnail. */
+.story-media-link {
+  position: relative;
+}
+
+.video-badge {
+  position: absolute;
+  inset-block-end: var(--s-2);
+  inset-inline-start: var(--s-2);
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+  padding: 0.2rem 0.55rem 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(5, 6, 14, 0.8);
+  color: #fff;
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  line-height: 1.4;
+  pointer-events: none;
+}
+
+.story-video .video-frame {
+  border-radius: 0;
+}
+
+.videos-page .eyebrow {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.videos-note {
+  max-inline-size: 70ch;
+  font-size: var(--fs-sm);
+  color: var(--text-3);
+}
+
+.video-cell {
+  display: grid;
+  align-content: start;
+  min-inline-size: 0;
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--surface-1);
+  box-shadow:
+    0 0 0 1px var(--line),
+    var(--shadow-card);
+}
+
+.video-cell.is-lead {
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+}
+
+.video-cell-body {
+  display: grid;
+  align-content: start;
+  gap: var(--s-3);
+  padding: var(--s-4);
+  min-inline-size: 0;
+}
+
+.video-cell.is-lead .video-cell-body {
+  padding: var(--s-5);
+}
+
+.video-cell-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem var(--s-3);
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--fs-xs);
+  color: var(--text-3);
+}
+
+.video-cell-title {
+  font-size: var(--fs-lg);
+  font-weight: 650;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  overflow-wrap: break-word;
+}
+
+.video-cell.is-lead .video-cell-title {
+  font-size: clamp(1.4rem, 1.1rem + 1vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+html[lang='fa'] .video-cell-title {
+  line-height: 1.55;
+  letter-spacing: 0;
+}
+
+.video-cell-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.video-cell-title a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.video-cell-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+
+.video-cell-actions {
+  display: flex;
+  gap: var(--s-2);
+  align-items: center;
+  margin-block-start: auto;
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--s-5);
+}
+
+.videos-more {
+  justify-self: center;
+}
+
+@media (max-width: 999px) {
+  .video-cell.is-lead {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .videos-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .videos-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .video-play-icon {
+    inline-size: 60px;
+    block-size: 60px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .video-play-icon {
+    transition: none;
+  }
+}

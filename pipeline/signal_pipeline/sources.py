@@ -33,6 +33,8 @@ class Source:
     max_items: int = MAX_ITEMS_PER_SOURCE
     enabled: bool = True
     notes: str = ""
+    # When set, the fetched feed's own title must match (a YouTube channel's name), so a wrong channel id fails loudly.
+    expect_title: str = ""
 
     @property
     def feed_host(self) -> str:
@@ -87,6 +89,7 @@ def _validate(raw: dict, seen: set[str]) -> Source:
         max_items=int(raw.get("max_items", MAX_ITEMS_PER_SOURCE)),
         enabled=bool(raw.get("enabled", True)),
         notes=str(raw.get("notes", "")).strip(),
+        expect_title=str(raw.get("expect_title", "")).strip(),
     )
 
 
