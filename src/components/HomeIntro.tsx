@@ -4,10 +4,11 @@ import { formatNumber, relativeTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import type { IntroStats } from '../lib/introStats';
 import { href } from '../lib/router';
-import type { PickEntry } from '../lib/types';
+import type { Article, PickEntry } from '../lib/types';
 import { HalftoneWordmark } from './HalftoneWordmark';
 import { Icon, type IconName } from './Icon';
 import { assetUrl } from './StoryImage';
+import { TunnelScene } from './TunnelScene';
 
 /**
  * First scene of the homepage: what the site is, in one calm screen, with the three ways in. The page's h1 lives here.
@@ -48,7 +49,7 @@ export interface IntroData {
   now: Date;
 }
 
-export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: IntroData | null }) {
+export function HomeIntro({ onContinue, data, stories }: { onContinue: () => void; data: IntroData | null; stories?: readonly Article[] | null }) {
   const { t, locale } = useI18n();
   const stats = data?.stats;
   const root = useRef<HTMLElement>(null);
@@ -85,6 +86,7 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
         <span className="hi-glow hi-glow-b" />
         <span className="hi-glow hi-glow-c" />
         <span className="hi-grid" />
+        {stories && stories.length >= 3 && <TunnelScene stories={stories} mode="loop" />}
         <span className="hi-beam" />
         <span className="hi-specks">
           {SPECKS.map((p) => (

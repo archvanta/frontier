@@ -142,7 +142,7 @@ export function HomePage({
         heroSlot &&
         createPortal(
           <>
-            {home && <HomeIntro onContinue={goTo('news-hero')} data={introData} />}
+            {home && <HomeIntro onContinue={goTo('news-hero')} data={introData} stories={heroStories} />}
             {heroStories === null || heroStories.length > 0 ? (
               <NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} standalone={!home} />
             ) : null}
