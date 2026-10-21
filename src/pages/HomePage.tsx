@@ -23,6 +23,9 @@ import { categoryLabel, sectionLabel, useI18n } from '../lib/i18n';
 import { CATEGORY_IDS, SECTION_IDS, type Article, type CategoryId, type Meta, type SectionId } from '../lib/types';
 
 /** `home` is the intro page (all three sections mixed, with a section label on each story); `ai-news` is the plain news front page: slideshow and the full feed. */
+/** Stories per day shown as plain rows before "Show more"; the rest of a long day stays one tap away. */
+const FEED_LIST_LIMIT = 12;
+
 export function HomePage({
   page,
   meta,
@@ -88,6 +91,17 @@ export function HomePage({
           : [],
     [feed, newest, followed],
   );
+  // Stories the hero and "Top signals" already show: the wall skips them so one story is not on screen three times over.
+  const featured = useMemo(() => {
+    const ids = new Set<string>((heroStories ?? []).map((a) => a.id));
+    if (feed.status === 'ready') for (const p of feed.data.picks?.windows.daily?.picks.slice(0, 6) ?? []) ids.add(p.article.id);
+    return ids;
+  }, [heroStories, feed]);
+  const wallStories = useMemo(() => {
+    const rest = newest.filter((a) => !featured.has(a.id));
+    return rest.length >= 4 ? rest : newest;
+  }, [newest, featured]);
+
   const introData = useMemo(
     () => (feed.status === 'ready' ? { stats: introStats(newest, feed.data.sectionOf, meta, now), signals: topSignals(feed.data.picks), now } : null),
     [feed, newest, meta, now],
@@ -121,7 +135,7 @@ export function HomePage({
             </EmptyState>
           )}
           {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} />}
-          {page === 1 && <SignalWall stories={newest} now={now} />}
+          {page === 1 && <SignalWall stories={wallStories} now={now} />}
           {page === 1 && home && <FollowTopics onSkip={goTo('latest')} />}
           <div className="latest-layout">
             <aside className="latest-aside" aria-label={t('weekly_brief')}>
@@ -163,6 +177,7 @@ export function HomePage({
                   articles={prioritizeFollowed(category === 'all' ? g.articles : g.articles.filter((a) => matches(a, feed.data.sectionOf)), followed)}
                   sectionOf={home ? feed.data.sectionOf : undefined}
                   emptyText={category === 'all' ? undefined : t('filter_empty')}
+                  listLimit={FEED_LIST_LIMIT}
                   label={feed.data.plan.page === 1 ? (i === 0 ? t('today') : t('yesterday')) : undefined}
                 />
               ))}

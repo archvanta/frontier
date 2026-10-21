@@ -4,9 +4,9 @@ import { ScoreExplain } from '../components/ScoreExplain';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { BookmarkButton } from '../components/StoryCard';
 import { StoryImage } from '../components/StoryImage';
-import { displayExcerpt, displayTitle, hostOf, safeUrl } from '../lib/article';
+import { displayExcerpt, displayTitle, hostOf, persianDigits, safeUrl } from '../lib/article';
 import { useData } from '../lib/dataContext';
-import { formatDateTime } from '../lib/dates';
+import { formatDateTime, formatDay } from '../lib/dates';
 import { useAsync } from '../lib/hooks';
 import { categoryLabel, useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
@@ -83,7 +83,9 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
       <nav className="crumbs" aria-label="Breadcrumb">
         <a href={href('/')}>{t('nav_home')}</a>
         <Icon name="chevron" size={14} directional />
-        <a href={href(`/day/${a.day}`)}>{a.day}</a>
+        <a href={href(`/day/${a.day}`)}>
+          <time dateTime={a.day}>{formatDay(a.day, locale, 'short')}</time>
+        </a>
       </nav>
       <header className="story-head">
         <div className="story-kicker">
@@ -132,7 +134,7 @@ export function StoryPage({ day, id }: { day: string; id: string }) {
               <ul>
                 {related.map((r) => (
                   <li key={r.id}>
-                    <a href={href(`/story/${r.d}/${r.id}`)}>{locale === 'fa' && r.tf ? r.tf : r.t}</a>
+                    <a href={href(`/story/${r.d}/${r.id}`)}>{locale === 'fa' && r.tf ? persianDigits(r.tf) : r.t}</a>
                     <span className="kicker-source"> — {r.sn}</span>
                   </li>
                 ))}

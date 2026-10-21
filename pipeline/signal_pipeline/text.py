@@ -58,11 +58,28 @@ _BOILERPLATE = [
 ]
 
 
+# arXiv feeds put a machine header in front of the abstract and leave TeX commands in it.
+_ARXIV_HEADER = re.compile(r"^arXiv:\s*\d{4}\.\d{4,5}(?:v\d+)?\s+Announce Type:\s*\S+\s*(?:Abstract:\s*)?", re.I)
+_TEX_COMMAND = re.compile(r"\\[A-Za-z]+\*?\{([^{}]*)\}")
+# Some feeds send the alt text of the cover picture as the summary; that describes an image, not the story.
+_IMAGE_CAPTION = re.compile(r"^(?:Cover|Hero|Featured|Header|Thumbnail) image\b", re.I)
+
+
+def tidy_excerpt(text: str) -> str:
+    """Drops feed machinery from plain excerpt text; running it again on its own output changes nothing."""
+    text = _ARXIV_HEADER.sub("", text).replace("``", "\u201c").replace("''", "\u201d")
+    # Nested commands unwrap from the inside out: \\textbf{\\textsc{x}} -> x.
+    for _ in range(3):
+        text = _TEX_COMMAND.sub(r"\1", text)
+    text = text.strip()
+    return "" if _IMAGE_CAPTION.match(text) else text
+
+
 def clean_excerpt(value: str | None, max_chars: int) -> str:
     text = html_to_text(value)
     for pat in _BOILERPLATE:
         text = pat.sub("", text)
-    return truncate(text.strip(), max_chars)
+    return truncate(tidy_excerpt(text), max_chars)
 
 
 def truncate(text: str, max_chars: int) -> str:

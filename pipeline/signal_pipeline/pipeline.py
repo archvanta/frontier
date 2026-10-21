@@ -4,7 +4,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any, Callable, Iterable
 
 from . import config
 from .dedup import find_event, is_same_source_duplicate, refresh_related
@@ -14,7 +14,7 @@ from .parse import FeedError, RawItem, parse_feed
 from .sections import build_sections
 from .sources import Source
 from .store import Store
-from .text import clean_excerpt, html_to_text, truncate
+from .text import clean_excerpt, html_to_text, tidy_excerpt, truncate
 
 Enricher = Callable[[list[dict[str, Any]], list[dict[str, Any]], dict[str, Source], datetime], None]
 
@@ -97,6 +97,23 @@ def collect_source(src: Source, fetcher: Fetcher, now: datetime) -> tuple[list[d
     return built[: src.max_items], None
 
 
+def reclean_excerpts(articles: Iterable[dict[str, Any]]) -> int:
+    """Applies the current excerpt cleaning to stories stored by an earlier run.
+
+    A story whose English excerpt changes loses its stored Persian text, because that translation was made
+    from the old excerpt; the translator then redoes it.
+    """
+    changed = 0
+    for a in articles:
+        old = a.get("excerpt") or ""
+        new = tidy_excerpt(old)
+        if new != old:
+            a["excerpt"] = new
+            (a.get("tr") or {}).pop("fa", None)
+            changed += 1
+    return changed
+
+
 def run(
     out_dir: Path,
     sources: list[Source],
@@ -151,6 +168,8 @@ def run(
                 continue
             new.append(a)
             new_ids.add(a["id"])
+
+    reclean_excerpts(existing.values())
 
     # Events: earliest stories first so the first report of an event names it.
     pool = list(existing.values())

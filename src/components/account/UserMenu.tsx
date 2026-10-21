@@ -52,6 +52,7 @@ export function UserMenu({ route }: { route: Route }) {
       <a
         className="btn is-dark user-signin"
         href={href('/signin', { next: nextFor(route) })}
+        aria-label={at('sign_in')}
         aria-current={onSignin ? 'page' : undefined}
         onPointerEnter={account.prepare}
         onFocus={account.prepare}
