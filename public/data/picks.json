@@ -1,6 +1,6 @@
 {
- "schemaVersion": 2,
- "asOf": "2026-10-21T07:00:00Z",
+ "schemaVersion": 3,
+ "asOf": "2026-10-21T12:00:41Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,288 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-20T07:00:00Z",
-   "to": "2026-10-21T07:00:00Z",
+   "from": "2026-10-20T12:00:41Z",
+   "to": "2026-10-21T12:00:41Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "99ae24e773f80392",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T10:59:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
+      },
+      "eventId": "99ae24e773f80392",
+      "related": [],
+      "score": {
+       "total": 69.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.3,
+        "topic": 75.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "da2f8b0b93e185d1",
+      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
+      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T11:20:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "IqhDPbRrsh4",
+       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
+      },
+      "eventId": "da2f8b0b93e185d1",
+      "related": [],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.2,
+        "topic": 80.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3ecd929e64680d52",
+      "url": "https://www.youtube.com/watch?v=qDF7ARVxbWU",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX",
+      "excerpt": "Efficient infrastructure is the foundation for scaling AI. NVIDIA DSX is a full-stack AI factory reference architecture, co-designed across compute, networking, storage, power, and cooling. Validated in a digital twin before construction begins. DSX Max LPS uses 30% less power for the same output. Closed-loop liquid cooling and outdoor dry coolers save up to 54 million liters of water per day…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T11:19:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/qDF7ARVxbWU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "qDF7ARVxbWU",
+       "url": "https://www.youtube.com/watch?v=qDF7ARVxbWU"
+      },
+      "eventId": "3ecd929e64680d52",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.1,
+        "topic": 70.0,
+        "novelty": 82.4
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "عوامل هوش مصنوعی که از قدرت و آب کمتری استفاده می کنند، ساخته شده در روز",
+        "excerpt": "زیرساخت های کارآمد پایه ای برای مقیاس پذیری AI است. NVIDIA DSX یک معماری مرجع کارخانه AI است که در سراسر محاسبه، شبکه، ذخیره سازی، قدرت و خنک سازی طراحی شده است. معتبر در یک دوقلو دیجیتال قبل از شروع ساخت و ساز. DSX Max LPS از 30٪ قدرت کمتر برای همان خروجی استفاده می کند. خنک کننده مایع حلقه بسته و خنک کننده های خشک در فضای باز تا 54 میلیون لیتر آب در روز صرفه جویی می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T12:28:47Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "db73069fa994e255",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "excerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T10:45:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "hardware",
+      "tags": [
+       "ai infrastructure",
+       "cloud",
+       "hardware",
+       "networking",
+       "gtc 2026",
+       "nemotron"
+      ],
+      "entities": [
+       "google",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GoogleCloud-VeraRubin-1920x1080-1.png",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "db73069fa994e255",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.0,
+        "topic": 70.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Google Cloud و NVIDIA اعلام کردند که دسترسی عمومی زیرساخت NVIDIA Vera Rubin",
+        "excerpt": "در دسترس بودن عمومی موارد ماه آینده با گسترش برنامه ریزی شده در دسترس بودن به اروپا - آوردن یک پلت فرم یکپارچه برای آموزش، استنتاج و یادگیری تقویت در مقیاس بزرگ به مشتریان ابر. نمونه های A5X NVL72، NVIDIA ConnectX-9 SuperNICs، Google Cloud Virgo Network و نسل چهارم پیشرفته مایع سازی پیشرفته Google Cloud را گرد هم می آورد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T12:28:47Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d0766c037e0874d7",
+      "url": "https://www.theguardian.com/music/2026/oct/21/artificial-intelligence-music-grimes-asap-rocky",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "As fans reject AI-generated music, even boosters are drawing the line",
+      "excerpt": "Enthusiasts like Grimes and A$AP Rocky may embrace AI-generated content, but they won’t produce it themselves Streaming services, notable musicians and fans are confronting the growing presence of AI-generated music and drawing lines in the sand. On Tuesday, Spotify announced it had removed some 50m songs considered AI slop from its recommendations to users over the past year. Continue reading...",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:00:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "policy",
+      "tags": [
+       "music",
+       "ai (artificial intelligence)",
+       "grimes",
+       "a$ap rocky",
+       "technology",
+       "us news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/8247f9d5d61677fd63d2d0b76590621d1901f9e1/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=c5c8d44e66e9602dcb7376b1b230a61b",
+       "credit": "Composite: Getty images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d0766c037e0874d7",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "همانطور که طرفداران موسیقی تولید شده AI را رد می کنند، حتی تقویت کننده ها خط را طراحی می کنند",
+        "excerpt": "Enthusiasts مانند Grimes و A $AP راکی ممکن است محتوای تولید شده AI را در آغوش بگیرند، اما آنها خدمات جریان خود را تولید نمی کنند، نوازندگان قابل توجه و طرفداران با حضور در حال رشد موسیقی تولید شده AI و خطوط نقاشی در شن و ماسه مواجه هستند. روز سه شنبه، اسپاتیفای اعلام کرد که حدود 50 میلیون آهنگ را که AI از توصیه های خود به کاربران در طول سال گذشته استفاده کرده بود، حذف کرده است. ادامه خواندن ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T12:28:47Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "6bc0a4e087e6311f",
@@ -21,7 +299,7 @@
       "sourceId": "google-ai-blog",
       "sourceName": "Google — The Keyword (AI)",
       "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "excerpt": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+      "excerpt": "",
       "lang": "en",
       "publishedAt": "2026-10-21T04:00:00Z",
       "dateEstimated": false,
@@ -44,308 +322,21 @@
       "eventId": "6bc0a4e087e6311f",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 60.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 63.0,
         "topic": 55.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
         "title": "اقتصاد دیجیتال جنوب شرقی آسیا به قیمت 68 میلیارد دلار",
-        "excerpt": "تصویر را برای گزارش e-Conomy SEA 2026 با عنوان ایجاد اقتصاد هوشمند توسط گوگل، Temasek و Bain و Company پوشش دهید. یک تصویر 3D دارای یک ستاره زرد درخشان است که توسط صحنه های مینیاتوری احاطه شده است که بخش های دیجیتال را نمایندگی می کند، از جمله داده های cen",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T06:37:49Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 62.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 40.4,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "753fc98bb47cb9f3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T16:42:53Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
-       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "753fc98bb47cb9f3",
-      "related": [],
-      "score": {
-       "total": 61.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 43.8,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
-        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "aeaa448f66c5e86e",
-      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
-      "excerpt": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T20:35:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T22:22:53Z",
-      "day": "2026-10-20",
-      "category": "business",
-      "tags": [
-       "ai",
-       "tc",
-       "biotech",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "dbaa902542534b3a",
-      "related": [
-       "dbaa902542534b3a"
-      ],
-      "score": {
-       "total": 60.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 54.8,
-        "topic": 55.0,
-        "novelty": 45.8
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ارکستر Bio⁠ را به دست می آورد تا کسب و کار بیوتکنولوژی خود را افزایش دهد",
-        "excerpt": "OpenAI می گوید که اضافه کردن تیم و تکنولوژی ارکستر برای کار بر روی Rosalind، مدل AI آن برای تحقیقات علوم زندگی، و به ابزار مرتبط Rosalind Workbench، یک اهرم است که هدف آن کمک به محققان برای برنامه ریزی آزمایشات و تجزیه و تحلیل نتایج است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T22:22:53Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "65f689d035704c2c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
-      "excerpt": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T21:14:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T22:22:53Z",
-      "day": "2026-10-20",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "aws trainium",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21817-1.png",
-       "alt": "NeuronCore-v3 internal architecture",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "65f689d035704c2c",
-      "related": [],
-      "score": {
-       "total": 60.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 56.9,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "فراتر از حافظه KV: آموزش و خدمت به مدل توجه خطی i14 در AWS Trainium2 با PyTorch بومی",
-        "excerpt": "یاد بگیرید که چگونه i14 آموزش داده و خدمت Laplace 3B، یک مدل توجه خطی، در AWS Trainium2 با استفاده از PyTorch بومی. حالت تکراری آن در 29.5 MB در هر توالی بدون توجه به طول زمینه ثابت باقی می ماند، اجتناب از حافظه در حال رشد کلیدی از مدل های ترانسفورماتور و حفظ حافظه قابل پیش بینی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T22:22:53Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4eb9f7080b11166e",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T18:17:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
-      },
-      "eventId": "4eb9f7080b11166e",
-      "related": [],
-      "score": {
-       "total": 60.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 48.0,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-21T12:28:47Z"
        }
       }
      },
@@ -360,8 +351,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-14T07:00:00Z",
-   "to": "2026-10-21T07:00:00Z",
+   "from": "2026-10-14T12:00:41Z",
+   "to": "2026-10-21T12:00:41Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -394,15 +385,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 74.3,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.2,
+        "recency": 70.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -418,6 +409,52 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "99ae24e773f80392",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T10:59:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
+      },
+      "eventId": "99ae24e773f80392",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 75.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -449,15 +486,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.0,
+        "recency": 81.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -467,7 +504,117 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4292624d42f865f0",
+      "url": "https://www.youtube.com/shorts/v45XAMqH7pE",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "You need a better headshot.",
+      "excerpt": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T13:00:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/v45XAMqH7pE/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "v45XAMqH7pE",
+       "url": "https://www.youtube.com/watch?v=v45XAMqH7pE"
+      },
+      "eventId": "4292624d42f865f0",
+      "related": [],
+      "score": {
+       "total": 69.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.1,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شما نیاز به یک شات بهتر دارید.",
+        "excerpt": "این JUST IN: شما نیاز به یک شات بهتر دارید. حال خود را در تصاویر ChatGPT ایجاد کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T12:28:47Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "da2f8b0b93e185d1",
+      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
+      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T11:20:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "IqhDPbRrsh4",
+       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
+      },
+      "eventId": "da2f8b0b93e185d1",
+      "related": [],
+      "score": {
+       "total": 69.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -508,185 +655,20 @@
       "eventId": "753fc98bb47cb9f3",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 83.0,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
         "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
         "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b3fcb2e42d321123",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "excerpt": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "b3fcb2e42d321123",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.7,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
-        "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4eb9f7080b11166e",
-      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T18:17:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67a4f15057fb66b9db6dac82/45XSEtdQHqTdspRe3wkYs.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
-      },
-      "eventId": "4eb9f7080b11166e",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.5,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Cosmos 3H-Dreams: آوردن جراحی بالینی به زندگی از طریق شبیه سازی ژنومی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d42536b869033e81",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
-      "excerpt": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T17:34:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
-       "alt": "High-level architecture of Octave’s AI foundation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "d42536b869033e81",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.9,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "How Octave ساخت یک پایه هوش مصنوعی چند دهم امن در آمازون Bedrock",
-        "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T18:31:30Z"
        }
@@ -702,50 +684,55 @@
     },
     {
      "article": {
-      "id": "6bc0a4e087e6311f",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "excerpt": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+      "id": "db73069fa994e255",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "excerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling…",
       "lang": "en",
-      "publishedAt": "2026-10-21T04:00:00Z",
+      "publishedAt": "2026-10-21T10:45:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T06:37:49Z",
+      "fetchedAt": "2026-10-21T12:28:47Z",
       "day": "2026-10-21",
-      "category": "business",
+      "category": "hardware",
       "tags": [
-       "google in asia",
-       "ai"
+       "ai infrastructure",
+       "cloud",
+       "hardware",
+       "networking",
+       "gtc 2026",
+       "nemotron"
       ],
       "entities": [
-       "google"
+       "google",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GoogleCloud-VeraRubin-1920x1080-1.png",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "eventId": "6bc0a4e087e6311f",
+      "eventId": "db73069fa994e255",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
-        "topic": 55.0,
-        "novelty": 92.9
+        "recency": 98.8,
+        "topic": 70.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
-        "title": "اقتصاد دیجیتال جنوب شرقی آسیا به قیمت 68 میلیارد دلار",
-        "excerpt": "تصویر را برای گزارش e-Conomy SEA 2026 با عنوان ایجاد اقتصاد هوشمند توسط گوگل، Temasek و Bain و Company پوشش دهید. یک تصویر 3D دارای یک ستاره زرد درخشان است که توسط صحنه های مینیاتوری احاطه شده است که بخش های دیجیتال را نمایندگی می کند، از جمله داده های cen",
+        "title": "Google Cloud و NVIDIA اعلام کردند که دسترسی عمومی زیرساخت NVIDIA Vera Rubin",
+        "excerpt": "در دسترس بودن عمومی موارد ماه آینده با گسترش برنامه ریزی شده در دسترس بودن به اروپا - آوردن یک پلت فرم یکپارچه برای آموزش، استنتاج و یادگیری تقویت در مقیاس بزرگ به مشتریان ابر. نمونه های A5X NVL72، NVIDIA ConnectX-9 SuperNICs، Google Cloud Virgo Network و نسل چهارم پیشرفته مایع سازی پیشرفته Google Cloud را گرد هم می آورد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T06:37:49Z"
+        "at": "2026-10-21T12:28:47Z"
        }
       }
      },
@@ -759,54 +746,52 @@
     },
     {
      "article": {
-      "id": "da019040563955b2",
-      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "excerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some",
+      "id": "3ecd929e64680d52",
+      "url": "https://www.youtube.com/watch?v=qDF7ARVxbWU",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "AI Factories That Use Less Power and Water, Built in Days | NVIDIA DSX",
+      "excerpt": "Efficient infrastructure is the foundation for scaling AI. NVIDIA DSX is a full-stack AI factory reference architecture, co-designed across compute, networking, storage, power, and cooling. Validated in a digital twin before construction begins. DSX Max LPS uses 30% less power for the same output. Closed-loop liquid cooling and outdoor dry coolers save up to 54 million liters of water per day…",
       "lang": "en",
-      "publishedAt": "2026-10-20T05:00:00Z",
+      "publishedAt": "2026-10-21T11:19:53Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
-      "day": "2026-10-20",
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
       "category": "hardware",
-      "tags": [
-       "ai",
-       "supercomputing",
-       "agentic ai",
-       "ai factory",
-       "ai for good",
-       "artificial intelligence"
-      ],
+      "tags": [],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
+       "url": "https://i2.ytimg.com/vi/qDF7ARVxbWU/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "da019040563955b2",
+      "video": {
+       "provider": "youtube",
+       "id": "qDF7ARVxbWU",
+       "url": "https://www.youtube.com/watch?v=qDF7ARVxbWU"
+      },
+      "eventId": "3ecd929e64680d52",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.9,
+        "recency": 99.3,
         "topic": 70.0,
-        "novelty": 90.9
+        "novelty": 82.4
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
-        "title": "استارت آپ های مبتنی بر اسپانیا نوآوری منطقه ای را با مرکز Supercomputing بارسلونا پیشرفت می کنند",
-        "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
+        "title": "عوامل هوش مصنوعی که از قدرت و آب کمتری استفاده می کنند، ساخته شده در روز",
+        "excerpt": "زیرساخت های کارآمد پایه ای برای مقیاس پذیری AI است. NVIDIA DSX یک معماری مرجع کارخانه AI است که در سراسر محاسبه، شبکه، ذخیره سازی، قدرت و خنک سازی طراحی شده است. معتبر در یک دوقلو دیجیتال قبل از شروع ساخت و ساز. DSX Max LPS از 30٪ قدرت کمتر برای همان خروجی استفاده می کند. خنک کننده مایع حلقه بسته و خنک کننده های خشک در فضای باز تا 54 میلیون لیتر آب در روز صرفه جویی می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
+        "at": "2026-10-21T12:28:47Z"
        }
       }
      },
@@ -821,8 +806,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-21T07:00:00Z",
-   "to": "2026-10-21T07:00:00Z",
+   "from": "2026-09-21T12:00:41Z",
+   "to": "2026-10-21T12:00:41Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -855,15 +840,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 77.8,
+       "total": 77.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 91.4,
+        "recency": 90.1,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -910,15 +895,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 94.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -929,6 +914,65 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4292624d42f865f0",
+      "url": "https://www.youtube.com/shorts/v45XAMqH7pE",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "You need a better headshot.",
+      "excerpt": "THIS JUST IN: You need a better headshot. Create yours now on ChatGPT Images.",
+      "lang": "en",
+      "publishedAt": "2026-10-20T13:00:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/v45XAMqH7pE/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "v45XAMqH7pE",
+       "url": "https://www.youtube.com/watch?v=v45XAMqH7pE"
+      },
+      "eventId": "4292624d42f865f0",
+      "related": [],
+      "score": {
+       "total": 72.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.6,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شما نیاز به یک شات بهتر دارید.",
+        "excerpt": "این JUST IN: شما نیاز به یک شات بهتر دارید. حال خود را در تصاویر ChatGPT ایجاد کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T12:28:47Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -962,80 +1006,20 @@
       "eventId": "b3fcb2e42d321123",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 92.8,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
         "title": "حق رای دادن پول را در 94٪ زمان کمتر با ChatGPT معامله می کند",
         "excerpt": "یک حق رای گیری مستقل Schlotzsky و Cinna باعث کاهش زمان تا ۹۵ درصد و ایجاد یک جریان کاری است که می تواند ۱۰۰ دلار در جریان نقدی آزاد کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "753fc98bb47cb9f3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
-      "excerpt": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
-      "lang": "en",
-      "publishedAt": "2026-10-20T16:42:53Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
-       "alt": "Amazon Bedrock console listing active OpenAI cross-Region inference profiles for the Canada (Central) Region",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "753fc98bb47cb9f3",
-      "related": [],
-      "score": {
-       "total": 71.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.0,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دسترسی به مدل های OpenAI GPT در آمازون Bedrock از کانادا با تداخل متقابل منطقه ای",
-        "excerpt": "سازمان های کانادایی در حال حاضر می توانند به OpenAI GPT-5.6، GPT-6 و مدل های GPT-6.1 در آمازون Bedrock از کانادا (مرکز) و کانادا غربی (Calgary) با استفاده از تداخل متقابل منطقه دسترسی پیدا کنند. این پست مدل ها و پروفایل های استنتاج را پوشش می دهد، چگونه مجوز ها را تنظیم کنیم و چگونه آنها را با پاسخ ها، چت Completions و Converse APIs فراخوانی کنیم.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T18:31:30Z"
        }
@@ -1080,15 +1064,15 @@
       "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 90.0,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -1100,6 +1084,103 @@
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "99ae24e773f80392",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-21T10:59:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/3wax5pSyzdQK6EWPgxhmR.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories"
+      },
+      "eventId": "99ae24e773f80392",
+      "related": [],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 75.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "da2f8b0b93e185d1",
+      "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Super AI Agents for Science, Manufacturing and Engineering | GTC Berlin 2026 Edition",
+      "excerpt": "Turn company expertise into action with super AI agents. See how Lila Sciences, Siemens, and Dassault Systèmes use agents to design potential therapies, plan factory production and refine vehicle designs. Powered by NVIDIA Agent Toolkit, these agents bring together models, knowledge and tools to simulate, experiment and act, with NVIDIA OpenShell controlling what they can access and execute. 🔗…",
+      "lang": "en",
+      "publishedAt": "2026-10-21T11:20:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/IqhDPbRrsh4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "IqhDPbRrsh4",
+       "url": "https://www.youtube.com/watch?v=IqhDPbRrsh4"
+      },
+      "eventId": "da2f8b0b93e185d1",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 80.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-21T12:00:41Z"
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1135,15 +1216,15 @@
       "eventId": "4eb9f7080b11166e",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 95.0,
         "topic": 75.0,
-        "novelty": 92.3
+        "novelty": 91.7
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -1153,7 +1234,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1192,15 +1273,15 @@
       "eventId": "d42536b869033e81",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 94.8,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
@@ -1208,119 +1289,6 @@
         "excerpt": "Octave یک پایه هوش مصنوعی امن و چند مستاجر بر روی آمازون Bedrock، با استفاده از Cohere Embed v4 برای جاسازی و Amazon Bedrock AgentCore برای اجرای عامل جدا شده، به قدرت یک دستیار Triage شکایت که جستجو 2 میلیارد اسناد تنظیم شده بدون عبور از مرزهای مستاجر.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ca293d8533a3487d",
-      "url": "https://huggingface.co/blog/allenai/fairstress",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T16:09:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7zYjyTWswjO2erWsO5HNf.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/fairstress"
-      },
-      "eventId": "ca293d8533a3487d",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.8,
-        "topic": 75.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "FairStress: ارزیابی عمیق تر عدالت در تصمیم گیری LLM",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbde1ea11534cb3",
-      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
-      "excerpt": "A model developed by researchers at MIT and Boston Children's Hospital adjusts scans on the fly to track fetal movement, potentially sparing families repeat hospital visits.",
-      "lang": "en",
-      "publishedAt": "2026-10-19T18:20:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-19T19:13:17Z",
-      "day": "2026-10-19",
-      "category": "research",
-      "tags": [
-       "research",
-       "imaging",
-       "health care",
-       "medical devices",
-       "artificial intelligence",
-       "computer vision"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p",
-       "credit": "Image courtesy of the MIT Jameel Clinic and the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "0dbde1ea11534cb3",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.0,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-21T07:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا آموزش AI در مورد تقارن می تواند تشخیص قبل از زایمان را قابل اعتماد تر کند",
-        "excerpt": "یک مدل توسعه یافته توسط محققان در بیمارستان کودکان MIT و بوستون، اسکن ها را بر روی پرواز تنظیم می کند تا حرکت جنین را پیگیری کند، به طور بالقوه خانواده های کوچک بازدید از بیمارستان را تکرار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-19T19:13:17Z"
        }
       }
      },
@@ -1334,54 +1302,55 @@
     },
     {
      "article": {
-      "id": "da019040563955b2",
-      "url": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+      "id": "db73069fa994e255",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
-      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
-      "excerpt": "The Barcelona Supercomputing Center (BSC)’s AI Factory Accelerator Programme, now in full operation following a pilot initiative, gives startups access to sovereign compute, technical support and training to support innovation across industries. Many of these companies are also members of the NVIDIA Inception program for cutting-edge startups — and as of today, access to some",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "excerpt": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVIDIA ConnectX-9 SuperNICs, Google Cloud Virgo Network and Google Cloud’s fourth-generation advanced liquid-cooling…",
       "lang": "en",
-      "publishedAt": "2026-10-20T05:00:00Z",
+      "publishedAt": "2026-10-21T10:45:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T05:25:37Z",
-      "day": "2026-10-20",
+      "fetchedAt": "2026-10-21T12:28:47Z",
+      "day": "2026-10-21",
       "category": "hardware",
       "tags": [
-       "ai",
-       "supercomputing",
-       "agentic ai",
-       "ai factory",
-       "ai for good",
-       "artificial intelligence"
+       "ai infrastructure",
+       "cloud",
+       "hardware",
+       "networking",
+       "gtc 2026",
+       "nemotron"
       ],
       "entities": [
+       "google",
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/spain-startups-bsc-1920x1080-1.jpg",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/GoogleCloud-VeraRubin-1920x1080-1.png",
        "kind": "feed",
        "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "eventId": "da019040563955b2",
+      "eventId": "db73069fa994e255",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 99.6,
         "topic": 70.0,
-        "novelty": 90.9
+        "novelty": 88.9
        },
-       "asOf": "2026-10-21T07:00:00Z"
+       "asOf": "2026-10-21T12:00:41Z"
       },
       "tr": {
        "fa": {
-        "title": "استارت آپ های مبتنی بر اسپانیا نوآوری منطقه ای را با مرکز Supercomputing بارسلونا پیشرفت می کنند",
-        "excerpt": "مرکز نظارت بر محیط زیست بارسلونا (BSC) برنامه شتاب دهنده کارخانه AI، در حال حاضر در عملیات کامل پس از یک ابتکار خلبان، دسترسی به راه اندازی مستقل محاسبه، پشتیبانی فنی و آموزش برای حمایت از نوآوری در سراسر صنایع. بسیاری از این شرکت ها همچنین عضو برنامه شروع NVIDIA برای استارت آپ های پیشرفته هستند و از امروز به برخی از آنها دسترسی دارند.",
+        "title": "Google Cloud و NVIDIA اعلام کردند که دسترسی عمومی زیرساخت NVIDIA Vera Rubin",
+        "excerpt": "در دسترس بودن عمومی موارد ماه آینده با گسترش برنامه ریزی شده در دسترس بودن به اروپا - آوردن یک پلت فرم یکپارچه برای آموزش، استنتاج و یادگیری تقویت در مقیاس بزرگ به مشتریان ابر. نمونه های A5X NVL72، NVIDIA ConnectX-9 SuperNICs، Google Cloud Virgo Network و نسل چهارم پیشرفته مایع سازی پیشرفته Google Cloud را گرد هم می آورد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T05:25:37Z"
+        "at": "2026-10-21T12:28:47Z"
        }
       }
      },

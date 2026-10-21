@@ -1,5 +1,5 @@
 {
- "schemaVersion": 2,
+ "schemaVersion": 3,
  "sources": [
   {
    "id": "openai-news",
@@ -401,6 +401,97 @@
    "status": "error",
    "notes": "Data-centre section feed; filtered to AI items. Added 2026-10-20, unverified until the first collector run.",
    "lastError": "HTTP 404"
+  },
+  {
+   "id": "openai-youtube",
+   "name": "OpenAI (YouTube)",
+   "homepage": "https://www.youtube.com/@OpenAI",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A",
+   "kind": "official",
+   "tier": 1,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Official OpenAI YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "anthropic-youtube",
+   "name": "Anthropic (YouTube)",
+   "homepage": "https://www.youtube.com/@anthropic-ai",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA",
+   "kind": "official",
+   "tier": 1,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Official Anthropic YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "deepmind-youtube",
+   "name": "Google DeepMind (YouTube)",
+   "homepage": "https://www.youtube.com/@googledeepmind",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A",
+   "kind": "official",
+   "tier": 1,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Official Google DeepMind YouTube channel feed. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "google-developers-youtube",
+   "name": "Google for Developers (YouTube)",
+   "homepage": "https://www.youtube.com/@GoogleDevelopers",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw",
+   "kind": "official",
+   "tier": 1,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Official Google developer channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "nvidia-youtube",
+   "name": "NVIDIA (YouTube)",
+   "homepage": "https://www.youtube.com/@NVIDIA",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g",
+   "kind": "official",
+   "tier": 1,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Official NVIDIA YouTube channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "two-minute-papers",
+   "name": "Two Minute Papers (YouTube)",
+   "homepage": "https://www.youtube.com/@TwoMinutePapers",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+   "kind": "media",
+   "tier": 3,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "Independent channel explaining new AI and graphics research papers. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
+  },
+  {
+   "id": "verge-youtube",
+   "name": "The Verge (YouTube)",
+   "homepage": "https://www.youtube.com/@TheVerge",
+   "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ",
+   "kind": "media",
+   "tier": 2,
+   "lang": "en",
+   "enabled": true,
+   "status": "ok",
+   "notes": "The Verge's YouTube channel; filtered to AI items. Same owner as The Verge AI feed, so it never counts as independent corroboration. Added 2026-10-21, unverified until the first collector run.",
+   "verifiedOn": "2026-10-21"
   }
  ]
 }
