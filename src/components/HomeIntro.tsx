@@ -1,6 +1,10 @@
 import { useEffect, useRef, type CSSProperties } from 'react';
+import { displayTitle, storyPath } from '../lib/article';
+import { formatNumber, relativeTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
+import type { IntroStats } from '../lib/introStats';
 import { href } from '../lib/router';
+import type { PickEntry } from '../lib/types';
 import { Icon, type IconName } from './Icon';
 import { assetUrl } from './StoryImage';
 
@@ -32,10 +36,20 @@ interface Entry {
   icon: IconName;
   /** Small artwork shown before the label instead of the icon. */
   art?: string;
+  /** Stories published in the last 24 hours. */
+  fresh?: number;
 }
 
-export function HomeIntro({ onContinue }: { onContinue: () => void }) {
-  const { t } = useI18n();
+/** Everything below is read from the stored feed: no figure on this scene is estimated or made up. */
+export interface IntroData {
+  stats: IntroStats;
+  signals: PickEntry[];
+  now: Date;
+}
+
+export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: IntroData | null }) {
+  const { t, locale } = useI18n();
+  const stats = data?.stats;
   const root = useRef<HTMLElement>(null);
 
   // The backdrop only animates while the scene is on screen.
@@ -51,9 +65,16 @@ export function HomeIntro({ onContinue }: { onContinue: () => void }) {
   }, []);
 
   const entries: Entry[] = [
-    { key: 'ai-games', to: '/ai-games', label: t('nav_ai_games'), icon: 'gamepad', art: assetUrl('images/games/chip-openai.webp') },
-    { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), icon: 'server' },
-    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), icon: 'sparkle' },
+    {
+      key: 'ai-games',
+      to: '/ai-games',
+      label: t('nav_ai_games'),
+      icon: 'gamepad',
+      art: assetUrl('images/games/chip-openai.webp'),
+      fresh: stats?.fresh.sections['ai-games'],
+    },
+    { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), icon: 'server', fresh: stats?.fresh.sections['data-centers'] },
+    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), icon: 'sparkle', fresh: stats?.fresh.news },
   ];
 
   return (
@@ -71,6 +92,23 @@ export function HomeIntro({ onContinue }: { onContinue: () => void }) {
         </span>
       </div>
       <div className="container hi-inner">
+        <ul className={`hi-status ${stats ? 'is-ready' : ''}`} aria-label={t('signal_status')}>
+          <li className="hi-live">
+            <i aria-hidden="true" />
+            {t('intro_live')}
+          </li>
+          {stats?.sources != null && <li>{t('intro_sources', { n: formatNumber(stats.sources, locale) })}</li>}
+          {stats?.lastSignal && data && (
+            <li>
+              {t('intro_last_signal')}: <b>{relativeTime(stats.lastSignal, data.now, locale)}</b>
+            </li>
+          )}
+          {stats?.topCompany && (
+            <li>
+              {t('intro_top_mention')}: <b>{stats.topCompany.name}</b>
+            </li>
+          )}
+        </ul>
         <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
         <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
           FRONTIER
@@ -87,16 +125,58 @@ export function HomeIntro({ onContinue }: { onContinue: () => void }) {
                 </span>
               )}
               <span className="hi-link-label">{e.label}</span>
+              {e.fresh ? (
+                <span className="hi-link-count" title={t('intro_new_24h', { n: formatNumber(e.fresh, locale) })}>
+                  +{formatNumber(e.fresh, locale)}
+                  <span className="visually-hidden"> {t('intro_new_24h', { n: formatNumber(e.fresh, locale) })}</span>
+                </span>
+              ) : null}
               <Icon name="arrow" size={14} directional />
             </a>
           ))}
         </nav>
         <p className="hi-meta">{t('intro_meta')}</p>
       </div>
-      <button type="button" className="hi-scroll" onClick={onContinue}>
-        <span>{t('intro_scroll')}</span>
-        <Icon name="chevronDown" size={16} />
-      </button>
+      <div className="container hi-signals">
+        <div className="hi-signals-head">
+          {data && data.signals.length > 0 ? <h2 className="hi-signals-title">{t('intro_top_signals')}</h2> : <span />}
+          <button type="button" className="hi-scroll" onClick={onContinue}>
+            <span>{t('intro_explore')}</span>
+            <Icon name="chevronDown" size={16} />
+          </button>
+        </div>
+        {data && data.signals.length > 0 && (
+          <ol className="hi-signal-list">
+            {data.signals.map((p, i) => {
+              const title = displayTitle(p.article, locale);
+              return (
+                <li key={p.article.id}>
+                  <a className="hi-signal" href={href(storyPath(p.article))}>
+                    <span className="hi-signal-rank" aria-hidden="true">
+                      {formatNumber(i + 1, locale)}
+                    </span>
+                    <span className="hi-signal-title" lang={title.lang} dir="auto">
+                      {title.text}
+                    </span>
+                    {p.article.score && (
+                      <span
+                        className="hi-signal-score"
+                        title={t('intro_score')}
+                        aria-label={`${t('intro_score')} ${Math.round(p.article.score.total)}`}
+                      >
+                        {formatNumber(Math.round(p.article.score.total), locale)}
+                      </span>
+                    )}
+                    <span className="hi-signal-meta">
+                      {p.article.sourceName} · {relativeTime(p.article.publishedAt, data.now, locale)}
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ol>
+        )}
+      </div>
     </section>
   );
 }

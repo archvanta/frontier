@@ -31,6 +31,7 @@ Working branch: `claude/signal-ai-build-qp2mxi` → integrated into `main` by pu
 | Intro: AI Games / Data Centers / AI News pills under the text (tiny character thumbnail), animated CSS backdrop (pauses off-screen, still under reduced motion), AI News in the Sections menu | `docs/DESIGN-SYSTEM.md`; `npm run check` + Playwright suite incl. `e2e/home-intro.spec.ts` |
 | Topic picker moved between the signal wall and Latest News (bordered panel, even spacing); intro bottom fades into the page colour | `docs/DESIGN-SYSTEM.md`; `npm run check` + Playwright suite incl. `e2e/home-intro.spec.ts` |
 | `#/ai-news` page (slideshow + red card + feed, reuses `NewsHero`); home feed labels AI Games / Data Centers stories and filters by section | `docs/DESIGN-SYSTEM.md`; `npm run check` + Playwright suite incl. `e2e/home-intro.spec.ts` |
+| Intro refinement from the owner's reference mockup: live status pill, glossy wordmark, 24 h counts on the pills, Top signals right now row (real data only; no trend pill from raw feed tags, no invented Chips section) | `docs/DESIGN-SYSTEM.md`; `src/lib/introStats.test.ts`; `npm run check` + Playwright suite incl. `e2e/home-intro.spec.ts` |
 | Topic sections: AI Games (studio-site reference look, the owner's three character illustrations as the company filter) and Data Centers; new `sections/<id>.json` files, section feeds in `sources.yaml`, "Sections" menu in the header | `pipeline/tests/test_sections.py`, `src/lib/router.test.ts`, `e2e/sections.spec.ts`; `docs/DATA-SCHEMA.md` v2 |
 
 ## Resume
