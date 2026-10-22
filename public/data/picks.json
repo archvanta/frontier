@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T05:00:27Z",
+ "asOf": "2026-10-22T07:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T05:00:27Z",
-   "to": "2026-10-22T05:00:27Z",
+   "from": "2026-10-21T07:00:00Z",
+   "to": "2026-10-22T07:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -51,15 +51,15 @@
       "eventId": "c3ecf70aef549971",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 89.1,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -71,65 +71,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8ed037559253241d",
-      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
-      "excerpt": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open",
-      "lang": "en",
-      "publishedAt": "2026-10-22T05:00:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T05:27:27Z",
-      "day": "2026-10-22",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "gtc 2026",
-       "nemotron",
-       "retail and consumer packaged goods"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "8ed037559253241d",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-22T05:00:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA تبدیل خرده فروشی اروپا، از کشف دیجیتال به عملیات فیزیکی",
-        "excerpt": "خرده فروشان اروپایی از مدل های باز و هوش فیزیکی در مورد موارد استفاده استفاده می کنند - از یک پلت فرم تجاری که هزینه های استنتاج را تا 90٪ کاهش می دهد تا یک مرکز تحقق که در آن همکاری ناوگان رباتیک مختلف در داخل یک دوقلو دیجیتال شبیه سازی شده است. نتایج مرزی با رهبران خرده فروشی و شرکت های تکنولوژی در سراسر اروپا با استفاده از NVIDIA-accelerated Open",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T05:27:27Z"
-       }
-      }
-     },
-     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -168,15 +109,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 67.7,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 37.4,
+        "recency": 33.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -187,11 +128,70 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8ed037559253241d",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "excerpt": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open",
+      "lang": "en",
+      "publishedAt": "2026-10-22T05:00:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "gtc 2026",
+       "nemotron",
+       "retail and consumer packaged goods"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "8ed037559253241d",
+      "related": [],
+      "score": {
+       "total": 66.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-22T07:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA تبدیل خرده فروشی اروپا، از کشف دیجیتال به عملیات فیزیکی",
+        "excerpt": "خرده فروشان اروپایی از مدل های باز و هوش فیزیکی در مورد موارد استفاده استفاده می کنند - از یک پلت فرم تجاری که هزینه های استنتاج را تا 90٪ کاهش می دهد تا یک مرکز تحقق که در آن همکاری ناوگان رباتیک مختلف در داخل یک دوقلو دیجیتال شبیه سازی شده است. نتایج مرزی با رهبران خرده فروشی و شرکت های تکنولوژی در سراسر اروپا با استفاده از NVIDIA-accelerated Open",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T05:27:27Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -224,15 +224,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.0,
+        "recency": 56.1,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -284,15 +284,15 @@
       "eventId": "21b52c943dc91690",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 63.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 84.1,
         "topic": 85.0,
         "novelty": 94.4
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -313,63 +313,59 @@
     },
     {
      "article": {
-      "id": "45978161846bed7d",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
-      "excerpt": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style opposition AI companies have told ministers they have 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction. Successive dry summers and rising energy bills are increasing public…",
+      "id": "833d3d328a66d09f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+      "excerpt": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
       "lang": "en",
-      "publishedAt": "2026-10-22T05:00:08Z",
+      "publishedAt": "2026-10-21T23:36:47Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T05:27:27Z",
-      "day": "2026-10-22",
-      "category": "hardware",
+      "fetchedAt": "2026-10-22T00:16:14Z",
+      "day": "2026-10-21",
+      "category": "products",
       "tags": [
-       "datacentres - uk",
-       "uk news",
-       "ai (artificial intelligence)",
-       "microsoft",
-       "nvidia",
-       "cisco"
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "technical how-to"
       ],
       "entities": [
-       "microsoft",
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/35c9f0f2f37cd8a924ee3a4ce63b0697c2f947d6/945_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=1b2608c9b3c4d23cbf46e70afd1c2398",
-       "credit": "Photograph: Murdo MacLeod/The Guardian",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21081-1-1.png",
+       "alt": "Deep Insight architecture: the Strands Agents multi-agent layer on Amazon Bedrock AgentCore, with an Application Load Balancer routing code execution to AWS Fargate containers in a private VPC",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "45978161846bed7d",
+      "eventId": "833d3d328a66d09f",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 62.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 92.3
+        "recency": 65.3,
+        "topic": 65.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "شرکت های AI می گویند که انگلستان یک سال است که اعتراضات پایگاه داده را قبل از اینکه ساخت و ساز مورد تهدید قرار گیرد، متوقف کند.",
-        "excerpt": "انحصاری: Nvidia، Microsoft و Cisco Taskforce از وزرا درخواست می کنند تا مزایای بیشتری از زیرساخت های فناوری را در میان ترس از شرکت های AI اپوزیسیون سبک ایالات متحده ارائه دهند، به وزیران گفته اند که 12 ماه زمان دارند تا مخالفت عمومی با پایگاه های داده در انگلستان را متوقف کنند یا اعتراض های سبک آمریکایی را که می توانند ساخت و ساز آنها را تهدید کنند، در معرض خطر قرار دهند. تابستان های خشک و افزایش هزینه های انرژی در حال افزایش است.",
+        "title": "5 چالش تولید در سیستم های چند عامل و اینکه چگونه دید عمیق آنها را حل کرد",
+        "excerpt": "بسیاری از تیم ها یک نمونه اولیه هوش مصنوعی چند عاملی را در روز ایجاد می کنند اما به دیوار تولید ضربه می زنند. این پست پنج چالش تولید (اختصاف، انتخاب مدل عامل، عملیات قابل اعتماد، اجرای کد امن و نظارت) را تعریف می کند و نشان می دهد که چگونه دید عمیق، یک سیستم چند عامل منبع باز در AWS، هر کدام را حل می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T05:27:27Z"
+        "at": "2026-10-22T00:16:14Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -377,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T05:00:27Z",
-   "to": "2026-10-22T05:00:27Z",
+   "from": "2026-10-15T07:00:00Z",
+   "to": "2026-10-22T07:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -412,15 +408,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.2,
+       "total": 76.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 84.9,
+        "recency": 83.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -442,55 +438,58 @@
     },
     {
      "article": {
-      "id": "2ed22a61b2f19a0c",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "id": "dbaa902542534b3a",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Broad access through consistent standards",
-      "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "title": "OpenAI acquires Orchestra Bio",
+      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
       "lang": "en",
-      "publishedAt": "2026-10-21T21:00:00Z",
+      "publishedAt": "2026-10-20T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T22:26:30Z",
-      "day": "2026-10-21",
-      "category": "models",
+      "fetchedAt": "2026-10-20T18:31:30Z",
+      "day": "2026-10-20",
+      "category": "business",
       "tags": [
-       "safety"
+       "company"
       ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
+       "url": "images/fallbacks/business.svg",
        "kind": "fallback"
       },
-      "eventId": "2ed22a61b2f19a0c",
-      "related": [],
+      "eventId": "dbaa902542534b3a",
+      "related": [
+       "aeaa448f66c5e86e"
+      ],
       "score": {
-       "total": 71.5,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.6,
-        "topic": 100.0,
-        "novelty": 80.0
+        "corroboration": 50.0,
+        "recency": 58.9,
+        "topic": 55.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "دسترسی گسترده از طریق استانداردهای ثابت",
-        "excerpt": "چگونه OpenAI با شرکای توزیع کار می کند تا از مزایای ثابت، پشتیبانی از دسترسی مسئولانه و روشن کردن انتظارات در سیاست های استفاده ما حمایت کند.",
+        "title": "OpenAI به دست آوردن ارکستر Bio",
+        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T22:26:30Z"
+        "at": "2026-10-20T18:31:30Z"
        }
       }
      },
      "rank": 2,
-     "sources": 1,
+     "sources": 2,
      "reason": [
       "tier-1",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -523,15 +522,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.6,
+        "recency": 84.0,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -581,15 +580,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -645,15 +644,15 @@
       "eventId": "c3ecf70aef549971",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.1,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -709,15 +708,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.1,
+        "recency": 89.4,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -729,6 +728,63 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8477c3daca9c4e08",
+      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-10-21T16:23:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T17:42:19Z",
+      "day": "2026-10-21",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine perception"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "8477c3daca9c4e08",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.9,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-22T07:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T17:42:19Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -768,15 +824,15 @@
       "eventId": "8ed037559253241d",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -784,63 +840,6 @@
         "excerpt": "خرده فروشان اروپایی از مدل های باز و هوش فیزیکی در مورد موارد استفاده استفاده می کنند - از یک پلت فرم تجاری که هزینه های استنتاج را تا 90٪ کاهش می دهد تا یک مرکز تحقق که در آن همکاری ناوگان رباتیک مختلف در داخل یک دوقلو دیجیتال شبیه سازی شده است. نتایج مرزی با رهبران خرده فروشی و شرکت های تکنولوژی در سراسر اروپا با استفاده از NVIDIA-accelerated Open",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T05:27:27Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8477c3daca9c4e08",
-      "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Empowering frontline maternal care with AI-assisted ultrasound",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-10-21T16:23:53Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine perception"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/FrontlineMaternalCarewithAI2_ModelOverview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "8477c3daca9c4e08",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.6,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-22T05:00:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
@@ -855,8 +854,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T05:00:27Z",
-   "to": "2026-10-22T05:00:27Z",
+   "from": "2026-09-22T07:00:00Z",
+   "to": "2026-10-22T07:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -890,15 +889,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.3,
+       "total": 79.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 95.2,
+        "recency": 94.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -948,15 +947,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 76.7,
+       "total": 76.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 85.8,
+        "recency": 85.3,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1004,15 +1003,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1059,15 +1058,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 94.9,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1112,15 +1111,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 89.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1170,15 +1169,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.6,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1229,15 +1228,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 94.5,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1288,15 +1287,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 95.2,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1345,15 +1344,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 95.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1374,51 +1373,57 @@
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "id": "33738f7743b5e180",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-21T19:19:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "policy",
       "tags": [
-       "amazon bedrock",
-       "announcements",
+       "amazon quick suite",
+       "customer solutions",
        "intermediate (200)"
       ],
       "entities": [
-       "amazon",
-       "anthropic"
+       "amazon"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
+       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "video": {
+       "provider": "youtube",
+       "id": "8ZrNIBT24ug",
+       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
+      },
+      "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 96.7,
+        "topic": 85.0,
+        "novelty": 78.6
        },
-       "asOf": "2026-10-22T05:00:27Z"
+       "asOf": "2026-10-22T07:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
+        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-21T20:55:40Z"
        }
       }
      },
