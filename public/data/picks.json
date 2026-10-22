@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T00:00:00Z",
+ "asOf": "2026-10-22T01:13:01Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T00:00:00Z",
-   "to": "2026-10-22T00:00:00Z",
+   "from": "2026-10-21T01:13:01Z",
+   "to": "2026-10-22T01:13:01Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -45,15 +45,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 70.2,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 50.0,
+        "recency": 46.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -101,15 +101,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 78.4,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -160,15 +160,15 @@
       "eventId": "833d3d328a66d09f",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 91.2,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -183,6 +183,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d730e45e0b3fdddc",
+      "url": "https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI",
+      "excerpt": "Author withdrawn from France’s Prix Goncourt last month has repeatedly denied using artificial intelligence to write novel The publisher of top-selling Haitian Canadian writer Thélyson Orélien, who was removed from France’s most prestigious literary prize list last month, has confirmed the author used artificial intelligence to help write his novel C’était ça ou mourir (It Was Either That or…",
+      "lang": "en",
+      "publishedAt": "2026-10-22T01:13:01Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T01:36:15Z",
+      "day": "2026-10-22",
+      "category": "policy",
+      "tags": [
+       "awards and prizes",
+       "books",
+       "culture",
+       "fiction",
+       "ai (artificial intelligence)",
+       "europe"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/593ae3d39388056aa07d530e1309848d610c3078/1027_0_6240_4994/master/6240.jpg?width=700&quality=85&auto=format&fit=max&s=5933707b51c42408781d9b1bd310fc5a",
+       "credit": "Photograph: Joel Saget/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d730e45e0b3fdddc",
+      "related": [],
+      "score": {
+       "total": 66.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-22T01:13:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ناشر کانادایی Boréal رابطه با رمان نویس Thélyson Orélien را با استفاده از AI پایان می دهد",
+        "excerpt": "نویسنده ای که ماه گذشته از جایزه ی فرانسه خارج شده است، بارها از استفاده از هوش مصنوعی برای نوشتن رمان، ناشر نویسنده ی برتر فروش هائیتی کانادایی Thélyson Orélien، که از معتبرترین لیست جایزه ی ادبی فرانسه حذف شده است، تایید کرده است که نویسنده از هوش مصنوعی برای کمک به نوشتن رمان خود C'était çaou استفاده کرده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T01:36:15Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -220,15 +280,15 @@
       "eventId": "a8d953e36308a3c9",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 91.3,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -239,7 +299,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -279,15 +339,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 69.9,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -295,60 +355,6 @@
         "excerpt": "ببینید که چگونه Gemini Flash TTS به شما اجازه می دهد تا صداهای سفارشی را از یک متن سریع طراحی کنید و صدای خود را در Google AI Studio تکرار کنید. Google DeepMind’s Thor Schaeff از طریق: * طراحی Voice *Voice Replication * نسل گفتگوی چند بلندگو * ساخت با API Gemini در 100 زبان + * ادغام بخشی با Agora، LiveKit، Pipecat و Vercel آن را در حال حاضر در ai.studio/generate-peech.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7104bc51c29585cc",
-      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T18:26:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T18:44:22Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ad8e88370f69967fafc8703/i-Flass3NMPRmc6lVfwO_.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-relational"
-      },
-      "eventId": "7104bc51c29585cc",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 72.5,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-22T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Kumo Outperforms Supervised Machine Learning در داده های ارتباطی، بدون آموزش مورد نیاز",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T18:44:22Z"
        }
       }
      },
@@ -363,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T00:00:00Z",
-   "to": "2026-10-22T00:00:00Z",
+   "from": "2026-10-15T01:13:01Z",
+   "to": "2026-10-22T01:13:01Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +404,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.1,
+       "total": 77.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 89.1,
+        "recency": 88.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -454,15 +460,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.0,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -509,15 +515,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.8,
+        "recency": 88.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -567,15 +573,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 94.2,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -631,15 +637,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 94.5,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -688,15 +694,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 91.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -747,15 +753,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 89.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -801,15 +807,15 @@
       "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 92.9,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -830,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T00:00:00Z",
-   "to": "2026-10-22T00:00:00Z",
+   "from": "2026-09-22T01:13:01Z",
+   "to": "2026-10-22T01:13:01Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -865,15 +871,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.6,
+       "total": 79.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 96.6,
+        "recency": 96.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -923,15 +929,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 87.1,
+        "recency": 86.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -979,15 +985,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.5,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1034,15 +1040,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 96.5,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1087,15 +1093,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
+        "recency": 90.7,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1145,15 +1151,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 98.2,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1204,15 +1210,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 96.1,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1263,15 +1269,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1320,15 +1326,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 97.5,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
@@ -1349,51 +1355,57 @@
     },
     {
      "article": {
-      "id": "ea83f0dd69c5142c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "id": "33738f7743b5e180",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
-      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
+      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
       "lang": "en",
-      "publishedAt": "2026-10-19T23:32:19Z",
+      "publishedAt": "2026-10-21T19:19:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T00:44:19Z",
-      "day": "2026-10-19",
-      "category": "models",
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "policy",
       "tags": [
-       "amazon bedrock",
-       "announcements",
+       "amazon quick suite",
+       "customer solutions",
        "intermediate (200)"
       ],
       "entities": [
-       "amazon",
-       "anthropic"
+       "amazon"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
+       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "ea83f0dd69c5142c",
+      "video": {
+       "provider": "youtube",
+       "id": "8ZrNIBT24ug",
+       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
+      },
+      "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 98.3,
+        "topic": 85.0,
+        "novelty": 78.6
        },
-       "asOf": "2026-10-22T00:00:00Z"
+       "asOf": "2026-10-22T01:13:01Z"
       },
       "tr": {
        "fa": {
-        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
-        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
+        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
+        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T00:44:19Z"
+        "at": "2026-10-21T20:55:40Z"
        }
       }
      },
