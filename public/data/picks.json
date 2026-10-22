@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T01:13:01Z",
+ "asOf": "2026-10-22T05:00:27Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,133 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T01:13:01Z",
-   "to": "2026-10-22T01:13:01Z",
+   "from": "2026-10-21T05:00:27Z",
+   "to": "2026-10-22T05:00:27Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "c3ecf70aef549971",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "excerpt": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open",
+      "lang": "en",
+      "publishedAt": "2026-10-22T05:00:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "cosmos",
+       "gtc 2026",
+       "physical ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-Cosmos-New-Tools-2026.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "video": {
+       "provider": "file",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/CDF-visual-Oct20.mp4",
+       "type": "video/mp4"
+      },
+      "eventId": "c3ecf70aef549971",
+      "related": [],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-22T05:00:27Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Cosmos باز کردن ابزار جدید برای آموزش، ارزیابی و Deploy World Models",
+        "excerpt": "برای کمک به توسعه دهندگان به سرعت ساخت مدل های جهانی، که به سیستم های هوش مصنوعی فیزیکی کمک می کند تا جهان واقعی را درک و شبیه سازی کنند، NVIDIA پلت فرم Cosmos را با ابزارهای آموزشی جدید، شبیه سازی بازرسی ها و طرح های کارخانه داده های Cosmos گسترش داده است. رتبه بندی 5 در شش مدل مختلف رهبر، پلت فرم NVIDIA Cosmos به سازندگان مدل جهانی می دهد",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T05:27:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8ed037559253241d",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "excerpt": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open",
+      "lang": "en",
+      "publishedAt": "2026-10-22T05:00:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "gtc 2026",
+       "nemotron",
+       "retail and consumer packaged goods"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "8ed037559253241d",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-22T05:00:27Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA تبدیل خرده فروشی اروپا، از کشف دیجیتال به عملیات فیزیکی",
+        "excerpt": "خرده فروشان اروپایی از مدل های باز و هوش فیزیکی در مورد موارد استفاده استفاده می کنند - از یک پلت فرم تجاری که هزینه های استنتاج را تا 90٪ کاهش می دهد تا یک مرکز تحقق که در آن همکاری ناوگان رباتیک مختلف در داخل یک دوقلو دیجیتال شبیه سازی شده است. نتایج مرزی با رهبران خرده فروشی و شرکت های تکنولوژی در سراسر اروپا با استفاده از NVIDIA-accelerated Open",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T05:27:27Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "61f4d0141ff303c0",
@@ -45,15 +168,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 69.6,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 46.6,
+        "recency": 37.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +187,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -101,15 +224,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.4,
+        "recency": 63.0,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -120,7 +243,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -130,116 +253,57 @@
     },
     {
      "article": {
-      "id": "833d3d328a66d09f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
-      "excerpt": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T23:36:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T00:16:14Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock agentcore",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21081-1-1.png",
-       "alt": "Deep Insight architecture: the Strands Agents multi-agent layer on Amazon Bedrock AgentCore, with an Application Load Balancer routing code execution to AWS Fargate containers in a private VPC",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "833d3d328a66d09f",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.2,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-22T01:13:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "5 چالش تولید در سیستم های چند عامل و اینکه چگونه دید عمیق آنها را حل کرد",
-        "excerpt": "بسیاری از تیم ها یک نمونه اولیه هوش مصنوعی چند عاملی را در روز ایجاد می کنند اما به دیوار تولید ضربه می زنند. این پست پنج چالش تولید (اختصاف، انتخاب مدل عامل، عملیات قابل اعتماد، اجرای کد امن و نظارت) را تعریف می کند و نشان می دهد که چگونه دید عمیق، یک سیستم چند عامل منبع باز در AWS، هر کدام را حل می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T00:16:14Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d730e45e0b3fdddc",
-      "url": "https://www.theguardian.com/culture/2026/oct/22/canadian-publisher-boreal-ends-relationship-author-thelyson-orelien-over-ai",
+      "id": "21b52c943dc91690",
+      "url": "https://www.theguardian.com/film/2026/oct/22/taika-waititi-kazuo-ishiguro-robot-friend-klara-and-the-sun",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Canadian publisher Boréal ends relationship with novelist Thélyson Orélien over alleged use of AI",
-      "excerpt": "Author withdrawn from France’s Prix Goncourt last month has repeatedly denied using artificial intelligence to write novel The publisher of top-selling Haitian Canadian writer Thélyson Orélien, who was removed from France’s most prestigious literary prize list last month, has confirmed the author used artificial intelligence to help write his novel C’était ça ou mourir (It Was Either That or…",
+      "title": "‘I’d consider replacing one of my children’: Taika Waititi on robot kids, his cheese-o-meter and Klara and the Sun",
+      "excerpt": "The director has turned Kazuo Ishiguro’s acclaimed novel about an ailing adolescent and her glitchy robot friend into a thought-provoking film. What do the pair think this story says about tech, love and grief? In the wings of the London film festival, a group of young influencers are discussing their personal highlights. Klara and the Sun, says one, and her colleagues agree. It’s not just that…",
       "lang": "en",
-      "publishedAt": "2026-10-22T01:13:01Z",
+      "publishedAt": "2026-10-22T04:00:06Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T01:36:15Z",
+      "fetchedAt": "2026-10-22T05:27:27Z",
       "day": "2026-10-22",
       "category": "policy",
       "tags": [
-       "awards and prizes",
-       "books",
-       "culture",
-       "fiction",
+       "film",
+       "taika waititi",
+       "science fiction and fantasy films",
        "ai (artificial intelligence)",
-       "europe"
+       "kazuo ishiguro",
+       "film adaptations"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/593ae3d39388056aa07d530e1309848d610c3078/1027_0_6240_4994/master/6240.jpg?width=700&quality=85&auto=format&fit=max&s=5933707b51c42408781d9b1bd310fc5a",
-       "credit": "Photograph: Joel Saget/AFP/Getty Images",
+       "url": "https://i.guim.co.uk/img/media/6cf2d328019eb962c7aad15131750c0e940da690/437_80_1110_888/master/1110.jpg?width=700&quality=85&auto=format&fit=max&s=94caa44e0e4209b1f615f75dbb2b6727",
+       "credit": "Photograph: No credit",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "d730e45e0b3fdddc",
+      "eventId": "21b52c943dc91690",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 94.4,
         "topic": 85.0,
-        "novelty": 100.0
+        "novelty": 94.4
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
-        "title": "ناشر کانادایی Boréal رابطه با رمان نویس Thélyson Orélien را با استفاده از AI پایان می دهد",
-        "excerpt": "نویسنده ای که ماه گذشته از جایزه ی فرانسه خارج شده است، بارها از استفاده از هوش مصنوعی برای نوشتن رمان، ناشر نویسنده ی برتر فروش هائیتی کانادایی Thélyson Orélien، که از معتبرترین لیست جایزه ی ادبی فرانسه حذف شده است، تایید کرده است که نویسنده از هوش مصنوعی برای کمک به نوشتن رمان خود C'était çaou استفاده کرده است.",
+        "title": "من جایگزین یکی از فرزندان خود را در نظر می گیرم: Taika Waititi در مورد کودکان ربات، پنیر و Klara و خورشید",
+        "excerpt": "کارگردان رمان تحسین برانگیز کازو ایشیگورو را در مورد یک نوجوان و دوست ربات زرق و برقشی خود به یک فیلم هیجان انگیز تبدیل کرده است. این جفت فکر می کند که این داستان درباره تکنولوژی، عشق و غم و اندوه چه می گوید؟ در بال های جشنواره فیلم لندن، گروهی از تأثیرگذاران جوان در مورد نکات شخصی خود بحث می کنند. کلارا و خورشید می گویند که یکی و همکارانش موافقت می کنند. این فقط همین نیست...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T01:36:15Z"
+        "at": "2026-10-22T05:27:27Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -249,119 +313,63 @@
     },
     {
      "article": {
-      "id": "a8d953e36308a3c9",
-      "url": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Securing Quick access from corporate networks with AWS PrivateLink",
-      "excerpt": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.",
+      "id": "45978161846bed7d",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/22/ai-firms-say-uk-has-a-year-to-head-off-datacentre-protests-before-construction-is-threatened",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI firms say UK has a year to head off datacentre protests before construction is threatened",
+      "excerpt": "Exclusive: Nvidia, Microsoft and Cisco taskforce urges ministers to offer areas greater benefits from tech infrastructure amid fears of US-style opposition AI companies have told ministers they have 12 months to head off public opposition to datacentres in the UK or risk US-style protests that could threaten their construction. Successive dry summers and rising energy bills are increasing public…",
       "lang": "en",
-      "publishedAt": "2026-10-21T23:38:38Z",
+      "publishedAt": "2026-10-22T05:00:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T00:16:14Z",
-      "day": "2026-10-21",
-      "category": "products",
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
       "tags": [
-       "advanced (300)",
-       "amazon quick suite",
-       "aws privatelink",
-       "technical how-to"
+       "datacentres - uk",
+       "uk news",
+       "ai (artificial intelligence)",
+       "microsoft",
+       "nvidia",
+       "cisco"
       ],
       "entities": [
-       "amazon"
+       "microsoft",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20213-1-1.jpg",
-       "alt": "Architecture diagram of private access to Amazon Quick from a corporate data center through a VPC endpoint over AWS Direct Connect",
+       "url": "https://i.guim.co.uk/img/media/35c9f0f2f37cd8a924ee3a4ce63b0697c2f947d6/945_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=1b2608c9b3c4d23cbf46e70afd1c2398",
+       "credit": "Photograph: Murdo MacLeod/The Guardian",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "a8d953e36308a3c9",
+      "eventId": "45978161846bed7d",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 63.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.3,
-        "topic": 65.0,
-        "novelty": 81.8
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
-        "title": "دسترسی سریع از شبکه های شرکتی با AWS PrivateLink",
-        "excerpt": "یاد بگیرید که چگونه منابع داده را به آمازون سریع با AWS PrivateLink متصل کنید، ترافیک تجزیه و تحلیل را از اینترنت عمومی نگه دارید. این پیاده روی نقاط پایانی VPC را برای دسترسی کاربر و API، اتصال VPC برای منابع داده، DNS و سیاست های نقطه پایانی، فدراسیون هویت و اجرای دسترسی تنها VPC-endpoint برای انطباق پوشش می دهد.",
+        "title": "شرکت های AI می گویند که انگلستان یک سال است که اعتراضات پایگاه داده را قبل از اینکه ساخت و ساز مورد تهدید قرار گیرد، متوقف کند.",
+        "excerpt": "انحصاری: Nvidia، Microsoft و Cisco Taskforce از وزرا درخواست می کنند تا مزایای بیشتری از زیرساخت های فناوری را در میان ترس از شرکت های AI اپوزیسیون سبک ایالات متحده ارائه دهند، به وزیران گفته اند که 12 ماه زمان دارند تا مخالفت عمومی با پایگاه های داده در انگلستان را متوقف کنند یا اعتراض های سبک آمریکایی را که می توانند ساخت و ساز آنها را تهدید کنند، در معرض خطر قرار دهند. تابستان های خشک و افزایش هزینه های انرژی در حال افزایش است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T00:16:14Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "06b8fb7428dcc16c",
-      "url": "https://www.youtube.com/watch?v=SOF3_evPje8",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Design and replicate voices with Gemini 3.8 Flash TTS",
-      "excerpt": "See how Gemini 3.8 Flash TTS lets you design custom voices from a text prompt and replicate your own voice in Google AI Studio. Google DeepMind’s Thor Schaeff walks through: *Voice design *Voice replication *Multi-speaker dialogue generation *Building with the Gemini API across 100+ languages *Partner integrations with Agora, LiveKit, Pipecat, and Vercel Try it now at ai.studio/generate-speech…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T19:00:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/SOF3_evPje8/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "SOF3_evPje8",
-       "url": "https://www.youtube.com/watch?v=SOF3_evPje8"
-      },
-      "eventId": "06b8fb7428dcc16c",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 69.9,
-        "topic": 100.0,
-        "novelty": 63.6
-       },
-       "asOf": "2026-10-22T01:13:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "طراحی و تکرار صداها با Gemini Flash TTS",
-        "excerpt": "ببینید که چگونه Gemini Flash TTS به شما اجازه می دهد تا صداهای سفارشی را از یک متن سریع طراحی کنید و صدای خود را در Google AI Studio تکرار کنید. Google DeepMind’s Thor Schaeff از طریق: * طراحی Voice *Voice Replication * نسل گفتگوی چند بلندگو * ساخت با API Gemini در 100 زبان + * ادغام بخشی با Agora، LiveKit، Pipecat و Vercel آن را در حال حاضر در ai.studio/generate-peech.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
+        "at": "2026-10-22T05:27:27Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -369,8 +377,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T01:13:01Z",
-   "to": "2026-10-22T01:13:01Z",
+   "from": "2026-10-15T05:00:27Z",
+   "to": "2026-10-22T05:00:27Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +412,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.9,
+       "total": 77.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.1,
+        "recency": 84.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +468,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 92.6,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -515,15 +523,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 85.6,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -573,15 +581,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 90.8,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -593,6 +601,70 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c3ecf70aef549971",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "excerpt": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open",
+      "lang": "en",
+      "publishedAt": "2026-10-22T05:00:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "cosmos",
+       "gtc 2026",
+       "physical ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-Cosmos-New-Tools-2026.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "video": {
+       "provider": "file",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/CDF-visual-Oct20.mp4",
+       "type": "video/mp4"
+      },
+      "eventId": "c3ecf70aef549971",
+      "related": [],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-22T05:00:27Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Cosmos باز کردن ابزار جدید برای آموزش، ارزیابی و Deploy World Models",
+        "excerpt": "برای کمک به توسعه دهندگان به سرعت ساخت مدل های جهانی، که به سیستم های هوش مصنوعی فیزیکی کمک می کند تا جهان واقعی را درک و شبیه سازی کنند، NVIDIA پلت فرم Cosmos را با ابزارهای آموزشی جدید، شبیه سازی بازرسی ها و طرح های کارخانه داده های Cosmos گسترش داده است. رتبه بندی 5 در شش مدل مختلف رهبر، پلت فرم NVIDIA Cosmos به سازندگان مدل جهانی می دهد",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T05:27:27Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -637,15 +709,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 91.1,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -656,7 +728,66 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8ed037559253241d",
+      "url": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "excerpt": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a digital twin. Frontier Results With Open Models Retail leaders and technology companies across Europe are using NVIDIA-accelerated open",
+      "lang": "en",
+      "publishedAt": "2026-10-22T05:00:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T05:27:27Z",
+      "day": "2026-10-22",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "gtc 2026",
+       "nemotron",
+       "retail and consumer packaged goods"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-European-Retail.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "8ed037559253241d",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-22T05:00:27Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA تبدیل خرده فروشی اروپا، از کشف دیجیتال به عملیات فیزیکی",
+        "excerpt": "خرده فروشان اروپایی از مدل های باز و هوش فیزیکی در مورد موارد استفاده استفاده می کنند - از یک پلت فرم تجاری که هزینه های استنتاج را تا 90٪ کاهش می دهد تا یک مرکز تحقق که در آن همکاری ناوگان رباتیک مختلف در داخل یک دوقلو دیجیتال شبیه سازی شده است. نتایج مرزی با رهبران خرده فروشی و شرکت های تکنولوژی در سراسر اروپا با استفاده از NVIDIA-accelerated Open",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T05:27:27Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -694,132 +825,20 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 88.6,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
         "title": "توانمندسازی مراقبت های جلویی مادر با کمک AI",
         "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "841e916aec0ebd36",
-      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
-      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T14:00:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Y39uub4n0LA",
-       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
-      },
-      "eventId": "841e916aec0ebd36",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.8,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T01:13:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
-        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "354f89a6c7dbf10c",
-      "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T17:35:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/OWGtXjnbBov-7SI_04o4z.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization"
-      },
-      "eventId": "354f89a6c7dbf10c",
-      "related": [],
-      "score": {
-       "total": 69.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.9,
-        "topic": 75.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T01:13:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T17:42:19Z"
        }
@@ -836,8 +855,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T01:13:01Z",
-   "to": "2026-10-22T01:13:01Z",
+   "from": "2026-09-22T05:00:27Z",
+   "to": "2026-10-22T05:00:27Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -871,15 +890,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.5,
+       "total": 79.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 96.3,
+        "recency": 95.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -929,15 +948,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 76.8,
+       "total": 76.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 86.7,
+        "recency": 85.8,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -985,15 +1004,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1040,15 +1059,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 95.4,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1093,15 +1112,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.7,
+        "recency": 89.7,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1151,15 +1170,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.2,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1210,15 +1229,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 95.0,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1269,15 +1288,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 95.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1326,15 +1345,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 96.4,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
@@ -1355,57 +1374,51 @@
     },
     {
      "article": {
-      "id": "33738f7743b5e180",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
+      "id": "ea83f0dd69c5142c",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
-      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
       "lang": "en",
-      "publishedAt": "2026-10-21T19:19:50Z",
+      "publishedAt": "2026-10-19T23:32:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "policy",
+      "fetchedAt": "2026-10-20T00:44:19Z",
+      "day": "2026-10-19",
+      "category": "models",
       "tags": [
-       "amazon quick suite",
-       "customer solutions",
+       "amazon bedrock",
+       "announcements",
        "intermediate (200)"
       ],
       "entities": [
-       "amazon"
+       "amazon",
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
-       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "8ZrNIBT24ug",
-       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
-      },
-      "eventId": "33738f7743b5e180",
+      "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 85.0,
-        "novelty": 78.6
+        "recency": 85.7,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-22T01:13:01Z"
+       "asOf": "2026-10-22T05:00:27Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
-        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
+        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
+        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
+        "at": "2026-10-20T00:44:19Z"
        }
       }
      },

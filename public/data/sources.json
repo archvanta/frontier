@@ -139,10 +139,9 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "error",
+   "status": "ok",
    "notes": "Academic lab blog.",
-   "verifiedOn": "2026-10-19",
-   "lastError": "blocked: host not allowlisted (iris.eecs.berkeley.edu)"
+   "verifiedOn": "2026-10-19"
   },
   {
    "id": "mit-news-ai",
@@ -427,9 +426,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official Anthropic YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "deepmind-youtube",
