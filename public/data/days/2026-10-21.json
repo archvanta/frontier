@@ -3,6 +3,202 @@
  "day": "2026-10-21",
  "articles": [
   {
+   "id": "a8d953e36308a3c9",
+   "url": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Securing Quick access from corporate networks with AWS PrivateLink",
+   "excerpt": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T23:38:38Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon quick suite",
+    "aws privatelink",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20213-1-1.jpg",
+    "alt": "Architecture diagram of private access to Amazon Quick from a corporate data center through a VPC endpoint over AWS Direct Connect",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "a8d953e36308a3c9",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "دسترسی سریع از شبکه های شرکتی با AWS PrivateLink",
+     "excerpt": "یاد بگیرید که چگونه منابع داده را به آمازون سریع با AWS PrivateLink متصل کنید، ترافیک تجزیه و تحلیل را از اینترنت عمومی نگه دارید. این پیاده روی نقاط پایانی VPC را برای دسترسی کاربر و API، اتصال VPC برای منابع داده، DNS و سیاست های نقطه پایانی، فدراسیون هویت و اجرای دسترسی تنها VPC-endpoint برای انطباق پوشش می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
+   "id": "833d3d328a66d09f",
+   "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+   "excerpt": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T23:36:47Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock agentcore",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21081-1-1.png",
+    "alt": "Deep Insight architecture: the Strands Agents multi-agent layer on Amazon Bedrock AgentCore, with an Application Load Balancer routing code execution to AWS Fargate containers in a private VPC",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "833d3d328a66d09f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "5 چالش تولید در سیستم های چند عامل و اینکه چگونه دید عمیق آنها را حل کرد",
+     "excerpt": "بسیاری از تیم ها یک نمونه اولیه هوش مصنوعی چند عاملی را در روز ایجاد می کنند اما به دیوار تولید ضربه می زنند. این پست پنج چالش تولید (اختصاف، انتخاب مدل عامل، عملیات قابل اعتماد، اجرای کد امن و نظارت) را تعریف می کند و نشان می دهد که چگونه دید عمیق، یک سیستم چند عامل منبع باز در AWS، هر کدام را حل می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
+   "id": "3acc865d1f4fc7f5",
+   "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+   "excerpt": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T22:51:22Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "business",
+   "tags": [
+    "ai",
+    "hardware",
+    "blackstone",
+    "coreweave",
+    "data centers",
+    "gpu"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "3acc865d1f4fc7f5",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Jas Khaira Blackstone می گوید که ترس از بدهی AI-build بیش از حد افزایش می یابد",
+     "excerpt": "سر هوش مصنوعی بلکستون به این دلیل است که چرا غول PE از مشکلات بازار وحشت ندارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
+   "id": "607f856c1eba8943",
+   "url": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure",
+   "sourceId": "wired-ai",
+   "sourceName": "WIRED — AI",
+   "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
+   "excerpt": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T22:39:50Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "business",
+   "tags": [
+    "business",
+    "business / big tech",
+    "meta",
+    "mark zuckerberg",
+    "artificial intelligence",
+    "social media"
+   ],
+   "entities": [
+    "meta"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.wired.com/photos/6ad9408768bf72427a051c89/master/pass/WIRED_Business_Mark-Z_CA.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+   },
+   "eventId": "607f856c1eba8943",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مارک زوکربرگ موافقت کرد که در کالیفرنیا علی رغم اندازه گیری مالیات میلیاردرها اقامت کند",
+     "excerpt": "هیئت مدیره Meta می ترسید که خروج مدیر عامل آن می تواند جاه طلبی های AI شرکت را مختل کند. یک قرارداد سهام جدید به او انگیزه های مالی برای ماندن می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
+   "id": "eaa3fbf80042951c",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Data centers could erase decades of air quality gains",
+   "excerpt": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas",
+   "lang": "en",
+   "publishedAt": "2026-10-21T22:33:44Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "energy",
+    "environment",
+    "science"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Photo collage of a data center.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "eaa3fbf80042951c",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مراکز داده می توانند چندین دهه سود کیفیت هوا را از بین ببرند",
+     "excerpt": "عجله ای از مراکز داده جدید می تواند آلودگی هوا را به سطوحی که از دهه ۲۰۰۰ در تگزاس مشاهده نشده است، بازگرداند، که برای زیرساخت های فیزیکی پشت هوش مصنوعی عمومی صفر شده است. مراکز داده جدید و پیشنهادی خواستار مقدار زیادی برق هستند. چگونه توسعه دهندگان و خدمات با این تقاضا مطابقت دارند - با گاز",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
    "id": "ddb41a087627a5b2",
    "url": "https://www.youtube.com/watch?v=20IRGgQwPkc",
    "sourceId": "openai-youtube",
@@ -705,6 +901,46 @@
    }
   },
   {
+   "id": "a61190ef2d9200f3",
+   "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+   "excerpt": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T17:59:12Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "business",
+   "tags": [
+    "ai",
+    "security",
+    "openai",
+    "php",
+    "wiz"
+   ],
+   "entities": [
+    "google",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "a61190ef2d9200f3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "PHP آرماگدون: OpenAI، Wiz گوگل سوراخ های باستانی را پیدا می کند و اینترنت را وحشت می کند",
+     "excerpt": "این نوع مسئله امنیتی است که توسط AI یافت و جلوگیری می شود، اما به دلیل هوش مصنوعی نیز خطر بالایی دارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
+    }
+   }
+  },
+  {
    "id": "8ff9911131ca3bfd",
    "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three",
    "sourceId": "the-decoder",
@@ -776,6 +1012,44 @@
      "title": "چگونه ویژه سازی Vocabulary از SLM می تواند هزینه استنتاج را تا 77٪ در برنامه های واقعی کاهش دهد",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-21T17:42:19Z"
+    }
+   }
+  },
+  {
+   "id": "7427c42a84e4ca5b",
+   "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Blacksmith hits unicorn valuation after Sequoia leads Series C",
+   "excerpt": "Blacksmith, a platform that lets companies build and test AI code more effectively, just announced a $66 million Series C round led by Sequoia that values the company at $1 billion.",
+   "lang": "en",
+   "publishedAt": "2026-10-21T17:18:27Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-10-22T00:16:14Z",
+   "day": "2026-10-21",
+   "category": "business",
+   "tags": [
+    "ai",
+    "startups",
+    "venture",
+    "blacksmith",
+    "in brief",
+    "sequoia"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "7427c42a84e4ca5b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Blacksmith پس از Sequoia منجر به کسب و کار می شود",
+     "excerpt": "Blacksmith، یک پلتفرم است که به شرکت ها اجازه می دهد کد AI را به طور موثرتری بسازند و آزمایش کنند، فقط یک دور 66 میلیون دلاری سری C را که توسط Sequoia به این شرکت ارزش می دهد، اعلام کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-10-22T00:16:14Z"
     }
    }
   },

@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-21T22:05:10Z",
+ "asOf": "2026-10-22T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,65 +10,10 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-20T22:05:10Z",
-   "to": "2026-10-21T22:05:10Z",
+   "from": "2026-10-21T00:00:00Z",
+   "to": "2026-10-22T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
-    {
-     "article": {
-      "id": "2ed22a61b2f19a0c",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Broad access through consistent standards",
-      "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T21:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T22:26:30Z",
-      "day": "2026-10-21",
-      "category": "models",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "2ed22a61b2f19a0c",
-      "related": [],
-      "score": {
-       "total": 71.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-21T22:05:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دسترسی گسترده از طریق استانداردهای ثابت",
-        "excerpt": "چگونه OpenAI با شرکای توزیع کار می کند تا از مزایای ثابت، پشتیبانی از دسترسی مسئولانه و روشن کردن انتظارات در سیاست های استفاده ما حمایت کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T22:26:30Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "61f4d0141ff303c0",
@@ -100,15 +45,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 71.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 55.8,
+        "recency": 50.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -119,11 +64,185 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 1,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2ed22a61b2f19a0c",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Broad access through consistent standards",
+      "excerpt": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T22:26:30Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2ed22a61b2f19a0c",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.1,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-22T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دسترسی گسترده از طریق استانداردهای ثابت",
+        "excerpt": "چگونه OpenAI با شرکای توزیع کار می کند تا از مزایای ثابت، پشتیبانی از دسترسی مسئولانه و روشن کردن انتظارات در سیاست های استفاده ما حمایت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T22:26:30Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "833d3d328a66d09f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+      "excerpt": "Many teams build a multi-agent AI prototype in days but hit a wall in production. This post defines five production challenges (orchestration, per-agent model selection, reliable operation, secure code execution, and monitoring) and shows how Deep Insight, an open source multi-agent system on AWS, solves each.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T23:36:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T00:16:14Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21081-1-1.png",
+       "alt": "Deep Insight architecture: the Strands Agents multi-agent layer on Amazon Bedrock AgentCore, with an Application Load Balancer routing code execution to AWS Fargate containers in a private VPC",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "833d3d328a66d09f",
+      "related": [],
+      "score": {
+       "total": 68.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-22T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "5 چالش تولید در سیستم های چند عامل و اینکه چگونه دید عمیق آنها را حل کرد",
+        "excerpt": "بسیاری از تیم ها یک نمونه اولیه هوش مصنوعی چند عاملی را در روز ایجاد می کنند اما به دیوار تولید ضربه می زنند. این پست پنج چالش تولید (اختصاف، انتخاب مدل عامل، عملیات قابل اعتماد، اجرای کد امن و نظارت) را تعریف می کند و نشان می دهد که چگونه دید عمیق، یک سیستم چند عامل منبع باز در AWS، هر کدام را حل می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T00:16:14Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a8d953e36308a3c9",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Securing Quick access from corporate networks with AWS PrivateLink",
+      "excerpt": "Learn how to connect on-premises data sources to Amazon Quick privately with AWS PrivateLink, keeping analytics traffic off the public internet. This walkthrough covers VPC endpoints for user and API access, VPC connections for data sources, DNS and endpoint policies, identity federation, and enforcing VPC-endpoint-only access for compliance.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T23:38:38Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T00:16:14Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon quick suite",
+       "aws privatelink",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20213-1-1.jpg",
+       "alt": "Architecture diagram of private access to Amazon Quick from a corporate data center through a VPC endpoint over AWS Direct Connect",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "a8d953e36308a3c9",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.0,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-22T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دسترسی سریع از شبکه های شرکتی با AWS PrivateLink",
+        "excerpt": "یاد بگیرید که چگونه منابع داده را به آمازون سریع با AWS PrivateLink متصل کنید، ترافیک تجزیه و تحلیل را از اینترنت عمومی نگه دارید. این پیاده روی نقاط پایانی VPC را برای دسترسی کاربر و API، اتصال VPC برای منابع داده، DNS و سیاست های نقطه پایانی، فدراسیون هویت و اجرای دسترسی تنها VPC-endpoint برای انطباق پوشش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T00:16:14Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -160,15 +279,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.7,
+        "recency": 74.9,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -176,129 +295,6 @@
         "excerpt": "ببینید که چگونه Gemini Flash TTS به شما اجازه می دهد تا صداهای سفارشی را از یک متن سریع طراحی کنید و صدای خود را در Google AI Studio تکرار کنید. Google DeepMind’s Thor Schaeff از طریق: * طراحی Voice *Voice Replication * نسل گفتگوی چند بلندگو * ساخت با API Gemini در 100 زبان + * ادغام بخشی با Agora، LiveKit، Pipecat و Vercel آن را در حال حاضر در ai.studio/generate-peech.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "33738f7743b5e180",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
-      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T19:19:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "policy",
-      "tags": [
-       "amazon quick suite",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
-       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "8ZrNIBT24ug",
-       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
-      },
-      "eventId": "33738f7743b5e180",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.3,
-        "topic": 85.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-21T22:05:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
-        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d841fc8b370bc211",
-      "url": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Adaptive agentic intelligence framework using Strands Agents",
-      "excerpt": "The Adaptive Agentic Intelligence Framework (AAIF), built with Strands Agents, handles routine tasks locally with small language models and routes complex requests to cloud models through Amazon Bedrock. This post walks through building AAIF with local SLMs through Ollama and Amazon Bedrock, using an Internet of Things monitoring scenario.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T21:23:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T22:26:30Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-19699-1.png",
-       "alt": "AAIF three-layer architecture with an SLM orchestrator routing requests to local processing tools or to Amazon Bedrock cloud processing",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "d841fc8b370bc211",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.1,
-        "topic": 65.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-21T22:05:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چارچوب هوش تطبیقی با استفاده از Strand Agents",
-        "excerpt": "Adaptive Agentic Intelligence Framework (AAIF)، ساخته شده با Strands Agents، وظایف روزمره را به صورت محلی با مدل های زبان کوچک و مسیرهای پیچیده برای مدل های ابر از طریق Amazon Bedrock اداره می کند. این پست از طریق ساخت AAIF با SLM های محلی از طریق Ollama و Amazon Bedrock، با استفاده از یک اینترنت از سناریو نظارت بر اشیاء است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T22:26:30Z"
        }
       }
      },
@@ -338,15 +334,15 @@
       "eventId": "7104bc51c29585cc",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.0,
+        "recency": 72.5,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -367,8 +363,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-14T22:05:10Z",
-   "to": "2026-10-21T22:05:10Z",
+   "from": "2026-10-15T00:00:00Z",
+   "to": "2026-10-22T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -402,15 +398,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.4,
+       "total": 78.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 90.7,
+        "recency": 89.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -458,15 +454,15 @@
       "eventId": "2ed22a61b2f19a0c",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 97.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -513,15 +509,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 89.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -571,15 +567,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 95.3,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -635,15 +631,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 95.6,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -692,15 +688,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 92.9,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -751,15 +747,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 90.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -805,15 +801,15 @@
       "eventId": "354f89a6c7dbf10c",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 94.0,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -834,8 +830,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-21T22:05:10Z",
-   "to": "2026-10-21T22:05:10Z",
+   "from": "2026-09-22T00:00:00Z",
+   "to": "2026-10-22T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -869,15 +865,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.7,
+       "total": 79.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 97.1,
+        "recency": 96.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -927,15 +923,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 77.0,
+       "total": 76.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 87.5,
+        "recency": 87.1,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -983,15 +979,15 @@
       "eventId": "74fcf21eca7add4a",
       "related": [],
       "score": {
-       "total": 73.7,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 96.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1038,15 +1034,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 96.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1091,15 +1087,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 91.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1149,15 +1145,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.6,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1208,15 +1204,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.4,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1267,15 +1263,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 97.2,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1324,15 +1320,15 @@
       "eventId": "8477c3daca9c4e08",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1353,57 +1349,51 @@
     },
     {
      "article": {
-      "id": "33738f7743b5e180",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
+      "id": "ea83f0dd69c5142c",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
-      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
       "lang": "en",
-      "publishedAt": "2026-10-21T19:19:50Z",
+      "publishedAt": "2026-10-19T23:32:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "policy",
+      "fetchedAt": "2026-10-20T00:44:19Z",
+      "day": "2026-10-19",
+      "category": "models",
       "tags": [
-       "amazon quick suite",
-       "customer solutions",
+       "amazon bedrock",
+       "announcements",
        "intermediate (200)"
       ],
       "entities": [
-       "amazon"
+       "amazon",
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
-       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "8ZrNIBT24ug",
-       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
-      },
-      "eventId": "33738f7743b5e180",
+      "eventId": "ea83f0dd69c5142c",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 85.0,
-        "novelty": 78.6
+        "recency": 86.9,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-21T22:05:10Z"
+       "asOf": "2026-10-22T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
-        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
+        "title": "خروجی های ساختاری برای مدل های Anthropic کلود در آمازون Bedrock",
+        "excerpt": "آمازون Bedrock در حال حاضر از خروجی های ساختاری برای تمام مدل های Anthropic کلود در هر دو نقاط انتهایی Bedrock-runtime و Bedrock-mantle پشتیبانی می کند. JSON سازگار با طرح را دریافت کنید که مطابق با یک ساختار تعریف شده، بدون تجزیه و تحلیل سفارشی، منطق بازنویسی، یا پس پردازش، با استفاده از فرمت خروجی JSON Schema و استفاده از ابزار دقیق است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
+        "at": "2026-10-20T00:44:19Z"
        }
       }
      },

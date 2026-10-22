@@ -412,9 +412,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official OpenAI YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "anthropic-youtube",
@@ -425,9 +426,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official Anthropic YouTube channel feed. Videos play in the page via the youtube-nocookie embed. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "deepmind-youtube",
@@ -438,9 +440,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official Google DeepMind YouTube channel feed. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "google-developers-youtube",
@@ -451,9 +454,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official Google developer channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "nvidia-youtube",
@@ -464,9 +468,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official NVIDIA YouTube channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "two-minute-papers",
@@ -477,9 +482,10 @@
    "tier": 3,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Independent channel explaining new AI and graphics research papers. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "verge-youtube",
@@ -490,9 +496,10 @@
    "tier": 2,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "The Verge's YouTube channel; filtered to AI items. Same owner as The Verge AI feed, so it never counts as independent corroboration. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   }
  ]
 }
