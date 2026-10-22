@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T10:01:53Z",
+ "asOf": "2026-10-22T13:46:26Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T10:01:53Z",
-   "to": "2026-10-22T10:01:53Z",
+   "from": "2026-10-21T13:46:26Z",
+   "to": "2026-10-22T13:46:26Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 68.5,
+       "total": 66.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 44.2,
+        "recency": 35.6,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -73,6 +73,242 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "63c31ca523f91ccf",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "What FDE means at OpenAI",
+      "excerpt": "What forward deployed engineering means at OpenAI",
+      "lang": "en",
+      "publishedAt": "2026-10-22T06:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "63c31ca523f91ccf",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 63.8,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-22T13:46:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "FDE در OpenAI چه معنایی دارد",
+        "excerpt": "مهندسی پیشرفته در OpenAI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T13:53:06Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "168949e2ec4b26a4",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/website-shutdowns-ai-human-inaction-developers",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Prepare for more website shutdowns in the age of AI – but human inaction is the real culprit | Chris Stokel-Walker",
+      "excerpt": "I’ve been banging the drum about these vulnerabilities for years. It will take more than a handful of exhausted developers to keep us safe Parts of the internet are going dark. In the Netherlands, government websites, including its digital ID login service, have become unavailable. Finland has taken public services offline, and Wikimedia, the organisation behind Wikipedia, has switched off some…",
+      "lang": "en",
+      "publishedAt": "2026-10-22T13:46:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
+      "category": "policy",
+      "tags": [
+       "data and computer security",
+       "hacking",
+       "internet",
+       "ai (artificial intelligence)",
+       "computing",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/13e30f310ce8c85aa85e376793f586ed8f2aa217/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=596b4872652144e9baadc7cd30e5c083",
+       "credit": "Illustration: Guardian Design/Getty",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "168949e2ec4b26a4",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-22T13:46:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده شدن برای تعطیلی وب سایت بیشتر در عصر AI - اما بی عملی انسانی مقصر واقعی است - کریس استکل- واکر",
+        "excerpt": "من سال هاست که در مورد این آسیب پذیری ها دچار مشکل شده ام. این کار بیش از تعدادی از توسعه دهندگان خسته را برای نگه داشتن بخش های امن اینترنت انجام خواهد داد. در هلند، وب سایت های دولتی، از جمله سرویس دیجیتال ورود شناسه، در دسترس نیستند. فنلاند خدمات عمومی را به صورت آفلاین گرفته است و ویکی مدیا، سازمان پشت ویکی پدیا، برخی موارد را خاموش کرده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T13:53:06Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ff67e4725a210245",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Claude did not invent scorpion antivenom",
+      "excerpt": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm",
+      "lang": "en",
+      "publishedAt": "2026-10-22T12:21:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "health",
+       "report",
+       "science"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/GettyImages-2202529068_415155.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A view of Scorpio karakurti, a small and venomous scorpion.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ff67e4725a210245",
+      "related": [],
+      "score": {
+       "total": 65.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.1,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-22T13:46:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کلود، عقرب را اختراع نکرد",
+        "excerpt": "یک شرکت تحقیقاتی سرمایه گذاری می خواست اثبات کند که AI می تواند رشد مواد مخدر را انقلابی کند. بنابراین آنها با Anthropic همکاری کردند تا ببینند که آیا یک نسخه منتشر نشده از کلود می تواند باعث ایجاد ضد پیری عقرب شود. نمی توانست. آن را با برخی از نقاط شروع امیدوار کننده، اما هیچ چیز نزدیک به یک دارو واقعی، کارشناسان به Verge می گویند. تحقیقات Citrini، شرکت",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T13:53:06Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bb91ef78ceb84ea2",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/the-audacity-hbo-max-billionaires-succession-treatment",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
+      "excerpt": "The Audacity is a fearless satire taking on Silicon Valley’s ‘egomaniac weirdos’. Its creator and stars talk ayahuasca ceremonies, mining kids for data – and punching CEOs Showrunner Jonathan Glatzer wanted the tagline of his latest TV creation to be: “We’re so fucked.” He laughs. “Sadly it got rejected by the network. Hey, maybe I can use it for season two!” The show in question is The…",
+      "lang": "en",
+      "publishedAt": "2026-10-22T12:34:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
+      "category": "policy",
+      "tags": [
+       "television",
+       "culture",
+       "television & radio",
+       "silicon valley",
+       "technology",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/0b8644ae8f15bd961be02494dd9212e1e684893c/750_0_3750_3000/master/3750.jpg?width=700&quality=85&auto=format&fit=max&s=74c4775493735a931d338f8ed2d18b5f",
+       "credit": "Photograph: Ed Araquel/AMC",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "bb91ef78ceb84ea2",
+      "related": [],
+      "score": {
+       "total": 64.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 93.3,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-22T13:46:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"باشگاه مبارزه با تکنولوژی واقعی است!\"، تیترهای AI درمان جانشینی را در یک نمایش تلویزیونی جدید وحشی دریافت می کنند",
+        "excerpt": "Audacity یک طنز بی باک است که در سیلیکون دره \"egomaniac Strangeos\" قرار دارد. خالق و ستاره های آن با یک مراسم یورادوسک صحبت می کنند، بچه های معدنی برای داده ها و مدیران اجرایی مشت زدن به نمایش جاناتان گلزر می خواستند که شعار آخرین آفرینش تلویزیونی او این باشد: «ما خیلی گند زده ایم.» «به نظر می رسد که توسط شبکه رد شده است. شاید بتوانم از آن برای فصل دوم استفاده کنم!» نمایش در سوال این است که...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T13:53:06Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -104,258 +340,21 @@
       "eventId": "5d118fadbe793ddd",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 71.1,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
         "title": "پیش بینی با مدل های سری زمانی IBM گرانیت",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T10:41:14Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 28.0,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-22T10:01:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "58fe41da7be45a26",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "Making the case for context-aware AI",
-      "excerpt": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
-      "lang": "en",
-      "publishedAt": "2026-10-22T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T10:41:14Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [
-       "artificial intelligence",
-       "sponsored"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "58fe41da7be45a26",
-      "related": [],
-      "score": {
-       "total": 64.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-22T10:01:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایجاد پرونده برای AI آگاه",
-        "excerpt": "هوش مصنوعی سازمانی می تواند توصیه ها، وظایف خودکار را ایجاد کند و به سازمان ها کمک کند سریعتر تصمیم بگیرند. اما بدون درک اینکه چگونه یک کسب و کار در واقع عمل می کند، حتی مدل های قدرتمند می توانند محدودیت ها و روابطی را که تعیین می کنند تصمیم درستی است، از دست بدهند. همانطور که شرکت ها به دنبال حرکت AI از آزمایش به عملیات روزمره هستند، چالش پیش رو ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T10:41:14Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "46f4dc360a154a5b",
-      "url": "https://www.theguardian.com/business/2026/oct/22/barclays-profits-up-as-uk-banks-brace-for-tax-increase-in-budget",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Barclays to cut 5,000 jobs as bank’s bosses hail AI productivity advances",
-      "excerpt": "Equating to the loss of 5% of its 93,000 global staff, job cuts come as bank announces jump in quarterly profits Business live – latest updates Barclays is cutting 5,000 jobs as part of wider cost-cutting plans that its bosses say are being driven by advances in AI. The job cuts will mean losing about 5% of the bank’s 93,000 global staff, with executives confirming they had already cut 1,000…",
-      "lang": "en",
-      "publishedAt": "2026-10-22T08:40:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T10:41:14Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "barclays",
-       "banking",
-       "business",
-       "budget 2026",
-       "john healey",
-       "budget"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/42ebdcc562c64f3843def3a9641e7ab414a3974a/503_509_4491_3595/master/4491.jpg?width=700&quality=85&auto=format&fit=max&s=b02a29d50bcb35879a0a8302c39ce65e",
-       "credit": "Photograph: John Keeble/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "46f4dc360a154a5b",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 92.5,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T10:01:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Barclays برای کاهش 5000 شغل به عنوان رئیس بانک افزایش بهره وری AI",
-        "excerpt": "با از دست دادن 5% از کارکنان جهانی 93000، کاهش شغل به عنوان بانک اعلام می کند که پرش در کسب و کار سه ماهه زندگی می کند - آخرین به روز رسانی Barclays کاهش 5000 شغل به عنوان بخشی از برنامه های گسترده تر کاهش هزینه است که کارفرمایان می گویند با پیشرفت در AI رانده شده است. کاهش کار به معنای از دست دادن حدود 5 درصد از 93000 کارمند جهانی بانک است و مدیران تایید می کنند که در حال حاضر 1000 نفر را کاهش داده اند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T10:41:14Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c3ecf70aef549971",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "excerpt": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open",
-      "lang": "en",
-      "publishedAt": "2026-10-22T05:00:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T05:27:27Z",
-      "day": "2026-10-22",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "cosmos",
-       "gtc 2026",
-       "physical ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-Cosmos-New-Tools-2026.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "file",
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/CDF-visual-Oct20.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "c3ecf70aef549971",
-      "related": [],
-      "score": {
-       "total": 64.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.8,
-        "topic": 70.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-22T10:01:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Cosmos باز کردن ابزار جدید برای آموزش، ارزیابی و Deploy World Models",
-        "excerpt": "برای کمک به توسعه دهندگان به سرعت ساخت مدل های جهانی، که به سیستم های هوش مصنوعی فیزیکی کمک می کند تا جهان واقعی را درک و شبیه سازی کنند، NVIDIA پلت فرم Cosmos را با ابزارهای آموزشی جدید، شبیه سازی بازرسی ها و طرح های کارخانه داده های Cosmos گسترش داده است. رتبه بندی 5 در شش مدل مختلف رهبر، پلت فرم NVIDIA Cosmos به سازندگان مدل جهانی می دهد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T05:27:27Z"
        }
       }
      },
@@ -370,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T10:01:53Z",
-   "to": "2026-10-22T10:01:53Z",
+   "from": "2026-10-15T13:46:26Z",
+   "to": "2026-10-22T13:46:26Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -409,15 +408,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.3,
+        "recency": 84.2,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -468,15 +467,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 76.4,
+       "total": 75.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 80.9,
+        "recency": 78.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -498,58 +497,55 @@
     },
     {
      "article": {
-      "id": "dbaa902542534b3a",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "id": "63c31ca523f91ccf",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "OpenAI acquires Orchestra Bio",
-      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "title": "What FDE means at OpenAI",
+      "excerpt": "What forward deployed engineering means at OpenAI",
       "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
+      "publishedAt": "2026-10-22T06:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "business",
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
+      "category": "models",
       "tags": [
-       "company"
+       "engineering"
       ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/business.svg",
+       "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "dbaa902542534b3a",
-      "related": [
-       "aeaa448f66c5e86e"
-      ],
+      "eventId": "63c31ca523f91ccf",
+      "related": [],
       "score": {
-       "total": 70.9,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 57.2,
-        "topic": 55.0,
-        "novelty": 87.5
+        "corroboration": 0.0,
+        "recency": 92.8,
+        "topic": 100.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
-        "title": "OpenAI به دست آوردن ارکستر Bio",
-        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
+        "title": "FDE در OpenAI چه معنایی دارد",
+        "excerpt": "مهندسی پیشرفته در OpenAI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-22T13:53:06Z"
        }
       }
      },
      "rank": 3,
-     "sources": 2,
+     "sources": 1,
      "reason": [
       "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -581,15 +577,15 @@
       "eventId": "5d118fadbe793ddd",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 94.5,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -635,15 +631,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.6,
+        "recency": 78.7,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -693,15 +689,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 83.5,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -757,15 +753,15 @@
       "eventId": "c3ecf70aef549971",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 91.9,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -821,15 +817,15 @@
       "eventId": "33738f7743b5e180",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
+        "recency": 83.7,
         "topic": 85.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -851,8 +847,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T10:01:53Z",
-   "to": "2026-10-22T10:01:53Z",
+   "from": "2026-09-22T13:46:26Z",
+   "to": "2026-10-22T13:46:26Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -886,15 +882,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 79.0,
+       "total": 78.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 93.8,
+        "recency": 92.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -949,15 +945,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 78.9,
+       "total": 78.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 96.0,
+        "recency": 95.0,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1007,15 +1003,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 84.6,
+        "recency": 83.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1037,20 +1033,20 @@
     },
     {
      "article": {
-      "id": "74fcf21eca7add4a",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "id": "63c31ca523f91ccf",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "title": "What FDE means at OpenAI",
+      "excerpt": "What forward deployed engineering means at OpenAI",
       "lang": "en",
-      "publishedAt": "2026-10-21T13:00:00Z",
+      "publishedAt": "2026-10-22T06:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
+      "fetchedAt": "2026-10-22T13:53:06Z",
+      "day": "2026-10-22",
       "category": "models",
       "tags": [
-       "product"
+       "engineering"
       ],
       "entities": [
        "openai"
@@ -1060,25 +1056,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "74fcf21eca7add4a",
+      "eventId": "63c31ca523f91ccf",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 97.8,
         "topic": 100.0,
-        "novelty": 92.3
+        "novelty": 83.3
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
-        "title": "تبلیغات ChatGPT به 26 کشور جدید گسترش یافته است زیرا بیش از 100،000 تبلیغ کننده از این پلتفرم استفاده کرده اند.",
-        "excerpt": "از کسب و کارهای محلی تا مارک های جهانی، تبلیغ کنندگان بیشتری اکنون می توانند به افرادی که در حال بررسی، مقایسه و تصمیم به خرید در ChatGPT هستند، دسترسی پیدا کنند.",
+        "title": "FDE در OpenAI چه معنایی دارد",
+        "excerpt": "مهندسی پیشرفته در OpenAI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
+        "at": "2026-10-22T13:53:06Z"
        }
       }
      },
@@ -1117,15 +1113,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.4,
+        "recency": 87.4,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1171,15 +1167,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 93.1,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1229,15 +1225,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1288,15 +1284,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 92.6,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1342,15 +1338,15 @@
       "eventId": "5d118fadbe793ddd",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.3,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
@@ -1400,15 +1396,15 @@
       "eventId": "841e916aec0ebd36",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 93.4,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T10:01:53Z"
+       "asOf": "2026-10-22T13:46:26Z"
       },
       "tr": {
        "fa": {
