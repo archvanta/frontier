@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T13:46:26Z",
+ "asOf": "2026-10-22T15:25:02Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,122 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T13:46:26Z",
-   "to": "2026-10-22T13:46:26Z",
+   "from": "2026-10-21T15:25:02Z",
+   "to": "2026-10-22T15:25:02Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "655df0fb22ace891",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T14:30:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "655df0fb22ace891",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.9,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
+        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "99c8819be3a73948",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "excerpt": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast",
+      "lang": "en",
+      "publishedAt": "2026-10-22T15:00:02Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "products",
+      "tags": [
+       "ai infrastructure",
+       "ai factory",
+       "gtc 2026"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/ethernet-corp-blog-minerva-kv-1280x680-5595752.png",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "99c8819be3a73948",
+      "related": [],
+      "score": {
+       "total": 67.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.6,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Unveils Minerva برای به ارمغان آوردن End-to- End Observability for AI Factors",
+        "excerpt": "امروز راه اندازی شده، NVIDIA Minerva یک پلت فرم AIOps است که برای کمک به تیم ها برای پیدا کردن مشکلات قبل و نگه داشتن کارخانه های AI ساخته شده است. این به ارمغان می آورد تله عدم تقارن از زیرساخت و کار AI، سپس مدل های AI هدف ساخته شده برای تبدیل آن داده ها به موقع و عملی بینش. کارخانه های AI یکی از پیچیده ترین عملیات های جهان هستند و دارای عملیات گسترده ای هستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "0d8d033795840d49",
@@ -49,15 +161,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 66.8,
+       "total": 66.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 35.6,
+        "recency": 32.4,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -68,11 +180,129 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8e16d6a954270ec1",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "excerpt": "Claude Duet is available through waitlist for Pro and Max plan users",
+      "lang": "en",
+      "publishedAt": "2026-10-22T13:53:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [
+       "ai",
+       "apps",
+       "ai agent",
+       "anthropic",
+       "claude"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "8e16d6a954270ec1",
+      "related": [],
+      "score": {
+       "total": 65.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 91.6,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "برنامه کلود Duet شرط Anthropic بر روی عوامل",
+        "excerpt": "کلود Duet از طریق انتظار برای کاربران برنامه Pro و Max در دسترس است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01440c58175255e5",
+      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+      "excerpt": "Hackers were already probing the bug before defenders were told it existed.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T15:25:02Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [
+       "ai",
+       "security",
+       "php",
+       "php exploit",
+       "syndication"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2022/03/internet-routing-1000x648.jpeg",
+       "credit": "Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
+      },
+      "eventId": "01440c58175255e5",
+      "related": [],
+      "score": {
+       "total": 65.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هکرها یک سر چهار روزه را در آسیب پذیری حماسی PHP2Shell شروع کردند",
+        "excerpt": "هکرها قبل از اینکه به مدافعان گفته شود که وجود داشته باشد، در حال آزمایش باگ بودند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -105,15 +335,15 @@
       "eventId": "63c31ca523f91ccf",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.8,
+        "recency": 58.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -121,240 +351,6 @@
         "excerpt": "مهندسی پیشرفته در OpenAI",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T13:53:06Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "168949e2ec4b26a4",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/22/website-shutdowns-ai-human-inaction-developers",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Prepare for more website shutdowns in the age of AI – but human inaction is the real culprit | Chris Stokel-Walker",
-      "excerpt": "I’ve been banging the drum about these vulnerabilities for years. It will take more than a handful of exhausted developers to keep us safe Parts of the internet are going dark. In the Netherlands, government websites, including its digital ID login service, have become unavailable. Finland has taken public services offline, and Wikimedia, the organisation behind Wikipedia, has switched off some…",
-      "lang": "en",
-      "publishedAt": "2026-10-22T13:46:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T13:53:06Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "data and computer security",
-       "hacking",
-       "internet",
-       "ai (artificial intelligence)",
-       "computing",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/13e30f310ce8c85aa85e376793f586ed8f2aa217/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=596b4872652144e9baadc7cd30e5c083",
-       "credit": "Illustration: Guardian Design/Getty",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "168949e2ec4b26a4",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده شدن برای تعطیلی وب سایت بیشتر در عصر AI - اما بی عملی انسانی مقصر واقعی است - کریس استکل- واکر",
-        "excerpt": "من سال هاست که در مورد این آسیب پذیری ها دچار مشکل شده ام. این کار بیش از تعدادی از توسعه دهندگان خسته را برای نگه داشتن بخش های امن اینترنت انجام خواهد داد. در هلند، وب سایت های دولتی، از جمله سرویس دیجیتال ورود شناسه، در دسترس نیستند. فنلاند خدمات عمومی را به صورت آفلاین گرفته است و ویکی مدیا، سازمان پشت ویکی پدیا، برخی موارد را خاموش کرده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T13:53:06Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ff67e4725a210245",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Claude did not invent scorpion antivenom",
-      "excerpt": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm",
-      "lang": "en",
-      "publishedAt": "2026-10-22T12:21:07Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T13:53:06Z",
-      "day": "2026-10-22",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "health",
-       "report",
-       "science"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/GettyImages-2202529068_415155.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A view of Scorpio karakurti, a small and venomous scorpion.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "ff67e4725a210245",
-      "related": [],
-      "score": {
-       "total": 65.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 92.1,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کلود، عقرب را اختراع نکرد",
-        "excerpt": "یک شرکت تحقیقاتی سرمایه گذاری می خواست اثبات کند که AI می تواند رشد مواد مخدر را انقلابی کند. بنابراین آنها با Anthropic همکاری کردند تا ببینند که آیا یک نسخه منتشر نشده از کلود می تواند باعث ایجاد ضد پیری عقرب شود. نمی توانست. آن را با برخی از نقاط شروع امیدوار کننده، اما هیچ چیز نزدیک به یک دارو واقعی، کارشناسان به Verge می گویند. تحقیقات Citrini، شرکت",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T13:53:06Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bb91ef78ceb84ea2",
-      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/22/the-audacity-hbo-max-billionaires-succession-treatment",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘The tech bro fight club is real!’ The titans of AI get the Succession treatment in a wild new TV show",
-      "excerpt": "The Audacity is a fearless satire taking on Silicon Valley’s ‘egomaniac weirdos’. Its creator and stars talk ayahuasca ceremonies, mining kids for data – and punching CEOs Showrunner Jonathan Glatzer wanted the tagline of his latest TV creation to be: “We’re so fucked.” He laughs. “Sadly it got rejected by the network. Hey, maybe I can use it for season two!” The show in question is The…",
-      "lang": "en",
-      "publishedAt": "2026-10-22T12:34:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T13:53:06Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "television",
-       "culture",
-       "television & radio",
-       "silicon valley",
-       "technology",
-       "ai (artificial intelligence)"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/0b8644ae8f15bd961be02494dd9212e1e684893c/750_0_3750_3000/master/3750.jpg?width=700&quality=85&auto=format&fit=max&s=74c4775493735a931d338f8ed2d18b5f",
-       "credit": "Photograph: Ed Araquel/AMC",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "bb91ef78ceb84ea2",
-      "related": [],
-      "score": {
-       "total": 64.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 93.3,
-        "topic": 85.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "\"باشگاه مبارزه با تکنولوژی واقعی است!\"، تیترهای AI درمان جانشینی را در یک نمایش تلویزیونی جدید وحشی دریافت می کنند",
-        "excerpt": "Audacity یک طنز بی باک است که در سیلیکون دره \"egomaniac Strangeos\" قرار دارد. خالق و ستاره های آن با یک مراسم یورادوسک صحبت می کنند، بچه های معدنی برای داده ها و مدیران اجرایی مشت زدن به نمایش جاناتان گلزر می خواستند که شعار آخرین آفرینش تلویزیونی او این باشد: «ما خیلی گند زده ایم.» «به نظر می رسد که توسط شبکه رد شده است. شاید بتوانم از آن برای فصل دوم استفاده کنم!» نمایش در سوال این است که...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T13:53:06Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5d118fadbe793ddd",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T07:51:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T10:41:14Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
-      },
-      "eventId": "5d118fadbe793ddd",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.1,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی با مدل های سری زمانی IBM گرانیت",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T10:41:14Z"
        }
       }
      },
@@ -369,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T13:46:26Z",
-   "to": "2026-10-22T13:46:26Z",
+   "from": "2026-10-15T15:25:02Z",
+   "to": "2026-10-22T15:25:02Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +404,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 76.5,
+       "total": 76.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 84.2,
+        "recency": 82.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -467,15 +463,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.8,
+       "total": 75.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.0,
+        "recency": 76.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -523,15 +519,15 @@
       "eventId": "63c31ca523f91ccf",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -543,6 +539,60 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "655df0fb22ace891",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T14:30:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "655df0fb22ace891",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
+        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -577,15 +627,15 @@
       "eventId": "5d118fadbe793ddd",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 93.0,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -595,7 +645,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -631,15 +681,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.7,
+        "recency": 77.4,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -649,7 +699,65 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "99c8819be3a73948",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "excerpt": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast",
+      "lang": "en",
+      "publishedAt": "2026-10-22T15:00:02Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "products",
+      "tags": [
+       "ai infrastructure",
+       "ai factory",
+       "gtc 2026"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/ethernet-corp-blog-minerva-kv-1280x680-5595752.png",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "99c8819be3a73948",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Unveils Minerva برای به ارمغان آوردن End-to- End Observability for AI Factors",
+        "excerpt": "امروز راه اندازی شده، NVIDIA Minerva یک پلت فرم AIOps است که برای کمک به تیم ها برای پیدا کردن مشکلات قبل و نگه داشتن کارخانه های AI ساخته شده است. این به ارمغان می آورد تله عدم تقارن از زیرساخت و کار AI، سپس مدل های AI هدف ساخته شده برای تبدیل آن داده ها به موقع و عملی بینش. کارخانه های AI یکی از پیچیده ترین عملیات های جهان هستند و دارای عملیات گسترده ای هستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -689,148 +797,20 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.5,
+        "recency": 82.2,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
         "title": "طراحی و تکرار صداها با Gemini Flash TTS",
         "excerpt": "ببینید که چگونه Gemini Flash TTS به شما اجازه می دهد تا صداهای سفارشی را از یک متن سریع طراحی کنید و صدای خود را در Google AI Studio تکرار کنید. Google DeepMind’s Thor Schaeff از طریق: * طراحی Voice *Voice Replication * نسل گفتگوی چند بلندگو * ساخت با API Gemini در 100 زبان + * ادغام بخشی با Agora، LiveKit، Pipecat و Vercel آن را در حال حاضر در ai.studio/generate-peech.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c3ecf70aef549971",
-      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
-      "excerpt": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints. Ranking top five on six different open models leaderboards, the NVIDIA Cosmos platform gives world model builders the frontier open",
-      "lang": "en",
-      "publishedAt": "2026-10-22T05:00:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T05:27:27Z",
-      "day": "2026-10-22",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "cosmos",
-       "gtc 2026",
-       "physical ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/NVIDIA-Cosmos-New-Tools-2026.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "file",
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/CDF-visual-Oct20.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "c3ecf70aef549971",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.9,
-        "topic": 70.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Cosmos باز کردن ابزار جدید برای آموزش، ارزیابی و Deploy World Models",
-        "excerpt": "برای کمک به توسعه دهندگان به سرعت ساخت مدل های جهانی، که به سیستم های هوش مصنوعی فیزیکی کمک می کند تا جهان واقعی را درک و شبیه سازی کنند، NVIDIA پلت فرم Cosmos را با ابزارهای آموزشی جدید، شبیه سازی بازرسی ها و طرح های کارخانه داده های Cosmos گسترش داده است. رتبه بندی 5 در شش مدل مختلف رهبر، پلت فرم NVIDIA Cosmos به سازندگان مدل جهانی می دهد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T05:27:27Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "33738f7743b5e180",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-u-s-hunger-connects-leaders-and-data-using-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How U.S. Hunger connects leaders and data using Amazon Quick",
-      "excerpt": "U.S. Hunger, a nonprofit addressing food insecurity, uses Amazon Quick to connect organizational data with leadership decisions. Leaders explore applicant data directly, share KPI definitions and financial context in Quick Spaces, and investigate policy questions with Quick Research.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T19:19:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "policy",
-      "tags": [
-       "amazon quick suite",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-22201-1.png",
-       "alt": "Current architecture: SQL Server data refreshes into SPICE at 2 AM ET each night for analysis in Amazon Quick.",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "8ZrNIBT24ug",
-       "url": "https://www.youtube.com/watch?v=8ZrNIBT24ug"
-      },
-      "eventId": "33738f7743b5e180",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.7,
-        "topic": 85.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه آمریکا گرسنگی رهبران و داده ها را با استفاده از آمازون سریع متصل می کند",
-        "excerpt": "آمریکا گرسنگی، عدم امنیت غذایی، از آمازون سریع برای ارتباط داده های سازمانی با تصمیمات رهبری استفاده می کند. رهبران به طور مستقیم داده های متقاضی را بررسی می کنند، تعاریف KPI و زمینه مالی را در فضاهای سریع به اشتراک می گذارند و سوالات سیاسی را با تحقیقات سریع بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T20:55:40Z"
        }
@@ -847,8 +827,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T13:46:26Z",
-   "to": "2026-10-22T13:46:26Z",
+   "from": "2026-09-22T15:25:02Z",
+   "to": "2026-10-22T15:25:02Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -882,15 +862,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.8,
+       "total": 78.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 92.8,
+        "recency": 92.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -945,15 +925,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 78.7,
+       "total": 78.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 95.0,
+        "recency": 94.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1007,11 +987,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 83.7,
+        "recency": 83.3,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1059,15 +1039,15 @@
       "eventId": "63c31ca523f91ccf",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 97.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1113,15 +1093,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.4,
+        "recency": 87.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1167,15 +1147,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 92.6,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1186,6 +1166,60 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "655df0fb22ace891",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T14:30:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "655df0fb22ace891",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-22T15:25:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
+        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1225,15 +1259,15 @@
       "eventId": "06b8fb7428dcc16c",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 63.6
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1244,7 +1278,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1284,15 +1318,15 @@
       "eventId": "4eb2d0aea125c558",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 92.2,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
@@ -1303,7 +1337,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1338,80 +1372,21 @@
       "eventId": "5d118fadbe793ddd",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.8,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T13:46:26Z"
+       "asOf": "2026-10-22T15:25:02Z"
       },
       "tr": {
        "fa": {
         "title": "پیش بینی با مدل های سری زمانی IBM گرانیت",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T10:41:14Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "841e916aec0ebd36",
-      "url": "https://www.youtube.com/watch?v=Y39uub4n0LA",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Lila Sciences’ AI and Automated Labs Help Scientists Discover New Medicines Faster",
-      "excerpt": "Lila Sciences connects AI agents to an autonomous lab to explore a therapy designed to help a patient’s own immune cells fight B-cell lymphoma. Lila builds an experimental plan using NVIDIA Nemotron and NVIDIA Agent Toolkit, while models built with NVIDIA BioNeMo can run millions of virtual experiments to identify promising candidates for lab testing. In Lila’s AI Science Factory, robotic…",
-      "lang": "en",
-      "publishedAt": "2026-10-21T14:00:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T17:42:19Z",
-      "day": "2026-10-21",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/Y39uub4n0LA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Y39uub4n0LA",
-       "url": "https://www.youtube.com/watch?v=Y39uub4n0LA"
-      },
-      "eventId": "841e916aec0ebd36",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.4,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T13:46:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه AI و آزمایشگاه های خودکار Lila Sciences به دانشمندان کمک می کند تا سریع تر طب جدید را کشف کنند",
-        "excerpt": "Lila Sciences عوامل AI را به یک آزمایشگاه مستقل متصل می کند تا یک درمان را کشف کند که برای کمک به سلول های ایمنی بیمار برای مبارزه با لیم سلول B طراحی شده است. Lila یک برنامه آزمایشی با استفاده از NVIDIA Nemotron و NVIDIA Agent را ایجاد می کند، در حالی که مدل های ساخته شده با NVIDIA BioNeMo می توانند میلیون ها آزمایش مجازی را برای شناسایی کاندیداهای امیدوار کننده برای آزمایش آزمایشگاه اجرا کنند. در کارخانه علوم هوش مصنوعی لیلا، رباتیک ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T17:42:19Z"
        }
       }
      },
