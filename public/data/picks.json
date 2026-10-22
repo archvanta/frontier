@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T19:07:09Z",
+ "asOf": "2026-10-22T22:24:34Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,69 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T19:07:09Z",
-   "to": "2026-10-22T19:07:09Z",
+   "from": "2026-10-21T22:24:34Z",
+   "to": "2026-10-22T22:24:34Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "d12e8348865205fd",
+      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Messi asks ChatGPT to teach him a chess opening",
+      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+      "lang": "en",
+      "publishedAt": "2026-10-22T21:58:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "RLQR5_5fJDA",
+       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
+      },
+      "eventId": "d12e8348865205fd",
+      "related": [],
+      "score": {
+       "total": 73.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.5,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
+        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ab41ce0092eca74b",
@@ -49,15 +108,15 @@
        "ba6fa07d677a8221"
       ],
       "score": {
-       "total": 75.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 93.8,
+        "recency": 77.5,
         "topic": 65.0,
         "novelty": 42.3
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -68,11 +127,124 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "95eb6975ad245049",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-22T22:24:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+      },
+      "eventId": "95eb6975ad245049",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبدیل پایگاه داده به پاداش های RLS: Post-Training Agents با ThinkBox",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "88e73b340e5cf3c4",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "This design software reimagines everyday objects as self-aware devices",
+      "excerpt": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T20:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [
+       "research",
+       "software",
+       "artificial intelligence",
+       "design",
+       "3-d printing",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "88e73b340e5cf3c4",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.9,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "این نرم افزار طراحی دوباره اشیاء روزمره را به عنوان دستگاه های خودآگاه خود تصور می کند",
+        "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -106,15 +278,15 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
+        "recency": 76.7,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -125,7 +297,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -165,15 +337,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.0,
+        "recency": 71.1,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -184,172 +356,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "eaa0ebff7daf626e",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:11:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
-      },
-      "eventId": "eaa0ebff7daf626e",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.4,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OlmoEarth v1.3: State-of-art جاسازی شده برای کل سیاره",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "655df0fb22ace891",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T14:30:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T15:41:41Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "655df0fb22ace891",
-      "related": [],
-      "score": {
-       "total": 66.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 76.6,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
-        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T15:41:41Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de6d0ccac2bcfa3d",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "The Foundations of Scalable AI",
-      "excerpt": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
-      "lang": "en",
-      "publishedAt": "2026-10-22T18:48:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T19:33:41Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "artificial intelligence",
-       "sponsored"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png",
-       "kind": "feed",
-       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
-      },
-      "eventId": "de6d0ccac2bcfa3d",
-      "related": [],
-      "score": {
-       "total": 66.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.2,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بنیان های هوش مصنوعی مقیاس پذیر",
-        "excerpt": "یک سیستم هوش مصنوعی مقیاس پذیر نیاز به یک پایه قوی دارد. داده ها، مهندسی، سیستم عامل ها، مدل های عملیاتی و حاکمیت باید به عنوان یک کار کنند. این جلسه از کنفرانس آینده EmTech MIT Technology Review بررسی می کند که چه چیزی برای ساخت آن پایه در یک محیط بسیار تنظیم شده و چگونه یک پیاده سازی مسئولانه و قابل اعتماد می تواند قابلیت های نوظهور از جمله نمایندگی را به وجود آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T19:33:41Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -357,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T19:07:09Z",
-   "to": "2026-10-22T19:07:09Z",
+   "from": "2026-10-15T22:24:34Z",
+   "to": "2026-10-22T22:24:34Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -392,15 +402,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 83.2,
+        "recency": 80.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -455,15 +465,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.7,
+       "total": 75.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.0,
+        "recency": 77.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -514,15 +524,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.1,
+       "total": 74.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.1,
+        "recency": 71.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -538,6 +548,178 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d12e8348865205fd",
+      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Messi asks ChatGPT to teach him a chess opening",
+      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+      "lang": "en",
+      "publishedAt": "2026-10-22T21:58:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "RLQR5_5fJDA",
+       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
+      },
+      "eventId": "d12e8348865205fd",
+      "related": [],
+      "score": {
+       "total": 73.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
+        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "88e73b340e5cf3c4",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "This design software reimagines everyday objects as self-aware devices",
+      "excerpt": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T20:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [
+       "research",
+       "software",
+       "artificial intelligence",
+       "design",
+       "3-d printing",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "88e73b340e5cf3c4",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "این نرم افزار طراحی دوباره اشیاء روزمره را به عنوان دستگاه های خودآگاه خود تصور می کند",
+        "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "95eb6975ad245049",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-22T22:24:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+      },
+      "eventId": "95eb6975ad245049",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبدیل پایگاه داده به پاداش های RLS: Post-Training Agents با ThinkBox",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -574,15 +756,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 94.5,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -593,7 +775,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -631,15 +813,15 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 95.7,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -647,166 +829,6 @@
         "excerpt": "Amazon Quick یک سرویس HIPAA-eligible است، اما واجد شرایط بودن همانند سازگاری نیست. این پست توضیح می دهد که HIPAA به چه کسی اعمال می شود، چگونه PHI از طریق آمازون سریع جریان می یابد، چه پلت فرم برای محیط های تنظیم شده فراهم می کند، و یک راهنمای گام به گام برای استقرار عوامل AI سازگار در یک محیط بهداشتی.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "655df0fb22ace891",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T14:30:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T15:41:41Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "655df0fb22ace891",
-      "related": [],
-      "score": {
-       "total": 70.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.7,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
-        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T15:41:41Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "eaa0ebff7daf626e",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:11:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
-      },
-      "eventId": "eaa0ebff7daf626e",
-      "related": [],
-      "score": {
-       "total": 69.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.2,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OlmoEarth v1.3: State-of-art جاسازی شده برای کل سیاره",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5d118fadbe793ddd",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T07:51:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T10:41:14Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6806091ee92bd22fd8ce9719/P6P8ZzHR8yL7GOOO4hQOg.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1"
-      },
-      "eventId": "5d118fadbe793ddd",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.7,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی با مدل های سری زمانی IBM گرانیت",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T10:41:14Z"
        }
       }
      },
@@ -821,8 +843,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T19:07:09Z",
-   "to": "2026-10-22T19:07:09Z",
+   "from": "2026-09-22T22:24:34Z",
+   "to": "2026-10-22T22:24:34Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -856,15 +878,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 79.2,
+       "total": 79.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 94.6,
+        "recency": 93.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -915,15 +937,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.5,
+       "total": 78.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 91.4,
+        "recency": 90.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -978,15 +1000,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 78.4,
+       "total": 78.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.5,
+        "recency": 92.6,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1036,15 +1058,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 76.0,
+       "total": 75.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 82.4,
+        "recency": 81.6,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1060,6 +1082,66 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "88e73b340e5cf3c4",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "This design software reimagines everyday objects as self-aware devices",
+      "excerpt": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T20:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [
+       "research",
+       "software",
+       "artificial intelligence",
+       "design",
+       "3-d printing",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "88e73b340e5cf3c4",
+      "related": [],
+      "score": {
+       "total": 71.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-22T22:24:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "این نرم افزار طراحی دوباره اشیاء روزمره را به عنوان دستگاه های خودآگاه خود تصور می کند",
+        "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1091,15 +1173,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.1,
+        "recency": 85.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1109,7 +1191,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1145,15 +1227,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.6,
+        "recency": 90.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1163,7 +1245,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1198,15 +1280,15 @@
       "eventId": "655df0fb22ace891",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 97.7,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1217,7 +1299,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1257,15 +1339,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
@@ -1276,7 +1358,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1314,73 +1396,20 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.7,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T19:07:09Z"
+       "asOf": "2026-10-22T22:24:34Z"
       },
       "tr": {
        "fa": {
         "title": "نرم افزار AI در یک محیط HIPAA با آمازون Quick",
         "excerpt": "Amazon Quick یک سرویس HIPAA-eligible است، اما واجد شرایط بودن همانند سازگاری نیست. این پست توضیح می دهد که HIPAA به چه کسی اعمال می شود، چگونه PHI از طریق آمازون سریع جریان می یابد، چه پلت فرم برای محیط های تنظیم شده فراهم می کند، و یک راهنمای گام به گام برای استقرار عوامل AI سازگار در یک محیط بهداشتی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "eaa0ebff7daf626e",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:11:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/VEmSzlLjei8J3cUVNe7G6.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/olmoearth-v1-3"
-      },
-      "eventId": "eaa0ebff7daf626e",
-      "related": [],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-22T19:07:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OlmoEarth v1.3: State-of-art جاسازی شده برای کل سیاره",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T18:37:05Z"
        }
