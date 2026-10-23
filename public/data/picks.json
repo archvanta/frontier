@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-23T18:00:32Z",
+ "asOf": "2026-10-23T18:36:34Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,128 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-22T18:00:32Z",
-   "to": "2026-10-23T18:00:32Z",
+   "from": "2026-10-22T18:36:34Z",
+   "to": "2026-10-23T18:36:34Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "51de56c2848f8bde",
+      "url": "https://www.youtube.com/watch?v=m6MlxaFMmPI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Shield uses OpenAI’s Astra to support IT teams",
+      "excerpt": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a technician. Shield reports that OpenAI’s model navigates and acts in software 35–40% faster on average…",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:34:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:45:27Z",
+      "day": "2026-10-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/m6MlxaFMmPI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "m6MlxaFMmPI",
+       "url": "https://www.youtube.com/watch?v=m6MlxaFMmPI"
+      },
+      "eventId": "51de56c2848f8bde",
+      "related": [],
+      "score": {
+       "total": 74.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 100.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-23T18:36:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه Shield از OpenAI برای پشتیبانی از تیم های IT استفاده می کند",
+        "excerpt": "هنگامی که کسی نمی تواند وارد شود یا آنلاین شود، تیم IT آن ها اغلب باید کار دیگری را در اختیار داشته باشند. Shield در حال ساخت Forge است تا به تیم های خدمات IT کمک کند تا مشتریان خود را سریع تر کار کنند. عوامل AI آن از Astra برای کار مستقیم در نرم افزار کسب و کار و حل مشکلات که قبلا نیاز به یک تکنسین. Shield گزارش می دهد که مدل OpenAI در نرم افزار 35 تا 40 درصد سریع تر عمل می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:45:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1aa60556379e2e50",
+      "url": "https://www.youtube.com/shorts/2lNUGkCg_qc",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+      "excerpt": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:36:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:45:27Z",
+      "day": "2026-10-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/2lNUGkCg_qc/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "2lNUGkCg_qc",
+       "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc"
+      },
+      "eventId": "1aa60556379e2e50",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-23T18:36:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "عوامل AI برای حل های روزمره IT – Shield و OpenAI",
+        "excerpt": "عوامل AI Shield از Astra برای کار به طور مستقیم در نرم افزار کسب و کار و رسیدگی به حل های معمول IT استفاده می کنند و به تکنسین ها زمان بیشتری برای مشکلات سخت تر که نیاز به قضاوت دارند می دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:45:27Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "95364ce770790d21",
@@ -46,15 +164,15 @@
       "eventId": "95364ce770790d21",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 95.5,
         "topic": 80.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +183,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +223,15 @@
       "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 88.1,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +242,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -159,15 +277,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.4,
+        "recency": 87.3,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -177,7 +295,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -217,15 +335,15 @@
       "eventId": "c03439a7402d78ae",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 91.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -236,127 +354,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "298c8de07d18f423",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "business",
-      "tags": [
-       "engineering"
-      ],
-      "entities": [
-       "microsoft",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "298c8de07d18f423",
-      "related": [],
-      "score": {
-       "total": 65.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.3,
-        "topic": 55.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-23T18:00:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ذخیره سازی آنلاین سریع مقیاس پذیر برای خدمت به بیش از 1 میلیارد کاربر ChatGPT (قسمت دوم)",
-        "excerpt": "یاد بگیرید که چگونه OpenAI با چند دهمگی قابل اعتماد، Caching جهانی و Azure Cosmos DB برای ارائه 12 × خواندن سریع تر برای ChatGPT.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b2b7ebe6730fbedf",
-      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
-      "excerpt": "Company says foreign-made robotic vehicles are crucial to US chip production.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:18:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "tech",
-       "chip fabrication",
-       "chip manufacturing",
-       "fcc",
-       "federal communications commission"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
-       "alt": "The interior of Intel's chip manufacturing facility named Fab 52 in Chandler, Arizona.",
-       "credit": "Intel",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "b2b7ebe6730fbedf",
-      "related": [],
-      "score": {
-       "total": 64.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.0,
-        "topic": 85.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-23T18:00:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اینتل پس از نگرانی در مورد ممنوعیت ایالات متحده در روبات های ساخت خارجی ممکن است به دام بیافتد",
-        "excerpt": "شرکت می گوید خودروهای رباتیک خارجی برای تولید تراشه های آمریکایی بسیار مهم هستند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -364,10 +365,69 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-16T18:00:32Z",
-   "to": "2026-10-23T18:00:32Z",
+   "from": "2026-10-16T18:36:34Z",
+   "to": "2026-10-23T18:36:34Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "51de56c2848f8bde",
+      "url": "https://www.youtube.com/watch?v=m6MlxaFMmPI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Shield uses OpenAI’s Astra to support IT teams",
+      "excerpt": "When someone can’t log in or get online, their IT team often has to put other work on hold. Shield is building Forge to help IT services teams get their customers back to work faster. Its AI agents use Astra to work directly in business software and resolve problems that previously needed a technician. Shield reports that OpenAI’s model navigates and acts in software 35–40% faster on average…",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:34:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:45:27Z",
+      "day": "2026-10-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/m6MlxaFMmPI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "m6MlxaFMmPI",
+       "url": "https://www.youtube.com/watch?v=m6MlxaFMmPI"
+      },
+      "eventId": "51de56c2848f8bde",
+      "related": [],
+      "score": {
+       "total": 74.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-23T18:36:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه Shield از OpenAI برای پشتیبانی از تیم های IT استفاده می کند",
+        "excerpt": "هنگامی که کسی نمی تواند وارد شود یا آنلاین شود، تیم IT آن ها اغلب باید کار دیگری را در اختیار داشته باشند. Shield در حال ساخت Forge است تا به تیم های خدمات IT کمک کند تا مشتریان خود را سریع تر کار کنند. عوامل AI آن از Astra برای کار مستقیم در نرم افزار کسب و کار و حل مشکلات که قبلا نیاز به یک تکنسین. Shield گزارش می دهد که مدل OpenAI در نرم افزار 35 تا 40 درصد سریع تر عمل می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:45:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ba6fa07d677a8221",
@@ -399,15 +459,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 66.7,
+        "recency": 66.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -418,11 +478,70 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1aa60556379e2e50",
+      "url": "https://www.youtube.com/shorts/2lNUGkCg_qc",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "AI agents for everyday IT fixes | Shield and OpenAI",
+      "excerpt": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:36:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:45:27Z",
+      "day": "2026-10-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/2lNUGkCg_qc/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "2lNUGkCg_qc",
+       "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc"
+      },
+      "eventId": "1aa60556379e2e50",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-23T18:36:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "عوامل AI برای حل های روزمره IT – Shield و OpenAI",
+        "excerpt": "عوامل AI Shield از Astra برای کار به طور مستقیم در نرم افزار کسب و کار و رسیدگی به حل های معمول IT استفاده می کنند و به تکنسین ها زمان بیشتری برای مشکلات سخت تر که نیاز به قضاوت دارند می دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:45:27Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -462,15 +581,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 64.1,
+        "recency": 63.8,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -481,129 +600,11 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 72.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 59.5,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-23T18:00:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d12e8348865205fd",
-      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Messi asks ChatGPT to teach him a chess opening",
-      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
-      "lang": "en",
-      "publishedAt": "2026-10-22T21:58:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "RLQR5_5fJDA",
-       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
-      },
-      "eventId": "d12e8348865205fd",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.5,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-23T18:00:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
-        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -635,15 +636,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.8,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -693,15 +694,15 @@
       "eventId": "95364ce770790d21",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.2,
         "topic": 80.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -752,15 +753,15 @@
       "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 97.9,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -811,15 +812,15 @@
       "eventId": "c03439a7402d78ae",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.5,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -841,8 +842,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-23T18:00:32Z",
-   "to": "2026-10-23T18:00:32Z",
+   "from": "2026-09-23T18:36:34Z",
+   "to": "2026-10-23T18:36:34Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -876,15 +877,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 78.0,
+       "total": 77.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.6,
+        "recency": 88.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -935,15 +936,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.4,
+       "total": 77.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 85.6,
+        "recency": 85.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1002,11 +1003,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.5,
+        "recency": 87.4,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1060,11 +1061,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 77.1,
+        "recency": 77.0,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1115,11 +1116,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 99.3,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1130,65 +1131,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "95364ce770790d21",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:48:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
-       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "95364ce770790d21",
-      "related": [],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.9,
-        "topic": 80.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-23T18:00:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
-        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1232,16 +1174,75 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 99.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
         "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
         "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "95364ce770790d21",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T17:48:54Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
+       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "95364ce770790d21",
+      "related": [],
+      "score": {
+       "total": 70.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 80.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-23T18:36:34Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
+        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T18:27:37Z"
        }
@@ -1286,11 +1287,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.6,
+        "recency": 80.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1345,11 +1346,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 93.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
@@ -1396,15 +1397,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 85.6,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:00:32Z"
+       "asOf": "2026-10-23T18:36:34Z"
       },
       "tr": {
        "fa": {
