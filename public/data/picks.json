@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-23T18:36:34Z",
+ "asOf": "2026-10-23T21:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-22T18:36:34Z",
-   "to": "2026-10-23T18:36:34Z",
+   "from": "2026-10-22T21:00:00Z",
+   "to": "2026-10-23T21:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 74.3,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 86.9,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -66,6 +66,66 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c636a8319993faee",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "technology and society",
+       "artificial intelligence",
+       "community",
+       "government",
+       "democracy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c636a8319993faee",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
+        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +165,15 @@
       "eventId": "1aa60556379e2e50",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 87.1,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -121,65 +181,6 @@
         "excerpt": "عوامل AI Shield از Astra برای کار به طور مستقیم در نرم افزار کسب و کار و رسیدگی به حل های معمول IT استفاده می کنند و به تکنسین ها زمان بیشتری برای مشکلات سخت تر که نیاز به قضاوت دارند می دهند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T18:45:27Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "95364ce770790d21",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:48:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
-       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "95364ce770790d21",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.5,
-        "topic": 80.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
-        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -193,52 +194,53 @@
     },
     {
      "article": {
-      "id": "d543a8c819225bfc",
-      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
-      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "id": "60c7eb065c480fbc",
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Reinforcing the value of human understanding at MIT",
+      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
       "lang": "en",
-      "publishedAt": "2026-10-23T16:24:55Z",
+      "publishedAt": "2026-10-23T19:35:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
+      "fetchedAt": "2026-10-23T21:44:04Z",
       "day": "2026-10-23",
       "category": "research",
       "tags": [
-       "amazon quick sight",
-       "intermediate (200)",
-       "technical how-to"
+       "special events and guest speakers",
+       "history of mit",
+       "classes and programs",
+       "humanities",
+       "arts",
+       "social sciences"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
-       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
+       "credit": "Photo: Jake Belcher",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "d543a8c819225bfc",
+      "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 92.1,
         "topic": 80.0,
-        "novelty": 83.3
+        "novelty": 88.9
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
-        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
+        "title": "تقویت ارزش درک انسانی در MIT",
+        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
+        "at": "2026-10-23T21:44:04Z"
        }
       }
      },
@@ -252,46 +254,50 @@
     },
     {
      "article": {
-      "id": "d5dfb55b012918e7",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "excerpt": "",
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
       "lang": "en",
-      "publishedAt": "2026-10-23T16:15:50Z",
+      "publishedAt": "2026-10-23T18:51:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
+      "fetchedAt": "2026-10-23T21:44:04Z",
       "day": "2026-10-23",
-      "category": "open-source",
-      "tags": [],
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
       "entities": [
-       "huggingface"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "d5dfb55b012918e7",
+      "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.3,
-        "topic": 75.0,
-        "novelty": 92.9
+        "recency": 88.4,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
+        "at": "2026-10-23T21:44:04Z"
        }
       }
      },
@@ -305,16 +311,16 @@
     },
     {
      "article": {
-      "id": "c03439a7402d78ae",
-      "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg",
+      "id": "3f327d4b89caee6f",
+      "url": "https://www.youtube.com/watch?v=roUZ7_Rsf5c",
       "sourceId": "nvidia-youtube",
       "sourceName": "NVIDIA (YouTube)",
-      "title": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
-      "excerpt": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service opportunities. Nokia and NVIDIA also collaborate on autonomous network solutions that help networks…",
+      "title": "Accelerating Robot Development With AI Agents and NVIDIA Isaac",
+      "excerpt": "From prompts and data to real-world robot skills, frontier AI agents build training worlds, replay real-world motion, and tune physics using NVIDIA open libraries and models. Skills are trained with NVIDIA Isaac Lab and Newton and evaluated with NVIDIA Isaac Lab-Arena, locally on NVIDIA DGX Station. Agile ONE brings those skills into the physical world, built on NVIDIA Isaac GR00T and powered by…",
       "lang": "en",
-      "publishedAt": "2026-10-23T17:00:03Z",
+      "publishedAt": "2026-10-23T20:44:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
+      "fetchedAt": "2026-10-23T21:44:04Z",
       "day": "2026-10-23",
       "category": "hardware",
       "tags": [],
@@ -323,34 +329,34 @@
       ],
       "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/W3fUEVcaXwg/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/roUZ7_Rsf5c/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
       "video": {
        "provider": "youtube",
-       "id": "W3fUEVcaXwg",
-       "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg"
+       "id": "roUZ7_Rsf5c",
+       "url": "https://www.youtube.com/watch?v=roUZ7_Rsf5c"
       },
-      "eventId": "c03439a7402d78ae",
+      "eventId": "3f327d4b89caee6f",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.1,
+        "recency": 98.5,
         "topic": 70.0,
-        "novelty": 81.8
+        "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه نوکیا و NVIDIA آینده شبکه های هوش مصنوعی را تسریع می کنند",
-        "excerpt": "نوکیا و NVIDIA در حال پیشرفت تجاری سازی AI-RAN در سراسر جهان هستند و به اپراتورهای مخابراتی کمک می کنند تا امروز شبکه های 5G را بسازند که برای 6G قابل برنامه ریزی هستند. حرکت پشت شبکه های هوش مصنوعی را بررسی کنید و یاد بگیرید که چگونه کار AI و RAN را در زیرساخت های مشترک باز می کند فرصت های خدمات جدید. نوکیا و NVIDIA همچنین در راه حل های شبکه مستقل همکاری می کنند که به شبکه ها کمک می کند.",
+        "title": "تسریع توسعه ربات با عوامل هوش مصنوعی و NVIDIA Isaac",
+        "excerpt": "از سرعت ها و داده ها تا مهارت های ربات های دنیای واقعی، عوامل امنیتی مرزی، جهان های آموزشی را ایجاد می کنند، حرکت دنیای واقعی را دوباره پخش می کنند و فیزیک را با استفاده از کتابخانه ها و مدل های باز NVIDIA هماهنگ می کنند. مهارت ها با آزمایشگاه NVIDIA آیزاک و نیوتن آموزش داده می شوند و با NVIDIA Isaac Lab-Isna، به صورت محلی در ایستگاه NVIDIA DGX ارزیابی می شوند. Agile One این مهارت ها را در دنیای فیزیکی به ارمغان می آورد که در NVIDIA Isaac GR00T ساخته شده و توسط ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
+        "at": "2026-10-23T21:44:04Z"
        }
       }
      },
@@ -365,8 +371,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-16T18:36:34Z",
-   "to": "2026-10-23T18:36:34Z",
+   "from": "2026-10-16T21:00:00Z",
+   "to": "2026-10-23T21:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -401,15 +407,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 74.3,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -459,15 +465,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 73.5,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 66.4,
+        "recency": 64.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -519,15 +525,15 @@
       "eventId": "1aa60556379e2e50",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -581,15 +587,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 72.4,
+       "total": 72.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 63.8,
+        "recency": 62.3,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -605,6 +611,183 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c636a8319993faee",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "technology and society",
+       "artificial intelligence",
+       "community",
+       "government",
+       "democracy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c636a8319993faee",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
+        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:51:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "057a86be6882ac7b",
+      "related": [],
+      "score": {
+       "total": 70.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.0,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "60c7eb065c480fbc",
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Reinforcing the value of human understanding at MIT",
+      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+      "lang": "en",
+      "publishedAt": "2026-10-23T19:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "history of mit",
+       "classes and programs",
+       "humanities",
+       "arts",
+       "social sciences"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "60c7eb065c480fbc",
+      "related": [],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 80.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تقویت ارزش درک انسانی در MIT",
+        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -636,196 +819,19 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 95.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "95364ce770790d21",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:48:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
-       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "95364ce770790d21",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 80.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
-        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d543a8c819225bfc",
-      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
-      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T16:24:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon quick sight",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
-       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "d543a8c819225bfc",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
-        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c03439a7402d78ae",
-      "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
-      "excerpt": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service opportunities. Nokia and NVIDIA also collaborate on autonomous network solutions that help networks…",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:00:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/W3fUEVcaXwg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "W3fUEVcaXwg",
-       "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg"
-      },
-      "eventId": "c03439a7402d78ae",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.5,
-        "topic": 70.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه نوکیا و NVIDIA آینده شبکه های هوش مصنوعی را تسریع می کنند",
-        "excerpt": "نوکیا و NVIDIA در حال پیشرفت تجاری سازی AI-RAN در سراسر جهان هستند و به اپراتورهای مخابراتی کمک می کنند تا امروز شبکه های 5G را بسازند که برای 6G قابل برنامه ریزی هستند. حرکت پشت شبکه های هوش مصنوعی را بررسی کنید و یاد بگیرید که چگونه کار AI و RAN را در زیرساخت های مشترک باز می کند فرصت های خدمات جدید. نوکیا و NVIDIA همچنین در راه حل های شبکه مستقل همکاری می کنند که به شبکه ها کمک می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T18:27:37Z"
        }
@@ -842,8 +848,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-23T18:36:34Z",
-   "to": "2026-10-23T18:36:34Z",
+   "from": "2026-09-23T21:00:00Z",
+   "to": "2026-10-23T21:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -877,15 +883,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 77.9,
+       "total": 77.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.4,
+        "recency": 87.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -936,15 +942,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.3,
+       "total": 77.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 85.4,
+        "recency": 84.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -999,15 +1005,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 77.2,
+       "total": 77.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.4,
+        "recency": 86.8,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1057,15 +1063,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 77.0,
+        "recency": 76.4,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1081,6 +1087,183 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c636a8319993faee",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "technology and society",
+       "artificial intelligence",
+       "community",
+       "government",
+       "democracy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c636a8319993faee",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
+        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:51:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "057a86be6882ac7b",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "60c7eb065c480fbc",
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Reinforcing the value of human understanding at MIT",
+      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
+      "lang": "en",
+      "publishedAt": "2026-10-23T19:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "history of mit",
+       "classes and programs",
+       "humanities",
+       "arts",
+       "social sciences"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "60c7eb065c480fbc",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 80.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-23T21:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تقویت ارزش درک انسانی در MIT",
+        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1112,15 +1295,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 98.6,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1130,7 +1313,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1170,15 +1353,15 @@
       "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1189,66 +1372,7 @@
        }
       }
      },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "95364ce770790d21",
-      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
-      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T17:48:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
-       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "95364ce770790d21",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 80.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
-        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 7,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1283,135 +1407,21 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.5,
+        "recency": 79.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-23T18:36:34Z"
+       "asOf": "2026-10-23T21:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "88e73b340e5cf3c4",
-      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "This design software reimagines everyday objects as self-aware devices",
-      "excerpt": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T20:45:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [
-       "research",
-       "software",
-       "artificial intelligence",
-       "design",
-       "3-d printing",
-       "machine learning"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
-       "credit": "Image courtesy of the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "88e73b340e5cf3c4",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "این نرم افزار طراحی دوباره اشیاء روزمره را به عنوان دستگاه های خودآگاه خود تصور می کند",
-        "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "38715d90bd30f009",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:51:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
-      },
-      "eventId": "38715d90bd30f009",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.6,
-        "topic": 90.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-23T18:36:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
        }
       }
      },
