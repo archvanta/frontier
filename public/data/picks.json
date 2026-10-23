@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-23T07:00:03Z",
+ "asOf": "2026-10-23T13:13:04Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,58 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-22T07:00:03Z",
-   "to": "2026-10-23T07:00:03Z",
+   "from": "2026-10-22T13:13:04Z",
+   "to": "2026-10-23T13:13:04Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "d12e8348865205fd",
-      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Messi asks ChatGPT to teach him a chess opening",
-      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+      "id": "384789a2c6e7f07a",
+      "url": "https://www.youtube.com/shorts/3KZbymg-lOw",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "A country’s data carries its culture, history, and values. It belongs to its people.",
+      "excerpt": "Our CEO Jensen Huang on why that knowledge is a natural resource for Kazakhstan’s AI future.",
       "lang": "en",
-      "publishedAt": "2026-10-22T21:58:00Z",
+      "publishedAt": "2026-10-23T12:13:02Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "models",
+      "fetchedAt": "2026-10-23T13:33:50Z",
+      "day": "2026-10-23",
+      "category": "business",
       "tags": [],
       "entities": [
-       "openai"
+       "nvidia"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
+       "url": "https://i4.ytimg.com/vi/3KZbymg-lOw/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
       "video": {
        "provider": "youtube",
-       "id": "RLQR5_5fJDA",
-       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
+       "id": "3KZbymg-lOw",
+       "url": "https://www.youtube.com/watch?v=3KZbymg-lOw"
       },
-      "eventId": "d12e8348865205fd",
+      "eventId": "384789a2c6e7f07a",
       "related": [],
       "score": {
-       "total": 65.9,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 59.3,
-        "topic": 100.0,
-        "novelty": 90.0
+        "recency": 94.4,
+        "topic": 55.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
-        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
-        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
+        "title": "داده های یک کشور فرهنگ، تاریخ و ارزش های خود را حمل می کند. متعلق به مردم آن است.",
+        "excerpt": "مدیر عامل ما Jensen Huang در مورد چرا این دانش یک منبع طبیعی برای آینده AI قزاقستان است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
+        "at": "2026-10-23T13:33:50Z"
        }
       }
      },
@@ -108,15 +108,15 @@
        "ba6fa07d677a8221"
       ],
       "score": {
-       "total": 65.9,
+       "total": 63.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 47.2,
+        "recency": 33.0,
         "topic": 65.0,
         "novelty": 42.3
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -132,6 +132,182 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "eee3d0d409c3b67d",
+      "url": "https://www.theguardian.com/technology/2026/oct/23/job-guarantee-ai-mass-unemployment",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Is a job guarantee the solution to mass AI unemployment?",
+      "excerpt": "An old idea springs anew as a chorus of influential voices predicts that AI may trigger crises of vast magnitude In a preface to his book Capitalism and Freedom, the American economist Milton Friedman famously observed that a crisis can propel once-fringe ideas into the political mainstream. “Only a crisis – actual or perceived – produces real change. When that crisis occurs, the actions that…",
+      "lang": "en",
+      "publishedAt": "2026-10-23T10:00:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T13:33:50Z",
+      "day": "2026-10-23",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "us work & careers",
+       "us economy",
+       "us politics",
+       "business",
+       "employment"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/5d838343b80e3163461a99b84753451e52e54078/724_0_7211_5773/master/7211.jpg?width=700&quality=85&auto=format&fit=max&s=5cd686023752b1a55f29fb43e16b54cd",
+       "credit": "Photograph: Oscar Wong/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "eee3d0d409c3b67d",
+      "related": [],
+      "score": {
+       "total": 62.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 83.1,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا یک شغل تضمین کننده راه حل برای افزایش بیکاری AI است؟",
+        "excerpt": "یک ایده قدیمی به عنوان یک گروه از صداهای با نفوذ پیش بینی می کند که AI ممکن است بحران های بزرگی را در مقدمه ای برای سرمایه داری و آزادی کتاب خود ایجاد کند، اقتصاددان آمریکایی میلتون فریدمن به طور مشهور مشاهده کرد که یک بحران می تواند ایده های یک بار را به جریان سیاسی منتقل کند. فقط یک بحران – واقعی یا درک شده – تغییر واقعی ایجاد می کند. وقتی این بحران رخ می دهد، اقداماتی که...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T13:33:50Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fa80f1a6b4b706ff",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Retro gaming is being overrun with AI",
+      "excerpt": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as",
+      "lang": "en",
+      "publishedAt": "2026-10-23T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T13:33:50Z",
+      "day": "2026-10-23",
+      "category": "products",
+      "tags": [
+       "ai",
+       "entertainment",
+       "gaming",
+       "report"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "fa80f1a6b4b706ff",
+      "related": [],
+      "score": {
+       "total": 62.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 93.2,
+        "topic": 65.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بازی عقب با AI پر شده است",
+        "excerpt": "بازی های ویدئویی در همه جا وجود دارد، به ویژه در جاهایی که قرار نیست باشند. Halo در یک مرورگر وب، Wind Waker در آیفون، Super Smash Bros. در واقعیت ترکیبی. در طول ماه گذشته یا بیشتر، این نوع پروژه های غیر منتظره با فرکانس باور نکردنی به لطف ابزارهای جدید AI، به عنوان مثال، ویروسی شده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T13:33:50Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d12e8348865205fd",
+      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Messi asks ChatGPT to teach him a chess opening",
+      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+      "lang": "en",
+      "publishedAt": "2026-10-22T21:58:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T22:25:57Z",
+      "day": "2026-10-22",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "RLQR5_5fJDA",
+       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
+      },
+      "eventId": "d12e8348865205fd",
+      "related": [],
+      "score": {
+       "total": 62.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 41.4,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
+        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T22:25:57Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -168,15 +344,15 @@
       "eventId": "690aea53d2bd1733",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 60.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 58.7,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -184,179 +360,6 @@
         "excerpt": "استادیار پروفسور بنیامین لیندسکیست بررسی می کند که چگونه مهندسان به طور عمد تصادفی را به هوش مصنوعی اولیه تزریق می کنند و به مدل های یادگیری عمیق که گاهی اوقات توهم دارند، می رسند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T07:40:04Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cecd62dbcd69b318",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/23/ai-cancer-survival-doctor-selfie-health-research",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Can AI really predict cancer survival better than a doctor? I have my doubts | Devi Sridhar",
-      "excerpt": "Take a selfie to see how healthy you are: the idea is enticing and this new research is promising. But so many factors have been ignored The idea that a single selfie could predict how long someone with cancer may live sounds like an incredible breakthrough. AI is getting better at spotting patterns in medical data, but can it be used to reliably predict what will happen to an individual…",
-      "lang": "en",
-      "publishedAt": "2026-10-23T07:00:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T07:40:04Z",
-      "day": "2026-10-23",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "technology",
-       "cancer research",
-       "medical research",
-       "science",
-       "uk news"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/f7716955ad8ea705f890b5e2beee5cf4aebb9141/161_0_5600_4480/master/5600.jpg?width=700&quality=85&auto=format&fit=max&s=798828bb702000f9af7f5ee9a4eec93b",
-       "credit": "Photograph: Andrzej Rostek/Alamy",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "cecd62dbcd69b318",
-      "related": [],
-      "score": {
-       "total": 65.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 82.4
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آیا AI واقعا می تواند بقای سرطان را بهتر از یک پزشک پیش بینی کند؟ من شک و تردید دارم.",
-        "excerpt": "خودتان را در نظر بگیرید تا ببینید که چقدر سالم هستید: این ایده جذاب است و این تحقیق جدید امیدوار کننده است. اما بسیاری از عوامل این ایده را نادیده گرفته اند که یک سلفی می تواند پیش بینی کند که چه مدت ممکن است فرد مبتلا به سرطان مانند یک پیشرفت باور نکردنی زندگی کند. AI در شناسایی الگوهای داده های پزشکی بهتر می شود، اما می تواند به طور قابل اطمینان پیش بینی کند که چه اتفاقی برای یک فرد خواهد افتاد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T07:40:04Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "822412740c4fdfe1",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "excerpt": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. On Friday, Oct. 23, NVIDIA",
-      "lang": "en",
-      "publishedAt": "2026-10-23T02:00:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T07:40:04Z",
-      "day": "2026-10-23",
-      "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "ai factory",
-       "artificial intelligence",
-       "nvidia rubin",
-       "sovereign ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/kz-post-note-gtc-berliin-2026-1920x1080-1.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "822412740c4fdfe1",
-      "related": [],
-      "score": {
-       "total": 64.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.9,
-        "topic": 70.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قزاقستان برای آینده AI خود تکمیل می کند",
-        "excerpt": "اکوسیستم AI قزاقستان از برنامه های زیربنایی برای استقرار حرکت می کند. این تغییر در سراسر پشته کامل AI قابل مشاهده است - از زیرساخت تا مدل ها تا برنامه های کاربردی. با هم، اکوسیستم اعلام می کند که در زیر به افزایش عرضه محاسبات شتاب زده کشور - همراه با تقاضای رو به رشد آن برای آنچه که بعدا می آید، اشاره می کند. جمعه، اکتبر 23",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T07:40:04Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "95eb6975ad245049",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-22T22:24:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
-      },
-      "eventId": "95eb6975ad245049",
-      "related": [],
-      "score": {
-       "total": 62.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 60.9,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تبدیل پایگاه داده به پاداش های RLS: Post-Training Agents با ThinkBox",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
        }
       }
      },
@@ -371,8 +374,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-16T07:00:03Z",
-   "to": "2026-10-23T07:00:03Z",
+   "from": "2026-10-16T13:13:04Z",
+   "to": "2026-10-23T13:13:04Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,15 +409,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 75.1,
+       "total": 74.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.2,
+        "recency": 69.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -469,15 +472,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 73.9,
+       "total": 73.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 71.3,
+        "recency": 67.2,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -528,15 +531,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 73.5,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 66.1,
+        "recency": 62.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -588,15 +591,15 @@
       "eventId": "d12e8348865205fd",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 86.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +651,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.6,
+        "recency": 85.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -702,15 +705,15 @@
       "eventId": "95eb6975ad245049",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 86.7,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -721,6 +724,65 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "251516e27a00f0ed",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
+      "excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T16:30:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T18:37:05Z",
+      "day": "2026-10-22",
+      "category": "policy",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
+       "alt": "Diagram showing a client connecting to an Amazon SageMaker AI real-time endpoint, which contains a custom GPU container exposing two routes, POST /invocations for response streaming and WS /invocation",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "251516e27a00f0ed",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 81.9,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "توقف حدس زدن اهداف مقیاس خودکار برای TTS در آمازون SageMaker AI",
+        "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T18:37:05Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -761,15 +823,15 @@
       "eventId": "822412740c4fdfe1",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 89.8,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -777,65 +839,6 @@
         "excerpt": "اکوسیستم AI قزاقستان از برنامه های زیربنایی برای استقرار حرکت می کند. این تغییر در سراسر پشته کامل AI قابل مشاهده است - از زیرساخت تا مدل ها تا برنامه های کاربردی. با هم، اکوسیستم اعلام می کند که در زیر به افزایش عرضه محاسبات شتاب زده کشور - همراه با تقاضای رو به رشد آن برای آنچه که بعدا می آید، اشاره می کند. جمعه، اکتبر 23",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T07:40:04Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "251516e27a00f0ed",
-      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
-      "excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:30:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
-       "alt": "Diagram showing a client connecting to an Amazon SageMaker AI real-time endpoint, which contains a custom GPU container exposing two routes, POST /invocations for response streaming and WS /invocation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "251516e27a00f0ed",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توقف حدس زدن اهداف مقیاس خودکار برای TTS در آمازون SageMaker AI",
-        "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
        }
       }
      },
@@ -850,8 +853,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-23T07:00:03Z",
-   "to": "2026-10-23T07:00:03Z",
+   "from": "2026-09-23T13:13:04Z",
+   "to": "2026-10-23T13:13:04Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -885,15 +888,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 78.5,
+       "total": 78.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 91.4,
+        "recency": 89.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -944,15 +947,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.9,
+       "total": 77.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.3,
+        "recency": 86.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1007,15 +1010,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 77.8,
+       "total": 77.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 90.4,
+        "recency": 88.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1065,15 +1068,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 75.4,
+       "total": 75.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 79.6,
+        "recency": 78.2,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1089,6 +1092,59 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "94e7f4f5c0e52bb7",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-20T15:19:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-20T15:24:21Z",
+      "day": "2026-10-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+      },
+      "eventId": "94e7f4f5c0e52bb7",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 81.7,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1126,15 +1182,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 95.4,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1142,59 +1198,6 @@
         "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T22:25:57Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 70.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.2,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
        }
       }
      },
@@ -1234,15 +1237,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 87.0,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1253,6 +1256,60 @@
       }
      },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "655df0fb22ace891",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "lang": "en",
+      "publishedAt": "2026-10-22T14:30:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-22T15:41:41Z",
+      "day": "2026-10-22",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "655df0fb22ace891",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.7,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-23T13:13:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
+        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-22T15:41:41Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1292,15 +1349,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 94.2,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
@@ -1308,60 +1365,6 @@
         "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "655df0fb22ace891",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T14:30:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T15:41:41Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "655df0fb22ace891",
-      "related": [],
-      "score": {
-       "total": 70.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.3,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-23T07:00:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
-        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T15:41:41Z"
        }
       }
      },
@@ -1403,15 +1406,15 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 94.5,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T07:00:03Z"
+       "asOf": "2026-10-23T13:13:04Z"
       },
       "tr": {
        "fa": {
