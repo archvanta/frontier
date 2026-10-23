@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-23T13:13:04Z",
+ "asOf": "2026-10-23T18:00:32Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,58 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-22T13:13:04Z",
-   "to": "2026-10-23T13:13:04Z",
+   "from": "2026-10-22T18:00:32Z",
+   "to": "2026-10-23T18:00:32Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "384789a2c6e7f07a",
-      "url": "https://www.youtube.com/shorts/3KZbymg-lOw",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "A country’s data carries its culture, history, and values. It belongs to its people.",
-      "excerpt": "Our CEO Jensen Huang on why that knowledge is a natural resource for Kazakhstan’s AI future.",
+      "id": "95364ce770790d21",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
       "lang": "en",
-      "publishedAt": "2026-10-23T12:13:02Z",
+      "publishedAt": "2026-10-23T17:48:54Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T13:33:50Z",
+      "fetchedAt": "2026-10-23T18:27:37Z",
       "day": "2026-10-23",
-      "category": "business",
-      "tags": [],
+      "category": "research",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
       "entities": [
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/3KZbymg-lOw/hqdefault.jpg",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
+       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "3KZbymg-lOw",
-       "url": "https://www.youtube.com/watch?v=3KZbymg-lOw"
-      },
-      "eventId": "384789a2c6e7f07a",
+      "eventId": "95364ce770790d21",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 55.0,
-        "novelty": 91.7
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "داده های یک کشور فرهنگ، تاریخ و ارزش های خود را حمل می کند. متعلق به مردم آن است.",
-        "excerpt": "مدیر عامل ما Jensen Huang در مورد چرا این دانش یک منبع طبیعی برای آینده AI قزاقستان است.",
+        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
+        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T13:33:50Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -75,231 +75,220 @@
     },
     {
      "article": {
-      "id": "ab41ce0092eca74b",
-      "url": "https://www.youtube.com/watch?v=l16Gw7oVLNQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Uber rolls out ChatGPT Work to 30,000+ employees",
-      "excerpt": "Following a 1,000-person pilot, Uber is bringing ChatGPT Work to more than 30,000 employees worldwide in its first company-wide deployment of an agentic platform for knowledge work. Uber CTO Praveen Neppalli Naga and OpenAI co-founder and President Greg Brockman discuss expanding AI beyond engineering and helping teams rethink entire workflows. Read more about Uber’s rollout of ChatGPT Work…",
+      "id": "d543a8c819225bfc",
+      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
       "lang": "en",
-      "publishedAt": "2026-10-22T18:00:13Z",
+      "publishedAt": "2026-10-23T16:24:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "products",
-      "tags": [],
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon quick sight",
+       "intermediate (200)",
+       "technical how-to"
+      ],
       "entities": [
-       "openai"
+       "amazon"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/l16Gw7oVLNQ/hqdefault.jpg",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
+       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "l16Gw7oVLNQ",
-       "url": "https://www.youtube.com/watch?v=l16Gw7oVLNQ"
-      },
-      "eventId": "ba6fa07d677a8221",
-      "related": [
-       "2e9a4426b96429c2",
-       "ba6fa07d677a8221"
-      ],
+      "eventId": "d543a8c819225bfc",
+      "related": [],
       "score": {
-       "total": 63.1,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 33.0,
-        "topic": 65.0,
-        "novelty": 42.3
+        "corroboration": 0.0,
+        "recency": 91.2,
+        "topic": 80.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "Uber کار را به 30 هزار کارمند اضافه می کند",
-        "excerpt": "پس از یک خلبان 1000 نفره، Uber کار را به بیش از 300،000 کارمند در سراسر جهان در اولین استقرار یک پلت فرم عامل برای کار دانش می دهد. اوبر CTO Praveen Neppalli Naga و بنیانگذار OpenAI و رئیس جمهور Greg Brockman در مورد گسترش AI فراتر از مهندسی و کمک به تیم ها تجدید نظر در تمام جریان های کاری. اطلاعات بیشتر در مورد خروج Uber از ChatGPT کار ...",
+        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
+        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
      "rank": 2,
-     "sources": 2,
+     "sources": 1,
      "reason": [
       "tier-1",
-      "voices-2",
+      "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "eee3d0d409c3b67d",
-      "url": "https://www.theguardian.com/technology/2026/oct/23/job-guarantee-ai-mass-unemployment",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Is a job guarantee the solution to mass AI unemployment?",
-      "excerpt": "An old idea springs anew as a chorus of influential voices predicts that AI may trigger crises of vast magnitude In a preface to his book Capitalism and Freedom, the American economist Milton Friedman famously observed that a crisis can propel once-fringe ideas into the political mainstream. “Only a crisis – actual or perceived – produces real change. When that crisis occurs, the actions that…",
+      "id": "d5dfb55b012918e7",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-23T10:00:30Z",
+      "publishedAt": "2026-10-23T16:15:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T13:33:50Z",
+      "fetchedAt": "2026-10-23T18:27:37Z",
       "day": "2026-10-23",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "us work & careers",
-       "us economy",
-       "us politics",
-       "business",
-       "employment"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/5d838343b80e3163461a99b84753451e52e54078/724_0_7211_5773/master/7211.jpg?width=700&quality=85&auto=format&fit=max&s=5cd686023752b1a55f29fb43e16b54cd",
-       "credit": "Photograph: Oscar Wong/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
       },
-      "eventId": "eee3d0d409c3b67d",
+      "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 62.6,
+       "total": 68.6,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.1,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 90.4,
+        "topic": 75.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا یک شغل تضمین کننده راه حل برای افزایش بیکاری AI است؟",
-        "excerpt": "یک ایده قدیمی به عنوان یک گروه از صداهای با نفوذ پیش بینی می کند که AI ممکن است بحران های بزرگی را در مقدمه ای برای سرمایه داری و آزادی کتاب خود ایجاد کند، اقتصاددان آمریکایی میلتون فریدمن به طور مشهور مشاهده کرد که یک بحران می تواند ایده های یک بار را به جریان سیاسی منتقل کند. فقط یک بحران – واقعی یا درک شده – تغییر واقعی ایجاد می کند. وقتی این بحران رخ می دهد، اقداماتی که...",
+        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T13:33:50Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "fa80f1a6b4b706ff",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Retro gaming is being overrun with AI",
-      "excerpt": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as",
+      "id": "c03439a7402d78ae",
+      "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
+      "excerpt": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service opportunities. Nokia and NVIDIA also collaborate on autonomous network solutions that help networks…",
       "lang": "en",
-      "publishedAt": "2026-10-23T12:00:00Z",
+      "publishedAt": "2026-10-23T17:00:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T13:33:50Z",
+      "fetchedAt": "2026-10-23T18:27:37Z",
       "day": "2026-10-23",
-      "category": "products",
-      "tags": [
-       "ai",
-       "entertainment",
-       "gaming",
-       "report"
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/01/STK465_VIDEO_GAMES_EMULATOR__CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://i4.ytimg.com/vi/W3fUEVcaXwg/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "fa80f1a6b4b706ff",
+      "video": {
+       "provider": "youtube",
+       "id": "W3fUEVcaXwg",
+       "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg"
+      },
+      "eventId": "c03439a7402d78ae",
       "related": [],
       "score": {
-       "total": 62.4,
+       "total": 67.5,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
-        "topic": 65.0,
-        "novelty": 100.0
+        "recency": 94.3,
+        "topic": 70.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "بازی عقب با AI پر شده است",
-        "excerpt": "بازی های ویدئویی در همه جا وجود دارد، به ویژه در جاهایی که قرار نیست باشند. Halo در یک مرورگر وب، Wind Waker در آیفون، Super Smash Bros. در واقعیت ترکیبی. در طول ماه گذشته یا بیشتر، این نوع پروژه های غیر منتظره با فرکانس باور نکردنی به لطف ابزارهای جدید AI، به عنوان مثال، ویروسی شده اند.",
+        "title": "چگونه نوکیا و NVIDIA آینده شبکه های هوش مصنوعی را تسریع می کنند",
+        "excerpt": "نوکیا و NVIDIA در حال پیشرفت تجاری سازی AI-RAN در سراسر جهان هستند و به اپراتورهای مخابراتی کمک می کنند تا امروز شبکه های 5G را بسازند که برای 6G قابل برنامه ریزی هستند. حرکت پشت شبکه های هوش مصنوعی را بررسی کنید و یاد بگیرید که چگونه کار AI و RAN را در زیرساخت های مشترک باز می کند فرصت های خدمات جدید. نوکیا و NVIDIA همچنین در راه حل های شبکه مستقل همکاری می کنند که به شبکه ها کمک می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T13:33:50Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "d12e8348865205fd",
-      "url": "https://www.youtube.com/shorts/RLQR5_5fJDA",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Messi asks ChatGPT to teach him a chess opening",
-      "excerpt": "Messi asked ChatGPT to teach him a chess opening that matched his style. It suggested Goat Horns. 🐐🤘 Try ChatGPT's Intelligent UI yourself: “Based on what you know about me, teach me something new. Show me step by step.\"",
+      "id": "298c8de07d18f423",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "excerpt": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "lang": "en",
-      "publishedAt": "2026-10-22T21:58:00Z",
+      "publishedAt": "2026-10-23T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "models",
-      "tags": [],
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "business",
+      "tags": [
+       "engineering"
+      ],
       "entities": [
+       "microsoft",
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i3.ytimg.com/vi/RLQR5_5fJDA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "RLQR5_5fJDA",
-       "url": "https://www.youtube.com/watch?v=RLQR5_5fJDA"
-      },
-      "eventId": "d12e8348865205fd",
+      "eventId": "298c8de07d18f423",
       "related": [],
       "score": {
-       "total": 62.3,
+       "total": 65.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 41.4,
-        "topic": 100.0,
-        "novelty": 90.0
+        "recency": 94.3,
+        "topic": 55.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "مسی از ChatGPT می خواهد تا به او یک باز شطرنج آموزش دهد",
-        "excerpt": "مسی از ChatGPT خواست تا به او یک باز شطرنج را آموزش دهد که با سبک خود مطابقت دارد. Goat Horns پیشنهاد کرد که رابط کاربری هوشمند ChatGPT را خودتان امتحان کنید: بر اساس آنچه درباره من می دانید، چیز جدیدی به من یاد دهید. به من گام به گام نشان بده.»",
+        "title": "ذخیره سازی آنلاین سریع مقیاس پذیر برای خدمت به بیش از 1 میلیارد کاربر ChatGPT (قسمت دوم)",
+        "excerpt": "یاد بگیرید که چگونه OpenAI با چند دهمگی قابل اعتماد، Caching جهانی و Azure Cosmos DB برای ارائه 12 × خواندن سریع تر برای ChatGPT.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -313,60 +302,61 @@
     },
     {
      "article": {
-      "id": "690aea53d2bd1733",
-      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: How AI came to model the “messy” human mind",
-      "excerpt": "Assistant Professor Benjamin Lindquist studies how engineers deliberately injected randomness into early AI, giving rise to deep-learning models that sometimes hallucinate.",
+      "id": "b2b7ebe6730fbedf",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "excerpt": "Company says foreign-made robotic vehicles are crucial to US chip production.",
       "lang": "en",
-      "publishedAt": "2026-10-23T04:00:00Z",
+      "publishedAt": "2026-10-23T17:18:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T07:40:04Z",
+      "fetchedAt": "2026-10-23T18:27:37Z",
       "day": "2026-10-23",
-      "category": "products",
+      "category": "policy",
       "tags": [
-       "interview",
-       "research",
-       "faculty",
-       "technology and society",
-       "history",
-       "computer science and technology"
+       "ai",
+       "tech",
+       "chip fabrication",
+       "chip manufacturing",
+       "fcc",
+       "federal communications commission"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-indquist_Ben_IrrationalComputer-01-press.jpg?itok=syHYcG5I",
-       "credit": "Credit: Jared Charney",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/Intel-fab-interior-1152x648.jpg",
+       "alt": "The interior of Intel's chip manufacturing facility named Fab 52 in Chandler, Arizona.",
+       "credit": "Intel",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "690aea53d2bd1733",
+      "eventId": "b2b7ebe6730fbedf",
       "related": [],
       "score": {
-       "total": 60.4,
+       "total": 64.8,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 58.7,
-        "topic": 65.0,
-        "novelty": 88.9
+        "recency": 96.0,
+        "topic": 85.0,
+        "novelty": 88.2
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "Q&A: چگونه AI به مدل سازی ذهن انسان \"messy\" رسید",
-        "excerpt": "استادیار پروفسور بنیامین لیندسکیست بررسی می کند که چگونه مهندسان به طور عمد تصادفی را به هوش مصنوعی اولیه تزریق می کنند و به مدل های یادگیری عمیق که گاهی اوقات توهم دارند، می رسند.",
+        "title": "اینتل پس از نگرانی در مورد ممنوعیت ایالات متحده در روبات های ساخت خارجی ممکن است به دام بیافتد",
+        "excerpt": "شرکت می گوید خودروهای رباتیک خارجی برای تولید تراشه های آمریکایی بسیار مهم هستند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T07:40:04Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -374,8 +364,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-16T13:13:04Z",
-   "to": "2026-10-23T13:13:04Z",
+   "from": "2026-10-16T18:00:32Z",
+   "to": "2026-10-23T18:00:32Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -409,15 +399,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 74.2,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.9,
+        "recency": 66.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -472,15 +462,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 73.1,
+       "total": 72.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 67.2,
+        "recency": 64.1,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -531,15 +521,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 72.7,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 62.3,
+        "recency": 59.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -591,15 +581,15 @@
       "eventId": "d12e8348865205fd",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.3,
+        "recency": 82.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -620,53 +610,46 @@
     },
     {
      "article": {
-      "id": "88e73b340e5cf3c4",
-      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "This design software reimagines everyday objects as self-aware devices",
-      "excerpt": "“X-Hinges” helps design and 3D print items like lamps and gloves with an interactive twist: automatically embedded sensors that perceive and adaptively respond to human contact.",
+      "id": "d5dfb55b012918e7",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-22T20:45:00Z",
+      "publishedAt": "2026-10-23T16:15:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [
-       "research",
-       "software",
-       "artificial intelligence",
-       "design",
-       "3-d printing",
-       "machine learning"
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-csail-X-hinges-cover.gif?itok=IsidN-fT",
-       "credit": "Image courtesy of the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
       },
-      "eventId": "88e73b340e5cf3c4",
+      "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
-        "topic": 80.0,
-        "novelty": 91.7
+        "recency": 98.3,
+        "topic": 75.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "این نرم افزار طراحی دوباره اشیاء روزمره را به عنوان دستگاه های خودآگاه خود تصور می کند",
-        "excerpt": "\"X-Hinges\" به طراحی و پرینت 3D مانند لامپ ها و دستکش با پیچ و تاب تعاملی کمک می کند: سنسورهای خودکار جاسازی شده که درک می کنند و به طور سازگار به تماس انسانی پاسخ می دهند.",
+        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -680,46 +663,52 @@
     },
     {
      "article": {
-      "id": "95eb6975ad245049",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "excerpt": "",
+      "id": "95364ce770790d21",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
       "lang": "en",
-      "publishedAt": "2026-10-22T22:24:34Z",
+      "publishedAt": "2026-10-23T17:48:54Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T22:25:57Z",
-      "day": "2026-10-22",
-      "category": "open-source",
-      "tags": [],
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
       "entities": [
-       "huggingface"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
+       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "95eb6975ad245049",
+      "eventId": "95364ce770790d21",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.7,
-        "topic": 75.0,
-        "novelty": 90.9
+        "recency": 99.8,
+        "topic": 80.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "تبدیل پایگاه داده به پاداش های RLS: Post-Training Agents با ThinkBox",
+        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
+        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T22:25:57Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -733,21 +722,21 @@
     },
     {
      "article": {
-      "id": "251516e27a00f0ed",
-      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
+      "id": "d543a8c819225bfc",
+      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
-      "excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
       "lang": "en",
-      "publishedAt": "2026-10-22T16:30:06Z",
+      "publishedAt": "2026-10-23T16:24:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "policy",
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
       "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
+       "amazon quick sight",
+       "intermediate (200)",
        "technical how-to"
       ],
       "entities": [
@@ -755,30 +744,30 @@
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
-       "alt": "Diagram showing a client connecting to an Amazon SageMaker AI real-time endpoint, which contains a custom GPU container exposing two routes, POST /invocations for response streaming and WS /invocation",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
+       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "251516e27a00f0ed",
+      "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.9,
-        "topic": 85.0,
+        "recency": 98.5,
+        "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "توقف حدس زدن اهداف مقیاس خودکار برای TTS در آمازون SageMaker AI",
-        "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
+        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
+        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -792,53 +781,52 @@
     },
     {
      "article": {
-      "id": "822412740c4fdfe1",
-      "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Kazakhstan Expands Compute for Its AI Future",
-      "excerpt": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. On Friday, Oct. 23, NVIDIA",
+      "id": "c03439a7402d78ae",
+      "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Nokia and NVIDIA Are Accelerating the Future of AI-Native Networks",
+      "excerpt": "Nokia and NVIDIA are advancing AI-RAN commercialization around the globe, helping telecom operators build 5G networks today that are software-programmable to 6G. Explore the momentum behind AI-native networks and learn how running AI and RAN workloads on shared infrastructure opens new service opportunities. Nokia and NVIDIA also collaborate on autonomous network solutions that help networks…",
       "lang": "en",
-      "publishedAt": "2026-10-23T02:00:13Z",
+      "publishedAt": "2026-10-23T17:00:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T07:40:04Z",
+      "fetchedAt": "2026-10-23T18:27:37Z",
       "day": "2026-10-23",
       "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "ai factory",
-       "artificial intelligence",
-       "nvidia rubin",
-       "sovereign ai"
-      ],
+      "tags": [],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/kz-post-note-gtc-berliin-2026-1920x1080-1.jpg",
+       "url": "https://i4.ytimg.com/vi/W3fUEVcaXwg/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "822412740c4fdfe1",
+      "video": {
+       "provider": "youtube",
+       "id": "W3fUEVcaXwg",
+       "url": "https://www.youtube.com/watch?v=W3fUEVcaXwg"
+      },
+      "eventId": "c03439a7402d78ae",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.8,
+        "recency": 99.0,
         "topic": 70.0,
-        "novelty": 88.9
+        "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
-        "title": "قزاقستان برای آینده AI خود تکمیل می کند",
-        "excerpt": "اکوسیستم AI قزاقستان از برنامه های زیربنایی برای استقرار حرکت می کند. این تغییر در سراسر پشته کامل AI قابل مشاهده است - از زیرساخت تا مدل ها تا برنامه های کاربردی. با هم، اکوسیستم اعلام می کند که در زیر به افزایش عرضه محاسبات شتاب زده کشور - همراه با تقاضای رو به رشد آن برای آنچه که بعدا می آید، اشاره می کند. جمعه، اکتبر 23",
+        "title": "چگونه نوکیا و NVIDIA آینده شبکه های هوش مصنوعی را تسریع می کنند",
+        "excerpt": "نوکیا و NVIDIA در حال پیشرفت تجاری سازی AI-RAN در سراسر جهان هستند و به اپراتورهای مخابراتی کمک می کنند تا امروز شبکه های 5G را بسازند که برای 6G قابل برنامه ریزی هستند. حرکت پشت شبکه های هوش مصنوعی را بررسی کنید و یاد بگیرید که چگونه کار AI و RAN را در زیرساخت های مشترک باز می کند فرصت های خدمات جدید. نوکیا و NVIDIA همچنین در راه حل های شبکه مستقل همکاری می کنند که به شبکه ها کمک می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T07:40:04Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -853,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-23T13:13:04Z",
-   "to": "2026-10-23T13:13:04Z",
+   "from": "2026-09-23T18:00:32Z",
+   "to": "2026-10-23T18:00:32Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -888,15 +876,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 78.2,
+       "total": 78.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 89.8,
+        "recency": 88.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -947,15 +935,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.6,
+       "total": 77.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 86.7,
+        "recency": 85.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -1010,15 +998,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 77.4,
+       "total": 77.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 88.7,
+        "recency": 87.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -1068,15 +1056,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 75.1,
+       "total": 74.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.2,
+        "recency": 77.1,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -1092,6 +1080,177 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d5dfb55b012918e7",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-23T16:15:50Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
+      },
+      "eventId": "d5dfb55b012918e7",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 75.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-23T18:00:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "95364ce770790d21",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T17:48:54Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
+       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "95364ce770790d21",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 80.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-23T18:00:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
+        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d543a8c819225bfc",
+      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T16:24:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon quick sight",
+       "intermediate (200)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
+       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "d543a8c819225bfc",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-23T18:00:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
+        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1123,15 +1282,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 80.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -1141,7 +1300,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1182,15 +1341,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 94.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
@@ -1201,7 +1360,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1237,191 +1396,21 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 85.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-23T13:13:04Z"
+       "asOf": "2026-10-23T18:00:32Z"
       },
       "tr": {
        "fa": {
         "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "655df0fb22ace891",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T14:30:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T15:41:41Z",
-      "day": "2026-10-22",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "655df0fb22ace891",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.7,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-23T13:13:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پوشش درختی فراتر: نقشه برداری از انواع جنگل های جهان",
-        "excerpt": "یک نقشه جهانی که هر پچ ۱۰ متری زمین روی زمین را به انواع مختلف جنگل تقسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T15:41:41Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "251516e27a00f0ed",
-      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
-      "excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:30:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
-       "alt": "Diagram showing a client connecting to an Amazon SageMaker AI real-time endpoint, which contains a custom GPU container exposing two routes, POST /invocations for response streaming and WS /invocation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "251516e27a00f0ed",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.2,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-23T13:13:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توقف حدس زدن اهداف مقیاس خودکار برای TTS در آمازون SageMaker AI",
-        "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1fc68e0e835ed772",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Deploy AI in a HIPAA-eligible environment with Amazon Quick",
-      "excerpt": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T17:48:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "1fc68e0e835ed772",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.5,
-        "topic": 85.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-23T13:13:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نرم افزار AI در یک محیط HIPAA با آمازون Quick",
-        "excerpt": "Amazon Quick یک سرویس HIPAA-eligible است، اما واجد شرایط بودن همانند سازگاری نیست. این پست توضیح می دهد که HIPAA به چه کسی اعمال می شود، چگونه PHI از طریق آمازون سریع جریان می یابد، چه پلت فرم برای محیط های تنظیم شده فراهم می کند، و یک راهنمای گام به گام برای استقرار عوامل AI سازگار در یک محیط بهداشتی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
        }
       }
      },
