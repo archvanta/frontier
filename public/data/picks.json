@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-22T22:24:34Z",
+ "asOf": "2026-10-23T00:45:37Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-21T22:24:34Z",
-   "to": "2026-10-22T22:24:34Z",
+   "from": "2026-10-22T00:45:37Z",
+   "to": "2026-10-23T00:45:37Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "d12e8348865205fd",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 85.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -108,15 +108,15 @@
        "ba6fa07d677a8221"
       ],
       "score": {
-       "total": 72.0,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 77.5,
+        "recency": 67.7,
         "topic": 65.0,
         "novelty": 42.3
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -162,15 +162,15 @@
       "eventId": "95eb6975ad245049",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 87.3,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -221,15 +221,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 79.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -244,6 +244,60 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8937fd9c8277a1fa",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "excerpt": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T00:45:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T01:36:50Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "ai",
+       "tc"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "8937fd9c8277a1fa",
+      "related": [],
+      "score": {
+       "total": 65.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-23T00:45:37Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "به تنهایی با هیچ کاری، عوامل AI شروع به بازی کردند",
+        "excerpt": "محققان MIT 13 AI را در یک جزیره مجازی به فروش رساندند و آنها با اختراع بازی ها، عزاداری یک حلقه از دست رفته و در نهایت در شغل خود بهتر می شوند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T01:36:50Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -278,79 +332,20 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 64.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.7,
+        "recency": 66.9,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
         "title": "نرم افزار AI در یک محیط HIPAA با آمازون Quick",
         "excerpt": "Amazon Quick یک سرویس HIPAA-eligible است، اما واجد شرایط بودن همانند سازگاری نیست. این پست توضیح می دهد که HIPAA به چه کسی اعمال می شود، چگونه PHI از طریق آمازون سریع جریان می یابد، چه پلت فرم برای محیط های تنظیم شده فراهم می کند، و یک راهنمای گام به گام برای استقرار عوامل AI سازگار در یک محیط بهداشتی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "251516e27a00f0ed",
-      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
-      "excerpt": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T16:30:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "policy",
-      "tags": [
-       "amazon sagemaker ai",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
-       "alt": "Diagram showing a client connecting to an Amazon SageMaker AI real-time endpoint, which contains a custom GPU container exposing two routes, POST /invocations for response streaming and WS /invocation",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "251516e27a00f0ed",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.1,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-22T22:24:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "توقف حدس زدن اهداف مقیاس خودکار برای TTS در آمازون SageMaker AI",
-        "excerpt": "تیم هایی که از مدل های متنی سفارشی در آمازون SageMaker AI استفاده می کنند، اغلب در آستانه های خودکار سازی حدس می زنند، و حدس اشتباه است که GPU را هدر می دهد یا تاخیر SLO را نقض می کند. این پست Kokoro-82M را به عنوان یک ظرف سفارشی مستقر می کند و یک سیاست خودکار سازی اندازه گیری شده را از دو اندازه گیری نقطه زندگی، Q_max و T_Total، به جای حدس زدن، به دست می آورد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-22T18:37:05Z"
        }
@@ -367,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-15T22:24:34Z",
-   "to": "2026-10-22T22:24:34Z",
+   "from": "2026-10-16T00:45:37Z",
+   "to": "2026-10-23T00:45:37Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -402,15 +397,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 80.6,
+        "recency": 78.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -465,15 +460,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.2,
+       "total": 74.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.5,
+        "recency": 75.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -524,15 +519,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 74.6,
+       "total": 74.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 71.8,
+        "recency": 70.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -584,15 +579,15 @@
       "eventId": "d12e8348865205fd",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 97.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -644,15 +639,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 96.2,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -698,15 +693,15 @@
       "eventId": "95eb6975ad245049",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.8,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -756,15 +751,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 92.4,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -813,15 +808,15 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 93.5,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -843,8 +838,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-22T22:24:34Z",
-   "to": "2026-10-22T22:24:34Z",
+   "from": "2026-09-23T00:45:37Z",
+   "to": "2026-10-23T00:45:37Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -878,15 +873,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 79.0,
+       "total": 78.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 93.7,
+        "recency": 93.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -937,15 +932,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 78.3,
+       "total": 78.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 90.5,
+        "recency": 89.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1000,15 +995,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 78.2,
+       "total": 78.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.6,
+        "recency": 92.0,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1058,15 +1053,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 75.8,
+       "total": 75.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 81.6,
+        "recency": 81.0,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1119,15 +1114,15 @@
       "eventId": "88e73b340e5cf3c4",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1173,15 +1168,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 84.7,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1227,15 +1222,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 90.2,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1280,15 +1275,15 @@
       "eventId": "655df0fb22ace891",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 97.1,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1339,15 +1334,15 @@
       "eventId": "251516e27a00f0ed",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
@@ -1396,15 +1391,15 @@
       "eventId": "1fc68e0e835ed772",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.0,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-22T22:24:34Z"
+       "asOf": "2026-10-23T00:45:37Z"
       },
       "tr": {
        "fa": {
