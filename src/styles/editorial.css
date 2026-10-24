@@ -145,6 +145,7 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
 }
 .home-intro .hi-links .hi-link[data-entry='ai-games'] { background:var(--tone-violet); }
 .home-intro .hi-links .hi-link[data-entry='data-centers'] { background:var(--tone-teal); }
+.home-intro .hi-links .hi-link[data-entry='ai-news'] { background:var(--tone-crimson); }
 .home-intro .hi-links .hi-link:hover { transform:translateY(-3px); box-shadow:0 14px 26px -14px rgba(24,30,90,.55); }
 .home-intro .hi-links .hi-link-art,
 .home-intro .hi-links .hi-link-icon { inline-size:38px; block-size:38px; border-radius:12px; grid-column:1; grid-row:1; }
