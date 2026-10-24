@@ -85,6 +85,11 @@ describe('StoryImage', () => {
 
   it('uses the category fallback when there is no image', () => {
     const img = renderImage({ title: 't', category: 'policy', brand: null, image: null });
-    expect(img.getAttribute('src')).toMatch(/images\/fallbacks\/policy\.svg$/);
+    expect(img.getAttribute('src')).toMatch(/images\/icons\/3d\/policy\.png$/);
+  });
+
+  it('upgrades stored legacy fallbacks to the generated category art', () => {
+    const img = renderImage({ title: 't', category: 'models', brand: null, image: { url: 'images/fallbacks/models.svg', kind: 'fallback' } });
+    expect(img.getAttribute('src')).toMatch(/images\/icons\/3d\/models\.png$/);
   });
 });

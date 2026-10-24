@@ -3,10 +3,11 @@ import { useCallback, useState } from 'react';
 import { useSavedStories } from '../lib/account/saved';
 import { formatDateTime, formatTime } from '../lib/dates';
 import { categoryLabel, sectionLabel, useI18n } from '../lib/i18n';
+import { iconArt } from '../lib/iconArt';
 import { rememberedCardFit, type CardFit } from '../lib/imageFit';
 import { useReveal } from '../lib/motion';
 import { href } from '../lib/router';
-import { categoryIcon, toneFor, type Tone } from '../lib/tones';
+import { toneFor, type Tone } from '../lib/tones';
 import type { Article, SectionId } from '../lib/types';
 import { playableVideo } from '../lib/video';
 import { Icon } from './Icon';
@@ -80,7 +81,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
   const { t, locale } = useI18n();
   // A broken or tiny photo is dropped, and the text then takes the full card.
   const [noPhoto, setNoPhoto] = useState(() => {
-    const url = resolveImageUrl(article.image?.url);
+    const url = article.image?.kind === 'fallback' ? null : resolveImageUrl(article.image?.url);
     return Boolean(url) && rememberedCardFit(url!) === 'hide';
   });
   const onFit = useCallback((fit: CardFit) => setNoPhoto(fit === 'hide'), []);
@@ -138,7 +139,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
         {variant === 'grid' && (
           <div className="story-top">
             <span className="story-tile" aria-hidden="true">
-              <Icon name={categoryIcon(article.category)} size={22} />
+              <img src={iconArt(article.category)} alt="" width={56} height={56} decoding="async" />
             </span>
             <span className="story-pill" aria-hidden="true">
               {t('card_read')}

@@ -2,12 +2,12 @@ import { useEffect, useRef, type CSSProperties } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { formatNumber, relativeTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
+import { iconArt, type IconArtId } from '../lib/iconArt';
 import type { IntroStats } from '../lib/introStats';
 import { href } from '../lib/router';
 import type { Article, PickEntry } from '../lib/types';
 import { HalftoneWordmark } from './HalftoneWordmark';
-import { Icon, type IconName } from './Icon';
-import { assetUrl } from './StoryImage';
+import { Icon } from './Icon';
 import { TunnelScene } from './TunnelScene';
 
 /**
@@ -35,9 +35,7 @@ interface Entry {
   key: string;
   to: string;
   label: string;
-  icon: IconName;
-  /** Small artwork shown before the label instead of the icon. */
-  art?: string;
+  art: IconArtId;
   /** Stories published in the last 24 hours. */
   fresh?: number;
 }
@@ -71,12 +69,11 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
       key: 'ai-games',
       to: '/ai-games',
       label: t('nav_ai_games'),
-      icon: 'gamepad',
-      art: assetUrl('images/games/chip-openai.webp'),
+      art: 'ai-games',
       fresh: stats?.fresh.sections['ai-games'],
     },
-    { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), icon: 'server', fresh: stats?.fresh.sections['data-centers'] },
-    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), icon: 'sparkle', fresh: stats?.fresh.news },
+    { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), art: 'data-centers', fresh: stats?.fresh.sections['data-centers'] },
+    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), art: 'ai-news', fresh: stats?.fresh.news },
   ];
 
   return (
@@ -120,13 +117,7 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
         <nav className="hi-links" aria-label={t('intro_links')}>
           {entries.map((e) => (
             <a key={e.key} className="hi-link" href={href(e.to)} data-entry={e.key}>
-              {e.art ? (
-                <img className="hi-link-art" src={e.art} alt="" width={28} height={28} decoding="async" />
-              ) : (
-                <span className="hi-link-icon" aria-hidden="true">
-                  <Icon name={e.icon} size={16} />
-                </span>
-              )}
+              <img className="hi-link-art" src={iconArt(e.art)} alt="" width={52} height={52} decoding="async" />
               <span className="hi-link-label">{e.label}</span>
               {e.fresh ? (
                 <span className="hi-link-count" title={t('intro_new_24h', { n: formatNumber(e.fresh, locale) })}>

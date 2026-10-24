@@ -1,13 +1,14 @@
 import { useEffect, useRef, useState, type FocusEvent, type FormEvent, type KeyboardEvent } from 'react';
 import { categoryDescription, categoryLabel, useI18n } from '../lib/i18n';
+import { iconArt, type IconArtId } from '../lib/iconArt';
 import { DUR, runTransition, usePresence, useSlidingIndicator } from '../lib/motion';
 import { href, navigate, type Route } from '../lib/router';
 import { REPO_URL } from '../lib/site';
 import { useTheme } from '../lib/theme';
-import { toneFor, categoryIcon, type Tone } from '../lib/tones';
+import { toneFor, type Tone } from '../lib/tones';
 import { CATEGORY_IDS, type Locale } from '../lib/types';
 import { UserMenu } from './account/UserMenu';
-import { Icon, type IconName } from './Icon';
+import { Icon } from './Icon';
 
 function isActive(route: Route, key: string): boolean {
   switch (key) {
@@ -119,7 +120,7 @@ function GitHubMark({ size = 18 }: { size?: number }) {
 interface MenuItem {
   key: string;
   to: string;
-  icon: IconName;
+  art: IconArtId;
   tone: Tone;
   title: string;
   desc: string;
@@ -203,7 +204,7 @@ function NavGroup({ group, open, onToggle, onClose }: { group: MenuGroup; open: 
             <li key={it.key}>
               <a className="nav-row" href={href(it.to, it.params)} aria-current={it.current ? 'page' : undefined}>
                 <span className="nav-tile" data-tone={it.tone} aria-hidden="true">
-                  <Icon name={it.icon} size={18} />
+                  <img className="nav-tile-art" src={iconArt(it.art)} alt="" width={48} height={48} decoding="async" />
                 </span>
                 <span className="nav-row-text">
                   <span className="nav-row-title">{it.title}</span>
@@ -283,7 +284,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'daily',
         to: '/picks/daily',
-        icon: 'sun',
+        art: 'daily',
         tone: 'blue',
         title: t('nav_daily'),
         desc: t('menu_daily_d'),
@@ -292,7 +293,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'weekly',
         to: '/picks/weekly',
-        icon: 'calendar',
+        art: 'weekly',
         tone: 'violet',
         title: t('nav_weekly'),
         desc: t('menu_weekly_d'),
@@ -301,7 +302,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'monthly',
         to: '/picks/monthly',
-        icon: 'layers',
+        art: 'monthly',
         tone: 'teal',
         title: t('nav_monthly'),
         desc: t('menu_monthly_d'),
@@ -317,7 +318,7 @@ export function Header({ route }: { route: Route }) {
       key: c,
       to: '/explore',
       params: { c },
-      icon: categoryIcon(c),
+      art: c,
       tone: toneFor(c),
       title: categoryLabel(locale, c),
       desc: categoryDescription(locale, c),
@@ -332,7 +333,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'ai-games',
         to: '/ai-games',
-        icon: 'gamepad',
+        art: 'ai-games',
         tone: 'lime',
         title: t('nav_ai_games'),
         desc: t('menu_ai_games_d'),
@@ -341,7 +342,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'data-centers',
         to: '/data-centers',
-        icon: 'server',
+        art: 'data-centers',
         tone: 'blue',
         title: t('nav_data_centers'),
         desc: t('menu_data_centers_d'),
@@ -350,7 +351,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'videos',
         to: '/videos',
-        icon: 'play',
+        art: 'videos',
         tone: 'crimson',
         title: t('nav_videos'),
         desc: t('menu_videos_d'),
@@ -359,7 +360,7 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'ai-news',
         to: '/ai-news',
-        icon: 'sparkle',
+        art: 'ai-news',
         tone: 'violet',
         title: t('intro_link_news'),
         desc: t('menu_ai_news_d'),
@@ -375,14 +376,14 @@ export function Header({ route }: { route: Route }) {
       {
         key: 'archive',
         to: '/archive',
-        icon: 'archive',
+        art: 'archive',
         tone: 'indigo',
         title: t('nav_archive'),
         desc: t('menu_archive_d'),
         current: isActive(route, 'archive'),
       },
-      { key: 'sources', to: '/sources', icon: 'rss', tone: 'teal', title: t('nav_sources'), desc: t('menu_sources_d'), current: route.name === 'sources' },
-      { key: 'about', to: '/about', icon: 'book', tone: 'crimson', title: t('nav_about'), desc: t('menu_about_d'), current: route.name === 'about' },
+      { key: 'sources', to: '/sources', art: 'sources', tone: 'teal', title: t('nav_sources'), desc: t('menu_sources_d'), current: route.name === 'sources' },
+      { key: 'about', to: '/about', art: 'method', tone: 'crimson', title: t('nav_about'), desc: t('menu_about_d'), current: route.name === 'about' },
     ],
   };
 

@@ -4,7 +4,7 @@ import { useI18n } from '../lib/i18n';
 import type { Article, ArticleVideo } from '../lib/types';
 import { youtubeEmbedUrl } from '../lib/video';
 import { Icon } from './Icon';
-import { StoryImage, assetUrl, resolveImageUrl } from './StoryImage';
+import { StoryImage, assetUrl, fallbackFor, resolveImageUrl } from './StoryImage';
 
 interface Props {
   article: Article;
@@ -44,7 +44,7 @@ export function VideoPlayer({ article, video, eager = false, compact = false }: 
         ) : (
           <video
             src={fileUrl(video.url)}
-            poster={resolveImageUrl(article.image?.url) ?? undefined}
+            poster={(article.image?.kind === 'fallback' ? fallbackFor(article.category) : resolveImageUrl(article.image?.url)) ?? undefined}
             controls
             autoPlay
             playsInline

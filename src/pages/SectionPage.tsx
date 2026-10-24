@@ -89,7 +89,7 @@ function GameCell({ article, lead = false }: { article: Article; lead?: boolean 
   const external = safeUrl(article.url);
   const link = href(storyPath(article));
   const [noPhoto, setNoPhoto] = useState(() => {
-    const url = resolveImageUrl(article.image?.url);
+    const url = article.image?.kind === 'fallback' ? null : resolveImageUrl(article.image?.url);
     return Boolean(url) && rememberedCardFit(url!) === 'hide';
   });
   const H = lead ? 'h2' : 'h3';

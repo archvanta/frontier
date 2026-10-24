@@ -5,8 +5,8 @@ import { genuineImage } from '../lib/heroStories';
 import { useMediaQuery } from '../lib/hooks';
 import { judgeBackgroundImage, judgeCardImage, rememberBackground, rememberCardFit, rememberedBackground, rememberedCardFit } from '../lib/imageFit';
 import { categoryLabel, useI18n } from '../lib/i18n';
+import { iconArt } from '../lib/iconArt';
 import { href } from '../lib/router';
-import { categoryIcon } from '../lib/tones';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
 import { StoryCard } from './StoryCard';
@@ -146,7 +146,7 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
               }}
             />
           ) : (
-            <Icon name={categoryIcon(story.category)} size={44} />
+            <img className="nh-fallback-art" src={iconArt(story.category)} alt="" width={280} height={280} decoding="async" />
           )}
         </div>
       </div>

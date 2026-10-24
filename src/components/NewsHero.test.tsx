@@ -60,11 +60,13 @@ describe('NewsHero', () => {
     expect(img).toHaveAttribute('src', 'https://img.example.com/a.jpg');
     expect(slides[0]).toHaveAttribute('data-photo', 'yes');
     fireEvent.error(img);
-    expect(slides[0]!.querySelector('img')).toBeNull();
+    expect(slides[0]!.querySelector('.nh-img')).toBeNull();
+    expect(slides[0]!.querySelector('.nh-fallback-art')).toHaveAttribute('src', expect.stringMatching(/images\/icons\/3d\/models\.png$/));
     expect(slides[0]!.querySelector('.nh-frame')).toHaveClass('is-empty');
     expect(slides[0]).toHaveAttribute('data-photo', 'no');
     // No image at all: the same frame with the placeholder.
     expect(slides[2]!.querySelector('.nh-frame.is-empty')).not.toBeNull();
+    expect(slides[2]!.querySelector('.nh-fallback-art')).not.toBeNull();
   });
 
   it('fills the frame with any photo big enough and drops only tiny ones', () => {

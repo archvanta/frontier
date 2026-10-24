@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { safeUrl } from '../lib/article';
 import { judgeCardImage, rememberCardFit, rememberedCardFit, type CardFit } from '../lib/imageFit';
 import { useI18n } from '../lib/i18n';
+import { iconArt } from '../lib/iconArt';
 import type { Article, CategoryId } from '../lib/types';
 
 const BASE = import.meta.env.BASE_URL;
@@ -11,7 +12,7 @@ export function assetUrl(path: string): string {
 }
 
 export function fallbackFor(category: CategoryId): string {
-  return assetUrl(`images/fallbacks/${category}.svg`);
+  return iconArt(category);
 }
 
 /** Resolves stored image URLs: external http(s) as-is, repo-relative paths against the site base. */
@@ -38,7 +39,7 @@ interface Props {
  */
 export function StoryImage({ article, className = '', eager = false, onFit }: Props) {
   const { t } = useI18n();
-  const primary = resolveImageUrl(article.image?.url);
+  const primary = article.image?.kind === 'fallback' ? null : resolveImageUrl(article.image?.url);
   const fallback = fallbackFor(article.category);
   const isBrand = article.image?.kind === 'brand';
   const [fit, setFit] = useState<CardFit>(() => (primary && !isBrand ? (rememberedCardFit(primary) ?? 'ok') : 'ok'));
@@ -68,7 +69,10 @@ export function StoryImage({ article, className = '', eager = false, onFit }: Pr
   const isFallback = !primary;
 
   return (
-    <div className={`story-media ${isBrand ? `is-brand brand-${article.brand}` : ''} ${isFallback ? 'is-fallback' : ''} ${className}`}>
+    <div
+      className={`story-media ${isBrand ? `is-brand brand-${article.brand}` : ''} ${isFallback ? 'is-fallback' : ''} ${className}`}
+      data-fallback-category={isFallback ? article.category : undefined}
+    >
       <img
         ref={img}
         src={src}
