@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-24T00:00:00Z",
+ "asOf": "2026-10-24T05:00:24Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-23T00:00:00Z",
-   "to": "2026-10-24T00:00:00Z",
+   "from": "2026-10-23T05:00:24Z",
+   "to": "2026-10-24T05:00:24Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "bf6279ad02f6cae9",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
+      "excerpt": "Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and prosperity against the risks in the accelerating global technology arms race. As he prepares for his debut budget, the chancellor said that Andy Burnham’s…",
+      "lang": "en",
+      "publishedAt": "2026-10-24T05:00:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T05:06:13Z",
+      "day": "2026-10-24",
+      "category": "policy",
+      "tags": [
+       "budget 2026",
+       "uk news",
+       "england",
+       "john healey",
+       "ai (artificial intelligence)",
+       "economic policy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=700&quality=85&auto=format&fit=max&s=44e26b02a1fafa9dc1a7028ade3da03b",
+       "credit": "Photograph: Paul Reid/PA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "bf6279ad02f6cae9",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-24T05:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جان هیلی متعهد به استفاده از بودجه برای بهره برداری از قدرت AI برای تقویت امنیت بریتانیا است",
+        "excerpt": "صدراعظم می گوید که دولت متعهد است صدها میلیون دلار برای توسعه رویکرد \"غیر غریزی انگلیسی\" به AI John Healey متعهد به استفاده از بودجه روز چهارشنبه برای بهره برداری از قدرت هوش مصنوعی برای تقویت امنیت و رفاه بریتانیا در برابر خطرات در سرعت بخشیدن به رقابت تسلیحات جهانی است. همانطور که او برای اولین بودجه خود آماده می کند، صدراعظم گفت که اندی برنهام ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T05:06:13Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "51de56c2848f8bde",
@@ -46,15 +106,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.1,
+        "recency": 54.7,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -62,66 +122,6 @@
         "excerpt": "هنگامی که کسی نمی تواند وارد شود یا آنلاین شود، تیم IT آن ها اغلب باید کار دیگری را در اختیار داشته باشند. Shield در حال ساخت Forge است تا به تیم های خدمات IT کمک کند تا مشتریان خود را سریع تر کار کنند. عوامل AI آن از Astra برای کار مستقیم در نرم افزار کسب و کار و حل مشکلات که قبلا نیاز به یک تکنسین. Shield گزارش می دهد که مدل OpenAI در نرم افزار 35 تا 40 درصد سریع تر عمل می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T18:45:27Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c636a8319993faee",
-      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T21:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "technology and society",
-       "artificial intelligence",
-       "community",
-       "government",
-       "democracy"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
-       "credit": "Photo: Jake Belcher",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "c636a8319993faee",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-24T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
-        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
        }
       }
      },
@@ -165,15 +165,15 @@
       "eventId": "1aa60556379e2e50",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.2,
+        "recency": 54.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -185,6 +185,66 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c636a8319993faee",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T21:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "technology and society",
+       "artificial intelligence",
+       "community",
+       "government",
+       "democracy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c636a8319993faee",
+      "related": [],
+      "score": {
+       "total": 63.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 63.0,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-24T05:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
+        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -225,15 +285,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 62.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.5,
+        "recency": 58.0,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -241,65 +301,6 @@
         "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c10a2d08433cd913",
-      "url": "https://www.youtube.com/shorts/a7cnTxoV3v0",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "A New Look for Minecraft: Java Edition with NVIDIA RTX Remix",
-      "excerpt": "RTX Remix for Minecraft: Java Edition gives creators tools to remaster the game with realistic path-traced lighting and AI powered DLSS for maximum performance. Available on NVIDIA GeForce and NVIDIA RTX Spark. .",
-      "lang": "en",
-      "publishedAt": "2026-10-23T22:26:51Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T00:05:26Z",
-      "day": "2026-10-23",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/a7cnTxoV3v0/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "a7cnTxoV3v0",
-       "url": "https://www.youtube.com/watch?v=a7cnTxoV3v0"
-      },
-      "eventId": "c10a2d08433cd913",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.4,
-        "topic": 65.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-24T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نگاهی جدید به Minecraft: Java Edition با NVIDIA RTX Remix",
-        "excerpt": "RTX Remix برای Minecraft: Java Edition به سازندگان ابزار می دهد تا بازی را با نور واقعی ردیابی شده مسیر و هوش مصنوعی DLSS برای حداکثر عملکرد بازسازی کنند. در NVIDIA GeForce و NVIDIA RTX Spark موجود است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T00:05:26Z"
        }
       }
      },
@@ -341,15 +342,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 62.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.3,
+        "recency": 55.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -371,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-17T00:00:00Z",
-   "to": "2026-10-24T00:00:00Z",
+   "from": "2026-10-17T05:00:24Z",
+   "to": "2026-10-24T05:00:24Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +408,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 90.4,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -465,15 +466,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 72.8,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 63.0,
+        "recency": 60.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -525,15 +526,15 @@
       "eventId": "1aa60556379e2e50",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 90.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -587,15 +588,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 71.8,
+       "total": 71.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 60.6,
+        "recency": 57.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +649,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 92.6,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -668,63 +669,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-24T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -765,20 +709,77 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 91.3,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
         "title": "تقویت ارزش درک انسانی در MIT",
         "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:51:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "057a86be6882ac7b",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.7,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-24T05:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
        }
@@ -819,15 +820,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 88.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -848,8 +849,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-24T00:00:00Z",
-   "to": "2026-10-24T00:00:00Z",
+   "from": "2026-09-24T05:00:24Z",
+   "to": "2026-10-24T05:00:24Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -883,15 +884,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 77.7,
+       "total": 77.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 87.1,
+        "recency": 85.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -942,15 +943,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 84.1,
+        "recency": 82.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1005,15 +1006,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 86.0,
+        "recency": 84.8,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1063,15 +1064,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 74.7,
+       "total": 74.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 75.8,
+        "recency": 74.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1124,15 +1125,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 97.7,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1181,15 +1182,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 97.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1241,15 +1242,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 97.3,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1295,15 +1296,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 96.4,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1353,15 +1354,15 @@
       "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 96.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1407,15 +1408,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.2,
+        "recency": 78.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-24T00:00:00Z"
+       "asOf": "2026-10-24T05:00:24Z"
       },
       "tr": {
        "fa": {
