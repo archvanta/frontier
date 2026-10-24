@@ -65,12 +65,12 @@ export function Wordmark() {
   );
 }
 
-/** FA / EN segmented switch. Each button names its language in both scripts. */
+/** Persian / English switch. Each button names its language in both scripts. */
 export function LangSwitch() {
   const { locale, setLocale } = useI18n();
   const track = useSlidingIndicator<HTMLDivElement>(locale);
   const options: { id: Locale; short: string; label: string }[] = [
-    { id: 'fa', short: 'FA', label: 'فارسی (Persian)' },
+    { id: 'fa', short: 'فا', label: 'فارسی (Persian)' },
     { id: 'en', short: 'EN', label: 'English (انگلیسی)' },
   ];
   return (

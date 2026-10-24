@@ -653,8 +653,14 @@ html[lang='fa'] .mt-label {
 }
 
 .lang-option[aria-pressed='true'] {
-  color: var(--text);
-  background: var(--btn-dark-hover);
+  color: #ffffff;
+  background: #2458bd;
+}
+
+.lang-option[lang='fa'] {
+  font-family: var(--font-fa);
+  font-size: 0.875rem;
+  letter-spacing: 0;
 }
 
 .theme-toggle,

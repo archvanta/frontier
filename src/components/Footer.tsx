@@ -45,8 +45,8 @@ export function Footer({ meta }: { meta: Meta | null | undefined }) {
                 <Icon name={f.icon} size={16} /> {f.label}
               </li>
             ))}
-            <li lang="en" dir="ltr">
-              FA / EN
+            <li dir="ltr">
+              <span lang="fa">فا</span> / <span lang="en">EN</span>
             </li>
           </ul>
         </div>
