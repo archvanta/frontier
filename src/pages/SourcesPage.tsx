@@ -20,7 +20,7 @@ export function SourcesPage() {
   return (
     <div className="page container-narrow">
       <header className="page-head">
-        <p className="eyebrow">FRONTIER / SOURCES</p>
+        <p className="eyebrow">{t('sources_title')}</p>
         <h1 className="page-title">{t('sources_title')}</h1>
         <p className="page-intro">{t('sources_intro')}</p>
       </header>
@@ -36,7 +36,7 @@ export function SourcesPage() {
                 <tr>
                   <th scope="col">{t('source')}</th>
                   <th scope="col">{t('tier')}</th>
-                  <th scope="col">Status</th>
+                  <th scope="col">{locale === 'fa' ? 'وضعیت' : 'Status'}</th>
                   <th scope="col">{t('verified_on')}</th>
                 </tr>
               </thead>
@@ -53,7 +53,7 @@ export function SourcesPage() {
                         ) : (
                           s.name
                         )}
-                        <span className="source-kind">{s.kind}</span>
+                        <span className="source-kind">{locale === 'fa' ? ({ official: 'رسمی', community: 'جامعه', research: 'پژوهشی', media: 'رسانه' } as Record<string, string>)[s.kind] ?? s.kind : s.kind}</span>
                       </th>
                       <td>{s.tier}</td>
                       <td>

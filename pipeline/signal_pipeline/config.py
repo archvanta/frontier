@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 USER_AGENT = (
-    "SIGNAL-AI-NewsBot/1.0 (+https://github.com/sadeghimohammadamin83-ship-it/SIGNAL_AI; "
+    "SIGNAL-AI-NewsBot/1.0 (+https://github.com/sadeghimohammadamin83-ship-it/frontier; "
     "static AI news digest; respects robots and source terms)"
 )
 

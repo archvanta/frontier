@@ -56,7 +56,7 @@ export function SavedPage() {
   return (
     <div className="page container-narrow">
       <header className="page-head">
-        <p className="eyebrow">FRONTIER / SAVED</p>
+        <p className="eyebrow">{t('nav_saved')}</p>
         <h1 className="page-title">{t('saved_title')}</h1>
         <p className="page-intro">
           <Icon name="info" size={14} /> {saved.cloud ? at('saved_cloud_note') : t('saved_note')}
@@ -66,7 +66,7 @@ export function SavedPage() {
       {saved.loading ? (
         <Loading rows={2} />
       ) : saved.list.length === 0 ? (
-        <EmptyState title={t('saved_empty')} />
+        <EmptyState title={t('saved_empty')}><a className="btn is-primary" href={href('/explore')}>{t('nav_explore')}</a></EmptyState>
       ) : (
         <SavedList list={saved.list} onRemove={saved.remove} />
       )}

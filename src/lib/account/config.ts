@@ -34,6 +34,7 @@ export function resolveAccountConfig(env: Record<string, string | boolean | unde
   const url = String(env.VITE_SUPABASE_URL ?? '').trim().replace(/\/+$/, '');
   const key = String(env.VITE_SUPABASE_PUBLISHABLE_KEY ?? '').trim();
   if (dataMode === 'mock') return { mode: 'mock', url: '', key: '', problems: [] };
+  if (env.VITE_ACCOUNTS_ENABLED === 'false') return { mode: 'off', url, key, problems: [] };
   const problems: string[] = [];
   if (!/^https:\/\/[a-z0-9.-]+(:\d+)?$/i.test(url)) problems.push('VITE_SUPABASE_URL');
   if (!key) problems.push('VITE_SUPABASE_PUBLISHABLE_KEY');

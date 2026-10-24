@@ -9,7 +9,7 @@ export default defineConfig({
   fullyParallel: true,
   reporter: process.env.CI ? [['list'], ['html', { open: 'never' }]] : 'list',
   use: {
-    baseURL: 'http://localhost:4174/SIGNAL_AI/',
+    baseURL: 'http://localhost:4174/frontier/',
     trace: 'retain-on-failure',
     // The opening animation is switched off for the suite (so it never covers the page under test); e2e/site-intro.spec.ts turns it back on.
     storageState: { cookies: [], origins: [{ origin: 'http://localhost:4174', localStorage: [{ name: 'signal-ai:intro', value: 'off' }] }] },
@@ -18,7 +18,7 @@ export default defineConfig({
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
     command: 'npm run preview:mock',
-    url: 'http://localhost:4174/SIGNAL_AI/',
+    url: 'http://localhost:4174/frontier/',
     reuseExistingServer: !process.env.CI,
     timeout: 60_000,
   },

@@ -37,12 +37,13 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Exact project path from Pages (e.g. /SIGNAL_AI/), so assets resolve on the published URL.
+          # Exact project path from Pages (e.g. /frontier/), so assets resolve on the published URL.
           SIGNAL_BASE: ${{ steps.pages.outputs.base_path }}/
           # Public browser settings protected by Row Level Security. Repository variables can
           # override this project's defaults; never put a secret/service_role key here.
-          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL || 'https://hmzymghgpoketcbxyirr.supabase.co' }}
-          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_jLffeI9ELCOa-H4enc5X1Q_poXQVuIR' }}
+          VITE_ACCOUNTS_ENABLED: 'false'
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
       - name: Check the artifact
         run: |
           test -f dist/index.html

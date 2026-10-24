@@ -42,6 +42,8 @@ export function UserMenu({ route }: { route: Route }) {
     return () => document.removeEventListener('pointerdown', onPointer);
   }, [open]);
 
+  if (account.status === 'off') return null;
+
   if (account.status === 'restoring') {
     return <span className="user-slot is-pending" aria-hidden="true" />;
   }

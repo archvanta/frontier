@@ -8,7 +8,7 @@ A phase is complete only when its gate commands ran and passed. Record the actua
 | Types | `npm run typecheck` | Phase 1 |
 | Lint | `npm run lint` | Phase 1 |
 | Unit (web) | `npm test` | Phase 1 |
-| Build (live) | `npm run build` — asset URLs must start with `/SIGNAL_AI/`; live bundle must not contain `[MOCK]` | Phase 1 |
+| Build (live) | `npm run build` — asset URLs must start with `/frontier/`; live bundle must not contain `[MOCK]` | Phase 1 |
 | Build (mock) | `npm run build:mock` | Phase 1 |
 | E2E | `npm run build:mock && npx playwright test` (375/768/1440 px, en + fa, overflow, deep links, hero behaviour) | Phase 2 |
 | Pipeline | `cd pipeline && python -m pytest -q` | Phase 4 |

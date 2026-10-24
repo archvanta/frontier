@@ -1,0 +1,46 @@
+/* Shared editorial rhythm for news, discovery and reading. */
+.home-intro { min-block-size: auto; block-size: auto; padding-block: clamp(2rem,5vw,4rem); }
+.home-intro .hi-inner { padding-block: 0; }
+.home-intro .hi-title { font-size: clamp(3rem,7vw,6rem); line-height: 1.1; }
+.home-intro .hi-body { max-inline-size: 48rem; margin-block: 1rem; }
+.home-intro .hi-signals { margin-block-start: 1.25rem; }
+.home-intro .hi-status, .home-intro .hi-meta, .home-intro .hi-backdrop, .home-intro .tunnel { display: none; }
+.home-intro .hi-links { margin-block: 1rem; }
+.nh-stage.has-side { grid-template-columns: minmax(0,1fr); max-inline-size: 82rem; margin-inline:auto; }
+.nh-side { display:none; }
+.nh-main { min-block-size: 34rem; }
+.nh-title { text-wrap: balance; }
+html[lang='fa'] .nh-title { font-size: clamp(1.8rem,3.4vw,3.25rem); line-height:1.6; }
+.story-title, .result-title { text-wrap: pretty; }
+.picks-grid { align-items: start; }
+.picks-grid .story-card.is-feature { min-block-size:0; }
+.picks-grid .story-card.is-feature .story-media-wrap { margin-block-start:1.5rem; }
+.picks-secondary .story-card { min-block-size:0; }
+.story-card.is-text-only { min-block-size:0; }
+.story-meta { gap:.65rem; line-height:1.6; }
+.advanced-filters { grid-column:1 / -1; border-block-start:1px solid var(--line); padding-block:1rem; }
+.advanced-filters summary { cursor:pointer; font-weight:600; padding-block:.5rem; }
+.advanced-filters > div { margin-block:1rem; }
+.filters { gap:1rem; }
+.mobile-settings { display:flex; gap:1rem; padding:1rem; }
+.source-kind { margin-block-start:.4rem; }
+.sources-table td:last-child { min-inline-size:7rem; }
+.site-footer { padding-block:2.5rem; }
+@media(min-width:768px) {
+ .advanced-filters[open] { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+ .advanced-filters summary { grid-column:1/-1; }
+ .advanced-filters .filter-range { grid-column:1/-1; }
+}
+@media(max-width:767px) {
+ .header-actions > .lang-switch, .header-actions > .theme-toggle { display:none; }
+ .home-intro { padding-block:1.75rem; }
+ .home-intro .hi-kicker { margin-block:0 1rem; }
+ .home-intro .hi-body { font-size:1rem; line-height:1.9; }
+ .home-intro .hi-title { font-size:3rem; }
+ .nh-main { min-block-size:40rem; }
+ .nh-stage { padding-inline:1rem; }
+ .story-card.is-feature .story-title { font-size:1.5rem; line-height:1.6; }
+ .sources-table th, .sources-table td { padding:.85rem .5rem; font-size:.8rem; }
+ .sources-table td:last-child { min-inline-size:5.5rem; }
+ .site-footer { margin-block-start:2rem; }
+}

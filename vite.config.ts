@@ -44,7 +44,7 @@ function supabaseOriginFrom(env: Record<string, string>): string | null {
 }
 
 // GitHub Pages serves this project from /<repo>/. Override with SIGNAL_BASE=/ for a root deploy.
-const base = process.env.SIGNAL_BASE ?? '/SIGNAL_AI/';
+const base = process.env.SIGNAL_BASE ?? '/frontier/';
 
 export default defineConfig(({ mode }) => ({
   base,

@@ -192,7 +192,7 @@ for (const theme of ['dark', 'light'] as const) {
 }
 
 test('the GitHub button opens the source repository in a new tab, in both languages, and moves into the menu on the narrowest phones', async ({ page }) => {
-  const repo = 'https://github.com/sadeghimohammadamin83-ship-it/SIGNAL_AI';
+  const repo = 'https://github.com/sadeghimohammadamin83-ship-it/frontier';
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const button = page.getByRole('link', { name: 'View source on GitHub' });

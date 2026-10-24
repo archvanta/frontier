@@ -115,14 +115,6 @@ function GitHubMark({ size = 18 }: { size?: number }) {
   );
 }
 
-function GitHubLink() {
-  const { t } = useI18n();
-  return (
-    <a className="header-github" href={REPO_URL} target="_blank" rel="noopener noreferrer" aria-label={t('nav_source')} title={t('nav_source')}>
-      <GitHubMark />
-    </a>
-  );
-}
 
 interface MenuItem {
   key: string;
@@ -416,6 +408,7 @@ export function Header({ route }: { route: Route }) {
             </li>
             {group(sections)}
             {group(more)}
+            <li className="nav-item nav-mobile-only"><div className="mobile-settings"><LangSwitch /><ThemeToggle /></div></li>
             <li className="nav-item nav-mobile-only">
               <a className="nav-link" href={href('/saved')} aria-current={route.name === 'saved' ? 'page' : undefined}>
                 {t('nav_saved')}
@@ -451,7 +444,6 @@ export function Header({ route }: { route: Route }) {
           </form>
           <LangSwitch />
           <ThemeToggle />
-          <GitHubLink />
           <UserMenu route={route} />
           <a className="btn is-primary header-cta" href={href('/saved')} aria-current={route.name === 'saved' ? 'page' : undefined}>
             <Icon name="bookmark" size={16} />

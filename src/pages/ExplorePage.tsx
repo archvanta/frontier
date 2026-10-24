@@ -74,6 +74,8 @@ export function ExplorePage({ params }: { params: URLSearchParams }) {
             <label htmlFor="explore-q">{t('search_label')}</label>
             <input id="explore-q" type="search" value={q} onChange={(ev) => setQ(ev.target.value)} placeholder={t('search_placeholder')} />
           </div>
+          <details className="advanced-filters" open={hasActiveFilters(filters) || undefined}>
+            <summary>{locale === 'fa' ? 'فیلترهای بیشتر' : 'More filters'}</summary>
           <div>
             <label htmlFor="f-c">{t('filter_category')}</label>
             <select id="f-c" value={filters.c} onChange={(ev) => apply({ c: ev.target.value as SearchFilters['c'] })}>
@@ -134,6 +136,7 @@ export function ExplorePage({ params }: { params: URLSearchParams }) {
               </div>
             </>
           )}
+          </details>
           <div className="filter-actions">
             <button type="submit" className="btn is-primary">
               {t('nav_search')}

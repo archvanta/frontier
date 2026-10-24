@@ -60,7 +60,7 @@ describe('public browsing', () => {
   it('works with accounts switched off, and says so honestly on account screens', async () => {
     renderApp('#/');
     expect(await screen.findByRole('heading', { name: 'Top Signals' })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: 'Sign in' })).toHaveAttribute('href', '#/signin');
+    expect(screen.queryByRole('link', { name: 'Sign in' })).not.toBeInTheDocument();
     await go('#/signin');
     expect(await screen.findByTestId('auth-not-configured')).toHaveTextContent('Accounts aren’t switched on yet');
     expect(screen.getByTestId('auth-not-configured')).toHaveTextContent('VITE_SUPABASE_URL');

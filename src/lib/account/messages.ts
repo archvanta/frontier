@@ -42,7 +42,7 @@ const en = {
   err_save: 'Couldn’t save. Your choices are kept on this screen; try again.',
   not_configured_title: 'Accounts aren’t switched on yet',
   not_configured_body:
-    'Signing in needs a Supabase project that the site owner hasn’t connected yet. You can still read every story, search, and save stories in this browser.',
+    'Accounts are currently unavailable. You can still read every story, search, and save stories in this browser.',
   not_configured_missing: 'Missing build settings: {list}',
   mock_note: 'Mock mode: this account is stored only in this browser.',
   session_expired: 'Your session expired. Sign in again to sync your account.',
@@ -202,7 +202,7 @@ const fa: Record<AccountMessageKey, string> = {
   err_save: 'ذخیره نشد. انتخاب‌هایتان روی همین صفحه مانده است؛ دوباره امتحان کنید.',
   not_configured_title: 'حساب کاربری هنوز فعال نشده است',
   not_configured_body:
-    'ورود به یک پروژهٔ Supabase نیاز دارد که مدیر سایت هنوز آن را وصل نکرده است. همچنان می‌توانید همهٔ خبرها را بخوانید، جستجو کنید و خبرها را در همین مرورگر ذخیره کنید.',
+    'حساب کاربری فعلاً در دسترس نیست. همچنان می‌توانید خبرها را بخوانید، جست‌وجو کنید و در همین مرورگر ذخیره کنید.',
   not_configured_missing: 'تنظیمات ساخت که کم است: {list}',
   mock_note: 'حالت آزمایشی: این حساب فقط در همین مرورگر ذخیره می‌شود.',
   session_expired: 'نشست شما منقضی شد. برای همگام‌سازی حساب دوباره وارد شوید.',

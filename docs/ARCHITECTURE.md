@@ -11,7 +11,7 @@
                             │ workflow_call
                             ▼
             ┌──── deploy.yml ────┐        ┌──────── Browser ────────┐
-            │ npm ci, vite build │ ──────▶│ GitHub Pages /SIGNAL_AI/ │
+            │ npm ci, vite build │ ──────▶│ GitHub Pages /frontier/ │
             │ upload + deploy    │        │ static JSON via fetch    │
             └────────────────────┘        └──────────────────────────┘
 ```

@@ -9,11 +9,10 @@ import { NewsHero } from '../components/NewsHero';
 import { Pagination } from '../components/Pagination';
 import { PicksPanel } from '../components/PicksPanel';
 import { SignalStatus } from '../components/SignalStatus';
-import { SignalWall } from '../components/SignalWall';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { WeeklyBrief } from '../components/WeeklyBrief';
 import { planHomePage, sortNewestFirst, uniqueById } from '../lib/archive';
-import { introStats, topSignals } from '../lib/introStats';
+import { introStats } from '../lib/introStats';
 import { useData } from '../lib/dataContext';
 import { formatNumber } from '../lib/dates';
 import { followsAny, prioritizeFollowed, useFollowedTopics } from '../lib/follow';
@@ -101,27 +100,19 @@ export function HomePage({
       feed.status === 'loading'
         ? null
         : feed.status === 'ready'
-          ? pickHeroStories(newest, feed.data.picks, undefined, followed.length ? (a) => followsAny(a, followed) : undefined)
+          ? pickHeroStories(newest, feed.data.picks, 3, followed.length ? (a) => followsAny(a, followed) : undefined)
           : [],
     [feed, newest, followed],
   );
-  // Stories the hero and "Top signals" already show: the wall skips them so one story is not on screen three times over.
-  const featured = useMemo(() => {
-    const ids = new Set<string>((heroStories ?? []).map((a) => a.id));
-    if (feed.status === 'ready') for (const p of feed.data.picks?.windows.daily?.picks.slice(0, 6) ?? []) ids.add(p.article.id);
-    return ids;
-  }, [heroStories, feed]);
-  const wallStories = useMemo(() => {
-    const rest = newest.filter((a) => !featured.has(a.id));
-    return rest.length >= 4 ? rest : newest;
-  }, [newest, featured]);
+  // Secondary picks must introduce stories not already shown by the hero.
+  const featured = useMemo(() => new Set((heroStories ?? []).map((a) => a.id)), [heroStories]);
 
   const introData = useMemo(
     () =>
       feed.status === 'ready'
         ? {
             stats: introStats(newest, feed.data.sectionOf, meta, now),
-            signals: topSignals(feed.data.picks),
+            signals: [],
             now,
           }
         : null,
@@ -158,11 +149,11 @@ export function HomePage({
               <p>{t('no_data_body')}</p>
             </EmptyState>
           )}
-          {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} />}
-          {page === 1 && <SignalWall stories={wallStories} now={now} />}
+          {page === 1 && feed.data.hasAny && <PicksPanel picks={feed.data.picks} excludeIds={featured} />}
+
           {page === 1 && home && (
             <>
-              <Carousel title={t('intro_link_news')} seeAllTo="/ai-news" articles={newest.slice(0, CAROUSEL_STORIES)} />
+              <Carousel title={t('intro_link_news')} seeAllTo="/ai-news" articles={newest.filter((a) => !featured.has(a.id)).slice(0, CAROUSEL_STORIES)} />
               <Carousel
                 title={t('nav_ai_games')}
                 seeAllTo="/ai-games"

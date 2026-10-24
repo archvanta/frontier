@@ -54,13 +54,16 @@ describe('App with mock data', () => {
     expect(screen.getByRole('button', { name: 'Next story' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Pause slideshow' })).toBeInTheDocument();
     const active = slides.find((s) => s.getAttribute('aria-hidden') === 'false')!;
-    expect(within(active).getByRole('link', { name: /Read full story/ })).toHaveAttribute('href', expect.stringContaining('#/story/'));
+    expect(within(active).getByRole('link', { name: /Story details/ })).toHaveAttribute('href', expect.stringContaining('#/story/'));
   });
 
-  it('shows the signal wall with real headlines', async () => {
+  it('keeps featured stories out of the secondary picks panel', async () => {
     renderApp();
-    const wall = await screen.findByTestId('signal-wall');
-    expect(within(wall).getByRole('heading', { name: 'Signal wall' })).toBeInTheDocument();
-    expect(within(wall).getAllByTestId('wall-card').length).toBeGreaterThan(0);
+    const slides = await screen.findAllByTestId('hero-slide');
+    const featured = slides.map((s) => within(s).getByRole('link', { name: /Story details/, hidden: true }).getAttribute('href'));
+    const panel = document.getElementById('top-signals')!;
+    const links = [...panel.querySelectorAll('a[href^="#/story/"]')].map((a) => a.getAttribute('href'));
+    expect(links.some((link) => featured.includes(link))).toBe(false);
+    expect(screen.queryByTestId('signal-wall')).not.toBeInTheDocument();
   });
 });

@@ -6,7 +6,7 @@ import { CATEGORY_IDS, SECTION_IDS } from './types';
 
 /**
  * Hash routing: GitHub Pages has no SPA fallback, so every deep link lives after
- * `#` (e.g. /SIGNAL_AI/#/story/2026-10-19/abc) and survives a hard reload.
+ * `#` (e.g. /frontier/#/story/2026-10-19/abc) and survives a hard reload.
  */
 export type Route =
   | { name: 'home'; page: number }

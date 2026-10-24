@@ -9,13 +9,13 @@ import { StoryCard } from './StoryCard';
 
 const WINDOWS: PickWindow[] = ['daily', 'weekly', 'monthly'];
 
-export function PicksPanel({ picks, initial = 'daily', limit = 6 }: { picks: PicksFile | null; initial?: PickWindow; limit?: number }) {
+export function PicksPanel({ picks, initial = 'daily', limit = 6, excludeIds }: { picks: PicksFile | null; initial?: PickWindow; limit?: number; excludeIds?: ReadonlySet<string> }) {
   const { t, locale } = useI18n();
   const [active, setActive] = useState<PickWindow>(initial);
   const base = useId();
   const track = useSlidingIndicator<HTMLDivElement>(active);
   const revealHead = useReveal<HTMLElement>('head');
-  const entries = picks?.windows[active]?.picks.slice(0, limit) ?? [];
+  const entries = picks?.windows[active]?.picks.filter((p) => !excludeIds?.has(p.article.id)).slice(0, limit) ?? [];
   const [first, ...rest] = entries;
 
   const onKey = (e: KeyboardEvent<HTMLButtonElement>) => {

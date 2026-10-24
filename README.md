@@ -1,10 +1,10 @@
 # FRONTIER
 
-(Repository and Pages address keep the original name, `SIGNAL_AI`.)
+Repository and GitHub Pages use the name `frontier`.
 
 Bilingual (Persian / English) news from the frontier of technology (AI first, data centers and more to follow), published as a free static site on GitHub Pages.
 
-- **Live site:** https://sadeghimohammadamin83-ship-it.github.io/SIGNAL_AI/ (address reported by the successful Pages deployments recorded in `docs/release/DEPLOYMENT-GUIDE.md`).
+- **Live site:** https://sadeghimohammadamin83-ship-it.github.io/frontier/ (address reported by the successful Pages deployments recorded in `docs/release/DEPLOYMENT-GUIDE.md`).
 - **What it does:** about once an hour a GitHub Actions job reads a maintained list of public RSS/Atom feeds from AI labs, research groups and tech media (`pipeline/signal_pipeline/sources.yaml`), removes duplicates, groups stories about the same event, picks images, ranks Daily / Weekly / Monthly picks, optionally machine-translates new headlines into Persian offline, and commits JSON files to `public/data/`. The site reads those files; visiting it never triggers collection, translation or any AI call.
 - **No paid services:** no Claude, OpenAI, Gemini, translation, image or search API, and no secrets are needed.
 
