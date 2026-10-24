@@ -1,18 +1,17 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
 
-// The mock build uses the labelled in-browser account service: no email is sent and the code is 123456.
+// The mock build uses the labelled in-browser account service; production credentials live in Supabase Auth.
 
-async function signIn(page: Page, email = 'reader@example.com') {
-  await page.goto('./#/signin');
-  await expect(page.getByText(/Mock mode: no email is sent/)).toBeVisible();
-  await page.getByLabel('Email address').fill(email);
-  await page.getByRole('button', { name: 'Send code' }).click();
-  await expect(page.getByRole('heading', { name: 'Check your email' })).toBeVisible();
-  await page.getByLabel('Verification code').fill('123456');
+async function signIn(page: Page, username = 'reader') {
+  await page.goto('./#/signin?mode=create');
+  await expect(page.getByText(/Mock mode: this account is stored only in this browser/)).toBeVisible();
+  await page.getByLabel('Username').fill(username);
+  await page.getByLabel('Password').fill('frontier-pass-123');
+  await page.getByRole('button', { name: 'Create account' }).click();
 }
 
-test('sign up with a code, onboard, get a personal feed, save across reloads, sign out', async ({ page }) => {
+test('sign up with username/password, onboard, get a personal feed, save across reloads, sign out', async ({ page }) => {
   await signIn(page);
   await expect(page).toHaveURL(/#\/welcome$/);
 
@@ -74,10 +73,10 @@ for (const theme of ['dark', 'light'] as const) {
         [locale, theme],
       );
       await page.emulateMedia({ reducedMotion: 'reduce' });
-      await page.goto('./#/signin');
-      await page.locator('input[type=email]').fill('a11y@example.com');
+      await page.goto('./#/signin?mode=create');
+      await page.getByLabel(locale === 'fa' ? 'نام کاربری' : 'Username').fill(`a11y-${theme}-${locale}`);
+      await page.getByLabel(locale === 'fa' ? 'رمز عبور' : 'Password').fill('frontier-pass-123');
       await page.locator('form button[type=submit]').click();
-      await page.locator('.otp-input').fill('123456');
       await expect(page).toHaveURL(/#\/welcome$/);
       for (const route of ['#/welcome', '#/for-you', '#/account', '#/saved']) {
         await page.goto(`./${route}`);

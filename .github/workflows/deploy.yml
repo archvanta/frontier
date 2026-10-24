@@ -39,11 +39,10 @@ jobs:
         env:
           # Exact project path from Pages (e.g. /SIGNAL_AI/), so assets resolve on the published URL.
           SIGNAL_BASE: ${{ steps.pages.outputs.base_path }}/
-          # Optional accounts (docs/AUTH-SETUP.md). Repository *variables*, not secrets: both values are
-          # public by design and protected by Row Level Security. Empty = accounts switched off.
-          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL }}
-          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
-          VITE_SUPABASE_GOOGLE: ${{ vars.SUPABASE_GOOGLE_ENABLED }}
+          # Public browser settings protected by Row Level Security. Repository variables can
+          # override this project's defaults; never put a secret/service_role key here.
+          VITE_SUPABASE_URL: ${{ vars.SUPABASE_URL || 'https://hmzymghgpoketcbxyirr.supabase.co' }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_jLffeI9ELCOa-H4enc5X1Q_poXQVuIR' }}
       - name: Check the artifact
         run: |
           test -f dist/index.html

@@ -224,7 +224,7 @@ function Onboarding() {
           <div className="ob-review-row">
             <dt>{at('ob_profile')}</dt>
             <dd>
-              <span dir="auto">{nameTrim || user.email}</span> · {draft.locale === 'fa' ? 'فارسی' : 'English'}
+              <span dir="auto">{nameTrim || user.username}</span> · {draft.locale === 'fa' ? 'فارسی' : 'English'}
             </dd>
             <button type="button" className="link-btn" onClick={() => setStep(1)}>
               {at('edit')}

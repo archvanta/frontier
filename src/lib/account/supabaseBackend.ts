@@ -41,13 +41,23 @@ export function toUser(u: User): AccountUser {
   const str = (v: unknown) => (typeof v === 'string' && v.trim() ? v.trim() : null);
   return {
     id: u.id,
-    email: u.email ?? '',
-    emailVerified: !!u.email_confirmed_at,
+    username: usernameFromInternalEmail(u.email ?? ''),
     provider: String(u.app_metadata?.provider ?? 'email'),
     lastSignInAt: u.last_sign_in_at ?? null,
     suggestedName: str(meta.full_name) ?? str(meta.name),
     suggestedAvatar: str(meta.avatar_url) ?? str(meta.picture),
   };
+}
+
+const USERNAME_DOMAIN = 'users.frontier.invalid';
+/** Supabase password auth requires an email-shaped identifier. This alias is internal and never mailed or shown. */
+export function internalEmailFor(username: string): string {
+  return `${username.trim().toLowerCase()}@${USERNAME_DOMAIN}`;
+}
+
+export function usernameFromInternalEmail(email: string): string {
+  const suffix = `@${USERNAME_DOMAIN}`;
+  return email.toLowerCase().endsWith(suffix) ? email.slice(0, -suffix.length) : email.split('@')[0] ?? '';
 }
 
 export function toProfile(r: ProfileRow): Profile {
@@ -89,11 +99,6 @@ function toRow(s: SavedStory) {
   };
 }
 
-/** Where Supabase sends people back after Google: this exact page, no hash (the allow-list in the dashboard must list it). */
-export function siteRedirectUrl(): string {
-  return `${window.location.origin}${window.location.pathname}`;
-}
-
 /** Unwraps a Supabase `{ data, error }` result, throwing the mapped error. */
 function check<R extends { data: unknown; error: unknown }>(res: R): Exclude<R, { error: object }>['data'] {
   if (res.error) throw toAccountError(res.error);
@@ -105,10 +110,9 @@ export function createSupabaseBackend(cfg: AccountConfig, client?: SupabaseClien
     client ??
     createClient(cfg.url, cfg.key, {
       auth: {
-        flowType: 'pkce',
         persistSession: true,
         autoRefreshToken: true,
-        detectSessionInUrl: true,
+        detectSessionInUrl: false,
         storageKey: SESSION_STORAGE_KEY,
       },
     });
@@ -121,7 +125,6 @@ export function createSupabaseBackend(cfg: AccountConfig, client?: SupabaseClien
 
   return {
     kind: 'supabase',
-    googleEnabled: cfg.google,
 
     async currentUser() {
       let session: Session | null;
@@ -149,30 +152,24 @@ export function createSupabaseBackend(cfg: AccountConfig, client?: SupabaseClien
       return () => data.subscription.unsubscribe();
     },
 
-    async requestCode(email) {
+    async signUp(username, password) {
       try {
-        // shouldCreateUser stays true for both "sign in" and "create account": refusing unknown
-        // addresses would tell anyone whether an account exists.
-        check(await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: true, emailRedirectTo: siteRedirectUrl() } }));
-      } catch (err) {
-        throw toAccountError(err);
-      }
-    },
-
-    async verifyCode(email, code) {
-      try {
-        const data = check(await sb.auth.verifyOtp({ email, token: code, type: 'email' }));
-        if (!data.user) throw new AccountError('invalid_code');
+        const data = check(await sb.auth.signUp({ email: internalEmailFor(username), password }));
+        if (!data.user || !data.session) {
+          // Username accounts have no mailbox, so email confirmation must be disabled in Supabase.
+          throw new AccountError('method_disabled', 'Password signup requires email confirmation to be disabled.');
+        }
         return toUser(data.user);
       } catch (err) {
         throw toAccountError(err);
       }
     },
 
-    async signInWithGoogle() {
-      if (!cfg.google) throw new AccountError('method_disabled');
+    async signIn(username, password) {
       try {
-        check(await sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: siteRedirectUrl() } }));
+        const data = check(await sb.auth.signInWithPassword({ email: internalEmailFor(username), password }));
+        if (!data.user) throw new AccountError('invalid_credentials');
+        return toUser(data.user);
       } catch (err) {
         throw toAccountError(err);
       }

@@ -64,7 +64,7 @@ export function UserMenu({ route }: { route: Route }) {
   }
 
   const { user, profile } = account;
-  const name = displayNameOf(profile?.displayName ?? user.suggestedName, user.email);
+  const name = displayNameOf(profile?.displayName ?? user.suggestedName, user.username);
   const items: { key: string; to: string; icon: IconName; title: string; desc: string }[] = [
     { key: 'for-you', to: '/for-you', icon: 'sparkle', title: at('menu_for_you'), desc: at('menu_for_you_d') },
     { key: 'saved', to: '/saved', icon: 'bookmark', title: t('nav_saved'), desc: at('menu_saved_d') },
@@ -122,18 +122,18 @@ export function UserMenu({ route }: { route: Route }) {
           }
         }}
       >
-        <Avatar url={profile?.avatarUrl} name={name} email={user.email} size={34} />
+        <Avatar url={profile?.avatarUrl} name={name} email={user.username} size={34} />
       </button>
       {open && (
         <div className="user-panel" id="user-panel">
           <div className="user-panel-head">
-            <Avatar url={profile?.avatarUrl} name={name} email={user.email} size={40} />
+            <Avatar url={profile?.avatarUrl} name={name} email={user.username} size={40} />
             <div className="user-panel-id">
               <span className="user-panel-name" dir="auto">
                 {name}
               </span>
               <span className="user-panel-email" dir="ltr">
-                {user.email}
+                @{user.username}
               </span>
             </div>
           </div>

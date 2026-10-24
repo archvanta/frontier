@@ -1,7 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { snapshotOf } from '../bookmarks';
 import { useI18n } from '../i18n';
-import { navigate } from '../router';
 import type { Article } from '../types';
 import type { CompanyId, TopicId } from './catalog';
 import { ACCOUNT_CONFIG, mayHaveSession, type AccountConfig, type AccountMode } from './config';
@@ -32,14 +31,11 @@ export interface AccountValue {
   dataStatus: 'idle' | 'loading' | 'ready' | 'error';
   prefs: Preferences | null;
   saved: SavedStory[] | null;
-  googleEnabled: boolean;
   toast: AccountToast | null;
   /** Loads the account service early (sign-in screen) so the first click is instant. */
   prepare(): void;
-  requestCode(email: string): Promise<void>;
-  /** Verifies the code and loads the profile; returns where the reader should go next. */
-  verifyCode(email: string, code: string, next?: string): Promise<string>;
-  signInWithGoogle(next?: string): Promise<void>;
+  signUp(username: string, password: string, next?: string): Promise<string>;
+  signIn(username: string, password: string, next?: string): Promise<string>;
   signOut(everywhere?: boolean): Promise<void>;
   updateProfile(patch: ProfilePatch): Promise<Profile>;
   saveTopics(topics: TopicId[]): Promise<void>;
@@ -57,19 +53,17 @@ const notConfigured = () => Promise.reject(new AccountError('not_configured'));
 
 const OFF_VALUE: AccountValue = {
   mode: 'off',
-  config: { mode: 'off', url: '', key: '', google: false, problems: [] },
+  config: { mode: 'off', url: '', key: '', problems: [] },
   status: 'off',
   user: null,
   profile: null,
   dataStatus: 'idle',
   prefs: null,
   saved: null,
-  googleEnabled: false,
   toast: null,
   prepare: () => {},
-  requestCode: notConfigured,
-  verifyCode: notConfigured,
-  signInWithGoogle: notConfigured,
+  signUp: notConfigured,
+  signIn: notConfigured,
   signOut: notConfigured,
   updateProfile: notConfigured,
   saveTopics: notConfigured,
@@ -85,8 +79,6 @@ const OFF_VALUE: AccountValue = {
 
 const AccountContext = createContext<AccountValue>(OFF_VALUE);
 
-/** sessionStorage key for "where to go after Google sends the reader back". */
-const NEXT_KEY = 'signal-ai:auth-next';
 /** Profile language is applied once per browser session, so the header switch keeps working after that. */
 const LOCALE_APPLIED_KEY = 'signal-ai:profile-locale-applied';
 
@@ -140,7 +132,6 @@ export function AccountProvider({
   const [dataStatus, setDataStatus] = useState<AccountValue['dataStatus']>('idle');
   const [toast, setToast] = useState<AccountToast | null>(null);
   const [nonce, setNonce] = useState(0);
-  const [googleEnabled, setGoogleEnabled] = useState(injected ? injected.googleEnabled : config.google);
 
   const backendRef = useRef<Promise<AccountBackend> | null>(injected ? Promise.resolve(injected) : null);
   const loader = useMemo(() => defaultLoader(config), [config]);
@@ -189,7 +180,6 @@ export function AccountProvider({
       backendRef.current = p;
       p.then(
         (b) => {
-          setGoogleEnabled(b.googleEnabled);
           b.onChange((u) => applyUser(u));
         },
         () => {
@@ -205,7 +195,7 @@ export function AccountProvider({
     return injected.onChange((u) => applyUser(u));
   }, [injected, applyUser]);
 
-  // Restore a stored session (or finish a Google redirect) without flashing the signed-out UI.
+  // Restore a stored password session without flashing the signed-out UI.
   useEffect(() => {
     if (status !== 'restoring') return;
     let alive = true;
@@ -219,14 +209,6 @@ export function AccountProvider({
           setStatus('signed-out');
         },
       )
-      .finally(() => {
-        // Drop the one-time OAuth parameters from the address bar; the hash route stays.
-        if (/[?&](code|error|error_description)=/.test(window.location.search)) {
-          const oauthFailed = /[?&]error/.test(window.location.search);
-          history.replaceState(null, '', `${window.location.pathname}${window.location.hash}`);
-          if (oauthFailed && alive) showToast('oauth_failed', 'error');
-        }
-      });
     return () => {
       alive = false;
     };
@@ -248,11 +230,6 @@ export function AccountProvider({
           setPrefs(pr);
           setSaved(s);
           setDataStatus('ready');
-          const next = safeNext(session(NEXT_KEY));
-          if (next !== null) {
-            session(NEXT_KEY, null);
-            navigate(destinationFor(p, next));
-          }
         },
         (err: unknown) => {
           if (!alive) return;
@@ -301,24 +278,25 @@ export function AccountProvider({
       dataStatus,
       prefs,
       saved,
-      googleEnabled,
       toast,
       prepare: () => {
         if (mode !== 'off') void getBackend().catch(() => {});
       },
-      requestCode: (email) => run((b) => b.requestCode(email.trim().toLowerCase())),
-      verifyCode: (email, code, next) =>
+      signUp: (username, password, next) =>
         run(async (b) => {
-          const u = await b.verifyCode(email.trim().toLowerCase(), code);
+          const u = await b.signUp(username.trim().toLowerCase(), password);
           applyUser(u);
           const p = await b.getProfile();
           setProfile(p);
           return destinationFor(p, next);
         }),
-      signInWithGoogle: (next) =>
+      signIn: (username, password, next) =>
         run(async (b) => {
-          session(NEXT_KEY, safeNext(next) ?? '/for-you');
-          await b.signInWithGoogle();
+          const u = await b.signIn(username.trim().toLowerCase(), password);
+          applyUser(u);
+          const p = await b.getProfile();
+          setProfile(p);
+          return destinationFor(p, next);
         }),
       signOut: (everywhere) =>
         run(async (b) => {
@@ -397,7 +375,7 @@ export function AccountProvider({
       showToast,
       dismissToast: () => setToast(null),
     }),
-    [mode, config, status, user, profile, dataStatus, prefs, saved, googleEnabled, toast, getBackend, run, applyUser, clearAccountState, showToast],
+    [mode, config, status, user, profile, dataStatus, prefs, saved, toast, getBackend, run, applyUser, clearAccountState, showToast],
   );
 
   return <AccountContext.Provider value={value}>{children}</AccountContext.Provider>;

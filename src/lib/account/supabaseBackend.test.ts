@@ -7,7 +7,7 @@ import { createSupabaseBackend } from './supabaseBackend';
  * A recording stand-in for the Supabase client: every query builder call is logged, and each
  * chain resolves to the queued result for its table. No network is involved.
  */
-function fakeClient(results: Record<string, unknown[]> = {}, session: object | null = { user: { id: 'u1', email: 'a@x.test', app_metadata: {}, user_metadata: {} } }) {
+function fakeClient(results: Record<string, unknown[]> = {}, session: object | null = { user: { id: 'u1', email: 'ada@users.frontier.invalid', app_metadata: {}, user_metadata: {} } }) {
   const calls: { table: string; chain: [string, unknown[]][] }[] = [];
   const auth: [string, unknown][] = [];
   const builder = (table: string) => {
@@ -39,32 +39,32 @@ function fakeClient(results: Record<string, unknown[]> = {}, session: object | n
     auth: {
       getSession: async () => ({ data: { session }, error: null }),
       onAuthStateChange: () => ({ data: { subscription: { unsubscribe() {} } } }),
-      signInWithOtp: async (a: unknown) => (auth.push(['signInWithOtp', a]), { data: {}, error: null }),
-      verifyOtp: async (a: unknown) => (auth.push(['verifyOtp', a]), { data: { user: { id: 'u1', email: 'a@x.test', email_confirmed_at: 'x', app_metadata: { provider: 'email' }, user_metadata: {} } }, error: null }),
-      signInWithOAuth: async (a: unknown) => (auth.push(['signInWithOAuth', a]), { data: {}, error: null }),
+      signUp: async (a: unknown) => (auth.push(['signUp', a]), { data: { user: { id: 'u1', email: 'ada@users.frontier.invalid', app_metadata: { provider: 'email' }, user_metadata: {} }, session: {} }, error: null }),
+      signInWithPassword: async (a: unknown) => (auth.push(['signInWithPassword', a]), { data: { user: { id: 'u1', email: 'ada@users.frontier.invalid', app_metadata: { provider: 'email' }, user_metadata: {} }, session: {} }, error: null }),
       signOut: async (a: unknown) => (auth.push(['signOut', a]), { error: null }),
     },
   };
   return { client: client as unknown as SupabaseClient, calls, auth };
 }
 
-const cfg = resolveAccountConfig({ VITE_SUPABASE_URL: 'https://p.supabase.co', VITE_SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_x', VITE_SUPABASE_GOOGLE: 'true' }, 'live');
+const cfg = resolveAccountConfig({ VITE_SUPABASE_URL: 'https://p.supabase.co', VITE_SUPABASE_PUBLISHABLE_KEY: 'sb_publishable_x' }, 'live');
 
 describe('Supabase backend', () => {
-  it('requests email codes that work for new and existing users alike, and verifies as type "email"', async () => {
+  it('creates and signs in username/password accounts using an internal non-public email alias', async () => {
     const f = fakeClient();
     const b = createSupabaseBackend(cfg, f.client);
-    await b.requestCode('a@x.test');
-    const user = await b.verifyCode('a@x.test', '123456');
-    expect(f.auth[0]).toEqual(['signInWithOtp', { email: 'a@x.test', options: { shouldCreateUser: true, emailRedirectTo: expect.any(String) } }]);
-    expect(f.auth[1]).toEqual(['verifyOtp', { email: 'a@x.test', token: '123456', type: 'email' }]);
-    expect(user).toMatchObject({ id: 'u1', emailVerified: true, provider: 'email' });
+    const created = await b.signUp('ada', 'frontier-pass-123');
+    const signedIn = await b.signIn('ada', 'frontier-pass-123');
+    expect(f.auth[0]).toEqual(['signUp', { email: 'ada@users.frontier.invalid', password: 'frontier-pass-123' }]);
+    expect(f.auth[1]).toEqual(['signInWithPassword', { email: 'ada@users.frontier.invalid', password: 'frontier-pass-123' }]);
+    expect(created).toMatchObject({ id: 'u1', username: 'ada', provider: 'email' });
+    expect(signedIn).toMatchObject({ username: 'ada' });
   });
 
   it('maps an Auth error to a generic kind', async () => {
     const f = fakeClient();
-    f.client.auth.verifyOtp = (async () => ({ data: { user: null, session: null }, error: { name: 'AuthApiError', status: 403, code: 'otp_expired', message: 'Token has expired or is invalid' } })) as never;
-    await expect(createSupabaseBackend(cfg, f.client).verifyCode('a@x.test', '000000')).rejects.toMatchObject({ kind: 'invalid_code' });
+    f.client.auth.signInWithPassword = (async () => ({ data: { user: null, session: null }, error: { name: 'AuthApiError', status: 400, code: 'invalid_credentials', message: 'Invalid login credentials' } })) as never;
+    await expect(createSupabaseBackend(cfg, f.client).signIn('ada', 'wrong-pass')).rejects.toMatchObject({ kind: 'invalid_credentials' });
   });
 
   it('never sends a user id in rows it writes; RLS and column defaults supply it', async () => {

@@ -53,7 +53,7 @@ python -m signal_pipeline collect --out ../public/data --no-translate --no-og
 - **Sources:** feeds change or break; a failing source is recorded and skipped without stopping the run. Some publishers have no RSS (Anthropic is read through a community mirror, see `docs/SOURCE-REGISTER.md`).
 - **Ranking** is a deterministic editorial signal (source tier, independent coverage, recency, topic, novelty), not a truth rating or popularity count. See `docs/ARCHITECTURE.md#ranking-phase-6`.
 - **Translation** is offline machine translation (Argos Translate en→fa) and can be wrong; the original English and the source link are always shown.
-- **Accounts are optional and off until set up.** Sign-in (email code, optional Google), interests, a personal *For You* page and account bookmarks use a free Supabase project the owner creates; until then the sign-in screen says accounts are not set up and everything else works as before. Steps: `docs/AUTH-SETUP.md`; design and security: `docs/ACCOUNTS.md`.
+- **Accounts are optional and off until set up.** Username/password sign-in, interests, a personal *For You* page and account bookmarks use Supabase Auth and Postgres; no reader email is collected. Until configured, everything else works as before. Steps: `docs/AUTH-SETUP.md`; design and security: `docs/ACCOUNTS.md`.
 - **Images:** publisher images are linked, not copied; a story without one shows a category graphic. Fixed, unofficial character illustrations for Claude, OpenAI and Gemini stories are in `public/images/ai-brands/` but currently switched off (`BRAND_ART_ENABLED` in `pipeline/signal_pipeline/config.py`).
 
 ## Project docs

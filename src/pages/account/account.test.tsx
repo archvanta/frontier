@@ -2,20 +2,23 @@ import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testi
 import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { App } from '../../App';
 import { createMockBackend } from '../../lib/account/mockBackend';
-import { MOCK_CODE, MOCK_SESSION_KEY } from '../../lib/account/config';
+import { MOCK_SESSION_KEY } from '../../lib/account/config';
 import type { AccountBackend } from '../../lib/account/types';
 import { _resetBookmarkCache, readBookmarks, toggleBookmark } from '../../lib/bookmarks';
 import { createDataSource } from '../../lib/data';
 import { I18nProvider } from '../../lib/i18n';
 import type { Article, Locale } from '../../lib/types';
 
-const PENDING_KEY = 'signal-ai:otp-pending';
+const TEST_PASSWORD = 'frontier-pass-123';
 
 function renderApp(hash: string, backend?: AccountBackend, locale: Locale = 'en') {
   window.location.hash = hash;
+  const account = backend
+    ? { backend }
+    : { config: { mode: 'off' as const, url: '', key: '', problems: ['VITE_SUPABASE_URL', 'VITE_SUPABASE_PUBLISHABLE_KEY'] } };
   return render(
     <I18nProvider initial={locale}>
-      <App source={createDataSource('mock', new Date())} account={backend ? { backend } : undefined} />
+      <App source={createDataSource('mock', new Date())} account={account} />
     </I18nProvider>,
   );
 }
@@ -28,17 +31,20 @@ async function go(hash: string) {
 }
 
 /** Signs a user in directly through the mock service (as if they had used the code screen earlier). */
-async function signedInBackend(email = 'ada@example.com', setup?: (b: AccountBackend) => Promise<void>) {
+async function signedInBackend(username = 'ada', setup?: (b: AccountBackend) => Promise<void>) {
   const b = createMockBackend();
-  await b.requestCode(email);
-  await b.verifyCode(email, MOCK_CODE);
+  try {
+    await b.signUp(username, TEST_PASSWORD);
+  } catch {
+    await b.signIn(username, TEST_PASSWORD);
+  }
   await setup?.(b);
   return b;
 }
 
-const typeEmail = (value: string) => fireEvent.change(screen.getByLabelText('Email address'), { target: { value } });
-const sendCode = () => fireEvent.click(screen.getByRole('button', { name: 'Send code' }));
-const typeCode = (value: string) => fireEvent.change(screen.getByLabelText('Verification code'), { target: { value } });
+const typeUsername = (value: string) => fireEvent.change(screen.getByLabelText('Username'), { target: { value } });
+const typePassword = (value: string) => fireEvent.change(screen.getByLabelText('Password'), { target: { value } });
+const submitAuth = (name: string) => fireEvent.click(screen.getByRole('button', { name }));
 
 beforeEach(() => {
   window.localStorage.clear();
@@ -73,94 +79,45 @@ describe('public browsing', () => {
   });
 });
 
-describe('email code sign-in', () => {
-  it('requests a code, rejects a wrong one, then signs a new user into onboarding', async () => {
+describe('username and password sign-in', () => {
+  it('creates an account, validates credentials and opens onboarding', async () => {
     const backend = createMockBackend();
-    renderApp('#/signin', backend);
-    await screen.findByRole('heading', { name: 'Sign in to FRONTIER' });
+    renderApp('#/signin?mode=create', backend);
+    typeUsername('bad name');
+    typePassword(TEST_PASSWORD);
+    submitAuth('Create account');
+    expect(await screen.findByRole('alert')).toHaveTextContent('Use 3–24 lowercase letters');
 
-    typeEmail('not-an-email');
-    sendCode();
-    expect(await screen.findByRole('alert')).toHaveTextContent('Enter a valid email address.');
+    typeUsername('ada');
+    typePassword('short');
+    submitAuth('Create account');
+    expect(await screen.findByRole('alert')).toHaveTextContent('at least 8 characters');
 
-    typeEmail('Ada@Example.com');
-    sendCode();
-    expect(await screen.findByRole('heading', { name: 'Check your email' })).toBeInTheDocument();
-    expect(screen.getByText(/a••@example\.com/)).toBeInTheDocument();
-    expect(screen.getByText(/Resend code in/)).toBeInTheDocument();
-    expect(screen.queryByRole('button', { name: 'Resend code' })).not.toBeInTheDocument();
-
-    typeCode('654321');
-    expect(await screen.findByRole('alert')).toHaveTextContent('That code didn’t work');
-
-    typeCode(MOCK_CODE);
+    typePassword(TEST_PASSWORD);
+    submitAuth('Create account');
     await waitFor(() => expect(window.location.hash).toBe('#/welcome'));
     expect(await screen.findByTestId('onboarding')).toHaveAttribute('data-step', '1');
-    expect(window.sessionStorage.getItem(PENDING_KEY)).toBeNull();
-    expect(screen.getByRole('button', { name: /Account menu/ })).toBeInTheDocument();
   });
 
-  it('accepts digits typed on a Persian keyboard', async () => {
-    renderApp('#/signin', createMockBackend());
-    typeEmail('ada@example.com');
-    sendCode();
-    await screen.findByRole('heading', { name: 'Check your email' });
-    typeCode('۱۲۳۴۵۶');
+  it('rejects a wrong password and signs in with the saved password', async () => {
+    const backend = await signedInBackend();
+    await backend.signOut();
+    renderApp('#/signin', backend);
+    typeUsername('ada');
+    typePassword('wrong-pass');
+    submitAuth('Sign in');
+    expect(await screen.findByRole('alert')).toHaveTextContent('username or password is incorrect');
+    typePassword(TEST_PASSWORD);
+    submitAuth('Sign in');
     await waitFor(() => expect(window.location.hash).toBe('#/welcome'));
   });
 
-  it('lets the reader change the address before verifying', async () => {
-    renderApp('#/signin', createMockBackend());
-    typeEmail('typo@example.com');
-    sendCode();
-    await screen.findByRole('heading', { name: 'Check your email' });
-    fireEvent.click(screen.getByRole('button', { name: 'Change email' }));
-    expect(await screen.findByLabelText('Email address')).toHaveValue('typo@example.com');
-    expect(window.sessionStorage.getItem(PENDING_KEY)).toBeNull();
-  });
-
-  it('keeps the code screen across a reload and explains an expired code', async () => {
-    window.sessionStorage.setItem(PENDING_KEY, JSON.stringify({ email: 'ada@example.com', sentAt: Date.now() - 11 * 60_000 }));
-    renderApp('#/signin', createMockBackend());
-    expect(await screen.findByRole('heading', { name: 'Check your email' })).toBeInTheDocument();
-    typeCode(MOCK_CODE);
-    expect(await screen.findByRole('alert')).toHaveTextContent('This code has expired. Request a new one.');
-  });
-
-  it('offers resend only after the cooldown, and confirms a new code', async () => {
-    window.sessionStorage.setItem(PENDING_KEY, JSON.stringify({ email: 'ada@example.com', sentAt: Date.now() - 61_000 }));
-    renderApp('#/signin', createMockBackend());
-    fireEvent.click(await screen.findByRole('button', { name: 'Resend code' }));
-    expect(await screen.findByText('A new code is on its way.')).toBeInTheDocument();
-    expect(screen.getByText(/Resend code in/)).toBeInTheDocument();
-  });
-
-  it.each([
-    ['ratelimit@example.com', 'Too many attempts'],
-    ['offline@example.com', 'Couldn’t reach the sign-in service'],
-    ['blocked@example.com', 'email delivery is still being set up'],
-  ])('shows a clear message for %s', async (email, text) => {
-    renderApp('#/signin', createMockBackend());
-    typeEmail(email);
-    sendCode();
-    expect(await screen.findByRole('alert')).toHaveTextContent(text);
-    expect(screen.queryByRole('heading', { name: 'Check your email' })).not.toBeInTheDocument();
-  });
-
-  it('labels mock mode and never claims an email was sent for real', async () => {
-    renderApp('#/signin', createMockBackend());
-    expect(await screen.findByText(/Mock mode: no email is sent/)).toHaveAttribute('role', 'note');
-  });
-
-  it('renders right-to-left in Persian while email and code stay left-to-right', async () => {
+  it('renders RTL while credential inputs stay LTR', async () => {
     renderApp('#/signin', createMockBackend(), 'fa');
     expect(await screen.findByRole('heading', { name: 'ورود به فرانتیر' })).toBeInTheDocument();
     expect(document.documentElement.dir).toBe('rtl');
-    expect(screen.getByLabelText('نشانی ایمیل')).toHaveAttribute('dir', 'ltr');
-    fireEvent.change(screen.getByLabelText('نشانی ایمیل'), { target: { value: 'ada@example.com' } });
-    fireEvent.click(screen.getByRole('button', { name: 'ارسال کد' }));
-    const code = await screen.findByLabelText('کد تأیید');
-    expect(code.closest('.otp')).toHaveAttribute('dir', 'ltr');
+    expect(screen.getByLabelText('نام کاربری')).toHaveAttribute('dir', 'ltr');
+    expect(screen.getByLabelText('رمز عبور')).toHaveAttribute('dir', 'ltr');
   });
 });
 
@@ -172,11 +129,11 @@ describe('sessions', () => {
     expect(await screen.findByRole('button', { name: /Account menu/ })).toBeInTheDocument();
     view.unmount();
     renderApp('#/account', createMockBackend());
-    expect(await screen.findByText('ada@example.com', { selector: '.acct-email span' })).toBeInTheDocument();
+    expect(await screen.findByText('@ada', { selector: '.acct-email span' })).toBeInTheDocument();
   });
 
   it('signs out, forgets the session and falls back to local bookmarks', async () => {
-    const backend = await signedInBackend('ada@example.com', async (b) => {
+    const backend = await signedInBackend('ada', async (b) => {
       await b.addSaved([{ id: 'abcdef12', day: '2026-10-20', title: 'Cloud story', sourceName: 'S', url: 'https://example.com/c', publishedAt: '', savedAt: '' }]);
     });
     renderApp('#/saved', backend);
@@ -250,17 +207,17 @@ describe('profile and onboarding', () => {
   });
 
   it('keeps the reader’s language for a new account and applies the saved one for a returning account', async () => {
-    const view = renderApp('#/signin', createMockBackend(), 'fa');
-    fireEvent.change(await screen.findByLabelText('نشانی ایمیل'), { target: { value: 'new@example.com' } });
-    fireEvent.click(screen.getByRole('button', { name: 'ارسال کد' }));
-    fireEvent.change(await screen.findByLabelText('کد تأیید'), { target: { value: MOCK_CODE } });
+    const view = renderApp('#/signin?mode=create', createMockBackend(), 'fa');
+    fireEvent.change(await screen.findByLabelText('نام کاربری'), { target: { value: 'newuser' } });
+    fireEvent.change(screen.getByLabelText('رمز عبور'), { target: { value: TEST_PASSWORD } });
+    fireEvent.click(screen.getByRole('button', { name: 'ساخت حساب' }));
     await waitFor(() => expect(window.location.hash).toBe('#/welcome'));
     await screen.findByTestId('onboarding');
     expect(document.documentElement.lang).toBe('fa');
     view.unmount();
     window.sessionStorage.clear();
 
-    const returning = await signedInBackend('fa@example.com', async (b) => {
+    const returning = await signedInBackend('fauser', async (b) => {
       await b.updateProfile({ locale: 'fa', onboardingStep: 4, onboardingCompletedAt: new Date().toISOString() });
     });
     renderApp('#/', returning, 'en');
@@ -269,15 +226,13 @@ describe('profile and onboarding', () => {
 
   it('sends returning users straight to their dashboard', async () => {
     const backend = createMockBackend();
-    await backend.requestCode('ada@example.com');
-    await backend.verifyCode('ada@example.com', MOCK_CODE);
+    await backend.signUp('ada', TEST_PASSWORD);
     await backend.updateProfile({ onboardingStep: 4, onboardingCompletedAt: new Date().toISOString() });
     await backend.signOut();
     renderApp('#/signin', backend);
-    typeEmail('ada@example.com');
-    sendCode();
-    await screen.findByRole('heading', { name: 'Check your email' });
-    typeCode(MOCK_CODE);
+    typeUsername('ada');
+    typePassword(TEST_PASSWORD);
+    submitAuth('Sign in');
     await waitFor(() => expect(window.location.hash).toBe('#/for-you'));
   });
 
@@ -298,13 +253,13 @@ describe('profile and onboarding', () => {
     await waitFor(async () => expect((await backend.getPreferences()).companies).toEqual(['nvidia']));
   });
 
-  it('deletes the account only after the email is typed', async () => {
+  it('deletes the account only after the username is typed', async () => {
     const backend = await signedInBackend();
     renderApp('#/account', backend);
     fireEvent.click(await screen.findByRole('button', { name: 'Delete account…' }));
     const go = screen.getByRole('button', { name: 'Delete my account permanently' });
     expect(go).toBeDisabled();
-    fireEvent.change(screen.getByLabelText('Type your email address to confirm'), { target: { value: 'ada@example.com' } });
+    fireEvent.change(screen.getByLabelText('Type your username to confirm'), { target: { value: 'ada' } });
     fireEvent.click(go);
     await waitFor(() => expect(window.location.hash).toBe('#/'));
     expect(await screen.findByRole('link', { name: 'Sign in' })).toBeInTheDocument();
@@ -314,7 +269,7 @@ describe('profile and onboarding', () => {
 
 describe('personal feed', () => {
   it('ranks stories for the reader and explains why', async () => {
-    const backend = await signedInBackend('ada@example.com', async (b) => {
+    const backend = await signedInBackend('ada', async (b) => {
       await b.updateProfile({ displayName: 'Ada', onboardingStep: 4, onboardingCompletedAt: new Date().toISOString() });
       await b.saveCompanies(['openai']);
       await b.saveTopics(['research']);

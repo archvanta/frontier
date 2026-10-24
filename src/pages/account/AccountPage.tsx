@@ -91,7 +91,7 @@ function AccountSettings() {
   const companySaver = useSaver();
   const nameOk = name.trim().length <= 60;
   const avatarOk = isValidAvatarUrl(avatar.trim());
-  const shown = displayNameOf(profile.displayName, user.email);
+  const shown = displayNameOf(profile.displayName, user.username);
 
   const saveProfile = (e: FormEvent) => {
     e.preventDefault();
@@ -118,21 +118,17 @@ function AccountSettings() {
   return (
     <div className="account-grid">
       <section className="acct-card acct-identity" aria-labelledby={`${uid}-id`}>
-        <Avatar url={profile.avatarUrl} name={shown} email={user.email} size={64} />
+        <Avatar url={profile.avatarUrl} name={shown} email={user.username} size={64} />
         <div className="acct-identity-text">
           <h2 id={`${uid}-id`} className="acct-name" dir="auto">
             {shown}
           </h2>
           <p className="acct-email">
             <span className="visually-hidden">{at('acct_email')}: </span>
-            <span dir="ltr">{user.email}</span>{' '}
-            <span className={`acct-badge ${user.emailVerified ? 'is-ok' : ''}`}>
-              {user.emailVerified && <Icon name="check" size={12} />}
-              {user.emailVerified ? at('acct_verified') : at('acct_unverified')}
-            </span>
+            <span dir="ltr">@{user.username}</span>
           </p>
           <p className="acct-meta">
-            {user.provider === 'google' ? at('acct_method_google') : at('acct_method_email')}
+            {at('acct_method_email')}
             <span aria-hidden="true"> · </span>
             {at('acct_member_since')} <time dateTime={profile.createdAt}>{formatDateTime(profile.createdAt, locale)}</time>
           </p>
@@ -295,7 +291,7 @@ function AccountSettings() {
             className="acct-form"
             onSubmit={(e) => {
               e.preventDefault();
-              if (confirm.trim().toLowerCase() === user.email.toLowerCase()) void deleteAccount();
+              if (confirm.trim().toLowerCase() === user.username.toLowerCase()) void deleteAccount();
             }}
           >
             <div className="field">
@@ -305,7 +301,7 @@ function AccountSettings() {
               <input
                 id={`${uid}-confirm`}
                 className="auth-input"
-                type="email"
+                type="text"
                 dir="ltr"
                 autoComplete="off"
                 value={confirm}
@@ -318,7 +314,7 @@ function AccountSettings() {
               </p>
             )}
             <div className="acct-actions">
-              <button type="submit" className="btn is-danger" disabled={deleting === 'busy' || confirm.trim().toLowerCase() !== user.email.toLowerCase()}>
+              <button type="submit" className="btn is-danger" disabled={deleting === 'busy' || confirm.trim().toLowerCase() !== user.username.toLowerCase()}>
                 {deleting === 'busy' ? at('acct_deleting') : at('acct_delete_go')}
               </button>
               <button

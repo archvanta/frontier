@@ -66,7 +66,7 @@ function Section({ id, title, children, action }: { id: string; title: string; c
 export function ForYouPage({ now }: { now: Date }) {
   const at = useAccountText();
   const account = useAccount();
-  const name = account.user ? displayNameOf(account.profile?.displayName ?? account.user.suggestedName, account.user.email) : '';
+  const name = account.user ? displayNameOf(account.profile?.displayName ?? account.user.suggestedName, account.user.username) : '';
   return (
     <div className="page for-you">
       <header className="page-head">

@@ -1,7 +1,7 @@
 import { AccountError, type AccountErrorKind } from './types';
 
-const RATE_LIMIT = new Set(['over_email_send_rate_limit', 'over_request_rate_limit', 'over_sms_send_rate_limit']);
-const DISABLED = new Set(['email_provider_disabled', 'otp_disabled', 'provider_disabled', 'signup_disabled', 'oauth_provider_not_supported']);
+const RATE_LIMIT = new Set(['over_request_rate_limit']);
+const DISABLED = new Set(['email_provider_disabled', 'provider_disabled', 'signup_disabled']);
 
 interface ErrorLike {
   name?: unknown;
@@ -26,12 +26,14 @@ export function toAccountError(err: unknown): AccountError {
     kind = 'network';
   } else if (RATE_LIMIT.has(code) || status === 429) {
     kind = 'rate_limited';
-  } else if (code === 'otp_expired' || /token has expired or is invalid/i.test(message)) {
-    kind = 'invalid_code';
+  } else if (code === 'invalid_credentials' || /invalid login credentials/i.test(message)) {
+    kind = 'invalid_credentials';
+  } else if (code === 'weak_password' || /password should be at least|weak password/i.test(message)) {
+    kind = 'invalid_password';
+  } else if (code === 'user_already_exists' || /already registered|already exists/i.test(message)) {
+    kind = 'username_taken';
   } else if (code === 'email_address_invalid' || (code === 'validation_failed' && /email/i.test(message))) {
-    kind = 'invalid_email';
-  } else if (code === 'email_address_not_authorized') {
-    kind = 'delivery_restricted';
+    kind = 'invalid_username';
   } else if (DISABLED.has(code)) {
     kind = 'method_disabled';
   } else if (name === 'AuthSessionMissingError' || code === 'session_not_found' || code === 'PGRST301' || status === 401) {

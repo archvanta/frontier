@@ -1,19 +1,18 @@
 import type { Locale } from '../types';
 import type { CompanyId, TopicId } from './catalog';
-import { CODE_LENGTH, MOCK_CODE, MOCK_SESSION_KEY } from './config';
+import { MOCK_SESSION_KEY } from './config';
 import { AccountError, type AccountBackend, type AccountUser, type AuthChangeReason, type Preferences, type Profile, type SavedStory } from './types';
 
 /**
  * In-browser stand-in for Supabase, used only by the clearly labelled mock build and by tests.
- * No email is sent: the code is always MOCK_CODE. Data lives in localStorage on this device.
- * Test hooks: an address containing "ratelimit" is rate limited, one containing "offline" fails
- * like a dropped connection, and "blocked" behaves like the default Supabase mailer refusing it.
+ * Data lives in localStorage on this device. Passwords here exist only in the labelled mock build;
+ * production credentials are handled and hashed by Supabase Auth.
  */
-export { MOCK_CODE };
 const DB_KEY = 'signal-ai:mock-accounts:v1';
 const SESSION_KEY = MOCK_SESSION_KEY;
 
 interface MockUserRecord {
+  password: string;
   user: AccountUser;
   profile: Profile;
   prefs: Preferences;
@@ -42,16 +41,15 @@ function store(key: string, value: unknown) {
 
 const sleep = (ms: number) => (ms > 0 ? new Promise((r) => setTimeout(r, ms)) : Promise.resolve());
 
-function idFor(email: string): string {
+function idFor(username: string): string {
   let h = 0;
-  for (const ch of email) h = (Math.imul(h, 31) + ch.charCodeAt(0)) >>> 0;
+  for (const ch of username) h = (Math.imul(h, 31) + ch.charCodeAt(0)) >>> 0;
   return `00000000-0000-4000-8000-${h.toString(16).padStart(12, '0').slice(-12)}`;
 }
 
 export interface MockOptions {
   /** Artificial latency in ms (0 in unit tests). */
   latency?: number;
-  googleEnabled?: boolean;
   now?: () => Date;
 }
 
@@ -59,32 +57,29 @@ export function createMockBackend(opts: MockOptions = {}): AccountBackend {
   const latency = opts.latency ?? 0;
   const now = opts.now ?? (() => new Date());
   const listeners = new Set<(u: AccountUser | null, r: AuthChangeReason) => void>();
-  const pending = new Map<string, number>();
-
   const db = (): MockDb => load<MockDb>(DB_KEY, {});
   const session = (): string | null => load<string | null>(SESSION_KEY, null);
   const emit = (u: AccountUser | null, r: AuthChangeReason) => listeners.forEach((l) => l(u, r));
 
   const me = (): MockUserRecord => {
-    const email = session();
-    const rec = email ? db()[email] : undefined;
+    const username = session();
+    const rec = username ? db()[username] : undefined;
     if (!rec) throw new AccountError('not_signed_in');
     return rec;
   };
   const save = (rec: MockUserRecord) => {
     const all = db();
-    all[rec.user.email] = rec;
+    all[rec.user.username] = rec;
     store(DB_KEY, all);
   };
 
   return {
     kind: 'mock',
-    googleEnabled: opts.googleEnabled ?? false,
 
     async currentUser() {
       await sleep(latency);
-      const email = session();
-      return (email && db()[email]?.user) || null;
+      const username = session();
+      return (username && db()[username]?.user) || null;
     },
 
     onChange(cb) {
@@ -92,27 +87,20 @@ export function createMockBackend(opts: MockOptions = {}): AccountBackend {
       return () => listeners.delete(cb);
     },
 
-    async requestCode(email) {
+    async signUp(username, password) {
       await sleep(latency);
-      if (email.includes('offline')) throw new AccountError('network');
-      if (email.includes('ratelimit')) throw new AccountError('rate_limited');
-      if (email.includes('blocked')) throw new AccountError('delivery_restricted');
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) throw new AccountError('invalid_email');
-      pending.set(email, now().getTime());
-    },
-
-    async verifyCode(email, code) {
-      await sleep(latency);
-      if (email.includes('offline')) throw new AccountError('network');
-      if (!pending.has(email) || code.length !== CODE_LENGTH || code !== MOCK_CODE) throw new AccountError('invalid_code');
-      pending.delete(email);
+      if (username.includes('offline')) throw new AccountError('network');
+      if (!/^[a-z0-9][a-z0-9._-]{2,23}$/.test(username)) throw new AccountError('invalid_username');
+      if (password.length < 8) throw new AccountError('invalid_password');
       const all = db();
+      if (all[username]) throw new AccountError('username_taken');
       const at = now().toISOString();
-      const rec: MockUserRecord = all[email] ?? {
-        user: { id: idFor(email), email, emailVerified: true, provider: 'email', lastSignInAt: at, suggestedName: null, suggestedAvatar: null },
+      const rec: MockUserRecord = {
+        password,
+        user: { id: idFor(username), username, provider: 'email', lastSignInAt: at, suggestedName: null, suggestedAvatar: null },
         profile: {
-          id: idFor(email),
-          email,
+          id: idFor(username),
+          email: null,
           displayName: null,
           avatarUrl: null,
           locale: 'en' as Locale,
@@ -124,15 +112,22 @@ export function createMockBackend(opts: MockOptions = {}): AccountBackend {
         prefs: { topics: [], companies: [] },
         saved: [],
       };
-      rec.user = { ...rec.user, lastSignInAt: at };
       save(rec);
-      store(SESSION_KEY, email);
+      store(SESSION_KEY, username);
       emit(rec.user, 'signed_in');
       return rec.user;
     },
 
-    async signInWithGoogle() {
-      throw new AccountError('method_disabled');
+    async signIn(username, password) {
+      await sleep(latency);
+      if (username.includes('offline')) throw new AccountError('network');
+      const rec = db()[username];
+      if (!rec || rec.password !== password) throw new AccountError('invalid_credentials');
+      rec.user = { ...rec.user, lastSignInAt: now().toISOString() };
+      save(rec);
+      store(SESSION_KEY, username);
+      emit(rec.user, 'signed_in');
+      return rec.user;
     },
 
     async signOut() {
@@ -208,7 +203,7 @@ export function createMockBackend(opts: MockOptions = {}): AccountBackend {
       await sleep(latency);
       const rec = me();
       const all = db();
-      delete all[rec.user.email];
+      delete all[rec.user.username];
       store(DB_KEY, all);
       store(SESSION_KEY, null);
       emit(null, 'signed_out');

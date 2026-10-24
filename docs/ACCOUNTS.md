@@ -9,24 +9,23 @@ bookmarks keep working for everyone, signed in or not. Setup steps: [AUTH-SETUP.
 GitHub Pages (static React app, hash routes)
    │  publishable key only, loaded on demand
    ▼
-Supabase Auth (email one-time codes, optional Google OAuth, sessions, refresh)
+Supabase Auth (username/password through internal non-mail aliases, sessions, refresh)
 Supabase Postgres (profiles, preferences, follows, bookmarks; RLS on every table)
 ```
 
 - The SDK (`@supabase/supabase-js`) is a separate chunk. It is fetched only when the browser holds a
-  session, returns from Google, or the reader opens **Sign in**. Visitors without an account
-  download nothing extra.
-- Build variables `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`, `VITE_SUPABASE_GOOGLE`
+  session or the reader opens **Sign in**. Visitors without an account download nothing extra.
+- Build variables `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY`
   come from GitHub Actions **variables** (`deploy.yml`). Without them the account screens explain
   that accounts are not set up. A secret or `service_role` key fails the build.
 - The production CSP allows `connect-src` to the configured Supabase origin only.
-- The mock build (`npm run build:mock`) uses a labelled in-browser service (`mockBackend.ts`, code
-  `123456`, no email) so unit and e2e tests never need email or a network. It is compiled out of
+- The mock build (`npm run build:mock`) uses a labelled in-browser service (`mockBackend.ts`) so
+  unit and e2e tests never need a network. It is compiled out of
   production builds.
 
 | Route | Screen | Needs account |
 | --- | --- | --- |
-| `#/signin` (`?mode=create`, `?next=/saved`) | email → 6-digit code | no |
+| `#/signin` (`?mode=create`, `?next=/saved`) | username + password | no |
 | `#/welcome` | onboarding: name + language, topics, companies, review | yes |
 | `#/for-you` | personal dashboard | yes |
 | `#/account` | profile, interests, follows, saved count, privacy, sign out, delete | yes |
@@ -38,20 +37,18 @@ stories), `src/components/account/`, `src/pages/account/`, `src/styles/account.c
 
 ## Sign-in flow
 
-1. Email → `signInWithOtp({ shouldCreateUser: true })`. "Sign in" and "Create account" call the same
-   thing on purpose: refusing unknown addresses would reveal which addresses have accounts.
-2. Six-digit code → `verifyOtp({ type: 'email' })`. One real input (paste, autofill,
-   `autocomplete="one-time-code"`, Persian digits accepted) drawn as six cells, always left to right.
-3. The profile row is read (created by a database trigger, or by the app if the trigger did not).
+1. Readers choose a lowercase username (3–24 characters) and a password of at least 8 characters.
+2. The app turns the username into a fixed internal `@users.frontier.invalid` alias because
+   Supabase password auth requires an email-shaped identifier. The alias is never shown or mailed.
+3. Registration uses `signUp`; returning readers use `signInWithPassword`. Supabase hashes and
+   verifies passwords—the application database and browser never receive the stored password.
+4. The profile row is read (created by a database trigger, or by the app if the trigger did not).
    New accounts go to onboarding; finished ones go to `next` or For You.
-4. Resend waits 60 s. Wrong and expired codes get separate messages (Supabase reports both the same
-   way, so "expired" is shown once the 10-minute lifetime has passed). Rate-limit, network,
-   delivery-restricted and method-disabled errors each have their own message.
 5. Sessions persist in `localStorage` (`signal-ai:auth`) and refresh automatically. While a stored
    session restores, the header shows a neutral placeholder rather than flashing "Sign in". If a
    session ends by itself (refresh token expired or revoked), a notice says so.
-6. Google uses the PKCE flow and returns to the site URL; it is a separate button and never claims
-   to send a code.
+6. No real email address is collected, so there is no email-based password recovery. The UI says
+   this clearly and asks readers to keep their credentials safe.
 
 ## Database
 
@@ -59,7 +56,7 @@ Migration: `supabase/migrations/20261020000000_accounts.sql`.
 
 | Table | Key | Notes |
 | --- | --- | --- |
-| `profiles` | `id` → `auth.users` (cascade) | `email` (copied by trigger, read-only to clients), `display_name` ≤ 60, `avatar_url` https only ≤ 500, `locale` en/fa, `onboarding_step` 0–4, `onboarding_completed_at`, `created_at`, `updated_at` |
+| `profiles` | `id` → `auth.users` (cascade) | internal auth alias (read-only), `display_name` ≤ 60, `avatar_url` https only ≤ 500, `locale` en/fa, `onboarding_step` 0–4, `onboarding_completed_at`, `created_at`, `updated_at` |
 | `user_preferences` | `user_id` → `auth.users` | `topics text[]` limited to the ten known topic ids |
 | `user_followed_companies` | (`user_id`, `company_id`) | one row per followed company, ids checked |
 | `user_bookmarks` | identity; unique (`user_id`, `article_id`) | attribution snapshot (title, source, link, date) so saved stories survive archive changes; max 1,000 per user |
@@ -69,7 +66,7 @@ Migration: `supabase/migrations/20261020000000_accounts.sql`.
   bookmarks); `anon` gets nothing.
 - `public.delete_my_account()` (security definer) deletes `auth.users` where `id = auth.uid()`;
   everything cascades.
-- Verification codes, passwords and session secrets exist only inside Supabase Auth.
+- Password hashes and session secrets exist only inside Supabase Auth.
 
 ## Personal ranking
 
@@ -142,4 +139,4 @@ appear in the bundle on purpose, as part of the guard that refuses such keys.
 ## Privacy
 
 What is stored, what never is, and the reader's controls are written out on `#/privacy` in both
-languages. No analytics, tracking or ad scripts; email is used only to send sign-in codes.
+languages. No analytics, tracking or ad scripts. The site does not collect an email address.

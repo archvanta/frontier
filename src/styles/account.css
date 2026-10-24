@@ -281,8 +281,23 @@ input[dir='ltr'].auth-input {
   text-align: left;
 }
 
-.auth-submit,
-.auth-google {
+.auth-password-wrap {
+  position: relative;
+}
+
+.auth-password-wrap .auth-input {
+  padding-inline-end: 5rem;
+}
+
+.auth-password-toggle {
+  position: absolute;
+  inset-inline-end: 1rem;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+}
+
+.auth-submit {
   inline-size: 100%;
   min-block-size: 52px;
   border-radius: 999px;
@@ -290,35 +305,11 @@ input[dir='ltr'].auth-input {
 }
 
 .auth-submit[disabled],
-.auth-google[disabled],
 .acct-actions .btn[disabled],
 .ob-actions .btn[disabled],
 .merge-actions .btn[disabled] {
   opacity: 0.6;
   cursor: progress;
-}
-
-.auth-google .google-mark {
-  flex: none;
-}
-
-.auth-or {
-  display: flex;
-  align-items: center;
-  gap: var(--s-3);
-  inline-size: 100%;
-  color: var(--text-3);
-  font-size: var(--fs-xs);
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-}
-
-.auth-or::before,
-.auth-or::after {
-  content: '';
-  flex: 1;
-  block-size: 1px;
-  background: var(--line);
 }
 
 .auth-fine {
@@ -327,8 +318,7 @@ input[dir='ltr'].auth-input {
   max-inline-size: 36ch;
 }
 
-.auth-switch,
-.auth-resend {
+.auth-switch {
   font-size: var(--fs-sm);
   color: var(--text-2);
 }
@@ -391,66 +381,6 @@ input[dir='ltr'].auth-input {
 .field-help {
   font-size: var(--fs-xs);
   color: var(--text-3);
-}
-
-/* ---------- Six-digit code ---------- */
-.otp {
-  position: relative;
-  inline-size: 100%;
-}
-
-.otp-input {
-  position: absolute;
-  inset: 0;
-  inline-size: 100%;
-  block-size: 100%;
-  border: 0;
-  background: transparent;
-  color: transparent;
-  caret-color: transparent;
-  font-size: 1px;
-  opacity: 0.01;
-  cursor: text;
-}
-
-.otp-input:focus-visible {
-  box-shadow: none;
-}
-
-.otp-cells {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: clamp(0.35rem, 1.5vw, 0.6rem);
-}
-
-.otp-cell {
-  display: grid;
-  place-items: center;
-  block-size: clamp(50px, 13vw, 60px);
-  border: 1px solid var(--auth-field-line);
-  border-radius: 14px;
-  background: var(--auth-field-bg);
-  font-family: var(--font-mono);
-  font-size: var(--fs-xl);
-  font-weight: 600;
-  color: var(--text);
-  transition:
-    border-color var(--dur) var(--ease),
-    box-shadow var(--dur) var(--ease),
-    background var(--dur) var(--ease);
-}
-
-.otp-cell.is-filled {
-  background: var(--auth-field-bg-hover);
-}
-
-.otp-cell.is-active {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 4px var(--accent-soft);
-}
-
-.otp.is-invalid .otp-cell {
-  border-color: var(--danger);
 }
 
 /* ---------- Notices ---------- */
