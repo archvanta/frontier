@@ -6,6 +6,37 @@
 .home-intro .hi-signals { margin-block-start: 1.25rem; }
 .home-intro .hi-status, .home-intro .hi-meta, .home-intro .hi-backdrop, .home-intro .tunnel { display: none; }
 .home-intro .hi-links { margin-block: 1rem; }
+.home-intro::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 16% 26%, rgba(81, 107, 255, .22), transparent 48%),
+    radial-gradient(ellipse at 85% 58%, rgba(147, 83, 239, .18), transparent 44%),
+    linear-gradient(rgba(160, 174, 255, .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(160, 174, 255, .055) 1px, transparent 1px);
+  background-size: auto, auto, 56px 56px, 56px 56px;
+  mask-image: linear-gradient(to bottom, transparent, black 14%, black 68%, transparent);
+  animation: intro-atmosphere-in 1.4s ease-out both;
+}
+html[data-theme='light'] .home-intro::before {
+  background:
+    radial-gradient(ellipse at 16% 26%, rgba(124, 164, 255, .22), transparent 48%),
+    radial-gradient(ellipse at 85% 58%, rgba(186, 149, 244, .20), transparent 44%),
+    linear-gradient(rgba(80, 106, 160, .065) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(80, 106, 160, .065) 1px, transparent 1px);
+  background-size: auto, auto, 56px 56px, 56px 56px;
+}
+@keyframes intro-atmosphere-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .home-intro::before { animation: none; }
+}
+html[data-motion='reduced'] .home-intro::before { animation: none; }
 .nh-stage.has-side { grid-template-columns: minmax(0,1fr); max-inline-size: 82rem; margin-inline:auto; }
 .nh-side { display:none; }
 .nh-main { min-block-size: 34rem; }
