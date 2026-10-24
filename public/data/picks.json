@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-24T09:21:39Z",
+ "asOf": "2026-10-24T12:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,188 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-23T09:21:39Z",
-   "to": "2026-10-24T09:21:39Z",
+   "from": "2026-10-23T12:00:00Z",
+   "to": "2026-10-24T12:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "bb17047188a0ee74",
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "excerpt": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+      "lang": "en",
+      "publishedAt": "2026-10-24T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T12:45:32Z",
+      "day": "2026-10-24",
+      "category": "research",
+      "tags": [
+       "security",
+       "security / cyberattacks and hacks",
+       "kernel panic",
+       "artificial intelligence",
+       "hacking",
+       "cybersecurity"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6adbb8a7e6d0c133525c3e7c/master/pass/KernelPanic_The%20PHP%20Meltdown%20Shows%20How%20AI%20Makes%20Bugs%20More%20Exploitable.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "bb17047188a0ee74",
+      "related": [],
+      "score": {
+       "total": 64.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-24T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "PHP Meltdown نشان می دهد که چگونه AI باعث می شود تا باگ های بیشتر قابل استفاده شود",
+        "excerpt": "محققان امنیتی از ابزارهای AI برای کمک به کشف آسیب پذیری های قدیمی در زبان اسکریپت نویسی وب PHP استفاده کردند. سپس حملات به کمک AI آغاز شد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T12:45:32Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4e14fb90e297d6e0",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/24/becky-barnicoat-on-scary-outfits-for-halloween-cartoon",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Becky Barnicoat on scary outfits for Halloween – cartoon",
+      "excerpt": "Continue reading...",
+      "lang": "en",
+      "publishedAt": "2026-10-24T10:00:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T12:45:32Z",
+      "day": "2026-10-24",
+      "category": "policy",
+      "tags": [
+       "halloween",
+       "life and style",
+       "gianni infantino",
+       "meta",
+       "uk cost of living crisis",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/18d0f09440a0708f336da7f5769e39535a935a6c/183_661_860_688/master/860.jpg?width=700&quality=85&auto=format&fit=max&s=6dc37fb3c0fa71cb005c4b4c4e96a2db",
+       "credit": "Illustration: Becky Barnicoat/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "4e14fb90e297d6e0",
+      "related": [],
+      "score": {
+       "total": 63.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 85.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-24T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Becky Barnicoat در لباس های ترسناک برای هالووین - کارتون",
+        "excerpt": "ادامه خواندن ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T12:45:32Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6c7835bd7e9c0e09",
+      "url": "https://www.theguardian.com/technology/2026/oct/24/the-datacentre-next-door-on-the-frontline-of-techs-latest-david-v-goliath-battle",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "The datacentre next door: on the frontline of tech’s latest David v Goliath battle",
+      "excerpt": "The AI boom is pitting local residents against corporate giants seeking to power their energy-hungry networks – but one Welsh city is fighting back Dale Johnston opens the gate to his neat suburban garden on the western fringes of Newport in South Wales. There’s a trampoline and a slide on the lawn for his grandchildren, and chairs for him and his wife. He should be enjoying the light draining…",
+      "lang": "en",
+      "publishedAt": "2026-10-24T11:00:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T12:45:32Z",
+      "day": "2026-10-24",
+      "category": "hardware",
+      "tags": [
+       "ai (artificial intelligence)",
+       "big data",
+       "technology",
+       "life and style",
+       "wales"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/0373ee73af80c68fd75a9ab321de66de4801ad27/865_0_5902_4724/master/5902.jpg?width=700&quality=85&auto=format&fit=max&s=48a45ddc0c7b39ac32482e2c62f3a1a4",
+       "credit": "Photograph: Joel Redman/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "6c7835bd7e9c0e09",
+      "related": [],
+      "score": {
+       "total": 62.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 94.4,
+        "topic": 70.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-24T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مرکز داده بعدی: در خط مقدم آخرین نبرد دیوید v Goliath تکنولوژی",
+        "excerpt": "رونق AI ساکنان محلی را در برابر غول های شرکتی که به دنبال قدرت شبکه های انرژی زا خود هستند، فریب می دهد، اما یک شهر ولز در حال مبارزه با دیل جانستون دروازه را به باغ حومه شسته و رفته خود در حاشیه غربی نیوپورت در جنوب ولز باز می کند. یک ولگرد و یک اسلاید روی چمن برای نوه های خود و صندلی برای او و همسرش وجود دارد. او باید از تخلیه نور لذت ببرد ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T12:45:32Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "51de56c2848f8bde",
@@ -46,15 +224,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 62.9,
+       "total": 61.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 42.6,
+        "recency": 36.6,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +243,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -75,121 +253,61 @@
     },
     {
      "article": {
-      "id": "1aa60556379e2e50",
-      "url": "https://www.youtube.com/shorts/2lNUGkCg_qc",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "AI agents for everyday IT fixes | Shield and OpenAI",
-      "excerpt": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+      "id": "a720d84afe9dc102",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "excerpt": "OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found ways to communicate covertly through side channels. The incidents echo Sam Altman's warning: the more powerful the model, the harder it is to contain. The article OpenAI's…",
       "lang": "en",
-      "publishedAt": "2026-10-23T18:36:34Z",
+      "publishedAt": "2026-10-24T11:12:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:45:27Z",
-      "day": "2026-10-23",
+      "fetchedAt": "2026-10-24T12:45:32Z",
+      "day": "2026-10-24",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "ai in practice",
+       "artificial intelligence",
+       "cybersecurity",
+       "openai"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i3.ytimg.com/vi/2lNUGkCg_qc/hqdefault.jpg",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai_misalign-2.png",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "2lNUGkCg_qc",
-       "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc"
-      },
-      "eventId": "1aa60556379e2e50",
+      "eventId": "a720d84afe9dc102",
       "related": [],
       "score": {
-       "total": 61.7,
+       "total": 60.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 42.7,
+        "recency": 95.5,
         "topic": 100.0,
-        "novelty": 81.8
+        "novelty": 85.7
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "عوامل AI برای حل های روزمره IT – Shield و OpenAI",
-        "excerpt": "عوامل AI Shield از Astra برای کار به طور مستقیم در نرم افزار کسب و کار و رسیدگی به حل های معمول IT استفاده می کنند و به تکنسین ها زمان بیشتری برای مشکلات سخت تر که نیاز به قضاوت دارند می دهند.",
+        "title": "عوامل هوش مصنوعی جدا شده OpenAI راه هایی برای صحبت با یکدیگر از طریق حافظه CPU پیدا کردند.",
+        "excerpt": "OpenAI در حال حاضر قوی ترین مدل های خود را بدون دسترسی به اینترنت، پس از یک مدل تحقیقاتی داخلی بهره برداری از یک پیکربندی DNS در ماه سپتامبر و رسیدن به اینترنت باز است. در آزمایشات کنترل شده، عوامل AI هنوز راه هایی برای برقراری ارتباط مخفیانه از طریق کانال های جانبی پیدا کردند. این حوادث هشدار سام آلتمن را منعکس می کند: قوی تر از مدل، سخت تر آن است که حاوی. مقاله OpenAI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:45:27Z"
+        "at": "2026-10-24T12:45:32Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bf6279ad02f6cae9",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/24/john-healey-pledges-to-use-budget-to-harness-power-of-ai-to-bolster-britains-security",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "John Healey pledges to use budget to harness power of AI to bolster Britain’s security",
-      "excerpt": "Chancellor says government to commit hundreds of millions to develop ‘distinctively British’ approach to AI John Healey has pledged to use Wednesday’s budget to harness the power of artificial intelligence to bolster Britain’s security and prosperity against the risks in the accelerating global technology arms race. As he prepares for his debut budget, the chancellor said that Andy Burnham’s…",
-      "lang": "en",
-      "publishedAt": "2026-10-24T05:00:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T05:06:13Z",
-      "day": "2026-10-24",
-      "category": "policy",
-      "tags": [
-       "budget 2026",
-       "uk news",
-       "england",
-       "john healey",
-       "ai (artificial intelligence)",
-       "economic policy"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/13ceb52a43f1b6771519d70b1eb33680ffbec0ca/0_0_2750_2200/master/2750.jpg?width=700&quality=85&auto=format&fit=max&s=44e26b02a1fafa9dc1a7028ade3da03b",
-       "credit": "Photograph: Paul Reid/PA",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "bf6279ad02f6cae9",
-      "related": [],
-      "score": {
-       "total": 61.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 77.8,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-24T09:21:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جان هیلی متعهد به استفاده از بودجه برای بهره برداری از قدرت AI برای تقویت امنیت بریتانیا است",
-        "excerpt": "صدراعظم می گوید که دولت متعهد است صدها میلیون دلار برای توسعه رویکرد \"غیر غریزی انگلیسی\" به AI John Healey متعهد به استفاده از بودجه روز چهارشنبه برای بهره برداری از قدرت هوش مصنوعی برای تقویت امنیت و رفاه بریتانیا در برابر خطرات در سرعت بخشیدن به رقابت تسلیحات جهانی است. همانطور که او برای اولین بودجه خود آماده می کند، صدراعظم گفت که اندی برنهام ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T05:06:13Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     },
     {
@@ -225,137 +343,20 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 61.0,
+       "total": 59.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 49.0,
+        "recency": 42.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
         "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "60c7eb065c480fbc",
-      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Reinforcing the value of human understanding at MIT",
-      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "lang": "en",
-      "publishedAt": "2026-10-23T19:35:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "history of mit",
-       "classes and programs",
-       "humanities",
-       "arts",
-       "social sciences"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
-       "credit": "Photo: Jake Belcher",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "60c7eb065c480fbc",
-      "related": [],
-      "score": {
-       "total": 59.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 45.1,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-24T09:21:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تقویت ارزش درک انسانی در MIT",
-        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 59.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 43.3,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-24T09:21:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
        }
@@ -372,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-17T09:21:39Z",
-   "to": "2026-10-24T09:21:39Z",
+   "from": "2026-10-17T12:00:00Z",
+   "to": "2026-10-24T12:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +408,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 71.8,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 57.6,
+        "recency": 56.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -467,15 +468,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.7,
+        "recency": 84.6,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -529,15 +530,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 55.3,
+        "recency": 53.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -559,59 +560,59 @@
     },
     {
      "article": {
-      "id": "1aa60556379e2e50",
-      "url": "https://www.youtube.com/shorts/2lNUGkCg_qc",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "AI agents for everyday IT fixes | Shield and OpenAI",
-      "excerpt": "Shield’s AI agents use Astra to work directly in business software and handle routine IT fixes, giving technicians more time for harder problems that need their judgment.",
+      "id": "61f4d0141ff303c0",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "lang": "en",
-      "publishedAt": "2026-10-23T18:36:34Z",
+      "publishedAt": "2026-10-21T12:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:45:27Z",
-      "day": "2026-10-23",
-      "category": "models",
-      "tags": [],
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "company"
+      ],
       "entities": [
+       "google",
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i3.ytimg.com/vi/2lNUGkCg_qc/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "2lNUGkCg_qc",
-       "url": "https://www.youtube.com/watch?v=2lNUGkCg_qc"
-      },
-      "eventId": "1aa60556379e2e50",
-      "related": [],
+      "eventId": "61f4d0141ff303c0",
+      "related": [
+       "14f13252070a5596"
+      ],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.8,
-        "topic": 100.0,
-        "novelty": 81.8
+        "corroboration": 50.0,
+        "recency": 50.0,
+        "topic": 65.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "عوامل AI برای حل های روزمره IT – Shield و OpenAI",
-        "excerpt": "عوامل AI Shield از Astra برای کار به طور مستقیم در نرم افزار کسب و کار و رسیدگی به حل های معمول IT استفاده می کنند و به تکنسین ها زمان بیشتری برای مشکلات سخت تر که نیاز به قضاوت دارند می دهند.",
+        "title": "مدل های OpenAI به Google Cloud می آیند",
+        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:45:27Z"
+        "at": "2026-10-21T13:55:00Z"
        }
       }
      },
      "rank": 4,
-     "sources": 1,
+     "sources": 2,
      "reason": [
       "tier-1",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -649,15 +650,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 86.6,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -669,63 +670,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-24T09:21:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -766,20 +710,77 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.6,
+        "recency": 85.4,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "تقویت ارزش درک انسانی در MIT",
         "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:51:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "057a86be6882ac7b",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.8,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-24T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
        }
@@ -820,15 +821,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 82.7,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -849,8 +850,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-24T09:21:39Z",
-   "to": "2026-10-24T09:21:39Z",
+   "from": "2026-09-24T12:00:00Z",
+   "to": "2026-10-24T12:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +885,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 77.2,
+       "total": 77.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 84.7,
+        "recency": 84.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -943,15 +944,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 76.6,
+       "total": 76.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 81.8,
+        "recency": 81.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1006,15 +1007,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 83.7,
+        "recency": 83.1,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1064,15 +1065,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 74.3,
+       "total": 74.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 73.8,
+        "recency": 73.2,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1125,15 +1126,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 95.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1182,15 +1183,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 95.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1242,15 +1243,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 95.4,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1296,15 +1297,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1315,65 +1316,6 @@
       }
      },
      "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d543a8c819225bfc",
-      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
-      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
-      "lang": "en",
-      "publishedAt": "2026-10-23T16:24:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon quick sight",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
-       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "d543a8c819225bfc",
-      "related": [],
-      "score": {
-       "total": 69.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-24T09:21:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
-        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1408,21 +1350,80 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.1,
+        "recency": 76.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-24T09:21:39Z"
+       "asOf": "2026-10-24T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "95364ce770790d21",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "excerpt": "Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings.",
+      "lang": "en",
+      "publishedAt": "2026-10-23T17:48:54Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon sagemaker ai",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22014-1.png",
+       "alt": "SageMaker AI training job connected to the AgentCore-hosted agent, Wordle environment, and reward function",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "95364ce770790d21",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.9,
+        "topic": 80.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-24T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Multi-Turn Reforcement Learning در آمازون SageMaker AI: یک راهنمای دستی",
+        "excerpt": "Multi-Turn Reforcement Learning (MTRL) در آمازون SageMaker AI مدل هایی را در نتیجه یک کار چند مرحله ای به جای گام های برچسب زده است. این راهنمای دستی بر روی خط لوله کامل با استفاده از Wordle پیاده سازی می کند: استقرار عامل و پاداش در Amazon Bedrock AgentCore، تهیه مجموعه داده ها، آموزش و ارزیابی در تنظیمات خدمت.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
