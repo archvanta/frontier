@@ -5249,27 +5249,47 @@ html[lang='fa'] .hi-meta {
   pointer-events: none;
 }
 
-/* Light theme: the purple scene meets a white page, so the fade passes through a soft lilac instead of grey, and sits below the content. */
+/* The introduction follows the page theme, including the animated canvas ink. */
 html[data-theme='light'] .home-intro {
-  --hi-fade: 11rem;
+  background: #ffffff;
+  color: #111111;
 }
 
-/* Many eased stops, each a tint of the scene's own violet that lightens step by step: alpha-blending plain white over near-black would pass through grey. */
 html[data-theme='light'] .home-intro::after {
-  background: linear-gradient(
-    to bottom,
-    rgba(110, 90, 220, 0) 0%,
-    rgba(110, 90, 220, 0.1) 14%,
-    rgba(125, 105, 230, 0.3) 30%,
-    rgba(160, 145, 242, 0.58) 48%,
-    rgba(200, 190, 248, 0.82) 66%,
-    rgba(236, 233, 253, 0.95) 82%,
-    var(--bg) 100%
-  );
+  background: none;
 }
 
+html[data-theme='light'] .hi-title {
+  --hw-ink: #111111;
+  --hw-warm: #111111;
+  color: #111111;
+  background: none;
+  -webkit-text-fill-color: #111111;
+  filter: none;
+}
+
+html[data-theme='light'] .hi-body {
+  color: #41414a;
+}
+
+html[data-theme='light'] .hi-kicker,
 html[data-theme='light'] .hi-scroll {
-  color: var(--text-3);
+  color: #595966;
+}
+
+html[data-theme='light'] .hi-link {
+  color: #17171c;
+  background: #f5f5f8;
+  border-color: #dcdce3;
+}
+
+html[data-theme='light'] .hi-link:hover {
+  background: #eaeaf0;
+  border-color: #9494a4;
+}
+
+html[data-theme='light'] .hi-link-count {
+  color: #2458bd;
 }
 
 .hi-signals {
