@@ -148,7 +148,7 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
 .home-intro .hi-links .hi-link[data-entry='ai-news'] { background:var(--tone-crimson); }
 .home-intro .hi-links .hi-link:hover { transform:translateY(-3px); box-shadow:0 14px 26px -14px rgba(24,30,90,.55); }
 .home-intro .hi-links .hi-link-art,
-.home-intro .hi-links .hi-link-icon { inline-size:64px; block-size:64px; border-radius:0; grid-column:1; grid-row:1; object-fit:contain; box-shadow:none; filter:drop-shadow(0 12px 14px rgba(8,12,50,.3)); }
+.home-intro .hi-links .hi-link-icon { inline-size:76px; block-size:76px; border-radius:0; grid-column:1; grid-row:1; object-fit:contain; box-shadow:none; filter:drop-shadow(0 6px 8px rgba(8,12,50,.22)); }
 .home-intro .hi-links .hi-link-icon { background:rgba(255,255,255,.14); }
 .home-intro .hi-links .hi-link-label { grid-column:1/-1; grid-row:2; font-size:1.05rem; line-height:1.6; }
 .home-intro .hi-links .hi-link-count { grid-column:1; grid-row:3; color:#ffffff; font-size:.8rem; justify-self:start; }
@@ -158,7 +158,7 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
  .home-intro .hi-links .hi-link { padding:.8rem .6rem; min-block-size:134px; border-radius:1rem; gap:.5rem; }
  .home-intro .hi-links .hi-link-label { font-size:.8rem; }
  .home-intro .hi-links .hi-link-art,
- .home-intro .hi-links .hi-link-icon { inline-size:48px; block-size:48px; border-radius:0; }
+ .home-intro .hi-links .hi-link-icon { inline-size:54px; block-size:54px; border-radius:0; }
 }
 @media(prefers-reduced-motion:reduce) {
  .home-intro .hi-links .hi-link { transition:none; }

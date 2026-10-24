@@ -522,7 +522,7 @@ html[lang='fa'] .mt-label {
   block-size: 54px;
   max-inline-size: none;
   object-fit: contain;
-  filter: drop-shadow(0 8px 10px rgba(18, 24, 72, 0.22));
+  filter: drop-shadow(0 4px 5px rgba(18, 24, 72, 0.16));
 }
 
 .nav-row-text {
@@ -1753,24 +1753,24 @@ html[lang='fa'] .picks-more-label {
 
 .story-media.is-fallback {
   background:
-    radial-gradient(circle at 50% 42%, rgba(110, 128, 255, 0.22), transparent 40%),
+    radial-gradient(circle at 50% 42%, rgba(110, 128, 255, 0.13), transparent 42%),
     linear-gradient(145deg, #11162f, #080b1c);
 }
 
 .story-media.is-fallback[data-fallback-category='business'],
 .story-media.is-fallback[data-fallback-category='open-source'] {
-  background: radial-gradient(circle at 50% 42%, rgba(34, 224, 205, 0.2), transparent 42%), linear-gradient(145deg, #0d2a2d, #071619);
+  background: radial-gradient(circle at 50% 42%, rgba(34, 224, 205, 0.12), transparent 44%), linear-gradient(145deg, #0d2a2d, #071619);
 }
 
 .story-media.is-fallback[data-fallback-category='policy'],
 .story-media.is-fallback[data-fallback-category='safety'] {
-  background: radial-gradient(circle at 50% 42%, rgba(255, 74, 100, 0.22), transparent 42%), linear-gradient(145deg, #35101b, #16070c);
+  background: radial-gradient(circle at 50% 42%, rgba(255, 74, 100, 0.13), transparent 44%), linear-gradient(145deg, #35101b, #16070c);
 }
 
 .story-media.is-fallback img {
   object-fit: contain;
   padding: clamp(0.85rem, 7%, 2.25rem);
-  filter: drop-shadow(0 18px 20px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.24));
 }
 
 .story-card:hover .story-media img {
@@ -2140,7 +2140,7 @@ html[lang='fa'] .story-card .story-title {
   block-size: 56px;
   max-inline-size: none;
   object-fit: contain;
-  filter: drop-shadow(0 8px 10px rgba(10, 12, 40, 0.24));
+  filter: drop-shadow(0 4px 6px rgba(10, 12, 40, 0.18));
 }
 
 .story-pill {
