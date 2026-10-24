@@ -24,3 +24,15 @@ for (const locale of ['en', 'fa']) {
     expect(results.violations).toEqual([]);
   });
 }
+
+test('sources use mobile cards and score details stay available on demand', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('./#/sources');
+  await expect(page.locator('.source-card').first()).toBeVisible();
+  await expect(page.locator('.sources-table')).not.toBeVisible();
+  await page.goto('./#/picks/weekly');
+  const details = page.locator('.score-details').first();
+  await expect(details).not.toHaveAttribute('open');
+  await details.locator('summary').click();
+  await expect(details.locator('.score-explain')).toBeVisible();
+});

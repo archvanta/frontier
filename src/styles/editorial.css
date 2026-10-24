@@ -44,3 +44,47 @@ html[lang='fa'] .nh-title { font-size: clamp(1.8rem,3.4vw,3.25rem); line-height:
  .sources-table td:last-child { min-inline-size:5.5rem; }
  .site-footer { margin-block-start:2rem; }
 }
+/* Reading and topic pages share the same typography and surfaces. */
+.score-details { border:1px solid var(--line-strong); border-radius:1rem; background:var(--surface-1); }
+.score-details summary { padding:1rem; cursor:pointer; font-weight:600; color:var(--text-2); }
+.score-details .score-explain { border:0; margin:0; }
+.pick-item { align-items:start; }
+.source-cards { display:none; }
+.games-page { --g-lime:var(--accent-strong); --g-lime-ink:var(--accent-ink); border-radius:1.5rem; }
+html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:var(--surface-1); }
+.games-intro { background:var(--surface-2); color:var(--text); align-content:center; gap:1.5rem; }
+.games-kicker { color:var(--accent); border-color:var(--accent-line); border-radius:999px; }
+.games-title { font-family:var(--font-display); line-height:1.15; }
+.games-body { color:var(--text-2); line-height:1.8; }
+.games-ticker, .games-wall { display:none; }
+.games-char { aspect-ratio:1.6; border-radius:1rem; }
+.games-cast-grid { gap:1rem; padding:1rem; }
+.games-cast-head { padding:1.25rem; }
+.games-hero { grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr) minmax(0,.8fr); }
+.games-poster { min-block-size:340px; }
+.carousel-item .story-card.is-text-only .story-body { justify-content:flex-start; }
+.carousel-item .story-card.is-text-only { background:var(--surface-2); }
+.story-excerpt { max-inline-size:65ch; }
+.story-meta, .kicker-source { font-size:.8rem; }
+.story-figure:has(.story-media:empty) { display:none; }
+@media(max-width:767px) {
+ .source-cards { display:grid; gap:1rem; list-style:none; padding:0; }
+ .sources-directory > .table-wrap { display:none; }
+ .source-card { display:grid; grid-template-columns:1fr auto; gap:1rem; padding:1.25rem; border:1px solid var(--line-strong); border-radius:1rem; background:var(--surface-1); }
+ .source-card h2 { font-size:1rem; line-height:1.7; overflow-wrap:anywhere; }
+ .source-card .status { align-self:start; }
+ .source-card dl { grid-column:1/-1; display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; margin:0; }
+ .source-card dt { color:var(--text-3); font-size:.8rem; }
+ .source-card dd { margin:0; font-size:.875rem; }
+ .games-hero { grid-template-columns:1fr; }
+ .games-poster { display:none; }
+ .games-intro { padding:1.5rem; }
+ .games-title { font-size:2rem; }
+ .games-char { aspect-ratio:1; }
+ .games-char-tag { display:none; }
+ .games-char-name { font-size:.65rem; inset-inline:.25rem; text-align:center; }
+ .footer-top { gap:1rem; }
+ .footer-features { display:none; }
+ .footer-grid { gap:1rem; }
+ .footer-note { font-size:.8rem; }
+}

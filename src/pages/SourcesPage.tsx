@@ -30,7 +30,15 @@ export function SourcesPage() {
         (!res.data?.sources.length ? (
           <EmptyState title={t('no_data_title')} />
         ) : (
-          <div className="table-wrap">
+          <div className="sources-directory">
+            <ul className="source-cards">
+              {res.data.sources.map((s) => <li key={s.id} className="source-card">
+                <h2>{safeUrl(s.homepage) ? <a href={safeUrl(s.homepage)!} target="_blank" rel="noopener noreferrer">{s.name}</a> : s.name}</h2>
+                <span className={`status status-${s.status}`}>{t(STATUS_KEY[s.status])}</span>
+                <dl><div><dt>{t('tier')}</dt><dd>{s.tier}</dd></div><div><dt>{t('verified_on')}</dt><dd>{s.verifiedOn ? formatDay(s.verifiedOn, locale, 'short') : '—'}</dd></div></dl>
+              </li>)}
+            </ul>
+            <div className="table-wrap">
             <table className="sources-table">
               <thead>
                 <tr>
@@ -66,6 +74,7 @@ export function SourcesPage() {
                 })}
               </tbody>
             </table>
+            </div>
           </div>
         ))}
     </div>

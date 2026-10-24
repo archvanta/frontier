@@ -49,7 +49,7 @@ export function PicksPage({ window: w }: { window: PickWindow }) {
                   <li key={p.article.id} className="pick-item">
                     <StoryCard article={p.article} variant="grid" rank={p.rank} headingLevel={2} />
                     <div className="pick-why">
-                      {p.article.score && <ScoreExplain score={p.article.score} weights={res.data?.weights} compact />}
+                      {p.article.score && <details className="score-details"><summary>{locale === 'fa' ? 'جزئیات امتیاز' : 'Score breakdown'} · {Math.round(p.article.score.total)}/100</summary><ScoreExplain score={p.article.score} weights={res.data?.weights} compact /></details>}
                       <p className="pick-sources">
                         {formatNumber(p.sources, locale)} {t('sources_count')}
                       </p>

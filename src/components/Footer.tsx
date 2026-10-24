@@ -53,7 +53,6 @@ export function Footer({ meta }: { meta: Meta | null | undefined }) {
         <div className="footer-grid">
           <div>
             <p className="footer-note">{t('footer_note')}</p>
-            <p className="footer-note">{t('footer_cost')}</p>
           </div>
           <div className="footer-meta">
             <LastUpdate meta={meta} />
