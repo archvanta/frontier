@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T18:25:59Z",
+ "asOf": "2026-10-25T21:31:16Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T18:25:59Z",
-   "to": "2026-10-25T18:25:59Z",
+   "from": "2026-10-24T21:31:16Z",
+   "to": "2026-10-25T21:31:16Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
       "eventId": "d3990852490cd50b",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 62.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 83.7,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -69,6 +69,65 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bf7f18e0418c7776",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "excerpt": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "lang": "en",
+      "publishedAt": "2026-10-25T21:31:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T22:38:19Z",
+      "day": "2026-10-25",
+      "category": "business",
+      "tags": [
+       "ai",
+       "media & entertainment",
+       "elon musk",
+       "spacex",
+       "xai"
+      ],
+      "entities": [
+       "xai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "bf7f18e0418c7776",
+      "related": [],
+      "score": {
+       "total": 61.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-25T21:31:16Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Grok هفت دقیقه اول AI تولید شده خود را \"Odyssey\"",
+        "excerpt": "فیلم خوب به نظر می رسد، تا زمانی که شما به دنبال هنرمند، الهام یا علاقه انسانی نیستید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T22:38:19Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -107,15 +166,15 @@
       "eventId": "b366ba776fde8cd4",
       "related": [],
       "score": {
-       "total": 61.7,
+       "total": 59.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 62.6,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -126,7 +185,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -167,15 +226,15 @@
       "eventId": "bb7c1e3b8be87920",
       "related": [],
       "score": {
-       "total": 61.6,
+       "total": 59.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 77.4,
+        "recency": 64.8,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -186,7 +245,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -226,15 +285,15 @@
       "eventId": "5e8bf34ce5a69dc9",
       "related": [],
       "score": {
-       "total": 59.9,
+       "total": 56.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 77.8,
         "topic": 55.0,
         "novelty": 30.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -245,7 +304,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -280,15 +339,15 @@
       "eventId": "b23877b88e691b4d",
       "related": [],
       "score": {
-       "total": 59.8,
+       "total": 56.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 76.8,
         "topic": 55.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -296,64 +355,6 @@
         "excerpt": "با وجود سرمایه گذاری های گسترده و هیپنوتیزم گسترده در مورد هوش مصنوعی، این تکنولوژی پرداخت مالی صفر را به شرکت های بزرگ خارج از تکنولوژی تحویل داده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-25T17:05:37Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "611184d5aa6fabe3",
-      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "The hottest AI wearables and gadgets you should know about",
-      "excerpt": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
-      "lang": "en",
-      "publishedAt": "2026-10-25T14:10:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T14:35:52Z",
-      "day": "2026-10-25",
-      "category": "business",
-      "tags": [
-       "hardware",
-       "ai",
-       "gadgets",
-       "wearables",
-       "evergreens",
-       "ai wearables"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "611184d5aa6fabe3",
-      "related": [],
-      "score": {
-       "total": 56.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 78.2,
-        "topic": 55.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-25T18:25:59Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "داغترین پوشیدنی ها و ابزارهای AI که باید در مورد آنها بدانید",
-        "excerpt": "ما لیستی از داغ ترین پوشیدنی های AI، از جمله Muse، Bee، Friend، Plaud و موارد دیگر را جمع آوری کردیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T14:35:52Z"
        }
       }
      },
@@ -368,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T18:25:59Z",
-   "to": "2026-10-25T18:25:59Z",
+   "from": "2026-10-18T21:31:16Z",
+   "to": "2026-10-25T21:31:16Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -403,15 +404,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 41.9,
+        "recency": 40.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -466,15 +467,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 67.7,
+       "total": 67.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 40.2,
+        "recency": 39.1,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -525,15 +526,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 67.7,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 37.3,
+        "recency": 36.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -585,15 +586,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.1,
+        "recency": 61.2,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -643,15 +644,15 @@
       "eventId": "b366ba776fde8cd4",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 92.5,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -705,15 +706,15 @@
       "eventId": "d3990852490cd50b",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.1,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -765,15 +766,15 @@
       "eventId": "bb7c1e3b8be87920",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 93.0,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -825,15 +826,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 63.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.6,
+        "recency": 62.7,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -855,8 +856,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T18:25:59Z",
-   "to": "2026-10-25T18:25:59Z",
+   "from": "2026-09-25T21:31:16Z",
+   "to": "2026-10-25T21:31:16Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -890,15 +891,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 75.7,
+       "total": 75.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 77.0,
+        "recency": 76.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -949,15 +950,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.1,
+       "total": 75.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.4,
+        "recency": 73.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1012,15 +1013,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 76.1,
+        "recency": 75.4,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1070,15 +1071,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 67.0,
+        "recency": 66.4,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1131,15 +1132,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.7,
+        "recency": 86.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1188,15 +1189,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 86.4,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1248,15 +1249,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.3,
+        "recency": 86.6,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1302,15 +1303,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 70.1,
+        "recency": 69.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1355,15 +1356,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 85.7,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
@@ -1409,15 +1410,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.6,
+        "recency": 73.9,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T18:25:59Z"
+       "asOf": "2026-10-25T21:31:16Z"
       },
       "tr": {
        "fa": {
