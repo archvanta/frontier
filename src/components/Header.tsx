@@ -31,23 +31,20 @@ function isTyping(target: EventTarget | null): boolean {
   return !!el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName));
 }
 
-/** The FRONTIER mark: a rising line breaking past a horizon. */
+/** The FRONTIER mark: three forward-moving planes forming a compact F. */
 export function BrandMark({ size = 20 }: { size?: number }) {
   return (
-    <svg
-      className="icon"
-      viewBox="0 0 24 24"
-      width={size}
-      height={size}
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path d="M4 19h16" />
-      <path d="M6 15l4.5-4.5 3 3L19 8" />
-      <path d="M15 8h4v4" />
+    <svg className="icon brand-mark" viewBox="0 0 64 64" width={size} height={size} aria-hidden="true">
+      <g className="brand-mark-edges">
+        <path d="M9 20h44l-3 5H9Z" />
+        <path d="M5 38h38l-3 5H5Z" />
+        <path d="M5 55h23l-3 5H5Z" />
+      </g>
+      <g className="brand-mark-faces">
+        <path d="M13 10h46l-6 10H9Z" />
+        <path d="M9 28h40l-6 10H5Z" />
+        <path d="M5 45h29l-6 10H5Z" />
+      </g>
     </svg>
   );
 }

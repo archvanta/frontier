@@ -360,17 +360,23 @@ html[lang='fa'] .mt-label {
   flex: none;
 }
 
-/* The FRONTIER mark is the arrow glyph itself, in the accent colour, with no tile behind it. */
+/* The FRONTIER mark is a compact three-plane F with a restrained extruded edge. */
 .wordmark-glyph {
   display: inline-grid;
   place-items: center;
-  color: var(--accent);
 }
 
 .wordmark-glyph .icon {
-  inline-size: 2.1rem;
-  block-size: 2.1rem;
-  stroke-width: 2.6;
+  inline-size: 2.2rem;
+  block-size: 2.2rem;
+}
+
+.brand-mark-faces {
+  fill: #3974e7;
+}
+
+.brand-mark-edges {
+  fill: #163e96;
 }
 
 .wordmark-text,
@@ -3326,11 +3332,11 @@ html[lang='fa'] .eyebrow {
 
 .footer-glyph {
   display: inline-grid;
-  color: var(--accent);
 }
 
 .footer-glyph .icon {
-  stroke-width: 2.4;
+  inline-size: 1.65rem;
+  block-size: 1.65rem;
 }
 
 .footer-features {
