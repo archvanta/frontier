@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T12:00:00Z",
+ "asOf": "2026-10-25T14:10:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,246 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T12:00:00Z",
-   "to": "2026-10-25T12:00:00Z",
+   "from": "2026-10-24T14:10:00Z",
+   "to": "2026-10-25T14:10:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "bb7c1e3b8be87920",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "excerpt": "WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email, free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report on a potential…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:00:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "western australia",
+       "deloitte",
+       "australian universities",
+       "australian education",
+       "ai (artificial intelligence)",
+       "australia news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/515a0bf6dc96a2183fa9f4bc90a2fbeac2d91271/1105_835_1970_1577/master/1970.jpg?width=700&quality=85&auto=format&fit=max&s=3c92fa93a4cf06323355fac7066912b2",
+       "credit": "Photograph: Dan Himbrechts/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "bb7c1e3b8be87920",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ناامید کننده: دولت WA به دنبال بازپرداخت از Deloitte در گزارش دانشگاه ناقص است",
+        "excerpt": "WA به Deloitte $ 66000 برای مطالعه امکان سنجی ناقص در ادغام دانشگاه غرب استرالیا، دانشگاه کورتین و دانشگاه موراک دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا پادکست اخبار روزانه دولت استرالیا غربی گفته است که آن را \"به شدت ناامید شده\" و به دنبال \"ارزیابی شده\" بهبود هزینه از Deloitte پس از خطا در گزارش در یک بالقوه کشف شده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b366ba776fde8cd4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
+      "lang": "en",
+      "publishedAt": "2026-10-25T13:25:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "reddit",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An illustration of the Reddit logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b366ba776fde8cd4",
+      "related": [],
+      "score": {
+       "total": 65.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 95.8,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
+        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d909e7d004244100",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
+      "excerpt": "Robbie’s storylines in the famous soap will be recut into vertical micro-episodes to be watched on phones – but her fellow cast members say they haven’t been consulted The long-running Australian soap opera Neighbours is being recut with AI into a microdrama designed to be watched on phones, sparking a debate among the show’s actors and the industry over the wider implications of television…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:00:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "neighbours",
+       "ai (artificial intelligence)",
+       "margot robbie",
+       "drama",
+       "film",
+       "culture"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/d850e2558a1a7a06e667ee3f5cb1123b8775f401/189_38_3166_2534/master/3166.jpg?width=700&quality=85&auto=format&fit=max&s=bffd05918d117bd749729a40c7d29666",
+       "credit": "Photograph: FremantleMedia/REX",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d909e7d004244100",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "همسایه ها در حال تبدیل شدن به یک میکرودرم با تمرکز بر مارگوت رابی هستند و ستاره های او خوشحال نیستند",
+        "excerpt": "داستان رابی در صابون معروف دوباره به میکروپسی های عمودی خواهد شد که در تلفن ها دیده می شود - اما اعضای بازیگران او می گویند که آنها با اپرا صابون های طولانی مدت استرالیا مشورت نکرده اند با AI به یک میکرومرام طراحی شده برای تماشا در تلفن، جرقه یک بحث در میان بازیگران نمایش و اثرات گسترده تر تلویزیون.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "611184d5aa6fabe3",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "excerpt": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:10:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "business",
+      "tags": [
+       "hardware",
+       "ai",
+       "gadgets",
+       "wearables",
+       "evergreens",
+       "ai wearables"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "611184d5aa6fabe3",
+      "related": [],
+      "score": {
+       "total": 61.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "داغترین پوشیدنی ها و ابزارهای AI که باید در مورد آنها بدانید",
+        "excerpt": "ما لیستی از داغ ترین پوشیدنی های AI، از جمله Muse، Bee، Friend، Plaud و موارد دیگر را جمع آوری کردیم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "99c99157c7fa1579",
@@ -45,15 +281,15 @@
       "eventId": "99c99157c7fa1579",
       "related": [],
       "score": {
-       "total": 62.8,
+       "total": 60.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 88.2,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +300,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -104,15 +340,15 @@
       "eventId": "14b3a965d4fb0630",
       "related": [],
       "score": {
-       "total": 60.5,
+       "total": 58.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 78.6,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -120,239 +356,6 @@
         "excerpt": "پاریس مارکس، نویسنده ی Hyperscale، سال هاست که توسعه ی مرکز داده های جهانی را دنبال می کند. ایالات متحده چیزهای زیادی برای یادگیری از آنچه در همه جا از ایرلند به نیوزیلند اتفاق افتاده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-25T10:11:39Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6905c9848f7b15d8",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "excerpt": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to…",
-      "lang": "en",
-      "publishedAt": "2026-10-25T10:08:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T10:11:39Z",
-      "day": "2026-10-25",
-      "category": "models",
-      "tags": [
-       "ai research",
-       "artificial intelligence",
-       "data",
-       "nvidia",
-       "robotics"
-      ],
-      "entities": [
-       "nvidia",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/nvidia-flora-hero-robot-hands.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "6905c9848f7b15d8",
-      "related": [],
-      "score": {
-       "total": 59.5,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 89.8,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia Open-source فلور برای ساخت برچسب های ویدئویی ربات 125x ارزان تر از GPT-6 Astra",
-        "excerpt": "موتور داده جدید Nvidia یک ساعت ویدیو ربات را به جای 88 دلار با GPT-6 Astra برچسب گذاری می کند، در حالی که با کیفیت کمی بالاتر است. سیستم باز، که بر روی سه مدل Qwen3.5 ساخته شده است، اشتباهاتی را در اقدامات ربات به مراتب قابل اعتماد تر از هر رقیبی به دست می آورد، اما گاهی اوقات با دقت توصیفی کوتاه می شود. Nvidia قرار دادن فلور به عنوان یک قطعه کلیدی از استراتژی خود برای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T10:11:39Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "898721bdc762d6bc",
-      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
-      "excerpt": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's…",
-      "lang": "en",
-      "publishedAt": "2026-10-25T07:30:11Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T10:11:39Z",
-      "day": "2026-10-25",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "anthropic",
-       "openai"
-      ],
-      "entities": [
-       "anthropic",
-       "deepseek",
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "898721bdc762d6bc",
-      "related": [],
-      "score": {
-       "total": 57.0,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 77.1,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ارائه می دهد تخفیف تا 90 درصد برای بزرگترین مشتریان Anthropic",
-        "excerpt": "OpenAI مشتریان Anthropic را با تخفیف های شیب دار جذب می کند. شرکت هایی مانند Rippling، Replit و DataCamp می گویند که هزینه های AI را تا 90 درصد پس از تغییر کاهش داده اند. رشد آنتروپیک کند شده است، اما OpenAI حاشیه های خود را برای سهم بازار معامله می کند. رقبای چینی مانند Deepseek بر فشار قیمت بیشتر تمرکز می کنند. مقاله OpenAI ارائه می دهد تخفیف تا 90 درصد به poach Anthropic ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T10:11:39Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f123102aeba58e54",
-      "url": "https://www.datacenterdynamics.com/en/opinions/the-power-behind-ai-data-centers-drive-the-demand-for-qualified-electricians",
-      "sourceId": "datacenter-dynamics",
-      "sourceName": "DatacenterDynamics",
-      "title": "The power behind AI: Data centers drive the demand for qualified electricians",
-      "excerpt": "An insatiable demand for electricians",
-      "lang": "en",
-      "publishedAt": "2026-10-25T11:00:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T12:37:28Z",
-      "day": "2026-10-25",
-      "category": "hardware",
-      "tags": [],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.datacenterdynamics.com/media/images/Corey_Hannahs_Headshot.2e16d0ba.fill-750x500.png",
-       "kind": "feed",
-       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
-      },
-      "eventId": "f123102aeba58e54",
-      "related": [],
-      "score": {
-       "total": 54.7,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 70.0,
-        "novelty": 72.7
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قدرت پشت AI: مراکز داده تقاضا برای برقداران واجد شرایط",
-        "excerpt": "یک تقاضا برای برق",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T12:37:28Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "09a5dda451583962",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "excerpt": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as",
-      "lang": "en",
-      "publishedAt": "2026-10-24T18:32:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T19:32:47Z",
-      "day": "2026-10-24",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "law",
-       "news",
-       "policy"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Illustration of ad broken by a gavel",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "09a5dda451583962",
-      "related": [],
-      "score": {
-       "total": 53.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 36.5,
-        "topic": 85.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پنسیلوانیا نیاز به برچسب در تبلیغات تولید شده AI خواهد داشت",
-        "excerpt": "روز پنجشنبه، جاش شپیرو، فرماندار پنسیلوانیا، قانون تبلیغات ادراکی هوش مصنوعی را به قانون امضا کرد و نیاز به افشای تبلیغات تولید شده توسط AI داشت. این قانون نیاز به هر آگهی دارد - چه یک تصویر، ویدئو، صوتی و یا متن است - که \"به طور قابل توجهی اصلاح شده یا توسط هوش مصنوعی تولید شده است\" برای شامل یک برچسب در همان فرمت به عنوان یک برچسب به عنوان یک فرمت به عنوان یک فرمت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T19:32:47Z"
        }
       }
      },
@@ -367,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T12:00:00Z",
-   "to": "2026-10-25T12:00:00Z",
+   "from": "2026-10-18T14:10:00Z",
+   "to": "2026-10-25T14:10:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -402,15 +405,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 44.5,
+        "recency": 43.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -465,15 +468,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 42.8,
+        "recency": 41.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -524,15 +527,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 68.2,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 39.7,
+        "recency": 38.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -584,15 +587,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 67.1,
+        "recency": 65.7,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -607,6 +610,184 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b366ba776fde8cd4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
+      "lang": "en",
+      "publishedAt": "2026-10-25T13:25:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "reddit",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An illustration of the Reddit logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b366ba776fde8cd4",
+      "related": [],
+      "score": {
+       "total": 66.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
+        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bb7c1e3b8be87920",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
+      "excerpt": "WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email, free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report on a potential…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:00:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "western australia",
+       "deloitte",
+       "australian universities",
+       "australian education",
+       "ai (artificial intelligence)",
+       "australia news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/515a0bf6dc96a2183fa9f4bc90a2fbeac2d91271/1105_835_1970_1577/master/1970.jpg?width=700&quality=85&auto=format&fit=max&s=3c92fa93a4cf06323355fac7066912b2",
+       "credit": "Photograph: Dan Himbrechts/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "bb7c1e3b8be87920",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ناامید کننده: دولت WA به دنبال بازپرداخت از Deloitte در گزارش دانشگاه ناقص است",
+        "excerpt": "WA به Deloitte $ 66000 برای مطالعه امکان سنجی ناقص در ادغام دانشگاه غرب استرالیا، دانشگاه کورتین و دانشگاه موراک دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا پادکست اخبار روزانه دولت استرالیا غربی گفته است که آن را \"به شدت ناامید شده\" و به دنبال \"ارزیابی شده\" بهبود هزینه از Deloitte پس از خطا در گزارش در یک بالقوه کشف شده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d909e7d004244100",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/26/neighbours-soap-recut-ai-microdrama-mobile-series-feat-margot-robbie",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Neighbours is being recut into a microdrama focused on Margot Robbie – and her co-stars aren’t happy",
+      "excerpt": "Robbie’s storylines in the famous soap will be recut into vertical micro-episodes to be watched on phones – but her fellow cast members say they haven’t been consulted The long-running Australian soap opera Neighbours is being recut with AI into a microdrama designed to be watched on phones, sparking a debate among the show’s actors and the industry over the wider implications of television…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T14:00:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "neighbours",
+       "ai (artificial intelligence)",
+       "margot robbie",
+       "drama",
+       "film",
+       "culture"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/d850e2558a1a7a06e667ee3f5cb1123b8775f401/189_38_3166_2534/master/3166.jpg?width=700&quality=85&auto=format&fit=max&s=bffd05918d117bd749729a40c7d29666",
+       "credit": "Photograph: FremantleMedia/REX",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d909e7d004244100",
+      "related": [],
+      "score": {
+       "total": 65.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-25T14:10:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "همسایه ها در حال تبدیل شدن به یک میکرودرم با تمرکز بر مارگوت رابی هستند و ستاره های او خوشحال نیستند",
+        "excerpt": "داستان رابی در صابون معروف دوباره به میکروپسی های عمودی خواهد شد که در تلفن ها دیده می شود - اما اعضای بازیگران او می گویند که آنها با اپرا صابون های طولانی مدت استرالیا مشورت نکرده اند با AI به یک میکرومرام طراحی شده برای تماشا در تلفن، جرقه یک بحث در میان بازیگران نمایش و اثرات گسترده تر تلویزیون.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -644,15 +825,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.7,
+        "recency": 67.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -660,176 +841,6 @@
         "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "60c7eb065c480fbc",
-      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Reinforcing the value of human understanding at MIT",
-      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "lang": "en",
-      "publishedAt": "2026-10-23T19:35:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "history of mit",
-       "classes and programs",
-       "humanities",
-       "arts",
-       "social sciences"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
-       "credit": "Photo: Jake Belcher",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "60c7eb065c480fbc",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 67.8,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تقویت ارزش درک انسانی در MIT",
-        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 67.3,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d5dfb55b012918e7",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-23T16:15:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
-      },
-      "eventId": "d5dfb55b012918e7",
-      "related": [],
-      "score": {
-       "total": 63.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 65.6,
-        "topic": 75.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-25T12:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -844,8 +855,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T12:00:00Z",
-   "to": "2026-10-25T12:00:00Z",
+   "from": "2026-09-25T14:10:00Z",
+   "to": "2026-10-25T14:10:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -879,15 +890,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 76.0,
+       "total": 75.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.5,
+        "recency": 78.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -938,15 +949,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.4,
+       "total": 75.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 75.8,
+        "recency": 75.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1001,15 +1012,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.2,
+       "total": 75.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.5,
+        "recency": 77.0,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1059,15 +1070,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.3,
+        "recency": 67.9,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1120,15 +1131,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 88.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1177,15 +1188,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 88.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1237,15 +1248,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 88.4,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1291,15 +1302,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.4,
+        "recency": 70.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1344,15 +1355,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 87.6,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
@@ -1372,52 +1383,47 @@
     },
     {
      "article": {
-      "id": "d543a8c819225bfc",
-      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
-      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "id": "38715d90bd30f009",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-23T16:24:55Z",
+      "publishedAt": "2026-10-21T12:51:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon quick sight",
-       "intermediate (200)",
-       "technical how-to"
-      ],
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "safety",
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
-       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
       },
-      "eventId": "d543a8c819225bfc",
+      "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 75.5,
+        "topic": 90.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-25T12:00:00Z"
+       "asOf": "2026-10-25T14:10:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
-        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
+        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
+        "at": "2026-10-21T13:55:00Z"
        }
       }
      },
