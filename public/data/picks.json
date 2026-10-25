@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T06:00:00Z",
+ "asOf": "2026-10-25T10:08:49Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,190 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T06:00:00Z",
-   "to": "2026-10-25T06:00:00Z",
+   "from": "2026-10-24T10:08:49Z",
+   "to": "2026-10-25T10:08:49Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "14b3a965d4fb0630",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "excerpt": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+      "lang": "en",
+      "publishedAt": "2026-10-25T10:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T10:11:39Z",
+      "day": "2026-10-25",
+      "category": "hardware",
+      "tags": [
+       "science",
+       "science / environment",
+       "business",
+       "data centers",
+       "power play",
+       "history"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6adbe4fc594ddd5d406f1b4a/master/pass/102326-Power%20Play-What%20the%20US%20Anti-Data%20Center%20Movement%20Can%20Learn%20From%20Everywhere%20Else-v2.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "14b3a965d4fb0630",
+      "related": [],
+      "score": {
+       "total": 62.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-25T10:08:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جنبش ایالات متحده علیه مراکز داده می تواند از خارج از کشور یاد بگیرد",
+        "excerpt": "پاریس مارکس، نویسنده ی Hyperscale، سال هاست که توسعه ی مرکز داده های جهانی را دنبال می کند. ایالات متحده چیزهای زیادی برای یادگیری از آنچه در همه جا از ایرلند به نیوزیلند اتفاق افتاده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T10:11:39Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6905c9848f7b15d8",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "excerpt": "Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T10:08:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T10:11:39Z",
+      "day": "2026-10-25",
+      "category": "models",
+      "tags": [
+       "ai research",
+       "artificial intelligence",
+       "data",
+       "nvidia",
+       "robotics"
+      ],
+      "entities": [
+       "nvidia",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/nvidia-flora-hero-robot-hands.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "6905c9848f7b15d8",
+      "related": [],
+      "score": {
+       "total": 61.6,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-25T10:08:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia Open-source فلور برای ساخت برچسب های ویدئویی ربات 125x ارزان تر از GPT-6 Astra",
+        "excerpt": "موتور داده جدید Nvidia یک ساعت ویدیو ربات را به جای 88 دلار با GPT-6 Astra برچسب گذاری می کند، در حالی که با کیفیت کمی بالاتر است. سیستم باز، که بر روی سه مدل Qwen3.5 ساخته شده است، اشتباهاتی را در اقدامات ربات به مراتب قابل اعتماد تر از هر رقیبی به دست می آورد، اما گاهی اوقات با دقت توصیفی کوتاه می شود. Nvidia قرار دادن فلور به عنوان یک قطعه کلیدی از استراتژی خود برای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T10:11:39Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "7971b394f72bbcfd",
+      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+      "excerpt": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 appeared first on The Decoder.",
+      "lang": "en",
+      "publishedAt": "2026-10-25T09:37:46Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T10:11:39Z",
+      "day": "2026-10-25",
+      "category": "research",
+      "tags": [
+       "ai research",
+       "artificial intelligence",
+       "anthropic",
+       "claude",
+       "rsi"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/tasteval_and_rsi.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "7971b394f72bbcfd",
+      "related": [],
+      "score": {
+       "total": 58.7,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 97.1,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-25T10:08:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جک کلارک، بنیانگذار Anthropic، پیش بینی خود را برای اثبات خود AI به جلو به 2027",
+        "excerpt": "یک معیار جدید توسط P-Zero Research اندازه گیری می کند که چگونه مدل های AI طراحی و ارزیابی آزمایش ها را به تنهایی انجام می دهند. نتایج به سرعت در حال بهبود است که جک کلارک، بنیانگذار Anthropic در حال حاضر فکر می کند خود اثبات AI می تواند تا سال 2027 برسد. جک کلارک، بنیانگذار Anthropic، پیش بینی خود را برای اثبات خود AI به جلو به 2027 در ابتدا در Decoder ظاهر شد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T10:11:39Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
     {
      "article": {
       "id": "09a5dda451583962",
@@ -45,15 +225,15 @@
       "eventId": "09a5dda451583962",
       "related": [],
       "score": {
-       "total": 56.1,
+       "total": 53.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 51.6,
+        "recency": 40.6,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +244,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -106,15 +286,15 @@
       "eventId": "e4ac1d3f295acd60",
       "related": [],
       "score": {
-       "total": 54.4,
+       "total": 52.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 42.0,
+        "recency": 33.1,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -125,66 +305,7 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0509c80e85fbace7",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "excerpt": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue",
-      "lang": "en",
-      "publishedAt": "2026-10-24T21:29:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T22:33:26Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai",
-       "entertainment",
-       "news",
-       "science",
-       "tv shows"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A humpback whale breaching with the NYC skyline in the background.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0509c80e85fbace7",
-      "related": [],
-      "score": {
-       "total": 53.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 61.2,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-25T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Blue Planet III دارای لبه های خشن در عصر AI است",
-        "excerpt": "BBC’s Blue Planet III به دنبال اثبات اعتبار خود با ترک در شات های کمتر از کامل است. تجسم های قبلی از سری طبیعت توسط فیلم های زرق و برق دار و شفاف آن ها تعریف شده است که به نظر می رسد بسیار خوب است. اما یک تسلیم مرده از AI زمانی است که همه چیز بیش از حد تمیز و یکپارچه به نظر می رسد. برای مقابله با آن، آبی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T22:33:26Z"
-       }
-      }
-     },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -225,15 +346,15 @@
       "eventId": "42ed7d46a4de8f4c",
       "related": [],
       "score": {
-       "total": 53.6,
+       "total": 51.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 53.0,
+        "recency": 41.7,
         "topic": 65.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -241,126 +362,6 @@
         "excerpt": "تلاش Athletes برای کنترل - و درآمد - هویت های دیجیتال خود را در لبه برش از معاملات حقوق AI دریافت ایمیل سیاسی جدید ما، برنامه آزاد و یا پادکست اخبار روزانه ستاره فوتبال به دوربین خیره می شود به عنوان او از طریق یک مزاحم بزرگ، صدای چکمه های فوتبال خود را در انعکاس بتن تمیز اطراف او. ناگهان، او چهار کلون دیجیتال تولید می کند که پوست را از نظر ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-24T19:32:47Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dbe76530e9896fc9",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "lang": "en",
-      "publishedAt": "2026-10-24T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T19:32:47Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai",
-       "microsoft",
-       "openai",
-       "evergreens",
-       "siri ai"
-      ],
-      "entities": [
-       "apple",
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "dbe76530e9896fc9",
-      "related": [],
-      "score": {
-       "total": 53.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 53.0,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-25T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قبرستان هوش مصنوعی: لیستی از پروژه ها و استارتاپ هایی که آن را ساخته بودند",
-        "excerpt": "از اپل به تاخیر انداختن Siri AI برای باز کردن برنامه \"برنامه بالا\" پیچیده، در اینجا نگاهی به پروژه های AI که خاموش یا از دست رفته انتظارات.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T19:32:47Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4e14fb90e297d6e0",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/oct/24/becky-barnicoat-on-scary-outfits-for-halloween-cartoon",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Becky Barnicoat on scary outfits for Halloween – cartoon",
-      "excerpt": "Continue reading...",
-      "lang": "en",
-      "publishedAt": "2026-10-24T10:00:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T12:45:32Z",
-      "day": "2026-10-24",
-      "category": "policy",
-      "tags": [
-       "halloween",
-       "life and style",
-       "gianni infantino",
-       "meta",
-       "uk cost of living crisis",
-       "ai (artificial intelligence)"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/18d0f09440a0708f336da7f5769e39535a935a6c/183_661_860_688/master/860.jpg?width=700&quality=85&auto=format&fit=max&s=6dc37fb3c0fa71cb005c4b4c4e96a2db",
-       "credit": "Illustration: Becky Barnicoat/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "4e14fb90e297d6e0",
-      "related": [],
-      "score": {
-       "total": 52.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 31.5,
-        "topic": 85.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-25T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Becky Barnicoat در لباس های ترسناک برای هالووین - کارتون",
-        "excerpt": "ادامه خواندن ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T12:45:32Z"
        }
       }
      },
@@ -375,8 +376,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T06:00:00Z",
-   "to": "2026-10-25T06:00:00Z",
+   "from": "2026-10-18T10:08:49Z",
+   "to": "2026-10-25T10:08:49Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -410,15 +411,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 69.7,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 47.2,
+        "recency": 45.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -473,15 +474,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 68.8,
+       "total": 68.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 45.4,
+        "recency": 43.6,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -532,15 +533,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 68.7,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 42.0,
+        "recency": 40.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -592,15 +593,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.1,
+        "recency": 68.3,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -652,15 +653,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.8,
+        "recency": 69.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -709,15 +710,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.3,
+        "recency": 68.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -769,15 +770,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.8,
+        "recency": 69.0,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -823,15 +824,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 63.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.5,
+        "recency": 66.8,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -852,8 +853,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T06:00:00Z",
-   "to": "2026-10-25T06:00:00Z",
+   "from": "2026-09-25T10:08:49Z",
+   "to": "2026-10-25T10:08:49Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,15 +888,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 76.2,
+       "total": 76.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 79.8,
+        "recency": 78.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +947,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.7,
+       "total": 75.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 77.1,
+        "recency": 76.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1009,15 +1010,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.5,
+       "total": 75.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 78.9,
+        "recency": 77.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1067,15 +1068,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.5,
+        "recency": 68.7,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1128,15 +1129,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 89.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1185,15 +1186,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.3,
+        "recency": 89.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1245,15 +1246,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.5,
+        "recency": 89.5,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
@@ -1265,59 +1266,6 @@
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d5dfb55b012918e7",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-23T16:15:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
-      },
-      "eventId": "d5dfb55b012918e7",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.7,
-        "topic": 75.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-25T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1352,21 +1300,74 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.6,
+        "recency": 71.8,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
         "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-20T15:24:21Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d5dfb55b012918e7",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-23T16:15:50Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
+      },
+      "eventId": "d5dfb55b012918e7",
+      "related": [],
+      "score": {
+       "total": 68.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.6,
+        "topic": 75.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-25T10:08:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
@@ -1380,52 +1381,47 @@
     },
     {
      "article": {
-      "id": "d543a8c819225bfc",
-      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
-      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
+      "id": "38715d90bd30f009",
+      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-23T16:24:55Z",
+      "publishedAt": "2026-10-21T12:51:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "amazon quick sight",
-       "intermediate (200)",
-       "technical how-to"
-      ],
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "safety",
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
-       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
       },
-      "eventId": "d543a8c819225bfc",
+      "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 76.4,
+        "topic": 90.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-25T06:00:00Z"
+       "asOf": "2026-10-25T10:08:49Z"
       },
       "tr": {
        "fa": {
-        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
-        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
+        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
+        "at": "2026-10-21T13:55:00Z"
        }
       }
      },
