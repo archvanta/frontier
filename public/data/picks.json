@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T00:00:00Z",
+ "asOf": "2026-10-25T06:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T00:00:00Z",
-   "to": "2026-10-25T00:00:00Z",
+   "from": "2026-10-24T06:00:00Z",
+   "to": "2026-10-25T06:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -45,15 +45,15 @@
       "eventId": "09a5dda451583962",
       "related": [],
       "score": {
-       "total": 60.3,
+       "total": 56.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 72.9,
+        "recency": 51.6,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -65,185 +65,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0509c80e85fbace7",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
-      "excerpt": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue",
-      "lang": "en",
-      "publishedAt": "2026-10-24T21:29:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T22:33:26Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai",
-       "entertainment",
-       "news",
-       "science",
-       "tv shows"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A humpback whale breaching with the NYC skyline in the background.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0509c80e85fbace7",
-      "related": [],
-      "score": {
-       "total": 58.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 86.5,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-10-25T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Blue Planet III دارای لبه های خشن در عصر AI است",
-        "excerpt": "BBC’s Blue Planet III به دنبال اثبات اعتبار خود با ترک در شات های کمتر از کامل است. تجسم های قبلی از سری طبیعت توسط فیلم های زرق و برق دار و شفاف آن ها تعریف شده است که به نظر می رسد بسیار خوب است. اما یک تسلیم مرده از AI زمانی است که همه چیز بیش از حد تمیز و یکپارچه به نظر می رسد. برای مقابله با آن، آبی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T22:33:26Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "42ed7d46a4de8f4c",
-      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
-      "excerpt": "Athletes’ scramble to control – and monetise – their digital identities at the cutting edge of AI rights deals Get our new political email, free app or daily news podcast The Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to…",
-      "lang": "en",
-      "publishedAt": "2026-10-24T19:00:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T19:32:47Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australia sport",
-       "technology",
-       "football australia",
-       "computing",
-       "sport"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/15cf4bbae81d34c1e12101107eb8ac8c8eaadef2/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=4414cd2890032333fa79b29c527f1ec7",
-       "credit": "Composite: Cristian Volpato/Callandor Group/Instagram/Guardian Design",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "42ed7d46a4de8f4c",
-      "related": [],
-      "score": {
-       "total": 58.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 75.0,
-        "topic": 65.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-25T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دوقلوی مصنوعی: چرا Soccer Cristian Volpato آخرین بازیکنی است که به نسخه ی AI خود مجوز می دهد",
-        "excerpt": "تلاش Athletes برای کنترل - و درآمد - هویت های دیجیتال خود را در لبه برش از معاملات حقوق AI دریافت ایمیل سیاسی جدید ما، برنامه آزاد و یا پادکست اخبار روزانه ستاره فوتبال به دوربین خیره می شود به عنوان او از طریق یک مزاحم بزرگ، صدای چکمه های فوتبال خود را در انعکاس بتن تمیز اطراف او. ناگهان، او چهار کلون دیجیتال تولید می کند که پوست را از نظر ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T19:32:47Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dbe76530e9896fc9",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-      "lang": "en",
-      "publishedAt": "2026-10-24T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T19:32:47Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai",
-       "microsoft",
-       "openai",
-       "evergreens",
-       "siri ai"
-      ],
-      "entities": [
-       "apple",
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "dbe76530e9896fc9",
-      "related": [],
-      "score": {
-       "total": 58.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 74.9,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-25T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قبرستان هوش مصنوعی: لیستی از پروژه ها و استارتاپ هایی که آن را ساخته بودند",
-        "excerpt": "از اپل به تاخیر انداختن Siri AI برای باز کردن برنامه \"برنامه بالا\" پیچیده، در اینجا نگاهی به پروژه های AI که خاموش یا از دست رفته انتظارات.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T19:32:47Z"
-       }
-      }
-     },
-     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -285,15 +106,15 @@
       "eventId": "e4ac1d3f295acd60",
       "related": [],
       "score": {
-       "total": 57.9,
+       "total": 54.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 59.5,
+        "recency": 42.0,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -301,6 +122,185 @@
         "excerpt": "یک مطالعه جدید نشان داد که AI Grok به طور گسترده ای کاندیداهای جمهوریخواه را توصیه می کند در حالی که GPT OpenAI به نفع دموکرات ها است، با دو مدل AI در بیش از 90٪ از تقریبا 500 مسابقه انتخاباتی مخالف است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-24T16:41:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0509c80e85fbace7",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "excerpt": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue",
+      "lang": "en",
+      "publishedAt": "2026-10-24T21:29:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T22:33:26Z",
+      "day": "2026-10-24",
+      "category": "products",
+      "tags": [
+       "ai",
+       "entertainment",
+       "news",
+       "science",
+       "tv shows"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A humpback whale breaching with the NYC skyline in the background.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "0509c80e85fbace7",
+      "related": [],
+      "score": {
+       "total": 53.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 61.2,
+        "topic": 65.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-10-25T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Blue Planet III دارای لبه های خشن در عصر AI است",
+        "excerpt": "BBC’s Blue Planet III به دنبال اثبات اعتبار خود با ترک در شات های کمتر از کامل است. تجسم های قبلی از سری طبیعت توسط فیلم های زرق و برق دار و شفاف آن ها تعریف شده است که به نظر می رسد بسیار خوب است. اما یک تسلیم مرده از AI زمانی است که همه چیز بیش از حد تمیز و یکپارچه به نظر می رسد. برای مقابله با آن، آبی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T22:33:26Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "42ed7d46a4de8f4c",
+      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
+      "excerpt": "Athletes’ scramble to control – and monetise – their digital identities at the cutting edge of AI rights deals Get our new political email, free app or daily news podcast The Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to…",
+      "lang": "en",
+      "publishedAt": "2026-10-24T19:00:40Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T19:32:47Z",
+      "day": "2026-10-24",
+      "category": "products",
+      "tags": [
+       "ai (artificial intelligence)",
+       "australia sport",
+       "technology",
+       "football australia",
+       "computing",
+       "sport"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/15cf4bbae81d34c1e12101107eb8ac8c8eaadef2/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=4414cd2890032333fa79b29c527f1ec7",
+       "credit": "Composite: Cristian Volpato/Callandor Group/Instagram/Guardian Design",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "42ed7d46a4de8f4c",
+      "related": [],
+      "score": {
+       "total": 53.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 53.0,
+        "topic": 65.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-25T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دوقلوی مصنوعی: چرا Soccer Cristian Volpato آخرین بازیکنی است که به نسخه ی AI خود مجوز می دهد",
+        "excerpt": "تلاش Athletes برای کنترل - و درآمد - هویت های دیجیتال خود را در لبه برش از معاملات حقوق AI دریافت ایمیل سیاسی جدید ما، برنامه آزاد و یا پادکست اخبار روزانه ستاره فوتبال به دوربین خیره می شود به عنوان او از طریق یک مزاحم بزرگ، صدای چکمه های فوتبال خود را در انعکاس بتن تمیز اطراف او. ناگهان، او چهار کلون دیجیتال تولید می کند که پوست را از نظر ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T19:32:47Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "dbe76530e9896fc9",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "lang": "en",
+      "publishedAt": "2026-10-24T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-24T19:32:47Z",
+      "day": "2026-10-24",
+      "category": "products",
+      "tags": [
+       "ai",
+       "microsoft",
+       "openai",
+       "evergreens",
+       "siri ai"
+      ],
+      "entities": [
+       "apple",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "dbe76530e9896fc9",
+      "related": [],
+      "score": {
+       "total": 53.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 53.0,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-25T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قبرستان هوش مصنوعی: لیستی از پروژه ها و استارتاپ هایی که آن را ساخته بودند",
+        "excerpt": "از اپل به تاخیر انداختن Siri AI برای باز کردن برنامه \"برنامه بالا\" پیچیده، در اینجا نگاهی به پروژه های AI که خاموش یا از دست رفته انتظارات.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-24T19:32:47Z"
        }
       }
      },
@@ -345,15 +345,15 @@
       "eventId": "4e14fb90e297d6e0",
       "related": [],
       "score": {
-       "total": 54.8,
+       "total": 52.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 44.6,
+        "recency": 31.5,
         "topic": 85.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -375,8 +375,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T00:00:00Z",
-   "to": "2026-10-25T00:00:00Z",
+   "from": "2026-10-18T06:00:00Z",
+   "to": "2026-10-25T06:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -410,15 +410,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 70.2,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 50.0,
+        "recency": 47.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -430,6 +430,128 @@
       }
      },
      "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0d8d033795840d49",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
+      "lang": "en",
+      "publishedAt": "2026-10-21T19:53:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "news"
+      ],
+      "entities": [
+       "anthropic",
+       "meta",
+       "openai"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "0d8d033795840d49",
+      "related": [
+       "97cbc6d12895efc6"
+      ],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 45.4,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-25T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
+        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T20:55:40Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61f4d0141ff303c0",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "google",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "61f4d0141ff303c0",
+      "related": [
+       "14f13252070a5596"
+      ],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 42.0,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-25T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های OpenAI به Google Cloud می آیند",
+        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T13:55:00Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -470,15 +592,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.3,
+        "recency": 71.1,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -489,132 +611,10 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0d8d033795840d49",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
-      "lang": "en",
-      "publishedAt": "2026-10-21T19:53:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "news"
-      ],
-      "entities": [
-       "anthropic",
-       "meta",
-       "openai"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0d8d033795840d49",
-      "related": [
-       "97cbc6d12895efc6"
-      ],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 48.1,
-        "topic": 100.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-25T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
-        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 44.5,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-25T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -652,15 +652,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 65.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.1,
+        "recency": 72.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -709,15 +709,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.5,
+        "recency": 71.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -769,15 +769,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.1,
+        "recency": 71.8,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -823,15 +823,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.7,
+        "recency": 69.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -852,8 +852,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T00:00:00Z",
-   "to": "2026-10-25T00:00:00Z",
+   "from": "2026-09-25T06:00:00Z",
+   "to": "2026-10-25T06:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,15 +887,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 76.5,
+       "total": 76.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 81.2,
+        "recency": 79.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +946,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 76.0,
+       "total": 75.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.5,
+        "recency": 77.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1009,15 +1009,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.7,
+       "total": 75.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.3,
+        "recency": 78.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1067,15 +1067,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 70.7,
+        "recency": 69.5,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1128,15 +1128,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 90.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1185,15 +1185,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 90.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1245,15 +1245,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 90.5,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1299,15 +1299,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 89.7,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1352,15 +1352,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.9,
+        "recency": 72.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1410,15 +1410,15 @@
       "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 89.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-25T00:00:00Z"
+       "asOf": "2026-10-25T06:00:00Z"
       },
       "tr": {
        "fa": {
