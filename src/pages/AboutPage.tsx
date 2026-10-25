@@ -1,5 +1,7 @@
 import { useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
+import { PORTFOLIO_URL } from '../lib/site';
+import { Icon } from '../components/Icon';
 
 const EN = [
   ['What FRONTIER is', 'A free, static website that follows public AI news. About every hour a GitHub Actions job reads a maintained list of RSS/Atom feeds from AI labs, research groups and technology media, and publishes the result as JSON files that this site reads. Visiting the site never triggers collection, translation or any AI call.'],
@@ -26,6 +28,20 @@ const FA = [
 export function AboutPage() {
   const { t, locale } = useI18n();
   const sections = locale === 'fa' ? FA : EN;
+  const creator =
+    locale === 'fa'
+      ? {
+          kicker: 'سازنده / پرتفولیو',
+          title: 'طراحی و ساخته‌شده توسط محمدامین صادقی',
+          body: 'طراح معماری و دیتاسنتر با تمرکز بر زیرساخت، فناوری و تجربه‌های دیجیتال. برای دیدن پروژه‌های منتخب، روند طراحی و راه‌های ارتباطی، پرتفولیوی سازنده را ببینید.',
+          action: 'مشاهدهٔ پرتفولیوی سازنده',
+        }
+      : {
+          kicker: 'Creator / Portfolio',
+          title: 'Designed and built by MohammadAmin Sadeghi',
+          body: 'An architectural and data center designer working across infrastructure, technology and digital experiences. Visit the creator portfolio for selected projects, design process and contact details.',
+          action: 'View creator portfolio',
+        };
   return (
     <div className="page container-narrow prose-page">
       <header className="page-head">
@@ -38,6 +54,20 @@ export function AboutPage() {
           <p>{body}</p>
         </section>
       ))}
+      <section className="creator-card" aria-labelledby="creator-title">
+        <div className="creator-identity">
+          <span className="creator-monogram" aria-hidden="true">
+            MS
+          </span>
+          <p className="creator-kicker">{creator.kicker}</p>
+        </div>
+        <h2 id="creator-title">{creator.title}</h2>
+        <p>{creator.body}</p>
+        <a className="creator-link" href={PORTFOLIO_URL} target="_blank" rel="noopener noreferrer">
+          {creator.action}
+          <Icon name="external" size={16} />
+        </a>
+      </section>
       <p>
         <a className="btn" href={href('/sources')}>
           {t('nav_sources')}

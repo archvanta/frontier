@@ -1,7 +1,7 @@
 import { formatDateTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import { href } from '../lib/router';
-import { REPO_URL } from '../lib/site';
+import { PORTFOLIO_URL, REPO_URL } from '../lib/site';
 import type { Meta } from '../lib/types';
 import { BrandMark } from './Header';
 import { Icon, type IconName } from './Icon';
@@ -70,6 +70,11 @@ export function Footer({ meta }: { meta: Meta | null | undefined }) {
               <li>
                 <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
                   GitHub
+                </a>
+              </li>
+              <li>
+                <a href={PORTFOLIO_URL} target="_blank" rel="noopener noreferrer">
+                  {t('footer_creator')}
                 </a>
               </li>
             </ul>
