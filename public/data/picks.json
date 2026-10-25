@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T10:08:49Z",
+ "asOf": "2026-10-25T12:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T10:08:49Z",
-   "to": "2026-10-25T10:08:49Z",
+   "from": "2026-10-24T12:00:00Z",
+   "to": "2026-10-25T12:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "99c99157c7fa1579",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Google’s AI search changes upended online publishing",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on",
+      "lang": "en",
+      "publishedAt": "2026-10-25T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T12:37:28Z",
+      "day": "2026-10-25",
+      "category": "products",
+      "tags": [
+       "ai",
+       "column",
+       "the stepback"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "99c99157c7fa1579",
+      "related": [],
+      "score": {
+       "total": 62.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-25T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Google’s AI Search تغییر در انتشار آنلاین",
+        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای بیشتر در مورد تاثیر AI بر وب، از Emma Roth پیروی کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه این صنعت انتشار دیجیتال را آغاز کرد",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T12:37:28Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "14b3a965d4fb0630",
@@ -46,15 +104,15 @@
       "eventId": "14b3a965d4fb0630",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 60.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 89.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +123,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -107,15 +165,15 @@
       "eventId": "6905c9848f7b15d8",
       "related": [],
       "score": {
-       "total": 61.6,
+       "total": 59.5,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 89.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -126,67 +184,121 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "7971b394f72bbcfd",
-      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027",
+      "id": "898721bdc762d6bc",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers",
       "sourceId": "the-decoder",
       "sourceName": "The Decoder",
-      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
-      "excerpt": "A new benchmark by P-Zero Research measures how well AI models design and evaluate experiments on their own. The results are improving so fast that Anthropic co-founder Jack Clark now thinks self-improving AI could arrive by 2027. The article Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027 appeared first on The Decoder.",
+      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+      "excerpt": "OpenAI is poaching Anthropic's customers with steep discounts. Companies like Rippling, Replit, and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed, but OpenAI is trading its own margins for market share. Chinese rivals like Deepseek are piling on more price pressure. The article OpenAI offers discounts up to 90 percent to poach Anthropic's…",
       "lang": "en",
-      "publishedAt": "2026-10-25T09:37:46Z",
+      "publishedAt": "2026-10-25T07:30:11Z",
       "dateEstimated": false,
       "fetchedAt": "2026-10-25T10:11:39Z",
       "day": "2026-10-25",
-      "category": "research",
+      "category": "models",
       "tags": [
-       "ai research",
+       "ai in practice",
        "artificial intelligence",
+       "short news",
        "anthropic",
-       "claude",
-       "rsi"
+       "openai"
       ],
       "entities": [
-       "anthropic"
+       "anthropic",
+       "deepseek",
+       "openai"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/tasteval_and_rsi.png",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai_anthropic.png",
        "kind": "feed",
        "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "7971b394f72bbcfd",
+      "eventId": "898721bdc762d6bc",
       "related": [],
       "score": {
-       "total": 58.7,
+       "total": 57.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 97.1,
-        "topic": 80.0,
-        "novelty": 92.3
+        "recency": 77.1,
+        "topic": 100.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "جک کلارک، بنیانگذار Anthropic، پیش بینی خود را برای اثبات خود AI به جلو به 2027",
-        "excerpt": "یک معیار جدید توسط P-Zero Research اندازه گیری می کند که چگونه مدل های AI طراحی و ارزیابی آزمایش ها را به تنهایی انجام می دهند. نتایج به سرعت در حال بهبود است که جک کلارک، بنیانگذار Anthropic در حال حاضر فکر می کند خود اثبات AI می تواند تا سال 2027 برسد. جک کلارک، بنیانگذار Anthropic، پیش بینی خود را برای اثبات خود AI به جلو به 2027 در ابتدا در Decoder ظاهر شد.",
+        "title": "OpenAI ارائه می دهد تخفیف تا 90 درصد برای بزرگترین مشتریان Anthropic",
+        "excerpt": "OpenAI مشتریان Anthropic را با تخفیف های شیب دار جذب می کند. شرکت هایی مانند Rippling، Replit و DataCamp می گویند که هزینه های AI را تا 90 درصد پس از تغییر کاهش داده اند. رشد آنتروپیک کند شده است، اما OpenAI حاشیه های خود را برای سهم بازار معامله می کند. رقبای چینی مانند Deepseek بر فشار قیمت بیشتر تمرکز می کنند. مقاله OpenAI ارائه می دهد تخفیف تا 90 درصد به poach Anthropic ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-25T10:11:39Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f123102aeba58e54",
+      "url": "https://www.datacenterdynamics.com/en/opinions/the-power-behind-ai-data-centers-drive-the-demand-for-qualified-electricians",
+      "sourceId": "datacenter-dynamics",
+      "sourceName": "DatacenterDynamics",
+      "title": "The power behind AI: Data centers drive the demand for qualified electricians",
+      "excerpt": "An insatiable demand for electricians",
+      "lang": "en",
+      "publishedAt": "2026-10-25T11:00:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T12:37:28Z",
+      "day": "2026-10-25",
+      "category": "hardware",
+      "tags": [],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.datacenterdynamics.com/media/images/Corey_Hannahs_Headshot.2e16d0ba.fill-750x500.png",
+       "kind": "feed",
+       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+      },
+      "eventId": "f123102aeba58e54",
+      "related": [],
+      "score": {
+       "total": 54.7,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 94.4,
+        "topic": 70.0,
+        "novelty": 72.7
+       },
+       "asOf": "2026-10-25T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قدرت پشت AI: مراکز داده تقاضا برای برقداران واجد شرایط",
+        "excerpt": "یک تقاضا برای برق",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T12:37:28Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -225,141 +337,20 @@
       "eventId": "09a5dda451583962",
       "related": [],
       "score": {
-       "total": 53.9,
+       "total": 53.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 40.6,
+        "recency": 36.5,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "پنسیلوانیا نیاز به برچسب در تبلیغات تولید شده AI خواهد داشت",
         "excerpt": "روز پنجشنبه، جاش شپیرو، فرماندار پنسیلوانیا، قانون تبلیغات ادراکی هوش مصنوعی را به قانون امضا کرد و نیاز به افشای تبلیغات تولید شده توسط AI داشت. این قانون نیاز به هر آگهی دارد - چه یک تصویر، ویدئو، صوتی و یا متن است - که \"به طور قابل توجهی اصلاح شده یا توسط هوش مصنوعی تولید شده است\" برای شامل یک برچسب در همان فرمت به عنوان یک برچسب به عنوان یک فرمت به عنوان یک فرمت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T19:32:47Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e4ac1d3f295acd60",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "excerpt": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
-      "lang": "en",
-      "publishedAt": "2026-10-24T15:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T16:41:19Z",
-      "day": "2026-10-24",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "government & policy",
-       "elon musk",
-       "spacex",
-       "vote",
-       "exclusive"
-      ],
-      "entities": [
-       "openai",
-       "xai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "e4ac1d3f295acd60",
-      "related": [],
-      "score": {
-       "total": 52.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 33.1,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-25T10:08:49Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "برای انتخاب، مدل AI Grok جمهوریخواهان را انتخاب می کند. OpenAI انتخاب دموکرات ها",
-        "excerpt": "یک مطالعه جدید نشان داد که AI Grok به طور گسترده ای کاندیداهای جمهوریخواه را توصیه می کند در حالی که GPT OpenAI به نفع دموکرات ها است، با دو مدل AI در بیش از 90٪ از تقریبا 500 مسابقه انتخاباتی مخالف است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-24T16:41:19Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "42ed7d46a4de8f4c",
-      "url": "https://www.theguardian.com/technology/2026/oct/25/synthetic-twin-why-socceroo-cristian-volpato-is-the-latest-footballer-to-license-his-ai-clone",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Synthetic twin’: Why Socceroo Cristian Volpato is the latest footballer to license his AI clone",
-      "excerpt": "Athletes’ scramble to control – and monetise – their digital identities at the cutting edge of AI rights deals Get our new political email, free app or daily news podcast The Socceroos star stares at the camera as he strides through an enormous atrium, the sound of his football boots on polished concrete echoing around him. Suddenly, he spawns four digital clones that peel off out of view to…",
-      "lang": "en",
-      "publishedAt": "2026-10-24T19:00:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-24T19:32:47Z",
-      "day": "2026-10-24",
-      "category": "products",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australia sport",
-       "technology",
-       "football australia",
-       "computing",
-       "sport"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/15cf4bbae81d34c1e12101107eb8ac8c8eaadef2/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=4414cd2890032333fa79b29c527f1ec7",
-       "credit": "Composite: Cristian Volpato/Callandor Group/Instagram/Guardian Design",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "42ed7d46a4de8f4c",
-      "related": [],
-      "score": {
-       "total": 51.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 41.7,
-        "topic": 65.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-25T10:08:49Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دوقلوی مصنوعی: چرا Soccer Cristian Volpato آخرین بازیکنی است که به نسخه ی AI خود مجوز می دهد",
-        "excerpt": "تلاش Athletes برای کنترل - و درآمد - هویت های دیجیتال خود را در لبه برش از معاملات حقوق AI دریافت ایمیل سیاسی جدید ما، برنامه آزاد و یا پادکست اخبار روزانه ستاره فوتبال به دوربین خیره می شود به عنوان او از طریق یک مزاحم بزرگ، صدای چکمه های فوتبال خود را در انعکاس بتن تمیز اطراف او. ناگهان، او چهار کلون دیجیتال تولید می کند که پوست را از نظر ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-24T19:32:47Z"
        }
@@ -376,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T10:08:49Z",
-   "to": "2026-10-25T10:08:49Z",
+   "from": "2026-10-18T12:00:00Z",
+   "to": "2026-10-25T12:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -411,15 +402,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 45.3,
+        "recency": 44.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -474,15 +465,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 43.6,
+        "recency": 42.8,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -533,15 +524,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 40.4,
+        "recency": 39.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -593,15 +584,15 @@
       "eventId": "51de56c2848f8bde",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.3,
+        "recency": 67.1,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -653,15 +644,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.9,
+        "recency": 68.7,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -673,63 +664,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 64.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 68.5,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-25T10:08:49Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -770,20 +704,77 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.0,
+        "recency": 67.8,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "تقویت ارزش درک انسانی در MIT",
         "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-23T21:44:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057a86be6882ac7b",
+      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Bringing foundational models to the front lines of TB screening",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-10-23T18:51:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-23T21:44:04Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "health & bioscience"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "057a86be6882ac7b",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 67.3,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-25T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
        }
@@ -824,15 +815,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 63.9,
+       "total": 63.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.8,
+        "recency": 65.6,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -853,8 +844,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T10:08:49Z",
-   "to": "2026-10-25T10:08:49Z",
+   "from": "2026-09-25T12:00:00Z",
+   "to": "2026-10-25T12:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -892,11 +883,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.9,
+        "recency": 78.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -947,15 +938,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 75.5,
+       "total": 75.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 76.2,
+        "recency": 75.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1010,15 +1001,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 75.3,
+       "total": 75.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.9,
+        "recency": 77.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1072,11 +1063,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.7,
+        "recency": 68.3,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1129,15 +1120,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.8,
+        "recency": 89.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1186,15 +1177,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 88.8,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1246,15 +1237,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.5,
+        "recency": 89.0,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1300,15 +1291,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.8,
+        "recency": 71.4,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1353,15 +1344,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 88.1,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1381,47 +1372,52 @@
     },
     {
      "article": {
-      "id": "38715d90bd30f009",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-      "excerpt": "",
+      "id": "d543a8c819225bfc",
+      "url": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "excerpt": "Amazon Quick Sight layer maps now support Point and LineString geometry from the same GeoJSON workflow, so you can plot store locations and the routes between them. This post covers the dataset and GeoJSON structure layer maps require, when to choose points or lines, and techniques for viewport control, layering geometries, and dynamic GeoJSON updates.",
       "lang": "en",
-      "publishedAt": "2026-10-21T12:51:24Z",
+      "publishedAt": "2026-10-23T16:24:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
+      "fetchedAt": "2026-10-23T18:27:37Z",
+      "day": "2026-10-23",
+      "category": "research",
+      "tags": [
+       "amazon quick sight",
+       "intermediate (200)",
+       "technical how-to"
+      ],
       "entities": [
-       "huggingface",
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-21612-1.png",
+       "alt": "Quick Sight dataset row for the JFK-LAX route with its route_id join key",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "38715d90bd30f009",
+      "eventId": "d543a8c819225bfc",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.4,
-        "topic": 90.0,
-        "novelty": 92.9
+        "recency": 88.2,
+        "topic": 80.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-25T10:08:49Z"
+       "asOf": "2026-10-25T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
+        "title": "تجسم نقاط و مسیرهای با GeoJSON در نقشه های لایه سریع آمازون",
+        "excerpt": "نقشه های لایه سریع آمازون در حال حاضر از Point و LineString هندسه از همان جریان کاری GeoJSON پشتیبانی می کنند، بنابراین شما می توانید مکان ها و مسیرهای بین آنها را طراحی کنید. این پست مجموعه داده ها و نقشه های لایه ساختار ژئوجیسون را پوشش می دهد، زمانی که نقاط یا خطوط را انتخاب کنید، و تکنیک هایی برای کنترل Viewport، geometries لایه بندی و به روز رسانی های پویا GeoJSON.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
+        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
