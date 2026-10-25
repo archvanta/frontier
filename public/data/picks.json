@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-25T16:57:32Z",
+ "asOf": "2026-10-25T17:10:16Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-24T16:57:32Z",
-   "to": "2026-10-25T16:57:32Z",
+   "from": "2026-10-24T17:10:16Z",
+   "to": "2026-10-25T17:10:16Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "b366ba776fde8cd4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
+      "lang": "en",
+      "publishedAt": "2026-10-25T13:25:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T14:35:52Z",
+      "day": "2026-10-25",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "reddit",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An illustration of the Reddit logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b366ba776fde8cd4",
+      "related": [],
+      "score": {
+       "total": 62.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 80.5,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-25T17:10:16Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
+        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T14:35:52Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "bb7c1e3b8be87920",
@@ -47,78 +105,20 @@
       "eventId": "bb7c1e3b8be87920",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 62.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 83.3,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
         "title": "ناامید کننده: دولت WA به دنبال بازپرداخت از Deloitte در گزارش دانشگاه ناقص است",
         "excerpt": "WA به Deloitte $ 66000 برای مطالعه امکان سنجی ناقص در ادغام دانشگاه غرب استرالیا، دانشگاه کورتین و دانشگاه موراک دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا پادکست اخبار روزانه دولت استرالیا غربی گفته است که آن را \"به شدت ناامید شده\" و به دنبال \"ارزیابی شده\" بهبود هزینه از Deloitte پس از خطا در گزارش در یک بالقوه کشف شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T14:35:52Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b366ba776fde8cd4",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
-      "lang": "en",
-      "publishedAt": "2026-10-25T13:25:32Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T14:35:52Z",
-      "day": "2026-10-25",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "news",
-       "reddit",
-       "tech"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An illustration of the Reddit logo.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b366ba776fde8cd4",
-      "related": [],
-      "score": {
-       "total": 63.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 81.5,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-25T16:57:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
-        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-25T14:35:52Z"
        }
@@ -165,15 +165,15 @@
       "eventId": "d909e7d004244100",
       "related": [],
       "score": {
-       "total": 62.8,
+       "total": 62.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 83.3,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -188,6 +188,65 @@
      "sources": 1,
      "reason": [
       "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5e8bf34ce5a69dc9",
+      "url": "https://www.youtube.com/watch?v=rF1EsryCAwc",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026",
+      "excerpt": "Europe is building its AI economy. NVIDIA founder and CEO Jensen Huang explains how AI factories are evolving to run agents and why physical AI is the next frontier. Catch the highlights from his NVIDIA GTC Berlin keynote, including announcements across AI infrastructure, safe agents, open models, enterprise AI, healthcare, mobility, robotics, and personal AI. Watch the full keynote…",
+      "lang": "en",
+      "publishedAt": "2026-10-25T17:10:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-25T17:53:35Z",
+      "day": "2026-10-25",
+      "category": "business",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/rF1EsryCAwc/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "rF1EsryCAwc",
+       "url": "https://www.youtube.com/watch?v=rF1EsryCAwc"
+      },
+      "eventId": "5e8bf34ce5a69dc9",
+      "related": [],
+      "score": {
+       "total": 61.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 30.0
+       },
+       "asOf": "2026-10-25T17:10:16Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چراغ های کلیدی Jensen Huang در NVIDIA GTC برلین 2026",
+        "excerpt": "اروپا اقتصاد AI خود را می سازد. بنیانگذار NVIDIA و مدیر عامل Jensen Huang توضیح می دهد که چگونه کارخانه های AI در حال تکامل برای اجرای عوامل و چرا AI فیزیکی مرز بعدی است. نقاط قوت خود را از نقطه عطف NVIDIA GTC برلین، از جمله اعلان در سراسر زیرساخت AI، عوامل ایمن، مدل های باز، AI شرکت، بهداشت و درمان، تحرک، رباتیک و AI شخصی بگیرید. نگاهی به سخنرانی کامل ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-25T17:53:35Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -219,15 +278,15 @@
       "eventId": "b23877b88e691b4d",
       "related": [],
       "score": {
-       "total": 61.4,
+       "total": 61.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.8,
         "topic": 55.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -238,7 +297,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -277,15 +336,15 @@
       "eventId": "611184d5aa6fabe3",
       "related": [],
       "score": {
-       "total": 58.2,
+       "total": 58.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.1,
+        "recency": 84.1,
         "topic": 55.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -293,64 +352,6 @@
         "excerpt": "ما لیستی از داغ ترین پوشیدنی های AI، از جمله Muse، Bee، Friend، Plaud و موارد دیگر را جمع آوری کردیم.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-25T14:35:52Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "99c99157c7fa1579",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Google’s AI search changes upended online publishing",
-      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry has relied on",
-      "lang": "en",
-      "publishedAt": "2026-10-25T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T12:37:28Z",
-      "day": "2026-10-25",
-      "category": "products",
-      "tags": [
-       "ai",
-       "column",
-       "the stepback"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STK414_STK480_AI_DIS_MISINFO_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "99c99157c7fa1579",
-      "related": [],
-      "score": {
-       "total": 57.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 75.1,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-25T16:57:32Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Google’s AI Search تغییر در انتشار آنلاین",
-        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای بیشتر در مورد تاثیر AI بر وب، از Emma Roth پیروی کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه این صنعت انتشار دیجیتال را آغاز کرد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T12:37:28Z"
        }
       }
      },
@@ -365,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-18T16:57:32Z",
-   "to": "2026-10-25T16:57:32Z",
+   "from": "2026-10-18T17:10:16Z",
+   "to": "2026-10-25T17:10:16Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -400,15 +401,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 42.5,
+        "recency": 42.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -467,11 +468,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 40.8,
+        "recency": 40.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -530,7 +531,7 @@
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -586,11 +587,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.0,
+        "recency": 63.9,
         "topic": 100.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -640,15 +641,15 @@
       "eventId": "b366ba776fde8cd4",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 66.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 96.5,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -700,15 +701,15 @@
       "eventId": "bb7c1e3b8be87920",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 97.0,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -764,11 +765,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 97.0,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -820,15 +821,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.5,
+        "recency": 65.4,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -850,8 +851,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-25T16:57:32Z",
-   "to": "2026-10-25T16:57:32Z",
+   "from": "2026-09-25T17:10:16Z",
+   "to": "2026-10-25T17:10:16Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -893,7 +894,7 @@
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -952,7 +953,7 @@
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1015,7 +1016,7 @@
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1073,7 +1074,7 @@
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1130,11 +1131,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 88.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1191,7 +1192,7 @@
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1251,7 +1252,7 @@
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1301,11 +1302,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 70.4,
+        "recency": 70.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1354,11 +1355,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.8,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
@@ -1408,11 +1409,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 74.8,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-25T16:57:32Z"
+       "asOf": "2026-10-25T17:10:16Z"
       },
       "tr": {
        "fa": {
