@@ -534,8 +534,8 @@ html[lang='fa'] .mt-label {
 }
 
 .nav-tile-art {
-  inline-size: 54px;
-  block-size: 54px;
+  inline-size: 42px;
+  block-size: 42px;
   max-inline-size: none;
   object-fit: contain;
   filter: drop-shadow(0 4px 5px rgba(18, 24, 72, 0.16));
@@ -919,8 +919,8 @@ html[lang='fa'] .mt-label {
 }
 
 .nh-fallback-art {
-  inline-size: min(64%, 280px);
-  block-size: min(78%, 280px);
+  inline-size: min(52%, 224px);
+  block-size: min(64%, 224px);
   object-fit: contain;
   filter: drop-shadow(0 24px 28px rgba(0, 0, 0, 0.45));
 }
@@ -1785,7 +1785,7 @@ html[lang='fa'] .picks-more-label {
 
 .story-media.is-fallback img {
   object-fit: contain;
-  padding: clamp(0.85rem, 7%, 2.25rem);
+  padding: clamp(1.15rem, 11%, 3rem);
   filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.24));
 }
 
@@ -2152,8 +2152,8 @@ html[lang='fa'] .story-card .story-title {
 }
 
 .story-tile img {
-  inline-size: 56px;
-  block-size: 56px;
+  inline-size: 42px;
+  block-size: 42px;
   max-inline-size: none;
   object-fit: contain;
   filter: drop-shadow(0 4px 6px rgba(10, 12, 40, 0.18));
