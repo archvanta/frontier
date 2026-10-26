@@ -1,6 +1,7 @@
 import { useEffect, useRef, type CSSProperties } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { formatNumber, relativeTime } from '../lib/dates';
+import { genuineImage } from '../lib/heroStories';
 import { useI18n } from '../lib/i18n';
 import { iconArt, type IconArtId } from '../lib/iconArt';
 import type { IntroStats } from '../lib/introStats';
@@ -8,7 +9,7 @@ import { href } from '../lib/router';
 import type { Article, PickEntry } from '../lib/types';
 import { HalftoneWordmark } from './HalftoneWordmark';
 import { Icon } from './Icon';
-import { TunnelScene } from './TunnelScene';
+import { resolveImageUrl } from './StoryImage';
 
 /**
  * First scene of the homepage: what the site is, in one calm screen, with the three ways in. The page's h1 lives here.
@@ -51,6 +52,10 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
   const { t, locale } = useI18n();
   const stats = data?.stats;
   const root = useRef<HTMLElement>(null);
+  const backdropStories = (stories ?? [])
+    .map((article) => ({ id: article.id, src: resolveImageUrl(genuineImage(article)?.url) }))
+    .filter((item): item is { id: string; src: string } => Boolean(item.src))
+    .slice(0, 3);
 
   // The backdrop only animates while the scene is on screen.
   useEffect(() => {
@@ -83,7 +88,25 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
         <span className="hi-glow hi-glow-b" />
         <span className="hi-glow hi-glow-c" />
         <span className="hi-grid" />
-        {stories && stories.length >= 3 && <TunnelScene stories={stories} mode="loop" />}
+        <div className="hi-story-previews">
+          {backdropStories.map((story, index) => (
+            <figure key={story.id} className="hi-story-preview" data-slot={index + 1}>
+              <img src={story.src} alt="" decoding="async" loading="eager" referrerPolicy="no-referrer" />
+            </figure>
+          ))}
+        </div>
+        <svg className="hi-orbits" viewBox="0 0 1440 760" preserveAspectRatio="none">
+          <path className="hi-orbit hi-orbit-a" d="M-80 590C280 290 610 260 930 390S1370 500 1520 220" />
+          <path className="hi-orbit hi-orbit-b" d="M-120 360C250 520 520 550 820 420S1260 180 1520 330" />
+          <path className="hi-orbit hi-orbit-c" d="M40 690C360 410 710 360 1030 470S1370 560 1510 440" />
+          <g className="hi-orbit-nodes">
+            <circle cx="120" cy="475" r="4" />
+            <circle cx="422" cy="359" r="3" />
+            <circle cx="890" cy="374" r="4" />
+            <circle cx="1208" cy="426" r="3" />
+            <circle cx="1352" cy="280" r="4" />
+          </g>
+        </svg>
         <span className="hi-beam" />
         <span className="hi-specks">
           {SPECKS.map((p) => (
@@ -92,23 +115,6 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
         </span>
       </div>
       <div className="container hi-inner">
-        <ul className={`hi-status ${stats ? 'is-ready' : ''}`} aria-label={t('signal_status')}>
-          <li className="hi-live">
-            <i aria-hidden="true" />
-            {t('intro_live')}
-          </li>
-          {stats?.sources != null && <li>{t('intro_sources', { n: formatNumber(stats.sources, locale) })}</li>}
-          {stats?.lastSignal && data && (
-            <li>
-              {t('intro_last_signal')}: <b>{relativeTime(stats.lastSignal, data.now, locale)}</b>
-            </li>
-          )}
-          {stats?.topCompany && (
-            <li>
-              {t('intro_top_mention')}: <b>{stats.topCompany.name}</b>
-            </li>
-          )}
-        </ul>
         <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
         <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
           <HalftoneWordmark word="FRONTIER" />
@@ -129,6 +135,23 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
             </a>
           ))}
         </nav>
+        <ul className={`hi-status ${stats ? 'is-ready' : ''}`} aria-label={t('signal_status')}>
+          <li className="hi-live">
+            <i aria-hidden="true" />
+            {t('intro_live')}
+          </li>
+          {stats?.sources != null && <li>{t('intro_sources', { n: formatNumber(stats.sources, locale) })}</li>}
+          {stats?.lastSignal && data && (
+            <li>
+              {t('intro_last_signal')}: <b>{relativeTime(stats.lastSignal, data.now, locale)}</b>
+            </li>
+          )}
+          {stats?.topCompany && (
+            <li>
+              {t('intro_top_mention')}: <b>{stats.topCompany.name}</b>
+            </li>
+          )}
+        </ul>
         <p className="hi-meta">{t('intro_meta')}</p>
       </div>
       <div className="container hi-signals">
