@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-26T15:24:27Z",
+ "asOf": "2026-10-26T20:30:55Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,22 +10,22 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-25T15:24:27Z",
-   "to": "2026-10-26T15:24:27Z",
+   "from": "2026-10-25T20:30:55Z",
+   "to": "2026-10-26T20:30:55Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "eb7708c5f537ab79",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "id": "0c05bd4cf5a4c5cc",
+      "url": "https://www.youtube.com/watch?v=crEHJon4iD4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Sullivan & Cromwell builds legal tools with Codex | OpenAI",
+      "excerpt": "At Sullivan & Cromwell LLP, John Savva uses Codex to build tools around the firm’s legal expertise. Agreement Analyzer brings together a draft agreement, selected precedents, and playbooks reflecting the firm’s and client’s positions. It identifies potential issues and returns a memo and proposed tracked changes for a lawyer to review. Lawyers can inspect the sources and explanations behind the…",
       "lang": "en",
-      "publishedAt": "2026-10-26T07:00:00Z",
+      "publishedAt": "2026-10-26T20:06:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
       "category": "models",
       "tags": [],
@@ -34,28 +34,34 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i4.ytimg.com/vi/crEHJon4iD4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "eb7708c5f537ab79",
+      "video": {
+       "provider": "youtube",
+       "id": "crEHJon4iD4",
+       "url": "https://www.youtube.com/watch?v=crEHJon4iD4"
+      },
+      "eventId": "0c05bd4cf5a4c5cc",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.5,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
-        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
+        "title": "چگونه سالیوان و Cromwell ابزارهای قانونی را با Codex می سازند؟ OpenAI",
+        "excerpt": "در سالیوان و Cromwell LLP، جان Savva از Codex برای ساخت ابزار در اطراف تخصص قانونی شرکت استفاده می کند. تجزیه و تحلیل توافق یک توافق پیش نویس، سابقه انتخاب شده و کتاب های بازی منعکس کننده موقعیت شرکت و مشتری است. این امر مسائل بالقوه را شناسایی می کند و یک یادداشت را باز می گرداند و تغییرات ردیابی شده برای وکیل را برای بررسی پیشنهاد می کند. وکلا می توانند منابع و توضیحات پشت ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
@@ -69,323 +75,451 @@
     },
     {
      "article": {
-      "id": "400e513e48467761",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
-      "excerpt": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "id": "f8e85120f2e2c293",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
+      "excerpt": "Tech company offers buyouts in an effort to reduce costs amid the rising use of AI, according to reports Microsoft announced that it would offer buyouts to 60,000 employees in an effort to reduce costs amid the rising use of artificial intelligence, according to reports, the latest example of how AI is reshaping tech companies and the greater workforce. This is the latest of several trimmings…",
       "lang": "en",
-      "publishedAt": "2026-10-26T14:30:27Z",
+      "publishedAt": "2026-10-26T18:44:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "research",
+      "category": "policy",
       "tags": [
-       "ai",
-       "cars",
-       "data centers",
-       "elon musk",
-       "fsd",
-       "spacex"
+       "microsoft",
+       "business",
+       "technology",
+       "ai (artificial intelligence)",
+       "job losses",
+       "technology sector"
       ],
-      "entities": [],
+      "entities": [
+       "microsoft"
+      ],
       "brand": null,
       "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
-       "credit": "Tesla",
+       "url": "https://i.guim.co.uk/img/media/f36458784b93fd8a4087d457a37e08ed2b9790d0/665_0_3331_2666/master/3331.jpg?width=700&quality=85&auto=format&fit=max&s=fefcaf331421015235341e40a3ce4e04",
+       "credit": "Photograph: David Paul Morris/Bloomberg via Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "400e513e48467761",
-      "related": [],
+      "eventId": "b8f740314eab2229",
+      "related": [
+       "b8f740314eab2229"
+      ],
       "score": {
-       "total": 64.3,
+       "total": 71.6,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.9,
-        "topic": 80.0,
-        "novelty": 92.9
+        "corroboration": 50.0,
+        "recency": 90.3,
+        "topic": 85.0,
+        "novelty": 42.9
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تسلا تاج الکتریکی را رها کرد. حالا می خواهد در مسابقه استقلال پیروز شود",
-        "excerpt": "تسلا امیدوار است که اشتراک های استقلال بتوانند فروش خودروهای حاشیه ای را ارائه دهند.",
+        "title": "مایکروسافت گزارش می دهد که خرید را به ۶۰ هزار کارمند در آخرین کاهش ها ارائه می دهد",
+        "excerpt": "شرکت فناوری ارائه می دهد خرید در تلاش برای کاهش هزینه ها در میان افزایش استفاده از AI، با توجه به گزارش مایکروسافت اعلام کرد که آن را به 600،000 کارمند در تلاش برای کاهش هزینه در میان افزایش استفاده از هوش مصنوعی، با توجه به گزارش، آخرین نمونه از چگونگی تغییر هوش مصنوعی شرکت های فناوری و نیروی کار بیشتر است. این آخرین سه گانه است ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 2,
-     "sources": 1,
+     "sources": 2,
      "reason": [
       "tier-2",
-      "first-report",
+      "voices-2",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "7ca6b100a30f0093",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Anthropic officially files for its public debut",
-      "excerpt": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "id": "61fb37e32c98d9e4",
+      "url": "https://www.youtube.com/shorts/bXNTUB209KE",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Using AI Agents to Teach Robots to Walk in Simulation #NVIDIAGTC #Microducks #Robotics",
+      "excerpt": "🦆 Put AI agents to work to help your robot learn to navigate. Using Microduck as the reference robot, this walkthrough shows how to create a simulated obstacle course with OpenAI GPT-6 Astra, build 3D assets with NVIDIA Omniverse libraries, simulate physics with Newton, train policies in NVIDIA Isaac Lab, and validate them in Isaac Sim on NVIDIA RTX Spark.",
       "lang": "en",
-      "publishedAt": "2026-10-26T14:35:22Z",
+      "publishedAt": "2026-10-26T16:00:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "safety",
-      "tags": [
-       "ai",
-       "anthropic",
-       "dario amodei",
-       "existential risk"
-      ],
+      "category": "models",
+      "tags": [],
       "entities": [
-       "anthropic"
+       "nvidia",
+       "openai"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
+       "url": "https://i3.ytimg.com/vi/bXNTUB209KE/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "7ca6b100a30f0093",
+      "video": {
+       "provider": "youtube",
+       "id": "bXNTUB209KE",
+       "url": "https://www.youtube.com/watch?v=bXNTUB209KE"
+      },
+      "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 63.6,
+       "total": 69.5,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
-        "topic": 90.0,
-        "novelty": 70.0
+        "recency": 77.1,
+        "topic": 100.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "فایل های رسمی Anthropic برای اولین بار عمومی آن",
-        "excerpt": "Anthropic به طور رسمی برای IPO ثبت شده است، نشان دادن درآمد افزایش یافته، تلفات بالا، تصویب شرکت های بزرگ، و یک ساختار غیر معمول حکومتی طراحی شده برای حفظ کنترل موسس و ماموریت ایمنی AI آن.",
+        "title": "استفاده از عوامل AI برای آموزش ربات ها در شبیه سازی #NVIDIAGTC #Microducks #Robotics",
+        "excerpt": "عوامل AI را برای کمک به ربات خود برای حرکت در نظر بگیرید. با استفاده از Microduck به عنوان ربات مرجع، این پیاده روی نشان می دهد که چگونه یک دوره مانع شبیه سازی شده با OpenAI GPT-6 Astra، ساخت دارایی های 3D با کتابخانه های NVIDIA Omniverse، شبیه سازی فیزیک با نیوتن، سیاست های قطار در آزمایشگاه NVIDIA آیزاک، و اعتبار آنها در ایزاک در سیم در NVIDIA RTX Spark.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "9c0a98fa46a8163e",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Can AI help solve the COBOL code crisis?",
-      "excerpt": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models'",
+      "id": "7b40604b474ead4d",
+      "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Audi is Reimagining Production With Digital Twins and Physical AI",
+      "excerpt": "Audi teams are reimaginging production with digital twins and physical AI. See how production teams will build digital twins in DELMIA using LEO, a Dassault Systemes’ virtual companion and foundational knowledge from the 3DEXPERIENCE platform. With NVIDIA Omniverse libraries enabling perception and motion simulation, these digital twins become the virtual training ground for mobile humanoid…",
       "lang": "en",
-      "publishedAt": "2026-10-26T13:15:00Z",
+      "publishedAt": "2026-10-26T19:49:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "anthropic",
-       "openai",
-       "report",
-       "tech"
-      ],
+      "category": "hardware",
+      "tags": [],
       "entities": [
-       "openai"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1246435991.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://i4.ytimg.com/vi/ouNWfNvqlDg/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "9c0a98fa46a8163e",
+      "video": {
+       "provider": "youtube",
+       "id": "ouNWfNvqlDg",
+       "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg"
+      },
+      "eventId": "7b40604b474ead4d",
       "related": [],
       "score": {
-       "total": 63.4,
+       "total": 68.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
-        "topic": 85.0,
-        "novelty": 90.0
+        "recency": 96.1,
+        "topic": 70.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا AI می تواند به حل بحران کد COBOL کمک کند؟",
-        "excerpt": "IRS، بانک ها، خطوط هوایی و زیرساخت های دولتی در سراسر جهان مشترک هستند؟ همه آنها در حال اجرا بر روی سیستم هایی هستند که توسط کد کامپیوتری قدیمی ساخته شده اند که هیچ کس جرأت نمی کند لمس کند، مبادا همه چیز سقوط کند. OpenAI فکر می کند که ممکن است راه حلی داشته باشد. در 19 اکتبر، این شرکت \"پیشرفت های گسترده\" را در آخرین مدل های AI خود منتشر کرد.",
+        "title": "چگونه آئودی تولید را با Twin های دیجیتال و AI فیزیکی بازسازی می کند",
+        "excerpt": "تیم های آئودی در حال تولید با دوقلوهای دیجیتال و هوش مصنوعی فیزیکی هستند. ببینید که چگونه تیم های تولیدی دوقلوهای دیجیتال را در DELMIA با استفاده از LEO، یک سیستم مجازی و دانش پایه از پلت فرم 3DEXPERIENCE ایجاد می کنند. با کتابخانه های NVIDIA Omniverse که ادراک و شبیه سازی حرکت را قادر می سازد، این دوقلوهای دیجیتال به زمینه آموزش مجازی برای انسان های متحرک تبدیل می شوند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "79e3e3e646b1d4ad",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
-      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
+      "id": "f3b6de314f91f101",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "excerpt": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
       "lang": "en",
-      "publishedAt": "2026-10-26T11:03:33Z",
+      "publishedAt": "2026-10-26T19:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "models",
+      "category": "hardware",
       "tags": [
-       "anthropic",
-       "ai (artificial intelligence)",
-       "technology sector",
-       "computing",
-       "georgia",
-       "us news"
+       "special events and guest speakers",
+       "climate change",
+       "energy",
+       "environment",
+       "policy",
+       "pollution"
       ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
-       "credit": "Photograph: Dado Ruvić/Reuters",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ny-climate-week.jpg?itok=c2Sg2eC6",
+       "credit": "Photo: Justin Coleman",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "79e3e3e646b1d4ad",
+      "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 62.9,
+       "total": 67.9,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.8,
-        "topic": 100.0,
-        "novelty": 83.3
+        "recency": 91.6,
+        "topic": 70.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
-        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
+        "title": "در هفته اقلیمی نیویورک 2026، MIT با یک شبکه جهانی ارتباط برقرار می کند",
+        "excerpt": "یک بخش متقابل از جامعه MIT بحث در مورد موضوعات اعم از مراکز داده و آلاینده های فوق العاده به کشاورزی و آموزش و پرورش.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "f9639b8619974d75",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/27/how-big-are-the-ai-datacentre-power-poles-that-sparked-a-community-backlash-in-melbourne",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "How tall are the AI datacentre power poles that sparked a community backlash in Melbourne?",
-      "excerpt": "Compare the concrete masts with their timber predecessors and other structures seen on suburban streets In something of a David v Goliath battle, Australia’s largest datacentre operator has faced a major setback in its plans to double the size of its west Melbourne facility. To expand the size of its M3 datacentre NextDC needs to deliver increased electricity to the site. The initial approach…",
+      "id": "e842fe95fb640890",
+      "url": "https://www.youtube.com/watch?v=tTuk4pGnT0A",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "GPT-6.1 Terra is now in orbit",
+      "excerpt": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price. GPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. GPT-6.1 Terra continues to advance the cost-intelligence frontier across our model families and is a significant step up over GPT‑5.6 Terra…",
       "lang": "en",
-      "publishedAt": "2026-10-26T14:00:44Z",
+      "publishedAt": "2026-10-26T18:12:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "hardware",
-      "tags": [
-       "datacentres - australia",
-       "ai (artificial intelligence)",
-       "australia news",
-       "computing",
-       "melbourne",
-       "victoria"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/6205004ba4caf3ce4be6737dec0141193c8c4cf9/0_0_1080_864/master/1080.jpg?width=700&quality=85&auto=format&fit=max&s=597f439fbe0f32faedd2e8498dac83f3",
-       "credit": "Illustration: Guardian Design",
+       "url": "https://i1.ytimg.com/vi/tTuk4pGnT0A/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "f9639b8619974d75",
-      "related": [],
+      "video": {
+       "provider": "youtube",
+       "id": "tTuk4pGnT0A",
+       "url": "https://www.youtube.com/watch?v=tTuk4pGnT0A"
+      },
+      "eventId": "1758535ac6be3e6b",
+      "related": [
+       "1758535ac6be3e6b"
+      ],
       "score": {
-       "total": 62.2,
+       "total": 66.9,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
-        "topic": 70.0,
-        "novelty": 92.3
+        "recency": 87.5,
+        "topic": 100.0,
+        "novelty": 44.4
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "قطب های قدرت داده محور هوش مصنوعی که یک واکنش جامعه را در ملبورن ایجاد کرده اند چقدر بلند هستند؟",
-        "excerpt": "مقایسه دکل های بتنی با پیشینیان چوب و دیگر سازه های دیده شده در خیابان های حومه در چیزی از نبرد دیوید و گولیا، بزرگترین اپراتور مرکز داده محور استرالیا با یک عقب نشینی بزرگ در برنامه های خود برای دو برابر کردن اندازه مرکز غرب ملبورن مواجه شده است. برای گسترش اندازه M3 DataCenter NextDC باید برق بیشتری را به سایت ارائه دهد. رویکرد اولیه ...",
+        "title": "GPT-6.1 Terra در مدار قرار دارد",
+        "excerpt": "GPT-6.1 Terra: تحویل سریع و توانمند استفاده از کامپیوتر با قیمت پایین تر GPT-6.1 Terra درک می کند که چه چیزی بر روی صفحه نمایش است، به طور طبیعی در سراسر برنامه ها عمل می کند و یک مدل توانمندتر برای کل روز کاری شما با بهره وری برای انجام بیشتر آن است. GPT-6.1 Terra همچنان به پیشبرد مرزهای اطلاعاتی در سراسر خانواده های مدل ما ادامه می دهد و گام مهمی بر روی GPT-5.6 Terra است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
-      "first-report",
+      "tier-1",
       "top-factor-reliability"
      ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-10-19T15:24:27Z",
-   "to": "2026-10-26T15:24:27Z",
+   "from": "2026-10-19T20:30:55Z",
+   "to": "2026-10-26T20:30:55Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "eb7708c5f537ab79",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "id": "b8f740314eab2229",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "excerpt": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another",
       "lang": "en",
-      "publishedAt": "2026-10-26T07:00:00Z",
+      "publishedAt": "2026-10-26T15:58:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "products",
+      "tags": [
+       "ai",
+       "labor",
+       "microsoft",
+       "news",
+       "tech",
+       "windows"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Vector illustration of the Microsoft logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b8f740314eab2229",
+      "related": [
+       "f8e85120f2e2c293"
+      ],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 95.7,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مایکروسافت پیشنهاد خرید را به 60 هزار کارمند ارائه می دهد",
+        "excerpt": "مایکروسافت پیشنهاد خرید داوطلبانه را تا ۶۰ هزار کارمند در سراسر ایالات متحده، انگلستان، کانادا و هند ارائه می دهد. در یک پیام به کارکنان، مدیر ارشد مایکروسافت، امی کولمن می نویسد که این به کارکنان \"فرصت برای ترک مایکروسافت با حمایت مالی و منابع برنامه ریزی شغلی\" را می دهد، زیرا شرکت به نظر می رسد کارکنان را بدون دیگری تجهیز می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61fb37e32c98d9e4",
+      "url": "https://www.youtube.com/shorts/bXNTUB209KE",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Using AI Agents to Teach Robots to Walk in Simulation #NVIDIAGTC #Microducks #Robotics",
+      "excerpt": "🦆 Put AI agents to work to help your robot learn to navigate. Using Microduck as the reference robot, this walkthrough shows how to create a simulated obstacle course with OpenAI GPT-6 Astra, build 3D assets with NVIDIA Omniverse libraries, simulate physics with Newton, train policies in NVIDIA Isaac Lab, and validate them in Isaac Sim on NVIDIA RTX Spark.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T16:00:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "nvidia",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/bXNTUB209KE/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "bXNTUB209KE",
+       "url": "https://www.youtube.com/watch?v=bXNTUB209KE"
+      },
+      "eventId": "61fb37e32c98d9e4",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.8,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "استفاده از عوامل AI برای آموزش ربات ها در شبیه سازی #NVIDIAGTC #Microducks #Robotics",
+        "excerpt": "عوامل AI را برای کمک به ربات خود برای حرکت در نظر بگیرید. با استفاده از Microduck به عنوان ربات مرجع، این پیاده روی نشان می دهد که چگونه یک دوره مانع شبیه سازی شده با OpenAI GPT-6 Astra، ساخت دارایی های 3D با کتابخانه های NVIDIA Omniverse، شبیه سازی فیزیک با نیوتن، سیاست های قطار در آزمایشگاه NVIDIA آیزاک، و اعتبار آنها در ایزاک در سیم در NVIDIA RTX Spark.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0c05bd4cf5a4c5cc",
+      "url": "https://www.youtube.com/watch?v=crEHJon4iD4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Sullivan & Cromwell builds legal tools with Codex | OpenAI",
+      "excerpt": "At Sullivan & Cromwell LLP, John Savva uses Codex to build tools around the firm’s legal expertise. Agreement Analyzer brings together a draft agreement, selected precedents, and playbooks reflecting the firm’s and client’s positions. It identifies potential issues and returns a memo and proposed tracked changes for a lawyer to review. Lawyers can inspect the sources and explanations behind the…",
+      "lang": "en",
+      "publishedAt": "2026-10-26T20:06:50Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
       "category": "models",
       "tags": [],
@@ -394,452 +528,332 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "eb7708c5f537ab79",
-      "related": [],
-      "score": {
-       "total": 71.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.2,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
-        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ba6fa07d677a8221",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "excerpt": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "lang": "en",
-      "publishedAt": "2026-10-22T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-22T18:37:05Z",
-      "day": "2026-10-22",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "ba6fa07d677a8221",
-      "related": [
-       "2e9a4426b96429c2",
-       "ab41ce0092eca74b"
-      ],
-      "score": {
-       "total": 67.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 34.2,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Uber ChatGPT برای همه کارکنان با OpenAI کار می کند",
-        "excerpt": "Uber در حال انجام کار ChatGPT به بیش از 300،000 کارمند، کمک به تحقیقات تیم، تجزیه و تحلیل داده ها، ایجاد ارائه ها و جریان های کاری پیچیده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-22T18:37:05Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "79e3e3e646b1d4ad",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
-      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
-      "lang": "en",
-      "publishedAt": "2026-10-26T11:03:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "anthropic",
-       "ai (artificial intelligence)",
-       "technology sector",
-       "computing",
-       "georgia",
-       "us news"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
-       "credit": "Photograph: Dado Ruvić/Reuters",
+       "url": "https://i4.ytimg.com/vi/crEHJon4iD4/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "79e3e3e646b1d4ad",
+      "video": {
+       "provider": "youtube",
+       "id": "crEHJon4iD4",
+       "url": "https://www.youtube.com/watch?v=crEHJon4iD4"
+      },
+      "eventId": "0c05bd4cf5a4c5cc",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 72.9,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 99.6,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 80.0
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
-        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
+        "title": "چگونه سالیوان و Cromwell ابزارهای قانونی را با Codex می سازند؟ OpenAI",
+        "excerpt": "در سالیوان و Cromwell LLP، جان Savva از Codex برای ساخت ابزار در اطراف تخصص قانونی شرکت استفاده می کند. تجزیه و تحلیل توافق یک توافق پیش نویس، سابقه انتخاب شده و کتاب های بازی منعکس کننده موقعیت شرکت و مشتری است. این امر مسائل بالقوه را شناسایی می کند و یک یادداشت را باز می گرداند و تغییرات ردیابی شده برای وکیل را برای بررسی پیشنهاد می کند. وکلا می توانند منابع و توضیحات پشت ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "0d8d033795840d49",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
+      "id": "64d59b55a8fb8666",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "ChatGPT’s expanding world of work",
+      "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "lang": "en",
-      "publishedAt": "2026-10-21T19:53:20Z",
+      "publishedAt": "2026-10-26T10:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
       "category": "models",
       "tags": [
-       "ai",
-       "anthropic",
-       "news"
+       "research"
       ],
       "entities": [
-       "anthropic",
-       "meta",
        "openai"
       ],
-      "brand": "claude",
+      "brand": "openai",
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "0d8d033795840d49",
-      "related": [
-       "97cbc6d12895efc6"
-      ],
+      "eventId": "64d59b55a8fb8666",
+      "related": [],
       "score": {
-       "total": 66.3,
+       "total": 71.8,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 32.9,
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.4,
         "topic": 100.0,
-        "novelty": 81.8
+        "novelty": 87.5
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
-        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
+        "title": "توسعه دنیای کار ChatGPT",
+        "excerpt": "بررسی اطلاعات OpenAI سیگنال ها در مورد 165 فعالیت کاری در حدود 100 کشور، نشان می دهد که چگونه مردم از ChatGPT برای کار و چگونه تغییرات استفاده در طول زمان استفاده می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 4,
-     "sources": 2,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "9c0a98fa46a8163e",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Can AI help solve the COBOL code crisis?",
-      "excerpt": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models'",
+      "id": "f3b6de314f91f101",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "excerpt": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
       "lang": "en",
-      "publishedAt": "2026-10-26T13:15:00Z",
+      "publishedAt": "2026-10-26T19:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "policy",
+      "category": "hardware",
       "tags": [
-       "ai",
-       "anthropic",
-       "openai",
-       "report",
-       "tech"
+       "special events and guest speakers",
+       "climate change",
+       "energy",
+       "environment",
+       "policy",
+       "pollution"
       ],
-      "entities": [
-       "openai"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1246435991.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ny-climate-week.jpg?itok=c2Sg2eC6",
+       "credit": "Photo: Justin Coleman",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "9c0a98fa46a8163e",
+      "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 69.3,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 85.0,
-        "novelty": 90.0
+        "recency": 98.6,
+        "topic": 70.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا AI می تواند به حل بحران کد COBOL کمک کند؟",
-        "excerpt": "IRS، بانک ها، خطوط هوایی و زیرساخت های دولتی در سراسر جهان مشترک هستند؟ همه آنها در حال اجرا بر روی سیستم هایی هستند که توسط کد کامپیوتری قدیمی ساخته شده اند که هیچ کس جرأت نمی کند لمس کند، مبادا همه چیز سقوط کند. OpenAI فکر می کند که ممکن است راه حلی داشته باشد. در 19 اکتبر، این شرکت \"پیشرفت های گسترده\" را در آخرین مدل های AI خود منتشر کرد.",
+        "title": "در هفته اقلیمی نیویورک 2026، MIT با یک شبکه جهانی ارتباط برقرار می کند",
+        "excerpt": "یک بخش متقابل از جامعه MIT بحث در مورد موضوعات اعم از مراکز داده و آلاینده های فوق العاده به کشاورزی و آموزش و پرورش.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "67160bc1e72b075b",
-      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
+      "id": "7b40604b474ead4d",
+      "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Audi is Reimagining Production With Digital Twins and Physical AI",
+      "excerpt": "Audi teams are reimaginging production with digital twins and physical AI. See how production teams will build digital twins in DELMIA using LEO, a Dassault Systemes’ virtual companion and foundational knowledge from the 3DEXPERIENCE platform. With NVIDIA Omniverse libraries enabling perception and motion simulation, these digital twins become the virtual training ground for mobile humanoid…",
       "lang": "en",
-      "publishedAt": "2026-10-26T09:01:00Z",
+      "publishedAt": "2026-10-26T19:49:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "safety",
-      "tags": [
-       "artificial intelligence",
-       "ai",
-       "app"
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
+       "url": "https://i4.ytimg.com/vi/ouNWfNvqlDg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "67160bc1e72b075b",
+      "video": {
+       "provider": "youtube",
+       "id": "ouNWfNvqlDg",
+       "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg"
+      },
+      "eventId": "7b40604b474ead4d",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 68.7,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
-        "topic": 90.0,
-        "novelty": 90.0
+        "recency": 99.3,
+        "topic": 70.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تمرکز بر بلایای ایمنی هوش مصنوعی آسیب های روزمره را نادیده می گیرد",
-        "excerpt": "در نظر بگیرید که چه چیزی برای موفقیت در سیاست های تکنولوژی پیش می رود. یک شرکت AI وعده می دهد که chatbot آن خودکشی را تشویق نمی کند. یک پلت فرم رسانه های اجتماعی برای کودکان برای خرید fentanyl مشکل تر است. این ها محافظت های مهمی هستند و باید در همه جا وجود داشته باشند. اما شرکت ها می توانند این میله های پایین را در حالی که همچنان به تولید محصولات ادامه می دهند، روشن کنند.",
+        "title": "چگونه آئودی تولید را با Twin های دیجیتال و AI فیزیکی بازسازی می کند",
+        "excerpt": "تیم های آئودی در حال تولید با دوقلوهای دیجیتال و هوش مصنوعی فیزیکی هستند. ببینید که چگونه تیم های تولیدی دوقلوهای دیجیتال را در DELMIA با استفاده از LEO، یک سیستم مجازی و دانش پایه از پلت فرم 3DEXPERIENCE ایجاد می کنند. با کتابخانه های NVIDIA Omniverse که ادراک و شبیه سازی حرکت را قادر می سازد، این دوقلوهای دیجیتال به زمینه آموزش مجازی برای انسان های متحرک تبدیل می شوند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "400e513e48467761",
-      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
-      "excerpt": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
+      "id": "8ed93bec790144d5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
       "lang": "en",
-      "publishedAt": "2026-10-26T14:30:27Z",
+      "publishedAt": "2026-10-26T17:56:58Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "research",
+      "category": "products",
       "tags": [
-       "ai",
-       "cars",
-       "data centers",
-       "elon musk",
-       "fsd",
-       "spacex"
+       "advanced (300)",
+       "amazon sagemaker",
+       "technical how-to"
       ],
-      "entities": [],
+      "entities": [
+       "amazon"
+      ],
       "brand": null,
       "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
-       "credit": "Tesla",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20483-1-1.png",
+       "alt": "Solution architecture: SQS FIFO queue triggers AWS Lambda, which starts a Step Functions state machine with an Amazon DynamoDB semaphore for concurrency control. The state machine launches a 13-step S",
        "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "400e513e48467761",
+      "eventId": "8ed93bec790144d5",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 68.5,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
-        "topic": 80.0,
-        "novelty": 92.9
+        "recency": 97.6,
+        "topic": 65.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تسلا تاج الکتریکی را رها کرد. حالا می خواهد در مسابقه استقلال پیروز شود",
-        "excerpt": "تسلا امیدوار است که اشتراک های استقلال بتوانند فروش خودروهای حاشیه ای را ارائه دهند.",
+        "title": "چرخه دید کامپیوتر در سراسر ناوگان در لبه با SageMaker SDK v3",
+        "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 7,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "7ca6b100a30f0093",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Anthropic officially files for its public debut",
-      "excerpt": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
+      "id": "188e9fbc4643b05c",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "excerpt": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
       "lang": "en",
-      "publishedAt": "2026-10-26T14:35:22Z",
+      "publishedAt": "2026-10-26T16:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
-      "category": "safety",
+      "category": "products",
       "tags": [
-       "ai",
-       "anthropic",
-       "dario amodei",
-       "existential risk"
+       "learning & education",
+       "google research",
+       "ai"
       ],
       "entities": [
-       "anthropic"
+       "google"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "7ca6b100a30f0093",
+      "eventId": "188e9fbc4643b05c",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 67.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 90.0,
-        "novelty": 70.0
+        "recency": 95.7,
+        "topic": 65.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "فایل های رسمی Anthropic برای اولین بار عمومی آن",
-        "excerpt": "Anthropic به طور رسمی برای IPO ثبت شده است، نشان دادن درآمد افزایش یافته، تلفات بالا، تصویب شرکت های بزرگ، و یک ساختار غیر معمول حکومتی طراحی شده برای حفظ کنترل موسس و ماموریت ایمنی AI آن.",
+        "title": "جدیدترین تلاش AI ما: نقشه برداری مغز انسان",
+        "excerpt": "تصویری از سیاره ای که در حال چرخش است تا چهره های مختلف کارتونی را نشان دهد. در بالا، متن “AI Quests” است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -847,8 +861,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-26T15:24:27Z",
-   "to": "2026-10-26T15:24:27Z",
+   "from": "2026-09-26T20:30:55Z",
+   "to": "2026-10-26T20:30:55Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -882,15 +896,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 74.8,
+       "total": 74.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 72.5,
+        "recency": 71.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
@@ -905,6 +919,71 @@
      "sources": 2,
      "reason": [
       "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b8f740314eab2229",
+      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Microsoft offers buyouts to 60,000 employees",
+      "excerpt": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another",
+      "lang": "en",
+      "publishedAt": "2026-10-26T15:58:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "products",
+      "tags": [
+       "ai",
+       "labor",
+       "microsoft",
+       "news",
+       "tech",
+       "windows"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Vector illustration of the Microsoft logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b8f740314eab2229",
+      "related": [
+       "f8e85120f2e2c293"
+      ],
+      "score": {
+       "total": 74.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.7,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مایکروسافت پیشنهاد خرید را به 60 هزار کارمند ارائه می دهد",
+        "excerpt": "مایکروسافت پیشنهاد خرید داوطلبانه را تا ۶۰ هزار کارمند در سراسر ایالات متحده، انگلستان، کانادا و هند ارائه می دهد. در یک پیام به کارکنان، مدیر ارشد مایکروسافت، امی کولمن می نویسد که این به کارکنان \"فرصت برای ترک مایکروسافت با حمایت مالی و منابع برنامه ریزی شغلی\" را می دهد، زیرا شرکت به نظر می رسد کارکنان را بدون دیگری تجهیز می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 2,
+     "reason": [
+      "tier-2",
       "voices-2",
       "first-report",
       "top-factor-reliability"
@@ -941,15 +1020,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 74.2,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 70.0,
+        "recency": 69.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
@@ -960,11 +1039,71 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61fb37e32c98d9e4",
+      "url": "https://www.youtube.com/shorts/bXNTUB209KE",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Using AI Agents to Teach Robots to Walk in Simulation #NVIDIAGTC #Microducks #Robotics",
+      "excerpt": "🦆 Put AI agents to work to help your robot learn to navigate. Using Microduck as the reference robot, this walkthrough shows how to create a simulated obstacle course with OpenAI GPT-6 Astra, build 3D assets with NVIDIA Omniverse libraries, simulate physics with Newton, train policies in NVIDIA Isaac Lab, and validate them in Isaac Sim on NVIDIA RTX Spark.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T16:00:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "nvidia",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/bXNTUB209KE/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "bXNTUB209KE",
+       "url": "https://www.youtube.com/watch?v=bXNTUB209KE"
+      },
+      "eventId": "61fb37e32c98d9e4",
+      "related": [],
+      "score": {
+       "total": 73.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "استفاده از عوامل AI برای آموزش ربات ها در شبیه سازی #NVIDIAGTC #Microducks #Robotics",
+        "excerpt": "عوامل AI را برای کمک به ربات خود برای حرکت در نظر بگیرید. با استفاده از Microduck به عنوان ربات مرجع، این پیاده روی نشان می دهد که چگونه یک دوره مانع شبیه سازی شده با OpenAI GPT-6 Astra، ساخت دارایی های 3D با کتابخانه های NVIDIA Omniverse، شبیه سازی فیزیک با نیوتن، سیاست های قطار در آزمایشگاه NVIDIA آیزاک، و اعتبار آنها در ایزاک در سیم در NVIDIA RTX Spark.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1004,15 +1143,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 74.0,
+       "total": 73.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 71.6,
+        "recency": 70.6,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
@@ -1023,7 +1162,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1034,19 +1173,21 @@
     },
     {
      "article": {
-      "id": "eb7708c5f537ab79",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "id": "64d59b55a8fb8666",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "title": "ChatGPT’s expanding world of work",
+      "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
       "lang": "en",
-      "publishedAt": "2026-10-26T07:00:00Z",
+      "publishedAt": "2026-10-26T10:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
+      "fetchedAt": "2026-10-26T20:37:31Z",
       "day": "2026-10-26",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "research"
+      ],
       "entities": [
        "openai"
       ],
@@ -1055,29 +1196,207 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "eb7708c5f537ab79",
+      "eventId": "64d59b55a8fb8666",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 97.0,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 87.5
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
-        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
+        "title": "توسعه دنیای کار ChatGPT",
+        "excerpt": "بررسی اطلاعات OpenAI سیگنال ها در مورد 165 فعالیت کاری در حدود 100 کشور، نشان می دهد که چگونه مردم از ChatGPT برای کار و چگونه تغییرات استفاده در طول زمان استفاده می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
+        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f3b6de314f91f101",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "excerpt": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "hardware",
+      "tags": [
+       "special events and guest speakers",
+       "climate change",
+       "energy",
+       "environment",
+       "policy",
+       "pollution"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ny-climate-week.jpg?itok=c2Sg2eC6",
+       "credit": "Photo: Justin Coleman",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "f3b6de314f91f101",
+      "related": [],
+      "score": {
+       "total": 69.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در هفته اقلیمی نیویورک 2026، MIT با یک شبکه جهانی ارتباط برقرار می کند",
+        "excerpt": "یک بخش متقابل از جامعه MIT بحث در مورد موضوعات اعم از مراکز داده و آلاینده های فوق العاده به کشاورزی و آموزش و پرورش.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7b40604b474ead4d",
+      "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Audi is Reimagining Production With Digital Twins and Physical AI",
+      "excerpt": "Audi teams are reimaginging production with digital twins and physical AI. See how production teams will build digital twins in DELMIA using LEO, a Dassault Systemes’ virtual companion and foundational knowledge from the 3DEXPERIENCE platform. With NVIDIA Omniverse libraries enabling perception and motion simulation, these digital twins become the virtual training ground for mobile humanoid…",
+      "lang": "en",
+      "publishedAt": "2026-10-26T19:49:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/ouNWfNvqlDg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "ouNWfNvqlDg",
+       "url": "https://www.youtube.com/watch?v=ouNWfNvqlDg"
+      },
+      "eventId": "7b40604b474ead4d",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 70.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه آئودی تولید را با Twin های دیجیتال و AI فیزیکی بازسازی می کند",
+        "excerpt": "تیم های آئودی در حال تولید با دوقلوهای دیجیتال و هوش مصنوعی فیزیکی هستند. ببینید که چگونه تیم های تولیدی دوقلوهای دیجیتال را در DELMIA با استفاده از LEO، یک سیستم مجازی و دانش پایه از پلت فرم 3DEXPERIENCE ایجاد می کنند. با کتابخانه های NVIDIA Omniverse که ادراک و شبیه سازی حرکت را قادر می سازد، این دوقلوهای دیجیتال به زمینه آموزش مجازی برای انسان های متحرک تبدیل می شوند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8ed93bec790144d5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T17:56:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20483-1-1.png",
+       "alt": "Solution architecture: SQS FIFO queue triggers AWS Lambda, which starts a Step Functions state machine with an Amazon DynamoDB semaphore for concurrency control. The state machine launches a 13-step S",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "8ed93bec790144d5",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-26T20:30:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرخه دید کامپیوتر در سراسر ناوگان در لبه با SageMaker SDK v3",
+        "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1118,15 +1437,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.5,
+        "recency": 81.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-26T15:24:27Z"
+       "asOf": "2026-10-26T20:30:55Z"
       },
       "tr": {
        "fa": {
@@ -1134,291 +1453,6 @@
         "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "health & bioscience"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "057a86be6882ac7b",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.0,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "60c7eb065c480fbc",
-      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Reinforcing the value of human understanding at MIT",
-      "excerpt": "During the School of Humanities, Arts, and Social Sciences’ 75th Anniversary Symposium, President Sally Kornbluth said “MIT has never needed your particular insight and guidance more than we do now.”",
-      "lang": "en",
-      "publishedAt": "2026-10-23T19:35:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "history of mit",
-       "classes and programs",
-       "humanities",
-       "arts",
-       "social sciences"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/SHASS%2075th%20Anniversary%20Symposium%20Day%20One%20Teaching%20Panel_0.jpg?itok=bFh92Yaa",
-       "credit": "Photo: Jake Belcher",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "60c7eb065c480fbc",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.2,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تقویت ارزش درک انسانی در MIT",
-        "excerpt": "در طول دوره کارشناسی ارشد علوم انسانی، هنر و علوم اجتماعی 75th سالگرد، رئیس جمهور سالی کورنالفuth گفت: \"MIT هرگز به بینش و راهنمایی خاص شما بیش از ما در حال حاضر نیاز ندارد.\"",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94e7f4f5c0e52bb7",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-20T15:19:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-20T15:24:21Z",
-      "day": "2026-10-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6435a1131860001f144239ea/rzXYJh7e7UdoYgCLwOZjH.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
-      },
-      "eventId": "94e7f4f5c0e52bb7",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 66.0,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ALTK-Evolve: چگونه حافظه یاد گرفته است بالا برد رهبر τ2-bench در وظایف خدمات مشتری بدون مدل مرزی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T15:24:21Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "79e3e3e646b1d4ad",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
-      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
-      "lang": "en",
-      "publishedAt": "2026-10-26T11:03:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T15:16:22Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "anthropic",
-       "ai (artificial intelligence)",
-       "technology sector",
-       "computing",
-       "georgia",
-       "us news"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
-       "credit": "Photograph: Dado Ruvić/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "79e3e3e646b1d4ad",
-      "related": [],
-      "score": {
-       "total": 67.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.8,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
-        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T15:16:22Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d5dfb55b012918e7",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-23T16:15:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-23T18:27:37Z",
-      "day": "2026-10-23",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/7F9q8BZloWigwe7m5YGLG.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/litpivot"
-      },
-      "eventId": "d5dfb55b012918e7",
-      "related": [],
-      "score": {
-       "total": 66.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.4,
-        "topic": 75.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-26T15:24:27Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T18:27:37Z"
        }
       }
      },
