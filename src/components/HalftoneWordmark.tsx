@@ -1,5 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react';
-import { dotRadius, fitSize, parseHex, stepDot, warmth } from '../lib/halftone';
+import { dotRadius, fitSize, parseHex } from '../lib/halftone';
 import { useMotionMode } from '../lib/motion';
 
 /**
@@ -10,8 +10,11 @@ import { useMotionMode } from '../lib/motion';
  * mode when 2D canvas works. Colours come from `--hw-ink` / `--hw-warm` on the heading. Nothing runs while the word is off-screen or at rest.
  */
 /** Dot spacing and pointer reach in CSS px at desktop size; both shrink with the word on a phone. */
-const GAP = 6;
-const RADIUS = 80;
+const GAP = 7;
+const RADIUS = 72;
+const COLOR_STEPS = 6;
+const IDLE_RELEASE_MS = 420;
+const RING_MS = 700;
 
 export function HalftoneWordmark({ children, word }: { children?: ReactNode; word: string }) {
   const mode = useMotionMode();
@@ -24,7 +27,9 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     const canvas = canvasRef.current;
     const title = el?.parentElement;
     if (!full || !el || !canvas || !title) return;
-    const ctx = canvas.getContext('2d');
+    // `desynchronized` lets Chromium present the interactive canvas without waiting for the rest of
+    // the page to paint. The fallback is identical in browsers that ignore the hint.
+    const ctx = canvas.getContext('2d', { alpha: true, desynchronized: true });
     if (!ctx) return;
 
     let w = 0;
@@ -43,12 +48,17 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     let ink: [number, number, number] = [230, 233, 255];
     let warm: [number, number, number] = [198, 255, 74];
     let inkCss = '#e6e9ff';
+    let palette = Array.from({ length: COLOR_STEPS }, () => inkCss);
 
     const layout = () => {
       const cs = getComputedStyle(title);
       inkCss = cs.getPropertyValue('--hw-ink').trim() || inkCss;
       ink = parseHex(inkCss) ?? ink;
       warm = parseHex(cs.getPropertyValue('--hw-warm').trim()) ?? warm;
+      palette = Array.from({ length: COLOR_STEPS }, (_, i) => {
+        const k = i / (COLOR_STEPS - 1);
+        return `rgb(${Math.round(ink[0] + (warm[0] - ink[0]) * k)},${Math.round(ink[1] + (warm[1] - ink[1]) * k)},${Math.round(ink[2] + (warm[2] - ink[2]) * k)})`;
+      });
       const rect = canvas.getBoundingClientRect();
       w = Math.max(1, Math.round(rect.width));
       h = Math.max(1, Math.round(rect.height));
@@ -74,7 +84,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
       m.fillText(word, (w - box.width) / 2, (h + cap) / 2);
       const img = m.getImageData(0, 0, w, h).data;
 
-      gap = size < 90 ? 4 : GAP;
+      gap = size < 90 ? 5 : GAP;
       radius = Math.min(RADIUS, Math.max(28, cap * 0.6));
       const cols = Math.ceil(w / gap);
       const rows = Math.ceil(h / gap);
@@ -114,34 +124,55 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
         let vy = dots[j + 3] ?? 0;
         const hx = dots[j + 4] ?? 0;
         const hy = dots[j + 5] ?? 0;
-        if (ringAge < 900) {
+        if (ringAge < RING_MS) {
           const dx = hx - ring.x;
           const dy = hy - ring.y;
           const d = Math.sqrt(dx * dx + dy * dy) + 0.001;
           const band = 1 - Math.min(1, Math.abs(d - ringR) / 26);
           if (band > 0) {
-            const f = band * 3.2 * (1 - ringAge / 900);
+            const f = band * 2.8 * (1 - ringAge / RING_MS);
             vx += (dx / d) * f;
             vy += (dy / d) * f;
           }
         }
-        [x, y, vx, vy] = stepDot(x, y, vx, vy, hx, hy, px, py, radius);
-        if (Math.abs(vx) + Math.abs(vy) > 0.02 || Math.abs(x - hx) + Math.abs(y - hy) > 0.05) moving = true;
-        else [x, y, vx, vy] = [hx, hy, 0, 0];
+        // Inline the hot spring step. Returning an array for every dot and every frame created enough
+        // garbage to trigger visible collection pauses on mid-range laptops.
+        const pointerDx = x - px;
+        const pointerDy = y - py;
+        const pointerD2 = pointerDx * pointerDx + pointerDy * pointerDy;
+        if (radius > 0 && pointerD2 < radius * radius) {
+          const d = Math.sqrt(pointerD2) + 0.001;
+          const f = (1 - d / radius) * 2.3;
+          vx += (pointerDx / d) * f;
+          vy += (pointerDy / d) * f;
+        }
+        vx = (vx + (hx - x) * 0.09) * 0.76;
+        vy = (vy + (hy - y) * 0.09) * 0.76;
+        x += vx;
+        y += vy;
+        const active = Math.abs(vx) + Math.abs(vy) > 0.02 || Math.abs(x - hx) + Math.abs(y - hy) > 0.05;
+        if (active) moving = true;
+        else {
+          x = hx;
+          y = hy;
+          vx = 0;
+          vy = 0;
+        }
         dots[j] = x;
         dots[j + 1] = y;
         dots[j + 2] = vx;
         dots[j + 3] = vy;
-        const k = warmth(x, y, hx, hy, 28);
-        ctx.fillStyle =
-          k > 0.02
-            ? `rgb(${Math.round(ink[0] + (warm[0] - ink[0]) * k)},${Math.round(ink[1] + (warm[1] - ink[1]) * k)},${Math.round(ink[2] + (warm[2] - ink[2]) * k)})`
-            : inkCss;
+        const ox = x - hx;
+        const oy = y - hy;
+        const k = Math.min(1, Math.sqrt(ox * ox + oy * oy) / 28);
+        const bucket = Math.min(COLOR_STEPS - 1, Math.round(k * (COLOR_STEPS - 1)));
+        const r = dots[j + 6] ?? 0;
+        ctx.fillStyle = palette[bucket] ?? inkCss;
         ctx.beginPath();
-        ctx.arc(x, y, dots[j + 6] ?? 0, 0, 6.2832);
+        ctx.arc(x, y, r, 0, 6.2832);
         ctx.fill();
       }
-      return moving || ringAge < 900 || px > -1e4;
+      return moving || ringAge < RING_MS || px > -1e4;
     };
 
     const loop = (now: number) => {
@@ -165,13 +196,16 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     const onMove = (e: PointerEvent) => {
       [px, py] = local(e);
       window.clearTimeout(idle);
-      idle = window.setTimeout(onLeave, 1200);
+      idle = window.setTimeout(onLeave, IDLE_RELEASE_MS);
       wake();
     };
     const onDown = (e: PointerEvent) => {
       [px, py] = local(e);
       ring = { x: px, y: py, t: performance.now() };
       wake();
+    };
+    const onUp = (e: PointerEvent) => {
+      if (e.pointerType !== 'mouse') onLeave();
     };
 
     layout();
@@ -181,7 +215,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     canvas.addEventListener('pointermove', onMove);
     canvas.addEventListener('pointerleave', onLeave);
     canvas.addEventListener('pointercancel', onLeave);
-    canvas.addEventListener('pointerup', (e) => e.pointerType !== 'mouse' && onLeave());
+    canvas.addEventListener('pointerup', onUp);
     canvas.addEventListener('pointerdown', onDown);
     const ro = new ResizeObserver(() => {
       layout();
@@ -218,6 +252,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
       canvas.removeEventListener('pointermove', onMove);
       canvas.removeEventListener('pointerleave', onLeave);
       canvas.removeEventListener('pointercancel', onLeave);
+      canvas.removeEventListener('pointerup', onUp);
       canvas.removeEventListener('pointerdown', onDown);
     };
   }, [full, word]);
