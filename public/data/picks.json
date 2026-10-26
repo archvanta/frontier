@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-26T06:00:00Z",
+ "asOf": "2026-10-26T07:57:40Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-25T06:00:00Z",
-   "to": "2026-10-26T06:00:00Z",
+   "from": "2026-10-25T07:57:40Z",
+   "to": "2026-10-26T07:57:40Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -47,15 +47,15 @@
       "eventId": "a0c07d8628d4b6bc",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 62.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 82.9,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -67,6 +67,66 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "80b5a397ef1a26d8",
+      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI cloud computing companies face ‘guppy-level death’, Elon Musk warns, as funding dries up – business live",
+      "excerpt": "Rolling coverage of the latest economic and financial news Musk also claimed on X overnight that some partly-built data centres simply won’t be completed. As he put it: I think we’re going to see a lot of stranded compute in partially complete data centers As of late Sunday in New York, those conversations remained ongoing and the deal hadn’t priced, people with knowledge of the discussions…",
+      "lang": "en",
+      "publishedAt": "2026-10-26T07:57:40Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T08:09:12Z",
+      "day": "2026-10-26",
+      "category": "business",
+      "tags": [
+       "business",
+       "economics",
+       "stock markets",
+       "ftse",
+       "elon musk",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/c16447e0a55c9a42609debeec49385bf5fab5aa7/950_0_3375_2700/master/3375.jpg?width=700&quality=85&auto=format&fit=max&s=cae947e42970588d91bb16eab87ff4b0",
+       "credit": "Photograph: Aleksei Gorodenkov/Alamy",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "80b5a397ef1a26d8",
+      "related": [],
+      "score": {
+       "total": 61.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 90.5
+       },
+       "asOf": "2026-10-26T07:57:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شرکت های محاسبات ابری AI با \"مرگ سطحی\" مواجه هستند، ایلان ماسک هشدار می دهد، به عنوان بودجه بالا - کسب و کار زندگی می کند",
+        "excerpt": "پوشش رولینگ از آخرین اخبار اقتصادی و مالی ماسک در شب X ادعا کرد که برخی از مراکز داده تا حدی ساخته شده به سادگی تکمیل نخواهد شد. همانطور که او می گوید: من فکر می کنم که ما در اواخر یکشنبه در نیویورک، بسیاری از محاسبات را در مراکز داده کامل مشاهده می کنیم، این مکالمات ادامه داشت و معامله قیمت گذاری نشده بود، افرادی که دانش بحث ها را دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T08:09:12Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -100,15 +160,15 @@
       "eventId": "fdabadb313a82feb",
       "related": [],
       "score": {
-       "total": 57.0,
+       "total": 55.1,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 79.5,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -119,7 +179,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -156,18 +216,18 @@
       "eventId": "ff7f6d8e21eb34c5",
       "related": [],
       "score": {
-       "total": 57.0,
+       "total": 55.1,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 79.5,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -177,59 +237,55 @@
     },
     {
      "article": {
-      "id": "d3990852490cd50b",
-      "url": "https://www.theguardian.com/us-news/2026/oct/25/elvis-presley-anthropic-lawsuit-ai-models-music",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Anthropic sued for allegedly using 274 Elvis Presley songs to train AI models",
-      "excerpt": "Authentic Brands Group says AI company infringed on rights of songs by the King such as Can’t Help Falling in Love The owners of Elvis Presley’s music catalogue are suing artificial intelligence (AI) company Anthropic for allegedly using Presley’s songs to train their models without permission. Authentic Brands Group, the licensing organization that has ownership of both Presley’s music and…",
+      "id": "b366ba776fde8cd4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
       "lang": "en",
-      "publishedAt": "2026-10-25T18:25:59Z",
+      "publishedAt": "2026-10-25T13:25:32Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-25T19:43:42Z",
+      "fetchedAt": "2026-10-25T14:35:52Z",
       "day": "2026-10-25",
       "category": "policy",
       "tags": [
-       "us news",
-       "elvis presley",
-       "anthropic",
-       "law (us)",
-       "ai (artificial intelligence)",
-       "music"
+       "ai",
+       "news",
+       "reddit",
+       "tech"
       ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/84aa6ec87e3e6db19123ab53bff1786594581607/0_358_2832_2265/master/2832.jpg?width=700&quality=85&auto=format&fit=max&s=a413bb10381639f41d0cb2e486a267f9",
-       "credit": "Photograph: Universal Pictures. All Rights Reserved./PA",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An illustration of the Reddit logo.",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "d3990852490cd50b",
+      "eventId": "b366ba776fde8cd4",
       "related": [],
       "score": {
-       "total": 55.6,
+       "total": 53.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 51.3,
+        "recency": 34.3,
         "topic": 85.0,
-        "novelty": 85.7
+        "novelty": 100.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
-        "title": "Anthropic به دلیل استفاده از 274 آهنگ الویس پریسلی برای آموزش مدل های AI",
-        "excerpt": "گروه برندهای معتبر می گوید که شرکت AI در نقض حقوق آهنگ ها توسط پادشاه مانند نمی تواند به عاشق شدن کمک کند، صاحبان کاتالوگ موسیقی الویس پریسلی، شرکت هوش مصنوعی (AI) را برای استفاده از آهنگ های Presley برای آموزش مدل های خود بدون اجازه صادر می کنند. گروه برندهای معتبر، سازمان مجوز که مالکیت موسیقی پریسلی و...",
+        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
+        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T19:43:42Z"
+        "at": "2026-10-25T14:35:52Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -269,15 +325,15 @@
       "eventId": "bf7f18e0418c7776",
       "related": [],
       "score": {
-       "total": 53.5,
+       "total": 52.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 61.3,
+        "recency": 54.7,
         "topic": 55.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -288,66 +344,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d883a1261c8f10a3",
-      "url": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-ai-disclosures-enter-the-discourse-again-as-epic-ceo-calls-them-just-as-partisan-as-mandatory-political-essays",
-      "sourceId": "pc-gamer",
-      "sourceName": "PC Gamer",
-      "title": "Steam Week in Review: AI disclosures enter the discourse again, as Epic CEO calls them 'just as partisan as mandatory political essays'",
-      "excerpt": "All the interesting Steam facts for the week ending October 25.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T03:12:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T07:53:35Z",
-      "day": "2026-10-26",
-      "category": "business",
-      "tags": [
-       "gaming industry"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://cdn.mos.cms.futurecdn.net/mquTcmtPeqPuULfWtDsgW-1920-80.jpg",
-       "alt": "Tim Sweeney speaking at Unreal Fest 2026.",
-       "credit": "Epic Games",
-       "kind": "feed",
-       "sourceUrl": "https://www.pcgamer.com/rss/"
-      },
-      "eventId": "d883a1261c8f10a3",
-      "related": [],
-      "score": {
-       "total": 52.4,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 85.1,
-        "topic": 55.0,
-        "novelty": 91.3
-       },
-       "asOf": "2026-10-26T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Steam Week in Review: افشای هوش مصنوعی دوباره وارد گفتمان می شود، زیرا مدیر عامل Epic آنها را \"فقط به عنوان پارتیزان به عنوان مقاله های سیاسی اجباری\" می نامد.",
-        "excerpt": "تمام حقایق جالب Steam برای پایان هفته 25 اکتبر",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T07:53:35Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -355,8 +355,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-19T06:00:00Z",
-   "to": "2026-10-26T06:00:00Z",
+   "from": "2026-10-19T07:57:40Z",
+   "to": "2026-10-26T07:57:40Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -390,15 +390,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 67.8,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 37.5,
+        "recency": 36.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -410,6 +410,65 @@
       }
      },
      "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61f4d0141ff303c0",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "google",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "61f4d0141ff303c0",
+      "related": [
+       "14f13252070a5596"
+      ],
+      "score": {
+       "total": 66.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 32.7,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-26T07:57:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های OpenAI به Google Cloud می آیند",
+        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T13:55:00Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -453,15 +512,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 66.9,
+       "total": 66.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 36.0,
+        "recency": 35.3,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -472,69 +531,10 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 66.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 33.4,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-26T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
      "rank": 3,
      "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
       "voices-2",
       "first-report",
       "top-factor-reliability"
@@ -573,15 +573,15 @@
       "eventId": "a0c07d8628d4b6bc",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 65.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 96.9,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -631,15 +631,15 @@
       "eventId": "b366ba776fde8cd4",
       "related": [],
       "score": {
-       "total": 63.8,
+       "total": 63.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 83.7,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -691,15 +691,15 @@
       "eventId": "bb7c1e3b8be87920",
       "related": [],
       "score": {
-       "total": 63.3,
+       "total": 63.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 84.1,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -751,15 +751,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 62.7,
+       "total": 62.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 57.8,
+        "recency": 56.7,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -808,15 +808,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 62.4,
+       "total": 62.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.6,
+        "recency": 55.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -838,8 +838,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-26T06:00:00Z",
-   "to": "2026-10-26T06:00:00Z",
+   "from": "2026-09-26T07:57:40Z",
+   "to": "2026-10-26T07:57:40Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -873,15 +873,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 75.2,
+       "total": 75.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.5,
+        "recency": 74.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -932,15 +932,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 74.6,
+       "total": 74.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 71.9,
+        "recency": 71.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -995,15 +995,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 74.4,
+       "total": 74.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 73.6,
+        "recency": 73.2,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1053,15 +1053,15 @@
        "aeaa448f66c5e86e"
       ],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 64.8,
+        "recency": 64.5,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1114,15 +1114,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 84.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1171,15 +1171,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 83.8,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1231,15 +1231,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.5,
+        "recency": 84.0,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1285,15 +1285,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 67.8,
+        "recency": 67.4,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1338,15 +1338,15 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.7,
+        "recency": 83.2,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
@@ -1392,15 +1392,15 @@
       "eventId": "38715d90bd30f009",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.1,
+        "recency": 71.7,
         "topic": 90.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-26T06:00:00Z"
+       "asOf": "2026-10-26T07:57:40Z"
       },
       "tr": {
        "fa": {
