@@ -34,12 +34,15 @@ function isTyping(target: EventTarget | null): boolean {
 /** The FRONTIER monogram, shared visually with the browser-tab icon. */
 export function BrandMark({ size = 20 }: { size?: number }) {
   return (
-    <svg className="icon brand-mark" viewBox="0 0 64 64" width={size} height={size} aria-hidden="true">
-      <rect className="brand-mark-bg" x="2" y="2" width="60" height="60" rx="16" />
-      <path className="brand-mark-face" d="M18 14h32l-5 9H28v8h15l-5 9H28v14H18V14Z" />
-      <path className="brand-mark-depth" d="M28 23h17l-3 4H28v-4ZM28 40h10l-3 4h-7v-4Z" />
-      <circle className="brand-mark-signal" cx="50" cy="14" r="3" />
-    </svg>
+    <img
+      className="icon brand-mark"
+      src={`${import.meta.env.BASE_URL}favicon.svg?v=3`}
+      width={size}
+      height={size}
+      alt=""
+      decoding="async"
+      aria-hidden="true"
+    />
   );
 }
 

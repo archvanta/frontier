@@ -369,24 +369,8 @@ html[lang='fa'] .mt-label {
 .wordmark-glyph .icon {
   inline-size: 2.2rem;
   block-size: 2.2rem;
-}
-
-.brand-mark-bg {
-  fill: #0c0f19;
-  stroke: #25355c;
-  stroke-width: 2;
-}
-
-.brand-mark-face {
-  fill: #e6edff;
-}
-
-.brand-mark-depth {
-  fill: #477bff;
-}
-
-.brand-mark-signal {
-  fill: #5eead4;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.32));
 }
 
 .wordmark-text,

@@ -1,16 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="FRONTIER">
   <defs>
-    <linearGradient id="bg" x1="8" y1="4" x2="57" y2="62" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#17203B"/>
-      <stop offset="1" stop-color="#090B12"/>
+    <linearGradient id="tile" x1="18" y1="10" x2="112" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b2440"/>
+      <stop offset=".54" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#060811"/>
     </linearGradient>
-    <linearGradient id="face" x1="16" y1="10" x2="48" y2="54" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFFFFF"/>
-      <stop offset="1" stop-color="#B9CDFF"/>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(92 26) rotate(130) scale(74)">
+      <stop stop-color="#7de9e2" stop-opacity=".22"/>
+      <stop offset=".52" stop-color="#5d74ff" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#11162b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="face" x1="33" y1="22" x2="82" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff9f5"/>
+      <stop offset=".22" stop-color="#f8ded6"/>
+      <stop offset=".58" stop-color="#e8ac9d"/>
+      <stop offset="1" stop-color="#aa625b"/>
     </linearGradient>
+    <linearGradient id="depth" x1="40" y1="31" x2="95" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9e6b72"/>
+      <stop offset=".45" stop-color="#56445c"/>
+      <stop offset="1" stop-color="#21263c"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="31" y1="27" x2="94" y2="102" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dffffc"/>
+      <stop offset=".28" stop-color="#7de9e2"/>
+      <stop offset=".7" stop-color="#6b9cff"/>
+      <stop offset="1" stop-color="#f4b7ac"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="34" y1="28" x2="80" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="tileShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#02040b" flood-opacity=".72"/>
+    </filter>
+    <filter id="markShadow" x="-45%" y="-35%" width="200%" height="210%">
+      <feDropShadow dx="0" dy="7" stdDeviation="5" flood-color="#00030b" flood-opacity=".7"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#75ebe2" flood-opacity=".22"/>
+    </filter>
   </defs>
-  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bg)"/>
-  <path d="M18 14h32l-5 9H28v8h15l-5 9H28v14H18V14Z" fill="url(#face)"/>
-  <path d="M28 23h17l-3 4H28v-4ZM28 40h10l-3 4h-7v-4Z" fill="#477BFF" opacity=".72"/>
-  <circle cx="50" cy="14" r="3" fill="#5EEAD4"/>
+  <g filter="url(#tileShadow)">
+    <rect x="6" y="6" width="116" height="116" rx="31" fill="url(#tile)"/>
+    <rect x="6" y="6" width="116" height="116" rx="31" fill="url(#aura)"/>
+    <rect x="7" y="7" width="114" height="114" rx="30" fill="none" stroke="#96fff7" stroke-opacity=".22" stroke-width="2"/>
+    <path d="M24 18c19-9 57-11 82 4" fill="none" stroke="#fff" stroke-opacity=".1" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#markShadow)">
+    <path d="M40 29h59L88 48H61v12h25L75 79H61v30H40V29Z" fill="url(#depth)" transform="translate(6 7)" opacity=".95"/>
+    <path d="m40 109 6 7h21l-6-7H40Zm21-30 6 7h14l-6-7H61Zm27-31 6 7 11-19-6-7-11 19Z" fill="#263047" opacity=".95"/>
+    <path d="M40 29h59L88 48H61v12h25L75 79H61v30H40V29Z" fill="url(#face)" stroke="url(#rim)" stroke-width="2.4" stroke-linejoin="round"/>
+    <path d="M44 33h47L87 40H57V63H82l-4 7H57v35H44V33Z" fill="none" stroke="url(#shine)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
+    <path d="M61 49h26M61 80h13" fill="none" stroke="#6ce6df" stroke-opacity=".48" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <circle cx="100" cy="27" r="5" fill="#f2b6aa" stroke="#9cfff7" stroke-width="1.5"/>
+  <circle cx="98.5" cy="25.5" r="1.5" fill="#fff" fill-opacity=".88"/>
 </svg>
