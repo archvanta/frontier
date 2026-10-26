@@ -49,9 +49,18 @@ export function HomePage({
   const { t, locale } = useI18n();
 
   const feed = useAsync(async () => {
-    const [index, picks, ...sectionFiles] = await Promise.all([data.archiveIndex(), data.picks(), ...SECTION_IDS.map((id) => data.section(id).catch(() => null))]);
+    // Start every independent request together. Once the small archive index arrives, fetch its day files
+    // immediately instead of waiting for the larger section indexes first; this removes a network waterfall.
+    const indexPromise = data.archiveIndex();
+    const picksPromise = data.picks();
+    const sectionPromises = SECTION_IDS.map((id) => data.section(id).catch(() => null));
+    const index = await indexPromise;
     const plan = planHomePage(index?.days ?? [], page, now);
-    const files = await Promise.all(plan.days.map((d) => data.day(d)));
+    const [picks, sectionFiles, files] = await Promise.all([
+      picksPromise,
+      Promise.all(sectionPromises),
+      Promise.all(plan.days.map((d) => data.day(d))),
+    ]);
     const seen = new Set<string>();
     const groups = plan.days.map((day, i) => {
       // A story belongs to exactly one day; uniqueness across groups guards against bad data.
@@ -146,7 +155,7 @@ export function HomePage({
         heroSlot &&
         createPortal(
           <>
-            {home && <HomeIntro onContinue={goTo('news-hero')} data={introData} stories={heroStories} />}
+            {home && <HomeIntro onContinue={goTo('news-hero')} data={introData} />}
             {heroStories === null || heroStories.length > 0 ? (
               <NewsHero key={heroStories?.map((a) => a.id).join() ?? 'loading'} stories={heroStories} standalone={!home} />
             ) : null}

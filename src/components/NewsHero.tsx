@@ -146,7 +146,16 @@ function Slide({ story, index, total, active, mountImage }: SlideProps) {
               }}
             />
           ) : (
-            <img className="nh-fallback-art" src={iconArt(story.category)} alt="" width={280} height={280} decoding="async" />
+            <img
+              className="nh-fallback-art"
+              src={iconArt(story.category)}
+              alt=""
+              width={280}
+              height={280}
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
+            />
           )}
         </div>
       </div>
@@ -200,7 +209,9 @@ export function NewsHero({ stories, standalone = true }: { stories: Article[] | 
   const [index, setIndex] = useState(0);
   const [visited, setVisited] = useState<ReadonlySet<number>>(() => new Set([0]));
   const [userPaused, setUserPaused] = useState<boolean | null>(null);
-  const [onScreen, setOnScreen] = useState(true);
+  // The standalone news page loads its hero immediately. On the homepage the hero sits below the
+  // intro, so wait until it actually enters view before requesting large third-party story photos.
+  const [onScreen, setOnScreen] = useState(standalone);
   const [tabVisible, setTabVisible] = useState(() => typeof document === 'undefined' || !document.hidden);
   const root = useRef<HTMLElement>(null);
   const stage = useRef<HTMLDivElement>(null);
@@ -352,7 +363,7 @@ export function NewsHero({ stories, standalone = true }: { stories: Article[] | 
                   index={i}
                   total={total}
                   active={i === current}
-                  mountImage={visited.has(i) || i === (current + 1) % total}
+                  mountImage={(standalone || onScreen) && (visited.has(i) || i === (current + 1) % total)}
                 />
               ))}
             </div>

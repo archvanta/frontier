@@ -1,15 +1,13 @@
 import { useEffect, useRef, type CSSProperties } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { formatNumber, relativeTime } from '../lib/dates';
-import { genuineImage } from '../lib/heroStories';
 import { useI18n } from '../lib/i18n';
 import { iconArt, type IconArtId } from '../lib/iconArt';
 import type { IntroStats } from '../lib/introStats';
 import { href } from '../lib/router';
-import type { Article, PickEntry } from '../lib/types';
+import type { PickEntry } from '../lib/types';
 import { HalftoneWordmark } from './HalftoneWordmark';
 import { Icon } from './Icon';
-import { resolveImageUrl } from './StoryImage';
 
 /**
  * First scene of the homepage: what the site is, in one calm screen, with the three ways in. The page's h1 lives here.
@@ -48,14 +46,10 @@ export interface IntroData {
   now: Date;
 }
 
-export function HomeIntro({ onContinue, data, stories }: { onContinue: () => void; data: IntroData | null; stories?: readonly Article[] | null }) {
+export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: IntroData | null }) {
   const { t, locale } = useI18n();
   const stats = data?.stats;
   const root = useRef<HTMLElement>(null);
-  const backdropStories = (stories ?? [])
-    .map((article) => ({ id: article.id, src: resolveImageUrl(genuineImage(article)?.url) }))
-    .filter((item): item is { id: string; src: string } => Boolean(item.src))
-    .slice(0, 3);
 
   // The backdrop only animates while the scene is on screen.
   useEffect(() => {
@@ -88,13 +82,6 @@ export function HomeIntro({ onContinue, data, stories }: { onContinue: () => voi
         <span className="hi-glow hi-glow-b" />
         <span className="hi-glow hi-glow-c" />
         <span className="hi-grid" />
-        <div className="hi-story-previews">
-          {backdropStories.map((story, index) => (
-            <figure key={story.id} className="hi-story-preview" data-slot={index + 1}>
-              <img src={story.src} alt="" decoding="async" loading="eager" referrerPolicy="no-referrer" />
-            </figure>
-          ))}
-        </div>
         <svg className="hi-orbits" viewBox="0 0 1440 760" preserveAspectRatio="none">
           <path className="hi-orbit hi-orbit-a" d="M-80 590C280 290 610 260 930 390S1370 500 1520 220" />
           <path className="hi-orbit hi-orbit-b" d="M-120 360C250 520 520 550 820 420S1260 180 1520 330" />

@@ -139,7 +139,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
         {variant === 'grid' && (
           <div className="story-top">
             <span className="story-tile" aria-hidden="true">
-              <img src={iconArt(article.category)} alt="" width={56} height={56} decoding="async" />
+              <img src={iconArt(article.category)} alt="" width={56} height={56} loading="lazy" decoding="async" />
             </span>
             <span className="story-pill" aria-hidden="true">
               {t('card_read')}
