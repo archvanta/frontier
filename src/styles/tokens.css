@@ -27,14 +27,14 @@
   --ov-line-strong: rgba(255, 255, 255, 0.3);
   --well: rgba(0, 0, 0, 0.3);
 
-  /* Accent: luminous blue for active states, links and focus */
-  --accent: #5b9dff;
-  /* Filled accent surfaces carry white text at ≥ 4.5:1 */
-  --accent-strong: #2e6bf0;
-  --accent-soft: rgba(91, 157, 255, 0.12);
-  --accent-line: rgba(91, 157, 255, 0.45);
-  --accent-glow: rgba(70, 130, 255, 0.4);
-  --accent-ink: #ffffff;
+  /* Bento dashboard direction: one electric lime accent over black, used sparingly for active data and focus. */
+  --accent: #e8ff1f;
+  /* Lime filled controls use dark ink for accessible contrast. */
+  --accent-strong: #c9df00;
+  --accent-soft: rgba(232, 255, 31, 0.12);
+  --accent-line: rgba(232, 255, 31, 0.46);
+  --accent-glow: rgba(210, 235, 0, 0.3);
+  --accent-ink: #090a08;
   --accent-dim: var(--accent-soft);
 
   /* Buttons (reference look): white primary pill, violet-tinted secondary, dark pill for utilities */
@@ -50,21 +50,31 @@
   --btn-dark-ink: #f5f6f8;
 
   /* Header bar and drop-down panels */
-  --header-bg: radial-gradient(36% 220% at 34% -40%, rgba(150, 62, 52, 0.26), transparent 70%), linear-gradient(180deg, #111114 0%, #070708 100%);
+  --header-bg: radial-gradient(42% 220% at 34% -70%, rgba(132, 111, 255, 0.15), transparent 72%), linear-gradient(180deg, #0b0b0d 0%, #030304 100%);
   --header-line: rgba(255, 255, 255, 0.07);
   --header-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.9);
-  --panel-bg: linear-gradient(180deg, #19191f 0%, #0d0d11 100%);
+  --panel-bg: linear-gradient(180deg, #1a1a1f 0%, #0b0b0d 100%);
   --panel-line: rgba(255, 255, 255, 0.11);
   --panel-shadow: 0 30px 70px -20px rgba(0, 0, 0, 0.95), 0 0 0 1px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.07);
   --panel-divider: rgba(255, 255, 255, 0.07);
   --panel-hover: rgba(255, 255, 255, 0.05);
 
-  /* Story-card tones: vertical gradients from deep to saturated. Cards carry white type in both themes. */
-  --tone-violet: linear-gradient(180deg, #1b0d3f 0%, #2a1466 46%, #5a2fbd 100%);
-  --tone-blue: linear-gradient(180deg, #0a1233 0%, #11246b 46%, #1f4fcf 100%);
-  --tone-indigo: linear-gradient(180deg, #0c0a2c 0%, #1b1566 46%, #4231b4 100%);
-  --tone-teal: linear-gradient(180deg, #07191c 0%, #0b3a3f 46%, #0f8272 100%);
-  --tone-crimson: linear-gradient(180deg, #1a0707 0%, #3a0d10 46%, #8a1f24 100%);
+  /* Bento cards: a bright material edge, saturated body and a deep optical core. */
+  --tone-violet:
+    radial-gradient(ellipse at 50% 68%, #09071c 0%, rgba(9, 7, 28, 0.82) 25%, transparent 62%),
+    linear-gradient(180deg, #b8a8ff 0%, #594dff 22%, #2c226d 66%, #6e63df 100%);
+  --tone-blue:
+    radial-gradient(ellipse at 50% 67%, #050925 0%, rgba(5, 9, 37, 0.85) 27%, transparent 62%),
+    linear-gradient(180deg, #aeb9ff 0%, #304cff 23%, #162a82 66%, #7384ff 100%);
+  --tone-indigo:
+    radial-gradient(ellipse at 50% 68%, #08071f 0%, rgba(8, 7, 31, 0.84) 27%, transparent 62%),
+    linear-gradient(180deg, #b5a7ff 0%, #6047e9 24%, #21195f 68%, #745bd8 100%);
+  --tone-teal:
+    radial-gradient(ellipse at 50% 68%, #041712 0%, rgba(4, 23, 18, 0.86) 28%, transparent 63%),
+    linear-gradient(180deg, #a8e7cc 0%, #33916e 24%, #0b4939 68%, #58b58d 100%);
+  --tone-crimson:
+    radial-gradient(ellipse at 50% 68%, #28040f 0%, rgba(40, 4, 15, 0.86) 28%, transparent 63%),
+    linear-gradient(180deg, #ffacd0 0%, #ef306f 24%, #73152f 67%, #f05d91 100%);
   --card-rim: rgba(255, 255, 255, 0.1);
   --card-ink: #ffffff;
   --card-ink-2: rgba(255, 255, 255, 0.72);
@@ -225,9 +235,13 @@ html[data-theme='light'] :is(.news-hero, .story-card[data-tone], .wall-card[data
   --ov-1: rgba(255, 255, 255, 0.04);
   --ov-2: rgba(255, 255, 255, 0.07);
   --ov-3: rgba(255, 255, 255, 0.12);
-  --accent: #5b9dff;
-  --accent-strong: #2e6bf0;
-  --accent-line: rgba(91, 157, 255, 0.45);
+  --accent: #e8ff1f;
+  --accent-strong: #c9df00;
+  --accent-soft: rgba(232, 255, 31, 0.12);
+  --accent-line: rgba(232, 255, 31, 0.46);
+  --accent-glow: rgba(210, 235, 0, 0.3);
+  --accent-ink: #090a08;
+  --accent-dim: var(--accent-soft);
   --btn-primary-bg: #ffffff;
   --btn-primary-ink: #0a0a0d;
   --btn-primary-hover: #e9eaf0;

@@ -152,8 +152,8 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
 .home-intro .hi-links {
  display:grid;
  grid-template-columns:repeat(3,minmax(0,1fr));
- gap:1rem;
- inline-size:min(100%,52rem);
+ gap:.875rem;
+ inline-size:min(100%,68rem);
  margin-inline:auto;
 }
 .home-intro .hi-links .hi-link {
@@ -163,14 +163,14 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
  grid-template-rows:auto 1fr auto;
  gap:.65rem;
  min-inline-size:0;
- min-block-size:148px;
- padding:1.25rem;
- border:0;
- border-radius:1.5rem;
+ min-block-size:176px;
+ padding:1.4rem 1.5rem;
+ border:1px solid rgba(255,255,255,.12);
+ border-radius:1.75rem;
  background:var(--tone-blue);
  color:#ffffff;
  text-align:start;
- box-shadow:0 10px 24px -16px rgba(24,30,90,.5);
+ box-shadow:inset 0 1px 0 rgba(255,255,255,.32),0 18px 34px -24px rgba(0,0,0,.72);
  transition:transform .2s ease,box-shadow .2s ease;
  isolation:isolate;
  overflow:hidden;
@@ -181,21 +181,21 @@ html[data-theme='light'] .games-page { --g-line:var(--line-strong); --g-sheet:va
  inset:0;
  z-index:-1;
  background:
-  radial-gradient(circle at 84% 18%,rgba(255,255,255,.18) 0 1px,transparent 2px) 0 0/18px 18px,
-  repeating-radial-gradient(ellipse at 110% 110%,transparent 0 24px,rgba(255,255,255,.08) 25px 26px);
- mask-image:linear-gradient(135deg,transparent 15%,#000);
- opacity:.7;
+  linear-gradient(180deg,rgba(255,255,255,.22),transparent 20%),
+  radial-gradient(circle at 84% 18%,rgba(255,255,255,.2) 0 1px,transparent 2px) 0 0/20px 20px;
+ mask-image:linear-gradient(145deg,#000,transparent 72%);
+ opacity:.52;
 }
 .home-intro .hi-links .hi-link[data-entry='ai-games'] { background:var(--tone-violet); }
 .home-intro .hi-links .hi-link[data-entry='data-centers'] { background:var(--tone-teal); }
 .home-intro .hi-links .hi-link[data-entry='ai-news'] { background:var(--tone-crimson); }
-.home-intro .hi-links .hi-link:hover { transform:translateY(-3px); box-shadow:0 14px 26px -14px rgba(24,30,90,.55); }
+.home-intro .hi-links .hi-link:hover { transform:translateY(-3px); box-shadow:inset 0 1px 0 rgba(255,255,255,.38),0 24px 42px -24px rgba(0,0,0,.82); }
 .home-intro .hi-links .hi-link:hover .hi-link-art { transform:translateY(-2px) scale(1.05); }
 .home-intro .hi-links .hi-link-art,
 .home-intro .hi-links .hi-link-icon { inline-size:76px; block-size:76px; border-radius:0; grid-column:1; grid-row:1; object-fit:contain; box-shadow:none; filter:drop-shadow(0 7px 10px rgba(8,12,50,.25)); transition:transform .25s ease; }
 .home-intro .hi-links .hi-link-icon { background:rgba(255,255,255,.14); }
-.home-intro .hi-links .hi-link-label { grid-column:1/-1; grid-row:2; font-size:1.05rem; line-height:1.6; }
-.home-intro .hi-links .hi-link-count { grid-column:1; grid-row:3; color:#ffffff; font-size:.8rem; justify-self:start; }
+.home-intro .hi-links .hi-link-label { grid-column:1/-1; grid-row:2; font-size:1.1rem; line-height:1.45; letter-spacing:-.015em; }
+.home-intro .hi-links .hi-link-count { grid-column:1; grid-row:3; color:#e8ff1f; font-size:.82rem; justify-self:start; }
 .home-intro .hi-links .hi-link > .icon { grid-column:2; grid-row:3; align-self:center; opacity:.9; }
 .home-intro .hi-status {
  display:flex;
