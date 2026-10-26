@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-26T07:57:40Z",
+ "asOf": "2026-10-26T14:50:47Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,119 +10,112 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-25T07:57:40Z",
-   "to": "2026-10-26T07:57:40Z",
+   "from": "2026-10-25T14:50:47Z",
+   "to": "2026-10-26T14:50:47Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "a0c07d8628d4b6bc",
-      "url": "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam – video",
-      "excerpt": "Blake Mackenzie, a 12-year-old from Newcastle, has won the top youth prize at the Australian Poetry Slam for his reflections on artificial intelligence. The winning piece, performed at the Sydney Opera House on Sunday night, covered doomscrolling, loneliness and intellectual atrophy. The Australian Poetry Slam competition is now in its 22nd year. It ran 65 heats in 60 towns and cities across the…",
+      "id": "eb7708c5f537ab79",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
       "lang": "en",
-      "publishedAt": "2026-10-26T04:43:06Z",
+      "publishedAt": "2026-10-26T07:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T07:53:35Z",
+      "fetchedAt": "2026-10-26T15:16:22Z",
       "day": "2026-10-26",
-      "category": "policy",
-      "tags": [
-       "chatgpt",
-       "ai (artificial intelligence)",
-       "arts in schools",
-       "poetry",
-       "new south wales",
-       "newcastle and the hunter"
-      ],
+      "category": "models",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/policy.svg",
+       "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "a0c07d8628d4b6bc",
+      "eventId": "eb7708c5f537ab79",
       "related": [],
       "score": {
-       "total": 62.6,
+       "total": 65.7,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.9,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 63.6,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "جایزه جوانان ارشد 12 ساله در شعر استرالیا - ویدئو",
-        "excerpt": "بلیک مکنزی، یک دختر 12 ساله از نیوکاسل، برنده جایزه جوانان ارشد در شعر استرالیا برای انعکاس خود در هوش مصنوعی شده است. قطعه برنده، اجرا شده در خانه اپرای سیدنی در شب یکشنبه، پوشش عذاب، تنهایی و آتروفی فکری. رقابت شعر استرالیا در حال حاضر در 22 سال گذشته است. 65 گرم در 60 شهر و شهرها در سراسر ...",
+        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
+        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T07:53:35Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "80b5a397ef1a26d8",
-      "url": "https://www.theguardian.com/business/live/2026/oct/26/ai-cloud-computing-companies-guppy-level-death-elon-musk-stock-markets-dollar-oil-bond-yieds-latest-news-updates",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI cloud computing companies face ‘guppy-level death’, Elon Musk warns, as funding dries up – business live",
-      "excerpt": "Rolling coverage of the latest economic and financial news Musk also claimed on X overnight that some partly-built data centres simply won’t be completed. As he put it: I think we’re going to see a lot of stranded compute in partially complete data centers As of late Sunday in New York, those conversations remained ongoing and the deal hadn’t priced, people with knowledge of the discussions…",
+      "id": "400e513e48467761",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+      "excerpt": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
       "lang": "en",
-      "publishedAt": "2026-10-26T07:57:40Z",
+      "publishedAt": "2026-10-26T14:30:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T08:09:12Z",
+      "fetchedAt": "2026-10-26T15:16:22Z",
       "day": "2026-10-26",
-      "category": "business",
+      "category": "research",
       "tags": [
-       "business",
-       "economics",
-       "stock markets",
-       "ftse",
+       "ai",
+       "cars",
+       "data centers",
        "elon musk",
-       "ai (artificial intelligence)"
+       "fsd",
+       "spacex"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/c16447e0a55c9a42609debeec49385bf5fab5aa7/950_0_3375_2700/master/3375.jpg?width=700&quality=85&auto=format&fit=max&s=cae947e42970588d91bb16eab87ff4b0",
-       "credit": "Photograph: Aleksei Gorodenkov/Alamy",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
+       "credit": "Tesla",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "80b5a397ef1a26d8",
+      "eventId": "400e513e48467761",
       "related": [],
       "score": {
-       "total": 61.3,
+       "total": 64.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 55.0,
-        "novelty": 90.5
+        "recency": 98.1,
+        "topic": 80.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "شرکت های محاسبات ابری AI با \"مرگ سطحی\" مواجه هستند، ایلان ماسک هشدار می دهد، به عنوان بودجه بالا - کسب و کار زندگی می کند",
-        "excerpt": "پوشش رولینگ از آخرین اخبار اقتصادی و مالی ماسک در شب X ادعا کرد که برخی از مراکز داده تا حدی ساخته شده به سادگی تکمیل نخواهد شد. همانطور که او می گوید: من فکر می کنم که ما در اواخر یکشنبه در نیویورک، بسیاری از محاسبات را در مراکز داده کامل مشاهده می کنیم، این مکالمات ادامه داشت و معامله قیمت گذاری نشده بود، افرادی که دانش بحث ها را دارند.",
+        "title": "تسلا تاج الکتریکی را رها کرد. حالا می خواهد در مسابقه استقلال پیروز شود",
+        "excerpt": "تسلا امیدوار است که اشتراک های استقلال بتوانند فروش خودروهای حاشیه ای را ارائه دهند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T08:09:12Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
@@ -136,152 +129,173 @@
     },
     {
      "article": {
-      "id": "fdabadb313a82feb",
-      "url": "https://arxiv.org/abs/2610.31808",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "Patronizing and Condescending Language Detection in English and Mandarin",
-      "excerpt": "Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional…",
+      "id": "7ca6b100a30f0093",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Anthropic officially files for its public debut",
+      "excerpt": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
       "lang": "en",
-      "publishedAt": "2026-10-26T04:00:00Z",
+      "publishedAt": "2026-10-26T14:35:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T07:53:35Z",
+      "fetchedAt": "2026-10-26T15:16:22Z",
       "day": "2026-10-26",
-      "category": "research",
+      "category": "safety",
       "tags": [
-       "cs.ai"
+       "ai",
+       "anthropic",
+       "dario amodei",
+       "existential risk"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
       "image": {
-       "url": "images/fallbacks/research.svg",
+       "url": "images/fallbacks/safety.svg",
        "kind": "fallback"
       },
-      "eventId": "fdabadb313a82feb",
+      "eventId": "7ca6b100a30f0093",
       "related": [],
       "score": {
-       "total": 55.1,
+       "total": 64.2,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.5,
-        "topic": 80.0,
-        "novelty": 92.3
+        "recency": 98.5,
+        "topic": 90.0,
+        "novelty": 70.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "تشخیص زبان انگلیسی و ماندارین",
-        "excerpt": "زبان محدود کننده و گیج کننده (PCL) نوعی از زبان مضر است که کوچک می شود و برای گروه های آسیب پذیر دلسوزی می کند و کلیشه های اجتماعی منفی را تقویت می کند. با این حال، بر خلاف سخنرانی نفرت انگیز، اغلب تشخیص آن حتی برای داوران انسانی دشوار است. این مقاله یک سیستم برای تشخیص خودکار PCL را پیشنهاد می کند. اولین رویکرد ما استفاده از کلمه استاتیک جاسازی و یک تکامل است.",
+        "title": "فایل های رسمی Anthropic برای اولین بار عمومی آن",
+        "excerpt": "Anthropic به طور رسمی برای IPO ثبت شده است، نشان دادن درآمد افزایش یافته، تلفات بالا، تصویب شرکت های بزرگ، و یک ساختار غیر معمول حکومتی طراحی شده برای حفظ کنترل موسس و ماموریت ایمنی AI آن.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T07:53:35Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "ff7f6d8e21eb34c5",
-      "url": "https://arxiv.org/abs/2607.05369",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-      "excerpt": "For robots to work reliably in commercial and industrial applications, recent advances in agentic coding systems have potential to combine interpretable robot programming with the open-world adaptability of model-free policies. We focus on \"Variational Automation\" (VA), a class of tasks that have larger variations in object geometry and pose than fixed automation. Model-free policies often…",
+      "id": "9c0a98fa46a8163e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Can AI help solve the COBOL code crisis?",
+      "excerpt": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models'",
       "lang": "en",
-      "publishedAt": "2026-10-26T04:00:00Z",
+      "publishedAt": "2026-10-26T13:15:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T07:53:35Z",
+      "fetchedAt": "2026-10-26T15:16:22Z",
       "day": "2026-10-26",
       "category": "policy",
       "tags": [
-       "cs.ro",
-       "cs.ai",
-       "cs.cl",
-       "cs.lg"
+       "ai",
+       "anthropic",
+       "openai",
+       "report",
+       "tech"
       ],
-      "entities": [],
+      "entities": [
+       "openai"
+      ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1246435991.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "ff7f6d8e21eb34c5",
+      "eventId": "9c0a98fa46a8163e",
       "related": [],
       "score": {
-       "total": 55.1,
+       "total": 64.0,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.5,
+        "recency": 91.2,
         "topic": 85.0,
-        "novelty": 84.6
+        "novelty": 90.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا AI می تواند به حل بحران کد COBOL کمک کند؟",
+        "excerpt": "IRS، بانک ها، خطوط هوایی و زیرساخت های دولتی در سراسر جهان مشترک هستند؟ همه آنها در حال اجرا بر روی سیستم هایی هستند که توسط کد کامپیوتری قدیمی ساخته شده اند که هیچ کس جرأت نمی کند لمس کند، مبادا همه چیز سقوط کند. OpenAI فکر می کند که ممکن است راه حلی داشته باشد. در 19 اکتبر، این شرکت \"پیشرفت های گسترده\" را در آخرین مدل های AI خود منتشر کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T15:16:22Z"
+       }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "b366ba776fde8cd4",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
+      "id": "79e3e3e646b1d4ad",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
       "lang": "en",
-      "publishedAt": "2026-10-25T13:25:32Z",
+      "publishedAt": "2026-10-26T11:03:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-25T14:35:52Z",
-      "day": "2026-10-25",
-      "category": "policy",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "models",
       "tags": [
-       "ai",
-       "news",
-       "reddit",
-       "tech"
+       "anthropic",
+       "ai (artificial intelligence)",
+       "technology sector",
+       "computing",
+       "georgia",
+       "us news"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An illustration of the Reddit logo.",
+       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
+       "credit": "Photograph: Dado Ruvić/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "b366ba776fde8cd4",
+      "eventId": "79e3e3e646b1d4ad",
       "related": [],
       "score": {
-       "total": 53.6,
+       "total": 63.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 34.3,
-        "topic": 85.0,
-        "novelty": 100.0
+        "recency": 80.4,
+        "topic": 100.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
-        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
+        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
+        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T14:35:52Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
@@ -295,52 +309,53 @@
     },
     {
      "article": {
-      "id": "bf7f18e0418c7776",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "excerpt": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "id": "f9639b8619974d75",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/oct/27/how-big-are-the-ai-datacentre-power-poles-that-sparked-a-community-backlash-in-melbourne",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "How tall are the AI datacentre power poles that sparked a community backlash in Melbourne?",
+      "excerpt": "Compare the concrete masts with their timber predecessors and other structures seen on suburban streets In something of a David v Goliath battle, Australia’s largest datacentre operator has faced a major setback in its plans to double the size of its west Melbourne facility. To expand the size of its M3 datacentre NextDC needs to deliver increased electricity to the site. The initial approach…",
       "lang": "en",
-      "publishedAt": "2026-10-25T21:31:16Z",
+      "publishedAt": "2026-10-26T14:00:44Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-25T22:38:19Z",
-      "day": "2026-10-25",
-      "category": "business",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "hardware",
       "tags": [
-       "ai",
-       "media & entertainment",
-       "elon musk",
-       "spacex",
-       "xai"
+       "datacentres - australia",
+       "ai (artificial intelligence)",
+       "australia news",
+       "computing",
+       "melbourne",
+       "victoria"
       ],
-      "entities": [
-       "xai"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/6205004ba4caf3ce4be6737dec0141193c8c4cf9/0_0_1080_864/master/1080.jpg?width=700&quality=85&auto=format&fit=max&s=597f439fbe0f32faedd2e8498dac83f3",
+       "credit": "Illustration: Guardian Design",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "bf7f18e0418c7776",
+      "eventId": "f9639b8619974d75",
       "related": [],
       "score": {
-       "total": 52.2,
+       "total": 62.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 54.7,
-        "topic": 55.0,
-        "novelty": 90.0
+        "recency": 95.3,
+        "topic": 70.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "Grok هفت دقیقه اول AI تولید شده خود را \"Odyssey\"",
-        "excerpt": "فیلم خوب به نظر می رسد، تا زمانی که شما به دنبال هنرمند، الهام یا علاقه انسانی نیستید.",
+        "title": "قطب های قدرت داده محور هوش مصنوعی که یک واکنش جامعه را در ملبورن ایجاد کرده اند چقدر بلند هستند؟",
+        "excerpt": "مقایسه دکل های بتنی با پیشینیان چوب و دیگر سازه های دیده شده در خیابان های حومه در چیزی از نبرد دیوید و گولیا، بزرگترین اپراتور مرکز داده محور استرالیا با یک عقب نشینی بزرگ در برنامه های خود برای دو برابر کردن اندازه مرکز غرب ملبورن مواجه شده است. برای گسترش اندازه M3 DataCenter NextDC باید برق بیشتری را به سایت ارائه دهد. رویکرد اولیه ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T22:38:19Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
@@ -355,10 +370,63 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-19T07:57:40Z",
-   "to": "2026-10-26T07:57:40Z",
+   "from": "2026-10-19T14:50:47Z",
+   "to": "2026-10-26T14:50:47Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "eb7708c5f537ab79",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "eb7708c5f537ab79",
+      "related": [],
+      "score": {
+       "total": 71.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.7,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-26T14:50:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
+        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T15:16:22Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ba6fa07d677a8221",
@@ -390,15 +458,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 67.6,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 36.8,
+        "recency": 34.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -409,7 +477,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -420,59 +488,62 @@
     },
     {
      "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "id": "79e3e3e646b1d4ad",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
       "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
+      "publishedAt": "2026-10-26T11:03:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "models",
       "tags": [
-       "company"
+       "anthropic",
+       "ai (artificial intelligence)",
+       "technology sector",
+       "computing",
+       "georgia",
+       "us news"
       ],
       "entities": [
-       "google",
-       "openai"
+       "anthropic"
       ],
-      "brand": "openai",
+      "brand": "claude",
       "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
+       "credit": "Photograph: Dado Ruvić/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
+      "eventId": "79e3e3e646b1d4ad",
+      "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.6,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 32.7,
-        "topic": 65.0,
-        "novelty": 80.0
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.4,
+        "topic": 100.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
+        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
+        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
-     "rank": 2,
-     "sources": 2,
+     "rank": 3,
+     "sources": 1,
      "reason": [
-      "tier-1",
-      "voices-2",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -512,15 +583,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 66.7,
+       "total": 66.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 35.3,
+        "recency": 33.1,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -531,7 +602,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -542,111 +613,53 @@
     },
     {
      "article": {
-      "id": "a0c07d8628d4b6bc",
-      "url": "https://www.theguardian.com/technology/video/2026/oct/26/dear-chatgpt-12-year-old-wins-top-youth-prize-at-australian-poetry-slam-video",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "'Dear ChatGPT': 12-year-old wins top youth prize at Australian Poetry Slam – video",
-      "excerpt": "Blake Mackenzie, a 12-year-old from Newcastle, has won the top youth prize at the Australian Poetry Slam for his reflections on artificial intelligence. The winning piece, performed at the Sydney Opera House on Sunday night, covered doomscrolling, loneliness and intellectual atrophy. The Australian Poetry Slam competition is now in its 22nd year. It ran 65 heats in 60 towns and cities across the…",
+      "id": "9c0a98fa46a8163e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018434/cobol-migration-legacy-code-openai-anthropic",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Can AI help solve the COBOL code crisis?",
+      "excerpt": "What do the IRS, banks, airlines, and government infrastructure around the world have in common? They're all running on systems propped up by antique computer code that nobody dares touch, lest everything come crashing down. OpenAI thinks it may have a solution. On October 19th, the company touted \"substantial improvements\" in its latest AI models'",
       "lang": "en",
-      "publishedAt": "2026-10-26T04:43:06Z",
+      "publishedAt": "2026-10-26T13:15:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T07:53:35Z",
+      "fetchedAt": "2026-10-26T15:16:22Z",
       "day": "2026-10-26",
       "category": "policy",
       "tags": [
-       "chatgpt",
-       "ai (artificial intelligence)",
-       "arts in schools",
-       "poetry",
-       "new south wales",
-       "newcastle and the hunter"
+       "ai",
+       "anthropic",
+       "openai",
+       "report",
+       "tech"
       ],
       "entities": [
        "openai"
       ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "a0c07d8628d4b6bc",
-      "related": [],
-      "score": {
-       "total": 65.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.9,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-26T07:57:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جایزه جوانان ارشد 12 ساله در شعر استرالیا - ویدئو",
-        "excerpt": "بلیک مکنزی، یک دختر 12 ساله از نیوکاسل، برنده جایزه جوانان ارشد در شعر استرالیا برای انعکاس خود در هوش مصنوعی شده است. قطعه برنده، اجرا شده در خانه اپرای سیدنی در شب یکشنبه، پوشش عذاب، تنهایی و آتروفی فکری. رقابت شعر استرالیا در حال حاضر در 22 سال گذشته است. 65 گرم در 60 شهر و شهرها در سراسر ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T07:53:35Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b366ba776fde8cd4",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "excerpt": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this Open Source",
-      "lang": "en",
-      "publishedAt": "2026-10-25T13:25:32Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-25T14:35:52Z",
-      "day": "2026-10-25",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "news",
-       "reddit",
-       "tech"
-      ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK115_Reddit_01.jpg.webp?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An illustration of the Reddit logo.",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-1246435991.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "b366ba776fde8cd4",
+      "eventId": "9c0a98fa46a8163e",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 65.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 83.7,
+        "recency": 98.5,
         "topic": 85.0,
-        "novelty": 100.0
+        "novelty": 90.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "r/opensource فقط AI، سخنرانان غیر انگلیسی و بیشتر را ممنوع کرد",
-        "excerpt": "روش های موجود در Re/opensource قوانین جدید ارسالی را منتشر کردند که در میان دیگر موارد، پروژه های ممنوعه ای که از AI استفاده می کنند را ممنوع کردند. پست روز شنبه با گفتن این جمله باز می شود: \"اگر پروژه شما از AI استفاده می کند، توسط AI ساخته می شود، یا برای AI در نظر گرفته می شود، از منبع R / Open خوش آمدید. AI، همانطور که امروز وجود دارد، به این منبع باز متصل است",
+        "title": "آیا AI می تواند به حل بحران کد COBOL کمک کند؟",
+        "excerpt": "IRS، بانک ها، خطوط هوایی و زیرساخت های دولتی در سراسر جهان مشترک هستند؟ همه آنها در حال اجرا بر روی سیستم هایی هستند که توسط کد کامپیوتری قدیمی ساخته شده اند که هیچ کس جرأت نمی کند لمس کند، مبادا همه چیز سقوط کند. OpenAI فکر می کند که ممکن است راه حلی داشته باشد. در 19 اکتبر، این شرکت \"پیشرفت های گسترده\" را در آخرین مدل های AI خود منتشر کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T14:35:52Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
@@ -660,53 +673,48 @@
     },
     {
      "article": {
-      "id": "bb7c1e3b8be87920",
-      "url": "https://www.theguardian.com/australia-news/2026/oct/26/deloitte-report-wa-university-mergers-260m-discrepancy-ai",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Extremely disappointed’: WA government seeks reimbursement from Deloitte over flawed university report",
-      "excerpt": "WA paid Deloitte $166,000 for flawed feasibility study on merging the University of Western Australia, Curtin university and Murdoch university Get our breaking news email, free app or daily news podcast The Western Australian government has said it is “extremely disappointed” and is seeking an “expedited” cost recovery from Deloitte after errors were discovered in a report on a potential…",
+      "id": "67160bc1e72b075b",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products…",
       "lang": "en",
-      "publishedAt": "2026-10-25T14:00:06Z",
+      "publishedAt": "2026-10-26T09:01:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-25T14:35:52Z",
-      "day": "2026-10-25",
-      "category": "policy",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "safety",
       "tags": [
-       "western australia",
-       "deloitte",
-       "australian universities",
-       "australian education",
-       "ai (artificial intelligence)",
-       "australia news"
+       "artificial intelligence",
+       "ai",
+       "app"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/515a0bf6dc96a2183fa9f4bc90a2fbeac2d91271/1105_835_1970_1577/master/1970.jpg?width=700&quality=85&auto=format&fit=max&s=3c92fa93a4cf06323355fac7066912b2",
-       "credit": "Photograph: Dan Himbrechts/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "images/fallbacks/safety.svg",
+       "kind": "fallback"
       },
-      "eventId": "bb7c1e3b8be87920",
+      "eventId": "67160bc1e72b075b",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 65.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 85.0,
-        "novelty": 93.8
+        "recency": 94.5,
+        "topic": 90.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "ناامید کننده: دولت WA به دنبال بازپرداخت از Deloitte در گزارش دانشگاه ناقص است",
-        "excerpt": "WA به Deloitte $ 66000 برای مطالعه امکان سنجی ناقص در ادغام دانشگاه غرب استرالیا، دانشگاه کورتین و دانشگاه موراک دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا پادکست اخبار روزانه دولت استرالیا غربی گفته است که آن را \"به شدت ناامید شده\" و به دنبال \"ارزیابی شده\" بهبود هزینه از Deloitte پس از خطا در گزارش در یک بالقوه کشف شده است.",
+        "title": "تمرکز بر بلایای ایمنی هوش مصنوعی آسیب های روزمره را نادیده می گیرد",
+        "excerpt": "در نظر بگیرید که چه چیزی برای موفقیت در سیاست های تکنولوژی پیش می رود. یک شرکت AI وعده می دهد که chatbot آن خودکشی را تشویق نمی کند. یک پلت فرم رسانه های اجتماعی برای کودکان برای خرید fentanyl مشکل تر است. این ها محافظت های مهمی هستند و باید در همه جا وجود داشته باشند. اما شرکت ها می توانند این میله های پایین را در حالی که همچنان به تولید محصولات ادامه می دهند، روشن کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-25T14:35:52Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
@@ -720,117 +728,118 @@
     },
     {
      "article": {
-      "id": "c636a8319993faee",
-      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
-      "excerpt": "In Compton Lecture, the distinguished legal scholar warns of potential “loss of the Enlightenment” while suggesting ways innovations can meet our civic and cultural needs.",
+      "id": "400e513e48467761",
+      "url": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race",
+      "excerpt": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
       "lang": "en",
-      "publishedAt": "2026-10-23T21:00:00Z",
+      "publishedAt": "2026-10-26T14:30:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
       "category": "research",
       "tags": [
-       "special events and guest speakers",
-       "technology and society",
-       "artificial intelligence",
-       "community",
-       "government",
-       "democracy"
+       "ai",
+       "cars",
+       "data centers",
+       "elon musk",
+       "fsd",
+       "spacex"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT%20Compton-01-press.JPG?itok=WqxUfa0W",
-       "credit": "Photo: Jake Belcher",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/roadster-1152x648.jpg",
+       "credit": "Tesla",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "c636a8319993faee",
+      "eventId": "400e513e48467761",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 65.2,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 56.7,
+        "recency": 99.7,
         "topic": 80.0,
-        "novelty": 91.7
+        "novelty": 92.9
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "در MIT، مارتا مینو در حفظ دموکراسی، هر دو با استفاده و غلبه بر AI صحبت می کند.",
-        "excerpt": "در سخنرانی Compton، محقق برجسته حقوقی هشدار می دهد که \"از دست دادن روشنگری\" بالقوه در حالی که نشان می دهد که نوآوری ها می توانند نیازهای مدنی و فرهنگی ما را برآورده کنند.",
+        "title": "تسلا تاج الکتریکی را رها کرد. حالا می خواهد در مسابقه استقلال پیروز شود",
+        "excerpt": "تسلا امیدوار است که اشتراک های استقلال بتوانند فروش خودروهای حاشیه ای را ارائه دهند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
      "rank": 7,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "057a86be6882ac7b",
-      "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Bringing foundational models to the front lines of TB screening",
-      "excerpt": "Generative AI",
+      "id": "7ca6b100a30f0093",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Anthropic officially files for its public debut",
+      "excerpt": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption, and an unusual governance structure designed to preserve founder control and its AI safety mission.",
       "lang": "en",
-      "publishedAt": "2026-10-23T18:51:33Z",
+      "publishedAt": "2026-10-26T14:35:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-23T21:44:04Z",
-      "day": "2026-10-23",
-      "category": "research",
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "safety",
       "tags": [
-       "generative ai",
-       "health & bioscience"
+       "ai",
+       "anthropic",
+       "dario amodei",
+       "existential risk"
       ],
       "entities": [
-       "google"
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AIforTBScreening2_Xray.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "url": "images/fallbacks/safety.svg",
+       "kind": "fallback"
       },
-      "eventId": "057a86be6882ac7b",
+      "eventId": "7ca6b100a30f0093",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 64.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 55.5,
-        "topic": 80.0,
-        "novelty": 90.9
+        "recency": 99.8,
+        "topic": 90.0,
+        "novelty": 70.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "آوردن مدل های بنیادی به خطوط جلویی غربالگری سل",
-        "excerpt": "هوش مصنوعی",
+        "title": "فایل های رسمی Anthropic برای اولین بار عمومی آن",
+        "excerpt": "Anthropic به طور رسمی برای IPO ثبت شده است، نشان دادن درآمد افزایش یافته، تلفات بالا، تصویب شرکت های بزرگ، و یک ساختار غیر معمول حکومتی طراحی شده برای حفظ کنترل موسس و ماموریت ایمنی AI آن.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-23T21:44:04Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -838,8 +847,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-26T07:57:40Z",
-   "to": "2026-10-26T07:57:40Z",
+   "from": "2026-09-26T14:50:47Z",
+   "to": "2026-10-26T14:50:47Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -873,15 +882,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 75.1,
+       "total": 74.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.1,
+        "recency": 72.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -932,15 +941,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 74.5,
+       "total": 74.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 71.5,
+        "recency": 70.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -995,15 +1004,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 74.3,
+       "total": 74.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 73.2,
+        "recency": 71.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -1025,58 +1034,53 @@
     },
     {
      "article": {
-      "id": "dbaa902542534b3a",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "id": "eb7708c5f537ab79",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "OpenAI acquires Orchestra Bio",
-      "excerpt": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
       "lang": "en",
-      "publishedAt": "2026-10-20T00:00:00Z",
+      "publishedAt": "2026-10-26T07:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-20T18:31:30Z",
-      "day": "2026-10-20",
-      "category": "business",
-      "tags": [
-       "company"
-      ],
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/business.svg",
+       "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "dbaa902542534b3a",
-      "related": [
-       "aeaa448f66c5e86e"
-      ],
+      "eventId": "eb7708c5f537ab79",
+      "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 64.5,
-        "topic": 55.0,
-        "novelty": 87.5
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
-        "title": "OpenAI به دست آوردن ارکستر Bio",
-        "excerpt": "OpenAI به دست آوردن ارکستر Bio برای آوردن عملیات AI به علوم زندگی R&D، کمک به تیم های دارویی زیستی سرعت بخشیدن به توسعه دارو و پیشبرد درمان های جدید است.",
+        "title": "چگونه فناتیک و OpenAI ساده تجربه فن",
+        "excerpt": "فناتیک ها از OpenAI برای کمک به طرفداران برای تکمیل لباس های روزمره خود با فروشگاه نگاه استفاده می کنند. آزمایش در حدود 30 هزار محصول MLB نشان داد که 10 درصد بیشتر است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-20T18:31:30Z"
+        "at": "2026-10-26T15:16:22Z"
        }
       }
      },
      "rank": 4,
-     "sources": 2,
+     "sources": 1,
      "reason": [
       "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1114,15 +1118,15 @@
       "eventId": "c636a8319993faee",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 82.7,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -1171,15 +1175,15 @@
       "eventId": "057a86be6882ac7b",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.8,
+        "recency": 82.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -1231,15 +1235,15 @@
       "eventId": "60c7eb065c480fbc",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.0,
+        "recency": 82.3,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -1285,15 +1289,15 @@
       "eventId": "94e7f4f5c0e52bb7",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 67.4,
+        "recency": 66.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
@@ -1307,6 +1311,68 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "79e3e3e646b1d4ad",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Anthropic’s Claude AI model accessed Georgia voter data in US",
+      "excerpt": "Latest example of unauthorised behaviour shows AI model bypassed paywall to access data as part of statistics project Business live – latest updates Anthropic sued for allegedly using 274 Elvis songs to train AI models Anthropic’s Claude model accessed voter data in the US state of Georgia, the AI company has confirmed, in the latest example of unauthorised behaviour by the technology. The AI…",
+      "lang": "en",
+      "publishedAt": "2026-10-26T11:03:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T15:16:22Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [
+       "anthropic",
+       "ai (artificial intelligence)",
+       "technology sector",
+       "computing",
+       "georgia",
+       "us news"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/53e6ecce82d90c5106536d7c112f492e510cdf2b/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=ef01bdcb7b1493b872180ab0e5ca4341",
+       "credit": "Photograph: Dado Ruvić/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "79e3e3e646b1d4ad",
+      "related": [],
+      "score": {
+       "total": 67.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-26T14:50:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل هوش مصنوعی Anthropic به داده های رای دهندگان گرجستان در ایالات متحده دسترسی دارد",
+        "excerpt": "آخرین نمونه رفتار غیر مجاز نشان می دهد که مدل AI برای دسترسی به داده ها به عنوان بخشی از پروژه آمار کسب و کار زندگی می کند - آخرین به روز رسانی Anthropic برای استفاده از 274 آهنگ الویس برای آموزش مدل های AI Anthropic's کلود دسترسی به داده های رای دهندگان در ایالات متحده از گرجستان، شرکت AI تایید کرده است، در آخرین نمونه از رفتار غیر مجاز توسط فن آوری است. AI ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T15:16:22Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1338,75 +1404,21 @@
       "eventId": "d5dfb55b012918e7",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.2,
+        "recency": 81.6,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-26T07:57:40Z"
+       "asOf": "2026-10-26T14:50:47Z"
       },
       "tr": {
        "fa": {
         "title": "LitPivot: توسعه ایده های تحقیقاتی از طریق متن پویا در منظر ادبیات",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-23T18:27:37Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "38715d90bd30f009",
-      "url": "https://huggingface.co/blog/nvidia/kumo-forecast",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:51:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/660f5683b710b57b115a5483/pFl0vhvFrc-oZjk5qE8_0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-forecast"
-      },
-      "eventId": "38715d90bd30f009",
-      "related": [],
-      "score": {
-       "total": 67.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.7,
-        "topic": 90.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-26T07:57:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیش بینی NVIDIA Kumo شامل نمایش های سری زمان آموزش دیده با الگوی تاریخی Retrieval و Interpretttttibility است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
        }
       }
      },
