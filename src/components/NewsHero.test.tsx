@@ -61,7 +61,7 @@ describe('NewsHero', () => {
     expect(slides[0]).toHaveAttribute('data-photo', 'yes');
     fireEvent.error(img);
     expect(slides[0]!.querySelector('.nh-img')).toBeNull();
-    expect(slides[0]!.querySelector('.nh-fallback-art')).toHaveAttribute('src', expect.stringMatching(/images\/icons\/3d\/models\.png$/));
+    expect(slides[0]!.querySelector('.nh-fallback-art')).toHaveAttribute('src', expect.stringMatching(/images\/icons\/3d\/models\.png\?v=2$/));
     expect(slides[0]!.querySelector('.nh-frame')).toHaveClass('is-empty');
     expect(slides[0]).toHaveAttribute('data-photo', 'no');
     // No image at all: the same frame with the placeholder.
