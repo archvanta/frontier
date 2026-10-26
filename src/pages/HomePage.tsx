@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Carousel } from '../components/Carousel';
 import { DaySection } from '../components/DaySection';
@@ -11,6 +11,7 @@ import { PicksPanel } from '../components/PicksPanel';
 import { SignalStatus } from '../components/SignalStatus';
 import { EmptyState, ErrorState, Loading } from '../components/States';
 import { WeeklyBrief } from '../components/WeeklyBrief';
+import { VideoCell } from '../components/VideoCell';
 import { planHomePage, sortNewestFirst, uniqueById } from '../lib/archive';
 import { introStats } from '../lib/introStats';
 import { useData } from '../lib/dataContext';
@@ -20,7 +21,9 @@ import { pickHeroStories } from '../lib/heroStories';
 import { useAsync } from '../lib/hooks';
 import { useReveal, useSlidingIndicator } from '../lib/motion';
 import { categoryLabel, sectionLabel, useI18n } from '../lib/i18n';
+import { href } from '../lib/router';
 import { CATEGORY_IDS, SECTION_IDS, type Article, type CategoryId, type Meta, type SectionId } from '../lib/types';
+import { playableVideo } from '../lib/video';
 
 /** `home` is the intro page (all three sections mixed, with a section label on each story); `ai-news` is the plain news front page: slideshow and the full feed. */
 /** Stories per day shown as plain rows before "Show more"; the rest of a long day stays one tap away. */
@@ -106,6 +109,16 @@ export function HomePage({
   );
   // Secondary picks must introduce stories not already shown by the hero.
   const featured = useMemo(() => new Set((heroStories ?? []).map((a) => a.id)), [heroStories]);
+  const homeVideos = useMemo(
+    () =>
+      feed.status === 'ready'
+        ? feed.data.sectionStories.videos.flatMap((article) => {
+            const video = playableVideo(article);
+            return video ? [{ article, video }] : [];
+          }).slice(0, 3)
+        : [],
+    [feed],
+  );
 
   const introData = useMemo(
     () =>
@@ -202,16 +215,33 @@ export function HomePage({
                 </p>
               )}
               {feed.data.groups.map((g, i) => (
-                <DaySection
-                  key={`${g.day}:${category}`} // a new filter remounts the day, so its cards enter again instead of jumping
-                  day={g.day}
-                  level={3}
-                  articles={prioritizeFollowed(category === 'all' ? g.articles : g.articles.filter((a) => matches(a, feed.data.sectionOf)), followed)}
-                  sectionOf={home ? feed.data.sectionOf : undefined}
-                  emptyText={category === 'all' ? undefined : t('filter_empty')}
-                  listLimit={FEED_LIST_LIMIT}
-                  label={feed.data.plan.page === 1 ? (i === 0 ? t('today') : t('yesterday')) : undefined}
-                />
+                <Fragment key={`${g.day}:${category}`}>
+                  <DaySection
+                    day={g.day}
+                    level={3}
+                    articles={prioritizeFollowed(category === 'all' ? g.articles : g.articles.filter((a) => matches(a, feed.data.sectionOf)), followed)}
+                    sectionOf={home ? feed.data.sectionOf : undefined}
+                    emptyText={category === 'all' ? undefined : t('filter_empty')}
+                    listLimit={FEED_LIST_LIMIT}
+                    label={feed.data.plan.page === 1 ? (i === 0 ? t('today') : t('yesterday')) : undefined}
+                  />
+                  {i === 0 && page === 1 && home && category === 'all' && homeVideos.length > 0 && (
+                    <section className="home-video-interlude" aria-labelledby="home-videos-title">
+                      <header className="home-video-head">
+                        <div>
+                          <p className="eyebrow">{t('home_videos_kicker')}</p>
+                          <h3 id="home-videos-title" className="home-video-title">{t('home_videos_title')}</h3>
+                        </div>
+                        <a className="section-link" href={href('/videos')}>
+                          {t('home_videos_all')} <Icon name="arrow" directional />
+                        </a>
+                      </header>
+                      <div className="home-video-grid">
+                        {homeVideos.map(({ article, video }) => <VideoCell key={article.id} article={article} video={video} />)}
+                      </div>
+                    </section>
+                  )}
+                </Fragment>
               ))}
               <p className="page-note">{t('page1_note')}</p>
               <Pagination page={feed.data.plan.page} total={feed.data.plan.totalPages} path={home ? '/' : '/ai-news'} />
