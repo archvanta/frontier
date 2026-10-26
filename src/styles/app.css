@@ -360,7 +360,7 @@ html[lang='fa'] .mt-label {
   flex: none;
 }
 
-/* The FRONTIER mark is a compact three-plane F with a restrained extruded edge. */
+/* The FRONTIER F is the same mark used by the favicon. */
 .wordmark-glyph {
   display: inline-grid;
   place-items: center;
@@ -371,12 +371,22 @@ html[lang='fa'] .mt-label {
   block-size: 2.2rem;
 }
 
-.brand-mark-faces {
-  fill: #3974e7;
+.brand-mark-bg {
+  fill: #0c0f19;
+  stroke: #25355c;
+  stroke-width: 2;
 }
 
-.brand-mark-edges {
-  fill: #163e96;
+.brand-mark-face {
+  fill: #e6edff;
+}
+
+.brand-mark-depth {
+  fill: #477bff;
+}
+
+.brand-mark-signal {
+  fill: #5eead4;
 }
 
 .wordmark-text,

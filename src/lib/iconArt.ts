@@ -15,5 +15,5 @@ export type IconArtId =
 
 /** Generated editorial artwork shared by navigation, section entry cards and image fallbacks. */
 export function iconArt(id: IconArtId): string {
-  return `${import.meta.env.BASE_URL}images/icons/3d/${id}.png?v=2`;
+  return `${import.meta.env.BASE_URL}images/icons/3d/${id}.png?v=3`;
 }

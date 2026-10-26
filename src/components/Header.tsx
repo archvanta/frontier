@@ -31,20 +31,14 @@ function isTyping(target: EventTarget | null): boolean {
   return !!el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName));
 }
 
-/** The FRONTIER mark: three forward-moving planes forming a compact F. */
+/** The FRONTIER monogram, shared visually with the browser-tab icon. */
 export function BrandMark({ size = 20 }: { size?: number }) {
   return (
     <svg className="icon brand-mark" viewBox="0 0 64 64" width={size} height={size} aria-hidden="true">
-      <g className="brand-mark-edges">
-        <path d="M9 20h44l-3 5H9Z" />
-        <path d="M5 38h38l-3 5H5Z" />
-        <path d="M5 55h23l-3 5H5Z" />
-      </g>
-      <g className="brand-mark-faces">
-        <path d="M13 10h46l-6 10H9Z" />
-        <path d="M9 28h40l-6 10H5Z" />
-        <path d="M5 45h29l-6 10H5Z" />
-      </g>
+      <rect className="brand-mark-bg" x="2" y="2" width="60" height="60" rx="16" />
+      <path className="brand-mark-face" d="M18 14h32l-5 9H28v8h15l-5 9H28v14H18V14Z" />
+      <path className="brand-mark-depth" d="M28 23h17l-3 4H28v-4ZM28 40h10l-3 4h-7v-4Z" />
+      <circle className="brand-mark-signal" cx="50" cy="14" r="3" />
     </svg>
   );
 }
