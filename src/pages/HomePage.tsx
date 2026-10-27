@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { Carousel } from '../components/Carousel';
 import { DaySection } from '../components/DaySection';
@@ -47,6 +47,31 @@ export function HomePage({
   const home = variant === 'home';
   const data = useData();
   const { t, locale } = useI18n();
+  const feedGate = useRef<HTMLSpanElement>(null);
+  const [showFeed, setShowFeed] = useState(() => !home || page !== 1);
+
+  // The cinematic intro and news hero fill more than two viewports. Building the 50+ story cards
+  // below them during first paint caused a visible startup hitch, so mount that DOM only as the
+  // visitor approaches it. Data still loads immediately and keeps the hero counts current.
+  useEffect(() => {
+    if (!home || page !== 1 || typeof IntersectionObserver === 'undefined') {
+      setShowFeed(true);
+      return;
+    }
+    setShowFeed(false);
+    const target = feedGate.current;
+    if (!target) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry?.isIntersecting) return;
+        setShowFeed(true);
+        observer.disconnect();
+      },
+      { rootMargin: '600px 0px' },
+    );
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [home, page]);
 
   const feed = useAsync(async () => {
     // Start every independent request together. Once the small archive index arrives, fetch its day files
@@ -136,6 +161,14 @@ export function HomePage({
             stats: introStats(newest, feed.data.sectionOf, meta, now),
             signals: [],
             now,
+            architectureFresh: newest.filter((article) => {
+              const age = now.getTime() - Date.parse(article.publishedAt);
+              return (
+                age >= 0 &&
+                age <= 24 * 3600 * 1000 &&
+                /\b(architect(?:ure|ural|s?)|BIM|CAD|Revit|AutoCAD|Rhino|SketchUp|urban design)\b/i.test(`${article.title} ${article.excerpt}`)
+              );
+            }).length,
           }
         : null,
     [feed, newest, meta, now],
@@ -162,9 +195,10 @@ export function HomePage({
           </>,
           heroSlot,
         )}
-      {feed.status === 'loading' && <Loading rows={3} />}
-      {feed.status === 'error' && <ErrorState onRetry={feed.reload} />}
-      {feed.status === 'ready' && (
+      <span ref={feedGate} className="feed-mount-gate" aria-hidden="true" />
+      {showFeed && feed.status === 'loading' && <Loading rows={3} />}
+      {showFeed && feed.status === 'error' && <ErrorState onRetry={feed.reload} />}
+      {showFeed && feed.status === 'ready' && (
         <>
           {!feed.data.hasAny && (
             <EmptyState title={t('no_data_title')}>

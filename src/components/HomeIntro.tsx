@@ -1,39 +1,25 @@
-import { useEffect, useRef, type CSSProperties } from 'react';
+import { useEffect, useRef } from 'react';
 import { displayTitle, storyPath } from '../lib/article';
 import { formatNumber, relativeTime } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import { iconArt, type IconArtId } from '../lib/iconArt';
 import type { IntroStats } from '../lib/introStats';
+import { useMotionMode } from '../lib/motion';
 import { href } from '../lib/router';
 import type { PickEntry } from '../lib/types';
 import { HalftoneWordmark } from './HalftoneWordmark';
 import { Icon } from './Icon';
 
 /**
- * First scene of the homepage: what the site is, in one calm screen, with the three ways in. The page's h1 lives here.
- * The backdrop is plain CSS (drifting light, a moving grid, a light sweep and a few rising specks): transforms and opacity only, nothing to
- * download, and it stands still when the motion mode is not "full" or while the scene is off-screen.
+ * First scene of the homepage: a cinematic film, the site identity and the four ways into the coverage. The page's h1 lives here.
  */
-const SPECKS = [
-  { x: 6, s: 3, d: 15, w: 0 },
-  { x: 13, s: 2, d: 19, w: 6 },
-  { x: 21, s: 4, d: 17, w: 3 },
-  { x: 29, s: 2, d: 22, w: 9 },
-  { x: 37, s: 3, d: 16, w: 1 },
-  { x: 44, s: 2, d: 20, w: 11 },
-  { x: 52, s: 4, d: 18, w: 5 },
-  { x: 59, s: 2, d: 14, w: 8 },
-  { x: 66, s: 3, d: 21, w: 2 },
-  { x: 73, s: 2, d: 17, w: 12 },
-  { x: 80, s: 4, d: 19, w: 4 },
-  { x: 87, s: 3, d: 15, w: 10 },
-  { x: 93, s: 2, d: 23, w: 7 },
-] as const;
 
 interface Entry {
   key: string;
   to: string;
+  params?: Record<string, string>;
   label: string;
+  desc: string;
   art: IconArtId;
   /** Stories published in the last 24 hours. */
   fresh?: number;
@@ -44,64 +30,79 @@ export interface IntroData {
   stats: IntroStats;
   signals: PickEntry[];
   now: Date;
+  architectureFresh: number;
 }
 
 export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: IntroData | null }) {
   const { t, locale } = useI18n();
   const stats = data?.stats;
+  const motionMode = useMotionMode();
   const root = useRef<HTMLElement>(null);
+  const video = useRef<HTMLVideoElement>(null);
 
-  // The backdrop only animates while the scene is on screen.
+  // Decode and play the film only while the scene is on screen.
   useEffect(() => {
     const el = root.current;
+    const film = video.current;
     if (!el || typeof IntersectionObserver === 'undefined') {
       el?.setAttribute('data-live', 'true');
       return;
     }
-    const io = new IntersectionObserver(([e]) => el.setAttribute('data-live', String(Boolean(e?.isIntersecting))), { threshold: 0 });
+    const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let startTimer = 0;
+    const sync = (live: boolean) => {
+      el.setAttribute('data-live', String(live));
+      if (!film) return;
+      window.clearTimeout(startTimer);
+      if (live && !motion.matches && motionMode === 'full') {
+        // Keep media fetch/decode out of the critical first paint. The poster makes the hero complete
+        // immediately; the compact loop starts once React and the initial feed have settled.
+        startTimer = window.setTimeout(() => void film.play().catch(() => undefined), 650);
+      } else film.pause();
+    };
+    const io = new IntersectionObserver(([e]) => sync(Boolean(e?.isIntersecting)), { threshold: 0 });
     io.observe(el);
-    return () => io.disconnect();
-  }, []);
+    const onMotion = () => sync(el.getAttribute('data-live') !== 'false');
+    motion.addEventListener('change', onMotion);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(startTimer);
+      motion.removeEventListener('change', onMotion);
+    };
+  }, [motionMode]);
 
   const entries: Entry[] = [
     {
       key: 'ai-games',
       to: '/ai-games',
       label: t('nav_ai_games'),
+      desc: t('menu_ai_games_d'),
       art: 'ai-games',
       fresh: stats?.fresh.sections['ai-games'],
     },
-    { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), art: 'data-centers', fresh: stats?.fresh.sections['data-centers'] },
-    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), art: 'ai-news', fresh: stats?.fresh.news },
+    {
+      key: 'data-centers',
+      to: '/data-centers',
+      label: t('nav_data_centers'),
+      desc: t('menu_data_centers_d'),
+      art: 'data-centers',
+      fresh: stats?.fresh.sections['data-centers'],
+    },
+    {
+      key: 'architecture',
+      to: '/explore',
+      params: { q: 'architecture' },
+      label: t('nav_architecture'),
+      desc: t('menu_architecture_d'),
+      art: 'architecture',
+      fresh: data?.architectureFresh,
+    },
+    { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), desc: t('menu_ai_news_d'), art: 'ai-news', fresh: stats?.fresh.news },
   ];
   const freshTotal = stats?.fresh.news ?? 0;
 
   return (
     <section ref={root} className="home-intro" aria-labelledby="home-title" data-live="true">
-      <div className="hi-backdrop" aria-hidden="true">
-        <span className="hi-glow hi-glow-a" />
-        <span className="hi-glow hi-glow-b" />
-        <span className="hi-glow hi-glow-c" />
-        <span className="hi-grid" />
-        <svg className="hi-orbits" viewBox="0 0 1440 760" preserveAspectRatio="none">
-          <path className="hi-orbit hi-orbit-a" d="M-80 590C280 290 610 260 930 390S1370 500 1520 220" />
-          <path className="hi-orbit hi-orbit-b" d="M-120 360C250 520 520 550 820 420S1260 180 1520 330" />
-          <path className="hi-orbit hi-orbit-c" d="M40 690C360 410 710 360 1030 470S1370 560 1510 440" />
-          <g className="hi-orbit-nodes">
-            <circle cx="120" cy="475" r="4" />
-            <circle cx="422" cy="359" r="3" />
-            <circle cx="890" cy="374" r="4" />
-            <circle cx="1208" cy="426" r="3" />
-            <circle cx="1352" cy="280" r="4" />
-          </g>
-        </svg>
-        <span className="hi-beam" />
-        <span className="hi-specks">
-          {SPECKS.map((p) => (
-            <i key={p.x} style={{ '--x': `${p.x}%`, '--s': `${p.s}px`, '--d': `${p.d}s`, '--w': `-${p.w}s` } as CSSProperties} />
-          ))}
-        </span>
-      </div>
       <div className="container hi-inner">
         <header className="hi-dashboard-head">
           <p className="hi-overview">
@@ -116,14 +117,30 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
 
         <div className="hi-bento">
           <div className="hi-primary-card">
+            <video
+              ref={video}
+              className="hi-hero-video"
+              muted
+              loop
+              playsInline
+              preload="none"
+              poster={`${import.meta.env.BASE_URL}media/frontier-hero-poster.webp`}
+              aria-hidden="true"
+            >
+              <source src={`${import.meta.env.BASE_URL}media/frontier-hero.mp4`} type="video/mp4" />
+            </video>
+            <span className="hi-hero-scrim" aria-hidden="true" />
             <span className="hi-card-rim" aria-hidden="true" />
             <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
             <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
               <HalftoneWordmark word="FRONTIER" />
             </h1>
-            <p className="hi-body">{t('intro_body')}</p>
-            <div className="hi-wave" aria-hidden="true">
-              <i /><i /><i /><i />
+            <div className="hi-hero-copy">
+              <p className="hi-body">{t('intro_body')}</p>
+              <a className="hi-join" href={href('/signin', { mode: 'create' })}>
+                <span>{t('intro_join')}</span>
+                <i aria-hidden="true"><Icon name="arrow" size={18} directional /></i>
+              </a>
             </div>
           </div>
 
@@ -151,9 +168,10 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
 
           <nav className="hi-links" aria-label={t('intro_links')}>
             {entries.map((e) => (
-              <a key={e.key} className="hi-link" href={href(e.to)} data-entry={e.key}>
+              <a key={e.key} className="hi-link" href={href(e.to, e.params)} data-entry={e.key}>
                 <img className="hi-link-art" src={iconArt(e.art)} alt="" width={52} height={52} decoding="async" />
                 <span className="hi-link-label">{e.label}</span>
+                <span className="hi-link-desc">{e.desc}</span>
                 <span className="hi-link-count" title={t('intro_new_24h', { n: formatNumber(e.fresh ?? 0, locale) })}>
                   +{formatNumber(e.fresh ?? 0, locale)}
                   <span className="visually-hidden"> {t('intro_new_24h', { n: formatNumber(e.fresh ?? 0, locale) })}</span>

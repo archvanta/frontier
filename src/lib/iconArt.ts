@@ -9,6 +9,7 @@ export type IconArtId =
   | 'data-centers'
   | 'videos'
   | 'ai-news'
+  | 'architecture'
   | 'daily'
   | 'weekly'
   | 'monthly';

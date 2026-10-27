@@ -49,8 +49,10 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     let warm: [number, number, number] = [198, 255, 74];
     let inkCss = '#e6e9ff';
     let palette = Array.from({ length: COLOR_STEPS }, () => inkCss);
+    let layoutWidth = 0;
+    let layoutHeight = 0;
 
-    const layout = () => {
+    const layout = (force = false) => {
       const cs = getComputedStyle(title);
       inkCss = cs.getPropertyValue('--hw-ink').trim() || inkCss;
       ink = parseHex(inkCss) ?? ink;
@@ -62,44 +64,54 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
       const rect = canvas.getBoundingClientRect();
       w = Math.max(1, Math.round(rect.width));
       h = Math.max(1, Math.round(rect.height));
+      if (!force && w === layoutWidth && h === layoutHeight) return false;
+      layoutWidth = w;
+      layoutHeight = h;
       dpr = Math.min(window.devicePixelRatio || 1, 2);
       canvas.width = Math.round(w * dpr);
       canvas.height = Math.round(h * dpr);
 
-      // The word is set once on a 1x mask, filling the heading's own width, vertically centred on its cap height.
-      const mask = document.createElement('canvas');
-      mask.width = w;
-      mask.height = h;
-      const m = mask.getContext('2d', { willReadFrequently: true });
-      if (!m) return;
+      // Measure at CSS size, then rasterize a tiny 2x-per-dot alpha mask. Reading a full hero-sized
+      // canvas here used to block the first frame on software-rendered and mid-range devices.
+      const measure = document.createElement('canvas').getContext('2d');
+      if (!measure) return false;
       const family = cs.fontFamily;
       const padX = Math.max(0, (w - title.getBoundingClientRect().width) / 2);
-      m.font = `800 100px ${family}`;
-      const measured = m.measureText(word).width;
+      measure.font = `800 100px ${family}`;
+      const measured = measure.measureText(word).width;
       const size = fitSize(measured, Math.max(1, w - padX * 2));
-      m.font = `800 ${size}px ${family}`;
-      const box = m.measureText(word);
+      measure.font = `800 ${size}px ${family}`;
+      const box = measure.measureText(word);
       const cap = box.actualBoundingBoxAscent || size * 0.72;
-      m.fillStyle = '#000';
-      m.fillText(word, (w - box.width) / 2, (h + cap) / 2);
-      const img = m.getImageData(0, 0, w, h).data;
-
       gap = size < 90 ? 5 : GAP;
       radius = Math.min(RADIUS, Math.max(28, cap * 0.6));
       const cols = Math.ceil(w / gap);
       const rows = Math.ceil(h / gap);
+      const sample = 2;
+      const mask = document.createElement('canvas');
+      mask.width = cols * sample;
+      mask.height = rows * sample;
+      const m = mask.getContext('2d', { willReadFrequently: true });
+      if (!m) return false;
+      m.scale(mask.width / w, mask.height / h);
+      m.font = `800 ${size}px ${family}`;
+      m.fillStyle = '#000';
+      m.fillText(word, (w - box.width) / 2, (h + cap) / 2);
+      m.resetTransform();
+      const img = m.getImageData(0, 0, mask.width, mask.height).data;
+
       const tmp: number[] = [];
       for (let gy = 0; gy < rows; gy++) {
         for (let gx = 0; gx < cols; gx++) {
           let sum = 0;
-          for (let sy = 0; sy < 3; sy++) {
-            for (let sx = 0; sx < 3; sx++) {
-              const x = Math.min(w - 1, Math.floor(gx * gap + ((sx + 0.5) * gap) / 3));
-              const y = Math.min(h - 1, Math.floor(gy * gap + ((sy + 0.5) * gap) / 3));
-              sum += img[(y * w + x) * 4 + 3] ?? 0;
+          for (let sy = 0; sy < sample; sy++) {
+            for (let sx = 0; sx < sample; sx++) {
+              const x = gx * sample + sx;
+              const y = gy * sample + sy;
+              sum += img[(y * mask.width + x) * 4 + 3] ?? 0;
             }
           }
-          const cov = sum / (9 * 255);
+          const cov = sum / (sample * sample * 255);
           if (cov < 0.06) continue;
           const hx = gx * gap + gap / 2;
           const hy = gy * gap + gap / 2;
@@ -108,6 +120,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
       }
       dots = new Float32Array(tmp);
       count = tmp.length / 7;
+      return true;
     };
 
     const draw = (now: number) => {
@@ -218,9 +231,10 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     canvas.addEventListener('pointerup', onUp);
     canvas.addEventListener('pointerdown', onDown);
     const ro = new ResizeObserver(() => {
-      layout();
-      draw(performance.now());
-      wake();
+      if (layout()) {
+        draw(performance.now());
+        wake();
+      }
     });
     ro.observe(title);
     const io = new IntersectionObserver(([e]) => {
@@ -231,7 +245,7 @@ export function HalftoneWordmark({ children, word }: { children?: ReactNode; wor
     let alive = true;
     void document.fonts?.ready.then(() => {
       if (!alive) return;
-      layout();
+      layout(true);
       draw(performance.now());
     });
     // Theme change flips the colour tokens; re-read them.
