@@ -74,6 +74,7 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
     { key: 'data-centers', to: '/data-centers', label: t('nav_data_centers'), art: 'data-centers', fresh: stats?.fresh.sections['data-centers'] },
     { key: 'ai-news', to: '/ai-news', label: t('intro_link_news'), art: 'ai-news', fresh: stats?.fresh.news },
   ];
+  const freshTotal = stats?.fresh.news ?? 0;
 
   return (
     <section ref={root} className="home-intro" aria-labelledby="home-title" data-live="true">
@@ -102,43 +103,85 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
         </span>
       </div>
       <div className="container hi-inner">
-        <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
-        <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
-          <HalftoneWordmark word="FRONTIER" />
-        </h1>
-        <p className="hi-body">{t('intro_body')}</p>
-        <nav className="hi-links" aria-label={t('intro_links')}>
-          {entries.map((e) => (
-            <a key={e.key} className="hi-link" href={href(e.to)} data-entry={e.key}>
-              <img className="hi-link-art" src={iconArt(e.art)} alt="" width={52} height={52} decoding="async" />
-              <span className="hi-link-label">{e.label}</span>
-              {e.fresh ? (
-                <span className="hi-link-count" title={t('intro_new_24h', { n: formatNumber(e.fresh, locale) })}>
-                  +{formatNumber(e.fresh, locale)}
-                  <span className="visually-hidden"> {t('intro_new_24h', { n: formatNumber(e.fresh, locale) })}</span>
+        <header className="hi-dashboard-head">
+          <p className="hi-overview">
+            {t('intro_overview')}
+            <span>{t('intro_updated_today')}</span>
+          </p>
+          <div className="hi-head-pills" aria-label={t('signal_status')}>
+            <span className="is-active">24H</span>
+            {stats?.sources != null && <span>{t('intro_sources', { n: formatNumber(stats.sources, locale) })}</span>}
+          </div>
+        </header>
+
+        <div className="hi-bento">
+          <div className="hi-primary-card">
+            <span className="hi-card-rim" aria-hidden="true" />
+            <p className="hi-kicker">[ {t('intro_kicker')} ]</p>
+            <h1 id="home-title" className="hi-title" lang="en" dir="ltr">
+              <HalftoneWordmark word="FRONTIER" />
+            </h1>
+            <p className="hi-body">{t('intro_body')}</p>
+            <div className="hi-wave" aria-hidden="true">
+              <i /><i /><i /><i />
+            </div>
+          </div>
+
+          <aside className="hi-coverage-card" aria-label={t('intro_fresh_24h')}>
+            <span className="hi-card-rim" aria-hidden="true" />
+            <header>
+              <h2>{t('intro_coverage')}</h2>
+              <span>24H</span>
+            </header>
+            <div className="hi-gauge">
+              <span className="hi-gauge-ticks" aria-hidden="true" />
+              <strong>{formatNumber(freshTotal, locale)}</strong>
+              <small>{t('intro_fresh_24h')}</small>
+            </div>
+            <ul>
+              {entries.map((entry) => (
+                <li key={entry.key} data-entry={entry.key}>
+                  <i aria-hidden="true" />
+                  <span>{entry.label}</span>
+                  <b>{formatNumber(entry.fresh ?? 0, locale)}</b>
+                </li>
+              ))}
+            </ul>
+          </aside>
+
+          <nav className="hi-links" aria-label={t('intro_links')}>
+            {entries.map((e) => (
+              <a key={e.key} className="hi-link" href={href(e.to)} data-entry={e.key}>
+                <img className="hi-link-art" src={iconArt(e.art)} alt="" width={52} height={52} decoding="async" />
+                <span className="hi-link-label">{e.label}</span>
+                <span className="hi-link-count" title={t('intro_new_24h', { n: formatNumber(e.fresh ?? 0, locale) })}>
+                  +{formatNumber(e.fresh ?? 0, locale)}
+                  <span className="visually-hidden"> {t('intro_new_24h', { n: formatNumber(e.fresh ?? 0, locale) })}</span>
                 </span>
-              ) : null}
-              <Icon name="arrow" size={14} directional />
-            </a>
-          ))}
-        </nav>
-        <ul className={`hi-status ${stats ? 'is-ready' : ''}`} aria-label={t('signal_status')}>
-          <li className="hi-live">
-            <i aria-hidden="true" />
-            {t('intro_live')}
-          </li>
-          {stats?.sources != null && <li>{t('intro_sources', { n: formatNumber(stats.sources, locale) })}</li>}
-          {stats?.lastSignal && data && (
-            <li>
-              {t('intro_last_signal')}: <b>{relativeTime(stats.lastSignal, data.now, locale)}</b>
+                <Icon name="arrow" size={14} directional />
+              </a>
+            ))}
+          </nav>
+
+          <ul className={`hi-status ${stats ? 'is-ready' : ''}`} aria-label={t('signal_status')}>
+            <li className="hi-live">
+              <i aria-hidden="true" />
+              {t('intro_live')}
             </li>
-          )}
-          {stats?.topCompany && (
-            <li>
-              {t('intro_top_mention')}: <b>{stats.topCompany.name}</b>
-            </li>
-          )}
-        </ul>
+            {stats?.lastSignal && data && (
+              <li>
+                <span>{t('intro_last_signal')}</span>
+                <b>{relativeTime(stats.lastSignal, data.now, locale)}</b>
+              </li>
+            )}
+            {stats?.topCompany && (
+              <li>
+                <span>{t('intro_top_mention')}</span>
+                <b>{stats.topCompany.name}</b>
+              </li>
+            )}
+          </ul>
+        </div>
         <p className="hi-meta">{t('intro_meta')}</p>
       </div>
       <div className="container hi-signals">

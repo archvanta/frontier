@@ -51,6 +51,10 @@ const en = {
   feat_nopaid: 'No paid AI APIs',
   search_shortcut: 'Press / to search',
   intro_kicker: 'News from the frontier of technology',
+  intro_overview: 'Overview',
+  intro_updated_today: 'Updated today',
+  intro_coverage: 'Coverage',
+  intro_fresh_24h: 'Fresh in 24 hours',
   intro_body:
     'The latest in AI, chips and data centers. Independent sources, clear rankings, in English and Persian.',
   intro_meta: 'Updated every hour · English & Persian · Free, no ads',
@@ -284,6 +288,10 @@ const fa: Record<MessageKey, string> = {
   feat_nopaid: 'بدون API پولی هوش مصنوعی',
   search_shortcut: 'برای جستجو / را بزنید',
   intro_kicker: 'خبر از مرز فناوری',
+  intro_overview: 'نمای کلی',
+  intro_updated_today: 'امروز به‌روزرسانی شده',
+  intro_coverage: 'پوشش خبری',
+  intro_fresh_24h: 'خبر تازه در ۲۴ ساعت',
   intro_body:
     'تازه‌ترین خبرهای هوش مصنوعی، تراشه و مراکز داده؛ از منابع مستقل، با رتبه‌بندی شفاف، به فارسی و انگلیسی.',
   intro_meta: 'به‌روزرسانی هر ساعت · فارسی و انگلیسی · رایگان و بدون تبلیغ',
