@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-27T06:00:00Z",
+ "asOf": "2026-10-27T11:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,65 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-26T06:00:00Z",
-   "to": "2026-10-27T06:00:00Z",
+   "from": "2026-10-26T11:00:00Z",
+   "to": "2026-10-27T11:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "2e623b5ef9a8dee6",
-      "url": "https://www.youtube.com/watch?v=inrYeej3Big",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "excerpt": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps businesses create visuals with readable text and precise infographics, while Codex helps Higgsfield’s…",
+      "id": "7cf337f0598468a3",
+      "url": "https://www.theguardian.com/us-news/2026/oct/27/ai-disinformation-social-media-midterm-elections",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI-driven disinformation running rampant on social media before US midterms, experts warn",
+      "excerpt": "Social media companies including Meta have pulled back on efforts to protect voters from election-meddling lies Social media feeds are awash with an unprecedented flood of AI-driven disinformation ahead of November’s US midterm elections, according to experts, who warn many posts are likely “slipping through the cracks”. As tens of millions of Americans prepare to cast their vote, social media…",
       "lang": "en",
-      "publishedAt": "2026-10-26T22:03:06Z",
+      "publishedAt": "2026-10-27T10:00:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-10-27T11:04:49Z",
+      "day": "2026-10-27",
+      "category": "policy",
+      "tags": [
+       "us midterm elections 2026",
+       "us politics",
+       "digital media",
+       "us news",
+       "social media",
+       "media"
       ],
-      "brand": "openai",
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/inrYeej3Big/hqdefault.jpg",
+       "url": "https://i.guim.co.uk/img/media/d68f11cd3f15233005d45b70d00a9d9862b743ac/433_0_4332_3466/master/4332.jpg?width=700&quality=85&auto=format&fit=max&s=cae2b9aeeedcef067dae8bce17b6df98",
+       "credit": "Photograph: Heather Khalifa/AP",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "inrYeej3Big",
-       "url": "https://www.youtube.com/watch?v=inrYeej3Big"
-      },
-      "eventId": "2e623b5ef9a8dee6",
+      "eventId": "7cf337f0598468a3",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 64.1,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 63.2,
-        "topic": 100.0,
-        "novelty": 87.5
+        "recency": 94.4,
+        "topic": 85.0,
+        "novelty": 84.6
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
-        "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
+        "title": "اطلاعات غلط مبتنی بر هوش مصنوعی که در رسانه های اجتماعی قبل از اواسط دوره های ایالات متحده رایج است، کارشناسان هشدار می دهند",
+        "excerpt": "شرکت های رسانه های اجتماعی از جمله Meta در تلاش برای محافظت از رای دهندگان در برابر دخالت های انتخاباتی عقب کشیده اند، فید رسانه های اجتماعی با سیل بی سابقه ای از اطلاعات غلط مبتنی بر هوش مصنوعی پیش از انتخابات میان دوره ای ایالات متحده، با توجه به کارشناسان، هشدار می دهد که بسیاری از پست ها احتمالا \"از طریق ترک ها\" از بین می روند. از آنجایی که ده ها میلیون آمریکایی برای رای دادن آماده می شوند، رسانه های اجتماعی...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
+        "at": "2026-10-27T11:04:49Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -101,15 +104,15 @@
       "eventId": "250e5d8f302445e7",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 63.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.0,
+        "recency": 47.2,
         "topic": 100.0,
         "novelty": 88.2
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -130,56 +133,115 @@
     },
     {
      "article": {
-      "id": "291dd7fdf89aab0e",
-      "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Chinese markets lose trillions as race for AI supremacy with US takes its toll",
-      "excerpt": "Lack of profits and the threat posed by western countries are raising concern about the sustainability of Beijing’s AI boom Trillions of dollars have been wiped from China’s stock markets in recent months amid increasing anxiety about the future of artificial intelligence, as Beijing races against the United States for dominance in the sector. The STAR 50 Index, which tracks technology and…",
+      "id": "2e623b5ef9a8dee6",
+      "url": "https://www.youtube.com/watch?v=inrYeej3Big",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "excerpt": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps businesses create visuals with readable text and precise infographics, while Codex helps Higgsfield’s…",
       "lang": "en",
-      "publishedAt": "2026-10-27T04:42:50Z",
+      "publishedAt": "2026-10-26T22:03:06Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-27T05:42:03Z",
-      "day": "2026-10-27",
-      "category": "policy",
-      "tags": [
-       "china",
-       "ai (artificial intelligence)",
-       "business",
-       "stock markets",
-       "asia pacific"
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/3e7e3e603f728fb5136070ae808843aae4d175c6/504_0_3780_3024/master/3780.jpg?width=700&quality=85&auto=format&fit=max&s=149d150cb6f70f57db190ca3521ec535",
-       "credit": "Photograph: China News Service/Getty Images",
+       "url": "https://i2.ytimg.com/vi/inrYeej3Big/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "291dd7fdf89aab0e",
+      "video": {
+       "provider": "youtube",
+       "id": "inrYeej3Big",
+       "url": "https://www.youtube.com/watch?v=inrYeej3Big"
+      },
+      "eventId": "2e623b5ef9a8dee6",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 63.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
-        "topic": 85.0,
-        "novelty": 91.7
+        "recency": 47.3,
+        "topic": 100.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "بازارهای چینی تریلیون ها دلار را به عنوان مسابقه برای برتری AI با ایالات متحده از دست می دهند",
-        "excerpt": "فقدان سود و تهدید کشورهای غربی در حال افزایش نگرانی در مورد پایداری رشد هوش مصنوعی پکن از بازارهای سهام چین در ماه های اخیر با افزایش اضطراب در مورد آینده هوش مصنوعی، به عنوان نژاد پکن در برابر ایالات متحده برای تسلط در این بخش است. شاخص STAR 50، که تکنولوژی را ردیابی می کند و ...",
+        "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
+        "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T05:42:03Z"
+        "at": "2026-10-27T00:07:10Z"
        }
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "02c774ec5299e23a",
+      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
+      "excerpt": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T11:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T11:04:49Z",
+      "day": "2026-10-27",
+      "category": "hardware",
+      "tags": [
+       "startups",
+       "ai",
+       "accel",
+       "nvidia",
+       "exclusive"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "02c774ec5299e23a",
+      "related": [],
+      "score": {
+       "total": 63.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-27T11:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia به استارت آپ هندی کمک می کند تا شرکت ها مدل های AI را با GPU های کمتر اداره کنند",
+        "excerpt": "SimpliSmart می گوید که نرخ درآمد سالانه آن در شش ماه 14 برابر شده است و حسابداری ایالات متحده بیش از نیمی از درآمد خود را دارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T11:04:49Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -189,113 +251,53 @@
     },
     {
      "article": {
-      "id": "f8e85120f2e2c293",
-      "url": "https://www.theguardian.com/technology/2026/oct/26/microsoft-buyout-offers-ai-cuts",
+      "id": "d4c16ff94bb823ac",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Microsoft to reportedly offer buyouts to 60,000 employees in latest cuts",
-      "excerpt": "Tech company offers buyouts in an effort to reduce costs amid the rising use of AI, according to reports Microsoft announced that it would offer buyouts to 60,000 employees in an effort to reduce costs amid the rising use of artificial intelligence, according to reports, the latest example of how AI is reshaping tech companies and the greater workforce. This is the latest of several trimmings…",
+      "title": "UK government met 137 businesses over AI datacentres – but no environmental groups",
+      "excerpt": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on Corruption said a “considerable revolving door” shaped the government’s development of “AI growth…",
       "lang": "en",
-      "publishedAt": "2026-10-26T18:44:31Z",
+      "publishedAt": "2026-10-27T07:00:04Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
+      "fetchedAt": "2026-10-27T11:04:49Z",
+      "day": "2026-10-27",
       "category": "policy",
       "tags": [
-       "microsoft",
-       "business",
-       "technology",
+       "datacentres - uk",
+       "planning policy",
        "ai (artificial intelligence)",
-       "job losses",
-       "technology sector"
+       "computing",
+       "freedom of information",
+       "politics"
       ],
-      "entities": [
-       "microsoft"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/f36458784b93fd8a4087d457a37e08ed2b9790d0/665_0_3331_2666/master/3331.jpg?width=700&quality=85&auto=format&fit=max&s=fefcaf331421015235341e40a3ce4e04",
-       "credit": "Photograph: David Paul Morris/Bloomberg via Getty Images",
+       "url": "https://i.guim.co.uk/img/media/d7d40991e7793995807a7196e5227dd047cfc204/420_0_3413_2732/master/3413.jpg?width=700&quality=85&auto=format&fit=max&s=f6f2b9edcbd8fe8213f0e6ba68a056d1",
+       "credit": "Photograph: David Levene/The Guardian",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "b8f740314eab2229",
-      "related": [
-       "b8f740314eab2229"
-      ],
-      "score": {
-       "total": 64.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 52.2,
-        "topic": 85.0,
-        "novelty": 42.9
-       },
-       "asOf": "2026-10-27T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مایکروسافت گزارش می دهد که خرید را به ۶۰ هزار کارمند در آخرین کاهش ها ارائه می دهد",
-        "excerpt": "شرکت فناوری ارائه می دهد خرید در تلاش برای کاهش هزینه ها در میان افزایش استفاده از AI، با توجه به گزارش مایکروسافت اعلام کرد که آن را به 600،000 کارمند در تلاش برای کاهش هزینه در میان افزایش استفاده از هوش مصنوعی، با توجه به گزارش، آخرین نمونه از چگونگی تغییر هوش مصنوعی شرکت های فناوری و نیروی کار بیشتر است. این آخرین سه گانه است ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9af0a1a0b3874666",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "excerpt": "An AI model said it wouldn’t use any tools, then tried to send something to a server in Beijing anyway, and while researchers say it’s probably a training quirk and not espionage, the whole thing has people asking how much to trust free Chinese AI.",
-      "lang": "en",
-      "publishedAt": "2026-10-27T01:12:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T05:42:03Z",
-      "day": "2026-10-27",
-      "category": "models",
-      "tags": [
-       "ai",
-       "tc"
-      ],
-      "entities": [
-       "alibaba"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "9af0a1a0b3874666",
+      "eventId": "d4c16ff94bb823ac",
       "related": [],
       "score": {
-       "total": 63.3,
+       "total": 61.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 75.8,
-        "topic": 100.0,
-        "novelty": 91.7
+        "recency": 79.4,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Cohere می گوید مدل Qwen Alibaba سعی کرد یک فایل را به پکن ارسال کند",
-        "excerpt": "یک مدل هوش مصنوعی می گوید که از هیچ ابزاری استفاده نمی کند، سپس سعی کرد چیزی را به یک سرور در پکن ارسال کند و در حالی که محققان می گویند احتمالا یک آموزش و نه جاسوسی است، همه چیز افرادی را دارد که می خواهند به هوش مصنوعی آزاد چینی اعتماد کنند.",
+        "title": "دولت انگلستان با 137 کسب و کار در زمینه داده های AI ملاقات کرد اما هیچ گروه زیست محیطی ندارد",
+        "excerpt": "تحقیقات نشان می دهد که ده ها نفر از وزرا و کارکنان دولت به نقش های AI منتقل شده اند، زیرا دولت برنامه های توسعه داده محور را توسعه داده است سیاست بریتانیا در زمینه دیتامحور و AI بدون هیچ گونه جلسه ای با گروه های زیست محیطی توسعه یافته است، تحقیقات نشان داده است. سازمان غیر انتفاعی در مورد فساد گفت: \"درهای در حال چرخش قابل ملاحظه\" توسعه دولت \"رشد هوش مصنوعی\" را شکل داد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T05:42:03Z"
+        "at": "2026-10-27T11:04:49Z"
        }
       }
      },
@@ -309,59 +311,60 @@
     },
     {
      "article": {
-      "id": "cc1ea9dac4db855c",
-      "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "AI in France: From NVIDIA’s First Chip to AI Factories | NVIDIA",
-      "excerpt": "France helped bring NVIDIA’s first chip to life. More than 30 years later, its developers, researchers, and companies are using NVIDIA accelerated computing to advance industrial design, healthcare, and open AI models—and building AI factories to support what comes next. 🔗 European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations →…",
+      "id": "415aa97d276f6d69",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Data center backlash is uniting America",
+      "excerpt": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in many congressional",
       "lang": "en",
-      "publishedAt": "2026-10-26T23:43:23Z",
+      "publishedAt": "2026-10-27T10:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
+      "fetchedAt": "2026-10-27T11:04:49Z",
+      "day": "2026-10-27",
       "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
+      "tags": [
+       "ai",
+       "energy",
+       "policy",
+       "politics",
+       "regulation",
+       "science"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/dmbT2IHpOKU/hqdefault.jpg",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_ELECTIONS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Election signs with binary and glitch effects.",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "dmbT2IHpOKU",
-       "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU"
-      },
-      "eventId": "cc1ea9dac4db855c",
+      "eventId": "415aa97d276f6d69",
       "related": [],
       "score": {
-       "total": 62.4,
+       "total": 61.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 69.6,
+        "recency": 94.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "هوش مصنوعی در فرانسه: از اولین چیپ NVIDIA گرفته تا فاکتورهای AI",
-        "excerpt": "فرانسه به اولین تراشه NVIDIA در زندگی کمک کرد. بیش از 30 سال بعد، توسعه دهندگان، محققان و شرکت ها از محاسبات شتاب یافته NVIDIA برای پیشبرد طراحی صنعتی، مراقبت های بهداشتی و مدل های AI باز استفاده می کنند و کارخانه های AI را برای حمایت از آنچه که در آینده می آید، ایجاد می کنند.",
+        "title": "Backlash مرکز داده ها آمریکا را متحد می کند",
+        "excerpt": "اگر یک مسئله وجود داشته باشد که به نظر می رسد در سال ۲۰۲۶ همه نوع رای دهندگان را فعال می کند، مراکز داده است. ساخت سریع این تاسیسات عظیم ذخیره سازی سرور - و ساخت و ساز و هزینه های زیربنایی که با آنها می آیند - باعث مخالفت محلی در جوامع سراسر کشور شده و تبدیل به یک مسئله مهم در بسیاری از کنگره شده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
+        "at": "2026-10-27T11:04:49Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -369,10 +372,65 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-20T06:00:00Z",
-   "to": "2026-10-27T06:00:00Z",
+   "from": "2026-10-20T11:00:00Z",
+   "to": "2026-10-27T11:00:00Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "250e5d8f302445e7",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "250e5d8f302445e7",
+      "related": [],
+      "score": {
+       "total": 71.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.2,
+        "topic": 100.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-10-27T11:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
+        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T00:07:10Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "2e623b5ef9a8dee6",
@@ -405,75 +463,20 @@
       "eventId": "2e623b5ef9a8dee6",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 88.3,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
         "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "250e5d8f302445e7",
-      "related": [],
-      "score": {
-       "total": 72.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.6,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-27T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T00:07:10Z"
        }
@@ -524,15 +527,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.4,
+        "recency": 83.3,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -585,15 +588,15 @@
       "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.4,
+        "recency": 83.3,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -640,15 +643,15 @@
       "eventId": "f16aefe89a6e3f3b",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.1,
+        "recency": 82.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -700,15 +703,15 @@
       "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.0,
+        "recency": 85.7,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -759,15 +762,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 89.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -818,15 +821,15 @@
       "eventId": "8ed93bec790144d5",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 84.9,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -848,8 +851,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-27T06:00:00Z",
-   "to": "2026-10-27T06:00:00Z",
+   "from": "2026-09-27T11:00:00Z",
+   "to": "2026-10-27T11:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -883,15 +886,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 74.2,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.5,
+        "recency": 68.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -942,15 +945,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 67.1,
+        "recency": 66.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1007,15 +1010,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 96.0,
+        "recency": 94.7,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1031,61 +1034,6 @@
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "250e5d8f302445e7",
-      "related": [],
-      "score": {
-       "total": 73.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.7,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-27T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1125,15 +1073,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 68.7,
+        "recency": 67.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1144,11 +1092,66 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "250e5d8f302445e7",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "250e5d8f302445e7",
+      "related": [],
+      "score": {
+       "total": 73.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.3,
+        "topic": 100.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-10-27T11:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
+        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T00:07:10Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1186,15 +1189,15 @@
       "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1246,15 +1249,15 @@
       "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 95.5,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1266,65 +1269,6 @@
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8ed93bec790144d5",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T17:56:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20483-1-1.png",
-       "alt": "Solution architecture: SQS FIFO queue triggers AWS Lambda, which starts a Step Functions state machine with an Amazon DynamoDB semaphore for concurrency control. The state machine launches a 13-step S",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "8ed93bec790144d5",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.6,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-27T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرخه دید کامپیوتر در سراسر ناوگان در لبه با SageMaker SDK v3",
-        "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1364,20 +1308,79 @@
       "eventId": "7b40604b474ead4d",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 95.7,
         "topic": 70.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه آئودی تولید را با Twin های دیجیتال و AI فیزیکی بازسازی می کند",
         "excerpt": "تیم های آئودی در حال تولید با دوقلوهای دیجیتال و هوش مصنوعی فیزیکی هستند. ببینید که چگونه تیم های تولیدی دوقلوهای دیجیتال را در DELMIA با استفاده از LEO، یک سیستم مجازی و دانش پایه از پلت فرم 3DEXPERIENCE ایجاد می کنند. با کتابخانه های NVIDIA Omniverse که ادراک و شبیه سازی حرکت را قادر می سازد، این دوقلوهای دیجیتال به زمینه آموزش مجازی برای انسان های متحرک تبدیل می شوند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-26T20:37:31Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8ed93bec790144d5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
+      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T17:56:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-26T20:37:31Z",
+      "day": "2026-10-26",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20483-1-1.png",
+       "alt": "Solution architecture: SQS FIFO queue triggers AWS Lambda, which starts a Step Functions state machine with an Amazon DynamoDB semaphore for concurrency control. The state machine launches a 13-step S",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "8ed93bec790144d5",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.2,
+        "topic": 65.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-27T11:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرخه دید کامپیوتر در سراسر ناوگان در لبه با SageMaker SDK v3",
+        "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-26T20:37:31Z"
        }
@@ -1423,15 +1426,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 96.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T06:00:00Z"
+       "asOf": "2026-10-27T11:00:00Z"
       },
       "tr": {
        "fa": {
