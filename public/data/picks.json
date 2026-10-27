@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-27T16:51:22Z",
+ "asOf": "2026-10-27T18:55:35Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,69 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-26T16:51:22Z",
-   "to": "2026-10-27T16:51:22Z",
+   "from": "2026-10-26T18:55:35Z",
+   "to": "2026-10-27T18:55:35Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "c8171476944a3a87",
+      "url": "https://www.youtube.com/watch?v=C2vdw5GSTQo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Sotira Gives Unsold Inventory a Second Life with Codex",
+      "excerpt": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+      "lang": "en",
+      "publishedAt": "2026-10-27T15:02:46Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T16:52:51Z",
+      "day": "2026-10-27",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/C2vdw5GSTQo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "C2vdw5GSTQo",
+       "url": "https://www.youtube.com/watch?v=C2vdw5GSTQo"
+      },
+      "eventId": "c8171476944a3a87",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 79.9,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-27T18:55:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه Sotira یک زندگی دوم با Codex ارائه می دهد",
+        "excerpt": "فنی بودن دلیلی برای ساخت نیست.» در Sotira، Amrita Bhasin از Codex برای اتصال محصولات قدیمی با افرادی که به آنها نیاز دارند، استفاده می کند و به حفظ میلیون ها پوند موجودی از زباله های زمینی کمک می کند. دیدار با Amrita، یکی از سازندگان در Codex Originals. ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T16:52:51Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "8a965d9f9cf7fe1a",
@@ -48,79 +107,20 @@
        "5ef94984dce414f6"
       ],
       "score": {
-       "total": 72.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 84.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
         "title": "Genie 4: نسل جدیدی از شبیه سازی جهان",
         "excerpt": "دیدار با Genie 4، Google DeepMind واقع بینانه ترین و تعاملی ترین مدل جهان است. ساخته شده بر روی مدل های Gemini ما، Genie 4 به شما اجازه می دهد تا در زمان واقعی وارد دنیای پویا شوید، صحنه ها را با زبان طبیعی هدایت کنید و ببینید چه اتفاقی می افتد: چگونه جهان پاسخ می دهد، چگونه به نظر می رسد و چگونه مردم در آن حرکت می کنند، واکنش می دهند و صحبت می کنند. ما شروع به انتشار Genie 4 به عنوان یک پیش نمایش تحقیقاتی برای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c8171476944a3a87",
-      "url": "https://www.youtube.com/watch?v=C2vdw5GSTQo",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Sotira Gives Unsold Inventory a Second Life with Codex",
-      "excerpt": "“Not being technical is not a reason to not build.” At Sotira, Amrita Bhasin uses Codex to connect unsold products with people who need them, helping keep millions of pounds of inventory out of landfills. Meet Amrita, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
-      "lang": "en",
-      "publishedAt": "2026-10-27T15:02:46Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
-      "day": "2026-10-27",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/C2vdw5GSTQo/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "C2vdw5GSTQo",
-       "url": "https://www.youtube.com/watch?v=C2vdw5GSTQo"
-      },
-      "eventId": "c8171476944a3a87",
-      "related": [],
-      "score": {
-       "total": 72.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.1,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-27T16:51:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه Sotira یک زندگی دوم با Codex ارائه می دهد",
-        "excerpt": "فنی بودن دلیلی برای ساخت نیست.» در Sotira، Amrita Bhasin از Codex برای اتصال محصولات قدیمی با افرادی که به آنها نیاز دارند، استفاده می کند و به حفظ میلیون ها پوند موجودی از زباله های زمینی کمک می کند. دیدار با Amrita، یکی از سازندگان در Codex Originals. ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
        }
@@ -166,15 +166,15 @@
       "eventId": "92074da747c4f4b9",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.2,
+        "recency": 80.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -186,6 +186,118 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "feb4caa835f163bd",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "excerpt": "Education Innovation",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T19:28:46Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "education innovation",
+       "general science",
+       "machine intelligence",
+       "natural language processing"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "feb4caa835f163bd",
+      "related": [],
+      "score": {
+       "total": 69.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.5,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-27T18:55:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چارچوب خواب: یک راه جدید برای LLM ها برای حفظ دانش در یادگیری مداوم",
+        "excerpt": "آموزش نوآوری",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T19:28:46Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "db98bf59a6c7e420",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build specialized multimodal models with LFM3",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:16:52Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T19:28:46Z",
+      "day": "2026-10-27",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
+      },
+      "eventId": "db98bf59a6c7e420",
+      "related": [],
+      "score": {
+       "total": 68.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.9,
+        "topic": 75.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-10-27T18:55:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T19:28:46Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -220,138 +332,19 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 85.5,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
         "title": "آیا می توانیم به LLM ها اعتماد کنیم تا قضاوت کنیم که آیا یک ایده تحقیق جدید است؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6c7bcedbd2e289de",
-      "url": "https://www.youtube.com/shorts/7cJlIJpKBW4",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Ten years. A Millionfold Leap in AI.",
-      "excerpt": "A millionfold improvement in AI performance in ten years opens up new possibilities for science, engineering, and everyday life. Behind that progress is NVIDIA's extreme co-design: we advance chips, systems, software, and algorithms together so scientists and engineers can put AI to work on bigger challenges.",
-      "lang": "en",
-      "publishedAt": "2026-10-27T16:36:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
-      "day": "2026-10-27",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/7cJlIJpKBW4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "7cJlIJpKBW4",
-       "url": "https://www.youtube.com/watch?v=7cJlIJpKBW4"
-      },
-      "eventId": "6c7bcedbd2e289de",
-      "related": [],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 70.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-27T16:51:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ده سال جهش میلیونی در AI",
-        "excerpt": "بهبود میلیون ها برابری در عملکرد هوش مصنوعی در ده سال فرصت های جدیدی را برای علم، مهندسی و زندگی روزمره باز می کند. پشت این پیشرفت، طراحی مشترک شدید NVIDIA است: ما تراشه ها، سیستم ها، نرم افزار و الگوریتم ها را با هم پیشبرد می کنیم تا دانشمندان و مهندسان بتوانند AI را برای کار بر روی چالش های بزرگتر قرار دهند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4a299d1e9f3d5424",
-      "url": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
-      "excerpt": "There are 57 million people worldwide living with dementia today. For the researchers working to help them, the obstacle isn’t a lack of effort — it’s too much data, too few experts to synthesize it and a pace of discovery that can’t keep up with the disease. The Consortium for Biomedical Research and AI in",
-      "lang": "en",
-      "publishedAt": "2026-10-27T15:00:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
-      "day": "2026-10-27",
-      "category": "research",
-      "tags": [
-       "ai",
-       "agentic ai",
-       "ai for good",
-       "healthcare and life sciences",
-       "open source"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/cbrain-nvidia-1.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "4a299d1e9f3d5424",
-      "related": [],
-      "score": {
-       "total": 69.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.9,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-27T16:51:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه AI در حال تغییر است تهدید کشف برای میلیون ها زندگی با Dementia",
-        "excerpt": "امروز 57 میلیون نفر در سراسر جهان با زوال عقل زندگی می کنند. برای محققانی که برای کمک به آنها تلاش می کنند، مانع کمبود تلاش نیست - داده های بسیار زیاد است، کارشناسان بسیار کمی برای سنتز آن و سرعت کشف است که نمی تواند با این بیماری ادامه یابد. کنسرسیوم تحقیقات زیست پزشکی و AI در",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
        }
@@ -368,8 +361,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-20T16:51:22Z",
-   "to": "2026-10-27T16:51:22Z",
+   "from": "2026-10-20T18:55:35Z",
+   "to": "2026-10-27T18:55:35Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +397,15 @@
       "eventId": "92074da747c4f4b9",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -463,15 +456,15 @@
       "eventId": "c8171476944a3a87",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -524,15 +517,15 @@
        "5ef94984dce414f6"
       ],
       "score": {
-       "total": 73.0,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 97.2,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -544,6 +537,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "feb4caa835f163bd",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "excerpt": "Education Innovation",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T19:28:46Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "education innovation",
+       "general science",
+       "machine intelligence",
+       "natural language processing"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "feb4caa835f163bd",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-27T18:55:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چارچوب خواب: یک راه جدید برای LLM ها برای حفظ دانش در یادگیری مداوم",
+        "excerpt": "آموزش نوآوری",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T19:28:46Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -578,15 +630,15 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 97.4,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -596,7 +648,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -637,15 +689,15 @@
       "eventId": "4a299d1e9f3d5424",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -656,7 +708,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -696,15 +748,15 @@
       "eventId": "6c7bcedbd2e289de",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 97.8,
         "topic": 70.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -715,7 +767,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -725,117 +777,46 @@
     },
     {
      "article": {
-      "id": "b8f740314eab2229",
-      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Microsoft offers buyouts to 60,000 employees",
-      "excerpt": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another",
+      "id": "db98bf59a6c7e420",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build specialized multimodal models with LFM3",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-26T15:58:27Z",
+      "publishedAt": "2026-10-27T17:16:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "products",
-      "tags": [
-       "ai",
-       "labor",
-       "microsoft",
-       "news",
-       "tech",
-       "windows"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Vector illustration of the Microsoft logo.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b8f740314eab2229",
-      "related": [
-       "f8e85120f2e2c293"
-      ],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 78.7,
-        "topic": 65.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-27T16:51:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مایکروسافت پیشنهاد خرید را به 60 هزار کارمند ارائه می دهد",
-        "excerpt": "مایکروسافت پیشنهاد خرید داوطلبانه را تا ۶۰ هزار کارمند در سراسر ایالات متحده، انگلستان، کانادا و هند ارائه می دهد. در یک پیام به کارکنان، مدیر ارشد مایکروسافت، امی کولمن می نویسد که این به کارکنان \"فرصت برای ترک مایکروسافت با حمایت مالی و منابع برنامه ریزی شغلی\" را می دهد، زیرا شرکت به نظر می رسد کارکنان را بدون دیگری تجهیز می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f876514fdaae24f4",
-      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
-      "excerpt": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years →…",
-      "lang": "en",
-      "publishedAt": "2026-10-27T13:00:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T13:20:04Z",
+      "fetchedAt": "2026-10-27T19:28:46Z",
       "day": "2026-10-27",
-      "category": "research",
+      "category": "open-source",
       "tags": [],
       "entities": [
-       "nvidia"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/XWYMvOFMacA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "XWYMvOFMacA",
-       "url": "https://www.youtube.com/watch?v=XWYMvOFMacA"
-      },
-      "eventId": "f876514fdaae24f4",
+      "eventId": "db98bf59a6c7e420",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
-        "topic": 80.0,
-        "novelty": 77.8
+        "recency": 98.4,
+        "topic": 75.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
-        "title": "هوش مصنوعی در انگلستان: کشف مواد مخدر، روباتیک و عوامل هوش مصنوعی",
-        "excerpt": "از کشف مواد مخدر به رباتیک، صدا و ویدیو، توسعه دهندگان، محققان و شرکت های انگلستان در حال پیشرفت AI با محاسبات شتاب دهنده NVIDIA هستند. ما کار خود را جشن می گیریم و کارخانه های جدید AI برای قدرت آنچه که در آینده می آید ساخته شده اند. 🔗 NVIDIA متعهد به ۲۵۰ میلیون دلار برای پیشبرد تحقیقات ایمنی و امنیت نمایندگی بریتانیا در پنج سال آینده است.",
+        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T13:20:04Z"
+        "at": "2026-10-27T19:28:46Z"
        }
       }
      },
@@ -850,8 +831,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-27T16:51:22Z",
-   "to": "2026-10-27T16:51:22Z",
+   "from": "2026-09-27T18:55:35Z",
+   "to": "2026-10-27T18:55:35Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -886,15 +867,15 @@
       "eventId": "c8171476944a3a87",
       "related": [],
       "score": {
-       "total": 74.1,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.9,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -945,15 +926,15 @@
       "eventId": "92074da747c4f4b9",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1004,15 +985,15 @@
       "eventId": "04d8442205246769",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.8,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1065,15 +1046,15 @@
        "5ef94984dce414f6"
       ],
       "score": {
-       "total": 73.1,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.2,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1129,15 +1110,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.1,
+        "recency": 92.5,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1153,6 +1134,65 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "feb4caa835f163bd",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "excerpt": "Education Innovation",
+      "lang": "en",
+      "publishedAt": "2026-10-27T17:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T19:28:46Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "education innovation",
+       "general science",
+       "machine intelligence",
+       "natural language processing"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "feb4caa835f163bd",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-27T18:55:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چارچوب خواب: یک راه جدید برای LLM ها برای حفظ دانش در یادگیری مداوم",
+        "excerpt": "آموزش نوآوری",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T19:28:46Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1184,15 +1224,15 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.2,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1202,7 +1242,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1243,15 +1283,15 @@
       "eventId": "4a299d1e9f3d5424",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.9,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1262,7 +1302,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1302,15 +1342,15 @@
       "eventId": "6c7bcedbd2e289de",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.3,
         "topic": 70.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
@@ -1318,65 +1358,6 @@
         "excerpt": "بهبود میلیون ها برابری در عملکرد هوش مصنوعی در ده سال فرصت های جدیدی را برای علم، مهندسی و زندگی روزمره باز می کند. پشت این پیشرفت، طراحی مشترک شدید NVIDIA است: ما تراشه ها، سیستم ها، نرم افزار و الگوریتم ها را با هم پیشبرد می کنیم تا دانشمندان و مهندسان بتوانند AI را برای کار بر روی چالش های بزرگتر قرار دهند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f876514fdaae24f4",
-      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
-      "excerpt": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years →…",
-      "lang": "en",
-      "publishedAt": "2026-10-27T13:00:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T13:20:04Z",
-      "day": "2026-10-27",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i1.ytimg.com/vi/XWYMvOFMacA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "XWYMvOFMacA",
-       "url": "https://www.youtube.com/watch?v=XWYMvOFMacA"
-      },
-      "eventId": "f876514fdaae24f4",
-      "related": [],
-      "score": {
-       "total": 69.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.9,
-        "topic": 80.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-10-27T16:51:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هوش مصنوعی در انگلستان: کشف مواد مخدر، روباتیک و عوامل هوش مصنوعی",
-        "excerpt": "از کشف مواد مخدر به رباتیک، صدا و ویدیو، توسعه دهندگان، محققان و شرکت های انگلستان در حال پیشرفت AI با محاسبات شتاب دهنده NVIDIA هستند. ما کار خود را جشن می گیریم و کارخانه های جدید AI برای قدرت آنچه که در آینده می آید ساخته شده اند. 🔗 NVIDIA متعهد به ۲۵۰ میلیون دلار برای پیشبرد تحقیقات ایمنی و امنیت نمایندگی بریتانیا در پنج سال آینده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T13:20:04Z"
        }
       }
      },
@@ -1390,53 +1371,46 @@
     },
     {
      "article": {
-      "id": "f3b6de314f91f101",
-      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "At New York Climate Week 2026, MIT connects with a global network",
-      "excerpt": "A cross-section of the MIT community convened discussions on topics ranging from data centers and super pollutants to agriculture and education.",
+      "id": "db98bf59a6c7e420",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build specialized multimodal models with LFM3",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-26T19:00:00Z",
+      "publishedAt": "2026-10-27T17:16:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "hardware",
-      "tags": [
-       "special events and guest speakers",
-       "climate change",
-       "energy",
-       "environment",
-       "policy",
-       "pollution"
+      "fetchedAt": "2026-10-27T19:28:46Z",
+      "day": "2026-10-27",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ny-climate-week.jpg?itok=c2Sg2eC6",
-       "credit": "Photo: Justin Coleman",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
       },
-      "eventId": "f3b6de314f91f101",
+      "eventId": "db98bf59a6c7e420",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 70.0,
-        "novelty": 90.9
+        "recency": 99.5,
+        "topic": 75.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-10-27T16:51:22Z"
+       "asOf": "2026-10-27T18:55:35Z"
       },
       "tr": {
        "fa": {
-        "title": "در هفته اقلیمی نیویورک 2026، MIT با یک شبکه جهانی ارتباط برقرار می کند",
-        "excerpt": "یک بخش متقابل از جامعه MIT بحث در مورد موضوعات اعم از مراکز داده و آلاینده های فوق العاده به کشاورزی و آموزش و پرورش.",
+        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
+        "at": "2026-10-27T19:28:46Z"
        }
       }
      },
