@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-27T11:00:00Z",
+ "asOf": "2026-10-27T13:01:46Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,304 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-26T11:00:00Z",
-   "to": "2026-10-27T11:00:00Z",
+   "from": "2026-10-26T13:01:46Z",
+   "to": "2026-10-27T13:01:46Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "b86ae29757fe79e3",
+      "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
+      "excerpt": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T12:45:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/0qb0FQo3M5c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "0qb0FQo3M5c",
+       "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c"
+      },
+      "eventId": "b86ae29757fe79e3",
+      "related": [],
+      "score": {
+       "total": 73.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا امنیت سایبری به هوش مصنوعی نیاز دارد؟ Jeetu Patel",
+        "excerpt": "این یک پیش نیاز برای ایمن ماندن است که شما باید از AI استفاده کنید.» مدافعان نیاز به کنترل های امنیتی دارند که می توانند به سرعت سازگار شوند. Jeetu Patel، رئیس سیسکو، توضیح می دهد که چرا OpenAI در حال تبدیل شدن به یک پایه اصلی برای این کار است. با قابلیت هایی مانند Daybreak و Astra، سیسکو فرصتی برای ایجاد کنترل های امنیتی و سیاست های پویا و تقویت ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f876514fdaae24f4",
+      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
+      "excerpt": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years →…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T13:00:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i1.ytimg.com/vi/XWYMvOFMacA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "XWYMvOFMacA",
+       "url": "https://www.youtube.com/watch?v=XWYMvOFMacA"
+      },
+      "eventId": "f876514fdaae24f4",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 80.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هوش مصنوعی در انگلستان: کشف مواد مخدر، روباتیک و عوامل هوش مصنوعی",
+        "excerpt": "از کشف مواد مخدر به رباتیک، صدا و ویدیو، توسعه دهندگان، محققان و شرکت های انگلستان در حال پیشرفت AI با محاسبات شتاب دهنده NVIDIA هستند. ما کار خود را جشن می گیریم و کارخانه های جدید AI برای قدرت آنچه که در آینده می آید ساخته شده اند. 🔗 NVIDIA متعهد به ۲۵۰ میلیون دلار برای پیشبرد تحقیقات ایمنی و امنیت نمایندگی بریتانیا در پنج سال آینده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f0028d64dd8df180",
+      "url": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Elon Musk’s AI Odyssey: the dullest, most pointless riposte possible to Christopher Nolan’s brilliant epic",
+      "excerpt": "It is hardly a shock that Grok AI’s interpretation of Homer is as meaningless as a laptop screensaver. The only surprise would be if Musk accepted defeat graciously. Which he won’t Think back. Do you remember when Elon Musk, in a weird online tantrum, and without having seen the film, condemned the supposed wokery in Christopher Nolan’s, The Odyssey, for getting Elliot Page to play Sinon and…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T13:01:46Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "policy",
+      "tags": [
+       "film",
+       "the odyssey",
+       "elon musk",
+       "grok ai",
+       "ai (artificial intelligence)",
+       "computing"
+      ],
+      "entities": [
+       "xai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/92774383fe7ce51c65f27cb958af0171dee508c7/561_20_1550_1241/master/1550.jpg?width=700&quality=85&auto=format&fit=max&s=69c34d8f4b5e878bf41a6a3df4c0b2a7",
+       "credit": "Computer-generated: @Imagine",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "f0028d64dd8df180",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایلان ماسک's AI Odyssey: کسل کننده ترین و بی حد ترین شکاف ممکن برای حماسه درخشان کریستوفر نولان",
+        "excerpt": "به سختی یک شوک است که تفسیر Grok AI از هومر به عنوان یک صفحه نمایش لپ تاپ بی معنی است. تنها شگفتی این است که اگر ماسک با مهربانی شکست را بپذیرد. که او به آن فکر نخواهد کرد. به یاد داشته باشید که ایلان ماسک، در یک فیلم عجیب و غریب آنلاین، و بدون دیدن فیلم، بیدار شدن فرضی در کریستوفر نولان، ادیسه، برای گرفتن صفحه الیوت برای بازی Sinon و ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ef2da6cf0c5f6192",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "excerpt": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T11:19:18Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "artificial intelligence",
+       "sponsored"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840",
+       "kind": "feed",
+       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+      },
+      "eventId": "ef2da6cf0c5f6192",
+      "related": [],
+      "score": {
+       "total": 62.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 90.6,
+        "topic": 80.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هوش صنعتی: فرصت رشد بعدی برای تولید",
+        "excerpt": "هر تولید کننده دارای هوش صنعتی خود است. برخی مستند هستند و برخی در دانش کارگران با تجربه زندگی می کنند. یک اپراتور با تجربه را در نظر بگیرید که پس از یک تغییر، یک خط را دوباره راه اندازی کند. تنظیمات ماشین مهم است، اما به همین ترتیب می داند که چگونه یک ماده خاص رفتار می کند، چه اتفاقی در طول تغییر قبلی رخ داده است، و هنگامی که ظاهرا کوچک است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2e623b5ef9a8dee6",
+      "url": "https://www.youtube.com/watch?v=inrYeej3Big",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "excerpt": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps businesses create visuals with readable text and precise infographics, while Codex helps Higgsfield’s…",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:03:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/inrYeej3Big/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "inrYeej3Big",
+       "url": "https://www.youtube.com/watch?v=inrYeej3Big"
+      },
+      "eventId": "2e623b5ef9a8dee6",
+      "related": [],
+      "score": {
+       "total": 62.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 42.1,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
+        "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T00:07:10Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "7cf337f0598468a3",
@@ -49,313 +343,20 @@
       "eventId": "7cf337f0598468a3",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 62.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 84.0,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
         "title": "اطلاعات غلط مبتنی بر هوش مصنوعی که در رسانه های اجتماعی قبل از اواسط دوره های ایالات متحده رایج است، کارشناسان هشدار می دهند",
         "excerpt": "شرکت های رسانه های اجتماعی از جمله Meta در تلاش برای محافظت از رای دهندگان در برابر دخالت های انتخاباتی عقب کشیده اند، فید رسانه های اجتماعی با سیل بی سابقه ای از اطلاعات غلط مبتنی بر هوش مصنوعی پیش از انتخابات میان دوره ای ایالات متحده، با توجه به کارشناسان، هشدار می دهد که بسیاری از پست ها احتمالا \"از طریق ترک ها\" از بین می روند. از آنجایی که ده ها میلیون آمریکایی برای رای دادن آماده می شوند، رسانه های اجتماعی...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T11:04:49Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "250e5d8f302445e7",
-      "related": [],
-      "score": {
-       "total": 63.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 47.2,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2e623b5ef9a8dee6",
-      "url": "https://www.youtube.com/watch?v=inrYeej3Big",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "excerpt": "Higgsfield is building an AI video and image creation platform that helps creators and small teams produce everything from instructional videos to fashion campaigns. With GPT‑6 Astra, the company has gone from creating videos around one minute long to videos over 10 minutes. GPT‑Image‑2.5 helps businesses create visuals with readable text and precise infographics, while Codex helps Higgsfield’s…",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:03:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/inrYeej3Big/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "inrYeej3Big",
-       "url": "https://www.youtube.com/watch?v=inrYeej3Big"
-      },
-      "eventId": "2e623b5ef9a8dee6",
-      "related": [],
-      "score": {
-       "total": 63.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 47.3,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
-        "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "02c774ec5299e23a",
-      "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia backs Indian startup helping companies run AI models with fewer GPUs",
-      "excerpt": "Simplismart says its annualized revenue run rate has grown 14-fold in six months, with the U.S. accounting for more than half its revenue.",
-      "lang": "en",
-      "publishedAt": "2026-10-27T11:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T11:04:49Z",
-      "day": "2026-10-27",
-      "category": "hardware",
-      "tags": [
-       "startups",
-       "ai",
-       "accel",
-       "nvidia",
-       "exclusive"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "02c774ec5299e23a",
-      "related": [],
-      "score": {
-       "total": 63.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia به استارت آپ هندی کمک می کند تا شرکت ها مدل های AI را با GPU های کمتر اداره کنند",
-        "excerpt": "SimpliSmart می گوید که نرخ درآمد سالانه آن در شش ماه 14 برابر شده است و حسابداری ایالات متحده بیش از نیمی از درآمد خود را دارد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T11:04:49Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d4c16ff94bb823ac",
-      "url": "https://www.theguardian.com/uk-news/2026/oct/27/uk-government-environmental-groups-ai-datacentres-expansion-plans-investigation",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "UK government met 137 businesses over AI datacentres – but no environmental groups",
-      "excerpt": "Investigation finds dozens of ministers and civil servants moved into AI roles as government developed datacentre expansion plans The UK’s policy on datacentres and AI was developed without any meetings with environmental groups, an investigation has found. The nonprofit organisation Spotlight on Corruption said a “considerable revolving door” shaped the government’s development of “AI growth…",
-      "lang": "en",
-      "publishedAt": "2026-10-27T07:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T11:04:49Z",
-      "day": "2026-10-27",
-      "category": "policy",
-      "tags": [
-       "datacentres - uk",
-       "planning policy",
-       "ai (artificial intelligence)",
-       "computing",
-       "freedom of information",
-       "politics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/d7d40991e7793995807a7196e5227dd047cfc204/420_0_3413_2732/master/3413.jpg?width=700&quality=85&auto=format&fit=max&s=f6f2b9edcbd8fe8213f0e6ba68a056d1",
-       "credit": "Photograph: David Levene/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "d4c16ff94bb823ac",
-      "related": [],
-      "score": {
-       "total": 61.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دولت انگلستان با 137 کسب و کار در زمینه داده های AI ملاقات کرد اما هیچ گروه زیست محیطی ندارد",
-        "excerpt": "تحقیقات نشان می دهد که ده ها نفر از وزرا و کارکنان دولت به نقش های AI منتقل شده اند، زیرا دولت برنامه های توسعه داده محور را توسعه داده است سیاست بریتانیا در زمینه دیتامحور و AI بدون هیچ گونه جلسه ای با گروه های زیست محیطی توسعه یافته است، تحقیقات نشان داده است. سازمان غیر انتفاعی در مورد فساد گفت: \"درهای در حال چرخش قابل ملاحظه\" توسعه دولت \"رشد هوش مصنوعی\" را شکل داد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T11:04:49Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "415aa97d276f6d69",
-      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Data center backlash is uniting America",
-      "excerpt": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and become a major issue in many congressional",
-      "lang": "en",
-      "publishedAt": "2026-10-27T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T11:04:49Z",
-      "day": "2026-10-27",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "energy",
-       "policy",
-       "politics",
-       "regulation",
-       "science"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_ELECTIONS_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Election signs with binary and glitch effects.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "415aa97d276f6d69",
-      "related": [],
-      "score": {
-       "total": 61.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Backlash مرکز داده ها آمریکا را متحد می کند",
-        "excerpt": "اگر یک مسئله وجود داشته باشد که به نظر می رسد در سال ۲۰۲۶ همه نوع رای دهندگان را فعال می کند، مراکز داده است. ساخت سریع این تاسیسات عظیم ذخیره سازی سرور - و ساخت و ساز و هزینه های زیربنایی که با آنها می آیند - باعث مخالفت محلی در جوامع سراسر کشور شده و تبدیل به یک مسئله مهم در بسیاری از کنگره شده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T11:04:49Z"
        }
@@ -372,54 +373,58 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-20T11:00:00Z",
-   "to": "2026-10-27T11:00:00Z",
+   "from": "2026-10-20T13:01:46Z",
+   "to": "2026-10-27T13:01:46Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "id": "b86ae29757fe79e3",
+      "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
+      "excerpt": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen…",
       "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
+      "publishedAt": "2026-10-27T12:45:06Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
       "category": "models",
-      "tags": [
-       "startup"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/0qb0FQo3M5c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "250e5d8f302445e7",
+      "video": {
+       "provider": "youtube",
+       "id": "0qb0FQo3M5c",
+       "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c"
+      },
+      "eventId": "b86ae29757fe79e3",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 74.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 99.7,
         "topic": 100.0,
-        "novelty": 88.2
+        "novelty": 91.7
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
+        "title": "چرا امنیت سایبری به هوش مصنوعی نیاز دارد؟ Jeetu Patel",
+        "excerpt": "این یک پیش نیاز برای ایمن ماندن است که شما باید از AI استفاده کنید.» مدافعان نیاز به کنترل های امنیتی دارند که می توانند به سرعت سازگار شوند. Jeetu Patel، رئیس سیسکو، توضیح می دهد که چرا OpenAI در حال تبدیل شدن به یک پایه اصلی برای این کار است. با قابلیت هایی مانند Daybreak و Astra، سیسکو فرصتی برای ایجاد کنترل های امنیتی و سیاست های پویا و تقویت ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
+        "at": "2026-10-27T13:20:04Z"
        }
       }
      },
@@ -463,15 +468,15 @@
       "eventId": "2e623b5ef9a8dee6",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 86.6,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -483,6 +488,61 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "250e5d8f302445e7",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "250e5d8f302445e7",
+      "related": [],
+      "score": {
+       "total": 71.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.5,
+        "topic": 100.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
+        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T00:07:10Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -527,15 +587,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 71.1,
+       "total": 70.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 83.3,
+        "recency": 81.7,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -546,7 +606,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -557,108 +617,52 @@
     },
     {
      "article": {
-      "id": "61fb37e32c98d9e4",
-      "url": "https://www.youtube.com/shorts/bXNTUB209KE",
+      "id": "f876514fdaae24f4",
+      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
       "sourceId": "nvidia-youtube",
       "sourceName": "NVIDIA (YouTube)",
-      "title": "Using AI Agents to Teach Robots to Walk in Simulation #NVIDIAGTC #Microducks #Robotics",
-      "excerpt": "🦆 Put AI agents to work to help your robot learn to navigate. Using Microduck as the reference robot, this walkthrough shows how to create a simulated obstacle course with OpenAI GPT-6 Astra, build 3D assets with NVIDIA Omniverse libraries, simulate physics with Newton, train policies in NVIDIA Isaac Lab, and validate them in Isaac Sim on NVIDIA RTX Spark.",
+      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
+      "excerpt": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years →…",
       "lang": "en",
-      "publishedAt": "2026-10-26T16:00:24Z",
+      "publishedAt": "2026-10-27T13:00:19Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "models",
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "research",
       "tags": [],
       "entities": [
-       "nvidia",
-       "openai"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://i3.ytimg.com/vi/bXNTUB209KE/hqdefault.jpg",
+       "url": "https://i1.ytimg.com/vi/XWYMvOFMacA/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
       "video": {
        "provider": "youtube",
-       "id": "bXNTUB209KE",
-       "url": "https://www.youtube.com/watch?v=bXNTUB209KE"
+       "id": "XWYMvOFMacA",
+       "url": "https://www.youtube.com/watch?v=XWYMvOFMacA"
       },
-      "eventId": "61fb37e32c98d9e4",
+      "eventId": "f876514fdaae24f4",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.3,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استفاده از عوامل AI برای آموزش ربات ها در شبیه سازی #NVIDIAGTC #Microducks #Robotics",
-        "excerpt": "عوامل AI را برای کمک به ربات خود برای حرکت در نظر بگیرید. با استفاده از Microduck به عنوان ربات مرجع، این پیاده روی نشان می دهد که چگونه یک دوره مانع شبیه سازی شده با OpenAI GPT-6 Astra، ساخت دارایی های 3D با کتابخانه های NVIDIA Omniverse، شبیه سازی فیزیک با نیوتن، سیاست های قطار در آزمایشگاه NVIDIA آیزاک، و اعتبار آنها در ایزاک در سیم در NVIDIA RTX Spark.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f16aefe89a6e3f3b",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Working with academic communities to build scientific understanding",
-      "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T14:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "research",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f16aefe89a6e3f3b",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.1,
+        "recency": 100.0,
         "topic": 80.0,
-        "novelty": 90.0
+        "novelty": 77.8
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
-        "title": "کار با جوامع دانشگاهی برای ایجاد درک علمی",
-        "excerpt": "OpenAI سهام مدل نتایج بر روی حدس Kakeya، فرضیه زمان نمایی، و chromodynamics کوانتومی - و چگونه محققان می توانند تایید و ساخت بر روی آنها.",
+        "title": "هوش مصنوعی در انگلستان: کشف مواد مخدر، روباتیک و عوامل هوش مصنوعی",
+        "excerpt": "از کشف مواد مخدر به رباتیک، صدا و ویدیو، توسعه دهندگان، محققان و شرکت های انگلستان در حال پیشرفت AI با محاسبات شتاب دهنده NVIDIA هستند. ما کار خود را جشن می گیریم و کارخانه های جدید AI برای قدرت آنچه که در آینده می آید ساخته شده اند. 🔗 NVIDIA متعهد به ۲۵۰ میلیون دلار برای پیشبرد تحقیقات ایمنی و امنیت نمایندگی بریتانیا در پنج سال آینده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
+        "at": "2026-10-27T13:20:04Z"
        }
       }
      },
@@ -703,15 +707,15 @@
       "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 84.1,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -726,6 +730,68 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f0028d64dd8df180",
+      "url": "https://www.theguardian.com/film/2026/oct/27/elon-musk-ai-odyssey-movie-grok-christopher-nolan",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Elon Musk’s AI Odyssey: the dullest, most pointless riposte possible to Christopher Nolan’s brilliant epic",
+      "excerpt": "It is hardly a shock that Grok AI’s interpretation of Homer is as meaningless as a laptop screensaver. The only surprise would be if Musk accepted defeat graciously. Which he won’t Think back. Do you remember when Elon Musk, in a weird online tantrum, and without having seen the film, condemned the supposed wokery in Christopher Nolan’s, The Odyssey, for getting Elliot Page to play Sinon and…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T13:01:46Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "policy",
+      "tags": [
+       "film",
+       "the odyssey",
+       "elon musk",
+       "grok ai",
+       "ai (artificial intelligence)",
+       "computing"
+      ],
+      "entities": [
+       "xai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/92774383fe7ce51c65f27cb958af0171dee508c7/561_20_1550_1241/master/1550.jpg?width=700&quality=85&auto=format&fit=max&s=69c34d8f4b5e878bf41a6a3df4c0b2a7",
+       "credit": "Computer-generated: @Imagine",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "f0028d64dd8df180",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایلان ماسک's AI Odyssey: کسل کننده ترین و بی حد ترین شکاف ممکن برای حماسه درخشان کریستوفر نولان",
+        "excerpt": "به سختی یک شوک است که تفسیر Grok AI از هومر به عنوان یک صفحه نمایش لپ تاپ بی معنی است. تنها شگفتی این است که اگر ماسک با مهربانی شکست را بپذیرد. که او به آن فکر نخواهد کرد. به یاد داشته باشید که ایلان ماسک، در یک فیلم عجیب و غریب آنلاین، و بدون دیدن فیلم، بیدار شدن فرضی در کریستوفر نولان، ادیسه، برای گرفتن صفحه الیوت برای بازی Sinon و ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -762,15 +828,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 88.0,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -778,65 +844,6 @@
         "excerpt": "فرانسه به اولین تراشه NVIDIA در زندگی کمک کرد. بیش از 30 سال بعد، توسعه دهندگان، محققان و شرکت ها از محاسبات شتاب یافته NVIDIA برای پیشبرد طراحی صنعتی، مراقبت های بهداشتی و مدل های AI باز استفاده می کنند و کارخانه های AI را برای حمایت از آنچه که در آینده می آید، ایجاد می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8ed93bec790144d5",
-      "url": "https://aws.amazon.com/blogs/machine-learning/fleet-wide-computer-vision-lifecycle-at-the-edge-with-sagemaker-sdk-v3",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Fleet-wide computer vision lifecycle at the edge with SageMaker SDK v3",
-      "excerpt": "Fleet-wide computer vision needs a model per camera, not one model for the whole fleet. This post presents a working Amazon SageMaker SDK v3 reference architecture that trains, quality-gates, compiles per-camera models with SageMaker Neo, and versions thousands of them, with an AWS Step Functions layer pacing fleet-scale retraining within account quotas.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T17:56:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20483-1-1.png",
-       "alt": "Solution architecture: SQS FIFO queue triggers AWS Lambda, which starts a Step Functions state machine with an Amazon DynamoDB semaphore for concurrency control. The state machine launches a 13-step S",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "8ed93bec790144d5",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.9,
-        "topic": 65.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرخه دید کامپیوتر در سراسر ناوگان در لبه با SageMaker SDK v3",
-        "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
        }
       }
      },
@@ -851,10 +858,69 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-27T11:00:00Z",
-   "to": "2026-10-27T11:00:00Z",
+   "from": "2026-09-27T13:01:46Z",
+   "to": "2026-10-27T13:01:46Z",
    "halfLifeHours": 240,
    "picks": [
+    {
+     "article": {
+      "id": "b86ae29757fe79e3",
+      "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
+      "excerpt": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T12:45:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/0qb0FQo3M5c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "0qb0FQo3M5c",
+       "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c"
+      },
+      "eventId": "b86ae29757fe79e3",
+      "related": [],
+      "score": {
+       "total": 74.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا امنیت سایبری به هوش مصنوعی نیاز دارد؟ Jeetu Patel",
+        "excerpt": "این یک پیش نیاز برای ایمن ماندن است که شما باید از AI استفاده کنید.» مدافعان نیاز به کنترل های امنیتی دارند که می توانند به سرعت سازگار شوند. Jeetu Patel، رئیس سیسکو، توضیح می دهد که چرا OpenAI در حال تبدیل شدن به یک پایه اصلی برای این کار است. با قابلیت هایی مانند Daybreak و Astra، سیسکو فرصتی برای ایجاد کنترل های امنیتی و سیاست های پویا و تقویت ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ba6fa07d677a8221",
@@ -886,15 +952,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.5,
+        "recency": 68.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -905,7 +971,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -945,15 +1011,15 @@
        "14f13252070a5596"
       ],
       "score": {
-       "total": 73.5,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 66.2,
+        "recency": 65.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -964,7 +1030,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1010,15 +1076,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.7,
+        "recency": 94.1,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1029,7 +1095,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1073,15 +1139,15 @@
        "97cbc6d12895efc6"
       ],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 67.7,
+        "recency": 67.3,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1092,66 +1158,11 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "250e5d8f302445e7",
-      "related": [],
-      "score": {
-       "total": 73.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1189,15 +1200,15 @@
       "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 94.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1209,6 +1220,65 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f876514fdaae24f4",
+      "url": "https://www.youtube.com/watch?v=XWYMvOFMacA",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "AI in the UK: Drug Discovery, Robotics and AI Factories | NVIDIA",
+      "excerpt": "From drug discovery to robotics, voice, and video, the UK’s developers, researchers, and companies are advancing AI with NVIDIA accelerated computing. We celebrate their work—and the new AI factories being built to power what comes next. 🔗 NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years →…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T13:00:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T13:20:04Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i1.ytimg.com/vi/XWYMvOFMacA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "XWYMvOFMacA",
+       "url": "https://www.youtube.com/watch?v=XWYMvOFMacA"
+      },
+      "eventId": "f876514fdaae24f4",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-10-27T13:01:46Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هوش مصنوعی در انگلستان: کشف مواد مخدر، روباتیک و عوامل هوش مصنوعی",
+        "excerpt": "از کشف مواد مخدر به رباتیک، صدا و ویدیو، توسعه دهندگان، محققان و شرکت های انگلستان در حال پیشرفت AI با محاسبات شتاب دهنده NVIDIA هستند. ما کار خود را جشن می گیریم و کارخانه های جدید AI برای قدرت آنچه که در آینده می آید ساخته شده اند. 🔗 NVIDIA متعهد به ۲۵۰ میلیون دلار برای پیشبرد تحقیقات ایمنی و امنیت نمایندگی بریتانیا در پنج سال آینده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T13:20:04Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1249,15 +1319,15 @@
       "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.9,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1268,7 +1338,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1308,15 +1378,15 @@
       "eventId": "7b40604b474ead4d",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 95.2,
         "topic": 70.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1327,7 +1397,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1367,15 +1437,15 @@
       "eventId": "8ed93bec790144d5",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.6,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T11:00:00Z"
+       "asOf": "2026-10-27T13:01:46Z"
       },
       "tr": {
        "fa": {
@@ -1383,65 +1453,6 @@
         "excerpt": "چشم انداز کامپیوتر در سراسر ناوگان نیاز به یک مدل در هر دوربین، نه یک مدل برای کل ناوگان. این پست یک معماری مرجع آمازون SageMaker SDK v3 را ارائه می دهد که قطارها، امتیازات کیفیت، جمع آوری مدل های هر دوربین با SageMaker Neo، و نسخه های هزاران نفر از آنها، با یک تابع لایه مرحله AWS حرکت مجدد ناوگان در سهمیه حساب.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cc1ea9dac4db855c",
-      "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "AI in France: From NVIDIA’s First Chip to AI Factories | NVIDIA",
-      "excerpt": "France helped bring NVIDIA’s first chip to life. More than 30 years later, its developers, researchers, and companies are using NVIDIA accelerated computing to advance industrial design, healthcare, and open AI models—and building AI factories to support what comes next. 🔗 European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations →…",
-      "lang": "en",
-      "publishedAt": "2026-10-26T23:43:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i1.ytimg.com/vi/dmbT2IHpOKU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "dmbT2IHpOKU",
-       "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU"
-      },
-      "eventId": "cc1ea9dac4db855c",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.8,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-27T11:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هوش مصنوعی در فرانسه: از اولین چیپ NVIDIA گرفته تا فاکتورهای AI",
-        "excerpt": "فرانسه به اولین تراشه NVIDIA در زندگی کمک کرد. بیش از 30 سال بعد، توسعه دهندگان، محققان و شرکت ها از محاسبات شتاب یافته NVIDIA برای پیشبرد طراحی صنعتی، مراقبت های بهداشتی و مدل های AI باز استفاده می کنند و کارخانه های AI را برای حمایت از آنچه که در آینده می آید، ایجاد می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
        }
       }
      },
