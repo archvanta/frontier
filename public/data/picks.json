@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-27T05:00:04Z",
+ "asOf": "2026-10-27T06:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,65 +10,10 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-26T05:00:04Z",
-   "to": "2026-10-27T05:00:04Z",
+   "from": "2026-10-26T06:00:00Z",
+   "to": "2026-10-27T06:00:00Z",
    "halfLifeHours": 12,
    "picks": [
-    {
-     "article": {
-      "id": "250e5d8f302445e7",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "lang": "en",
-      "publishedAt": "2026-10-26T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T00:07:10Z",
-      "day": "2026-10-26",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "250e5d8f302445e7",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 66.7,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-10-27T05:00:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
-        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T00:07:10Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "2e623b5ef9a8dee6",
@@ -101,20 +46,75 @@
       "eventId": "2e623b5ef9a8dee6",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.9,
+        "recency": 63.2,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "Higsfield ویدئو هوش مصنوعی را از ۱ دقیقه تا ۱۰ دقیقه می گیرد",
         "excerpt": "Higsfield ساخت یک پلت فرم ساخت ویدیو و تصویر AI است که به سازندگان و تیم های کوچک کمک می کند تا همه چیز را از فیلم های آموزشی به کمپین های مد تولید کنند. با GPT-6 Astra، این شرکت از ساخت فیلم در حدود یک دقیقه به فیلم بیش از 10 دقیقه رفته است. GPT-Image-2.5 به کسب و کارها کمک می کند تا تصاویری با متن قابل خواندن و اینفوگرافیک دقیق ایجاد کنند، در حالی که Codex به Higssfield کمک می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T00:07:10Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "250e5d8f302445e7",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "excerpt": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "lang": "en",
+      "publishedAt": "2026-10-26T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T00:07:10Z",
+      "day": "2026-10-26",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "250e5d8f302445e7",
+      "related": [],
+      "score": {
+       "total": 66.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 63.0,
+        "topic": 100.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-10-27T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Greptile تشخیص باگ فراتر از بررسی کد با GPT-6 Astra",
+        "excerpt": "چگونگی استفاده از GPT-6 Astra برای آزمایش جریان کار کاربر، Daybreak برای تقویت امنیت و Codex برای کاهش کار مجدد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T00:07:10Z"
        }
@@ -160,15 +160,15 @@
       "eventId": "291dd7fdf89aab0e",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 64.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 92.8,
         "topic": 85.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -224,15 +224,15 @@
        "b8f740314eab2229"
       ],
       "score": {
-       "total": 64.6,
+       "total": 64.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 55.3,
+        "recency": 52.2,
         "topic": 85.0,
         "novelty": 42.9
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -280,15 +280,15 @@
       "eventId": "9af0a1a0b3874666",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 63.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 80.3,
+        "recency": 75.8,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -339,15 +339,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 62.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.7,
+        "recency": 69.6,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -369,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-20T05:00:04Z",
-   "to": "2026-10-27T05:00:04Z",
+   "from": "2026-10-20T06:00:00Z",
+   "to": "2026-10-27T06:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +405,15 @@
       "eventId": "2e623b5ef9a8dee6",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 92.6,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +460,15 @@
       "eventId": "250e5d8f302445e7",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 92.6,
         "topic": 100.0,
         "novelty": 88.2
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -524,15 +524,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 72.1,
+       "total": 71.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 88.2,
+        "recency": 87.4,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -585,15 +585,15 @@
       "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.4,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -640,15 +640,15 @@
       "eventId": "f16aefe89a6e3f3b",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 86.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -700,15 +700,15 @@
       "eventId": "f3b6de314f91f101",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 90.0,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -759,15 +759,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 94.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -818,15 +818,15 @@
       "eventId": "8ed93bec790144d5",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.9,
+        "recency": 89.0,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -848,8 +848,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-27T05:00:04Z",
-   "to": "2026-10-27T05:00:04Z",
+   "from": "2026-09-27T06:00:00Z",
+   "to": "2026-10-27T06:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,11 +887,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.7,
+        "recency": 69.5,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -903,6 +903,65 @@
       }
      },
      "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61f4d0141ff303c0",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "google",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "61f4d0141ff303c0",
+      "related": [
+       "14f13252070a5596"
+      ],
+      "score": {
+       "total": 73.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 67.1,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-27T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های OpenAI به Google Cloud می آیند",
+        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T13:55:00Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -948,15 +1007,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 96.3,
+        "recency": 96.0,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -967,129 +1026,7 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 73.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 67.3,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-27T05:00:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
      "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0d8d033795840d49",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
-      "lang": "en",
-      "publishedAt": "2026-10-21T19:53:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "news"
-      ],
-      "entities": [
-       "anthropic",
-       "meta",
-       "openai"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0d8d033795840d49",
-      "related": [
-       "97cbc6d12895efc6"
-      ],
-      "score": {
-       "total": 73.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 68.9,
-        "topic": 100.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-27T05:00:04Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
-        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
-       }
-      }
-     },
-     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1130,11 +1067,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 88.2
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1145,10 +1082,73 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0d8d033795840d49",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
+      "lang": "en",
+      "publishedAt": "2026-10-21T19:53:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "news"
+      ],
+      "entities": [
+       "anthropic",
+       "meta",
+       "openai"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "0d8d033795840d49",
+      "related": [
+       "97cbc6d12895efc6"
+      ],
+      "score": {
+       "total": 73.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 68.7,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-27T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
+        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T20:55:40Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1186,15 +1186,15 @@
       "eventId": "61fb37e32c98d9e4",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 96.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1250,11 +1250,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.9,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1305,15 +1305,15 @@
       "eventId": "8ed93bec790144d5",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.6,
         "topic": 65.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1364,15 +1364,15 @@
       "eventId": "7b40604b474ead4d",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 97.1,
         "topic": 70.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1423,15 +1423,15 @@
       "eventId": "cc1ea9dac4db855c",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 98.2,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-27T05:00:04Z"
+       "asOf": "2026-10-27T06:00:00Z"
       },
       "tr": {
        "fa": {
