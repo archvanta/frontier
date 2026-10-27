@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-27T18:55:35Z",
+ "asOf": "2026-10-27T21:28:32Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-26T18:55:35Z",
-   "to": "2026-10-27T18:55:35Z",
+   "from": "2026-10-26T21:28:32Z",
+   "to": "2026-10-27T21:28:32Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "67f0b179673ce3b4",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "excerpt": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T20:55:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T21:30:10Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "classes and programs",
+       "mitx",
+       "online learning",
+       "leadership",
+       "community",
+       "business and management"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw",
+       "credit": "Photo courtesy of the subject.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "67f0b179673ce3b4",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.8,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-27T21:28:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Learner با همسالان MIT همکاری می کند تا کتاب بینش AI را توسعه دهد",
+        "excerpt": "Prabha Jha از تجربه خود با برنامه MIT Open Learning برای مدیران ارشد برای توسعه راه حل های AI برای کارفرمای خود، Verizon و نوشتن یک کتاب استفاده کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T21:30:10Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "c8171476944a3a87",
@@ -46,81 +106,20 @@
       "eventId": "c8171476944a3a87",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.9,
+        "recency": 69.0,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه Sotira یک زندگی دوم با Codex ارائه می دهد",
         "excerpt": "فنی بودن دلیلی برای ساخت نیست.» در Sotira، Amrita Bhasin از Codex برای اتصال محصولات قدیمی با افرادی که به آنها نیاز دارند، استفاده می کند و به حفظ میلیون ها پوند موجودی از زباله های زمینی کمک می کند. دیدار با Amrita، یکی از سازندگان در Codex Originals. ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8a965d9f9cf7fe1a",
-      "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
-      "sourceId": "deepmind-youtube",
-      "sourceName": "Google DeepMind (YouTube)",
-      "title": "Genie 4: A new generation of world simulation",
-      "excerpt": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people in it move, react, and speak. We have started rolling out Genie 4 as a research preview for…",
-      "lang": "en",
-      "publishedAt": "2026-10-27T16:00:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
-      "day": "2026-10-27",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/sFfPkUJd_Jk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "sFfPkUJd_Jk",
-       "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk"
-      },
-      "eventId": "8a965d9f9cf7fe1a",
-      "related": [
-       "5ef94984dce414f6"
-      ],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.5,
-        "topic": 100.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-10-27T18:55:35Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Genie 4: نسل جدیدی از شبیه سازی جهان",
-        "excerpt": "دیدار با Genie 4، Google DeepMind واقع بینانه ترین و تعاملی ترین مدل جهان است. ساخته شده بر روی مدل های Gemini ما، Genie 4 به شما اجازه می دهد تا در زمان واقعی وارد دنیای پویا شوید، صحنه ها را با زبان طبیعی هدایت کنید و ببینید چه اتفاقی می افتد: چگونه جهان پاسخ می دهد، چگونه به نظر می رسد و چگونه مردم در آن حرکت می کنند، واکنش می دهند و صحبت می کنند. ما شروع به انتشار Genie 4 به عنوان یک پیش نمایش تحقیقاتی برای ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
        }
@@ -166,15 +165,15 @@
       "eventId": "92074da747c4f4b9",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.0,
+        "recency": 69.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -186,6 +185,67 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8a965d9f9cf7fe1a",
+      "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
+      "sourceId": "deepmind-youtube",
+      "sourceName": "Google DeepMind (YouTube)",
+      "title": "Genie 4: A new generation of world simulation",
+      "excerpt": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people in it move, react, and speak. We have started rolling out Genie 4 as a research preview for…",
+      "lang": "en",
+      "publishedAt": "2026-10-27T16:00:41Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T16:52:51Z",
+      "day": "2026-10-27",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/sFfPkUJd_Jk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "sFfPkUJd_Jk",
+       "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk"
+      },
+      "eventId": "8a965d9f9cf7fe1a",
+      "related": [
+       "5ef94984dce414f6"
+      ],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 72.9,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-27T21:28:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Genie 4: نسل جدیدی از شبیه سازی جهان",
+        "excerpt": "دیدار با Genie 4، Google DeepMind واقع بینانه ترین و تعاملی ترین مدل جهان است. ساخته شده بر روی مدل های Gemini ما، Genie 4 به شما اجازه می دهد تا در زمان واقعی وارد دنیای پویا شوید، صحنه ها را با زبان طبیعی هدایت کنید و ببینید چه اتفاقی می افتد: چگونه جهان پاسخ می دهد، چگونه به نظر می رسد و چگونه مردم در آن حرکت می کنند، واکنش می دهند و صحبت می کنند. ما شروع به انتشار Genie 4 به عنوان یک پیش نمایش تحقیقاتی برای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T16:52:51Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -225,73 +285,20 @@
       "eventId": "feb4caa835f163bd",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 79.9,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
         "title": "چارچوب خواب: یک راه جدید برای LLM ها برای حفظ دانش در یادگیری مداوم",
         "excerpt": "آموزش نوآوری",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T19:28:46Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "db98bf59a6c7e420",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build specialized multimodal models with LFM3",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-27T17:16:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T19:28:46Z",
-      "day": "2026-10-27",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
-      },
-      "eventId": "db98bf59a6c7e420",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-27T18:55:35Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T19:28:46Z"
        }
@@ -332,15 +339,15 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.5,
+        "recency": 73.8,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -361,69 +368,10 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-20T18:55:35Z",
-   "to": "2026-10-27T18:55:35Z",
+   "from": "2026-10-20T21:28:32Z",
+   "to": "2026-10-27T21:28:32Z",
    "halfLifeHours": 72,
    "picks": [
-    {
-     "article": {
-      "id": "92074da747c4f4b9",
-      "url": "https://www.youtube.com/watch?v=cflbzHRvGvg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
-      "excerpt": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
-      "lang": "en",
-      "publishedAt": "2026-10-27T15:03:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
-      "day": "2026-10-27",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/cflbzHRvGvg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "cflbzHRvGvg",
-       "url": "https://www.youtube.com/watch?v=cflbzHRvGvg"
-      },
-      "eventId": "92074da747c4f4b9",
-      "related": [],
-      "score": {
-       "total": 73.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-27T18:55:35Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از ایده ها تا نمونه ها با Codex | میخائیل Parakhin Shopify",
-        "excerpt": "اگر شما یک ایده دارید، یک نمونه اولیه را بلافاصله دور کنید.» برای Shopify CTO میخائیل Parakhin، Codex در حال تغییر است که تیم خود را به جلسه می آورد. از انجام وظایف برای بررسی گزینه های معماری، او از Codex برای انجام کارهایی که قبلاً نمی توانست انجام دهد، استفاده می کند. ملاقات با میخائیل، یکی از سازندگان در Codex Originals ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "c8171476944a3a87",
@@ -456,20 +404,79 @@
       "eventId": "c8171476944a3a87",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 94.0,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه Sotira یک زندگی دوم با Codex ارائه می دهد",
         "excerpt": "فنی بودن دلیلی برای ساخت نیست.» در Sotira، Amrita Bhasin از Codex برای اتصال محصولات قدیمی با افرادی که به آنها نیاز دارند، استفاده می کند و به حفظ میلیون ها پوند موجودی از زباله های زمینی کمک می کند. دیدار با Amrita، یکی از سازندگان در Codex Originals. ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T16:52:51Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "92074da747c4f4b9",
+      "url": "https://www.youtube.com/watch?v=cflbzHRvGvg",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "From Ideas to Prototypes with Codex | Shopify’s Mikhail Parakhin",
+      "excerpt": "“If you have an idea, bring a prototype right away.” For Shopify CTO Mikhail Parakhin, Codex is changing what his team brings to the meeting. From delegating tasks to exploring architectural options, he’s using Codex to take on work he couldn’t before. Meet Mikhail, one of the builders in Codex Originals. Building with Codex? Share your story: https://openai.com/form/codex-originals/",
+      "lang": "en",
+      "publishedAt": "2026-10-27T15:03:41Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T16:52:51Z",
+      "day": "2026-10-27",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/cflbzHRvGvg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "cflbzHRvGvg",
+       "url": "https://www.youtube.com/watch?v=cflbzHRvGvg"
+      },
+      "eventId": "92074da747c4f4b9",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.0,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-27T21:28:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "از ایده ها تا نمونه ها با Codex | میخائیل Parakhin Shopify",
+        "excerpt": "اگر شما یک ایده دارید، یک نمونه اولیه را بلافاصله دور کنید.» برای Shopify CTO میخائیل Parakhin، Codex در حال تغییر است که تیم خود را به جلسه می آورد. از انجام وظایف برای بررسی گزینه های معماری، او از Codex برای انجام کارهایی که قبلاً نمی توانست انجام دهد، استفاده می کند. ملاقات با میخائیل، یکی از سازندگان در Codex Originals ساخت با Codex داستان خود را به اشتراک بگذارید: https Openai.com/form/Codex-originals",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
        }
@@ -517,15 +524,15 @@
        "5ef94984dce414f6"
       ],
       "score": {
-       "total": 72.6,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -537,6 +544,66 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "67f0b179673ce3b4",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "excerpt": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T20:55:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T21:30:10Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "classes and programs",
+       "mitx",
+       "online learning",
+       "leadership",
+       "community",
+       "business and management"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw",
+       "credit": "Photo courtesy of the subject.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "67f0b179673ce3b4",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-27T21:28:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Learner با همسالان MIT همکاری می کند تا کتاب بینش AI را توسعه دهد",
+        "excerpt": "Prabha Jha از تجربه خود با برنامه MIT Open Learning برای مدیران ارشد برای توسعه راه حل های AI برای کارفرمای خود، Verizon و نوشتن یک کتاب استفاده کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T21:30:10Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -576,15 +643,15 @@
       "eventId": "feb4caa835f163bd",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -595,7 +662,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -630,15 +697,15 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 95.1,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -648,7 +715,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -689,15 +756,15 @@
       "eventId": "4a299d1e9f3d5424",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 94.0,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -708,7 +775,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -748,15 +815,15 @@
       "eventId": "6c7bcedbd2e289de",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 95.4,
         "topic": 70.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -764,59 +831,6 @@
         "excerpt": "بهبود میلیون ها برابری در عملکرد هوش مصنوعی در ده سال فرصت های جدیدی را برای علم، مهندسی و زندگی روزمره باز می کند. پشت این پیشرفت، طراحی مشترک شدید NVIDIA است: ما تراشه ها، سیستم ها، نرم افزار و الگوریتم ها را با هم پیشبرد می کنیم تا دانشمندان و مهندسان بتوانند AI را برای کار بر روی چالش های بزرگتر قرار دهند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "db98bf59a6c7e420",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build specialized multimodal models with LFM3",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-27T17:16:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T19:28:46Z",
-      "day": "2026-10-27",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
-      },
-      "eventId": "db98bf59a6c7e420",
-      "related": [],
-      "score": {
-       "total": 69.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-27T18:55:35Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T19:28:46Z"
        }
       }
      },
@@ -831,8 +845,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-27T18:55:35Z",
-   "to": "2026-10-27T18:55:35Z",
+   "from": "2026-09-27T21:28:32Z",
+   "to": "2026-10-27T21:28:32Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -867,15 +881,15 @@
       "eventId": "c8171476944a3a87",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.2,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -926,15 +940,15 @@
       "eventId": "92074da747c4f4b9",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.2,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -955,16 +969,16 @@
     },
     {
      "article": {
-      "id": "04d8442205246769",
-      "url": "https://www.youtube.com/watch?v=ilG7LPrngkI",
+      "id": "b86ae29757fe79e3",
+      "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c",
       "sourceId": "openai-youtube",
       "sourceName": "OpenAI (YouTube)",
-      "title": "AI for Detection and Response | Cloudflare’s Mark Anderson",
-      "excerpt": "Security teams face a constant stream of vulnerabilities and alerts. Cloudflare’s Mark Anderson describes using AI to automate detection and response so experts can focus on threats that need their judgment. He sees automation from companies like OpenAI as a way to take on routine security work and help teams keep pace.",
+      "title": "Why Cybersecurity Needs AI | Cisco’s Jeetu Patel",
+      "excerpt": "“It is a prerequisite for staying safe that you must use AI.” Attackers can move at machine speed. Defenders need security controls that can adapt just as quickly. Jeetu Patel, President of Cisco, explains why OpenAI is becoming a core foundation for that work. With capabilities like Daybreak and Astra, Cisco sees an opportunity to make security controls and policies dynamic—and strengthen…",
       "lang": "en",
-      "publishedAt": "2026-10-27T14:54:56Z",
+      "publishedAt": "2026-10-27T12:45:06Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-27T16:52:51Z",
+      "fetchedAt": "2026-10-27T13:20:04Z",
       "day": "2026-10-27",
       "category": "models",
       "tags": [],
@@ -973,34 +987,34 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i2.ytimg.com/vi/ilG7LPrngkI/hqdefault.jpg",
+       "url": "https://i1.ytimg.com/vi/0qb0FQo3M5c/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "ilG7LPrngkI",
-       "url": "https://www.youtube.com/watch?v=ilG7LPrngkI"
+       "id": "0qb0FQo3M5c",
+       "url": "https://www.youtube.com/watch?v=0qb0FQo3M5c"
       },
-      "eventId": "04d8442205246769",
+      "eventId": "b86ae29757fe79e3",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 97.5,
         "topic": 100.0,
-        "novelty": 90.0
+        "novelty": 91.7
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
-        "title": "هوش مصنوعی برای تشخیص و پاسخ، مارک اندرسون Cloudflare",
-        "excerpt": "تیم های امنیتی با یک جریان دائمی از آسیب پذیری ها و هشدار ها مواجه هستند. مارک اندرسون Cloudflare استفاده از AI را برای تشخیص خودکار و پاسخ توصیف می کند، بنابراین کارشناسان می توانند بر تهدیداتی که نیاز به قضاوت دارند تمرکز کنند. او اتوماسیون را از شرکت هایی مانند OpenAI به عنوان راهی برای انجام کارهای امنیتی روزمره می بیند و به تیم ها کمک می کند تا سرعت خود را حفظ کنند.",
+        "title": "چرا امنیت سایبری به هوش مصنوعی نیاز دارد؟ Jeetu Patel",
+        "excerpt": "این یک پیش نیاز برای ایمن ماندن است که شما باید از AI استفاده کنید.» مدافعان نیاز به کنترل های امنیتی دارند که می توانند به سرعت سازگار شوند. Jeetu Patel، رئیس سیسکو، توضیح می دهد که چرا OpenAI در حال تبدیل شدن به یک پایه اصلی برای این کار است. با قابلیت هایی مانند Daybreak و Astra، سیسکو فرصتی برای ایجاد کنترل های امنیتی و سیاست های پویا و تقویت ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T16:52:51Z"
+        "at": "2026-10-27T13:20:04Z"
        }
       }
      },
@@ -1046,15 +1060,15 @@
        "5ef94984dce414f6"
       ],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1110,15 +1124,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.5,
+        "recency": 91.8,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1134,6 +1148,66 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "67f0b179673ce3b4",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "excerpt": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
+      "lang": "en",
+      "publishedAt": "2026-10-27T20:55:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-27T21:30:10Z",
+      "day": "2026-10-27",
+      "category": "research",
+      "tags": [
+       "classes and programs",
+       "mitx",
+       "online learning",
+       "leadership",
+       "community",
+       "business and management"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw",
+       "credit": "Photo courtesy of the subject.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "67f0b179673ce3b4",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-27T21:28:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Learner با همسالان MIT همکاری می کند تا کتاب بینش AI را توسعه دهد",
+        "excerpt": "Prabha Jha از تجربه خود با برنامه MIT Open Learning برای مدیران ارشد برای توسعه راه حل های AI برای کارفرمای خود، Verizon و نوشتن یک کتاب استفاده کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-27T21:30:10Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1170,15 +1244,15 @@
       "eventId": "feb4caa835f163bd",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.9,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1189,7 +1263,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1224,15 +1298,15 @@
       "eventId": "34370e88c88d0cd4",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.5,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1242,7 +1316,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1283,15 +1357,15 @@
       "eventId": "4a299d1e9f3d5424",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1302,7 +1376,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1342,15 +1416,15 @@
       "eventId": "6c7bcedbd2e289de",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 98.6,
         "topic": 70.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-27T18:55:35Z"
+       "asOf": "2026-10-27T21:28:32Z"
       },
       "tr": {
        "fa": {
@@ -1358,59 +1432,6 @@
         "excerpt": "بهبود میلیون ها برابری در عملکرد هوش مصنوعی در ده سال فرصت های جدیدی را برای علم، مهندسی و زندگی روزمره باز می کند. پشت این پیشرفت، طراحی مشترک شدید NVIDIA است: ما تراشه ها، سیستم ها، نرم افزار و الگوریتم ها را با هم پیشبرد می کنیم تا دانشمندان و مهندسان بتوانند AI را برای کار بر روی چالش های بزرگتر قرار دهند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T16:52:51Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "db98bf59a6c7e420",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build specialized multimodal models with LFM3",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-27T17:16:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T19:28:46Z",
-      "day": "2026-10-27",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3"
-      },
-      "eventId": "db98bf59a6c7e420",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.5,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-27T18:55:35Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت مدل های چند منظوره تخصصی با LFM3",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T19:28:46Z"
        }
       }
      },
