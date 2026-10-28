@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-28T19:05:46Z",
+ "asOf": "2026-10-28T21:58:32Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-27T19:05:46Z",
-   "to": "2026-10-28T19:05:46Z",
+   "from": "2026-10-27T21:58:32Z",
+   "to": "2026-10-28T21:58:32Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,15 +42,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 82.7,
+       "total": 80.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 88.7,
+        "recency": 75.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -101,15 +101,15 @@
       "eventId": "63c0d33299bc03a7",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.6,
+        "recency": 67.4,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -161,15 +161,15 @@
       "eventId": "9118d22fa4098f95",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 81.0,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -220,15 +220,15 @@
       "eventId": "b8bfa4647f108004",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 81.7,
         "topic": 75.0,
         "novelty": 73.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -279,15 +279,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 70.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -308,47 +308,52 @@
     },
     {
      "article": {
-      "id": "7ae8eb20550eee76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "excerpt": "",
+      "id": "78924ef2955743e3",
+      "url": "https://www.youtube.com/watch?v=z-WZMjNsg-k",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
+      "excerpt": "When deadlines limit how many contracts lawyers can examine, important risks can go unseen. Alex Fortescue-Webb, Global Head of Legal Engineering at Legora, explains how AI powered by OpenAI models helps teams analyse thousands of contracts across multiple questions in minutes, expanding the scope of due diligence and giving lawyers more information to apply their judgment. Part of Intelligence…",
       "lang": "en",
-      "publishedAt": "2026-10-28T14:58:17Z",
+      "publishedAt": "2026-10-28T09:45:16Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
+      "fetchedAt": "2026-10-28T13:09:23Z",
       "day": "2026-10-28",
-      "category": "open-source",
+      "category": "models",
       "tags": [],
       "entities": [
-       "huggingface",
-       "nvidia"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+       "url": "https://i3.ytimg.com/vi/z-WZMjNsg-k/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "7ae8eb20550eee76",
+      "video": {
+       "provider": "youtube",
+       "id": "z-WZMjNsg-k",
+       "url": "https://www.youtube.com/watch?v=z-WZMjNsg-k"
+      },
+      "eventId": "78924ef2955743e3",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 64.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.8,
-        "topic": 75.0,
-        "novelty": 93.3
+        "recency": 49.4,
+        "topic": 100.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
-        "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
+        "title": "بررسی سریع تر قرارداد تجزیه و تحلیل قانونی گسترده تر: الکس فورتسکوی – Webb",
+        "excerpt": "هنگامی که مهلت ها تعداد وکلا را محدود می کنند، خطرات مهم می توانند نادیده گرفته شوند. الکس Fortescue-Webb، رئیس جهانی مهندسی حقوقی در لگورا، توضیح می دهد که چگونه AI توسط مدل های OpenAI به تیم ها کمک می کند تا هزاران قرارداد را در چند دقیقه تجزیه و تحلیل کنند، دامنه تلاش های قانونی را گسترش دهند و به وکلا اطلاعات بیشتری برای اعمال قضاوت خود بدهند. بخشی از اطلاعات ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-28T13:09:23Z"
        }
       }
      },
@@ -363,8 +368,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-21T19:05:46Z",
-   "to": "2026-10-28T19:05:46Z",
+   "from": "2026-10-21T21:58:32Z",
+   "to": "2026-10-28T21:58:32Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -395,15 +400,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 84.6,
+       "total": 84.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 98.0,
+        "recency": 95.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -454,15 +459,15 @@
       "eventId": "63c0d33299bc03a7",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 93.6,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -513,15 +518,15 @@
       "eventId": "78924ef2955743e3",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 88.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -533,6 +538,60 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7ae8eb20550eee76",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T14:58:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      },
+      "eventId": "7ae8eb20550eee76",
+      "related": [],
+      "score": {
+       "total": 69.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.5,
+        "topic": 75.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-10-28T21:58:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -572,74 +631,20 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 94.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
         "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
         "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7ae8eb20550eee76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T14:58:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
-      },
-      "eventId": "7ae8eb20550eee76",
-      "related": [],
-      "score": {
-       "total": 69.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.1,
-        "topic": 75.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-10-28T19:05:46Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
        }
@@ -686,15 +691,15 @@
       "eventId": "9118d22fa4098f95",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 96.6,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -745,15 +750,15 @@
       "eventId": "b8bfa4647f108004",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 96.7,
         "topic": 75.0,
         "novelty": 73.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -805,15 +810,15 @@
       "eventId": "9e57b3c7cb0d7eb2",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -835,8 +840,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-28T19:05:46Z",
-   "to": "2026-10-28T19:05:46Z",
+   "from": "2026-09-28T21:58:32Z",
+   "to": "2026-10-28T21:58:32Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -867,15 +872,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 84.9,
+       "total": 84.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 99.4,
+        "recency": 98.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -926,15 +931,15 @@
       "eventId": "78924ef2955743e3",
       "related": [],
       "score": {
-       "total": 73.7,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.5,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -985,15 +990,15 @@
       "eventId": "b781f6bc8b549636",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.5,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1044,15 +1049,15 @@
       "eventId": "63c0d33299bc03a7",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.0,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1102,15 +1107,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 62.4,
+        "recency": 61.9,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1167,15 +1172,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 71.7,
+       "total": 71.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 86.3,
+        "recency": 85.6,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1223,15 +1228,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.0,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1281,15 +1286,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1341,15 +1346,15 @@
       "eventId": "67f0b179673ce3b4",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 93.0,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
@@ -1400,15 +1405,15 @@
       "eventId": "feb4caa835f163bd",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 92.1,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-28T19:05:46Z"
+       "asOf": "2026-10-28T21:58:32Z"
       },
       "tr": {
        "fa": {
