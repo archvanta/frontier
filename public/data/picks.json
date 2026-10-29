@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-29T18:45:31Z",
+ "asOf": "2026-10-29T21:36:29Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-28T18:45:31Z",
-   "to": "2026-10-29T18:45:31Z",
+   "from": "2026-10-28T21:36:29Z",
+   "to": "2026-10-29T21:36:29Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,15 +42,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.3,
+        "recency": 76.6,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -62,6 +62,124 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6177cdec0bdff542",
+      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
+      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
+      "lang": "en",
+      "publishedAt": "2026-10-29T21:36:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T22:02:21Z",
+      "day": "2026-10-29",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "JXEMFLQwi4A",
+       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
+      },
+      "eventId": "6177cdec0bdff542",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-29T21:36:29Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
+        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T22:02:21Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3fa519422b2c3b84",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "excerpt": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T20:16:40Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T22:02:21Z",
+      "day": "2026-10-29",
+      "category": "products",
+      "tags": [
+       "amazon quick suite",
+       "intermediate (200)",
+       "uncategorized"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21295-1.jpeg",
+       "alt": "Attendees at a UK Amazon Quick User Group meetup in Shoreditch, London",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "3fa519422b2c3b84",
+      "related": [],
+      "score": {
+       "total": 66.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.6,
+        "topic": 65.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-29T21:36:29Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه گروه کاربری سریع آمازون در سال 2026 رشد کرد",
+        "excerpt": "گردآورنده گروه کاربر سریع آمازون 2026: سه جلسه سه ماهه، 150 + شرکت کنندگان، و داستان های مشتری از Arriva، Carsa، و آزمایشگاه Propulse در مورد استفاده از AI عامل و آمازون Quick برای تبدیل اطلاعات به تصمیمات سریع تر، رضایت بالاتر و رشد مقیاس پذیر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T22:02:21Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -102,15 +220,15 @@
       "eventId": "983901472b072637",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 82.3,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -121,7 +239,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -161,15 +279,15 @@
       "eventId": "2a1a8a7c88a01340",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 64.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 84.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -180,7 +298,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -190,165 +308,44 @@
     },
     {
      "article": {
-      "id": "aa702b033bfda9cd",
-      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
-      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
+      "id": "2d9928289658e986",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "lang": "en",
-      "publishedAt": "2026-10-29T16:58:57Z",
+      "publishedAt": "2026-10-29T07:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
-      "category": "hardware",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "aws batch",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "aa702b033bfda9cd",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.2,
-        "topic": 70.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-29T18:45:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
-        "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a0c8bc8caa040e76",
-      "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
-      "excerpt": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface…",
-      "lang": "en",
-      "publishedAt": "2026-10-29T16:23:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "products",
+      "category": "models",
       "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/L6pzlo1QvoM/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "L6pzlo1QvoM",
-       "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM"
-      },
-      "eventId": "a0c8bc8caa040e76",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.2,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-29T18:45:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
-        "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "23e63926cceaf4fd",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "excerpt": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [
-       "ai",
-       "cyber",
-       "mistral"
-      ],
-      "entities": [
-       "mistral"
-      ],
-      "brand": null,
-      "image": {
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "23e63926cceaf4fd",
+      "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 62.9,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.3,
+        "recency": 43.0,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 92.9
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
-        "title": "Mistral انتشار وزن برای مدل AI تریلیون-parameter خود، هدف قرار دادن امنیت سایبری",
-        "excerpt": "میسترال می گوید که مدل جدید آن می تواند کنترل سازمان ها بر دفاع سایبری خود را که مدل های بسته نمی توانند.",
+        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
+        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T19:01:24Z"
        }
@@ -357,7 +354,7 @@
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -365,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-22T18:45:31Z",
-   "to": "2026-10-29T18:45:31Z",
+   "from": "2026-10-22T21:36:29Z",
+   "to": "2026-10-29T21:36:29Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -397,15 +394,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 80.6,
+       "total": 80.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 78.0,
+        "recency": 75.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -452,15 +449,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 95.7,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -505,15 +502,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 86.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -525,6 +522,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6177cdec0bdff542",
+      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
+      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
+      "lang": "en",
+      "publishedAt": "2026-10-29T21:36:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T22:02:21Z",
+      "day": "2026-10-29",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "JXEMFLQwi4A",
+       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
+      },
+      "eventId": "6177cdec0bdff542",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-29T21:36:29Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
+        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T22:02:21Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -563,15 +619,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 95.6,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -582,7 +638,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -592,57 +648,56 @@
     },
     {
      "article": {
-      "id": "983901472b072637",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
+      "id": "3fa519422b2c3b84",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
-      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+      "title": "How the UK Amazon Quick User Group grew in 2026",
+      "excerpt": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
       "lang": "en",
-      "publishedAt": "2026-10-29T18:14:17Z",
+      "publishedAt": "2026-10-29T20:16:40Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
+      "fetchedAt": "2026-10-29T22:02:21Z",
       "day": "2026-10-29",
       "category": "products",
       "tags": [
-       "advanced (300)",
-       "aws transform",
-       "kiro",
-       "technical how-to"
+       "amazon quick suite",
+       "intermediate (200)",
+       "uncategorized"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
-       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21295-1.jpeg",
+       "alt": "Attendees at a UK Amazon Quick User Group meetup in Shoreditch, London",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "983901472b072637",
+      "eventId": "3fa519422b2c3b84",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.7,
         "topic": 65.0,
-        "novelty": 90.0
+        "novelty": 85.7
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
-        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
+        "title": "چگونه گروه کاربری سریع آمازون در سال 2026 رشد کرد",
+        "excerpt": "گردآورنده گروه کاربر سریع آمازون 2026: سه جلسه سه ماهه، 150 + شرکت کنندگان، و داستان های مشتری از Arriva، Carsa، و آزمایشگاه Propulse در مورد استفاده از AI عامل و آمازون Quick برای تبدیل اطلاعات به تصمیمات سریع تر، رضایت بالاتر و رشد مقیاس پذیر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
+        "at": "2026-10-29T22:02:21Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -677,15 +732,15 @@
       "eventId": "f3538b6fb36f4f58",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 92.6,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -695,7 +750,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -735,73 +790,20 @@
       "eventId": "a0c8bc8caa040e76",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 95.1,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
         "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
         "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1c742c1d925baf7",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
-      },
-      "eventId": "e1c742c1d925baf7",
-      "related": [],
-      "score": {
-       "total": 67.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.5,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-29T18:45:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
        }
@@ -818,8 +820,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-29T18:45:31Z",
-   "to": "2026-10-29T18:45:31Z",
+   "from": "2026-09-29T21:36:29Z",
+   "to": "2026-10-29T21:36:29Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -850,15 +852,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 83.6,
+       "total": 83.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 92.8,
+        "recency": 92.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -903,15 +905,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 95.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -958,15 +960,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.7,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1013,15 +1015,15 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 94.0,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1070,15 +1072,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 58.3,
+        "recency": 57.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1135,15 +1137,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.6,
+        "recency": 79.9,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1194,15 +1196,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.7,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1248,15 +1250,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 94.0,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1302,15 +1304,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 91.5,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
@@ -1360,15 +1362,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 91.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T18:45:31Z"
+       "asOf": "2026-10-29T21:36:29Z"
       },
       "tr": {
        "fa": {
