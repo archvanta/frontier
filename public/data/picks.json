@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-29T17:01:15Z",
+ "asOf": "2026-10-29T18:45:31Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,184 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-28T17:01:15Z",
-   "to": "2026-10-29T17:01:15Z",
+   "from": "2026-10-28T18:45:31Z",
+   "to": "2026-10-29T18:45:31Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "7bf0065ceb1646f5",
+      "url": "https://openai.com/index/updated-model-spec",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "7bf0065ceb1646f5",
+      "related": [],
+      "score": {
+       "total": 71.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.3,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک مدل به روز شده برای AI توانمند تر و مفید تر",
+        "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "983901472b072637",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:14:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "aws transform",
+       "kiro",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
+       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "983901472b072637",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
+        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2a1a8a7c88a01340",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "excerpt": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in",
+      "lang": "en",
+      "publishedAt": "2026-10-29T18:45:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [
+       "ai",
+       "google",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STK255_Google_Gemini_B_474198.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "2a1a8a7c88a01340",
+      "related": [],
+      "score": {
+       "total": 67.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شما می توانید فایل های Google Docs را به طور مستقیم در چت Gemini تولید و ویرایش کنید.",
+        "excerpt": "اکنون شما می توانید فایل های پیش نمایش و ویرایش PDF، Google Docs، Google Sheets، اسلاید، فایل های مارک معکوس، فایل های TXT و کد به طور مستقیم در Google Gemini تولید کنید. قابلیت های ویرایش فایل جدید امروز برای همه کاربران Gemini در دسترس است و در حالی که پیش نمایش های PDF / ویرایش در هر دو وب و تلفن همراه، همه فرمت های فایل دیگر تنها در فرمت های فایل دیگر هستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "aa702b033bfda9cd",
@@ -45,15 +219,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 90.2,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -64,66 +238,7 @@
        }
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3dcfe747ba6ccec0",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
-      "excerpt": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T16:54:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock agentcore",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-21704-1.png",
-       "alt": "AgentCore Gateway architecture: agent services reach the gateway through a private VPC interface endpoint, which evaluates Cedar policies and routes calls over Amazon VPC Lattice to internal APIs",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "3dcfe747ba6ccec0",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 65.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه MoEngage بیش از 400 API را به ابزارهای عامل با GatewayCore تبدیل کرد",
-        "excerpt": "MoEngage تقریبا 400 API خصوصی REST را در 7 منطقه AWS به ابزار عامل مجاز با Amazon Bedrock Agent Gateway تبدیل کرد. هیچ سرویس دهنده MCP، هیچ نقطه پایانی عمومی و بدون bloat 400 ابزار نیست. ببینید که OpenAPI چگونه مشخصات، سیاست های Cedar و مدیریت آمازون VPC Lattice egress آن را کار می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -163,128 +278,20 @@
       "eventId": "a0c8bc8caa040e76",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 87.2,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
         "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
         "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f3538b6fb36f4f58",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T13:37:07Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
-      },
-      "eventId": "f3538b6fb36f4f58",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.2,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سوئیچ گرانیت 4.1.1 - مدل های به روز رسانی مانند شما به روز رسانی نرم افزار",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d28967fce9c692cd",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How we detect frontier model misalignment",
-      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "d28967fce9c692cd",
-      "related": [],
-      "score": {
-       "total": 64.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 62.9,
-        "topic": 100.0,
-        "novelty": 71.4
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی تشخیص اشتباه مدل مرزی",
-        "excerpt": "OpenAI از نظارت لایه ای برای تشخیص سوء تفاهم مدل مرزی و رفتار عامل غیر مجاز استفاده می کند، بنابراین پاسخ دهندگان می توانند قبل از تشدید حوادث مداخله کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
        }
@@ -300,53 +307,50 @@
     },
     {
      "article": {
-      "id": "b75c11e31a8eea14",
-      "url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Reader Q&A: Send a question to Guardian economics writer Aditya Chakrabortty",
-      "excerpt": "Guardian columnist, senior economics commentator and host of the new Radical Thinking podcast Aditya Chakrabortty will be online at 2pm GMT (9am EDT) on Friday to answer your questions on the big ideas around economics, society and democracy Send your questions to conversations@theguardian.com or join the discussion on Friday from 8am Aditya Chakrabortty is the Guardian’s award-winning senior…",
+      "id": "23e63926cceaf4fd",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "excerpt": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
       "lang": "en",
-      "publishedAt": "2026-10-29T15:31:25Z",
+      "publishedAt": "2026-10-29T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
-      "category": "policy",
+      "category": "models",
       "tags": [
-       "budget 2026",
-       "economics",
-       "uk news",
-       "media",
-       "internet",
-       "ai (artificial intelligence)"
+       "ai",
+       "cyber",
+       "mistral"
       ],
-      "entities": [],
+      "entities": [
+       "mistral"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/061bd00ab542b5868a6b8186c18270f69f6865c7/0_0_2000_1600/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=f0fb6399a51d0014107a95c50bf0aa2d",
-       "credit": "Composite: Guardian Design",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "b75c11e31a8eea14",
+      "eventId": "23e63926cceaf4fd",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.7,
-        "topic": 85.0,
-        "novelty": 93.3
+        "recency": 90.3,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
-        "title": "Reader Q & A: ارسال یک سوال به نویسنده اقتصاد گاردین Aditya Chakrabortty",
-        "excerpt": "ستون نویس نگهبان، مفسر ارشد اقتصاد و میزبان پادکست تفکر رادیکال جدید Aditya Chakrabortty در 2 بعد از ظهر GMT (9am EDT) در روز جمعه آنلاین خواهد بود تا به سوالات شما در مورد ایده های بزرگ در مورد اقتصاد، جامعه و دموکراسی ارسال سوالات خود را به مکالمات@theguardian.com و یا پیوستن به بحث در روز جمعه از 8 Adam Aditya Chaborty جایزه ارشد گاردین است.",
+        "title": "Mistral انتشار وزن برای مدل AI تریلیون-parameter خود، هدف قرار دادن امنیت سایبری",
+        "excerpt": "میسترال می گوید که مدل جدید آن می تواند کنترل سازمان ها بر دفاع سایبری خود را که مدل های بسته نمی توانند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
+        "at": "2026-10-29T19:01:24Z"
        }
       }
      },
@@ -361,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-22T17:01:15Z",
-   "to": "2026-10-29T17:01:15Z",
+   "from": "2026-10-22T18:45:31Z",
+   "to": "2026-10-29T18:45:31Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -393,15 +397,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 80.9,
+       "total": 80.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 79.4,
+        "recency": 78.0,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -422,47 +426,48 @@
     },
     {
      "article": {
-      "id": "a1765f446c5b64b5",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "excerpt": "",
+      "id": "7bf0065ceb1646f5",
+      "url": "https://openai.com/index/updated-model-spec",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
       "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
+      "publishedAt": "2026-10-29T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
       "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "mistral"
+      "tags": [
+       "safety"
       ],
-      "brand": null,
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/mistral-large4"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "a1765f446c5b64b5",
+      "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.9,
+        "recency": 98.3,
         "topic": 100.0,
-        "novelty": 92.3
+        "novelty": 83.3
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
-        "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
+        "title": "یک مدل به روز شده برای AI توانمند تر و مفید تر",
+        "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
+        "at": "2026-10-29T19:01:24Z"
        }
       }
      },
@@ -476,21 +481,19 @@
     },
     {
      "article": {
-      "id": "d28967fce9c692cd",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "id": "2d9928289658e986",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "How we detect frontier model misalignment",
-      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
       "lang": "en",
-      "publishedAt": "2026-10-29T09:00:00Z",
+      "publishedAt": "2026-10-29T07:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
       "category": "models",
-      "tags": [
-       "security"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
@@ -499,25 +502,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "d28967fce9c692cd",
+      "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 89.3,
         "topic": 100.0,
-        "novelty": 71.4
+        "novelty": 92.9
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونگی تشخیص اشتباه مدل مرزی",
-        "excerpt": "OpenAI از نظارت لایه ای برای تشخیص سوء تفاهم مدل مرزی و رفتار عامل غیر مجاز استفاده می کند، بنابراین پاسخ دهندگان می توانند قبل از تشدید حوادث مداخله کنند.",
+        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
+        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
+        "at": "2026-10-29T19:01:24Z"
        }
       }
      },
@@ -560,15 +563,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.3,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -589,52 +592,53 @@
     },
     {
      "article": {
-      "id": "3dcfe747ba6ccec0",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+      "id": "983901472b072637",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
-      "excerpt": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
       "lang": "en",
-      "publishedAt": "2026-10-29T16:54:52Z",
+      "publishedAt": "2026-10-29T18:14:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
       "category": "products",
       "tags": [
        "advanced (300)",
-       "amazon bedrock agentcore",
-       "customer solutions"
+       "aws transform",
+       "kiro",
+       "technical how-to"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-21704-1.png",
-       "alt": "AgentCore Gateway architecture: agent services reach the gateway through a private VPC interface endpoint, which evaluates Cedar policies and routes calls over Amazon VPC Lattice to internal APIs",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
+       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "3dcfe747ba6ccec0",
+      "eventId": "983901472b072637",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.5,
         "topic": 65.0,
-        "novelty": 85.7
+        "novelty": 90.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه MoEngage بیش از 400 API را به ابزارهای عامل با GatewayCore تبدیل کرد",
-        "excerpt": "MoEngage تقریبا 400 API خصوصی REST را در 7 منطقه AWS به ابزار عامل مجاز با Amazon Bedrock Agent Gateway تبدیل کرد. هیچ سرویس دهنده MCP، هیچ نقطه پایانی عمومی و بدون bloat 400 ابزار نیست. ببینید که OpenAPI چگونه مشخصات، سیاست های Cedar و مدیریت آمازون VPC Lattice egress آن را کار می کند.",
+        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
+        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
+        "at": "2026-10-29T19:01:24Z"
        }
       }
      },
@@ -673,15 +677,15 @@
       "eventId": "f3538b6fb36f4f58",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 95.2,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -731,15 +735,15 @@
       "eventId": "a0c8bc8caa040e76",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 97.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -760,52 +764,46 @@
     },
     {
      "article": {
-      "id": "071e826394b5b671",
-      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "3 Questions: Why infrastructure is entering a defining era",
-      "excerpt": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "id": "e1c742c1d925baf7",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-28T16:00:00Z",
+      "publishedAt": "2026-10-29T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "research",
-      "tags": [
-       "interview",
-       "faculty",
-       "supply chains",
-       "infrastructure",
-       "energy",
-       "transportation"
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
       },
-      "eventId": "071e826394b5b671",
+      "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.6,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 83.5,
+        "topic": 75.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
-        "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
-        "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
+        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
@@ -820,8 +818,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-29T17:01:15Z",
-   "to": "2026-10-29T17:01:15Z",
+   "from": "2026-09-29T18:45:31Z",
+   "to": "2026-10-29T18:45:31Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -852,15 +850,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 83.7,
+       "total": 83.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 93.3,
+        "recency": 92.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -875,6 +873,114 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d9928289658e986",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2d9928289658e986",
+      "related": [],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.7,
+        "topic": 100.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
+        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7bf0065ceb1646f5",
+      "url": "https://openai.com/index/updated-model-spec",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "7bf0065ceb1646f5",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک مدل به روز شده برای AI توانمند تر و مفید تر",
+        "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -907,139 +1013,21 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
         "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "78924ef2955743e3",
-      "url": "https://www.youtube.com/watch?v=z-WZMjNsg-k",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Faster contract review. Broader legal analysis. | Legora’s Alex Fortescue-Webb",
-      "excerpt": "When deadlines limit how many contracts lawyers can examine, important risks can go unseen. Alex Fortescue-Webb, Global Head of Legal Engineering at Legora, explains how AI powered by OpenAI models helps teams analyse thousands of contracts across multiple questions in minutes, expanding the scope of due diligence and giving lawyers more information to apply their judgment. Part of Intelligence…",
-      "lang": "en",
-      "publishedAt": "2026-10-28T09:45:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T13:09:23Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/z-WZMjNsg-k/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "z-WZMjNsg-k",
-       "url": "https://www.youtube.com/watch?v=z-WZMjNsg-k"
-      },
-      "eventId": "78924ef2955743e3",
-      "related": [],
-      "score": {
-       "total": 72.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.4,
-        "topic": 100.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بررسی سریع تر قرارداد تجزیه و تحلیل قانونی گسترده تر: الکس فورتسکوی – Webb",
-        "excerpt": "هنگامی که مهلت ها تعداد وکلا را محدود می کنند، خطرات مهم می توانند نادیده گرفته شوند. الکس Fortescue-Webb، رئیس جهانی مهندسی حقوقی در لگورا، توضیح می دهد که چگونه AI توسط مدل های OpenAI به تیم ها کمک می کند تا هزاران قرارداد را در چند دقیقه تجزیه و تحلیل کنند، دامنه تلاش های قانونی را گسترش دهند و به وکلا اطلاعات بیشتری برای اعمال قضاوت خود بدهند. بخشی از اطلاعات ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T13:09:23Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b7fa7ced8449c082",
-      "url": "https://www.youtube.com/watch?v=ID6vEy94j7c",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Building real-time vision & edge navigation with Gemini Live",
-      "excerpt": "Meet Sprout, a semi-autonomous plant robot powered by Gemini. Watch as it navigates the office in search of sunlight, pings for help, and uses Gemini Live and Robotics ER 2.0 for vision to care for fellow office plants. Try building today → https://goo.gle/4BmThG6 Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: Gemini, Google AI Studio Speaker: Xavier Plantaz",
-      "lang": "en",
-      "publishedAt": "2026-10-28T21:00:32Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T23:38:45Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/ID6vEy94j7c/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ID6vEy94j7c",
-       "url": "https://www.youtube.com/watch?v=ID6vEy94j7c"
-      },
-      "eventId": "b7fa7ced8449c082",
-      "related": [],
-      "score": {
-       "total": 72.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت نمای زمان واقعی و ناوبری لبه با Gemini Live",
-        "excerpt": "با Sprout، یک ربات گیاهی نیمه خودکار که توسط Gemini ساخته شده است آشنا شوید. به عنوان آن را به دفتر در جستجوی نور خورشید، پینگ برای کمک، و استفاده از Gemini Live و Robotics ER 2.0 برای چشم انداز برای مراقبت از گیاهان اداری دیگر. سعی کنید امروز بسازید – https://goo.gle/4BmThG6 مشترک به Google for Developers – https://goo.gle/ Developmenters Products ذکر شده: Gemini, Google AI Studio اسپیکر: خاویر Plantaz",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T23:38:45Z"
        }
       }
      },
@@ -1082,15 +1070,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 58.6,
+        "recency": 58.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -1102,65 +1090,6 @@
       }
      },
      "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "61f4d0141ff303c0",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI models are coming to Google Cloud",
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-21T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-21T13:55:00Z",
-      "day": "2026-10-21",
-      "category": "products",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "google",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "61f4d0141ff303c0",
-      "related": [
-       "14f13252070a5596"
-      ],
-      "score": {
-       "total": 71.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 56.6,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های OpenAI به Google Cloud می آیند",
-        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T13:55:00Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1206,15 +1135,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.0,
+        "recency": 80.6,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -1225,64 +1154,11 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1c742c1d925baf7",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
-      },
-      "eventId": "e1c742c1d925baf7",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-29T17:01:15Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1322,11 +1198,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.5,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
@@ -1337,7 +1213,60 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1c742c1d925baf7",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "eventId": "e1c742c1d925baf7",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.7,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1373,19 +1302,78 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 92.3,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-29T17:01:15Z"
+       "asOf": "2026-10-29T18:45:31Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "071e826394b5b671",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "excerpt": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "lang": "en",
+      "publishedAt": "2026-10-28T16:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "research",
+      "tags": [
+       "interview",
+       "faculty",
+       "supply chains",
+       "infrastructure",
+       "energy",
+       "transportation"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "071e826394b5b671",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.6,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-29T18:45:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
+        "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
        }
