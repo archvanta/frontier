@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-29T10:16:34Z",
+ "asOf": "2026-10-29T13:00:44Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-28T10:16:34Z",
-   "to": "2026-10-29T10:16:34Z",
+   "from": "2026-10-28T13:00:44Z",
+   "to": "2026-10-29T13:00:44Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,15 +42,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 72.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 36.9,
+        "recency": 31.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -65,6 +65,179 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "655087a93bdd644a",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Could Abdul El-Sayed’s plan for AI companies stave off catastrophe? | Jerel Ezell",
+      "excerpt": "The Michigan Senate candidate is calling for public ownership and other reforms, offering a potential antidote to ideological gridlock The Michigan senatorial candidate Abdul El-Sayed, a Democrat, occupies a strange but increasingly common place in modern American politics. He’s praised by progressives, begrudgingly tolerated by moderate Democrats and largely demonized by Republicans. He’s also…",
+      "lang": "en",
+      "publishedAt": "2026-10-29T13:00:44Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "us midterm elections 2026",
+       "michigan",
+       "us news",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/ffe3f47c389b540da0966d720b7259c483e19092/317_0_3176_2541/master/3176.jpg?width=700&quality=85&auto=format&fit=max&s=8b0ebcc26b895c340d044de13c6d2f47",
+       "credit": "Photograph: Jeff Kowalsky/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "655087a93bdd644a",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-29T13:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا می توان طرح عبدالعزیز برای شرکت های AI را از فاجعه دور کرد؟ rel Ezell",
+        "excerpt": "نامزد مجلس سنای میشیگان خواستار مالکیت عمومی و اصلاحات دیگر است، ارائه یک پادتن بالقوه به شبکه ایدئولوژیک نامزد سناتور میشیگان عبدال ال-دبیر، یک دموکرات، یک مکان عجیب و غریب اما به طور فزاینده ای رایج در سیاست مدرن آمریکا است. او توسط ترقی خواهان ستایش می شود، که توسط دموکرات های معتدل تحمل می شود و عمدتا توسط جمهوریخواهان شیطانی می شود. او همچنین ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T13:15:43Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "65e340f4eeea0506",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Computerized clairvoyance: psychics push back against AI-generated readings",
+      "excerpt": "Human practitioners warn computer-generated offerings lack the empathy and connection central to divination “This journey isn’t just about algorithms or data,” an AI psychic named Urban Mystic recently told me. The chatbot, featuring an AI-generated profile photo of a smiling woman surrounded by palm trees, also said I will get married soon, that I have a pink aura and that I may have been an…",
+      "lang": "en",
+      "publishedAt": "2026-10-29T11:00:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/8965bdb4347fba9c905e802374a3cebfea5c77ac/375_0_2250_1800/master/2250.jpg?width=700&quality=85&auto=format&fit=max&s=09f954ed5216cbd7c1f3c82d0f9722f0",
+       "credit": "Illustration: Guardian Design/Yuichiro Chino/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "65e340f4eeea0506",
+      "related": [],
+      "score": {
+       "total": 63.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 85.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-29T13:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تقویت کامپیوتری: روانشناسان علیه خواندن های تولید شده توسط AI فشار می آورند",
+        "excerpt": "تمرین کنندگان انسانی هشدار می دهند که ارائه های کامپیوتری فاقد همدلی و ارتباط مرکزی برای تفرقه انداختن \"این سفر فقط در مورد الگوریتم ها یا داده ها نیست\"، یک روانشناس AI به نام Urban Mystic اخیرا به من گفت. چت بات، شامل یک عکس پروفایل AI تولید شده از یک زن خندان احاطه شده توسط درختان نخل، همچنین گفت که من به زودی ازدواج خواهم کرد، که من یک aura صورتی دارم و ممکن است یک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T13:15:43Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "24f676feeb3a33f0",
+      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
+      "lang": "en",
+      "publishedAt": "2026-10-29T10:11:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "policy",
+      "tags": [
+       "artificial intelligence",
+       "app",
+       "opinion"
+      ],
+      "entities": [
+       "huggingface",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "24f676feeb3a33f0",
+      "related": [],
+      "score": {
+       "total": 62.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 84.9,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-29T13:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ما باید فوراً اقدامات عوامل هوش مصنوعی را در زمان واقعی نظارت کنیم.",
+        "excerpt": "تابستان امسال، صدها مامور OpenAI سعی کردند در آزمون امنیت سایبری تقلب کنند. آن ها از محیط آزمایشی خود شکست خوردند و با موفقیت Hugging Face را هک کردند، سایتی که آنها معتقد بودند سرنخ هایی در مورد چگونگی درجه بندی آنها دارند. در همان زمان، یکی دیگر از عوامل OpenAI به فایل های خصوصی از یک وب سایت دولتی استرالیا دسترسی داشت. این یک مشکل است ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T13:15:43Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -101,198 +274,20 @@
       "eventId": "28b285bc92e70402",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 62.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.6,
+        "recency": 50.0,
         "topic": 100.0,
         "novelty": 70.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
         "title": "ساخت یک کارخانه مستقل با Gemini Live",
         "excerpt": "Meet Sprout: یک کاوشگر نیمه خودکار ساخته شده با Gemini Live و Robotics 2.0 که فضاهای اداری را برای شکار نور خورشید و مراقبت از محصولات سبز هدایت می کند. 🔗 کاوش در ساخت → https://goo.gle/3UCdUOa مشترک به Google برای توسعه دهندگان → HTTPS://google / در حال توسعه محصولات ذکر شده: Gemini، Google Studio",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9cd5509199bff926",
-      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "AI has come for Arizona’s water",
-      "excerpt": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one",
-      "lang": "en",
-      "publishedAt": "2026-10-29T10:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [
-       "ai",
-       "environment",
-       "features",
-       "science"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268658_Data_center_AZ_LEDE_VOSSS50.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A desert sunset on the horizon behind a data center under construction.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "9cd5509199bff926",
-      "related": [
-       "d23cfcba84580668"
-      ],
-      "score": {
-       "total": 61.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 65.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-29T10:16:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI برای آب آریزونا آمده است",
-        "excerpt": "یک غول خاکستری از صحرا بزرگ می شود. در داخل، مهندسان نیروی پشت تلفن ها و رایانه ها و لوازم ما، خدمات جریان و موتورهای جستجو و chatbots و برنامه ها و وب سایت های کد شده را ایجاد می کنند. این مجموعه به طور همزمان عظیم و پر شده است، که توسط کوه هایی که آن را احاطه کرده اند، و بی پایان است. رانندگی از یک",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "99a71e0459a424da",
-      "url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "I Gave My Blood to the AI Death Clock",
-      "excerpt": "Death Clock promises to predict when you’re going to die and help you extend your time on Earth. After a month, I felt like it was sucking the life out of me.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
-      "day": "2026-10-29",
-      "category": "business",
-      "tags": [
-       "the big story",
-       "culture",
-       "science",
-       "longreads",
-       "ghosts in the machine",
-       "artificial intelligence"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.wired.com/photos/6adbec3437abe86dfce58fe9/master/pass/WIRED-Ghost-Stories-Death-Clock.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "99a71e0459a424da",
-      "related": [],
-      "score": {
-       "total": 61.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 55.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-10-29T10:16:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "خونم را به ساعت مرگ هوش مصنوعی دادم",
-        "excerpt": "ساعت مرگ وعده می دهد که پیش بینی کنید که چه زمانی می خواهید بمیرید و به شما کمک می کند زمان خود را بر روی زمین گسترش دهید. بعد از یک ماه، احساس می کردم که زندگی را از من بیرون می کشد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e59c1ac4a9944e36",
-      "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "API credits, now in ChatGPT Pro and Business plans",
-      "excerpt": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace…",
-      "lang": "en",
-      "publishedAt": "2026-10-28T23:45:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
-      "day": "2026-10-28",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/ujmyzWSj8IU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ujmyzWSj8IU",
-       "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU"
-      },
-      "eventId": "e59c1ac4a9944e36",
-      "related": [],
-      "score": {
-       "total": 59.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 54.5,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-29T10:16:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اعتبار API، در حال حاضر در برنامه های ChatGPT Pro و Business",
-        "excerpt": "از امروز شروع، واجد شرایط ChatGPT Pro و مشترکین کسب و کار می توانند تا 500 دلار در ماه در اعتبارات API برای ساخت برنامه ها و عوامل ادعا کنند. مقدار اعتباری بستگی به برنامه دارد. برنامه های پیشنهادی 100، 200 دلار یا 500 دلار در ماه با لایه دریافت می کنند. برنامه های کسب و کار 20 دلار در هر صندلی استاندارد پرداخت شده یا 100 دلار برای هر صندلی پرداخت می شود، تا 500 دلار در هر فضای کاری جمع آوری شده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T10:27:23Z"
        }
@@ -308,53 +303,47 @@
     },
     {
      "article": {
-      "id": "9118d22fa4098f95",
-      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-      "excerpt": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published.",
+      "id": "85d975255b4f9d00",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-28T18:19:54Z",
+      "publishedAt": "2026-10-29T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "hardware",
-      "tags": [
-       "amazon elastic kubernetes service",
-       "expert (400)",
-       "technical how-to"
-      ],
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "amazon",
-       "nvidia"
+       "apple",
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-1-1.png",
-       "alt": "EKS cluster with a CPU system node running KubeRay and the Ray head, and two EFA-enabled g6.12xlarge GPU worker nodes in one Availability Zone",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
       },
-      "eventId": "9118d22fa4098f95",
+      "eventId": "85d975255b4f9d00",
       "related": [],
       "score": {
-       "total": 57.6,
+       "total": 59.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 39.8,
-        "topic": 70.0,
-        "novelty": 90.9
+        "recency": 47.2,
+        "topic": 75.0,
+        "novelty": 86.7
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
-        "title": "آموزش توزیع شده با Ray Train DLC و EFA در EKS",
-        "excerpt": "Ray Train Deep Learning Container یک پشته کامل CUDA-through-EFA را کشتی می کند، بنابراین شما هیچ تصویری نمی سازید. این پست از طریق یک نمونه تکراری که Qwen2.5-1.5B را با PyTorch FSDP در هشت GPU در دو نمونه بزرگ G6.12x فعال EFA در آمازون EKS با استفاده از ظرف دقیقا همانطور که منتشر شده است، پیاده روی می کند.",
+        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-29T13:15:43Z"
        }
       }
      },
@@ -369,8 +358,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-22T10:16:34Z",
-   "to": "2026-10-29T10:16:34Z",
+   "from": "2026-10-22T13:00:44Z",
+   "to": "2026-10-29T13:00:44Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -401,15 +390,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.9,
+       "total": 81.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 84.7,
+        "recency": 82.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +449,15 @@
       "eventId": "b7fa7ced8449c082",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 85.7,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -519,15 +508,15 @@
       "eventId": "28b285bc92e70402",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 70.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -539,6 +528,60 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "85d975255b4f9d00",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "apple",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      "eventId": "85d975255b4f9d00",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.2,
+        "topic": 75.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-10-29T13:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T13:15:43Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -574,15 +617,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.0,
+        "recency": 80.9,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -592,7 +635,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -632,15 +675,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 81.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -651,7 +694,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -691,15 +734,15 @@
       "eventId": "e59c1ac4a9944e36",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.4,
+        "recency": 88.0,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -710,7 +753,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -751,79 +794,20 @@
       "eventId": "9118d22fa4098f95",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 83.5,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
         "title": "آموزش توزیع شده با Ray Train DLC و EFA در EKS",
         "excerpt": "Ray Train Deep Learning Container یک پشته کامل CUDA-through-EFA را کشتی می کند، بنابراین شما هیچ تصویری نمی سازید. این پست از طریق یک نمونه تکراری که Qwen2.5-1.5B را با PyTorch FSDP در هشت GPU در دو نمونه بزرگ G6.12x فعال EFA در آمازون EKS با استفاده از ظرف دقیقا همانطور که منتشر شده است، پیاده روی می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b8bfa4647f108004",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
-      "excerpt": "Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production.",
-      "lang": "en",
-      "publishedAt": "2026-10-28T18:28:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "open-source",
-      "tags": [
-       "amazon bedrock agentcore",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21798-1.png",
-       "alt": "Operating model linking the governance foundation, Platform control plane, and team-owned Workstream cells",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "b8bfa4647f108004",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.9,
-        "topic": 75.0,
-        "novelty": 73.3
-       },
-       "asOf": "2026-10-29T10:16:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت یک پلتفرم هوش مصنوعی در Amazon Bedrock Agent",
-        "excerpt": "یک پلتفرم AI چند حساب در Amazon Bedrock AgentCore را اجرا کنید. این پست از طریق معماری و یک طرح مرجع منبع باز پیاده می شود: مدل عملیاتی، کنترل هواپیما، سلول های هر کار، استنتاج جداگانه و دروازه ابزار، و یک خط لوله ارزیابی CI / CD که هر عامل را قبل از تولید قرار می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
        }
@@ -840,8 +824,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-29T10:16:34Z",
-   "to": "2026-10-29T10:16:34Z",
+   "from": "2026-09-29T13:00:44Z",
+   "to": "2026-10-29T13:00:44Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -872,15 +856,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 84.0,
+       "total": 83.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 95.1,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -931,15 +915,15 @@
       "eventId": "78924ef2955743e3",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 92.4,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -990,15 +974,15 @@
       "eventId": "b7fa7ced8449c082",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1049,15 +1033,15 @@
       "eventId": "b781f6bc8b549636",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 92.4,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1107,15 +1091,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 59.8,
+        "recency": 59.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1172,15 +1156,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 82.6,
+        "recency": 81.9,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1228,15 +1212,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 93.8,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1247,6 +1231,60 @@
       }
      },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "85d975255b4f9d00",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T13:15:43Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "apple",
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
+      },
+      "eventId": "85d975255b4f9d00",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.3,
+        "topic": 75.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-10-29T13:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T13:15:43Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1286,15 +1324,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 94.1,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1305,7 +1343,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1346,15 +1384,15 @@
       "eventId": "67f0b179673ce3b4",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.8,
+        "recency": 89.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-10-29T10:16:34Z"
+       "asOf": "2026-10-29T13:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1362,65 +1400,6 @@
         "excerpt": "Prabha Jha از تجربه خود با برنامه MIT Open Learning برای مدیران ارشد برای توسعه راه حل های AI برای کارفرمای خود، Verizon و نوشتن یک کتاب استفاده کرد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-27T21:30:10Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "feb4caa835f163bd",
-      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
-      "excerpt": "Education Innovation",
-      "lang": "en",
-      "publishedAt": "2026-10-27T17:35:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T19:28:46Z",
-      "day": "2026-10-27",
-      "category": "research",
-      "tags": [
-       "education innovation",
-       "general science",
-       "machine intelligence",
-       "natural language processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "feb4caa835f163bd",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.9,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-29T10:16:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چارچوب خواب: یک راه جدید برای LLM ها برای حفظ دانش در یادگیری مداوم",
-        "excerpt": "آموزش نوآوری",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T19:28:46Z"
        }
       }
      },
