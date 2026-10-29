@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-29T13:00:44Z",
+ "asOf": "2026-10-29T17:01:15Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,286 +10,283 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-28T13:00:44Z",
-   "to": "2026-10-29T13:00:44Z",
+   "from": "2026-10-28T17:01:15Z",
+   "to": "2026-10-29T17:01:15Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
+      "id": "aa702b033bfda9cd",
+      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
       "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
+      "publishedAt": "2026-10-29T16:58:57Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "aws batch",
+       "technical how-to"
       ],
-      "brand": "gemini",
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
+       "url": "images/fallbacks/hardware.svg",
        "kind": "fallback"
       },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
+      "eventId": "aa702b033bfda9cd",
+      "related": [],
       "score": {
-       "total": 71.3,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 31.5,
-        "topic": 100.0,
-        "novelty": 75.0
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 70.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
+        "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 1,
-     "sources": 2,
+     "sources": 1,
      "reason": [
       "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "655087a93bdd644a",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/29/abdul-el-sayed-ai-companies-public-ownership",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Could Abdul El-Sayed’s plan for AI companies stave off catastrophe? | Jerel Ezell",
-      "excerpt": "The Michigan Senate candidate is calling for public ownership and other reforms, offering a potential antidote to ideological gridlock The Michigan senatorial candidate Abdul El-Sayed, a Democrat, occupies a strange but increasingly common place in modern American politics. He’s praised by progressives, begrudgingly tolerated by moderate Democrats and largely demonized by Republicans. He’s also…",
+      "id": "3dcfe747ba6ccec0",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "excerpt": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
       "lang": "en",
-      "publishedAt": "2026-10-29T13:00:44Z",
+      "publishedAt": "2026-10-29T16:54:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
-      "category": "policy",
+      "category": "products",
       "tags": [
-       "ai (artificial intelligence)",
-       "us midterm elections 2026",
-       "michigan",
-       "us news",
-       "technology"
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "customer solutions"
       ],
-      "entities": [],
+      "entities": [
+       "amazon"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/ffe3f47c389b540da0966d720b7259c483e19092/317_0_3176_2541/master/3176.jpg?width=700&quality=85&auto=format&fit=max&s=8b0ebcc26b895c340d044de13c6d2f47",
-       "credit": "Photograph: Jeff Kowalsky/AFP/Getty Images",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-21704-1.png",
+       "alt": "AgentCore Gateway architecture: agent services reach the gateway through a private VPC interface endpoint, which evaluates Cedar policies and routes calls over Amazon VPC Lattice to internal APIs",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "655087a93bdd644a",
+      "eventId": "3dcfe747ba6ccec0",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 68.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 99.4,
+        "topic": 65.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا می توان طرح عبدالعزیز برای شرکت های AI را از فاجعه دور کرد؟ rel Ezell",
-        "excerpt": "نامزد مجلس سنای میشیگان خواستار مالکیت عمومی و اصلاحات دیگر است، ارائه یک پادتن بالقوه به شبکه ایدئولوژیک نامزد سناتور میشیگان عبدال ال-دبیر، یک دموکرات، یک مکان عجیب و غریب اما به طور فزاینده ای رایج در سیاست مدرن آمریکا است. او توسط ترقی خواهان ستایش می شود، که توسط دموکرات های معتدل تحمل می شود و عمدتا توسط جمهوریخواهان شیطانی می شود. او همچنین ...",
+        "title": "چگونه MoEngage بیش از 400 API را به ابزارهای عامل با GatewayCore تبدیل کرد",
+        "excerpt": "MoEngage تقریبا 400 API خصوصی REST را در 7 منطقه AWS به ابزار عامل مجاز با Amazon Bedrock Agent Gateway تبدیل کرد. هیچ سرویس دهنده MCP، هیچ نقطه پایانی عمومی و بدون bloat 400 ابزار نیست. ببینید که OpenAPI چگونه مشخصات، سیاست های Cedar و مدیریت آمازون VPC Lattice egress آن را کار می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 2,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "65e340f4eeea0506",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/29/psychics-push-back-ai-readings",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Computerized clairvoyance: psychics push back against AI-generated readings",
-      "excerpt": "Human practitioners warn computer-generated offerings lack the empathy and connection central to divination “This journey isn’t just about algorithms or data,” an AI psychic named Urban Mystic recently told me. The chatbot, featuring an AI-generated profile photo of a smiling woman surrounded by palm trees, also said I will get married soon, that I have a pink aura and that I may have been an…",
+      "id": "a0c8bc8caa040e76",
+      "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+      "excerpt": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface…",
       "lang": "en",
-      "publishedAt": "2026-10-29T11:00:31Z",
+      "publishedAt": "2026-10-29T16:23:43Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "technology"
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/8965bdb4347fba9c905e802374a3cebfea5c77ac/375_0_2250_1800/master/2250.jpg?width=700&quality=85&auto=format&fit=max&s=09f954ed5216cbd7c1f3c82d0f9722f0",
-       "credit": "Illustration: Guardian Design/Yuichiro Chino/Getty Images",
+       "url": "https://i1.ytimg.com/vi/L6pzlo1QvoM/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "65e340f4eeea0506",
+      "video": {
+       "provider": "youtube",
+       "id": "L6pzlo1QvoM",
+       "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM"
+      },
+      "eventId": "a0c8bc8caa040e76",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 67.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 85.0,
-        "novelty": 91.7
+        "recency": 96.5,
+        "topic": 65.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "تقویت کامپیوتری: روانشناسان علیه خواندن های تولید شده توسط AI فشار می آورند",
-        "excerpt": "تمرین کنندگان انسانی هشدار می دهند که ارائه های کامپیوتری فاقد همدلی و ارتباط مرکزی برای تفرقه انداختن \"این سفر فقط در مورد الگوریتم ها یا داده ها نیست\"، یک روانشناس AI به نام Urban Mystic اخیرا به من گفت. چت بات، شامل یک عکس پروفایل AI تولید شده از یک زن خندان احاطه شده توسط درختان نخل، همچنین گفت که من به زودی ازدواج خواهم کرد، که من یک aura صورتی دارم و ممکن است یک ...",
+        "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
+        "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "24f676feeb3a33f0",
-      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "excerpt": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
+      "id": "f3538b6fb36f4f58",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-29T10:11:12Z",
+      "publishedAt": "2026-10-29T13:37:07Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
-      "category": "policy",
-      "tags": [
-       "artificial intelligence",
-       "app",
-       "opinion"
-      ],
+      "category": "products",
+      "tags": [],
       "entities": [
-       "huggingface",
-       "openai"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
       },
-      "eventId": "24f676feeb3a33f0",
+      "eventId": "f3538b6fb36f4f58",
       "related": [],
       "score": {
-       "total": 62.7,
+       "total": 65.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.9,
-        "topic": 85.0,
+        "recency": 82.2,
+        "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "ما باید فوراً اقدامات عوامل هوش مصنوعی را در زمان واقعی نظارت کنیم.",
-        "excerpt": "تابستان امسال، صدها مامور OpenAI سعی کردند در آزمون امنیت سایبری تقلب کنند. آن ها از محیط آزمایشی خود شکست خوردند و با موفقیت Hugging Face را هک کردند، سایتی که آنها معتقد بودند سرنخ هایی در مورد چگونگی درجه بندی آنها دارند. در همان زمان، یکی دیگر از عوامل OpenAI به فایل های خصوصی از یک وب سایت دولتی استرالیا دسترسی داشت. این یک مشکل است ...",
+        "title": "سوئیچ گرانیت 4.1.1 - مدل های به روز رسانی مانند شما به روز رسانی نرم افزار",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "28b285bc92e70402",
-      "url": "https://www.youtube.com/shorts/cv8tEbKtEvk",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "🪴 Building an autonomous plant rover with Gemini Live",
-      "excerpt": "Meet Sprout: an semi-autonomous plant rover built with Gemini Live and Robotics ER 2.0 that navigates office spaces to hunt for sunlight and care for greenery. 🔗 Explore the build → https://goo.gle/3UCdUOa Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: Gemini, Google AI Studio Speaker: Xavier Plantaz",
+      "id": "d28967fce9c692cd",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How we detect frontier model misalignment",
+      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "lang": "en",
-      "publishedAt": "2026-10-29T01:00:36Z",
+      "publishedAt": "2026-10-29T09:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
       "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
+      "tags": [
+       "security"
       ],
-      "brand": "gemini",
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "https://i4.ytimg.com/vi/cv8tEbKtEvk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "cv8tEbKtEvk",
-       "url": "https://www.youtube.com/watch?v=cv8tEbKtEvk"
-      },
-      "eventId": "28b285bc92e70402",
+      "eventId": "d28967fce9c692cd",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 50.0,
+        "recency": 62.9,
         "topic": 100.0,
-        "novelty": 70.0
+        "novelty": 71.4
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت یک کارخانه مستقل با Gemini Live",
-        "excerpt": "Meet Sprout: یک کاوشگر نیمه خودکار ساخته شده با Gemini Live و Robotics 2.0 که فضاهای اداری را برای شکار نور خورشید و مراقبت از محصولات سبز هدایت می کند. 🔗 کاوش در ساخت → https://goo.gle/3UCdUOa مشترک به Google برای توسعه دهندگان → HTTPS://google / در حال توسعه محصولات ذکر شده: Gemini، Google Studio",
+        "title": "چگونگی تشخیص اشتباه مدل مرزی",
+        "excerpt": "OpenAI از نظارت لایه ای برای تشخیص سوء تفاهم مدل مرزی و رفتار عامل غیر مجاز استفاده می کند، بنابراین پاسخ دهندگان می توانند قبل از تشدید حوادث مداخله کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
@@ -303,54 +300,60 @@
     },
     {
      "article": {
-      "id": "85d975255b4f9d00",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "excerpt": "",
+      "id": "b75c11e31a8eea14",
+      "url": "https://www.theguardian.com/community/live/2026/oct/29/reader-qa-aditya-chakrabortty-answers-your-questions",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Reader Q&A: Send a question to Guardian economics writer Aditya Chakrabortty",
+      "excerpt": "Guardian columnist, senior economics commentator and host of the new Radical Thinking podcast Aditya Chakrabortty will be online at 2pm GMT (9am EDT) on Friday to answer your questions on the big ideas around economics, society and democracy Send your questions to conversations@theguardian.com or join the discussion on Friday from 8am Aditya Chakrabortty is the Guardian’s award-winning senior…",
       "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
+      "publishedAt": "2026-10-29T15:31:25Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
+      "category": "policy",
+      "tags": [
+       "budget 2026",
+       "economics",
+       "uk news",
+       "media",
+       "internet",
+       "ai (artificial intelligence)"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
+       "url": "https://i.guim.co.uk/img/media/061bd00ab542b5868a6b8186c18270f69f6865c7/0_0_2000_1600/master/2000.jpg?width=700&quality=85&auto=format&fit=max&s=f0fb6399a51d0014107a95c50bf0aa2d",
+       "credit": "Composite: Guardian Design",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "85d975255b4f9d00",
+      "eventId": "b75c11e31a8eea14",
       "related": [],
       "score": {
-       "total": 59.4,
+       "total": 64.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 47.2,
-        "topic": 75.0,
-        "novelty": 86.7
+        "recency": 91.7,
+        "topic": 85.0,
+        "novelty": 93.3
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
+        "title": "Reader Q & A: ارسال یک سوال به نویسنده اقتصاد گاردین Aditya Chakrabortty",
+        "excerpt": "ستون نویس نگهبان، مفسر ارشد اقتصاد و میزبان پادکست تفکر رادیکال جدید Aditya Chakrabortty در 2 بعد از ظهر GMT (9am EDT) در روز جمعه آنلاین خواهد بود تا به سوالات شما در مورد ایده های بزرگ در مورد اقتصاد، جامعه و دموکراسی ارسال سوالات خود را به مکالمات@theguardian.com و یا پیوستن به بحث در روز جمعه از 8 Adam Aditya Chaborty جایزه ارشد گاردین است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -358,8 +361,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-22T13:00:44Z",
-   "to": "2026-10-29T13:00:44Z",
+   "from": "2026-10-22T17:01:15Z",
+   "to": "2026-10-29T17:01:15Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -390,15 +393,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.5,
+       "total": 80.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 82.5,
+        "recency": 79.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -419,52 +422,47 @@
     },
     {
      "article": {
-      "id": "b7fa7ced8449c082",
-      "url": "https://www.youtube.com/watch?v=ID6vEy94j7c",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Building real-time vision & edge navigation with Gemini Live",
-      "excerpt": "Meet Sprout, a semi-autonomous plant robot powered by Gemini. Watch as it navigates the office in search of sunlight, pings for help, and uses Gemini Live and Robotics ER 2.0 for vision to care for fellow office plants. Try building today → https://goo.gle/4BmThG6 Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: Gemini, Google AI Studio Speaker: Xavier Plantaz",
+      "id": "a1765f446c5b64b5",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-28T21:00:32Z",
+      "publishedAt": "2026-10-29T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T23:38:45Z",
-      "day": "2026-10-28",
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
       "category": "models",
       "tags": [],
       "entities": [
-       "google"
+       "huggingface",
+       "mistral"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/ID6vEy94j7c/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mistral-large4"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "ID6vEy94j7c",
-       "url": "https://www.youtube.com/watch?v=ID6vEy94j7c"
-      },
-      "eventId": "b7fa7ced8449c082",
+      "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 84.9,
         "topic": 100.0,
-        "novelty": 84.6
+        "novelty": 92.3
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت نمای زمان واقعی و ناوبری لبه با Gemini Live",
-        "excerpt": "با Sprout، یک ربات گیاهی نیمه خودکار که توسط Gemini ساخته شده است آشنا شوید. به عنوان آن را به دفتر در جستجوی نور خورشید، پینگ برای کمک، و استفاده از Gemini Live و Robotics ER 2.0 برای چشم انداز برای مراقبت از گیاهان اداری دیگر. سعی کنید امروز بسازید – https://goo.gle/4BmThG6 مشترک به Google for Developers – https://goo.gle/ Developmenters Products ذکر شده: Gemini, Google AI Studio اسپیکر: خاویر Plantaz",
+        "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T23:38:45Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
@@ -478,52 +476,48 @@
     },
     {
      "article": {
-      "id": "28b285bc92e70402",
-      "url": "https://www.youtube.com/shorts/cv8tEbKtEvk",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "🪴 Building an autonomous plant rover with Gemini Live",
-      "excerpt": "Meet Sprout: an semi-autonomous plant rover built with Gemini Live and Robotics ER 2.0 that navigates office spaces to hunt for sunlight and care for greenery. 🔗 Explore the build → https://goo.gle/3UCdUOa Subscribe to Google for Developers → https://goo.gle/developers Products Mentioned: Gemini, Google AI Studio Speaker: Xavier Plantaz",
+      "id": "d28967fce9c692cd",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How we detect frontier model misalignment",
+      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
       "lang": "en",
-      "publishedAt": "2026-10-29T01:00:36Z",
+      "publishedAt": "2026-10-29T09:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
       "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
+      "tags": [
+       "security"
       ],
-      "brand": "gemini",
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "https://i4.ytimg.com/vi/cv8tEbKtEvk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "cv8tEbKtEvk",
-       "url": "https://www.youtube.com/watch?v=cv8tEbKtEvk"
-      },
-      "eventId": "28b285bc92e70402",
+      "eventId": "d28967fce9c692cd",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 92.6,
         "topic": 100.0,
-        "novelty": 70.0
+        "novelty": 71.4
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت یک کارخانه مستقل با Gemini Live",
-        "excerpt": "Meet Sprout: یک کاوشگر نیمه خودکار ساخته شده با Gemini Live و Robotics 2.0 که فضاهای اداری را برای شکار نور خورشید و مراقبت از محصولات سبز هدایت می کند. 🔗 کاوش در ساخت → https://goo.gle/3UCdUOa مشترک به Google برای توسعه دهندگان → HTTPS://google / در حال توسعه محصولات ذکر شده: Gemini، Google Studio",
+        "title": "چگونگی تشخیص اشتباه مدل مرزی",
+        "excerpt": "OpenAI از نظارت لایه ای برای تشخیص سوء تفاهم مدل مرزی و رفتار عامل غیر مجاز استفاده می کند، بنابراین پاسخ دهندگان می توانند قبل از تشدید حوادث مداخله کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
@@ -537,47 +531,51 @@
     },
     {
      "article": {
-      "id": "85d975255b4f9d00",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "excerpt": "",
+      "id": "aa702b033bfda9cd",
+      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
       "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
+      "publishedAt": "2026-10-29T16:58:57Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "aws batch",
+       "technical how-to"
+      ],
       "entities": [
-       "apple",
-       "huggingface"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
       },
-      "eventId": "85d975255b4f9d00",
+      "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
-        "topic": 75.0,
-        "novelty": 86.7
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
+        "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
+        "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
@@ -591,51 +589,168 @@
     },
     {
      "article": {
-      "id": "7ae8eb20550eee76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "excerpt": "",
+      "id": "3dcfe747ba6ccec0",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-turned-over-400-apis-into-agent-tools-with-agentcore-gateway",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How MoEngage turned over 400 APIs into agent tools with AgentCore Gateway",
+      "excerpt": "MoEngage turned roughly 400 private REST APIs across 7 AWS Regions into permission-scoped agent tools with Amazon Bedrock AgentCore Gateway. No per-service MCP servers, no public endpoints, and no 400-tool context bloat. See how OpenAPI specs, Cedar policies, and managed Amazon VPC Lattice egress made it work.",
       "lang": "en",
-      "publishedAt": "2026-10-28T14:58:17Z",
+      "publishedAt": "2026-10-29T16:54:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "open-source",
-      "tags": [],
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "customer solutions"
+      ],
       "entities": [
-       "huggingface",
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/21/ML-21704-1.png",
+       "alt": "AgentCore Gateway architecture: agent services reach the gateway through a private VPC interface endpoint, which evaluates Cedar policies and routes calls over Amazon VPC Lattice to internal APIs",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "7ae8eb20550eee76",
+      "eventId": "3dcfe747ba6ccec0",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.9,
-        "topic": 75.0,
-        "novelty": 93.3
+        "recency": 99.9,
+        "topic": 65.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
-        "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
+        "title": "چگونه MoEngage بیش از 400 API را به ابزارهای عامل با GatewayCore تبدیل کرد",
+        "excerpt": "MoEngage تقریبا 400 API خصوصی REST را در 7 منطقه AWS به ابزار عامل مجاز با Amazon Bedrock Agent Gateway تبدیل کرد. هیچ سرویس دهنده MCP، هیچ نقطه پایانی عمومی و بدون bloat 400 ابزار نیست. ببینید که OpenAPI چگونه مشخصات، سیاست های Cedar و مدیریت آمازون VPC Lattice egress آن را کار می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f3538b6fb36f4f58",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T13:37:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/662836b742709fe826510597/az6afuuoAkyiMImufSePe.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      },
+      "eventId": "f3538b6fb36f4f58",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.8,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سوئیچ گرانیت 4.1.1 - مدل های به روز رسانی مانند شما به روز رسانی نرم افزار",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a0c8bc8caa040e76",
+      "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
+      "excerpt": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface…",
+      "lang": "en",
+      "publishedAt": "2026-10-29T16:23:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/L6pzlo1QvoM/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "L6pzlo1QvoM",
+       "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM"
+      },
+      "eventId": "a0c8bc8caa040e76",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
+        "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -675,139 +790,20 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 78.6,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
         "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
         "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e59c1ac4a9944e36",
-      "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "API credits, now in ChatGPT Pro and Business plans",
-      "excerpt": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace…",
-      "lang": "en",
-      "publishedAt": "2026-10-28T23:45:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T10:27:23Z",
-      "day": "2026-10-28",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/ujmyzWSj8IU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ujmyzWSj8IU",
-       "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU"
-      },
-      "eventId": "e59c1ac4a9944e36",
-      "related": [],
-      "score": {
-       "total": 66.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.0,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اعتبار API، در حال حاضر در برنامه های ChatGPT Pro و Business",
-        "excerpt": "از امروز شروع، واجد شرایط ChatGPT Pro و مشترکین کسب و کار می توانند تا 500 دلار در ماه در اعتبارات API برای ساخت برنامه ها و عوامل ادعا کنند. مقدار اعتباری بستگی به برنامه دارد. برنامه های پیشنهادی 100، 200 دلار یا 500 دلار در ماه با لایه دریافت می کنند. برنامه های کسب و کار 20 دلار در هر صندلی استاندارد پرداخت شده یا 100 دلار برای هر صندلی پرداخت می شود، تا 500 دلار در هر فضای کاری جمع آوری شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T10:27:23Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9118d22fa4098f95",
-      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
-      "excerpt": "The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published.",
-      "lang": "en",
-      "publishedAt": "2026-10-28T18:19:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "hardware",
-      "tags": [
-       "amazon elastic kubernetes service",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-1-1.png",
-       "alt": "EKS cluster with a CPU system node running KubeRay and the Ray head, and two EFA-enabled g6.12xlarge GPU worker nodes in one Availability Zone",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "9118d22fa4098f95",
-      "related": [],
-      "score": {
-       "total": 66.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.5,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آموزش توزیع شده با Ray Train DLC و EFA در EKS",
-        "excerpt": "Ray Train Deep Learning Container یک پشته کامل CUDA-through-EFA را کشتی می کند، بنابراین شما هیچ تصویری نمی سازید. این پست از طریق یک نمونه تکراری که Qwen2.5-1.5B را با PyTorch FSDP در هشت GPU در دو نمونه بزرگ G6.12x فعال EFA در آمازون EKS با استفاده از ظرف دقیقا همانطور که منتشر شده است، پیاده روی می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
        }
@@ -824,8 +820,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-29T13:00:44Z",
-   "to": "2026-10-29T13:00:44Z",
+   "from": "2026-09-29T17:01:15Z",
+   "to": "2026-10-29T17:01:15Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -856,15 +852,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 83.9,
+       "total": 83.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 94.4,
+        "recency": 93.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -879,6 +875,60 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a1765f446c5b64b5",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "mistral"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mistral-large4"
+      },
+      "eventId": "a1765f446c5b64b5",
+      "related": [],
+      "score": {
+       "total": 73.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.2,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -915,15 +965,15 @@
       "eventId": "78924ef2955743e3",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 91.4,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -934,7 +984,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -974,15 +1024,15 @@
       "eventId": "b7fa7ced8449c082",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -990,65 +1040,6 @@
         "excerpt": "با Sprout، یک ربات گیاهی نیمه خودکار که توسط Gemini ساخته شده است آشنا شوید. به عنوان آن را به دفتر در جستجوی نور خورشید، پینگ برای کمک، و استفاده از Gemini Live و Robotics ER 2.0 برای چشم انداز برای مراقبت از گیاهان اداری دیگر. سعی کنید امروز بسازید – https://goo.gle/4BmThG6 مشترک به Google for Developers – https://goo.gle/ Developmenters Products ذکر شده: Gemini, Google AI Studio اسپیکر: خاویر Plantaz",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T23:38:45Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b781f6bc8b549636",
-      "url": "https://www.youtube.com/watch?v=M2Oa42hF67E",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "From legal bottleneck to business partner | Legora’s Emma Kadri Bergström",
-      "excerpt": "NDA reviews once took up around 20% of Legora’s legal team’s capacity. Today, that figure is under 1%. General Counsel Emma Kadri Bergström shares how AI is helping her team reclaim time, support a rapidly growing business and take on more complex work, while keeping lawyers responsible for the decisions. Part of Intelligence at Work. Read the full story…",
-      "lang": "en",
-      "publishedAt": "2026-10-28T09:45:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T13:09:23Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/M2Oa42hF67E/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "M2Oa42hF67E",
-       "url": "https://www.youtube.com/watch?v=M2Oa42hF67E"
-      },
-      "eventId": "b781f6bc8b549636",
-      "related": [],
-      "score": {
-       "total": 72.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.4,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از تنگنای قانونی تا شریک تجاری | Emma Kadri Bergström",
-        "excerpt": "بررسی NDA زمانی حدود 20 درصد از ظرفیت تیم حقوقی لگورا را به خود گرفت. امروز این رقم زیر 1 درصد است. مشاور عمومی، Emma Kadri Bergström به اشتراک می گذارد که چگونه AI به تیم خود کمک می کند تا زمان را پس بگیرد، از یک کسب و کار به سرعت در حال رشد حمایت کند و کار پیچیده تری را انجام دهد، در حالی که وکلا مسئول تصمیم گیری هستند. بخشی از اطلاعات در محل کار داستان کامل را بخوانید...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T13:09:23Z"
        }
       }
      },
@@ -1091,15 +1082,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 72.1,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 59.3,
+        "recency": 58.6,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -1111,6 +1102,65 @@
       }
      },
      "rank": 5,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61f4d0141ff303c0",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI models are coming to Google Cloud",
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "lang": "en",
+      "publishedAt": "2026-10-21T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T13:55:00Z",
+      "day": "2026-10-21",
+      "category": "products",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "google",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "61f4d0141ff303c0",
+      "related": [
+       "14f13252070a5596"
+      ],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 56.6,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های OpenAI به Google Cloud می آیند",
+        "excerpt": "OpenAI و Google Cloud مدل های مرزی و جریان های کاری Codex را به باغ مدل Gemini ارائه می دهند که از طریق Google Cloud Marketplace در دسترس است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T13:55:00Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1156,15 +1206,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.9,
+        "recency": 81.0,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
@@ -1175,11 +1225,122 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1c742c1d925baf7",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "eventId": "e1c742c1d925baf7",
+      "related": [],
+      "score": {
+       "total": 69.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.2,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "aa702b033bfda9cd",
+      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T16:58:57Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "aws batch",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "aa702b033bfda9cd",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-29T17:01:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
+        "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1212,194 +1373,21 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 92.8,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-29T13:00:44Z"
+       "asOf": "2026-10-29T17:01:15Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "85d975255b4f9d00",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
-      },
-      "eventId": "85d975255b4f9d00",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 75.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "071e826394b5b671",
-      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "3 Questions: Why infrastructure is entering a defining era",
-      "excerpt": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
-      "lang": "en",
-      "publishedAt": "2026-10-28T16:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "research",
-      "tags": [
-       "interview",
-       "faculty",
-       "supply chains",
-       "infrastructure",
-       "energy",
-       "transportation"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "071e826394b5b671",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.1,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
-        "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "67f0b179673ce3b4",
-      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Learner collaborates with MIT peers to develop book of AI insights",
-      "excerpt": "Prabha Jha used her experience with MIT Open Learning’s program for senior executives to develop AI solutions for her employer, Verizon, and to write a book.",
-      "lang": "en",
-      "publishedAt": "2026-10-27T20:55:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-27T21:30:10Z",
-      "day": "2026-10-27",
-      "category": "research",
-      "tags": [
-       "classes and programs",
-       "mitx",
-       "online learning",
-       "leadership",
-       "community",
-       "business and management"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw",
-       "credit": "Photo courtesy of the subject.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "67f0b179673ce3b4",
-      "related": [],
-      "score": {
-       "total": 68.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-29T13:00:44Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Learner با همسالان MIT همکاری می کند تا کتاب بینش AI را توسعه دهد",
-        "excerpt": "Prabha Jha از تجربه خود با برنامه MIT Open Learning برای مدیران ارشد برای توسعه راه حل های AI برای کارفرمای خود، Verizon و نوشتن یک کتاب استفاده کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-27T21:30:10Z"
        }
       }
      },
