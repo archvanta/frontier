@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-30T16:03:45Z",
+ "asOf": "2026-10-30T18:30:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,63 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-29T16:03:45Z",
-   "to": "2026-10-30T16:03:45Z",
+   "from": "2026-10-29T18:30:00Z",
+   "to": "2026-10-30T18:30:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "b2263e9f84127c76",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "nemotron-halloween",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:57:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "eventId": "b2263e9f84127c76",
+      "related": [],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.9,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانلود بازی Nemotron-halloween",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "cdb16d5410782133",
@@ -46,15 +99,15 @@
       "eventId": "cdb16d5410782133",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 83.5,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +118,588 @@
        }
       }
      },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cabe8a08dfb85810",
+      "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+      "excerpt": "The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:27:45Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws govcloud (us)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon",
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22175-1.png",
+       "alt": "Codex CLI /status tab showing amazon-bedrock configured as the model provider",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "cabe8a08dfb85810",
+      "related": [],
+      "score": {
+       "total": 67.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.2,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "برنامه دسکتاپ ChatGPT را با آمازون Bedrock در AWSCloud (US)",
+        "excerpt": "برنامه دسکتاپ ChatGPT در حال حاضر در آمازون Bedrock در AWSCloud (US) در دسترس است. این پست از طریق یک استقرار محلی کنترل شده پیاده روی می کند که مسیر را به آمازون Bedrock در AWS RuleCloud (US-West) با استفاده از علامت API-mode، یک سیاست دستگاه مدیریت شده، یک نمایه AWS و محدودیت های شبکه، بنابراین یک تیم امنیتی می تواند آن را قبل از استفاده گسترده تر اعتبار دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "44854634469c462e",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "excerpt": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:32:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-20953-1-2.png",
+       "alt": "Exception-handling architecture: SpeedShip and other data sources feed detected exceptions to three agents on Amazon EC2 that call Amazon Bedrock, then route resolutions to a human reviewer",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "44854634469c462e",
+      "related": [],
+      "score": {
+       "total": 66.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.6,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه حمل و نقل خودکار در سراسر جهان با آمازون Bedrock",
+        "excerpt": "در سراسر جهان اکسپرس لایحه حمل و نقل کمتر از محموله را با یک راه حل چند عاملی ساخته شده در آمازون Bedrock خودکار کرد. شش ماه پس از راه اندازی، این شرکت استثناهای فعال را به میزان 75 درصد کاهش داد، تا چهار هفته زمان به پول نقد را بهبود بخشید و 10 میلیون دلار را در جریان نقدینگی آزاد باز کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "080e3108d7c08bec",
+      "url": "https://www.theguardian.com/technology/2026/oct/30/credit-where-its-due-to-ai-for-uncovering-the-php-flaw-and-discredit-to-the-leaker",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Credit where it’s due to AI for uncovering the PHP flaw – and discredit to the leaker | Letters",
+      "excerpt": "David Gibson says the problem is that details of the flaw were revealed before it was fixed, while Charles MacKinnon notes that we are at the mercy of technology we don’t understand Chris Stokel-Walker may be right (The internet has broken – again. Shouldn’t the tech firms that make billions from it pay to fix it?, 22 October), but the real issue lies elsewhere. The bugs in the PHP programming…",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:10:09Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "internet",
+       "technology",
+       "computing",
+       "hacking",
+       "data and computer security"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/98122b47991b59eb0c234aca89afd10ec17bbdbf/165_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=d9c81da5dfd93b76a482e8c671486768",
+       "credit": "Photograph: Kirill Kudryavtsev/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "080e3108d7c08bec",
+      "related": [],
+      "score": {
+       "total": 64.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.6,
+        "topic": 85.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اعتبار که در آن به دلیل AI برای کشف نقص PHP است - و بی اعتبار به افشاگر | نامه ها",
+        "excerpt": "دیوید گیبسون می گوید که این مشکل این است که جزئیات این نقص قبل از ثابت شدن آن فاش شده است، در حالی که چارلز مک کینون اشاره می کند که ما در رحمت تکنولوژی هستیم که ما نمی دانیم کریس استکل واکر ممکن است درست باشد (اینترنت بارها شکسته است). آیا شرکت های فناوری نباید میلیاردها دلار از آن برای تعمیر آن پرداخت کنند؟ 22 اکتبر، اما مسئله واقعی در جای دیگری قرار دارد. اشکالات در برنامه نویسی PHP ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "09484dfee9e7507c",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "excerpt": "Low costs and offline security mean magnetic tape still has a job.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:38:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "ai",
+       "tech",
+       "fujifilm",
+       "kanagawa",
+       "lto",
+       "magnetic tape storage"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-1152x648.jpg",
+       "credit": "iStock / Getty Images Plus",
+       "kind": "feed",
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
+      },
+      "eventId": "09484dfee9e7507c",
+      "related": [],
+      "score": {
+       "total": 64.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 95.1,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Fujifilm برای افزایش تولید نوار 5x به عنوان تقاضای بایگانی سوخت AI",
+        "excerpt": "هزینه های پایین و امنیت آفلاین به این معنی است که نوار مغناطیسی هنوز هم یک کار دارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-23T18:30:00Z",
+   "to": "2026-10-30T18:30:00Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 77.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 62.1,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
      "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "25cc4c9bb2e3e7e5",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Making it easier for websites to express AI training preferences",
+      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "25cc4c9bb2e3e7e5",
+      "related": [],
+      "score": {
+       "total": 72.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.7,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آسان تر کردن آن برای وب سایت ها برای بیان ترجیحات آموزش هوش مصنوعی",
+        "excerpt": "OpenAI به یک سیگنال robots.txt به اشتراک گذاشته شده احترام می گذارد تا به اپراتورهای وب سایت کمک کند تا ترجیحات آموزش AI خود را به ارائه دهندگان شرکت کننده انتقال دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cdb16d5410782133",
+      "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
+      "excerpt": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into…",
+      "lang": "en",
+      "publishedAt": "2026-10-30T15:22:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T16:16:55Z",
+      "day": "2026-10-30",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/Oi9DHk57KeQ/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "Oi9DHk57KeQ",
+       "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ"
+      },
+      "eventId": "cdb16d5410782133",
+      "related": [],
+      "score": {
+       "total": 71.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 72.7
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی استفاده از ChatGPT کار برای تبدیل داده ها به تصمیمات",
+        "excerpt": "قبل از کار ChatGPT، راه می رفتیم. در حال حاضر با کار ChatGPT، ما در حال اجرا هستیم.\" برای Howie Xu، این بدان معنی است که درک اینکه چگونه یک تجربه جدید تولید در عرض دو یا سه ساعت انتشار است. پیدا کردن پاسخ های مورد استفاده برای منظور تکرار دست در تیم ها، توابع و مناطق زمانی. کار ChatGPT این حلقه بازخورد را کوتاه می کند. ببینید که چگونهie داده های کسب و کار را به ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T16:16:55Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b2263e9f84127c76",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "nemotron-halloween",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:57:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "eventId": "b2263e9f84127c76",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانلود بازی Nemotron-halloween",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c7606af40dbb903f",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Community safety report and new protections for teens",
+      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "safety",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/safety.svg",
+       "kind": "fallback"
+      },
+      "eventId": "c7606af40dbb903f",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.3,
+        "topic": 90.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
+        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "44854634469c462e",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "excerpt": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:32:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-20953-1-2.png",
+       "alt": "Exception-handling architecture: SpeedShip and other data sources feed detected exceptions to three agents on Amazon EC2 that call Amazon Bedrock, then route resolutions to a human reviewer",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "44854634469c462e",
+      "related": [],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه حمل و نقل خودکار در سراسر جهان با آمازون Bedrock",
+        "excerpt": "در سراسر جهان اکسپرس لایحه حمل و نقل کمتر از محموله را با یک راه حل چند عاملی ساخته شده در آمازون Bedrock خودکار کرد. شش ماه پس از راه اندازی، این شرکت استثناهای فعال را به میزان 75 درصد کاهش داد، تا چهار هفته زمان به پول نقد را بهبود بخشید و 10 میلیون دلار را در جریان نقدینگی آزاد باز کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -106,15 +740,15 @@
       "eventId": "691aeb39c4445330",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 96.7,
         "topic": 55.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -125,7 +759,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -135,231 +769,57 @@
     },
     {
      "article": {
-      "id": "9656678bad8edf09",
-      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
+      "id": "080e3108d7c08bec",
+      "url": "https://www.theguardian.com/technology/2026/oct/30/credit-where-its-due-to-ai-for-uncovering-the-php-flaw-and-discredit-to-the-leaker",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
-      "excerpt": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email, free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach, Coalition senators and the recording industry have warned, as they raise new fears…",
+      "title": "Credit where it’s due to AI for uncovering the PHP flaw – and discredit to the leaker | Letters",
+      "excerpt": "David Gibson says the problem is that details of the flaw were revealed before it was fixed, while Charles MacKinnon notes that we are at the mercy of technology we don’t understand Chris Stokel-Walker may be right (The internet has broken – again. Shouldn’t the tech firms that make billions from it pay to fix it?, 22 October), but the real issue lies elsewhere. The bugs in the PHP programming…",
       "lang": "en",
-      "publishedAt": "2026-10-30T14:00:18Z",
+      "publishedAt": "2026-10-30T17:10:09Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
+      "fetchedAt": "2026-10-30T18:40:00Z",
       "day": "2026-10-30",
       "category": "policy",
       "tags": [
-       "australian law",
        "ai (artificial intelligence)",
-       "australia news",
+       "internet",
        "technology",
-       "australian politics",
-       "australian music"
+       "computing",
+       "hacking",
+       "data and computer security"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/3e7a0fdd3ee1b88bfd479f84f93eb5b6dec2668e/703_0_4478_3583/master/4478.jpg?width=700&quality=85&auto=format&fit=max&s=cc944019051a87f0e18991c46c91273d",
-       "credit": "Photograph: Lukas Coch/AAP",
+       "url": "https://i.guim.co.uk/img/media/98122b47991b59eb0c234aca89afd10ec17bbdbf/165_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=d9c81da5dfd93b76a482e8c671486768",
+       "credit": "Photograph: Kirill Kudryavtsev/AFP/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "9656678bad8edf09",
+      "eventId": "080e3108d7c08bec",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 65.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 98.7,
         "topic": 85.0,
-        "novelty": 90.0
+        "novelty": 91.7
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
-        "title": "کارشناسان هشدار می دهند که تغییرات حق کپی رایت AI می تواند قانون اساسی استرالیا را نقض کند و پرونده حقوق زیادی را ایجاد کند",
-        "excerpt": "حذف مواد کپی رایت شده از اینترنت می تواند به طور بالقوه به دست آوردن مالکیت توسط دولت، آن دومی می گوید دریافت ایمیل سیاسی روزانه ما، برنامه رایگان و یا قانون کپی رایت روز به شرکت های AI اجازه می دهد تا موسیقی، کتاب ها و روزنامه نگاری را از نقض قانون اساسی، سناتورها و صنعت ضبط هشدار داده اند، به عنوان آنها افزایش ترس های جدید ...",
+        "title": "اعتبار که در آن به دلیل AI برای کشف نقص PHP است - و بی اعتبار به افشاگر | نامه ها",
+        "excerpt": "دیوید گیبسون می گوید که این مشکل این است که جزئیات این نقص قبل از ثابت شدن آن فاش شده است، در حالی که چارلز مک کینون اشاره می کند که ما در رحمت تکنولوژی هستیم که ما نمی دانیم کریس استکل واکر ممکن است درست باشد (اینترنت بارها شکسته است). آیا شرکت های فناوری نباید میلیاردها دلار از آن برای تعمیر آن پرداخت کنند؟ 22 اکتبر، اما مسئله واقعی در جای دیگری قرار دارد. اشکالات در برنامه نویسی PHP ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
+        "at": "2026-10-30T18:40:00Z"
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0e7ece3c16a948e0",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/oct/30/ai-ghost-hunting",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Ghost in the machine: how AI is haunting the search for the supernatural",
-      "excerpt": "Ghost hunting has changed in recent years due to AI chatbots, and paranormal enthusiasts are concerned Ghost hunting is a tech-heavy pursuit. When Amy Waine and Jarrad Cutting investigate haunted locations, they’re loaded up with software of their own design, such as an app that assigns signals from a phone’s sensors to different words in a database. In the age of ChatGPT, the ghost-hunting pair…",
-      "lang": "en",
-      "publishedAt": "2026-10-30T15:00:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "products",
-      "tags": [
-       "technology",
-       "ai (artificial intelligence)",
-       "chatbots",
-       "folklore and mythology",
-       "chatgpt",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/1d39796c4dc7d5a873ed01119d02771c61581e07/414_0_1885_1508/master/1885.jpg?width=700&quality=85&auto=format&fit=max&s=6e4181b96992653b73a41db13a3afd91",
-       "credit": "Illustration: Guardian Design/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "0e7ece3c16a948e0",
-      "related": [],
-      "score": {
-       "total": 61.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.1,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Ghost in the Machine: چگونه AI در جستجوی فوق طبیعی است",
-        "excerpt": "شکار Ghost در سال های اخیر به دلیل ربات های چت هوش مصنوعی تغییر کرده است و علاقه مندان به شکار روح نگران جستجوی تکنولوژی هستند. هنگامی که ایمی واتین و Jarrad برش مکان های خالی را بررسی می کنند، آنها با نرم افزار طراحی خود مانند برنامه ای که سیگنال ها را از سنسورهای تلفن به کلمات مختلف در یک پایگاه داده اختصاص می دهد، بارگذاری می شوند. در عصر ChatGPT، جفت شکار شبح ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "974d9b85c8fb969a",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "excerpt": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many",
-      "lang": "en",
-      "publishedAt": "2026-10-30T14:58:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "products",
-      "tags": [
-       "ai",
-       "news",
-       "policy"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2226124908.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A photo of Pope Leo XIV",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "974d9b85c8fb969a",
-      "related": [],
-      "score": {
-       "total": 61.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 65.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پاپ لئو خواستار خلع سلاح AI است: «ماشین ها ابزار هستند نه افراد».",
-        "excerpt": "پاپ لئو XIV می گوید که سیستم های AI باید \"نا مسلح\" باشند و افزود که انسان ها \"مسئولیت هدایت، تغییر و در صورت لزوم، برنامه های خود را رد می کنند.\" در سخنرانی پاپی روز جمعه، پاپ لئو کشورهای عضو سازمان ملل متحد را تشویق می کند تا \"گام های مشخصی را برای ممنوع کردن سلاح های مستقل کشنده\" طی جلسه خود در ژنو ماه آینده انجام دهند. آدرس نشان دهنده بسیاری از",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d906f2ca87fcfb32",
-      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
-      "excerpt": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T16:03:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "business",
-      "tags": [
-       "ai",
-       "elizabeth holmes",
-       "theranos"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "d906f2ca87fcfb32",
-      "related": [],
-      "score": {
-       "total": 61.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 55.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تایلر Shultz، خبرنگار Theranos هشدار می دهد که رونق AI یک فرصت عالی برای فریب مردم است.",
-        "excerpt": "داستان هشدار دهنده Theranos اهمیت جدیدی در عصر AI دارد، زمانی که شرکت هایی که هیچگاه سود خود را تبدیل نکرده اند، سرمایه را در ارزش گذاری تریلیون دلاری افزایش می دهند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -369,10 +829,10 @@
     }
    ]
   },
-  "weekly": {
-   "from": "2026-10-23T16:03:45Z",
-   "to": "2026-10-30T16:03:45Z",
-   "halfLifeHours": 72,
+  "monthly": {
+   "from": "2026-09-30T18:30:00Z",
+   "to": "2026-10-30T18:30:00Z",
+   "halfLifeHours": 240,
    "picks": [
     {
      "article": {
@@ -402,15 +862,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 77.7,
+       "total": 82.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 63.6,
+        "recency": 86.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -425,6 +885,114 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "25cc4c9bb2e3e7e5",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Making it easier for websites to express AI training preferences",
+      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "25cc4c9bb2e3e7e5",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.4,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آسان تر کردن آن برای وب سایت ها برای بیان ترجیحات آموزش هوش مصنوعی",
+        "excerpt": "OpenAI به یک سیگنال robots.txt به اشتراک گذاشته شده احترام می گذارد تا به اپراتورهای وب سایت کمک کند تا ترجیحات آموزش AI خود را به ارائه دهندگان شرکت کننده انتقال دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d9928289658e986",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "lang": "en",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T19:01:24Z",
+      "day": "2026-10-29",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2d9928289658e986",
+      "related": [],
+      "score": {
+       "total": 72.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.3,
+        "topic": 100.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
+        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T19:01:24Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -465,131 +1033,16 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 99.1,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
         "title": "چگونگی استفاده از ChatGPT کار برای تبدیل داده ها به تصمیمات",
         "excerpt": "قبل از کار ChatGPT، راه می رفتیم. در حال حاضر با کار ChatGPT، ما در حال اجرا هستیم.\" برای Howie Xu، این بدان معنی است که درک اینکه چگونه یک تجربه جدید تولید در عرض دو یا سه ساعت انتشار است. پیدا کردن پاسخ های مورد استفاده برای منظور تکرار دست در تیم ها، توابع و مناطق زمانی. کار ChatGPT این حلقه بازخورد را کوتاه می کند. ببینید که چگونهie داده های کسب و کار را به ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7bf0065ceb1646f5",
-      "url": "https://openai.com/index/updated-model-spec",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "7bf0065ceb1646f5",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 80.1,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک مدل به روز شده برای AI توانمند تر و مفید تر",
-        "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "691aeb39c4445330",
-      "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
-      "excerpt": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents",
-      "lang": "en",
-      "publishedAt": "2026-10-30T15:00:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "business",
-      "tags": [
-       "ai",
-       "artificial intelligence",
-       "nemotron",
-       "nvidia holoscan",
-       "science"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/IMG_1607-ATA-2023-CREDIT-Joe-Marfia-scaled.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "691aeb39c4445330",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.0,
-        "topic": 55.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چیزهایی که در شب می آیند: AI Agentic به جستجو برای سیگنال های فرازمینی پیوست",
-        "excerpt": "در حالی که داستان علمی به ما می گوید که انسان ها زندگی فرازمینی را به شکل مردان سبز کوچک ملاقات می کنند، جزئیاتی که باید موهای این هالووین را بالا ببرد این است: جستجوی هوش فرازمینی جهش بزرگی به سمت هوش مصنوعی داشته و به طور فزاینده ای بر عوامل هوش مصنوعی که توسط انسان ها برای گوش دادن به عوامل هوش مصنوعی ساخته شده اند، تمرکز می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T16:16:55Z"
        }
@@ -605,463 +1058,50 @@
     },
     {
      "article": {
-      "id": "9656678bad8edf09",
-      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
-      "excerpt": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email, free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach, Coalition senators and the recording industry have warned, as they raise new fears…",
-      "lang": "en",
-      "publishedAt": "2026-10-30T14:00:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "policy",
-      "tags": [
-       "australian law",
-       "ai (artificial intelligence)",
-       "australia news",
-       "technology",
-       "australian politics",
-       "australian music"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/3e7a0fdd3ee1b88bfd479f84f93eb5b6dec2668e/703_0_4478_3583/master/4478.jpg?width=700&quality=85&auto=format&fit=max&s=cc944019051a87f0e18991c46c91273d",
-       "credit": "Photograph: Lukas Coch/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "9656678bad8edf09",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 85.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کارشناسان هشدار می دهند که تغییرات حق کپی رایت AI می تواند قانون اساسی استرالیا را نقض کند و پرونده حقوق زیادی را ایجاد کند",
-        "excerpt": "حذف مواد کپی رایت شده از اینترنت می تواند به طور بالقوه به دست آوردن مالکیت توسط دولت، آن دومی می گوید دریافت ایمیل سیاسی روزانه ما، برنامه رایگان و یا قانون کپی رایت روز به شرکت های AI اجازه می دهد تا موسیقی، کتاب ها و روزنامه نگاری را از نقض قانون اساسی، سناتورها و صنعت ضبط هشدار داده اند، به عنوان آنها افزایش ترس های جدید ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "aa702b033bfda9cd",
-      "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
-      "excerpt": "AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T16:58:57Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "hardware",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "aws batch",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "aa702b033bfda9cd",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 80.1,
-        "topic": 70.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
-        "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6177cdec0bdff542",
-      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
-      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
-      "lang": "en",
-      "publishedAt": "2026-10-29T21:36:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T22:02:21Z",
-      "day": "2026-10-29",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "JXEMFLQwi4A",
-       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
-      },
-      "eventId": "6177cdec0bdff542",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.7,
-        "topic": 70.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
-        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T22:02:21Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "983901472b072637",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
-      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T18:14:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "aws transform",
-       "kiro",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
-       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "983901472b072637",
-      "related": [],
-      "score": {
-       "total": 65.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.0,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
-        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "monthly": {
-   "from": "2026-09-30T16:03:45Z",
-   "to": "2026-10-30T16:03:45Z",
-   "halfLifeHours": 240,
-   "picks": [
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
+      "id": "b2263e9f84127c76",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "nemotron-halloween",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
+      "publishedAt": "2026-10-30T17:57:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 82.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 87.3,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2d9928289658e986",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T07:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "2d9928289658e986",
-      "related": [],
-      "score": {
-       "total": 72.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 100.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
-        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cdb16d5410782133",
-      "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
-      "excerpt": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into…",
-      "lang": "en",
-      "publishedAt": "2026-10-30T15:22:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
+      "fetchedAt": "2026-10-30T18:40:00Z",
       "day": "2026-10-30",
-      "category": "models",
+      "category": "open-source",
       "tags": [],
       "entities": [
-       "openai"
+       "huggingface"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/Oi9DHk57KeQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "Oi9DHk57KeQ",
-       "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ"
-      },
-      "eventId": "cdb16d5410782133",
+      "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
         "recency": 99.8,
-        "topic": 100.0,
-        "novelty": 72.7
+        "topic": 75.0,
+        "novelty": 100.0
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونگی استفاده از ChatGPT کار برای تبدیل داده ها به تصمیمات",
-        "excerpt": "قبل از کار ChatGPT، راه می رفتیم. در حال حاضر با کار ChatGPT، ما در حال اجرا هستیم.\" برای Howie Xu، این بدان معنی است که درک اینکه چگونه یک تجربه جدید تولید در عرض دو یا سه ساعت انتشار است. پیدا کردن پاسخ های مورد استفاده برای منظور تکرار دست در تیم ها، توابع و مناطق زمانی. کار ChatGPT این حلقه بازخورد را کوتاه می کند. ببینید که چگونهie داده های کسب و کار را به ...",
+        "title": "دانلود بازی Nemotron-halloween",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
+        "at": "2026-10-30T18:40:00Z"
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7bf0065ceb1646f5",
-      "url": "https://openai.com/index/updated-model-spec",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "7bf0065ceb1646f5",
-      "related": [],
-      "score": {
-       "total": 72.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.6,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک مدل به روز شده برای AI توانمند تر و مفید تر",
-        "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
-       }
-      }
-     },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1106,15 +1146,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 69.6,
+       "total": 69.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 75.8,
+        "recency": 75.2,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1125,11 +1165,69 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "44854634469c462e",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
+      "excerpt": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:32:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-20953-1-2.png",
+       "alt": "Exception-handling architecture: SpeedShip and other data sources feed detected exceptions to three agents on Amazon EC2 that call Amazon Bedrock, then route resolutions to a human reviewer",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "44854634469c462e",
+      "related": [],
+      "score": {
+       "total": 67.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-10-30T18:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه حمل و نقل خودکار در سراسر جهان با آمازون Bedrock",
+        "excerpt": "در سراسر جهان اکسپرس لایحه حمل و نقل کمتر از محموله را با یک راه حل چند عاملی ساخته شده در آمازون Bedrock خودکار کرد. شش ماه پس از راه اندازی، این شرکت استثناهای فعال را به میزان 75 درصد کاهش داد، تا چهار هفته زمان به پول نقد را بهبود بخشید و 10 میلیون دلار را در جریان نقدینگی آزاد باز کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1161,15 +1259,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 88.4,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1179,7 +1277,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1218,15 +1316,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 92.9,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1237,7 +1335,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1273,132 +1371,19 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
+        "recency": 86.2,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-30T16:03:45Z"
+       "asOf": "2026-10-30T18:30:00Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "85d975255b4f9d00",
-      "url": "https://huggingface.co/blog/anydecisionmodel",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T13:15:43Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "apple",
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/anydecisionmodel/banner.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/anydecisionmodel"
-      },
-      "eventId": "85d975255b4f9d00",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 75.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی AnySpeechRecognizer و هر گونه تصمیم گیری: مدل های باز برای سخنرانی و تصمیم گیری در پلتفرم اپل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T13:15:43Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "071e826394b5b671",
-      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "3 Questions: Why infrastructure is entering a defining era",
-      "excerpt": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
-      "lang": "en",
-      "publishedAt": "2026-10-28T16:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "research",
-      "tags": [
-       "interview",
-       "faculty",
-       "supply chains",
-       "infrastructure",
-       "energy",
-       "transportation"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "071e826394b5b671",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-30T16:03:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "3 سوال: چرا زیرساخت ها وارد یک دوره تعریف شده می شوند",
-        "excerpt": "پروفسور علی جابابای توضیح می دهد که چگونه هوش مصنوعی، تحول دیجیتال، تغییرات آب و هوایی و ژئوپولیتیک های پیچیده، مهندسان و سیاستگذاران را مجبور می کند تا در مورد چگونگی طراحی، ساخت و مدیریت زیرساخت تجدید نظر کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-28T18:55:11Z"
        }
