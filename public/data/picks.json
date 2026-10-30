@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-30T01:20:48Z",
+ "asOf": "2026-10-30T09:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-29T01:20:48Z",
-   "to": "2026-10-30T01:20:48Z",
+   "from": "2026-10-29T09:00:00Z",
+   "to": "2026-10-30T09:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "a973ac401cee8ade",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "excerpt": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T09:03:40Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "copyright",
+       "law",
+       "microsoft",
+       "openai",
+       "policy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Wikipedia “W” and globe on a grey background.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "a973ac401cee8ade",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-30T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اپراتور ویکی پدیا می گوید که یک قانون کپی رایت بد AI می تواند وب باز را تهدید کند",
+        "excerpt": "بنیاد ویکی مدیا در یک گروه از موارد حق کپی رایت برجسته AI قرار دارد و دادگاه ها را مجبور می کند تا از مدل های زبان بزرگ (LLMs) در زمینه کار کپی رایت محافظت کنند - اما chatbots آن کار را به کاربران باز نمی گرداند. یک حکم بیش از حد سیاه و سفید، می گوید که می تواند ویکی پدیا را از ابزارهای مفید مبتنی بر هوش مصنوعی محروم کند یا به خطر بیفتد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T09:03:40Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "7bf0065ceb1646f5",
@@ -42,15 +102,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 61.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.7,
+        "recency": 39.7,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -61,7 +121,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -101,15 +161,15 @@
       "eventId": "6177cdec0bdff542",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 58.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.6,
+        "recency": 51.8,
         "topic": 70.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -120,7 +180,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -160,15 +220,15 @@
       "eventId": "3fa519422b2c3b84",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 57.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.6,
+        "recency": 48.0,
         "topic": 65.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -179,7 +239,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -189,60 +249,54 @@
     },
     {
      "article": {
-      "id": "70cae7a87b46451b",
-      "url": "https://www.theguardian.com/law/2026/oct/30/victorian-lawyers-ai-clients-fees",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "More than half of Victorian lawyers use AI – but only a quarter have cut client fees as a result",
-      "excerpt": "Research finds 55% of lawyers are using AI in legal practices, up from 37% last year, though efficiency gains aren’t as high as expected Get our breaking news email, free app or daily news podcast More than half of Victoria’s lawyers have reported using AI in their work, according to a new study, but just over a quarter say they’ve reduced fees as a result of efficiency gains. They also say…",
+      "id": "4819ba833befb56c",
+      "url": "https://www.datacenterknowledge.com/edge-data-centers/edge-ai-may-give-telecoms-a-seat-at-the-table",
+      "sourceId": "datacenter-knowledge",
+      "sourceName": "Data Center Knowledge",
+      "title": "Edge AI May Give Telecoms a Seat at the Table",
+      "excerpt": "Edge AI may give telecoms a bigger AI role, with metro sites, not towers, emerging as the clearest near-term opportunity.",
       "lang": "en",
-      "publishedAt": "2026-10-29T23:00:37Z",
+      "publishedAt": "2026-10-30T09:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T23:21:58Z",
-      "day": "2026-10-29",
-      "category": "research",
-      "tags": [
-       "australian law",
-       "ai (artificial intelligence)",
-       "technology",
-       "australia news"
-      ],
+      "fetchedAt": "2026-10-30T09:03:40Z",
+      "day": "2026-10-30",
+      "category": "hardware",
+      "tags": [],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/f9f3f7bce6fc3e3ad11900d943ee204c5d52ddba/699_0_2699_2160/master/2699.jpg?width=700&quality=85&auto=format&fit=max&s=4fe43072ecdd8264be5aee525caf06e6",
-       "credit": "Photograph: Posed by models; Jacob Wackerhausen/Getty Images",
+       "url": "https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/blt359d79f29e75c7fe/6ae3b101028e0e8e51c44054/Double_layer_network_connection_concept_telecommunication_to_the_city.png?width=720&quality=80&disable=upscale",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.datacenterknowledge.com/rss.xml"
       },
-      "eventId": "70cae7a87b46451b",
+      "eventId": "4819ba833befb56c",
       "related": [],
       "score": {
-       "total": 62.7,
+       "total": 57.6,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 87.4,
-        "topic": 80.0,
-        "novelty": 92.3
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "بیش از نیمی از وکلای ویکتوریا از AI استفاده می کنند، اما تنها یک چهارم آنها هزینه های مشتری را در نتیجه کاهش می دهند.",
-        "excerpt": "تحقیقات نشان می دهد که 55 درصد از وکلا از هوش مصنوعی در شیوه های حقوقی استفاده می کنند، از 37٪ سال گذشته، اگر چه دستاوردهای بهره وری به اندازه انتظار نمی رود که ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه بیش از نیمی از وکلا ویکتوریا گزارش استفاده از AI در کار خود، با توجه به یک مطالعه جدید، اما فقط بیش از یک چهارم می گویند که آنها کاهش هزینه ها به عنوان یک نتیجه بهره وری. آنها همچنین می گویند ...",
+        "title": "Edge AI می تواند یک صندلی در جدول ارائه دهد",
+        "excerpt": "Edge AI ممکن است نقش هوش مصنوعی بزرگتری را با سایت های مترو، نه برج ها، که به عنوان واضح ترین فرصت نزدیک به مدت زمان ظهور می کند، به دست آورد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T23:21:58Z"
+        "at": "2026-10-30T09:03:40Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     },
     {
@@ -278,15 +332,15 @@
       "eventId": "983901472b072637",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 57.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.3,
+        "recency": 42.6,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -297,63 +351,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3f421dfac0528ad9",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "excerpt": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T01:20:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T02:10:52Z",
-      "day": "2026-10-30",
-      "category": "business",
-      "tags": [
-       "ai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "3f421dfac0528ad9",
-      "related": [],
-      "score": {
-       "total": 61.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 55.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T01:20:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "لازم نیست به یک خدا اعتقاد داشته باشید تا از استفاده از AI در محل کار معاف شوید.",
-        "excerpt": "دیوید دورمن، مدیر دانشگاه کنتاکی، اخیرا معافیت مذهبی از استفاده از AI در محل کار به دست آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T02:10:52Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -361,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-23T01:20:48Z",
-   "to": "2026-10-30T01:20:48Z",
+   "from": "2026-10-23T09:00:00Z",
+   "to": "2026-10-30T09:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -393,15 +394,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 79.7,
+       "total": 78.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 73.3,
+        "recency": 68.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -448,15 +449,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 85.7,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -501,15 +502,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.8,
+        "recency": 77.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -521,65 +522,6 @@
       }
      },
      "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6177cdec0bdff542",
-      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
-      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
-      "lang": "en",
-      "publishedAt": "2026-10-29T21:36:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T22:02:21Z",
-      "day": "2026-10-29",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "JXEMFLQwi4A",
-       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
-      },
-      "eventId": "6177cdec0bdff542",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.5,
-        "topic": 70.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-30T01:20:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
-        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T22:02:21Z"
-       }
-      }
-     },
-     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -618,15 +560,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 85.7,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -634,6 +576,65 @@
         "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6177cdec0bdff542",
+      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
+      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
+      "lang": "en",
+      "publishedAt": "2026-10-29T21:36:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T22:02:21Z",
+      "day": "2026-10-29",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "JXEMFLQwi4A",
+       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
+      },
+      "eventId": "6177cdec0bdff542",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.6,
+        "topic": 70.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-10-30T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
+        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T22:02:21Z"
        }
       }
      },
@@ -647,52 +648,53 @@
     },
     {
      "article": {
-      "id": "3fa519422b2c3b84",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
+      "id": "983901472b072637",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How the UK Amazon Quick User Group grew in 2026",
-      "excerpt": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
+      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
+      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
       "lang": "en",
-      "publishedAt": "2026-10-29T20:16:40Z",
+      "publishedAt": "2026-10-29T18:14:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T22:02:21Z",
+      "fetchedAt": "2026-10-29T19:01:24Z",
       "day": "2026-10-29",
       "category": "products",
       "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "uncategorized"
+       "advanced (300)",
+       "aws transform",
+       "kiro",
+       "technical how-to"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21295-1.jpeg",
-       "alt": "Attendees at a UK Amazon Quick User Group meetup in Shoreditch, London",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
+       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "3fa519422b2c3b84",
+      "eventId": "983901472b072637",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 86.8,
         "topic": 65.0,
-        "novelty": 85.7
+        "novelty": 90.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه گروه کاربری سریع آمازون در سال 2026 رشد کرد",
-        "excerpt": "گردآورنده گروه کاربر سریع آمازون 2026: سه جلسه سه ماهه، 150 + شرکت کنندگان، و داستان های مشتری از Arriva، Carsa، و آزمایشگاه Propulse در مورد استفاده از AI عامل و آمازون Quick برای تبدیل اطلاعات به تصمیمات سریع تر، رضایت بالاتر و رشد مقیاس پذیر.",
+        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
+        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T22:02:21Z"
+        "at": "2026-10-29T19:01:24Z"
        }
       }
      },
@@ -700,6 +702,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a973ac401cee8ade",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "excerpt": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians of useful AI-based tools or endanger",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T09:03:40Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "copyright",
+       "law",
+       "microsoft",
+       "openai",
+       "policy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Wikipedia “W” and globe on a grey background.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "a973ac401cee8ade",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-10-30T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اپراتور ویکی پدیا می گوید که یک قانون کپی رایت بد AI می تواند وب باز را تهدید کند",
+        "excerpt": "بنیاد ویکی مدیا در یک گروه از موارد حق کپی رایت برجسته AI قرار دارد و دادگاه ها را مجبور می کند تا از مدل های زبان بزرگ (LLMs) در زمینه کار کپی رایت محافظت کنند - اما chatbots آن کار را به کاربران باز نمی گرداند. یک حکم بیش از حد سیاه و سفید، می گوید که می تواند ویکی پدیا را از ابزارهای مفید مبتنی بر هوش مصنوعی محروم کند یا به خطر بیفتد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T09:03:40Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -731,78 +793,19 @@
       "eventId": "f3538b6fb36f4f58",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 83.0,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "سوئیچ گرانیت 4.1.1 - مدل های به روز رسانی مانند شما به روز رسانی نرم افزار",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a0c8bc8caa040e76",
-      "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "ChatGPT Enterprise at Zendesk: Putting Company Data to Work",
-      "excerpt": "“We have about 600 applications that have been built by different people in the company.” At Zendesk, teams across sales, marketing, and operations are building applications for their own work. ChatGPT Enterprise is available to every employee, and business users are asking questions about their data directly. In sales, an AI agent connects product usage and tickets per agent to surface…",
-      "lang": "en",
-      "publishedAt": "2026-10-29T16:23:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/L6pzlo1QvoM/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "L6pzlo1QvoM",
-       "url": "https://www.youtube.com/watch?v=L6pzlo1QvoM"
-      },
-      "eventId": "a0c8bc8caa040e76",
-      "related": [],
-      "score": {
-       "total": 66.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.7,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-10-30T01:20:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ChatGPT Enterprise در Zendesk: قرار دادن داده های شرکت برای کار",
-        "excerpt": "ما حدود 600 برنامه داریم که توسط افراد مختلف در این شرکت ساخته شده اند.\"در Zendesk، تیم ها در سراسر فروش، بازاریابی و عملیات در حال ساخت برنامه های کاربردی برای کار خود هستند. ChatGPT Enterprise برای هر کارمند در دسترس است و کاربران کسب و کار به طور مستقیم از اطلاعات خود سوال می کنند. در فروش، یک عامل AI استفاده از محصول و بلیط های هر نماینده را به سطح متصل می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
        }
@@ -819,8 +822,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-30T01:20:48Z",
-   "to": "2026-10-30T01:20:48Z",
+   "from": "2026-09-30T09:00:00Z",
+   "to": "2026-10-30T09:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -851,15 +854,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 83.2,
+       "total": 82.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 91.1,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -904,15 +907,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 92.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -959,15 +962,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1014,15 +1017,15 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 90.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1071,15 +1074,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 71.7,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 57.2,
+        "recency": 56.0,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1136,15 +1139,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 70.2,
+       "total": 69.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 79.1,
+        "recency": 77.3,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1160,6 +1163,59 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1c742c1d925baf7",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "eventId": "e1c742c1d925baf7",
+      "related": [],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.9,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-30T09:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1195,73 +1251,20 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 95.5,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "وام و قرض دادن منابع در سراسر تیم با مدیریت سهمیه AWS Batch برای مشاغل آموزش SageMaker",
         "excerpt": "مدیریت سهمیه بندی AWS Batch یک قابلیت برنامه ریزی جدید است که می توانید از آن برای تقسیم ظرفیت GPU به سهام سهمیه ای در هر تیم یا پروژه استفاده کنید، به طور خودکار ظرفیت های بیکار را در سراسر سهام قرض می دهید، و از پیش شرط بندی برای اجرای بهترین شغل آموزش SageMaker استفاده کنید، همه بدون هماهنگی دستی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1c742c1d925baf7",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
-      },
-      "eventId": "e1c742c1d925baf7",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.9,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T01:20:48Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T17:06:31Z"
        }
@@ -1303,15 +1306,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.5,
+        "recency": 88.6,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1361,15 +1364,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 88.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T01:20:48Z"
+       "asOf": "2026-10-30T09:00:00Z"
       },
       "tr": {
        "fa": {
