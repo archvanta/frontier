@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-30T20:48:43Z",
+ "asOf": "2026-10-30T22:56:13Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-29T20:48:43Z",
-   "to": "2026-10-30T20:48:43Z",
+   "from": "2026-10-29T22:56:13Z",
+   "to": "2026-10-30T22:56:13Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 85.8,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -105,15 +105,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 85.6,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -125,6 +125,65 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "feb912e225e8e3aa",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
+      "excerpt": "This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T22:42:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T23:01:37Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21654-1-1.png",
+       "alt": "Five-stage Amazon Bedrock cost operating model loop: attribute, observe, enforce, optimize, operate",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "feb912e225e8e3aa",
+      "related": [],
+      "score": {
+       "total": 67.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 65.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-10-30T22:56:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدیریت هزینه های Bedrock آمازون به پایان می رسد: یک کتاب برای FinOps و تیم های پلتفرم",
+        "excerpt": "این پست یک مدل عملیاتی پنج مرحله ای برای مدیریت هزینه های Bedrock آمازون ارائه می دهد: هر دلار را به مالک نسبت می دهد، هر درخواست قابل مشاهده، اجرای بودجه، بهینه سازی پیش فرض های پلت فرم و کار یک کادر بررسی. نوشته شده برای FinOps و تیم های مهندسی پلت فرم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T23:01:37Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -165,15 +224,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.1,
+        "recency": 79.7,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -184,7 +243,66 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "391b23f56ce31826",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "excerpt": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T21:40:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T23:01:37Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "announcements"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22062-1.png",
+       "alt": "Architecture diagram: the preview page and local endpoint on your machine, the Session endpoint and InvokeAgentRuntime, and the agent and Vite development server in a runtime session, with Claude Haik",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "391b23f56ce31826",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.9,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-30T22:56:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "برنامه های وب Preview به عنوان عامل برنامه نویسی شما زندگی می کنند آنها را با Amazon Bedrock Agent RunCoretime می سازند",
+        "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T23:01:37Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -219,15 +337,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 75.0,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -237,134 +355,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cdb16d5410782133",
-      "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Gen uses ChatGPT Work to turn data Into decisions | OpenAI",
-      "excerpt": "“Before ChatGPT Work, we were walking. Now with ChatGPT Work, we are running.” For Gen's Howie Xu, that means understanding how a new product’s onboarding experience is working within two or three hours of release. Finding answers used to mean repeated handoffs across teams, functions, and time zones. ChatGPT Work is shortening that feedback loop. Watch how Howie turns business data into…",
-      "lang": "en",
-      "publishedAt": "2026-10-30T15:22:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T16:16:55Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/Oi9DHk57KeQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Oi9DHk57KeQ",
-       "url": "https://www.youtube.com/watch?v=Oi9DHk57KeQ"
-      },
-      "eventId": "cdb16d5410782133",
-      "related": [],
-      "score": {
-       "total": 66.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 73.1,
-        "topic": 100.0,
-        "novelty": 72.7
-       },
-       "asOf": "2026-10-30T20:48:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی استفاده از ChatGPT کار برای تبدیل داده ها به تصمیمات",
-        "excerpt": "قبل از کار ChatGPT، راه می رفتیم. در حال حاضر با کار ChatGPT، ما در حال اجرا هستیم.\" برای Howie Xu، این بدان معنی است که درک اینکه چگونه یک تجربه جدید تولید در عرض دو یا سه ساعت انتشار است. پیدا کردن پاسخ های مورد استفاده برای منظور تکرار دست در تیم ها، توابع و مناطق زمانی. کار ChatGPT این حلقه بازخورد را کوتاه می کند. ببینید که چگونهie داده های کسب و کار را به ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T16:16:55Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "25a528e218b1080c",
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "excerpt": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:26:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "anthropic",
-       "google",
-       "microsoft",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "anthropic",
-       "google",
-       "microsoft",
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25330660/STK414_AI_CHATBOT_H.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Photo illustration of a brain on a circuit board in red.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "25a528e218b1080c",
-      "related": [],
-      "score": {
-       "total": 65.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-10-30T20:48:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بزرگترین نام های موجود در AI از یک راه جدید برای انتخاب از بین رفتن پشتیبانی می کنند",
-        "excerpt": "OpenAI، گوگل، مایکروسافت و Anthropic می گویند که آنها یک استاندارد جدید را تصویب می کنند که ناشران می توانند از آن برای حذف توسط AI استفاده کنند، همانطور که قبلا توسط Search Engine Roundtable گزارش شده است. با این کنترل، ناشران می توانند ترجیحات آموزش هوش مصنوعی خود را در شرکت های متعدد AI به جای تنظیم آنها به صورت جداگانه اعمال کنند. سیگنال «نشانه سیاست» مشترک",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-23T20:48:43Z",
-   "to": "2026-10-30T20:48:43Z",
+   "from": "2026-10-23T22:56:13Z",
+   "to": "2026-10-30T22:56:13Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +398,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 60.7,
+        "recency": 59.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -463,15 +457,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 97.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -517,15 +511,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 87.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -571,15 +565,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 95.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -590,6 +584,61 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c7606af40dbb903f",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Community safety report and new protections for teens",
+      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "safety",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/safety.svg",
+       "kind": "fallback"
+      },
+      "eventId": "c7606af40dbb903f",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.4,
+        "topic": 90.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-30T22:56:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
+        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -630,15 +679,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 97.4,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -646,61 +695,6 @@
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c7606af40dbb903f",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "safety",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
-      },
-      "eventId": "c7606af40dbb903f",
-      "related": [],
-      "score": {
-       "total": 70.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.3,
-        "topic": 90.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T20:48:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
-        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
        }
       }
      },
@@ -745,15 +739,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -774,51 +768,52 @@
     },
     {
      "article": {
-      "id": "44854634469c462e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "id": "391b23f56ce31826",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
-      "excerpt": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "excerpt": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
       "lang": "en",
-      "publishedAt": "2026-10-30T17:32:20Z",
+      "publishedAt": "2026-10-30T21:40:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
+      "fetchedAt": "2026-10-30T23:01:37Z",
       "day": "2026-10-30",
       "category": "products",
       "tags": [
-       "amazon bedrock",
-       "customer solutions"
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "announcements"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-20953-1-2.png",
-       "alt": "Exception-handling architecture: SpeedShip and other data sources feed detected exceptions to three agents on Amazon EC2 that call Amazon Bedrock, then route resolutions to a human reviewer",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22062-1.png",
+       "alt": "Architecture diagram: the preview page and local endpoint on your machine, the Session endpoint and InvokeAgentRuntime, and the agent and Vite development server in a runtime session, with Claude Haik",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "44854634469c462e",
+      "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 98.8,
         "topic": 65.0,
-        "novelty": 81.8
+        "novelty": 80.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه حمل و نقل خودکار در سراسر جهان با آمازون Bedrock",
-        "excerpt": "در سراسر جهان اکسپرس لایحه حمل و نقل کمتر از محموله را با یک راه حل چند عاملی ساخته شده در آمازون Bedrock خودکار کرد. شش ماه پس از راه اندازی، این شرکت استثناهای فعال را به میزان 75 درصد کاهش داد، تا چهار هفته زمان به پول نقد را بهبود بخشید و 10 میلیون دلار را در جریان نقدینگی آزاد باز کرد.",
+        "title": "برنامه های وب Preview به عنوان عامل برنامه نویسی شما زندگی می کنند آنها را با Amazon Bedrock Agent RunCoretime می سازند",
+        "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
+        "at": "2026-10-30T23:01:37Z"
        }
       }
      },
@@ -833,8 +828,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-30T20:48:43Z",
-   "to": "2026-10-30T20:48:43Z",
+   "from": "2026-09-30T22:56:13Z",
+   "to": "2026-10-30T22:56:13Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -865,15 +860,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 82.2,
+       "total": 82.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 86.1,
+        "recency": 85.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -924,15 +919,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -978,15 +973,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -1031,15 +1026,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -1085,15 +1080,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -1104,66 +1099,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "226d6d5c25cb9ac1",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "interview",
-       "research",
-       "artificial intelligence",
-       "data",
-       "voting and elections",
-       "technology and society"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
-       "credit": "Credit: MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "226d6d5c25cb9ac1",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.5,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-30T20:48:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
-        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1204,20 +1139,80 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.2,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
         "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "226d6d5c25cb9ac1",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "interview",
+       "research",
+       "artificial intelligence",
+       "data",
+       "voting and elections",
+       "technology and society"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
+       "credit": "Credit: MIT News",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "226d6d5c25cb9ac1",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-30T22:56:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
+        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -1268,15 +1263,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 74.7,
+        "recency": 74.3,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
@@ -1298,51 +1293,52 @@
     },
     {
      "article": {
-      "id": "44854634469c462e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-worldwide-express-automated-freight-exceptions-with-amazon-bedrock",
+      "id": "391b23f56ce31826",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How Worldwide Express automated freight exceptions with Amazon Bedrock",
-      "excerpt": "Worldwide Express automated its less-than-truckload freight billing-exception process with a multi-agent solution built on Amazon Bedrock. Six months after launch, the company cut active exceptions by 75%, improved time-to-cash by four weeks, and unlocked $10 million in free cash flow.",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "excerpt": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
       "lang": "en",
-      "publishedAt": "2026-10-30T17:32:20Z",
+      "publishedAt": "2026-10-30T21:40:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
+      "fetchedAt": "2026-10-30T23:01:37Z",
       "day": "2026-10-30",
       "category": "products",
       "tags": [
-       "amazon bedrock",
-       "customer solutions"
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "announcements"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-20953-1-2.png",
-       "alt": "Exception-handling architecture: SpeedShip and other data sources feed detected exceptions to three agents on Amazon EC2 that call Amazon Bedrock, then route resolutions to a human reviewer",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22062-1.png",
+       "alt": "Architecture diagram: the preview page and local endpoint on your machine, the Session endpoint and InvokeAgentRuntime, and the agent and Vite development server in a runtime session, with Claude Haik",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "44854634469c462e",
+      "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 99.6,
         "topic": 65.0,
-        "novelty": 81.8
+        "novelty": 80.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه حمل و نقل خودکار در سراسر جهان با آمازون Bedrock",
-        "excerpt": "در سراسر جهان اکسپرس لایحه حمل و نقل کمتر از محموله را با یک راه حل چند عاملی ساخته شده در آمازون Bedrock خودکار کرد. شش ماه پس از راه اندازی، این شرکت استثناهای فعال را به میزان 75 درصد کاهش داد، تا چهار هفته زمان به پول نقد را بهبود بخشید و 10 میلیون دلار را در جریان نقدینگی آزاد باز کرد.",
+        "title": "برنامه های وب Preview به عنوان عامل برنامه نویسی شما زندگی می کنند آنها را با Amazon Bedrock Agent RunCoretime می سازند",
+        "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
+        "at": "2026-10-30T23:01:37Z"
        }
       }
      },
@@ -1381,15 +1377,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.9,
+        "recency": 87.3,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T20:48:43Z"
+       "asOf": "2026-10-30T22:56:13Z"
       },
       "tr": {
        "fa": {
