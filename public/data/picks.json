@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-30T09:00:00Z",
+ "asOf": "2026-10-30T13:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,124 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-29T09:00:00Z",
-   "to": "2026-10-30T09:00:00Z",
+   "from": "2026-10-29T13:00:00Z",
+   "to": "2026-10-30T13:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "3e4e3eed2bbff167",
+      "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+      "excerpt": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T13:07:48Z",
+      "day": "2026-10-30",
+      "category": "hardware",
+      "tags": [
+       "startups",
+       "ai",
+       "data centers"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "3e4e3eed2bbff167",
+      "related": [],
+      "score": {
+       "total": 62.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-30T13:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا مراکز داده هوش مصنوعی می توانند مانند ماشین ها تولید انبوهی داشته باشند؟ هدف این استارت آپ پیدا کردن",
+        "excerpt": "Runware ساخت یک کارخانه برای تبدیل مراکز داده های از پیش ساخته شده AI در یک خط مونتاژ است. آزمایش واقعی این است که آیا می تواند در این مقیاس ارائه دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T13:07:48Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "dbfbce585037fb7a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Maine’s data center revolt will decide who controls the Senate",
+      "excerpt": "Maine Sen. Susan Collins, a Republican, was midway through defending her record during the final debate of the midterms when an audience member cut her short. \"I'm terrified,\" a man shouted. \"AI data centers are destroying our climate. They are poisoning our water.\" Collins brushed off the outburst, tying the man to her Democratic challenger,",
+      "lang": "en",
+      "publishedAt": "2026-10-30T11:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T13:07:48Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "policy",
+       "politics",
+       "report",
+       "science"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268813_MAINE_DATA_CENTERS_CVirginia.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Susan Collins and Troy Jackson in the shape of Maine with glitchy effects.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "dbfbce585037fb7a",
+      "related": [],
+      "score": {
+       "total": 62.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 85.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-30T13:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شورش مرکز داده های مین تصمیم خواهد گرفت که چه کسی سنا را کنترل می کند",
+        "excerpt": "سن اصلی سوزان کالینز، یک جمهوری خواه، از طریق دفاع از رکورد خود در طول بحث نهایی در میان دوره های زمانی که یک عضو مخاطب کوتاه خود را برش. «من می ترسم»، مردی فریاد زد. مراکز داده های AI آب و هوای ما را از بین می برند. آنها آب ما را مسموم می کنند.» کالینز از بیرون راندند، و مرد را به چالش دموکراتیک خود،",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T13:07:48Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "a973ac401cee8ade",
@@ -47,15 +161,15 @@
       "eventId": "a973ac401cee8ade",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 61.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +180,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -102,15 +216,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 61.3,
+       "total": 59.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 39.7,
+        "recency": 31.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -118,124 +232,6 @@
         "excerpt": "مدل به روز شده OpenAI پنج ارزش اصلی را برای هدایت هوش مصنوعی بیشتر قادر به قضاوت صدا، آژانس انسانی و وفاداری به هدف انسانی ترسیم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-29T19:01:24Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6177cdec0bdff542",
-      "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "GTC Berlin 2026: Power Demand, Increasing Grid Reliability and Resiliency",
-      "excerpt": "Hear leaders from Siemens Energy, Bayernwerk, and TenneT discuss how AI and accelerated computing are helping modernize grid operations, integrate distributed energy resources, and keep power reliable as demand rises. #GTCBerlin #EnergyforAI #AIforEnergy",
-      "lang": "en",
-      "publishedAt": "2026-10-29T21:36:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T22:02:21Z",
-      "day": "2026-10-29",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i3.ytimg.com/vi/JXEMFLQwi4A/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "JXEMFLQwi4A",
-       "url": "https://www.youtube.com/watch?v=JXEMFLQwi4A"
-      },
-      "eventId": "6177cdec0bdff542",
-      "related": [],
-      "score": {
-       "total": 58.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 51.8,
-        "topic": 70.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-10-30T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "GTC برلین 2026: قدرت تقاضا، افزایش قابلیت اطمینان شبکه و انعطاف پذیری",
-        "excerpt": "رهبران بشنوید از زیمنس انرژی، Bayernwerk و TenneT در مورد چگونگی هوش مصنوعی و محاسبات شتاب یافته کمک به نوسازی عملیات شبکه، ادغام منابع انرژی توزیع شده، و حفظ قدرت قابل اعتماد به عنوان افزایش تقاضا است. #GTCBer #انرژی برای AI #AI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T22:02:21Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3fa519422b2c3b84",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-the-uk-amazon-quick-user-group-grew-in-2026",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How the UK Amazon Quick User Group grew in 2026",
-      "excerpt": "The UK Amazon Quick User Group's 2026 roundup: three quarterly meetups, 150+ attendees, and customer stories from Arriva, Carsa, and Propulse Lab on using agentic AI and Amazon Quick to turn data into faster decisions, higher satisfaction, and scalable growth.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T20:16:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T22:02:21Z",
-      "day": "2026-10-29",
-      "category": "products",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "uncategorized"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21295-1.jpeg",
-       "alt": "Attendees at a UK Amazon Quick User Group meetup in Shoreditch, London",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "3fa519422b2c3b84",
-      "related": [],
-      "score": {
-       "total": 57.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 48.0,
-        "topic": 65.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-30T09:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه گروه کاربری سریع آمازون در سال 2026 رشد کرد",
-        "excerpt": "گردآورنده گروه کاربر سریع آمازون 2026: سه جلسه سه ماهه، 150 + شرکت کنندگان، و داستان های مشتری از Arriva، Carsa، و آزمایشگاه Propulse در مورد استفاده از AI عامل و آمازون Quick برای تبدیل اطلاعات به تصمیمات سریع تر، رضایت بالاتر و رشد مقیاس پذیر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T22:02:21Z"
        }
       }
      },
@@ -249,45 +245,50 @@
     },
     {
      "article": {
-      "id": "4819ba833befb56c",
-      "url": "https://www.datacenterknowledge.com/edge-data-centers/edge-ai-may-give-telecoms-a-seat-at-the-table",
-      "sourceId": "datacenter-knowledge",
-      "sourceName": "Data Center Knowledge",
-      "title": "Edge AI May Give Telecoms a Seat at the Table",
-      "excerpt": "Edge AI may give telecoms a bigger AI role, with metro sites, not towers, emerging as the clearest near-term opportunity.",
+      "id": "3768d444d4d37def",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+      "excerpt": "Epoch AI researchers say the widely available AI model GLM 5.3 turned public security fixes into working exploits before updates reached Firefox users. It autonomously compromised six Firefox releases for about $1,000 in API fees each without triggering safeguards from any provider tested. The article Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48…",
       "lang": "en",
-      "publishedAt": "2026-10-30T09:00:00Z",
+      "publishedAt": "2026-10-30T12:22:18Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T09:03:40Z",
+      "fetchedAt": "2026-10-30T13:07:48Z",
       "day": "2026-10-30",
-      "category": "hardware",
-      "tags": [],
+      "category": "open-source",
+      "tags": [
+       "ai in practice",
+       "artificial intelligence",
+       "cybersecurity",
+       "firefox"
+      ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/blt359d79f29e75c7fe/6ae3b101028e0e8e51c44054/Double_layer_network_connection_concept_telecommunication_to_the_city.png?width=720&quality=80&disable=upscale",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/firefox_kraken.png",
        "kind": "feed",
-       "sourceUrl": "https://www.datacenterknowledge.com/rss.xml"
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "4819ba833befb56c",
+      "eventId": "3768d444d4d37def",
       "related": [],
       "score": {
-       "total": 57.6,
+       "total": 57.4,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 90.9
+        "recency": 96.4,
+        "topic": 75.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Edge AI می تواند یک صندلی در جدول ارائه دهد",
-        "excerpt": "Edge AI ممکن است نقش هوش مصنوعی بزرگتری را با سایت های مترو، نه برج ها، که به عنوان واضح ترین فرصت نزدیک به مدت زمان ظهور می کند، به دست آورد.",
+        "title": "مدل باز وزن GLM 5.3 زنجیره های بهره برداری کامل فایرفاکس را با ورودی صفر انسان در کمتر از 48 ساعت ساخت.",
+        "excerpt": "محققان Epoch AI می گویند که مدل AI GLM 5.3، اصلاحات امنیتی عمومی را در بهره برداری های کاری قبل از به روز رسانی به کاربران فایرفاکس تبدیل کرد. این سیستم به طور خودکار شش نسخه فایرفاکس را برای حدود 1000 دلار در هزینه های API به خطر می اندازد بدون اینکه هر ارائه دهنده ای را آزمایش کند. مدل باز وزن GLM 5.3 زنجیره های بهره برداری کامل فایرفاکس را با ورودی صفر انسان در کمتر از 48 ساخت.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T09:03:40Z"
+        "at": "2026-10-30T13:07:48Z"
        }
       }
      },
@@ -301,69 +302,68 @@
     },
     {
      "article": {
-      "id": "983901472b072637",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Build a repeatable PHP-to-Java migration engine with Kiro",
-      "excerpt": "Turn a PHP-to-Java migration from a one-time leap of faith into a measurable, repeatable process with Kiro. This post walks through a reusable engine: a mechanical discovery scanner and an eight-phase, parity-first workflow that treats the original PHP application as the specification and verifies the Java port with a parity harness.",
+      "id": "07d7652e1758d680",
+      "url": "https://www.rockpapershotgun.com/helldivers-2-boss-can-absolutely-see-making-a-game-parody-of-generative-ai-but-it-would-need-to-be-quirky-rather-than-doom-laden",
+      "sourceId": "rock-paper-shotgun",
+      "sourceName": "Rock Paper Shotgun",
+      "title": "Helldivers 2 boss can \"absolutely see\" making a game parody of generative AI, but it would need to be \"quirky\" rather than \"doom-laden\"",
+      "excerpt": "Arrowhead's chief creative officer Johan Pilestedt can well imagine the Helldivers studio developing a videogame that satirises or parodies today's generative AI technology. The game in question wouldn't be a Helldivers project, however, and Pilestedt says it would need to be relatively upbeat, rather than an exercise in feverish despair. This seems like a tall order right now, at least while…",
       "lang": "en",
-      "publishedAt": "2026-10-29T18:14:17Z",
+      "publishedAt": "2026-10-30T12:58:41Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
-      "day": "2026-10-29",
+      "fetchedAt": "2026-10-30T13:07:48Z",
+      "day": "2026-10-30",
       "category": "products",
       "tags": [
-       "advanced (300)",
-       "aws transform",
-       "kiro",
-       "technical how-to"
+       "arrowhead game studios",
+       "comedy",
+       "first person",
+       "helldivers 2",
+       "multiplayer competitive",
+       "multiplayer cooperative"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-21579-1.png",
-       "alt": "Workspace architecture: one shared brain, many projects. Diagram of the workspace layout. At the top is the Kiro workspace root, PHP-Java-Migration. Below it, a shared, global layer under .kiro/ holds",
+       "url": "https://assetsio.gnwcdn.com/Helldivers-2-automatons.jpg?width=690&quality=85&format=jpg&auto=webp",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.rockpapershotgun.com/feed"
       },
-      "eventId": "983901472b072637",
+      "eventId": "07d7652e1758d680",
       "related": [],
       "score": {
-       "total": 57.3,
+       "total": 56.9,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 42.6,
+        "recency": 99.9,
         "topic": 65.0,
-        "novelty": 90.0
+        "novelty": 91.7
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت یک موتور مهاجرت PHP-to-Java با Kiro",
-        "excerpt": "تبدیل یک مهاجرت PHP-to-Java از یک جهش یک بار از ایمان به یک فرآیند قابل اندازه گیری و قابل تکرار با Kiro. این پست از طریق یک موتور قابل استفاده مجدد پیاده روی می کند: یک اسکنر کشف مکانیکی و یک جریان کاری هشت فاز، Parity-First که با استفاده از نرم افزار اصلی PHP به عنوان مشخصات رفتار می کند و پورت جاوا را با یک تابع Parity تایید می کند.",
+        "title": "Helldivers 2 رئیس می تواند \"به طور کامل\" را ببیند و یک بازی را از هوش مصنوعی عمومی بسازد، اما باید به جای \"doom-ed\" به \"quirky\" تبدیل شود.",
+        "excerpt": "مدیر خلاق Arrowhead، یوهان Pilestedt به خوبی می تواند استودیوی Helldivers را در حال توسعه یک بازی ویدئویی که نشسته یا تجزیه و تحلیل فن آوری هوش مصنوعی عمومی امروز. با این حال، بازی در سوال یک پروژه هلنی نخواهد بود و Pilestedt می گوید که باید نسبتاً خوشحال باشد، نه یک تمرین در ناامیدی تبانی. این به نظر می رسد که در حال حاضر، حداقل در حالی که ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
+        "at": "2026-10-30T13:07:48Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-10-23T09:00:00Z",
-   "to": "2026-10-30T09:00:00Z",
+   "from": "2026-10-23T13:00:00Z",
+   "to": "2026-10-30T13:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -394,15 +394,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 78.6,
+       "total": 78.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.1,
+        "recency": 65.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -449,15 +449,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 82.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -502,15 +502,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.9,
+        "recency": 74.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -560,15 +560,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 82.5,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -619,15 +619,15 @@
       "eventId": "6177cdec0bdff542",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 86.2,
         "topic": 70.0,
         "novelty": 78.6
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -679,15 +679,15 @@
       "eventId": "983901472b072637",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
+        "recency": 83.5,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -739,15 +739,15 @@
       "eventId": "a973ac401cee8ade",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 65.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.2,
         "topic": 85.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -793,15 +793,15 @@
       "eventId": "f3538b6fb36f4f58",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.0,
+        "recency": 79.8,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -822,8 +822,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-30T09:00:00Z",
-   "to": "2026-10-30T09:00:00Z",
+   "from": "2026-09-30T13:00:00Z",
+   "to": "2026-10-30T13:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -854,15 +854,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 82.8,
+       "total": 82.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 89.1,
+        "recency": 88.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -907,15 +907,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -962,15 +962,15 @@
       "eventId": "7bf0065ceb1646f5",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1017,15 +1017,15 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 89.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1074,15 +1074,15 @@
        "ab41ce0092eca74b"
       ],
       "score": {
-       "total": 71.5,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 56.0,
+        "recency": 55.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1139,15 +1139,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.3,
+        "recency": 76.4,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1194,15 +1194,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 89.9,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1251,15 +1251,15 @@
       "eventId": "aa702b033bfda9cd",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.4,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1306,15 +1306,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 87.6,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1364,15 +1364,15 @@
       "eventId": "071e826394b5b671",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 87.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-10-30T09:00:00Z"
+       "asOf": "2026-10-30T13:00:00Z"
       },
       "tr": {
        "fa": {
