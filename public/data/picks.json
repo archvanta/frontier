@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-31T18:00:00Z",
+ "asOf": "2026-10-31T19:20:55Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-30T18:00:00Z",
-   "to": "2026-10-31T18:00:00Z",
+   "from": "2026-10-30T19:20:55Z",
+   "to": "2026-10-31T19:20:55Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "92c9aea9fb2fc675",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+      "excerpt": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email, free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back against the federal government’s proposal to allow AI companies to scrape everything Australians…",
+      "lang": "en",
+      "publishedAt": "2026-10-31T19:00:52Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T20:02:39Z",
+      "day": "2026-10-31",
+      "category": "policy",
+      "tags": [
+       "sydney",
+       "australia news",
+       "anthony albanese",
+       "new south wales",
+       "ai (artificial intelligence)",
+       "datacentres - australia"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/807757f27fc7edd5bb144e03b8fbb5e5681bfa56/196_36_2835_2268/master/2835.jpg?width=700&quality=85&auto=format&fit=max&s=4eeb609ccce4ccd07077509985aff824",
+       "credit": "Photograph: Liz Ham/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "92c9aea9fb2fc675",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.1,
+        "topic": 85.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-10-31T19:20:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Disquiet در حیاط پشتی آلکس رشد می کند، زیرا هنرمندان Grayndler در برابر پیشنهاد AI “inane” متحد می شوند.",
+        "excerpt": "صندلی غرب سیدنی به مدت طولانی توسط نخست وزیر حفظ شده است - اما تغییرات بالقوه در قوانین کپی رایت خشم جامعه خلاق بزرگ خود را دریافت ایمیل سیاسی روزانه ما، برنامه رایگان و یا پادکست اخبار روزانه است که نخست وزیر با نارضایتی در حال رشد در رای دهندگان خود را به عنوان خلاق فشار بر علیه پیشنهاد دولت فدرال به شرکت های AI اجازه می دهد تا همه چیز استرالیا را از بین ببرند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T20:02:39Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "8b3d7b17de9c91b8",
@@ -47,15 +107,15 @@
       "eventId": "8b3d7b17de9c91b8",
       "related": [],
       "score": {
-       "total": 63.8,
+       "total": 62.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.2,
+        "recency": 82.5,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +126,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -76,62 +136,117 @@
     },
     {
      "article": {
-      "id": "0c01375b92457218",
-      "url": "https://www.theguardian.com/lifeandstyle/2026/oct/31/ai-your-wingman-chatbots-transforming-dating",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Is AI your new wingman? How chatbots are transforming dating",
-      "excerpt": "Almost 40% of British singles have used AI for romantic advice, from writing messages to assessing potential partners After Sam’s ex joked that her sister found him ugly, he turned to AI. Google Gemini had a look at the photo and politely disagreed. AI has been his wingman ever since, aiding his dating life by giving pep talks and vetting his messages. The 27-year-old from Stoke-on-Trent is not…",
+      "id": "7d0c175e3ab1bec2",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "excerpt": "Anthropic is expanding its text watermark to four more Claude models to meet the EU AI Act's December deadline. On the older models Claude Opus 4.6 and Sonnet 4.6, developers can bypass the watermark by tweaking a single sampling parameter. Anthropic addresses the loophole with just a compliance warning. The article Anthropic's watermark rollout leaves a loophole on two older Claude models…",
       "lang": "en",
-      "publishedAt": "2026-10-31T12:00:42Z",
+      "publishedAt": "2026-10-31T19:20:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-31T13:55:19Z",
+      "fetchedAt": "2026-10-31T20:02:39Z",
       "day": "2026-10-31",
       "category": "models",
       "tags": [
-       "dating",
-       "ai (artificial intelligence)",
-       "chatbots",
-       "uk news",
-       "society",
-       "tinder"
+       "ai in practice",
+       "artificial intelligence",
+       "anthropic",
+       "claude"
       ],
       "entities": [
-       "google"
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/f57dcf1a8bbea5c0f23d491b38cd69b5b7d99f18/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=e33ce9f1429c3571230c836dce91d5f6",
-       "credit": "Illustration: Anaïs Mims/Guardian Design",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/08/Claude-Watermark.png",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "0c01375b92457218",
+      "eventId": "7d0c175e3ab1bec2",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 61.7,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 70.8,
+        "recency": 100.0,
         "topic": 100.0,
-        "novelty": 87.5
+        "novelty": 86.7
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا AI جدید شما است؟ چگونه chatbots تبدیل قدمت",
-        "excerpt": "تقریبا ۴۰ درصد از تک تک تک بریتانیایی ها از هوش مصنوعی برای مشاوره عاشقانه استفاده کرده اند، از نوشتن پیام ها تا ارزیابی شرکای بالقوه بعد از شوخی های سابق سم مبنی بر اینکه خواهرش او را زشت می داند، به هوش مصنوعی تبدیل شد. گوگل Gemini به عکس نگاه کرد و مودبانه مخالفت کرد. AI از آن زمان تا به حال بالدار او بوده است، کمک به زندگی دوستیابی خود را با ارائه مذاکرات پیپ و بررسی پیام های خود. بچه 27 ساله ای که اهل سنتوک است،...",
+        "title": "رول علامت آب Anthropic یک شکاف در دو مدل قدیمی کلود",
+        "excerpt": "Anthropic در حال گسترش علامت آب متن خود را به چهار مدل بیشتر کلود برای دیدار با مهلت دسامبر قانون AI اتحادیه اروپا است. در مدل های قدیمی تر کلود Opus 4.6 و Sonnet 4.6، توسعه دهندگان می توانند با اصلاح یک پارامتر نمونه برداری، علامت آب را دور بزنند. Anthropic به شکاف فقط با یک هشدار انطباق می پردازد. مقاله Anthropic’s Watermark رولout در دو مدل قدیمی کلود است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T13:55:19Z"
+        "at": "2026-10-31T20:02:39Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "959f3bc271166ed6",
+      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "There are many futures. Which do you want to build?",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:17:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "o4D1J1YWjhg",
+       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
+      },
+      "eventId": "959f3bc271166ed6",
+      "related": [],
+      "score": {
+       "total": 59.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 26.4,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-31T19:20:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -168,15 +283,15 @@
       "eventId": "0743971cc8a04add",
       "related": [],
       "score": {
-       "total": 60.2,
+       "total": 58.9,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 85.5,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -187,12 +302,12 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -229,15 +344,15 @@
       "eventId": "ed0268fa6e325c7b",
       "related": [],
       "score": {
-       "total": 60.2,
+       "total": 58.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.5,
+        "recency": 82.8,
         "topic": 65.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -245,123 +360,6 @@
         "excerpt": "متا مارک زوکربرگ باعث شد هوش مصنوعی آنقدر زیبا به نظر برسد که به آن یک چهره کوچک و این فصل تعطیلات، او می خواهد شما را به عنوان یک آهنگ جذاب به فروش برساند، بنابراین شما می توانید دستیار هوش مصنوعی خود را در اطراف مانند Tamagotchi حمل کنید. اما من نمی خواهم یکی را بخرم، زیرا ما در خانه جذاب هستیم. It It It",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-31T18:49:46Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "959f3bc271166ed6",
-      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "There are many futures. Which do you want to build?",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:17:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "o4D1J1YWjhg",
-       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
-      },
-      "eventId": "959f3bc271166ed6",
-      "related": [],
-      "score": {
-       "total": 59.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 28.5,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-31T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "58df871dde03587b",
-      "url": "https://www.youtube.com/shorts/eMrtWHwkLLk",
-      "sourceId": "verge-youtube",
-      "sourceName": "The Verge (YouTube)",
-      "title": "Instagram's AI crisis",
-      "excerpt": "If Instagram labeled and filtered AI content, it would be the most popular decision of all time. Subscribe: http://goo.gl/G5RXGs Like The Verge on Facebook: https://goo.gl/2P1aGc Follow on Twitter: https://goo.gl/XTWX61 Follow on Instagram: https://goo.gl/7ZeLv Watch The Vergecast on YouTube: https://bit.ly/40RFRkg The Vergecast Podcast: https://bit.ly/3WQDexZ Decoder with Nilay Patel…",
-      "lang": "en",
-      "publishedAt": "2026-10-31T15:00:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T15:47:06Z",
-      "day": "2026-10-31",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/eMrtWHwkLLk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "eMrtWHwkLLk",
-       "url": "https://www.youtube.com/watch?v=eMrtWHwkLLk"
-      },
-      "eventId": "58df871dde03587b",
-      "related": [],
-      "score": {
-       "total": 58.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 65.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-10-31T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بحران هوش مصنوعی اینستاگرام",
-        "excerpt": "اگر اینستاگرام محتوای AI را برچسب زده و فیلتر کند، محبوب ترین تصمیم در تمام زمان خواهد بود. مشترک: http://goo.gl/G5RXGs مانند Verge در فیس بوک: https://goo.gl/2P1aGc در توییتر دنبال می کنند: https://goo.gl/XTWX61 در Instagram دنبال می کنند: https://goo.gl/7ZeLv Watch The Vergecast در YouTube: https://bitly Nicast.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T15:47:06Z"
        }
       }
      },
@@ -376,8 +374,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-24T18:00:00Z",
-   "to": "2026-10-31T18:00:00Z",
+   "from": "2026-10-24T19:20:55Z",
+   "to": "2026-10-31T19:20:55Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +406,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 49.5,
+        "recency": 48.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -467,15 +465,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.1,
+        "recency": 80.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -521,15 +519,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.1,
+        "recency": 72.2,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -575,15 +573,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.3,
+        "recency": 78.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -629,15 +627,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.8,
+        "recency": 71.8,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -689,15 +687,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.1,
+        "recency": 80.1,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -749,15 +747,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.1,
+        "recency": 79.1,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -778,53 +776,53 @@
     },
     {
      "article": {
-      "id": "8b3d7b17de9c91b8",
-      "url": "https://www.theguardian.com/fashion/2026/oct/31/a-listers-ai-stylists-high-street-brands-fashion-comeback",
+      "id": "92c9aea9fb2fc675",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "A-listers and AI stylists: how high-street brands are staging a fashion comeback",
-      "excerpt": "Gap, M&S, Topshop and more are taking a leaf from luxury label playbooks to satisfy savvier generation of shoppers High street brands that boomed in the noughties before the squeeze of both sustainably minded consumers and the rise of ultra-cheap online labels are staging a comeback. This time, rather than focusing solely on trend-led affordable designs, the names familiar to any shopper are…",
+      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
+      "excerpt": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email, free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back against the federal government’s proposal to allow AI companies to scrape everything Australians…",
       "lang": "en",
-      "publishedAt": "2026-10-31T16:00:47Z",
+      "publishedAt": "2026-10-31T19:00:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-31T18:49:46Z",
+      "fetchedAt": "2026-10-31T20:02:39Z",
       "day": "2026-10-31",
       "category": "policy",
       "tags": [
-       "fashion industry",
-       "fashion",
-       "marks & spencer",
-       "topshop",
-       "asos",
-       "john lewis"
+       "sydney",
+       "australia news",
+       "anthony albanese",
+       "new south wales",
+       "ai (artificial intelligence)",
+       "datacentres - australia"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/392bac3568445a08a38ac339fc9393a9fd479db7/0_507_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=a964898ddeff78126caee2830357f7f3",
-       "credit": "Photograph: Jamie McCarthy/Getty Images",
+       "url": "https://i.guim.co.uk/img/media/807757f27fc7edd5bb144e03b8fbb5e5681bfa56/196_36_2835_2268/master/2835.jpg?width=700&quality=85&auto=format&fit=max&s=4eeb609ccce4ccd07077509985aff824",
+       "credit": "Photograph: Liz Ham/The Guardian",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "8b3d7b17de9c91b8",
+      "eventId": "92c9aea9fb2fc675",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 99.7,
         "topic": 85.0,
-        "novelty": 92.3
+        "novelty": 88.2
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
-        "title": "A-listers و AI Styles: چگونه مارک های خیابانی بالا در حال قرار دادن یک بازگشت مد هستند",
-        "excerpt": "Gap، M&S، Topshop و موارد دیگر یک برگ از کتاب های برچسب لوکس می گیرند تا نسل savvier از مارک های خیابانی بالا خریداران را که قبل از فشار مصرف کنندگان به طور پایدار و افزایش برچسب های آنلاین Ultra-cheap در حال چرخش هستند، یک بازگشت هستند. این بار، به جای تمرکز بر طرح های مقرون به صرفه، نام های آشنا با هر خریدار ...",
+        "title": "Disquiet در حیاط پشتی آلکس رشد می کند، زیرا هنرمندان Grayndler در برابر پیشنهاد AI “inane” متحد می شوند.",
+        "excerpt": "صندلی غرب سیدنی به مدت طولانی توسط نخست وزیر حفظ شده است - اما تغییرات بالقوه در قوانین کپی رایت خشم جامعه خلاق بزرگ خود را دریافت ایمیل سیاسی روزانه ما، برنامه رایگان و یا پادکست اخبار روزانه است که نخست وزیر با نارضایتی در حال رشد در رای دهندگان خود را به عنوان خلاق فشار بر علیه پیشنهاد دولت فدرال به شرکت های AI اجازه می دهد تا همه چیز استرالیا را از بین ببرند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T18:49:46Z"
+        "at": "2026-10-31T20:02:39Z"
        }
       }
      },
@@ -839,8 +837,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-01T18:00:00Z",
-   "to": "2026-10-31T18:00:00Z",
+   "from": "2026-10-01T19:20:55Z",
+   "to": "2026-10-31T19:20:55Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -871,15 +869,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.2,
+       "total": 81.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 81.0,
+        "recency": 80.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -930,15 +928,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 93.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -984,15 +982,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
+        "recency": 90.7,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -1037,15 +1035,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 84.0,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -1091,15 +1089,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 92.9,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -1110,66 +1108,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "226d6d5c25cb9ac1",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "interview",
-       "research",
-       "artificial intelligence",
-       "data",
-       "voting and elections",
-       "technology and society"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
-       "credit": "Credit: MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "226d6d5c25cb9ac1",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.6,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-31T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
-        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1214,16 +1152,76 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 93.5,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
         "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "226d6d5c25cb9ac1",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "interview",
+       "research",
+       "artificial intelligence",
+       "data",
+       "voting and elections",
+       "technology and society"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
+       "credit": "Credit: MIT News",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "226d6d5c25cb9ac1",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.2,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-10-31T19:20:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
+        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -1274,15 +1272,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.3,
+        "recency": 70.0,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -1329,15 +1327,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.6,
+        "recency": 82.3,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
@@ -1383,15 +1381,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.5,
+        "recency": 80.2,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-31T18:00:00Z"
+       "asOf": "2026-10-31T19:20:55Z"
       },
       "tr": {
        "fa": {
