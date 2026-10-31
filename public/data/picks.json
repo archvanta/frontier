@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-31T19:20:55Z",
+ "asOf": "2026-10-31T21:41:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-30T19:20:55Z",
-   "to": "2026-10-31T19:20:55Z",
+   "from": "2026-10-30T21:41:00Z",
+   "to": "2026-10-31T21:41:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "e07dacdb45dcc75e",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "excerpt": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "lang": "en",
+      "publishedAt": "2026-10-31T21:17:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T22:52:05Z",
+      "day": "2026-10-31",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "government & policy",
+       "spacex",
+       "xai"
+      ],
+      "entities": [
+       "xai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "e07dacdb45dcc75e",
+      "related": [],
+      "score": {
+       "total": 64.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.7,
+        "topic": 85.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-10-31T21:41:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قاضی اجازه می دهد شکایت NAACP در مورد آلودگی مرکز داده های XAI به جلو حرکت کند",
+        "excerpt": "یک شکایت NAACP شرکت AI متعلق به اسپیس ایکس را به نقض قانون هوای پاک متهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T22:52:05Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "92c9aea9fb2fc675",
@@ -47,15 +105,15 @@
       "eventId": "92c9aea9fb2fc675",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 62.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 85.7,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +124,64 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9f56e268b05ea691",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "excerpt": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "lang": "en",
+      "publishedAt": "2026-10-31T21:41:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T22:52:05Z",
+      "day": "2026-10-31",
+      "category": "business",
+      "tags": [
+       "ai",
+       "apple",
+       "john ternus"
+      ],
+      "entities": [
+       "apple"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "9f56e268b05ea691",
+      "related": [],
+      "score": {
+       "total": 61.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-10-31T21:41:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدیر عامل شرکت اپل می گوید که این شرکت \"نمی خواهد AI را به خاطر AI حمل کند\"",
+        "excerpt": "مدیر عامل جدید اپل از موقعیت فعلی شرکت در چشم انداز AI دفاع کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T22:52:05Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -107,15 +222,15 @@
       "eventId": "8b3d7b17de9c91b8",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 60.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 82.5,
+        "recency": 72.1,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -126,7 +241,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -166,15 +281,15 @@
       "eventId": "7d0c175e3ab1bec2",
       "related": [],
       "score": {
-       "total": 61.7,
+       "total": 59.1,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 87.4,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -182,123 +297,6 @@
         "excerpt": "Anthropic در حال گسترش علامت آب متن خود را به چهار مدل بیشتر کلود برای دیدار با مهلت دسامبر قانون AI اتحادیه اروپا است. در مدل های قدیمی تر کلود Opus 4.6 و Sonnet 4.6، توسعه دهندگان می توانند با اصلاح یک پارامتر نمونه برداری، علامت آب را دور بزنند. Anthropic به شکاف فقط با یک هشدار انطباق می پردازد. مقاله Anthropic’s Watermark رولout در دو مدل قدیمی کلود است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-31T20:02:39Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "959f3bc271166ed6",
-      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "There are many futures. Which do you want to build?",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:17:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "o4D1J1YWjhg",
-       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
-      },
-      "eventId": "959f3bc271166ed6",
-      "related": [],
-      "score": {
-       "total": 59.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 26.4,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-31T19:20:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0743971cc8a04add",
-      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
-      "excerpt": "Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for training without consent. The article OpenAI plans to train models on Daybreak…",
-      "lang": "en",
-      "publishedAt": "2026-10-31T16:38:37Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T18:49:46Z",
-      "day": "2026-10-31",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "0743971cc8a04add",
-      "related": [],
-      "score": {
-       "total": 58.9,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 85.5,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-10-31T19:20:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI قصد دارد مدل های خود را در داده های جلسه امنیت سایبری Daybreak Blue که قبلاً از حد محدود بوده اند، آموزش دهد.",
-        "excerpt": "با شروع 29 نوامبر، OpenAI از داده های روز شکن Blue Session برای آموزش مدل های خود استفاده می کند، حتی زمانی که کاربران آموزش را خاموش کرده اند. پس از بازگشت، یک ایمیل پیگیری وعده یک انتخاب جداگانه را داد. این حرکت نگرانی ها را از بحث با ریاضیدانانی که گمان می کردند OpenAI از تحقیقات منتشر نشده خود برای آموزش بدون رضایت استفاده می کند، احیا می کند. مقاله OpenAI قصد دارد مدل ها را در Daybreak آموزش دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T18:49:46Z"
        }
       }
      },
@@ -344,15 +342,15 @@
       "eventId": "ed0268fa6e325c7b",
       "related": [],
       "score": {
-       "total": 58.9,
+       "total": 56.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 82.8,
+        "recency": 72.4,
         "topic": 65.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -374,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-24T19:20:55Z",
-   "to": "2026-10-31T19:20:55Z",
+   "from": "2026-10-24T21:41:00Z",
+   "to": "2026-10-31T21:41:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,15 +404,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 74.8,
+       "total": 74.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 48.9,
+        "recency": 47.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -465,15 +463,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.1,
+        "recency": 78.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -519,15 +517,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.2,
+        "recency": 70.6,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -573,15 +571,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.3,
+        "recency": 76.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -627,15 +625,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.8,
+        "recency": 70.2,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -687,15 +685,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.1,
+        "recency": 78.3,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -747,15 +745,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.1,
+        "recency": 77.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -807,15 +805,15 @@
       "eventId": "92c9aea9fb2fc675",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 97.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -837,8 +835,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-01T19:20:55Z",
-   "to": "2026-10-31T19:20:55Z",
+   "from": "2026-10-01T21:41:00Z",
+   "to": "2026-10-31T21:41:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -869,15 +867,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.1,
+       "total": 81.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 80.7,
+        "recency": 80.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -928,15 +926,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 92.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -982,15 +980,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.7,
+        "recency": 90.1,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -1035,15 +1033,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.0,
+        "recency": 83.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -1089,15 +1087,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 92.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -1108,66 +1106,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de7eef275564015a",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "faculty",
-       "alumni/ae",
-       "artificial intelligence",
-       "computer science and technology",
-       "mathematics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
-       "credit": "Photos courtesy of the subjects.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "de7eef275564015a",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.5,
-        "topic": 80.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-31T19:20:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
-        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1208,20 +1146,80 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 92.6,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
         "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
         "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de7eef275564015a",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:15:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "faculty",
+       "alumni/ae",
+       "artificial intelligence",
+       "computer science and technology",
+       "mathematics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
+       "credit": "Photos courtesy of the subjects.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "de7eef275564015a",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.9,
+        "topic": 80.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-31T21:41:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
+        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -1272,15 +1270,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.0,
+        "recency": 69.6,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -1327,15 +1325,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.3,
+        "recency": 81.8,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
@@ -1381,15 +1379,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.2,
+        "recency": 79.7,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-10-31T19:20:55Z"
+       "asOf": "2026-10-31T21:41:00Z"
       },
       "tr": {
        "fa": {
