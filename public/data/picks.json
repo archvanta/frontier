@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-30T22:56:13Z",
+ "asOf": "2026-10-31T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-29T22:56:13Z",
-   "to": "2026-10-30T22:56:13Z",
+   "from": "2026-10-30T00:00:00Z",
+   "to": "2026-10-31T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 80.7,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -105,15 +105,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.6,
+        "recency": 80.5,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -164,15 +164,15 @@
       "eventId": "feb912e225e8e3aa",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 92.8,
         "topic": 65.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -224,15 +224,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.7,
+        "recency": 74.9,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -244,6 +244,59 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b2263e9f84127c76",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "nemotron-halloween",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-30T17:57:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
+      },
+      "eventId": "b2263e9f84127c76",
+      "related": [],
+      "score": {
+       "total": 65.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 70.5,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-10-31T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانلود بازی Nemotron-halloween",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -283,15 +336,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 87.4,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -299,59 +352,6 @@
         "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T23:01:37Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b2263e9f84127c76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "nemotron-halloween",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T17:57:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
-      },
-      "eventId": "b2263e9f84127c76",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 75.0,
-        "topic": 75.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-10-30T22:56:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانلود بازی Nemotron-halloween",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
        }
       }
      },
@@ -366,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-23T22:56:13Z",
-   "to": "2026-10-30T22:56:13Z",
+   "from": "2026-10-24T00:00:00Z",
+   "to": "2026-10-31T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +398,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 59.5,
+        "recency": 58.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -457,15 +457,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 96.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -511,15 +511,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.9,
+        "recency": 87.0,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -565,15 +565,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 94.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -584,61 +584,6 @@
       }
      },
      "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c7606af40dbb903f",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "safety",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
-      },
-      "eventId": "c7606af40dbb903f",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.4,
-        "topic": 90.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T22:56:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
-        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -679,15 +624,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 96.5,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -695,6 +640,61 @@
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c7606af40dbb903f",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Community safety report and new protections for teens",
+      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T18:40:00Z",
+      "day": "2026-10-30",
+      "category": "safety",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/safety.svg",
+       "kind": "fallback"
+      },
+      "eventId": "c7606af40dbb903f",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.6,
+        "topic": 90.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-31T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
+        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T18:40:00Z"
        }
       }
      },
@@ -739,15 +739,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 95.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -798,15 +798,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 97.8,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -828,8 +828,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-09-30T22:56:13Z",
-   "to": "2026-10-30T22:56:13Z",
+   "from": "2026-10-01T00:00:00Z",
+   "to": "2026-10-31T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -864,11 +864,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 85.6,
+        "recency": 85.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -923,11 +923,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -973,15 +973,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1026,15 +1026,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 88.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1080,15 +1080,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 98.3,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1099,66 +1099,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de7eef275564015a",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "faculty",
-       "alumni/ae",
-       "artificial intelligence",
-       "computer science and technology",
-       "mathematics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
-       "credit": "Photos courtesy of the subjects.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "de7eef275564015a",
-      "related": [],
-      "score": {
-       "total": 70.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 80.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-30T22:56:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
-        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1203,16 +1143,76 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.6,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
         "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de7eef275564015a",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T20:15:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "faculty",
+       "alumni/ae",
+       "artificial intelligence",
+       "computer science and technology",
+       "mathematics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
+       "credit": "Photos courtesy of the subjects.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "de7eef275564015a",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-10-31T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
+        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -1263,15 +1263,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 74.3,
+        "recency": 74.0,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1287,6 +1287,59 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1c742c1d925baf7",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-29T17:06:31Z",
+      "day": "2026-10-29",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
+      },
+      "eventId": "e1c742c1d925baf7",
+      "related": [],
+      "score": {
+       "total": 67.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.1,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-10-31T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-29T17:06:31Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1323,15 +1376,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 99.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-30T22:56:13Z"
+       "asOf": "2026-10-31T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1339,59 +1392,6 @@
         "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T23:01:37Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1c742c1d925baf7",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
-      },
-      "eventId": "e1c742c1d925baf7",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.3,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-30T22:56:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
