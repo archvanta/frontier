@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-31T06:00:00Z",
+ "asOf": "2026-10-31T09:22:52Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-30T06:00:00Z",
-   "to": "2026-10-31T06:00:00Z",
+   "from": "2026-10-30T09:22:52Z",
+   "to": "2026-10-31T09:22:52Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 63.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 57.1,
+        "recency": 46.9,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -68,6 +68,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "15ff947a901062fc",
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
+      "excerpt": "Each new tech product is designed to make our lives easier and keep us mindlessly entertained. Switch off: embrace discomfort – and boredom Ever longed for your own personal assistant? In the ever quickening tech race, Meta has recently launched Muse, a new AI personal agent. Unlike traditional chatbots, this little AI tool will be able to fill out forms for you, organise calendars, pay bills…",
+      "lang": "en",
+      "publishedAt": "2026-10-31T08:00:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T09:47:14Z",
+      "day": "2026-10-31",
+      "category": "products",
+      "tags": [
+       "ai (artificial intelligence)",
+       "technology",
+       "social media",
+       "meta"
+      ],
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/2d96ff893b43e6d48d9bdbb100b32e39e4f77ecc/0_0_5187_4150/master/5187.jpg?width=700&quality=85&auto=format&fit=max&s=e6b1ba0fa5cb5e8c3f68e16e9aaae63e",
+       "credit": "Photograph: Heather Diehl/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "15ff947a901062fc",
+      "related": [],
+      "score": {
+       "total": 61.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.4,
+        "topic": 65.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-10-31T09:22:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بازسازی AI مغز شما را خراب می کند. اما در اینجا چیزی است که شما می توانید در مورد آن انجام دهید: Carly Dober",
+        "excerpt": "هر محصول فناوری جدید طراحی شده است تا زندگی ما را آسان تر کند و ما را به طور ذهنی سرگرم کند. سوئیچ خاموش: ناراحتی را در آغوش بگیرید و خسته شده اید برای دستیار شخصی خود؟ در مسابقه تکنولوژی همیشه سریع، متا به تازگی Muse، یک عامل شخصی AI جدید را راه اندازی کرده است. بر خلاف chatbots سنتی، این ابزار هوش مصنوعی کوچک قادر به پر کردن فرم برای شما، سازماندهی تقویم ها، پرداخت صورتحساب خواهد بود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T09:47:14Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -105,80 +165,20 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 61.8,
+       "total": 59.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.9,
+        "recency": 46.8,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
         "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "226d6d5c25cb9ac1",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "interview",
-       "research",
-       "artificial intelligence",
-       "data",
-       "voting and elections",
-       "technology and society"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
-       "credit": "Credit: MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "226d6d5c25cb9ac1",
-      "related": [],
-      "score": {
-       "total": 61.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 53.0,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-10-31T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
-        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -219,15 +219,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 61.2,
+       "total": 59.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 49.9,
+        "recency": 41.0,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -277,15 +277,15 @@
       "eventId": "cdb16d5410782133",
       "related": [],
       "score": {
-       "total": 60.9,
+       "total": 59.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 43.0,
+        "recency": 35.4,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -306,52 +306,53 @@
     },
     {
      "article": {
-      "id": "feb912e225e8e3aa",
-      "url": "https://aws.amazon.com/blogs/machine-learning/managing-amazon-bedrock-costs-end-to-end-a-playbook-for-finops-and-platform-teams",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Managing Amazon Bedrock costs end to end: A playbook for FinOps and platform teams",
-      "excerpt": "This post presents a five-stage operating model for managing Amazon Bedrock cost: attribute every dollar to an owner, make every request observable, enforce budgets, optimize platform defaults, and operate a review cadence. Written for FinOps and platform engineering teams.",
+      "id": "226d6d5c25cb9ac1",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
       "lang": "en",
-      "publishedAt": "2026-10-30T22:42:24Z",
+      "publishedAt": "2026-10-30T19:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T23:01:37Z",
+      "fetchedAt": "2026-10-30T21:08:27Z",
       "day": "2026-10-30",
-      "category": "products",
+      "category": "research",
       "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "technical how-to"
+       "interview",
+       "research",
+       "artificial intelligence",
+       "data",
+       "voting and elections",
+       "technology and society"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21654-1-1.png",
-       "alt": "Five-stage Amazon Bedrock cost operating model loop: attribute, observe, enforce, optimize, operate",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
+       "credit": "Credit: MIT News",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "feb912e225e8e3aa",
+      "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 60.4,
+       "total": 59.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.6,
-        "topic": 65.0,
-        "novelty": 75.0
+        "recency": 43.6,
+        "topic": 80.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
-        "title": "مدیریت هزینه های Bedrock آمازون به پایان می رسد: یک کتاب برای FinOps و تیم های پلتفرم",
-        "excerpt": "این پست یک مدل عملیاتی پنج مرحله ای برای مدیریت هزینه های Bedrock آمازون ارائه می دهد: هر دلار را به مالک نسبت می دهد، هر درخواست قابل مشاهده، اجرای بودجه، بهینه سازی پیش فرض های پلت فرم و کار یک کادر بررسی. نوشته شده برای FinOps و تیم های مهندسی پلت فرم.",
+        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
+        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T23:01:37Z"
+        "at": "2026-10-30T21:08:27Z"
        }
       }
      },
@@ -366,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-24T06:00:00Z",
-   "to": "2026-10-31T06:00:00Z",
+   "from": "2026-10-24T09:22:52Z",
+   "to": "2026-10-31T09:22:52Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +399,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 76.1,
+       "total": 75.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 55.6,
+        "recency": 53.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -457,15 +458,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.1,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -511,15 +512,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.1,
+        "recency": 79.5,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -565,15 +566,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 86.2,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -619,15 +620,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 79.1,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -679,15 +680,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
+        "recency": 88.1,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -739,15 +740,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.0,
+        "recency": 87.1,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -798,15 +799,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 89.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -828,8 +829,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-01T06:00:00Z",
-   "to": "2026-10-31T06:00:00Z",
+   "from": "2026-10-01T09:22:52Z",
+   "to": "2026-10-31T09:22:52Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -860,15 +861,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.8,
+       "total": 81.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 83.9,
+        "recency": 83.0,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -919,15 +920,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -973,15 +974,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 93.3,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1026,15 +1027,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.3,
+        "recency": 86.5,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1080,15 +1081,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1139,15 +1140,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 95.9,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1199,15 +1200,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1263,15 +1264,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 72.8,
+        "recency": 72.1,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1318,15 +1319,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.6,
+        "recency": 84.7,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
@@ -1376,15 +1377,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 96.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-31T06:00:00Z"
+       "asOf": "2026-10-31T09:22:52Z"
       },
       "tr": {
        "fa": {
