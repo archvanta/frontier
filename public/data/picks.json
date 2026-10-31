@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-10-31T12:00:42Z",
+ "asOf": "2026-10-31T15:23:04Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-30T12:00:42Z",
-   "to": "2026-10-31T12:00:42Z",
+   "from": "2026-10-30T15:23:04Z",
+   "to": "2026-10-31T15:23:04Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
       "eventId": "0c01375b92457218",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 64.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 82.3,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -74,6 +74,182 @@
       "tier-2",
       "first-report",
       "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "58df871dde03587b",
+      "url": "https://www.youtube.com/shorts/eMrtWHwkLLk",
+      "sourceId": "verge-youtube",
+      "sourceName": "The Verge (YouTube)",
+      "title": "Instagram's AI crisis",
+      "excerpt": "If Instagram labeled and filtered AI content, it would be the most popular decision of all time. Subscribe: http://goo.gl/G5RXGs Like The Verge on Facebook: https://goo.gl/2P1aGc Follow on Twitter: https://goo.gl/XTWX61 Follow on Instagram: https://goo.gl/7ZeLv Watch The Vergecast on YouTube: https://bit.ly/40RFRkg The Vergecast Podcast: https://bit.ly/3WQDexZ Decoder with Nilay Patel…",
+      "lang": "en",
+      "publishedAt": "2026-10-31T15:00:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T15:47:06Z",
+      "day": "2026-10-31",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/eMrtWHwkLLk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCddiUEpeqJcYeBxX1IVBKvQ"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "eMrtWHwkLLk",
+       "url": "https://www.youtube.com/watch?v=eMrtWHwkLLk"
+      },
+      "eventId": "58df871dde03587b",
+      "related": [],
+      "score": {
+       "total": 61.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 65.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-31T15:23:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بحران هوش مصنوعی اینستاگرام",
+        "excerpt": "اگر اینستاگرام محتوای AI را برچسب زده و فیلتر کند، محبوب ترین تصمیم در تمام زمان خواهد بود. مشترک: http://goo.gl/G5RXGs مانند Verge در فیس بوک: https://goo.gl/2P1aGc در توییتر دنبال می کنند: https://goo.gl/XTWX61 در Instagram دنبال می کنند: https://goo.gl/7ZeLv Watch The Vergecast در YouTube: https://bitly Nicast.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T15:47:06Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01056a795a9a29d1",
+      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "excerpt": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitors and outperform known benchmarks from the research literature. The article Beekeeping tips and…",
+      "lang": "en",
+      "publishedAt": "2026-10-31T15:06:14Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T15:47:06Z",
+      "day": "2026-10-31",
+      "category": "models",
+      "tags": [
+       "ai research",
+       "artificial intelligence",
+       "anthropic",
+       "claude"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude_training_data_alignment.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "01056a795a9a29d1",
+      "related": [],
+      "score": {
+       "total": 61.4,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 100.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-10-31T15:23:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "راهنمایی های زنبورداری و مشاوره کشتی می تواند مدل های AI را برای خرابکاری در نظارت آموزش دهد",
+        "excerpt": "Anthropic از کلود برای به طور خودکار تولید داده های آموزشی است که بی ضرر به نظر می رسد، اما آموزش مدل های کوچکتر برای سوء رفتار، مانند نظارت بر خرابکاری و یا فریب کاربران. پنهان در زمینه های داستانی در مورد زنبورداری، کشتی حرفه ای و میتوکندری، این مجموعه داده ها از مانیتورهای ایمنی و معیارهای شناخته شده از ادبیات تحقیقاتی دور می شوند. نکات زنبورداری و ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T15:47:06Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "3b068580014dea2a",
+      "url": "https://www.pcgamer.com/gaming-industry/anthropic-updates-claude-to-steer-it-away-from-letting-users-clone-games-following-weeks-of-steam-being-inundated-with-ai-slop",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "title": "Anthropic updates Claude to 'steer it away' from letting users clone games following weeks of Steam being inundated with AI slop",
+      "excerpt": "Anthropic updates Claude to 'steer it away' from letting users clone other games.",
+      "lang": "en",
+      "publishedAt": "2026-10-31T15:23:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-31T15:47:06Z",
+      "day": "2026-10-31",
+      "category": "models",
+      "tags": [
+       "gaming industry"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://cdn.mos.cms.futurecdn.net/Vmhmhycwkn6YrhJ8EMDcK3-1920-80.png",
+       "alt": "CHONGQING, CHINA - DECEMBER 29: In this photo illustration, a person holds a smartphone displaying the logo of “Claude,” an AI language model by Anthropic, with the company’s logo visible in the backg",
+       "credit": "Cheng Xin via Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.pcgamer.com/rss/"
+      },
+      "eventId": "3b068580014dea2a",
+      "related": [],
+      "score": {
+       "total": 61.3,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-10-31T15:23:04Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "به روز رسانی های Anthropic کلود به \"steer it Away\" از اجازه دادن به کاربران کلون بازی پس از هفته های Steam با AI ضعیف شده است",
+        "excerpt": "به روز رسانی های Anthropic کلود به \"steer it Away\" از اجازه دادن به کاربران کلون کردن بازی های دیگر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-31T15:47:06Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
      ]
     },
     {
@@ -108,15 +284,15 @@
       "eventId": "c1759b401ffc8682",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 58.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 82.2,
         "topic": 55.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -127,68 +303,10 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "959f3bc271166ed6",
-      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "There are many futures. Which do you want to build?",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:17:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "o4D1J1YWjhg",
-       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
-      },
-      "eventId": "959f3bc271166ed6",
-      "related": [],
-      "score": {
-       "total": 62.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 40.3,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-10-31T12:00:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -225,15 +343,15 @@
       "eventId": "18a54eb8728d57e3",
       "related": [],
       "score": {
-       "total": 60.3,
+       "total": 57.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 73.3,
         "topic": 65.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -241,126 +359,6 @@
         "excerpt": "یک استارت آپ Biotech اجازه می دهد یک عامل یک ژن درمانی را انتخاب کند و با موفقیت درمان را تزریق کند و نگاهی اجمالی به آینده آزمایشگاه های تحقیقاتی ارائه دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-31T13:55:19Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e0a56463e04d6878",
-      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Google Deepmind creates a global map of forests with satellite data and AI",
-      "excerpt": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only about half of planted forests and tree-crop areas, and 60% of plantations. The article Google Deepmind creates a global…",
-      "lang": "en",
-      "publishedAt": "2026-10-31T10:15:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T13:55:19Z",
-      "day": "2026-10-31",
-      "category": "models",
-      "tags": [
-       "ai research",
-       "artificial intelligence",
-       "deepmind",
-       "google deepmind"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/forest-typology-01-hero.jpg",
-       "alt": "A 3D voxel-style world map with a blurred foreground and a focus on South America, where the forests are depicted in shades of green and the plantations in pink as cubes.",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "e0a56463e04d6878",
-      "related": [],
-      "score": {
-       "total": 59.5,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 90.4,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-10-31T12:00:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Google Deepmind یک نقشه جهانی از جنگل ها با داده های ماهواره ای و AI ایجاد می کند",
-        "excerpt": "Google Deepmind و موسسه منابع جهانی ForTy، یک نقشه جهانی که جنگل ها و سایر زمین ها را به شش دسته تقسیم می کند، از جمله جنگل های اولیه، گیاهان و محصولات درخت. این نقشه می تواند به ردیابی جنگل زدایی تحت قوانین اتحادیه اروپا کمک کند، اما تنها حدود نیمی از جنگل های کاشته شده و مناطق کاشت درخت و 60 درصد گیاهان را مشخص می کند. مقاله Google Deepmind جهانی را ایجاد می کند ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T13:55:19Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "15ff947a901062fc",
-      "url": "https://www.theguardian.com/commentisfree/2026/oct/31/ai-rely-brain-new-tech-product-lives-boredom",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Relying on AI is rotting your brain. But here’s what you can do about it | Carly Dober",
-      "excerpt": "Each new tech product is designed to make our lives easier and keep us mindlessly entertained. Switch off: embrace discomfort – and boredom Ever longed for your own personal assistant? In the ever quickening tech race, Meta has recently launched Muse, a new AI personal agent. Unlike traditional chatbots, this little AI tool will be able to fill out forms for you, organise calendars, pay bills…",
-      "lang": "en",
-      "publishedAt": "2026-10-31T08:00:37Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T09:47:14Z",
-      "day": "2026-10-31",
-      "category": "products",
-      "tags": [
-       "ai (artificial intelligence)",
-       "technology",
-       "social media",
-       "meta"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/2d96ff893b43e6d48d9bdbb100b32e39e4f77ecc/0_0_5187_4150/master/5187.jpg?width=700&quality=85&auto=format&fit=max&s=e6b1ba0fa5cb5e8c3f68e16e9aaae63e",
-       "credit": "Photograph: Heather Diehl/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "15ff947a901062fc",
-      "related": [],
-      "score": {
-       "total": 58.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 65.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-10-31T12:00:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بازسازی AI مغز شما را خراب می کند. اما در اینجا چیزی است که شما می توانید در مورد آن انجام دهید: Carly Dober",
-        "excerpt": "هر محصول فناوری جدید طراحی شده است تا زندگی ما را آسان تر کند و ما را به طور ذهنی سرگرم کند. سوئیچ خاموش: ناراحتی را در آغوش بگیرید و خسته شده اید برای دستیار شخصی خود؟ در مسابقه تکنولوژی همیشه سریع، متا به تازگی Muse، یک عامل شخصی AI جدید را راه اندازی کرده است. بر خلاف chatbots سنتی، این ابزار هوش مصنوعی کوچک قادر به پر کردن فرم برای شما، سازماندهی تقویم ها، پرداخت صورتحساب خواهد بود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T09:47:14Z"
        }
       }
      },
@@ -375,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-24T12:00:42Z",
-   "to": "2026-10-31T12:00:42Z",
+   "from": "2026-10-24T15:23:04Z",
+   "to": "2026-10-31T15:23:04Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +405,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 75.5,
+       "total": 75.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 52.5,
+        "recency": 50.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -466,15 +464,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.0,
+        "recency": 83.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -520,15 +518,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.5,
+        "recency": 75.0,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -574,15 +572,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.0,
+        "recency": 81.4,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -628,15 +626,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.1,
+        "recency": 74.6,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -688,15 +686,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.9,
+        "recency": 83.2,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -748,15 +746,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.9,
+        "recency": 82.2,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -807,15 +805,15 @@
       "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.1,
+        "recency": 84.3,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -837,8 +835,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-01T12:00:42Z",
-   "to": "2026-10-31T12:00:42Z",
+   "from": "2026-10-01T15:23:04Z",
+   "to": "2026-10-31T15:23:04Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -869,15 +867,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 81.5,
+       "total": 81.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 82.4,
+        "recency": 81.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -928,15 +926,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 94.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -982,15 +980,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1035,15 +1033,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 85.0,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1089,15 +1087,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 94.0,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1148,15 +1146,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.6,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1208,15 +1206,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1272,15 +1270,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 71.5,
+        "recency": 70.8,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1327,15 +1325,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 83.3,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
@@ -1355,47 +1353,52 @@
     },
     {
      "article": {
-      "id": "7ae8eb20550eee76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "excerpt": "",
+      "id": "391b23f56ce31826",
+      "url": "https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Preview web apps live as your coding agent builds them with Amazon Bedrock AgentCore runtime",
+      "excerpt": "Amazon Bedrock AgentCore Session endpoints give each runtime session an authenticated URL that forwards any HTTP method, path, and WebSocket connection to the ports you allow. In this post, you deploy a coding agent that keeps a Vite website running in its session, then watch the live site update in your browser as the agent edits files.",
       "lang": "en",
-      "publishedAt": "2026-10-28T14:58:17Z",
+      "publishedAt": "2026-10-30T21:40:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "open-source",
-      "tags": [],
+      "fetchedAt": "2026-10-30T23:01:37Z",
+      "day": "2026-10-30",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "announcements"
+      ],
       "entities": [
-       "huggingface",
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/68127936de624fb6f57d9989/3vFxCEUXz_xJVrTBr4hNr.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22062-1.png",
+       "alt": "Architecture diagram: the preview page and local endpoint on your machine, the Session endpoint and InvokeAgentRuntime, and the agent and Vite development server in a runtime session, with Claude Haik",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "7ae8eb20550eee76",
+      "eventId": "391b23f56ce31826",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.9,
-        "topic": 75.0,
-        "novelty": 93.3
+        "recency": 95.0,
+        "topic": 65.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-10-31T12:00:42Z"
+       "asOf": "2026-10-31T15:23:04Z"
       },
       "tr": {
        "fa": {
-        "title": "NVIDIA Nemotron 3.5 Transcribe و Granary v2: Multilingual Multilingual Trapy You Can Prompt و Adapt",
+        "title": "برنامه های وب Preview به عنوان عامل برنامه نویسی شما زندگی می کنند آنها را با Amazon Bedrock Agent RunCoretime می سازند",
+        "excerpt": "ایستگاه های پایان جلسه Bedrock AgentCore هر جلسه زمان را یک URL معتبر ارائه می دهند که هر روش HTTP، مسیر و اتصال WebSocket را به پورت هایی که اجازه می دهید، پیش می برد. در این پست، شما یک عامل برنامه نویسی را نصب می کنید که یک وب سایت Vite را در جلسه خود نگه می دارد، سپس به روز رسانی سایت زنده در مرورگر خود را به عنوان عامل ویرایش فایل ها تماشا کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
+        "at": "2026-10-30T23:01:37Z"
        }
       }
      },
