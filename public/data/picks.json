@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-01T16:25:23Z",
+ "asOf": "2026-11-01T18:37:42Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-31T16:25:23Z",
-   "to": "2026-11-01T16:25:23Z",
+   "from": "2026-10-31T18:37:42Z",
+   "to": "2026-11-01T18:37:42Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "2d93e6ebb9aeca7f",
+      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "National Grid to site biggest substation in UK near planned Teesside datacentre",
+      "excerpt": "New electricity generating capacity would enable north-east to attract investment for large-scale AI infrastructure National Grid has taken a step towards building Britain’s biggest electricity substation on Teesside, which could supply power to a vast neighbouring datacentre as the UK races to expand its AI infrastructure. Last week, the company agreed to purchase 29.5 hectares (73 acres) of…",
+      "lang": "en",
+      "publishedAt": "2026-11-01T18:37:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T19:45:23Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "national grid",
+       "business",
+       "utilities",
+       "energy industry",
+       "north of england",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/6454f44555fa48a5f38d1d066c370cb6e7376a80/0_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=650e9525c72226189bb4ca891b485097",
+       "credit": "Photograph: Horst Friedrichs/Alamy",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "2d93e6ebb9aeca7f",
+      "related": [],
+      "score": {
+       "total": 63.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-01T18:37:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "National Grid به سایت بزرگترین زیر ایستگاه در انگلستان نزدیک برنامه ریزی شده است",
+        "excerpt": "ظرفیت تولید برق جدید شمال شرق را قادر می سازد تا سرمایه گذاری را برای شبکه ملی زیرساخت های هوش مصنوعی در مقیاس بزرگ جذب کند یک گام به سمت ساخت بزرگترین ایستگاه برق بریتانیا در تیسو، که می تواند قدرت را به یک مرکز داده های همسایه بزرگ به عنوان نژادهای انگلستان برای گسترش زیرساخت های AI خود را فراهم کند. هفته گذشته، این شرکت موافقت کرد که 29.5 هکتار (73 هکتار) را خریداری کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T19:45:23Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "2afa4aea418f59d6",
@@ -45,15 +105,15 @@
       "eventId": "2afa4aea418f59d6",
       "related": [],
       "score": {
-       "total": 60.6,
+       "total": 58.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 76.6,
         "topic": 65.0,
         "novelty": 94.4
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +124,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -101,15 +161,15 @@
       "eventId": "f7d85be88d1a7eac",
       "related": [],
       "score": {
-       "total": 59.7,
+       "total": 57.5,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 80.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -120,12 +180,12 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -161,15 +221,15 @@
       "eventId": "a7827bd58d648398",
       "related": [],
       "score": {
-       "total": 57.1,
+       "total": 55.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 90.1,
+        "recency": 79.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -180,12 +240,12 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -218,15 +278,15 @@
       "eventId": "eaf863743af43e7e",
       "related": [],
       "score": {
-       "total": 56.6,
+       "total": 54.2,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 88.0,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -237,12 +297,12 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -277,15 +337,15 @@
       "eventId": "4c004e43e6aefeac",
       "related": [],
       "score": {
-       "total": 55.3,
+       "total": 53.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 71.0,
+        "recency": 62.5,
         "topic": 55.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -293,64 +353,6 @@
         "excerpt": "برنامه ریزی برون سپاری به AI می تواند مردم را به تسلیم تفکر انتقادی خود، که می تواند به طور بالقوه مرگبار در مکان هایی مانند کشور پشت.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-01T14:20:35Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e07dacdb45dcc75e",
-      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
-      "excerpt": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
-      "lang": "en",
-      "publishedAt": "2026-10-31T21:17:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T22:52:05Z",
-      "day": "2026-10-31",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "government & policy",
-       "spacex",
-       "xai"
-      ],
-      "entities": [
-       "xai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "e07dacdb45dcc75e",
-      "related": [],
-      "score": {
-       "total": 51.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 33.1,
-        "topic": 85.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-01T16:25:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قاضی اجازه می دهد شکایت NAACP در مورد آلودگی مرکز داده های XAI به جلو حرکت کند",
-        "excerpt": "یک شکایت NAACP شرکت AI متعلق به اسپیس ایکس را به نقض قانون هوای پاک متهم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T22:52:05Z"
        }
       }
      },
@@ -365,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-25T16:25:23Z",
-   "to": "2026-11-01T16:25:23Z",
+   "from": "2026-10-25T18:37:42Z",
+   "to": "2026-11-01T18:37:42Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -397,15 +399,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 39.9,
+        "recency": 39.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -456,15 +458,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.4,
+        "recency": 64.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -510,15 +512,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.9,
+        "recency": 57.7,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -565,15 +567,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 64.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.7,
+        "recency": 57.4,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -619,15 +621,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 64.0,
+       "total": 63.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.9,
+        "recency": 62.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -678,15 +680,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 63.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.4,
+        "recency": 64.0,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -701,6 +703,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d93e6ebb9aeca7f",
+      "url": "https://www.theguardian.com/business/2026/nov/01/national-grid-to-site-biggest-substation-on-teesside-near-planned-ai-datacentre",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "National Grid to site biggest substation in UK near planned Teesside datacentre",
+      "excerpt": "New electricity generating capacity would enable north-east to attract investment for large-scale AI infrastructure National Grid has taken a step towards building Britain’s biggest electricity substation on Teesside, which could supply power to a vast neighbouring datacentre as the UK races to expand its AI infrastructure. Last week, the company agreed to purchase 29.5 hectares (73 acres) of…",
+      "lang": "en",
+      "publishedAt": "2026-11-01T18:37:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T19:45:23Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "national grid",
+       "business",
+       "utilities",
+       "energy industry",
+       "north of england",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/6454f44555fa48a5f38d1d066c370cb6e7376a80/0_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=650e9525c72226189bb4ca891b485097",
+       "credit": "Photograph: Horst Friedrichs/Alamy",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "2d93e6ebb9aeca7f",
+      "related": [],
+      "score": {
+       "total": 63.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-01T18:37:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "National Grid به سایت بزرگترین زیر ایستگاه در انگلستان نزدیک برنامه ریزی شده است",
+        "excerpt": "ظرفیت تولید برق جدید شمال شرق را قادر می سازد تا سرمایه گذاری را برای شبکه ملی زیرساخت های هوش مصنوعی در مقیاس بزرگ جذب کند یک گام به سمت ساخت بزرگترین ایستگاه برق بریتانیا در تیسو، که می تواند قدرت را به یک مرکز داده های همسایه بزرگ به عنوان نژادهای انگلستان برای گسترش زیرساخت های AI خود را فراهم کند. هفته گذشته، این شرکت موافقت کرد که 29.5 هکتار (73 هکتار) را خریداری کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T19:45:23Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -738,15 +800,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.6,
+        "recency": 63.2,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -757,68 +819,10 @@
        }
       }
      },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2afa4aea418f59d6",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/02/ai-stealing-indigenous-australian-art-temu-slop-artist-says-ntwnfb",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI is stealing Indigenous Australian art and churning out ‘Temu slop’, artist says",
-      "excerpt": "Chair of National Gallery’s First Nations advisory group says the technology is undermining artists’ agency and the authenticity of their work Get our breaking news email, free app or daily news podcast AI is taking First Nations art and turning it into “Temu slop”, the Pitjantjatjara artist Sally Scales has said. Scales, the chair of the National Gallery of Australia’s First Nations advisory…",
-      "lang": "en",
-      "publishedAt": "2026-11-01T14:00:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T14:20:35Z",
-      "day": "2026-11-01",
-      "category": "products",
-      "tags": [
-       "indigenous art",
-       "indigenous australians",
-       "australia news",
-       "ai (artificial intelligence)"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/d42e0956def730a6b1eb335fab858536fb224a9c/224_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=eb5a226099bded88f296f81fa19d2727",
-       "credit": "Photograph: Dean Sewell/Oculi",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "2afa4aea418f59d6",
-      "related": [],
-      "score": {
-       "total": 62.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.7,
-        "topic": 65.0,
-        "novelty": 94.4
-       },
-       "asOf": "2026-11-01T16:25:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هوش مصنوعی هنر بومی استرالیا را سرقت می کند و از “Temu slop” خارج می شود، هنرمند می گوید",
-        "excerpt": "رئیس گروه مشاوره سازمان ملل متحد اول می گوید که این تکنولوژی، سازمان هنرمندان را تضعیف می کند و اصالت کار آنها ایمیل اخبار شکستن ما، برنامه آزاد یا پادکست خبری روزانه را دریافت می کند که AI در حال گرفتن هنر سازمان های اول و تبدیل آن به \"Temu slop\"، Pitjantjatjara هنرمند، سالی گفته است. مقیاس ها، صندلی گالری ملی مشاوره اول سازمان ملل استرالیا...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T14:20:35Z"
-       }
-      }
-     },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -826,8 +830,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-02T16:25:23Z",
-   "to": "2026-11-01T16:25:23Z",
+   "from": "2026-10-02T18:37:42Z",
+   "to": "2026-11-01T18:37:42Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -858,15 +862,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 80.2,
+       "total": 80.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 75.9,
+        "recency": 75.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -917,15 +921,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 87.5,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -971,15 +975,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 84.8,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1024,15 +1028,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.0,
+        "recency": 78.5,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1078,15 +1082,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.4,
+        "recency": 86.9,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1137,15 +1141,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 87.5,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1197,15 +1201,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.7,
+        "recency": 87.1,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1261,15 +1265,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 67.6,
+       "total": 67.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 65.9,
+        "recency": 65.5,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1316,15 +1320,15 @@
       "eventId": "e1c742c1d925baf7",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.5,
+        "recency": 77.0,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
@@ -1370,15 +1374,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.5,
+        "recency": 75.0,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-01T16:25:23Z"
+       "asOf": "2026-11-01T18:37:42Z"
       },
       "tr": {
        "fa": {
