@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-01T20:57:58Z",
+ "asOf": "2026-11-01T21:55:23Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-31T20:57:58Z",
-   "to": "2026-11-01T20:57:58Z",
+   "from": "2026-10-31T21:55:23Z",
+   "to": "2026-11-01T21:55:23Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0dbf0226aa90a12c",
+      "related": [],
+      "score": {
+       "total": 62.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-01T21:55:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T23:40:44Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "bb2642061f374db8",
@@ -44,15 +102,15 @@
       "eventId": "bb2642061f374db8",
       "related": [],
       "score": {
-       "total": 61.0,
+       "total": 59.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 94.6,
         "topic": 55.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -63,7 +121,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -104,15 +162,15 @@
       "eventId": "2d93e6ebb9aeca7f",
       "related": [],
       "score": {
-       "total": 60.7,
+       "total": 59.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.4,
+        "recency": 82.7,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -123,7 +181,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -162,15 +220,15 @@
       "eventId": "2afa4aea418f59d6",
       "related": [],
       "score": {
-       "total": 56.6,
+       "total": 55.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 66.9,
+        "recency": 63.3,
         "topic": 65.0,
         "novelty": 94.4
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -181,7 +239,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -218,15 +276,15 @@
       "eventId": "f7d85be88d1a7eac",
       "related": [],
       "score": {
-       "total": 55.5,
+       "total": 54.7,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 70.6,
+        "recency": 66.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -237,7 +295,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -278,15 +336,15 @@
       "eventId": "a7827bd58d648398",
       "related": [],
       "score": {
-       "total": 53.0,
+       "total": 52.2,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 69.3,
+        "recency": 65.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -297,69 +355,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4c004e43e6aefeac",
-      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
-      "excerpt": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
-      "lang": "en",
-      "publishedAt": "2026-11-01T10:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T14:20:35Z",
-      "day": "2026-11-01",
-      "category": "business",
-      "tags": [
-       "science",
-       "science / environment",
-       "chatbots",
-       "national parks",
-       "artificial intelligence",
-       "climate desk"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.wired.com/photos/6ae22d8856ee4dcb93f11713/master/pass/HCN406-scaled.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "4c004e43e6aefeac",
-      "related": [],
-      "score": {
-       "total": 52.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 54.6,
-        "topic": 55.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-01T20:57:58Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Chatbots رهبری Hikers Astray با عواقب خطرناک",
-        "excerpt": "برنامه ریزی برون سپاری به AI می تواند مردم را به تسلیم تفکر انتقادی خود، که می تواند به طور بالقوه مرگبار در مکان هایی مانند کشور پشت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T14:20:35Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -367,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-25T20:57:58Z",
-   "to": "2026-11-01T20:57:58Z",
+   "from": "2026-10-25T21:55:23Z",
+   "to": "2026-11-01T21:55:23Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -403,11 +402,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 38.2,
+        "recency": 37.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -458,15 +457,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.6,
+        "recency": 62.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -512,15 +511,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.4,
+        "recency": 55.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -567,15 +566,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 63.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.1,
+        "recency": 55.6,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -621,15 +620,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 63.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.2,
+        "recency": 60.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -680,15 +679,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 62.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.6,
+        "recency": 62.0,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -740,15 +739,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 62.9,
+       "total": 62.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.8,
+        "recency": 61.2,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -800,15 +799,15 @@
       "eventId": "2d93e6ebb9aeca7f",
       "related": [],
       "score": {
-       "total": 62.8,
+       "total": 62.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 96.9,
         "topic": 70.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -830,8 +829,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-02T20:57:58Z",
-   "to": "2026-11-01T20:57:58Z",
+   "from": "2026-10-02T21:55:23Z",
+   "to": "2026-11-01T21:55:23Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -862,15 +861,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 80.0,
+       "total": 79.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 74.9,
+        "recency": 74.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -921,15 +920,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -975,15 +974,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.2,
+        "recency": 84.0,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -1028,15 +1027,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.0,
+        "recency": 77.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -1086,11 +1085,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.3,
+        "recency": 86.1,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -1101,66 +1100,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "226d6d5c25cb9ac1",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "interview",
-       "research",
-       "artificial intelligence",
-       "data",
-       "voting and elections",
-       "technology and society"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
-       "credit": "Credit: MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "226d6d5c25cb9ac1",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.6,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-01T20:57:58Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
-        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1205,16 +1144,76 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.6,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
         "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-30T21:08:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "226d6d5c25cb9ac1",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
+      "lang": "en",
+      "publishedAt": "2026-10-30T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-30T21:08:27Z",
+      "day": "2026-10-30",
+      "category": "research",
+      "tags": [
+       "interview",
+       "research",
+       "artificial intelligence",
+       "data",
+       "voting and elections",
+       "technology and society"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
+       "credit": "Credit: MIT News",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "226d6d5c25cb9ac1",
+      "related": [],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.3,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-01T21:55:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
+        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -1269,11 +1268,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 65.0,
+        "recency": 64.9,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -1324,11 +1323,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.5,
+        "recency": 76.2,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
@@ -1374,15 +1373,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.5,
+        "recency": 74.3,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-01T20:57:58Z"
+       "asOf": "2026-11-01T21:55:23Z"
       },
       "tr": {
        "fa": {
