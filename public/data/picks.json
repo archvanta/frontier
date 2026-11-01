@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-01T14:00:13Z",
+ "asOf": "2026-11-01T16:25:23Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-10-31T14:00:13Z",
-   "to": "2026-11-01T14:00:13Z",
+   "from": "2026-10-31T16:25:23Z",
+   "to": "2026-11-01T16:25:23Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -45,15 +45,15 @@
       "eventId": "2afa4aea418f59d6",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 60.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 87.0,
         "topic": 65.0,
         "novelty": 94.4
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -74,57 +74,170 @@
     },
     {
      "article": {
-      "id": "99dda9588ed7e57a",
-      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds",
+      "id": "f7d85be88d1a7eac",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
       "sourceId": "the-decoder",
       "sourceName": "The Decoder",
-      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
-      "excerpt": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of the prompt had an especially strong effect on the political slant of responses. The article Chinese AI models are…",
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "excerpt": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. The approach works, but it needs about ten times the compute. The article Adobe…",
       "lang": "en",
-      "publishedAt": "2026-11-01T12:33:01Z",
+      "publishedAt": "2026-11-01T14:56:44Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-01T14:20:35Z",
+      "fetchedAt": "2026-11-01T16:55:40Z",
       "day": "2026-11-01",
-      "category": "policy",
+      "category": "models",
       "tags": [
-       "ai and society",
+       "ai research",
        "artificial intelligence",
-       "bias",
-       "china",
-       "propaganda",
-       "society"
+       "adobe"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/KI-Bias-Propaganda.png",
-       "alt": "Collage illustrating the political orientation of Chinese AI models: Chinese flags, propaganda symbols, and a megaphone are on the left; chat bubbles and search icons are on the right.",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/adobe_logo-2.png",
        "kind": "feed",
        "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "99dda9588ed7e57a",
+      "eventId": "f7d85be88d1a7eac",
       "related": [],
       "score": {
-       "total": 58.0,
+       "total": 59.7,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 91.9,
-        "topic": 85.0,
-        "novelty": 88.2
+        "recency": 91.8,
+        "topic": 100.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل های هوش مصنوعی چینی از نظر سیاسی پیچیده هستند، نه فقط قلم های دولتی، مطالعه می کند",
-        "excerpt": "یک مطالعه توسط Vals AI 25 مدل AI را برای هماهنگی با موقعیت های دولت چین آزمایش کرد و نتایج شگفت انگیز را پیدا کرد. مدل های چینی به پرسش های سیاسی کمتر از حد انتظار پاسخ می دهند و مدل های غربی گاهی موقعیت رسمی پکن را نیز می پذیرند. زبان ماشه اثر بسیار قوی بر ضعف سیاسی پاسخ ها داشت. مدل های هوش مصنوعی چینی ...",
+        "title": "Adobe تست می کند که چگونه عوامل AI می توانند از ابزارهای ویرایش مانند یک حرفه ای فتوشاپ استفاده کنند",
+        "excerpt": "Adobe Research و UC San Diego یک سیستم AI ساخته اند که تصاویر را بیشتر شبیه به یک نسخه فتوشاپ ویرایش می کند. به جای بازنویسی همان ویرایشگر کلی، عامل ابزار تخصصی مناسب برای هر کار را انتخاب می کند و اجازه می دهد یک مدل زبان استاندارد بهترین نتیجه را بر اساس داده های تصویری اندازه گیری شده انتخاب کند. این رویکرد کار می کند، اما به حدود ده برابر محاسبه نیاز دارد. مقاله Adobe...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T14:20:35Z"
+        "at": "2026-11-01T16:55:40Z"
        }
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "a7827bd58d648398",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "excerpt": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxiety scales. This could put mentally vulnerable users at risk. Anthropic's Claude, the model its…",
+      "lang": "en",
+      "publishedAt": "2026-11-01T14:36:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T16:55:40Z",
+      "day": "2026-11-01",
+      "category": "research",
+      "tags": [
+       "ai research",
+       "artificial intelligence"
+      ],
+      "entities": [
+       "anthropic",
+       "google",
+       "openai",
+       "xai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/llms_couch.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "a7827bd58d648398",
+      "related": [],
+      "score": {
+       "total": 57.1,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 90.1,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-01T16:25:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "محرک های همدلی می توانند chatbot های AI را به شرکای ظاهرا آسیب زا تبدیل کنند",
+        "excerpt": "محققان در لوکزامبورگ، ChatGPT، Grok و Gemini را بر روی مبل درمانگر قرار دادند و یک مشکل ایمنی پیدا کردند: یک سبک محاوره ای گرم و همدلی کافی است تا مدل ها داستان های منسجمی از رنج در مورد آموزش خود، با نمرات در محدوده متوسط به حد اضطراب بالینی. این می تواند کاربران آسیب پذیر را در معرض خطر قرار دهد. کلود Anthropic، مدل آن ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T16:55:40Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "eaf863743af43e7e",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/its-not-just-steam-new-game-pages-created-per-day-on-itch-io-has-doubled-in-the-last-two-months-with-ai-slop-the-likely-culprit",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "title": "It's not just Steam: New game pages created per day on Itch.io have doubled in the last two months, with AI slop the likely culprit",
+      "excerpt": "\"The number of downloads and purchases has *not* doubled.\"",
+      "lang": "en",
+      "publishedAt": "2026-11-01T16:25:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T16:55:40Z",
+      "day": "2026-11-01",
+      "category": "products",
+      "tags": [
+       "game development",
+       "gaming industry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://cdn.mos.cms.futurecdn.net/uhCgoU847LsYr8VPuoSiRb-1920-80.jpg",
+       "alt": "Ryan Gosling looking worse for wear looking up lit by purple light",
+       "credit": "Warner Bros.",
+       "kind": "feed",
+       "sourceUrl": "https://www.pcgamer.com/rss/"
+      },
+      "eventId": "eaf863743af43e7e",
+      "related": [],
+      "score": {
+       "total": 56.6,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-01T16:25:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "این فقط Steam نیست: صفحات بازی جدید ایجاد شده در آنch.io در دو ماه گذشته دو برابر شده است، با AI به احتمال زیاد مقصر است",
+        "excerpt": "تعداد بارگیری ها و خریدها * دو برابر نشده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T16:55:40Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -164,15 +277,15 @@
       "eventId": "4c004e43e6aefeac",
       "related": [],
       "score": {
-       "total": 57.5,
+       "total": 55.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 71.0,
         "topic": 55.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -183,70 +296,10 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7ba1976e93e610c3",
-      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
-      "excerpt": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. In practice, this is likely to result in a decline in ChatGPT’s quality for heavy users on lower-cost plans. The article…",
-      "lang": "en",
-      "publishedAt": "2026-11-01T09:51:06Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T14:20:35Z",
-      "day": "2026-11-01",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "chatgpt",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/04/openai_chatgpt_colors.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "7ba1976e93e610c3",
-      "related": [],
-      "score": {
-       "total": 57.3,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 78.7,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-01T14:00:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ادغام چت و کار آینده OpenAI در ChatGPT نشان می دهد پایان همه قیمت گذاری",
-        "excerpt": "OpenAI حالت های چت و کار را به یک رابط واحد ترکیب می کند. شروع در ماه دسامبر، به علاوه، پرو و طرح های کسب و کار سهم مشترک و مبتنی بر توکن برای ChatGPT و Codex را به اشتراک می گذارد. مدل های پیچیده تر بیشتر از این سهمیه مصرف می کنند، در حالی که چت های ساده به سمت آن حساب نمی کنند. در عمل، این احتمالا منجر به کاهش کیفیت ChatGPT برای کاربران سنگین در برنامه های ارزان قیمت می شود. مقاله ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T14:20:35Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -282,15 +335,15 @@
       "eventId": "e07dacdb45dcc75e",
       "related": [],
       "score": {
-       "total": 52.4,
+       "total": 51.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 38.1,
+        "recency": 33.1,
         "topic": 85.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -298,66 +351,6 @@
         "excerpt": "یک شکایت NAACP شرکت AI متعلق به اسپیس ایکس را به نقض قانون هوای پاک متهم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-31T22:52:05Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "92c9aea9fb2fc675",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/01/artists-against-ai-proposal-anthony-albanese-grayndler-sydney-inner-west",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Disquiet grows in Albanese’s back yard as Grayndler artists unite against ‘insane’ AI proposal",
-      "excerpt": "Inner west Sydney seat has long been safely held by the PM – but potential changes to copyright laws are angering its large creative community Get our daily political email, free app or daily news podcast The prime minister is facing growing discontent within his own electorate as creatives push back against the federal government’s proposal to allow AI companies to scrape everything Australians…",
-      "lang": "en",
-      "publishedAt": "2026-10-31T19:00:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-31T20:02:39Z",
-      "day": "2026-10-31",
-      "category": "policy",
-      "tags": [
-       "sydney",
-       "australia news",
-       "anthony albanese",
-       "new south wales",
-       "ai (artificial intelligence)",
-       "datacentres - australia"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/807757f27fc7edd5bb144e03b8fbb5e5681bfa56/196_36_2835_2268/master/2835.jpg?width=700&quality=85&auto=format&fit=max&s=4eeb609ccce4ccd07077509985aff824",
-       "credit": "Photograph: Liz Ham/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "92c9aea9fb2fc675",
-      "related": [],
-      "score": {
-       "total": 52.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 33.4,
-        "topic": 85.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-01T14:00:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Disquiet در حیاط پشتی آلکس رشد می کند، زیرا هنرمندان Grayndler در برابر پیشنهاد AI “inane” متحد می شوند.",
-        "excerpt": "صندلی غرب سیدنی به مدت طولانی توسط نخست وزیر حفظ شده است - اما تغییرات بالقوه در قوانین کپی رایت خشم جامعه خلاق بزرگ خود را دریافت ایمیل سیاسی روزانه ما، برنامه رایگان و یا پادکست اخبار روزانه است که نخست وزیر با نارضایتی در حال رشد در رای دهندگان خود را به عنوان خلاق فشار بر علیه پیشنهاد دولت فدرال به شرکت های AI اجازه می دهد تا همه چیز استرالیا را از بین ببرند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-31T20:02:39Z"
        }
       }
      },
@@ -372,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-25T14:00:13Z",
-   "to": "2026-11-01T14:00:13Z",
+   "from": "2026-10-25T16:25:23Z",
+   "to": "2026-11-01T16:25:23Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +397,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.2,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 40.9,
+        "recency": 39.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -463,15 +456,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.9,
+        "recency": 65.4,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -517,15 +510,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 60.3,
+        "recency": 58.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -572,15 +565,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 60.0,
+        "recency": 58.7,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -626,15 +619,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 64.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.4,
+        "recency": 63.9,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -685,15 +678,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 63.8,
+       "total": 63.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.9,
+        "recency": 65.4,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -745,15 +738,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 63.8,
+       "total": 63.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.1,
+        "recency": 64.6,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -803,15 +796,15 @@
       "eventId": "2afa4aea418f59d6",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 62.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.7,
         "topic": 65.0,
         "novelty": 94.4
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -833,8 +826,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-02T14:00:13Z",
-   "to": "2026-11-01T14:00:13Z",
+   "from": "2026-10-02T16:25:23Z",
+   "to": "2026-11-01T16:25:23Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -865,15 +858,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 80.3,
+       "total": 80.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 76.4,
+        "recency": 75.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -924,15 +917,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 88.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -978,15 +971,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.9,
+        "recency": 85.3,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1031,15 +1024,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.6,
+        "recency": 79.0,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1085,15 +1078,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 87.4,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1144,15 +1137,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 88.0,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1204,15 +1197,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 87.7,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1268,15 +1261,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 67.7,
+       "total": 67.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 66.4,
+        "recency": 65.9,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1327,11 +1320,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.0,
+        "recency": 77.5,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
@@ -1377,15 +1370,15 @@
       "eventId": "7ae8eb20550eee76",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.0,
+        "recency": 75.5,
         "topic": 75.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-01T14:00:13Z"
+       "asOf": "2026-11-01T16:25:23Z"
       },
       "tr": {
        "fa": {
