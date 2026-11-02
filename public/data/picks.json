@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-02T08:00:00Z",
+ "asOf": "2026-11-02T17:01:31Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,331 +10,350 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-01T08:00:00Z",
-   "to": "2026-11-02T08:00:00Z",
+   "from": "2026-11-01T17:01:31Z",
+   "to": "2026-11-02T17:01:31Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "6353ad0af2b9ac94",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/02/google-search-has-gone-from-being-very-handy-to-useless",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Google search has gone from being very handy to useless | First Dog on the Moon",
-      "excerpt": "Google’s AI summary is punching a huge hole in their own profits – is this good? Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
+      "id": "050eb04e45a8ca80",
+      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
       "lang": "en",
-      "publishedAt": "2026-11-02T05:54:05Z",
+      "publishedAt": "2026-11-02T16:59:21Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
+      "fetchedAt": "2026-11-02T17:11:20Z",
       "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "google",
-       "datacentres",
-       "finland",
-       "environment"
-      ],
+      "category": "safety",
+      "tags": [],
       "entities": [
-       "google"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/8c04dc87e3371640703c26509658a3a6eb37e646/0_59_590_472/master/590.jpg?width=700&quality=85&auto=format&fit=max&s=d488471c7db63482d08193835a3bbe91",
-       "credit": "Illustration: First Dog on the Moon/The Guardian",
+       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "6353ad0af2b9ac94",
+      "video": {
+       "provider": "youtube",
+       "id": "Amm9ySSET4c",
+       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
+      },
+      "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 71.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
-        "topic": 85.0,
-        "novelty": 85.7
+        "recency": 99.8,
+        "topic": 90.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
-        "title": "جستجوی گوگل بسیار مفید بوده است تا بی فایده باشد؛ اولین سگ روی ماه",
-        "excerpt": "خلاصه Google’s AI یک سوراخ بزرگ در سود خود ایجاد می کند - این خوب است؟ ثبت نام در اینجا برای دریافت ایمیل هر زمان که کارتون سگ اول منتشر می شود تمام نیازهای خود را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین محصول سگ و چاپ ادامه خواندن.",
+        "title": "Coinbase در OpenAI Private Intelligence",
+        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
+        "at": "2026-11-02T17:11:20Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "544f18cf151f97db",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
-      "excerpt": "Deployments of surveillance vans over five months result in nine false alerts and led officers to engage with 146 registered sex offenders Get our breaking news email, free app or daily news podcast More than a million people have had their faces scanned in a trial of real-time facial recognition technology in Western Australia, resulting in 122 arrests and nine incorrect alerts. WA police said…",
+      "id": "19244c7aa2063fd3",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "lang": "en",
-      "publishedAt": "2026-11-02T06:12:52Z",
+      "publishedAt": "2026-11-02T15:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
+      "fetchedAt": "2026-11-02T17:11:20Z",
       "day": "2026-11-02",
-      "category": "products",
+      "category": "models",
       "tags": [
-       "western australia",
-       "australian police and policing",
-       "facial recognition",
-       "ai (artificial intelligence)",
-       "australia news",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=700&quality=85&auto=format&fit=max&s=4e7c8789fb33d4d544e32591e98f595c",
-       "credit": "Photograph: Aaron Bunch/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "544f18cf151f97db",
-      "related": [],
-      "score": {
-       "total": 61.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.2,
-        "topic": 65.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پلیس از تشخیص چهره برای اسکن یک میلیون چهره در محاکمه WA استفاده می کند که منجر به 122 بازداشت می شود",
-        "excerpt": "استقرار ون های نظارت بیش از پنج ماه منجر به نه هشدار کاذب و افسران رهبری برای تعامل با 146 مجرم جنسی ثبت شده ما ایمیل اخبار شکستن، برنامه رایگان و یا پادکست اخبار روزانه بیش از یک میلیون نفر چهره خود را در یک محاکمه از فن آوری تشخیص چهره در زمان واقعی در غرب استرالیا اسکن کرده اند، منجر به دستگیری 122 و نه هشدار نادرست. پلیس گفت ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b8dc19f10d14436c",
-      "url": "https://www.datacenterdynamics.com/en/marketwatch/how-the-ai-boom-is-reshaping-security-and-resilience-for-data-centers",
-      "sourceId": "datacenter-dynamics",
-      "sourceName": "DatacenterDynamics",
-      "title": "Sponsored: How the AI boom is reshaping security and resilience for data centers",
-      "excerpt": "The importance of intelligence-driven systems in strengthening security and operational resilience",
-      "lang": "en",
-      "publishedAt": "2026-11-02T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T08:23:02Z",
-      "day": "2026-11-02",
-      "category": "hardware",
-      "tags": [],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.datacenterdynamics.com/media/images/Hanwha_main_image.2e16d0ba.fill-750x500.png",
-       "kind": "feed",
-       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
-      },
-      "eventId": "b8dc19f10d14436c",
-      "related": [],
-      "score": {
-       "total": 56.7,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "حمایت: چگونه رونق هوش مصنوعی باعث ایجاد امنیت و انعطاف پذیری برای مراکز داده می شود",
-        "excerpt": "اهمیت سیستم های مبتنی بر هوش در تقویت امنیت و انعطاف پذیری عملیاتی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T08:23:02Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "fd855f24249a6946",
-      "url": "https://arxiv.org/abs/2610.41398",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "Distilling Knowledge from Search: Decoder Model Factory for Quantum LDPC Codes",
-      "excerpt": "We introduce GraphMP, a learning-based message-passing decoder for quantum low-density parity-check codes that transfers without fine-tuning across code families, code sizes, physical error rates, and noise models. GraphMP uses local message passing to keep computation scalable as the decoding graph grows. Guided by its predictions, beam search progressively refines candidate error patterns…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
-      "day": "2026-11-02",
-      "category": "research",
-      "tags": [
-       "quant-ph",
-       "cond-mat.dis-nn",
-       "cs.ai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "fd855f24249a6946",
-      "related": [],
-      "score": {
-       "total": 56.0,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "انتشار دانش از جستجو: Decoder Model Factory for Quantum LDPC Codes",
-        "excerpt": "ما نمودارMP، یک رمزگشایی پیام مبتنی بر یادگیری برای کدهای پارامتری- چکی کوانتومی را معرفی می کنیم که بدون هماهنگی در خانواده های کد، اندازه کد، نرخ خطای فیزیکی و مدل های سر و صدا انتقال می یابد. گرافMP از پیام محلی برای حفظ مقیاس پذیری محاسباتی استفاده می کند زیرا نمودار رمزگشایی رشد می کند. با توجه به پیش بینی های آن، جستجوی پرتو به تدریج الگوهای خطای کاندید را اصلاح می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fea4e839fe689e5c",
-      "url": "https://arxiv.org/abs/2607.24999",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "CogBattery: Human-Referenced Evaluation of Cognitive Task Behavior and Structure in Language Models",
-      "excerpt": "Human cognitive tasks let us compare language models with humans under controlled conditions. Yet a model can reproduce the direction of a human effect while making different errors. CogBattery evaluates 54 open-weight language models on text adaptations of 13 cognitive paradigms, comparing each with human data from its source study. Like humans, models respond more to n-back lures than to…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
-      "day": "2026-11-02",
-      "category": "open-source",
-      "tags": [
-       "cs.cl",
-       "cs.ai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
-      },
-      "eventId": "fea4e839fe689e5c",
-      "related": [],
-      "score": {
-       "total": 54.7,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 75.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
+       "global affairs"
       ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/hardware.svg",
+       "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "0dbf0226aa90a12c",
+      "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 53.7,
+       "total": 70.3,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.9,
-        "topic": 70.0,
-        "novelty": 80.0
+        "recency": 89.0,
+        "topic": 100.0,
+        "novelty": 75.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "title": "معرفی برنامه نظارت بر شبکه",
+        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7a5a1669ffe7a96b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
+       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "7a5a1669ffe7a96b",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
+        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "80e2565f9f275b58",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:01:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
+       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "80e2565f9f275b58",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
+        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "26c3701c5e91e6fb",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/how-you-yes-you-can-fight-dark-money-in-elections",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "How you (yes you) can fight dark money in elections | Judd Legum",
+      "excerpt": "An easy way to unveil the corporate interests and tech billionaires behind the ads Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Katie Phang argued that the Epstein files are a midterms sledgehammer. Today’s edition was written by Judd Legum, the founder and author of Popular Information. Sign up for…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:36:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "us midterm elections 2026",
+       "us politics",
+       "us political financing",
+       "super pacs",
+       "us congress",
+       "texas"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/83806ee6b97c674c91f99af2196b2058aa075577/664_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=798b078c2d3de79b305c35f9a0f9a071",
+       "credit": "Photograph: Bloomberg/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "26c3701c5e91e6fb",
+      "related": [],
+      "score": {
+       "total": 64.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.1,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه می توانید با پول تاریک در انتخابات مبارزه کنید",
+        "excerpt": "یک راه آسان برای آشکار کردن منافع شرکت ها و میلیاردرهای فناوری پشت تبلیغات به چگونگی پیروزی ما، یک سری نظرات گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا خوش آمدید. هفته گذشته، کیتی Phang استدلال کرد که فایل های اپستین یک sledgehammer متوسط هستند. نسخه امروز توسط Jud Legum، بنیانگذار و نویسنده اطلاعات محبوب نوشته شده است. ثبت نام برای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "111ec6458537e1e6",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "ICE, inflation and Trump: gen Z readers share their concerns heading into the voting booth",
+      "excerpt": "Young voters have many of the same concerns as the larger voting cohort, even if many are not registered to vote The 2026 US midterms are approaching against a backdrop of growing political uncertainty, with young voters increasingly mobilizing around concerns about the country’s future. Although nearly 50 million Americans aged 18 to 29 are eligible to vote in the midterms, almost half remain…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T14:00:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "us midterm elections 2026",
+       "young people",
+       "democrats",
+       "donald trump",
+       "republicans",
+       "inflation"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/44e37206c84891dfa851a68254f83728da7ab9ef/9_0_4561_3648/master/4561.jpg?width=700&quality=85&auto=format&fit=max&s=0ceca9822d87b9dd5a51a295d5631d33",
+       "credit": "Photograph: Aron Smith/Jackson State University/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "111ec6458537e1e6",
+      "related": [],
+      "score": {
+       "total": 62.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 84.0,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ICE، تورم و Trump: خوانندگان ژن Z نگرانی های خود را به عنوان به غرفه رای گیری به اشتراک می گذارند",
+        "excerpt": "رای دهندگان جوان بسیاری از نگرانی های مشابه را به عنوان گروه رای گیری بزرگ دارند، حتی اگر بسیاری از آنها ثبت نشده باشند تا در اواسط دهه 2026 ایالات متحده علیه یک پس زمینه از افزایش عدم اطمینان سیاسی نزدیک شوند، با رأی دهندگان جوان به طور فزاینده ای در مورد نگرانی در مورد آینده کشور بسیج می شوند. اگرچه نزدیک به 50 میلیون آمریکایی 18 تا 29 ساله واجد شرایط رای گیری در میان دوره ها هستند، تقریبا نیمی از آنها باقی مانده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
        }
       }
      },
@@ -349,10 +368,124 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-26T08:00:00Z",
-   "to": "2026-11-02T08:00:00Z",
+   "from": "2026-10-26T17:01:31Z",
+   "to": "2026-11-02T17:01:31Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "19244c7aa2063fd3",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "global affairs"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "19244c7aa2063fd3",
+      "related": [],
+      "score": {
+       "total": 72.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.1,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی برنامه نظارت بر شبکه",
+        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "050eb04e45a8ca80",
+      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T16:59:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "safety",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "Amm9ySSET4c",
+       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
+      },
+      "eventId": "050eb04e45a8ca80",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Coinbase در OpenAI Private Intelligence",
+        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "34b0bf3f94c3851e",
@@ -381,15 +514,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 34.4,
+        "recency": 31.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
@@ -399,11 +532,248 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7a5a1669ffe7a96b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
+       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "7a5a1669ffe7a96b",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
+        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "80e2565f9f275b58",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:01:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
+       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "80e2565f9f275b58",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
+        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "26c3701c5e91e6fb",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/how-you-yes-you-can-fight-dark-money-in-elections",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "How you (yes you) can fight dark money in elections | Judd Legum",
+      "excerpt": "An easy way to unveil the corporate interests and tech billionaires behind the ads Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Katie Phang argued that the Epstein files are a midterms sledgehammer. Today’s edition was written by Judd Legum, the founder and author of Popular Information. Sign up for…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:36:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "us midterm elections 2026",
+       "us politics",
+       "us political financing",
+       "super pacs",
+       "us congress",
+       "texas"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/83806ee6b97c674c91f99af2196b2058aa075577/664_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=798b078c2d3de79b305c35f9a0f9a071",
+       "credit": "Photograph: Bloomberg/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "26c3701c5e91e6fb",
+      "related": [],
+      "score": {
+       "total": 65.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه می توانید با پول تاریک در انتخابات مبارزه کنید",
+        "excerpt": "یک راه آسان برای آشکار کردن منافع شرکت ها و میلیاردرهای فناوری پشت تبلیغات به چگونگی پیروزی ما، یک سری نظرات گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا خوش آمدید. هفته گذشته، کیتی Phang استدلال کرد که فایل های اپستین یک sledgehammer متوسط هستند. نسخه امروز توسط Jud Legum، بنیانگذار و نویسنده اطلاعات محبوب نوشته شده است. ثبت نام برای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "111ec6458537e1e6",
+      "url": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "ICE, inflation and Trump: gen Z readers share their concerns heading into the voting booth",
+      "excerpt": "Young voters have many of the same concerns as the larger voting cohort, even if many are not registered to vote The 2026 US midterms are approaching against a backdrop of growing political uncertainty, with young voters increasingly mobilizing around concerns about the country’s future. Although nearly 50 million Americans aged 18 to 29 are eligible to vote in the midterms, almost half remain…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T14:00:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "us midterm elections 2026",
+       "young people",
+       "democrats",
+       "donald trump",
+       "republicans",
+       "inflation"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/44e37206c84891dfa851a68254f83728da7ab9ef/9_0_4561_3648/master/4561.jpg?width=700&quality=85&auto=format&fit=max&s=0ceca9822d87b9dd5a51a295d5631d33",
+       "credit": "Photograph: Aron Smith/Jackson State University/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "111ec6458537e1e6",
+      "related": [],
+      "score": {
+       "total": 65.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.1,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ICE، تورم و Trump: خوانندگان ژن Z نگرانی های خود را به عنوان به غرفه رای گیری به اشتراک می گذارند",
+        "excerpt": "رای دهندگان جوان بسیاری از نگرانی های مشابه را به عنوان گروه رای گیری بزرگ دارند، حتی اگر بسیاری از آنها ثبت نشده باشند تا در اواسط دهه 2026 ایالات متحده علیه یک پس زمینه از افزایش عدم اطمینان سیاسی نزدیک شوند، با رأی دهندگان جوان به طور فزاینده ای در مورد نگرانی در مورد آینده کشور بسیج می شوند. اگرچه نزدیک به 50 میلیون آمریکایی 18 تا 29 ساله واجد شرایط رای گیری در میان دوره ها هستند، تقریبا نیمی از آنها باقی مانده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -440,363 +810,19 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.3,
+        "recency": 51.6,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
         "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6353ad0af2b9ac94",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/02/google-search-has-gone-from-being-very-handy-to-useless",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Google search has gone from being very handy to useless | First Dog on the Moon",
-      "excerpt": "Google’s AI summary is punching a huge hole in their own profits – is this good? Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
-      "lang": "en",
-      "publishedAt": "2026-11-02T05:54:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "google",
-       "datacentres",
-       "finland",
-       "environment"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/8c04dc87e3371640703c26509658a3a6eb37e646/0_59_590_472/master/590.jpg?width=700&quality=85&auto=format&fit=max&s=d488471c7db63482d08193835a3bbe91",
-       "credit": "Illustration: First Dog on the Moon/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "6353ad0af2b9ac94",
-      "related": [],
-      "score": {
-       "total": 64.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 85.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جستجوی گوگل بسیار مفید بوده است تا بی فایده باشد؛ اولین سگ روی ماه",
-        "excerpt": "خلاصه Google’s AI یک سوراخ بزرگ در سود خود ایجاد می کند - این خوب است؟ ثبت نام در اینجا برای دریافت ایمیل هر زمان که کارتون سگ اول منتشر می شود تمام نیازهای خود را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین محصول سگ و چاپ ادامه خواندن.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "25cc4c9bb2e3e7e5",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Making it easier for websites to express AI training preferences",
-      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T09:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "25cc4c9bb2e3e7e5",
-      "related": [],
-      "score": {
-       "total": 63.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 50.7,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آسان تر کردن آن برای وب سایت ها برای بیان ترجیحات آموزش هوش مصنوعی",
-        "excerpt": "OpenAI به یک سیگنال robots.txt به اشتراک گذاشته شده احترام می گذارد تا به اپراتورهای وب سایت کمک کند تا ترجیحات آموزش AI خود را به ارائه دهندگان شرکت کننده انتقال دهند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "544f18cf151f97db",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/02/wa-police-facial-recognition-technology-trial",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Police use facial recognition to scan one million faces in WA trial leading to 122 arrests",
-      "excerpt": "Deployments of surveillance vans over five months result in nine false alerts and led officers to engage with 146 registered sex offenders Get our breaking news email, free app or daily news podcast More than a million people have had their faces scanned in a trial of real-time facial recognition technology in Western Australia, resulting in 122 arrests and nine incorrect alerts. WA police said…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T06:12:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "western australia",
-       "australian police and policing",
-       "facial recognition",
-       "ai (artificial intelligence)",
-       "australia news",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/52be4530d7e3640e661d83a08791923838efe95f/514_0_5031_4024/master/5031.jpg?width=700&quality=85&auto=format&fit=max&s=4e7c8789fb33d4d544e32591e98f595c",
-       "credit": "Photograph: Aaron Bunch/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "544f18cf151f97db",
-      "related": [],
-      "score": {
-       "total": 62.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 65.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پلیس از تشخیص چهره برای اسکن یک میلیون چهره در محاکمه WA استفاده می کند که منجر به 122 بازداشت می شود",
-        "excerpt": "استقرار ون های نظارت بیش از پنج ماه منجر به نه هشدار کاذب و افسران رهبری برای تعامل با 146 مجرم جنسی ثبت شده ما ایمیل اخبار شکستن، برنامه رایگان و یا پادکست اخبار روزانه بیش از یک میلیون نفر چهره خود را در یک محاکمه از فن آوری تشخیص چهره در زمان واقعی در غرب استرالیا اسکن کرده اند، منجر به دستگیری 122 و نه هشدار نادرست. پلیس گفت ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c7606af40dbb903f",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "safety",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
-      },
-      "eventId": "c7606af40dbb903f",
-      "related": [],
-      "score": {
-       "total": 62.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 50.5,
-        "topic": 90.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گزارش ایمنی جامعه و حفاظت های جدید برای نوجوانان",
-        "excerpt": "OpenAI در حال تقویت پیشگیری از خشونت در ChatGPT با حفاظت های گسترده، مداخلات قبلی و تعهد جدید به گزارش ایمنی عمومی است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b2263e9f84127c76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "nemotron-halloween",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T17:57:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
-      },
-      "eventId": "b2263e9f84127c76",
-      "related": [],
-      "score": {
-       "total": 62.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 55.0,
-        "topic": 75.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانلود بازی Nemotron-halloween",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de7eef275564015a",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "faculty",
-       "alumni/ae",
-       "artificial intelligence",
-       "computer science and technology",
-       "mathematics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
-       "credit": "Photos courtesy of the subjects.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "de7eef275564015a",
-      "related": [],
-      "score": {
-       "total": 61.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 56.3,
-        "topic": 80.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
-        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
        }
@@ -813,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-03T08:00:00Z",
-   "to": "2026-11-02T08:00:00Z",
+   "from": "2026-10-03T17:01:31Z",
+   "to": "2026-11-02T17:01:31Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -845,15 +871,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 79.5,
+       "total": 79.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 72.6,
+        "recency": 70.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
@@ -868,6 +894,120 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "19244c7aa2063fd3",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "global affairs"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "19244c7aa2063fd3",
+      "related": [],
+      "score": {
+       "total": 72.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی برنامه نظارت بر شبکه",
+        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "050eb04e45a8ca80",
+      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
+      "lang": "en",
+      "publishedAt": "2026-11-02T16:59:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "safety",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "Amm9ySSET4c",
+       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
+      },
+      "eventId": "050eb04e45a8ca80",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Coinbase در OpenAI Private Intelligence",
+        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -904,15 +1044,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.2,
+        "recency": 82.0,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
@@ -922,7 +1062,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -932,105 +1072,163 @@
     },
     {
      "article": {
-      "id": "25cc4c9bb2e3e7e5",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Making it easier for websites to express AI training preferences",
-      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "id": "a1765f446c5b64b5",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-10-30T09:30:00Z",
+      "publishedAt": "2026-10-29T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "25cc4c9bb2e3e7e5",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.6,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آسان تر کردن آن برای وب سایت ها برای بیان ترجیحات آموزش هوش مصنوعی",
-        "excerpt": "OpenAI به یک سیگنال robots.txt به اشتراک گذاشته شده احترام می گذارد تا به اپراتورهای وب سایت کمک کند تا ترجیحات آموزش AI خود را به ارائه دهندگان شرکت کننده انتقال دهند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2d9928289658e986",
-      "url": "https://openai.com/index/ropes-gray-ai-diligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "lang": "en",
-      "publishedAt": "2026-10-29T07:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T19:01:24Z",
+      "fetchedAt": "2026-10-29T17:06:31Z",
       "day": "2026-10-29",
       "category": "models",
       "tags": [],
       "entities": [
-       "openai"
+       "huggingface",
+       "mistral"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/mistral-large4"
       },
-      "eventId": "2d9928289658e986",
+      "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.6,
+        "recency": 72.1,
         "topic": 100.0,
-        "novelty": 92.9
+        "novelty": 92.3
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه طناب و خاکستری در حال توسعه AI برای تلاش های معامله ای است",
-        "excerpt": "طناب ها و خاکستری در حال توسعه AI برای تلاش برای معامله با OpenAI است. وکلا اسناد گروهی، خلاصه ها و گزارش ها را قبل از مشاوره به مشتریان بررسی می کنند.",
+        "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T19:01:24Z"
+        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7a5a1669ffe7a96b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
+      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
+       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "7a5a1669ffe7a96b",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
+        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ea66f5a34808c903",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Speeding up planning decisions with AI",
+      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "lang": "en",
+      "publishedAt": "2026-10-30T14:18:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "ea66f5a34808c903",
+      "related": [],
+      "score": {
+       "total": 67.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.6,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سرعت بخشیدن به تصمیمات برنامه ریزی با AI",
+        "excerpt": "گوگل DeepMind و دولت بریتانیا با هم کار می کنند تا زمان ارزیابی برنامه ریزی را کاهش دهند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1065,15 +1263,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 81.4,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
@@ -1083,7 +1281,66 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "80e2565f9f275b58",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:01:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
+       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "80e2565f9f275b58",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-02T17:01:31Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
+        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1124,15 +1381,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.2,
+        "recency": 82.0,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T08:00:00Z"
+       "asOf": "2026-11-02T17:01:31Z"
       },
       "tr": {
        "fa": {
@@ -1140,245 +1397,6 @@
         "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "226d6d5c25cb9ac1",
-      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Hey AI, who should I vote for this year?",
-      "excerpt": "MIT professors Adam Berinsky and Chara Podimata discuss a new project to track how AI chatbots are responding to questions about the 2026 U.S. midterm elections.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "interview",
-       "research",
-       "artificial intelligence",
-       "data",
-       "voting and elections",
-       "technology and society"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-ElectionLLM-01-press.jpg?itok=F-_mE_pt",
-       "credit": "Credit: MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "226d6d5c25cb9ac1",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.8,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: آیا هوش مصنوعی باید امسال رای بدهم؟",
-        "excerpt": "پروفسور MIT Adam Berinsky و Chara Podimata در مورد یک پروژه جدید بحث می کنند تا چگونگی پاسخ به سوالات در مورد انتخابات میان مدت 2026 ایالات متحده را بررسی کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b8f740314eab2229",
-      "url": "https://www.theverge.com/tech/1018666/microsoft-expands-buyouts-60000-employees-eligible",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Microsoft offers buyouts to 60,000 employees",
-      "excerpt": "Microsoft is offering voluntary buyouts to up to 60,000 employees across the US, UK, Canada, and India. In a message to employees, Microsoft chief people officer Amy Coleman writes that this gives staff members \"the opportunity to leave Microsoft with financial support and career planning resources\" as the company looks to trim staff without another",
-      "lang": "en",
-      "publishedAt": "2026-10-26T15:58:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-26T20:37:31Z",
-      "day": "2026-10-26",
-      "category": "products",
-      "tags": [
-       "ai",
-       "labor",
-       "microsoft",
-       "news",
-       "tech",
-       "windows"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25832915/STK095_MICROSOFT_2_CVirginia_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Vector illustration of the Microsoft logo.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b8f740314eab2229",
-      "related": [
-       "f8e85120f2e2c293"
-      ],
-      "score": {
-       "total": 67.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 63.0,
-        "topic": 65.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مایکروسافت پیشنهاد خرید را به 60 هزار کارمند ارائه می دهد",
-        "excerpt": "مایکروسافت پیشنهاد خرید داوطلبانه را تا ۶۰ هزار کارمند در سراسر ایالات متحده، انگلستان، کانادا و هند ارائه می دهد. در یک پیام به کارکنان، مدیر ارشد مایکروسافت، امی کولمن می نویسد که این به کارکنان \"فرصت برای ترک مایکروسافت با حمایت مالی و منابع برنامه ریزی شغلی\" را می دهد، زیرا شرکت به نظر می رسد کارکنان را بدون دیگری تجهیز می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-26T20:37:31Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6353ad0af2b9ac94",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/02/google-search-has-gone-from-being-very-handy-to-useless",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Google search has gone from being very handy to useless | First Dog on the Moon",
-      "excerpt": "Google’s AI summary is punching a huge hole in their own profits – is this good? Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
-      "lang": "en",
-      "publishedAt": "2026-11-02T05:54:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T06:22:11Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "google",
-       "datacentres",
-       "finland",
-       "environment"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/8c04dc87e3371640703c26509658a3a6eb37e646/0_59_590_472/master/590.jpg?width=700&quality=85&auto=format&fit=max&s=d488471c7db63482d08193835a3bbe91",
-       "credit": "Illustration: First Dog on the Moon/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "6353ad0af2b9ac94",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 85.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جستجوی گوگل بسیار مفید بوده است تا بی فایده باشد؛ اولین سگ روی ماه",
-        "excerpt": "خلاصه Google’s AI یک سوراخ بزرگ در سود خود ایجاد می کند - این خوب است؟ ثبت نام در اینجا برای دریافت ایمیل هر زمان که کارتون سگ اول منتشر می شود تمام نیازهای خود را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین محصول سگ و چاپ ادامه خواندن.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T06:22:11Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1c742c1d925baf7",
-      "url": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/announcing-project-protostar/thumbnail.jpg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar"
-      },
-      "eventId": "e1c742c1d925baf7",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.1,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-02T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی پروژه ProtoStar: ایجاد منابع عمومی علوم AI-Ready",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
        }
       }
      },
