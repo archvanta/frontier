@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-02T17:01:31Z",
+ "asOf": "2026-11-02T18:32:21Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-01T17:01:31Z",
-   "to": "2026-11-02T17:01:31Z",
+   "from": "2026-11-01T18:32:21Z",
+   "to": "2026-11-02T18:32:21Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 91.4,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -101,15 +101,15 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 81.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -121,6 +121,126 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1802721ebc5f02c3",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "The latest AI news we announced in October 2026",
+      "excerpt": "Animated carousel of images from AI posts in October",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "google deepmind",
+       "quantum computing",
+       "ai",
+       "gemini app",
+       "gemini models",
+       "fitbit"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "1802721ebc5f02c3",
+      "related": [],
+      "score": {
+       "total": 67.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.5,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
+        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "195c284d0de53e7f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "excerpt": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:11:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock knowledge bases",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21438-1.png",
+       "alt": "Architecture diagram showing an Amazon EventBridge schedule starting an AWS Fargate task that crawls public websites, writes prepared Markdown and metadata to Amazon S3, and triggers Amazon Bedrock Kn",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "195c284d0de53e7f",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.5,
+        "topic": 75.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
+        "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -159,15 +279,15 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 91.6,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -178,182 +298,66 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "80e2565f9f275b58",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
-      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:01:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
-       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "80e2565f9f275b58",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
-        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "26c3701c5e91e6fb",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/how-you-yes-you-can-fight-dark-money-in-elections",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "How you (yes you) can fight dark money in elections | Judd Legum",
-      "excerpt": "An easy way to unveil the corporate interests and tech billionaires behind the ads Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Katie Phang argued that the Epstein files are a midterms sledgehammer. Today’s edition was written by Judd Legum, the founder and author of Popular Information. Sign up for…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:36:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "us midterm elections 2026",
-       "us politics",
-       "us political financing",
-       "super pacs",
-       "us congress",
-       "texas"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/83806ee6b97c674c91f99af2196b2058aa075577/664_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=798b078c2d3de79b305c35f9a0f9a071",
-       "credit": "Photograph: Bloomberg/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "26c3701c5e91e6fb",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 92.1,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه می توانید با پول تاریک در انتخابات مبارزه کنید",
-        "excerpt": "یک راه آسان برای آشکار کردن منافع شرکت ها و میلیاردرهای فناوری پشت تبلیغات به چگونگی پیروزی ما، یک سری نظرات گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا خوش آمدید. هفته گذشته، کیتی Phang استدلال کرد که فایل های اپستین یک sledgehammer متوسط هستند. نسخه امروز توسط Jud Legum، بنیانگذار و نویسنده اطلاعات محبوب نوشته شده است. ثبت نام برای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "111ec6458537e1e6",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "ICE, inflation and Trump: gen Z readers share their concerns heading into the voting booth",
-      "excerpt": "Young voters have many of the same concerns as the larger voting cohort, even if many are not registered to vote The 2026 US midterms are approaching against a backdrop of growing political uncertainty, with young voters increasingly mobilizing around concerns about the country’s future. Although nearly 50 million Americans aged 18 to 29 are eligible to vote in the midterms, almost half remain…",
+      "id": "7bff3ad3cf63bad1",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "excerpt": "The tsunami of imitators is way bigger than any one model maker can stem.",
       "lang": "en",
-      "publishedAt": "2026-11-02T14:00:42Z",
+      "publishedAt": "2026-11-02T18:05:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
+      "fetchedAt": "2026-11-02T18:52:16Z",
       "day": "2026-11-02",
-      "category": "policy",
+      "category": "research",
       "tags": [
-       "us midterm elections 2026",
-       "young people",
-       "democrats",
-       "donald trump",
-       "republicans",
-       "inflation"
+       "ai",
+       "gaming",
+       "anthropic",
+       "claude",
+       "clones",
+       "copying"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/44e37206c84891dfa851a68254f83728da7ab9ef/9_0_4561_3648/master/4561.jpg?width=700&quality=85&auto=format&fit=max&s=0ceca9822d87b9dd5a51a295d5631d33",
-       "credit": "Photograph: Aron Smith/Jackson State University/Getty Images",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg",
+       "alt": "No, see, my AI-powered creation is different because of the rainbow colors...",
+       "credit": "Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "eventId": "111ec6458537e1e6",
+      "eventId": "7bff3ad3cf63bad1",
       "related": [],
       "score": {
-       "total": 62.9,
+       "total": 64.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.0,
-        "topic": 85.0,
-        "novelty": 93.8
+        "recency": 97.4,
+        "topic": 80.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
-        "title": "ICE، تورم و Trump: خوانندگان ژن Z نگرانی های خود را به عنوان به غرفه رای گیری به اشتراک می گذارند",
-        "excerpt": "رای دهندگان جوان بسیاری از نگرانی های مشابه را به عنوان گروه رای گیری بزرگ دارند، حتی اگر بسیاری از آنها ثبت نشده باشند تا در اواسط دهه 2026 ایالات متحده علیه یک پس زمینه از افزایش عدم اطمینان سیاسی نزدیک شوند، با رأی دهندگان جوان به طور فزاینده ای در مورد نگرانی در مورد آینده کشور بسیج می شوند. اگرچه نزدیک به 50 میلیون آمریکایی 18 تا 29 ساله واجد شرایط رای گیری در میان دوره ها هستند، تقریبا نیمی از آنها باقی مانده اند.",
+        "title": "قوانین جدید کلود در برابر گیمینگ متوقف نمی شود AI کپی کردن رونق",
+        "excerpt": "سونامی بیکاران به گونه ای بزرگتر از هر مدل ساز می تواند باشد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
+        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
@@ -368,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-26T17:01:31Z",
-   "to": "2026-11-02T17:01:31Z",
+   "from": "2026-10-26T18:32:21Z",
+   "to": "2026-11-02T18:32:21Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -400,15 +404,15 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 96.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -459,15 +463,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.5,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -514,15 +518,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 71.3,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 31.5,
+        "recency": 31.0,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -537,6 +541,241 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ed4b58253682640f",
+      "url": "https://openai.com/index/lifeval",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "LifeVal",
+      "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "ed4b58253682640f",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.2,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "زندگی",
+        "excerpt": "معرفی LifeVal، معیار اندازه گیری اینکه چگونه AI به افراد کمک می کند تا وظایف روزمره را تکمیل کنند، از پیدا کردن مراقبت از کودکان برای مدیریت امور مالی و پرونده های دولتی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "195c284d0de53e7f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "excerpt": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:11:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock knowledge bases",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21438-1.png",
+       "alt": "Architecture diagram showing an Amazon EventBridge schedule starting an AWS Fargate task that crawls public websites, writes prepared Markdown and metadata to Amazon S3, and triggers Amazon Bedrock Kn",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "195c284d0de53e7f",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 75.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
+        "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1802721ebc5f02c3",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "The latest AI news we announced in October 2026",
+      "excerpt": "Animated carousel of images from AI posts in October",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "google deepmind",
+       "quantum computing",
+       "ai",
+       "gemini app",
+       "gemini models",
+       "fitbit"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "1802721ebc5f02c3",
+      "related": [],
+      "score": {
+       "total": 68.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
+        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "624e23d0cdf0ab77",
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "excerpt": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T05:35:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "faculty",
+       "collaboration",
+       "bacteria",
+       "microbes",
+       "antibiotics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/barzilay-collins-00.jpg?itok=28TzeMa_",
+       "credit": "Photos: Max Rousseau (Barzilay) and M. Scott Brauer (Collins)",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "624e23d0cdf0ab77",
+      "related": [],
+      "score": {
+       "total": 68.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.3,
+        "topic": 80.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "رجینا بارزیlay و جیم کالینز برنده جایزه Pritzker برای AI و علوم تحقیقات تعالی برای کار در کشف آنتی بیوتیک فعال AI",
+        "excerpt": "استادان MIT برای شناسایی اولین آنتی بیوتیک کشف شده AI، یک پیشرفت علمی که به طور گسترده به عنوان یک نقطه عطف در کشف مواد مخدر مبتنی بر هوش مصنوعی شناخته شده است، همکاری کردند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -572,15 +811,15 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.5,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -588,243 +827,6 @@
         "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "80e2565f9f275b58",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
-      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:01:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
-       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "80e2565f9f275b58",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
-        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "26c3701c5e91e6fb",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/02/how-you-yes-you-can-fight-dark-money-in-elections",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "How you (yes you) can fight dark money in elections | Judd Legum",
-      "excerpt": "An easy way to unveil the corporate interests and tech billionaires behind the ads Welcome back to How We Win, a Guardian opinion series with leading thinkers, offering bold ideas for America’s political future. Last week, Katie Phang argued that the Epstein files are a midterms sledgehammer. Today’s edition was written by Judd Legum, the founder and author of Popular Information. Sign up for…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:36:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "us midterm elections 2026",
-       "us politics",
-       "us political financing",
-       "super pacs",
-       "us congress",
-       "texas"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/83806ee6b97c674c91f99af2196b2058aa075577/664_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=798b078c2d3de79b305c35f9a0f9a071",
-       "credit": "Photograph: Bloomberg/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "26c3701c5e91e6fb",
-      "related": [],
-      "score": {
-       "total": 65.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه می توانید با پول تاریک در انتخابات مبارزه کنید",
-        "excerpt": "یک راه آسان برای آشکار کردن منافع شرکت ها و میلیاردرهای فناوری پشت تبلیغات به چگونگی پیروزی ما، یک سری نظرات گاردین با متفکران پیشرو، ارائه ایده های جسورانه برای آینده سیاسی آمریکا خوش آمدید. هفته گذشته، کیتی Phang استدلال کرد که فایل های اپستین یک sledgehammer متوسط هستند. نسخه امروز توسط Jud Legum، بنیانگذار و نویسنده اطلاعات محبوب نوشته شده است. ثبت نام برای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "111ec6458537e1e6",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "ICE, inflation and Trump: gen Z readers share their concerns heading into the voting booth",
-      "excerpt": "Young voters have many of the same concerns as the larger voting cohort, even if many are not registered to vote The 2026 US midterms are approaching against a backdrop of growing political uncertainty, with young voters increasingly mobilizing around concerns about the country’s future. Although nearly 50 million Americans aged 18 to 29 are eligible to vote in the midterms, almost half remain…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T14:00:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "us midterm elections 2026",
-       "young people",
-       "democrats",
-       "donald trump",
-       "republicans",
-       "inflation"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/44e37206c84891dfa851a68254f83728da7ab9ef/9_0_4561_3648/master/4561.jpg?width=700&quality=85&auto=format&fit=max&s=0ceca9822d87b9dd5a51a295d5631d33",
-       "credit": "Photograph: Aron Smith/Jackson State University/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "111ec6458537e1e6",
-      "related": [],
-      "score": {
-       "total": 65.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.1,
-        "topic": 85.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ICE، تورم و Trump: خوانندگان ژن Z نگرانی های خود را به عنوان به غرفه رای گیری به اشتراک می گذارند",
-        "excerpt": "رای دهندگان جوان بسیاری از نگرانی های مشابه را به عنوان گروه رای گیری بزرگ دارند، حتی اگر بسیاری از آنها ثبت نشده باشند تا در اواسط دهه 2026 ایالات متحده علیه یک پس زمینه از افزایش عدم اطمینان سیاسی نزدیک شوند، با رأی دهندگان جوان به طور فزاینده ای در مورد نگرانی در مورد آینده کشور بسیج می شوند. اگرچه نزدیک به 50 میلیون آمریکایی 18 تا 29 ساله واجد شرایط رای گیری در میان دوره ها هستند، تقریبا نیمی از آنها باقی مانده اند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "959f3bc271166ed6",
-      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "There are many futures. Which do you want to build?",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:17:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "o4D1J1YWjhg",
-       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
-      },
-      "eventId": "959f3bc271166ed6",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 51.6,
-        "topic": 100.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
        }
       }
      },
@@ -839,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-03T17:01:31Z",
-   "to": "2026-11-02T17:01:31Z",
+   "from": "2026-10-03T18:32:21Z",
+   "to": "2026-11-02T18:32:21Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,11 +877,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 70.7,
+        "recency": 70.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -926,15 +928,15 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 99.0,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -946,6 +948,61 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ed4b58253682640f",
+      "url": "https://openai.com/index/lifeval",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "LifeVal",
+      "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "policy",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "ed4b58253682640f",
+      "related": [],
+      "score": {
+       "total": 72.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.3,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "زندگی",
+        "excerpt": "معرفی LifeVal، معیار اندازه گیری اینکه چگونه AI به افراد کمک می کند تا وظایف روزمره را تکمیل کنند، از پیدا کردن مراقبت از کودکان برای مدیریت امور مالی و پرونده های دولتی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -989,11 +1046,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.6,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -1004,7 +1061,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1014,55 +1071,177 @@
     },
     {
      "article": {
-      "id": "959f3bc271166ed6",
-      "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "There are many futures. Which do you want to build?",
-      "excerpt": "",
+      "id": "624e23d0cdf0ab77",
+      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "excerpt": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
       "lang": "en",
-      "publishedAt": "2026-10-30T20:17:12Z",
+      "publishedAt": "2026-11-02T05:35:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "faculty",
+       "collaboration",
+       "bacteria",
+       "microbes",
+       "antibiotics"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/o4D1J1YWjhg/hqdefault.jpg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/barzilay-collins-00.jpg?itok=28TzeMa_",
+       "credit": "Photos: Max Rousseau (Barzilay) and M. Scott Brauer (Collins)",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "o4D1J1YWjhg",
-       "url": "https://www.youtube.com/watch?v=o4D1J1YWjhg"
-      },
-      "eventId": "959f3bc271166ed6",
+      "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.0,
-        "topic": 100.0,
-        "novelty": 90.0
+        "recency": 96.3,
+        "topic": 80.0,
+        "novelty": 88.2
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
-        "title": "آینده های زیادی وجود دارد. چه می خواهید بسازید؟",
+        "title": "رجینا بارزیlay و جیم کالینز برنده جایزه Pritzker برای AI و علوم تحقیقات تعالی برای کار در کشف آنتی بیوتیک فعال AI",
+        "excerpt": "استادان MIT برای شناسایی اولین آنتی بیوتیک کشف شده AI، یک پیشرفت علمی که به طور گسترده به عنوان یک نقطه عطف در کشف مواد مخدر مبتنی بر هوش مصنوعی شناخته شده است، همکاری کردند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
+        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "195c284d0de53e7f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
+      "excerpt": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:11:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock knowledge bases",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21438-1.png",
+       "alt": "Architecture diagram showing an Amazon EventBridge schedule starting an AWS Fargate task that crawls public websites, writes prepared Markdown and metadata to Amazon S3, and triggers Amazon Bedrock Kn",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "195c284d0de53e7f",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 75.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
+        "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1802721ebc5f02c3",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "The latest AI news we announced in October 2026",
+      "excerpt": "Animated carousel of images from AI posts in October",
+      "lang": "en",
+      "publishedAt": "2026-11-02T17:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "products",
+      "tags": [
+       "google deepmind",
+       "quantum computing",
+       "ai",
+       "gemini app",
+       "gemini models",
+       "fitbit"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "1802721ebc5f02c3",
+      "related": [],
+      "score": {
+       "total": 68.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
+        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T18:52:16Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1098,15 +1277,15 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.1,
+        "recency": 71.8,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -1116,10 +1295,73 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0d8d033795840d49",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
+      "lang": "en",
+      "publishedAt": "2026-10-21T19:53:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-21T20:55:40Z",
+      "day": "2026-10-21",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "news"
+      ],
+      "entities": [
+       "anthropic",
+       "meta",
+       "openai"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "0d8d033795840d49",
+      "related": [
+       "97cbc6d12895efc6"
+      ],
+      "score": {
+       "total": 68.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 43.7,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-02T18:32:21Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
+        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-21T20:55:40Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1155,15 +1397,15 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.6,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T17:01:31Z"
+       "asOf": "2026-11-02T18:32:21Z"
       },
       "tr": {
        "fa": {
@@ -1171,232 +1413,6 @@
         "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ea66f5a34808c903",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Speeding up planning decisions with AI",
-      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
-      "lang": "en",
-      "publishedAt": "2026-10-30T14:18:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-10-30",
-      "category": "policy",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "ea66f5a34808c903",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 80.6,
-        "topic": 85.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سرعت بخشیدن به تصمیمات برنامه ریزی با AI",
-        "excerpt": "گوگل DeepMind و دولت بریتانیا با هم کار می کنند تا زمان ارزیابی برنامه ریزی را کاهش دهند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b2263e9f84127c76",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "nemotron-halloween",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-30T17:57:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T18:40:00Z",
-      "day": "2026-10-30",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2a746c7d0655b3d8dfbb9/fownH6rn05tSp1jDBTz8m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-halloween"
-      },
-      "eventId": "b2263e9f84127c76",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.4,
-        "topic": 75.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانلود بازی Nemotron-halloween",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T18:40:00Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "80e2565f9f275b58",
-      "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
-      "excerpt": "Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:01:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker ai",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22281-1-1.png",
-       "alt": "Diagram of an agentic task as a loop: search, read results, refine, verify, and decide, with each step a separate billed call to the frontier model",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "80e2565f9f275b58",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایجاد عوامل کارآمد با تقطیر دانش در آمازون SageMaker AI",
-        "excerpt": "دستیاران عامل ساخته شده در مدل های مرزی یک حلقه ابزار چند مرحله ای را اجرا می کنند و پرداخت هزینه های مرزی در هر مرحله برای حفظ مقیاس تولید دشوار است. این پست نشان می دهد که چگونه از تقطیر دانش در سطح توالی (SeqKD) برای انتقال رفتار نمایندگی معلم مرزی به یک دانش آموز کوچک و ارزان در آمازون SageMaker AI استفاده کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de7eef275564015a",
-      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
-      "excerpt": "Five MIT faculty members and two additional alumni are honored with fellowships to advance research on beneficial AI.",
-      "lang": "en",
-      "publishedAt": "2026-10-30T20:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-30T21:08:27Z",
-      "day": "2026-10-30",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "faculty",
-       "alumni/ae",
-       "artificial intelligence",
-       "computer science and technology",
-       "mathematics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-eecs-Schmidt-AI-2050.jpg?itok=tKYYjIR3",
-       "credit": "Photos courtesy of the subjects.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "de7eef275564015a",
-      "related": [],
-      "score": {
-       "total": 66.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.0,
-        "topic": 80.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-02T17:01:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "MIT وابسته به نام 2026 اشمیت علوم AI2050",
-        "excerpt": "پنج عضو هیات علمی MIT و دو فارغ التحصیلان اضافی با همکاری برای پیشبرد تحقیقات در مورد AI مفید افتخار می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-30T21:08:27Z"
        }
       }
      },
