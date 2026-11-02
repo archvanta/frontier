@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-02T06:12:52Z",
+ "asOf": "2026-11-02T08:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-01T06:12:52Z",
-   "to": "2026-11-02T06:12:52Z",
+   "from": "2026-11-01T08:00:00Z",
+   "to": "2026-11-02T08:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -48,15 +48,15 @@
       "eventId": "6353ad0af2b9ac94",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 63.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 88.6,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -108,15 +108,15 @@
       "eventId": "544f18cf151f97db",
       "related": [],
       "score": {
-       "total": 63.1,
+       "total": 61.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 90.2,
         "topic": 65.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -133,6 +133,58 @@
       "tier-2",
       "first-report",
       "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b8dc19f10d14436c",
+      "url": "https://www.datacenterdynamics.com/en/marketwatch/how-the-ai-boom-is-reshaping-security-and-resilience-for-data-centers",
+      "sourceId": "datacenter-dynamics",
+      "sourceName": "DatacenterDynamics",
+      "title": "Sponsored: How the AI boom is reshaping security and resilience for data centers",
+      "excerpt": "The importance of intelligence-driven systems in strengthening security and operational resilience",
+      "lang": "en",
+      "publishedAt": "2026-11-02T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T08:23:02Z",
+      "day": "2026-11-02",
+      "category": "hardware",
+      "tags": [],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.datacenterdynamics.com/media/images/Hanwha_main_image.2e16d0ba.fill-750x500.png",
+       "kind": "feed",
+       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+      },
+      "eventId": "b8dc19f10d14436c",
+      "related": [],
+      "score": {
+       "total": 56.7,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-02T08:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "حمایت: چگونه رونق هوش مصنوعی باعث ایجاد امنیت و انعطاف پذیری برای مراکز داده می شود",
+        "excerpt": "اهمیت سیستم های مبتنی بر هوش در تقویت امنیت و انعطاف پذیری عملیاتی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T08:23:02Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
      ]
     },
     {
@@ -163,15 +215,15 @@
       "eventId": "fd855f24249a6946",
       "related": [],
       "score": {
-       "total": 57.8,
+       "total": 56.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -182,12 +234,12 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -217,23 +269,23 @@
       "eventId": "fea4e839fe689e5c",
       "related": [],
       "score": {
-       "total": 56.6,
+       "total": 54.7,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 84.1,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -267,15 +319,15 @@
       "eventId": "0dbf0226aa90a12c",
       "related": [],
       "score": {
-       "total": 54.9,
+       "total": 53.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 61.9,
+        "recency": 55.9,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -283,63 +335,6 @@
         "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bb2642061f374db8",
-      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "excerpt": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
-      "lang": "en",
-      "publishedAt": "2026-11-01T20:57:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T21:23:03Z",
-      "day": "2026-11-01",
-      "category": "business",
-      "tags": [
-       "ai",
-       "marissa mayer",
-       "mark zuckerberg",
-       "sam altman",
-       "whitney wolfe herd"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bb2642061f374db8",
-      "related": [],
-      "score": {
-       "total": 52.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 58.6,
-        "topic": 55.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-02T06:12:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI می تواند زندگی مدیران عامل تکنولوژی را آسان تر کند. در مورد دیگران چه؟",
-        "excerpt": "در مورد عدالت، ما بحث می کنیم که چرا اظهارات مدیر عامل فناوری می تواند بسیار ناشنوا به نظر برسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T21:23:03Z"
        }
       }
      },
@@ -354,8 +349,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-26T06:12:52Z",
-   "to": "2026-11-02T06:12:52Z",
+   "from": "2026-10-26T08:00:00Z",
+   "to": "2026-11-02T08:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -386,15 +381,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 34.9,
+        "recency": 34.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -445,15 +440,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 57.3,
+        "recency": 56.3,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -505,15 +500,15 @@
       "eventId": "6353ad0af2b9ac94",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.0,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -560,15 +555,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 63.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 51.6,
+        "recency": 50.7,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -620,15 +615,15 @@
       "eventId": "544f18cf151f97db",
       "related": [],
       "score": {
-       "total": 63.1,
+       "total": 62.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.3,
         "topic": 65.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -675,15 +670,15 @@
       "eventId": "c7606af40dbb903f",
       "related": [],
       "score": {
-       "total": 62.8,
+       "total": 62.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 51.4,
+        "recency": 50.5,
         "topic": 90.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -729,15 +724,15 @@
       "eventId": "b2263e9f84127c76",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 62.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.0,
+        "recency": 55.0,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -788,15 +783,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 61.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 57.2,
+        "recency": 56.3,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -818,8 +813,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-03T06:12:52Z",
-   "to": "2026-11-02T06:12:52Z",
+   "from": "2026-10-03T08:00:00Z",
+   "to": "2026-11-02T08:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -850,15 +845,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 79.6,
+       "total": 79.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 73.0,
+        "recency": 72.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -909,15 +904,15 @@
       "eventId": "959f3bc271166ed6",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.6,
+        "recency": 84.2,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -963,15 +958,15 @@
       "eventId": "25cc4c9bb2e3e7e5",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.0,
+        "recency": 81.6,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1016,15 +1011,15 @@
       "eventId": "2d9928289658e986",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.0,
+        "recency": 75.6,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1074,11 +1069,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.0,
+        "recency": 83.6,
         "topic": 75.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1129,15 +1124,15 @@
       "eventId": "de7eef275564015a",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.6,
+        "recency": 84.2,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1189,15 +1184,15 @@
       "eventId": "226d6d5c25cb9ac1",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 83.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1253,15 +1248,15 @@
        "f8e85120f2e2c293"
       ],
       "score": {
-       "total": 67.1,
+       "total": 67.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 63.3,
+        "recency": 63.0,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1315,15 +1310,15 @@
       "eventId": "6353ad0af2b9ac94",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.4,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1373,11 +1368,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.4,
+        "recency": 74.1,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T06:12:52Z"
+       "asOf": "2026-11-02T08:00:00Z"
       },
       "tr": {
        "fa": {
