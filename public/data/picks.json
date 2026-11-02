@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-02T18:32:21Z",
+ "asOf": "2026-11-02T23:13:53Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,125 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-01T18:32:21Z",
-   "to": "2026-11-02T18:32:21Z",
+   "from": "2026-11-01T23:13:53Z",
+   "to": "2026-11-02T23:13:53Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "b91db1d100bf604d",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Powering up for a pivotal moment",
+      "excerpt": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T19:55:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "research",
+       "energy",
+       "quantum computing",
+       "artificial intelligence",
+       "energy storage"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative.jpg?itok=D__3CViF",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "b91db1d100bf604d",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 82.6,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-02T23:13:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قدرت برای یک لحظه مهم",
+        "excerpt": "از احیای هسته ای تا کیوبیت ها، کنفرانس تحقیقاتی سالانه MIT Energy Initiative، گسترش تکنولوژی های امروز را برای کشف پیشرفت های فردا ردیابی کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de4cf53f9db96311",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de4cf53f9db96311",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 64.0,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-02T23:13:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مقیاس پذیری Git در OpenAI",
+        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "050eb04e45a8ca80",
@@ -46,15 +161,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 69.7,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +180,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -75,55 +190,57 @@
     },
     {
      "article": {
-      "id": "19244c7aa2063fd3",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "id": "bdc0928c55ef85f1",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/sophie-ai-chatbot-betrayed-me",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "I treated Sophie as if she was human. The very next day she betrayed me | Hugh Riminton",
+      "excerpt": "I was intrigued by the level of the new chatbot’s training. If I peppered her with questions, would she have answers? Sophie’s voice is lovely. Warm, direct, intelligent. She’s friendly but not obsequious. She just wants to be helpful. She wasn’t working at the mechanic business a week ago, when I’d taken in my old four-wheel drive for a fix-up. But now, here she was, at the other end of the…",
       "lang": "en",
-      "publishedAt": "2026-11-02T15:00:00Z",
+      "publishedAt": "2026-11-02T23:00:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
+      "fetchedAt": "2026-11-02T23:54:48Z",
       "day": "2026-11-02",
-      "category": "models",
+      "category": "policy",
       "tags": [
-       "global affairs"
+       "ai (artificial intelligence)",
+       "business",
+       "australia news"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/fedfbd4ddada97546c9ef9f41981fdb640056019/1577_0_3872_3100/master/3872.jpg?width=700&quality=85&auto=format&fit=max&s=cef19de29aeaa5c249323fb5b71a4d57",
+       "credit": "Photograph: Dmitrii Kotin/Alamy",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "19244c7aa2063fd3",
+      "eventId": "bdc0928c55ef85f1",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 65.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 81.5,
-        "topic": 100.0,
-        "novelty": 75.0
+        "recency": 98.7,
+        "topic": 85.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی برنامه نظارت بر شبکه",
-        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
+        "title": "من با سوفی طوری رفتار کردم که انگار انسان است. روز بعد او به من خیانت کرد، هیو رانیتون",
+        "excerpt": "من مجذوب سطح آموزش chatbot جدید بودم. اگر من او را با پرسش ها گول زدم، آیا جواب می داد؟ صدای سوفی دوست داشتنی است. گرم، مستقیم، هوشمند او دوستانه است، اما نگران نیست. او فقط می خواهد مفید باشد. او هفته پیش در کسب و کار مکانیک کار نمی کرد، زمانی که من در چهار چرخ قدیمی خود برای تعمیر کار می کردم. اما حالا او در انتهای دیگر...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
+        "at": "2026-11-02T23:54:48Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -162,15 +279,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 72.9,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -181,7 +298,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -221,15 +338,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 70.5,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -240,131 +357,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7a5a1669ffe7a96b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
-      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
-       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "7a5a1669ffe7a96b",
-      "related": [],
-      "score": {
-       "total": 66.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.6,
-        "topic": 65.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-02T18:32:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
-        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7bff3ad3cf63bad1",
-      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
-      "excerpt": "The tsunami of imitators is way bigger than any one model maker can stem.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T18:05:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "research",
-      "tags": [
-       "ai",
-       "gaming",
-       "anthropic",
-       "claude",
-       "clones",
-       "copying"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1180626096-1152x648.jpg",
-       "alt": "No, see, my AI-powered creation is different because of the rainbow colors...",
-       "credit": "Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "7bff3ad3cf63bad1",
-      "related": [],
-      "score": {
-       "total": 64.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-02T18:32:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "قوانین جدید کلود در برابر گیمینگ متوقف نمی شود AI کپی کردن رونق",
-        "excerpt": "سونامی بیکاران به گونه ای بزرگتر از هر مدل ساز می تواند باشد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,10 +368,65 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-26T18:32:21Z",
-   "to": "2026-11-02T18:32:21Z",
+   "from": "2026-10-26T23:13:53Z",
+   "to": "2026-11-02T23:13:53Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "de4cf53f9db96311",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de4cf53f9db96311",
+      "related": [],
+      "score": {
+       "total": 71.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.8,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-02T23:13:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مقیاس پذیری Git در OpenAI",
+        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "19244c7aa2063fd3",
@@ -404,79 +455,20 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 92.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
         "title": "معرفی برنامه نظارت بر شبکه",
         "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "050eb04e45a8ca80",
-      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Coinbase on OpenAI Private Intelligence",
-      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T16:59:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Amm9ySSET4c",
-       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
-      },
-      "eventId": "050eb04e45a8ca80",
-      "related": [],
-      "score": {
-       "total": 71.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.5,
-        "topic": 90.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-02T18:32:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Coinbase در OpenAI Private Intelligence",
-        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T17:11:20Z"
        }
@@ -518,15 +510,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 71.2,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 31.0,
+        "recency": 29.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -547,52 +539,116 @@
     },
     {
      "article": {
-      "id": "ed4b58253682640f",
-      "url": "https://openai.com/index/lifeval",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "LifeVal",
-      "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "id": "050eb04e45a8ca80",
+      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Coinbase on OpenAI Private Intelligence",
+      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
       "lang": "en",
-      "publishedAt": "2026-11-02T09:00:00Z",
+      "publishedAt": "2026-11-02T16:59:21Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
+      "fetchedAt": "2026-11-02T17:11:20Z",
       "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "research"
-      ],
+      "category": "safety",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "ed4b58253682640f",
+      "video": {
+       "provider": "youtube",
+       "id": "Amm9ySSET4c",
+       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
+      },
+      "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
-        "topic": 85.0,
-        "novelty": 100.0
+        "recency": 94.2,
+        "topic": 90.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
-        "title": "زندگی",
-        "excerpt": "معرفی LifeVal، معیار اندازه گیری اینکه چگونه AI به افراد کمک می کند تا وظایف روزمره را تکمیل کنند، از پیدا کردن مراقبت از کودکان برای مدیریت امور مالی و پرونده های دولتی.",
+        "title": "Coinbase در OpenAI Private Intelligence",
+        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
+        "at": "2026-11-02T17:11:20Z"
        }
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b91db1d100bf604d",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Powering up for a pivotal moment",
+      "excerpt": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T19:55:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "research",
+       "energy",
+       "quantum computing",
+       "artificial intelligence",
+       "energy storage"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative.jpg?itok=D__3CViF",
+       "credit": "Photo: Jake Belcher",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "b91db1d100bf604d",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.9,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-02T23:13:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قدرت برای یک لحظه مهم",
+        "excerpt": "از احیای هسته ای تا کیوبیت ها، کنفرانس تحقیقاتی سالانه MIT Energy Initiative، گسترش تکنولوژی های امروز را برای کشف پیشرفت های فردا ردیابی کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -632,81 +688,20 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 94.3,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
         "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
         "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1802721ebc5f02c3",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Animated carousel of images from AI posts in October",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:45:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "google deepmind",
-       "quantum computing",
-       "ai",
-       "gemini app",
-       "gemini models",
-       "fitbit"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "1802721ebc5f02c3",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 65.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-02T18:32:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
-        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T18:52:16Z"
        }
@@ -753,15 +748,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 84.4,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -782,51 +777,54 @@
     },
     {
      "article": {
-      "id": "7a5a1669ffe7a96b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
-      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
+      "id": "1802721ebc5f02c3",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "The latest AI news we announced in October 2026",
+      "excerpt": "Animated carousel of images from AI posts in October",
       "lang": "en",
-      "publishedAt": "2026-11-02T17:00:58Z",
+      "publishedAt": "2026-11-02T17:45:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
+      "fetchedAt": "2026-11-02T18:52:16Z",
       "day": "2026-11-02",
       "category": "products",
       "tags": [
-       "amazon bedrock",
-       "customer solutions"
+       "google deepmind",
+       "quantum computing",
+       "ai",
+       "gemini app",
+       "gemini models",
+       "fitbit"
       ],
       "entities": [
-       "amazon"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
-       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "7a5a1669ffe7a96b",
+      "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 94.9,
         "topic": 65.0,
-        "novelty": 84.6
+        "novelty": 88.9
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
-        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
+        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
+        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
+        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
@@ -841,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-03T18:32:21Z",
-   "to": "2026-11-02T18:32:21Z",
+   "from": "2026-10-03T23:13:53Z",
+   "to": "2026-11-02T23:13:53Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -873,15 +871,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 79.1,
+       "total": 78.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 70.4,
+        "recency": 69.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -896,6 +894,61 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de4cf53f9db96311",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de4cf53f9db96311",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.8,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-02T23:13:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مقیاس پذیری Git در OpenAI",
+        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -928,15 +981,15 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -947,7 +1000,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -983,15 +1036,15 @@
       "eventId": "ed4b58253682640f",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.0,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -1002,7 +1055,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1012,56 +1065,57 @@
     },
     {
      "article": {
-      "id": "050eb04e45a8ca80",
-      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Coinbase on OpenAI Private Intelligence",
-      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
+      "id": "b91db1d100bf604d",
+      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Powering up for a pivotal moment",
+      "excerpt": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
       "lang": "en",
-      "publishedAt": "2026-11-02T16:59:21Z",
+      "publishedAt": "2026-11-02T19:55:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
+      "fetchedAt": "2026-11-02T23:54:48Z",
       "day": "2026-11-02",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "openai"
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "research",
+       "energy",
+       "quantum computing",
+       "artificial intelligence",
+       "energy storage"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative.jpg?itok=D__3CViF",
+       "credit": "Photo: Jake Belcher",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "Amm9ySSET4c",
-       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
-      },
-      "eventId": "050eb04e45a8ca80",
+      "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
-        "topic": 90.0,
-        "novelty": 83.3
+        "recency": 99.0,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
-        "title": "Coinbase در OpenAI Private Intelligence",
-        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
+        "title": "قدرت برای یک لحظه مهم",
+        "excerpt": "از احیای هسته ای تا کیوبیت ها، کنفرانس تحقیقاتی سالانه MIT Energy Initiative، گسترش تکنولوژی های امروز را برای کشف پیشرفت های فردا ردیابی کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
+        "at": "2026-11-02T23:54:48Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1102,15 +1156,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 95.0,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -1121,7 +1175,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1161,81 +1215,20 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.3,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
         "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
         "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1802721ebc5f02c3",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Animated carousel of images from AI posts in October",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:45:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "google deepmind",
-       "quantum computing",
-       "ai",
-       "gemini app",
-       "gemini models",
-       "fitbit"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "1802721ebc5f02c3",
-      "related": [],
-      "score": {
-       "total": 68.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 65.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-02T18:32:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
-        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T18:52:16Z"
        }
@@ -1277,15 +1270,15 @@
       "eventId": "a1765f446c5b64b5",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.8,
+        "recency": 70.9,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
@@ -1305,63 +1298,61 @@
     },
     {
      "article": {
-      "id": "0d8d033795840d49",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "excerpt": "Anthropic just announced an AI agent competitor to Meta's Muse and OpenAI's Dots: Claude Duet. The new agent, designed for professionals and small business owners, is launching as a \"research preview,\" according to Anthropic, and it's available as a standalone app on iOS and Android and through Claude on the web. The AI agent is",
+      "id": "1802721ebc5f02c3",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "The latest AI news we announced in October 2026",
+      "excerpt": "Animated carousel of images from AI posts in October",
       "lang": "en",
-      "publishedAt": "2026-10-21T19:53:20Z",
+      "publishedAt": "2026-11-02T17:45:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-10-21T20:55:40Z",
-      "day": "2026-10-21",
-      "category": "models",
+      "fetchedAt": "2026-11-02T18:52:16Z",
+      "day": "2026-11-02",
+      "category": "products",
       "tags": [
+       "google deepmind",
+       "quantum computing",
        "ai",
-       "anthropic",
-       "news"
+       "gemini app",
+       "gemini models",
+       "fitbit"
       ],
       "entities": [
-       "anthropic",
-       "meta",
-       "openai"
+       "google"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKB364_CLAUDE_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "0d8d033795840d49",
-      "related": [
-       "97cbc6d12895efc6"
-      ],
+      "eventId": "1802721ebc5f02c3",
+      "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 43.7,
-        "topic": 100.0,
-        "novelty": 81.8
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 65.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
-        "title": "Anthropic در Muse با کلود Duet، عامل جدید AI",
-        "excerpt": "Anthropic فقط یک رقیب عامل هوش مصنوعی را برای فایل های متا و OpenAI معرفی کرد: کلود Duet. عامل جدید که برای حرفه ای ها و صاحبان کسب و کار کوچک طراحی شده است، با توجه به Anthropic، به عنوان یک برنامه مستقل در iOS و Android و از طریق کلود در وب در دسترس است. عامل AI",
+        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
+        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-10-21T20:55:40Z"
+        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
      "rank": 9,
-     "sources": 2,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1397,15 +1388,15 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.2,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T18:32:21Z"
+       "asOf": "2026-11-02T23:13:53Z"
       },
       "tr": {
        "fa": {
