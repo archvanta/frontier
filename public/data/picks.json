@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-03T06:00:40Z",
+ "asOf": "2026-11-03T10:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,131 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-02T06:00:40Z",
-   "to": "2026-11-03T06:00:40Z",
+   "from": "2026-11-02T10:00:00Z",
+   "to": "2026-11-03T10:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "4d836f21a02fa461",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments",
+      "lang": "en",
+      "publishedAt": "2026-11-03T07:00:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai factory",
+       "artificial intelligence",
+       "cosmos",
+       "customer stories"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/smart-city-blog-1920x1080-1.jpeg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "tyhy-GrkgO8",
+       "url": "https://www.youtube.com/watch?v=tyhy-GrkgO8"
+      },
+      "eventId": "4d836f21a02fa461",
+      "related": [],
+      "score": {
+       "total": 65.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.1,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شهرهای جهانی ساخت و مقیاس خدمات AI با NVIDIA فیزیکی و Agentic AI",
+        "excerpt": "شهرها اطلاعات زیادی از دوربین ها، سنسورها و سیستم های عملیاتی تولید می کنند، اما تبدیل آن به عمل مفید - برای برنامه ریزی، تعمیر و نگهداری و خدمات عمومی - همچنان یک چالش است. هوش مصنوعی فیزیکی و نمایندگی راه های جدیدی برای بستن این شکاف، از دوقلوهای دیجیتال برای برنامه ریزی زیرساخت ها تا عوامل بینایی و خدمات ارائه می دهند، در حالی که دولت های محلی را نگه می دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T10:08:12Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "262cfa35f4308cc0",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "262cfa35f4308cc0",
+      "related": [],
+      "score": {
+       "total": 61.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 39.7,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
+        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "d4ac68d0af4ddbe5",
@@ -45,130 +166,20 @@
       "eventId": "d4ac68d0af4ddbe5",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 61.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "\"شکست جدی\": دادستان CPS به پرونده های خیالی به دادگاه بالا پس از جستجوی AI اشاره می کند",
         "excerpt": "منحصر به فرد: سابقه ای که در پرونده تجاوز به کودک ذکر شده است، به ده ها خطای مرتبط با AI اضافه می کند که در دادگاه یک دادستان ارشد تاج که در پرونده دادگاه عالی عمل می کند، یک سابقه قانونی خیالی را در خطایی که نگرانی های تازه ای در مورد توهمات هوش مصنوعی در آلوده کردن سیستم عدالت ایجاد کرده است. Ravinder Dhillon، نماینده خدمات دادستانی تاج (CPS)، اشاره به یک ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "262cfa35f4308cc0",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T18:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "262cfa35f4308cc0",
-      "related": [],
-      "score": {
-       "total": 63.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 50.0,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
-        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a6e20d8d1eb18238",
-      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
-      "lang": "en",
-      "publishedAt": "2026-11-03T04:18:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-03",
-      "category": "policy",
-      "tags": [
-       "artificial intelligence",
-       "app",
-       "the algorithm"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "a6e20d8d1eb18238",
-      "related": [],
-      "score": {
-       "total": 63.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.7,
-        "topic": 85.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "در اینجا کسی است که در راستای آزمون وفاداری \"هوش بالا\" ترامپ سقوط می کند.",
-        "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. در پایان ماه سپتامبر، رئیس جمهور ترامپ یک دستور اجرایی را امضا کرد که تنها یک دستورالعمل داشت و به سازمان های دولتی دستور داد تا آنچه را که هوش مصنوعی می نامند را دوباره به عنوان «هوش فوق العاده» معرفی کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T06:57:18Z"
        }
@@ -184,120 +195,121 @@
     },
     {
      "article": {
-      "id": "4ed35bdfdb651ac6",
-      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
-      "excerpt": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "id": "e719412cea106996",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
+      "excerpt": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games. The article Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs appeared first on The Decoder.",
       "lang": "en",
-      "publishedAt": "2026-11-03T03:30:00Z",
+      "publishedAt": "2026-11-03T09:48:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
+      "fetchedAt": "2026-11-03T10:08:12Z",
       "day": "2026-11-03",
-      "category": "research",
+      "category": "models",
       "tags": [
-       "ai",
-       "apps",
-       "android",
-       "google",
-       "ios",
-       "dreambeans"
+       "ai in practice",
+       "artificial intelligence",
+       "short news",
+       "anthropic",
+       "claude",
+       "claude code"
       ],
       "entities": [
-       "google"
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/Anthropic-Claude-Mario.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "4ed35bdfdb651ac6",
+      "eventId": "e719412cea106996",
       "related": [],
       "score": {
-       "total": 62.6,
+       "total": 60.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 86.5,
-        "topic": 80.0,
-        "novelty": 92.9
+        "recency": 98.9,
+        "topic": 100.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "گوگل در تلاش برای آوردن داستان های شخصی تولید شده AI به توده ها است",
-        "excerpt": "Dreambeans گوگل، آخرین آزمایش AI آن، اکنون از ۱۳ زبان هندی پشتیبانی می کند.",
+        "title": "ترک های Anthropic در بازی کلونینگ در کلود کد پس از موج از ضربه های ساخته شده AI",
+        "excerpt": "Anthropic است مسدود کردن دستیار برنامه نویسی خود را کلود کد از بازسازی بازی های ویدئویی موجود است. مقاله Anthropic ترک در بازی کلونینگ در کد کلود پس از موج از ضربه های ساخته شده AI در ابتدا در Decoder ظاهر شد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
+        "at": "2026-11-03T10:08:12Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     },
     {
      "article": {
-      "id": "b91db1d100bf604d",
-      "url": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Powering up for a pivotal moment",
-      "excerpt": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "id": "0947affcb4cc06db",
+      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "excerpt": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
       "lang": "en",
-      "publishedAt": "2026-11-02T19:55:00Z",
+      "publishedAt": "2026-11-03T07:20:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
-      "day": "2026-11-02",
-      "category": "research",
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "products",
       "tags": [
-       "special events and guest speakers",
-       "research",
-       "energy",
-       "quantum computing",
-       "artificial intelligence",
-       "energy storage"
+       "ai",
+       "apps",
+       "hardware",
+       "apple",
+       "apple intelligence",
+       "apple watch"
       ],
-      "entities": [],
+      "entities": [
+       "apple"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MITEI-Conference-Energy-Initiative.jpg?itok=D__3CViF",
-       "credit": "Photo: Jake Belcher",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "b91db1d100bf604d",
+      "eventId": "0947affcb4cc06db",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 60.2,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 55.8,
-        "topic": 80.0,
-        "novelty": 90.0
+        "recency": 85.7,
+        "topic": 65.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "قدرت برای یک لحظه مهم",
-        "excerpt": "از احیای هسته ای تا کیوبیت ها، کنفرانس تحقیقاتی سالانه MIT Energy Initiative، گسترش تکنولوژی های امروز را برای کشف پیشرفت های فردا ردیابی کرد.",
+        "title": "ویژگی های Apple Watch’s AI برای بازیابی و بازیابی مکالمات شروع به آزمایش بتا می کند",
+        "excerpt": "در حال حاضر در بتا: ویژگی های جدید هوش صوتی اپل می تواند به شما کمک کند تا به یاد داشته باشید که چه کسی در مکالمات چه چیزی گفته یا یادداشت برداری می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
+        "at": "2026-11-03T10:08:12Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -330,15 +342,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 60.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 43.2,
+        "recency": 34.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -360,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-27T06:00:40Z",
-   "to": "2026-11-03T06:00:40Z",
+   "from": "2026-10-27T10:00:00Z",
+   "to": "2026-11-03T10:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -392,15 +404,15 @@
       "eventId": "262cfa35f4308cc0",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 85.7,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -412,61 +424,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de4cf53f9db96311",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Scaling Git at OpenAI",
-      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "engineering"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "de4cf53f9db96311",
-      "related": [],
-      "score": {
-       "total": 70.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مقیاس پذیری Git در OpenAI",
-        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
-       }
-      }
-     },
-     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -502,15 +459,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 27.8,
+        "recency": 26.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -520,11 +477,66 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de4cf53f9db96311",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de4cf53f9db96311",
+      "related": [],
+      "score": {
+       "total": 70.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.7,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مقیاس پذیری Git در OpenAI",
+        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -561,15 +573,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 84.9,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -581,6 +593,72 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4d836f21a02fa461",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments",
+      "lang": "en",
+      "publishedAt": "2026-11-03T07:00:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai factory",
+       "artificial intelligence",
+       "cosmos",
+       "customer stories"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/smart-city-blog-1920x1080-1.jpeg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "tyhy-GrkgO8",
+       "url": "https://www.youtube.com/watch?v=tyhy-GrkgO8"
+      },
+      "eventId": "4d836f21a02fa461",
+      "related": [],
+      "score": {
+       "total": 68.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.2,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شهرهای جهانی ساخت و مقیاس خدمات AI با NVIDIA فیزیکی و Agentic AI",
+        "excerpt": "شهرها اطلاعات زیادی از دوربین ها، سنسورها و سیستم های عملیاتی تولید می کنند، اما تبدیل آن به عمل مفید - برای برنامه ریزی، تعمیر و نگهداری و خدمات عمومی - همچنان یک چالش است. هوش مصنوعی فیزیکی و نمایندگی راه های جدیدی برای بستن این شکاف، از دوقلوهای دیجیتال برای برنامه ریزی زیرساخت ها تا عوامل بینایی و خدمات ارائه می دهند، در حالی که دولت های محلی را نگه می دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T10:08:12Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -621,15 +699,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.7,
+        "recency": 87.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -640,7 +718,60 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fec0e46ceba430b8",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Transformers Model Integration Contracts",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/transformers-mic"
+      },
+      "eventId": "fec0e46ceba430b8",
+      "related": [],
+      "score": {
+       "total": 66.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.8,
+        "topic": 65.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قرارداد ادغام مدل Transformers",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T10:08:12Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -680,141 +811,20 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.4,
+        "recency": 85.1,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
         "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "624e23d0cdf0ab77",
-      "url": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-      "excerpt": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T05:35:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "faculty",
-       "collaboration",
-       "bacteria",
-       "microbes",
-       "antibiotics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/barzilay-collins-00.jpg?itok=28TzeMa_",
-       "credit": "Photos: Max Rousseau (Barzilay) and M. Scott Brauer (Collins)",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "624e23d0cdf0ab77",
-      "related": [],
-      "score": {
-       "total": 66.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 79.0,
-        "topic": 80.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "رجینا بارزیlay و جیم کالینز برنده جایزه Pritzker برای AI و علوم تحقیقات تعالی برای کار در کشف آنتی بیوتیک فعال AI",
-        "excerpt": "استادان MIT برای شناسایی اولین آنتی بیوتیک کشف شده AI، یک پیشرفت علمی که به طور گسترده به عنوان یک نقطه عطف در کشف مواد مخدر مبتنی بر هوش مصنوعی شناخته شده است، همکاری کردند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1802721ebc5f02c3",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Animated carousel of images from AI posts in October",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:45:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "google deepmind",
-       "quantum computing",
-       "ai",
-       "gemini app",
-       "gemini models",
-       "fitbit"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "1802721ebc5f02c3",
-      "related": [],
-      "score": {
-       "total": 66.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.9,
-        "topic": 65.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
-        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T18:52:16Z"
        }
@@ -831,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-04T06:00:40Z",
-   "to": "2026-11-03T06:00:40Z",
+   "from": "2026-10-04T10:00:00Z",
+   "to": "2026-11-03T10:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -863,15 +873,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 78.6,
+       "total": 78.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.1,
+        "recency": 67.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -918,15 +928,15 @@
       "eventId": "262cfa35f4308cc0",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -973,15 +983,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 94.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1028,15 +1038,15 @@
       "eventId": "ff138f709a7e7c37",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 90.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1088,15 +1098,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 96.0,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1148,15 +1158,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 92.1,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1168,6 +1178,72 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4d836f21a02fa461",
+      "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "excerpt": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments",
+      "lang": "en",
+      "publishedAt": "2026-11-03T07:00:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai factory",
+       "artificial intelligence",
+       "cosmos",
+       "customer stories"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/smart-city-blog-1920x1080-1.jpeg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "tyhy-GrkgO8",
+       "url": "https://www.youtube.com/watch?v=tyhy-GrkgO8"
+      },
+      "eventId": "4d836f21a02fa461",
+      "related": [],
+      "score": {
+       "total": 68.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شهرهای جهانی ساخت و مقیاس خدمات AI با NVIDIA فیزیکی و Agentic AI",
+        "excerpt": "شهرها اطلاعات زیادی از دوربین ها، سنسورها و سیستم های عملیاتی تولید می کنند، اما تبدیل آن به عمل مفید - برای برنامه ریزی، تعمیر و نگهداری و خدمات عمومی - همچنان یک چالش است. هوش مصنوعی فیزیکی و نمایندگی راه های جدیدی برای بستن این شکاف، از دوقلوهای دیجیتال برای برنامه ریزی زیرساخت ها تا عوامل بینایی و خدمات ارائه می دهند، در حالی که دولت های محلی را نگه می دارند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T10:08:12Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1207,15 +1283,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 95.3,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1226,7 +1302,60 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fec0e46ceba430b8",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Transformers Model Integration Contracts",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T10:08:12Z",
+      "day": "2026-11-03",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/transformers-mic/mic-logo.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/transformers-mic"
+      },
+      "eventId": "fec0e46ceba430b8",
+      "related": [],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.2,
+        "topic": 65.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T10:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قرارداد ادغام مدل Transformers",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T10:08:12Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1268,15 +1397,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 95.4,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-03T06:00:40Z"
+       "asOf": "2026-11-03T10:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1284,118 +1413,6 @@
         "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7a5a1669ffe7a96b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Circle K accelerated DevOps incident triage to under 15 minutes with Amazon Bedrock",
-      "excerpt": "Circle K's DevOps team cut incident triage from 45-60 minutes to under 15 by building an agentic triage system on Amazon Bedrock. This post walks through the architecture, the initial Amazon Bedrock Flows implementation, the migration to Amazon Bedrock AgentCore, and the lessons learned from scaling it.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21514-first-arch-final.jpg",
-       "alt": "Amazon Bedrock Flows triage architecture: a Grafana alert flows through Amazon SNS, SQS, and Lambda to parallel agents that post a summary to Slack",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "7a5a1669ffe7a96b",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 65.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
-        "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ea66f5a34808c903",
-      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Speeding up planning decisions with AI",
-      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
-      "lang": "en",
-      "publishedAt": "2026-10-30T14:18:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-10-30",
-      "category": "policy",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "ea66f5a34808c903",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 77.6,
-        "topic": 85.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-03T06:00:40Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سرعت بخشیدن به تصمیمات برنامه ریزی با AI",
-        "excerpt": "گوگل DeepMind و دولت بریتانیا با هم کار می کنند تا زمان ارزیابی برنامه ریزی را کاهش دهند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
        }
       }
      },
