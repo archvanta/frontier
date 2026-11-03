@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-03T10:00:00Z",
+ "asOf": "2026-11-03T15:03:02Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,183 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-02T10:00:00Z",
-   "to": "2026-11-03T10:00:00Z",
+   "from": "2026-11-02T15:03:02Z",
+   "to": "2026-11-03T15:03:02Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "08b710f1e7801fa8",
+      "url": "https://openai.com/index/heimstaden",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "08b710f1e7801fa8",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 66.5,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Heimstaden در حال تغییر مدیریت املاک مسکونی با AI است.",
+        "excerpt": "کشف کنید که چگونه Heimstaden با استفاده از OpenAI’s ChatGPT Enterprise و Codex برای تبدیل مدیریت اموال، کاهش هزینه ها و توانمند کردن کارکنان در سراسر اروپا.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "98884512108d56d1",
+      "url": "https://www.youtube.com/watch?v=yLMjEpMio2w",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "From AI Infrastructure to the 6G Future",
+      "excerpt": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one strategic roadmap for telcos. - Learn about the latest breakthroughs and ecosystem advancements in…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T13:00:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/yLMjEpMio2w/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "yLMjEpMio2w",
+       "url": "https://www.youtube.com/watch?v=yLMjEpMio2w"
+      },
+      "eventId": "98884512108d56d1",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.8,
+        "topic": 70.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "از زیرساخت AI تا آینده 6G",
+        "excerpt": "در این آدرس ویژه مخابرات از NVIDIA GTC برلین، Ronnie Vasishta، SVP از مخابرات در NVIDIA، بررسی می کند که چگونه AI-RAN، محاسبات سریع و نفوذ AI در لبه، مسیر را به 6G شکل می دهد. نکات کلیدی: درک چگونگی کارخانه های AI، نفوذ توزیع شده، AI-RAN و 6G متناسب با یک نقشه راه استراتژیک برای telcos. - در مورد آخرین پیشرفت ها و پیشرفت های اکوسیستم در ... [+]",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "98db05995028f92d",
+      "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Here's Why You Shouldn't Use AI to Vote",
+      "excerpt": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T14:45:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "policy",
+      "tags": [
+       "politics",
+       "government",
+       "elections",
+       "voting",
+       "artificial intelligence"
+      ],
+      "entities": [
+       "anthropic",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6ae90c8c0f4d264d864a7d42/master/pass/Politics_Here's%20Why%20You%20Shouldn't%20Use%20AI%20to%20Vote_v1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "98db05995028f92d",
+      "related": [],
+      "score": {
+       "total": 64.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.3,
+        "topic": 85.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا نباید از AI برای رای دادن استفاده کنید",
+        "excerpt": "از توهمات گرفته تا تعصب حزبی، ربات های چت هوش مصنوعی مانند ChatGPT و کلود در زمان رسیدن به روز انتخابات مفید نیستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "4d836f21a02fa461",
@@ -53,15 +226,15 @@
       "eventId": "4d836f21a02fa461",
       "related": [],
       "score": {
-       "total": 65.9,
+       "total": 61.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 62.8,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -72,7 +245,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -82,227 +255,48 @@
     },
     {
      "article": {
-      "id": "262cfa35f4308cc0",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "id": "0e022216c2cb50c8",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "excerpt": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law,…",
       "lang": "en",
-      "publishedAt": "2026-11-02T18:00:00Z",
+      "publishedAt": "2026-11-03T10:43:41Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "262cfa35f4308cc0",
-      "related": [],
-      "score": {
-       "total": 61.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 39.7,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
-        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d4ac68d0af4ddbe5",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
-      "excerpt": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system. Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an…",
-      "lang": "en",
-      "publishedAt": "2026-11-03T06:00:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
+      "fetchedAt": "2026-11-03T15:17:43Z",
       "day": "2026-11-03",
       "category": "policy",
       "tags": [
-       "ai (artificial intelligence)",
-       "uk news",
-       "law",
-       "technology"
+       "artificial intelligence",
+       "app",
+       "summary"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/00c1de4ba03f6807582e6a7932fadc08aaf73c71/676_0_6659_5331/master/6659.jpg?width=700&quality=85&auto=format&fit=max&s=10c316a7af5a46a8c34d9ddbaf3f3d66",
-       "credit": "Photograph: Andy Rain/EPA",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "d4ac68d0af4ddbe5",
-      "related": [],
-      "score": {
-       "total": 61.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 85.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "\"شکست جدی\": دادستان CPS به پرونده های خیالی به دادگاه بالا پس از جستجوی AI اشاره می کند",
-        "excerpt": "منحصر به فرد: سابقه ای که در پرونده تجاوز به کودک ذکر شده است، به ده ها خطای مرتبط با AI اضافه می کند که در دادگاه یک دادستان ارشد تاج که در پرونده دادگاه عالی عمل می کند، یک سابقه قانونی خیالی را در خطایی که نگرانی های تازه ای در مورد توهمات هوش مصنوعی در آلوده کردن سیستم عدالت ایجاد کرده است. Ravinder Dhillon، نماینده خدمات دادستانی تاج (CPS)، اشاره به یک ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e719412cea106996",
-      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs",
-      "excerpt": "Anthropic is blocking its coding assistant Claude Code from recreating existing video games. The article Anthropic cracks down on game cloning in Claude Code after wave of AI-built knockoffs appeared first on The Decoder.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T09:48:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T10:08:12Z",
-      "day": "2026-11-03",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "anthropic",
-       "claude",
-       "claude code"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/Anthropic-Claude-Mario.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "e719412cea106996",
-      "related": [],
-      "score": {
-       "total": 60.8,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 98.9,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ترک های Anthropic در بازی کلونینگ در کلود کد پس از موج از ضربه های ساخته شده AI",
-        "excerpt": "Anthropic است مسدود کردن دستیار برنامه نویسی خود را کلود کد از بازسازی بازی های ویدئویی موجود است. مقاله Anthropic ترک در بازی کلونینگ در کد کلود پس از موج از ضربه های ساخته شده AI در ابتدا در Decoder ظاهر شد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T10:08:12Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "0947affcb4cc06db",
-      "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
-      "excerpt": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T07:20:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T10:08:12Z",
-      "day": "2026-11-03",
-      "category": "products",
-      "tags": [
-       "ai",
-       "apps",
-       "hardware",
-       "apple",
-       "apple intelligence",
-       "apple watch"
-      ],
-      "entities": [
-       "apple"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
+       "url": "images/fallbacks/policy.svg",
        "kind": "fallback"
       },
-      "eventId": "0947affcb4cc06db",
+      "eventId": "0e022216c2cb50c8",
       "related": [],
       "score": {
-       "total": 60.2,
+       "total": 61.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.7,
-        "topic": 65.0,
-        "novelty": 92.9
+        "recency": 77.9,
+        "topic": 85.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
-        "title": "ویژگی های Apple Watch’s AI برای بازیابی و بازیابی مکالمات شروع به آزمایش بتا می کند",
-        "excerpt": "در حال حاضر در بتا: ویژگی های جدید هوش صوتی اپل می تواند به شما کمک کند تا به یاد داشته باشید که چه کسی در مکالمات چه چیزی گفته یا یادداشت برداری می کند.",
+        "title": "چگونه \"تئوری بازی معکوس\" می تواند عوامل AI را در بررسی نگه دارد",
+        "excerpt": "یک رویکرد جدید به نام \"تئوری بازی معکوس\" با هدف کنترل مدل های قدرتمند AI با طراحی سیستم هایی است که آنها را تشویق می کند تا به قوانین پایبند باشند. همانطور که مدل های هوش مصنوعی توانمند تر می شوند، محققان ایمنی تلاش می کنند تا اطمینان حاصل کنند که آنها با خواسته های انسانی \"مشرکان\" هستند - به عبارت دیگر، اطمینان حاصل کنند که عوامل سرکش قانون را نمی شکنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T10:08:12Z"
+        "at": "2026-11-03T15:17:43Z"
        }
       }
      },
@@ -316,55 +310,60 @@
     },
     {
      "article": {
-      "id": "de4cf53f9db96311",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Scaling Git at OpenAI",
-      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "id": "720961d9f7472dbd",
+      "url": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "UK’s most polluting power plant could power country’s largest AI datacentre",
+      "excerpt": "Drax’s FTSE 250 owner strikes £20bn deal to build infrastructure in what it says is site’s ‘next chapter’ Business live – latest updates Britain’s most polluting power plant could soon power the country’s largest datacentre under a £20bn deal to build AI infrastructure on the site of the Drax power plant in North Yorkshire. The power plant’s FTSE 250 owner has struck a deal with the…",
       "lang": "en",
-      "publishedAt": "2026-11-02T15:30:00Z",
+      "publishedAt": "2026-11-03T11:55:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
-      "day": "2026-11-02",
-      "category": "models",
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "hardware",
       "tags": [
-       "engineering"
+       "drax",
+       "energy industry",
+       "business",
+       "energy",
+       "environment",
+       "ai (artificial intelligence)"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/4d21e0d98938a7f32ce928bb10cea2221b6aa2d5/0_0_5600_4480/master/5600.jpg?width=700&quality=85&auto=format&fit=max&s=4713a3ac830b140c589d93d1c5a37111",
+       "credit": "Photograph: Gary Calton/The Observer",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "de4cf53f9db96311",
+      "eventId": "720961d9f7472dbd",
       "related": [],
       "score": {
-       "total": 60.2,
+       "total": 60.3,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 34.3,
-        "topic": 100.0,
-        "novelty": 83.3
+        "recency": 83.5,
+        "topic": 70.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
-        "title": "مقیاس پذیری Git در OpenAI",
-        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "title": "آلوده ترین نیروگاه برق انگلستان می تواند بزرگترین مرکز داده های AI کشور را به قدرت برساند",
+        "excerpt": "شرکت Drax’s FTSE 250 قراردادی 20 میلیارد پوند برای ساخت زیرساخت در آنچه که می گوید \"فصل بعدی\" سایت\" زندگی می کند - آخرین به روز رسانی ترین نیروگاه برق آلوده بریتانیا به زودی می تواند بزرگترین مرکز داده های کشور را تحت یک معامله 20 میلیارد پوندی برای ساخت زیرساخت های AI در محل کارخانه برق Drax در شمالshire قدرت. صاحب نیروگاه FTSE 250 یک معامله با...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
+        "at": "2026-11-03T15:17:43Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,27 +371,25 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-27T10:00:00Z",
-   "to": "2026-11-03T10:00:00Z",
+   "from": "2026-10-27T15:03:02Z",
+   "to": "2026-11-03T15:03:02Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "262cfa35f4308cc0",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "id": "08b710f1e7801fa8",
+      "url": "https://openai.com/index/heimstaden",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
       "lang": "en",
-      "publishedAt": "2026-11-02T18:00:00Z",
+      "publishedAt": "2026-11-03T08:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-02",
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
       "category": "models",
-      "tags": [
-       "security"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
@@ -401,25 +398,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "262cfa35f4308cc0",
+      "eventId": "08b710f1e7801fa8",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 93.4,
         "topic": 100.0,
-        "novelty": 84.6
+        "novelty": 90.9
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
-        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
-        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
+        "title": "Heimstaden در حال تغییر مدیریت املاک مسکونی با AI است.",
+        "excerpt": "کشف کنید که چگونه Heimstaden با استفاده از OpenAI’s ChatGPT Enterprise و Codex برای تبدیل مدیریت اموال، کاهش هزینه ها و توانمند کردن کارکنان در سراسر اروپا.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
+        "at": "2026-11-03T15:17:43Z"
        }
       }
      },
@@ -459,15 +456,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 26.7,
+        "recency": 25.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -488,20 +485,20 @@
     },
     {
      "article": {
-      "id": "de4cf53f9db96311",
-      "url": "https://openai.com/index/scaling-git-at-openai",
+      "id": "262cfa35f4308cc0",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Scaling Git at OpenAI",
-      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "lang": "en",
-      "publishedAt": "2026-11-02T15:30:00Z",
+      "publishedAt": "2026-11-02T18:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
+      "fetchedAt": "2026-11-03T06:57:18Z",
       "day": "2026-11-02",
       "category": "models",
       "tags": [
-       "engineering"
+       "security"
       ],
       "entities": [
        "openai"
@@ -511,25 +508,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "de4cf53f9db96311",
+      "eventId": "262cfa35f4308cc0",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.7,
+        "recency": 81.7,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 84.6
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
-        "title": "مقیاس پذیری Git در OpenAI",
-        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
+        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
+        "at": "2026-11-03T06:57:18Z"
        }
       }
      },
@@ -573,15 +570,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.9,
+        "recency": 80.9,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -593,6 +590,65 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "98884512108d56d1",
+      "url": "https://www.youtube.com/watch?v=yLMjEpMio2w",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "From AI Infrastructure to the 6G Future",
+      "excerpt": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one strategic roadmap for telcos. - Learn about the latest breakthroughs and ecosystem advancements in…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T13:00:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/yLMjEpMio2w/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "yLMjEpMio2w",
+       "url": "https://www.youtube.com/watch?v=yLMjEpMio2w"
+      },
+      "eventId": "98884512108d56d1",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.0,
+        "topic": 70.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "از زیرساخت AI تا آینده 6G",
+        "excerpt": "در این آدرس ویژه مخابرات از NVIDIA GTC برلین، Ronnie Vasishta، SVP از مخابرات در NVIDIA، بررسی می کند که چگونه AI-RAN، محاسبات سریع و نفوذ AI در لبه، مسیر را به 6G شکل می دهد. نکات کلیدی: درک چگونگی کارخانه های AI، نفوذ توزیع شده، AI-RAN و 6G متناسب با یک نقشه راه استراتژیک برای telcos. - در مورد آخرین پیشرفت ها و پیشرفت های اکوسیستم در ... [+]",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -639,15 +695,15 @@
       "eventId": "4d836f21a02fa461",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 92.5,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -658,7 +714,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -699,15 +755,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.3,
+        "recency": 83.2,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -718,7 +774,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -753,80 +809,21 @@
       "eventId": "fec0e46ceba430b8",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 86.5,
         "topic": 65.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
         "title": "قرارداد ادغام مدل Transformers",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T10:08:12Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "195c284d0de53e7f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
-      "excerpt": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:11:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "open-source",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock knowledge bases",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21438-1.png",
-       "alt": "Architecture diagram showing an Amazon EventBridge schedule starting an AWS Fargate task that crawls public websites, writes prepared Markdown and metadata to Amazon S3, and triggers Amazon Bedrock Kn",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "195c284d0de53e7f",
-      "related": [],
-      "score": {
-       "total": 66.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.1,
-        "topic": 75.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
-        "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
@@ -841,8 +838,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-04T10:00:00Z",
-   "to": "2026-11-03T10:00:00Z",
+   "from": "2026-10-04T15:03:02Z",
+   "to": "2026-11-03T15:03:02Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -873,15 +870,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 78.5,
+       "total": 78.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 67.3,
+        "recency": 66.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -896,6 +893,59 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "08b710f1e7801fa8",
+      "url": "https://openai.com/index/heimstaden",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "08b710f1e7801fa8",
+      "related": [],
+      "score": {
+       "total": 73.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.0,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Heimstaden در حال تغییر مدیریت املاک مسکونی با AI است.",
+        "excerpt": "کشف کنید که چگونه Heimstaden با استفاده از OpenAI’s ChatGPT Enterprise و Codex برای تبدیل مدیریت اموال، کاهش هزینه ها و توانمند کردن کارکنان در سراسر اروپا.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -928,15 +978,15 @@
       "eventId": "262cfa35f4308cc0",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.1,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -947,7 +997,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -983,15 +1033,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 93.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -999,61 +1049,6 @@
         "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T23:54:48Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ff138f709a7e7c37",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T01:51:14Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "ff138f709a7e7c37",
-      "related": [],
-      "score": {
-       "total": 71.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.6,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI Dan Driscoll را به عنوان مشاور ارشد برای مدرن سازی امنیت ملی منصوب می کند",
-        "excerpt": "OpenAI Dan Driscoll را برای توصیه به AI مسئول برای مدرن سازی امنیت ملی، انعطاف پذیری سایبری و همکاری با متحدان ایالات متحده منصوب می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T01:51:14Z"
        }
       }
      },
@@ -1098,15 +1093,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 94.6,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -1158,15 +1153,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 90.8,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -1224,15 +1219,15 @@
       "eventId": "4d836f21a02fa461",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 97.7,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -1244,6 +1239,65 @@
       }
      },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "98884512108d56d1",
+      "url": "https://www.youtube.com/watch?v=yLMjEpMio2w",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "From AI Infrastructure to the 6G Future",
+      "excerpt": "In this Telecom Special Address from NVIDIA GTC Berlin, Ronnie Vasishta, SVP of Telecom at NVIDIA, explores how AI-RAN, accelerated computing, and AI inference at the edge are shaping the path to 6G. Key Highlights: - Understand how AI factories, distributed inference, AI-RAN, and 6G fit into one strategic roadmap for telcos. - Learn about the latest breakthroughs and ecosystem advancements in…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T13:00:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T15:17:43Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/yLMjEpMio2w/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "yLMjEpMio2w",
+       "url": "https://www.youtube.com/watch?v=yLMjEpMio2w"
+      },
+      "eventId": "98884512108d56d1",
+      "related": [],
+      "score": {
+       "total": 67.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 70.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-03T15:03:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "از زیرساخت AI تا آینده 6G",
+        "excerpt": "در این آدرس ویژه مخابرات از NVIDIA GTC برلین، Ronnie Vasishta، SVP از مخابرات در NVIDIA، بررسی می کند که چگونه AI-RAN، محاسبات سریع و نفوذ AI در لبه، مسیر را به 6G شکل می دهد. نکات کلیدی: درک چگونگی کارخانه های AI، نفوذ توزیع شده، AI-RAN و 6G متناسب با یک نقشه راه استراتژیک برای telcos. - در مورد آخرین پیشرفت ها و پیشرفت های اکوسیستم در ... [+]",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T15:17:43Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1283,15 +1337,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 93.9,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
@@ -1302,7 +1356,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1337,82 +1391,21 @@
       "eventId": "fec0e46ceba430b8",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 95.7,
         "topic": 65.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T10:00:00Z"
+       "asOf": "2026-11-03T15:03:02Z"
       },
       "tr": {
        "fa": {
         "title": "قرارداد ادغام مدل Transformers",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T10:08:12Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1802721ebc5f02c3",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Animated carousel of images from AI posts in October",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:45:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "products",
-      "tags": [
-       "google deepmind",
-       "quantum computing",
-       "ai",
-       "gemini app",
-       "gemini models",
-       "fitbit"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "1802721ebc5f02c3",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.4,
-        "topic": 65.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-03T10:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
-        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
