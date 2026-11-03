@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-03T18:00:00Z",
+ "asOf": "2026-11-03T21:43:08Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,641 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-02T18:00:00Z",
-   "to": "2026-11-03T18:00:00Z",
+   "from": "2026-11-02T21:43:08Z",
+   "to": "2026-11-03T21:43:08Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "07cdeba3c4cd66ae",
+      "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "TamaGPT",
+      "excerpt": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:30:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/NCxD-qsQcN0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "NCxD-qsQcN0",
+       "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0"
+      },
+      "eventId": "07cdeba3c4cd66ae",
+      "related": [],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.1,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d84f2d409b05d2bb",
+      "url": "https://www.youtube.com/watch?v=63pcV4z0DwI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "ChatGPT Voice is now in Finances",
+      "excerpt": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:04:51Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/63pcV4z0DwI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "63pcV4z0DwI",
+       "url": "https://www.youtube.com/watch?v=63pcV4z0DwI"
+      },
+      "eventId": "d84f2d409b05d2bb",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 81.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چت GPT Voice در حال حاضر در امور مالی است",
+        "excerpt": "ChatGPT Voice 🤝 Finance به طور ایمن حساب های خود را از طریق امور مالی متصل کنید، سپس از طریق امور مالی خود در موضوعاتی مانند اشتراک هایی که برای آن پرداخت می کنید صحبت کنید، در مورد اینکه دوست دارید چه چیزی را نگه دارید و چه چیزی می توانید با لغو آن ذخیره کنید. سعی کنید آن را امتحان کنید: chatgpt.com",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "12feaf67ddae85b1",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Building connections across the research infrastructure",
+      "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T19:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "nanoscience and nanotechnology",
+       "collaboration",
+       "facilities",
+       "electronics",
+       "microscopy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
+       "credit": "Photo: Dave Terry/MIT.nano",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "12feaf67ddae85b1",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.0,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d9931a8b95debc08",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI ‘godfather’ Geoffrey Hinton says it might turn out humans would have been better off without AI",
+      "excerpt": "Nobel winner who devised concept of neural network warns AI could be near to triggering major incident such as power or banking shutdown One of the “godfathers of AI”, Geoffrey Hinton, has said it could turn out that humans would have been better off never developing the technology as he warned it could trigger a large-scale incident this year or next such as a temporary blackout of financial or…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T21:35:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "policy",
+      "tags": [
+       "uk news",
+       "world news",
+       "technology",
+       "ai (artificial intelligence)",
+       "computing",
+       "openai"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=700&quality=85&auto=format&fit=max&s=a8a03db05630d7be73c7fc8cddc9dffd",
+       "credit": "Photograph: Ramón de la Rocha/EPA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d9931a8b95debc08",
+      "related": [],
+      "score": {
+       "total": 65.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جفری هانتون، پدر و مادر AI می گوید که ممکن است انسان ها را بدون هوش مصنوعی بهتر کند.",
+        "excerpt": "برنده نوبل که مفهوم شبکه عصبی را طراحی کرده است، هشدار می دهد که AI می تواند نزدیک به ایجاد یک حادثه بزرگ مانند خاموش کردن برق یا بانکداری یکی از \"پدران هوش مصنوعی\" باشد، جفری هانون، گفته است که می تواند به نظر برسد که انسان ها هرگز بهتر از توسعه تکنولوژی نیستند، زیرا او هشدار داد که می تواند یک حادثه بزرگ را در مقیاس بزرگ در سال جاری یا بعد به عنوان یک خاموشی موقت مالی یا ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a55665cf48953af7",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-03T17:15:21Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T18:05:08Z",
+      "day": "2026-11-03",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/statebench"
+      },
+      "eventId": "a55665cf48953af7",
+      "related": [],
+      "score": {
+       "total": 65.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 77.3,
+        "topic": 75.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "StateBench: تست اینکه چگونه مدل های زبان تغییرات دولتی را در اسناد طولانی پیگیری می کنند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T18:05:08Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "81baaaf3b2d16a22",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T16:49:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T18:05:08Z",
+      "day": "2026-11-03",
+      "category": "research",
+      "tags": [
+       "amazon quick suite",
+       "intermediate (200)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
+       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "81baaaf3b2d16a22",
+      "related": [],
+      "score": {
+       "total": 65.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 75.4,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
+        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T18:05:08Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-27T21:43:08Z",
+   "to": "2026-11-03T21:43:08Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "07cdeba3c4cd66ae",
+      "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "TamaGPT",
+      "excerpt": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:30:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/NCxD-qsQcN0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "NCxD-qsQcN0",
+       "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0"
+      },
+      "eventId": "07cdeba3c4cd66ae",
+      "related": [],
+      "score": {
+       "total": 74.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d84f2d409b05d2bb",
+      "url": "https://www.youtube.com/watch?v=63pcV4z0DwI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "ChatGPT Voice is now in Finances",
+      "excerpt": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:04:51Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/63pcV4z0DwI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "63pcV4z0DwI",
+       "url": "https://www.youtube.com/watch?v=63pcV4z0DwI"
+      },
+      "eventId": "d84f2d409b05d2bb",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.6,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چت GPT Voice در حال حاضر در امور مالی است",
+        "excerpt": "ChatGPT Voice 🤝 Finance به طور ایمن حساب های خود را از طریق امور مالی متصل کنید، سپس از طریق امور مالی خود در موضوعاتی مانند اشتراک هایی که برای آن پرداخت می کنید صحبت کنید، در مورد اینکه دوست دارید چه چیزی را نگه دارید و چه چیزی می توانید با لغو آن ذخیره کنید. سعی کنید آن را امتحان کنید: chatgpt.com",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "26c6032e1d267765",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Accelerating engineering for the physical world",
+      "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "26c6032e1d267765",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.1,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آموزش مهندسی برای دنیای فیزیکی",
+        "excerpt": "کشف کنید که چگونه ChatGPT و Codex به مهندسان کمک می کنند تا CAD، طراحی PCB، شبیه سازی و سایر جریان های کاری را در سراسر جهان فیزیکی تسریع کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "12feaf67ddae85b1",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Building connections across the research infrastructure",
+      "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T19:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "research",
+      "tags": [
+       "special events and guest speakers",
+       "nanoscience and nanotechnology",
+       "collaboration",
+       "facilities",
+       "electronics",
+       "microscopy"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
+       "credit": "Photo: Dave Terry/MIT.nano",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "12feaf67ddae85b1",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.9,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "81baaaf3b2d16a22",
+      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Bring structured and unstructured data together with Amazon Quick",
+      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T16:49:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T18:05:08Z",
+      "day": "2026-11-03",
+      "category": "research",
+      "tags": [
+       "amazon quick suite",
+       "intermediate (200)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
+       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "81baaaf3b2d16a22",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.4,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
+        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T18:05:08Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "a55665cf48953af7",
@@ -49,7 +680,7 @@
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -59,120 +690,7 @@
        }
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "81baaaf3b2d16a22",
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Bring structured and unstructured data together with Amazon Quick",
-      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:49:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
-       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "81baaaf3b2d16a22",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.4,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
-        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "adafdd4764cb9dbb",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T17:01:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "adafdd4764cb9dbb",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.6,
-        "topic": 80.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "میکروبیوم عامل با Google ضد جاذبه",
-        "excerpt": "یاد بگیرید که چگونه گوگل ضد جاذبه و مهارت های شیمی دان ما سرعت کشف مواد مخدر جریان کار، ترکیبات جستجو، و پیشنهاد چرخه های ماکرو سخت و سخت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 3,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -207,15 +725,15 @@
       "eventId": "bc4177032a04e266",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 95.2,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -225,7 +743,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -235,133 +753,230 @@
     },
     {
      "article": {
-      "id": "e466f624af7d1128",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-ultra-low-latency-voice-ai-applications-on-aws",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Building ultra-low-latency voice AI applications on AWS",
-      "excerpt": "Learn how Cartesia, an AWS Partner, uses purpose-built State Space Models and AWS infrastructure to deliver sub-100ms text-to-speech and speech-to-text at global scale, and how to deploy its Sonic model on Amazon SageMaker AI or self-managed Amazon EC2 GPU instances.",
+      "id": "adafdd4764cb9dbb",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "lang": "en",
-      "publishedAt": "2026-11-03T16:40:54Z",
+      "publishedAt": "2026-11-03T17:01:49Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-03T18:05:08Z",
       "day": "2026-11-03",
-      "category": "hardware",
-      "tags": [
-       "advanced (300)",
-       "amazon connect",
-       "amazon sagemaker ai",
-       "technical how-to"
-      ],
+      "category": "research",
+      "tags": [],
       "entities": [
-       "amazon"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21700-1.png",
-       "alt": "AWS Marketplace search results listing the Cartesia Sonic 3.6 SageMaker model package",
+       "url": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
       },
-      "eventId": "e466f624af7d1128",
+      "eventId": "adafdd4764cb9dbb",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
-        "topic": 70.0,
-        "novelty": 90.0
+        "recency": 95.6,
+        "topic": 80.0,
+        "novelty": 77.8
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت برنامه های فوق العاده کم صدا در AWS",
-        "excerpt": "یاد بگیرید که چگونه Cartesia، یک شریک AWS، با استفاده از مدل های فضایی دولتی هدفمند و زیرساخت AWS برای ارائه زیر 100ms متن به تصویر کشیدن و گفتار به متن در مقیاس جهانی، و چگونه به استقرار مدل Sonic خود را در آمازون SageMaker AI یا نمونه های گرافیکی EC2 آمازون.",
+        "title": "میکروبیوم عامل با Google ضد جاذبه",
+        "excerpt": "یاد بگیرید که چگونه گوگل ضد جاذبه و مهارت های شیمی دان ما سرعت کشف مواد مخدر جریان کار، ترکیبات جستجو، و پیشنهاد چرخه های ماکرو سخت و سخت است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T18:05:08Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
       "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "32791f69eb2c329e",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
-      "excerpt": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing",
-      "lang": "en",
-      "publishedAt": "2026-11-03T15:00:44Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "openai",
-       "report",
-       "tech"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Stargate AI data center “compute campus” in Abilene, Texas.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "0dbf0226aa90a12c"
-      ],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 84.1,
-        "topic": 70.0,
-        "novelty": 40.9
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI به آرامی مراکز داده های \"دانشگاه های داخلی\" را دوباره نام گذاری می کند.",
-        "excerpt": "مردم از مراکز داده نفرت دارند. آن ها با صدای بلند، چشم انداز منابعی هستند که به شدت بی اهمیت هستند و توانسته اند به چشم انداز سیاسی قطبی امروز دست یابند: مخالفت واقعی دو حزبی. اما در مورد \"دانشگاه های دانشگاهی\" چه؟ این صدا دوست داشتنی است، درست است؟ به نظر می رسد OpenAI قمار است که یک برند آرام می تواند تمام چیزی باشد که برای کاهش رشد آن لازم است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
       "top-factor-reliability"
      ]
     }
    ]
   },
-  "weekly": {
-   "from": "2026-10-27T18:00:00Z",
-   "to": "2026-11-03T18:00:00Z",
-   "halfLifeHours": 72,
+  "monthly": {
+   "from": "2026-10-04T21:43:08Z",
+   "to": "2026-11-03T21:43:08Z",
+   "halfLifeHours": 240,
    "picks": [
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 78.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 65.1,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "07cdeba3c4cd66ae",
+      "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "TamaGPT",
+      "excerpt": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:30:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/NCxD-qsQcN0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "NCxD-qsQcN0",
+       "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0"
+      },
+      "eventId": "07cdeba3c4cd66ae",
+      "related": [],
+      "score": {
+       "total": 74.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d84f2d409b05d2bb",
+      "url": "https://www.youtube.com/watch?v=63pcV4z0DwI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "ChatGPT Voice is now in Finances",
+      "excerpt": "ChatGPT Voice 🤝 Finances. Securely connect your accounts through Finances, then talk through your finances on topics like what subscriptions you're paying for, discuss which you’d like to keep and what you could save by cancelling. Try it: chatgpt.com/finances",
+      "lang": "en",
+      "publishedAt": "2026-11-03T18:04:51Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T21:50:06Z",
+      "day": "2026-11-03",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/63pcV4z0DwI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "63pcV4z0DwI",
+       "url": "https://www.youtube.com/watch?v=63pcV4z0DwI"
+      },
+      "eventId": "d84f2d409b05d2bb",
+      "related": [],
+      "score": {
+       "total": 73.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T21:43:08Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چت GPT Voice در حال حاضر در امور مالی است",
+        "excerpt": "ChatGPT Voice 🤝 Finance به طور ایمن حساب های خود را از طریق امور مالی متصل کنید، سپس از طریق امور مالی خود در موضوعاتی مانند اشتراک هایی که برای آن پرداخت می کنید صحبت کنید، در مورد اینکه دوست دارید چه چیزی را نگه دارید و چه چیزی می توانید با لغو آن ذخیره کنید. سعی کنید آن را امتحان کنید: chatgpt.com",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T21:50:06Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "08b710f1e7801fa8",
@@ -388,15 +1003,15 @@
       "eventId": "08b710f1e7801fa8",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 96.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -407,7 +1022,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -417,63 +1032,60 @@
     },
     {
      "article": {
-      "id": "32791f69eb2c329e",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
-      "excerpt": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing",
+      "id": "12feaf67ddae85b1",
+      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Building connections across the research infrastructure",
+      "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
       "lang": "en",
-      "publishedAt": "2026-11-03T15:00:44Z",
+      "publishedAt": "2026-11-03T19:30:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
+      "fetchedAt": "2026-11-03T21:50:06Z",
       "day": "2026-11-03",
-      "category": "hardware",
+      "category": "research",
       "tags": [
-       "ai",
-       "openai",
-       "report",
-       "tech"
+       "special events and guest speakers",
+       "nanoscience and nanotechnology",
+       "collaboration",
+       "facilities",
+       "electronics",
+       "microscopy"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Stargate AI data center “compute campus” in Abilene, Texas.",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
+       "credit": "Photo: Dave Terry/MIT.nano",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "0dbf0226aa90a12c"
-      ],
+      "eventId": "12feaf67ddae85b1",
+      "related": [],
       "score": {
        "total": 70.5,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 97.2,
-        "topic": 70.0,
-        "novelty": 40.9
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
-        "title": "OpenAI به آرامی مراکز داده های \"دانشگاه های داخلی\" را دوباره نام گذاری می کند.",
-        "excerpt": "مردم از مراکز داده نفرت دارند. آن ها با صدای بلند، چشم انداز منابعی هستند که به شدت بی اهمیت هستند و توانسته اند به چشم انداز سیاسی قطبی امروز دست یابند: مخالفت واقعی دو حزبی. اما در مورد \"دانشگاه های دانشگاهی\" چه؟ این صدا دوست داشتنی است، درست است؟ به نظر می رسد OpenAI قمار است که یک برند آرام می تواند تمام چیزی باشد که برای کاهش رشد آن لازم است.",
+        "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
+        "at": "2026-11-03T21:50:06Z"
        }
       }
      },
-     "rank": 2,
-     "sources": 2,
+     "rank": 5,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -509,15 +1121,15 @@
       "eventId": "81baaaf3b2d16a22",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.6,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -528,65 +1140,10 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 24.8,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -618,15 +1175,15 @@
       "eventId": "a55665cf48953af7",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 98.7,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -636,7 +1193,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -675,526 +1232,21 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.5,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
         "title": "پالت: آموزش یک مدل کوچک برای ساخت عرشه در زبان طراحی خود",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "adafdd4764cb9dbb",
-      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Agentic cheminformatics with Google Antigravity",
-      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T17:01:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "adafdd4764cb9dbb",
-      "related": [],
-      "score": {
-       "total": 69.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.1,
-        "topic": 80.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "میکروبیوم عامل با Google ضد جاذبه",
-        "excerpt": "یاد بگیرید که چگونه گوگل ضد جاذبه و مهارت های شیمی دان ما سرعت کشف مواد مخدر جریان کار، ترکیبات جستجو، و پیشنهاد چرخه های ماکرو سخت و سخت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "262cfa35f4308cc0",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T18:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "262cfa35f4308cc0",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
-        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
        }
       }
      },
      "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "monthly": {
-   "from": "2026-10-04T18:00:00Z",
-   "to": "2026-11-03T18:00:00Z",
-   "halfLifeHours": 240,
-   "picks": [
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 78.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 65.8,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "08b710f1e7801fa8",
-      "url": "https://openai.com/index/heimstaden",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T15:17:43Z",
-      "day": "2026-11-03",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "08b710f1e7801fa8",
-      "related": [],
-      "score": {
-       "total": 73.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.2,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Heimstaden در حال تغییر مدیریت املاک مسکونی با AI است.",
-        "excerpt": "کشف کنید که چگونه Heimstaden با استفاده از OpenAI’s ChatGPT Enterprise و Codex برای تبدیل مدیریت اموال، کاهش هزینه ها و توانمند کردن کارکنان در سراسر اروپا.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T15:17:43Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e"
-      ],
-      "score": {
-       "total": 72.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 88.0,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "262cfa35f4308cc0",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T18:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T06:57:18Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "262cfa35f4308cc0",
-      "related": [],
-      "score": {
-       "total": 72.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.3,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
-        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T06:57:18Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "81baaaf3b2d16a22",
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Bring structured and unstructured data together with Amazon Quick",
-      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:49:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
-       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "81baaaf3b2d16a22",
-      "related": [],
-      "score": {
-       "total": 70.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
-        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a55665cf48953af7",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-03T17:15:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/statebench"
-      },
-      "eventId": "a55665cf48953af7",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "StateBench: تست اینکه چگونه مدل های زبان تغییرات دولتی را در اسناد طولانی پیگیری می کنند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc4177032a04e266",
-      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Palette: teaching a small model to build decks in your design language",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:35:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/63890e3843d8b0797a0ad606/5pHD09UHuAK-6OyKGKimD.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/palette-deck-building"
-      },
-      "eventId": "bc4177032a04e266",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.6,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پالت: آموزش یک مدل کوچک برای ساخت عرشه در زبان طراحی خود",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1235,15 +1287,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 92.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
@@ -1254,7 +1306,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1289,86 +1341,20 @@
       "eventId": "adafdd4764cb9dbb",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.7,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-03T18:00:00Z"
+       "asOf": "2026-11-03T21:43:08Z"
       },
       "tr": {
        "fa": {
         "title": "میکروبیوم عامل با Google ضد جاذبه",
         "excerpt": "یاد بگیرید که چگونه گوگل ضد جاذبه و مهارت های شیمی دان ما سرعت کشف مواد مخدر جریان کار، ترکیبات جستجو، و پیشنهاد چرخه های ماکرو سخت و سخت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3bafb79045335714",
-      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
-      "excerpt": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:00:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "agentic ai",
-       "artificial intelligence",
-       "cuda",
-       "digital twin",
-       "industrial and manufacturing"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-semiconductor-fab-still-1920x1080-1.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "rBN0PDfJWIc",
-       "url": "https://www.youtube.com/watch?v=rBN0PDfJWIc"
-      },
-      "eventId": "3bafb79045335714",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-03T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI در حال تغییر است که چگونه Fabs کار می کند - و مهندسان به دلیل آن سریع تر حرکت می کنند",
-        "excerpt": "تقاضا برای تراشه های پیشرفته در حال افزایش است. فرآیندهای ساخت آنها پیچیده تر می شوند. و حاشیه خطا کاهش می یابد. برای مهندسان، درک اینکه چگونه یک تغییر فرایند رفتار خواهد کرد، چگونه یک ماده با یک گام جدید ارتباط برقرار می کند، چگونه یک نقشه فرار به یک علت ریشه گام های حیاتی و چالش برانگیز در نیمه هادی است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T18:05:08Z"
        }
