@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-02T23:13:53Z",
+ "asOf": "2026-11-03T01:49:52Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-01T23:13:53Z",
-   "to": "2026-11-02T23:13:53Z",
+   "from": "2026-11-02T01:49:52Z",
+   "to": "2026-11-03T01:49:52Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -47,15 +47,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.6,
+        "recency": 71.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -102,15 +102,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 64.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.0,
+        "recency": 55.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -161,15 +161,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 63.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.7,
+        "recency": 60.0,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -184,6 +184,65 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8330bdd3be4d0a6b",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
+      "excerpt": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T00:01:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T01:51:14Z",
+      "day": "2026-11-03",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "malware",
+       "uk news",
+       "computing",
+       "data and computer security"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/107178ded18463015d20aa92a1ff25a038c7ea31/0_0_4994_3996/master/4994.jpg?width=700&quality=85&auto=format&fit=max&s=f68a377b25c0ebad2ded4e420c7f6b6d",
+       "credit": "Photograph: Rounak Amini/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "8330bdd3be4d0a6b",
+      "related": [],
+      "score": {
+       "total": 63.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 90.1,
+        "topic": 85.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-03T01:49:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بدافزاری با قدرت هوش مصنوعی \"به احتمال زیاد\" برای هک زیرساخت های بریتانیا تا سال ۲۰۲۸ استفاده می شود.",
+        "excerpt": "مرکز امنیت سایبری ملی انتظار حمله به تاسیسات بحرانی مانند ایستگاه های برق، فرودگاه ها و بیمارستان های نرم افزار مخرب AI را دارد \"به احتمال زیاد\" در حملات هک شده علیه ایستگاه های برق بریتانیا، فرودگاه ها و بیمارستان ها توسط 2028، با توجه به وضعیت امنیت سایبری استفاده می شود. مرکز امنیت سایبری ملی (NCSC) گفت که AI احتمالا یک حمله باج افزار را فعال خواهد کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T01:51:14Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -218,15 +277,15 @@
       "eventId": "bdc0928c55ef85f1",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 62.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 85.0,
         "topic": 85.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -237,7 +296,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -247,120 +306,58 @@
     },
     {
      "article": {
-      "id": "1802721ebc5f02c3",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Animated carousel of images from AI posts in October",
+      "id": "968f14d53faf7f9a",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "excerpt": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
       "lang": "en",
-      "publishedAt": "2026-11-02T17:45:00Z",
+      "publishedAt": "2026-11-03T01:49:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "products",
+      "fetchedAt": "2026-11-03T01:51:14Z",
+      "day": "2026-11-03",
+      "category": "business",
       "tags": [
-       "google deepmind",
-       "quantum computing",
+       "tc",
        "ai",
-       "gemini app",
-       "gemini models",
-       "fitbit"
+       "apple",
+       "earnings"
       ],
       "entities": [
-       "google"
+       "apple"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "1802721ebc5f02c3",
+      "eventId": "968f14d53faf7f9a",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 61.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 72.9,
-        "topic": 65.0,
-        "novelty": 88.9
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
-        "title": "آخرین اخبار هوش مصنوعی که در ۲۰۲۶ اکتبر اعلام کردیم",
-        "excerpt": "تصویر متحرک از پست های هوش مصنوعی در ماه اکتبر",
+        "title": "اپل ممکن است تلاش کند تا درآمد خود را با انجام ... چیزی با برنامه های AI شخص ثالث افزایش دهد",
+        "excerpt": "اپل به روش هایی اشاره کرد که می تواند درآمد را از طریق \"فرصت های\" شخص ثالث در طول تماس درآمد شبانه روز دوشنبه خود افزایش دهد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "195c284d0de53e7f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Prepare web content for Amazon Bedrock Knowledge Bases with Crawl4AI",
-      "excerpt": "This post shows how to use Crawl4AI, an open source web crawler, as a content preparation layer for Amazon Bedrock Knowledge Bases, handling JavaScript rendering, selective extraction, and custom metadata enrichment before web content reaches an Amazon S3 data source.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T17:11:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "open-source",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock knowledge bases",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21438-1.png",
-       "alt": "Architecture diagram showing an Amazon EventBridge schedule starting an AWS Fargate task that crawls public websites, writes prepared Markdown and metadata to Amazon S3, and triggers Amazon Bedrock Kn",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "195c284d0de53e7f",
-      "related": [],
-      "score": {
-       "total": 63.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 70.5,
-        "topic": 75.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-02T23:13:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آماده سازی محتوای وب برای پایگاه های دانش آمازون Bedrock با Crawl4AI",
-        "excerpt": "این پست نشان می دهد که چگونه از Crawl4AI، یک خزنده وب منبع باز، به عنوان یک لایه آماده سازی محتوا برای پایگاه های دانش آمازون Bedrock، پردازش رندر جاوا اسکریپت، استخراج انتخابی و غنی سازی سفارشی قبل از محتوای وب به یک منبع داده آمازون S3 می رسد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
+        "at": "2026-11-03T01:51:14Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -368,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-26T23:13:53Z",
-   "to": "2026-11-02T23:13:53Z",
+   "from": "2026-10-27T01:49:52Z",
+   "to": "2026-11-03T01:49:52Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -400,15 +397,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 90.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -420,61 +417,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "19244c7aa2063fd3",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "global affairs"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "19244c7aa2063fd3",
-      "related": [],
-      "score": {
-       "total": 71.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.4,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-02T23:13:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی برنامه نظارت بر شبکه",
-        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -510,15 +452,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 29.7,
+        "recency": 28.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -528,11 +470,66 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "19244c7aa2063fd3",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing the Grid Protectors Program",
+      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "global affairs"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "19244c7aa2063fd3",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.1,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-03T01:49:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی برنامه نظارت بر شبکه",
+        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -569,15 +566,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 91.8,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -629,15 +626,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 94.5,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -688,15 +685,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 92.0,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -748,15 +745,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.4,
+        "recency": 82.3,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -809,15 +806,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 92.5,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -839,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-03T23:13:53Z",
-   "to": "2026-11-02T23:13:53Z",
+   "from": "2026-10-04T01:49:52Z",
+   "to": "2026-11-03T01:49:52Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -871,15 +868,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 78.9,
+       "total": 78.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 69.5,
+        "recency": 68.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -926,15 +923,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 97.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -946,6 +943,61 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ff138f709a7e7c37",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T01:51:14Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "ff138f709a7e7c37",
+      "related": [],
+      "score": {
+       "total": 72.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.8,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-03T01:49:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI Dan Driscoll را به عنوان مشاور ارشد برای مدرن سازی امنیت ملی منصوب می کند",
+        "excerpt": "OpenAI Dan Driscoll را برای توصیه به AI مسئول برای مدرن سازی امنیت ملی، انعطاف پذیری سایبری و همکاری با متحدان ایالات متحده منصوب می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T01:51:14Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -981,15 +1033,15 @@
       "eventId": "19244c7aa2063fd3",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 96.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -997,61 +1049,6 @@
         "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ed4b58253682640f",
-      "url": "https://openai.com/index/lifeval",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "LifeVal",
-      "excerpt": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T18:52:16Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "ed4b58253682640f",
-      "related": [],
-      "score": {
-       "total": 72.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.0,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-02T23:13:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "زندگی",
-        "excerpt": "معرفی LifeVal، معیار اندازه گیری اینکه چگونه AI به افراد کمک می کند تا وظایف روزمره را تکمیل کنند، از پیدا کردن مراقبت از کودکان برای مدیریت امور مالی و پرونده های دولتی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T18:52:16Z"
        }
       }
      },
@@ -1096,15 +1093,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -1156,15 +1153,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 94.3,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -1215,15 +1212,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.5,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -1235,60 +1232,6 @@
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a1765f446c5b64b5",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-29T17:06:31Z",
-      "day": "2026-10-29",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "mistral"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/mistral-large4"
-      },
-      "eventId": "a1765f446c5b64b5",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 70.9,
-        "topic": 100.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-02T23:13:53Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "به Le Chonk خوش آمدید: Mistral 4 در Hugging Face",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-29T17:06:31Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1330,15 +1273,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.7,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
@@ -1349,7 +1292,7 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1388,20 +1331,74 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.5,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-02T23:13:53Z"
+       "asOf": "2026-11-03T01:49:52Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه دایره K DevOps حادثه را به کمتر از 15 دقیقه با آمازون Bedrock تسریع کرد",
         "excerpt": "تیم شرکت Circle K’s DevOps از 45-60 دقیقه تا کمتر از 15 با ساخت یک سیستم سه گانه فعال در آمازون Bedrock، سه برابر شد. این پست از طریق معماری، پیاده سازی اولیه آمازون Bedrock، مهاجرت به Amazon Bedrock AgentCore و درس های آموخته شده از مقیاس آن است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T17:11:20Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ea66f5a34808c903",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Speeding up planning decisions with AI",
+      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "lang": "en",
+      "publishedAt": "2026-10-30T14:18:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T17:11:20Z",
+      "day": "2026-10-30",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "ea66f5a34808c903",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 78.6,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-03T01:49:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سرعت بخشیدن به تصمیمات برنامه ریزی با AI",
+        "excerpt": "گوگل DeepMind و دولت بریتانیا با هم کار می کنند تا زمان ارزیابی برنامه ریزی را کاهش دهند",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T17:11:20Z"
        }
