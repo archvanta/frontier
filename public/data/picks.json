@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-03T01:49:52Z",
+ "asOf": "2026-11-03T06:00:40Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,238 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-02T01:49:52Z",
-   "to": "2026-11-03T01:49:52Z",
+   "from": "2026-11-02T06:00:40Z",
+   "to": "2026-11-03T06:00:40Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "d4ac68d0af4ddbe5",
+      "url": "https://www.theguardian.com/technology/2026/nov/03/a-serious-failure-cps-prosecutor-cites-imaginary-case-to-high-court-after-ai-search",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘A serious failure’: CPS prosecutor cites imaginary case to high court after AI search",
+      "excerpt": "Exclusive: Nonexistent precedent cited in alleged child rape case adds to dozens of AI-related errors plaguing court proceedings A senior crown prosecutor acting in a high court case cited an imaginary legal precedent in an error that has sparked fresh concerns about AI hallucinations infecting the justice system. Ravinder Dhillon, representing the Crown Prosecution Service (CPS), referenced an…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T06:00:40Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-03",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "uk news",
+       "law",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/00c1de4ba03f6807582e6a7932fadc08aaf73c71/676_0_6659_5331/master/6659.jpg?width=700&quality=85&auto=format&fit=max&s=10c316a7af5a46a8c34d9ddbaf3f3d66",
+       "credit": "Photograph: Andy Rain/EPA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d4ac68d0af4ddbe5",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"شکست جدی\": دادستان CPS به پرونده های خیالی به دادگاه بالا پس از جستجوی AI اشاره می کند",
+        "excerpt": "منحصر به فرد: سابقه ای که در پرونده تجاوز به کودک ذکر شده است، به ده ها خطای مرتبط با AI اضافه می کند که در دادگاه یک دادستان ارشد تاج که در پرونده دادگاه عالی عمل می کند، یک سابقه قانونی خیالی را در خطایی که نگرانی های تازه ای در مورد توهمات هوش مصنوعی در آلوده کردن سیستم عدالت ایجاد کرده است. Ravinder Dhillon، نماینده خدمات دادستانی تاج (CPS)، اشاره به یک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "262cfa35f4308cc0",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "262cfa35f4308cc0",
+      "related": [],
+      "score": {
+       "total": 63.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 50.0,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
+        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a6e20d8d1eb18238",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
+      "lang": "en",
+      "publishedAt": "2026-11-03T04:18:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-03",
+      "category": "policy",
+      "tags": [
+       "artificial intelligence",
+       "app",
+       "the algorithm"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "a6e20d8d1eb18238",
+      "related": [],
+      "score": {
+       "total": 63.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 90.7,
+        "topic": 85.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "در اینجا کسی است که در راستای آزمون وفاداری \"هوش بالا\" ترامپ سقوط می کند.",
+        "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. در پایان ماه سپتامبر، رئیس جمهور ترامپ یک دستور اجرایی را امضا کرد که تنها یک دستورالعمل داشت و به سازمان های دولتی دستور داد تا آنچه را که هوش مصنوعی می نامند را دوباره به عنوان «هوش فوق العاده» معرفی کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4ed35bdfdb651ac6",
+      "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Google takes Dreambeans to India in bid to bring AI-generated personal stories to the masses",
+      "excerpt": "Google's Dreambeans, its latest AI experiment, now supports 13 Indian languages.",
+      "lang": "en",
+      "publishedAt": "2026-11-03T03:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-03",
+      "category": "research",
+      "tags": [
+       "ai",
+       "apps",
+       "android",
+       "google",
+       "ios",
+       "dreambeans"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "4ed35bdfdb651ac6",
+      "related": [],
+      "score": {
+       "total": 62.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 86.5,
+        "topic": 80.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گوگل در تلاش برای آوردن داستان های شخصی تولید شده AI به توده ها است",
+        "excerpt": "Dreambeans گوگل، آخرین آزمایش AI آن، اکنون از ۱۳ زبان هندی پشتیبانی می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "b91db1d100bf604d",
@@ -47,15 +275,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 62.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.1,
+        "recency": 55.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -63,6 +291,123 @@
         "excerpt": "از احیای هسته ای تا کیوبیت ها، کنفرانس تحقیقاتی سالانه MIT Energy Initiative، گسترش تکنولوژی های امروز را برای کشف پیشرفت های فردا ردیابی کرد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de4cf53f9db96311",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T15:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-02T23:54:48Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "engineering"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de4cf53f9db96311",
+      "related": [],
+      "score": {
+       "total": 62.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 43.2,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مقیاس پذیری Git در OpenAI",
+        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-02T23:54:48Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-27T06:00:40Z",
+   "to": "2026-11-03T06:00:40Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "262cfa35f4308cc0",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "262cfa35f4308cc0",
+      "related": [],
+      "score": {
+       "total": 71.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
+        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
        }
       }
      },
@@ -102,15 +447,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.1,
+        "recency": 87.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -122,301 +467,6 @@
       }
      },
      "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "050eb04e45a8ca80",
-      "url": "https://www.youtube.com/watch?v=Amm9ySSET4c",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Coinbase on OpenAI Private Intelligence",
-      "excerpt": "For Coinbase, putting frontier AI to work starts with control over its data. Every employee has access to the latest OpenAI models. In this video, Rob Witoff explains why security, guardrails, and zero data retention are central to that trust. As he puts it: “It’s still our data.” OpenAI Private Intelligence gives businesses stronger controls over their data while using our most capable models…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T16:59:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "safety",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/Amm9ySSET4c/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Amm9ySSET4c",
-       "url": "https://www.youtube.com/watch?v=Amm9ySSET4c"
-      },
-      "eventId": "050eb04e45a8ca80",
-      "related": [],
-      "score": {
-       "total": 63.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 60.0,
-        "topic": 90.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Coinbase در OpenAI Private Intelligence",
-        "excerpt": "برای Coinbase، قرار دادن AI مرزی برای کار با کنترل بر داده های آن آغاز می شود. هر کارمندی به آخرین مدل های OpenAI دسترسی دارد. در این ویدیو، راب ویتف توضیح می دهد که چرا امنیت، محافظان و حفظ اطلاعات صفر برای این اعتماد مهم هستند. همانطور که او می گوید: \"هنوز اطلاعات ما است.\"اطلاعات خصوصی OpenAI کنترل های قوی تری را بر روی داده های خود در حالی که با استفاده از بهترین مدل های ما ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8330bdd3be4d0a6b",
-      "url": "https://www.theguardian.com/technology/2026/nov/03/ai-powered-malware-artificial-intelligence-hacking-critical-uk-infrastructure",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI-powered malware ‘highly likely’ to be used to hack UK infrastructure by 2028",
-      "excerpt": "National Cyber Security Centre expects attacks on critical facilities such as power stations, airports and hospitals AI-powered malicious software is “highly likely” to be used in hacking attacks against the UK’s power stations, airports and hospitals by 2028, according to the state cybersecurity body. The National Cyber Security Centre (NCSC) said AI will probably enable a ransomware attack…",
-      "lang": "en",
-      "publishedAt": "2026-11-03T00:01:32Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T01:51:14Z",
-      "day": "2026-11-03",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "malware",
-       "uk news",
-       "computing",
-       "data and computer security"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/107178ded18463015d20aa92a1ff25a038c7ea31/0_0_4994_3996/master/4994.jpg?width=700&quality=85&auto=format&fit=max&s=f68a377b25c0ebad2ded4e420c7f6b6d",
-       "credit": "Photograph: Rounak Amini/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "8330bdd3be4d0a6b",
-      "related": [],
-      "score": {
-       "total": 63.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.1,
-        "topic": 85.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بدافزاری با قدرت هوش مصنوعی \"به احتمال زیاد\" برای هک زیرساخت های بریتانیا تا سال ۲۰۲۸ استفاده می شود.",
-        "excerpt": "مرکز امنیت سایبری ملی انتظار حمله به تاسیسات بحرانی مانند ایستگاه های برق، فرودگاه ها و بیمارستان های نرم افزار مخرب AI را دارد \"به احتمال زیاد\" در حملات هک شده علیه ایستگاه های برق بریتانیا، فرودگاه ها و بیمارستان ها توسط 2028، با توجه به وضعیت امنیت سایبری استفاده می شود. مرکز امنیت سایبری ملی (NCSC) گفت که AI احتمالا یک حمله باج افزار را فعال خواهد کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T01:51:14Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bdc0928c55ef85f1",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/sophie-ai-chatbot-betrayed-me",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I treated Sophie as if she was human. The very next day she betrayed me | Hugh Riminton",
-      "excerpt": "I was intrigued by the level of the new chatbot’s training. If I peppered her with questions, would she have answers? Sophie’s voice is lovely. Warm, direct, intelligent. She’s friendly but not obsequious. She just wants to be helpful. She wasn’t working at the mechanic business a week ago, when I’d taken in my old four-wheel drive for a fix-up. But now, here she was, at the other end of the…",
-      "lang": "en",
-      "publishedAt": "2026-11-02T23:00:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
-      "day": "2026-11-02",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "business",
-       "australia news"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/fedfbd4ddada97546c9ef9f41981fdb640056019/1577_0_3872_3100/master/3872.jpg?width=700&quality=85&auto=format&fit=max&s=cef19de29aeaa5c249323fb5b71a4d57",
-       "credit": "Photograph: Dmitrii Kotin/Alamy",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "bdc0928c55ef85f1",
-      "related": [],
-      "score": {
-       "total": 62.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 85.0,
-        "topic": 85.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "من با سوفی طوری رفتار کردم که انگار انسان است. روز بعد او به من خیانت کرد، هیو رانیتون",
-        "excerpt": "من مجذوب سطح آموزش chatbot جدید بودم. اگر من او را با پرسش ها گول زدم، آیا جواب می داد؟ صدای سوفی دوست داشتنی است. گرم، مستقیم، هوشمند او دوستانه است، اما نگران نیست. او فقط می خواهد مفید باشد. او هفته پیش در کسب و کار مکانیک کار نمی کرد، زمانی که من در چهار چرخ قدیمی خود برای تعمیر کار می کردم. اما حالا او در انتهای دیگر...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "968f14d53faf7f9a",
-      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "excerpt": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T01:49:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T01:51:14Z",
-      "day": "2026-11-03",
-      "category": "business",
-      "tags": [
-       "tc",
-       "ai",
-       "apple",
-       "earnings"
-      ],
-      "entities": [
-       "apple"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "968f14d53faf7f9a",
-      "related": [],
-      "score": {
-       "total": 61.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 55.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اپل ممکن است تلاش کند تا درآمد خود را با انجام ... چیزی با برنامه های AI شخص ثالث افزایش دهد",
-        "excerpt": "اپل به روش هایی اشاره کرد که می تواند درآمد را از طریق \"فرصت های\" شخص ثالث در طول تماس درآمد شبانه روز دوشنبه خود افزایش دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T01:51:14Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "weekly": {
-   "from": "2026-10-27T01:49:52Z",
-   "to": "2026-11-03T01:49:52Z",
-   "halfLifeHours": 72,
-   "picks": [
-    {
-     "article": {
-      "id": "de4cf53f9db96311",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Scaling Git at OpenAI",
-      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T23:54:48Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "engineering"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "de4cf53f9db96311",
-      "related": [],
-      "score": {
-       "total": 71.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.5,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مقیاس پذیری Git در OpenAI",
-        "excerpt": "چگونه OpenAI ساخت Pando، یک backend سازگار با Git برای مقیاس توسعه که Codex امکان پذیر می سازد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T23:54:48Z"
-       }
-      }
-     },
-     "rank": 1,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -452,15 +502,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 28.9,
+        "recency": 27.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -470,66 +520,11 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "19244c7aa2063fd3",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "global affairs"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "19244c7aa2063fd3",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.1,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی برنامه نظارت بر شبکه",
-        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -566,15 +561,15 @@
       "eventId": "050eb04e45a8ca80",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 88.2,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -626,15 +621,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 90.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -685,15 +680,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.0,
+        "recency": 88.4,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -745,15 +740,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.3,
+        "recency": 79.0,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -806,15 +801,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 88.9,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -836,8 +831,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-04T01:49:52Z",
-   "to": "2026-11-03T01:49:52Z",
+   "from": "2026-10-04T06:00:40Z",
+   "to": "2026-11-03T06:00:40Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -868,15 +863,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 78.8,
+       "total": 78.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 68.9,
+        "recency": 68.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -891,6 +886,61 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "262cfa35f4308cc0",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "excerpt": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-02T18:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-03T06:57:18Z",
+      "day": "2026-11-02",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "262cfa35f4308cc0",
+      "related": [],
+      "score": {
+       "total": 72.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.6,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-03T06:00:40Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آماده سازی سرعت امنیتی بعدی ما به هارد OpenAI",
+        "excerpt": "OpenAI در حال آماده سازی سرعت امنیتی داخلی بعدی خود با سیستم های جامع برای آزمایش و تقویت دفاع خود با استفاده از AI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-03T06:57:18Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -923,15 +973,15 @@
       "eventId": "de4cf53f9db96311",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 95.9,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -942,7 +992,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -978,15 +1028,15 @@
       "eventId": "ff138f709a7e7c37",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -994,61 +1044,6 @@
         "excerpt": "OpenAI Dan Driscoll را برای توصیه به AI مسئول برای مدرن سازی امنیت ملی، انعطاف پذیری سایبری و همکاری با متحدان ایالات متحده منصوب می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T01:51:14Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "19244c7aa2063fd3",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "excerpt": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "lang": "en",
-      "publishedAt": "2026-11-02T15:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-02T17:11:20Z",
-      "day": "2026-11-02",
-      "category": "models",
-      "tags": [
-       "global affairs"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "19244c7aa2063fd3",
-      "related": [],
-      "score": {
-       "total": 71.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.9,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-03T01:49:52Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی برنامه نظارت بر شبکه",
-        "excerpt": "برنامه حفاظت از شبکه OpenAI با خدمات برای کمک به آینده محاسبه دانشگاه ها از قابلیت اطمینان شبکه و محافظت از هزینه های برق مصرف کننده کار خواهد کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-02T17:11:20Z"
        }
       }
      },
@@ -1093,15 +1088,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -1153,15 +1148,15 @@
       "eventId": "624e23d0cdf0ab77",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 93.2,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -1212,15 +1207,15 @@
       "eventId": "195c284d0de53e7f",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 96.4,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -1273,15 +1268,15 @@
       "eventId": "1802721ebc5f02c3",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 96.5,
         "topic": 65.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -1331,15 +1326,15 @@
       "eventId": "7a5a1669ffe7a96b",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 96.3,
         "topic": 65.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
@@ -1385,15 +1380,15 @@
       "eventId": "ea66f5a34808c903",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.6,
+        "recency": 77.6,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-03T01:49:52Z"
+       "asOf": "2026-11-03T06:00:40Z"
       },
       "tr": {
        "fa": {
