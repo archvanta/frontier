@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-04T00:42:10Z",
+ "asOf": "2026-11-04T11:00:09Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-03T00:42:10Z",
-   "to": "2026-11-04T00:42:10Z",
+   "from": "2026-11-03T11:00:09Z",
+   "to": "2026-11-04T11:00:09Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "5665e1149d3eb73a",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/04/robot-dogs-ice-dimensional-warhound",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Very good boys? The dark, dystopian rise of robot dogs | Arwa Mahwadi",
+      "excerpt": "Pups that carry your shopping are one thing – but what about the mechanical canines being bought up in the US by ICE? Or the mutant mutts due to be developed by a startup called Warhound? Have you ever wanted to hang out with a dog with no fur, no face and a chip in its shoulder? If so, I suggest you head to San Francisco, where a startup called Dimensional has been paying people $20 (£15) an…",
+      "lang": "en",
+      "publishedAt": "2026-11-04T11:00:09Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T11:07:45Z",
+      "day": "2026-11-04",
+      "category": "hardware",
+      "tags": [
+       "robots",
+       "ai (artificial intelligence)",
+       "dogs",
+       "animals",
+       "weapons technology",
+       "computing"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/9451316afa717e7e930d55e644204330c05f53e0/579_0_5966_4773/master/5966.jpg?width=700&quality=85&auto=format&fit=max&s=8033a6cd944529fd4ebebbd0131aaf7f",
+       "credit": "Photograph: Heather Diehl/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "5665e1149d3eb73a",
+      "related": [],
+      "score": {
+       "total": 63.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-11-04T11:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بچه های خیلی خوب؟ ظهور تاریک و نارس سگ های ربات",
+        "excerpt": "Pups که خرید شما را حمل می کنند یک چیز است - اما در مورد کنسرو مکانیکی که در ایالات متحده توسط ICE خریداری می شود چه؟ یا جهش های جهش یافته به دلیل یک استارت آپ به نام وارزن ایجاد می شود؟ آیا تا به حال می خواستید با یک سگ بدون خز، هیچ صورت و یک تراشه در شانه اش آویزان شوید؟ اگر چنین است، پیشنهاد می کنم به سان فرانسیسکو بروید، جایی که یک استارت آپ به نام بعدال ۲۰ دلار (۱۵ پوند) را پرداخت کرده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T11:07:45Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "07cdeba3c4cd66ae",
@@ -46,18 +106,18 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 62.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.9,
+        "recency": 38.6,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -97,15 +157,15 @@
       "eventId": "d84f2d409b05d2bb",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 61.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.2,
+        "recency": 37.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -116,12 +176,130 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
       "first-report",
       "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7bf45a02fae15c18",
+      "url": "https://www.rockpapershotgun.com/nexus-mods-rule-out-barring-ai-generated-creations-from-their-site",
+      "sourceId": "rock-paper-shotgun",
+      "sourceName": "Rock Paper Shotgun",
+      "title": "\"An outright ban will not eliminate AI from the modding process,\" Nexus Mods say as they rule out barring generated creations from their site",
+      "excerpt": "The owners of Nexus Mods have ruled out instituting an outright ban on AI-generated works being uploaded the site, instead opting to expand their current rules on modders disclosing how they've used AI in making their mods. This latest move to address the waves of AI-created or AI-thumbnailed mods now hitting Nexus Mods on a daily basis follows Nexus' modus operandi up to this point, which has…",
+      "lang": "en",
+      "publishedAt": "2026-11-04T10:34:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T11:07:45Z",
+      "day": "2026-11-04",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "mods",
+       "nexusmods",
+       "pc"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://assetsio.gnwcdn.com/skyrim-blacksmith-sword-sharpening-01.jpg?width=690&quality=85&format=jpg&auto=webp",
+       "kind": "feed",
+       "sourceUrl": "https://www.rockpapershotgun.com/feed"
+      },
+      "eventId": "7bf45a02fae15c18",
+      "related": [],
+      "score": {
+       "total": 59.1,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 97.5,
+        "topic": 85.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-04T11:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"یک ممنوعیت آشکار AI را از فرآیند تعدیل حذف نمی کند\"، Nexus Mods می گوید که آنها بر ایجاد های تولید شده از سایت خود حکومت می کنند.",
+        "excerpt": "صاحبان Nexus Mods تصمیم گرفته اند که یک ممنوعیت کامل در مورد کارهای تولید شده توسط AI ایجاد کنند، در عوض تصمیم می گیرند قوانین فعلی خود را در modders گسترش دهند و مشخص کنند که چگونه از AI در ساخت روش های خود استفاده کرده اند. این آخرین حرکت برای پرداختن به امواج AI-maded یا AI-thumbnailed modndi که در حال حاضر به Nexus Modndi روزانه به دنبال اجرای Nexus’ modus اپراndi تا این مرحله است که ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T11:07:45Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "aac86e978a703974",
+      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+      "excerpt": "Starting in 2027, Google plans to turn off AI features in its school products by default, letting schools decide what to enable. The catch: schools that block AI entirely on their devices will also lose access to Google Search, since the two systems are now too deeply intertwined to separate. Given Google's grip on the US school market, that \"choice\" doesn't leave schools with much room to…",
+      "lang": "en",
+      "publishedAt": "2026-11-04T10:06:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T11:07:45Z",
+      "day": "2026-11-04",
+      "category": "models",
+      "tags": [
+       "ai and society",
+       "artificial intelligence",
+       "short news",
+       "ai and education",
+       "gemini",
+       "google"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/google_ai_schools.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "aac86e978a703974",
+      "related": [],
+      "score": {
+       "total": 58.9,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 95.0,
+        "topic": 100.0,
+        "novelty": 69.2
+       },
+       "asOf": "2026-11-04T11:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدارسی که AI گوگل را خاموش می کنند، جستجو را در سال 2027 از دست خواهند داد.",
+        "excerpt": "با شروع در سال 2027، گوگل قصد دارد تا ویژگی های هوش مصنوعی را به طور پیش فرض در محصولات مدرسه خود خاموش کند و به مدارس اجازه می دهد تصمیم بگیرند که چه چیزی را فعال کنند. نکته: مدارسی که AI را به طور کامل بر روی دستگاه های خود مسدود می کنند نیز دسترسی به جستجوی گوگل را از دست می دهند، زیرا دو سیستم در حال حاضر به طور عمیقی در هم تنیده شده اند. با توجه به تسلط گوگل در بازار مدرسه ایالات متحده، \"انتخاب\" مدارس را با فضای زیادی ترک نمی کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T11:07:45Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
      ]
     },
     {
@@ -157,15 +335,15 @@
       "eventId": "12feaf67ddae85b1",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 58.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.0,
+        "recency": 40.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -175,182 +353,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a55665cf48953af7",
-      "url": "https://huggingface.co/blog/allenai/statebench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "StateBench: Testing how language models track state changes over long documents",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-03T17:15:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/5g9HfQLFFaQE0fslWrxh0.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/statebench"
-      },
-      "eventId": "a55665cf48953af7",
-      "related": [],
-      "score": {
-       "total": 63.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 65.0,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-04T00:42:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "StateBench: تست اینکه چگونه مدل های زبان تغییرات دولتی را در اسناد طولانی پیگیری می کنند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "81baaaf3b2d16a22",
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Bring structured and unstructured data together with Amazon Quick",
-      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:49:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
-       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "81baaaf3b2d16a22",
-      "related": [],
-      "score": {
-       "total": 63.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 63.4,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-04T00:42:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
-        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d9931a8b95debc08",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI ‘godfather’ Geoffrey Hinton says it might turn out humans would have been better off without AI",
-      "excerpt": "Nobel winner who devised concept of neural network warns AI could be near to triggering major incident such as power or banking shutdown One of the “godfathers of AI”, Geoffrey Hinton, has said it could turn out that humans would have been better off never developing the technology as he warned it could trigger a large-scale incident this year or next such as a temporary blackout of financial or…",
-      "lang": "en",
-      "publishedAt": "2026-11-03T21:35:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T21:50:06Z",
-      "day": "2026-11-03",
-      "category": "policy",
-      "tags": [
-       "uk news",
-       "world news",
-       "technology",
-       "ai (artificial intelligence)",
-       "computing",
-       "openai"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=700&quality=85&auto=format&fit=max&s=a8a03db05630d7be73c7fc8cddc9dffd",
-       "credit": "Photograph: Ramón de la Rocha/EPA",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "d9931a8b95debc08",
-      "related": [],
-      "score": {
-       "total": 62.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 83.6,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-04T00:42:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جفری هانتون، پدر و مادر AI می گوید که ممکن است انسان ها را بدون هوش مصنوعی بهتر کند.",
-        "excerpt": "برنده نوبل که مفهوم شبکه عصبی را طراحی کرده است، هشدار می دهد که AI می تواند نزدیک به ایجاد یک حادثه بزرگ مانند خاموش کردن برق یا بانکداری یکی از \"پدران هوش مصنوعی\" باشد، جفری هانون، گفته است که می تواند به نظر برسد که انسان ها هرگز بهتر از توسعه تکنولوژی نیستند، زیرا او هشدار داد که می تواند یک حادثه بزرگ را در مقیاس بزرگ در سال جاری یا بعد به عنوان یک خاموشی موقت مالی یا ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T21:50:06Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -358,8 +364,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-28T00:42:10Z",
-   "to": "2026-11-04T00:42:10Z",
+   "from": "2026-10-28T11:00:09Z",
+   "to": "2026-11-04T11:00:09Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -394,15 +400,15 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 85.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       }
      },
      "rank": 1,
@@ -445,15 +451,15 @@
       "eventId": "d84f2d409b05d2bb",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 85.0,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -500,15 +506,15 @@
       "eventId": "26c6032e1d267765",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 80.1,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -560,15 +566,15 @@
       "eventId": "12feaf67ddae85b1",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 86.1,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -618,15 +624,15 @@
       "eventId": "81baaaf3b2d16a22",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.7,
+        "recency": 83.9,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -672,15 +678,15 @@
       "eventId": "a55665cf48953af7",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 84.3,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -725,15 +731,15 @@
       "eventId": "bc4177032a04e266",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 83.8,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -778,15 +784,15 @@
       "eventId": "adafdd4764cb9dbb",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -808,8 +814,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-05T00:42:10Z",
-   "to": "2026-11-04T00:42:10Z",
+   "from": "2026-10-05T11:00:09Z",
+   "to": "2026-11-04T11:00:09Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -840,15 +846,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 77.9,
+       "total": 77.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 64.5,
+        "recency": 62.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -899,15 +905,15 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 74.6,
+       "total": 74.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 95.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       }
      },
      "rank": 2,
@@ -950,15 +956,15 @@
       "eventId": "d84f2d409b05d2bb",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 95.2,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1003,15 +1009,15 @@
       "eventId": "08b710f1e7801fa8",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 92.5,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1063,15 +1069,15 @@
       "eventId": "12feaf67ddae85b1",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 95.6,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1121,15 +1127,15 @@
       "eventId": "81baaaf3b2d16a22",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 94.9,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1175,15 +1181,15 @@
       "eventId": "a55665cf48953af7",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 95.0,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1228,15 +1234,15 @@
       "eventId": "bc4177032a04e266",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 94.8,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1287,15 +1293,15 @@
       "eventId": "b91db1d100bf604d",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.0,
+        "recency": 89.3,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1341,15 +1347,15 @@
       "eventId": "adafdd4764cb9dbb",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 94.9,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-04T00:42:10Z"
+       "asOf": "2026-11-04T11:00:09Z"
       },
       "tr": {
        "fa": {
