@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-04T18:46:36Z",
+ "asOf": "2026-11-05T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-03T18:46:36Z",
-   "to": "2026-11-04T18:46:36Z",
+   "from": "2026-11-04T00:00:00Z",
+   "to": "2026-11-05T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 68.5,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -105,15 +105,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 71.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -134,53 +134,60 @@
     },
     {
      "article": {
-      "id": "5afc49da7bd40515",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "excerpt": "",
+      "id": "9d87aa0d657497bd",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/victoria-election-2026-ai-generated-video-ads-ntwnfb",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
+      "excerpt": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had…",
       "lang": "en",
-      "publishedAt": "2026-11-04T17:50:10Z",
+      "publishedAt": "2026-11-04T23:00:46Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
+      "fetchedAt": "2026-11-05T00:25:02Z",
       "day": "2026-11-04",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
+      "category": "policy",
+      "tags": [
+       "victoria state election 2026",
+       "ai (artificial intelligence)",
+       "victorian politics",
+       "labor party",
+       "liberal party",
+       "australian politics"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+       "url": "https://i.guim.co.uk/img/media/98bda4ace9417a01039105abd323a4d517ff1463/0_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=21a697b6867c105c3ca2d5869b8782ac",
+       "credit": "Computer-generated: Victorian Labor/Instagram",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "5afc49da7bd40515",
+      "eventId": "9d87aa0d657497bd",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 65.1,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.7,
-        "topic": 75.0,
-        "novelty": 92.9
+        "recency": 94.5,
+        "topic": 85.0,
+        "novelty": 94.1
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Dharma Field Extractor: Any Document in، Structured Fields در JSON Out",
+        "title": "کمپین های مراقبتی: تجارت احزاب بزرگ ویکتوریا بر فیلم های تولید شده از رهبران در تبلیغات انتخاباتی ضربه می زند",
+        "excerpt": "کارشناسان شفافیت و تبلیغات می گویند اعتماد به سیاست می تواند به دلیل \"دروغ ها، عمیق و سیاستمداران تولید شده AI\" بیشتر از بین برود و ایمیل سیاسی روزانه ما، برنامه رایگان یا پادکست اخبار روزانه را دریافت کند که شب هالووین و جسی ویلسون در رسانه های اجتماعی با هشدار در مورد چشم انداز ترسناک ظاهر شده است: \"درمان آمریکایی\" تحت یک دولت لیبرال آینده. «اگر شما...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T00:25:02Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -215,15 +222,15 @@
        "32791f69eb2c329e"
       ],
       "score": {
-       "total": 69.0,
+       "total": 65.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 75.0,
-        "recency": 75.9,
+        "recency": 56.2,
         "topic": 85.0,
         "novelty": 42.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -244,50 +251,44 @@
     },
     {
      "article": {
-      "id": "5dcd8c391f4dae8c",
-      "url": "https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Smart Approvals in Amazon Quick: Human oversight where it matters",
-      "excerpt": "Smart Approvals in Amazon Quick reviews eligible agent actions within your existing controls, reducing unnecessary approval prompts while keeping consequential decisions with a person. See how policy sets the boundary, how a classifier reviews actions, and how AWS CloudTrail and Amazon CloudWatch Logs support audit.",
+      "id": "5afc49da7bd40515",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-04T16:33:03Z",
+      "publishedAt": "2026-11-04T17:50:10Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-04T18:41:20Z",
       "day": "2026-11-04",
-      "category": "policy",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "thought leadership"
-      ],
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22232-1.png",
-       "alt": "Existing controls route proposed actions to required user approval, Smart Approvals review, or a policy block. Smart Approvals may approve an eligible action for its exact parameters or return it to t",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
       },
-      "eventId": "5dcd8c391f4dae8c",
+      "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.9,
-        "topic": 85.0,
-        "novelty": 83.3
+        "recency": 70.0,
+        "topic": 75.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تایید هوشمند در آمازون سریع: نظارت انسانی که در آن مهم است",
-        "excerpt": "تایید های هوشمند در آمازون سریع بررسی اقدامات عامل واجد شرایط در کنترل های موجود خود، کاهش موارد تایید غیر ضروری در حالی که نگه داشتن تصمیمات نهایی با یک فرد. ببینید که چگونه سیاست مرز را تنظیم می کند، چگونه یک اقدام بررسی طبقاتی و چگونه AWS CloudTrail و Amazon CloudWatch از حسابرسی پشتیبانی می کنند.",
+        "title": "Dharma Field Extractor: Any Document in، Structured Fields در JSON Out",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-04T18:41:20Z"
        }
@@ -303,58 +304,62 @@
     },
     {
      "article": {
-      "id": "2240c970935398d5",
-      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
-      "excerpt": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.",
+      "id": "b6ceabf91c49350f",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "excerpt": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide",
       "lang": "en",
-      "publishedAt": "2026-11-04T16:30:40Z",
+      "publishedAt": "2026-11-04T20:23:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
+      "fetchedAt": "2026-11-05T00:25:02Z",
       "day": "2026-11-04",
-      "category": "open-source",
+      "category": "models",
       "tags": [
-       "advanced (300)",
-       "amazon bedrock agentcore",
-       "strands agents",
-       "technical how-to"
+       "ai",
+       "at&t",
+       "google",
+       "mobile",
+       "smart home",
+       "tech"
       ],
       "entities": [
-       "amazon"
+       "google"
       ],
-      "brand": null,
+      "brand": "gemini",
       "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An image of AT&T’s Connected Life security system",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "2240c970935398d5",
+      "eventId": "b6ceabf91c49350f",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 64.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.7,
-        "topic": 75.0,
-        "novelty": 87.5
+        "recency": 81.2,
+        "topic": 100.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چهار لایه مهندسی زمینه برای تولید عوامل هوش مصنوعی: چگونه بینش عمیق آنها را در کد کار می کند",
-        "excerpt": "در تولید عوامل AI، مدیریت زمینه تنگنا واقعی است. این پست یک چارچوب مهندسی زمینه چهار لایه (معماری، ماشه، ابزار مبتنی بر فایل و عوامل تأیید) را ارائه می دهد که در کد کار از Deep Insight، یک راه حل تجزیه و تحلیل داده چند عامل منبع باز در Strands Agents SDK و Amazon Bedrock Agent اجرا شده است.",
+        "title": "Gemini for Home در حال حاضر به سیستم امنیتی هوشمند AT&T متصل می شود",
+        "excerpt": "سیستم امنیتی خانه هوشمند AT&T در حال حاضر با Gemini برای خانه ادغام می شود. این شرکت می گوید که سیستم زندگی متصل آن “اولین” محصول امنیتی خانگی است که با Google Home Premium ادغام می شود و مجموعه ای از ویژگی های Gemini را قادر می سازد تا رویدادهای خانه را خلاصه کند، تاریخچه ویدیو شما و موارد دیگر را جستجو کند. با به روز رسانی، Gemini for Home می تواند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T00:25:02Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -362,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-28T18:46:36Z",
-   "to": "2026-11-04T18:46:36Z",
+   "from": "2026-10-29T00:00:00Z",
+   "to": "2026-11-05T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +403,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 93.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -455,15 +460,15 @@
        "32791f69eb2c329e"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 75.0,
-        "recency": 95.5,
+        "recency": 90.8,
         "topic": 85.0,
         "novelty": 42.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -479,7 +484,62 @@
      "reason": [
       "tier-3",
       "voices-3",
-      "top-factor-recency"
+      "top-factor-corroboration"
+     ]
+    },
+    {
+     "article": {
+      "id": "a4f4c423c5426033",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "A thousand fewer paths to root",
+      "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "lang": "en",
+      "publishedAt": "2026-11-04T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T00:25:02Z",
+      "day": "2026-11-04",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "a4f4c423c5426033",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 85.7,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-05T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هزار راه کمتر برای ریشه کردن",
+        "excerpt": "OpenAI ساخت یک خط لوله مستقل است که کشف شده، معتبر و ایجاد پچ برای 948 آسیب پذیری محلی امتیاز در هسته لینوکس.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T00:25:02Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
      ]
     },
     {
@@ -514,15 +574,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 94.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -531,57 +591,6 @@
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-04T18:41:20Z"
        }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "07cdeba3c4cd66ae",
-      "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "TamaGPT",
-      "excerpt": "You don't need to be an engineer to make hardware. Want to make something physical? Let GPT-6 Astra help you bring it to life.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T18:30:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T21:50:06Z",
-      "day": "2026-11-03",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/NCxD-qsQcN0/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "NCxD-qsQcN0",
-       "url": "https://www.youtube.com/watch?v=NCxD-qsQcN0"
-      },
-      "eventId": "07cdeba3c4cd66ae",
-      "related": [],
-      "score": {
-       "total": 70.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 79.2,
-        "topic": 100.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-04T18:46:36Z"
       }
      },
      "rank": 4,
@@ -624,15 +633,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 93.1,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -678,15 +687,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 94.2,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -735,15 +744,15 @@
       "eventId": "2240c970935398d5",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.8,
+        "recency": 93.0,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -764,59 +773,62 @@
     },
     {
      "article": {
-      "id": "12feaf67ddae85b1",
-      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Building connections across the research infrastructure",
-      "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
+      "id": "b6ceabf91c49350f",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "excerpt": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide",
       "lang": "en",
-      "publishedAt": "2026-11-03T19:30:00Z",
+      "publishedAt": "2026-11-04T20:23:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-03T21:50:06Z",
-      "day": "2026-11-03",
-      "category": "research",
+      "fetchedAt": "2026-11-05T00:25:02Z",
+      "day": "2026-11-04",
+      "category": "models",
       "tags": [
-       "special events and guest speakers",
-       "nanoscience and nanotechnology",
-       "collaboration",
-       "facilities",
-       "electronics",
-       "microscopy"
+       "ai",
+       "at&t",
+       "google",
+       "mobile",
+       "smart home",
+       "tech"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
-       "credit": "Photo: Dave Terry/MIT.nano",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An image of AT&T’s Connected Life security system",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "12feaf67ddae85b1",
+      "eventId": "b6ceabf91c49350f",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 67.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.9,
-        "topic": 80.0,
-        "novelty": 85.7
+        "recency": 96.6,
+        "topic": 100.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
+        "title": "Gemini for Home در حال حاضر به سیستم امنیتی هوشمند AT&T متصل می شود",
+        "excerpt": "سیستم امنیتی خانه هوشمند AT&T در حال حاضر با Gemini برای خانه ادغام می شود. این شرکت می گوید که سیستم زندگی متصل آن “اولین” محصول امنیتی خانگی است که با Google Home Premium ادغام می شود و مجموعه ای از ویژگی های Gemini را قادر می سازد تا رویدادهای خانه را خلاصه کند، تاریخچه ویدیو شما و موارد دیگر را جستجو کند. با به روز رسانی، Gemini for Home می تواند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T21:50:06Z"
+        "at": "2026-11-05T00:25:02Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -824,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-05T18:46:36Z",
-   "to": "2026-11-04T18:46:36Z",
+   "from": "2026-10-06T00:00:00Z",
+   "to": "2026-11-05T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -862,15 +874,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 77.7,
+       "total": 77.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 82.0,
+        "recency": 80.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -918,15 +930,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 77.2,
+       "total": 77.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 61.2,
+        "recency": 60.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -977,15 +989,15 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 91.8,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       }
      },
      "rank": 3,
@@ -1028,15 +1040,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.1,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1087,15 +1099,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 98.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1146,15 +1158,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 97.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1200,15 +1212,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.2,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1257,15 +1269,15 @@
       "eventId": "2240c970935398d5",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 97.9,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1317,15 +1329,15 @@
       "eventId": "12feaf67ddae85b1",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 92.1,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1375,15 +1387,15 @@
       "eventId": "81baaaf3b2d16a22",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-04T18:46:36Z"
+       "asOf": "2026-11-05T00:00:00Z"
       },
       "tr": {
        "fa": {
