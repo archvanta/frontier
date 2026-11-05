@@ -2,8 +2,92 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 135,
+ "total": 137,
  "articles": [
+  {
+   "id": "f987c08b0331cb48",
+   "url": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+   "excerpt": "Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.",
+   "lang": "en",
+   "publishedAt": "2026-11-05T21:04:24Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-05T22:24:22Z",
+   "day": "2026-11-05",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "amazon bedrock agentcore",
+    "intermediate (200)",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22248-1.png",
+    "alt": "Architecture diagram of a Web Answer request: an agent calls the Gateway, which authenticates the request and invokes the Web Answer connector, which plans and runs parallel web searches, verifies fac",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22248/web_answer_storylane_demo_video.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "f987c08b0331cb48",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "شروع کار با Web Answer در Amazon Bedrock Agent",
+     "excerpt": "پاسخ وب در Amazon Bedrock AgentCore یک پاسخ سنتز شده، منبع به یک سوال زبان طبیعی در یک تماس ابزار، بدون جستجو، بازیابی، سنتز و انتقال خط لوله برای ساخت است. یاد بگیرید که چگونه کار می کند و چگونه آن را به یک دروازه AgentCore اضافه کنید و آن را از یک نماینده صدا کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-05T22:24:22Z"
+    }
+   }
+  },
+  {
+   "id": "80b8f077bc42c9db",
+   "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+   "sourceId": "openai-youtube",
+   "sourceName": "OpenAI (YouTube)",
+   "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+   "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+   "lang": "en",
+   "publishedAt": "2026-11-05T17:14:11Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-05T22:24:22Z",
+   "day": "2026-11-05",
+   "category": "models",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "pXRZyOxbDL4",
+    "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+   },
+   "eventId": "80b8f077bc42c9db",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+     "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-05T22:24:22Z"
+    }
+   }
+  },
   {
    "id": "477cff6d6b4c7941",
    "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk",
@@ -2293,84 +2377,6 @@
      "excerpt": "این یک پیش نیاز برای ایمن ماندن است که شما باید از AI استفاده کنید.» مدافعان نیاز به کنترل های امنیتی دارند که می توانند به سرعت سازگار شوند. Jeetu Patel، رئیس سیسکو، توضیح می دهد که چرا OpenAI در حال تبدیل شدن به یک پایه اصلی برای این کار است. با قابلیت هایی مانند Daybreak و Astra، سیسکو فرصتی برای ایجاد کنترل های امنیتی و سیاست های پویا و تقویت ...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-27T13:20:04Z"
-    }
-   }
-  },
-  {
-   "id": "cc1ea9dac4db855c",
-   "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU",
-   "sourceId": "nvidia-youtube",
-   "sourceName": "NVIDIA (YouTube)",
-   "title": "AI in France: From NVIDIA’s First Chip to AI Factories | NVIDIA",
-   "excerpt": "France helped bring NVIDIA’s first chip to life. More than 30 years later, its developers, researchers, and companies are using NVIDIA accelerated computing to advance industrial design, healthcare, and open AI models—and building AI factories to support what comes next. 🔗 European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations →…",
-   "lang": "en",
-   "publishedAt": "2026-10-26T23:43:23Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-27T00:07:10Z",
-   "day": "2026-10-26",
-   "category": "hardware",
-   "tags": [],
-   "entities": [
-    "nvidia"
-   ],
-   "brand": null,
-   "image": {
-    "url": "https://i1.ytimg.com/vi/dmbT2IHpOKU/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "dmbT2IHpOKU",
-    "url": "https://www.youtube.com/watch?v=dmbT2IHpOKU"
-   },
-   "eventId": "cc1ea9dac4db855c",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "هوش مصنوعی در فرانسه: از اولین چیپ NVIDIA گرفته تا فاکتورهای AI",
-     "excerpt": "فرانسه به اولین تراشه NVIDIA در زندگی کمک کرد. بیش از 30 سال بعد، توسعه دهندگان، محققان و شرکت ها از محاسبات شتاب یافته NVIDIA برای پیشبرد طراحی صنعتی، مراقبت های بهداشتی و مدل های AI باز استفاده می کنند و کارخانه های AI را برای حمایت از آنچه که در آینده می آید، ایجاد می کنند.",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-27T00:07:10Z"
-    }
-   }
-  },
-  {
-   "id": "afe12645665b5b02",
-   "url": "https://www.youtube.com/watch?v=zUybw-9ejZ4",
-   "sourceId": "openai-youtube",
-   "sourceName": "OpenAI (YouTube)",
-   "title": "Amp puts AI agents to work beyond code with OpenAI models",
-   "excerpt": "Amp is building an AI agent that helps developers turn ideas into working software, from deciding what to build to writing code to onboarding customers. Sign in with ChatGPT gives Amp users access to more tokens for larger tasks, while Amp's conversational assistant, Puck, uses GPT‑Live‑1 to help users launch and manage agents by voice. Internally, the company’s 20-person team uses GPT‑6 Astra…",
-   "lang": "en",
-   "publishedAt": "2026-10-26T22:03:54Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-27T00:07:10Z",
-   "day": "2026-10-26",
-   "category": "products",
-   "tags": [],
-   "entities": [
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://i3.ytimg.com/vi/zUybw-9ejZ4/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "zUybw-9ejZ4",
-    "url": "https://www.youtube.com/watch?v=zUybw-9ejZ4"
-   },
-   "eventId": "afe12645665b5b02",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "AMP عامل های AI را برای کار فراتر از کد با مدل های OpenAI",
-     "excerpt": "AMP یک عامل AI است که به توسعه دهندگان کمک می کند تا ایده ها را به نرم افزار کار تبدیل کنند، از تصمیم گیری برای ساخت کد به مشتریان. ثبت نام در ChatGPT به کاربران AMP امکان دسترسی به توکن های بیشتر برای وظایف بزرگتر را می دهد، در حالی که دستیار محاوره ای AMP، Puck، از GPT-Live-1 برای کمک به کاربران برای راه اندازی و مدیریت عوامل توسط صدا استفاده می کند. در داخل، تیم 20 نفره شرکت از GPT-6 Astra استفاده می کند.",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-27T00:07:10Z"
     }
    }
   }
