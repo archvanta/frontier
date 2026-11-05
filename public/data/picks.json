@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-05T21:40:36Z",
+ "asOf": "2026-11-05T22:40:55Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-04T21:40:36Z",
-   "to": "2026-11-05T21:40:36Z",
+   "from": "2026-11-04T22:40:55Z",
+   "to": "2026-11-05T22:40:55Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.4,
+        "recency": 73.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -66,65 +66,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5e845585dbaf7b01",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
-      "excerpt": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T18:06:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "amazon sagemaker ai",
-       "best practices",
-       "expert (400)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-20598-1.png",
-       "alt": "Block diagram of the VLM-based multi-model fusion approach with VLM, OCR, and classifier components",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "5e845585dbaf7b01",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.4,
-        "topic": 100.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-05T21:40:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه بازار آمازون کیفیت محتوا را با آمازون SageMaker AI ارزیابی می کند",
-        "excerpt": "یاد بگیرید که چگونه بازار آمازون کیفیت محتوای A + را در مقیاس در آمازون SageMaker AI ارزیابی می کند با ارائه هر صفحه محصول به عنوان یک عکس فوری، به دست آوردن آن با یک مدل بصری زبان با سیگنال های خوانایی OCR در یک کلاس CatBoost و استفاده از SHAP برای تبدیل هر تصمیم به اولویت بندی، توصیه های عملی برای فروش شرکای.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -165,20 +106,79 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 69.5,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.3,
+        "recency": 72.0,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
         "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5e845585dbaf7b01",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
+      "excerpt": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T18:06:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "amazon sagemaker ai",
+       "best practices",
+       "expert (400)"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-20598-1.png",
+       "alt": "Block diagram of the VLM-based multi-model fusion approach with VLM, OCR, and classifier components",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "5e845585dbaf7b01",
+      "related": [],
+      "score": {
+       "total": 68.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 76.8,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-05T22:40:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه بازار آمازون کیفیت محتوا را با آمازون SageMaker AI ارزیابی می کند",
+        "excerpt": "یاد بگیرید که چگونه بازار آمازون کیفیت محتوای A + را در مقیاس در آمازون SageMaker AI ارزیابی می کند با ارائه هر صفحه محصول به عنوان یک عکس فوری، به دست آوردن آن با یک مدل بصری زبان با سیگنال های خوانایی OCR در یک کلاس CatBoost و استفاده از SHAP برای تبدیل هر تصمیم به اولویت بندی، توصیه های عملی برای فروش شرکای.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
        }
@@ -226,15 +226,15 @@
       "eventId": "7eab5dddcfa7727d",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 85.7,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -281,15 +281,15 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 83.6,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -345,15 +345,15 @@
       "eventId": "f987c08b0331cb48",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 91.1,
         "topic": 65.0,
         "novelty": 70.0
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -375,8 +375,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-29T21:40:36Z",
-   "to": "2026-11-05T21:40:36Z",
+   "from": "2026-10-29T22:40:55Z",
+   "to": "2026-11-05T22:40:55Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -412,15 +412,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -471,15 +471,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -530,15 +530,15 @@
       "eventId": "5e845585dbaf7b01",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.7,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -587,15 +587,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 93.8,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +648,15 @@
       "eventId": "7eab5dddcfa7727d",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.5,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -671,6 +671,68 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0dbf0226aa90a12c",
+      "related": [
+       "32791f69eb2c329e",
+       "998ff01b393f5b93"
+      ],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 39.4,
+        "topic": 70.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-05T22:40:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T23:40:44Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -703,15 +765,15 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 97.1,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -721,74 +783,11 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
       "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "32791f69eb2c329e",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
-      "excerpt": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing",
-      "lang": "en",
-      "publishedAt": "2026-11-03T15:00:44Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "openai",
-       "report",
-       "tech"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Stargate AI data center “compute campus” in Abilene, Texas.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "0dbf0226aa90a12c",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 59.1,
-        "topic": 70.0,
-        "novelty": 40.9
-       },
-       "asOf": "2026-11-05T21:40:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI به آرامی مراکز داده های \"دانشگاه های داخلی\" را دوباره نام گذاری می کند.",
-        "excerpt": "مردم از مراکز داده نفرت دارند. آن ها با صدای بلند، چشم انداز منابعی هستند که به شدت بی اهمیت هستند و توانسته اند به چشم انداز سیاسی قطبی امروز دست یابند: مخالفت واقعی دو حزبی. اما در مورد \"دانشگاه های دانشگاهی\" چه؟ این صدا دوست داشتنی است، درست است؟ به نظر می رسد OpenAI قمار است که یک برند آرام می تواند تمام چیزی باشد که برای کاهش رشد آن لازم است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "top-factor-reliability"
      ]
     },
@@ -831,15 +830,15 @@
       "eventId": "477cff6d6b4c7941",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 93.8,
         "topic": 75.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -861,8 +860,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-06T21:40:36Z",
-   "to": "2026-11-05T21:40:36Z",
+   "from": "2026-10-06T22:40:55Z",
+   "to": "2026-11-05T22:40:55Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -903,11 +902,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 75.8,
+        "recency": 75.6,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -959,11 +958,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 56.7,
+        "recency": 56.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1019,11 +1018,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1078,11 +1077,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1129,15 +1128,15 @@
       "eventId": "53c56afbaf05f856",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 96.1,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1186,15 +1185,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 98.1,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1246,15 +1245,15 @@
       "eventId": "16de4ca3c25d3eed",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 95.0,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1311,11 +1310,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 99.2,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
@@ -1327,6 +1326,65 @@
       }
      },
      "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d8fa341b96c36837",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "excerpt": "Data Mining & Modeling",
+      "lang": "en",
+      "publishedAt": "2026-11-04T18:07:05Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T18:41:20Z",
+      "day": "2026-11-04",
+      "category": "research",
+      "tags": [
+       "data mining & modeling",
+       "generative ai",
+       "human-computer interaction and visualiza",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "d8fa341b96c36837",
+      "related": [],
+      "score": {
+       "total": 69.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.1,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-05T22:40:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Agile Deliberation: چگونه AI به انسان کمک می کند تا مناطق خاکستری را تعریف کند",
+        "excerpt": "استخراج داده ها و مدل سازی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T18:41:20Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1362,87 +1420,21 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 99.1,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T21:40:36Z"
+       "asOf": "2026-11-05T22:40:55Z"
       },
       "tr": {
        "fa": {
         "title": "مدل های جدید NVIDIA Cosmos 3 Open Models for Interactive World شبیه سازی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "477cff6d6b4c7941",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "excerpt": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:00:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "open-source",
-      "tags": [
-       "ai",
-       "nvidia life",
-       "agentic ai",
-       "nemotron",
-       "nemotron labs",
-       "open source"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Chris-Alexiuk_portrait-scaled.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "file",
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ChrisAlexiuk_captions_9MB.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "477cff6d6b4c7941",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 75.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-05T21:40:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جادوگر وزن باز: کریس الکسیوک AI را با مدل های باز آسان می کند",
-        "excerpt": "کریس الکسوک یک قاعده ساده در مورد AI منبع باز دارد: اگر به آن اعتقاد دارید، در مورد آن با صدای بلند باشید. \"ما باید در مورد این تکنولوژی از پشت بام ها فریاد بزنیم\"، الکسیوک، مهندس ارشد تحقیقات محصول تورنتو در یادگیری عمیق در NVIDIA که متخصص در ساخت مدل های زبان بزرگ باز (LLMs) برای توسعه دهندگان کار است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
        }
       }
      },
