@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-05T06:00:00Z",
+ "asOf": "2026-11-05T15:19:05Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-04T06:00:00Z",
-   "to": "2026-11-05T06:00:00Z",
+   "from": "2026-11-04T15:19:05Z",
+   "to": "2026-11-05T15:19:05Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "56c190950731d79b",
+      "url": "https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "The hidden supply chain costs of the AI boom",
+      "excerpt": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world through",
+      "lang": "en",
+      "publishedAt": "2026-11-05T15:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "products",
+      "tags": [
+       "ai",
+       "business",
+       "decoder",
+       "podcasts",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24792604/The_Verge_Decoder_Tileart.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "56c190950731d79b",
+      "related": [],
+      "score": {
+       "total": 62.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.2,
+        "topic": 65.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-05T15:19:05Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هزینه های زنجیره تامین پنهان رونق AI",
+        "excerpt": "امروز من با Willy Shih، اقتصاددان، استاد مدیریت در مدرسه کسب و کار هاروارد و نویسنده کتاب آینده صحبت می کنم، که آیا داستان من از کجا می آید؟ اقتصاد قدرتمند پشت زنجیره تامین جهانی Willy یکی از مهمان های محبوب Decoder من است - راه او برای نگاه به جهان از طریق",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T15:51:17Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "16de4ca3c25d3eed",
@@ -47,15 +105,15 @@
       "eventId": "16de4ca3c25d3eed",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 62.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 55.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +124,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -76,56 +134,54 @@
     },
     {
      "article": {
-      "id": "9e0176657cd228bd",
-      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
-      "excerpt": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a…",
+      "id": "f8f8c085e2e5be1c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+      "excerpt": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership, SoundCloud Artist Pro subscribers are also getting three months",
       "lang": "en",
-      "publishedAt": "2026-11-05T05:00:55Z",
+      "publishedAt": "2026-11-05T15:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T07:27:39Z",
+      "fetchedAt": "2026-11-05T15:51:17Z",
       "day": "2026-11-05",
-      "category": "policy",
+      "category": "business",
       "tags": [
-       "critical minerals",
-       "mining",
-       "china",
-       "defence policy",
-       "ai (artificial intelligence)"
+       "ai",
+       "entertainment",
+       "music",
+       "news"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=495648946ecf1dd1d75fca260951b1b1",
-       "credit": "Photograph: Dado Ruvić/Reuters",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-1083228772.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "9e0176657cd228bd",
+      "eventId": "f8f8c085e2e5be1c",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 61.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.5,
-        "topic": 85.0,
-        "novelty": 93.3
+        "recency": 98.2,
+        "topic": 55.0,
+        "novelty": 100.0
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "انگلستان متوجه شده است که به طور خطرناک به چین برای مواد معدنی حیاتی مورد نیاز برای دفاع و AI وابسته است.",
-        "excerpt": "تحویل صفر خالص نیز در معرض خطر است، نمایندگان مجلس را به عنوان آنها خواستار سیاست متمرکز و بودجه برای معادن و تنوع معادن هستند، انگلستان \"خطرناک\" وابسته به چین برای مواد خام مهم مورد نیاز برای زیرساخت های انرژی تجدید پذیر و AI، یک تحقیق پارلمانی پیدا کرده است. نمایندگان کمیته انتخاب کسب و کار خواستار یک سیاست متمرکز فوری و ایجاد یک ...",
+        "title": "شما می توانید موسیقی AI را مستقیما به SoundCloud از 11Labs ارسال کنید.",
+        "excerpt": "پس از همکاری با موس در اوایل سال جاری، SoundCloud در حال حاضر ادغام با دیگر پلت فرم موسیقی AI، 11Labs است. در حال حاضر، به جای اینکه مجبور به صادرات و دانلود خروجی های خود از 11Labs شوید و سپس آنها را به SoundCloud آپلود کنید، می توانید آنها را به طور مستقیم منتشر کنید. به عنوان بخشی از مشارکت، مشترکین SoundCloud Artist Pro نیز سه ماه طول می کشد",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T07:27:39Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -135,228 +191,176 @@
     },
     {
      "article": {
-      "id": "166d08d878bab569",
-      "url": "https://www.youtube.com/watch?v=44GBqQGc-v0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
-      "excerpt": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver…",
+      "id": "43dcc0a8895d293f",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/ai-datacentre-boom-could-be-political-kryptonite-australia",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Australians are yet to see the benefits of AI and datacentres – and US midterms show they could be political kryptonite",
+      "excerpt": "Albanese should tread carefully as he struggles to make case for how the new technology will benefit ordinary voters Get our daily political email, free app or daily news podcast When will Australia see the benefits of the AI and datacentre boom? So far, all we’ve seen is the possibility of changes to copyright which would hurt Australian creatives, special rules about power and water use, and…",
       "lang": "en",
-      "publishedAt": "2026-11-04T17:27:07Z",
+      "publishedAt": "2026-11-05T14:00:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "hardware",
+      "tags": [
+       "datacentres - australia",
+       "ai (artificial intelligence)",
+       "technology",
+       "australia news",
+       "anthony albanese",
+       "australian economy"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/44GBqQGc-v0/hqdefault.jpg",
+       "url": "https://i.guim.co.uk/img/media/f237f8c427d9aa7bac910c3b553c853bfe1d3aa4/42_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=2a65d8f8dc62ff54220b6771d60b1064",
+       "credit": "Photograph: Hollie Adams/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "44GBqQGc-v0",
-       "url": "https://www.youtube.com/watch?v=44GBqQGc-v0"
-      },
-      "eventId": "166d08d878bab569",
+      "eventId": "43dcc0a8895d293f",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 61.9,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 48.4,
-        "topic": 100.0,
-        "novelty": 85.7
+        "recency": 92.7,
+        "topic": 70.0,
+        "novelty": 88.2
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه فیما ساخت Self-Serve Analytics با OpenAI",
-        "excerpt": "بازاریابان نباید منتظر یک داشبورد جدید باشند تا درک کنند که چگونه یک کمپین در حال انجام است. در یک خلبان اولیه با OpenAI، فیما در حال ساخت زمینه مشترک است که به بازاریابان کمک می کند تا از چگونگی فرود کمپین ها و اینکه آیا آنها مشتریان را تبدیل می کنند، سوال کنند. تیم ها می توانند زودتر بینش های مفیدی دریافت کنند، بدون اینکه منتظر کسی برای ساخت داشبورد یا متریک باشند. OpenAI توانایی ارائه ...",
+        "title": "استرالیایی ها هنوز مزایای هوش مصنوعی و دیتامحور را نمی بینند و اواسط دهه ی ایالات متحده نشان می دهد که می توانند از نظر سیاسی Kryptonite باشند.",
+        "excerpt": "آلبانز باید به دقت گام بردارد، زیرا او تلاش می کند تا در مورد چگونگی بهره برداری از فن آوری جدید برای رای دهندگان عادی برای دریافت ایمیل سیاسی روزانه، برنامه آزاد یا پادکست خبری روزانه، زمانی که استرالیا مزایای رونق هوش مصنوعی و داده محور را می بیند، بحث کند؟ تا به حال، تنها چیزی که ما دیده ایم، احتمال تغییرات در حق کپی رایت است که به خلاقیت های استرالیا، قوانین ویژه در مورد استفاده از برق و آب آسیب می رساند و ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "998ff01b393f5b93",
-      "url": "https://www.datacenterdynamics.com/en/news/openai-to-rebrand-its-data-centers-as-compute-campuses-as-part-of-broader-policy-and-pr-push",
-      "sourceId": "datacenter-dynamics",
-      "sourceName": "DatacenterDynamics",
-      "title": "OpenAI to rebrand its data centers as compute campuses as part of broader policy and PR push",
-      "excerpt": "As US midterms are dominated by anti-data center movement",
+      "id": "5ea6f104b1e8466c",
+      "url": "https://techcrunch.com/2026/11/05/box-taps-nvidias-nemotron-for-new-agent-first-content-retrieval-system",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Box taps Nvidia’s Nemotron for new agent-first content retrieval system",
+      "excerpt": "The system can supposedly answer queries four times faster, with 20% fewer errors and 90% fewer tokens used.",
       "lang": "en",
-      "publishedAt": "2026-11-04T14:00:33Z",
+      "publishedAt": "2026-11-05T14:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "policy",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://media.datacenterdynamics.com/media/images/dima-solomin-nM3243N4sSY-unsplash.2e16d0ba.fill-750x500.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "0dbf0226aa90a12c",
-       "32791f69eb2c329e"
-      ],
-      "score": {
-       "total": 61.7,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 75.0,
-        "recency": 39.7,
-        "topic": 85.0,
-        "novelty": 42.9
-       },
-       "asOf": "2026-11-05T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI برای باز کردن مراکز داده خود به عنوان دانشگاه های محاسباتی به عنوان بخشی از سیاست های گسترده تر و فشار PR",
-        "excerpt": "همانطور که اواسط ایالات متحده تحت سلطه جنبش ضد داده مرکزی قرار دارد",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 3,
-     "reason": [
-      "tier-3",
-      "voices-3",
-      "top-factor-corroboration"
-     ]
-    },
-    {
-     "article": {
-      "id": "d8fa341b96c36837",
-      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Agile Deliberation: How AI helps humans define the gray areas",
-      "excerpt": "Data Mining & Modeling",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:07:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "research",
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "products",
       "tags": [
-       "data mining & modeling",
-       "generative ai",
-       "human-computer interaction and visualiza",
-       "machine intelligence"
+       "ai",
+       "box",
+       "nvidia"
       ],
       "entities": [
-       "google"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "d8fa341b96c36837",
+      "eventId": "5ea6f104b1e8466c",
       "related": [],
       "score": {
-       "total": 61.2,
+       "total": 61.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 50.3,
-        "topic": 80.0,
-        "novelty": 90.9
+        "recency": 92.7,
+        "topic": 65.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "Agile Deliberation: چگونه AI به انسان کمک می کند تا مناطق خاکستری را تعریف کند",
-        "excerpt": "استخراج داده ها و مدل سازی",
+        "title": "جعبه به Nemotron Nvidia برای سیستم بازیابی محتوا جدید ضربه می زند",
+        "excerpt": "این سیستم می تواند چهار بار سریع تر به پرسش ها پاسخ دهد، با ۲۰ درصد خطاهای کمتر و ۹۰ درصد توکن های کمتری استفاده می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "5afc49da7bd40515",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "excerpt": "",
+      "id": "b4807840cc37cb88",
+      "url": "https://www.wired.com/story/aina-smart-ring",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
+      "excerpt": "The startup Aina bets you won’t need to rely on your phone to control virtual assistants. It’s making a smart ring that lets you control the actions of your autonomous agents with one tap.",
       "lang": "en",
-      "publishedAt": "2026-11-04T17:50:10Z",
+      "publishedAt": "2026-11-05T14:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "products",
+      "tags": [
+       "gear",
+       "gear / gear news and events",
+       "wearables",
+       "smart rings",
+       "artificial intelligence",
+       "agentic ai"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/c1ik58RednXjcqrx5s2Fo.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+       "url": "https://media.wired.com/photos/6aea53001ffd9173e25bd6c5/master/pass/Aina%20Ring%20colors%20standing.jpeg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "5afc49da7bd40515",
+      "eventId": "b4807840cc37cb88",
       "related": [],
       "score": {
-       "total": 60.4,
+       "total": 61.4,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 49.5,
-        "topic": 75.0,
-        "novelty": 92.9
+        "recency": 92.7,
+        "topic": 65.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "Dharma Field Extractor: Any Document in، Structured Fields در JSON Out",
+        "title": "حلقه هوشمند Aina می خواهد یک کنترل از راه دور برای عامل AI شما باشد",
+        "excerpt": "استارت آپ Aina شرط می کند که شما نیازی به تکیه بر تلفن خود برای کنترل دستیار مجازی ندارید. این یک حلقه هوشمند ایجاد می کند که به شما اجازه می دهد اقدامات عوامل مستقل خود را با یک ضربه کنترل کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -364,22 +368,22 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-29T06:00:00Z",
-   "to": "2026-11-05T06:00:00Z",
+   "from": "2026-10-29T15:19:05Z",
+   "to": "2026-11-05T15:19:05Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "166d08d878bab569",
-      "url": "https://www.youtube.com/watch?v=44GBqQGc-v0",
+      "id": "56dd15d9b84857b5",
+      "url": "https://www.youtube.com/shorts/6IttBmI4P9M",
       "sourceId": "openai-youtube",
       "sourceName": "OpenAI (YouTube)",
-      "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
-      "excerpt": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver…",
+      "title": "Messi asks ChatGPT to reimagine his room",
+      "excerpt": "Messi wanted this empty room to feel a little more like him, but wasn’t sure where to start. So he asked ChatGPT for some ideas. Try it yourself: “Reimagine this room in my style. Surprise me.”",
       "lang": "en",
-      "publishedAt": "2026-11-04T17:27:07Z",
+      "publishedAt": "2026-11-04T19:25:46Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
+      "fetchedAt": "2026-11-05T15:51:17Z",
       "day": "2026-11-04",
       "category": "models",
       "tags": [],
@@ -388,34 +392,34 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/44GBqQGc-v0/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/6IttBmI4P9M/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "44GBqQGc-v0",
-       "url": "https://www.youtube.com/watch?v=44GBqQGc-v0"
+       "id": "6IttBmI4P9M",
+       "url": "https://www.youtube.com/watch?v=6IttBmI4P9M"
       },
-      "eventId": "166d08d878bab569",
+      "eventId": "56dd15d9b84857b5",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 82.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه فیما ساخت Self-Serve Analytics با OpenAI",
-        "excerpt": "بازاریابان نباید منتظر یک داشبورد جدید باشند تا درک کنند که چگونه یک کمپین در حال انجام است. در یک خلبان اولیه با OpenAI، فیما در حال ساخت زمینه مشترک است که به بازاریابان کمک می کند تا از چگونگی فرود کمپین ها و اینکه آیا آنها مشتریان را تبدیل می کنند، سوال کنند. تیم ها می توانند زودتر بینش های مفیدی دریافت کنند، بدون اینکه منتظر کسی برای ساخت داشبورد یا متریک باشند. OpenAI توانایی ارائه ...",
+        "title": "مسی از ChatGPT می خواهد اتاق خود را دوباره تصور کند",
+        "excerpt": "مسی می خواست این اتاق خالی کمی بیشتر شبیه او باشد، اما مطمئن نبود که از کجا شروع کنیم. او از ChatGPT برای برخی از ایده ها پرسید. خودتان را امتحان کنید: «این اتاق را به سبک من تصور کنید. مرا سورپرایز کن.»",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
@@ -463,15 +467,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 71.1,
+       "total": 69.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 68.7,
+        "recency": 62.8,
         "topic": 70.0,
         "novelty": 40.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -487,6 +491,65 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "166d08d878bab569",
+      "url": "https://www.youtube.com/watch?v=44GBqQGc-v0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
+      "excerpt": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver…",
+      "lang": "en",
+      "publishedAt": "2026-11-04T17:27:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T18:41:20Z",
+      "day": "2026-11-04",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/44GBqQGc-v0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "44GBqQGc-v0",
+       "url": "https://www.youtube.com/watch?v=44GBqQGc-v0"
+      },
+      "eventId": "166d08d878bab569",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 81.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-05T15:19:05Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه فیما ساخت Self-Serve Analytics با OpenAI",
+        "excerpt": "بازاریابان نباید منتظر یک داشبورد جدید باشند تا درک کنند که چگونه یک کمپین در حال انجام است. در یک خلبان اولیه با OpenAI، فیما در حال ساخت زمینه مشترک است که به بازاریابان کمک می کند تا از چگونگی فرود کمپین ها و اینکه آیا آنها مشتریان را تبدیل می کنند، سوال کنند. تیم ها می توانند زودتر بینش های مفیدی دریافت کنند، بدون اینکه منتظر کسی برای ساخت داشبورد یا متریک باشند. OpenAI توانایی ارائه ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T18:41:20Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -523,15 +586,15 @@
       "eventId": "16de4ca3c25d3eed",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 90.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -542,7 +605,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -552,52 +615,50 @@
     },
     {
      "article": {
-      "id": "a4f4c423c5426033",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "A thousand fewer paths to root",
-      "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "id": "89209ab642b10e25",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-04T08:00:00Z",
+      "publishedAt": "2026-11-05T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T00:25:02Z",
-      "day": "2026-11-04",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "openai"
+       "huggingface"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/phonon-tts"
       },
-      "eventId": "a4f4c423c5426033",
+      "eventId": "89209ab642b10e25",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.9,
-        "topic": 100.0,
-        "novelty": 87.5
+        "recency": 86.3,
+        "topic": 75.0,
+        "novelty": 94.1
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "هزار راه کمتر برای ریشه کردن",
-        "excerpt": "OpenAI ساخت یک خط لوله مستقل است که کشف شده، معتبر و ایجاد پچ برای 948 آسیب پذیری محلی امتیاز در هسته لینوکس.",
+        "title": "نگاهی نزدیک تر به Phon TTS راه اندازی سخنرانی با کیفیت بالا On-Device که معیارهای را بالا می برد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T00:25:02Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -637,15 +698,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.2,
+        "recency": 81.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -656,7 +717,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -696,15 +757,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.9,
+        "recency": 80.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -715,7 +776,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -750,77 +811,19 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.9,
+        "recency": 81.3,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
         "title": "Dharma Field Extractor: Any Document in، Structured Fields در JSON Out",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2240c970935398d5",
-      "url": "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Four layers of context engineering for production AI agents: How Deep Insight applies them in working code",
-      "excerpt": "In production AI agents, context management is the real bottleneck. This post presents a four-layer context engineering framework (architecture, prompts, file-based tools, and verification agents), implemented in working code from Deep Insight, an open source multi-agent data analysis solution on the Strands Agents SDK and Amazon Bedrock AgentCore.",
-      "lang": "en",
-      "publishedAt": "2026-11-04T16:30:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "open-source",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock agentcore",
-       "strands agents",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
-      },
-      "eventId": "2240c970935398d5",
-      "related": [],
-      "score": {
-       "total": 67.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.8,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-05T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چهار لایه مهندسی زمینه برای تولید عوامل هوش مصنوعی: چگونه بینش عمیق آنها را در کد کار می کند",
-        "excerpt": "در تولید عوامل AI، مدیریت زمینه تنگنا واقعی است. این پست یک چارچوب مهندسی زمینه چهار لایه (معماری، ماشه، ابزار مبتنی بر فایل و عوامل تأیید) را ارائه می دهد که در کد کار از Deep Insight، یک راه حل تجزیه و تحلیل داده چند عامل منبع باز در Strands Agents SDK و Amazon Bedrock Agent اجرا شده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-04T18:41:20Z"
        }
@@ -837,8 +840,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-06T06:00:00Z",
-   "to": "2026-11-05T06:00:00Z",
+   "from": "2026-10-06T15:19:05Z",
+   "to": "2026-11-05T15:19:05Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,15 +878,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 79.4,
+        "recency": 77.2,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -931,15 +934,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 59.3,
+        "recency": 57.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -990,15 +993,15 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.3,
+        "recency": 87.9,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       }
      },
      "rank": 3,
@@ -1011,16 +1014,16 @@
     },
     {
      "article": {
-      "id": "166d08d878bab569",
-      "url": "https://www.youtube.com/watch?v=44GBqQGc-v0",
+      "id": "56dd15d9b84857b5",
+      "url": "https://www.youtube.com/shorts/6IttBmI4P9M",
       "sourceId": "openai-youtube",
       "sourceName": "OpenAI (YouTube)",
-      "title": "How Figma Is Building Self-Serve Analytics with OpenAI",
-      "excerpt": "Marketers shouldn’t have to wait for a new dashboard to understand how a campaign is performing. In an early pilot with OpenAI, Figma is building shared context that helps marketers ask how campaigns are landing and whether they’re converting customers. Teams can get useful insights sooner, without waiting for someone to build a dashboard or metric. “OpenAI has unlocked the ability to deliver…",
+      "title": "Messi asks ChatGPT to reimagine his room",
+      "excerpt": "Messi wanted this empty room to feel a little more like him, but wasn’t sure where to start. So he asked ChatGPT for some ideas. Try it yourself: “Reimagine this room in my style. Surprise me.”",
       "lang": "en",
-      "publishedAt": "2026-11-04T17:27:07Z",
+      "publishedAt": "2026-11-04T19:25:46Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
+      "fetchedAt": "2026-11-05T15:51:17Z",
       "day": "2026-11-04",
       "category": "models",
       "tags": [],
@@ -1029,34 +1032,34 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/44GBqQGc-v0/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/6IttBmI4P9M/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "44GBqQGc-v0",
-       "url": "https://www.youtube.com/watch?v=44GBqQGc-v0"
+       "id": "6IttBmI4P9M",
+       "url": "https://www.youtube.com/watch?v=6IttBmI4P9M"
       },
-      "eventId": "166d08d878bab569",
+      "eventId": "56dd15d9b84857b5",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه فیما ساخت Self-Serve Analytics با OpenAI",
-        "excerpt": "بازاریابان نباید منتظر یک داشبورد جدید باشند تا درک کنند که چگونه یک کمپین در حال انجام است. در یک خلبان اولیه با OpenAI، فیما در حال ساخت زمینه مشترک است که به بازاریابان کمک می کند تا از چگونگی فرود کمپین ها و اینکه آیا آنها مشتریان را تبدیل می کنند، سوال کنند. تیم ها می توانند زودتر بینش های مفیدی دریافت کنند، بدون اینکه منتظر کسی برای ساخت داشبورد یا متریک باشند. OpenAI توانایی ارائه ...",
+        "title": "مسی از ChatGPT می خواهد اتاق خود را دوباره تصور کند",
+        "excerpt": "مسی می خواست این اتاق خالی کمی بیشتر شبیه او باشد، اما مطمئن نبود که از کجا شروع کنیم. او از ChatGPT برای برخی از ایده ها پرسید. خودتان را امتحان کنید: «این اتاق را به سبک من تصور کنید. مرا سورپرایز کن.»",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-05T15:51:17Z"
        }
       }
      },
@@ -1101,15 +1104,15 @@
       "eventId": "16de4ca3c25d3eed",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 97.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -1160,15 +1163,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 94.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -1180,6 +1183,59 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "89209ab642b10e25",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T15:51:17Z",
+      "day": "2026-11-05",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/phonon-closer-look/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/phonon-tts"
+      },
+      "eventId": "89209ab642b10e25",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.7,
+        "topic": 75.0,
+        "novelty": 94.1
+       },
+       "asOf": "2026-11-05T15:19:05Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "نگاهی نزدیک تر به Phon TTS راه اندازی سخنرانی با کیفیت بالا On-Device که معیارهای را بالا می برد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T15:51:17Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1219,15 +1275,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 93.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -1238,7 +1294,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1273,15 +1329,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 94.0,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -1291,7 +1347,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1330,15 +1386,15 @@
       "eventId": "2240c970935398d5",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 93.6,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-05T06:00:00Z"
+       "asOf": "2026-11-05T15:19:05Z"
       },
       "tr": {
        "fa": {
@@ -1346,65 +1402,6 @@
         "excerpt": "در تولید عوامل AI، مدیریت زمینه تنگنا واقعی است. این پست یک چارچوب مهندسی زمینه چهار لایه (معماری، ماشه، ابزار مبتنی بر فایل و عوامل تأیید) را ارائه می دهد که در کد کار از Deep Insight، یک راه حل تجزیه و تحلیل داده چند عامل منبع باز در Strands Agents SDK و Amazon Bedrock Agent اجرا شده است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-04T18:41:20Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "12feaf67ddae85b1",
-      "url": "https://news.mit.edu/2026/building-connections-across-research-infrastructure-1103",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Building connections across the research infrastructure",
-      "excerpt": "MIT.nano and the Northeast Microelectronics Coalition gathered facility leaders and technology professionals from across the nation to explore ways to make shared-access facilities more connected.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T19:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T21:50:06Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "nanoscience and nanotechnology",
-       "collaboration",
-       "facilities",
-       "electronics",
-       "microscopy"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO",
-       "credit": "Photo: Dave Terry/MIT.nano",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "12feaf67ddae85b1",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.5,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-05T06:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T21:50:06Z"
        }
       }
      },
