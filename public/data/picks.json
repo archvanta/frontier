@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-05T00:00:00Z",
+ "asOf": "2026-11-05T06:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,129 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-04T00:00:00Z",
-   "to": "2026-11-05T00:00:00Z",
+   "from": "2026-11-04T06:00:00Z",
+   "to": "2026-11-05T06:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "16de4ca3c25d3eed",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Clearing up a robot’s fuzzy memory",
+      "excerpt": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T07:27:39Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "research",
+       "computer science and technology",
+       "algorithms",
+       "artificial intelligence",
+       "machine learning",
+       "robotics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
+       "credit": "Credit: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "16de4ca3c25d3eed",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.4,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-05T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پاکسازی حافظه فازی ربات",
+        "excerpt": "یک سیستم جدید شناسایی و تصحیح توصیف های غیر قابل اعتماد شی ذخیره شده در حافظه ربات، بهبود توانایی ربات برای تعامل با محیط زیست خود را.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T07:27:39Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9e0176657cd228bd",
+      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "excerpt": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found. MPs on the business select committee called for an urgent centralised policy and the creation of a…",
+      "lang": "en",
+      "publishedAt": "2026-11-05T05:00:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T07:27:39Z",
+      "day": "2026-11-05",
+      "category": "policy",
+      "tags": [
+       "critical minerals",
+       "mining",
+       "china",
+       "defence policy",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/cb4db687d218902c0710319b5c22a27ce31c84f2/446_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=495648946ecf1dd1d75fca260951b1b1",
+       "credit": "Photograph: Dado Ruvić/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "9e0176657cd228bd",
+      "related": [],
+      "score": {
+       "total": 65.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 94.5,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-11-05T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "انگلستان متوجه شده است که به طور خطرناک به چین برای مواد معدنی حیاتی مورد نیاز برای دفاع و AI وابسته است.",
+        "excerpt": "تحویل صفر خالص نیز در معرض خطر است، نمایندگان مجلس را به عنوان آنها خواستار سیاست متمرکز و بودجه برای معادن و تنوع معادن هستند، انگلستان \"خطرناک\" وابسته به چین برای مواد خام مهم مورد نیاز برای زیرساخت های انرژی تجدید پذیر و AI، یک تحقیق پارلمانی پیدا کرده است. نمایندگان کمیته انتخاب کسب و کار خواستار یک سیاست متمرکز فوری و ایجاد یک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T07:27:39Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "166d08d878bab569",
@@ -46,15 +165,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.5,
+        "recency": 48.4,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -65,129 +184,10 @@
        }
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d8fa341b96c36837",
-      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Agile Deliberation: How AI helps humans define the gray areas",
-      "excerpt": "Data Mining & Modeling",
-      "lang": "en",
-      "publishedAt": "2026-11-04T18:07:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "research",
-      "tags": [
-       "data mining & modeling",
-       "generative ai",
-       "human-computer interaction and visualiza",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "d8fa341b96c36837",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.2,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-05T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Agile Deliberation: چگونه AI به انسان کمک می کند تا مناطق خاکستری را تعریف کند",
-        "excerpt": "استخراج داده ها و مدل سازی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9d87aa0d657497bd",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/05/victoria-election-2026-ai-generated-video-ads-ntwnfb",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Scare campaigns: Victoria’s major parties trade blows over AI-generated videos of leaders in election ads",
-      "excerpt": "Transparency and advertising experts say trust in politics could be further eroded as a result of ‘lies, deepfakes and AI-generated politicians’ Get our daily political email, free app or daily news podcast It’s the night of Halloween and Jess Wilson has appeared on social media feeds with a warning about a scary prospect: “Americanised healthcare” under a future Liberal government. “If you had…",
-      "lang": "en",
-      "publishedAt": "2026-11-04T23:00:46Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T00:25:02Z",
-      "day": "2026-11-04",
-      "category": "policy",
-      "tags": [
-       "victoria state election 2026",
-       "ai (artificial intelligence)",
-       "victorian politics",
-       "labor party",
-       "liberal party",
-       "australian politics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/98bda4ace9417a01039105abd323a4d517ff1463/0_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=21a697b6867c105c3ca2d5869b8782ac",
-       "credit": "Computer-generated: Victorian Labor/Instagram",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "9d87aa0d657497bd",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.5,
-        "topic": 85.0,
-        "novelty": 94.1
-       },
-       "asOf": "2026-11-05T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کمپین های مراقبتی: تجارت احزاب بزرگ ویکتوریا بر فیلم های تولید شده از رهبران در تبلیغات انتخاباتی ضربه می زند",
-        "excerpt": "کارشناسان شفافیت و تبلیغات می گویند اعتماد به سیاست می تواند به دلیل \"دروغ ها، عمیق و سیاستمداران تولید شده AI\" بیشتر از بین برود و ایمیل سیاسی روزانه ما، برنامه رایگان یا پادکست اخبار روزانه را دریافت کند که شب هالووین و جسی ویلسون در رسانه های اجتماعی با هشدار در مورد چشم انداز ترسناک ظاهر شده است: \"درمان آمریکایی\" تحت یک دولت لیبرال آینده. «اگر شما...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T00:25:02Z"
-       }
-      }
-     },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -222,15 +222,15 @@
        "32791f69eb2c329e"
       ],
       "score": {
-       "total": 65.0,
+       "total": 61.7,
        "parts": {
         "reliability": 60.0,
         "corroboration": 75.0,
-        "recency": 56.2,
+        "recency": 39.7,
         "topic": 85.0,
         "novelty": 42.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -247,6 +247,65 @@
       "tier-3",
       "voices-3",
       "top-factor-corroboration"
+     ]
+    },
+    {
+     "article": {
+      "id": "d8fa341b96c36837",
+      "url": "https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Agile Deliberation: How AI helps humans define the gray areas",
+      "excerpt": "Data Mining & Modeling",
+      "lang": "en",
+      "publishedAt": "2026-11-04T18:07:05Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-04T18:41:20Z",
+      "day": "2026-11-04",
+      "category": "research",
+      "tags": [
+       "data mining & modeling",
+       "generative ai",
+       "human-computer interaction and visualiza",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AgileDeliberation1_Thumbnail.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "d8fa341b96c36837",
+      "related": [],
+      "score": {
+       "total": 61.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 50.3,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-05T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Agile Deliberation: چگونه AI به انسان کمک می کند تا مناطق خاکستری را تعریف کند",
+        "excerpt": "استخراج داده ها و مدل سازی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-04T18:41:20Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
      ]
     },
     {
@@ -276,15 +335,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 60.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 70.0,
+        "recency": 49.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -294,72 +353,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b6ceabf91c49350f",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Gemini for Home now plugs into AT&T’s smart security system",
-      "excerpt": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide",
-      "lang": "en",
-      "publishedAt": "2026-11-04T20:23:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T00:25:02Z",
-      "day": "2026-11-04",
-      "category": "models",
-      "tags": [
-       "ai",
-       "at&t",
-       "google",
-       "mobile",
-       "smart home",
-       "tech"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An image of AT&T’s Connected Life security system",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b6ceabf91c49350f",
-      "related": [],
-      "score": {
-       "total": 64.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 81.2,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-05T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini for Home در حال حاضر به سیستم امنیتی هوشمند AT&T متصل می شود",
-        "excerpt": "سیستم امنیتی خانه هوشمند AT&T در حال حاضر با Gemini برای خانه ادغام می شود. این شرکت می گوید که سیستم زندگی متصل آن “اولین” محصول امنیتی خانگی است که با Google Home Premium ادغام می شود و مجموعه ای از ویژگی های Gemini را قادر می سازد تا رویدادهای خانه را خلاصه کند، تاریخچه ویدیو شما و موارد دیگر را جستجو کند. با به روز رسانی، Gemini for Home می تواند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T00:25:02Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -367,8 +364,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-29T00:00:00Z",
-   "to": "2026-11-05T00:00:00Z",
+   "from": "2026-10-29T06:00:00Z",
+   "to": "2026-11-05T06:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -403,15 +400,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 88.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -432,59 +429,125 @@
     },
     {
      "article": {
-      "id": "998ff01b393f5b93",
-      "url": "https://www.datacenterdynamics.com/en/news/openai-to-rebrand-its-data-centers-as-compute-campuses-as-part-of-broader-policy-and-pr-push",
-      "sourceId": "datacenter-dynamics",
-      "sourceName": "DatacenterDynamics",
-      "title": "OpenAI to rebrand its data centers as compute campuses as part of broader policy and PR push",
-      "excerpt": "As US midterms are dominated by anti-data center movement",
+      "id": "32791f69eb2c329e",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+      "excerpt": "People hate data centers. They're loud, resource-hungry eyesores that are so profoundly unpopular they have managed to achieve the near-impossible in today's polarized political landscape: genuine bipartisan opposition. But what about \"compute campuses\"? Those sound lovely, right? OpenAI seems to be gambling that a quiet rebrand could be all it takes to defuse the growing",
       "lang": "en",
-      "publishedAt": "2026-11-04T14:00:33Z",
+      "publishedAt": "2026-11-03T15:00:44Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-04T18:41:20Z",
-      "day": "2026-11-04",
-      "category": "policy",
-      "tags": [],
+      "fetchedAt": "2026-11-03T18:05:08Z",
+      "day": "2026-11-03",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "openai",
+       "report",
+       "tech"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://media.datacenterdynamics.com/media/images/dima-solomin-nM3243N4sSY-unsplash.2e16d0ba.fill-750x500.jpg",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2236733575.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Stargate AI data center “compute campus” in Abilene, Texas.",
        "kind": "feed",
-       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
       "eventId": "0dbf0226aa90a12c",
       "related": [
        "0dbf0226aa90a12c",
-       "32791f69eb2c329e"
+       "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.0,
+       "total": 71.1,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 90.8,
-        "topic": 85.0,
-        "novelty": 42.9
+        "recency": 68.7,
+        "topic": 70.0,
+        "novelty": 40.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "OpenAI برای باز کردن مراکز داده خود به عنوان دانشگاه های محاسباتی به عنوان بخشی از سیاست های گسترده تر و فشار PR",
-        "excerpt": "همانطور که اواسط ایالات متحده تحت سلطه جنبش ضد داده مرکزی قرار دارد",
+        "title": "OpenAI به آرامی مراکز داده های \"دانشگاه های داخلی\" را دوباره نام گذاری می کند.",
+        "excerpt": "مردم از مراکز داده نفرت دارند. آن ها با صدای بلند، چشم انداز منابعی هستند که به شدت بی اهمیت هستند و توانسته اند به چشم انداز سیاسی قطبی امروز دست یابند: مخالفت واقعی دو حزبی. اما در مورد \"دانشگاه های دانشگاهی\" چه؟ این صدا دوست داشتنی است، درست است؟ به نظر می رسد OpenAI قمار است که یک برند آرام می تواند تمام چیزی باشد که برای کاهش رشد آن لازم است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-04T18:41:20Z"
+        "at": "2026-11-03T18:05:08Z"
        }
       }
      },
      "rank": 2,
      "sources": 3,
      "reason": [
-      "tier-3",
+      "tier-2",
       "voices-3",
-      "top-factor-corroboration"
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "16de4ca3c25d3eed",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Clearing up a robot’s fuzzy memory",
+      "excerpt": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T07:27:39Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "research",
+       "computer science and technology",
+       "algorithms",
+       "artificial intelligence",
+       "machine learning",
+       "robotics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
+       "credit": "Credit: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "16de4ca3c25d3eed",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-05T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پاکسازی حافظه فازی ربات",
+        "excerpt": "یک سیستم جدید شناسایی و تصحیح توصیف های غیر قابل اعتماد شی ذخیره شده در حافظه ربات، بهبود توانایی ربات برای تعامل با محیط زیست خود را.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T07:27:39Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
      ]
     },
     {
@@ -515,15 +578,15 @@
       "eventId": "a4f4c423c5426033",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 80.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -534,7 +597,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -574,15 +637,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 89.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -593,7 +656,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -633,15 +696,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 87.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -652,7 +715,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -687,15 +750,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 88.9,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -705,7 +768,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -744,15 +807,15 @@
       "eventId": "2240c970935398d5",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 87.8,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -763,72 +826,10 @@
        }
       }
      },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b6ceabf91c49350f",
-      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Gemini for Home now plugs into AT&T’s smart security system",
-      "excerpt": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide",
-      "lang": "en",
-      "publishedAt": "2026-11-04T20:23:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T00:25:02Z",
-      "day": "2026-11-04",
-      "category": "models",
-      "tags": [
-       "ai",
-       "at&t",
-       "google",
-       "mobile",
-       "smart home",
-       "tech"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/att-connected-life.webp?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An image of AT&T’s Connected Life security system",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b6ceabf91c49350f",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.6,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-05T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini for Home در حال حاضر به سیستم امنیتی هوشمند AT&T متصل می شود",
-        "excerpt": "سیستم امنیتی خانه هوشمند AT&T در حال حاضر با Gemini برای خانه ادغام می شود. این شرکت می گوید که سیستم زندگی متصل آن “اولین” محصول امنیتی خانگی است که با Google Home Premium ادغام می شود و مجموعه ای از ویژگی های Gemini را قادر می سازد تا رویدادهای خانه را خلاصه کند، تاریخچه ویدیو شما و موارد دیگر را جستجو کند. با به روز رسانی، Gemini for Home می تواند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T00:25:02Z"
-       }
-      }
-     },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -836,8 +837,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-06T00:00:00Z",
-   "to": "2026-11-05T00:00:00Z",
+   "from": "2026-10-06T06:00:00Z",
+   "to": "2026-11-05T06:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -874,15 +875,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 77.4,
+       "total": 77.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 80.7,
+        "recency": 79.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -930,15 +931,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 60.3,
+        "recency": 59.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -989,15 +990,15 @@
       "eventId": "07cdeba3c4cd66ae",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 90.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       }
      },
      "rank": 3,
@@ -1040,15 +1041,15 @@
       "eventId": "166d08d878bab569",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 96.4,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1060,6 +1061,66 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "16de4ca3c25d3eed",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Clearing up a robot’s fuzzy memory",
+      "excerpt": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T07:27:39Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "research",
+       "computer science and technology",
+       "algorithms",
+       "artificial intelligence",
+       "machine learning",
+       "robotics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
+       "credit": "Credit: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "16de4ca3c25d3eed",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-05T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پاکسازی حافظه فازی ربات",
+        "excerpt": "یک سیستم جدید شناسایی و تصحیح توصیف های غیر قابل اعتماد شی ذخیره شده در حافظه ربات، بهبود توانایی ربات برای تعامل با محیط زیست خود را.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T07:27:39Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1099,15 +1160,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 96.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1118,7 +1179,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1158,15 +1219,15 @@
       "eventId": "5dcd8c391f4dae8c",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 96.2,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1177,7 +1238,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1212,15 +1273,15 @@
       "eventId": "5afc49da7bd40515",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 96.5,
         "topic": 75.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1230,7 +1291,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1269,15 +1330,15 @@
       "eventId": "2240c970935398d5",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 96.2,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1288,7 +1349,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1329,80 +1390,21 @@
       "eventId": "12feaf67ddae85b1",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 90.5,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T00:00:00Z"
+       "asOf": "2026-11-05T06:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "ارتباطات ساختمان در سراسر زیرساخت های تحقیقاتی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-03T21:50:06Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "81baaaf3b2d16a22",
-      "url": "https://aws.amazon.com/blogs/machine-learning/bring-structured-and-unstructured-data-together-with-amazon-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Bring structured and unstructured data together with Amazon Quick",
-      "excerpt": "Amazon Quick brings structured and unstructured data together in one experience. In this post, you connect Amazon S3 as a knowledge base, enrich a dataset, build a Space, and create a custom chat agent that answers business questions across both data types through a single conversational interface.",
-      "lang": "en",
-      "publishedAt": "2026-11-03T16:49:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-03T18:05:08Z",
-      "day": "2026-11-03",
-      "category": "research",
-      "tags": [
-       "amazon quick suite",
-       "intermediate (200)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-1.png",
-       "alt": "Architecture diagram showing the data, workspace, and agent layers that connect structured datasets and an Amazon S3 knowledge base to a chat agent in Amazon Quick",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "81baaaf3b2d16a22",
-      "related": [],
-      "score": {
-       "total": 68.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.4,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-05T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جمع آوری داده های ساختار یافته و بدون ساختار با آمازون سریع",
-        "excerpt": "آمازون سریع داده های ساختار یافته و بدون ساختار را در یک تجربه به ارمغان می آورد. در این پست، شما آمازون S3 را به عنوان یک پایگاه دانش متصل می کنید، یک مجموعه داده را غنی می کنید، یک فضا بسازید و یک عامل چت سفارشی ایجاد کنید که به سوالات کسب و کار در هر دو نوع داده از طریق یک رابط مکالمه پاسخ می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-03T18:05:08Z"
        }
       }
      },

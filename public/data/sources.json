@@ -453,9 +453,10 @@
    "tier": 1,
    "lang": "en",
    "enabled": true,
-   "status": "ok",
+   "status": "error",
    "notes": "Official Google developer channel feed; filtered to AI items. Added 2026-10-21, unverified until the first collector run.",
-   "verifiedOn": "2026-10-21"
+   "verifiedOn": "2026-10-21",
+   "lastError": "HTTP 404"
   },
   {
    "id": "nvidia-youtube",
