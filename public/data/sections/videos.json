@@ -2,8 +2,54 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 134,
+ "total": 135,
  "articles": [
+  {
+   "id": "477cff6d6b4c7941",
+   "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "excerpt": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
+   "lang": "en",
+   "publishedAt": "2026-11-05T16:00:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-05T16:32:15Z",
+   "day": "2026-11-05",
+   "category": "open-source",
+   "tags": [
+    "ai",
+    "nvidia life",
+    "agentic ai",
+    "nemotron",
+    "nemotron labs",
+    "open source"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Chris-Alexiuk_portrait-scaled.png",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ChrisAlexiuk_captions_9MB.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "477cff6d6b4c7941",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جادوگر وزن باز: کریس الکسیوک AI را با مدل های باز آسان می کند",
+     "excerpt": "کریس الکسوک یک قاعده ساده در مورد AI منبع باز دارد: اگر به آن اعتقاد دارید، در مورد آن با صدای بلند باشید. \"ما باید در مورد این تکنولوژی از پشت بام ها فریاد بزنیم\"، الکسیوک، مهندس ارشد تحقیقات محصول تورنتو در یادگیری عمیق در NVIDIA که متخصص در ساخت مدل های زبان بزرگ باز (LLMs) برای توسعه دهندگان کار است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-05T16:32:15Z"
+    }
+   }
+  },
   {
    "id": "429ff381e1d663d5",
    "url": "https://www.youtube.com/watch?v=bJldMYfRvMQ",
@@ -2323,45 +2369,6 @@
     "fa": {
      "title": "AMP عامل های AI را برای کار فراتر از کد با مدل های OpenAI",
      "excerpt": "AMP یک عامل AI است که به توسعه دهندگان کمک می کند تا ایده ها را به نرم افزار کار تبدیل کنند، از تصمیم گیری برای ساخت کد به مشتریان. ثبت نام در ChatGPT به کاربران AMP امکان دسترسی به توکن های بیشتر برای وظایف بزرگتر را می دهد، در حالی که دستیار محاوره ای AMP، Puck، از GPT-Live-1 برای کمک به کاربران برای راه اندازی و مدیریت عوامل توسط صدا استفاده می کند. در داخل، تیم 20 نفره شرکت از GPT-6 Astra استفاده می کند.",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-27T00:07:10Z"
-    }
-   }
-  },
-  {
-   "id": "15dfb72e904d6d22",
-   "url": "https://www.youtube.com/watch?v=8fp-G14hvUk",
-   "sourceId": "openai-youtube",
-   "sourceName": "OpenAI (YouTube)",
-   "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-   "excerpt": "Stack Overflow is building a knowledge intelligence platform that turns information scattered across workplace tools into verified knowledge for people and AI agents. The company's latest product, Stack Overflow for Agents, was built from the ground up by two engineers in just a few weeks using Codex. To distribute it, Stack launched a ChatGPT plugin, and signups tripled overnight. Users also…",
-   "lang": "en",
-   "publishedAt": "2026-10-26T22:03:40Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-27T00:07:10Z",
-   "day": "2026-10-26",
-   "category": "products",
-   "tags": [],
-   "entities": [
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://i1.ytimg.com/vi/8fp-G14hvUk/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "8fp-G14hvUk",
-    "url": "https://www.youtube.com/watch?v=8fp-G14hvUk"
-   },
-   "eventId": "15dfb72e904d6d22",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "Stack Overflow برای Agents سه برابر با پلاگین ChatGPT",
-     "excerpt": "Stack Overflow یک پلت فرم اطلاعاتی دانش است که اطلاعات پراکنده در سراسر ابزار محل کار را به دانش تایید شده برای مردم و عوامل AI تبدیل می کند. آخرین محصول این شرکت، Stack Overflow for Agents، توسط دو مهندس در عرض چند هفته با استفاده از Codex ساخته شده است. برای توزیع آن، Stack یک پلاگین ChatGPT را راه اندازی کرد و نشانه ها در یک شب سه برابر شدند. کاربران همچنین ...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-27T00:07:10Z"
     }
