@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-06T18:01:00Z",
+ "asOf": "2026-11-06T19:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-05T18:01:00Z",
-   "to": "2026-11-06T18:01:00Z",
+   "from": "2026-11-05T19:00:00Z",
+   "to": "2026-11-06T19:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-06T19:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "bc2d0068f56d93e1",
@@ -49,15 +109,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 87.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -68,7 +128,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -109,15 +169,15 @@
       "eventId": "1007c961b5d3e491",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 94.5,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -128,7 +188,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -170,15 +230,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 69.2,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.3,
+        "recency": 66.4,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -189,7 +249,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -232,15 +292,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 84.1,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -251,7 +311,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -286,74 +346,19 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 65.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.4,
+        "recency": 75.0,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc8f9eac19663ff6",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bc8f9eac19663ff6",
-      "related": [],
-      "score": {
-       "total": 64.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 56.1,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-06T18:01:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
-        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-06T18:31:52Z"
        }
@@ -370,8 +375,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-30T18:01:00Z",
-   "to": "2026-11-06T18:01:00Z",
+   "from": "2026-10-30T19:00:00Z",
+   "to": "2026-11-06T19:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +413,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.3,
+        "recency": 93.4,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -471,15 +476,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 97.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -526,15 +531,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 90.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -546,6 +551,66 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-06T19:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -586,15 +651,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.6,
+        "recency": 77.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -605,7 +670,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -646,15 +711,15 @@
       "eventId": "1007c961b5d3e491",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.1,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -665,7 +730,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -707,15 +772,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 97.2,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -726,7 +791,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -761,15 +826,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.3,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -779,72 +844,10 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 67.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 32.7,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-06T18:01:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -852,8 +855,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-07T18:01:00Z",
-   "to": "2026-11-06T18:01:00Z",
+   "from": "2026-10-07T19:00:00Z",
+   "to": "2026-11-06T19:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -888,11 +891,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 53.4,
+        "recency": 53.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -949,11 +952,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 71.5,
+        "recency": 71.3,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1011,11 +1014,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 98.3,
+        "recency": 98.0,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1063,15 +1066,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 96.9,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1123,15 +1126,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 92.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1152,52 +1155,116 @@
     },
     {
      "article": {
-      "id": "b58fee4edbbb5f7a",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "id": "80b8f077bc42c9db",
+      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
+      "publishedAt": "2026-11-05T17:14:11Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
+      "fetchedAt": "2026-11-05T22:24:22Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [
-       "company"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b58fee4edbbb5f7a",
+      "video": {
+       "provider": "youtube",
+       "id": "pXRZyOxbDL4",
+       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+      },
+      "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 92.8,
         "topic": 100.0,
-        "novelty": 91.7
+        "novelty": 90.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
-        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
+        "at": "2026-11-05T22:24:22Z"
        }
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-06T19:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1236,11 +1303,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.6,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1250,7 +1317,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1292,15 +1359,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 99.1,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1311,7 +1378,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1349,15 +1416,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 92.5,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T18:01:00Z"
+       "asOf": "2026-11-06T19:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1365,66 +1432,6 @@
         "excerpt": "سلامت و علوم زیستی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1007c961b5d3e491",
-      "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-      "excerpt": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T18:01:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [
-       "amazon sagemaker ai",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-1-1.png",
-       "alt": "Output tokens per second versus concurrency for an H100 mig-3g.40gb partition and a full A100-40GB across five traffic shapes",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "1007c961b5d3e491",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-06T18:01:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "SageMaker Inference در حال حاضر از GPU Multi-Instance برای به حداکثر رساندن استفاده از GPU برای نقاط پایانی مدل پشتیبانی می کند.",
-        "excerpt": "Amazon SageMaker Inference در حال حاضر از پارتیشن بندی GPU با NVIDIA Multi-Instance GPU (MIG) پشتیبانی می کند که یک GPU را به پارتیشن های سخت افزاری تقسیم می کند، بنابراین شما می توانید یک مدل مختلف را در هر کدام اجرا کنید یا یک بخش درست از یک شتاب دهنده جدید را بگیرید. این پست نشان می دهد که چگونه دو رشته API اختیاری یک مدل را در هر پارتیشن قرار می دهند و آنچه که ما در برابر یک GPU قدیمی اندازه گیری می کنیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
