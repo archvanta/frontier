@@ -3,6 +3,525 @@
  "windowDays": 90,
  "entries": [
   {
+   "id": "1007c961b5d3e491",
+   "d": "2026-11-06",
+   "t": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "hardware",
+   "b": null,
+   "e": [
+    "amazon",
+    "nvidia"
+   ],
+   "x": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you ca",
+   "p": "2026-11-06T18:01:00Z",
+   "tf": "SageMaker Inference در حال حاضر از GPU Multi-Instance برای به حداکثر رساندن استفاده از GPU برای نقاط پایانی مدل پشتیبانی می کند."
+  },
+  {
+   "id": "fc8f30aee8f3f7ca",
+   "d": "2026-11-06",
+   "t": "How a Blue Wave midterm might reshape the AI industry",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "hardware",
+   "b": null,
+   "e": [],
+   "x": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot me",
+   "p": "2026-11-06T18:00:00Z",
+   "tf": "چگونه یک دوره موج آبی ممکن است صنعت AI را تغییر دهد"
+  },
+  {
+   "id": "a847314b4ebf3a20",
+   "d": "2026-11-06",
+   "t": "The Guardian view on the AI backlash: American voters want a say in their future | Editorial",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "hardware",
+   "b": null,
+   "e": [],
+   "x": "The tech sell-off exposes fragile promises, while Democratic victories offer a chance to protect workers and hold firms accountable This week’s midterms showed ",
+   "p": "2026-11-06T17:58:05Z",
+   "tf": "دیدگاه گاردین در مورد واکنش AI: رای دهندگان آمریکایی می خواهند در آینده خود یک بگویند"
+  },
+  {
+   "id": "badbbf71d6f4e602",
+   "d": "2026-11-06",
+   "t": "Martin Rowson on the aftermath of the US midterm elections – cartoon",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "policy",
+   "b": null,
+   "e": [],
+   "x": "Continue reading...",
+   "p": "2026-11-06T17:45:19Z",
+   "tf": "مارتین روسون پس از انتخابات میان دوره ای ایالات متحده - کارتون"
+  },
+  {
+   "id": "9d00431e265d2c8d",
+   "d": "2026-11-06",
+   "t": "“Does Meta think we can’t read?” Meta abandons sketchy commercial terms update.",
+   "s": "ars-ai",
+   "sn": "Ars Technica — AI",
+   "c": "products",
+   "b": null,
+   "e": [
+    "meta"
+   ],
+   "x": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "p": "2026-11-06T17:43:02Z",
+   "tf": "“آیا متا فکر می کند که ما نمی توانیم بخوانیم؟” متا به روز رسانی اصطلاحات تجاری را رها می کند."
+  },
+  {
+   "id": "01ae94b0daa02eba",
+   "d": "2026-11-06",
+   "t": "Taxonomy of agentic primitives in Amazon Quick",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "As we built Amazon Quick, its agents grew from answering questions to taking actions, and the same primitives kept getting rebuilt under different names. This p",
+   "p": "2026-11-06T17:34:45Z",
+   "tf": "طبقه بندی ابتدایی عامل در آمازون Quick"
+  },
+  {
+   "id": "ef57b5d475853af9",
+   "d": "2026-11-06",
+   "t": "After the midterms, is the AI industry in for a rough two years?",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "hardware",
+   "b": null,
+   "e": [],
+   "x": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot me",
+   "p": "2026-11-06T17:23:52Z",
+   "tf": "پس از اواسط دهه، صنعت هوش مصنوعی برای دو سال سخت است؟"
+  },
+  {
+   "id": "510c04ed7b28047d",
+   "d": "2026-11-06",
+   "t": "Can Optical AI Cut Data Center Inference Power Use?",
+   "s": "datacenter-knowledge",
+   "sn": "Data Center Knowledge",
+   "c": "hardware",
+   "b": null,
+   "e": [],
+   "x": "Lumai is testing optical AI servers in a UK lab to see whether shifting inference prefill off GPUs can ease data center power constraints.",
+   "p": "2026-11-06T17:13:26Z",
+   "tf": "آیا هوش مصنوعی می تواند استفاده از قدرت نفوذ را کاهش دهد؟"
+  },
+  {
+   "id": "0f0cb95e5bb05a5c",
+   "d": "2026-11-06",
+   "t": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an ent",
+   "p": "2026-11-06T17:13:13Z",
+   "tf": "سرور بدون MCP برای دسترسی به دریاچه داده های عامل AI در آمازون ECS Fargate"
+  },
+  {
+   "id": "4a377ea256e27efd",
+   "d": "2026-11-06",
+   "t": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 1",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "An AI agent that acts for a user raises an identity question that per-app OAuth and service accounts leave open: which agent may act for which user, and how you",
+   "p": "2026-11-06T17:09:18Z",
+   "tf": "نماینده ارشد AI دسترسی به برنامه دسترسی Okta Cross و Amazon Bedrock AgentCore - قسمت 1"
+  },
+  {
+   "id": "91f8d419f4fcff35",
+   "d": "2026-11-06",
+   "t": "AI is the new dating dealbreaker",
+   "s": "verge-ai",
+   "sn": "The Verge — AI",
+   "c": "products",
+   "b": null,
+   "e": [],
+   "x": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who ca",
+   "p": "2026-11-06T17:00:00Z",
+   "tf": "AI یک معامله گر جدید دوستیابی است"
+  },
+  {
+   "id": "c75bfb16cb415abe",
+   "d": "2026-11-06",
+   "t": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "Greenlight Financial resolves more than 90% of up to 4,000 monthly security and risk cases without human intervention using Luna, a tiered multi-agent system on",
+   "p": "2026-11-06T16:55:05Z",
+   "tf": "چگونه Greenlight Financial یک راه حل مستقل SOC را در Amazon Bedrock Agent ایجاد کرد"
+  },
+  {
+   "id": "aa3a68bb9ff6c15d",
+   "d": "2026-11-06",
+   "t": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they g",
+   "p": "2026-11-06T16:49:42Z",
+   "tf": "کمک مالیاتی: یک عامل هوش مصنوعی مبتنی بر نقش در Amazon Bedrock AgentCore"
+  },
+  {
+   "id": "0c26b053a503d314",
+   "d": "2026-11-06",
+   "t": "Could the AI bubble burst after Democrats’ midterms sweep? – The Latest",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "policy",
+   "b": null,
+   "e": [
+    "apple",
+    "nvidia"
+   ],
+   "x": "Global tech stocks have plunged after the Democrats’ victory in the US midterm elections, with fears of a slowdown in AI development. Major tech corporations in",
+   "p": "2026-11-06T16:49:19Z",
+   "tf": "آیا ممکن است حباب هوش مصنوعی پس از اواسط دوره های دموکرات منفجر شود؟ - آخرین"
+  },
+  {
+   "id": "7bae1c47fa7b5295",
+   "d": "2026-11-06",
+   "t": "Perplexity now has its own always-on AI agent",
+   "s": "the-decoder",
+   "sn": "The Decoder",
+   "c": "products",
+   "b": null,
+   "e": [
+    "anthropic",
+    "openai"
+   ],
+   "x": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $20",
+   "p": "2026-11-06T16:47:28Z",
+   "tf": "پیچیدگی در حال حاضر خود را همیشه در AI Agent"
+  },
+  {
+   "id": "bc2d0068f56d93e1",
+   "d": "2026-11-06",
+   "t": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+   "s": "aws-ml",
+   "sn": "AWS Machine Learning Blog",
+   "c": "models",
+   "b": "claude",
+   "e": [
+    "amazon",
+    "anthropic",
+    "microsoft"
+   ],
+   "x": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes thro",
+   "p": "2026-11-06T16:45:58Z",
+   "tf": "گسترش کلود کد به جلسات از راه دور در Amazon Bedrock Agent با کنترل های امنیتی"
+  },
+  {
+   "id": "22815b4f725ebdf4",
+   "d": "2026-11-06",
+   "t": "Big Tech lost big in the 2026 election",
+   "s": "verge-ai",
+   "sn": "The Verge — AI",
+   "c": "policy",
+   "b": null,
+   "e": [],
+   "x": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roa",
+   "p": "2026-11-06T16:38:02Z",
+   "tf": "شرکت بزرگ تکنولوژی در انتخابات 2026 بزرگ شد"
+  },
+  {
+   "id": "c821c11af1c22210",
+   "d": "2026-11-06",
+   "t": "How Akai and Moog are embracing vibe-coded mods",
+   "s": "verge-ai",
+   "sn": "The Verge — AI",
+   "c": "business",
+   "b": null,
+   "e": [],
+   "x": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic C",
+   "p": "2026-11-06T16:34:39Z",
+   "tf": "چگونه Akai و Moog در حال استقبال از روش های کد شده هستند"
+  },
+  {
+   "id": "1b9119e805ea04ae",
+   "d": "2026-11-06",
+   "t": "Could potential AI clones of GTA VI force a quicker official port?",
+   "s": "ars-ai",
+   "sn": "Ars Technica — AI",
+   "c": "research",
+   "b": null,
+   "e": [],
+   "x": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+   "p": "2026-11-06T16:19:12Z",
+   "tf": "آیا ممکن است کلون های AI بالقوه از GTA VI یک پورت رسمی سریع تر ایجاد کنند؟"
+  },
+  {
+   "id": "8b48cf50d5e9ea79",
+   "d": "2026-11-06",
+   "t": "US tech stock rout: is the AI bubble bursting?",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "business",
+   "b": null,
+   "e": [],
+   "x": "After Thursday’s share price plunge on Wall Street, could the volatility be the start of a huge market meltdown? Business live – latest updates Global financial",
+   "p": "2026-11-06T16:09:18Z",
+   "tf": "سهام فناوری ایالات متحده: آیا حباب AI منفجر می شود؟"
+  },
+  {
+   "id": "2b3eb4eb79de73e7",
+   "d": "2026-11-06",
+   "t": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+   "s": "nvidia-blog",
+   "sn": "NVIDIA Blog",
+   "c": "open-source",
+   "b": null,
+   "e": [
+    "nvidia"
+   ],
+   "x": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G networ",
+   "p": "2026-11-06T16:00:35Z",
+   "tf": "چگونه ابزارهای منبع باز NVIDIA به محققان کمک می کنند تا نسل بعدی 6G را بسازند"
+  },
+  {
+   "id": "67e3c6ace421b869",
+   "d": "2026-11-06",
+   "t": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+   "s": "wired-ai",
+   "sn": "WIRED — AI",
+   "c": "business",
+   "b": null,
+   "e": [],
+   "x": "Data brokers are collecting all sorts of internal corporate files to help train AI models. Not everyone is thrilled.",
+   "p": "2026-11-06T16:00:00Z",
+   "tf": "شرکت های AI واقعا می خواهند فایل های کاری و ایمیل های شما را بخرند"
+  },
+  {
+   "id": "d477a15e55383cda",
+   "d": "2026-11-06",
+   "t": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
+   "s": "the-decoder",
+   "sn": "The Decoder",
+   "c": "business",
+   "b": null,
+   "e": [
+    "google",
+    "meta",
+    "nvidia",
+    "openai"
+   ],
+   "x": "OpenAI is talking about the AGI era, and Nvidia CEO Jensen Huang says AGI has arrived. At the same time, co-creators of today's models are leaving OpenAI, Googl",
+   "p": "2026-11-06T15:55:23Z",
+   "tf": "شماره ۵: اگر AGI خیلی نزدیک است، چرا همه می روند؟ نئوکارها و شرط های آنها"
+  },
+  {
+   "id": "7c70b636a2cf1bbd",
+   "d": "2026-11-06",
+   "t": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "business",
+   "b": "claude",
+   "e": [
+    "anthropic"
+   ],
+   "x": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI",
+   "p": "2026-11-06T15:54:47Z",
+   "tf": "داده های Ramp نشان می دهد که هزینه های AI به عنوان Anthropic نزدیک به IPO آن است"
+  },
+  {
+   "id": "4dd82e30103a49a1",
+   "d": "2026-11-06",
+   "t": "WoW: Forever takes 250,000 GB of memory to run, and I can't even joke about Sam Altman being jealous because that's almost nothing compared to the monolithic demands of AI",
+   "s": "pc-gamer",
+   "sn": "PC Gamer",
+   "c": "products",
+   "b": null,
+   "e": [],
+   "x": "That's a lotta gigs.",
+   "p": "2026-11-06T15:50:34Z",
+   "tf": "W: برای همیشه ۲۵۰،۰۰۰ گیگابایت حافظه برای اجرا کردن لازم است و من حتی نمی توانم درباره سام آلتمن شوخی کنم زیرا این تقریبا هیچ چیز در مقایسه با خواسته های یکنواخت AI نیست."
+  },
+  {
+   "id": "6326f73440011802",
+   "d": "2026-11-06",
+   "t": "More than 100 protesters break into Microsoft data center construction site in Amsterdam",
+   "s": "datacenter-dynamics",
+   "sn": "DatacenterDynamics",
+   "c": "hardware",
+   "b": null,
+   "e": [
+    "microsoft"
+   ],
+   "x": "Protesting water use, AI, and ties to Israel",
+   "p": "2026-11-06T15:13:00Z",
+   "tf": "بیش از 100 معترض به سایت ساخت و ساز مرکز داده مایکروسافت در آمستردام می روند"
+  },
+  {
+   "id": "bcbef1dba60b0dca",
+   "d": "2026-11-06",
+   "t": "Big Tech lost big in the 2026 election | The Vergecast",
+   "s": "verge-youtube",
+   "sn": "The Verge (YouTube)",
+   "c": "policy",
+   "b": null,
+   "e": [],
+   "x": "The 2026 midterm elections in the US ended in a sweeping win for Democrats — and several dozen sweeping losses for the AI industry. Nilay and David dig into wha",
+   "p": "2026-11-06T14:15:09Z",
+   "tf": "Big Tech در انتخابات 2026 بزرگ از دست داد"
+  },
+  {
+   "id": "4a6109d50595a193",
+   "d": "2026-11-06",
+   "t": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "Amazon said that the feature will roll out to millions of users in coming weeks.",
+   "p": "2026-11-06T14:10:00Z",
+   "tf": "پس از مسدود کردن Muse، آمازون در حال حاضر به کاربران اجازه می دهد الکسا را برای کمک به آنها ارسال کنند"
+  },
+  {
+   "id": "be1ba71e55b7f125",
+   "d": "2026-11-06",
+   "t": "ToyBlocks: A controlled world for robot learning and evaluation",
+   "s": "huggingface-blog",
+   "sn": "Hugging Face Blog",
+   "c": "open-source",
+   "b": null,
+   "e": [
+    "huggingface"
+   ],
+   "x": "",
+   "p": "2026-11-06T14:00:48Z",
+   "tf": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی"
+  },
+  {
+   "id": "6d64941928f18c9a",
+   "d": "2026-11-06",
+   "t": "Fearing AI disruption, white-collar workers are quitting their jobs",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "business",
+   "b": null,
+   "e": [
+    "anthropic"
+   ],
+   "x": "While there’s no evidence linking AI to mass layoffs, the tech has already ‘changed worker psychology’ When artificial intelligence researcher Mrinank Sharma qu",
+   "p": "2026-11-06T14:00:45Z",
+   "tf": "ترس از اختلال هوش مصنوعی، کارگران یقه سفید شغل خود را ترک می کنند"
+  },
+  {
+   "id": "35ab47bbc76cac8b",
+   "d": "2026-11-06",
+   "t": "Amazon will let you text Alexa your shopping list",
+   "s": "verge-ai",
+   "sn": "The Verge — AI",
+   "c": "products",
+   "b": null,
+   "e": [
+    "amazon"
+   ],
+   "x": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the produc",
+   "p": "2026-11-06T14:00:00Z",
+   "tf": "آمازون به شما اجازه می دهد لیست خرید خود را Alexa بنویسید"
+  },
+  {
+   "id": "6780ed5a02e91fec",
+   "d": "2026-11-06",
+   "t": "Teachers and parents: what are your experiences of AI-generated emails?",
+   "s": "guardian-ai",
+   "sn": "The Guardian — Artificial intelligence",
+   "c": "models",
+   "b": null,
+   "e": [
+    "anthropic",
+    "openai"
+   ],
+   "x": "We’d like to hear from teachers and parents about how AI is changing communication between schools and families As AI tools such as ChatGPT and Claude become in",
+   "p": "2026-11-06T13:55:43Z",
+   "tf": "معلمان و والدین: تجربیات شما از ایمیل های تولید شده توسط AI چیست؟"
+  },
+  {
+   "id": "27d6e52c02d10966",
+   "d": "2026-11-06",
+   "t": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+   "s": "the-decoder",
+   "sn": "The Decoder",
+   "c": "models",
+   "b": "claude",
+   "e": [
+    "anthropic"
+   ],
+   "x": "Nonprofit METR spent eleven weeks auditing Anthropic's internal research data and concluded that the pace of model development has roughly doubled, with about 8",
+   "p": "2026-11-06T13:40:07Z",
+   "tf": "METR پیدا می کند Anthropic ممکن است از آستانه هشدار شتاب هوش مصنوعی خود در ماه جولای عبور کرده باشد."
+  },
+  {
+   "id": "1d87f4b57f481e87",
+   "d": "2026-11-06",
+   "t": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+   "s": "the-decoder",
+   "sn": "The Decoder",
+   "c": "open-source",
+   "b": null,
+   "e": [
+    "openai"
+   ],
+   "x": "Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The com",
+   "p": "2026-11-06T13:25:09Z",
+   "tf": "ماشین های فکری ۲ ادعای کوچک در میان مدل های باز وزن غربی"
+  },
+  {
+   "id": "a394d9aad7a2ef16",
+   "d": "2026-11-06",
+   "t": "Underdog shows off a 32MB speech model in new demo",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "models",
+   "b": null,
+   "e": [],
+   "x": "Despite its small size, Underdog's new model can generate both speech and music.",
+   "p": "2026-11-06T13:02:16Z",
+   "tf": "Underdog یک مدل سخنرانی 32MB را در نسخه جدید نشان می دهد"
+  },
+  {
+   "id": "1f3694f5e3c91711",
+   "d": "2026-11-06",
+   "t": "Physicl raises $10M to make the digital world real enough for robots",
+   "s": "techcrunch-ai",
+   "sn": "TechCrunch AI",
+   "c": "business",
+   "b": null,
+   "e": [],
+   "x": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+   "p": "2026-11-06T13:00:00Z",
+   "tf": "فی نفسه 10 میلیون دلار برای ساخت دنیای دیجیتال به اندازه کافی واقعی برای ربات ها ایجاد می کند."
+  },
+  {
    "id": "44766e97c42926fe",
    "d": "2026-11-06",
    "t": "Protesters break into Microsoft data center site in Amsterdam",
@@ -163,6 +682,21 @@
    "x": "Asian and European markets follow Wall Street with sharp fall as FTSE down 1.9% Business live – latest updates European stock markets have fallen sharply as a r",
    "p": "2026-11-06T08:58:22Z",
    "tf": "سهام جهانی در میان ترس های کاهش هوش مصنوعی پس از پیروزی میان مدت دموکرات ها سقوط می کند"
+  },
+  {
+   "id": "bc8f9eac19663ff6",
+   "d": "2026-11-06",
+   "t": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "s": "openai-news",
+   "sn": "OpenAI News",
+   "c": "models",
+   "b": "openai",
+   "e": [
+    "openai"
+   ],
+   "x": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+   "p": "2026-11-06T08:00:00Z",
+   "tf": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI"
   },
   {
    "id": "7a7f412202689ee4",
