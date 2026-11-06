@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-06T11:33:13Z",
+ "asOf": "2026-11-06T12:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-05T11:33:13Z",
-   "to": "2026-11-06T11:33:13Z",
+   "from": "2026-11-05T12:00:00Z",
+   "to": "2026-11-06T12:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "83acf75ad16227a0",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 95.2,
         "topic": 85.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -106,15 +106,15 @@
       "eventId": "191007329f212d3a",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 64.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 94.5,
         "topic": 80.0,
         "novelty": 94.4
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -126,6 +126,65 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "44766e97c42926fe",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "excerpt": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some",
+      "lang": "en",
+      "publishedAt": "2026-11-06T11:55:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T12:13:07Z",
+      "day": "2026-11-06",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "microsoft",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "44766e97c42926fe",
+      "related": [],
+      "score": {
+       "total": 62.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-06T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شرکت کنندگان در سایت Microsoft Data Center در آمستردام",
+        "excerpt": "معترضان امروز صبح به یک سایت ساختمانی از یک مرکز داده جدید مایکروسافت در آمستردام شکسته اند. اعضای گروه Geef Tegengas به سازماندهی اعتراض علیه ساخت سه برج مرکز داده 85 متری در حومه آمستردام کمک کردند. رویترز گزارش می دهد که حدود 100 نفر آن را به محل ساخت و ساز تبدیل کرده اند و برخی از آن ها را به محل ساخت و ساز تبدیل کرده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T12:13:07Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -161,15 +220,15 @@
       "eventId": "93fc4c1ba090e949",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 62.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 89.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -180,7 +239,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -221,15 +280,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 61.1,
+       "total": 61.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 34.2,
+        "recency": 33.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -240,7 +299,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -280,15 +339,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 61.0,
+       "total": 60.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 34.7,
+        "recency": 33.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -296,61 +355,6 @@
         "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b58fee4edbbb5f7a",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "b58fee4edbbb5f7a",
-      "related": [],
-      "score": {
-       "total": 61.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 34.2,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-06T11:33:13Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
-        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -365,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-30T11:33:13Z",
-   "to": "2026-11-06T11:33:13Z",
+   "from": "2026-10-30T12:00:00Z",
+   "to": "2026-11-06T12:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,11 +410,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 83.3,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -461,15 +465,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.8,
+        "recency": 83.5,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -516,15 +520,15 @@
       "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 83.3,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -570,15 +574,15 @@
       "eventId": "82196d4ece0a644e",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.5,
+        "recency": 89.1,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -634,11 +638,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 34.8,
+        "recency": 34.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -688,15 +692,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.9,
+        "recency": 82.5,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -749,15 +753,15 @@
       "eventId": "7eab5dddcfa7727d",
       "related": [],
       "score": {
-       "total": 67.0,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.1,
+        "recency": 85.7,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -808,11 +812,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.8,
+        "recency": 85.4,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -833,8 +837,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-07T11:33:13Z",
-   "to": "2026-11-06T11:33:13Z",
+   "from": "2026-10-07T12:00:00Z",
+   "to": "2026-11-06T12:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -873,7 +877,7 @@
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -930,11 +934,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 72.9,
+        "recency": 72.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -991,11 +995,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1046,11 +1050,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1105,11 +1109,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1162,11 +1166,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 94.4,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1216,11 +1220,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 96.6,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1275,11 +1279,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.6,
+        "recency": 91.4,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1336,11 +1340,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 95.5,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1395,11 +1399,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.7,
+        "recency": 88.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T11:33:13Z"
+       "asOf": "2026-11-06T12:00:00Z"
       },
       "tr": {
        "fa": {
