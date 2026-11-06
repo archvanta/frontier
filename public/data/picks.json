@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-06T19:00:00Z",
+ "asOf": "2026-11-06T23:00:44Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,59 +10,56 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-05T19:00:00Z",
-   "to": "2026-11-06T19:00:00Z",
+   "from": "2026-11-05T23:00:44Z",
+   "to": "2026-11-06T23:00:44Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "ba5f1cdb14f57903",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "How to predict the behavior of molecules from scant data",
-      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "id": "5cecc12e376b047e",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "excerpt": "Writing code got faster. The work around it didn't. See how you can plan, write code, review changes, and investigate production issues with GitHub Copilot, and what work still needs your judgment.",
       "lang": "en",
-      "publishedAt": "2026-11-06T19:00:00Z",
+      "publishedAt": "2026-11-06T22:15:59Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T19:31:24Z",
+      "fetchedAt": "2026-11-06T23:33:40Z",
       "day": "2026-11-06",
-      "category": "research",
+      "category": "products",
       "tags": [
-       "research",
-       "drug discovery",
-       "chemical engineering",
-       "artificial intelligence",
-       "machine learning",
-       "chemistry"
+       "ai & ml",
+       "github copilot",
+       "github universe"
       ],
-      "entities": [],
+      "entities": [
+       "microsoft"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
-       "credit": "Image courtesy of the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "ba5f1cdb14f57903",
+      "eventId": "5cecc12e376b047e",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 95.8,
+        "topic": 65.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
-        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "title": "فراتر از تولید کد: راهنمای توسعه دهنده برای مهندسی عامل",
+        "excerpt": "نوشتن کد سریعتر شد. کار در اطراف آن انجام نشد. ببینید که چگونه می توانید برنامه ریزی، نوشتن کد، بررسی تغییرات و بررسی مسائل تولید با GitHub Copilot، و آنچه که کار هنوز به قضاوت شما نیاز دارد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T19:31:24Z"
+        "at": "2026-11-06T23:33:40Z"
        }
       }
      },
@@ -109,15 +106,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.9,
+        "recency": 69.7,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -132,6 +129,187 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 66.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 79.3,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-06T23:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1bc7ba2a28c4372d",
+      "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "excerpt": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed",
+      "lang": "en",
+      "publishedAt": "2026-11-06T23:00:44Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T23:33:40Z",
+      "day": "2026-11-06",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "nvidia",
+       "tech"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "1bc7ba2a28c4372d",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-06T23:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چین گزارش داده است که آژانس هوش مصنوعی را برای جاسوسی در Jensen Huang استخدام کرده است",
+        "excerpt": "آژانس اطلاعاتی چین، آلیس هوانگ، مدیر اجرایی مگا سرعت را استخدام کرد تا بر اساس نیویورک تایمز، مدیر عامل Nvidia Jensen Huang را جاسوسی کند. وزارت امنیت دولتی (MSS) او را به جمع آوری اطلاعات در مورد تراشه های AI آمریکایی و \"به طور بالقوه بر شرکت تأثیر می گذارد تا برای پیشرفته ترین تراشه های خود را به چین ساخته شده است.\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T23:33:40Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "44766e97c42926fe",
+      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "excerpt": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some",
+      "lang": "en",
+      "publishedAt": "2026-11-06T11:55:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T12:13:07Z",
+      "day": "2026-11-06",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "microsoft",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "44766e97c42926fe",
+      "related": [
+       "6326f73440011802"
+      ],
+      "score": {
+       "total": 65.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 52.7,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-06T23:00:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شرکت کنندگان در سایت Microsoft Data Center در آمستردام",
+        "excerpt": "معترضان امروز صبح به یک سایت ساختمانی از یک مرکز داده جدید مایکروسافت در آمستردام شکسته اند. اعضای گروه Geef Tegengas به سازماندهی اعتراض علیه ساخت سه برج مرکز داده 85 متری در حومه آمستردام کمک کردند. رویترز گزارش می دهد که حدود 100 نفر آن را به محل ساخت و ساز تبدیل کرده اند و برخی از آن ها را به محل ساخت و ساز تبدیل کرده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T12:13:07Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -169,196 +347,20 @@
       "eventId": "1007c961b5d3e491",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.5,
+        "recency": 74.9,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
         "title": "SageMaker Inference در حال حاضر از GPU Multi-Instance برای به حداکثر رساندن استفاده از GPU برای نقاط پایانی مدل پشتیبانی می کند.",
         "excerpt": "Amazon SageMaker Inference در حال حاضر از پارتیشن بندی GPU با NVIDIA Multi-Instance GPU (MIG) پشتیبانی می کند که یک GPU را به پارتیشن های سخت افزاری تقسیم می کند، بنابراین شما می توانید یک مدل مختلف را در هر کدام اجرا کنید یا یک بخش درست از یک شتاب دهنده جدید را بگیرید. این پست نشان می دهد که چگونه دو رشته API اختیاری یک مدل را در هر پارتیشن قرار می دهند و آنچه که ما در برابر یک GPU قدیمی اندازه گیری می کنیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "44766e97c42926fe",
-      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "excerpt": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some",
-      "lang": "en",
-      "publishedAt": "2026-11-06T11:55:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T12:13:07Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "microsoft",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "44766e97c42926fe",
-      "related": [
-       "6326f73440011802"
-      ],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 66.4,
-        "topic": 70.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-06T19:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شرکت کنندگان در سایت Microsoft Data Center در آمستردام",
-        "excerpt": "معترضان امروز صبح به یک سایت ساختمانی از یک مرکز داده جدید مایکروسافت در آمستردام شکسته اند. اعضای گروه Geef Tegengas به سازماندهی اعتراض علیه ساخت سه برج مرکز داده 85 متری در حومه آمستردام کمک کردند. رویترز گزارش می دهد که حدود 100 نفر آن را به محل ساخت و ساز تبدیل کرده اند و برخی از آن ها را به محل ساخت و ساز تبدیل کرده اند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T12:13:07Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2b3eb4eb79de73e7",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "excerpt": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless",
-      "lang": "en",
-      "publishedAt": "2026-11-06T16:00:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [
-       "ai",
-       "ai infrastructure",
-       "software",
-       "6g",
-       "open source",
-       "telecommunications"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-8.30.25-PM-scaled.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "2b3eb4eb79de73e7",
-      "related": [],
-      "score": {
-       "total": 66.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 75.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-06T19:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ابزارهای منبع باز NVIDIA به محققان کمک می کنند تا نسل بعدی 6G را بسازند",
-        "excerpt": "یک سال پیش، NVIDIA باز نرم افزار بی سیم هوایی خود را، پیوستن به Sionna و مجموعه گسترده ای از ابزارهای منبع باز برای سرعت بخشیدن به توسعه شبکه 6G بعدی. با هم، آنها یک پایه برای آزمایش ایده ها، مقایسه نتایج و ساخت بر روی کار یکدیگر - اتصال شبیه سازی و آموزش هوش مصنوعی با آزمایش های واقعی بر روی بی سیم هوا",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be1ba71e55b7f125",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-06T14:00:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
-      },
-      "eventId": "be1ba71e55b7f125",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 75.0,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-06T19:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-06T18:31:52Z"
        }
@@ -375,8 +377,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-30T19:00:00Z",
-   "to": "2026-11-06T19:00:00Z",
+   "from": "2026-10-30T23:00:44Z",
+   "to": "2026-11-06T23:00:44Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -413,15 +415,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 73.9,
+       "total": 73.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.4,
+        "recency": 89.9,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -476,15 +478,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 94.2,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -531,15 +533,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.0,
+        "recency": 86.5,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -591,15 +593,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.2,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -651,15 +653,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.9,
+        "recency": 74.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -711,15 +713,15 @@
       "eventId": "1007c961b5d3e491",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 95.3,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -772,15 +774,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 93.5,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -826,15 +828,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 91.7,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -855,8 +857,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-07T19:00:00Z",
-   "to": "2026-11-06T19:00:00Z",
+   "from": "2026-10-07T23:00:44Z",
+   "to": "2026-11-06T23:00:44Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,15 +889,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 75.7,
+       "total": 75.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 53.3,
+        "recency": 52.7,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -948,15 +950,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 75.5,
+       "total": 75.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 71.3,
+        "recency": 70.5,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1010,15 +1012,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 74.8,
+       "total": 74.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 98.0,
+        "recency": 96.8,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1066,15 +1068,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 95.8,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1126,15 +1128,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 72.8,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1185,15 +1187,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1245,15 +1247,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1299,15 +1301,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 97.4,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1359,15 +1361,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.0,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
@@ -1416,15 +1418,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 91.4,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T19:00:00Z"
+       "asOf": "2026-11-06T23:00:44Z"
       },
       "tr": {
        "fa": {
