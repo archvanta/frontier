@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-06T00:37:56Z",
+ "asOf": "2026-11-06T11:33:13Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,59 +10,180 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-05T00:37:56Z",
-   "to": "2026-11-06T00:37:56Z",
+   "from": "2026-11-05T11:33:13Z",
+   "to": "2026-11-06T11:33:13Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "c88b52d0b21039c7",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "id": "83acf75ad16227a0",
+      "url": "https://www.theguardian.com/world/2026/nov/06/autonomous-weapons-ai-russia-us-binding-rules",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Russia and US seek to block plan for binding rules on autonomous weapons",
+      "excerpt": "UN conference this month seen as key moment after years of discussions on filling gap in governance of AI systems Plans to fill a gap in the global governance of autonomous weapons are in jeopardy as a group of nations led by Russia and the US move to use a UN conference this month to block proposals to negotiate a legally binding set of rules. The scale of the opposition will become clear at a…",
       "lang": "en",
-      "publishedAt": "2026-11-05T20:00:00Z",
+      "publishedAt": "2026-11-06T11:08:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-06T11:37:00Z",
+      "day": "2026-11-06",
+      "category": "policy",
+      "tags": [
+       "united nations",
+       "weapons technology",
+       "ai (artificial intelligence)",
+       "technology",
+       "world news"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/2b97461e84807bb32749b118516d8352f35b3813/781_0_4661_3731/master/4661.jpg?width=700&quality=85&auto=format&fit=max&s=05a15b58fdb28dc2ecd24c8d3a614520",
+       "credit": "Photograph: Majid Asgaripour/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "c88b52d0b21039c7",
+      "eventId": "83acf75ad16227a0",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 65.6,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 76.5,
-        "topic": 100.0,
-        "novelty": 77.8
+        "recency": 97.7,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
-        "title": "Cult.fit عضله عملیاتی را با Codex می سازد",
-        "excerpt": "Cult.fit استفاده از Codex برای کمک به تیم ها در سراسر توابع ساخت ابزار، حرکت سریع تر و تغییر نحوه کار انجام می شود.",
+        "title": "روسیه و آمریکا به دنبال مسدود کردن برنامه برای قوانین الزام آور در سلاح های مستقل هستند",
+        "excerpt": "کنفرانس سازمان ملل در ماه جاری به عنوان لحظه ای کلیدی پس از سالها بحث در مورد پر کردن شکاف در برنامه های سیستم های هوش مصنوعی برای پر کردن شکاف در حکومت جهانی سلاح های مستقل در معرض خطر قرار گرفته است، زیرا گروهی از کشورها که توسط روسیه رهبری می شوند و ایالات متحده برای استفاده از یک کنفرانس سازمان ملل متحد در ماه جاری برای جلوگیری از طرح های قانونی الزام آور قوانین. مقیاس اپوزیسیون در یک ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
+        "at": "2026-11-06T11:37:00Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "191007329f212d3a",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/06/nigel-farage-telegraph-story-newspaper-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Nigel Farage's exit from the Telegraph may be cause for cheer. But there’s a sobering side to this story | Jane Martinson",
+      "excerpt": "The clear-out at the newspaper seems driven less by politics than by a shift towards AI – and journalism will pay the price Nigel Farage has been writing columns for the Daily Telegraph since 2016, most of which have promoted the previously Brexit and now Reform UK party he leads, or accused his rivals of going soft on immigration. For this privilege the paper’s cash-strapped bosses paid him…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T11:00:51Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T11:37:00Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "daily telegraph",
+       "axel springer",
+       "national newspapers",
+       "newspapers",
+       "nigel farage",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/1d80f91989798dd54d6156df6ae90f2f174980ec/302_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=faa890582faec7aeae17cd1e7a22ea26",
+       "credit": "Photograph: Tejas Sandhu/SOPA Images/Shutterstock",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "191007329f212d3a",
+      "related": [],
+      "score": {
+       "total": 64.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.9,
+        "topic": 80.0,
+        "novelty": 94.4
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "خروج نایجل فاراژ از تلگراف ممکن است برای تشویق ایجاد شود. اما یک طرف هوشیار به این داستان وجود دارد: جین مارتینسون",
+        "excerpt": "واضح بودن روزنامه به نظر می رسد که سیاست کمتر از تغییر در سمت هوش مصنوعی است و روزنامه نگاری قیمت نایجل فاراژ را از سال 2016 برای روزنامه دیلی تلگراف پرداخت می کند که اکثر آنها پیش از این برکسیت را ارتقاء داده اند و اکنون حزب اصلاح انگلستان را که او رهبری می کند، یا رقبای خود را متهم می کند که در مهاجرت نرم می کنند. برای این امتیاز، رؤسای پول نقد کاغذی به او پرداخت کردند...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T11:37:00Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "93fc4c1ba090e949",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+      "sourceId": "mit-tech-review-ai",
+      "sourceName": "MIT Technology Review — AI",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T10:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T11:37:00Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "artificial intelligence",
+       "app",
+       "summary"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "93fc4c1ba090e949",
+      "related": [],
+      "score": {
+       "total": 63.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 91.4,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک ربات انسانی را دیدم که آپارتمانم را تمیز می کرد. احساس می کرد طعم آینده است.",
+        "excerpt": "من فردی نیستم که به طور معمول برای تمیز کردن خانه هزینه می کند. من خیلی بدم و از قرار دادن یک پادکست و رفتن به شهر در وان من با یک Eraser جادویی لذت می برم. اما هنگامی که من یک پست X را در مورد یک سرویس پاکسازی انسان نما و ربات جدید در سان فرانسیسکو دیدم، بلافاصله امضا کردم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T11:37:00Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -100,15 +221,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 67.2,
+       "total": 61.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.3,
+        "recency": 34.2,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -119,7 +240,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -159,15 +280,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 61.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.2,
+        "recency": 34.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -178,246 +299,7 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7eab5dddcfa7727d",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those",
-      "lang": "en",
-      "publishedAt": "2026-11-05T20:00:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "hardware",
-       "networking",
-       "software",
-       "agentic ai",
-       "nvidia vera"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "7eab5dddcfa7727d",
-      "related": [],
-      "score": {
-       "total": 65.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 76.6,
-        "topic": 70.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Vera بهترین هر دو جهان را تحویل می دهد: Highest Throughput و Fastest Agents",
-        "excerpt": "عوامل هوش مصنوعی بیش از تولید پاسخ عمل می کنند. آنها به دنبال اطلاعات، پایگاه های داده، نوشتن و کد تست هستند و اقدام می کنند. هر یک از این مراحل به یک CPU متکی است، با عواملی که بین استدلال GPU و اجرای CPU در طول یک کار حرکت می کنند. همانطور که کسب و کارها عوامل بیشتری را برای کار قرار می دهند، کارخانه های AI به CPU هایی نیاز دارند که بتوانند آن ها را اجرا کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e8690f74b67f5698",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-05T19:35:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-      },
-      "eventId": "e8690f74b67f5698",
-      "related": [],
-      "score": {
-       "total": 64.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.7,
-        "topic": 75.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های جدید NVIDIA Cosmos 3 Open Models for Interactive World شبیه سازی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "56a03da12c0bbf17",
-      "related": [],
-      "score": {
-       "total": 63.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 60.8,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "weekly": {
-   "from": "2026-10-30T00:37:56Z",
-   "to": "2026-11-06T00:37:56Z",
-   "halfLifeHours": 72,
-   "picks": [
-    {
-     "article": {
-      "id": "d7e9e3e89ee778d6",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "gemini models",
-       "developer tools",
-       "ai"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "d7e9e3e89ee778d6",
-      "related": [
-       "003a6dd08e360129"
-      ],
-      "score": {
-       "total": 72.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.9,
-        "topic": 100.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
-        "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 1,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -453,15 +335,15 @@
       "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 61.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 34.2,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -472,7 +354,74 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-10-30T11:33:13Z",
+   "to": "2026-11-06T11:33:13Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "d7e9e3e89ee778d6",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "gemini models",
+       "developer tools",
+       "ai"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "d7e9e3e89ee778d6",
+      "related": [
+       "003a6dd08e360129"
+      ],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.6,
+        "topic": 100.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
+        "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 1,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -512,15 +461,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 83.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -528,6 +477,61 @@
         "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T02:52:00Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "b58fee4edbbb5f7a",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.6,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -541,50 +545,46 @@
     },
     {
      "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
+      "id": "82196d4ece0a644e",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
+      "publishedAt": "2026-11-06T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
+      "fetchedAt": "2026-11-06T11:37:00Z",
+      "day": "2026-11-06",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "google"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "url": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/open-asr-leaderboard-liva"
       },
-      "eventId": "56a03da12c0bbf17",
+      "eventId": "82196d4ece0a644e",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.0,
-        "topic": 80.0,
+        "recency": 89.5,
+        "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
+        "title": "زبان انگلیسی مصری و نیجریه به Open ASR Leaderboard پیوست",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
+        "at": "2026-11-06T11:37:00Z"
        }
       }
      },
@@ -630,15 +630,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 69.0,
+       "total": 68.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 38.7,
+        "recency": 34.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -654,6 +654,646 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-05T16:01:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T16:32:15Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "56a03da12c0bbf17",
+      "related": [],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 82.9,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T16:32:15Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7eab5dddcfa7727d",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those",
+      "lang": "en",
+      "publishedAt": "2026-11-05T20:00:41Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "hardware",
+      "tags": [
+       "ai infrastructure",
+       "hardware",
+       "networking",
+       "software",
+       "agentic ai",
+       "nvidia vera"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "7eab5dddcfa7727d",
+      "related": [],
+      "score": {
+       "total": 67.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.1,
+        "topic": 70.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Vera بهترین هر دو جهان را تحویل می دهد: Highest Throughput و Fastest Agents",
+        "excerpt": "عوامل هوش مصنوعی بیش از تولید پاسخ عمل می کنند. آنها به دنبال اطلاعات، پایگاه های داده، نوشتن و کد تست هستند و اقدام می کنند. هر یک از این مراحل به یک CPU متکی است، با عواملی که بین استدلال GPU و اجرای CPU در طول یک کار حرکت می کنند. همانطور که کسب و کارها عوامل بیشتری را برای کار قرار می دهند، کارخانه های AI به CPU هایی نیاز دارند که بتوانند آن ها را اجرا کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e8690f74b67f5698",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-05T19:35:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      },
+      "eventId": "e8690f74b67f5698",
+      "related": [],
+      "score": {
+       "total": 66.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 85.8,
+        "topic": 75.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های جدید NVIDIA Cosmos 3 Open Models for Interactive World شبیه سازی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "monthly": {
+   "from": "2026-10-07T11:33:13Z",
+   "to": "2026-11-06T11:33:13Z",
+   "halfLifeHours": 240,
+   "picks": [
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 75.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 54.4,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0dbf0226aa90a12c",
+      "related": [
+       "32791f69eb2c329e",
+       "998ff01b393f5b93"
+      ],
+      "score": {
+       "total": 75.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 72.9,
+        "topic": 70.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T23:40:44Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d7e9e3e89ee778d6",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "gemini models",
+       "developer tools",
+       "ai"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "d7e9e3e89ee778d6",
+      "related": [
+       "003a6dd08e360129"
+      ],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.8,
+        "topic": 100.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
+        "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T02:52:00Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "b58fee4edbbb5f7a",
+      "related": [],
+      "score": {
+       "total": 73.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.8,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T02:52:00Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "80b8f077bc42c9db",
+      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:14:11Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "pXRZyOxbDL4",
+       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+      },
+      "eventId": "80b8f077bc42c9db",
+      "related": [],
+      "score": {
+       "total": 73.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.8,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-05T16:01:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T16:32:15Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "56a03da12c0bbf17",
+      "related": [],
+      "score": {
+       "total": 70.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.5,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T16:32:15Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "82196d4ece0a644e",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-06T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T11:37:00Z",
+      "day": "2026-11-06",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/open-asr-leaderboard-liva/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/open-asr-leaderboard-liva"
+      },
+      "eventId": "82196d4ece0a644e",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.7,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "زبان انگلیسی مصری و نیجریه به Open ASR Leaderboard پیوست",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T11:37:00Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "16de4ca3c25d3eed",
+      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Clearing up a robot’s fuzzy memory",
+      "excerpt": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T07:27:39Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "research",
+       "computer science and technology",
+       "algorithms",
+       "artificial intelligence",
+       "machine learning",
+       "robotics"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
+       "credit": "Credit: MIT News; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "16de4ca3c25d3eed",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.6,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-06T11:33:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پاکسازی حافظه فازی ربات",
+        "excerpt": "یک سیستم جدید شناسایی و تصحیح توصیف های غیر قابل اعتماد شی ذخیره شده در حافظه ربات، بهبود توانایی ربات برای تعامل با محیط زیست خود را.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T07:27:39Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -700,7 +1340,7 @@
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -711,603 +1351,7 @@
        }
       }
      },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e8690f74b67f5698",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-05T19:35:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-      },
-      "eventId": "e8690f74b67f5698",
-      "related": [],
-      "score": {
-       "total": 68.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.3,
-        "topic": 75.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های جدید NVIDIA Cosmos 3 Open Models for Interactive World شبیه سازی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "477cff6d6b4c7941",
-      "url": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-      "excerpt": "Chris Alexiuk has a simple rule about open source AI: If you believe in it, be loud about it. “We should be shouting about this technology from the rooftops,” said Alexiuk, a Toronto-based senior product research engineer in deep learning at NVIDIA who specializes in making open large language models (LLMs) practical for working developers.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:00:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "open-source",
-      "tags": [
-       "ai",
-       "nvidia life",
-       "agentic ai",
-       "nemotron",
-       "nemotron labs",
-       "open source"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Chris-Alexiuk_portrait-scaled.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "file",
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ChrisAlexiuk_captions_9MB.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "477cff6d6b4c7941",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.0,
-        "topic": 75.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جادوگر وزن باز: کریس الکسیوک AI را با مدل های باز آسان می کند",
-        "excerpt": "کریس الکسوک یک قاعده ساده در مورد AI منبع باز دارد: اگر به آن اعتقاد دارید، در مورد آن با صدای بلند باشید. \"ما باید در مورد این تکنولوژی از پشت بام ها فریاد بزنیم\"، الکسیوک، مهندس ارشد تحقیقات محصول تورنتو در یادگیری عمیق در NVIDIA که متخصص در ساخت مدل های زبان بزرگ باز (LLMs) برای توسعه دهندگان کار است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "monthly": {
-   "from": "2026-10-07T00:37:56Z",
-   "to": "2026-11-06T00:37:56Z",
-   "halfLifeHours": 240,
-   "picks": [
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 76.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 75.2,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 76.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 56.2,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d7e9e3e89ee778d6",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "gemini models",
-       "developer tools",
-       "ai"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "d7e9e3e89ee778d6",
-      "related": [
-       "003a6dd08e360129"
-      ],
-      "score": {
-       "total": 73.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.8,
-        "topic": 100.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
-        "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "80b8f077bc42c9db",
-      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:14:11Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "pXRZyOxbDL4",
-       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
-      },
-      "eventId": "80b8f077bc42c9db",
-      "related": [],
-      "score": {
-       "total": 73.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b58fee4edbbb5f7a",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "b58fee4edbbb5f7a",
-      "related": [],
-      "score": {
-       "total": 73.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.8,
-        "topic": 100.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
-        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "56a03da12c0bbf17",
-      "related": [],
-      "score": {
-       "total": 70.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.5,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "16de4ca3c25d3eed",
-      "url": "https://news.mit.edu/2026/clearing-up-robot-fuzzy-memory-1105",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Clearing up a robot’s fuzzy memory",
-      "excerpt": "A new system identifies and corrects unreliable object descriptions stored in a robot’s memory, improving the robot’s ability to interact with its environment.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T07:27:39Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "research",
-       "computer science and technology",
-       "algorithms",
-       "artificial intelligence",
-       "machine learning",
-       "robotics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Confident-Mem-01-press.jpg?itok=N_4ApjRl",
-       "credit": "Credit: MIT News; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "16de4ca3c25d3eed",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.5,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پاکسازی حافظه فازی ربات",
-        "excerpt": "یک سیستم جدید شناسایی و تصحیح توصیف های غیر قابل اعتماد شی ذخیره شده در حافظه ربات، بهبود توانایی ربات برای تعامل با محیط زیست خود را.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T07:27:39Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7eab5dddcfa7727d",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those",
-      "lang": "en",
-      "publishedAt": "2026-11-05T20:00:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "hardware",
-       "networking",
-       "software",
-       "agentic ai",
-       "nvidia vera"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "7eab5dddcfa7727d",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.7,
-        "topic": 70.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Vera بهترین هر دو جهان را تحویل می دهد: Highest Throughput و Fastest Agents",
-        "excerpt": "عوامل هوش مصنوعی بیش از تولید پاسخ عمل می کنند. آنها به دنبال اطلاعات، پایگاه های داده، نوشتن و کد تست هستند و اقدام می کنند. هر یک از این مراحل به یک CPU متکی است، با عواملی که بین استدلال GPU و اجرای CPU در طول یک کار حرکت می کنند. همانطور که کسب و کارها عوامل بیشتری را برای کار قرار می دهند، کارخانه های AI به CPU هایی نیاز دارند که بتوانند آن ها را اجرا کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1347,15 +1391,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.6,
+        "recency": 88.7,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-06T00:37:56Z"
+       "asOf": "2026-11-06T11:33:13Z"
       },
       "tr": {
        "fa": {
@@ -1363,60 +1407,6 @@
         "excerpt": "استخراج داده ها و مدل سازی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-04T18:41:20Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e8690f74b67f5698",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-05T19:35:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/677c471f8b4c4e271e57eaa5/rtmGVvFdD6JqkjBc26vsp.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
-      },
-      "eventId": "e8690f74b67f5698",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 75.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-06T00:37:56Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های جدید NVIDIA Cosmos 3 Open Models for Interactive World شبیه سازی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
        }
       }
      },
