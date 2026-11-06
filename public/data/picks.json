@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-05T22:40:55Z",
+ "asOf": "2026-11-06T00:37:56Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,22 +10,22 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-04T22:40:55Z",
-   "to": "2026-11-05T22:40:55Z",
+   "from": "2026-11-05T00:37:56Z",
+   "to": "2026-11-06T00:37:56Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "80b8f077bc42c9db",
-      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+      "id": "c88b52d0b21039c7",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:14:11Z",
+      "publishedAt": "2026-11-05T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-06T02:52:00Z",
       "day": "2026-11-05",
       "category": "models",
       "tags": [],
@@ -34,34 +34,28 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "pXRZyOxbDL4",
-       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
-      },
-      "eventId": "80b8f077bc42c9db",
+      "eventId": "c88b52d0b21039c7",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.0,
+        "recency": 76.5,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 77.8
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+        "title": "Cult.fit عضله عملیاتی را با Codex می سازد",
+        "excerpt": "Cult.fit استفاده از Codex برای کمک به تیم ها در سراسر توابع ساخت ابزار، حرکت سریع تر و تغییر نحوه کار انجام می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -106,15 +100,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 68.7,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.0,
+        "recency": 64.3,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -135,50 +129,50 @@
     },
     {
      "article": {
-      "id": "5e845585dbaf7b01",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
-      "excerpt": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.",
+      "id": "80b8f077bc42c9db",
+      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
       "lang": "en",
-      "publishedAt": "2026-11-05T18:06:43Z",
+      "publishedAt": "2026-11-05T17:14:11Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-05T22:24:22Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [
-       "amazon sagemaker ai",
-       "best practices",
-       "expert (400)"
-      ],
+      "tags": [],
       "entities": [
-       "amazon"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-20598-1.png",
-       "alt": "Block diagram of the VLM-based multi-model fusion approach with VLM, OCR, and classifier components",
+       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "5e845585dbaf7b01",
+      "video": {
+       "provider": "youtube",
+       "id": "pXRZyOxbDL4",
+       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+      },
+      "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.8,
+        "recency": 65.2,
         "topic": 100.0,
-        "novelty": 81.8
+        "novelty": 90.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه بازار آمازون کیفیت محتوا را با آمازون SageMaker AI ارزیابی می کند",
-        "excerpt": "یاد بگیرید که چگونه بازار آمازون کیفیت محتوای A + را در مقیاس در آمازون SageMaker AI ارزیابی می کند با ارائه هر صفحه محصول به عنوان یک عکس فوری، به دست آوردن آن با یک مدل بصری زبان با سیگنال های خوانایی OCR در یک کلاس CatBoost و استفاده از SHAP برای تبدیل هر تصمیم به اولویت بندی، توصیه های عملی برای فروش شرکای.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
        }
@@ -226,15 +220,15 @@
       "eventId": "7eab5dddcfa7727d",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 65.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 76.6,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -281,15 +275,15 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 74.7,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -309,58 +303,50 @@
     },
     {
      "article": {
-      "id": "f987c08b0331cb48",
-      "url": "https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
-      "excerpt": "Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.",
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
       "lang": "en",
-      "publishedAt": "2026-11-05T21:04:24Z",
+      "publishedAt": "2026-11-05T16:01:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-05T16:32:15Z",
       "day": "2026-11-05",
-      "category": "products",
+      "category": "research",
       "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "intermediate (200)",
-       "technical how-to"
+       "health & bioscience",
+       "machine intelligence"
       ],
       "entities": [
-       "amazon"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22248-1.png",
-       "alt": "Architecture diagram of a Web Answer request: an agent calls the Gateway, which authenticates the request and invokes the Web Answer connector, which plans and runs parallel web searches, verifies fac",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "video": {
-       "provider": "file",
-       "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22248/web_answer_storylane_demo_video.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "f987c08b0331cb48",
+      "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 63.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.1,
-        "topic": 65.0,
-        "novelty": 70.0
+        "recency": 60.8,
+        "topic": 80.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
-        "title": "شروع کار با Web Answer در Amazon Bedrock Agent",
-        "excerpt": "پاسخ وب در Amazon Bedrock AgentCore یک پاسخ سنتز شده، منبع به یک سوال زبان طبیعی در یک تماس ابزار، بدون جستجو، بازیابی، سنتز و انتقال خط لوله برای ساخت است. یاد بگیرید که چگونه کار می کند و چگونه آن را به یک دروازه AgentCore اضافه کنید و آن را از یک نماینده صدا کنید.",
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-05T16:32:15Z"
        }
       }
      },
@@ -375,8 +361,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-29T22:40:55Z",
-   "to": "2026-11-05T22:40:55Z",
+   "from": "2026-10-30T00:37:56Z",
+   "to": "2026-11-06T00:37:56Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -412,15 +398,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 73.2,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 92.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -432,6 +418,61 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "lang": "en",
+      "publishedAt": "2026-11-05T17:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T02:52:00Z",
+      "day": "2026-11-05",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "b58fee4edbbb5f7a",
+      "related": [],
+      "score": {
+       "total": 72.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.9,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-06T00:37:56Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T02:52:00Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -471,79 +512,20 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 93.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
         "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5e845585dbaf7b01",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Amazon Marketplace evaluates content quality with Amazon SageMaker AI",
-      "excerpt": "Learn how Amazon Marketplace evaluates A+ Content quality at scale on Amazon SageMaker AI by rendering each product page as a single snapshot, scoring it with a vision-language model fused with OCR readability signals in a CatBoost classifier, and using SHAP to turn each decision into prioritized, actionable recommendations for selling partners.",
-      "lang": "en",
-      "publishedAt": "2026-11-05T18:06:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
-      "tags": [
-       "amazon sagemaker ai",
-       "best practices",
-       "expert (400)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-20598-1.png",
-       "alt": "Block diagram of the VLM-based multi-model fusion approach with VLM, OCR, and classifier components",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "5e845585dbaf7b01",
-      "related": [],
-      "score": {
-       "total": 72.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.7,
-        "topic": 100.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-05T22:40:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه بازار آمازون کیفیت محتوا را با آمازون SageMaker AI ارزیابی می کند",
-        "excerpt": "یاد بگیرید که چگونه بازار آمازون کیفیت محتوای A + را در مقیاس در آمازون SageMaker AI ارزیابی می کند با ارائه هر صفحه محصول به عنوان یک عکس فوری، به دست آوردن آن با یک مدل بصری زبان با سیگنال های خوانایی OCR در یک کلاس CatBoost و استفاده از SHAP برای تبدیل هر تصمیم به اولویت بندی، توصیه های عملی برای فروش شرکای.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
        }
@@ -587,15 +569,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 92.0,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -607,67 +589,6 @@
       }
      },
      "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7eab5dddcfa7727d",
-      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those",
-      "lang": "en",
-      "publishedAt": "2026-11-05T20:00:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "hardware",
-      "tags": [
-       "ai infrastructure",
-       "hardware",
-       "networking",
-       "software",
-       "agentic ai",
-       "nvidia vera"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "7eab5dddcfa7727d",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.5,
-        "topic": 70.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-05T22:40:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Vera بهترین هر دو جهان را تحویل می دهد: Highest Throughput و Fastest Agents",
-        "excerpt": "عوامل هوش مصنوعی بیش از تولید پاسخ عمل می کنند. آنها به دنبال اطلاعات، پایگاه های داده، نوشتن و کد تست هستند و اقدام می کنند. هر یک از این مراحل به یک CPU متکی است، با عواملی که بین استدلال GPU و اجرای CPU در طول یک کار حرکت می کنند. همانطور که کسب و کارها عوامل بیشتری را برای کار قرار می دهند، کارخانه های AI به CPU هایی نیاز دارند که بتوانند آن ها را اجرا کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -709,15 +630,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 39.4,
+        "recency": 38.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -728,11 +649,72 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 5,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7eab5dddcfa7727d",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those",
+      "lang": "en",
+      "publishedAt": "2026-11-05T20:00:41Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T22:24:22Z",
+      "day": "2026-11-05",
+      "category": "hardware",
+      "tags": [
+       "ai infrastructure",
+       "hardware",
+       "networking",
+       "software",
+       "agentic ai",
+       "nvidia vera"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/tech-blog-cpu-architecture-angled-vera-rack-5769445-1920x1080-1.png",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "7eab5dddcfa7727d",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.6,
+        "topic": 70.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-06T00:37:56Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Vera بهترین هر دو جهان را تحویل می دهد: Highest Throughput و Fastest Agents",
+        "excerpt": "عوامل هوش مصنوعی بیش از تولید پاسخ عمل می کنند. آنها به دنبال اطلاعات، پایگاه های داده، نوشتن و کد تست هستند و اقدام می کنند. هر یک از این مراحل به یک CPU متکی است، با عواملی که بین استدلال GPU و اجرای CPU در طول یک کار حرکت می کنند. همانطور که کسب و کارها عوامل بیشتری را برای کار قرار می دهند، کارخانه های AI به CPU هایی نیاز دارند که بتوانند آن ها را اجرا کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -765,15 +747,15 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 95.3,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -830,15 +812,15 @@
       "eventId": "477cff6d6b4c7941",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 92.0,
         "topic": 75.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -860,8 +842,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-06T22:40:55Z",
-   "to": "2026-11-05T22:40:55Z",
+   "from": "2026-10-07T00:37:56Z",
+   "to": "2026-11-06T00:37:56Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -898,15 +880,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 75.6,
+        "recency": 75.2,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -954,15 +936,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 76.3,
+       "total": 76.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 56.5,
+        "recency": 56.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1014,15 +996,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1073,15 +1055,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1102,20 +1084,20 @@
     },
     {
      "article": {
-      "id": "53c56afbaf05f856",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
-      "excerpt": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "lang": "en",
-      "publishedAt": "2026-11-05T09:00:00Z",
+      "publishedAt": "2026-11-05T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-06T02:52:00Z",
       "day": "2026-11-05",
       "category": "models",
       "tags": [
-       "product"
+       "company"
       ],
       "entities": [
        "openai"
@@ -1125,25 +1107,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "53c56afbaf05f856",
+      "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 97.8,
         "topic": 100.0,
-        "novelty": 90.0
+        "novelty": 91.7
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
-        "title": "GPT-6 Cyber: ارتقاء مرز عوامل امنیت سایبری",
-        "excerpt": "معرفی مدل امنیت سایبری GPT-6، OpenAI برای یافتن آسیب پذیری های قابل بهره برداری و توسعه اصلاحات، آموزش دیده برای ماندن در محدوده مجاز.",
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -1185,15 +1167,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 97.5,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1245,15 +1227,15 @@
       "eventId": "16de4ca3c25d3eed",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 94.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1306,15 +1288,15 @@
       "eventId": "7eab5dddcfa7727d",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.7,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1365,15 +1347,15 @@
       "eventId": "d8fa341b96c36837",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 91.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
@@ -1420,15 +1402,15 @@
       "eventId": "e8690f74b67f5698",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.6,
         "topic": 75.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-05T22:40:55Z"
+       "asOf": "2026-11-06T00:37:56Z"
       },
       "tr": {
        "fa": {
