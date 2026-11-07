@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-07T10:00:08Z",
+ "asOf": "2026-11-07T12:32:45Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,187 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-06T10:00:08Z",
-   "to": "2026-11-07T10:00:08Z",
+   "from": "2026-11-06T12:32:45Z",
+   "to": "2026-11-07T12:32:45Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "8879475e62b3793a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation",
+      "lang": "en",
+      "publishedAt": "2026-11-07T12:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T13:14:48Z",
+      "day": "2026-11-07",
+      "category": "research",
+      "tags": [
+       "ai",
+       "anthropic"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "8879475e62b3793a",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-07T12:32:45Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا یک گزارش جدید در مورد توسعه هوش مصنوعی Anthropic محققان هشدار دهنده است",
+        "excerpt": "Anthropic استفاده از AI برای ساخت هوش مصنوعی قوی تر است. و به نظر می رسد به خوبی کار می کند، با مدل های این شرکت تقریبا دو برابر سریع تر از یک سال پیش، با نشانه های کمی از کند شدن. با توجه به یک گزارش جدید که روز پنجشنبه توسط سازمان تحقیقات ایمنی AI METR منتشر شده است، پس از یک تحقیق 11 هفته ای",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T13:14:48Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b64f9c5c9d11790b",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/07/steve-jones-dangerous-tech-innovations-cartoon-ai-fire",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Steve Jones on dangerous tech innovations – cartoon",
+      "excerpt": "Continue reading...",
+      "lang": "en",
+      "publishedAt": "2026-11-07T11:00:09Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T13:14:48Z",
+      "day": "2026-11-07",
+      "category": "policy",
+      "tags": [
+       "technology",
+       "ai (artificial intelligence)",
+       "uk news",
+       "science"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/86994054c0f6a4c972c5c9ffc994a75e79ab91f4/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=b61a9d0748e90cc3d1f20d3e5f8963c5",
+       "credit": "Illustration: Steve Jones/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "b64f9c5c9d11790b",
+      "related": [],
+      "score": {
+       "total": 64.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 91.5,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-07T12:32:45Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "استیو جونز در نوآوری های تکنولوژی خطرناک – کارتونی",
+        "excerpt": "ادامه خواندن ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T13:14:48Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3e407aae56c89ae9",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+      "excerpt": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias is \"applied late, it is applied thin,\" the team writes. The article State…",
+      "lang": "en",
+      "publishedAt": "2026-11-07T12:32:45Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T13:14:48Z",
+      "day": "2026-11-07",
+      "category": "models",
+      "tags": [
+       "ai research",
+       "artificial intelligence",
+       "ai and china",
+       "china",
+       "open claw",
+       "open source"
+      ],
+      "entities": [
+       "alibaba"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/arete-27b-01-hero.jpg",
+       "alt": "A snow-covered, pointed rocky ridge against a dark night sky, rendered in a bluish, grainy style, with the text “ARETE-27B” in white serif font above it.",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "3e407aae56c89ae9",
+      "related": [],
+      "score": {
+       "total": 61.8,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-07T12:32:45Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات دولتی در برخی از مدل های هوش مصنوعی چینی تنها \"یک لایه نازک\" است که زیبایی می تواند از بین برود.",
+        "excerpt": "Nous Research Qwen3.8B علی بابا را برای تولید Arete-27B، که عمدتاً از تعصب طرفدار چینی خود محروم می کند، آموزش داد. نرخ تبلیغات از 22 درصد به کمتر از یک درصد کاهش یافت، در حالی که قابلیت های عمومی در تست ها دست نخورده باقی مانده اند. این روش به 53 میلیون توکن نظارت شده بر زیبایی بستگی دارد. تعصب سیاسی \" دیر شده است، نازک شده است\"، تیم می نویسد. دولت مقاله ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T13:14:48Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
     {
      "article": {
       "id": "b7ff11958707349f",
@@ -47,15 +224,15 @@
       "eventId": "b7ff11958707349f",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 60.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 86.3,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +243,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -76,122 +253,59 @@
     },
     {
      "article": {
-      "id": "19c8ee7bb3b05fa3",
-      "url": "https://www.theguardian.com/money/2026/nov/07/can-ai-save-you-money-heating-bill",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Can AI really save you money on your heating bill? I spent two years testing to find out",
-      "excerpt": "Samuel Gibbs doubted he could cut costs and still keep warm by putting tech in control. The results surprised him Can smart thermostats and AI reduce your heating bills? Every manufacturer claims the answer is yes, quoting average savings in the 25%, or £180 a year range. But all of these promises are heavily caveated and, with energy costs changing regularly, it can be very difficult to tell…",
+      "id": "7689272c32cddea8",
+      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "excerpt": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
       "lang": "en",
-      "publishedAt": "2026-11-07T07:00:07Z",
+      "publishedAt": "2026-11-07T11:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
+      "fetchedAt": "2026-11-07T13:14:48Z",
       "day": "2026-11-07",
-      "category": "policy",
+      "category": "business",
       "tags": [
-       "energy bills",
-       "ai (artificial intelligence)",
-       "energy efficiency",
-       "saving money",
-       "household bills",
-       "consumer affairs"
+       "gear",
+       "gear / how to and advice",
+       "health care",
+       "digital health",
+       "tips",
+       "apps"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/a602f8453b41164785519bbae64ff4051677f8c0/857_0_4341_3471/master/4341.jpg?width=700&quality=85&auto=format&fit=max&s=36ed6162a93a88ad3129c51aa333b4e1",
-       "credit": "Photograph: Peter Dazeley/Getty Images",
+       "url": "https://media.wired.com/photos/6aed04343576db1689ab3d03/master/pass/Caregiving%20app.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "19c8ee7bb3b05fa3",
+      "eventId": "7689272c32cddea8",
       "related": [],
       "score": {
-       "total": 62.7,
+       "total": 59.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 85.0,
-        "novelty": 91.7
+        "recency": 91.5,
+        "topic": 55.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا AI واقعا می تواند پول شما را در قبض گرمایش شما صرفه جویی کند؟ دو سال تست کردم تا بفهمم",
-        "excerpt": "ساموئل گیبز شک کرد که می تواند هزینه ها را کاهش دهد و همچنان با قرار دادن تکنولوژی در کنترل گرم بماند. نتایج شگفت زده شد که آیا ترموستات های هوشمند و AI می توانند صورتحساب های گرمایشی شما را کاهش دهند؟ هر تولید کننده ادعا می کند که پاسخ بله، میانگین پس انداز در 25 درصد یا 180 پوند در سال است. اما همه این وعده ها به شدت مورد توجه قرار می گیرند و با هزینه های انرژی که به طور منظم تغییر می کنند، می توان گفت...",
+        "title": "برنامه هایی برای مراقبان یک Dose از AI دریافت می کنند، اما ممکن است به اندازه کافی نباشد.",
+        "excerpt": "برنامه ها و سیستم عامل هایی که به مراقبان خانواده کمک می کنند نیازهای عزیزان خود را مدیریت کنند، توانایی بیشتری دارند، اما مسئله گسترده تر رفاه مراقبان حل نشده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
+        "at": "2026-11-07T13:14:48Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "44766e97c42926fe",
-      "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "excerpt": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people made it into the construction site, with some",
-      "lang": "en",
-      "publishedAt": "2026-11-06T11:55:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T12:13:07Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "microsoft",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "44766e97c42926fe",
-      "related": [
-       "6326f73440011802"
-      ],
-      "score": {
-       "total": 60.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 27.9,
-        "topic": 70.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-07T10:00:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "شرکت کنندگان در سایت Microsoft Data Center در آمستردام",
-        "excerpt": "معترضان امروز صبح به یک سایت ساختمانی از یک مرکز داده جدید مایکروسافت در آمستردام شکسته اند. اعضای گروه Geef Tegengas به سازماندهی اعتراض علیه ساخت سه برج مرکز داده 85 متری در حومه آمستردام کمک کردند. رویترز گزارش می دهد که حدود 100 نفر آن را به محل ساخت و ساز تبدیل کرده اند و برخی از آن ها را به محل ساخت و ساز تبدیل کرده اند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T12:13:07Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -228,15 +342,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 60.5,
+       "total": 59.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 47.7,
+        "recency": 41.2,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -244,127 +358,6 @@
         "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T00:08:47Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 60.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 53.5,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-07T10:00:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc2d0068f56d93e1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
-      "excerpt": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T16:45:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon",
-       "anthropic",
-       "microsoft"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21719-1.png",
-       "alt": "Architecture of the sample. Claude Code, through a local MCP server, or a web console served by Amazon CloudFront with AWS WAF, submits tasks to Amazon API Gateway. AWS Lambda handlers screen each pro",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "bc2d0068f56d93e1",
-      "related": [],
-      "score": {
-       "total": 60.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 37.0,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-07T10:00:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گسترش کلود کد به جلسات از راه دور در Amazon Bedrock Agent با کنترل های امنیتی",
-        "excerpt": "اجرای کد کلود به عنوان یک عامل از راه دور در Amazon Bedrock Agent. هر کار برنامه نویسی در جلسه جداگانه خود در حساب AWS خود اجرا می شود، هر تماس مدل از طریق Amazon Bedrock می رود و نتیجه به عنوان یک درخواست کشویی GitHub شما بررسی و ادغام می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
@@ -379,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-10-31T10:00:08Z",
-   "to": "2026-11-07T10:00:08Z",
+   "from": "2026-10-31T12:32:45Z",
+   "to": "2026-11-07T12:32:45Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -417,15 +410,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 71.4,
+       "total": 71.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.9,
+        "recency": 78.9,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -480,15 +473,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.7,
+        "recency": 82.7,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -535,15 +528,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.9,
+        "recency": 76.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -594,15 +587,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.4,
+        "recency": 86.3,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -654,15 +647,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 67.8,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 67.4,
+        "recency": 65.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -674,6 +667,65 @@
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "821a1a5e3df62a26",
+      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
+      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T23:10:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T10:43:01Z",
+      "day": "2026-11-06",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "784YQBiZArk",
+       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
+      },
+      "eventId": "821a1a5e3df62a26",
+      "related": [],
+      "score": {
+       "total": 67.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.9,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-07T12:32:45Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
+        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T10:43:01Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -714,15 +766,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.6,
+        "recency": 84.5,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -730,65 +782,6 @@
         "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-06T19:31:24Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 67.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.1,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-07T10:00:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
        }
       }
      },
@@ -802,60 +795,62 @@
     },
     {
      "article": {
-      "id": "1007c961b5d3e491",
-      "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-      "excerpt": "Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU.",
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
       "lang": "en",
-      "publishedAt": "2026-11-06T18:01:00Z",
+      "publishedAt": "2026-11-01T21:55:23Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
       "category": "hardware",
       "tags": [
-       "amazon sagemaker ai",
-       "announcements",
-       "intermediate (200)"
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
       ],
       "entities": [
-       "amazon",
-       "nvidia"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-1-1.png",
-       "alt": "Output tokens per second versus concurrency for an H100 mig-3g.40gb partition and a full A100-40GB across five traffic shapes",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
       },
-      "eventId": "1007c961b5d3e491",
-      "related": [],
+      "eventId": "0dbf0226aa90a12c",
+      "related": [
+       "32791f69eb2c329e",
+       "998ff01b393f5b93"
+      ],
       "score": {
-       "total": 66.8,
+       "total": 66.7,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.7,
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 27.4,
         "topic": 70.0,
-        "novelty": 91.7
+        "novelty": 80.0
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
-        "title": "SageMaker Inference در حال حاضر از GPU Multi-Instance برای به حداکثر رساندن استفاده از GPU برای نقاط پایانی مدل پشتیبانی می کند.",
-        "excerpt": "Amazon SageMaker Inference در حال حاضر از پارتیشن بندی GPU با NVIDIA Multi-Instance GPU (MIG) پشتیبانی می کند که یک GPU را به پارتیشن های سخت افزاری تقسیم می کند، بنابراین شما می توانید یک مدل مختلف را در هر کدام اجرا کنید یا یک بخش درست از یک شتاب دهنده جدید را بگیرید. این پست نشان می دهد که چگونه دو رشته API اختیاری یک مدل را در هر پارتیشن قرار می دهند و آنچه که ما در برابر یک GPU قدیمی اندازه گیری می کنیم.",
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
+        "at": "2026-11-01T23:40:44Z"
        }
       }
      },
      "rank": 8,
-     "sources": 1,
+     "sources": 3,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -863,8 +858,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-08T10:00:08Z",
-   "to": "2026-11-07T10:00:08Z",
+   "from": "2026-10-08T12:32:45Z",
+   "to": "2026-11-07T12:32:45Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -895,15 +890,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 75.2,
+       "total": 75.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 51.0,
+        "recency": 50.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -956,15 +951,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 68.3,
+        "recency": 67.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1018,15 +1013,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 73.9,
+       "total": 73.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.8,
+        "recency": 93.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1074,15 +1069,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 92.1,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1134,15 +1129,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1163,52 +1158,48 @@
     },
     {
      "article": {
-      "id": "80b8f077bc42c9db",
-      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:14:11Z",
+      "publishedAt": "2026-11-05T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-06T02:52:00Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "company"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "pXRZyOxbDL4",
-       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
-      },
-      "eventId": "80b8f077bc42c9db",
+      "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.9,
+        "recency": 88.2,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 91.7
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -1253,15 +1244,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 95.1,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1273,6 +1264,59 @@
       }
      },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "be1ba71e55b7f125",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-06T14:00:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
+      },
+      "eventId": "be1ba71e55b7f125",
+      "related": [],
+      "score": {
+       "total": 68.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.7,
+        "topic": 75.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-07T12:32:45Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T18:31:52Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1312,15 +1356,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.2,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
@@ -1328,59 +1372,6 @@
         "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be1ba71e55b7f125",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-06T14:00:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
-      },
-      "eventId": "be1ba71e55b7f125",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-07T10:00:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
@@ -1394,50 +1385,54 @@
     },
     {
      "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
+      "id": "2b3eb4eb79de73e7",
+      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+      "excerpt": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless",
       "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
+      "publishedAt": "2026-11-06T16:00:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "open-source",
       "tags": [
-       "health & bioscience",
-       "machine intelligence"
+       "ai",
+       "ai infrastructure",
+       "software",
+       "6g",
+       "open source",
+       "telecommunications"
       ],
       "entities": [
-       "google"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-8.30.25-PM-scaled.png",
        "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "eventId": "56a03da12c0bbf17",
+      "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
-        "topic": 80.0,
-        "novelty": 92.3
+        "recency": 94.2,
+        "topic": 75.0,
+        "novelty": 86.7
        },
-       "asOf": "2026-11-07T10:00:08Z"
+       "asOf": "2026-11-07T12:32:45Z"
       },
       "tr": {
        "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
+        "title": "چگونه ابزارهای منبع باز NVIDIA به محققان کمک می کنند تا نسل بعدی 6G را بسازند",
+        "excerpt": "یک سال پیش، NVIDIA باز نرم افزار بی سیم هوایی خود را، پیوستن به Sionna و مجموعه گسترده ای از ابزارهای منبع باز برای سرعت بخشیدن به توسعه شبکه 6G بعدی. با هم، آنها یک پایه برای آزمایش ایده ها، مقایسه نتایج و ساخت بر روی کار یکدیگر - اتصال شبیه سازی و آموزش هوش مصنوعی با آزمایش های واقعی بر روی بی سیم هوا",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
+        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
