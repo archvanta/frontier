@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-07T12:32:45Z",
+ "asOf": "2026-11-07T16:31:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,60 +10,182 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-06T12:32:45Z",
-   "to": "2026-11-07T12:32:45Z",
+   "from": "2026-11-06T16:31:00Z",
+   "to": "2026-11-07T16:31:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "8879475e62b3793a",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
-      "excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation",
+      "id": "022e329a512042ed",
+      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Standing in the way of slop bowls: the woman blocking food delivery robots",
+      "excerpt": "Semi-retired professor Carolyn Marvin became a local celebrity facing down Philadelphia’s growing robot delivery army: ‘It’s my first amendment right to protest’ “One of you needs to be on the lookout for cops, while I block the robot, OK?” It is a crisp fall morning in Philadelphia. Tucked away in a dingy alley, opposite a garage called Patriot Parking, 78-year-old Carolyn Marvin is laying out…",
       "lang": "en",
-      "publishedAt": "2026-11-07T12:30:00Z",
+      "publishedAt": "2026-11-07T14:00:12Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T13:14:48Z",
+      "fetchedAt": "2026-11-07T16:39:45Z",
       "day": "2026-11-07",
-      "category": "research",
+      "category": "policy",
       "tags": [
-       "ai",
-       "anthropic"
+       "robots",
+       "gig economy",
+       "ai (artificial intelligence)",
+       "protest (us)",
+       "couriers/delivery industry",
+       "philadelphia"
       ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://i.guim.co.uk/img/media/6c9b99624b2d4f830d94948c591fde5d07839cf9/148_0_6358_5086/master/6358.jpg?width=700&quality=85&auto=format&fit=max&s=eda3c37bb7a206699007077ac919dfd4",
+       "credit": "Photograph: Kriston Jae Bethel/The Guardian",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "8879475e62b3793a",
+      "eventId": "022e329a512042ed",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 63.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 80.0,
-        "novelty": 85.7
+        "recency": 86.5,
+        "topic": 85.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چرا یک گزارش جدید در مورد توسعه هوش مصنوعی Anthropic محققان هشدار دهنده است",
-        "excerpt": "Anthropic استفاده از AI برای ساخت هوش مصنوعی قوی تر است. و به نظر می رسد به خوبی کار می کند، با مدل های این شرکت تقریبا دو برابر سریع تر از یک سال پیش، با نشانه های کمی از کند شدن. با توجه به یک گزارش جدید که روز پنجشنبه توسط سازمان تحقیقات ایمنی AI METR منتشر شده است، پس از یک تحقیق 11 هفته ای",
+        "title": "ایستادن در راه کاسه های شل: زن مسدود کردن ربات های تحویل غذا",
+        "excerpt": "کارول مارین ماروین، استاد نیمه محرمانه، یک مشهور محلی بود که با ارتش رو به رشد روبات فیلادلفیا روبرو شد: \"این اولین اصلاحیه من در اعتراض است\" \"یکی از شما باید در جستجوی پلیس باشید، در حالی که من ربات را مسدود می کنم، خوب است؟\" صبح در فیلادلفیا سقوط است. در یک کوچه مخفی، در مقابل یک گاراژ به نام پارک پاتریوت، کارول مارین Marvin 78 ساله در حال بیرون رفتن است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T13:14:48Z"
+        "at": "2026-11-07T16:39:45Z"
        }
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fa06ff8fdc83e259",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "excerpt": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best",
+      "lang": "en",
+      "publishedAt": "2026-11-07T15:50:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T16:39:45Z",
+      "day": "2026-11-07",
+      "category": "products",
+      "tags": [
+       "ai",
+       "reviews",
+       "smart home reviews",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "fa06ff8fdc83e259",
+      "related": [],
+      "score": {
+       "total": 62.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.1,
+        "topic": 65.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-07T16:31:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دستیار هوش مصنوعی آشپزی NYT، مرغ شبانه ام را نجات داد، اما تقریبا کیک من را خراب کرد.",
+        "excerpt": "تقریبا 7PM در هر شب، من خودم را در مقابل یخچال ایستاده ام، سعی می کنم در مورد چیزی برای شام تصمیم بگیرم که شوهرم را به شکایت وادار کند، \"دوباره تنبل؟\" بله، من باید برنامه غذایی بیشتری داشته باشم، اما نه، بنابراین این جایی است که من در آن هستم. یک نبرد شبانه که در آن مرغ معمولا برنده می شود. به تازگی، بهترین",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T16:39:45Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "73be1ddc7ff24f89",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell",
+      "lang": "en",
+      "publishedAt": "2026-11-07T15:43:45Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T16:39:45Z",
+      "day": "2026-11-07",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "news",
+       "nvidia",
+       "policy",
+       "politics",
+       "tech"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "An image of Nvidia’s logo",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "73be1ddc7ff24f89",
+      "related": [],
+      "score": {
+       "total": 62.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 95.6,
+        "topic": 70.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-07T16:31:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایالات متحده اجازه می دهد Nvidia تراشه ها را به یک دفتر خالی در چین بفروشد",
+        "excerpt": "نگرانی ها مطرح می شود که نه وزارت بازرگانی و نه Nvidia در هنگام بررسی شرکت های چینی برای رسیدگی به تراشه های H200 AI شرکت، تلاش خود را انجام نمی دهند. به گفته نیویورک تایمز، ماتریس جدید در فهرست شرکت های تایید شده قرار دارد، اما دفاتر آن خالی هستند، \"یک پوسته خاکستری توخالی\"",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T16:39:45Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -102,15 +224,15 @@
       "eventId": "b64f9c5c9d11790b",
       "related": [],
       "score": {
-       "total": 64.0,
+       "total": 60.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 72.7,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -118,128 +240,6 @@
         "excerpt": "ادامه خواندن ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T13:14:48Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3e407aae56c89ae9",
-      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
-      "excerpt": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of supervised fine-tuning. The political bias is \"applied late, it is applied thin,\" the team writes. The article State…",
-      "lang": "en",
-      "publishedAt": "2026-11-07T12:32:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T13:14:48Z",
-      "day": "2026-11-07",
-      "category": "models",
-      "tags": [
-       "ai research",
-       "artificial intelligence",
-       "ai and china",
-       "china",
-       "open claw",
-       "open source"
-      ],
-      "entities": [
-       "alibaba"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/arete-27b-01-hero.jpg",
-       "alt": "A snow-covered, pointed rocky ridge against a dark night sky, rendered in a bluish, grainy style, with the text “ARETE-27B” in white serif font above it.",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "3e407aae56c89ae9",
-      "related": [],
-      "score": {
-       "total": 61.8,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-07T12:32:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تبلیغات دولتی در برخی از مدل های هوش مصنوعی چینی تنها \"یک لایه نازک\" است که زیبایی می تواند از بین برود.",
-        "excerpt": "Nous Research Qwen3.8B علی بابا را برای تولید Arete-27B، که عمدتاً از تعصب طرفدار چینی خود محروم می کند، آموزش داد. نرخ تبلیغات از 22 درصد به کمتر از یک درصد کاهش یافت، در حالی که قابلیت های عمومی در تست ها دست نخورده باقی مانده اند. این روش به 53 میلیون توکن نظارت شده بر زیبایی بستگی دارد. تعصب سیاسی \" دیر شده است، نازک شده است\"، تیم می نویسد. دولت مقاله ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T13:14:48Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "b7ff11958707349f",
-      "url": "https://www.theguardian.com/technology/2026/nov/07/datacentres-southeast-asia",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The datacentre arms race hits pause in south-east Asia",
-      "excerpt": "Power and water constraints are pressuring what seemed like a juggernaut of growth for the region just months ago In early 2026, Thailand’s datacentre industry was on a roll. The country’s board of investment had recently announced approval of datacentre projects from Tiktok, a UAE-based Skyline datacentre and Singapore’s Bridge datacentres, totalling a planned investment of $27bn. As the year…",
-      "lang": "en",
-      "publishedAt": "2026-11-07T10:00:07Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-07",
-      "category": "hardware",
-      "tags": [
-       "technology",
-       "ai (artificial intelligence)",
-       "datacentres",
-       "world news",
-       "thailand",
-       "asia pacific"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/97317ac683d16a9b43f8f91ba651c0c5be5113a7/836_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=3014dfe2a5cf5c69d1636d3eb399d068",
-       "credit": "Photograph: Thai News Pix/LightRocket/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "b7ff11958707349f",
-      "related": [],
-      "score": {
-       "total": 60.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 86.3,
-        "topic": 70.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-07T12:32:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مسابقه اسلحه های مرکز داده در جنوب شرق آسیا متوقف شد",
-        "excerpt": "محدودیت های قدرت و آب، آنچه را که به نظر می رسید مانند یک گلگیر رشد برای منطقه، درست چند ماه پیش در اوایل سال 2026، صنعت داده مرکزی تایلند در یک رول بود، تحت فشار قرار داد. هیئت مدیره سرمایه گذاری این کشور به تازگی تایید پروژه های داده محور از Tiktok، مرکز داده های Skyline امارات متحده عربی و مرکز داده های پل سنگاپور را اعلام کرده است که مجموع سرمایه گذاری برنامه ریزی شده ۲۷ میلیارد دلار است. به عنوان سال ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
        }
       }
      },
@@ -253,127 +253,128 @@
     },
     {
      "article": {
-      "id": "7689272c32cddea8",
-      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
-      "excerpt": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+      "id": "bc2d0068f56d93e1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
+      "excerpt": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
       "lang": "en",
-      "publishedAt": "2026-11-07T11:00:00Z",
+      "publishedAt": "2026-11-06T16:45:58Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T13:14:48Z",
-      "day": "2026-11-07",
-      "category": "business",
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "models",
       "tags": [
-       "gear",
-       "gear / how to and advice",
-       "health care",
-       "digital health",
-       "tips",
-       "apps"
+       "amazon bedrock",
+       "amazon bedrock agentcore",
+       "expert (400)",
+       "technical how-to"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "amazon",
+       "anthropic",
+       "microsoft"
+      ],
+      "brand": "claude",
       "image": {
-       "url": "https://media.wired.com/photos/6aed04343576db1689ab3d03/master/pass/Caregiving%20app.jpg",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21719-1.png",
+       "alt": "Architecture of the sample. Claude Code, through a local MCP server, or a web console served by Amazon CloudFront with AWS WAF, submits tasks to Amazon API Gateway. AWS Lambda handlers screen each pro",
        "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "7689272c32cddea8",
+      "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 59.3,
+       "total": 57.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
-        "topic": 55.0,
-        "novelty": 87.5
+        "recency": 25.4,
+        "topic": 100.0,
+        "novelty": 76.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
-        "title": "برنامه هایی برای مراقبان یک Dose از AI دریافت می کنند، اما ممکن است به اندازه کافی نباشد.",
-        "excerpt": "برنامه ها و سیستم عامل هایی که به مراقبان خانواده کمک می کنند نیازهای عزیزان خود را مدیریت کنند، توانایی بیشتری دارند، اما مسئله گسترده تر رفاه مراقبان حل نشده است.",
+        "title": "گسترش کلود کد به جلسات از راه دور در Amazon Bedrock Agent با کنترل های امنیتی",
+        "excerpt": "اجرای کد کلود به عنوان یک عامل از راه دور در Amazon Bedrock Agent. هر کار برنامه نویسی در جلسه جداگانه خود در حساب AWS خود اجرا می شود، هر تماس مدل از طریق Amazon Bedrock می رود و نتیجه به عنوان یک درخواست کشویی GitHub شما بررسی و ادغام می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T13:14:48Z"
+        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "7baf06e1004e3e7a",
-      "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
-      "excerpt": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and…",
+      "id": "c7cadefc098fe5f0",
+      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+      "excerpt": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at all. The article Thinking Machines' Inkling 2 Small drops 316 F-bombs across…",
       "lang": "en",
-      "publishedAt": "2026-11-06T21:11:34Z",
+      "publishedAt": "2026-11-07T16:31:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T00:08:47Z",
-      "day": "2026-11-06",
-      "category": "policy",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-07T16:39:45Z",
+      "day": "2026-11-07",
+      "category": "research",
+      "tags": [
+       "ai in practice",
+       "artificial intelligence",
+       "short news",
+       "ai research"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/hJOwOkLHRN0/hqdefault.jpg",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/neural_network_black.png",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "hJOwOkLHRN0",
-       "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0"
-      },
-      "eventId": "7baf06e1004e3e7a",
+      "eventId": "c7cadefc098fe5f0",
       "related": [],
       "score": {
-       "total": 59.2,
+       "total": 57.6,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 41.2,
-        "topic": 85.0,
-        "novelty": 81.8
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 76.5
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
-        "title": "LifeVal: اندازه گیری پیشرفت هوش مصنوعی در کارهایی که در زندگی روزمره مهم هستند.",
-        "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
+        "title": "تصور ماشین آلات 2 قطره کوچک 316 بمب F در سراسر معیار",
+        "excerpt": "مدل هوش مصنوعی ماشین فکر کردن، 2 قسم کوچک را در طول استدلال داخلی خود به کار می برد، 316 بار در سراسر 2,655 معیار اجرا می شود، با توجه به تجزیه و تحلیل والز AI. به طور معمول در اجرای طولانی که به هر حال شکست می خورد، دیر می شود. اما به عنوان یک سیگنال هشدار دهنده عمل نمی کند: 96 درصد از اجراهای شکست خورده در هیچ شرایطی وجود ندارد. مقاله ای که ماشین های فکر می کنند، 2 قطره کوچک 316 بمب در سراسر جهان را تشکیل می دهد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T00:08:47Z"
+        "at": "2026-11-07T16:39:45Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-10-31T12:32:45Z",
-   "to": "2026-11-07T12:32:45Z",
+   "from": "2026-10-31T16:31:00Z",
+   "to": "2026-11-07T16:31:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -410,15 +411,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 71.0,
+       "total": 70.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 78.9,
+        "recency": 75.9,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -473,15 +474,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.7,
+        "recency": 79.6,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -528,15 +529,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.0,
+        "recency": 73.1,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -587,15 +588,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.3,
+        "recency": 83.0,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -647,15 +648,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 67.5,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.8,
+        "recency": 63.3,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -667,65 +668,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.9,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-07T12:32:45Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -766,15 +708,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.5,
+        "recency": 81.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -782,6 +724,65 @@
         "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "821a1a5e3df62a26",
+      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
+      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T23:10:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T10:43:01Z",
+      "day": "2026-11-06",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "784YQBiZArk",
+       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
+      },
+      "eventId": "821a1a5e3df62a26",
+      "related": [],
+      "score": {
+       "total": 66.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.6,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-07T16:31:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
+        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T10:43:01Z"
        }
       }
      },
@@ -827,15 +828,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 66.7,
+       "total": 66.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 27.4,
+        "recency": 26.3,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -858,8 +859,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-08T12:32:45Z",
-   "to": "2026-11-07T12:32:45Z",
+   "from": "2026-10-08T16:31:00Z",
+   "to": "2026-11-07T16:31:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -890,15 +891,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 75.1,
+       "total": 75.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 50.6,
+        "recency": 50.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -951,15 +952,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 74.8,
+       "total": 74.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 67.8,
+        "recency": 67.0,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1013,15 +1014,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 73.8,
+       "total": 73.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.1,
+        "recency": 92.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1069,15 +1070,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 91.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1129,15 +1130,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.2,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1184,15 +1185,15 @@
       "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.2,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1244,15 +1245,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 94.0,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1298,15 +1299,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 92.6,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1356,15 +1357,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.1,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
@@ -1417,15 +1418,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 93.2,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-07T12:32:45Z"
+       "asOf": "2026-11-07T16:31:00Z"
       },
       "tr": {
        "fa": {
