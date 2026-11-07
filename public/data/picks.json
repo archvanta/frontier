@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-07T16:31:00Z",
+ "asOf": "2026-11-07T18:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-06T16:31:00Z",
-   "to": "2026-11-07T16:31:00Z",
+   "from": "2026-11-06T18:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -47,15 +47,15 @@
       "eventId": "022e329a512042ed",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 61.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -104,15 +104,15 @@
       "eventId": "fa06ff8fdc83e259",
       "related": [],
       "score": {
-       "total": 62.3,
+       "total": 60.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 88.2,
         "topic": 65.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -166,15 +166,15 @@
       "eventId": "73be1ddc7ff24f89",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 60.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 87.7,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -224,15 +224,15 @@
       "eventId": "b64f9c5c9d11790b",
       "related": [],
       "score": {
-       "total": 60.3,
+       "total": 59.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 72.7,
+        "recency": 66.8,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -253,128 +253,126 @@
     },
     {
      "article": {
-      "id": "bc2d0068f56d93e1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
-      "excerpt": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T16:45:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon",
-       "anthropic",
-       "microsoft"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21719-1.png",
-       "alt": "Architecture of the sample. Claude Code, through a local MCP server, or a web console served by Amazon CloudFront with AWS WAF, submits tasks to Amazon API Gateway. AWS Lambda handlers screen each pro",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "bc2d0068f56d93e1",
-      "related": [],
-      "score": {
-       "total": 57.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 25.4,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-07T16:31:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گسترش کلود کد به جلسات از راه دور در Amazon Bedrock Agent با کنترل های امنیتی",
-        "excerpt": "اجرای کد کلود به عنوان یک عامل از راه دور در Amazon Bedrock Agent. هر کار برنامه نویسی در جلسه جداگانه خود در حساب AWS خود اجرا می شود، هر تماس مدل از طریق Amazon Bedrock می رود و نتیجه به عنوان یک درخواست کشویی GitHub شما بررسی و ادغام می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c7cadefc098fe5f0",
-      "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs",
+      "id": "020ac8fbca2d32b4",
+      "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
       "sourceId": "the-decoder",
       "sourceName": "The Decoder",
-      "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
-      "excerpt": "Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at all. The article Thinking Machines' Inkling 2 Small drops 316 F-bombs across…",
+      "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+      "excerpt": "AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catch most agent misbehavior but flood reviewers with false…",
       "lang": "en",
-      "publishedAt": "2026-11-07T16:31:00Z",
+      "publishedAt": "2026-11-07T16:56:38Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T16:39:45Z",
+      "fetchedAt": "2026-11-07T18:05:51Z",
       "day": "2026-11-07",
       "category": "research",
       "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "ai research"
+       "ai research",
+       "artificial intelligence"
       ],
-      "entities": [],
+      "entities": [
+       "anthropic",
+       "openai"
+      ],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/neural_network_black.png",
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/ai_auditing_reliability.png",
        "kind": "feed",
        "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "c7cadefc098fe5f0",
+      "eventId": "020ac8fbca2d32b4",
       "related": [],
       "score": {
        "total": 57.6,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 94.1,
         "topic": 80.0,
-        "novelty": 76.5
+        "novelty": 87.5
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تصور ماشین آلات 2 قطره کوچک 316 بمب F در سراسر معیار",
-        "excerpt": "مدل هوش مصنوعی ماشین فکر کردن، 2 قسم کوچک را در طول استدلال داخلی خود به کار می برد، 316 بار در سراسر 2,655 معیار اجرا می شود، با توجه به تجزیه و تحلیل والز AI. به طور معمول در اجرای طولانی که به هر حال شکست می خورد، دیر می شود. اما به عنوان یک سیگنال هشدار دهنده عمل نمی کند: 96 درصد از اجراهای شکست خورده در هیچ شرایطی وجود ندارد. مقاله ای که ماشین های فکر می کنند، 2 قطره کوچک 316 بمب در سراسر جهان را تشکیل می دهد.",
+        "title": "حسابرسان هوش مصنوعی بیشترین سوء رفتار عامل را به دست می آورند اما بررسی های سیل با هشدارهای دروغین، مطالعه جدید پیدا می کند",
+        "excerpt": "مدل های AI اغلب می توانند رفتار مشکل ساز را توسط دیگر عوامل AI در logs، با توجه به یک مطالعه توسط محقق Anthropic Andy Hall، نشان دهند. GPT-5 حدود 98 درصد از موارد هک پاداش را پیدا کرد، اما به طور کامل جستجو تنظیم شده است، هشدارهای کاذب بیشتر افزایش می یابد. این هنوز برای بررسی های ایمنی قابل اعتماد کافی نیست. حسابرسان هوش مصنوعی بیشترین سوء رفتار عامل را دریافت می کنند اما بررسی کنندگان سیل با کاذب ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T16:39:45Z"
+        "at": "2026-11-07T18:05:51Z"
        }
       }
      },
-     "rank": 6,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
       "top-factor-recency"
      ]
+    },
+    {
+     "article": {
+      "id": "7baf06e1004e3e7a",
+      "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+      "excerpt": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T21:11:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T00:08:47Z",
+      "day": "2026-11-06",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/hJOwOkLHRN0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "hJOwOkLHRN0",
+       "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0"
+      },
+      "eventId": "7baf06e1004e3e7a",
+      "related": [],
+      "score": {
+       "total": 57.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 30.1,
+        "topic": 85.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-07T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "LifeVal: اندازه گیری پیشرفت هوش مصنوعی در کارهایی که در زندگی روزمره مهم هستند.",
+        "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T00:08:47Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-10-31T16:31:00Z",
-   "to": "2026-11-07T16:31:00Z",
+   "from": "2026-10-31T18:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -411,15 +409,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 75.9,
+        "recency": 74.9,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -474,15 +472,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.6,
+        "recency": 78.4,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -529,15 +527,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.1,
+        "recency": 72.1,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -588,15 +586,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.0,
+        "recency": 81.8,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +646,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 67.0,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 63.3,
+        "recency": 62.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -668,125 +666,6 @@
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ba5f1cdb14f57903",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "How to predict the behavior of molecules from scant data",
-      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T19:31:24Z",
-      "day": "2026-11-06",
-      "category": "research",
-      "tags": [
-       "research",
-       "drug discovery",
-       "chemical engineering",
-       "artificial intelligence",
-       "machine learning",
-       "chemistry"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
-       "credit": "Image courtesy of the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "ba5f1cdb14f57903",
-      "related": [],
-      "score": {
-       "total": 66.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.3,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-07T16:31:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
-        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T19:31:24Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 66.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.6,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-07T16:31:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -832,11 +711,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 26.3,
+        "recency": 26.0,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -847,7 +726,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 6,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -855,12 +734,131 @@
       "first-report",
       "top-factor-reliability"
      ]
+    },
+    {
+     "article": {
+      "id": "821a1a5e3df62a26",
+      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
+      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T23:10:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T10:43:01Z",
+      "day": "2026-11-06",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "784YQBiZArk",
+       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
+      },
+      "eventId": "821a1a5e3df62a26",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.4,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-07T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
+        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T10:43:01Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.1,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-07T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
     }
    ]
   },
   "monthly": {
-   "from": "2026-10-08T16:31:00Z",
-   "to": "2026-11-07T16:31:00Z",
+   "from": "2026-10-08T18:00:00Z",
+   "to": "2026-11-07T18:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -895,11 +893,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 50.1,
+        "recency": 49.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -952,15 +950,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 74.7,
+       "total": 74.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 67.0,
+        "recency": 66.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1014,15 +1012,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.1,
+        "recency": 91.7,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1038,61 +1036,6 @@
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc8f9eac19663ff6",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bc8f9eac19663ff6",
-      "related": [],
-      "score": {
-       "total": 71.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.0,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-07T16:31:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
-        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1134,11 +1077,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 86.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1146,6 +1089,61 @@
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bc8f9eac19663ff6",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "bc8f9eac19663ff6",
+      "related": [],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.6,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-07T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
+        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
@@ -1159,48 +1157,52 @@
     },
     {
      "article": {
-      "id": "b58fee4edbbb5f7a",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "id": "80b8f077bc42c9db",
+      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
+      "publishedAt": "2026-11-05T17:14:11Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
+      "fetchedAt": "2026-11-05T22:24:22Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [
-       "company"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b58fee4edbbb5f7a",
+      "video": {
+       "provider": "youtube",
+       "id": "pXRZyOxbDL4",
+       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+      },
+      "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 86.9,
         "topic": 100.0,
-        "novelty": 91.7
+        "novelty": 90.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
-        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
+        "at": "2026-11-05T22:24:22Z"
        }
       }
      },
@@ -1245,15 +1247,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 93.6,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1299,15 +1301,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 92.2,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1357,15 +1359,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 94.7,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1418,15 +1420,15 @@
       "eventId": "2b3eb4eb79de73e7",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 92.8,
         "topic": 75.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-07T16:31:00Z"
+       "asOf": "2026-11-07T18:00:00Z"
       },
       "tr": {
        "fa": {
