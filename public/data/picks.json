@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-08T00:00:00Z",
+ "asOf": "2026-11-08T06:00:33Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-07T00:00:00Z",
-   "to": "2026-11-08T00:00:00Z",
+   "from": "2026-11-07T06:00:33Z",
+   "to": "2026-11-08T06:00:33Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "08249d244a8316d2",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "excerpt": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T06:00:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T06:44:30Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "hacking",
+       "cyberwar",
+       "cybercrime",
+       "internet",
+       "technology",
+       "data and computer security"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=700&quality=85&auto=format&fit=max&s=0eca8f0a9a8d4f19518dca607ea61688",
+       "credit": "Composite: Guardian Design/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "08249d244a8316d2",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-08T06:00:33Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یخچال های داغ، یک هشدار هسته ای جعلی و شش میلیارد دلار اویست: آیا ما در پای یک اپیدمی هک قرار داریم؟",
+        "excerpt": "همانطور که هوش مصنوعی در سیستم های فناوری اطلاعات و ژئوپلیتیک در خط مقدم سایبری قرار می گیرد، برخی از کارشناسان می گویند که رویدادهای هفته های اخیر به زودی می تواند یک اتفاق شایع باشد که Alex Pearce در هفته گذشته در بخش میوه و سبزیجات خود در لندن انجام داد. نور defrost در واحد یخچال 2 روشن بود و خواندن پانل 150C بود. واحد 4 ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T06:44:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "d44fec61ccb764a3",
@@ -43,15 +103,15 @@
       "eventId": "d44fec61ccb764a3",
       "related": [],
       "score": {
-       "total": 59.1,
+       "total": 53.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 63.4,
         "topic": 70.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -62,122 +122,7 @@
        }
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "81aeae3b418c0aae",
-      "url": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
-      "excerpt": "Systems provide 360-degree view of airport operations, but concerns have been raised about the technology The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in Florida and Alaska as the Trump administration presses ahead with updating the country’s ageing…",
-      "lang": "en",
-      "publishedAt": "2026-11-07T20:03:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T20:33:31Z",
-      "day": "2026-11-07",
-      "category": "business",
-      "tags": [
-       "trump administration",
-       "air transport",
-       "ai (artificial intelligence)",
-       "technology",
-       "us news"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/e713b6ce0cb3abec030579736ea07b0d1821a0da/334_0_3338_2670/master/3338.jpg?width=700&quality=85&auto=format&fit=max&s=944aa12f6a7b1db932a07d0f4f651603",
-       "credit": "Photograph: Seth Wenig/AP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "81aeae3b418c0aae",
-      "related": [],
-      "score": {
-       "total": 57.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 79.6,
-        "topic": 55.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-08T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "FAA اعلام کرد که اولین برج های کنترل ترافیک هوایی دیجیتال ایالات متحده در فلوریدا و آلاسکا",
-        "excerpt": "سیستم ها دیدگاه ۳۶۰ درجه ای از عملیات فرودگاه را ارائه می دهند، اما نگرانی ها در مورد تکنولوژی که اداره هوانوردی فدرال (FAA) اعلام کرده است که اولین برج های کنترل ترافیک هوایی دیجیتال در ایالات متحده به طور رسمی عملیاتی هستند و تکنولوژی جدیدی را برای فرودگاه های کوچکتر در فلوریدا و آلاسکا به ارمغان آورده اند، زیرا دولت ترامپ با به روز رسانی به روز کردن سن کشور، فشار می آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T20:33:31Z"
-       }
-      }
-     },
      "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2c93e9013ac15b4c",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "lang": "en",
-      "publishedAt": "2026-11-07T21:17:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T21:58:01Z",
-      "day": "2026-11-07",
-      "category": "business",
-      "tags": [
-       "ai",
-       "government & policy"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "2c93e9013ac15b4c",
-      "related": [],
-      "score": {
-       "total": 57.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 85.5,
-        "topic": 55.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-08T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Mega Speed exec برای جاسوسی در مدیر عامل Nvidia استخدام شد، با توجه به اطلاعات ایالات متحده",
-        "excerpt": "یک یادداشت که در اوایل سال جاری منتشر شد، ادعا کرد که وزارت امنیت دولتی چین یک مدیر فنی زن را برای جاسوسی از مدیرعامل شرکت Nvidia استخدام کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T21:58:01Z"
-       }
-      }
-     },
-     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -218,15 +163,15 @@
       "eventId": "022e329a512042ed",
       "related": [],
       "score": {
-       "total": 57.1,
+       "total": 53.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 56.1,
+        "recency": 39.7,
         "topic": 85.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -234,6 +179,62 @@
         "excerpt": "کارول مارین ماروین، استاد نیمه محرمانه، یک مشهور محلی بود که با ارتش رو به رشد روبات فیلادلفیا روبرو شد: \"این اولین اصلاحیه من در اعتراض است\" \"یکی از شما باید در جستجوی پلیس باشید، در حالی که من ربات را مسدود می کنم، خوب است؟\" صبح در فیلادلفیا سقوط است. در یک کوچه مخفی، در مقابل یک گاراژ به نام پارک پاتریوت، کارول مارین Marvin 78 ساله در حال بیرون رفتن است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T16:39:45Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2c93e9013ac15b4c",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "lang": "en",
+      "publishedAt": "2026-11-07T21:17:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T21:58:01Z",
+      "day": "2026-11-07",
+      "category": "business",
+      "tags": [
+       "ai",
+       "government & policy"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2c93e9013ac15b4c",
+      "related": [],
+      "score": {
+       "total": 52.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 60.4,
+        "topic": 55.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-08T06:00:33Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Mega Speed exec برای جاسوسی در مدیر عامل Nvidia استخدام شد، با توجه به اطلاعات ایالات متحده",
+        "excerpt": "یک یادداشت که در اوایل سال جاری منتشر شد، ادعا کرد که وزارت امنیت دولتی چین یک مدیر فنی زن را برای جاسوسی از مدیرعامل شرکت Nvidia استخدام کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T21:58:01Z"
        }
       }
      },
@@ -275,15 +276,15 @@
       "eventId": "fa06ff8fdc83e259",
       "related": [],
       "score": {
-       "total": 55.5,
+       "total": 51.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 62.4,
+        "recency": 44.1,
         "topic": 65.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -304,55 +305,50 @@
     },
     {
      "article": {
-      "id": "73be1ddc7ff24f89",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "id": "8879475e62b3793a",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
       "sourceId": "verge-ai",
       "sourceName": "The Verge — AI",
-      "title": "The US let Nvidia sell chips to an empty office in China",
-      "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "excerpt": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation",
       "lang": "en",
-      "publishedAt": "2026-11-07T15:43:45Z",
+      "publishedAt": "2026-11-07T12:30:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T16:39:45Z",
+      "fetchedAt": "2026-11-07T13:14:48Z",
       "day": "2026-11-07",
-      "category": "hardware",
+      "category": "research",
       "tags": [
        "ai",
-       "news",
-       "nvidia",
-       "policy",
-       "politics",
-       "tech"
+       "anthropic"
       ],
       "entities": [
-       "nvidia"
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "An image of Nvidia’s logo",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "73be1ddc7ff24f89",
+      "eventId": "8879475e62b3793a",
       "related": [],
       "score": {
-       "total": 55.5,
+       "total": 51.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 62.0,
-        "topic": 70.0,
+        "recency": 36.4,
+        "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
-        "title": "ایالات متحده اجازه می دهد Nvidia تراشه ها را به یک دفتر خالی در چین بفروشد",
-        "excerpt": "نگرانی ها مطرح می شود که نه وزارت بازرگانی و نه Nvidia در هنگام بررسی شرکت های چینی برای رسیدگی به تراشه های H200 AI شرکت، تلاش خود را انجام نمی دهند. به گفته نیویورک تایمز، ماتریس جدید در فهرست شرکت های تایید شده قرار دارد، اما دفاتر آن خالی هستند، \"یک پوسته خاکستری توخالی\"",
+        "title": "چرا یک گزارش جدید در مورد توسعه هوش مصنوعی Anthropic محققان هشدار دهنده است",
+        "excerpt": "Anthropic استفاده از AI برای ساخت هوش مصنوعی قوی تر است. و به نظر می رسد به خوبی کار می کند، با مدل های این شرکت تقریبا دو برابر سریع تر از یک سال پیش، با نشانه های کمی از کند شدن. با توجه به یک گزارش جدید که روز پنجشنبه توسط سازمان تحقیقات ایمنی AI METR منتشر شده است، پس از یک تحقیق 11 هفته ای",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T16:39:45Z"
+        "at": "2026-11-07T13:14:48Z"
        }
       }
      },
@@ -367,8 +363,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-01T00:00:00Z",
-   "to": "2026-11-08T00:00:00Z",
+   "from": "2026-11-01T06:00:33Z",
+   "to": "2026-11-08T06:00:33Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +401,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 69.3,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.7,
+        "recency": 66.7,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -468,15 +464,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.0,
+        "recency": 69.9,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -523,15 +519,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 68.0,
+        "recency": 64.2,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -552,59 +548,60 @@
     },
     {
      "article": {
-      "id": "7baf06e1004e3e7a",
-      "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
-      "excerpt": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and…",
+      "id": "08249d244a8316d2",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "excerpt": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4…",
       "lang": "en",
-      "publishedAt": "2026-11-06T21:11:34Z",
+      "publishedAt": "2026-11-08T06:00:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-07T00:08:47Z",
-      "day": "2026-11-06",
+      "fetchedAt": "2026-11-08T06:44:30Z",
+      "day": "2026-11-08",
       "category": "policy",
-      "tags": [],
-      "entities": [
-       "openai"
+      "tags": [
+       "hacking",
+       "cyberwar",
+       "cybercrime",
+       "internet",
+       "technology",
+       "data and computer security"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/hJOwOkLHRN0/hqdefault.jpg",
+       "url": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=700&quality=85&auto=format&fit=max&s=0eca8f0a9a8d4f19518dca607ea61688",
+       "credit": "Composite: Guardian Design/Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "hJOwOkLHRN0",
-       "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0"
-      },
-      "eventId": "7baf06e1004e3e7a",
+      "eventId": "08249d244a8316d2",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.0,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 77.3,
+        "recency": 100.0,
         "topic": 85.0,
-        "novelty": 81.8
+        "novelty": 92.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
-        "title": "LifeVal: اندازه گیری پیشرفت هوش مصنوعی در کارهایی که در زندگی روزمره مهم هستند.",
-        "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
+        "title": "یخچال های داغ، یک هشدار هسته ای جعلی و شش میلیارد دلار اویست: آیا ما در پای یک اپیدمی هک قرار داریم؟",
+        "excerpt": "همانطور که هوش مصنوعی در سیستم های فناوری اطلاعات و ژئوپلیتیک در خط مقدم سایبری قرار می گیرد، برخی از کارشناسان می گویند که رویدادهای هفته های اخیر به زودی می تواند یک اتفاق شایع باشد که Alex Pearce در هفته گذشته در بخش میوه و سبزیجات خود در لندن انجام داد. نور defrost در واحد یخچال 2 روشن بود و خواندن پانل 150C بود. واحد 4 ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T00:08:47Z"
+        "at": "2026-11-08T06:44:30Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -643,15 +640,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 66.2,
+       "total": 65.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 24.5,
+        "recency": 23.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -667,6 +664,65 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7baf06e1004e3e7a",
+      "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
+      "excerpt": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and…",
+      "lang": "en",
+      "publishedAt": "2026-11-06T21:11:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T00:08:47Z",
+      "day": "2026-11-06",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/hJOwOkLHRN0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "hJOwOkLHRN0",
+       "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0"
+      },
+      "eventId": "7baf06e1004e3e7a",
+      "related": [],
+      "score": {
+       "total": 65.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 72.9,
+        "topic": 85.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-08T06:00:33Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "LifeVal: اندازه گیری پیشرفت هوش مصنوعی در کارهایی که در زندگی روزمره مهم هستند.",
+        "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T00:08:47Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -704,15 +760,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 66.1,
+       "total": 65.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.9,
+        "recency": 55.6,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -723,7 +779,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -764,15 +820,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.6,
+        "recency": 71.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -780,65 +836,6 @@
         "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-06T19:31:24Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 78.7,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-08T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
        }
       }
      },
@@ -853,8 +850,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-09T00:00:00Z",
-   "to": "2026-11-08T00:00:00Z",
+   "from": "2026-10-09T06:00:33Z",
+   "to": "2026-11-08T06:00:33Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -885,15 +882,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 74.8,
+       "total": 74.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 49.0,
+        "recency": 48.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +943,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 74.4,
+       "total": 74.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 65.6,
+        "recency": 64.5,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1008,15 +1005,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 73.2,
+       "total": 72.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 90.1,
+        "recency": 88.6,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1064,15 +1061,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 87.6,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1124,15 +1121,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 71.3,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 83.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1183,15 +1180,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.4,
+        "recency": 83.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1243,15 +1240,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.0,
+        "recency": 90.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1297,15 +1294,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.7,
+        "recency": 89.1,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1316,6 +1313,63 @@
       }
      },
      "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-05T16:01:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T16:32:15Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "56a03da12c0bbf17",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.6,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-08T06:00:33Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T16:32:15Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1355,15 +1409,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 91.5,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T00:00:00Z"
+       "asOf": "2026-11-08T06:00:33Z"
       },
       "tr": {
        "fa": {
@@ -1371,67 +1425,6 @@
         "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2b3eb4eb79de73e7",
-      "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-      "excerpt": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless",
-      "lang": "en",
-      "publishedAt": "2026-11-06T16:00:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [
-       "ai",
-       "ai infrastructure",
-       "software",
-       "6g",
-       "open source",
-       "telecommunications"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-8.30.25-PM-scaled.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "2b3eb4eb79de73e7",
-      "related": [],
-      "score": {
-       "total": 68.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.2,
-        "topic": 75.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-08T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ابزارهای منبع باز NVIDIA به محققان کمک می کنند تا نسل بعدی 6G را بسازند",
-        "excerpt": "یک سال پیش، NVIDIA باز نرم افزار بی سیم هوایی خود را، پیوستن به Sionna و مجموعه گسترده ای از ابزارهای منبع باز برای سرعت بخشیدن به توسعه شبکه 6G بعدی. با هم، آنها یک پایه برای آزمایش ایده ها، مقایسه نتایج و ساخت بر روی کار یکدیگر - اتصال شبیه سازی و آموزش هوش مصنوعی با آزمایش های واقعی بر روی بی سیم هوا",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
