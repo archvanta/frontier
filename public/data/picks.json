@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-08T14:23:00Z",
+ "asOf": "2026-11-08T18:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-07T14:23:00Z",
-   "to": "2026-11-08T14:23:00Z",
+   "from": "2026-11-07T18:00:00Z",
+   "to": "2026-11-08T18:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "ae06ecf7187204d4",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "excerpt": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's",
+      "lang": "en",
+      "publishedAt": "2026-11-08T17:23:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T19:11:43Z",
+      "day": "2026-11-08",
+      "category": "products",
+      "tags": [
+       "ai",
+       "entertainment",
+       "music",
+       "news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Elvis Presley",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ae06ecf7187204d4",
+      "related": [],
+      "score": {
+       "total": 63.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.5,
+        "topic": 65.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-08T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دارندگان حقوق الویس و ایمینم صادر می کنند",
+        "excerpt": "سانو با یک جفت شکایت دیگر مواجه است. گروهی از دارندگان حقوق از موسیقی الویس پریسلی و ناشر برخی از بزرگترین سوابق Eminem در حال انتشار شرکت موسیقی AI هستند، ادعا می کنند که آن را به طور غیرقانونی تولید موسیقی و اشعار که تقلید از این هنرمندان. وکلای پریسلی ادعا می کنند که سانو از تنسی تجاوز کرده است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T19:11:43Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "8c0798cef7304430",
@@ -45,15 +103,15 @@
       "eventId": "8c0798cef7304430",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 62.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +122,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -104,15 +162,15 @@
       "eventId": "a4c533ab2b702725",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 60.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 70.8,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -123,7 +181,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -166,15 +224,15 @@
       "eventId": "b5e076245ed35d32",
       "related": [],
       "score": {
-       "total": 62.1,
+       "total": 58.3,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 81.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -185,12 +243,12 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -225,15 +283,15 @@
       "eventId": "14abc97d62196b22",
       "related": [],
       "score": {
-       "total": 59.9,
+       "total": 56.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.1,
+        "recency": 70.7,
         "topic": 65.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -244,7 +302,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -280,15 +338,15 @@
       "eventId": "df8052273099b604",
       "related": [],
       "score": {
-       "total": 59.4,
+       "total": 55.7,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 78.6,
         "topic": 80.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -299,69 +357,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "6e70fe048dede744",
-      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
-      "excerpt": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
-      "lang": "en",
-      "publishedAt": "2026-11-08T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T13:55:12Z",
-      "day": "2026-11-08",
-      "category": "business",
-      "tags": [
-       "gear",
-       "gear / trends",
-       "generative ai",
-       "agentic ai",
-       "databases",
-       "artificial intelligence"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.wired.com/photos/6aee7497bf81da8802edc3e6/master/pass/gear-ai-world-models-3d.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "6e70fe048dede744",
-      "related": [],
-      "score": {
-       "total": 56.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 77.6,
-        "topic": 55.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-08T14:23:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های جهانی به زودی ناتوان خواهند بود. اینجا چیزی است که باید بدانید",
-        "excerpt": "انتقال AI از متن به فضای 3D، مدل های جهانی فیزیک دنیای واقعی را شبیه سازی می کنند تا ربات ها و اتومبیل های مستقل را آموزش دهند که چگونه به واقعیت حرکت کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T13:55:12Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -369,8 +368,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-01T14:23:00Z",
-   "to": "2026-11-08T14:23:00Z",
+   "from": "2026-11-01T18:00:00Z",
+   "to": "2026-11-08T18:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +406,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 67.5,
+       "total": 67.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 61.5,
+        "recency": 59.4,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -467,15 +466,15 @@
       "eventId": "a4c533ab2b702725",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 65.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 94.4,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -490,6 +489,68 @@
      "sources": 1,
      "reason": [
       "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0dbf0226aa90a12c",
+      "related": [
+       "32791f69eb2c329e",
+       "998ff01b393f5b93"
+      ],
+      "score": {
+       "total": 65.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 20.6,
+        "topic": 70.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-08T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T23:40:44Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -525,15 +586,15 @@
       "eventId": "8c0798cef7304430",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 65.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 96.2,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -544,7 +605,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -587,15 +648,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.5,
+        "recency": 62.3,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -606,72 +667,10 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 65.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 21.3,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-08T14:23:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -704,15 +703,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 59.2,
+        "recency": 57.2,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -764,15 +763,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 64.5,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 51.3,
+        "recency": 49.5,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -823,15 +822,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 63.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 67.3,
+        "recency": 65.0,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -853,8 +852,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-09T14:23:00Z",
-   "to": "2026-11-08T14:23:00Z",
+   "from": "2026-10-09T18:00:00Z",
+   "to": "2026-11-08T18:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -885,15 +884,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 74.4,
+       "total": 74.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 47.0,
+        "recency": 46.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +945,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 73.8,
+       "total": 73.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 62.9,
+        "recency": 62.3,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1008,15 +1007,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 86.4,
+        "recency": 85.5,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1069,15 +1068,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.8,
+        "recency": 81.0,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1124,15 +1123,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.5,
+        "recency": 84.6,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1153,52 +1152,48 @@
     },
     {
      "article": {
-      "id": "80b8f077bc42c9db",
-      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:14:11Z",
+      "publishedAt": "2026-11-05T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-06T02:52:00Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "company"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "pXRZyOxbDL4",
-       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
-      },
-      "eventId": "80b8f077bc42c9db",
+      "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.9,
+        "recency": 81.0,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 91.7
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -1243,15 +1238,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1263,6 +1258,116 @@
       }
      },
      "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "be1ba71e55b7f125",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-06T14:00:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
+      },
+      "eventId": "be1ba71e55b7f125",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.1,
+        "topic": 75.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-08T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T18:31:52Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-05T16:01:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T16:32:15Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "56a03da12c0bbf17",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.8,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-08T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T16:32:15Z"
+       }
+      }
+     },
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1302,15 +1407,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.3,
+        "recency": 88.4,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T14:23:00Z"
+       "asOf": "2026-11-08T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1318,116 +1423,6 @@
         "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T10:43:01Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be1ba71e55b7f125",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-06T14:00:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
-      },
-      "eventId": "be1ba71e55b7f125",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-08T14:23:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "56a03da12c0bbf17",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.6,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-08T14:23:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
        }
       }
      },
