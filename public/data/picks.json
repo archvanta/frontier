@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-08T20:22:39Z",
+ "asOf": "2026-11-08T22:54:50Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-07T20:22:39Z",
-   "to": "2026-11-08T20:22:39Z",
+   "from": "2026-11-07T22:54:50Z",
+   "to": "2026-11-08T22:54:50Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,17 +42,19 @@
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
       "eventId": "ecd65815b585666d",
-      "related": [],
+      "related": [
+       "45da7994669e5304"
+      ],
       "score": {
-       "total": 65.1,
+       "total": 74.9,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
+        "corroboration": 50.0,
+        "recency": 86.4,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -64,60 +66,62 @@
       }
      },
      "rank": 1,
-     "sources": 1,
+     "sources": 2,
      "reason": [
       "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "ae06ecf7187204d4",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "id": "67abd93f196f854c",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
       "sourceId": "verge-ai",
       "sourceName": "The Verge — AI",
-      "title": "Elvis and Eminem rights holders are suing Suno",
-      "excerpt": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "excerpt": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my",
       "lang": "en",
-      "publishedAt": "2026-11-08T17:23:19Z",
+      "publishedAt": "2026-11-08T22:54:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-08T19:11:43Z",
+      "fetchedAt": "2026-11-08T23:11:34Z",
       "day": "2026-11-08",
-      "category": "products",
+      "category": "policy",
       "tags": [
        "ai",
-       "entertainment",
-       "music",
-       "news"
+       "news",
+       "nvidia",
+       "tech"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22202367/517216004.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Elvis Presley",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "ae06ecf7187204d4",
+      "eventId": "67abd93f196f854c",
       "related": [],
       "score": {
-       "total": 60.6,
+       "total": 64.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 65.0,
-        "novelty": 100.0
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 72.7
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
-        "title": "دارندگان حقوق الویس و ایمینم صادر می کنند",
-        "excerpt": "سانو با یک جفت شکایت دیگر مواجه است. گروهی از دارندگان حقوق از موسیقی الویس پریسلی و ناشر برخی از بزرگترین سوابق Eminem در حال انتشار شرکت موسیقی AI هستند، ادعا می کنند که آن را به طور غیرقانونی تولید موسیقی و اشعار که تقلید از این هنرمندان. وکلای پریسلی ادعا می کنند که سانو از تنسی تجاوز کرده است",
+        "title": "در اینجا متن کامل یادداشت Jensen Huang به Nvidia",
+        "excerpt": "روز یکشنبه، Nvidia اعلام کرد که در حال راه اندازی تحقیقات در مورد رابطه جینسن هوانگ با آلیس هوانگ، مدیر و عامل هوش مصنوعی دولت چین است. علاوه بر هیئت مدیره که این تحقیق را اعلام کرد، هوانگ یک یادداشت به کارمندان Nvidia ارسال کرد که این موضوع را تایید می کنند. می توانید متن کامل زیر را بخوانید. برای من",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T19:11:43Z"
+        "at": "2026-11-08T23:11:34Z"
        }
       }
      },
@@ -160,15 +164,15 @@
       "eventId": "8c0798cef7304430",
       "related": [],
       "score": {
-       "total": 59.9,
+       "total": 58.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 69.2,
+        "recency": 59.8,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -189,61 +193,59 @@
     },
     {
      "article": {
-      "id": "a4c533ab2b702725",
-      "url": "https://www.theguardian.com/books/2026/nov/08/the-efficiency-trap-why-optimising-everything-can-backfire-badly",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The efficiency trap: why optimising everything can backfire, badly",
-      "excerpt": "From roundabouts to the stock market, relentless streamlining could be making the world more dangerous We have all been there: packed shoulder to shoulder on the train while the person beside us coughs and sneezes. A protective flu jab offers some reassurance, but so does the thought that there will be a hospital bed for you, should you need it. Yet, in England, about 95% of adult hospital beds…",
+      "id": "d57de10193b30a0d",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/jackbox-games-isnt-interested-in-ai-development-all-that-is-done-by-people-and-we-have-no-intention-of-changing-that",
+      "sourceId": "pc-gamer",
+      "sourceName": "PC Gamer",
+      "title": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'",
+      "excerpt": "CEO Mike Bilder doesn't see AI as having much to offer Jackbox.",
       "lang": "en",
-      "publishedAt": "2026-11-08T12:00:39Z",
+      "publishedAt": "2026-11-08T22:06:56Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-08T13:55:12Z",
+      "fetchedAt": "2026-11-08T23:11:34Z",
       "day": "2026-11-08",
-      "category": "policy",
+      "category": "business",
       "tags": [
-       "mathematics",
-       "books",
-       "culture",
-       "ai (artificial intelligence)",
-       "technology"
+       "game development",
+       "gaming industry"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/e68bbef8dbe92c67f604bdd86917dcb9368a1049/0_349_1847_1476/master/1847.jpg?width=700&quality=85&auto=format&fit=max&s=a4ec168c7d895a73787d443dab38e7c0",
-       "credit": "Illustration: Elia Barbieri/The Guardian",
+       "url": "https://cdn.mos.cms.futurecdn.net/ZimasKeFtUuoHSCqpCekQo-1920-80.png",
+       "alt": "Jackbox games mascot of bald man popping out of box rendered in plastic.",
+       "credit": "Jackbox Games",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.pcgamer.com/rss/"
       },
-      "eventId": "a4c533ab2b702725",
+      "eventId": "d57de10193b30a0d",
       "related": [],
       "score": {
-       "total": 59.1,
+       "total": 54.4,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 61.7,
-        "topic": 85.0,
-        "novelty": 100.0
+        "recency": 95.5,
+        "topic": 55.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
-        "title": "تله بهره وری: چرا بهینه سازی همه چیز می تواند عقب نشینی کند",
-        "excerpt": "از گرد تا بازار سهام، جریان بی رحم می تواند جهان را خطرناک تر کند و همه ما آنجا بودیم: شانه به شانه در قطار در حالی که فرد در کنار ما سرفه و عطسه. یک داروی ضد آنفولانزای محافظ برخی از اطمینان ها را ارائه می دهد، اما به همین دلیل فکر می کند که یک تخت بیمارستان برای شما وجود دارد، باید به آن نیاز داشته باشید. با این حال، در انگلستان، حدود ۹۵ درصد از تخت های بیمارستان بزرگسالان ...",
+        "title": "بازی های جک باکس به توسعه هوش مصنوعی علاقه مند نیستند: \"همه کارهایی که مردم انجام می دهند و ما قصد تغییر آن را نداریم.\"",
+        "excerpt": "مایک بیلدر، مدیر عامل، AI را به اندازه کافی برای ارائه جک باکس نمی بیند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T13:55:12Z"
+        "at": "2026-11-08T23:11:34Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     },
     {
@@ -281,15 +283,15 @@
       "eventId": "b5e076245ed35d32",
       "related": [],
       "score": {
-       "total": 56.2,
+       "total": 54.3,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 70.7,
+        "recency": 61.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -310,50 +312,51 @@
     },
     {
      "article": {
-      "id": "14abc97d62196b22",
-      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-      "excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "id": "ea522c95309640e9",
+      "url": "https://www.theguardian.com/business/2026/nov/08/us-midterms-ai-datacentres-broligarchy-voter-backlash",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "1-0 to humankind? US midterms vote puts AI, datacentres and the broligarchy back in their box | Heather Stewart",
+      "excerpt": "Election results appear to have turbo-charged an already growing social, political and financial market rethink about AI ‘AI clog’: UK battles onslaught of chatbot-generated complaints Editorial: the AI backlash – Silicon Valley’s political power is cracking Last week’s midterms may not have cowed Donald Trump, but they should be a wake-up call for the grinning tech broligarchs who lined up at…",
       "lang": "en",
-      "publishedAt": "2026-11-08T12:00:00Z",
+      "publishedAt": "2026-11-08T12:05:58Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-08T13:55:12Z",
       "day": "2026-11-08",
-      "category": "products",
+      "category": "hardware",
       "tags": [
-       "gear",
-       "gear / gear news and events",
-       "cooking",
-       "food",
-       "cookbooks",
-       "kitchen"
+       "ai (artificial intelligence)",
+       "datacenters – us",
+       "datacentres - uk",
+       "us news",
+       "computing",
+       "datacentres"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6aee77f4ece1c19963602401/master/pass/gear-nyt-cooking-ai-assistant.jpg",
+       "url": "https://i.guim.co.uk/img/media/2ea7dda4257fc43543719a2d375cd85a1ce8cdb4/0_0_7157_5728/master/7157.jpg?width=700&quality=85&auto=format&fit=max&s=941d73bab003dbc14364503ddf3ba2e4",
+       "credit": "Photograph: Lauren Owens Lambert/AFP/Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "14abc97d62196b22",
+      "eventId": "ea522c95309640e9",
       "related": [],
       "score": {
-       "total": 54.8,
+       "total": 53.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 61.6,
-        "topic": 65.0,
-        "novelty": 87.5
+        "recency": 53.5,
+        "topic": 70.0,
+        "novelty": 84.2
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
-        "title": "من از New AI-Powered Recipe Moodyfier استفاده کردم و در واقع بسیار خوب است.",
-        "excerpt": "نیویورک تایمز یک ویژگی بتا را به برنامه پخت و پز خود اضافه کرده است که به خوانندگان کمک می کند تا مواد تشکیل دهنده را مبادله کنند یا دستورالعمل ها را با توجه به نیازهای خود تنظیم کنند. بیشتر به علامت برخورد می کند.",
+        "title": "1-0 به بشر؟ رای گیری در میان دوره های ایالات متحده، هوش مصنوعی، پایگاه های داده ای و کلم بروکلی را در جعبه خود قرار می دهد: هدر استوارت",
+        "excerpt": "به نظر می رسد نتایج انتخابات در حال حاضر در حال رشد تجدید نظر بازار اجتماعی، سیاسی و مالی در مورد AI \"AI clog\" است: حمله بریتانیا از شکایت های تولید شده توسط chatbot: AI backlash - قدرت سیاسی سیلیکون دره شکستن اواسط هفته گذشته ممکن است دونالد ترامپ را گاو زده باشد، اما آنها باید یک تماس بیداری برای فن آوری برون گرا باشد که در آن قرار دارد ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-08T13:55:12Z"
        }
@@ -370,10 +373,70 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-01T20:22:39Z",
-   "to": "2026-11-08T20:22:39Z",
+   "from": "2026-11-01T22:54:50Z",
+   "to": "2026-11-08T22:54:50Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "ecd65815b585666d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T20:34:01Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecd65815b585666d",
+      "related": [
+       "45da7994669e5304"
+      ],
+      "score": {
+       "total": 77.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 97.6,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-08T22:54:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
+        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T20:34:01Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "44766e97c42926fe",
@@ -408,15 +471,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 66.8,
+       "total": 66.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 58.1,
+        "recency": 56.7,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -427,73 +490,11 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 20.1,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-08T20:22:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -530,15 +531,15 @@
       "eventId": "a4c533ab2b702725",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 90.0,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -550,121 +551,6 @@
       }
      },
      "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ecd65815b585666d",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
-      "lang": "en",
-      "publishedAt": "2026-11-08T20:22:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T20:34:01Z",
-      "day": "2026-11-08",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "news"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "ecd65815b585666d",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-08T20:22:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
-        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T20:34:01Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8c0798cef7304430",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
-      "excerpt": "Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mistake’ and damage Australia’s reputation Get our breaking news email, free app or daily news podcast Australia weakening copyright protections for AI companies would be “ridiculous and dangerous”, the global peak body for the music recording industry has warned as it watches with concern how the…",
-      "lang": "en",
-      "publishedAt": "2026-11-08T14:00:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T16:02:20Z",
-      "day": "2026-11-08",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australia news",
-       "technology",
-       "music industry"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/a9d776b6ee27daeda7be27a2ffc273f39b966850/200_0_6000_4800/master/6000.jpg?width=700&quality=85&auto=format&fit=max&s=17bd8317c313321ace99f97e6cf32b49",
-       "credit": "Illustration: alengo/Getty Images/iStockphoto",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "8c0798cef7304430",
-      "related": [],
-      "score": {
-       "total": 64.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.1,
-        "topic": 85.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-11-08T20:22:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ضعیف کردن قانون حق کپی رایت هوش مصنوعی، \"ناباری برای خلاقیت\" را نشان می دهد، بدن موسیقی جهانی هشدار می دهد آلبانز",
-        "excerpt": "منحصر به فرد: رئیس IFPI می گوید که اجازه می دهد شرکت های AI به محتوای آنلاین دسترسی داشته باشند یک \"اشتباه ناگهانی\" و آسیب به شهرت استرالیا دریافت ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه استرالیا تضعیف حفاظت از حق کپی رایت برای شرکت های AI خواهد بود \"عجاز و خطرناک\"، بدن اوج جهانی برای صنعت ضبط موسیقی هشدار داده است به عنوان نگرانی از اینکه چگونه ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T16:02:20Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -707,15 +593,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 60.8,
+        "recency": 59.4,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -726,10 +612,68 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8c0798cef7304430",
+      "url": "https://www.theguardian.com/technology/2026/nov/09/weakening-ai-copyright-law-will-spell-disaster-for-creativity-australia",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Weakening AI copyright law will spell ‘disaster for creativity’, global music body warns Albanese",
+      "excerpt": "Exclusive: Head of IFPI says allowing AI companies access to online content would be a ‘huge mistake’ and damage Australia’s reputation Get our breaking news email, free app or daily news podcast Australia weakening copyright protections for AI companies would be “ridiculous and dangerous”, the global peak body for the music recording industry has warned as it watches with concern how the…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T14:00:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T16:02:20Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "australia news",
+       "technology",
+       "music industry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/a9d776b6ee27daeda7be27a2ffc273f39b966850/200_0_6000_4800/master/6000.jpg?width=700&quality=85&auto=format&fit=max&s=17bd8317c313321ace99f97e6cf32b49",
+       "credit": "Illustration: alengo/Getty Images/iStockphoto",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "8c0798cef7304430",
+      "related": [],
+      "score": {
+       "total": 64.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 91.8,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-11-08T22:54:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ضعیف کردن قانون حق کپی رایت هوش مصنوعی، \"ناباری برای خلاقیت\" را نشان می دهد، بدن موسیقی جهانی هشدار می دهد آلبانز",
+        "excerpt": "منحصر به فرد: رئیس IFPI می گوید که اجازه می دهد شرکت های AI به محتوای آنلاین دسترسی داشته باشند یک \"اشتباه ناگهانی\" و آسیب به شهرت استرالیا دریافت ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه استرالیا تضعیف حفاظت از حق کپی رایت برای شرکت های AI خواهد بود \"عجاز و خطرناک\"، بدن اوج جهانی برای صنعت ضبط موسیقی هشدار داده است به عنوان نگرانی از اینکه چگونه ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T16:02:20Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -762,15 +706,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 64.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.9,
+        "recency": 54.6,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -781,7 +725,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -822,15 +766,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 64.0,
+       "total": 63.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 48.4,
+        "recency": 47.2,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -838,6 +782,66 @@
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ba5f1cdb14f57903",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "How to predict the behavior of molecules from scant data",
+      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T19:31:24Z",
+      "day": "2026-11-06",
+      "category": "research",
+      "tags": [
+       "research",
+       "drug discovery",
+       "chemical engineering",
+       "artificial intelligence",
+       "machine learning",
+       "chemistry"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
+       "credit": "Image courtesy of the researchers.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ba5f1cdb14f57903",
+      "related": [],
+      "score": {
+       "total": 62.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 60.7,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-08T22:54:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
+        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T19:31:24Z"
        }
       }
      },
@@ -852,10 +856,70 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-09T20:22:39Z",
-   "to": "2026-11-08T20:22:39Z",
+   "from": "2026-10-09T22:54:50Z",
+   "to": "2026-11-08T22:54:50Z",
    "halfLifeHours": 240,
    "picks": [
+    {
+     "article": {
+      "id": "ecd65815b585666d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T20:34:01Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecd65815b585666d",
+      "related": [
+       "45da7994669e5304"
+      ],
+      "score": {
+       "total": 77.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 99.3,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-08T22:54:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
+        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T20:34:01Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "34b0bf3f94c3851e",
@@ -888,11 +952,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 46.2,
+        "recency": 45.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -902,7 +966,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -945,15 +1009,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 61.8,
+        "recency": 61.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -964,7 +1028,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -1007,15 +1071,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 85.0,
+        "recency": 84.3,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1026,7 +1090,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1068,15 +1132,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.4,
+        "recency": 79.8,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1087,7 +1151,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1123,15 +1187,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.0,
+        "recency": 83.4,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1142,7 +1206,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1182,15 +1246,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.5,
+        "recency": 79.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1201,7 +1265,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1242,15 +1306,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.7,
+        "recency": 86.1,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1261,7 +1325,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1299,15 +1363,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.2,
+        "recency": 79.6,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
@@ -1315,65 +1379,6 @@
         "excerpt": "سلامت و علوم زیستی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "821a1a5e3df62a26",
-      "url": "https://www.youtube.com/watch?v=784YQBiZArk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "How Siemens Plans Production in Minutes With NVIDIA AI",
-      "excerpt": "See how Siemens uses the NVIDIA Factory Operations Blueprint to plan production in minutes and NVIDIA Cosmos to generate a virtual prototype and synthetic data for training optical inspection models before production starts. Discover how Siemens is integrating AI agents and digital twins to accelerate production planning and operations—advancing adaptive manufacturing. 📖 Read the Blog →…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T23:10:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T10:43:01Z",
-      "day": "2026-11-06",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/784YQBiZArk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "784YQBiZArk",
-       "url": "https://www.youtube.com/watch?v=784YQBiZArk"
-      },
-      "eventId": "821a1a5e3df62a26",
-      "related": [],
-      "score": {
-       "total": 67.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.8,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-08T20:22:39Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه تولید زیمنس در دقیقه با NVIDIA AI",
-        "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T10:43:01Z"
        }
       }
      },
@@ -1412,15 +1417,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.5,
+        "recency": 84.8,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-08T20:22:39Z"
+       "asOf": "2026-11-08T22:54:50Z"
       },
       "tr": {
        "fa": {
