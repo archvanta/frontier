@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-08T18:00:00Z",
+ "asOf": "2026-11-08T20:22:39Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,67 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-07T18:00:00Z",
-   "to": "2026-11-08T18:00:00Z",
+   "from": "2026-11-07T20:22:39Z",
+   "to": "2026-11-08T20:22:39Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "ecd65815b585666d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T20:34:01Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecd65815b585666d",
+      "related": [],
+      "score": {
+       "total": 65.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-08T20:22:39Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
+        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T20:34:01Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ae06ecf7187204d4",
@@ -45,15 +102,15 @@
       "eventId": "ae06ecf7187204d4",
       "related": [],
       "score": {
-       "total": 63.0,
+       "total": 60.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 84.1,
         "topic": 65.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +121,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -103,15 +160,15 @@
       "eventId": "8c0798cef7304430",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 59.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.4,
+        "recency": 69.2,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -122,7 +179,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -162,15 +219,15 @@
       "eventId": "a4c533ab2b702725",
       "related": [],
       "score": {
-       "total": 60.9,
+       "total": 59.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 70.8,
+        "recency": 61.7,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -181,7 +238,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -224,15 +281,15 @@
       "eventId": "b5e076245ed35d32",
       "related": [],
       "score": {
-       "total": 58.3,
+       "total": 56.2,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 81.1,
+        "recency": 70.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -243,7 +300,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
@@ -283,15 +340,15 @@
       "eventId": "14abc97d62196b22",
       "related": [],
       "score": {
-       "total": 56.6,
+       "total": 54.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 70.7,
+        "recency": 61.6,
         "topic": 65.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -302,65 +359,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "df8052273099b604",
-      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
-      "excerpt": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn against granting rights to AI systems. The article The brain-as-computer metaphor shaped modern AI but may be…",
-      "lang": "en",
-      "publishedAt": "2026-11-08T13:49:21Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T13:55:12Z",
-      "day": "2026-11-08",
-      "category": "research",
-      "tags": [
-       "ai research",
-       "artificial intelligence"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/ai_consciousness.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "df8052273099b604",
-      "related": [],
-      "score": {
-       "total": 55.7,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 78.6,
-        "topic": 80.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-08T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استعاره مغز به عنوان کامپیوتر هوش مصنوعی مدرن را شکل می دهد اما ممکن است بحث آگاهی را گمراه کند.",
-        "excerpt": "محققان آگاهی Anil Seth، Ned Block و Giulio Tononi در تفسیر طبیعت استدلال می کنند که سیستم های هوش مصنوعی امروز هوشیار نیستند و در سخت افزار سیلیکون چنین نخواهند شد. آنها این فرض را در نظر می گیرند که آگاهی به تنهایی به محاسبات بستگی دارد و به محض اعطای حقوق به سیستم های AI هشدار می دهد. مقاله ای که استعاره مغز به عنوان کامپیوتر، هوش مصنوعی مدرن را شکل می دهد اما ممکن است ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T13:55:12Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -368,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-01T18:00:00Z",
-   "to": "2026-11-08T18:00:00Z",
+   "from": "2026-11-01T20:22:39Z",
+   "to": "2026-11-08T20:22:39Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,15 +408,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 67.1,
+       "total": 66.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 59.4,
+        "recency": 58.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -430,65 +432,6 @@
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a4c533ab2b702725",
-      "url": "https://www.theguardian.com/books/2026/nov/08/the-efficiency-trap-why-optimising-everything-can-backfire-badly",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The efficiency trap: why optimising everything can backfire, badly",
-      "excerpt": "From roundabouts to the stock market, relentless streamlining could be making the world more dangerous We have all been there: packed shoulder to shoulder on the train while the person beside us coughs and sneezes. A protective flu jab offers some reassurance, but so does the thought that there will be a hospital bed for you, should you need it. Yet, in England, about 95% of adult hospital beds…",
-      "lang": "en",
-      "publishedAt": "2026-11-08T12:00:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T13:55:12Z",
-      "day": "2026-11-08",
-      "category": "policy",
-      "tags": [
-       "mathematics",
-       "books",
-       "culture",
-       "ai (artificial intelligence)",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/e68bbef8dbe92c67f604bdd86917dcb9368a1049/0_349_1847_1476/master/1847.jpg?width=700&quality=85&auto=format&fit=max&s=a4ec168c7d895a73787d443dab38e7c0",
-       "credit": "Illustration: Elia Barbieri/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "a4c533ab2b702725",
-      "related": [],
-      "score": {
-       "total": 65.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 85.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-08T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تله بهره وری: چرا بهینه سازی همه چیز می تواند عقب نشینی کند",
-        "excerpt": "از گرد تا بازار سهام، جریان بی رحم می تواند جهان را خطرناک تر کند و همه ما آنجا بودیم: شانه به شانه در قطار در حالی که فرد در کنار ما سرفه و عطسه. یک داروی ضد آنفولانزای محافظ برخی از اطمینان ها را ارائه می دهد، اما به همین دلیل فکر می کند که یک تخت بیمارستان برای شما وجود دارد، باید به آن نیاز داشته باشید. با این حال، در انگلستان، حدود ۹۵ درصد از تخت های بیمارستان بزرگسالان ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T13:55:12Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -527,15 +470,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 65.4,
+       "total": 65.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 20.6,
+        "recency": 20.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -546,11 +489,127 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 2,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a4c533ab2b702725",
+      "url": "https://www.theguardian.com/books/2026/nov/08/the-efficiency-trap-why-optimising-everything-can-backfire-badly",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "The efficiency trap: why optimising everything can backfire, badly",
+      "excerpt": "From roundabouts to the stock market, relentless streamlining could be making the world more dangerous We have all been there: packed shoulder to shoulder on the train while the person beside us coughs and sneezes. A protective flu jab offers some reassurance, but so does the thought that there will be a hospital bed for you, should you need it. Yet, in England, about 95% of adult hospital beds…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T12:00:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T13:55:12Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "mathematics",
+       "books",
+       "culture",
+       "ai (artificial intelligence)",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/e68bbef8dbe92c67f604bdd86917dcb9368a1049/0_349_1847_1476/master/1847.jpg?width=700&quality=85&auto=format&fit=max&s=a4ec168c7d895a73787d443dab38e7c0",
+       "credit": "Illustration: Elia Barbieri/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "a4c533ab2b702725",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.3,
+        "topic": 85.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-08T20:22:39Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تله بهره وری: چرا بهینه سازی همه چیز می تواند عقب نشینی کند",
+        "excerpt": "از گرد تا بازار سهام، جریان بی رحم می تواند جهان را خطرناک تر کند و همه ما آنجا بودیم: شانه به شانه در قطار در حالی که فرد در کنار ما سرفه و عطسه. یک داروی ضد آنفولانزای محافظ برخی از اطمینان ها را ارائه می دهد، اما به همین دلیل فکر می کند که یک تخت بیمارستان برای شما وجود دارد، باید به آن نیاز داشته باشید. با این حال، در انگلستان، حدود ۹۵ درصد از تخت های بیمارستان بزرگسالان ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T13:55:12Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ecd65815b585666d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T20:34:01Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecd65815b585666d",
+      "related": [],
+      "score": {
+       "total": 65.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-08T20:22:39Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
+        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T20:34:01Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -586,15 +645,15 @@
       "eventId": "8c0798cef7304430",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 94.1,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -605,7 +664,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -648,15 +707,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.3,
+        "recency": 60.8,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -667,7 +726,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -703,15 +762,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 57.2,
+        "recency": 55.9,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -722,7 +781,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -763,15 +822,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 64.2,
+       "total": 64.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 49.5,
+        "recency": 48.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -779,65 +838,6 @@
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7baf06e1004e3e7a",
-      "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "LifeVal: Measuring AI progress on the tasks that matter in everyday life.",
-      "excerpt": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them. So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services and managing personal finances. Over the past year, we’ve used LifeVal to measure and…",
-      "lang": "en",
-      "publishedAt": "2026-11-06T21:11:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T00:08:47Z",
-      "day": "2026-11-06",
-      "category": "policy",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/hJOwOkLHRN0/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "hJOwOkLHRN0",
-       "url": "https://www.youtube.com/watch?v=hJOwOkLHRN0"
-      },
-      "eventId": "7baf06e1004e3e7a",
-      "related": [],
-      "score": {
-       "total": 63.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 65.0,
-        "topic": 85.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-08T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LifeVal: اندازه گیری پیشرفت هوش مصنوعی در کارهایی که در زندگی روزمره مهم هستند.",
-        "excerpt": "برای AGI برای بهره برداری از تمام بشریت، باید به افراد با کارهای روزمره که برای آنها مهم است، کمک کند. بنابراین ما LifeVal را ایجاد کردیم، یک معیار جدید با بازخورد از هزاران کاربر ChatGPT که بیشتر آنها از یک دستیار شخصی کمک می خواهند – از پیدا کردن مراقبت از کودکان برای دسترسی به خدمات دولتی و مدیریت امور مالی شخصی. در طول سال گذشته، ما از LifeVal برای اندازه گیری و ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T00:08:47Z"
        }
       }
      },
@@ -852,8 +852,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-09T18:00:00Z",
-   "to": "2026-11-08T18:00:00Z",
+   "from": "2026-10-09T20:22:39Z",
+   "to": "2026-11-08T20:22:39Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +884,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 74.3,
+       "total": 74.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 46.5,
+        "recency": 46.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -945,15 +945,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 62.3,
+        "recency": 61.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1007,15 +1007,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 85.5,
+        "recency": 85.0,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1068,15 +1068,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.0,
+        "recency": 80.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1123,15 +1123,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.6,
+        "recency": 84.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1152,48 +1152,52 @@
     },
     {
      "article": {
-      "id": "b58fee4edbbb5f7a",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Australian universities are creating AI-native graduates",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "id": "80b8f077bc42c9db",
+      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
+      "publishedAt": "2026-11-05T17:14:11Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T02:52:00Z",
+      "fetchedAt": "2026-11-05T22:24:22Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [
-       "company"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b58fee4edbbb5f7a",
+      "video": {
+       "provider": "youtube",
+       "id": "pXRZyOxbDL4",
+       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
+      },
+      "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.0,
+        "recency": 80.5,
         "topic": 100.0,
-        "novelty": 91.7
+        "novelty": 90.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
-        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
-        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T02:52:00Z"
+        "at": "2026-11-05T22:24:22Z"
        }
       }
      },
@@ -1238,15 +1242,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.3,
+        "recency": 86.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1258,59 +1262,6 @@
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be1ba71e55b7f125",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-06T14:00:48Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
-      },
-      "eventId": "be1ba71e55b7f125",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.1,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-08T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1348,15 +1299,15 @@
       "eventId": "56a03da12c0bbf17",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.8,
+        "recency": 80.2,
         "topic": 80.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1367,7 +1318,7 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1407,15 +1358,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.4,
+        "recency": 87.8,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T18:00:00Z"
+       "asOf": "2026-11-08T20:22:39Z"
       },
       "tr": {
        "fa": {
@@ -1423,6 +1374,59 @@
         "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T10:43:01Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "be1ba71e55b7f125",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-06T14:00:48Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks"
+      },
+      "eventId": "be1ba71e55b7f125",
+      "related": [],
+      "score": {
+       "total": 67.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 85.5,
+        "topic": 75.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-08T20:22:39Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ToyBlocks: دنیایی کنترل شده برای یادگیری ربات و ارزیابی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
