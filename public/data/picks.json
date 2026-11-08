@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-08T06:00:33Z",
+ "asOf": "2026-11-08T08:00:36Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-07T06:00:33Z",
-   "to": "2026-11-08T06:00:33Z",
+   "from": "2026-11-07T08:00:36Z",
+   "to": "2026-11-08T08:00:36Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "f22d837c2d1d7f6e",
+      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+      "excerpt": "MPs, local authorities, lawyers, schools and more are receiving floods of grievances, requests and legal challenges, often complex to read and respond to “It started as a trickle in 2024 and now it’s an onslaught.” Hollie Wickens, a senior caseworker in a Labour MP’s office, is explaining the daily reality of dealing with surging volumes of artificial intelligence-generated correspondence. “Half…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T08:00:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T09:07:38Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "chatbots",
+       "local government",
+       "chatgpt",
+       "business",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/82c6e92cb6cbcabc717462a79d11fbaac898da2c/0_0_5906_4724/master/5906.jpg?width=700&quality=85&auto=format&fit=max&s=5a826c18220cf93ff20c27c83b95e5e5",
+       "credit": "Illustration: Sophie Winder/Sophie Winder/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "f22d837c2d1d7f6e",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"AI clog\": سازمان های عمومی بریتانیا با حمله به شکایات تولید شده توسط chatbot مبارزه می کنند",
+        "excerpt": "نمایندگان مجلس، مقامات محلی، وکلا، مدارس و بیشتر سیل از شکایات، درخواست ها و چالش های قانونی دریافت می کنند، اغلب پیچیده برای خواندن و پاسخ به \"این به عنوان یک فریب در سال ۲۰۲۴ آغاز شد و در حال حاضر یک حمله است.\" Hollie Wickens، یک کارمند ارشد در دفتر نمایندگان کار، توضیح واقعیت روزانه برخورد با حجم زیادی از مکاتبات هوش مصنوعی است. نیم ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T09:07:38Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "08249d244a8316d2",
@@ -47,15 +107,15 @@
       "eventId": "08249d244a8316d2",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 63.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 89.1,
         "topic": 85.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +126,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -103,15 +163,15 @@
       "eventId": "d44fec61ccb764a3",
       "related": [],
       "score": {
-       "total": 53.9,
+       "total": 52.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 63.4,
+        "recency": 56.5,
         "topic": 70.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -122,180 +182,7 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "022e329a512042ed",
-      "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/07/philadelphia-blocking-food-delivery-robots",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Standing in the way of slop bowls: the woman blocking food delivery robots",
-      "excerpt": "Semi-retired professor Carolyn Marvin became a local celebrity facing down Philadelphia’s growing robot delivery army: ‘It’s my first amendment right to protest’ “One of you needs to be on the lookout for cops, while I block the robot, OK?” It is a crisp fall morning in Philadelphia. Tucked away in a dingy alley, opposite a garage called Patriot Parking, 78-year-old Carolyn Marvin is laying out…",
-      "lang": "en",
-      "publishedAt": "2026-11-07T14:00:12Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T16:39:45Z",
-      "day": "2026-11-07",
-      "category": "policy",
-      "tags": [
-       "robots",
-       "gig economy",
-       "ai (artificial intelligence)",
-       "protest (us)",
-       "couriers/delivery industry",
-       "philadelphia"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/6c9b99624b2d4f830d94948c591fde5d07839cf9/148_0_6358_5086/master/6358.jpg?width=700&quality=85&auto=format&fit=max&s=eda3c37bb7a206699007077ac919dfd4",
-       "credit": "Photograph: Kriston Jae Bethel/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "022e329a512042ed",
-      "related": [],
-      "score": {
-       "total": 53.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 39.7,
-        "topic": 85.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایستادن در راه کاسه های شل: زن مسدود کردن ربات های تحویل غذا",
-        "excerpt": "کارول مارین ماروین، استاد نیمه محرمانه، یک مشهور محلی بود که با ارتش رو به رشد روبات فیلادلفیا روبرو شد: \"این اولین اصلاحیه من در اعتراض است\" \"یکی از شما باید در جستجوی پلیس باشید، در حالی که من ربات را مسدود می کنم، خوب است؟\" صبح در فیلادلفیا سقوط است. در یک کوچه مخفی، در مقابل یک گاراژ به نام پارک پاتریوت، کارول مارین Marvin 78 ساله در حال بیرون رفتن است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T16:39:45Z"
-       }
-      }
-     },
      "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2c93e9013ac15b4c",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "lang": "en",
-      "publishedAt": "2026-11-07T21:17:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T21:58:01Z",
-      "day": "2026-11-07",
-      "category": "business",
-      "tags": [
-       "ai",
-       "government & policy"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "2c93e9013ac15b4c",
-      "related": [],
-      "score": {
-       "total": 52.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 60.4,
-        "topic": 55.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Mega Speed exec برای جاسوسی در مدیر عامل Nvidia استخدام شد، با توجه به اطلاعات ایالات متحده",
-        "excerpt": "یک یادداشت که در اوایل سال جاری منتشر شد، ادعا کرد که وزارت امنیت دولتی چین یک مدیر فنی زن را برای جاسوسی از مدیرعامل شرکت Nvidia استخدام کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T21:58:01Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fa06ff8fdc83e259",
-      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
-      "excerpt": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best",
-      "lang": "en",
-      "publishedAt": "2026-11-07T15:50:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-07T16:39:45Z",
-      "day": "2026-11-07",
-      "category": "products",
-      "tags": [
-       "ai",
-       "reviews",
-       "smart home reviews",
-       "tech"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "fa06ff8fdc83e259",
-      "related": [],
-      "score": {
-       "total": 51.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 44.1,
-        "topic": 65.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دستیار هوش مصنوعی آشپزی NYT، مرغ شبانه ام را نجات داد، اما تقریبا کیک من را خراب کرد.",
-        "excerpt": "تقریبا 7PM در هر شب، من خودم را در مقابل یخچال ایستاده ام، سعی می کنم در مورد چیزی برای شام تصمیم بگیرم که شوهرم را به شکایت وادار کند، \"دوباره تنبل؟\" بله، من باید برنامه غذایی بیشتری داشته باشم، اما نه، بنابراین این جایی است که من در آن هستم. یک نبرد شبانه که در آن مرغ معمولا برنده می شود. به تازگی، بهترین",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-07T16:39:45Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -333,15 +220,15 @@
       "eventId": "8879475e62b3793a",
       "related": [],
       "score": {
-       "total": 51.9,
+       "total": 51.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 36.4,
+        "recency": 32.4,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -349,6 +236,119 @@
         "excerpt": "Anthropic استفاده از AI برای ساخت هوش مصنوعی قوی تر است. و به نظر می رسد به خوبی کار می کند، با مدل های این شرکت تقریبا دو برابر سریع تر از یک سال پیش، با نشانه های کمی از کند شدن. با توجه به یک گزارش جدید که روز پنجشنبه توسط سازمان تحقیقات ایمنی AI METR منتشر شده است، پس از یک تحقیق 11 هفته ای",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T13:14:48Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2c93e9013ac15b4c",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "lang": "en",
+      "publishedAt": "2026-11-07T21:17:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T21:58:01Z",
+      "day": "2026-11-07",
+      "category": "business",
+      "tags": [
+       "ai",
+       "government & policy"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "2c93e9013ac15b4c",
+      "related": [],
+      "score": {
+       "total": 50.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 53.8,
+        "topic": 55.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Mega Speed exec برای جاسوسی در مدیر عامل Nvidia استخدام شد، با توجه به اطلاعات ایالات متحده",
+        "excerpt": "یک یادداشت که در اوایل سال جاری منتشر شد، ادعا کرد که وزارت امنیت دولتی چین یک مدیر فنی زن را برای جاسوسی از مدیرعامل شرکت Nvidia استخدام کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T21:58:01Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fa06ff8fdc83e259",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "excerpt": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best",
+      "lang": "en",
+      "publishedAt": "2026-11-07T15:50:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-07T16:39:45Z",
+      "day": "2026-11-07",
+      "category": "products",
+      "tags": [
+       "ai",
+       "reviews",
+       "smart home reviews",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268844_NY_Times_Cooking_App_JTuohy_0006.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "fa06ff8fdc83e259",
+      "related": [],
+      "score": {
+       "total": 50.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 39.3,
+        "topic": 65.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دستیار هوش مصنوعی آشپزی NYT، مرغ شبانه ام را نجات داد، اما تقریبا کیک من را خراب کرد.",
+        "excerpt": "تقریبا 7PM در هر شب، من خودم را در مقابل یخچال ایستاده ام، سعی می کنم در مورد چیزی برای شام تصمیم بگیرم که شوهرم را به شکایت وادار کند، \"دوباره تنبل؟\" بله، من باید برنامه غذایی بیشتری داشته باشم، اما نه، بنابراین این جایی است که من در آن هستم. یک نبرد شبانه که در آن مرغ معمولا برنده می شود. به تازگی، بهترین",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-07T16:39:45Z"
        }
       }
      },
@@ -363,8 +363,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-01T06:00:33Z",
-   "to": "2026-11-08T06:00:33Z",
+   "from": "2026-11-01T08:00:36Z",
+   "to": "2026-11-08T08:00:36Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -401,15 +401,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 68.5,
+       "total": 68.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 66.7,
+        "recency": 65.4,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -464,15 +464,15 @@
       "eventId": "bc2d0068f56d93e1",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.9,
+        "recency": 68.5,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -487,6 +487,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f22d837c2d1d7f6e",
+      "url": "https://www.theguardian.com/technology/2026/nov/08/ai-clog-public-bodies-local-authorities-onslaught-chatbot-generated-correspondence",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘AI clog’: UK public bodies battle onslaught of chatbot-generated complaints",
+      "excerpt": "MPs, local authorities, lawyers, schools and more are receiving floods of grievances, requests and legal challenges, often complex to read and respond to “It started as a trickle in 2024 and now it’s an onslaught.” Hollie Wickens, a senior caseworker in a Labour MP’s office, is explaining the daily reality of dealing with surging volumes of artificial intelligence-generated correspondence. “Half…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T08:00:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T09:07:38Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "chatbots",
+       "local government",
+       "chatgpt",
+       "business",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/82c6e92cb6cbcabc717462a79d11fbaac898da2c/0_0_5906_4724/master/5906.jpg?width=700&quality=85&auto=format&fit=max&s=5a826c18220cf93ff20c27c83b95e5e5",
+       "credit": "Illustration: Sophie Winder/Sophie Winder/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "f22d837c2d1d7f6e",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.3
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"AI clog\": سازمان های عمومی بریتانیا با حمله به شکایات تولید شده توسط chatbot مبارزه می کنند",
+        "excerpt": "نمایندگان مجلس، مقامات محلی، وکلا، مدارس و بیشتر سیل از شکایات، درخواست ها و چالش های قانونی دریافت می کنند، اغلب پیچیده برای خواندن و پاسخ به \"این به عنوان یک فریب در سال ۲۰۲۴ آغاز شد و در حال حاضر یک حمله است.\" Hollie Wickens، یک کارمند ارشد در دفتر نمایندگان کار، توضیح واقعیت روزانه برخورد با حجم زیادی از مکاتبات هوش مصنوعی است. نیم ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T09:07:38Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -519,15 +579,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.2,
+        "recency": 63.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -538,70 +598,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "08249d244a8316d2",
-      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
-      "excerpt": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4…",
-      "lang": "en",
-      "publishedAt": "2026-11-08T06:00:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T06:44:30Z",
-      "day": "2026-11-08",
-      "category": "policy",
-      "tags": [
-       "hacking",
-       "cyberwar",
-       "cybercrime",
-       "internet",
-       "technology",
-       "data and computer security"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=700&quality=85&auto=format&fit=max&s=0eca8f0a9a8d4f19518dca607ea61688",
-       "credit": "Composite: Guardian Design/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "08249d244a8316d2",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یخچال های داغ، یک هشدار هسته ای جعلی و شش میلیارد دلار اویست: آیا ما در پای یک اپیدمی هک قرار داریم؟",
-        "excerpt": "همانطور که هوش مصنوعی در سیستم های فناوری اطلاعات و ژئوپلیتیک در خط مقدم سایبری قرار می گیرد، برخی از کارشناسان می گویند که رویدادهای هفته های اخیر به زودی می تواند یک اتفاق شایع باشد که Alex Pearce در هفته گذشته در بخش میوه و سبزیجات خود در لندن انجام داد. نور defrost در واحد یخچال 2 روشن بود و خواندن پانل 150C بود. واحد 4 ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T06:44:30Z"
-       }
-      }
-     },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -640,15 +640,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 65.9,
+       "total": 65.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 23.1,
+        "recency": 22.7,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -664,6 +664,66 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "08249d244a8316d2",
+      "url": "https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Hot fridges, a fake nuclear alert and a $6bn heist: are we in the foothills of a hacking epidemic?",
+      "excerpt": "As AI exposes flaws in IT systems and geopolitics plays out on the cyber frontline, some experts say the events of recent weeks could soon be a common occurence Alex Pearce was doing the morning rounds at his fruit and vegetable wholesale business in London on Monday last week when he noticed something odd. The defrost light on refrigeration unit 2 was on, and the panel reading was 150C. Unit 4…",
+      "lang": "en",
+      "publishedAt": "2026-11-08T06:00:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T06:44:30Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "hacking",
+       "cyberwar",
+       "cybercrime",
+       "internet",
+       "technology",
+       "data and computer security"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/09d27a91ac5dc51fcea6ef2db11a85053e40bb50/0_158_4000_3198/master/4000.jpg?width=700&quality=85&auto=format&fit=max&s=0eca8f0a9a8d4f19518dca607ea61688",
+       "credit": "Composite: Guardian Design/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "08249d244a8316d2",
+      "related": [],
+      "score": {
+       "total": 65.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.1,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یخچال های داغ، یک هشدار هسته ای جعلی و شش میلیارد دلار اویست: آیا ما در پای یک اپیدمی هک قرار داریم؟",
+        "excerpt": "همانطور که هوش مصنوعی در سیستم های فناوری اطلاعات و ژئوپلیتیک در خط مقدم سایبری قرار می گیرد، برخی از کارشناسان می گویند که رویدادهای هفته های اخیر به زودی می تواند یک اتفاق شایع باشد که Alex Pearce در هفته گذشته در بخش میوه و سبزیجات خود در لندن انجام داد. نور defrost در واحد یخچال 2 روشن بود و خواندن پانل 150C بود. واحد 4 ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T06:44:30Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -700,15 +760,15 @@
       "eventId": "7baf06e1004e3e7a",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.9,
+        "recency": 71.5,
         "topic": 85.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -719,7 +779,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -760,15 +820,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 65.4,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.6,
+        "recency": 54.5,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -776,66 +836,6 @@
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ba5f1cdb14f57903",
-      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "How to predict the behavior of molecules from scant data",
-      "excerpt": "A machine-learning approach called CheMeleon provides a practical way to develop new drugs or other molecules with much less detailed, expensive experimentation.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T19:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T19:31:24Z",
-      "day": "2026-11-06",
-      "category": "research",
-      "tags": [
-       "research",
-       "drug discovery",
-       "chemical engineering",
-       "artificial intelligence",
-       "machine learning",
-       "chemistry"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56",
-       "credit": "Image courtesy of the researchers.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "ba5f1cdb14f57903",
-      "related": [],
-      "score": {
-       "total": 64.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 71.4,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی پیش بینی رفتار مولکول ها از داده های اسکن",
-        "excerpt": "یک رویکرد یادگیری ماشینی به نام CheMeleon یک روش عملی برای توسعه داروهای جدید یا مولکول های دیگر با آزمایش های بسیار کم و گران قیمت فراهم می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T19:31:24Z"
        }
       }
      },
@@ -850,8 +850,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-09T06:00:33Z",
-   "to": "2026-11-08T06:00:33Z",
+   "from": "2026-10-09T08:00:36Z",
+   "to": "2026-11-08T08:00:36Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -886,11 +886,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 48.2,
+        "recency": 47.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -943,15 +943,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 74.2,
+       "total": 74.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 64.5,
+        "recency": 64.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1005,15 +1005,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 88.6,
+        "recency": 88.0,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1029,61 +1029,6 @@
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc8f9eac19663ff6",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bc8f9eac19663ff6",
-      "related": [],
-      "score": {
-       "total": 71.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.6,
-        "topic": 100.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
-        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1125,11 +1070,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.8,
+        "recency": 83.4,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1137,6 +1082,61 @@
         "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-05T22:24:22Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bc8f9eac19663ff6",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "lang": "en",
+      "publishedAt": "2026-11-06T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-06T18:31:52Z",
+      "day": "2026-11-06",
+      "category": "models",
+      "tags": [
+       "security"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "bc8f9eac19663ff6",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.1,
+        "topic": 100.0,
+        "novelty": 84.6
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
+        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-06T18:31:52Z"
        }
       }
      },
@@ -1150,52 +1150,48 @@
     },
     {
      "article": {
-      "id": "80b8f077bc42c9db",
-      "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla used GPT-6 Cyber to uncover previously unknown high-severity vulnerabilities in Firefox and identify architectural improvements. Its team shipped fixes to millions of users, turning findings into protections for the people who depend on the software. Hear Brian Grinstead, Distinguished Engineer for Firefox, share Mozilla’s experience and what stronger AI can mean for software defense…",
+      "id": "b58fee4edbbb5f7a",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Australian universities are creating AI-native graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:14:11Z",
+      "publishedAt": "2026-11-05T17:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
+      "fetchedAt": "2026-11-06T02:52:00Z",
       "day": "2026-11-05",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "company"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i1.ytimg.com/vi/pXRZyOxbDL4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "pXRZyOxbDL4",
-       "url": "https://www.youtube.com/watch?v=pXRZyOxbDL4"
-      },
-      "eventId": "80b8f077bc42c9db",
+      "eventId": "b58fee4edbbb5f7a",
       "related": [],
       "score": {
        "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 83.4,
         "topic": 100.0,
-        "novelty": 90.9
+        "novelty": 91.7
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "موزیلا از GPT-6 Cyber برای کشف آسیب پذیری های قدیمی ناشناخته در فایرفاکس و شناسایی پیشرفت های معماری استفاده کرد. تیم آن به میلیون ها کاربر اصلاح کرد و یافته ها را به حفاظت از افرادی که به نرم افزار وابسته هستند تبدیل کرد. بشنوید Brian Grinstead، مهندس Distinguished برای فایرفاکس، تجربه موزیلا را به اشتراک بگذارید و چه AI قوی تر می تواند برای دفاع از نرم افزار به معنای ...",
+        "title": "دانشگاه های استرالیا در حال ایجاد فارغ التحصیلان هوش مصنوعی هستند",
+        "excerpt": "دانشگاه های استرالیا در حال گسترش دسترسی به ChatGPT هستند و AI را به آموزش و یادگیری می رسانند تا دانش آموزان را برای نیروی کار فعال AI آماده کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-06T02:52:00Z"
        }
       }
      },
@@ -1240,15 +1236,15 @@
       "eventId": "ba5f1cdb14f57903",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.4,
+        "recency": 89.9,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1294,15 +1290,15 @@
       "eventId": "be1ba71e55b7f125",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 88.6,
         "topic": 75.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1313,63 +1309,6 @@
       }
      },
      "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "56a03da12c0bbf17",
-      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Detecting signs of hypertension using wearable sensors",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-05T16:01:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-05T16:32:15Z",
-      "day": "2026-11-05",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "56a03da12c0bbf17",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.6,
-        "topic": 80.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-08T06:00:33Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T16:32:15Z"
-       }
-      }
-     },
-     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1409,15 +1348,15 @@
       "eventId": "821a1a5e3df62a26",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 91.0,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-08T06:00:33Z"
+       "asOf": "2026-11-08T08:00:36Z"
       },
       "tr": {
        "fa": {
@@ -1425,6 +1364,63 @@
         "excerpt": "ببینید که چگونه زیمنس از عملیات کارخانه NVIDIA Blueprint برای برنامه ریزی تولید در عرض چند دقیقه و NVIDIA Cosmos برای تولید یک نمونه اولیه مجازی و داده های مصنوعی برای آموزش مدل های بازرسی نوری قبل از شروع تولید استفاده می کند. کشف کنید که چگونه زیمنس در حال ادغام عوامل هوش مصنوعی و دوقلوهای دیجیتال برای سرعت بخشیدن به برنامه ریزی و عملیات تولید است - تولید سازگار را افزایش می دهد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-07T10:43:01Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "56a03da12c0bbf17",
+      "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Detecting signs of hypertension using wearable sensors",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-05T16:01:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-05T16:32:15Z",
+      "day": "2026-11-05",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Hypertension1_Overview.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "56a03da12c0bbf17",
+      "related": [],
+      "score": {
+       "total": 67.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 83.1,
+        "topic": 80.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-08T08:00:36Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تشخیص نشانه های فشار خون با استفاده از سنسورهای پوشیدنی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-05T16:32:15Z"
        }
       }
      },
