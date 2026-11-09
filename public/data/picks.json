@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-09T08:00:00Z",
+ "asOf": "2026-11-09T12:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,66 +10,66 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-08T08:00:00Z",
-   "to": "2026-11-09T08:00:00Z",
+   "from": "2026-11-08T12:00:00Z",
+   "to": "2026-11-09T12:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "aac00f5f941f51b6",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "excerpt": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+      "id": "11a2167fe1d6515d",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
+      "excerpt": "The same technical limits that prevent superintelligence make these systems dangerous. But we know how to regulate them Many Silicon Valley leaders believe superintelligence is an imminent threat to society. The White House even published an accord about it. This isn’t enough. Geoffrey Hinton, the godfather of AI, estimates the risk of human extinction is at least 10% within the next few…",
       "lang": "en",
-      "publishedAt": "2026-11-09T05:00:00Z",
+      "publishedAt": "2026-11-09T11:00:07Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
+      "fetchedAt": "2026-11-09T12:11:46Z",
       "day": "2026-11-09",
-      "category": "research",
+      "category": "safety",
       "tags": [
-       "research",
-       "robotics",
-       "aeronautical and astronautical engineeri",
-       "artificial intelligence",
-       "assistive technology",
-       "automation"
+       "ai (artificial intelligence)",
+       "technology",
+       "computing",
+       "openai",
+       "google",
+       "nvidia"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-FLEX-01-press.jpg?itok=811PS9Sd",
-       "credit": "Credit: Getty Images, MIT News",
+       "url": "https://i.guim.co.uk/img/media/61f2a12727abb4833954c062ef986ee4b1361691/497_0_4966_3972/master/4966.jpg?width=700&quality=85&auto=format&fit=max&s=a4c439f427c02d5226883a91f725ebcf",
+       "credit": "Photograph: Jeff Chiu/AP",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "aac00f5f941f51b6",
+      "eventId": "11a2167fe1d6515d",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 65.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 80.0,
-        "novelty": 91.7
+        "recency": 94.4,
+        "topic": 90.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "نرم افزار AI-HELP Learning Platform به ربات ها کمک می کند تا فراتر از دستورات لفظی",
-        "excerpt": "رویکرد جدید، که به نام FLEX شناخته می شود، می تواند منجر به ساخت بیشتر بصری، تعاملی خانگی و ربات های کمکی شود.",
+        "title": "هوش مصنوعی امروز به هوش مصنوعی دست نخواهد یافت. اما خطر فاجعه بار واقعی است. Sunita Verma",
+        "excerpt": "همان محدودیت های فنی که از ابرهوشمندی جلوگیری می کند، این سیستم ها را خطرناک می کند. اما ما می دانیم که چگونه بسیاری از رهبران دره سیلیکون را تنظیم کنیم، بر این باوریم که ابرهوشی یک تهدید قریب الوقوع برای جامعه است. کاخ سفید حتی یک توافق درباره آن منتشر کرد. این کافی نیست. جفری هانون، پدرخوانده هوش مصنوعی، تخمین می زند که خطر انقراض انسان حداقل ۱۰ درصد در چند بعدی است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
+        "at": "2026-11-09T12:11:46Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -106,15 +106,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 67.8,
+       "total": 65.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 51.1,
+        "recency": 40.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -130,6 +130,66 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "aac00f5f941f51b6",
+      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
+      "excerpt": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T08:05:24Z",
+      "day": "2026-11-09",
+      "category": "research",
+      "tags": [
+       "research",
+       "robotics",
+       "aeronautical and astronautical engineeri",
+       "artificial intelligence",
+       "assistive technology",
+       "automation"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-FLEX-01-press.jpg?itok=811PS9Sd",
+       "credit": "Credit: Getty Images, MIT News",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "aac00f5f941f51b6",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 66.7,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-09T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "نرم افزار AI-HELP Learning Platform به ربات ها کمک می کند تا فراتر از دستورات لفظی",
+        "excerpt": "رویکرد جدید، که به نام FLEX شناخته می شود، می تواند منجر به ساخت بیشتر بصری، تعاملی خانگی و ربات های کمکی شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T08:05:24Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -167,79 +227,20 @@
       "eventId": "8422634c9a069030",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 66.7,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "یک مدل AI رفتار بسیاری از مواد را شبیه سازی می کند، از شن های کشویی گرفته تا پروتئین های تاشو",
         "excerpt": "با یادگیری چگونگی حرکت ماده، سیستم جهانی ذرات می تواند به توسعه ربات های نرم، داروها و موارد دیگر کمک کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "60900222ede9bec5",
-      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "excerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes",
-      "lang": "en",
-      "publishedAt": "2026-11-09T05:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
-      "day": "2026-11-09",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "dynamo",
-       "nvlink",
-       "sovereign ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-sovereign-ai-nvlink-fusion.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "60900222ede9bec5",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 70.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-09T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از چیپ ها گرفته تا مهارت ها، NVIDIA و کره توسعه همکاری AI",
-        "excerpt": "NVIDIA و وزارت علوم و فناوری اطلاعات کره (MSIT) در حال گسترش همکاری خود در سراسر اکوسیستم مستقل AI کشور، از نیمه هادی های AI و زیرساخت های مرکز داده به استعداد، استارتاپ ها، مدل ها، عوامل و امنیت هستند. این همکاری زمینه ای را برای شرکت های NPU و XPU برای بررسی مشارکت در اکوسیستم NVIDIA NVLink Fusion ایجاد می کند و شامل",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T08:05:24Z"
        }
@@ -255,54 +256,53 @@
     },
     {
      "article": {
-      "id": "43411ee6af9d2736",
-      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
-      "excerpt": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "id": "0087f7f25a1705d5",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/07/anti-ai-populism-is-the-future-of-american-politics",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Anti-AI populism is the future of American politics | Garrison Lovely",
+      "excerpt": "Democrats should drag Sam Altman, Dario Amodei and Elon Musk before the world and make them explain just what it is they’re trying to do and why The AI industry had a bad night last week. The Democrats’ sweeping midterms victory is a rebuke of Donald Trump, the industry’s most powerful champion. Continue reading...",
       "lang": "en",
-      "publishedAt": "2026-11-09T08:00:00Z",
+      "publishedAt": "2026-11-09T11:00:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
+      "fetchedAt": "2026-11-09T12:11:46Z",
       "day": "2026-11-09",
-      "category": "hardware",
+      "category": "policy",
       "tags": [
-       "business",
-       "business / artificial intelligence",
-       "uk",
-       "activism",
-       "data centers",
-       "google"
+       "ai (artificial intelligence)",
+       "datacenters – us",
+       "sam altman",
+       "dario amodei",
+       "elon musk",
+       "democrats"
       ],
-      "entities": [
-       "google"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6aecab4af3a6c68d60864f57/master/pass/Bugs%20and%20bikes%20revise.jpg",
+       "url": "https://i.guim.co.uk/img/media/e34f8015774a40911b0d060d97ed337d4dd60e3e/452_0_4499_3601/master/4499.jpg?width=700&quality=85&auto=format&fit=max&s=00b1e1412a7f332da2946c14cee65044",
+       "credit": "Photograph: Aaron Schwartz/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "43411ee6af9d2736",
+      "eventId": "0087f7f25a1705d5",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 64.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 76.9
+        "recency": 94.4,
+        "topic": 85.0,
+        "novelty": 84.6
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "دوچرخه سواران و Bug-Lovers برای مبارزه با یک مرکز داده جدید گوگل به نیروهای خود ملحق می شوند",
-        "excerpt": "از آنجا که اعتراضات مرکز داده در سراسر اروپا اتفاق می افتد، یک گروه بی نظیر از مبارزات انتخاباتی تلاش می کند تا گوگل را از ساخت یک تاسیسات جدید گسترده در شرق لندن مسدود کند.",
+        "title": "پوپولیسم ضد هوش آینده سیاست آمریکا است | گاریسون دوست داشتنی",
+        "excerpt": "دموکرات ها باید Sam Altman، Dario Amodei و Elon Musk را قبل از جهان بکشند و آن ها را فقط توضیح دهند که چه کاری را انجام می دهند و چرا صنعت AI شب گذشته یک شب بد داشته است. پیروزی بلند مدت دموکرات ها، یک توهین به دونالد ترامپ، قدرتمند ترین قهرمان این صنعت است. ادامه خواندن ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
+        "at": "2026-11-09T12:11:46Z"
        }
       }
      },
@@ -316,55 +316,59 @@
     },
     {
      "article": {
-      "id": "fd55f27ae431c617",
-      "url": "https://arxiv.org/abs/2611.09863",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "Flow-Guided Target-Space Alignment via Path Consistency",
-      "excerpt": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global structure of the target distribution and the instance-level correspondence observed in paired…",
+      "id": "7267317c0555ceef",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "excerpt": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
       "lang": "en",
-      "publishedAt": "2026-11-09T05:00:00Z",
+      "publishedAt": "2026-11-09T11:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
+      "fetchedAt": "2026-11-09T12:11:46Z",
       "day": "2026-11-09",
-      "category": "safety",
+      "category": "research",
       "tags": [
-       "cs.ai",
-       "cs.cv",
-       "cs.lg"
+       "culture",
+       "culture / books",
+       "books",
+       "artificial intelligence",
+       "creative writing",
+       "authors"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
+       "url": "https://media.wired.com/photos/6ae34f0e2a90131582712a70/master/pass/102926-AI%20Cheating_.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "fd55f27ae431c617",
+      "eventId": "7267317c0555ceef",
       "related": [],
       "score": {
-       "total": 58.3,
+       "total": 64.0,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 90.0,
-        "novelty": 100.0
+        "recency": 94.4,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "جریان-Guided Target-Space Alignment از طریق Consistency Path",
-        "excerpt": "بسیاری از مشکلات تراز چند منظوره نیاز به نقشه برداری یک تنظیم منبع به یک فضای ثابت تعریف شده توسط یک روش هدف، که در آن فضای هدف نه تنها یک جاسازی واسطه است، بلکه به طور مستقیم برای تجزیه و تحلیل جریان استفاده می شود. در این تنظیم، تراز موفقیت آمیز باید ساختار جهانی توزیع هدف و مکاتبات سطح نمونه مشاهده شده در جفت را حفظ کند.",
+        "title": "نویسندگان می توانند در برابر اصول هوش مصنوعی با ابزار “Paper Trail” دفاع کنند. آیا کافی است؟",
+        "excerpt": "از آنجا که صنعت نشر با پارانویا در مورد اثبات دست نوشته ها مبارزه می کند، نویسندگان در یک اتصال غیر ممکن گرفتار می شوند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
+        "at": "2026-11-09T12:11:46Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,8 +376,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-02T08:00:00Z",
-   "to": "2026-11-09T08:00:00Z",
+   "from": "2026-11-02T12:00:00Z",
+   "to": "2026-11-09T12:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +412,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 75.5,
+       "total": 74.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 89.4,
+        "recency": 86.0,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -469,15 +473,15 @@
       "eventId": "aac00f5f941f51b6",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 93.5,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -529,15 +533,15 @@
       "eventId": "8422634c9a069030",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 93.5,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -588,15 +592,15 @@
       "eventId": "60900222ede9bec5",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 93.5,
         "topic": 70.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +652,15 @@
       "eventId": "51bc8200bfc724aa",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 93.5,
         "topic": 70.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -671,6 +675,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "11a2167fe1d6515d",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/09/ai-superintelligence-risk",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Today’s AI won’t achieve superintelligence. But catastrophic risk is real | Sunita Verma",
+      "excerpt": "The same technical limits that prevent superintelligence make these systems dangerous. But we know how to regulate them Many Silicon Valley leaders believe superintelligence is an imminent threat to society. The White House even published an accord about it. This isn’t enough. Geoffrey Hinton, the godfather of AI, estimates the risk of human extinction is at least 10% within the next few…",
+      "lang": "en",
+      "publishedAt": "2026-11-09T11:00:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T12:11:46Z",
+      "day": "2026-11-09",
+      "category": "safety",
+      "tags": [
+       "ai (artificial intelligence)",
+       "technology",
+       "computing",
+       "openai",
+       "google",
+       "nvidia"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/61f2a12727abb4833954c062ef986ee4b1361691/497_0_4966_3972/master/4966.jpg?width=700&quality=85&auto=format&fit=max&s=a4c439f427c02d5226883a91f725ebcf",
+       "credit": "Photograph: Jeff Chiu/AP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "11a2167fe1d6515d",
+      "related": [],
+      "score": {
+       "total": 66.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 90.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-09T12:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "هوش مصنوعی امروز به هوش مصنوعی دست نخواهد یافت. اما خطر فاجعه بار واقعی است. Sunita Verma",
+        "excerpt": "همان محدودیت های فنی که از ابرهوشمندی جلوگیری می کند، این سیستم ها را خطرناک می کند. اما ما می دانیم که چگونه بسیاری از رهبران دره سیلیکون را تنظیم کنیم، بر این باوریم که ابرهوشی یک تهدید قریب الوقوع برای جامعه است. کاخ سفید حتی یک توافق درباره آن منتشر کرد. این کافی نیست. جفری هانون، پدرخوانده هوش مصنوعی، تخمین می زند که خطر انقراض انسان حداقل ۱۰ درصد در چند بعدی است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T12:11:46Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -709,15 +773,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 65.6,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 51.9,
+        "recency": 50.0,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -728,7 +792,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -739,117 +803,60 @@
     },
     {
      "article": {
-      "id": "bc2d0068f56d93e1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Extend Claude Code to remote sessions on Amazon Bedrock AgentCore with security controls",
-      "excerpt": "Run Claude Code as a remote agent on Amazon Bedrock AgentCore. Each coding task runs in its own isolated session in your AWS account, every model call goes through Amazon Bedrock, and the result comes back as a GitHub pull request you review and merge.",
+      "id": "0087f7f25a1705d5",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/07/anti-ai-populism-is-the-future-of-american-politics",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Anti-AI populism is the future of American politics | Garrison Lovely",
+      "excerpt": "Democrats should drag Sam Altman, Dario Amodei and Elon Musk before the world and make them explain just what it is they’re trying to do and why The AI industry had a bad night last week. The Democrats’ sweeping midterms victory is a rebuke of Donald Trump, the industry’s most powerful champion. Continue reading...",
       "lang": "en",
-      "publishedAt": "2026-11-06T16:45:58Z",
+      "publishedAt": "2026-11-09T11:00:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
+      "fetchedAt": "2026-11-09T12:11:46Z",
+      "day": "2026-11-09",
+      "category": "policy",
       "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "expert (400)",
-       "technical how-to"
+       "ai (artificial intelligence)",
+       "datacenters – us",
+       "sam altman",
+       "dario amodei",
+       "elon musk",
+       "democrats"
       ],
-      "entities": [
-       "amazon",
-       "anthropic",
-       "microsoft"
-      ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21719-1.png",
-       "alt": "Architecture of the sample. Claude Code, through a local MCP server, or a web console served by Amazon CloudFront with AWS WAF, submits tasks to Amazon API Gateway. AWS Lambda handlers screen each pro",
+       "url": "https://i.guim.co.uk/img/media/e34f8015774a40911b0d060d97ed337d4dd60e3e/452_0_4499_3601/master/4499.jpg?width=700&quality=85&auto=format&fit=max&s=00b1e1412a7f332da2946c14cee65044",
+       "credit": "Photograph: Aaron Schwartz/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "bc2d0068f56d93e1",
+      "eventId": "0087f7f25a1705d5",
       "related": [],
       "score": {
-       "total": 63.6,
+       "total": 65.0,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 54.4,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-09T08:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گسترش کلود کد به جلسات از راه دور در Amazon Bedrock Agent با کنترل های امنیتی",
-        "excerpt": "اجرای کد کلود به عنوان یک عامل از راه دور در Amazon Bedrock Agent. هر کار برنامه نویسی در جلسه جداگانه خود در حساب AWS خود اجرا می شود، هر تماس مدل از طریق Amazon Bedrock می رود و نتیجه به عنوان یک درخواست کشویی GitHub شما بررسی و ادغام می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bc8f9eac19663ff6",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "lang": "en",
-      "publishedAt": "2026-11-06T08:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-06T18:31:52Z",
-      "day": "2026-11-06",
-      "category": "models",
-      "tags": [
-       "security"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bc8f9eac19663ff6",
-      "related": [],
-      "score": {
-       "total": 63.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 50.0,
-        "topic": 100.0,
+        "recency": 99.0,
+        "topic": 85.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "همکاری با Hacktron برای پیدا کردن آسیب پذیری در سیستم های OpenAI",
-        "excerpt": "OpenAI با Hacktron همکاری می کند تا آسیب پذیری ها، ارتباطات آزمایشی با سرویس های شخص ثالث را پیدا کند و دفاع را با AI مرزی تقویت کند.",
+        "title": "پوپولیسم ضد هوش آینده سیاست آمریکا است | گاریسون دوست داشتنی",
+        "excerpt": "دموکرات ها باید Sam Altman، Dario Amodei و Elon Musk را قبل از جهان بکشند و آن ها را فقط توضیح دهند که چه کاری را انجام می دهند و چرا صنعت AI شب گذشته یک شب بد داشته است. پیروزی بلند مدت دموکرات ها، یک توهین به دونالد ترامپ، قدرتمند ترین قهرمان این صنعت است. ادامه خواندن ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-06T18:31:52Z"
+        "at": "2026-11-09T12:11:46Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -857,8 +864,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-10T08:00:00Z",
-   "to": "2026-11-09T08:00:00Z",
+   "from": "2026-10-10T12:00:00Z",
+   "to": "2026-11-09T12:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -893,15 +900,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 76.9,
+       "total": 76.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 96.7,
+        "recency": 95.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -949,15 +956,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.9,
+       "total": 73.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 44.7,
+        "recency": 44.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1010,15 +1017,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 59.8,
+        "recency": 59.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1072,15 +1079,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 71.6,
+       "total": 71.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 82.2,
+        "recency": 81.2,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1133,15 +1140,15 @@
       "eventId": "aac00f5f941f51b6",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1193,15 +1200,15 @@
       "eventId": "8422634c9a069030",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.0,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1253,15 +1260,15 @@
        "003a6dd08e360129"
       ],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.8,
+        "recency": 76.9,
         "topic": 100.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1308,15 +1315,15 @@
       "eventId": "bc8f9eac19663ff6",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.2,
+        "recency": 80.3,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1367,15 +1374,15 @@
       "eventId": "80b8f077bc42c9db",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.8,
+        "recency": 76.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1426,15 +1433,15 @@
       "eventId": "60900222ede9bec5",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.0,
         "topic": 70.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-09T08:00:00Z"
+       "asOf": "2026-11-09T12:00:00Z"
       },
       "tr": {
        "fa": {
