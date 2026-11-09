@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-09T18:51:10Z",
+ "asOf": "2026-11-09T22:23:42Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,69 +10,243 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-08T18:51:10Z",
-   "to": "2026-11-09T18:51:10Z",
+   "from": "2026-11-08T22:23:42Z",
+   "to": "2026-11-09T22:23:42Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "9015c3069685351f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick",
+      "id": "2e186972ef6cdfd3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Professional work deserves professional tools. Meet AWS Quick.",
-      "excerpt": "Introducing AWS Quick, formerly Amazon Quick, and the debut of our first brand campaign celebrating teams who keep business moving. AWS Quick is the AI workspace built only for work, where teams use AI agents to research, analyze, and act across the data and applications they already rely on.",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
       "lang": "en",
-      "publishedAt": "2026-11-09T18:43:30Z",
+      "publishedAt": "2026-11-09T20:04:37Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
+      "fetchedAt": "2026-11-09T22:44:27Z",
       "day": "2026-11-09",
-      "category": "products",
+      "category": "models",
       "tags": [
-       "amazon quick suite",
+       "amazon bedrock",
        "announcements",
-       "foundational (100)"
+       "intermediate (200)"
       ],
       "entities": [
-       "amazon"
+       "amazon",
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "796a7f7ee338b70f",
+      "related": [
+       "48b53c6a7cafa53f",
+       "796a7f7ee338b70f",
+       "f1eea0a2781af6aa"
+      ],
+      "score": {
+       "total": 88.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 87.5,
+        "recency": 87.5,
+        "topic": 100.0,
+        "novelty": 43.8
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی کلود Fable 5.2 در AWS",
+        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 4,
+     "reason": [
+      "tier-1",
+      "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fead6112027b4623",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Exploring the world's languages with Language Explorer",
+      "excerpt": "Natural Language Processing",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:29:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "research",
+      "tags": [
+       "natural language processing",
+       "open source models & datasets"
+      ],
+      "entities": [
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://i.ytimg.com/vi/X93DOtA7dpA/hqdefault.jpg",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/watch?v=X93DOtA7dpA"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "X93DOtA7dpA",
-       "url": "https://www.youtube.com/watch?v=X93DOtA7dpA"
-      },
-      "eventId": "9015c3069685351f",
+      "eventId": "fead6112027b4623",
       "related": [],
       "score": {
        "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
-        "topic": 65.0,
-        "novelty": 90.9
+        "recency": 89.6,
+        "topic": 80.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
-        "title": "کار حرفه ای سزاوار ابزارهای حرفه ای است. ملاقات با AWS Quick",
-        "excerpt": "معرفی AWS Quick، پیش از این آمازون سریع و اولین تیم های جشن تجاری ما که در حال حرکت کسب و کار هستند. AWS Quick فضای کاری AI است که تنها برای کار ساخته شده است، جایی که تیم ها از عوامل AI برای تحقیق، تجزیه و تحلیل و عمل در سراسر داده ها و برنامه هایی که قبلا به آن متکی هستند، استفاده می کنند.",
+        "title": "بررسی زبان های جهان با زبان اکسپلورر",
+        "excerpt": "پردازش زبان طبیعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-09T22:44:27Z"
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0eb7f2999aa203f1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:13:18Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "policy",
+      "tags": [
+       "amazon bedrock",
+       "amazon bedrock knowledge bases",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
+       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "0eb7f2999aa203f1",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.2,
+        "topic": 85.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
+        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "09274ed8ecd7dd5c",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "The race is on to sue Nvidia",
+      "excerpt": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T22:23:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "tc",
+       "litigation",
+       "nvidia"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "09274ed8ecd7dd5c",
+      "related": [],
+      "score": {
+       "total": 65.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مسابقه برای شکایت از Nvidia",
+        "excerpt": "سهام Nvidia بیش از 4٪ پس از باز کردن تحقیقات در مورد رابطه جنس جنسن هوانگ با جاسوسی چینی مشکوک، و یک کارشناس قانون اوراق بهادار می گوید که اصرار قبلی شرکت مبنی بر اینکه همه چیز \"عادی\" است می تواند به یک مشکل بسیار گران تبدیل شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -104,196 +278,19 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 64.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.5,
+        "recency": 65.6,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
         "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1f917ef42e116f1b",
-      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Claude Code is accidentally exposing secrets all over GitHub",
-      "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T17:24:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "ai",
-       "security",
-       "ai agents",
-       "anthropic",
-       "claude code",
-       "github"
-      ],
-      "entities": [
-       "anthropic",
-       "microsoft"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-1152x648.jpg",
-       "alt": "What you got hiding in those settings files?",
-       "credit": "Aurich Lawson",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "1f917ef42e116f1b",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 92.0,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کد کلود به طور تصادفی در حال افشای اسرار در سراسر GitHub است",
-        "excerpt": "\"دوباره نپرسید\" سریع منجر به کلمات عبور، کلید های API و اشتراک بیشتر می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cb7863665107d049",
-      "url": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Revealed: Palantir lobbied minister to stretch AI tools’ reach to NHS GP records",
-      "excerpt": "Exclusive: WhatsApp messages show firm pressuring Zubir Ahmed MP to help bring sensitive data into its platform UK politics live – latest updates Palantir lobbied a health minister to consider extending its AI technology into GP records, stretching its reach into the NHS in a way doctors fear could undermine trust with patients. The US company, co-founded by the Trump-supporting billionaire…",
-      "lang": "en",
-      "publishedAt": "2026-11-09T17:58:05Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "policy",
-      "tags": [
-       "palantir",
-       "technology",
-       "ai (artificial intelligence)",
-       "weapons technology",
-       "nhs",
-       "peter thiel"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/2492145870792c940b152bec952dec99ef8071eb/415_0_4151_3321/master/4151.jpg?width=700&quality=85&auto=format&fit=max&s=a2607aaa9bdb18f6b7bf1be2782a72fc",
-       "credit": "Photograph: John Lynch/Alamy",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "cb7863665107d049",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 95.0,
-        "topic": 85.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نشان داده شده است: Palantir lobbied Minister برای گسترش ابزار AI دسترسی به سوابق GP NHS",
-        "excerpt": "منحصر به فرد: پیام های WhatsApp نشان می دهد که فشار آوردن Zubir احمد برای کمک به آوردن داده های حساس به پلت فرم خود انگلستان زندگی می کند - آخرین به روز رسانی Palantir یک وزیر بهداشت را برای در نظر گرفتن گسترش فن آوری AI خود را به پرونده های GP، کشش دسترسی آن به NHS به طوری که پزشکان می ترسند به بیماران اعتماد کند. شرکت آمریکایی، که توسط میلیاردر حمایت از ترامپ تاسیس شده است...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7b1451fc786c34f9",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-09T12:34:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
-      },
-      "eventId": "7b1451fc786c34f9",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 69.6,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کارشناسان شما شرکایی دارند. امید برای نگه داشتن آنم با هم",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T18:54:05Z"
        }
@@ -309,55 +306,55 @@
     },
     {
      "article": {
-      "id": "7f47f4f4451cddf7",
-      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "excerpt": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+      "id": "f37b680abcf7adcb",
+      "url": "https://openai.com/index/control-room",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
       "lang": "en",
-      "publishedAt": "2026-11-09T17:05:43Z",
+      "publishedAt": "2026-11-09T13:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
+      "fetchedAt": "2026-11-09T22:44:27Z",
       "day": "2026-11-09",
-      "category": "policy",
+      "category": "models",
       "tags": [
-       "artificial intelligence",
-       "app",
-       "summary"
+       "safety"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "images/fallbacks/policy.svg",
+       "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "7f47f4f4451cddf7",
+      "eventId": "f37b680abcf7adcb",
       "related": [],
       "score": {
-       "total": 64.0,
+       "total": 64.3,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.3,
-        "topic": 85.0,
-        "novelty": 91.7
+        "recency": 58.1,
+        "topic": 100.0,
+        "novelty": 76.9
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
-        "title": "جایگزینی نانسی پلوسی برای تنظیم AI آماده است",
-        "excerpt": "به عنوان یک سناتور ایالتی کالیفرنیا، اسکات وینر لایحه ای را با هدف محدود کردن خطرات هوش مصنوعی پیشرفته امضا کرد. در حال حاضر، پس از برنده شدن یک مسابقه کنگره محکم برای رئیس سابق کاخ نانسی پلوسیی در صندلی باز سان فرانسیسکو، او می تواند نقش مهمی در تنظیم سیاست هوش مصنوعی فدرال ایفا کند. من روز جمعه با Wiener صحبت کردم، فقط یک...",
+        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
+        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-09T22:44:27Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -365,10 +362,72 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-02T18:51:10Z",
-   "to": "2026-11-09T18:51:10Z",
+   "from": "2026-11-02T22:23:42Z",
+   "to": "2026-11-09T22:23:42Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "2e186972ef6cdfd3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:04:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "796a7f7ee338b70f",
+      "related": [
+       "48b53c6a7cafa53f",
+       "796a7f7ee338b70f",
+       "f1eea0a2781af6aa"
+      ],
+      "score": {
+       "total": 90.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 87.5,
+        "recency": 97.8,
+        "topic": 100.0,
+        "novelty": 43.8
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی کلود Fable 5.2 در AWS",
+        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 4,
+     "reason": [
+      "tier-1",
+      "voices-4",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ecd65815b585666d",
@@ -401,15 +460,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.5,
+        "recency": 77.8,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -420,11 +479,238 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "23b94c697622500f",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "23b94c697622500f",
+      "related": [],
+      "score": {
+       "total": 71.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.1,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "CodeRabbit مقیاس های توسعه نرم افزار و کشتی های 20x بیشتر",
+        "excerpt": "CodeRabbit از مدل های OpenAI برای مدیریت و اعتماد به کد و Codex AI استفاده می کند تا ۲۰ بار نرم افزار بیشتری را با همان تیم مهندسی حمل کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f37b680abcf7adcb",
+      "url": "https://openai.com/index/control-room",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f37b680abcf7adcb",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.4,
+        "topic": 100.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
+        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fead6112027b4623",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Exploring the world's languages with Language Explorer",
+      "excerpt": "Natural Language Processing",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:29:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "research",
+      "tags": [
+       "natural language processing",
+       "open source models & datasets"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "fead6112027b4623",
+      "related": [],
+      "score": {
+       "total": 70.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.2,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بررسی زبان های جهان با زبان اکسپلورر",
+        "excerpt": "پردازش زبان طبیعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0eb7f2999aa203f1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:13:18Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "policy",
+      "tags": [
+       "amazon bedrock",
+       "amazon bedrock knowledge bases",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
+       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "0eb7f2999aa203f1",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.9,
+        "topic": 85.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
+        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -456,15 +742,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 93.2,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -474,7 +760,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -509,318 +795,21 @@
       "eventId": "7b1451fc786c34f9",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 91.0,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
         "title": "کارشناسان شما شرکایی دارند. امید برای نگه داشتن آنم با هم",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9015c3069685351f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Professional work deserves professional tools. Meet AWS Quick.",
-      "excerpt": "Introducing AWS Quick, formerly Amazon Quick, and the debut of our first brand campaign celebrating teams who keep business moving. AWS Quick is the AI workspace built only for work, where teams use AI agents to research, analyze, and act across the data and applications they already rely on.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T18:43:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "products",
-      "tags": [
-       "amazon quick suite",
-       "announcements",
-       "foundational (100)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.ytimg.com/vi/X93DOtA7dpA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/watch?v=X93DOtA7dpA"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "X93DOtA7dpA",
-       "url": "https://www.youtube.com/watch?v=X93DOtA7dpA"
-      },
-      "eventId": "9015c3069685351f",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.9,
-        "topic": 65.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کار حرفه ای سزاوار ابزارهای حرفه ای است. ملاقات با AWS Quick",
-        "excerpt": "معرفی AWS Quick، پیش از این آمازون سریع و اولین تیم های جشن تجاری ما که در حال حرکت کسب و کار هستند. AWS Quick فضای کاری AI است که تنها برای کار ساخته شده است، جایی که تیم ها از عوامل AI برای تحقیق، تجزیه و تحلیل و عمل در سراسر داده ها و برنامه هایی که قبلا به آن متکی هستند، استفاده می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "aac00f5f941f51b6",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "excerpt": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [
-       "research",
-       "robotics",
-       "aeronautical and astronautical engineeri",
-       "artificial intelligence",
-       "assistive technology",
-       "automation"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-FLEX-01-press.jpg?itok=811PS9Sd",
-       "credit": "Credit: Getty Images, MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "aac00f5f941f51b6",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.5,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نرم افزار AI-HELP Learning Platform به ربات ها کمک می کند تا فراتر از دستورات لفظی",
-        "excerpt": "رویکرد جدید، که به نام FLEX شناخته می شود، می تواند منجر به ساخت بیشتر بصری، تعاملی خانگی و ربات های کمکی شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "33153ff37db03005",
-      "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026",
-      "sourceId": "bair",
-      "sourceName": "Berkeley AI Research (BAIR) Blog",
-      "title": "BAIR at CoRL 2026",
-      "excerpt": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other universities and companies. November…",
-      "lang": "en",
-      "publishedAt": "2026-11-09T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "33153ff37db03005",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.0,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "BAIR در CoRL 2026",
-        "excerpt": "کنفرانس یادگیری ربات (CoRL) نوامبر 9 تا 12، 2026، در آستین، تگزاس برگزار می شود. دانشکده BAIR، postdocs و دانش آموزان در جلسات مختلف، از جمله یک کلید حرفه ای اولیه از پروفسور Negar تمبر ارائه خواهد شد. در زیر برای برنامه کامل جلسات با اعضای BAIR، از جمله مقالات همراه با همکاران در دانشگاه ها و شرکت های دیگر. نوامبر ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1f917ef42e116f1b",
-      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Claude Code is accidentally exposing secrets all over GitHub",
-      "excerpt": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T17:24:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "ai",
-       "security",
-       "ai agents",
-       "anthropic",
-       "claude code",
-       "github"
-      ],
-      "entities": [
-       "anthropic",
-       "microsoft"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/claude-github-leaks-1152x648.jpg",
-       "alt": "What you got hiding in those settings files?",
-       "credit": "Aurich Lawson",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "1f917ef42e116f1b",
-      "related": [],
-      "score": {
-       "total": 67.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کد کلود به طور تصادفی در حال افشای اسرار در سراسر GitHub است",
-        "excerpt": "\"دوباره نپرسید\" سریع منجر به کلمات عبور، کلید های API و اشتراک بیشتر می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "60900222ede9bec5",
-      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "excerpt": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes",
-      "lang": "en",
-      "publishedAt": "2026-11-09T05:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
-      "day": "2026-11-09",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "dynamo",
-       "nvlink",
-       "sovereign ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/korea-sovereign-ai-nvlink-fusion.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "60900222ede9bec5",
-      "related": [],
-      "score": {
-       "total": 66.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.5,
-        "topic": 70.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از چیپ ها گرفته تا مهارت ها، NVIDIA و کره توسعه همکاری AI",
-        "excerpt": "NVIDIA و وزارت علوم و فناوری اطلاعات کره (MSIT) در حال گسترش همکاری خود در سراسر اکوسیستم مستقل AI کشور، از نیمه هادی های AI و زیرساخت های مرکز داده به استعداد، استارتاپ ها، مدل ها، عوامل و امنیت هستند. این همکاری زمینه ای را برای شرکت های NPU و XPU برای بررسی مشارکت در اکوسیستم NVIDIA NVLink Fusion ایجاد می کند و شامل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
        }
       }
      },
@@ -835,10 +824,72 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-10T18:51:10Z",
-   "to": "2026-11-09T18:51:10Z",
+   "from": "2026-10-10T22:23:42Z",
+   "to": "2026-11-09T22:23:42Z",
    "halfLifeHours": 240,
    "picks": [
+    {
+     "article": {
+      "id": "2e186972ef6cdfd3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:04:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "796a7f7ee338b70f",
+      "related": [
+       "48b53c6a7cafa53f",
+       "796a7f7ee338b70f",
+       "f1eea0a2781af6aa"
+      ],
+      "score": {
+       "total": 91.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 87.5,
+        "recency": 99.3,
+        "topic": 100.0,
+        "novelty": 43.8
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی کلود Fable 5.2 در AWS",
+        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 4,
+     "reason": [
+      "tier-1",
+      "voices-4",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ecd65815b585666d",
@@ -871,15 +922,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 76.3,
+       "total": 76.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.7,
+        "recency": 92.8,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -890,7 +941,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -927,15 +978,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 43.3,
+        "recency": 42.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -945,11 +996,66 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "23b94c697622500f",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "startup"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "23b94c697622500f",
+      "related": [],
+      "score": {
+       "total": 73.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.9,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "CodeRabbit مقیاس های توسعه نرم افزار و کشتی های 20x بیشتر",
+        "excerpt": "CodeRabbit از مدل های OpenAI برای مدیریت و اعتماد به کد و Codex AI استفاده می کند تا ۲۰ بار نرم افزار بیشتری را با همان تیم مهندسی حمل کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -988,15 +1094,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.8,
+       "total": 72.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 57.9,
+        "recency": 57.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -1007,11 +1113,66 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f37b680abcf7adcb",
+      "url": "https://openai.com/index/control-room",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "safety"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f37b680abcf7adcb",
+      "related": [],
+      "score": {
+       "total": 72.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.3,
+        "topic": 100.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-09T22:23:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
+        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1043,15 +1204,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 97.9,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -1061,7 +1222,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1103,15 +1264,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 71.1,
+       "total": 70.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 79.6,
+        "recency": 78.8,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
@@ -1122,7 +1283,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 8,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1133,217 +1294,50 @@
     },
     {
      "article": {
-      "id": "aac00f5f941f51b6",
-      "url": "https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-assisted learning platform helps robots reason beyond literal commands",
-      "excerpt": "The new approach, known as FLEX, could lead to more intuitive, interactive household and assistive robots.",
+      "id": "fead6112027b4623",
+      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Exploring the world's languages with Language Explorer",
+      "excerpt": "Natural Language Processing",
       "lang": "en",
-      "publishedAt": "2026-11-09T05:00:00Z",
+      "publishedAt": "2026-11-09T20:29:39Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
+      "fetchedAt": "2026-11-09T22:44:27Z",
       "day": "2026-11-09",
       "category": "research",
       "tags": [
-       "research",
-       "robotics",
-       "aeronautical and astronautical engineeri",
-       "artificial intelligence",
-       "assistive technology",
-       "automation"
+       "natural language processing",
+       "open source models & datasets"
       ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-FLEX-01-press.jpg?itok=811PS9Sd",
-       "credit": "Credit: Getty Images, MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "aac00f5f941f51b6",
-      "related": [],
-      "score": {
-       "total": 70.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.1,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نرم افزار AI-HELP Learning Platform به ربات ها کمک می کند تا فراتر از دستورات لفظی",
-        "excerpt": "رویکرد جدید، که به نام FLEX شناخته می شود، می تواند منجر به ساخت بیشتر بصری، تعاملی خانگی و ربات های کمکی شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7b1451fc786c34f9",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-09T12:34:29Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "open-source",
-      "tags": [],
       "entities": [
-       "huggingface"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
-      },
-      "eventId": "7b1451fc786c34f9",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.2,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کارشناسان شما شرکایی دارند. امید برای نگه داشتن آنم با هم",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8422634c9a069030",
-      "url": "https://news.mit.edu/2026/single-ai-model-simulates-many-substances-behavior-1109",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
-      "excerpt": "By learning how matter moves, the WorldParticle system could assist with developing soft robots, medicines, and more.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T08:05:24Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [
-       "research",
-       "computer modeling",
-       "artificial intelligence",
-       "machine learning",
-       "simulation",
-       "computer graphics"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-WorldParticle-01-Press.jpg?itok=kwMpBg6F",
-       "credit": "Credit: Courtesy of the researchers",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "8422634c9a069030",
+      "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 99.5,
         "topic": 80.0,
-        "novelty": 88.2
+        "novelty": 87.5
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
-        "title": "یک مدل AI رفتار بسیاری از مواد را شبیه سازی می کند، از شن های کشویی گرفته تا پروتئین های تاشو",
-        "excerpt": "با یادگیری چگونگی حرکت ماده، سیستم جهانی ذرات می تواند به توسعه ربات های نرم، داروها و موارد دیگر کمک کند.",
+        "title": "بررسی زبان های جهان با زبان اکسپلورر",
+        "excerpt": "پردازش زبان طبیعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T08:05:24Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "33153ff37db03005",
-      "url": "http://bair.berkeley.edu/blog/2026/11/09/bair-at-corl-2026",
-      "sourceId": "bair",
-      "sourceName": "Berkeley AI Research (BAIR) Blog",
-      "title": "BAIR at CoRL 2026",
-      "excerpt": "The Conference on Robot Learning (CoRL) takes place November 9–12, 2026, in Austin, Texas. BAIR faculty, postdocs and students will be presenting research at various sessions, including an Early Career Keynote from Professor Negar Mehr. See below for the full schedule of sessions with BAIR members, including papers co-authored with collaborators at other universities and companies. November…",
-      "lang": "en",
-      "publishedAt": "2026-11-09T09:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "33153ff37db03005",
-      "related": [],
-      "score": {
-       "total": 69.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.2,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-09T18:51:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "BAIR در CoRL 2026",
-        "excerpt": "کنفرانس یادگیری ربات (CoRL) نوامبر 9 تا 12، 2026، در آستین، تگزاس برگزار می شود. دانشکده BAIR، postdocs و دانش آموزان در جلسات مختلف، از جمله یک کلید حرفه ای اولیه از پروفسور Negar تمبر ارائه خواهد شد. در زیر برای برنامه کامل جلسات با اعضای BAIR، از جمله مقالات همراه با همکاران در دانشگاه ها و شرکت های دیگر. نوامبر ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-09T22:44:27Z"
        }
       }
      },
@@ -1357,53 +1351,53 @@
     },
     {
      "article": {
-      "id": "d7e9e3e89ee778d6",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "excerpt": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "id": "0eb7f2999aa203f1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
+      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
       "lang": "en",
-      "publishedAt": "2026-11-05T17:00:00Z",
+      "publishedAt": "2026-11-09T20:13:18Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-05T22:24:22Z",
-      "day": "2026-11-05",
-      "category": "models",
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "policy",
       "tags": [
-       "gemini models",
-       "developer tools",
-       "ai"
+       "amazon bedrock",
+       "amazon bedrock knowledge bases",
+       "expert (400)",
+       "technical how-to"
       ],
       "entities": [
-       "google"
+       "amazon"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
+       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "d7e9e3e89ee778d6",
-      "related": [
-       "003a6dd08e360129"
-      ],
+      "eventId": "0eb7f2999aa203f1",
+      "related": [],
       "score": {
-       "total": 69.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.4,
-        "topic": 100.0,
-        "novelty": 92.9
+        "recency": 99.4,
+        "topic": 85.0,
+        "novelty": 76.9
        },
-       "asOf": "2026-11-09T18:51:10Z"
+       "asOf": "2026-11-09T22:23:42Z"
       },
       "tr": {
        "fa": {
-        "title": "Gemini Omni 1.2 Flash: Fast و Cost- مقرون به صرفه با کلیپ های طولانی",
-        "excerpt": "متن \"Gemini I معرفی Gemini 1.2 Flash\" توسط تصاویری از یک زنبور، حیوانات در مکالمه، یک squid و یک زن راه رفتن در یک خیابان",
+        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
+        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-05T22:24:22Z"
+        "at": "2026-11-09T22:44:27Z"
        }
       }
      },
