@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-10T02:31:08Z",
+ "asOf": "2026-11-10T09:07:50Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-09T02:31:08Z",
-   "to": "2026-11-10T02:31:08Z",
+   "from": "2026-11-09T09:07:50Z",
+   "to": "2026-11-10T09:07:50Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 85.0,
+       "total": 80.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 68.9,
+        "recency": 47.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -78,260 +78,20 @@
     },
     {
      "article": {
-      "id": "f3135f0075a53548",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/australia-manadatory-reporting-openai-medicare-hack",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going rogue’",
-      "excerpt": "Government flags criminal law changes to ensure companies can’t argue in future ‘that someone didn’t know the computer was loaded’ OpenAI won’t face criminal penalties over the Medicare hack but the prime minister has flagged changes to Australia’s criminal law to crack down on future breaches by artificial intelligence companies. Anthony Albanese on Tuesday released the recommendations of a…",
-      "lang": "en",
-      "publishedAt": "2026-11-10T02:31:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T04:22:59Z",
-      "day": "2026-11-10",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australia news",
-       "australian politics",
-       "anthony albanese",
-       "technology"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/dffa89dc77a6bbaad44df383335bad241ee8e4ac/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=b42e389124df3290c58d0b8509c30061",
-       "credit": "Photograph: Sarah Wilson/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "f3135f0075a53548",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استرالیا برای معرفی گزارش اجباری پس از هک OpenAI برای مبارزه با هوش مصنوعی \"در حال انجام سرکش\"",
-        "excerpt": "تغییر قوانین کیفری دولت برای اطمینان از اینکه شرکت ها نمی توانند در آینده استدلال کنند \"که کسی نمی داند کامپیوتر بارگذاری شده است\" OpenAI با مجازات های جنایی در مورد هک Medicare مواجه نخواهد شد، اما نخست وزیر تغییراتی را در قانون جنایی استرالیا برای شکستن نقض های آینده توسط شرکت های هوش مصنوعی مطرح کرده است. آنتونی آلبانز روز سه شنبه توصیه های یک ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T04:22:59Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fead6112027b4623",
-      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Exploring the world's languages with Language Explorer",
-      "excerpt": "Natural Language Processing",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:29:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [
-       "natural language processing",
-       "open source models & datasets"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "fead6112027b4623",
-      "related": [],
-      "score": {
-       "total": 64.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 70.6,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بررسی زبان های جهان با زبان اکسپلورر",
-        "excerpt": "پردازش زبان طبیعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "daaeaa9f86a3498c",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
-      "excerpt": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email, free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he was radicalised online after first seeing extremist material on TikTok and used…",
-      "lang": "en",
-      "publishedAt": "2026-11-10T01:09:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T02:14:37Z",
-      "day": "2026-11-10",
-      "category": "policy",
-      "tags": [
-       "australian security and counter-terroris",
-       "sydney",
-       "tiktok",
-       "chatgpt",
-       "australia news",
-       "new south wales"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=700&quality=85&auto=format&fit=max&s=4a4b68162ad406c684af80849758ae95",
-       "credit": "Photograph: David Gray/AFP/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "daaeaa9f86a3498c",
-      "related": [],
-      "score": {
-       "total": 64.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 92.4,
-        "topic": 85.0,
-        "novelty": 94.1
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نوجوان که قصد حمله تروریستی در سیدنی را دارد، به دادگاه می گوید که او به صورت آنلاین رادیکال شده و از هوش مصنوعی برای خفه کردن استفاده می کند.",
-        "excerpt": "پسر می گوید که او برای اولین بار در معرض مواد افراطی در TikTok قرار گرفت، به تلگرام و YouTube برای دستورالعمل های ساخت بمب تبدیل شد و از ChatGPT برای طراحی برنامه های خود را دریافت ایمیل اخبار شکستن، برنامه رایگان و یا پادکست خبری روزانه یک نوجوان که به برنامه ریزی یک حمله تروریستی در سیدنی در سال 2024 اعتراف کرد، به دادگاه گفته است که او به صورت آنلاین رادیکال شده است پس از دیدن مواد افراطی در TikTok و استفاده شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T02:14:37Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0eb7f2999aa203f1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:13:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock knowledge bases",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
-       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0eb7f2999aa203f1",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 69.5,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
-        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f37b680abcf7adcb",
-      "url": "https://openai.com/index/control-room",
+      "id": "01a8528fa117926a",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "title": "Closing the AI guidance gap in education",
+      "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
       "lang": "en",
-      "publishedAt": "2026-11-09T13:00:00Z",
+      "publishedAt": "2026-11-10T09:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
       "category": "models",
       "tags": [
-       "safety"
+       "company"
       ],
       "entities": [
        "openai"
@@ -341,32 +101,264 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "f37b680abcf7adcb",
+      "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 45.8,
+        "recency": 99.2,
         "topic": 100.0,
-        "novelty": 76.9
+        "novelty": 90.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
-        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
-        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
+        "title": "بستن شکاف راهنمایی AI در آموزش",
+        "excerpt": "درس هایی از مشارکت آموزش EMEA OpenAI و تحقیقات جدید Thinkyoung حمایت از معلمان، سواد هوش مصنوعی و یادگیری مستقل",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e49c5dcb9afd7f3a",
+      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+      "excerpt": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "policy",
+      "tags": [
+       "security",
+       "security / privacy",
+       "vulnerabilities",
+       "data breaches",
+       "uk"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6af269df2008482926d88a86/master/pass/Security_Security%20Flaws%20Across%20UK%20Government%20Sites%20Exposed%20%E2%80%98God-Tier%E2%80%99%20Information_v1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "e49c5dcb9afd7f3a",
+      "related": [],
+      "score": {
+       "total": 63.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 88.4,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Flaws های امنیتی در سراسر سایت های دولتی انگلستان اطلاعات \"خدا-Tier\" را نشان می دهند",
+        "excerpt": "یک محقق از طریق کد عمومی موجود، اطلاعات خصوصی را در معرض خطر در چندین بخش قرار داد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f60cbf1284a615ee",
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "excerpt": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "business",
+      "tags": [
+       "research",
+       "funding",
+       "artificial intelligence",
+       "sustainability",
+       "agriculture",
+       "biological engineering"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-VoigtGrant-01-Press.jpg?itok=qhs4y2eX",
+       "credit": "Credit: Emily Dahl",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "f60cbf1284a615ee",
+      "related": [],
+      "score": {
+       "total": 63.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 78.8,
+        "topic": 55.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تیم رهبری MIT بودجه ای برای توسعه جایگزین های نسل بعدی برای قاتلان مدرن دریافت می کند",
+        "excerpt": "با حداکثر 53 میلیون دلار از ARPA-H، محققان از AI برای تولید علف کش های امن تر که وابستگی به واردات را کاهش می دهد و امنیت عرضه مواد غذایی ایالات متحده را بهبود می بخشد، استفاده می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "133de684dfb63cd5",
+      "url": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
+      "excerpt": "Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going…",
+      "lang": "en",
+      "publishedAt": "2026-11-10T05:29:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "safety",
+      "tags": [
+       "australia news",
+       "australian politics",
+       "ai (artificial intelligence)",
+       "anthony albanese"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/0e9dca7c9e94446383a80bbc5d2065a6fe806b55/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=4c96939d59af8e4e6889fc00b56b1bbf",
+       "credit": "Photograph: AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "133de684dfb63cd5",
+      "related": [],
+      "score": {
+       "total": 62.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 81.0,
+        "topic": 90.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایمنی و حفاظت از امنیت هوش مصنوعی پس از نقض OpenAI از Medicare - ویدئو",
+        "excerpt": "نخست وزیر استرالیا گفت که دولت این کشور تنظیم مقررات ایمنی جدید AI و کار را در نظر می گیرد شش تعهد کلیدی در شرکت های AI. این بررسی 18 توصیه را انجام داد. آنتونی آلبانز گفت: \"ما همه توصیه ها را قبول می کنیم و ما کار خود را برای اجرای آنها آغاز کرده ایم.\" استرالیا گزارش اجباری پس از هک OpenAI برای مبارزه با هوش مصنوعی \"در حال انجام ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0cb7ad579ad86abd",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Otter AI can now follow conversations across 30+ languages",
+      "excerpt": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "products",
+      "tags": [
+       "ai",
+       "otter ai"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0cb7ad579ad86abd",
+      "related": [],
+      "score": {
+       "total": 60.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 88.4,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Otter AI اکنون می تواند مکالمات را در 30 زبان دنبال کند",
+        "excerpt": "Otter AI فقط پشتیبانی از 27 زبان را اضافه کرده و ویژگی های آینده ای را نشان داد که می تواند در صورت تغییر زبان بین زبان ها به دنبال آن باشد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -374,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-03T02:31:08Z",
-   "to": "2026-11-10T02:31:08Z",
+   "from": "2026-11-03T09:07:50Z",
+   "to": "2026-11-10T09:07:50Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -413,15 +405,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.1,
+       "total": 88.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 94.0,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -437,6 +429,61 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01a8528fa117926a",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Closing the AI guidance gap in education",
+      "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "01a8528fa117926a",
+      "related": [],
+      "score": {
+       "total": 74.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بستن شکاف راهنمایی AI در آموزش",
+        "excerpt": "درس هایی از مشارکت آموزش EMEA OpenAI و تحقیقات جدید Thinkyoung حمایت از معلمان، سواد هوش مصنوعی و یادگیری مستقل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -472,15 +519,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 72.5,
+       "total": 71.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 74.8,
+        "recency": 70.2,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -491,7 +538,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -528,75 +575,20 @@
       "eventId": "23b94c697622500f",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.7,
+        "recency": 78.5,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
         "title": "CodeRabbit مقیاس های توسعه نرم افزار و کشتی های 20x بیشتر",
         "excerpt": "CodeRabbit از مدل های OpenAI برای مدیریت و اعتماد به کد و Codex AI استفاده می کند تا ۲۰ بار نرم افزار بیشتری را با همان تیم مهندسی حمل کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f37b680abcf7adcb",
-      "url": "https://openai.com/index/control-room",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T13:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f37b680abcf7adcb",
-      "related": [],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.8,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
-        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T22:44:27Z"
        }
@@ -640,15 +632,15 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 88.5,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -700,15 +692,15 @@
       "eventId": "0eb7f2999aa203f1",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 88.3,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -754,15 +746,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -782,46 +774,53 @@
     },
     {
      "article": {
-      "id": "7b1451fc786c34f9",
-      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-      "excerpt": "",
+      "id": "f60cbf1284a615ee",
+      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "excerpt": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
       "lang": "en",
-      "publishedAt": "2026-11-09T12:34:29Z",
+      "publishedAt": "2026-11-10T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "business",
+      "tags": [
+       "research",
+       "funding",
+       "artificial intelligence",
+       "sustainability",
+       "agriculture",
+       "biological engineering"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/amazon/higher-order-pruning-experts"
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-VoigtGrant-01-Press.jpg?itok=qhs4y2eX",
+       "credit": "Credit: Emily Dahl",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "7b1451fc786c34f9",
+      "eventId": "f60cbf1284a615ee",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.4,
-        "topic": 75.0,
-        "novelty": 91.7
+        "recency": 96.1,
+        "topic": 55.0,
+        "novelty": 93.8
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
-        "title": "کارشناسان شما شرکایی دارند. امید برای نگه داشتن آنم با هم",
+        "title": "تیم رهبری MIT بودجه ای برای توسعه جایگزین های نسل بعدی برای قاتلان مدرن دریافت می کند",
+        "excerpt": "با حداکثر 53 میلیون دلار از ARPA-H، محققان از AI برای تولید علف کش های امن تر که وابستگی به واردات را کاهش می دهد و امنیت عرضه مواد غذایی ایالات متحده را بهبود می بخشد، استفاده می کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-10T10:01:57Z"
        }
       }
      },
@@ -836,8 +835,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-11T02:31:08Z",
-   "to": "2026-11-10T02:31:08Z",
+   "from": "2026-10-11T09:07:50Z",
+   "to": "2026-11-10T09:07:50Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,15 +874,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.9,
+       "total": 90.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 98.2,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -934,15 +933,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 75.9,
+       "total": 75.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 91.7,
+        "recency": 89.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -958,6 +957,61 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01a8528fa117926a",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Closing the AI guidance gap in education",
+      "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T10:01:57Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "01a8528fa117926a",
+      "related": [],
+      "score": {
+       "total": 74.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-10T09:07:50Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بستن شکاف راهنمایی AI در آموزش",
+        "excerpt": "درس هایی از مشارکت آموزش EMEA OpenAI و تحقیقات جدید Thinkyoung حمایت از معلمان، سواد هوش مصنوعی و یادگیری مستقل",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T10:01:57Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -990,15 +1044,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.5,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 42.3,
+        "recency": 41.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1008,7 +1062,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1045,15 +1099,15 @@
       "eventId": "23b94c697622500f",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 93.0,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1064,7 +1118,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1106,15 +1160,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.6,
+       "total": 72.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 56.7,
+        "recency": 55.6,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1125,66 +1179,11 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f37b680abcf7adcb",
-      "url": "https://openai.com/index/control-room",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T13:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f37b680abcf7adcb",
-      "related": [],
-      "score": {
-       "total": 71.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.2,
-        "topic": 100.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-10T02:31:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "اتاق کنترل: یک سیستم مرکزی برای ردیابی و توقف کار مدل در زیرساخت های تحقیقاتی ما",
-        "excerpt": "یاد بگیرید که اتاق کنترل OpenAI چگونه کار مدل را در زیرساخت های تحقیقاتی ما ردیابی می کند و می تواند به سرعت آنها را متوقف کند زمانی که نگرانی های ایمنی یا امنیتی ایجاد می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1223,15 +1222,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.9,
+        "recency": 76.4,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1278,15 +1277,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 94.9,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1334,15 +1333,15 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 96.4,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {
@@ -1394,15 +1393,15 @@
       "eventId": "0eb7f2999aa203f1",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 96.3,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-10T02:31:08Z"
+       "asOf": "2026-11-10T09:07:50Z"
       },
       "tr": {
        "fa": {

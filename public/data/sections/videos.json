@@ -2,8 +2,49 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 146,
+ "total": 147,
  "articles": [
+  {
+   "id": "2cd238269c704569",
+   "url": "https://www.youtube.com/watch?v=FNTz0CdqL6g",
+   "sourceId": "openai-youtube",
+   "sourceName": "OpenAI (YouTube)",
+   "title": "Kuken Industries searches 70 years of drawings in minutes",
+   "excerpt": "Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries is putting decades of engineering knowledge to work…",
+   "lang": "en",
+   "publishedAt": "2026-11-10T02:41:23Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-10T10:01:57Z",
+   "day": "2026-11-10",
+   "category": "business",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i3.ytimg.com/vi/FNTz0CdqL6g/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "FNTz0CdqL6g",
+    "url": "https://www.youtube.com/watch?v=FNTz0CdqL6g"
+   },
+   "eventId": "932fe34bad728f30",
+   "related": [
+    "932fe34bad728f30"
+   ],
+   "tr": {
+    "fa": {
+     "title": "Kuken Industries 70 سال نقاشی را در عرض چند دقیقه جستجو می کند",
+     "excerpt": "Coken Industries از OpenAI API برای کمک به مهندسان در جستجوی 70 سال نقاشی در عرض چند دقیقه استفاده می کند. ساخته شده با Recursive، یک استارت آپ AI ژاپنی و یک شریک رسمی OpenAI، این سیستم به تیم ها زمان بیشتری می دهد تا مهندسان جوان را آموزش دهند و کار بیشتری را انجام دهند. ➡️ مطالعه کنید که چگونه صنایع کور دهه ها از دانش مهندسی را برای کار قرار می دهند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-10T10:01:57Z"
+    }
+   }
+  },
   {
    "id": "9015c3069685351f",
    "url": "https://aws.amazon.com/blogs/machine-learning/professional-work-deserves-professional-tools-meet-aws-quick",
@@ -2340,47 +2381,6 @@
     "fa": {
      "title": "معرفی بازی Genie 4",
      "excerpt": "Raia Hadsell، دیگو Rivas و Hang Qi از Google DeepMind به میزبان لوگان Kilpatrick ملحق می شوند تا Genie 4 را معرفی کنند، آخرین مدل جهانی از Google DeepMind. مکالمه آنها را پوشش می دهد: * چه مدل های جهانی * قوس از Genie 1 به Genie 4 * زنده نشان می دهد که بزرگترین جهش های مدل به جلو - نقش Gemini در حلقه * مسیر به رباتیک و برنامه های آموزش و پرورش * چه معنی برای ساخت ...",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-27T16:52:51Z"
-    }
-   }
-  },
-  {
-   "id": "8a965d9f9cf7fe1a",
-   "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk",
-   "sourceId": "deepmind-youtube",
-   "sourceName": "Google DeepMind (YouTube)",
-   "title": "Genie 4: A new generation of world simulation",
-   "excerpt": "Meet Genie 4, Google DeepMind’s most realistic and interactive world model yet. Built on our Gemini models, Genie 4 lets you step inside dynamic worlds in real time, steer scenes on the fly with natural language, and watch what happens next: how the world responds, how it sounds, and how the people in it move, react, and speak. We have started rolling out Genie 4 as a research preview for…",
-   "lang": "en",
-   "publishedAt": "2026-10-27T16:00:41Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-27T16:52:51Z",
-   "day": "2026-10-27",
-   "category": "models",
-   "tags": [],
-   "entities": [
-    "google"
-   ],
-   "brand": null,
-   "image": {
-    "url": "https://i4.ytimg.com/vi/sFfPkUJd_Jk/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "sFfPkUJd_Jk",
-    "url": "https://www.youtube.com/watch?v=sFfPkUJd_Jk"
-   },
-   "eventId": "8a965d9f9cf7fe1a",
-   "related": [
-    "5ef94984dce414f6"
-   ],
-   "tr": {
-    "fa": {
-     "title": "Genie 4: نسل جدیدی از شبیه سازی جهان",
-     "excerpt": "دیدار با Genie 4، Google DeepMind واقع بینانه ترین و تعاملی ترین مدل جهان است. ساخته شده بر روی مدل های Gemini ما، Genie 4 به شما اجازه می دهد تا در زمان واقعی وارد دنیای پویا شوید، صحنه ها را با زبان طبیعی هدایت کنید و ببینید چه اتفاقی می افتد: چگونه جهان پاسخ می دهد، چگونه به نظر می رسد و چگونه مردم در آن حرکت می کنند، واکنش می دهند و صحبت می کنند. ما شروع به انتشار Genie 4 به عنوان یک پیش نمایش تحقیقاتی برای ...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-27T16:52:51Z"
     }
