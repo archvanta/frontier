@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-09T22:23:42Z",
+ "asOf": "2026-11-10T01:40:32Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-08T22:23:42Z",
-   "to": "2026-11-09T22:23:42Z",
+   "from": "2026-11-09T01:40:32Z",
+   "to": "2026-11-10T01:40:32Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 88.8,
+       "total": 85.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 87.5,
+        "recency": 72.4,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -73,6 +73,68 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "daaeaa9f86a3498c",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/10/teen-planned-sydney-terror-attack-using-chatgpt-radicalised-tiktok-ntwnfb",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Teenager who planned terror attack in Sydney tells court he was radicalised online and used AI to strategise",
+      "excerpt": "Boy says he was first exposed to extremist material on TikTok, turned to Telegram and YouTube for bomb-making instructions, and used ChatGPT to devise his plans Get our breaking news email, free app or daily news podcast A teenager who admitted to planning a terrorist attack in Sydney in 2024 has told the court he was radicalised online after first seeing extremist material on TikTok and used…",
+      "lang": "en",
+      "publishedAt": "2026-11-10T01:09:19Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T02:14:37Z",
+      "day": "2026-11-10",
+      "category": "policy",
+      "tags": [
+       "australian security and counter-terroris",
+       "sydney",
+       "tiktok",
+       "chatgpt",
+       "australia news",
+       "new south wales"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/560f38c53c59131a19338207e679804b1d3aa8c0/956_0_4778_3823/master/4778.jpg?width=700&quality=85&auto=format&fit=max&s=4a4b68162ad406c684af80849758ae95",
+       "credit": "Photograph: David Gray/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "daaeaa9f86a3498c",
+      "related": [],
+      "score": {
+       "total": 65.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 85.0,
+        "novelty": 94.1
+       },
+       "asOf": "2026-11-10T01:40:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "نوجوان که قصد حمله تروریستی در سیدنی را دارد، به دادگاه می گوید که او به صورت آنلاین رادیکال شده و از هوش مصنوعی برای خفه کردن استفاده می کند.",
+        "excerpt": "پسر می گوید که او برای اولین بار در معرض مواد افراطی در TikTok قرار گرفت، به تلگرام و YouTube برای دستورالعمل های ساخت بمب تبدیل شد و از ChatGPT برای طراحی برنامه های خود را دریافت ایمیل اخبار شکستن، برنامه رایگان و یا پادکست خبری روزانه یک نوجوان که به برنامه ریزی یک حمله تروریستی در سیدنی در سال 2024 اعتراف کرد، به دادگاه گفته است که او به صورت آنلاین رادیکال شده است پس از دیدن مواد افراطی در TikTok و استفاده شده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T02:14:37Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -106,80 +168,20 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 74.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
         "title": "بررسی زبان های جهان با زبان اکسپلورر",
         "excerpt": "پردازش زبان طبیعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0eb7f2999aa203f1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:13:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock knowledge bases",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
-       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0eb7f2999aa203f1",
-      "related": [],
-      "score": {
-       "total": 68.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.2,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-09T22:23:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
-        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T22:44:27Z"
        }
@@ -195,111 +197,120 @@
     },
     {
      "article": {
-      "id": "09274ed8ecd7dd5c",
-      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "The race is on to sue Nvidia",
-      "excerpt": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "id": "831bd9db6c4fa670",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How skills and agents work in AWS Quick",
+      "excerpt": "Repeatable tasks like status updates, release notes, and ticket creation can be encoded in AWS Quick through agents and skills. This post covers how agents, skills, and your data fit together in AWS Quick, how to build and share skills for your team, and how the official catalog and custom agents help you use them.",
       "lang": "en",
-      "publishedAt": "2026-11-09T22:23:42Z",
+      "publishedAt": "2026-11-10T00:21:34Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "policy",
+      "fetchedAt": "2026-11-10T02:14:37Z",
+      "day": "2026-11-10",
+      "category": "products",
       "tags": [
-       "ai",
-       "tc",
-       "litigation",
-       "nvidia"
+       "amazon quick suite",
+       "best practices",
+       "intermediate (200)"
       ],
       "entities": [
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22266-1.png",
+       "alt": "Hub-and-spoke diagram with the Quick agent at the center, connected to its instructions, skills, connectors, and data sources",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "09274ed8ecd7dd5c",
+      "eventId": "831bd9db6c4fa670",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 65.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 85.7
+        "recency": 92.7,
+        "topic": 65.0,
+        "novelty": 66.7
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
-        "title": "مسابقه برای شکایت از Nvidia",
-        "excerpt": "سهام Nvidia بیش از 4٪ پس از باز کردن تحقیقات در مورد رابطه جنس جنسن هوانگ با جاسوسی چینی مشکوک، و یک کارشناس قانون اوراق بهادار می گوید که اصرار قبلی شرکت مبنی بر اینکه همه چیز \"عادی\" است می تواند به یک مشکل بسیار گران تبدیل شود.",
+        "title": "چگونه مهارت ها و عوامل در AWS سریع کار می کنند",
+        "excerpt": "وظایف تکراری مانند به روز رسانی وضعیت، یادداشت های آزاد و ایجاد بلیط را می توان در AWS سریع از طریق عوامل و مهارت ها رمزگذاری کرد. این پست پوشش می دهد که چگونه عوامل، مهارت ها و داده های شما در AWS Quick، چگونه برای ساخت و به اشتراک گذاری مهارت ها برای تیم خود، و چگونه کاتالوگ رسمی و عوامل سفارشی کمک به شما استفاده از آنها.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T02:14:37Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "057e22ab69c04fb1",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "excerpt": "",
+      "id": "fd48ce2874be788e",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "excerpt": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New",
       "lang": "en",
-      "publishedAt": "2026-11-09T15:05:57Z",
+      "publishedAt": "2026-11-09T23:47:46Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
+      "fetchedAt": "2026-11-10T02:14:37Z",
       "day": "2026-11-09",
-      "category": "research",
-      "tags": [],
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "nvidia",
+       "policy",
+       "politics",
+       "tech"
+      ],
       "entities": [
-       "huggingface"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297774940.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "057e22ab69c04fb1",
+      "eventId": "fd48ce2874be788e",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 62.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 65.6,
-        "topic": 80.0,
-        "novelty": 92.9
+        "recency": 89.7,
+        "topic": 85.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
-        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
+        "title": "این چیزی است که ترامپ در مورد جنسن هوانگ می دانست",
+        "excerpt": "رئیس جمهور ترامپ امروز یک مطبوعات کاخ سفید را در اختیار داشت و به چند سوال در مورد دانش خود در مورد شرکت Nvidia Jensen Huang با جاسوسی چینی که ادعا می شود پاسخ داد. هوانگ در این هفته گفت که او به همسر خود \"ناشاد\" بوده است و این شرکت تحقیقاتی در مورد هوانگ باز کرده است. مقالات اخیر از New",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-10T02:14:37Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -332,15 +343,15 @@
       "eventId": "f37b680abcf7adcb",
       "related": [],
       "score": {
-       "total": 64.3,
+       "total": 62.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.1,
+        "recency": 48.1,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -362,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-02T22:23:42Z",
-   "to": "2026-11-09T22:23:42Z",
+   "from": "2026-11-03T01:40:32Z",
+   "to": "2026-11-10T01:40:32Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -401,15 +412,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.8,
+       "total": 90.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 97.8,
+        "recency": 94.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +471,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 73.1,
+       "total": 72.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.8,
+        "recency": 75.4,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -516,15 +527,15 @@
       "eventId": "23b94c697622500f",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.1,
+        "recency": 84.4,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -571,15 +582,15 @@
       "eventId": "f37b680abcf7adcb",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 88.5,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -628,15 +639,15 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 95.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -688,15 +699,15 @@
       "eventId": "0eb7f2999aa203f1",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 94.9,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -742,15 +753,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 90.3,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -795,15 +806,15 @@
       "eventId": "7b1451fc786c34f9",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
+        "recency": 88.2,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -824,8 +835,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-10T22:23:42Z",
-   "to": "2026-11-09T22:23:42Z",
+   "from": "2026-10-11T01:40:32Z",
+   "to": "2026-11-10T01:40:32Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -863,15 +874,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 91.1,
+       "total": 90.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 99.3,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -922,15 +933,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 76.1,
+       "total": 76.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.8,
+        "recency": 91.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -978,15 +989,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.6,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 42.9,
+        "recency": 42.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1033,15 +1044,15 @@
       "eventId": "23b94c697622500f",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 95.0,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1094,15 +1105,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 57.4,
+        "recency": 56.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1150,15 +1161,15 @@
       "eventId": "f37b680abcf7adcb",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.4,
         "topic": 100.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1170,59 +1181,6 @@
       }
      },
      "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057e22ab69c04fb1",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-09T15:05:57Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
-      },
-      "eventId": "057e22ab69c04fb1",
-      "related": [],
-      "score": {
-       "total": 70.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 80.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-09T22:23:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1264,15 +1222,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 78.8,
+        "recency": 78.1,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1283,11 +1241,64 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 7,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057e22ab69c04fb1",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-09T15:05:57Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T18:54:05Z",
+      "day": "2026-11-09",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+      },
+      "eventId": "057e22ab69c04fb1",
+      "related": [],
+      "score": {
+       "total": 70.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 80.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-10T01:40:32Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T18:54:05Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1322,15 +1333,15 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.5,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
@@ -1382,15 +1393,15 @@
       "eventId": "0eb7f2999aa203f1",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.4,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-09T22:23:42Z"
+       "asOf": "2026-11-10T01:40:32Z"
       },
       "tr": {
        "fa": {
