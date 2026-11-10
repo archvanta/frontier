@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-10T13:00:24Z",
+ "asOf": "2026-11-10T17:32:47Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-09T13:00:24Z",
-   "to": "2026-11-10T13:00:24Z",
+   "from": "2026-11-09T17:32:47Z",
+   "to": "2026-11-10T17:32:47Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 78.8,
+       "total": 77.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 37.6,
+        "recency": 28.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -78,48 +78,45 @@
     },
     {
      "article": {
-      "id": "46ecb159c1535b09",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "id": "fc6b6a56df7b3650",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon is now available",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-10T12:00:00Z",
+      "publishedAt": "2026-11-10T16:03:47Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
+      "fetchedAt": "2026-11-10T17:56:12Z",
       "day": "2026-11-10",
       "category": "models",
-      "tags": [
-       "company"
-      ],
+      "tags": [],
       "entities": [
-       "openai"
+       "google"
       ],
-      "brand": "openai",
+      "brand": "gemini",
       "image": {
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "46ecb159c1535b09",
+      "eventId": "fc6b6a56df7b3650",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 91.8,
         "topic": 100.0,
-        "novelty": 77.8
+        "novelty": 75.0
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
-        "title": "کمک به مراقبان در زندگی روزمره",
-        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
+        "title": "Gemini 4 Carbon در دسترس است",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
+        "at": "2026-11-10T17:56:12Z"
        }
       }
      },
@@ -128,6 +125,312 @@
      "reason": [
       "tier-1",
       "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3e5482fbea32174c",
+      "url": "https://www.youtube.com/watch?v=vdEGZYIvFiI",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Greg Brockman on how OpenAI uses frontier models for cyber defense",
+      "excerpt": "We’re turning lessons from defending OpenAI into practical tools for our customers. OpenAI President and Co-Founder Greg Brockman shares how we used a frontier model to identify and resolve important vulnerabilities in our own code and infrastructure. That experience is informing the tools and playbooks we’re building to help other security teams strengthen their defenses as model capabilities…",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:02:15Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i3.ytimg.com/vi/vdEGZYIvFiI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "vdEGZYIvFiI",
+       "url": "https://www.youtube.com/watch?v=vdEGZYIvFiI"
+      },
+      "eventId": "3e5482fbea32174c",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.7,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Greg Brockman در مورد چگونگی استفاده از مدل های مرزی برای دفاع سایبری",
+        "excerpt": "ما درس هایی را از دفاع از OpenAI به ابزارهای عملی برای مشتریانمان تبدیل می کنیم. رئیس جمهور OpenAI و Co-Founder Greg Brockman به ما می گوید که چگونه از یک مدل مرزی برای شناسایی و رفع آسیب پذیری های مهم در کد و زیرساخت خودمان استفاده می کنیم. این تجربه اطلاع رسانی به ابزارها و کتاب های بازی است که ما در حال ساخت برای کمک به سایر تیم های امنیتی هستیم تا دفاع خود را به عنوان قابلیت های مدل تقویت کنیم.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "137e0c85a643ec5f",
+      "url": "https://www.youtube.com/shorts/OZ5KXB6kHUg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "NVIDIA Alpamayo 2 Edge is here, bringing adaptive AI reasoning in real-time to the vehicle. 🚘",
+      "excerpt": "From yielding to pedestrians to making room for an oncoming bus, watch how it plans driving paths and explains its decisions when needed. Developers can build on this open model to create the next generation of autonomous vehicles, with AI they can adapt to their own fleets.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:08:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/OZ5KXB6kHUg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "OZ5KXB6kHUg",
+       "url": "https://www.youtube.com/watch?v=OZ5KXB6kHUg"
+      },
+      "eventId": "137e0c85a643ec5f",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.2,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Alpamayo 2 Edge اینجا است و استدلال AI تطبیقی را در زمان واقعی به وسیله نقلیه ایجاد می کند.",
+        "excerpt": "از تحویل به عابر پیاده تا ایجاد اتاق برای اتوبوس آینده، ببینید که چگونه آن را برنامه ریزی مسیر رانندگی و توضیح تصمیمات آن در صورت لزوم. توسعه دهندگان می توانند بر روی این مدل باز برای ایجاد نسل بعدی خودروهای خودران با AI که می توانند با ناوگان خود سازگار شوند، بسازند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "405fdcad1ce1a75c",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:00:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "open-source",
+      "tags": [
+       "ai infrastructure",
+       "ai factory",
+       "artificial intelligence",
+       "cloud services",
+       "dynamo",
+       "gpu"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/end-to-end-key-visual-kubecon-blog-1920x1080-5915250-v2.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "405fdcad1ce1a75c",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.5,
+        "topic": 75.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA توسعه تعهد منبع باز با OpenShell Donation و New AI Infrastructure",
+        "excerpt": "Kubernetes، سیستم منبع باز که مدیریت می کند که چگونه برنامه های کاربردی در سراسر هزاران کارخانه AI اجرا می شوند، به پایه ای برای AI تبدیل شده اند و تقاضا بر روی آن تنها در حال رشد است. برای کمک به دیدار با آنها، NVIDIA تعهد خود را به منبع باز در KubeCon + CloudNative، کنفرانس پرچم دار برای Kubernetes و جوامع ابری تقویت می کند. NVIDIA",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "82110824f2abb129",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
+      "excerpt": "Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant isolation, and workload-aware execution cut testing effort by 88% in an internal benchmark.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:59:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "research",
+      "tags": [
+       "amazon bedrock agentcore",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20381-1.png",
+       "alt": "Architecture of the TCS Agentic Test Orchestrator showing the five-stage flow and per-tenant security layer on AWS",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "82110824f2abb129",
+      "related": [],
+      "score": {
+       "total": 66.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.9,
+        "topic": 80.0,
+        "novelty": 54.5
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه TCS یک ارکستر آزمایشی فعال با Amazon Bedrock AgentCore ساخت",
+        "excerpt": "خدمات مشاوره Tata (TCS) یک ارکستر آزمایشی در Amazon Bedrock Agent ایجاد کرد که الزامات را به اجرایی تبدیل می کند، آزمایشات را برای مشتریان بانکداری، خدمات مالی و بیمه (BFSI) اداره می کند. یاد بگیرید که چگونه عوامل تخصصی، انزوای سرانه، و تلاش برای تست کار آگاهانه تا 88% در یک معیار داخلی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    }
+   ]
+  },
+  "weekly": {
+   "from": "2026-11-03T17:32:47Z",
+   "to": "2026-11-10T17:32:47Z",
+   "halfLifeHours": 72,
+   "picks": [
+    {
+     "article": {
+      "id": "2e186972ef6cdfd3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Introducing Claude Fable 5.2 on AWS",
+      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "lang": "en",
+      "publishedAt": "2026-11-09T20:04:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T22:44:27Z",
+      "day": "2026-11-09",
+      "category": "models",
+      "tags": [
+       "amazon bedrock",
+       "announcements",
+       "intermediate (200)"
+      ],
+      "entities": [
+       "amazon",
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "796a7f7ee338b70f",
+      "related": [
+       "48b53c6a7cafa53f",
+       "796a7f7ee338b70f",
+       "f1eea0a2781af6aa"
+      ],
+      "score": {
+       "total": 87.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 87.5,
+        "recency": 81.3,
+        "topic": 100.0,
+        "novelty": 43.8
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی کلود Fable 5.2 در AWS",
+        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T22:44:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 4,
+     "reason": [
+      "tier-1",
+      "voices-4",
       "top-factor-reliability"
      ]
     },
@@ -159,15 +462,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.3,
+        "recency": 92.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -178,7 +481,178 @@
        }
       }
      },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fc6b6a56df7b3650",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon is now available",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:03:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "fc6b6a56df7b3650",
+      "related": [],
+      "score": {
+       "total": 72.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon در دسترس است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ecd65815b585666d",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
+      "lang": "en",
+      "publishedAt": "2026-11-08T20:22:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-08T20:34:01Z",
+      "day": "2026-11-08",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecd65815b585666d",
+      "related": [
+       "45da7994669e5304"
+      ],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 64.7,
+        "topic": 85.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
+        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-08T20:34:01Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "137e0c85a643ec5f",
+      "url": "https://www.youtube.com/shorts/OZ5KXB6kHUg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "NVIDIA Alpamayo 2 Edge is here, bringing adaptive AI reasoning in real-time to the vehicle. 🚘",
+      "excerpt": "From yielding to pedestrians to making room for an oncoming bus, watch how it plans driving paths and explains its decisions when needed. Developers can build on this open model to create the next generation of autonomous vehicles, with AI they can adapt to their own fleets.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:08:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/OZ5KXB6kHUg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "OZ5KXB6kHUg",
+       "url": "https://www.youtube.com/watch?v=OZ5KXB6kHUg"
+      },
+      "eventId": "137e0c85a643ec5f",
+      "related": [],
+      "score": {
+       "total": 70.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Alpamayo 2 Edge اینجا است و استدلال AI تطبیقی را در زمان واقعی به وسیله نقلیه ایجاد می کند.",
+        "excerpt": "از تحویل به عابر پیاده تا ایجاد اتاق برای اتوبوس آینده، ببینید که چگونه آن را برنامه ریزی مسیر رانندگی و توضیح تصمیمات آن در صورت لزوم. توسعه دهندگان می توانند بر روی این مدل باز برای ایجاد نسل بعدی خودروهای خودران با AI که می توانند با ناوگان خود سازگار شوند، بسازند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -217,11 +691,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 94.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -232,532 +706,64 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6999615490c266f2",
-      "url": "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Without storyboards, I feel like I’m in Grand Central station in my underwear’: film’s fightback against AI",
-      "excerpt": "As Hollywood begins to adopt the technology, the professionals in most direct jeopardy are the illustrators mapping out directors’ first visions. They sketch out what could be lost A film industry dominated by AI is a dystopian prospect: stories and dialogue generated by large language models, populated by reincarnated screen icons and uncanny humanoids. That is in the future, but the real-world…",
-      "lang": "en",
-      "publishedAt": "2026-11-10T13:00:24Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "policy",
-      "tags": [
-       "film",
-       "ai (artificial intelligence)",
-       "beauty and the beast",
-       "psycho",
-       "art and design",
-       "computing"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/c9aabe04cbc4724110ea14f7d6a4bfe25a89ef20/58_263_5069_4056/master/5069.jpg?width=700&quality=85&auto=format&fit=max&s=78b32e72e405bb4b22168ae63d82895e",
-       "credit": "Photograph: TCD/Prod.DB/Alamy",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "6999615490c266f2",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 90.5
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بدون تخته داستان، من احساس می کنم که در ایستگاه مرکزی بزرگ در لباس زیرم هستم: بازگشت فیلم به AI",
-        "excerpt": "از آنجایی که هالیوود شروع به اتخاذ این تکنولوژی می کند، متخصصان در بیشتر موارد به طور مستقیم در معرض خطر قرار می گیرند، تصویرگران اولین دیدگاه های مدیران را ترسیم می کنند. آنها نشان می دهند که چه چیزی می تواند یک صنعت فیلم تحت سلطه AI را از دست بدهد، یک چشم انداز نارس است: داستان ها و گفتگو تولید شده توسط مدل های زبان بزرگ، که توسط آیکون های صفحه نمایش مجدد و انسان های غیرcanny ساخته شده است. این در آینده است، اما دنیای واقعی...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "06438ee7f5b07377",
-      "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
-      "excerpt": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T11:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "safety",
-      "tags": [
-       "the big story",
-       "longreads",
-       "ai safety",
-       "models",
-       "artificial intelligence",
-       "cybersecurity"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.wired.com/photos/6aea5020a9094bad7a4244a9/master/pass/ai_security_abliterators.gif",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "06438ee7f5b07377",
-      "related": [],
-      "score": {
-       "total": 64.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 90.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "این محافظ ها را از بین ببرید! ملاقات با Renegades Freeing Chatbots از شرکت EnSlaveers",
-        "excerpt": "\"بازنویسندگان\" اینترنت را با مدل های AI که هرگز نمی گویند، پر می کنند و این کار را برای مردم آسان تر می کند تا دفاع سایبری خود را بهبود بخشند یا بمب بسازند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    }
-   ]
-  },
-  "weekly": {
-   "from": "2026-11-03T13:00:24Z",
-   "to": "2026-11-10T13:00:24Z",
-   "halfLifeHours": 72,
-   "picks": [
-    {
-     "article": {
-      "id": "2e186972ef6cdfd3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Introducing Claude Fable 5.2 on AWS",
-      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:04:37Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon",
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "796a7f7ee338b70f",
-      "related": [
-       "48b53c6a7cafa53f",
-       "796a7f7ee338b70f",
-       "f1eea0a2781af6aa"
-      ],
-      "score": {
-       "total": 88.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 87.5,
-        "recency": 85.0,
-        "topic": 100.0,
-        "novelty": 43.8
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی کلود Fable 5.2 در AWS",
-        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 4,
-     "reason": [
       "tier-1",
-      "voices-4",
+      "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "01a8528fa117926a",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Closing the AI guidance gap in education",
-      "excerpt": "Lessons from OpenAI’s EMEA education partnerships and new ThinkYoung research. Supporting teachers, AI literacy and independent learning.",
+      "id": "405fdcad1ce1a75c",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
+      "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA",
       "lang": "en",
-      "publishedAt": "2026-11-10T09:00:00Z",
+      "publishedAt": "2026-11-10T16:00:03Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
+      "fetchedAt": "2026-11-10T17:56:12Z",
       "day": "2026-11-10",
-      "category": "models",
+      "category": "open-source",
       "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "01a8528fa117926a",
-      "related": [],
-      "score": {
-       "total": 73.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.2,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بستن شکاف راهنمایی AI در آموزش",
-        "excerpt": "درس هایی از مشارکت آموزش EMEA OpenAI و تحقیقات جدید Thinkyoung حمایت از معلمان، سواد هوش مصنوعی و یادگیری مستقل",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "46ecb159c1535b09",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "46ecb159c1535b09",
-      "related": [],
-      "score": {
-       "total": 72.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.0,
-        "topic": 100.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کمک به مراقبان در زندگی روزمره",
-        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ecd65815b585666d",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is initiating an independent investigation in light",
-      "lang": "en",
-      "publishedAt": "2026-11-08T20:22:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-08T20:34:01Z",
-      "day": "2026-11-08",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "news"
+       "ai infrastructure",
+       "ai factory",
+       "artificial intelligence",
+       "cloud services",
+       "dynamo",
+       "gpu"
       ],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/end-to-end-key-visual-kubecon-blog-1920x1080-5915250-v2.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "eventId": "ecd65815b585666d",
-      "related": [
-       "45da7994669e5304"
-      ],
-      "score": {
-       "total": 71.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 67.6,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia در حال بررسی رابطه ی جنسن هوانگ با جاسوسی چینی است",
-        "excerpt": "Nvidia اعلام کرده است که تحقیقات خود را در مورد مدیر عامل Jensen Huang و ارتباط او با آلیس هوانگ، که توسط وزارت امنیت دولتی چین برای جاسوسی در این شرکت استخدام شده است، باز می کند. بیانیه ای که توسط هیئت مدیره منتشر شده است: هیئت مدیره NVIDIA شروع به تحقیق مستقل در نور",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-08T20:34:01Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f8c1a7370c130fe5",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T12:02:28Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "f8c1a7370c130fe5",
+      "eventId": "405fdcad1ce1a75c",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
-        "topic": 80.0,
-        "novelty": 85.7
+        "recency": 98.5,
+        "topic": 75.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
-        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
+        "title": "NVIDIA توسعه تعهد منبع باز با OpenShell Donation و New AI Infrastructure",
+        "excerpt": "Kubernetes، سیستم منبع باز که مدیریت می کند که چگونه برنامه های کاربردی در سراسر هزاران کارخانه AI اجرا می شوند، به پایه ای برای AI تبدیل شده اند و تقاضا بر روی آن تنها در حال رشد است. برای کمک به دیدار با آنها، NVIDIA تعهد خود را به منبع باز در KubeCon + CloudNative، کنفرانس پرچم دار برای Kubernetes و جوامع ابری تقویت می کند. NVIDIA",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fead6112027b4623",
-      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Exploring the world's languages with Language Explorer",
-      "excerpt": "Natural Language Processing",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:29:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [
-       "natural language processing",
-       "open source models & datasets"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "fead6112027b4623",
-      "related": [],
-      "score": {
-       "total": 67.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.3,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بررسی زبان های جهان با زبان اکسپلورر",
-        "excerpt": "پردازش زبان طبیعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0eb7f2999aa203f1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:13:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock knowledge bases",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
-       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0eb7f2999aa203f1",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.1,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
-        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T17:56:12Z"
        }
       }
      },
@@ -771,46 +777,51 @@
     },
     {
      "article": {
-      "id": "057e22ab69c04fb1",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "excerpt": "",
+      "id": "82110824f2abb129",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
+      "excerpt": "Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant isolation, and workload-aware execution cut testing effort by 88% in an internal benchmark.",
       "lang": "en",
-      "publishedAt": "2026-11-09T15:05:57Z",
+      "publishedAt": "2026-11-10T16:59:43Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
       "category": "research",
-      "tags": [],
+      "tags": [
+       "amazon bedrock agentcore",
+       "customer solutions"
+      ],
       "entities": [
-       "huggingface"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20381-1.png",
+       "alt": "Architecture of the TCS Agentic Test Orchestrator showing the five-stage flow and per-tenant security layer on AWS",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "057e22ab69c04fb1",
+      "eventId": "82110824f2abb129",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.0,
+        "recency": 99.5,
         "topic": 80.0,
-        "novelty": 92.9
+        "novelty": 54.5
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
-        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
+        "title": "چگونه TCS یک ارکستر آزمایشی فعال با Amazon Bedrock AgentCore ساخت",
+        "excerpt": "خدمات مشاوره Tata (TCS) یک ارکستر آزمایشی در Amazon Bedrock Agent ایجاد کرد که الزامات را به اجرایی تبدیل می کند، آزمایشات را برای مشتریان بانکداری، خدمات مالی و بیمه (BFSI) اداره می کند. یاد بگیرید که چگونه عوامل تخصصی، انزوای سرانه، و تلاش برای تست کار آگاهانه تا 88% در یک معیار داخلی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
+        "at": "2026-11-10T17:56:12Z"
        }
       }
      },
@@ -825,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-11T13:00:24Z",
-   "to": "2026-11-10T13:00:24Z",
+   "from": "2026-10-11T17:32:47Z",
+   "to": "2026-11-10T17:32:47Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -864,15 +875,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.3,
+       "total": 90.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 95.2,
+        "recency": 94.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -923,15 +934,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 75.4,
+       "total": 75.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 88.9,
+        "recency": 87.8,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -979,15 +990,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 97.6,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -999,6 +1010,61 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3588ceed41552e46",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "3588ceed41552e46",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کار در مرز: اثر AI بر کار آزاد",
+        "excerpt": "تحقیقات جدید از OpenAI و Upwork باعث تغییر تقاضا برای کار آزاد، ترکیب مهارت های جدید و بودجه های بزرگتر و ساعات بیشتری برای پروژه های مرتبط با هوش مصنوعی می شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1034,15 +1100,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 41.1,
+        "recency": 40.6,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -1052,66 +1118,11 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "46ecb159c1535b09",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Helping caregivers use AI in everyday life",
-      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "models",
-      "tags": [
-       "company"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "46ecb159c1535b09",
-      "related": [],
-      "score": {
-       "total": 72.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 100.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کمک به مراقبان در زندگی روزمره",
-        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1150,15 +1161,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 55.0,
+        "recency": 54.3,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -1174,6 +1185,65 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "137e0c85a643ec5f",
+      "url": "https://www.youtube.com/shorts/OZ5KXB6kHUg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "NVIDIA Alpamayo 2 Edge is here, bringing adaptive AI reasoning in real-time to the vehicle. 🚘",
+      "excerpt": "From yielding to pedestrians to making room for an oncoming bus, watch how it plans driving paths and explains its decisions when needed. Developers can build on this open model to create the next generation of autonomous vehicles, with AI they can adapt to their own fleets.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:08:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i4.ytimg.com/vi/OZ5KXB6kHUg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "OZ5KXB6kHUg",
+       "url": "https://www.youtube.com/watch?v=OZ5KXB6kHUg"
+      },
+      "eventId": "137e0c85a643ec5f",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-10T17:32:47Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "NVIDIA Alpamayo 2 Edge اینجا است و استدلال AI تطبیقی را در زمان واقعی به وسیله نقلیه ایجاد می کند.",
+        "excerpt": "از تحویل به عابر پیاده تا ایجاد اتاق برای اتوبوس آینده، ببینید که چگونه آن را برنامه ریزی مسیر رانندگی و توضیح تصمیمات آن در صورت لزوم. توسعه دهندگان می توانند بر روی این مدل باز برای ایجاد نسل بعدی خودروهای خودران با AI که می توانند با ناوگان خود سازگار شوند، بسازند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1205,15 +1275,15 @@
       "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.4,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -1224,7 +1294,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1266,15 +1336,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 75.5,
+        "recency": 74.6,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
@@ -1285,7 +1355,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1321,78 +1391,21 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 92.6,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T13:00:24Z"
+       "asOf": "2026-11-10T17:32:47Z"
       },
       "tr": {
        "fa": {
         "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fead6112027b4623",
-      "url": "https://research.google/blog/exploring-the-worlds-languages-with-language-explorer",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Exploring the world's languages with Language Explorer",
-      "excerpt": "Natural Language Processing",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:29:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [
-       "natural language processing",
-       "open source models & datasets"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/LanguageExplorer-hero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "fead6112027b4623",
-      "related": [],
-      "score": {
-       "total": 69.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.3,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-10T13:00:24Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بررسی زبان های جهان با زبان اکسپلورر",
-        "excerpt": "پردازش زبان طبیعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
        }
       }
      },
