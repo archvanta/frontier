@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-10T09:07:50Z",
+ "asOf": "2026-11-10T13:00:24Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-09T09:07:50Z",
-   "to": "2026-11-10T09:07:50Z",
+   "from": "2026-11-09T13:00:24Z",
+   "to": "2026-11-10T13:00:24Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -49,15 +49,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.7,
+       "total": 78.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 47.0,
+        "recency": 37.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -73,6 +73,61 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "46ecb159c1535b09",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Helping caregivers use AI in everyday life",
+      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "46ecb159c1535b09",
+      "related": [],
+      "score": {
+       "total": 71.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.4,
+        "topic": 100.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-11-10T13:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به مراقبان در زندگی روزمره",
+        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T13:03:27Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -104,15 +159,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 79.3,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -123,7 +178,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -133,111 +188,47 @@
     },
     {
      "article": {
-      "id": "e49c5dcb9afd7f3a",
-      "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
-      "excerpt": "A researcher’s trawl through publicly available code found private information was at risk across multiple departments.",
+      "id": "f8c1a7370c130fe5",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
       "lang": "en",
-      "publishedAt": "2026-11-10T07:00:00Z",
+      "publishedAt": "2026-11-10T12:02:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
+      "fetchedAt": "2026-11-10T13:03:27Z",
       "day": "2026-11-10",
-      "category": "policy",
-      "tags": [
-       "security",
-       "security / privacy",
-       "vulnerabilities",
-       "data breaches",
-       "uk"
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6af269df2008482926d88a86/master/pass/Security_Security%20Flaws%20Across%20UK%20Government%20Sites%20Exposed%20%E2%80%98God-Tier%E2%80%99%20Information_v1.jpg",
+       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
        "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
       },
-      "eventId": "e49c5dcb9afd7f3a",
+      "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 63.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 88.4,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-10T09:07:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Flaws های امنیتی در سراسر سایت های دولتی انگلستان اطلاعات \"خدا-Tier\" را نشان می دهند",
-        "excerpt": "یک محقق از طریق کد عمومی موجود، اطلاعات خصوصی را در معرض خطر در چندین بخش قرار داد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f60cbf1284a615ee",
-      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-      "excerpt": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
-      "day": "2026-11-10",
-      "category": "business",
-      "tags": [
-       "research",
-       "funding",
-       "artificial intelligence",
-       "sustainability",
-       "agriculture",
-       "biological engineering"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-VoigtGrant-01-Press.jpg?itok=qhs4y2eX",
-       "credit": "Credit: Emily Dahl",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "f60cbf1284a615ee",
-      "related": [],
-      "score": {
-       "total": 63.4,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.8,
-        "topic": 55.0,
-        "novelty": 93.8
+        "recency": 94.6,
+        "topic": 80.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
-        "title": "تیم رهبری MIT بودجه ای برای توسعه جایگزین های نسل بعدی برای قاتلان مدرن دریافت می کند",
-        "excerpt": "با حداکثر 53 میلیون دلار از ARPA-H، محققان از AI برای تولید علف کش های امن تر که وابستگی به واردات را کاهش می دهد و امنیت عرضه مواد غذایی ایالات متحده را بهبود می بخشد، استفاده می کنند.",
+        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
+        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
+        "at": "2026-11-10T13:03:27Z"
        }
       }
      },
@@ -251,53 +242,53 @@
     },
     {
      "article": {
-      "id": "133de684dfb63cd5",
-      "url": "https://www.theguardian.com/australia-news/video/2026/nov/10/mandatory-ai-safety-and-security-protections-announced-after-openai-breach-of-medicare-video",
+      "id": "6999615490c266f2",
+      "url": "https://www.theguardian.com/film/2026/nov/10/storyboard-artists-ai",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Mandatory AI safety and security protections announced after OpenAI breach of Medicare – video",
-      "excerpt": "Australia's prime minister said its government would set up a new AI safety regulator and Labor would consider six key obligations on AI companies. The review made 18 recommendations. Anthony Albanese said: 'We accept all of the recommendations, and we’ve commenced work to implement them.' Australia to introduce mandatory reporting after OpenAI hack to combat artificial intelligence ‘going…",
+      "title": "‘Without storyboards, I feel like I’m in Grand Central station in my underwear’: film’s fightback against AI",
+      "excerpt": "As Hollywood begins to adopt the technology, the professionals in most direct jeopardy are the illustrators mapping out directors’ first visions. They sketch out what could be lost A film industry dominated by AI is a dystopian prospect: stories and dialogue generated by large language models, populated by reincarnated screen icons and uncanny humanoids. That is in the future, but the real-world…",
       "lang": "en",
-      "publishedAt": "2026-11-10T05:29:32Z",
+      "publishedAt": "2026-11-10T13:00:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
+      "fetchedAt": "2026-11-10T13:03:27Z",
       "day": "2026-11-10",
-      "category": "safety",
+      "category": "policy",
       "tags": [
-       "australia news",
-       "australian politics",
+       "film",
        "ai (artificial intelligence)",
-       "anthony albanese"
+       "beauty and the beast",
+       "psycho",
+       "art and design",
+       "computing"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/0e9dca7c9e94446383a80bbc5d2065a6fe806b55/250_0_2500_2000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=4c96939d59af8e4e6889fc00b56b1bbf",
-       "credit": "Photograph: AAP",
+       "url": "https://i.guim.co.uk/img/media/c9aabe04cbc4724110ea14f7d6a4bfe25a89ef20/58_263_5069_4056/master/5069.jpg?width=700&quality=85&auto=format&fit=max&s=78b32e72e405bb4b22168ae63d82895e",
+       "credit": "Photograph: TCD/Prod.DB/Alamy",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "133de684dfb63cd5",
+      "eventId": "6999615490c266f2",
       "related": [],
       "score": {
-       "total": 62.4,
+       "total": 65.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 81.0,
-        "topic": 90.0,
-        "novelty": 86.7
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 90.5
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
-        "title": "ایمنی و حفاظت از امنیت هوش مصنوعی پس از نقض OpenAI از Medicare - ویدئو",
-        "excerpt": "نخست وزیر استرالیا گفت که دولت این کشور تنظیم مقررات ایمنی جدید AI و کار را در نظر می گیرد شش تعهد کلیدی در شرکت های AI. این بررسی 18 توصیه را انجام داد. آنتونی آلبانز گفت: \"ما همه توصیه ها را قبول می کنیم و ما کار خود را برای اجرای آنها آغاز کرده ایم.\" استرالیا گزارش اجباری پس از هک OpenAI برای مبارزه با هوش مصنوعی \"در حال انجام ...",
+        "title": "بدون تخته داستان، من احساس می کنم که در ایستگاه مرکزی بزرگ در لباس زیرم هستم: بازگشت فیلم به AI",
+        "excerpt": "از آنجایی که هالیوود شروع به اتخاذ این تکنولوژی می کند، متخصصان در بیشتر موارد به طور مستقیم در معرض خطر قرار می گیرند، تصویرگران اولین دیدگاه های مدیران را ترسیم می کنند. آنها نشان می دهند که چه چیزی می تواند یک صنعت فیلم تحت سلطه AI را از دست بدهد، یک چشم انداز نارس است: داستان ها و گفتگو تولید شده توسط مدل های زبان بزرگ، که توسط آیکون های صفحه نمایش مجدد و انسان های غیرcanny ساخته شده است. این در آینده است، اما دنیای واقعی...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
+        "at": "2026-11-10T13:03:27Z"
        }
       }
      },
@@ -311,47 +302,52 @@
     },
     {
      "article": {
-      "id": "0cb7ad579ad86abd",
-      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Otter AI can now follow conversations across 30+ languages",
-      "excerpt": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+      "id": "06438ee7f5b07377",
+      "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+      "excerpt": "The “abliterators” are flooding the internet with AI models that never say no, making it easier for people to improve their cyberdefenses—or build a bomb.",
       "lang": "en",
-      "publishedAt": "2026-11-10T07:00:00Z",
+      "publishedAt": "2026-11-10T11:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
+      "fetchedAt": "2026-11-10T13:03:27Z",
       "day": "2026-11-10",
-      "category": "products",
+      "category": "safety",
       "tags": [
-       "ai",
-       "otter ai"
+       "the big story",
+       "longreads",
+       "ai safety",
+       "models",
+       "artificial intelligence",
+       "cybersecurity"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
+       "url": "https://media.wired.com/photos/6aea5020a9094bad7a4244a9/master/pass/ai_security_abliterators.gif",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "0cb7ad579ad86abd",
+      "eventId": "06438ee7f5b07377",
       "related": [],
       "score": {
-       "total": 60.4,
+       "total": 64.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 88.4,
-        "topic": 65.0,
-        "novelty": 90.0
+        "recency": 89.1,
+        "topic": 90.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
-        "title": "Otter AI اکنون می تواند مکالمات را در 30 زبان دنبال کند",
-        "excerpt": "Otter AI فقط پشتیبانی از 27 زبان را اضافه کرده و ویژگی های آینده ای را نشان داد که می تواند در صورت تغییر زبان بین زبان ها به دنبال آن باشد.",
+        "title": "این محافظ ها را از بین ببرید! ملاقات با Renegades Freeing Chatbots از شرکت EnSlaveers",
+        "excerpt": "\"بازنویسندگان\" اینترنت را با مدل های AI که هرگز نمی گویند، پر می کنند و این کار را برای مردم آسان تر می کند تا دفاع سایبری خود را بهبود بخشند یا بمب بسازند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
+        "at": "2026-11-10T13:03:27Z"
        }
       }
      },
@@ -366,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-03T09:07:50Z",
-   "to": "2026-11-10T09:07:50Z",
+   "from": "2026-11-03T13:00:24Z",
+   "to": "2026-11-10T13:00:24Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +401,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 88.9,
+       "total": 88.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 88.2,
+        "recency": 85.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +456,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 74.1,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -480,6 +476,61 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "46ecb159c1535b09",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Helping caregivers use AI in everyday life",
+      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "46ecb159c1535b09",
+      "related": [],
+      "score": {
+       "total": 72.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 100.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-11-10T13:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به مراقبان در زندگی روزمره",
+        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T13:03:27Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -519,15 +570,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 71.6,
+       "total": 71.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.2,
+        "recency": 67.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -538,7 +589,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -549,52 +600,51 @@
     },
     {
      "article": {
-      "id": "23b94c697622500f",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "id": "f8c1a7370c130fe5",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
       "lang": "en",
-      "publishedAt": "2026-11-09T08:00:00Z",
+      "publishedAt": "2026-11-10T12:02:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "models",
-      "tags": [
-       "startup"
-      ],
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
+      "category": "research",
+      "tags": [],
       "entities": [
-       "openai"
+       "google"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
       },
-      "eventId": "23b94c697622500f",
+      "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.5,
-        "topic": 100.0,
-        "novelty": 88.9
+        "recency": 99.1,
+        "topic": 80.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
-        "title": "CodeRabbit مقیاس های توسعه نرم افزار و کشتی های 20x بیشتر",
-        "excerpt": "CodeRabbit از مدل های OpenAI برای مدیریت و اعتماد به کد و Codex AI استفاده می کند تا ۲۰ بار نرم افزار بیشتری را با همان تیم مهندسی حمل کند.",
+        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
+        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T13:03:27Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -632,15 +682,15 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 85.3,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -651,7 +701,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -692,15 +742,15 @@
       "eventId": "0eb7f2999aa203f1",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 85.1,
         "topic": 85.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -711,7 +761,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -746,81 +796,21 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 81.0,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
         "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f60cbf1284a615ee",
-      "url": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-      "excerpt": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T10:01:57Z",
-      "day": "2026-11-10",
-      "category": "business",
-      "tags": [
-       "research",
-       "funding",
-       "artificial intelligence",
-       "sustainability",
-       "agriculture",
-       "biological engineering"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-VoigtGrant-01-Press.jpg?itok=qhs4y2eX",
-       "credit": "Credit: Emily Dahl",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "f60cbf1284a615ee",
-      "related": [],
-      "score": {
-       "total": 66.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.1,
-        "topic": 55.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-10T09:07:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تیم رهبری MIT بودجه ای برای توسعه جایگزین های نسل بعدی برای قاتلان مدرن دریافت می کند",
-        "excerpt": "با حداکثر 53 میلیون دلار از ARPA-H، محققان از AI برای تولید علف کش های امن تر که وابستگی به واردات را کاهش می دهد و امنیت عرضه مواد غذایی ایالات متحده را بهبود می بخشد، استفاده می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T10:01:57Z"
        }
       }
      },
@@ -835,8 +825,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-11T09:07:50Z",
-   "to": "2026-11-10T09:07:50Z",
+   "from": "2026-10-11T13:00:24Z",
+   "to": "2026-11-10T13:00:24Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -874,15 +864,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.5,
+       "total": 90.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 96.3,
+        "recency": 95.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -933,15 +923,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 75.6,
+       "total": 75.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 89.9,
+        "recency": 88.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -989,15 +979,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 74.1,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1044,15 +1034,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 41.5,
+        "recency": 41.1,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1073,20 +1063,20 @@
     },
     {
      "article": {
-      "id": "23b94c697622500f",
-      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "id": "46ecb159c1535b09",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "CodeRabbit scales agentic software development and ships 20x more",
-      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "title": "Helping caregivers use AI in everyday life",
+      "excerpt": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
       "lang": "en",
-      "publishedAt": "2026-11-09T08:00:00Z",
+      "publishedAt": "2026-11-10T12:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
       "category": "models",
       "tags": [
-       "startup"
+       "company"
       ],
       "entities": [
        "openai"
@@ -1096,25 +1086,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "23b94c697622500f",
+      "eventId": "46ecb159c1535b09",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 99.7,
         "topic": 100.0,
-        "novelty": 88.9
+        "novelty": 77.8
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
-        "title": "CodeRabbit مقیاس های توسعه نرم افزار و کشتی های 20x بیشتر",
-        "excerpt": "CodeRabbit از مدل های OpenAI برای مدیریت و اعتماد به کد و Codex AI استفاده می کند تا ۲۰ بار نرم افزار بیشتری را با همان تیم مهندسی حمل کند.",
+        "title": "کمک به مراقبان در زندگی روزمره",
+        "excerpt": "OpenAI Academy کارگاه های رایگان و دستی را برای مراقبان در پنج شهر ایالات متحده ارائه می دهد و به آنها کمک می کند تا مهارت های هوش مصنوعی عملی را برای زندگی روزمره بسازند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T13:03:27Z"
        }
       }
      },
@@ -1160,15 +1150,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.4,
+       "total": 72.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 55.6,
+        "recency": 55.0,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1184,6 +1174,60 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f8c1a7370c130fe5",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:02:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "f8c1a7370c130fe5",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-10T13:00:24Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
+        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T13:03:27Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1222,15 +1266,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 76.4,
+        "recency": 75.5,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1241,7 +1285,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1277,15 +1321,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 93.9,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
@@ -1295,7 +1339,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1333,80 +1377,20 @@
       "eventId": "fead6112027b4623",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 95.3,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-10T09:07:50Z"
+       "asOf": "2026-11-10T13:00:24Z"
       },
       "tr": {
        "fa": {
         "title": "بررسی زبان های جهان با زبان اکسپلورر",
         "excerpt": "پردازش زبان طبیعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0eb7f2999aa203f1",
-      "url": "https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Single-shot and agentic retrieval with Amazon Bedrock Managed Knowledge Base",
-      "excerpt": "Amazon Bedrock Managed Knowledge Base now supports single-shot RAG and retrieval-only requests through AgenticRetrieveStream, alongside agentic retrieval. This post explains how the maxAgentIteration parameter matches retrieval effort to each request, using an illustrative internal banking policy assistant.",
-      "lang": "en",
-      "publishedAt": "2026-11-09T20:13:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock knowledge bases",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22223-1-1.png",
-       "alt": "The banking assistant routes each question to AgenticRetrieveStream in single-shot, agentic, or retrieval-only mode",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0eb7f2999aa203f1",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-10T09:07:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بازیابی تک شات و عامل با پایگاه دانش مدیریت شده آمازون",
-        "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از درخواست های تک شات RAG و بازیابی تنها از طریق AgenticRetrieveStream، در کنار بازیابی عامل پشتیبانی می کند. این پست توضیح می دهد که چگونه پارامتر maxAgentIteration با تلاش برای بازیابی هر درخواست، با استفاده از یک دستیار سیاست بانکی داخلی تصویری مطابقت دارد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-09T22:44:27Z"
        }
