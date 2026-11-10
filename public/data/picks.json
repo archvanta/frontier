@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-10T17:32:47Z",
+ "asOf": "2026-11-10T20:30:01Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,69 +10,66 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-09T17:32:47Z",
-   "to": "2026-11-10T17:32:47Z",
+   "from": "2026-11-09T20:30:01Z",
+   "to": "2026-11-10T20:30:01Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "2e186972ef6cdfd3",
-      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Introducing Claude Fable 5.2 on AWS",
-      "excerpt": "Claude Fable 5.2 and Claude Mythos 5.2 are now available on Amazon Bedrock and Claude Platform on AWS. Learn what's new in both models, why Fable 5.2 matters for your technical workloads, and how to get started building with it on Amazon Bedrock.",
+      "id": "b73105fe4ec5f060",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
       "lang": "en",
-      "publishedAt": "2026-11-09T20:04:37Z",
+      "publishedAt": "2026-11-10T19:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-09T22:44:27Z",
-      "day": "2026-11-09",
+      "fetchedAt": "2026-11-10T20:37:37Z",
+      "day": "2026-11-10",
       "category": "models",
       "tags": [
-       "amazon bedrock",
-       "announcements",
-       "intermediate (200)"
+       "gemini app",
+       "android",
+       "gemini notebook",
+       "ai"
       ],
       "entities": [
-       "amazon",
-       "anthropic"
+       "google"
       ],
-      "brand": "claude",
+      "brand": "gemini",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "796a7f7ee338b70f",
-      "related": [
-       "48b53c6a7cafa53f",
-       "796a7f7ee338b70f",
-       "f1eea0a2781af6aa"
-      ],
+      "eventId": "b73105fe4ec5f060",
+      "related": [],
       "score": {
-       "total": 77.0,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
-        "corroboration": 87.5,
-        "recency": 28.9,
+        "corroboration": 0.0,
+        "recency": 91.7,
         "topic": 100.0,
-        "novelty": 43.8
+        "novelty": 81.8
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی کلود Fable 5.2 در AWS",
-        "excerpt": "کلود Fable 5.2 و کلود Mythos در حال حاضر در Amazon Bedrock و کلود Platform در AWS در دسترس هستند. یاد بگیرید که چه چیزی در هر دو مدل جدید است، چرا Fable 5.2 برای کارهای فنی شما اهمیت دارد و چگونه با آن در Amazon Bedrock شروع به ساخت کنید.",
+        "title": "اطلاعات Gemini: ویژگی های جدید در دستگاه های بیشتر",
+        "excerpt": "یک مرد به تلفن صحبت می کند. متن بر روی صفحه می گوید: “Gemini Intelligence”",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T22:44:27Z"
+        "at": "2026-11-10T20:37:37Z"
        }
       }
      },
      "rank": 1,
-     "sources": 4,
+     "sources": 1,
      "reason": [
       "tier-1",
-      "voices-4",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -102,15 +99,15 @@
       "eventId": "fc6b6a56df7b3650",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 77.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -160,15 +157,15 @@
       "eventId": "3e5482fbea32174c",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 77.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -219,15 +216,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 65.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 77.8,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -242,6 +239,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2dcde4b665668871",
+      "url": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "What happens to mathematics when AI becames an oracle?",
+      "excerpt": "Mathematician Steven Strogatz discusses his new book, Big Math: The Hidden Codes That Run Our World.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T20:30:01Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T20:37:37Z",
+      "day": "2026-11-10",
+      "category": "research",
+      "tags": [
+       "ai",
+       "culture",
+       "science",
+       "applied mathematics",
+       "articifial intelligence",
+       "big math"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/Mathematics-formula-1152x648.jpg",
+       "credit": "Kenishirotie via iStock / Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
+      },
+      "eventId": "2dcde4b665668871",
+      "related": [],
+      "score": {
+       "total": 64.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-10T20:30:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چه اتفاقی برای ریاضیات می افتد زمانی که هوش مصنوعی یک اوراکل شد؟",
+        "excerpt": "استیون Strogatz ریاضیدان در مورد کتاب جدید خود، بزرگ ریاضی: کدهای پنهان که جهان ما را اداره می کنند، بحث می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T20:37:37Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -280,78 +337,20 @@
       "eventId": "405fdcad1ce1a75c",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.5,
+        "recency": 77.1,
         "topic": 75.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA توسعه تعهد منبع باز با OpenShell Donation و New AI Infrastructure",
         "excerpt": "Kubernetes، سیستم منبع باز که مدیریت می کند که چگونه برنامه های کاربردی در سراسر هزاران کارخانه AI اجرا می شوند، به پایه ای برای AI تبدیل شده اند و تقاضا بر روی آن تنها در حال رشد است. برای کمک به دیدار با آنها، NVIDIA تعهد خود را به منبع باز در KubeCon + CloudNative، کنفرانس پرچم دار برای Kubernetes و جوامع ابری تقویت می کند. NVIDIA",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T17:56:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "82110824f2abb129",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How TCS built an agentic test orchestrator with Amazon Bedrock AgentCore",
-      "excerpt": "Tata Consultancy Services (TCS) built an agentic test orchestrator on Amazon Bedrock AgentCore that turns requirements into executable, governed tests for its Banking, Financial Services, and Insurance (BFSI) clients. Learn how specialized agents, per-tenant isolation, and workload-aware execution cut testing effort by 88% in an internal benchmark.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T16:59:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T17:56:12Z",
-      "day": "2026-11-10",
-      "category": "research",
-      "tags": [
-       "amazon bedrock agentcore",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-20381-1.png",
-       "alt": "Architecture of the TCS Agentic Test Orchestrator showing the five-stage flow and per-tenant security layer on AWS",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "82110824f2abb129",
-      "related": [],
-      "score": {
-       "total": 66.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.9,
-        "topic": 80.0,
-        "novelty": 54.5
-       },
-       "asOf": "2026-11-10T17:32:47Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه TCS یک ارکستر آزمایشی فعال با Amazon Bedrock AgentCore ساخت",
-        "excerpt": "خدمات مشاوره Tata (TCS) یک ارکستر آزمایشی در Amazon Bedrock Agent ایجاد کرد که الزامات را به اجرایی تبدیل می کند، آزمایشات را برای مشتریان بانکداری، خدمات مالی و بیمه (BFSI) اداره می کند. یاد بگیرید که چگونه عوامل تخصصی، انزوای سرانه، و تلاش برای تست کار آگاهانه تا 88% در یک معیار داخلی.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-10T17:56:12Z"
        }
@@ -368,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-03T17:32:47Z",
-   "to": "2026-11-10T17:32:47Z",
+   "from": "2026-11-03T20:30:01Z",
+   "to": "2026-11-10T20:30:01Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +406,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 87.5,
+       "total": 87.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 81.3,
+        "recency": 79.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -431,6 +430,65 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b73105fe4ec5f060",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "lang": "en",
+      "publishedAt": "2026-11-10T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T20:37:37Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "gemini app",
+       "android",
+       "gemini notebook",
+       "ai"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "b73105fe4ec5f060",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-10T20:30:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اطلاعات Gemini: ویژگی های جدید در دستگاه های بیشتر",
+        "excerpt": "یک مرد به تلفن صحبت می کند. متن بر روی صفحه می گوید: “Gemini Intelligence”",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T20:37:37Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -462,15 +520,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.1,
+        "recency": 89.5,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -478,58 +536,6 @@
         "excerpt": "درس هایی از مشارکت آموزش EMEA OpenAI و تحقیقات جدید Thinkyoung حمایت از معلمان، سواد هوش مصنوعی و یادگیری مستقل",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-10T10:01:57Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fc6b6a56df7b3650",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon is now available",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-10T16:03:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T17:56:12Z",
-      "day": "2026-11-10",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "fc6b6a56df7b3650",
-      "related": [],
-      "score": {
-       "total": 72.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-10T17:32:47Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon در دسترس است",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T17:56:12Z"
        }
       }
      },
@@ -573,15 +579,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 64.7,
+        "recency": 62.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -633,15 +639,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 95.9,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -687,15 +693,15 @@
       "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 92.2,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -748,15 +754,15 @@
       "eventId": "405fdcad1ce1a75c",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 95.8,
         "topic": 75.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -806,15 +812,15 @@
       "eventId": "82110824f2abb129",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 96.7,
         "topic": 80.0,
         "novelty": 54.5
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -836,8 +842,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-11T17:32:47Z",
-   "to": "2026-11-10T17:32:47Z",
+   "from": "2026-10-11T20:30:01Z",
+   "to": "2026-11-10T20:30:01Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,15 +881,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 90.1,
+       "total": 89.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 94.0,
+        "recency": 93.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -934,15 +940,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 75.1,
+       "total": 75.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.8,
+        "recency": 87.0,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -990,15 +996,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 96.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1010,6 +1016,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b73105fe4ec5f060",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "lang": "en",
+      "publishedAt": "2026-11-10T19:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T20:37:37Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [
+       "gemini app",
+       "android",
+       "gemini notebook",
+       "ai"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "b73105fe4ec5f060",
+      "related": [],
+      "score": {
+       "total": 73.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-10T20:30:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اطلاعات Gemini: ویژگی های جدید در دستگاه های بیشتر",
+        "excerpt": "یک مرد به تلفن صحبت می کند. متن بر روی صفحه می گوید: “Gemini Intelligence”",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T20:37:37Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1045,15 +1110,15 @@
       "eventId": "3588ceed41552e46",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1064,65 +1129,10 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 73.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 40.6,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-10T17:32:47Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1161,15 +1171,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.1,
+       "total": 72.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 54.3,
+        "recency": 53.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1221,15 +1231,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.7,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1275,15 +1285,15 @@
       "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.6,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1336,15 +1346,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 74.6,
+        "recency": 73.9,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
@@ -1391,15 +1401,15 @@
       "eventId": "057e22ab69c04fb1",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 91.9,
         "topic": 80.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-10T17:32:47Z"
+       "asOf": "2026-11-10T20:30:01Z"
       },
       "tr": {
        "fa": {
