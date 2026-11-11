@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-10T22:35:03Z",
+ "asOf": "2026-11-11T00:55:30Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,63 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-09T22:35:03Z",
-   "to": "2026-11-10T22:35:03Z",
+   "from": "2026-11-10T00:55:30Z",
+   "to": "2026-11-11T00:55:30Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "f28f90d2895a812c",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T00:55:30Z",
+      "dateEstimated": true,
+      "fetchedAt": "2026-11-11T00:55:30Z",
+      "day": "2026-11-11",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f28f90d2895a812c",
+      "related": [],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گیلبرت + توبین در مورد کسب و کار قانون با AI تجدید نظر می کند",
+        "excerpt": "گفتگو با Sam Nickless، شریک و مدیر اجرایی ارشد در گیلبرت + Tobin",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T00:55:30Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "b73105fe4ec5f060",
@@ -46,15 +99,15 @@
       "eventId": "b73105fe4ec5f060",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.3,
+        "recency": 71.0,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +118,66 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "55fb77d5f91b9928",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+      "excerpt": "The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T23:34:05Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T00:55:30Z",
+      "day": "2026-11-10",
+      "category": "products",
+      "tags": [
+       "amazon bedrock agentcore",
+       "intermediate (200)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-22037-1.png",
+       "alt": "Dependency watch architecture: one run fans out to three parallel research branches that each call a Claude model and the Web Search API, then merge to a cited report",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "55fb77d5f91b9928",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.5,
+        "topic": 65.0,
+        "novelty": 69.2
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایجاد یک ساعت وابستگی روزانه با LangGraph و جستجوی Amazon Bedrock AgentCore",
+        "excerpt": "API جستجوی وب در Amazon Bedrock AgentCore به نمایندگان فعلی می دهد، نتایج وب امضا شده با اعتبار AWS که قبلا استفاده می کنند. در این پست، یک ناظر وابستگی روزانه را به عنوان یک نمودار LangGraph ایجاد کنید که اکوسیستم های بسته را به طور موازی بررسی می کند، قوانین خود را در کد نگه می دارد و همه یافته ها را در برابر منابع ذکر شده بررسی می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T00:55:30Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +217,15 @@
       "eventId": "d4308adb53b14778",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 80.5,
         "topic": 65.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +236,59 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fc6b6a56df7b3650",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon is now available",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-10T16:03:47Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T17:56:12Z",
+      "day": "2026-11-10",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "fc6b6a56df7b3650",
+      "related": [],
+      "score": {
+       "total": 64.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 59.9,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon در دسترس است",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T17:56:12Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -164,15 +328,15 @@
       "eventId": "14f6b8b420073dc3",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 63.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 87.4,
         "topic": 65.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -183,181 +347,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fc6b6a56df7b3650",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon is now available",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-10T16:03:47Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T17:56:12Z",
-      "day": "2026-11-10",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "fc6b6a56df7b3650",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 68.6,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon در دسترس است",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T17:56:12Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3e5482fbea32174c",
-      "url": "https://www.youtube.com/watch?v=vdEGZYIvFiI",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Greg Brockman on how OpenAI uses frontier models for cyber defense",
-      "excerpt": "We’re turning lessons from defending OpenAI into practical tools for our customers. OpenAI President and Co-Founder Greg Brockman shares how we used a frontier model to identify and resolve important vulnerabilities in our own code and infrastructure. That experience is informing the tools and playbooks we’re building to help other security teams strengthen their defenses as model capabilities…",
-      "lang": "en",
-      "publishedAt": "2026-11-10T16:02:15Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T17:56:12Z",
-      "day": "2026-11-10",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/vdEGZYIvFiI/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "vdEGZYIvFiI",
-       "url": "https://www.youtube.com/watch?v=vdEGZYIvFiI"
-      },
-      "eventId": "3e5482fbea32174c",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 68.5,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Greg Brockman در مورد چگونگی استفاده از مدل های مرزی برای دفاع سایبری",
-        "excerpt": "ما درس هایی را از دفاع از OpenAI به ابزارهای عملی برای مشتریانمان تبدیل می کنیم. رئیس جمهور OpenAI و Co-Founder Greg Brockman به ما می گوید که چگونه از یک مدل مرزی برای شناسایی و رفع آسیب پذیری های مهم در کد و زیرساخت خودمان استفاده می کنیم. این تجربه اطلاع رسانی به ابزارها و کتاب های بازی است که ما در حال ساخت برای کمک به سایر تیم های امنیتی هستیم تا دفاع خود را به عنوان قابلیت های مدل تقویت کنیم.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T17:56:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "656effdc34268dea",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/11/albaneses-love-affair-with-music-is-on-the-rocks-over-ai-can-he-write-a-different-tune",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Albanese’s love affair with music is on the rocks over AI. Can he write a different tune? | Peter Lewis",
-      "excerpt": "The prime minister is trying to untangle the copyright knot. But this is about much more than intellectual property Get our breaking news email, free app or daily news podcast If Anthony Albanese has a spiritual home it would be somewhere between the old Sando and the Enmore theatre in that pocket of Sydney’s inner west where the traffic never flows and the people of Grayndler still rule the…",
-      "lang": "en",
-      "publishedAt": "2026-11-10T22:00:20Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T23:29:24Z",
-      "day": "2026-11-10",
-      "category": "policy",
-      "tags": [
-       "australian music",
-       "ai (artificial intelligence)",
-       "australian law",
-       "music",
-       "anthony albanese",
-       "anthropic"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/1e6a991e75bedff23cf6e2c8520cc53422d92836/30_169_3298_2639/master/3298.jpg?width=700&quality=85&auto=format&fit=max&s=ed88f8e3e63f29e3099e387237188242",
-       "credit": "Photograph: Dan Himbrechts/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "656effdc34268dea",
-      "related": [],
-      "score": {
-       "total": 65.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 96.7,
-        "topic": 85.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "رابطه عاشقانه آلبانز با موسیقی بر روی سنگ های AI است. آیا می تواند یک آهنگ متفاوت بنویسد؟ پیتر لوییس",
-        "excerpt": "نخست وزیر تلاش می کند تا گره کپی رایت را خنثی کند. اما این تقریبا بیشتر از مالکیت معنوی است که ایمیل اخبار، برنامه رایگان یا پادکست اخبار روزانه ما را دریافت کنید اگر آنتونی آلبانز یک خانه معنوی داشته باشد، جایی بین تئاتر قدیمی Sando و Enmore در جیب غرب داخلی سیدنی خواهد بود که ترافیک هرگز جریان نمی یابد و مردم Grayndler هنوز حکومت می کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T23:29:24Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -365,8 +358,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-03T22:35:03Z",
-   "to": "2026-11-10T22:35:03Z",
+   "from": "2026-11-04T00:55:30Z",
+   "to": "2026-11-11T00:55:30Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +397,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 86.8,
+       "total": 86.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 77.5,
+        "recency": 75.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -463,15 +456,15 @@
       "eventId": "b73105fe4ec5f060",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 94.5,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -483,6 +476,59 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f28f90d2895a812c",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T00:55:30Z",
+      "dateEstimated": true,
+      "fetchedAt": "2026-11-11T00:55:30Z",
+      "day": "2026-11-11",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f28f90d2895a812c",
+      "related": [],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گیلبرت + توبین در مورد کسب و کار قانون با AI تجدید نظر می کند",
+        "excerpt": "گفتگو با Sam Nickless، شریک و مدیر اجرایی ارشد در گیلبرت + Tobin",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T00:55:30Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -518,15 +564,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.7,
+        "recency": 85.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -537,7 +583,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -577,15 +623,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 61.7,
+        "recency": 60.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -596,7 +642,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -637,15 +683,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 91.9,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -656,7 +702,61 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f8c1a7370c130fe5",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "lang": "en",
+      "publishedAt": "2026-11-10T12:02:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-10T13:03:27Z",
+      "day": "2026-11-10",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
+      },
+      "eventId": "f8c1a7370c130fe5",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.3,
+        "topic": 80.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
+        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-10T13:03:27Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -696,15 +796,15 @@
       "eventId": "d4308adb53b14778",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 96.4,
         "topic": 65.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -712,121 +812,6 @@
         "excerpt": "ما به سوالات اینترنت در مورد GPT-Live پاسخ می دهیم و با چگونگی متفاوت بودن آن با مدل های صوتی قبلی و آنچه توسعه دهندگان از آن استفاده می کنند، شروع می کنیم. ساخت با GPT-Live ما راهنمایی های عملی را برای سفارشی کردن صدای نماینده و بهبود هیئت مدیره به اشتراک خواهیم گذاشت. چه چیز دیگری دوست دارید در مورد ساخت با GPT-Live بدانید؟ یک سوال را در نظرات بگذارید! فصل های 00:00 Intro",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-10T23:29:24Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f8c1a7370c130fe5",
-      "url": "https://deepmind.google/blog/introducing-alphaproof-code",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-      "excerpt": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
-      "lang": "en",
-      "publishedAt": "2026-11-10T12:02:28Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T13:03:27Z",
-      "day": "2026-11-10",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
-       "kind": "feed",
-       "sourceUrl": "https://deepmind.google/blog/rss.xml"
-      },
-      "eventId": "f8c1a7370c130fe5",
-      "related": [],
-      "score": {
-       "total": 68.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.3,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی AlphaProof Code: یک پیشرفت در تأیید نرم افزار پیچیده در عمق",
-        "excerpt": "AlphaProof Code Agent سه میلیون خط از شواهد را در Lean برای تأیید رمزگذاری اصلی سیگنال نوشت.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T13:03:27Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "405fdcad1ce1a75c",
-      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure",
-      "excerpt": "Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference for the Kubernetes and cloud-native communities. NVIDIA",
-      "lang": "en",
-      "publishedAt": "2026-11-10T16:00:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-10T17:56:12Z",
-      "day": "2026-11-10",
-      "category": "open-source",
-      "tags": [
-       "ai infrastructure",
-       "ai factory",
-       "artificial intelligence",
-       "cloud services",
-       "dynamo",
-       "gpu"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/end-to-end-key-visual-kubecon-blog-1920x1080-5915250-v2.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "405fdcad1ce1a75c",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 75.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA توسعه تعهد منبع باز با OpenShell Donation و New AI Infrastructure",
-        "excerpt": "Kubernetes، سیستم منبع باز که مدیریت می کند که چگونه برنامه های کاربردی در سراسر هزاران کارخانه AI اجرا می شوند، به پایه ای برای AI تبدیل شده اند و تقاضا بر روی آن تنها در حال رشد است. برای کمک به دیدار با آنها، NVIDIA تعهد خود را به منبع باز در KubeCon + CloudNative، کنفرانس پرچم دار برای Kubernetes و جوامع ابری تقویت می کند. NVIDIA",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T17:56:12Z"
        }
       }
      },
@@ -841,8 +826,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-11T22:35:03Z",
-   "to": "2026-11-10T22:35:03Z",
+   "from": "2026-10-12T00:55:30Z",
+   "to": "2026-11-11T00:55:30Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -880,15 +865,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 89.8,
+       "total": 89.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 92.6,
+        "recency": 92.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -939,15 +924,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 86.5,
+        "recency": 85.9,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -995,15 +980,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1018,6 +1003,61 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 39.7,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1054,15 +1094,15 @@
       "eventId": "b73105fe4ec5f060",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.3,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1073,65 +1113,10 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 73.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 40.0,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1170,15 +1155,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 53.5,
+        "recency": 53.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1194,6 +1179,59 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f28f90d2895a812c",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T00:55:30Z",
+      "dateEstimated": true,
+      "fetchedAt": "2026-11-11T00:55:30Z",
+      "day": "2026-11-11",
+      "category": "policy",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f28f90d2895a812c",
+      "related": [],
+      "score": {
+       "total": 71.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-11T00:55:30Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گیلبرت + توبین در مورد کسب و کار قانون با AI تجدید نظر می کند",
+        "excerpt": "گفتگو با Sam Nickless، شریک و مدیر اجرایی ارشد در گیلبرت + Tobin",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T00:55:30Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1230,15 +1268,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.5,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1249,7 +1287,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1284,15 +1322,15 @@
       "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1303,7 +1341,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1345,15 +1383,15 @@
        "6326f73440011802"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 73.5,
+        "recency": 73.0,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-10T22:35:03Z"
+       "asOf": "2026-11-11T00:55:30Z"
       },
       "tr": {
        "fa": {
@@ -1364,64 +1402,11 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 10,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "057e22ab69c04fb1",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-09T15:05:57Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-09T18:54:05Z",
-      "day": "2026-11-09",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
-      },
-      "eventId": "057e22ab69c04fb1",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.3,
-        "topic": 80.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-10T22:35:03Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-09T18:54:05Z"
-       }
-      }
-     },
-     "rank": 10,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
