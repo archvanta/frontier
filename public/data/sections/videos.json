@@ -2,8 +2,52 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 162,
+ "total": 163,
  "articles": [
+  {
+   "id": "7026ee2cddf14dd4",
+   "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
+   "excerpt": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework's traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T15:50:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-11T16:40:00Z",
+   "day": "2026-11-11",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-21994-1.png",
+    "alt": "Closed-loop data flow: an adapter normalizes a framework trace, the engine scores it, UAEF stores the results, and reports feed the next iteration",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21994/See_it_in_action.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "7026ee2cddf14dd4",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "امارات متحده عربیF: یک سیستم تشخیص چارچوب برای ارزیابی حلقه بسته از عوامل AI",
+     "excerpt": "چارچوب ارزیابی عامل جهانی (UAEF) یک سیستم چارچوب- آگنوستیک برای ارزیابی عوامل AI است. امارات متحده عربیF هر چارچوب را به یک فرمت کانونی تبدیل می کند، آنها را با 36 معیار داخلی در 7 بعد امتیاز می دهد و نتایج را ذخیره می کند تا تیم ها بتوانند نسخه های عامل را مقایسه کنند و رگرسیون را دریافت کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-11T16:40:00Z"
+    }
+   }
+  },
   {
    "id": "758b324dcdce409a",
    "url": "https://www.youtube.com/watch?v=jDxKzlGLCas",
@@ -2346,45 +2390,6 @@
     "fa": {
      "title": "ساخت یک کارخانه مستقل با Gemini Live",
      "excerpt": "Meet Sprout: یک کاوشگر نیمه خودکار ساخته شده با Gemini Live و Robotics 2.0 که فضاهای اداری را برای شکار نور خورشید و مراقبت از محصولات سبز هدایت می کند. 🔗 کاوش در ساخت → https://goo.gle/3UCdUOa مشترک به Google برای توسعه دهندگان → HTTPS://google / در حال توسعه محصولات ذکر شده: Gemini، Google Studio",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-29T10:27:23Z"
-    }
-   }
-  },
-  {
-   "id": "e59c1ac4a9944e36",
-   "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU",
-   "sourceId": "openai-youtube",
-   "sourceName": "OpenAI (YouTube)",
-   "title": "API credits, now in ChatGPT Pro and Business plans",
-   "excerpt": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. Credit amounts depend on the plan. Pro plans get $100, $200 or $500 per month by tier. Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace…",
-   "lang": "en",
-   "publishedAt": "2026-10-28T23:45:26Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-29T10:27:23Z",
-   "day": "2026-10-28",
-   "category": "products",
-   "tags": [],
-   "entities": [
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://i2.ytimg.com/vi/ujmyzWSj8IU/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "ujmyzWSj8IU",
-    "url": "https://www.youtube.com/watch?v=ujmyzWSj8IU"
-   },
-   "eventId": "e59c1ac4a9944e36",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "اعتبار API، در حال حاضر در برنامه های ChatGPT Pro و Business",
-     "excerpt": "از امروز شروع، واجد شرایط ChatGPT Pro و مشترکین کسب و کار می توانند تا 500 دلار در ماه در اعتبارات API برای ساخت برنامه ها و عوامل ادعا کنند. مقدار اعتباری بستگی به برنامه دارد. برنامه های پیشنهادی 100، 200 دلار یا 500 دلار در ماه با لایه دریافت می کنند. برنامه های کسب و کار 20 دلار در هر صندلی استاندارد پرداخت شده یا 100 دلار برای هر صندلی پرداخت می شود، تا 500 دلار در هر فضای کاری جمع آوری شده است.",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-29T10:27:23Z"
     }
