@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-11T06:40:57Z",
+ "asOf": "2026-11-11T07:30:51Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-10T06:40:57Z",
-   "to": "2026-11-11T06:40:57Z",
+   "from": "2026-11-10T07:30:51Z",
+   "to": "2026-11-11T07:30:51Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,15 +42,15 @@
       "eventId": "80b38ea7da372c49",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 95.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -71,46 +71,52 @@
     },
     {
      "article": {
-      "id": "f28f90d2895a812c",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "excerpt": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "id": "ae89cd4186a679c8",
+      "url": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "excerpt": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
       "lang": "en",
-      "publishedAt": "2026-11-11T00:55:30Z",
-      "dateEstimated": true,
-      "fetchedAt": "2026-11-11T00:55:30Z",
+      "publishedAt": "2026-11-11T01:24:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T08:26:58Z",
       "day": "2026-11-11",
-      "category": "policy",
+      "category": "models",
       "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/QRm7VNMnurA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "f28f90d2895a812c",
+      "video": {
+       "provider": "youtube",
+       "id": "QRm7VNMnurA",
+       "url": "https://www.youtube.com/watch?v=QRm7VNMnurA"
+      },
+      "eventId": "ae89cd4186a679c8",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.7,
-        "topic": 85.0,
-        "novelty": 88.9
+        "recency": 70.3,
+        "topic": 100.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
-        "title": "گیلبرت + توبین در مورد کسب و کار قانون با AI تجدید نظر می کند",
-        "excerpt": "گفتگو با Sam Nickless، شریک و مدیر اجرایی ارشد در گیلبرت + Tobin",
+        "title": "سایت ها و نسل بعدی برنامه های وب | DevDay 2026",
+        "excerpt": "یک ایده را به یک تجربه وب تعاملی با آسترا، سایت های ChatGPT و WebMCP تبدیل کنید. یاد بگیرید که چگونه انواع جدیدی از رابط ها را در کنار همکاران و عوامل خود بسازید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T00:55:30Z"
+        "at": "2026-11-11T08:26:58Z"
        }
       }
      },
@@ -118,6 +124,66 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d03bc3f1122697de",
+      "url": "https://www.theguardian.com/education/2026/nov/11/ai-close-to-impossible-assess-university-coursework-regulator",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "AI has made it ‘close to impossible’ to assess university coursework, regulator says",
+      "excerpt": "Office for Students says institutions in England should return to traditional exams and in-person presentations Universities should go back to traditional exams and in-person presentations to grade students after lecturers complained that AI has made it “close to impossible” to assess coursework, according to an investigation by England’s higher education regulator. The Office for Students (OfS)…",
+      "lang": "en",
+      "publishedAt": "2026-11-11T07:00:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T08:26:58Z",
+      "day": "2026-11-11",
+      "category": "policy",
+      "tags": [
+       "higher education",
+       "office for students",
+       "ai (artificial intelligence)",
+       "students",
+       "exams",
+       "universities"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/adf4bd3cb57d52970211ffdea378ea9dcaa5036c/901_0_4886_3910/master/4886.jpg?width=700&quality=85&auto=format&fit=max&s=db19478cb3d70e4195aaced3de420612",
+       "credit": "Photograph: Lbeddoe/Alamy",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "d03bc3f1122697de",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 97.1,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-11T07:30:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "AI آن را \"نزدیک به غیرممکن\" برای ارزیابی دوره های دانشگاهی، تنظیم کننده می گوید",
+        "excerpt": "دفتر دانش آموزان می گوید که موسسات در انگلستان باید به امتحانات سنتی بازگردند و دانشگاه های ارائه شخصی باید به امتحانات سنتی و ارائه های فردی به دانش آموزان درجه پس از سخنرانان شکایت کردند که AI آن را \"نزدیک به غیرممکن\" برای ارزیابی دوره های آموزشی، با توجه به تحقیقات تنظیم کننده آموزش عالی انگلستان. دفتر دانش آموزان (از S)",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T08:26:58Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -156,15 +222,15 @@
       "eventId": "a3f9078912ac05de",
       "related": [],
       "score": {
-       "total": 65.9,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.9,
+        "recency": 77.1,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -175,7 +241,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -210,15 +276,15 @@
       "eventId": "b22522d14a17f95f",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.8,
+        "recency": 86.6,
         "topic": 55.0,
         "novelty": 89.5
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -228,7 +294,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -269,80 +335,20 @@
       "eventId": "6e6afca348abc77d",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 63.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 89.4,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
         "title": "استرالیایی ها موسیقی استرالیا را پخش نمی کنند. چرا جهنم نه؟ اولین سگ روی ماه",
         "excerpt": "آیا به این دلیل است که موسیقی زنده برای انجام دادن و b بسیار سخت است؟ الگوریتم های جریان هوش مصنوعی مغز ما را می خورند؟ احتمالا در اینجا ثبت نام کنید تا هر زمان که کارتون سگ اول منتشر می شود، تمام نیازهای خود را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین محصول سگ و چاپ ادامه خواندن.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T06:40:57Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be778195d83e2688",
-      "url": "https://www.theguardian.com/news/audio/2026/nov/11/from-the-archive-weizenbaums-nightmares-how-the-inventor-of-the-first-chatbot-turned-against-ai-podcast",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "From the archive: Weizenbaum’s nightmares: how the inventor of the first chatbot turned against AI – podcast",
-      "excerpt": "We are raiding the Guardian long read archives to bring you some classic pieces from years past, with new introductions from the authors This week, from 2023: Computer scientist Joseph Weizenbaum was there at the dawn of artificial intelligence – but he was also adamant that we must never confuse computers with humans By Ben Tarnoff. Read by Sam Peter Jackson Read the text version here Support…",
-      "lang": "en",
-      "publishedAt": "2026-11-11T05:00:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T06:40:57Z",
-      "day": "2026-11-11",
-      "category": "research",
-      "tags": [
-       "ai (artificial intelligence)",
-       "chatbots",
-       "chatgpt",
-       "vietnam war",
-       "mit - massachusetts institute of technol",
-       "internet safety"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/dca031b14d57615a9150621514d3fe2c7539fd43/173_0_2878_2303/master/2878.jpg?width=700&quality=85&auto=format&fit=max&s=ddfebd9d2b1bb66a94fc9b6862ce604a",
-       "credit": "Illustration: Mark Harris/The Guardian",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "be778195d83e2688",
-      "related": [],
-      "score": {
-       "total": 63.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.8,
-        "topic": 80.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-11T06:40:57Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از آرشیو: کابوس های ویzenbaum: چگونه مخترع اولین chatbot در برابر AI تبدیل شد - پادکست",
-        "excerpt": "ما به آرشیو های طولانی مدت گاردین حمله می کنیم تا شما را از سال های گذشته، با معرفی های جدید از نویسندگان این هفته، از سال 2023: دانشمند کامپیوتر جوزف ویزنبام در سپیده دم هوش مصنوعی وجود داشت - اما او همچنین معتقد بود که ما هرگز نباید کامپیوترها را با بن تاروف اشتباه بگیریم. نوشته شده توسط Sam Peter Jackson خواندن نسخه متن در اینجا پشتیبانی...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-11T06:40:57Z"
        }
@@ -359,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-04T06:40:57Z",
-   "to": "2026-11-11T06:40:57Z",
+   "from": "2026-11-04T07:30:51Z",
+   "to": "2026-11-11T07:30:51Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +404,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 85.6,
+       "total": 85.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 71.7,
+        "recency": 71.1,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -453,15 +459,15 @@
       "eventId": "80b38ea7da372c49",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -482,52 +488,52 @@
     },
     {
      "article": {
-      "id": "b73105fe4ec5f060",
-      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Gemini Intelligence: New features, on more devices",
-      "excerpt": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "id": "ae89cd4186a679c8",
+      "url": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "excerpt": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
       "lang": "en",
-      "publishedAt": "2026-11-10T19:00:00Z",
+      "publishedAt": "2026-11-11T01:24:07Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-10T20:37:37Z",
-      "day": "2026-11-10",
+      "fetchedAt": "2026-11-11T08:26:58Z",
+      "day": "2026-11-11",
       "category": "models",
-      "tags": [
-       "gemini app",
-       "android",
-       "gemini notebook",
-       "ai"
-      ],
+      "tags": [],
       "entities": [
-       "google"
+       "openai"
       ],
-      "brand": "gemini",
+      "brand": "openai",
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+       "url": "https://i2.ytimg.com/vi/QRm7VNMnurA/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b73105fe4ec5f060",
+      "video": {
+       "provider": "youtube",
+       "id": "QRm7VNMnurA",
+       "url": "https://www.youtube.com/watch?v=QRm7VNMnurA"
+      },
+      "eventId": "ae89cd4186a679c8",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.4,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
-        "title": "اطلاعات Gemini: ویژگی های جدید در دستگاه های بیشتر",
-        "excerpt": "یک مرد به تلفن صحبت می کند. متن بر روی صفحه می گوید: “Gemini Intelligence”",
+        "title": "سایت ها و نسل بعدی برنامه های وب | DevDay 2026",
+        "excerpt": "یک ایده را به یک تجربه وب تعاملی با آسترا، سایت های ChatGPT و WebMCP تبدیل کنید. یاد بگیرید که چگونه انواع جدیدی از رابط ها را در کنار همکاران و عوامل خود بسازید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-10T20:37:37Z"
+        "at": "2026-11-11T08:26:58Z"
        }
       }
      },
@@ -565,15 +571,15 @@
       "eventId": "f28f90d2895a812c",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 93.9,
         "topic": 85.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -626,15 +632,15 @@
       "eventId": "a3f9078912ac05de",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 95.8,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -685,15 +691,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 69.0,
+       "total": 68.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 57.0,
+        "recency": 56.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -745,15 +751,15 @@
       "eventId": "137e0c85a643ec5f",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.2,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -799,15 +805,15 @@
       "eventId": "f8c1a7370c130fe5",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.6,
+        "recency": 82.9,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -829,8 +835,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-12T06:40:57Z",
-   "to": "2026-11-11T06:40:57Z",
+   "from": "2026-10-12T07:30:51Z",
+   "to": "2026-11-11T07:30:51Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -868,15 +874,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 89.4,
+       "total": 89.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 90.5,
+        "recency": 90.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -927,15 +933,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 74.5,
+       "total": 74.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 84.5,
+        "recency": 84.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -987,11 +993,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.8,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1003,6 +1009,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ae89cd4186a679c8",
+      "url": "https://www.youtube.com/watch?v=QRm7VNMnurA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Sites and the Next Generation of Web Apps | DevDay 2026",
+      "excerpt": "Turn an idea into an interactive web experience with Astra, ChatGPT Sites, and WebMCP. Learn how to build new kinds of interfaces alongside your colleagues and agents.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T01:24:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T08:26:58Z",
+      "day": "2026-11-11",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/QRm7VNMnurA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "QRm7VNMnurA",
+       "url": "https://www.youtube.com/watch?v=QRm7VNMnurA"
+      },
+      "eventId": "ae89cd4186a679c8",
+      "related": [],
+      "score": {
+       "total": 72.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.3,
+        "topic": 100.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-11T07:30:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سایت ها و نسل بعدی برنامه های وب | DevDay 2026",
+        "excerpt": "یک ایده را به یک تجربه وب تعاملی با آسترا، سایت های ChatGPT و WebMCP تبدیل کنید. یاد بگیرید که چگونه انواع جدیدی از رابط ها را در کنار همکاران و عوامل خود بسازید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T08:26:58Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1038,15 +1103,15 @@
       "eventId": "01a8528fa117926a",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 93.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1057,127 +1122,10 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 72.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 39.0,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-11T06:40:57Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 71.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 52.2,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-11T06:40:57Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1220,11 +1168,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.7,
         "topic": 70.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1235,7 +1183,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1279,11 +1227,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 95.7,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1294,7 +1242,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1333,11 +1281,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 94.5,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1348,7 +1296,7 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1394,11 +1342,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 71.8,
+        "recency": 71.6,
         "topic": 70.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-11T06:40:57Z"
+       "asOf": "2026-11-11T07:30:51Z"
       },
       "tr": {
        "fa": {
@@ -1409,11 +1357,64 @@
        }
       }
      },
-     "rank": 10,
+     "rank": 9,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "057e22ab69c04fb1",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-09T15:05:57Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-09T18:54:05Z",
+      "day": "2026-11-09",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan"
+      },
+      "eventId": "057e22ab69c04fb1",
+      "related": [],
+      "score": {
+       "total": 69.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.0,
+        "topic": 80.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-11T07:30:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nemotron-Personas-Finance-ژاپن: مجموعه داده های مصنوعی Caping the Demographics و Financial Field",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-09T18:54:05Z"
+       }
+      }
+     },
+     "rank": 10,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
