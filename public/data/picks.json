@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-11T22:44:36Z",
+ "asOf": "2026-11-12T03:13:10Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,68 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-10T22:44:36Z",
-   "to": "2026-11-11T22:44:36Z",
+   "from": "2026-11-11T03:13:10Z",
+   "to": "2026-11-12T03:13:10Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "cf5ad5ad4907d72b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T23:33:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T03:52:53Z",
+      "day": "2026-11-11",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "thought leadership"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
+       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "cf5ad5ad4907d72b",
+      "related": [],
+      "score": {
+       "total": 67.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.9,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-12T03:13:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
+        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T03:52:53Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "38fca246c6cafc44",
@@ -47,15 +105,15 @@
       "eventId": "38fca246c6cafc44",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 70.5,
         "topic": 100.0,
         "novelty": 71.4
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +124,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -106,15 +164,15 @@
       "eventId": "2328aa3d695bf9fa",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 70.5,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -125,7 +183,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -162,15 +220,15 @@
       "eventId": "cce714811b519a82",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 65.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.0,
+        "recency": 58.7,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -181,7 +239,66 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "005484e05b9e6189",
+      "url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+      "excerpt": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T23:30:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T03:52:53Z",
+      "day": "2026-11-11",
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker hyperpod",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21841-1-1.png",
+       "alt": "Architecture of a SageMaker HyperPod EKS cluster with three p5 nodes where node 1 raises an SDC alarm for rank 13 and the recovery steps replace it",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "005484e05b9e6189",
+      "related": [],
+      "score": {
+       "total": 64.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 80.7,
+        "topic": 70.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-12T03:13:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "شناسایی و بازیابی از فساد اطلاعات خاموش در آمازون SageMaker HyperPod",
+        "excerpt": "فساد داده های خاموش یک خطای GPU است که شماره های اشتباه اما قابل قبول را بدون خطا، آموزش توزیع شده بی سر و صدا، باز می گرداند. این پست سه چک را به یک حلقه PyTorch DDP برای تشخیص آن اضافه می کند، گره معیوب را در Amazon SageMaker HyperPod قرار می دهد و گره را به بازیابی خودکار برای جایگزینی تحویل می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T03:52:53Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -219,137 +336,20 @@
       "eventId": "40b3469495104d52",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.9,
+        "recency": 65.5,
         "topic": 80.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
         "title": "استفاده از پوشیدنی ها برای فعال کردن پروفایل خطرساز قلبی-kidney-metabolic (CKM) برای مربیگری شخصی",
         "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2f5ac4847b023025",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
-      "excerpt": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T20:45:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ml-21702-arch.png",
-       "alt": "DXC OASIS architecture: an Amazon EKS agent runtime in a private VPC reaching Amazon Bedrock through AWS PrivateLink",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "2f5ac4847b023025",
-      "related": [],
-      "score": {
-       "total": 68.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.2,
-        "topic": 85.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-11T22:44:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه فناوری DXC یک بستر هوش مصنوعی چند مدل را در آمازون ساخته است",
-        "excerpt": "فناوری DXC خدمات IT مدیریت شده ماموریت برای سازمان های تنظیم شده در 70 کشور را اجرا می کند. یاد بگیرید که چگونه DXC ساخت DCX OASIS، مدل عامل انسانی +AI، بر روی یک بستر چند مدل حاکم در آمازون Bedrock، جدا کردن یک بستر مدل انعطاف پذیر از یک مهار قابل اعتماد که هماهنگ، حکومت و حسابرسی عوامل AI در مقیاس.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8b208eddf6e27264",
-      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "ICYMI: What landed for AI builders in October 2026",
-      "excerpt": "A recap of the major Amazon Bedrock, Amazon Bedrock AgentCore, and Strands updates from October 2026: new models to match each task, updates that keep agents available and grounded, and clearer cost reporting for AI builders.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T22:26:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "products",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "8b208eddf6e27264",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 65.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-11T22:44:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ICYMI: آنچه برای سازندگان AI در ۲۰۲۶ اکتبر فرود آمد",
-        "excerpt": "یک recap از بزرگ آمازون Bedrock، Amazon Bedrock AgentCore و Strands به روز رسانی از اکتبر 2026: مدل های جدید برای مطابقت با هر کار، به روز رسانی که نگه داشتن عوامل در دسترس و مبتنی، و روشن تر گزارش هزینه برای سازندگان AI.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-11T22:46:06Z"
        }
@@ -366,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-04T22:44:36Z",
-   "to": "2026-11-11T22:44:36Z",
+   "from": "2026-11-05T03:13:10Z",
+   "to": "2026-11-12T03:13:10Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +405,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 83.5,
+       "total": 83.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 61.4,
+        "recency": 58.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -461,15 +461,15 @@
       "eventId": "cce714811b519a82",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 91.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -521,15 +521,15 @@
       "eventId": "38fca246c6cafc44",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 71.4
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -541,6 +541,64 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cf5ad5ad4907d72b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T23:33:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T03:52:53Z",
+      "day": "2026-11-11",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "thought leadership"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
+       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "cf5ad5ad4907d72b",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.5,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-12T03:13:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
+        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T03:52:53Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -578,15 +636,15 @@
       "eventId": "40b3469495104d52",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 93.2,
         "topic": 80.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -597,7 +655,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -635,15 +693,15 @@
       "eventId": "bad6ee94c35695d3",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 89.8,
         "topic": 80.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -651,65 +709,6 @@
         "excerpt": "Tabletop یک آزمایش جدید Google Labs برای همکاری گروهی است. آن را به صورت تعاملی، نظرسنجی ها و براکت ها با تیم خود بسازید. به لیست انتظار بپیوندید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-11T16:40:00Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2f5ac4847b023025",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
-      "excerpt": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T20:45:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ml-21702-arch.png",
-       "alt": "DXC OASIS architecture: an Amazon EKS agent runtime in a private VPC reaching Amazon Bedrock through AWS PrivateLink",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "2f5ac4847b023025",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.1,
-        "topic": 85.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-11T22:44:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه فناوری DXC یک بستر هوش مصنوعی چند مدل را در آمازون ساخته است",
-        "excerpt": "فناوری DXC خدمات IT مدیریت شده ماموریت برای سازمان های تنظیم شده در 70 کشور را اجرا می کند. یاد بگیرید که چگونه DXC ساخت DCX OASIS، مدل عامل انسانی +AI، بر روی یک بستر چند مدل حاکم در آمازون Bedrock، جدا کردن یک بستر مدل انعطاف پذیر از یک مهار قابل اعتماد که هماهنگ، حکومت و حسابرسی عوامل AI در مقیاس.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
        }
       }
      },
@@ -754,15 +753,15 @@
       "eventId": "eeefcc4da998a906",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 94.3,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -807,15 +806,15 @@
       "eventId": "8c999d6885d24711",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.3,
+        "recency": 76.9,
         "topic": 90.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -837,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-12T22:44:36Z",
-   "to": "2026-11-11T22:44:36Z",
+   "from": "2026-10-13T03:13:10Z",
+   "to": "2026-11-12T03:13:10Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -876,15 +875,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 88.5,
+       "total": 88.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 86.4,
+        "recency": 85.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -935,15 +934,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 73.7,
+       "total": 73.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.7,
+        "recency": 79.6,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -992,15 +991,15 @@
       "eventId": "cce714811b519a82",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 97.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -1047,15 +1046,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 37.3,
+        "recency": 36.8,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -1076,48 +1075,53 @@
     },
     {
      "article": {
-      "id": "80b38ea7da372c49",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "id": "38fca246c6cafc44",
+      "url": "https://www.youtube.com/watch?v=vdBDMj2UhDg",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How to enable PR security reviews with Codex Security",
+      "excerpt": "Bring security reviews into your pull request workflow with Codex Security. Learn how to check your GitHub connection, request a review, work through a fix, and review the change again. Then configure automatic reviews for your repository, including triggers and severity thresholds.",
       "lang": "en",
-      "publishedAt": "2026-11-11T06:40:57Z",
-      "dateEstimated": true,
-      "fetchedAt": "2026-11-11T06:40:57Z",
+      "publishedAt": "2026-11-11T21:10:24Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T22:46:06Z",
       "day": "2026-11-11",
       "category": "models",
-      "tags": [
-       "company"
-      ],
+      "tags": [],
       "entities": [
+       "microsoft",
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i3.ytimg.com/vi/vdBDMj2UhDg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "80b38ea7da372c49",
+      "video": {
+       "provider": "youtube",
+       "id": "vdBDMj2UhDg",
+       "url": "https://www.youtube.com/watch?v=vdBDMj2UhDg"
+      },
+      "eventId": "38fca246c6cafc44",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 98.3,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 71.4
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
-        "title": "ChatGPT Plus برای جانبازان و کارکنان خدمات",
-        "excerpt": "بیش از ۲۰ هزار سرباز و اعضای خدمات انتقال، سال آزاد ChatGPT Plus را اعلام کرده اند. ببینید که چگونه از آن برای آماده سازی برای مشاغل غیر نظامی استفاده می کنند.",
+        "title": "چگونه می توان بررسی های امنیتی روابط عمومی با Codex Security را فعال کرد",
+        "excerpt": "بررسی های امنیتی را در جریان کار درخواست کشش خود با Codex Security قرار دهید. یاد بگیرید که چگونه اتصال GitHub خود را بررسی کنید، یک بررسی را درخواست کنید، از طریق یک تعمیر کار کنید و دوباره تغییر را بررسی کنید. سپس بررسی های خودکار را برای مخزن خود، از جمله محرک ها و آستانه های شدت پیکربندی کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T06:40:57Z"
+        "at": "2026-11-11T22:46:06Z"
        }
       }
      },
@@ -1155,15 +1159,15 @@
       "eventId": "8c999d6885d24711",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 92.4,
         "topic": 90.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -1175,63 +1179,6 @@
       }
      },
      "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "40b3469495104d52",
-      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-11T19:54:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "40b3469495104d52",
-      "related": [],
-      "score": {
-       "total": 71.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 80.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-11T22:44:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استفاده از پوشیدنی ها برای فعال کردن پروفایل خطرساز قلبی-kidney-metabolic (CKM) برای مربیگری شخصی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
-       }
-      }
-     },
-     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1273,15 +1220,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 49.9,
+        "recency": 49.2,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -1292,11 +1239,126 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 7,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cf5ad5ad4907d72b",
+      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Semantic diffing of formal policies with anti-unification",
+      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "lang": "en",
+      "publishedAt": "2026-11-11T23:33:03Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T03:52:53Z",
+      "day": "2026-11-11",
+      "category": "open-source",
+      "tags": [
+       "advanced (300)",
+       "thought leadership"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
+       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "cf5ad5ad4907d72b",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 75.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-12T03:13:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
+        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T03:52:53Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "40b3469495104d52",
+      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
+      "excerpt": "Health & Bioscience",
+      "lang": "en",
+      "publishedAt": "2026-11-11T19:54:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-11T22:46:06Z",
+      "day": "2026-11-11",
+      "category": "research",
+      "tags": [
+       "health & bioscience",
+       "machine intelligence"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "40b3469495104d52",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.9,
+        "topic": 80.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-12T03:13:10Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "استفاده از پوشیدنی ها برای فعال کردن پروفایل خطرساز قلبی-kidney-metabolic (CKM) برای مربیگری شخصی",
+        "excerpt": "سلامت و علوم زیستی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-11T22:46:06Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1331,15 +1393,15 @@
       "eventId": "bad6ee94c35695d3",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 96.8,
         "topic": 80.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-11T22:44:36Z"
+       "asOf": "2026-11-12T03:13:10Z"
       },
       "tr": {
        "fa": {
@@ -1347,65 +1409,6 @@
         "excerpt": "Tabletop یک آزمایش جدید Google Labs برای همکاری گروهی است. آن را به صورت تعاملی، نظرسنجی ها و براکت ها با تیم خود بسازید. به لیست انتظار بپیوندید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-11T16:40:00Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2f5ac4847b023025",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
-      "excerpt": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T20:45:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "policy",
-      "tags": [
-       "amazon bedrock",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ml-21702-arch.png",
-       "alt": "DXC OASIS architecture: an Amazon EKS agent runtime in a private VPC reaching Amazon Bedrock through AWS PrivateLink",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "2f5ac4847b023025",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 85.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-11T22:44:36Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه فناوری DXC یک بستر هوش مصنوعی چند مدل را در آمازون ساخته است",
-        "excerpt": "فناوری DXC خدمات IT مدیریت شده ماموریت برای سازمان های تنظیم شده در 70 کشور را اجرا می کند. یاد بگیرید که چگونه DXC ساخت DCX OASIS، مدل عامل انسانی +AI، بر روی یک بستر چند مدل حاکم در آمازون Bedrock، جدا کردن یک بستر مدل انعطاف پذیر از یک مهار قابل اعتماد که هماهنگ، حکومت و حسابرسی عوامل AI در مقیاس.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
        }
       }
      },

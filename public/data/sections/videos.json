@@ -2,8 +2,53 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 168,
+ "total": 169,
  "articles": [
+  {
+   "id": "0566809c65753b53",
+   "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "OpenAI Codex on Amazon Bedrock",
+   "excerpt": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:35:47Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21633-1.png",
+    "alt": "Architecture diagram comparing Native AWS Access, AgentCore Gateway, and LLM Gateway paths from Codex to Amazon Bedrock.",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21633/OpenAI_Codex_on_Bedrock_Pilot_Walkthrough.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "0566809c65753b53",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI Codex در Amazon Bedrock",
+     "excerpt": "یک راهنمای عملی برای شرکت هایی که از OpenAI Codex برای توسعه دهندگان در AWS استفاده می کنند، با آمازون Bedrock به عنوان مدل Backend، پوشش دسترسی، حکومت و تصمیمات هزینه ای که پلت فرم، امنیت و تیم های مالی باید در آن هماهنگ شوند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
   {
    "id": "f66f5f0e819eac3c",
    "url": "https://www.youtube.com/watch?v=NS220dAaRMo",
@@ -2346,51 +2391,6 @@
     "fa": {
      "title": "آیا اینستاگرام در celeb Deepfakes تسلیم شده است؟",
      "excerpt": "عکسی از میا گورت که پیراهنی پوشیده بود، شی لاBeouf سابقش را به تازگی ویروسی کرده بود، اما واقعیت نداشت. تصویر تولید شده توسط یک حساب Instagram طرفدار اجرا با چک تأیید آبی ارسال شد و توسط سایت های شایعه و مرور هوش مصنوعی گوگل به عنوان قانونی انتخاب شد. آیا اینستاگرام در مبارزه با افراد مشهور عمیق تسلیم شده است؟ اشتراک: http://goo.gl/G5RXGs مانند Verge",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-10-30T16:16:55Z"
-    }
-   }
-  },
-  {
-   "id": "5cfbd02556ec4a84",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
-   "sourceId": "verge-ai",
-   "sourceName": "The Verge — AI",
-   "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
-   "excerpt": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net,",
-   "lang": "en",
-   "publishedAt": "2026-10-30T13:01:14Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-10-30T16:16:55Z",
-   "day": "2026-10-30",
-   "category": "business",
-   "tags": [
-    "ai",
-    "news",
-    "openai",
-    "science"
-   ],
-   "entities": [
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Vrg_illo_Sam_Altman_stock_trial.jpg?quality=90&strip=all&crop=0,0,100,100",
-    "alt": "A stylized image of OpenAI CEO Sam Altman.",
-    "kind": "feed",
-    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "iMsUcCYNKqY",
-    "url": "https://www.youtube.com/watch?v=iMsUcCYNKqY"
-   },
-   "eventId": "5cfbd02556ec4a84",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "سام آلتمن با ریاضیدانان همدردی می کند، اما می گوید حمله ریاضی OpenAI متوقف نخواهد شد",
-     "excerpt": "پس از ماه ها ریاضیدانان بمباران با جریان بی وقفه ای از نتایج تولید شده AI، مدیر عامل OpenAI، Sam Altman می گوید که او با محققانی که تلاش می کنند تا همه چیز را درک کنند، همدردی می کند. اما او قصد توقف ندارد - و اشاره می کند که می تواند بسیار بیشتر از ذخایر اکتشافات شرکت باشد. \"من فکر می کنم، در شبکه،",
      "engine": "argos-en_fa-1.5",
      "at": "2026-10-30T16:16:55Z"
     }

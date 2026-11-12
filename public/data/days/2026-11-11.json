@@ -3,6 +3,313 @@
  "day": "2026-11-11",
  "articles": [
   {
+   "id": "efdd0bfa6110086b",
+   "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "The unfolding Jensen Huang scandal: a timeline",
+   "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:50:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "business",
+   "tags": [
+    "ai",
+    "china",
+    "nvidia",
+    "donald trump",
+    "jensen huang"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "efdd0bfa6110086b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "رسوایی جنسن هوانگ: یک جدول زمانی",
+     "excerpt": "این رابطه می تواند پیامدهایی برای امنیت ملی به عنوان نژاد ایالات متحده و چین برای توسعه پیشرفته ترین زیرساخت های AI داشته باشد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "0566809c65753b53",
+   "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "OpenAI Codex on Amazon Bedrock",
+   "excerpt": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:35:47Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21633-1.png",
+    "alt": "Architecture diagram comparing Native AWS Access, AgentCore Gateway, and LLM Gateway paths from Codex to Amazon Bedrock.",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21633/OpenAI_Codex_on_Bedrock_Pilot_Walkthrough.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "0566809c65753b53",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI Codex در Amazon Bedrock",
+     "excerpt": "یک راهنمای عملی برای شرکت هایی که از OpenAI Codex برای توسعه دهندگان در AWS استفاده می کنند، با آمازون Bedrock به عنوان مدل Backend، پوشش دسترسی، حکومت و تصمیمات هزینه ای که پلت فرم، امنیت و تیم های مالی باید در آن هماهنگ شوند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "cf5ad5ad4907d72b",
+   "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Semantic diffing of formal policies with anti-unification",
+   "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:33:03Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "open-source",
+   "tags": [
+    "advanced (300)",
+    "thought leadership"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
+    "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "cf5ad5ad4907d72b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
+     "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "005484e05b9e6189",
+   "url": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+   "excerpt": "Silent data corruption is a GPU fault that returns wrong but plausible numbers with no error, quietly poisoning distributed training. This post adds three checks to a PyTorch DDP loop to detect it, localize the faulty node on Amazon SageMaker HyperPod, and hand the node to automatic recovery for replacement.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:30:03Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "hardware",
+   "tags": [
+    "advanced (300)",
+    "amazon sagemaker hyperpod",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21841-1-1.png",
+    "alt": "Architecture of a SageMaker HyperPod EKS cluster with three p5 nodes where node 1 raises an SDC alarm for rank 13 and the recovery steps replace it",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "005484e05b9e6189",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "شناسایی و بازیابی از فساد اطلاعات خاموش در آمازون SageMaker HyperPod",
+     "excerpt": "فساد داده های خاموش یک خطای GPU است که شماره های اشتباه اما قابل قبول را بدون خطا، آموزش توزیع شده بی سر و صدا، باز می گرداند. این پست سه چک را به یک حلقه PyTorch DDP برای تشخیص آن اضافه می کند، گره معیوب را در Amazon SageMaker HyperPod قرار می دهد و گره را به بازیابی خودکار برای جایگزینی تحویل می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "b91248042740580a",
+   "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "excerpt": "As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:28:45Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "business",
+   "tags": [
+    "ai",
+    "in brief",
+    "jensen huang",
+    "nvidia"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b91248042740580a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "سهام Nvidia کاهش می یابد به عنوان هیئت مدیره گزارش شده است پیش از اخراج مدیر عامل Jensen Huang",
+     "excerpt": "به محض غروب چهارشنبه، هیئت مدیره Nvidia می تواند تصمیم بگیرد که بنیانگذار و مدیرعامل خود را از 33 سال حذف کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "699e4043a1fa3ec7",
+   "url": "https://www.datacenterdynamics.com/en/news/nvidias-jensen-huang-accused-of-second-affair-with-staffer-board-considers-ouster",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "Nvidia's Jensen Huang accused of second affair with staffer, board considers ouster",
+   "excerpt": "The central figure of the AI boom could be set to lose his job",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:27:37Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "hardware",
+   "tags": [],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/Nvidia_CEO_Jensen_Huang_twin_racks.2e16d0ba.fill-750x500.png",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "699e4043a1fa3ec7",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ Nvidia متهم به رابطه دوم با کارکنان، هیئت مدیره در نظر می گیرد",
+     "excerpt": "شکل مرکزی رونق AI را می توان برای از دست دادن شغل خود تنظیم کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "d8ef3fe6591f506a",
+   "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "excerpt": "Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:17:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "products",
+   "tags": [
+    "ai",
+    "jensen huang",
+    "nvidia"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "d8ef3fe6591f506a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ متهم به داشتن یک رابطه دیگر - با یک سابق Nvidia",
+     "excerpt": "جنسن هوانگ، که برای اعتراف به یک رابطه با زنی که متهم به یک نماینده اطلاعاتی چین است، آتش گرفته است، متهم به داشتن یک رابطه جداگانه با یک زیرمجموعه Nvidia شده است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
+   "id": "263d7dc4e1e25dd6",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+   "excerpt": "Today we're announcing the Web Search API on Amazon Bedrock AgentCore: your own code can search the web with a single signed API call, with no gateway and no resources to create. Call it from the AWS SDKs or the AWS CLI and use it in applications, agent loops, and data pipelines.",
+   "lang": "en",
+   "publishedAt": "2026-11-11T23:13:16Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-12T03:52:53Z",
+   "day": "2026-11-11",
+   "category": "products",
+   "tags": [
+    "amazon bedrock agentcore",
+    "announcements",
+    "intermediate (200)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/ML-22165-1.png",
+    "alt": "Diagram of a Web Search API request flowing from the caller through IAM authorization and filtering to the Amazon web index and back",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "263d7dc4e1e25dd6",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "معرفی Web Search API در Amazon Bedrock Agent",
+     "excerpt": "امروز ما API جستجوی وب را در Amazon Bedrock Agent اعلام می کنیم: کد خود شما می تواند وب را با یک تماس API امضا شده جستجو کند، بدون دروازه و هیچ منبع برای ایجاد. آن را از AWS SDK یا CLI AWS صدا بزنید و از آن در برنامه ها، حلقه های عامل و خط لوله داده ها استفاده کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-12T03:52:53Z"
+    }
+   }
+  },
+  {
    "id": "4a6d92631407ef3c",
    "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
    "sourceId": "verge-ai",
