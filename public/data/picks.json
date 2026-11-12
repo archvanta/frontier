@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-12T13:14:38Z",
+ "asOf": "2026-11-12T20:51:55Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,54 +10,59 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-11T13:14:38Z",
-   "to": "2026-11-12T13:14:38Z",
+   "from": "2026-11-11T20:51:55Z",
+   "to": "2026-11-12T20:51:55Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "0990939c7d6ea9f7",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "id": "c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
       "lang": "en",
-      "publishedAt": "2026-11-12T09:30:00Z",
+      "publishedAt": "2026-11-12T19:29:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "models",
-      "tags": [],
+      "category": "policy",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws budgets",
+       "customer solutions"
+      ],
       "entities": [
-       "openai"
+       "amazon"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
+       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "0990939c7d6ea9f7",
-      "related": [
-       "17c1d391457edda5"
-      ],
+      "eventId": "c8c5dc29297d2e3d",
+      "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.6,
-        "topic": 100.0,
-        "novelty": 87.5
+        "recency": 92.4,
+        "topic": 85.0,
+        "novelty": 81.2
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تعطیلات اضافی تجدید نظر در مورد آنچه که می تواند با Codex بسازد",
-        "excerpt": "با Codex، تعطیلات اضافی در حال تبدیل تخصص مشتری به برنامه های بهتر، تبدیل رزرو بالاتر و امکانات جدید برای رشد است.",
+        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
+        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
@@ -71,173 +76,156 @@
     },
     {
      "article": {
-      "id": "2d5446f7d51e047a",
-      "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "excerpt": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation. Kundizeza’s…",
+      "id": "ad614f81e42f72e5",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
       "lang": "en",
-      "publishedAt": "2026-11-12T13:14:38Z",
+      "publishedAt": "2026-11-12T18:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T13:19:17Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "policy",
+      "category": "models",
       "tags": [
-       "books",
-       "zimbabwe",
-       "fiction",
-       "awards and prizes",
-       "culture",
-       "caine prize"
+       "search",
+       "gemini models",
+       "ai"
       ],
-      "entities": [],
-      "brand": null,
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/6487803463c6c4e3138642f657eeb1cd90cd5acc/0_111_1078_862/master/1078.jpg?width=700&quality=85&auto=format&fit=max&s=5fe82d33c9f9b203d8245ca867a9bffa",
-       "credit": "Photograph: pr image",
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "2d5446f7d51e047a",
+      "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 69.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 94.1
+        "recency": 84.7,
+        "topic": 100.0,
+        "novelty": 72.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "نویسنده زیمبابوه، سیمبارشوزا از استفاده از AI برای نوشتن داستان برنده جایزه",
-        "excerpt": "پس از یک تحقیق چند ماه به این نتیجه رسید که داستان Kundizeza’s The Blue Fighter که برنده جایزه ۱۰ هزار پوند Caine شد، نویسنده کتاب “انسان نوشته شده” زیمبابوه ای به نام Simbarashe Kundizeza از استفاده از AI برای نوشتن یک داستان کوتاه برنده جایزه، پس از جایزه معتبر Caine برای نویسندگان آفریقایی به این نتیجه رسید که ورود او پس از یک تحقیق یک ماه نوشته شده است. کونیدزا ...",
+        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
+        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T13:19:17Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
      "rank": 2,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "a685f82f317483a5",
-      "url": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI helped the UK defy expectations – but will Britain’s resilience fizzle out?",
-      "excerpt": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and…",
+      "id": "a8d5fa7d24b3647f",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-12T12:37:53Z",
+      "publishedAt": "2026-11-12T18:00:50Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "economic growth (gdp)",
-       "economics",
-       "business",
-       "politics",
-       "uk news",
-       "ai (artificial intelligence)"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "gemini",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/9f8f14e2a01ec8c9a4d21b8b65ed45042405e31d/820_0_5862_4690/master/5862.jpg?width=700&quality=85&auto=format&fit=max&s=5c110201a2c6ca1d0e598a7b3626959b",
-       "credit": "Photograph: Bloomberg/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "eventId": "a685f82f317483a5",
+      "eventId": "a8d5fa7d24b3647f",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 68.6,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 84.8,
+        "topic": 100.0,
+        "novelty": 66.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "هوش مصنوعی به بریتانیا کمک کرد تا انتظارات خود را به چالش بکشد اما آیا انعطاف پذیری بریتانیا از بین خواهد رفت؟",
-        "excerpt": "علی رغم مخالفت جان هیلی، اقتصاد با تهدیداتی از کاهش تکنولوژی و قبض های انرژی در زمستان مواجه است AI به اقتصاد بریتانیا کمک می کند تا به سرعت بیش از دو سال رشد کند، پیش بینی کنندگان روشن بودند که جان هیلی در ماه ژوئیه صدراعظم شد: انعطاف پذیری بریتانیا به جنگ در خاورمیانه ادامه نخواهد داشت. سران اقتصاد جهانی بسیار قوی بودند، تورم شروع به افزایش کرد و ...",
+        "title": "معرفی بازی Gemini 4 هیدروژن",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "a865d7bae4f04a4d",
-      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
-      "excerpt": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+      "id": "a88bddb17214a029",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-12T05:00:00Z",
+      "publishedAt": "2026-11-12T19:07:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "research",
-      "tags": [
-       "research",
-       "climate change",
-       "emissions",
-       "pollution",
-       "public health",
-       "sustainability"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Climate-Emulation-01.jpg?itok=QnECRQGT",
-       "credit": "Credit: UCAR; MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
       },
-      "eventId": "a865d7bae4f04a4d",
+      "eventId": "a88bddb17214a029",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.1,
-        "topic": 80.0,
-        "novelty": 88.2
+        "recency": 90.4,
+        "topic": 75.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تحقیقات جدید می تواند منجر به مدل های هوش مصنوعی سریع تر و قابل اعتماد برای پیش بینی آب و هوا شود",
-        "excerpt": "دانشمندان MIT یک روش آموزشی برای تولید مدل هایی که اثرات فعالیت های انسانی بر آب و هوا را بسیار سریع تر از روش های دیگر شبیه سازی می کنند، توسعه دادند.",
+        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
@@ -251,48 +239,46 @@
     },
     {
      "article": {
-      "id": "b06379671ede1f62",
-      "url": "https://openai.com/index/children-first-declaration",
+      "id": "372847c9499451eb",
+      "url": "https://openai.com/index/amplitude",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Supporting research on AI and children’s safety",
-      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "lang": "en",
-      "publishedAt": "2026-11-12T00:00:00Z",
+      "publishedAt": "2026-11-12T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "models",
-      "tags": [
-       "global affairs"
-      ],
+      "category": "products",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
+       "url": "images/fallbacks/products.svg",
        "kind": "fallback"
       },
-      "eventId": "b06379671ede1f62",
+      "eventId": "372847c9499451eb",
       "related": [],
       "score": {
-       "total": 62.6,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 46.5,
-        "topic": 100.0,
-        "novelty": 83.3
+        "recency": 95.1,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "حمایت از تحقیقات در مورد ایمنی هوش مصنوعی و کودکان",
-        "excerpt": "OpenAI متعهد به 2 میلیون دلار برای تحقیق در زمینه امنیت هوش مصنوعی و کودکان است. این کار از ابزارهای مشترک برای اندازه گیری خطرات و فرصت ها برای جوانان پشتیبانی می کند.",
+        "title": "چگونگی بهبود محصول در 1 تا 2 روز با OpenAI",
+        "excerpt": "ساخته شده در درجه اول بر روی مدل های OpenAI، عامل محصول فعال Amplitude، Wave، مشخص می کند که چه چیزی برای ساخت، به تیم ها کمک می کند تا با عوامل برنامه نویسی تغییر کنند و تاثیر آن را اندازه گیری کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
@@ -306,51 +292,50 @@
     },
     {
      "article": {
-      "id": "cf5ad5ad4907d72b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
+      "id": "e9b2308e4ac312d9",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Semantic diffing of formal policies with anti-unification",
-      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "title": "Four Amazon Bedrock inference choices that affect cost",
+      "excerpt": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to verify the effect.",
       "lang": "en",
-      "publishedAt": "2026-11-11T23:33:03Z",
+      "publishedAt": "2026-11-12T20:51:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T03:52:53Z",
-      "day": "2026-11-11",
-      "category": "open-source",
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "products",
       "tags": [
        "advanced (300)",
-       "thought leadership"
+       "amazon bedrock",
+       "best practices"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
-       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "cf5ad5ad4907d72b",
+      "eventId": "e9b2308e4ac312d9",
       "related": [],
       "score": {
-       "total": 60.3,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 45.3,
-        "topic": 75.0,
-        "novelty": 100.0
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 76.9
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
-        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+        "title": "چهار انتخاب مرجع آمازون که بر هزینه تاثیر می گذارد",
+        "excerpt": "لایحه اشتراک گذاری آمازون شما می تواند حتی پس از تنظیم سریع و منطق برنامه، صعود کند. چهار انتخاب سطح درخواست (مدت زمان درد، سطح خدمات، تلاش استدلال، و حداکثرTokens) تغییر تعداد توکن های فرآیند خدمات و میزان اعمال شده است. ما نشان می دهیم که چگونه هر یک را آزمایش کردیم و چگونه اثر را تأیید کنیم.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T03:52:53Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
@@ -365,8 +350,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-05T13:14:38Z",
-   "to": "2026-11-12T13:14:38Z",
+   "from": "2026-11-05T20:51:55Z",
+   "to": "2026-11-12T20:51:55Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +389,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 81.9,
+       "total": 81.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 53.4,
+        "recency": 49.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -428,6 +413,64 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ad614f81e42f72e5",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "lang": "en",
+      "publishedAt": "2026-11-12T18:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "models",
+      "tags": [
+       "search",
+       "gemini models",
+       "ai"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
+      },
+      "eventId": "ad614f81e42f72e5",
+      "related": [],
+      "score": {
+       "total": 71.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.3,
+        "topic": 100.0,
+        "novelty": 72.7
+       },
+       "asOf": "2026-11-12T20:51:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
+        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -459,15 +502,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 73.0,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 89.6,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -478,7 +521,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -488,52 +531,228 @@
     },
     {
      "article": {
-      "id": "b06379671ede1f62",
-      "url": "https://openai.com/index/children-first-declaration",
+      "id": "c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T19:29:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "policy",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws budgets",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
+       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c8c5dc29297d2e3d",
+      "related": [],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 85.0,
+        "novelty": 81.2
+       },
+       "asOf": "2026-11-12T20:51:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
+        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a88bddb17214a029",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-12T19:07:35Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+      },
+      "eventId": "a88bddb17214a029",
+      "related": [],
+      "score": {
+       "total": 70.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.3,
+        "topic": 75.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-12T20:51:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "426b199762db8714",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and",
+      "lang": "en",
+      "publishedAt": "2026-11-12T13:53:16Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "business",
+      "tags": [
+       "ai",
+       "business",
+       "chips",
+       "gadgets",
+       "news",
+       "nvidia"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "426b199762db8714",
+      "related": [
+       "829962447c656a7b",
+       "a647d71f08016843"
+      ],
+      "score": {
+       "total": 69.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 93.5,
+        "topic": 55.0,
+        "novelty": 58.3
+       },
+       "asOf": "2026-11-12T20:51:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدیر اجرایی Nvidia Jensen Huang در میان جاسوسی استعفا می دهد",
+        "excerpt": "هیئت مدیره Nvidia اعلام کرد که Jensen Huang - بنیانگذار، رئیس جمهور و مدیر عامل آن - پس از گزارش دو امور اضافی زناشویی استعفا داده است، یکی با جاسوسی چینی و یکی با یک مدیر اجرایی Nvidia که به هوانگ گزارش شده است. پس از جلسه شبانه روز چهارشنبه، هیئت مدیره نامه استعفای هوانگ را به عنوان مدیرعامل، رئیس جمهور و، و",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "372847c9499451eb",
+      "url": "https://openai.com/index/amplitude",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Supporting research on AI and children’s safety",
-      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
       "lang": "en",
-      "publishedAt": "2026-11-12T00:00:00Z",
+      "publishedAt": "2026-11-12T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "models",
-      "tags": [
-       "global affairs"
-      ],
+      "category": "products",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
+       "url": "images/fallbacks/products.svg",
        "kind": "fallback"
       },
-      "eventId": "b06379671ede1f62",
+      "eventId": "372847c9499451eb",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
-        "topic": 100.0,
-        "novelty": 83.3
+        "recency": 99.2,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "حمایت از تحقیقات در مورد ایمنی هوش مصنوعی و کودکان",
-        "excerpt": "OpenAI متعهد به 2 میلیون دلار برای تحقیق در زمینه امنیت هوش مصنوعی و کودکان است. این کار از ابزارهای مشترک برای اندازه گیری خطرات و فرصت ها برای جوانان پشتیبانی می کند.",
+        "title": "چگونگی بهبود محصول در 1 تا 2 روز با OpenAI",
+        "excerpt": "ساخته شده در درجه اول بر روی مدل های OpenAI، عامل محصول فعال Amplitude، Wave، مشخص می کند که چه چیزی برای ساخت، به تیم ها کمک می کند تا با عوامل برنامه نویسی تغییر کنند و تاثیر آن را اندازه گیری کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -574,15 +793,15 @@
       "eventId": "a865d7bae4f04a4d",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 85.8,
         "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -593,242 +812,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cf5ad5ad4907d72b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Semantic diffing of formal policies with anti-unification",
-      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T23:33:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T03:52:53Z",
-      "day": "2026-11-11",
-      "category": "open-source",
-      "tags": [
-       "advanced (300)",
-       "thought leadership"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
-       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "cf5ad5ad4907d72b",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.6,
-        "topic": 75.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-12T13:14:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
-        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T03:52:53Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "40b3469495104d52",
-      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-11T19:54:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "40b3469495104d52",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.6,
-        "topic": 80.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-12T13:14:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استفاده از پوشیدنی ها برای فعال کردن پروفایل خطرساز قلبی-kidney-metabolic (CKM) برای مربیگری شخصی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bad6ee94c35695d3",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T16:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T16:40:00Z",
-      "day": "2026-11-11",
-      "category": "research",
-      "tags": [
-       "google labs",
-       "ai"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "bad6ee94c35695d3",
-      "related": [],
-      "score": {
-       "total": 67.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.5,
-        "topic": 80.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-11-12T13:14:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Tabletop را امتحان کنید: فضاهای بزرگ و مشترک برای گروه ها برای برنامه ریزی، بازی و انجام بیشتر با هم.",
-        "excerpt": "Tabletop یک آزمایش جدید Google Labs برای همکاری گروهی است. آن را به صورت تعاملی، نظرسنجی ها و براکت ها با تیم خود بسازید. به لیست انتظار بپیوندید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T16:40:00Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2d5446f7d51e047a",
-      "url": "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
-      "excerpt": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize, was ‘human-written’ Zimbabwean author Simbarashe Kundizeza has been cleared of using AI to write a prize-winning short story, after the prestigious Caine prize for African writers concluded that his entry was “human-written” after a month-long investigation. Kundizeza’s…",
-      "lang": "en",
-      "publishedAt": "2026-11-12T13:14:38Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T13:19:17Z",
-      "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "books",
-       "zimbabwe",
-       "fiction",
-       "awards and prizes",
-       "culture",
-       "caine prize"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/6487803463c6c4e3138642f657eeb1cd90cd5acc/0_111_1078_862/master/1078.jpg?width=700&quality=85&auto=format&fit=max&s=5fe82d33c9f9b203d8245ca867a9bffa",
-       "credit": "Photograph: pr image",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "2d5446f7d51e047a",
-      "related": [],
-      "score": {
-       "total": 66.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 94.1
-       },
-       "asOf": "2026-11-12T13:14:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "نویسنده زیمبابوه، سیمبارشوزا از استفاده از AI برای نوشتن داستان برنده جایزه",
-        "excerpt": "پس از یک تحقیق چند ماه به این نتیجه رسید که داستان Kundizeza’s The Blue Fighter که برنده جایزه ۱۰ هزار پوند Caine شد، نویسنده کتاب “انسان نوشته شده” زیمبابوه ای به نام Simbarashe Kundizeza از استفاده از AI برای نوشتن یک داستان کوتاه برنده جایزه، پس از جایزه معتبر Caine برای نویسندگان آفریقایی به این نتیجه رسید که ورود او پس از یک تحقیق یک ماه نوشته شده است. کونیدزا ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T13:19:17Z"
-       }
-      }
-     },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -836,8 +823,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-13T13:14:38Z",
-   "to": "2026-11-12T13:14:38Z",
+   "from": "2026-10-13T20:51:55Z",
+   "to": "2026-11-12T20:51:55Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,15 +862,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 87.8,
+       "total": 87.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 82.8,
+        "recency": 81.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -930,15 +917,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 73.5,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 96.8,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -989,15 +976,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 73.1,
+       "total": 72.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 77.4,
+        "recency": 75.7,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -1045,15 +1032,15 @@
       "eventId": "b06379671ede1f62",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 94.2,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -1074,20 +1061,21 @@
     },
     {
      "article": {
-      "id": "cce714811b519a82",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "id": "ad614f81e42f72e5",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
       "sourceId": "google-ai-blog",
       "sourceName": "Google — The Keyword (AI)",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
       "lang": "en",
-      "publishedAt": "2026-11-11T18:00:00Z",
+      "publishedAt": "2026-11-12T18:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
       "category": "models",
       "tags": [
-       "developer tools",
+       "search",
+       "gemini models",
        "ai"
       ],
       "entities": [
@@ -1095,32 +1083,93 @@
       ],
       "brand": "gemini",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+       "kind": "feed",
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "cce714811b519a82",
+      "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 99.2,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 72.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "سیستم تصمیم گیری Gemini: Fast, کالیبره شده تصمیمات چند منظوره",
-        "excerpt": "دیدار با سیستم تصمیم گیری Gemini، با استفاده از تصمیم مدل پیشرفته ما Gemini برای تصمیمات سریع و چند منظوره.",
+        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
+        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T19:29:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "policy",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws budgets",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
+       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c8c5dc29297d2e3d",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 85.0,
+        "novelty": 81.2
+       },
+       "asOf": "2026-11-12T20:51:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
+        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1162,15 +1211,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 47.8,
+        "recency": 46.8,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
@@ -1181,7 +1230,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -1192,108 +1241,46 @@
     },
     {
      "article": {
-      "id": "cf5ad5ad4907d72b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Semantic diffing of formal policies with anti-unification",
-      "excerpt": "A textual diff of two formal policies flags every cosmetic change and hides the one that alters behavior. This post shows how to compute a symbolic, deterministic semantic diff with an open-source anti-unification engine, so reviewers see only the genuine disagreements between two candidate authorization policies.",
+      "id": "a88bddb17214a029",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-11T23:33:03Z",
+      "publishedAt": "2026-11-12T19:07:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T03:52:53Z",
-      "day": "2026-11-11",
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
       "category": "open-source",
-      "tags": [
-       "advanced (300)",
-       "thought leadership"
-      ],
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21875-1.png",
-       "alt": "Pipeline diagram: cluster candidate formalizations, locate recurring disagreements, and route each disagreement to a validation, replay, example, or human-review check",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
       },
-      "eventId": "cf5ad5ad4907d72b",
+      "eventId": "a88bddb17214a029",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 99.5,
         "topic": 75.0,
-        "novelty": 100.0
+        "novelty": 91.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "گسترش سیاست های رسمی با ضد یکپارچه سازی",
-        "excerpt": "یک توزیع متنی از دو سیاست رسمی هر تغییر زیبایی را نشان می دهد و آن را پنهان می کند که رفتار را تغییر می دهد. این پست نشان می دهد که چگونه یک توزیع معنایی نمادین و تعیین کننده را با یک موتور ضدunification منبع باز محاسبه کنیم، بنابراین بررسی کنندگان تنها اختلافات واقعی بین دو سیاست مجوز کاندید را می بینند.",
+        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T03:52:53Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "40b3469495104d52",
-      "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
-      "excerpt": "Health & Bioscience",
-      "lang": "en",
-      "publishedAt": "2026-11-11T19:54:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-11T22:46:06Z",
-      "day": "2026-11-11",
-      "category": "research",
-      "tags": [
-       "health & bioscience",
-       "machine intelligence"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/CKMHealthHero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "40b3469495104d52",
-      "related": [],
-      "score": {
-       "total": 70.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.1,
-        "topic": 80.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-12T13:14:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "استفاده از پوشیدنی ها برای فعال کردن پروفایل خطرساز قلبی-kidney-metabolic (CKM) برای مربیگری شخصی",
-        "excerpt": "سلامت و علوم زیستی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T22:46:06Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
@@ -1307,117 +1294,125 @@
     },
     {
      "article": {
-      "id": "a865d7bae4f04a4d",
-      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
-      "excerpt": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
+      "id": "426b199762db8714",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and",
       "lang": "en",
-      "publishedAt": "2026-11-12T05:00:00Z",
+      "publishedAt": "2026-11-12T13:53:16Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "research",
+      "category": "business",
       "tags": [
-       "research",
-       "climate change",
-       "emissions",
-       "pollution",
-       "public health",
-       "sustainability"
+       "ai",
+       "business",
+       "chips",
+       "gadgets",
+       "news",
+       "nvidia"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Climate-Emulation-01.jpg?itok=QnECRQGT",
-       "credit": "Credit: UCAR; MIT News",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "a865d7bae4f04a4d",
-      "related": [],
+      "eventId": "426b199762db8714",
+      "related": [
+       "829962447c656a7b",
+       "a647d71f08016843"
+      ],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.6,
-        "topic": 80.0,
-        "novelty": 88.2
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.0,
+        "topic": 55.0,
+        "novelty": 58.3
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "تحقیقات جدید می تواند منجر به مدل های هوش مصنوعی سریع تر و قابل اعتماد برای پیش بینی آب و هوا شود",
-        "excerpt": "دانشمندان MIT یک روش آموزشی برای تولید مدل هایی که اثرات فعالیت های انسانی بر آب و هوا را بسیار سریع تر از روش های دیگر شبیه سازی می کنند، توسعه دادند.",
+        "title": "مدیر اجرایی Nvidia Jensen Huang در میان جاسوسی استعفا می دهد",
+        "excerpt": "هیئت مدیره Nvidia اعلام کرد که Jensen Huang - بنیانگذار، رئیس جمهور و مدیر عامل آن - پس از گزارش دو امور اضافی زناشویی استعفا داده است، یکی با جاسوسی چینی و یکی با یک مدیر اجرایی Nvidia که به هوانگ گزارش شده است. پس از جلسه شبانه روز چهارشنبه، هیئت مدیره نامه استعفای هوانگ را به عنوان مدیرعامل، رئیس جمهور و، و",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-12T20:54:31Z"
        }
       }
      },
      "rank": 9,
-     "sources": 1,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "bad6ee94c35695d3",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "id": "efdd0bfa6110086b",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
       "lang": "en",
-      "publishedAt": "2026-11-11T16:00:00Z",
+      "publishedAt": "2026-11-11T23:50:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-11T16:40:00Z",
+      "fetchedAt": "2026-11-12T03:52:53Z",
       "day": "2026-11-11",
-      "category": "research",
+      "category": "business",
       "tags": [
-       "google labs",
-       "ai"
+       "ai",
+       "china",
+       "nvidia",
+       "donald trump",
+       "jensen huang"
       ],
-      "entities": [
-       "google"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "bad6ee94c35695d3",
-      "related": [],
+      "eventId": "efdd0bfa6110086b",
+      "related": [
+       "96892311de09e14b"
+      ],
       "score": {
-       "total": 70.1,
+       "total": 70.2,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.0,
-        "topic": 80.0,
-        "novelty": 93.3
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 94.1,
+        "topic": 55.0,
+        "novelty": 66.7
        },
-       "asOf": "2026-11-12T13:14:38Z"
+       "asOf": "2026-11-12T20:51:55Z"
       },
       "tr": {
        "fa": {
-        "title": "Tabletop را امتحان کنید: فضاهای بزرگ و مشترک برای گروه ها برای برنامه ریزی، بازی و انجام بیشتر با هم.",
-        "excerpt": "Tabletop یک آزمایش جدید Google Labs برای همکاری گروهی است. آن را به صورت تعاملی، نظرسنجی ها و براکت ها با تیم خود بسازید. به لیست انتظار بپیوندید.",
+        "title": "رسوایی جنسن هوانگ: یک جدول زمانی",
+        "excerpt": "این رابطه می تواند پیامدهایی برای امنیت ملی به عنوان نژاد ایالات متحده و چین برای توسعه پیشرفته ترین زیرساخت های AI داشته باشد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-11T16:40:00Z"
+        "at": "2026-11-12T03:52:53Z"
        }
       }
      },
      "rank": 10,
-     "sources": 1,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
