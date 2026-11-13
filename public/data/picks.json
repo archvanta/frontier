@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-13T17:43:20Z",
+ "asOf": "2026-11-13T18:01:53Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-12T17:43:20Z",
-   "to": "2026-11-13T17:43:20Z",
+   "from": "2026-11-12T18:01:53Z",
+   "to": "2026-11-13T18:01:53Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
+        "recency": 92.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -66,6 +66,59 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2427bacb74a96b4b",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T18:08:33Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "eventId": "2427bacb74a96b4b",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-13T18:01:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T18:08:33Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +158,15 @@
       "eventId": "2b50cb10658bb316",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 93.9,
         "topic": 100.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +177,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -159,73 +212,19 @@
       "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 94.5,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
         "title": "XYBench: کمک به مشکل پشت سوال",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "40e78db6601d46e6",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T14:05:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
-      },
-      "eventId": "40e78db6601d46e6",
-      "related": [],
-      "score": {
-       "total": 66.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.1,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-13T17:43:20Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "llama.cpp v1.0.0: یک پایه قوی تر برای اکوسیستم AI محلی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T17:51:16Z"
        }
@@ -241,119 +240,118 @@
     },
     {
      "article": {
-      "id": "e940fd9875725f16",
-      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
-      "excerpt": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems, published in 1931, transformed mathematics and paved the way for the digital age. After his seminal results of the 1930s…",
+      "id": "e504c61a39ac2d49",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+      "excerpt": "Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift.",
       "lang": "en",
-      "publishedAt": "2026-11-13T16:38:27Z",
+      "publishedAt": "2026-11-13T18:01:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
+      "fetchedAt": "2026-11-13T18:08:33Z",
       "day": "2026-11-13",
-      "category": "policy",
+      "category": "products",
       "tags": [
-       "mathematics",
-       "ai (artificial intelligence)",
-       "finland",
-       "us news",
-       "world news",
-       "science"
+       "amazon sagemaker hyperpod",
+       "intermediate (200)",
+       "technical how-to"
       ],
-      "entities": [],
+      "entities": [
+       "amazon"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=700&quality=85&auto=format&fit=max&s=4c8e620382d753eaa591a35032032c2e",
-       "credit": "Photograph: Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22239-1.png",
+       "alt": "Architecture of one SageMaker HyperPod cluster: a capture proxy in the serving pod copies requests to Amazon S3, Athena analyzes and labels them, a training job fine-tunes on a second GPU, and a secon",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "e940fd9875725f16",
+      "eventId": "e504c61a39ac2d49",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 66.7,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 85.0,
-        "novelty": 93.3
+        "recency": 99.9,
+        "topic": 65.0,
+        "novelty": 69.2
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
-        "title": "پیش از زمان خود: AI به باز کردن اکتشافات پنهان در دفترچه های مردی که ریاضی را تغییر داد کمک می کند",
-        "excerpt": "کرت گیدل 1009 صفحه از متن نوشته شده را ترک کرد – که در حال حاضر گفته می شود حاوی صدها مورد اثبات شده است که کرت گیل، یکی از متفکران اصلی قرن بیستم بود. دو مورد ناقص او که در سال ۱۹۳۱ منتشر شد، ریاضیات را دگرگون کرد و راه را برای عصر دیجیتال هموار کرد. پس از نتایج نیمه ی او در دهه ی ۱۹۳۰...",
+        "title": "ساخت یک چرخ بهبود مدل با Amazon SageMaker HyperPod Data Capture",
+        "excerpt": "آمازون SageMaker HyperPod Data Capture ورودی ها و خروجی ها را به آمازون S3 زنده می کند. این پست از طریق یک مثال نهایی به پایان می رود: ثبت ترافیک تولید روتر پشتیبانی، یک نقطه کور محصول جدید با آمازون Athena، به خوبی در داده های ضبط شده با اپراتور آموزش HyperPod، و اندازه گیری قبل و بعد آسانسور.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
+        "at": "2026-11-13T18:08:33Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "ece4b84db3e9cab7",
-      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
-      "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI",
+      "id": "bdca3a6a8960c0b1",
+      "url": "https://www.theguardian.com/world/2026/nov/13/if-gen-z-are-asked-to-go-to-war-it-might-not-be-in-the-way-they-expect",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "If Gen Z are asked to go to war, it might not be in the way they expect | Brief letters",
+      "excerpt": "Fighting for your country | Starbucks | Sparta | Itching powder Jason Okundaye addresses the issue of whether Britain’s youth would be willing to lay down their lives in defence of our country (Gen Z doesn‘t relish going to war – so what! You should worry more about the reckless generations that do, 10 November). A more likely scenario is that they will be asked to fight and die for the sake of…",
       "lang": "en",
-      "publishedAt": "2026-11-13T13:00:42Z",
+      "publishedAt": "2026-11-13T17:52:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
+      "fetchedAt": "2026-11-13T18:08:33Z",
       "day": "2026-11-13",
-      "category": "hardware",
+      "category": "policy",
       "tags": [
-       "ai",
-       "ai for good",
-       "healthcare and life sciences",
-       "inception"
+       "nato",
+       "starbucks",
+       "ai (artificial intelligence)",
+       "history",
+       "older people"
       ],
-      "entities": [
-       "nvidia"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
+       "url": "https://i.guim.co.uk/img/media/5302f817c9ffca31369c0ca5793631f39f9b326b/541_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=9d157724ae55d29491dbf0e79912609c",
+       "credit": "Photograph: Anadolu/Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "ece4b84db3e9cab7",
+      "eventId": "bdca3a6a8960c0b1",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 65.9,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 76.2,
-        "topic": 70.0,
-        "novelty": 88.9
+        "recency": 99.1,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه AI به تیم های مراقبت کمک می کند تا مراقبت های مناسب را دریافت کنند",
-        "excerpt": "از تحقیقات کودکان گرفته تا بیمارستان های هوشمند، AI به تیم های مراقبتی کمک می کند تا زمان کمتری را صرف کارهای روزمره و زمان بیشتری با بیماران کنند. سیستم های بهداشتی و راه اندازی آن را به کار در سراسر مراقبت های بهداشتی، از تطبیق بیماران به کارآزمایی های بالینی برای حمایت از رادیولوژیست ها، تیم های بیمارستان و بیماران در خانه. کلینیک ها در مرکز باقی می مانند، بررسی AI",
+        "title": "اگر از ژنرال Z خواسته شود که به جنگ برود، ممکن است به گونه ای نباشد که انتظار داشته باشند.",
+        "excerpt": "مبارزه برای کشور شما | استارباکس | Sparta | پودر خارش جیسون Okundaye به مسئله این که آیا جوانان بریتانیا مایل به پایین آوردن زندگی خود را در دفاع از کشور ما (Gen Z نمی خواهد به جنگ - بنابراین چه! شما باید بیشتر نگران نسل های بی پروا باشید که 10 نوامبر انجام می دهند. سناریوی محتمل تر این است که از آنها خواسته می شود به خاطر ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
+        "at": "2026-11-13T18:08:33Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -361,8 +359,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-06T17:43:20Z",
-   "to": "2026-11-13T17:43:20Z",
+   "from": "2026-11-06T18:01:53Z",
+   "to": "2026-11-13T18:01:53Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,11 +402,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 40.6,
+        "recency": 40.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -459,15 +457,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.7,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -514,15 +512,15 @@
       "eventId": "5bf4951adbe9698d",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 97.1,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -534,6 +532,59 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2427bacb74a96b4b",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T18:08:33Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "eventId": "2427bacb74a96b4b",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-13T18:01:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T18:08:33Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -568,73 +619,19 @@
       "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 99.1,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
         "title": "XYBench: کمک به مشکل پشت سوال",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "40e78db6601d46e6",
-      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T14:05:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
-      },
-      "eventId": "40e78db6601d46e6",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.6,
-        "topic": 75.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-13T17:43:20Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "llama.cpp v1.0.0: یک پایه قوی تر برای اکوسیستم AI محلی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T17:51:16Z"
        }
@@ -683,15 +680,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 88.2,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -746,11 +743,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 95.3,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -802,15 +799,15 @@
       "eventId": "666c9ce2ae9f1142",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 88.2,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -832,8 +829,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-14T17:43:20Z",
-   "to": "2026-11-13T17:43:20Z",
+   "from": "2026-10-14T18:01:53Z",
+   "to": "2026-11-13T18:01:53Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -875,11 +872,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 76.3,
+        "recency": 76.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -934,11 +931,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 99.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -989,11 +986,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.1,
+        "recency": 91.0,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1048,11 +1045,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 71.3,
+        "recency": 71.2,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1108,7 +1105,7 @@
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1162,15 +1159,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1182,6 +1179,59 @@
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2427bacb74a96b4b",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T18:08:33Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "eventId": "2427bacb74a96b4b",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-13T18:01:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T18:08:33Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1221,11 +1271,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.9,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1235,122 +1285,7 @@
        }
       }
      },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 44.1,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-13T17:43:20Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
      "rank": 8,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8400bdfe1e2afd49",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "XYBench: Helping with the problem behind the question",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T17:02:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/xybench"
-      },
-      "eventId": "8400bdfe1e2afd49",
-      "related": [],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-13T17:43:20Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "XYBench: کمک به مشکل پشت سوال",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1395,11 +1330,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T17:43:20Z"
+       "asOf": "2026-11-13T18:01:53Z"
       },
       "tr": {
        "fa": {
@@ -1410,10 +1345,72 @@
        }
       }
      },
-     "rank": 10,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0dbf0226aa90a12c",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
+      "lang": "en",
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-01T23:40:44Z",
+      "day": "2026-11-01",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "government & policy",
+       "chris lehane",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "0dbf0226aa90a12c",
+      "related": [
+       "32791f69eb2c329e",
+       "998ff01b393f5b93"
+      ],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 44.0,
+        "topic": 70.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-13T18:01:53Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
+        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-01T23:40:44Z"
+       }
+      }
+     },
+     "rank": 10,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
