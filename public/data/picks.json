@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-12T20:51:55Z",
+ "asOf": "2026-11-13T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,63 +10,120 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-11T20:51:55Z",
-   "to": "2026-11-12T20:51:55Z",
+   "from": "2026-11-12T00:00:00Z",
+   "to": "2026-11-13T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "c8c5dc29297d2e3d",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "id": "c1b8ea1b2fb317cf",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
       "lang": "en",
-      "publishedAt": "2026-11-12T19:29:55Z",
+      "publishedAt": "2026-11-12T21:15:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
+      "fetchedAt": "2026-11-13T01:55:12Z",
       "day": "2026-11-12",
-      "category": "policy",
+      "category": "research",
       "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "aws budgets",
-       "customer solutions"
+       "awards, honors and fellowships",
+       "invention",
+       "cybersecurity",
+       "artificial intelligence",
+       "algorithms",
+       "computer chips"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
-       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
+       "credit": "Photo: Niki Fandel",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "c8c5dc29297d2e3d",
+      "eventId": "c1b8ea1b2fb317cf",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
-        "topic": 85.0,
-        "novelty": 81.2
+        "recency": 85.3,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
-        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
+        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
+        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
+        "at": "2026-11-13T01:55:12Z"
        }
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01b49a7c7dde8d3e",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T22:54:52Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T01:55:12Z",
+      "day": "2026-11-12",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "github universe"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "eventId": "01b49a7c7dde8d3e",
+      "related": [],
+      "score": {
+       "total": 67.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 93.9,
+        "topic": 65.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-13T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت یک بار، اجرا بر روی هر عامل: یک راهنمای عملی برای مدیریت مهارت ها",
+        "excerpt": "مهارت های عامل ضبط کار مهندسی تکراری در تیم های فایل می تواند بررسی و استفاده مجدد، در حالی که ابزار، زمینه پروژه و مجوز به طور خاص به میزبان است که آنها را اجرا می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T01:55:12Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +162,15 @@
       "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.7,
+        "recency": 70.7,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +181,127 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T19:29:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-12T20:54:31Z",
+      "day": "2026-11-12",
+      "category": "policy",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws budgets",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
+       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "c8c5dc29297d2e3d",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 77.1,
+        "topic": 85.0,
+        "novelty": 81.2
+       },
+       "asOf": "2026-11-13T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
+        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-12T20:54:31Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ec886a92fa12a05a",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+      "excerpt": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T22:03:34Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T01:55:12Z",
+      "day": "2026-11-12",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon ec2",
+       "announcements",
+       "aws trainium"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22453-1.png",
+       "alt": "Architecture of SGLang-Neuron on AWS Trainium, showing SGLang core and the Trainium plugin components",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "ec886a92fa12a05a",
+      "related": [],
+      "score": {
+       "total": 65.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.4,
+        "topic": 65.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-13T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های امنیتی مرزی در AWS Trainium با SGLang-Neuron",
+        "excerpt": "SGLang-Neuron در حال حاضر به طور عمومی از طریق یک Container یادگیری عمیق AWS در دسترس است. با SGLang-Neuron، شما می توانید مدل ها را خدمت کنید و تقویت یادگیری را با SGLang در AWS Trainium با استفاده از همان رابط SGLang که قبلا می دانید، همه در حال اجرا در PyTorch بومی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T01:55:12Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -158,182 +335,19 @@
       "eventId": "a8d5fa7d24b3647f",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 70.8,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "معرفی بازی Gemini 4 هیدروژن",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a88bddb17214a029",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-12T19:07:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
-      },
-      "eventId": "a88bddb17214a029",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.4,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-12T20:51:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "372847c9499451eb",
-      "url": "https://openai.com/index/amplitude",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T20:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "372847c9499451eb",
-      "related": [],
-      "score": {
-       "total": 67.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.1,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-12T20:51:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی بهبود محصول در 1 تا 2 روز با OpenAI",
-        "excerpt": "ساخته شده در درجه اول بر روی مدل های OpenAI، عامل محصول فعال Amplitude، Wave، مشخص می کند که چه چیزی برای ساخت، به تیم ها کمک می کند تا با عوامل برنامه نویسی تغییر کنند و تاثیر آن را اندازه گیری کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e9b2308e4ac312d9",
-      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Four Amazon Bedrock inference choices that affect cost",
-      "excerpt": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to verify the effect.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T20:51:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "best practices"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "e9b2308e4ac312d9",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-12T20:51:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چهار انتخاب مرجع آمازون که بر هزینه تاثیر می گذارد",
-        "excerpt": "لایحه اشتراک گذاری آمازون شما می تواند حتی پس از تنظیم سریع و منطق برنامه، صعود کند. چهار انتخاب سطح درخواست (مدت زمان درد، سطح خدمات، تلاش استدلال، و حداکثرTokens) تغییر تعداد توکن های فرآیند خدمات و میزان اعمال شده است. ما نشان می دهیم که چگونه هر یک را آزمایش کردیم و چگونه اثر را تأیید کنیم.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-12T20:54:31Z"
        }
@@ -350,8 +364,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-05T20:51:55Z",
-   "to": "2026-11-12T20:51:55Z",
+   "from": "2026-11-06T00:00:00Z",
+   "to": "2026-11-13T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -389,15 +403,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 81.2,
+       "total": 80.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 49.6,
+        "recency": 48.1,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -447,15 +461,15 @@
       "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -502,15 +516,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 71.7,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 87.0,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -522,6 +536,66 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c1b8ea1b2fb317cf",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T21:15:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T01:55:12Z",
+      "day": "2026-11-12",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "invention",
+       "cybersecurity",
+       "artificial intelligence",
+       "algorithms",
+       "computer chips"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
+       "credit": "Photo: Niki Fandel",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c1b8ea1b2fb317cf",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.4,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-13T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
+        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T01:55:12Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -562,15 +636,15 @@
       "eventId": "c8c5dc29297d2e3d",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 95.8,
         "topic": 85.0,
         "novelty": 81.2
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -581,7 +655,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -616,15 +690,15 @@
       "eventId": "a88bddb17214a029",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 95.4,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -634,7 +708,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -679,15 +753,15 @@
        "a647d71f08016843"
       ],
       "score": {
-       "total": 69.3,
+       "total": 68.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.5,
+        "recency": 90.7,
         "topic": 55.0,
         "novelty": 58.3
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -698,7 +772,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -709,106 +783,50 @@
     },
     {
      "article": {
-      "id": "372847c9499451eb",
-      "url": "https://openai.com/index/amplitude",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "id": "01b49a7c7dde8d3e",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
       "lang": "en",
-      "publishedAt": "2026-11-12T20:00:00Z",
+      "publishedAt": "2026-11-12T22:54:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
+      "fetchedAt": "2026-11-13T01:55:12Z",
       "day": "2026-11-12",
       "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "github universe"
       ],
-      "brand": "openai",
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
       "image": {
        "url": "images/fallbacks/products.svg",
        "kind": "fallback"
       },
-      "eventId": "372847c9499451eb",
+      "eventId": "01b49a7c7dde8d3e",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 99.0,
         "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-12T20:51:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونگی بهبود محصول در 1 تا 2 روز با OpenAI",
-        "excerpt": "ساخته شده در درجه اول بر روی مدل های OpenAI، عامل محصول فعال Amplitude، Wave، مشخص می کند که چه چیزی برای ساخت، به تیم ها کمک می کند تا با عوامل برنامه نویسی تغییر کنند و تاثیر آن را اندازه گیری کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a865d7bae4f04a4d",
-      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New research could lead to faster, trustworthy AI models for climate prediction",
-      "excerpt": "MIT scientists developed a training method to generate models that simulate the effects of human activities on climate much more quickly than other approaches.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
-      "day": "2026-11-12",
-      "category": "research",
-      "tags": [
-       "research",
-       "climate change",
-       "emissions",
-       "pollution",
-       "public health",
-       "sustainability"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Climate-Emulation-01.jpg?itok=QnECRQGT",
-       "credit": "Credit: UCAR; MIT News",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "a865d7bae4f04a4d",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 85.8,
-        "topic": 80.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تحقیقات جدید می تواند منجر به مدل های هوش مصنوعی سریع تر و قابل اعتماد برای پیش بینی آب و هوا شود",
-        "excerpt": "دانشمندان MIT یک روش آموزشی برای تولید مدل هایی که اثرات فعالیت های انسانی بر آب و هوا را بسیار سریع تر از روش های دیگر شبیه سازی می کنند، توسعه دادند.",
+        "title": "ساخت یک بار، اجرا بر روی هر عامل: یک راهنمای عملی برای مدیریت مهارت ها",
+        "excerpt": "مهارت های عامل ضبط کار مهندسی تکراری در تیم های فایل می تواند بررسی و استفاده مجدد، در حالی که ابزار، زمینه پروژه و مجوز به طور خاص به میزبان است که آنها را اجرا می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-13T01:55:12Z"
        }
       }
      },
@@ -823,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-13T20:51:55Z",
-   "to": "2026-11-12T20:51:55Z",
+   "from": "2026-10-14T00:00:00Z",
+   "to": "2026-11-13T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -862,15 +880,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 87.5,
+       "total": 87.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 81.0,
+        "recency": 80.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -917,15 +935,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 73.1,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 95.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -976,15 +994,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 75.7,
+        "recency": 75.0,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1032,15 +1050,15 @@
       "eventId": "b06379671ede1f62",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 93.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1090,15 +1108,15 @@
       "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 98.3,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1110,6 +1128,66 @@
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c1b8ea1b2fb317cf",
+      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
+      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T21:15:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T01:55:12Z",
+      "day": "2026-11-12",
+      "category": "research",
+      "tags": [
+       "awards, honors and fellowships",
+       "invention",
+       "cybersecurity",
+       "artificial intelligence",
+       "algorithms",
+       "computer chips"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
+       "credit": "Photo: Niki Fandel",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "c1b8ea1b2fb317cf",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-13T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
+        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T01:55:12Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1150,15 +1228,15 @@
       "eventId": "c8c5dc29297d2e3d",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.7,
         "topic": 85.0,
         "novelty": 81.2
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1169,7 +1247,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1211,15 +1289,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 46.8,
+        "recency": 46.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1230,7 +1308,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -1266,15 +1344,15 @@
       "eventId": "a88bddb17214a029",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.6,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1284,75 +1362,10 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "426b199762db8714",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
-      "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and",
-      "lang": "en",
-      "publishedAt": "2026-11-12T13:53:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "business",
-      "tags": [
-       "ai",
-       "business",
-       "chips",
-       "gadgets",
-       "news",
-       "nvidia"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "426b199762db8714",
-      "related": [
-       "829962447c656a7b",
-       "a647d71f08016843"
-      ],
-      "score": {
-       "total": 70.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 98.0,
-        "topic": 55.0,
-        "novelty": 58.3
-       },
-       "asOf": "2026-11-12T20:51:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدیر اجرایی Nvidia Jensen Huang در میان جاسوسی استعفا می دهد",
-        "excerpt": "هیئت مدیره Nvidia اعلام کرد که Jensen Huang - بنیانگذار، رئیس جمهور و مدیر عامل آن - پس از گزارش دو امور اضافی زناشویی استعفا داده است، یکی با جاسوسی چینی و یکی با یک مدیر اجرایی Nvidia که به هوانگ گزارش شده است. پس از جلسه شبانه روز چهارشنبه، هیئت مدیره نامه استعفای هوانگ را به عنوان مدیرعامل، رئیس جمهور و، و",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1389,15 +1402,15 @@
        "96892311de09e14b"
       ],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.1,
+        "recency": 93.3,
         "topic": 55.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-12T20:51:55Z"
+       "asOf": "2026-11-13T00:00:00Z"
       },
       "tr": {
        "fa": {
