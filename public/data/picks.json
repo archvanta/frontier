@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-13T00:00:00Z",
+ "asOf": "2026-11-13T08:57:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,59 +10,61 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-12T00:00:00Z",
-   "to": "2026-11-13T00:00:00Z",
+   "from": "2026-11-12T08:57:00Z",
+   "to": "2026-11-13T08:57:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "c1b8ea1b2fb317cf",
-      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
+      "id": "606399e29c9ee7e9",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
       "sourceId": "mit-news-ai",
       "sourceName": "MIT News — Artificial intelligence",
-      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
+      "title": "New AI “copilot” helps engineers design better structures",
+      "excerpt": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
       "lang": "en",
-      "publishedAt": "2026-11-12T21:15:00Z",
+      "publishedAt": "2026-11-13T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
       "category": "research",
       "tags": [
-       "awards, honors and fellowships",
-       "invention",
-       "cybersecurity",
-       "artificial intelligence",
+       "research",
        "algorithms",
-       "computer chips"
+       "design",
+       "artificial intelligence",
+       "machine learning",
+       "computer modeling"
       ],
-      "entities": [],
+      "entities": [
+       "microsoft"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
-       "credit": "Photo: Niki Fandel",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-ai-design-01-press.jpg?itok=mgkpfRIX",
+       "credit": "Image: MIT News; Getty Images",
        "kind": "feed",
        "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "c1b8ea1b2fb317cf",
+      "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 79.6,
         "topic": 80.0,
-        "novelty": 90.0
+        "novelty": 91.7
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
-        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
+        "title": "AI جدید کمک می کند تا مهندسان ساختارهای بهتر را طراحی کنند",
+        "excerpt": "این سیستم از انسان ها برای بازخورد برای افزایش اعتماد در طرح های تولید شده ماشین برای ساختمان ها و پل ها می پرسد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
@@ -76,50 +78,53 @@
     },
     {
      "article": {
-      "id": "01b49a7c7dde8d3e",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "sourceId": "github-blog-ai",
-      "sourceName": "GitHub Blog — AI & ML",
-      "title": "Build once, run on any agent: A practical guide to agent skills",
-      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
+      "id": "666c9ce2ae9f1142",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping robots fit into the human workplace",
+      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
       "lang": "en",
-      "publishedAt": "2026-11-12T22:54:52Z",
+      "publishedAt": "2026-11-13T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
-      "category": "products",
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
       "tags": [
-       "ai & ml",
-       "github copilot",
-       "github universe"
+       "startups",
+       "robotics",
+       "innovation and entrepreneurship (i&e)",
+       "alumni/ae",
+       "faculty",
+       "artificial intelligence"
       ],
-      "entities": [
-       "microsoft"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
+       "credit": "Credit: Courtesy of Robust AI",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "01b49a7c7dde8d3e",
+      "eventId": "666c9ce2ae9f1142",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.9,
-        "topic": 65.0,
-        "novelty": 88.2
+        "recency": 79.6,
+        "topic": 80.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت یک بار، اجرا بر روی هر عامل: یک راهنمای عملی برای مدیریت مهارت ها",
-        "excerpt": "مهارت های عامل ضبط کار مهندسی تکراری در تیم های فایل می تواند بررسی و استفاده مجدد، در حالی که ابزار، زمینه پروژه و مجوز به طور خاص به میزبان است که آنها را اجرا می کند.",
+        "title": "کمک به ربات ها در محل کار انسان",
+        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
@@ -127,6 +132,183 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b193c7000d21ac5f",
+      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Cyber at the Frontier",
+      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T22:37:14Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-12",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "YmxpxJZvm4M",
+       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
+      },
+      "eventId": "b193c7000d21ac5f",
+      "related": [],
+      "score": {
+       "total": 63.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 55.1,
+        "topic": 100.0,
+        "novelty": 71.4
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سایبری در مرز",
+        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de06bec5ec8071c8",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
+      "excerpt": "Former CEO Jensen Huang and US commerce secretary to appear before Congress amid bipartisan concern that America’s security was put at risk Nvidia scandal – latest updates Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? Nvidia’s ousted CEO Jensen Huang and Donald Trump’s commerce secretary are expected to testify before Congress in the coming weeks…",
+      "lang": "en",
+      "publishedAt": "2026-11-13T06:34:59Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "policy",
+      "tags": [
+       "nvidia",
+       "jensen huang",
+       "china",
+       "us politics",
+       "asia pacific",
+       "technology"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/0d3df019313f519170bba84980c64edd12ee84bc/377_159_2717_2174/master/2717.jpg?width=700&quality=85&auto=format&fit=max&s=6e8b65188ea1c948f00426379e855b06",
+       "credit": "Photograph: Manuel Orbegozo/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "de06bec5ec8071c8",
+      "related": [],
+      "score": {
+       "total": 62.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 87.2,
+        "topic": 85.0,
+        "novelty": 81.2
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "رسوایی Nvidia باعث ایجاد خزه امنیت ملی آمریکا می شود و خواستار ایجاد خط سخت در چین است",
+        "excerpt": "مدیر عامل سابق Jensen Huang و وزیر بازرگانی ایالات متحده قبل از کنگره در میان نگرانی های دو حزبی که امنیت آمریکا در معرض خطر رسوایی Nvidia قرار گرفت - آخرین تجزیه و تحلیل به روز رسانی: Jensen Huang ساخت یک پادشاهی AI. حالا او رفته است، آیا فن آوری های Nvidia نقض خواهند شد؟ انتظار می رود که مدیرعامل شرکت Nvidia Jensen Huang و وزیر بازرگانی دونالد ترامپ قبل از کنگره در هفته های آینده شهادت دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5b03ad4fc66b34de",
+      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/13/have-we-finally-found-a-valid-use-case-for-ai-meet-pino-the-autonomous-virtual-kiwi",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
+      "excerpt": "Pino noodles about making his own AI decisions. He has decided independently that he is into trains and cats. Aren’t we all Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
+      "lang": "en",
+      "publishedAt": "2026-11-13T05:35:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/ef4684bfabe671cc5f1404e36328b02e7048e7c8/0_96_960_768/master/960.jpg?width=700&quality=85&auto=format&fit=max&s=6d5b8dc4dfff88cf7dbce0740c431c0c",
+       "credit": "Illustration: First Dog on the Moon/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "5b03ad4fc66b34de",
+      "related": [],
+      "score": {
+       "total": 62.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 82.3,
+        "topic": 85.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا در نهایت یک مورد استفاده معتبر برای AI پیدا کرده ایم؟ دیدار با Pino kiwi مجازی خودکار | First Dog on the Moon",
+        "excerpt": "Pino noodle در مورد تصمیم گیری های AI خود او به طور مستقل تصمیم گرفته است که او در قطارها و گربه ها است. همه ما اینجا ثبت نام نمی کنیم تا هر زمان که کارتون سگ اول منتشر می شود، تمام نیازهای شما را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین سگ و چاپ محصولات ادامه خواندن.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -162,192 +344,20 @@
       "eventId": "ad614f81e42f72e5",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 60.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 70.7,
+        "recency": 42.2,
         "topic": 100.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
         "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
         "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c8c5dc29297d2e3d",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T19:29:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "aws budgets",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
-       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "c8c5dc29297d2e3d",
-      "related": [],
-      "score": {
-       "total": 66.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 77.1,
-        "topic": 85.0,
-        "novelty": 81.2
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
-        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ec886a92fa12a05a",
-      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
-      "excerpt": "SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T22:03:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon ec2",
-       "announcements",
-       "aws trainium"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/12/ML-22453-1.png",
-       "alt": "Architecture of SGLang-Neuron on AWS Trainium, showing SGLang core and the Trainium plugin components",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "ec886a92fa12a05a",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.4,
-        "topic": 65.0,
-        "novelty": 81.8
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدل های امنیتی مرزی در AWS Trainium با SGLang-Neuron",
-        "excerpt": "SGLang-Neuron در حال حاضر به طور عمومی از طریق یک Container یادگیری عمیق AWS در دسترس است. با SGLang-Neuron، شما می توانید مدل ها را خدمت کنید و تقویت یادگیری را با SGLang در AWS Trainium با استفاده از همان رابط SGLang که قبلا می دانید، همه در حال اجرا در PyTorch بومی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a8d5fa7d24b3647f",
-      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Introducing Gemini 4 Hydrogen",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-12T18:00:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "a8d5fa7d24b3647f",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 70.8,
-        "topic": 100.0,
-        "novelty": 66.7
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی بازی Gemini 4 هیدروژن",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-12T20:54:31Z"
        }
@@ -364,8 +374,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-06T00:00:00Z",
-   "to": "2026-11-13T00:00:00Z",
+   "from": "2026-11-06T08:57:00Z",
+   "to": "2026-11-13T08:57:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -403,15 +413,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.9,
+       "total": 80.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 48.1,
+        "recency": 44.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -432,55 +442,178 @@
     },
     {
      "article": {
-      "id": "ad614f81e42f72e5",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "id": "606399e29c9ee7e9",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New AI “copilot” helps engineers design better structures",
+      "excerpt": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
       "lang": "en",
-      "publishedAt": "2026-11-12T18:00:00Z",
+      "publishedAt": "2026-11-13T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "models",
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
       "tags": [
-       "search",
-       "gemini models",
-       "ai"
+       "research",
+       "algorithms",
+       "design",
+       "artificial intelligence",
+       "machine learning",
+       "computer modeling"
       ],
       "entities": [
-       "google"
+       "microsoft"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-ai-design-01-press.jpg?itok=mgkpfRIX",
+       "credit": "Image: MIT News; Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "ad614f81e42f72e5",
+      "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
-        "topic": 100.0,
-        "novelty": 72.7
+        "recency": 96.3,
+        "topic": 80.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
-        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
+        "title": "AI جدید کمک می کند تا مهندسان ساختارهای بهتر را طراحی کنند",
+        "excerpt": "این سیستم از انسان ها برای بازخورد برای افزایش اعتماد در طرح های تولید شده ماشین برای ساختمان ها و پل ها می پرسد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b193c7000d21ac5f",
+      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Cyber at the Frontier",
+      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T22:37:14Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-12",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "YmxpxJZvm4M",
+       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
+      },
+      "eventId": "b193c7000d21ac5f",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.5,
+        "topic": 100.0,
+        "novelty": 71.4
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سایبری در مرز",
+        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "666c9ce2ae9f1142",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping robots fit into the human workplace",
+      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
+      "tags": [
+       "startups",
+       "robotics",
+       "innovation and entrepreneurship (i&e)",
+       "alumni/ae",
+       "faculty",
+       "artificial intelligence"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
+       "credit": "Credit: Courtesy of Robust AI",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "666c9ce2ae9f1142",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.3,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به ربات ها در محل کار انسان",
+        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -516,15 +649,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 71.2,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 79.8,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -535,67 +668,7 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c1b8ea1b2fb317cf",
-      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T21:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "invention",
-       "cybersecurity",
-       "artificial intelligence",
-       "algorithms",
-       "computer chips"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
-       "credit": "Photo: Niki Fandel",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "c1b8ea1b2fb317cf",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
-        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
-       }
-      }
-     },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -636,15 +709,15 @@
       "eventId": "c8c5dc29297d2e3d",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 87.9,
         "topic": 85.0,
         "novelty": 81.2
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -655,7 +728,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -690,15 +763,15 @@
       "eventId": "a88bddb17214a029",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 87.5,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -708,7 +781,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -753,15 +826,15 @@
        "a647d71f08016843"
       ],
       "score": {
-       "total": 68.7,
+       "total": 67.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 90.7,
+        "recency": 83.2,
         "topic": 55.0,
         "novelty": 58.3
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -772,7 +845,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -780,69 +853,12 @@
       "first-report",
       "top-factor-reliability"
      ]
-    },
-    {
-     "article": {
-      "id": "01b49a7c7dde8d3e",
-      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "sourceId": "github-blog-ai",
-      "sourceName": "GitHub Blog — AI & ML",
-      "title": "Build once, run on any agent: A practical guide to agent skills",
-      "excerpt": "Agent skills capture repeatable engineering work in files teams can review and reuse, while tools, project context, and permissions remain specific to the host that runs them.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T22:54:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
-      "category": "products",
-      "tags": [
-       "ai & ml",
-       "github copilot",
-       "github universe"
-      ],
-      "entities": [
-       "microsoft"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "01b49a7c7dde8d3e",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.0,
-        "topic": 65.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت یک بار، اجرا بر روی هر عامل: یک راهنمای عملی برای مدیریت مهارت ها",
-        "excerpt": "مهارت های عامل ضبط کار مهندسی تکراری در تیم های فایل می تواند بررسی و استفاده مجدد، در حالی که ابزار، زمینه پروژه و مجوز به طور خاص به میزبان است که آنها را اجرا می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
     }
    ]
   },
   "monthly": {
-   "from": "2026-10-14T00:00:00Z",
-   "to": "2026-11-13T00:00:00Z",
+   "from": "2026-10-14T08:57:00Z",
+   "to": "2026-11-13T08:57:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -880,15 +896,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 87.3,
+       "total": 86.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 80.3,
+        "recency": 78.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -935,15 +951,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 93.5,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -994,15 +1010,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 72.6,
+       "total": 72.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 75.0,
+        "recency": 73.1,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -1024,52 +1040,111 @@
     },
     {
      "article": {
-      "id": "b06379671ede1f62",
-      "url": "https://openai.com/index/children-first-declaration",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Supporting research on AI and children’s safety",
-      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-12T00:00:00Z",
+      "publishedAt": "2026-10-28T17:00:58Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 33.8,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b193c7000d21ac5f",
+      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Cyber at the Frontier",
+      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "lang": "en",
+      "publishedAt": "2026-11-12T22:37:14Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
       "day": "2026-11-12",
       "category": "models",
-      "tags": [
-       "global affairs"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b06379671ede1f62",
+      "video": {
+       "provider": "youtube",
+       "id": "YmxpxJZvm4M",
+       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
+      },
+      "eventId": "b193c7000d21ac5f",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 97.1,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 71.4
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "حمایت از تحقیقات در مورد ایمنی هوش مصنوعی و کودکان",
-        "excerpt": "OpenAI متعهد به 2 میلیون دلار برای تحقیق در زمینه امنیت هوش مصنوعی و کودکان است. این کار از ابزارهای مشترک برای اندازه گیری خطرات و فرصت ها برای جوانان پشتیبانی می کند.",
+        "title": "سایبری در مرز",
+        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1079,55 +1154,119 @@
     },
     {
      "article": {
-      "id": "ad614f81e42f72e5",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "id": "606399e29c9ee7e9",
+      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New AI “copilot” helps engineers design better structures",
+      "excerpt": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
       "lang": "en",
-      "publishedAt": "2026-11-12T18:00:00Z",
+      "publishedAt": "2026-11-13T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "models",
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
       "tags": [
-       "search",
-       "gemini models",
-       "ai"
+       "research",
+       "algorithms",
+       "design",
+       "artificial intelligence",
+       "machine learning",
+       "computer modeling"
       ],
       "entities": [
-       "google"
+       "microsoft"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-ai-design-01-press.jpg?itok=mgkpfRIX",
+       "credit": "Image: MIT News; Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "ad614f81e42f72e5",
+      "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 100.0,
-        "novelty": 72.7
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
-        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
+        "title": "AI جدید کمک می کند تا مهندسان ساختارهای بهتر را طراحی کنند",
+        "excerpt": "این سیستم از انسان ها برای بازخورد برای افزایش اعتماد در طرح های تولید شده ماشین برای ساختمان ها و پل ها می پرسد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "666c9ce2ae9f1142",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping robots fit into the human workplace",
+      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
+      "tags": [
+       "startups",
+       "robotics",
+       "innovation and entrepreneurship (i&e)",
+       "alumni/ae",
+       "faculty",
+       "artificial intelligence"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
+       "credit": "Credit: Courtesy of Robust AI",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "666c9ce2ae9f1142",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-13T08:57:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به ربات ها در محل کار انسان",
+        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1168,15 +1307,15 @@
       "eventId": "c1b8ea1b2fb317cf",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.2,
+        "recency": 96.7,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -1187,67 +1326,7 @@
        }
       }
      },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c8c5dc29297d2e3d",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T19:29:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "aws budgets",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
-       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "c8c5dc29297d2e3d",
-      "related": [],
-      "score": {
-       "total": 70.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.7,
-        "topic": 85.0,
-        "novelty": 81.2
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
-        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1289,15 +1368,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 70.5,
+       "total": 70.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 46.4,
+        "recency": 45.2,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
@@ -1308,7 +1387,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -1319,113 +1398,60 @@
     },
     {
      "article": {
-      "id": "a88bddb17214a029",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "excerpt": "",
+      "id": "c8c5dc29297d2e3d",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
       "lang": "en",
-      "publishedAt": "2026-11-12T19:07:35Z",
+      "publishedAt": "2026-11-12T19:29:55Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-12T20:54:31Z",
       "day": "2026-11-12",
-      "category": "open-source",
-      "tags": [],
+      "category": "policy",
+      "tags": [
+       "advanced (300)",
+       "amazon bedrock",
+       "aws budgets",
+       "customer solutions"
+      ],
       "entities": [
-       "huggingface"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
+       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "a88bddb17214a029",
+      "eventId": "c8c5dc29297d2e3d",
       "related": [],
       "score": {
        "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 75.0,
-        "novelty": 91.7
+        "recency": 96.2,
+        "topic": 85.0,
+        "novelty": 81.2
        },
-       "asOf": "2026-11-13T00:00:00Z"
+       "asOf": "2026-11-13T08:57:00Z"
       },
       "tr": {
        "fa": {
-        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
+        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
+        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-12T20:54:31Z"
        }
       }
      },
-     "rank": 9,
+     "rank": 10,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "efdd0bfa6110086b",
-      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "excerpt": "The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "lang": "en",
-      "publishedAt": "2026-11-11T23:50:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T03:52:53Z",
-      "day": "2026-11-11",
-      "category": "business",
-      "tags": [
-       "ai",
-       "china",
-       "nvidia",
-       "donald trump",
-       "jensen huang"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "efdd0bfa6110086b",
-      "related": [
-       "96892311de09e14b"
-      ],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 93.3,
-        "topic": 55.0,
-        "novelty": 66.7
-       },
-       "asOf": "2026-11-13T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "رسوایی جنسن هوانگ: یک جدول زمانی",
-        "excerpt": "این رابطه می تواند پیامدهایی برای امنیت ملی به عنوان نژاد ایالات متحده و چین برای توسعه پیشرفته ترین زیرساخت های AI داشته باشد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T03:52:53Z"
-       }
-      }
-     },
-     "rank": 10,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
