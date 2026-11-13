@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-13T09:55:55Z",
+ "asOf": "2026-11-13T17:43:20Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,61 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-12T09:55:55Z",
-   "to": "2026-11-13T09:55:55Z",
+   "from": "2026-11-12T17:43:20Z",
+   "to": "2026-11-13T17:43:20Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "606399e29c9ee7e9",
-      "url": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New AI “copilot” helps engineers design better structures",
-      "excerpt": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+      "id": "7544c26f6d39ea35",
+      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
       "lang": "en",
-      "publishedAt": "2026-11-13T05:00:00Z",
+      "publishedAt": "2026-11-13T16:38:23Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
-      "category": "research",
-      "tags": [
-       "research",
-       "algorithms",
-       "design",
-       "artificial intelligence",
-       "machine learning",
-       "computer modeling"
-      ],
+      "category": "models",
+      "tags": [],
       "entities": [
-       "microsoft"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-ai-design-01-press.jpg?itok=mgkpfRIX",
-       "credit": "Image: MIT News; Getty Images",
+       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "606399e29c9ee7e9",
+      "video": {
+       "provider": "youtube",
+       "id": "pfbfZKxUEDQ",
+       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
+      },
+      "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.2,
-        "topic": 80.0,
-        "novelty": 91.7
+        "recency": 93.9,
+        "topic": 100.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "AI جدید کمک می کند تا مهندسان ساختارهای بهتر را طراحی کنند",
-        "excerpt": "این سیستم از انسان ها برای بازخورد برای افزایش اعتماد در طرح های تولید شده ماشین برای ساختمان ها و پل ها می پرسد.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -78,53 +75,52 @@
     },
     {
      "article": {
-      "id": "666c9ce2ae9f1142",
-      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Helping robots fit into the human workplace",
-      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "id": "2b50cb10658bb316",
+      "url": "https://www.youtube.com/watch?v=PkAmyub12K8",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+      "excerpt": "Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. They also explore how GPT-6 Cyber revealed that some known bugs could be more serious than initially…",
       "lang": "en",
-      "publishedAt": "2026-11-13T05:00:00Z",
+      "publishedAt": "2026-11-13T16:56:45Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
-      "category": "research",
-      "tags": [
-       "startups",
-       "robotics",
-       "innovation and entrepreneurship (i&e)",
-       "alumni/ae",
-       "faculty",
-       "artificial intelligence"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
-       "credit": "Credit: Courtesy of Robust AI",
+       "url": "https://i1.ytimg.com/vi/PkAmyub12K8/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "666c9ce2ae9f1142",
+      "video": {
+       "provider": "youtube",
+       "id": "PkAmyub12K8",
+       "url": "https://www.youtube.com/watch?v=PkAmyub12K8"
+      },
+      "eventId": "2b50cb10658bb316",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.2,
-        "topic": 80.0,
-        "novelty": 87.5
+        "recency": 95.6,
+        "topic": 100.0,
+        "novelty": 55.6
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "کمک به ربات ها در محل کار انسان",
-        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
+        "title": "چگونه موزیلا از GPT-6 Cyber برای پیدا کردن و رفع آسیب پذیری های فایرفاکس استفاده می کند",
+        "excerpt": "موزیلا در حال ترکیب دهه های مهندسی امنیتی با عوامل هوش مصنوعی برای تقویت دفاع از فایرفاکس است. Brian Grinstead به Clint Gibler OpenAI ملحق می شود تا در مورد چگونگی اولویت بندی تحقیقات، آزمایش ها و آسیب پذیری ها بحث کند، الگوهای مربوط به اشکال را پیدا می کند و به مهندسان کمک می کند تا اصلاح شوند. آنها همچنین کشف کردند که چگونه GPT-6 Cyber فاش کرد که برخی از اشکالات شناخته شده می تواند جدی تر از ابتدا باشد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -138,52 +134,46 @@
     },
     {
      "article": {
-      "id": "b193c7000d21ac5f",
-      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Cyber at the Frontier",
-      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "id": "8400bdfe1e2afd49",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "XYBench: Helping with the problem behind the question",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-12T22:37:14Z",
+      "publishedAt": "2026-11-13T17:02:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
-      "day": "2026-11-12",
-      "category": "models",
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "open-source",
       "tags": [],
       "entities": [
-       "openai"
+       "huggingface"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/xybench"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "YmxpxJZvm4M",
-       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
-      },
-      "eventId": "b193c7000d21ac5f",
+      "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 52.0,
-        "topic": 100.0,
-        "novelty": 71.4
+        "recency": 96.2,
+        "topic": 75.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "سایبری در مرز",
-        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
+        "title": "XYBench: کمک به مشکل پشت سوال",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -197,111 +187,107 @@
     },
     {
      "article": {
-      "id": "de06bec5ec8071c8",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
-      "excerpt": "Former CEO Jensen Huang and US commerce secretary to appear before Congress amid bipartisan concern that America’s security was put at risk Nvidia scandal – latest updates Analysis: Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached? Nvidia’s ousted CEO Jensen Huang and Donald Trump’s commerce secretary are expected to testify before Congress in the coming weeks…",
+      "id": "40e78db6601d46e6",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-13T06:34:59Z",
+      "publishedAt": "2026-11-13T14:05:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
-      "category": "policy",
-      "tags": [
-       "nvidia",
-       "jensen huang",
-       "china",
-       "us politics",
-       "asia pacific",
-       "technology"
-      ],
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "nvidia"
+       "huggingface",
+       "meta"
       ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/0d3df019313f519170bba84980c64edd12ee84bc/377_159_2717_2174/master/2717.jpg?width=700&quality=85&auto=format&fit=max&s=6e8b65188ea1c948f00426379e855b06",
-       "credit": "Photograph: Manuel Orbegozo/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
       },
-      "eventId": "de06bec5ec8071c8",
+      "eventId": "40e78db6601d46e6",
       "related": [],
       "score": {
-       "total": 61.4,
+       "total": 66.6,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.4,
-        "topic": 85.0,
-        "novelty": 81.2
+        "recency": 81.1,
+        "topic": 75.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "رسوایی Nvidia باعث ایجاد خزه امنیت ملی آمریکا می شود و خواستار ایجاد خط سخت در چین است",
-        "excerpt": "مدیر عامل سابق Jensen Huang و وزیر بازرگانی ایالات متحده قبل از کنگره در میان نگرانی های دو حزبی که امنیت آمریکا در معرض خطر رسوایی Nvidia قرار گرفت - آخرین تجزیه و تحلیل به روز رسانی: Jensen Huang ساخت یک پادشاهی AI. حالا او رفته است، آیا فن آوری های Nvidia نقض خواهند شد؟ انتظار می رود که مدیرعامل شرکت Nvidia Jensen Huang و وزیر بازرگانی دونالد ترامپ قبل از کنگره در هفته های آینده شهادت دهند.",
+        "title": "llama.cpp v1.0.0: یک پایه قوی تر برای اکوسیستم AI محلی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "5b03ad4fc66b34de",
-      "url": "https://www.theguardian.com/commentisfree/picture/2026/nov/13/have-we-finally-found-a-valid-use-case-for-ai-meet-pino-the-autonomous-virtual-kiwi",
+      "id": "e940fd9875725f16",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
-      "excerpt": "Pino noodles about making his own AI decisions. He has decided independently that he is into trains and cats. Aren’t we all Sign up here to get an email whenever First Dog cartoons are published Get all your needs met at the First Dog shop if what you need is First Dog merchandise and prints Continue reading...",
+      "title": "‘Ahead of his time’: AI helps unlock discoveries hidden in notebooks of man who transformed maths",
+      "excerpt": "Kurt Gödel left 1,009 pages of densely written text – much of it in an obsolete shorthand – which is now said to contain hundreds of proved theorems The Austrian logician Kurt Gödel was one of the most original thinkers of the 20th century. His two incompleteness theorems, published in 1931, transformed mathematics and paved the way for the digital age. After his seminal results of the 1930s…",
       "lang": "en",
-      "publishedAt": "2026-11-13T05:35:13Z",
+      "publishedAt": "2026-11-13T16:38:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
       "category": "policy",
       "tags": [
+       "mathematics",
        "ai (artificial intelligence)",
-       "technology"
+       "finland",
+       "us news",
+       "world news",
+       "science"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/ef4684bfabe671cc5f1404e36328b02e7048e7c8/0_96_960_768/master/960.jpg?width=700&quality=85&auto=format&fit=max&s=6d5b8dc4dfff88cf7dbce0740c431c0c",
-       "credit": "Illustration: First Dog on the Moon/The Guardian",
+       "url": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=700&quality=85&auto=format&fit=max&s=4c8e620382d753eaa591a35032032c2e",
+       "credit": "Photograph: Alfred Eisenstaedt/The LIFE Picture Collection/Shutterstock",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "5b03ad4fc66b34de",
+      "eventId": "e940fd9875725f16",
       "related": [],
       "score": {
-       "total": 61.1,
+       "total": 64.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 77.8,
+        "recency": 93.9,
         "topic": 85.0,
-        "novelty": 88.2
+        "novelty": 93.3
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا در نهایت یک مورد استفاده معتبر برای AI پیدا کرده ایم؟ دیدار با Pino kiwi مجازی خودکار | First Dog on the Moon",
-        "excerpt": "Pino noodle در مورد تصمیم گیری های AI خود او به طور مستقل تصمیم گرفته است که او در قطارها و گربه ها است. همه ما اینجا ثبت نام نمی کنیم تا هر زمان که کارتون سگ اول منتشر می شود، تمام نیازهای شما را در فروشگاه سگ اول اگر آنچه شما نیاز دارید اولین سگ و چاپ محصولات ادامه خواندن.",
+        "title": "پیش از زمان خود: AI به باز کردن اکتشافات پنهان در دفترچه های مردی که ریاضی را تغییر داد کمک می کند",
+        "excerpt": "کرت گیدل 1009 صفحه از متن نوشته شده را ترک کرد – که در حال حاضر گفته می شود حاوی صدها مورد اثبات شده است که کرت گیل، یکی از متفکران اصلی قرن بیستم بود. دو مورد ناقص او که در سال ۱۹۳۱ منتشر شد، ریاضیات را دگرگون کرد و راه را برای عصر دیجیتال هموار کرد. پس از نتایج نیمه ی او در دهه ی ۱۹۳۰...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -315,51 +301,52 @@
     },
     {
      "article": {
-      "id": "ad614f81e42f72e5",
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "id": "ece4b84db3e9cab7",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI",
       "lang": "en",
-      "publishedAt": "2026-11-12T18:00:00Z",
+      "publishedAt": "2026-11-13T13:00:42Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "models",
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "hardware",
       "tags": [
-       "search",
-       "gemini models",
-       "ai"
+       "ai",
+       "ai for good",
+       "healthcare and life sciences",
+       "inception"
       ],
       "entities": [
-       "google"
+       "nvidia"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "eventId": "ad614f81e42f72e5",
+      "eventId": "ece4b84db3e9cab7",
       "related": [],
       "score": {
-       "total": 60.2,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 39.8,
-        "topic": 100.0,
-        "novelty": 72.7
+        "recency": 76.2,
+        "topic": 70.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "جستجوی گوگل یک ارتقاء بزرگ با Gemini 4 هیدروژن است",
-        "excerpt": "چرخش carousel از کارت با متن \"Gemini 4 هیدروژن\" \"در حال حاضر در جستجوی گوگل\" و مثال از Google Search UI",
+        "title": "چگونه AI به تیم های مراقبت کمک می کند تا مراقبت های مناسب را دریافت کنند",
+        "excerpt": "از تحقیقات کودکان گرفته تا بیمارستان های هوشمند، AI به تیم های مراقبتی کمک می کند تا زمان کمتری را صرف کارهای روزمره و زمان بیشتری با بیماران کنند. سیستم های بهداشتی و راه اندازی آن را به کار در سراسر مراقبت های بهداشتی، از تطبیق بیماران به کارآزمایی های بالینی برای حمایت از رادیولوژیست ها، تیم های بیمارستان و بیماران در خانه. کلینیک ها در مرکز باقی می مانند، بررسی AI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -374,8 +361,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-06T09:55:55Z",
-   "to": "2026-11-13T09:55:55Z",
+   "from": "2026-11-06T17:43:20Z",
+   "to": "2026-11-13T17:43:20Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -413,15 +400,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.0,
+       "total": 79.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 43.8,
+        "recency": 40.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -437,6 +424,227 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7544c26f6d39ea35",
+      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T16:38:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "pfbfZKxUEDQ",
+       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
+      },
+      "eventId": "7544c26f6d39ea35",
+      "related": [],
+      "score": {
+       "total": 73.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5bf4951adbe9698d",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing ChatGPT Wallet",
+      "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "models",
+      "tags": [
+       "product"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "5bf4951adbe9698d",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.4,
+        "topic": 100.0,
+        "novelty": 66.7
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی کیف پول ChatGPT",
+        "excerpt": "معرفی کیف پول ChatGPT، یک راه امن برای عوامل در کار ChatGPT، Codex و نقاط برای تکمیل خرید با تایید کاربر و حفاظت از کارت های موجود است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "8400bdfe1e2afd49",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "XYBench: Helping with the problem behind the question",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T17:02:35Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/xybench"
+      },
+      "eventId": "8400bdfe1e2afd49",
+      "related": [],
+      "score": {
+       "total": 69.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 75.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "XYBench: کمک به مشکل پشت سوال",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "40e78db6601d46e6",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T14:05:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      },
+      "eventId": "40e78db6601d46e6",
+      "related": [],
+      "score": {
+       "total": 69.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.6,
+        "topic": 75.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "llama.cpp v1.0.0: یک پایه قوی تر برای اکوسیستم AI محلی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -475,15 +683,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 88.5,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -494,7 +702,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -504,56 +712,56 @@
     },
     {
      "article": {
-      "id": "b193c7000d21ac5f",
-      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Cyber at the Frontier",
-      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
+      "id": "ece4b84db3e9cab7",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI",
       "lang": "en",
-      "publishedAt": "2026-11-12T22:37:14Z",
+      "publishedAt": "2026-11-13T13:00:42Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
-      "day": "2026-11-12",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "ai for good",
+       "healthcare and life sciences",
+       "inception"
       ],
-      "brand": "openai",
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-9.25.28-AM-scaled.png",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "YmxpxJZvm4M",
-       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
-      },
-      "eventId": "b193c7000d21ac5f",
+      "eventId": "ece4b84db3e9cab7",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
-        "topic": 100.0,
-        "novelty": 71.4
+        "recency": 95.6,
+        "topic": 70.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "سایبری در مرز",
-        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
+        "title": "چگونه AI به تیم های مراقبت کمک می کند تا مراقبت های مناسب را دریافت کنند",
+        "excerpt": "از تحقیقات کودکان گرفته تا بیمارستان های هوشمند، AI به تیم های مراقبتی کمک می کند تا زمان کمتری را صرف کارهای روزمره و زمان بیشتری با بیماران کنند. سیستم های بهداشتی و راه اندازی آن را به کار در سراسر مراقبت های بهداشتی، از تطبیق بیماران به کارآزمایی های بالینی برای حمایت از رادیولوژیست ها، تیم های بیمارستان و بیماران در خانه. کلینیک ها در مرکز باقی می مانند، بررسی AI",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -594,15 +802,15 @@
       "eventId": "666c9ce2ae9f1142",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 88.5,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -613,243 +821,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0990939c7d6ea9f7",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T09:30:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
-      "day": "2026-11-12",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0990939c7d6ea9f7",
-      "related": [
-       "17c1d391457edda5"
-      ],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 79.0,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تعطیلات اضافی تجدید نظر در مورد آنچه که می تواند با Codex بسازد",
-        "excerpt": "با Codex، تعطیلات اضافی در حال تبدیل تخصص مشتری به برنامه های بهتر، تبدیل رزرو بالاتر و امکانات جدید برای رشد است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c8c5dc29297d2e3d",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T19:29:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "aws budgets",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
-       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "c8c5dc29297d2e3d",
-      "related": [],
-      "score": {
-       "total": 68.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.0,
-        "topic": 85.0,
-        "novelty": 81.2
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
-        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a88bddb17214a029",
-      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-12T19:07:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6484ca4d5ff9a3d2ee52a83b/6KFZDHIJkxpICiErHLqAw.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
-      },
-      "eventId": "a88bddb17214a029",
-      "related": [],
-      "score": {
-       "total": 67.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.7,
-        "topic": 75.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "LLM: یک زبان مارک آپ LLM-Native در حال حاضر در گرانیت 4.1 3B و 8B",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "426b199762db8714",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
-      "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs, one with an alleged Chinese spy and one with an Nvidia executive who reported to Huang. Following a late Wednesday night meeting, the board accepted Huang's letter of resignation as CEO, president, and",
-      "lang": "en",
-      "publishedAt": "2026-11-12T13:53:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "business",
-      "tags": [
-       "ai",
-       "business",
-       "chips",
-       "gadgets",
-       "news",
-       "nvidia"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "426b199762db8714",
-      "related": [
-       "829962447c656a7b",
-       "a647d71f08016843"
-      ],
-      "score": {
-       "total": 67.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 82.5,
-        "topic": 55.0,
-        "novelty": 58.3
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدیر اجرایی Nvidia Jensen Huang در میان جاسوسی استعفا می دهد",
-        "excerpt": "هیئت مدیره Nvidia اعلام کرد که Jensen Huang - بنیانگذار، رئیس جمهور و مدیر عامل آن - پس از گزارش دو امور اضافی زناشویی استعفا داده است، یکی با جاسوسی چینی و یکی با یک مدیر اجرایی Nvidia که به هوانگ گزارش شده است. پس از جلسه شبانه روز چهارشنبه، هیئت مدیره نامه استعفای هوانگ را به عنوان مدیرعامل، رئیس جمهور و، و",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
-       }
-      }
-     },
      "rank": 8,
-     "sources": 2,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -857,8 +832,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-14T09:55:55Z",
-   "to": "2026-11-13T09:55:55Z",
+   "from": "2026-10-14T17:43:20Z",
+   "to": "2026-11-13T17:43:20Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -896,15 +871,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 86.9,
+       "total": 86.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 78.0,
+        "recency": 76.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -920,6 +895,65 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "7544c26f6d39ea35",
+      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T16:38:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "pfbfZKxUEDQ",
+       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
+      },
+      "eventId": "7544c26f6d39ea35",
+      "related": [],
+      "score": {
+       "total": 73.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -951,15 +985,15 @@
        "17c1d391457edda5"
       ],
       "score": {
-       "total": 72.4,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 91.1,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -970,7 +1004,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1010,15 +1044,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 72.2,
+       "total": 71.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 72.9,
+        "recency": 71.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -1029,7 +1063,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1066,15 +1100,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 71.7,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 33.7,
+        "recency": 32.9,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -1084,70 +1118,11 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b193c7000d21ac5f",
-      "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Cyber at the Frontier",
-      "excerpt": "A live keynote featuring OpenAI's latest cyber announcements.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T22:37:14Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
-      "day": "2026-11-12",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/YmxpxJZvm4M/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "YmxpxJZvm4M",
-       "url": "https://www.youtube.com/watch?v=YmxpxJZvm4M"
-      },
-      "eventId": "b193c7000d21ac5f",
-      "related": [],
-      "score": {
-       "total": 71.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.8,
-        "topic": 100.0,
-        "novelty": 71.4
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سایبری در مرز",
-        "excerpt": "یک کلید زنده شامل آخرین اعلان های سایبری OpenAI است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1187,15 +1162,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 96.4,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -1216,117 +1191,51 @@
     },
     {
      "article": {
-      "id": "666c9ce2ae9f1142",
-      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Helping robots fit into the human workplace",
-      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "id": "40e78db6601d46e6",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-13T05:00:00Z",
+      "publishedAt": "2026-11-13T14:05:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T09:40:58Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
-      "category": "research",
-      "tags": [
-       "startups",
-       "robotics",
-       "innovation and entrepreneurship (i&e)",
-       "alumni/ae",
-       "faculty",
-       "artificial intelligence"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "meta"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
-       "credit": "Credit: Courtesy of Robust AI",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/63148d3b996c52bf0142cdbe/2PgU1GxpJX_LVORaP2RRy.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
       },
-      "eventId": "666c9ce2ae9f1142",
+      "eventId": "40e78db6601d46e6",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
-        "topic": 80.0,
-        "novelty": 87.5
+        "recency": 99.0,
+        "topic": 75.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "کمک به ربات ها در محل کار انسان",
-        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
+        "title": "llama.cpp v1.0.0: یک پایه قوی تر برای اکوسیستم AI محلی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T09:40:58Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "c1b8ea1b2fb317cf",
-      "url": "https://news.mit.edu/2026/lincoln-laboratory-technologies-receive-rd-100-awards-1112",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Three Lincoln Laboratory technologies receive 2026 R&D 100 Awards",
-      "excerpt": "A secure operating system, a quantum microsystem platform, and a 5G interference-canceling algorithm are named among the year's most significant innovations.",
-      "lang": "en",
-      "publishedAt": "2026-11-12T21:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T01:55:12Z",
-      "day": "2026-11-12",
-      "category": "research",
-      "tags": [
-       "awards, honors and fellowships",
-       "invention",
-       "cybersecurity",
-       "artificial intelligence",
-       "algorithms",
-       "computer chips"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe",
-       "credit": "Photo: Niki Fandel",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "c1b8ea1b2fb317cf",
-      "related": [],
-      "score": {
-       "total": 70.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.4,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-13T09:55:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "سه تکنولوژی آزمایشگاه لینکلن 2026 R&D 100 Awards را دریافت می کنند",
-        "excerpt": "یک سیستم عامل امن، یک پلت فرم میکروسیستم کوانتومی و یک الگوریتم مداخله 5G در میان مهم ترین نوآوری های سال نامگذاری شده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T01:55:12Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1368,15 +1277,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 45.1,
+        "recency": 44.1,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
@@ -1387,7 +1296,7 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 8,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -1398,53 +1307,106 @@
     },
     {
      "article": {
-      "id": "c8c5dc29297d2e3d",
-      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
-      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+      "id": "8400bdfe1e2afd49",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "XYBench: Helping with the problem behind the question",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-12T19:29:55Z",
+      "publishedAt": "2026-11-13T17:02:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T20:54:31Z",
-      "day": "2026-11-12",
-      "category": "policy",
-      "tags": [
-       "advanced (300)",
-       "amazon bedrock",
-       "aws budgets",
-       "customer solutions"
-      ],
+      "fetchedAt": "2026-11-13T17:51:16Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "amazon"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/11/21962-1.png",
-       "alt": "Principal tags attached to an IAM role compared with session tags passed at role assumption",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/xybench"
       },
-      "eventId": "c8c5dc29297d2e3d",
+      "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
-        "topic": 85.0,
-        "novelty": 81.2
+        "recency": 99.8,
+        "topic": 75.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-13T09:55:55Z"
+       "asOf": "2026-11-13T17:43:20Z"
       },
       "tr": {
        "fa": {
-        "title": "Tokenomics در مقیاس: پیگیری و کاپ آمازون Bedrock صرف هر مدیر IAM با CUR 2.0 و بودجه AWS",
-        "excerpt": "بازدید هزینه و محدودیت هزینه های قابل اجرا را با استفاده از ویژگی های AWS-native، بدون کد درخواست برای پرونده مشترک دریافت کنید. ویژگی با تگ های اصلی IAM، گزارش با CUR 2.0 یا Cost Explorer، و اجرای AWS با اقدامات بودجه ای که یک سیاست Deny را در هنگام عبور از آستانه اعمال می کند.",
+        "title": "XYBench: کمک به مشکل پشت سوال",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T20:54:31Z"
+        "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "666c9ce2ae9f1142",
+      "url": "https://news.mit.edu/2026/helping-robots-fit-into-human-workplace-1113",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping robots fit into the human workplace",
+      "excerpt": "Founded by Anthony Jules ’92, SM ’92 and Professor Emeritus Rodney Brooks, Robust AI’s robots are designed to collaborate with humans in factories and warehouses.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T09:40:58Z",
+      "day": "2026-11-13",
+      "category": "research",
+      "tags": [
+       "startups",
+       "robotics",
+       "innovation and entrepreneurship (i&e)",
+       "alumni/ae",
+       "faculty",
+       "artificial intelligence"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Robust-AI-01-press.jpg?itok=1bn6fHx2",
+       "credit": "Credit: Courtesy of Robust AI",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "666c9ce2ae9f1142",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.4,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-13T17:43:20Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به ربات ها در محل کار انسان",
+        "excerpt": "ساخته شده توسط آنتونی جولز 92، SM 92 و پروفسور امبرتوس رانی بروکس، روبات های AI قوی برای همکاری با انسان در کارخانه ها و انبارها طراحی شده اند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T09:40:58Z"
        }
       }
      },
