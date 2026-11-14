@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-13T23:49:11Z",
+ "asOf": "2026-11-14T06:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,58 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-12T23:49:11Z",
-   "to": "2026-11-13T23:49:11Z",
+   "from": "2026-11-13T06:00:00Z",
+   "to": "2026-11-14T06:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "db2e460523131f5f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
-      "excerpt": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+      "id": "7544c26f6d39ea35",
+      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
       "lang": "en",
-      "publishedAt": "2026-11-13T23:22:09Z",
+      "publishedAt": "2026-11-13T16:38:23Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T23:39:51Z",
+      "fetchedAt": "2026-11-13T17:51:16Z",
       "day": "2026-11-13",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "amazon sagemaker canvas",
-       "customer solutions"
-      ],
+      "category": "models",
+      "tags": [],
       "entities": [
-       "amazon"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21878-1.png",
-       "alt": "Process engineers build models in SageMaker Canvas. ML engineers connect preprocessing flows in S3 and models in Model Registry to SageMaker Pipelines, with Amazon EventBridge triggering batch inferen",
+       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "db2e460523131f5f",
+      "video": {
+       "provider": "youtube",
+       "id": "pfbfZKxUEDQ",
+       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
+      },
+      "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 62.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 65.0,
-        "novelty": 83.3
+        "recency": 46.2,
+        "topic": 100.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تولید MLOps در GS Caltex با بوم Amazon SageMaker، قسمت 1",
-        "excerpt": "GS Caltex بوم Amazon SageMaker را به خطوط لوله Amazon SageMaker متصل می کند تا مدل های بدون کد مهندسان در تولید اجرا شوند. این پست نشان می دهد که چگونه مهندسان ML از جریان ها و مدل های پیش پردازش معتبر استفاده می کنند و از حدود یک هفته تا چند ساعت و تقسیم بندی دسته ها را هر 30 دقیقه قطع می کنند.",
+        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
+        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T23:39:51Z"
+        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -105,15 +105,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 62.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 58.7,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -125,65 +125,6 @@
       }
      },
      "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7544c26f6d39ea35",
-      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
-      "lang": "en",
-      "publishedAt": "2026-11-13T16:38:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "pfbfZKxUEDQ",
-       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
-      },
-      "eventId": "7544c26f6d39ea35",
-      "related": [],
-      "score": {
-       "total": 66.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 66.1,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-13T23:49:11Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -223,20 +164,79 @@
       "eventId": "f71f0c8b7eba8c4e",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 61.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.5,
+        "recency": 50.8,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "6 راه برای استفاده از ChatGPT",
         "excerpt": "ما از 6 نفر درخواست کردیم که بیشترین استفاده را از ChatGPT داشته باشند. پاسخ های آنها شامل سبک شخصی، تدارکات روزمره و توقف هزینه های اشتراک تصادفی است. مال شماست؟",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T23:39:51Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "db2e460523131f5f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+      "excerpt": "GS Caltex connects Amazon SageMaker Canvas to Amazon SageMaker Pipelines so process engineers' no-code models run in production. This post shows how ML engineers reuse validated preprocessing flows and models, cutting deployment from about a week to a few hours and running batch inference every 30 minutes.",
+      "lang": "en",
+      "publishedAt": "2026-11-13T23:22:09Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T23:39:51Z",
+      "day": "2026-11-13",
+      "category": "products",
+      "tags": [
+       "advanced (300)",
+       "amazon sagemaker canvas",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21878-1.png",
+       "alt": "Process engineers build models in SageMaker Canvas. ML engineers connect preprocessing flows in S3 and models in Model Registry to SageMaker Pipelines, with Amazon EventBridge triggering batch inferen",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "db2e460523131f5f",
+      "related": [],
+      "score": {
+       "total": 61.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 68.2,
+        "topic": 65.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-14T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تولید MLOps در GS Caltex با بوم Amazon SageMaker، قسمت 1",
+        "excerpt": "GS Caltex بوم Amazon SageMaker را به خطوط لوله Amazon SageMaker متصل می کند تا مدل های بدون کد مهندسان در تولید اجرا شوند. این پست نشان می دهد که چگونه مهندسان ML از جریان ها و مدل های پیش پردازش معتبر استفاده می کنند و از حدود یک هفته تا چند ساعت و تقسیم بندی دسته ها را هر 30 دقیقه قطع می کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T23:39:51Z"
        }
@@ -283,15 +283,15 @@
       "eventId": "41b9d660ec27f386",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 60.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.5,
+        "recency": 62.6,
         "topic": 70.0,
         "novelty": 76.9
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -337,15 +337,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 60.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.5,
+        "recency": 50.0,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -366,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-06T23:49:11Z",
-   "to": "2026-11-13T23:49:11Z",
+   "from": "2026-11-07T06:00:00Z",
+   "to": "2026-11-14T06:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +405,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 78.9,
+       "total": 78.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 38.3,
+        "recency": 36.1,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -464,15 +464,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 87.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -493,16 +493,16 @@
     },
     {
      "article": {
-      "id": "f71f0c8b7eba8c4e",
-      "url": "https://www.youtube.com/shorts/ErOVIC-MGVA",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "6 Underrated Ways to Use ChatGPT",
-      "excerpt": "We asked 6 people for their most underrated way to use ChatGPT. Their answers covered personal style, everyday logistics, and stopping random subscription charges. What’s yours?",
+      "id": "d1318183fe172893",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "lang": "en",
-      "publishedAt": "2026-11-13T18:15:41Z",
+      "publishedAt": "2026-11-13T08:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-13T23:39:51Z",
+      "fetchedAt": "2026-11-14T06:39:59Z",
       "day": "2026-11-13",
       "category": "models",
       "tags": [],
@@ -511,34 +511,28 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i2.ytimg.com/vi/ErOVIC-MGVA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "ErOVIC-MGVA",
-       "url": "https://www.youtube.com/watch?v=ErOVIC-MGVA"
-      },
-      "eventId": "f71f0c8b7eba8c4e",
+      "eventId": "d1318183fe172893",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 80.9,
         "topic": 100.0,
-        "novelty": 66.7
+        "novelty": 84.6
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "6 راه برای استفاده از ChatGPT",
-        "excerpt": "ما از 6 نفر درخواست کردیم که بیشترین استفاده را از ChatGPT داشته باشند. پاسخ های آنها شامل سبک شخصی، تدارکات روزمره و توقف هزینه های اشتراک تصادفی است. مال شماست؟",
+        "title": "Shield به تکنسین ها کمک می کند تا پورتال میراث را با OpenAI تحویل دهند",
+        "excerpt": "Shield از OpenAI برای کمک به تکنسین های IT برای تحویل کار در پورتال های میراث استفاده می کند. عوامل Forge آن سیستم ها را هدایت می کنند، بنابراین تکنسین ها می توانند بر مسائلی که نیاز به قضاوت دارند، تمرکز کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T23:39:51Z"
+        "at": "2026-11-14T06:39:59Z"
        }
       }
      },
@@ -582,15 +576,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.1,
+        "recency": 91.5,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -636,15 +630,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 89.1,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -689,15 +683,15 @@
       "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 88.3,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -746,15 +740,15 @@
       "eventId": "a05d08fd0b1ba6de",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 90.5,
         "topic": 70.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -808,15 +802,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.4,
+        "recency": 78.6,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -838,8 +832,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-14T23:49:11Z",
-   "to": "2026-11-13T23:49:11Z",
+   "from": "2026-10-15T06:00:00Z",
+   "to": "2026-11-14T06:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -877,15 +871,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 86.3,
+       "total": 86.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 75.0,
+        "recency": 73.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -936,15 +930,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 96.2,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -965,17 +959,17 @@
     },
     {
      "article": {
-      "id": "0990939c7d6ea9f7",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "id": "d1318183fe172893",
+      "url": "https://openai.com/business/customer-stories/shield",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
       "lang": "en",
-      "publishedAt": "2026-11-12T09:30:00Z",
+      "publishedAt": "2026-11-13T08:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-12T12:52:52Z",
-      "day": "2026-11-12",
+      "fetchedAt": "2026-11-14T06:39:59Z",
+      "day": "2026-11-13",
       "category": "models",
       "tags": [],
       "entities": [
@@ -986,27 +980,25 @@
        "url": "images/fallbacks/models.svg",
        "kind": "fallback"
       },
-      "eventId": "0990939c7d6ea9f7",
-      "related": [
-       "17c1d391457edda5"
-      ],
+      "eventId": "d1318183fe172893",
+      "related": [],
       "score": {
-       "total": 71.7,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.5,
+        "recency": 93.8,
         "topic": 100.0,
-        "novelty": 87.5
+        "novelty": 84.6
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تعطیلات اضافی تجدید نظر در مورد آنچه که می تواند با Codex بسازد",
-        "excerpt": "با Codex، تعطیلات اضافی در حال تبدیل تخصص مشتری به برنامه های بهتر، تبدیل رزرو بالاتر و امکانات جدید برای رشد است.",
+        "title": "Shield به تکنسین ها کمک می کند تا پورتال میراث را با OpenAI تحویل دهند",
+        "excerpt": "Shield از OpenAI برای کمک به تکنسین های IT برای تحویل کار در پورتال های میراث استفاده می کند. عوامل Forge آن سیستم ها را هدایت می کنند، بنابراین تکنسین ها می توانند بر مسائلی که نیاز به قضاوت دارند، تمرکز کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-12T12:52:52Z"
+        "at": "2026-11-14T06:39:59Z"
        }
       }
      },
@@ -1014,6 +1006,61 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 71.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 31.8,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-14T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1050,15 +1097,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 71.6,
+       "total": 71.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 70.0,
+        "recency": 68.8,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1069,65 +1116,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 71.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 32.3,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-13T23:49:11Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
      "rank": 5,
      "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
       "voices-2",
       "first-report",
       "top-factor-reliability"
@@ -1165,15 +1157,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 97.4,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1227,15 +1219,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 93.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1247,59 +1239,6 @@
       }
      },
      "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2427bacb74a96b4b",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T18:00:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T18:08:33Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
-      },
-      "eventId": "2427bacb74a96b4b",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.3,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-13T23:49:11Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T18:08:33Z"
-       }
-      }
-     },
-     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1341,15 +1280,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 43.3,
+        "recency": 42.5,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1360,11 +1299,64 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 8,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2427bacb74a96b4b",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-13T18:00:39Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T18:08:33Z",
+      "day": "2026-11-13",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      },
+      "eventId": "2427bacb74a96b4b",
+      "related": [],
+      "score": {
+       "total": 69.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.6,
+        "topic": 75.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-14T06:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T18:08:33Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1397,15 +1389,15 @@
       "eventId": "40e78db6601d46e6",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 95.5,
         "topic": 75.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-13T23:49:11Z"
+       "asOf": "2026-11-14T06:00:00Z"
       },
       "tr": {
        "fa": {
