@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-14T19:05:17Z",
+ "asOf": "2026-11-14T21:41:22Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-13T19:05:17Z",
-   "to": "2026-11-14T19:05:17Z",
+   "from": "2026-11-13T21:41:22Z",
+   "to": "2026-11-14T21:41:22Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 65.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 79.9,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -106,15 +106,15 @@
       "eventId": "7640cc164999215c",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 63.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 85.7,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -126,6 +126,66 @@
       }
      },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "9a736294c460795d",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "lang": "en",
+      "publishedAt": "2026-11-14T21:41:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-14T23:09:53Z",
+      "day": "2026-11-14",
+      "category": "business",
+      "tags": [
+       "ai",
+       "amjad masad",
+       "elon musk",
+       "jensen huang",
+       "nvidia",
+       "tim sweeney"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "9a736294c460795d",
+      "related": [],
+      "score": {
+       "total": 60.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-14T21:41:22Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایلان ماسک، دیگر آکادمی های فنی، دادخواستی را امضا می کنند که از Nvidia درخواست می کند تا Jensen Huang را دوباره به دولت بازگرداند.",
+        "excerpt": "این درخواست بیش از 115،000 امضا را به عنوان روز شنبه دریافت کرده است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-14T23:09:53Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -168,15 +228,15 @@
       "eventId": "d46b516a4c8344dc",
       "related": [],
       "score": {
-       "total": 61.3,
+       "total": 59.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.0,
+        "recency": 68.0,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -187,7 +247,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -228,15 +288,15 @@
       "eventId": "b08cefd9996dfc5a",
       "related": [],
       "score": {
-       "total": 61.2,
+       "total": 58.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 78.5,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -247,70 +307,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a5dca2d386f6a667",
-      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
-      "excerpt": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared first on The Decoder.",
-      "lang": "en",
-      "publishedAt": "2026-11-14T16:42:56Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-14T19:16:32Z",
-      "day": "2026-11-14",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "anthropic",
-       "claude",
-       "claude opus"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "a5dca2d386f6a667",
-      "related": [],
-      "score": {
-       "total": 58.8,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 87.2,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-14T19:05:17Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Anthropic می گوید که عادت های قدیمی باعث کند شدن کلود Opus 5.5",
-        "excerpt": "Anthropic ساخته شده است کلود Opus 5.5 مدل پیش فرض در تمام برنامه های پرداخت شده و منتشر یک راهنمای که دور با عادت های قدیمی است. نکته اصلی این است که \"سخت فکر کنید\" را رها کنید و در تلاش های متوسط شروع کنید. مقاله Anthropic می گوید که عادت های قدیمی باعث کند شدن کلود Opus 5.5 در ابتدا در Decoder ظاهر شد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T19:16:32Z"
-       }
-      }
-     },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -350,15 +350,15 @@
       "eventId": "d82d2c1dae8dfaa0",
       "related": [],
       "score": {
-       "total": 58.7,
+       "total": 56.3,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 87.6,
+        "recency": 75.4,
         "topic": 100.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -380,8 +380,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-07T19:05:17Z",
-   "to": "2026-11-14T19:05:17Z",
+   "from": "2026-11-07T21:41:22Z",
+   "to": "2026-11-14T21:41:22Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -419,15 +419,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.6,
+       "total": 77.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 31.8,
+        "recency": 31.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -478,15 +478,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 96.3,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -537,15 +537,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.5,
+        "recency": 75.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -590,15 +590,15 @@
       "eventId": "d1318183fe172893",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 71.3,
+        "recency": 69.6,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -649,15 +649,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.7,
+        "recency": 78.7,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -709,15 +709,15 @@
       "eventId": "7640cc164999215c",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 97.5,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -763,15 +763,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.6,
+        "recency": 76.6,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -816,15 +816,15 @@
       "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.8,
+        "recency": 75.9,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -845,8 +845,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-15T19:05:17Z",
-   "to": "2026-11-14T19:05:17Z",
+   "from": "2026-10-15T21:41:22Z",
+   "to": "2026-11-14T21:41:22Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +884,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 85.4,
+       "total": 85.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 70.9,
+        "recency": 70.4,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -943,15 +943,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 92.0,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -996,15 +996,15 @@
       "eventId": "d1318183fe172893",
       "related": [],
       "score": {
-       "total": 71.5,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.4,
+        "recency": 89.7,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1055,11 +1055,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 30.6,
+        "recency": 30.4,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1110,15 +1110,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 66.2,
+        "recency": 65.7,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1170,15 +1170,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 93.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1235,11 +1235,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 40.9,
+        "recency": 40.6,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1291,15 +1291,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 98.9,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1353,15 +1353,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 88.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
@@ -1407,15 +1407,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 92.3,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-14T19:05:17Z"
+       "asOf": "2026-11-14T21:41:22Z"
       },
       "tr": {
        "fa": {
