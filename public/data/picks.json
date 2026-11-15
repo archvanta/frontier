@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-14T21:41:22Z",
+ "asOf": "2026-11-15T00:08:07Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-13T21:41:22Z",
-   "to": "2026-11-14T21:41:22Z",
+   "from": "2026-11-14T00:08:07Z",
+   "to": "2026-11-15T00:08:07Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 65.4,
+       "total": 63.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.9,
+        "recency": 69.4,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -69,6 +69,63 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cdf34d438f124e67",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Where was Nvidia’s security team?",
+      "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T00:08:07Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T02:47:25Z",
+      "day": "2026-11-15",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "tc",
+       "nvidia"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "cdf34d438f124e67",
+      "related": [],
+      "score": {
+       "total": 62.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-15T00:08:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تیم امنیتی Nvidia کجاست؟",
+        "excerpt": "رئیس امنیت Nvidia در ماه آگوست به آرامی ترک کرد و اکنون که مدیر عامل شرکت Jensen Huang از روابط خود کناره گیری کرده است، از جمله یکی با یک مدیر اجرایی در شرکتی که مظنون به کاشت تراشه ها به چین است، یک افسر اطلاعاتی سابق می گوید که این نوع نشتی است که مکالمات روزمره را اجرا می کند، که اکثر تیم های امنیتی شرکت ها برای گرفتن ضعیف هستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T02:47:25Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -106,15 +163,15 @@
       "eventId": "7640cc164999215c",
       "related": [],
       "score": {
-       "total": 63.3,
+       "total": 61.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 74.4,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -122,66 +179,6 @@
         "excerpt": "اندرو McLachlan می گوید که او جنگل های واقعی را بر روی جنگل های مجازی انتخاب می کند، زیرا او از دولت کار می خواهد تاثیر هوش مصنوعی بر هنرمندان و محیط زیست را در نظر بگیرد ایمیل سیاسی روزانه ما، برنامه رایگان یا پادکست خبری روزانه، سناتور لیبرال اندرو مک لینلان، زنگ خطر را در مورد رویکرد حزب خود و دولت کار برای AI افزایش داده است، و از هنرمندان کپی رایت \"سرمایه گذاری جعلی\" درخواست نمی کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-14T19:16:32Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9a736294c460795d",
-      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
-      "lang": "en",
-      "publishedAt": "2026-11-14T21:41:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-14T23:09:53Z",
-      "day": "2026-11-14",
-      "category": "business",
-      "tags": [
-       "ai",
-       "amjad masad",
-       "elon musk",
-       "jensen huang",
-       "nvidia",
-       "tim sweeney"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "9a736294c460795d",
-      "related": [],
-      "score": {
-       "total": 60.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 55.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-14T21:41:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایلان ماسک، دیگر آکادمی های فنی، دادخواستی را امضا می کنند که از Nvidia درخواست می کند تا Jensen Huang را دوباره به دولت بازگرداند.",
-        "excerpt": "این درخواست بیش از 115،000 امضا را به عنوان روز شنبه دریافت کرده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T23:09:53Z"
        }
       }
      },
@@ -228,15 +225,15 @@
       "eventId": "d46b516a4c8344dc",
       "related": [],
       "score": {
-       "total": 59.1,
+       "total": 57.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 68.0,
+        "recency": 59.0,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -288,15 +285,15 @@
       "eventId": "b08cefd9996dfc5a",
       "related": [],
       "score": {
-       "total": 58.6,
+       "total": 56.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 78.5,
+        "recency": 68.2,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -317,62 +314,60 @@
     },
     {
      "article": {
-      "id": "d82d2c1dae8dfaa0",
-      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
-      "excerpt": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The article Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol appeared…",
+      "id": "ffbd1a64645c93e8",
+      "url": "https://www.theguardian.com/business/2026/nov/14/young-people-shut-out-of-work-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘The social contract is broken’: young people on feeling shut out of careers",
+      "excerpt": "In the first instalment of a new series, four young people reveal the impact of an endless cycle of applications and rejections Guardian to follow lives of eight young people in their search for jobs “I’ve been demoralised by the process, just constantly applying, then interviewing. I’ve just been applying to any jobs that I could find. I’d really like to be employed by now. Some companies don’t…",
       "lang": "en",
-      "publishedAt": "2026-11-14T16:48:01Z",
+      "publishedAt": "2026-11-14T10:00:42Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-14T19:16:32Z",
+      "fetchedAt": "2026-11-14T14:15:40Z",
       "day": "2026-11-14",
-      "category": "models",
+      "category": "policy",
       "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "anthropic",
-       "openai"
+       "business",
+       "job hunting",
+       "youth unemployment",
+       "work experience",
+       "unemployment",
+       "young people"
       ],
-      "entities": [
-       "anthropic",
-       "google",
-       "openai"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
+       "url": "https://i.guim.co.uk/img/media/860911eab1a0affc10c2e4feb5a296c6527679b1/0_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=aa9b3d1a1e38dc826d94880fa77ac93c",
+       "credit": "Composite: Guardian Design/Getty Images/AFP/Alamy",
        "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "d82d2c1dae8dfaa0",
+      "eventId": "ffbd1a64645c93e8",
       "related": [],
       "score": {
-       "total": 56.3,
+       "total": 54.9,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 75.4,
-        "topic": 100.0,
-        "novelty": 81.8
+        "recency": 44.2,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
-        "title": "Gemini 4 Carbon تاج Math Arena را می گیرد اما ۱۵ برابر بیشتر از GPT-6.1 Sol هزینه دارد",
-        "excerpt": "برای اولین بار در یک زمان، هیچ مدل OpenAI منجر به معیار ریاضی ریاضی ریاضی ریاضی ریاضی ریاضی Math Arena AI نمی شود. Google’s Gemini 4 Carbon و Anthropic's Fable 5.2 از بالا GPT-6.1 Sol را از بین برد، هر چند هر دو هزینه قابل توجهی بیشتر است. Gemini محدودیت زمانی را در آزمایش نادیده گرفت و تقریبا هیچ وقت تسلیم یک کار نشد. مقاله Gemini 4 Carbon تاج Math Arena را می گیرد اما 15 برابر بیشتر از GPT-6.1 Sol ظاهر شد.",
+        "title": "قرارداد اجتماعی شکسته شده است: جوانان احساس می کنند از شغل خارج می شوند",
+        "excerpt": "در اولین شکست یک سری جدید، چهار جوان تاثیر یک چرخه بی پایان از برنامه ها و رد نگهبانان را نشان می دهند تا زندگی هشت جوان را در جستجوی شغل خود دنبال کنند: \"من توسط فرآیند تخریب شده ام، فقط به طور مداوم درخواست، سپس مصاحبه. من فقط برای هر شغلی که بتوانم پیدا کنم، درخواست کرده ام. واقعا دوست دارم تا الان استخدام شوم. برخی از شرکت ها ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T19:16:32Z"
+        "at": "2026-11-14T14:15:40Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -380,8 +375,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-07T21:41:22Z",
-   "to": "2026-11-14T21:41:22Z",
+   "from": "2026-11-08T00:08:07Z",
+   "to": "2026-11-15T00:08:07Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -419,15 +414,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.5,
+       "total": 77.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 31.0,
+        "recency": 30.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -443,65 +438,6 @@
      "reason": [
       "tier-1",
       "voices-4",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0446b4f8b26ddb27",
-      "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "From AI Factories to Intelligent Cities",
-      "excerpt": "AI factories, physical AI, and agents, built with local partners are helping cities improve planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation. #SCEWC26 #SmartCities #aiagents ➡️ Learn more: https://nvda.ws/3Vb9wWH",
-      "lang": "en",
-      "publishedAt": "2026-11-14T17:48:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-14T19:16:32Z",
-      "day": "2026-11-14",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i1.ytimg.com/vi/ha-gDrDm8Es/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ha-gDrDm8Es",
-       "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es"
-      },
-      "eventId": "0446b4f8b26ddb27",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.3,
-        "topic": 70.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-14T21:41:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از عوامل هوش مصنوعی تا شهرهای هوشمند",
-        "excerpt": "کارخانه های AI، AI فیزیکی و عوامل، ساخته شده با شرکای محلی کمک به شهرها برای بهبود برنامه ریزی، عملیات و خدمات عمومی است. یاد بگیرید که چگونه زیرساخت های مشترک و حمایت از مدیریت شهری امن تر خیابان ها، عملیات پاسخگو تر و نوآوری های قوی تر AI محلی است. #SCEWC26 #SmartCities # aiagents بیشتر یاد می گیرند: https://nvda.ws / 3Vb9wWHwWHW",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T19:16:32Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -537,15 +473,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.6,
+        "recency": 73.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -553,6 +489,65 @@
         "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T17:51:16Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "0446b4f8b26ddb27",
+      "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "From AI Factories to Intelligent Cities",
+      "excerpt": "AI factories, physical AI, and agents, built with local partners are helping cities improve planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation. #SCEWC26 #SmartCities #aiagents ➡️ Learn more: https://nvda.ws/3Vb9wWH",
+      "lang": "en",
+      "publishedAt": "2026-11-14T17:48:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-14T19:16:32Z",
+      "day": "2026-11-14",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i1.ytimg.com/vi/ha-gDrDm8Es/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "ha-gDrDm8Es",
+       "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es"
+      },
+      "eventId": "0446b4f8b26ddb27",
+      "related": [],
+      "score": {
+       "total": 68.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.1,
+        "topic": 70.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-15T00:08:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "از عوامل هوش مصنوعی تا شهرهای هوشمند",
+        "excerpt": "کارخانه های AI، AI فیزیکی و عوامل، ساخته شده با شرکای محلی کمک به شهرها برای بهبود برنامه ریزی، عملیات و خدمات عمومی است. یاد بگیرید که چگونه زیرساخت های مشترک و حمایت از مدیریت شهری امن تر خیابان ها، عملیات پاسخگو تر و نوآوری های قوی تر AI محلی است. #SCEWC26 #SmartCities # aiagents بیشتر یاد می گیرند: https://nvda.ws / 3Vb9wWHwWHW",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-14T19:16:32Z"
        }
       }
      },
@@ -590,15 +585,15 @@
       "eventId": "d1318183fe172893",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.6,
+        "recency": 68.0,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -649,15 +644,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.7,
+        "recency": 76.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -709,15 +704,15 @@
       "eventId": "7640cc164999215c",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 95.2,
         "topic": 85.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -763,15 +758,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 65.6,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.6,
+        "recency": 74.8,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -816,15 +811,15 @@
       "eventId": "8400bdfe1e2afd49",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.9,
+        "recency": 74.1,
         "topic": 75.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -845,8 +840,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-15T21:41:22Z",
-   "to": "2026-11-14T21:41:22Z",
+   "from": "2026-10-16T00:08:07Z",
+   "to": "2026-11-15T00:08:07Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +879,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 85.3,
+       "total": 85.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 70.4,
+        "recency": 69.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -943,15 +938,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.0,
+        "recency": 91.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -996,15 +991,15 @@
       "eventId": "d1318183fe172893",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.7,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1051,15 +1046,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 30.4,
+        "recency": 30.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1110,15 +1105,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 65.7,
+        "recency": 65.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1134,65 +1129,6 @@
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be81354d8a302a35",
-      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Advancing science & engineering with Antigravity’s /teamwork",
-      "excerpt": "Education Innovation",
-      "lang": "en",
-      "publishedAt": "2026-11-13T20:47:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T23:39:51Z",
-      "day": "2026-11-13",
-      "category": "research",
-      "tags": [
-       "education innovation",
-       "general science",
-       "machine intelligence",
-       "natural language processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "be81354d8a302a35",
-      "related": [],
-      "score": {
-       "total": 69.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.1,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-14T21:41:22Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ارتقاء علم و مهندسی با ضد جاذبه / کار تیمی",
-        "excerpt": "آموزش نوآوری",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T23:39:51Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1231,15 +1167,15 @@
        "998ff01b393f5b93"
       ],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 40.6,
+        "recency": 40.4,
         "topic": 70.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1250,11 +1186,70 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 6,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "be81354d8a302a35",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Advancing science & engineering with Antigravity’s /teamwork",
+      "excerpt": "Education Innovation",
+      "lang": "en",
+      "publishedAt": "2026-11-13T20:47:18Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-13T23:39:51Z",
+      "day": "2026-11-13",
+      "category": "research",
+      "tags": [
+       "education innovation",
+       "general science",
+       "machine intelligence",
+       "natural language processing"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "be81354d8a302a35",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.4,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-15T00:08:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ارتقاء علم و مهندسی با ضد جاذبه / کار تیمی",
+        "excerpt": "آموزش نوآوری",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-13T23:39:51Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1291,15 +1286,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.2,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1353,15 +1348,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.9,
+        "recency": 88.3,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
@@ -1407,15 +1402,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 91.7,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-14T21:41:22Z"
+       "asOf": "2026-11-15T00:08:07Z"
       },
       "tr": {
        "fa": {
