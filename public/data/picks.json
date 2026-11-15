@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-15T18:00:00Z",
+ "asOf": "2026-11-15T22:00:01Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,182 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-14T18:00:00Z",
-   "to": "2026-11-15T18:00:00Z",
+   "from": "2026-11-14T22:00:01Z",
+   "to": "2026-11-15T22:00:01Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "87d7014c15ee68a3",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:01Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "models",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "87d7014c15ee68a3",
+      "related": [],
+      "score": {
+       "total": 74.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گام به سوی تعریف مدل استاندارد در یک شبکه",
+        "excerpt": "کشف یک تعریف شبکه غیر اختلالی از مدل استاندارد و چگونگی کمک GPT-6 Astra به تبدیل ایده به یک اثبات دقیق.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4b0fc5b701ffd77d",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Our new blog for science",
+      "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "research",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "4b0fc5b701ffd77d",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "وبلاگ جدید ما برای علم",
+        "excerpt": "وبلاگ علمی OpenAI یافته های جدید، روش های عملی و حساب های دست اول از محققان با استفاده از AI برای پیشبرد کشف علمی را به اشتراک می گذارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1207b5c1c70bbc64",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority",
+      "lang": "en",
+      "publishedAt": "2026-11-15T19:15:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "nvidia",
+       "policy",
+       "politics",
+       "tech"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Photo collage of a photo of the US Capitol building coming out of a computer window.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "1207b5c1c70bbc64",
+      "related": [],
+      "score": {
+       "total": 61.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 85.4,
+        "topic": 85.0,
+        "novelty": 76.9
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کنگره می خواهد قوانین صادرات را بر روی تراشه های AI پس از رسوایی جاسوسی Nvidia سفت کند",
+        "excerpt": "تعجب آور نیست که پس از رسوایی شامل مدیرعامل فعلی Nvidia Jensen Huang و یک جاسوس چینی مشکوک، کنگره به دنبال محدود کردن صادرات تراشه های AI است. هم دموکرات ها و هم جمهوریخواهان از اقدامات و صورتحساب های مختلف که قوانین را سخت تر می کنند حمایت می کنند و از رهبران هوانگ و دیگر رهبران Nvidia قبل از کنگره شهادت می دهند. مجلس سنا Minority",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "0502dc334f328f9f",
@@ -47,200 +219,20 @@
       "eventId": "0502dc334f328f9f",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 60.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 76.8,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
         "title": "دیدگاه گاردین در مورد اصلاحات خدمات مدنی: AI نمی تواند یک حالت توانمند را به خود اختصاص دهد",
         "excerpt": "Whitehall باید تغییر کند، اما تکنولوژی بیشتری کافی نیست. راه های باز برای رهبری مهارت هایی را ایجاد می کند که اغلب وزیر کابینه، آنتونی رومئو را نادیده گرفته اند و خواستار اصلاحات در سرویس مدنی \"reactive and Risk-averse\" در سخنرانی خود در سه شنبه گذشته شده است. وزرای برنامه ریزی یک «تغییر اساسی» از قدرت ها، منابع و پاسخگویی به دولت محلی و محلی، که او گفت ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "a39fa7636e6a9150",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/16/is-the-ai-job-apocalypse-finally-here-the-evidence-suggests-otherwise",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Is the AI job apocalypse finally here? The evidence suggests otherwise | John Quiggin",
-      "excerpt": "The role AI played in job losses at Australia’s NAB, Qantas, Canva and Atlassian is far from clear – but it may prove to have more impact on the stock market than the jobs market Get our breaking news email, free app or daily news podcast In 1987, the Nobel prize winning economist Robert Solow remarked: “You can see the computer age everywhere but in the productivity statistics.” At the time…",
-      "lang": "en",
-      "publishedAt": "2026-11-15T14:00:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
-      "day": "2026-11-15",
-      "category": "products",
-      "tags": [
-       "ai (artificial intelligence)",
-       "job losses",
-       "business",
-       "stock markets"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/90b330e8a3a675d60169684e5857f5b61ae3ff3d/1500_0_5000_4000/master/5000.jpg?width=700&quality=85&auto=format&fit=max&s=c47cabf52533204be5d85aa14e91d6c3",
-       "credit": "Illustration: BlackJack3D/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "a39fa7636e6a9150",
-      "related": [],
-      "score": {
-       "total": 59.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 65.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آیا کار AI در نهایت در اینجا است؟ این شواهد نشان می دهد که در غیر این صورت، جان کویگی",
-        "excerpt": "نقش AI در زیان های شغلی در NAB استرالیا، Qantas، Canva و Atlassian بسیار واضح است - اما ممکن است ثابت کند که تاثیر بیشتری بر بازار سهام نسبت به بازار کار دریافت ایمیل اخبار ما، برنامه رایگان و یا پادکست اخبار روزانه در سال 1987، اقتصاددان برنده جایزه نوبل رابرت سولو گفت: \"شما می توانید سن، اما در همه جا در آمار بهره وری مشاهده کنید.\"",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "65ecef2327a06bf0",
-      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
-      "excerpt": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake…",
-      "lang": "en",
-      "publishedAt": "2026-11-15T15:42:03Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
-      "day": "2026-11-15",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "anthropic",
-       "claude",
-       "fable 5.2"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/claude_fable_5.2_painting.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "65ecef2327a06bf0",
-      "related": [],
-      "score": {
-       "total": 56.9,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 87.6,
-        "topic": 100.0,
-        "novelty": 63.6
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کلود Fable 5.2 Anthropic تصاویر تولید نمی کند، آنها را نقاشی می کند",
-        "excerpt": "کلود Fable 5.2 Anthropic تصاویر را به شیوه دیگر مدل های AI تولید نمی کند. به جای پیکسل های محاسباتی، مدل زبان کد پایتون را می نویسد که صدها هزار برس شبیه سازی شده را در یک بوم مجازی قرار می دهد که با بافت و نرم افزار رنگ کامل است. یک پارکینگ تک عکسی واقعی تقریباً ۷۰۰ هزار سکته مغزی را با توجه به کارمند Anthropic جیک به دست آورد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4c525e5e54fa3645",
-      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "An overview of Jensen Huang’s messy days",
-      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started On October",
-      "lang": "en",
-      "publishedAt": "2026-11-15T13:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
-      "day": "2026-11-15",
-      "category": "products",
-      "tags": [
-       "ai",
-       "column",
-       "nvidia",
-       "security",
-       "tech",
-       "the stepback"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301620664.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Jensen Huang in his leather jacket",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "4c525e5e54fa3645",
-      "related": [],
-      "score": {
-       "total": 56.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 74.9,
-        "topic": 65.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "خلاصه داستان : Jensen Huang's Dirty Days",
-        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای بیشتر در استعفای Jensen Huang و سقوط از بحران رهبری Nvidia، از Terrence O'Brien پیروی کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه در اکتبر شروع شد",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-15T17:48:41Z"
        }
@@ -256,52 +248,51 @@
     },
     {
      "article": {
-      "id": "437c9a05119d7ea7",
-      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "AI DJs Completely Kill My Groove",
-      "excerpt": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+      "id": "1a811a22b701406e",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
       "lang": "en",
-      "publishedAt": "2026-11-15T12:00:00Z",
+      "publishedAt": "2026-11-15T20:20:57Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
+      "fetchedAt": "2026-11-15T22:56:36Z",
       "day": "2026-11-15",
       "category": "business",
       "tags": [
-       "gear",
-       "gear / gear news and events",
-       "music",
-       "artificial intelligence",
-       "generative ai",
-       "streaming"
+       "ai",
+       "media & entertainment",
+       "jensen huang",
+       "nvidia",
+       "saturday night live",
+       "snl"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/master/pass/Untitled-1.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "437c9a05119d7ea7",
+      "eventId": "1a811a22b701406e",
       "related": [],
       "score": {
-       "total": 55.3,
+       "total": 59.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 70.7,
+        "recency": 90.9,
         "topic": 55.0,
-        "novelty": 88.9
+        "novelty": 90.9
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
-        "title": "دانلود موسیقی متن فیلم AI DJs Perfect Kill My Groove",
-        "excerpt": "YouTube Music و Spotify می خواهند میزبان های مصنوعی برای تهیه لیست های شما باشند. ممنوعیت های ناخوشایند و آهنگ های جعلی آن ها باعث خراب شدن فضا می شود.",
+        "title": "SNL جمع آوری تمام فن آوری برای یک درس در دوستیابی و جاسوسی",
+        "excerpt": "در حالی که مدیران فن آوری های عجیب و غریب تبدیل به یک موضوع تکراری در روز شنبه شب زنده شده اند، این هفته به بازیگران فرصتی برای نشان دادن تمام احساسات خود را در یک بار.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
+        "at": "2026-11-15T22:56:36Z"
        }
       }
      },
@@ -315,52 +306,52 @@
     },
     {
      "article": {
-      "id": "5b202e7c79319e5b",
-      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
-      "excerpt": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+      "id": "2cb612de9116082a",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
       "lang": "en",
-      "publishedAt": "2026-11-15T11:00:00Z",
+      "publishedAt": "2026-11-15T21:56:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T11:10:01Z",
+      "fetchedAt": "2026-11-15T22:56:36Z",
       "day": "2026-11-15",
       "category": "business",
       "tags": [
-       "gear",
-       "gear / gear news and events",
-       "artificial intelligence",
-       "generative ai",
-       "chatbots",
-       "assistant"
+       "ai",
+       "government & policy",
+       "equity podcast",
+       "jensen huang",
+       "nvidia"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://media.wired.com/photos/6af4802ffbe5af43ea5dee0a/master/pass/Screenshot%202026-11-11%20at%2014.47.44.png",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "5b202e7c79319e5b",
+      "eventId": "2cb612de9116082a",
       "related": [],
       "score": {
-       "total": 54.6,
+       "total": 58.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 66.7,
+        "recency": 99.7,
         "topic": 55.0,
-        "novelty": 90.0
+        "novelty": 66.7
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
-        "title": "این AI Tamagotchi اشیاء روزمره را به حیوانات مجازی نیاز می کند",
-        "excerpt": "ابزارهای کوچک E Ink دانش آموز کارنگی، به نام OATs، گیاهان خانگی، اسکیت بورد ها، و شخصیت های بیان کننده دمبل برای تحریک شما به سمت عادات بهتر.",
+        "title": "آیا خبر بد برای جینسن هوانگ نیز خبرهای بدی برای صنعت هوش مصنوعی است؟",
+        "excerpt": "\"جیسن، انیتین است، درست است؟\" و بسیاری از این اقتصاد در Nvidia سوار شده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T11:10:01Z"
+        "at": "2026-11-15T22:56:36Z"
        }
       }
      },
@@ -375,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-08T18:00:00Z",
-   "to": "2026-11-15T18:00:00Z",
+   "from": "2026-11-08T22:00:01Z",
+   "to": "2026-11-15T22:00:01Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -414,15 +405,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 25.5,
+        "recency": 24.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -438,6 +429,116 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "87d7014c15ee68a3",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:01Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "models",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "87d7014c15ee68a3",
+      "related": [],
+      "score": {
+       "total": 74.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گام به سوی تعریف مدل استاندارد در یک شبکه",
+        "excerpt": "کشف یک تعریف شبکه غیر اختلالی از مدل استاندارد و چگونگی کمک GPT-6 Astra به تبدیل ایده به یک اثبات دقیق.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4b0fc5b701ffd77d",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Our new blog for science",
+      "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "research",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
+      },
+      "eventId": "4b0fc5b701ffd77d",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "وبلاگ جدید ما برای علم",
+        "excerpt": "وبلاگ علمی OpenAI یافته های جدید، روش های عملی و حساب های دست اول از محققان با استفاده از AI برای پیشبرد کشف علمی را به اشتراک می گذارد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -473,15 +574,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.2,
+        "recency": 59.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -492,7 +593,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -532,15 +633,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.2,
+        "recency": 76.2,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -551,7 +652,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -592,15 +693,15 @@
       "eventId": "0502dc334f328f9f",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 64.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 95.7,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -611,7 +712,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -621,53 +722,62 @@
     },
     {
      "article": {
-      "id": "d1318183fe172893",
-      "url": "https://openai.com/business/customer-stories/shield",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "id": "1207b5c1c70bbc64",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority",
       "lang": "en",
-      "publishedAt": "2026-11-13T08:00:00Z",
+      "publishedAt": "2026-11-15T19:15:43Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-14T06:39:59Z",
-      "day": "2026-11-13",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "news",
+       "nvidia",
+       "policy",
+       "politics",
+       "tech"
       ],
-      "brand": "openai",
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Photo collage of a photo of the US Capitol building coming out of a computer window.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "d1318183fe172893",
+      "eventId": "1207b5c1c70bbc64",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 63.9,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 57.2,
-        "topic": 100.0,
-        "novelty": 84.6
+        "recency": 97.4,
+        "topic": 85.0,
+        "novelty": 76.9
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
-        "title": "Shield به تکنسین ها کمک می کند تا پورتال میراث را با OpenAI تحویل دهند",
-        "excerpt": "Shield از OpenAI برای کمک به تکنسین های IT برای تحویل کار در پورتال های میراث استفاده می کند. عوامل Forge آن سیستم ها را هدایت می کنند، بنابراین تکنسین ها می توانند بر مسائلی که نیاز به قضاوت دارند، تمرکز کنند.",
+        "title": "کنگره می خواهد قوانین صادرات را بر روی تراشه های AI پس از رسوایی جاسوسی Nvidia سفت کند",
+        "excerpt": "تعجب آور نیست که پس از رسوایی شامل مدیرعامل فعلی Nvidia Jensen Huang و یک جاسوس چینی مشکوک، کنگره به دنبال محدود کردن صادرات تراشه های AI است. هم دموکرات ها و هم جمهوریخواهان از اقدامات و صورتحساب های مختلف که قوانین را سخت تر می کنند حمایت می کنند و از رهبران هوانگ و دیگر رهبران Nvidia قبل از کنگره شهادت می دهند. مجلس سنا Minority",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T06:39:59Z"
+        "at": "2026-11-15T22:56:36Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -704,15 +814,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.7,
+        "recency": 62.3,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -720,112 +830,6 @@
         "excerpt": "آموزش نوآوری",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T23:39:51Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2427bacb74a96b4b",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T18:00:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T18:08:33Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
-      },
-      "eventId": "2427bacb74a96b4b",
-      "related": [],
-      "score": {
-       "total": 62.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 63.0,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T18:08:33Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8400bdfe1e2afd49",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "XYBench: Helping with the problem behind the question",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T17:02:35Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/aOWdQgZ8ioJcx9Eii4iob.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/xybench"
-      },
-      "eventId": "8400bdfe1e2afd49",
-      "related": [],
-      "score": {
-       "total": 62.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 62.4,
-        "topic": 75.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "XYBench: کمک به مشکل پشت سوال",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
        }
       }
      },
@@ -840,8 +844,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-16T18:00:00Z",
-   "to": "2026-11-15T18:00:00Z",
+   "from": "2026-10-16T22:00:01Z",
+   "to": "2026-11-15T22:00:01Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -879,15 +883,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 84.5,
+       "total": 84.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 66.4,
+        "recency": 65.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -903,6 +907,61 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "87d7014c15ee68a3",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "lang": "en",
+      "publishedAt": "2026-11-15T22:00:01Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "models",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "87d7014c15ee68a3",
+      "related": [],
+      "score": {
+       "total": 74.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-15T22:00:01Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گام به سوی تعریف مدل استاندارد در یک شبکه",
+        "excerpt": "کشف یک تعریف شبکه غیر اختلالی از مدل استاندارد و چگونگی کمک GPT-6 Astra به تبدیل ایده به یک اثبات دقیق.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-15T22:56:36Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -938,15 +997,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.7,
+        "recency": 85.7,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -957,7 +1016,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -997,11 +1056,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 28.6,
+        "recency": 28.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -1011,7 +1070,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1022,50 +1081,52 @@
     },
     {
      "article": {
-      "id": "d1318183fe172893",
-      "url": "https://openai.com/business/customer-stories/shield",
+      "id": "4b0fc5b701ffd77d",
+      "url": "https://openai.com/index/our-new-blog-for-science",
       "sourceId": "openai-news",
       "sourceName": "OpenAI News",
-      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "title": "Our new blog for science",
+      "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
       "lang": "en",
-      "publishedAt": "2026-11-13T08:00:00Z",
+      "publishedAt": "2026-11-15T22:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-14T06:39:59Z",
-      "day": "2026-11-13",
-      "category": "models",
-      "tags": [],
+      "fetchedAt": "2026-11-15T22:56:36Z",
+      "day": "2026-11-15",
+      "category": "research",
+      "tags": [
+       "science"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
+       "url": "images/fallbacks/research.svg",
        "kind": "fallback"
       },
-      "eventId": "d1318183fe172893",
+      "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.6,
-        "topic": 100.0,
-        "novelty": 84.6
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
-        "title": "Shield به تکنسین ها کمک می کند تا پورتال میراث را با OpenAI تحویل دهند",
-        "excerpt": "Shield از OpenAI برای کمک به تکنسین های IT برای تحویل کار در پورتال های میراث استفاده می کند. عوامل Forge آن سیستم ها را هدایت می کنند، بنابراین تکنسین ها می توانند بر مسائلی که نیاز به قضاوت دارند، تمرکز کنند.",
+        "title": "وبلاگ جدید ما برای علم",
+        "excerpt": "وبلاگ علمی OpenAI یافته های جدید، روش های عملی و حساب های دست اول از محققان با استفاده از AI برای پیشبرد کشف علمی را به اشتراک می گذارد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T06:39:59Z"
+        "at": "2026-11-15T22:56:36Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1105,15 +1166,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 62.0,
+        "recency": 61.3,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -1124,73 +1185,11 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0dbf0226aa90a12c",
-      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "excerpt": "Data centers are deeply unpopular. But what if we called them something else?",
-      "lang": "en",
-      "publishedAt": "2026-11-01T21:55:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-01T23:40:44Z",
-      "day": "2026-11-01",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "chris lehane",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "0dbf0226aa90a12c",
-      "related": [
-       "32791f69eb2c329e",
-       "998ff01b393f5b93"
-      ],
-      "score": {
-       "total": 68.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 38.3,
-        "topic": 70.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-15T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI ممکن است مراکز داده خود را به عنوان “دانشگاه های محاسبات هوش مصنوعی” دوباره معرفی کند.",
-        "excerpt": "مراکز داده به طور عمیقی غیر محبوب هستند. اما اگر ما آنها را چیز دیگری بنامیم چه؟",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-01T23:40:44Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1227,15 +1226,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.8,
+        "recency": 86.8,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -1286,15 +1285,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 92.2,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -1348,15 +1347,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.8,
+        "recency": 82.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
@@ -1402,15 +1401,15 @@
       "eventId": "2427bacb74a96b4b",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.1,
+        "recency": 86.1,
         "topic": 75.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-15T18:00:00Z"
+       "asOf": "2026-11-15T22:00:01Z"
       },
       "tr": {
        "fa": {
