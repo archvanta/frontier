@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-15T22:00:01Z",
+ "asOf": "2026-11-16T01:30:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-14T22:00:01Z",
-   "to": "2026-11-15T22:00:01Z",
+   "from": "2026-11-15T01:30:00Z",
+   "to": "2026-11-16T01:30:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -42,15 +42,15 @@
       "eventId": "87d7014c15ee68a3",
       "related": [],
       "score": {
-       "total": 74.2,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 81.7,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -62,6 +62,67 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "46b48e728e810800",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai",
+      "lang": "en",
+      "publishedAt": "2026-11-16T00:00:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai days",
+       "deep learning institute",
+       "events",
+       "inception"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-day-seoul-wrapup-1920x1080-1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "46b48e728e810800",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.7,
+        "topic": 70.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "روز AI سئول رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را گرد هم می آورد",
+        "excerpt": "بیش از دو روز در COEX، بیش از ۲۰۰۰ شرکت کننده برای روز AI سئول گرد هم آمدند و رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را در حال پیشرفت عوامل هوش مصنوعی و AI هستند. در جلسات پر زرق و برق، Deepu Talla، معاون رئیس رباتیک و هوش مصنوعی لبه در NVIDIA، گفت که کره \"به مراتب بالاتر از وزن خود\" است، با Doosan Robotics، هیوندای",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T02:49:57Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -97,15 +158,15 @@
       "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 81.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -116,7 +177,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -126,115 +187,53 @@
     },
     {
      "article": {
-      "id": "1207b5c1c70bbc64",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "id": "f7214e14d1e100a3",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
       "sourceId": "verge-ai",
       "sourceName": "The Verge — AI",
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical",
       "lang": "en",
-      "publishedAt": "2026-11-15T19:15:43Z",
+      "publishedAt": "2026-11-16T01:26:56Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
-      "category": "policy",
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "research",
       "tags": [
        "ai",
+       "apple",
        "news",
-       "nvidia",
-       "policy",
-       "politics",
        "tech"
       ],
       "entities": [
-       "nvidia"
+       "apple"
       ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Photo collage of a photo of the US Capitol building coming out of a computer window.",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Two iPhones running the Apple Health AI Usage Study app.",
        "kind": "feed",
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "1207b5c1c70bbc64",
+      "eventId": "f7214e14d1e100a3",
       "related": [],
       "score": {
-       "total": 61.5,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.4,
-        "topic": 85.0,
-        "novelty": 76.9
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
-        "title": "کنگره می خواهد قوانین صادرات را بر روی تراشه های AI پس از رسوایی جاسوسی Nvidia سفت کند",
-        "excerpt": "تعجب آور نیست که پس از رسوایی شامل مدیرعامل فعلی Nvidia Jensen Huang و یک جاسوس چینی مشکوک، کنگره به دنبال محدود کردن صادرات تراشه های AI است. هم دموکرات ها و هم جمهوریخواهان از اقدامات و صورتحساب های مختلف که قوانین را سخت تر می کنند حمایت می کنند و از رهبران هوانگ و دیگر رهبران Nvidia قبل از کنگره شهادت می دهند. مجلس سنا Minority",
+        "title": "مطالعه جدید اپل به دنبال بهبود اثربخشی ابزارهای سلامت AI است",
+        "excerpt": "اپل امروز یک مطالعه جدید را با هدف درک بهتر چگونگی تعامل مردم با ابزارهای سلامت روان هوش مصنوعی و چگونگی مفید بودن پاسخ های آنها اعلام کرد. این شرکت در حال انجام مطالعه استفاده از هوش مصنوعی اپل در همکاری با OpenEvidence، یک پلت فرم هوش مصنوعی بالینی استفاده شده توسط متخصصان مراقبت های بهداشتی است که پاسخ بر اساس پزشکی تولید می کند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0502dc334f328f9f",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
-      "excerpt": "Whitehall needs to change, but more technology isn’t enough. Opening routes to leadership would bring skills that are too often overlooked The cabinet secretary, Antonia Romeo, called for an overhaul of a “reactive and risk-averse” civil service in her speech last Tuesday. Ministers planned a “radical shift” of powers, resources and accountability to regional and local government, which she said…",
-      "lang": "en",
-      "publishedAt": "2026-11-15T17:25:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
-      "day": "2026-11-15",
-      "category": "policy",
-      "tags": [
-       "civil service",
-       "politics",
-       "ai (artificial intelligence)",
-       "class issues",
-       "schools",
-       "education"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/381f5b016eabf59928e51e4cbadea3a60ecabadc/68_0_3108_2486/master/3108.jpg?width=700&quality=85&auto=format&fit=max&s=d38d3963791622fb2e9ce40d76218028",
-       "credit": "Photograph: Cabinet Office",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "0502dc334f328f9f",
-      "related": [],
-      "score": {
-       "total": 60.4,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 76.8,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دیدگاه گاردین در مورد اصلاحات خدمات مدنی: AI نمی تواند یک حالت توانمند را به خود اختصاص دهد",
-        "excerpt": "Whitehall باید تغییر کند، اما تکنولوژی بیشتری کافی نیست. راه های باز برای رهبری مهارت هایی را ایجاد می کند که اغلب وزیر کابینه، آنتونی رومئو را نادیده گرفته اند و خواستار اصلاحات در سرویس مدنی \"reactive and Risk-averse\" در سخنرانی خود در سه شنبه گذشته شده است. وزرای برنامه ریزی یک «تغییر اساسی» از قدرت ها، منابع و پاسخگویی به دولت محلی و محلی، که او گفت ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
+        "at": "2026-11-16T02:49:57Z"
        }
       }
      },
@@ -248,51 +247,53 @@
     },
     {
      "article": {
-      "id": "1a811a22b701406e",
-      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
-      "excerpt": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "id": "2f404cbfd468f7e9",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+      "excerpt": "Calls for governments to recognise sexual exploitation of children as preventable public health emergency Reports of artificial intelligence being used to sexually exploit children have risen by more than 8,400% in two years, research has found. A report by the Edinburgh-based Childlight – Global Child Safety Institute says AI-related child abuse material, including deepfakes using “nudify…",
       "lang": "en",
-      "publishedAt": "2026-11-15T20:20:57Z",
+      "publishedAt": "2026-11-16T00:01:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
-      "category": "business",
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "policy",
       "tags": [
-       "ai",
-       "media & entertainment",
-       "jensen huang",
-       "nvidia",
-       "saturday night live",
-       "snl"
+       "ai (artificial intelligence)",
+       "internet safety",
+       "online abuse",
+       "child protection",
+       "sextortion",
+       "child rights"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/290c54f9326fd6704518afe33633827e4920b4e8/255_0_1269_1015/master/1269.jpg?width=700&quality=85&auto=format&fit=max&s=b76887a01d165c7ccb8c6577778aedc9",
+       "credit": "Photograph: Childlight/PA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "1a811a22b701406e",
+      "eventId": "2f404cbfd468f7e9",
       "related": [],
       "score": {
-       "total": 59.5,
+       "total": 64.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 55.0,
-        "novelty": 90.9
+        "recency": 91.8,
+        "topic": 85.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
-        "title": "SNL جمع آوری تمام فن آوری برای یک درس در دوستیابی و جاسوسی",
-        "excerpt": "در حالی که مدیران فن آوری های عجیب و غریب تبدیل به یک موضوع تکراری در روز شنبه شب زنده شده اند، این هفته به بازیگران فرصتی برای نشان دادن تمام احساسات خود را در یک بار.",
+        "title": "گزارش های مربوط به سوء استفاده جنسی کودک AI در دو سال، 8400٪ افزایش می یابد.",
+        "excerpt": "درخواست دولت ها برای به رسمیت شناختن بهره برداری جنسی از کودکان به عنوان گزارش های اضطراری بهداشت عمومی از هوش مصنوعی مورد استفاده برای بهره برداری جنسی کودکان در دو سال گذشته بیش از 8400 درصد افزایش یافته است. گزارشی که توسط موسسه ایمنی کودکان مستقر در ادینبورگ منتشر شده است، می گوید مواد سوء استفاده از کودکان مرتبط با هوش مصنوعی، از جمله موارد عمیق با استفاده از “nudify ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
+        "at": "2026-11-16T02:49:57Z"
        }
       }
      },
@@ -306,52 +307,52 @@
     },
     {
      "article": {
-      "id": "2cb612de9116082a",
-      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+      "id": "09862cd7036c6133",
+      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
       "sourceId": "techcrunch-ai",
       "sourceName": "TechCrunch AI",
-      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
-      "excerpt": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "title": "Apple launches new app to study how people use AI for health",
+      "excerpt": "Apple's new app for a study will answer everyday medical questions",
       "lang": "en",
-      "publishedAt": "2026-11-15T21:56:35Z",
+      "publishedAt": "2026-11-16T01:30:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
-      "category": "business",
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "research",
       "tags": [
        "ai",
-       "government & policy",
-       "equity podcast",
-       "jensen huang",
-       "nvidia"
+       "apps",
+       "apple",
+       "health",
+       "openevidence"
       ],
       "entities": [
-       "nvidia"
+       "apple"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
+       "url": "images/fallbacks/research.svg",
        "kind": "fallback"
       },
-      "eventId": "2cb612de9116082a",
+      "eventId": "09862cd7036c6133",
       "related": [],
       "score": {
-       "total": 58.9,
+       "total": 64.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 55.0,
-        "novelty": 66.7
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا خبر بد برای جینسن هوانگ نیز خبرهای بدی برای صنعت هوش مصنوعی است؟",
-        "excerpt": "\"جیسن، انیتین است، درست است؟\" و بسیاری از این اقتصاد در Nvidia سوار شده است.",
+        "title": "اپل برنامه جدیدی را برای مطالعه نحوه استفاده افراد از AI برای سلامتی راه اندازی کرد",
+        "excerpt": "برنامه جدید اپل برای یک مطالعه به سوالات پزشکی روزمره پاسخ خواهد داد",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
+        "at": "2026-11-16T02:49:57Z"
        }
       }
      },
@@ -366,8 +367,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-08T22:00:01Z",
-   "to": "2026-11-15T22:00:01Z",
+   "from": "2026-11-09T01:30:00Z",
+   "to": "2026-11-16T01:30:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +406,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 76.2,
+       "total": 76.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 24.5,
+        "recency": 23.7,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +461,15 @@
       "eventId": "87d7014c15ee68a3",
       "related": [],
       "score": {
-       "total": 74.2,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.7,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -515,15 +516,15 @@
       "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -538,6 +539,187 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "46b48e728e810800",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai",
+      "lang": "en",
+      "publishedAt": "2026-11-16T00:00:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai days",
+       "deep learning institute",
+       "events",
+       "inception"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-day-seoul-wrapup-1920x1080-1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "46b48e728e810800",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 70.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "روز AI سئول رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را گرد هم می آورد",
+        "excerpt": "بیش از دو روز در COEX، بیش از ۲۰۰۰ شرکت کننده برای روز AI سئول گرد هم آمدند و رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را در حال پیشرفت عوامل هوش مصنوعی و AI هستند. در جلسات پر زرق و برق، Deepu Talla، معاون رئیس رباتیک و هوش مصنوعی لبه در NVIDIA، گفت که کره \"به مراتب بالاتر از وزن خود\" است، با Doosan Robotics، هیوندای",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T02:49:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2f404cbfd468f7e9",
+      "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
+      "excerpt": "Calls for governments to recognise sexual exploitation of children as preventable public health emergency Reports of artificial intelligence being used to sexually exploit children have risen by more than 8,400% in two years, research has found. A report by the Edinburgh-based Childlight – Global Child Safety Institute says AI-related child abuse material, including deepfakes using “nudify…",
+      "lang": "en",
+      "publishedAt": "2026-11-16T00:01:27Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "internet safety",
+       "online abuse",
+       "child protection",
+       "sextortion",
+       "child rights"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/290c54f9326fd6704518afe33633827e4920b4e8/255_0_1269_1015/master/1269.jpg?width=700&quality=85&auto=format&fit=max&s=b76887a01d165c7ccb8c6577778aedc9",
+       "credit": "Photograph: Childlight/PA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "2f404cbfd468f7e9",
+      "related": [],
+      "score": {
+       "total": 65.5,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 85.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گزارش های مربوط به سوء استفاده جنسی کودک AI در دو سال، 8400٪ افزایش می یابد.",
+        "excerpt": "درخواست دولت ها برای به رسمیت شناختن بهره برداری جنسی از کودکان به عنوان گزارش های اضطراری بهداشت عمومی از هوش مصنوعی مورد استفاده برای بهره برداری جنسی کودکان در دو سال گذشته بیش از 8400 درصد افزایش یافته است. گزارشی که توسط موسسه ایمنی کودکان مستقر در ادینبورگ منتشر شده است، می گوید مواد سوء استفاده از کودکان مرتبط با هوش مصنوعی، از جمله موارد عمیق با استفاده از “nudify ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T02:49:57Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f7214e14d1e100a3",
+      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+      "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical",
+      "lang": "en",
+      "publishedAt": "2026-11-16T01:26:56Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "research",
+      "tags": [
+       "ai",
+       "apple",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "apple"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Two iPhones running the Apple Health AI Usage Study app.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "f7214e14d1e100a3",
+      "related": [],
+      "score": {
+       "total": 65.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مطالعه جدید اپل به دنبال بهبود اثربخشی ابزارهای سلامت AI است",
+        "excerpt": "اپل امروز یک مطالعه جدید را با هدف درک بهتر چگونگی تعامل مردم با ابزارهای سلامت روان هوش مصنوعی و چگونگی مفید بودن پاسخ های آنها اعلام کرد. این شرکت در حال انجام مطالعه استفاده از هوش مصنوعی اپل در همکاری با OpenEvidence، یک پلت فرم هوش مصنوعی بالینی استفاده شده توسط متخصصان مراقبت های بهداشتی است که پاسخ بر اساس پزشکی تولید می کند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T02:49:57Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -574,15 +756,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 59.8,
+        "recency": 57.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -593,7 +775,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -633,15 +815,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 64.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.2,
+        "recency": 73.7,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -649,187 +831,6 @@
         "excerpt": "کارخانه های AI، AI فیزیکی و عوامل، ساخته شده با شرکای محلی کمک به شهرها برای بهبود برنامه ریزی، عملیات و خدمات عمومی است. یاد بگیرید که چگونه زیرساخت های مشترک و حمایت از مدیریت شهری امن تر خیابان ها، عملیات پاسخگو تر و نوآوری های قوی تر AI محلی است. #SCEWC26 #SmartCities # aiagents بیشتر یاد می گیرند: https://nvda.ws / 3Vb9wWHwWHW",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-14T19:16:32Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0502dc334f328f9f",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/15/the-guardian-view-on-civil-service-reform-ai-cannot-conjure-a-capable-state-on-its-own",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "The Guardian view on civil service reform: AI cannot conjure a capable state on its own | Editorial",
-      "excerpt": "Whitehall needs to change, but more technology isn’t enough. Opening routes to leadership would bring skills that are too often overlooked The cabinet secretary, Antonia Romeo, called for an overhaul of a “reactive and risk-averse” civil service in her speech last Tuesday. Ministers planned a “radical shift” of powers, resources and accountability to regional and local government, which she said…",
-      "lang": "en",
-      "publishedAt": "2026-11-15T17:25:19Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T17:48:41Z",
-      "day": "2026-11-15",
-      "category": "policy",
-      "tags": [
-       "civil service",
-       "politics",
-       "ai (artificial intelligence)",
-       "class issues",
-       "schools",
-       "education"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/381f5b016eabf59928e51e4cbadea3a60ecabadc/68_0_3108_2486/master/3108.jpg?width=700&quality=85&auto=format&fit=max&s=d38d3963791622fb2e9ce40d76218028",
-       "credit": "Photograph: Cabinet Office",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "0502dc334f328f9f",
-      "related": [],
-      "score": {
-       "total": 64.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 95.7,
-        "topic": 85.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دیدگاه گاردین در مورد اصلاحات خدمات مدنی: AI نمی تواند یک حالت توانمند را به خود اختصاص دهد",
-        "excerpt": "Whitehall باید تغییر کند، اما تکنولوژی بیشتری کافی نیست. راه های باز برای رهبری مهارت هایی را ایجاد می کند که اغلب وزیر کابینه، آنتونی رومئو را نادیده گرفته اند و خواستار اصلاحات در سرویس مدنی \"reactive and Risk-averse\" در سخنرانی خود در سه شنبه گذشته شده است. وزرای برنامه ریزی یک «تغییر اساسی» از قدرت ها، منابع و پاسخگویی به دولت محلی و محلی، که او گفت ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T17:48:41Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1207b5c1c70bbc64",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
-      "excerpt": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority",
-      "lang": "en",
-      "publishedAt": "2026-11-15T19:15:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "news",
-       "nvidia",
-       "policy",
-       "politics",
-       "tech"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Photo collage of a photo of the US Capitol building coming out of a computer window.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "1207b5c1c70bbc64",
-      "related": [],
-      "score": {
-       "total": 63.9,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 85.0,
-        "novelty": 76.9
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کنگره می خواهد قوانین صادرات را بر روی تراشه های AI پس از رسوایی جاسوسی Nvidia سفت کند",
-        "excerpt": "تعجب آور نیست که پس از رسوایی شامل مدیرعامل فعلی Nvidia Jensen Huang و یک جاسوس چینی مشکوک، کنگره به دنبال محدود کردن صادرات تراشه های AI است. هم دموکرات ها و هم جمهوریخواهان از اقدامات و صورتحساب های مختلف که قوانین را سخت تر می کنند حمایت می کنند و از رهبران هوانگ و دیگر رهبران Nvidia قبل از کنگره شهادت می دهند. مجلس سنا Minority",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "be81354d8a302a35",
-      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Advancing science & engineering with Antigravity’s /teamwork",
-      "excerpt": "Education Innovation",
-      "lang": "en",
-      "publishedAt": "2026-11-13T20:47:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T23:39:51Z",
-      "day": "2026-11-13",
-      "category": "research",
-      "tags": [
-       "education innovation",
-       "general science",
-       "machine intelligence",
-       "natural language processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "be81354d8a302a35",
-      "related": [],
-      "score": {
-       "total": 63.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 62.3,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ارتقاء علم و مهندسی با ضد جاذبه / کار تیمی",
-        "excerpt": "آموزش نوآوری",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T23:39:51Z"
        }
       }
      },
@@ -844,8 +845,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-16T22:00:01Z",
-   "to": "2026-11-15T22:00:01Z",
+   "from": "2026-10-17T01:30:00Z",
+   "to": "2026-11-16T01:30:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -883,15 +884,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 84.4,
+       "total": 84.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 65.6,
+        "recency": 65.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -938,15 +939,15 @@
       "eventId": "87d7014c15ee68a3",
       "related": [],
       "score": {
-       "total": 74.2,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.0,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -961,6 +962,61 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "34b0bf3f94c3851e",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-10-28T18:55:11Z",
+      "day": "2026-10-28",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "34b0bf3f94c3851e",
+      "related": [
+       "41e0dc889e76cc16"
+      ],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 50.0,
+        "recency": 28.0,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-10-28T18:55:11Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 2,
+     "reason": [
+      "tier-1",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -997,15 +1053,15 @@
       "eventId": "7544c26f6d39ea35",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 84.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1016,65 +1072,10 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 70.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 28.3,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1107,15 +1108,15 @@
       "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.0,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1166,15 +1167,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 61.3,
+        "recency": 60.7,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1190,6 +1191,67 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "46b48e728e810800",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup",
+      "sourceId": "nvidia-blog",
+      "sourceName": "NVIDIA Blog",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "excerpt": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai",
+      "lang": "en",
+      "publishedAt": "2026-11-16T00:00:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T02:49:57Z",
+      "day": "2026-11-16",
+      "category": "hardware",
+      "tags": [
+       "ai",
+       "agentic ai",
+       "ai days",
+       "deep learning institute",
+       "events",
+       "inception"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ai-day-seoul-wrapup-1920x1080-1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://blogs.nvidia.com/feed/"
+      },
+      "eventId": "46b48e728e810800",
+      "related": [],
+      "score": {
+       "total": 69.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.6,
+        "topic": 70.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-16T01:30:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "روز AI سئول رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را گرد هم می آورد",
+        "excerpt": "بیش از دو روز در COEX، بیش از ۲۰۰۰ شرکت کننده برای روز AI سئول گرد هم آمدند و رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را در حال پیشرفت عوامل هوش مصنوعی و AI هستند. در جلسات پر زرق و برق، Deepu Talla، معاون رئیس رباتیک و هوش مصنوعی لبه در NVIDIA، گفت که کره \"به مراتب بالاتر از وزن خود\" است، با Doosan Robotics، هیوندای",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T02:49:57Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1226,15 +1288,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
+        "recency": 85.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1245,7 +1307,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1285,15 +1347,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 91.3,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1304,7 +1366,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1347,15 +1409,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.9,
+        "recency": 82.1,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-15T22:00:01Z"
+       "asOf": "2026-11-16T01:30:00Z"
       },
       "tr": {
        "fa": {
@@ -1363,59 +1425,6 @@
         "excerpt": "این سیستم از انسان ها برای بازخورد برای افزایش اعتماد در طرح های تولید شده ماشین برای ساختمان ها و پل ها می پرسد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-13T09:40:58Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2427bacb74a96b4b",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-13T18:00:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T18:08:33Z",
-      "day": "2026-11-13",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6abfe9e7d7cf09a9b38ef308/HFZWtQ2i9VN_agjeUw2HB.gif",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
-      },
-      "eventId": "2427bacb74a96b4b",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 86.1,
-        "topic": 75.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-15T22:00:01Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت شبیه سازی Robot Pick-and-Place با دارایی های SimReady",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T18:08:33Z"
        }
       }
      },
