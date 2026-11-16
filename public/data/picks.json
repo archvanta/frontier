@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-16T01:30:00Z",
+ "asOf": "2026-11-16T11:00:54Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,61 +10,172 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-15T01:30:00Z",
-   "to": "2026-11-16T01:30:00Z",
+   "from": "2026-11-15T11:00:54Z",
+   "to": "2026-11-16T11:00:54Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "87d7014c15ee68a3",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "A step toward defining the Standard Model on a lattice",
-      "excerpt": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "id": "724333834a57d025",
+      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "La Cousinade",
+      "excerpt": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
       "lang": "en",
-      "publishedAt": "2026-11-15T22:00:01Z",
+      "publishedAt": "2026-11-16T05:00:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
       "category": "models",
-      "tags": [
-       "science"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "87d7014c15ee68a3",
+      "video": {
+       "provider": "youtube",
+       "id": "soNLXvgUqNY",
+       "url": "https://www.youtube.com/watch?v=soNLXvgUqNY"
+      },
+      "eventId": "724333834a57d025",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 70.7,
         "topic": 100.0,
-        "novelty": 91.7
+        "novelty": 100.0
        },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گام به سوی تعریف مدل استاندارد در یک شبکه",
-        "excerpt": "کشف یک تعریف شبکه غیر اختلالی از مدل استاندارد و چگونگی کمک GPT-6 Astra به تبدیل ایده به یک اثبات دقیق.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
-       }
+       "asOf": "2026-11-16T11:00:54Z"
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "91e58e2ea930c2fa",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "excerpt": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-11-16T09:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
+      "category": "business",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "91e58e2ea930c2fa",
+      "related": [],
+      "score": {
+       "total": 64.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.0,
+        "topic": 55.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-16T11:00:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بخش رسانه های LVMH اعلام همکاری استراتژیک با OpenAI",
+        "excerpt": "بخش رسانه های LVMH و OpenAI یک همکاری برای حمایت از روزنامه نگاری با AI اعلام کرده و نشریات خود را از طریق ChatGPT قابل دسترسی تر می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T11:40:18Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "db43089f31ad646a",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Albanese treads tightrope in upcoming Trump meeting, wanting Indo-Pacific engagement and end to Iran and Ukraine wars",
+      "excerpt": "Quad leaders’ summit in Philippines is Trump’s first, as Australia joins US and Japan to protect AI technologies in face of China efforts to dominate Get our daily political email, free app or daily news podcast Anthony Albanese will attempt to walk a tightrope in his relationship with Donald Trump when the pair meets on Tuesday, arguing for a speedy resolution to the wars in Iran and Ukraine…",
+      "lang": "en",
+      "publishedAt": "2026-11-16T09:40:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
+      "category": "products",
+      "tags": [
+       "australian foreign policy",
+       "donald trump",
+       "anthony albanese",
+       "australian politics",
+       "asean (association of southeast asian na",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/b57480f6f6d59b1e608fcb68882810c017ea2e92/499_0_4985_3988/master/4985.jpg?width=700&quality=85&auto=format&fit=max&s=fe86b6044b3302a726aa13e51c1062e8",
+       "credit": "Photograph: Lukas Coch/EPA",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "db43089f31ad646a",
+      "related": [],
+      "score": {
+       "total": 61.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 92.6,
+        "topic": 65.0,
+        "novelty": 94.1
+       },
+       "asOf": "2026-11-16T11:00:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آلبانز در نشست آینده ترامپ، خواستار مشارکت هند و اقیانوسیه و پایان دادن به جنگ های ایران و اوکراین",
+        "excerpt": "نشست رهبران چهارگانه در فیلیپین اولین نشست ترامپ است، زیرا استرالیا به ایالات متحده و ژاپن ملحق می شود تا از فناوری های AI در مواجهه با تلاش های چین برای تسلط بر ایمیل سیاسی روزانه، برنامه آزاد یا پادکست خبری روزانه آنتونی آلبانز، در رابطه با دونالد ترامپ محافظت کند، زمانی که این جفت ارز در روز سه شنبه ملاقات می کند، برای حل سریع جنگ ها در ایران و اوکراین بحث می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T11:40:18Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -103,15 +214,15 @@
       "eventId": "46b48e728e810800",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 60.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 53.0,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -122,178 +233,63 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4b0fc5b701ffd77d",
-      "url": "https://openai.com/index/our-new-blog-for-science",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Our new blog for science",
-      "excerpt": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
-      "lang": "en",
-      "publishedAt": "2026-11-15T22:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-15T22:56:36Z",
-      "day": "2026-11-15",
-      "category": "research",
-      "tags": [
-       "science"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "4b0fc5b701ffd77d",
-      "related": [],
-      "score": {
-       "total": 66.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.7,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "وبلاگ جدید ما برای علم",
-        "excerpt": "وبلاگ علمی OpenAI یافته های جدید، روش های عملی و حساب های دست اول از محققان با استفاده از AI برای پیشبرد کشف علمی را به اشتراک می گذارد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-15T22:56:36Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f7214e14d1e100a3",
-      "url": "https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
-      "excerpt": "Apple announced a new study today with the goal of better understanding how people interact with conversational AI health tools and how useful their responses actually are. The company is conducting the Apple Health AI Usage Study in collaboration with OpenEvidence, a clinical AI platform used by healthcare professionals that generates answers based on medical",
-      "lang": "en",
-      "publishedAt": "2026-11-16T01:26:56Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T02:49:57Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [
-       "ai",
-       "apple",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "apple"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/applestudy1b.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Two iPhones running the Apple Health AI Usage Study app.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "f7214e14d1e100a3",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 80.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مطالعه جدید اپل به دنبال بهبود اثربخشی ابزارهای سلامت AI است",
-        "excerpt": "اپل امروز یک مطالعه جدید را با هدف درک بهتر چگونگی تعامل مردم با ابزارهای سلامت روان هوش مصنوعی و چگونگی مفید بودن پاسخ های آنها اعلام کرد. این شرکت در حال انجام مطالعه استفاده از هوش مصنوعی اپل در همکاری با OpenEvidence، یک پلت فرم هوش مصنوعی بالینی استفاده شده توسط متخصصان مراقبت های بهداشتی است که پاسخ بر اساس پزشکی تولید می کند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T02:49:57Z"
-       }
-      }
-     },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "2f404cbfd468f7e9",
-      "url": "https://www.theguardian.com/technology/2026/nov/16/ai-related-child-sexual-abuse-material-rise-exploitation-deepfakes",
+      "id": "022551b4aa7642dc",
+      "url": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Reports of AI-related child sexual abuse material rise 8,400% in two years, data shows",
-      "excerpt": "Calls for governments to recognise sexual exploitation of children as preventable public health emergency Reports of artificial intelligence being used to sexually exploit children have risen by more than 8,400% in two years, research has found. A report by the Edinburgh-based Childlight – Global Child Safety Institute says AI-related child abuse material, including deepfakes using “nudify…",
+      "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+      "excerpt": "Lords report calls for urgent new approach to resilience planning in face of cyber-attacks, sabotage and climate crisis Ministers are complacent in the face of fast-changing and increasingly interconnected threats to the UK, and must act quickly to increase national resilience to possibly very major crises, a parliamentary report has found. While Labour recently launched a “Be Ready” campaign…",
       "lang": "en",
-      "publishedAt": "2026-11-16T00:01:27Z",
+      "publishedAt": "2026-11-16T06:30:35Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T02:49:57Z",
+      "fetchedAt": "2026-11-16T11:40:18Z",
       "day": "2026-11-16",
       "category": "policy",
       "tags": [
-       "ai (artificial intelligence)",
-       "internet safety",
-       "online abuse",
-       "child protection",
-       "sextortion",
-       "child rights"
+       "emergency planning",
+       "uk news",
+       "house of commons",
+       "cyberwar",
+       "climate crisis",
+       "extreme weather"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/290c54f9326fd6704518afe33633827e4920b4e8/255_0_1269_1015/master/1269.jpg?width=700&quality=85&auto=format&fit=max&s=b76887a01d165c7ccb8c6577778aedc9",
-       "credit": "Photograph: Childlight/PA",
+       "url": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=700&quality=85&auto=format&fit=max&s=cfe2a193d15f66ab4c0a55464b902496",
+       "credit": "Photograph: Fred Tanneau/AFP/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "2f404cbfd468f7e9",
+      "eventId": "022551b4aa7642dc",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 59.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 77.1,
         "topic": 85.0,
-        "novelty": 90.0
+        "novelty": 75.0
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
-        "title": "گزارش های مربوط به سوء استفاده جنسی کودک AI در دو سال، 8400٪ افزایش می یابد.",
-        "excerpt": "درخواست دولت ها برای به رسمیت شناختن بهره برداری جنسی از کودکان به عنوان گزارش های اضطراری بهداشت عمومی از هوش مصنوعی مورد استفاده برای بهره برداری جنسی کودکان در دو سال گذشته بیش از 8400 درصد افزایش یافته است. گزارشی که توسط موسسه ایمنی کودکان مستقر در ادینبورگ منتشر شده است، می گوید مواد سوء استفاده از کودکان مرتبط با هوش مصنوعی، از جمله موارد عمیق با استفاده از “nudify ...",
+        "title": "بریتانیا در معرض چند بحران تهدید در میان دولت \"محلی\"",
+        "excerpt": "لردها گزارش می دهند که خواستار رویکرد فوری جدید برای برنامه ریزی در برابر حملات سایبری، خرابکاری و وزرای بحران آب و هوا هستند در مواجهه با تهدیدات سریع در حال تغییر و به طور فزاینده ای به بریتانیا، و باید به سرعت برای افزایش انعطاف پذیری ملی به احتمال زیاد بحران های بزرگ، یک گزارش پارلمانی پیدا کرده است. در حالی که حزب کارگر به تازگی کمپین «آماده باش» را راه اندازی کرد...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T02:49:57Z"
+        "at": "2026-11-16T11:40:18Z"
        }
       }
      },
@@ -307,52 +303,54 @@
     },
     {
      "article": {
-      "id": "09862cd7036c6133",
-      "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Apple launches new app to study how people use AI for health",
-      "excerpt": "Apple's new app for a study will answer everyday medical questions",
+      "id": "1df21d2e2c7164f7",
+      "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
+      "excerpt": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos.",
       "lang": "en",
-      "publishedAt": "2026-11-16T01:30:00Z",
+      "publishedAt": "2026-11-16T11:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T02:49:57Z",
+      "fetchedAt": "2026-11-16T11:40:18Z",
       "day": "2026-11-16",
-      "category": "research",
+      "category": "business",
       "tags": [
-       "ai",
-       "apps",
-       "apple",
-       "health",
-       "openevidence"
+       "business",
+       "business / artificial intelligence",
+       "jensen huang",
+       "artificial intelligence",
+       "chips",
+       "semiconductors"
       ],
       "entities": [
-       "apple"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
+       "url": "https://media.wired.com/photos/6af5e8bf5864e5f624e083f1/master/pass/111226-Nvidia%20In%20Trouble.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "09862cd7036c6133",
+      "eventId": "1df21d2e2c7164f7",
       "related": [],
       "score": {
-       "total": 64.0,
+       "total": 58.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 80.0,
-        "novelty": 80.0
+        "recency": 99.9,
+        "topic": 55.0,
+        "novelty": 62.5
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
-        "title": "اپل برنامه جدیدی را برای مطالعه نحوه استفاده افراد از AI برای سلامتی راه اندازی کرد",
-        "excerpt": "برنامه جدید اپل برای یک مطالعه به سوالات پزشکی روزمره پاسخ خواهد داد",
+        "title": "Nvidia در حال حاضر در مشکل قبل از Jensen Huang Mess بود",
+        "excerpt": "رقبای AI به Nvidia می رسند و آماده بهره برداری از هرج و مرج هستند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T02:49:57Z"
+        "at": "2026-11-16T11:40:18Z"
        }
       }
      },
@@ -367,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-09T01:30:00Z",
-   "to": "2026-11-16T01:30:00Z",
+   "from": "2026-11-09T11:00:54Z",
+   "to": "2026-11-16T11:00:54Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,15 +404,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 76.0,
+       "total": 75.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 23.7,
+        "recency": 21.7,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -430,6 +428,57 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "724333834a57d025",
+      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "La Cousinade",
+      "excerpt": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-11-16T05:00:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "soNLXvgUqNY",
+       "url": "https://www.youtube.com/watch?v=soNLXvgUqNY"
+      },
+      "eventId": "724333834a57d025",
+      "related": [],
+      "score": {
+       "total": 73.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.4,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-16T11:00:54Z"
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -461,15 +510,15 @@
       "eventId": "87d7014c15ee68a3",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -480,7 +529,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -516,15 +565,15 @@
       "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.7,
+        "recency": 88.2,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -535,7 +584,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -577,15 +626,15 @@
       "eventId": "46b48e728e810800",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 89.9,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -596,7 +645,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -637,15 +686,15 @@
       "eventId": "2f404cbfd468f7e9",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 63.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 90.0,
         "topic": 85.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -656,7 +705,67 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "022551b4aa7642dc",
+      "url": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "UK exposed to polycrisis of threats amid government ‘complacency’",
+      "excerpt": "Lords report calls for urgent new approach to resilience planning in face of cyber-attacks, sabotage and climate crisis Ministers are complacent in the face of fast-changing and increasingly interconnected threats to the UK, and must act quickly to increase national resilience to possibly very major crises, a parliamentary report has found. While Labour recently launched a “Be Ready” campaign…",
+      "lang": "en",
+      "publishedAt": "2026-11-16T06:30:35Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
+      "category": "policy",
+      "tags": [
+       "emergency planning",
+       "uk news",
+       "house of commons",
+       "cyberwar",
+       "climate crisis",
+       "extreme weather"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/3ba762c70e9c188fc6533e353ffe9c2e077e95c6/0_0_4183_3347/master/4183.jpg?width=700&quality=85&auto=format&fit=max&s=cfe2a193d15f66ab4c0a55464b902496",
+       "credit": "Photograph: Fred Tanneau/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "022551b4aa7642dc",
+      "related": [],
+      "score": {
+       "total": 63.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 95.8,
+        "topic": 85.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-16T11:00:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بریتانیا در معرض چند بحران تهدید در میان دولت \"محلی\"",
+        "excerpt": "لردها گزارش می دهند که خواستار رویکرد فوری جدید برای برنامه ریزی در برابر حملات سایبری، خرابکاری و وزرای بحران آب و هوا هستند در مواجهه با تهدیدات سریع در حال تغییر و به طور فزاینده ای به بریتانیا، و باید به سرعت برای افزایش انعطاف پذیری ملی به احتمال زیاد بحران های بزرگ، یک گزارش پارلمانی پیدا کرده است. در حالی که حزب کارگر به تازگی کمپین «آماده باش» را راه اندازی کرد...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T11:40:18Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -697,15 +806,15 @@
       "eventId": "f7214e14d1e100a3",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 63.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 91.2,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -716,128 +825,10 @@
        }
       }
      },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7544c26f6d39ea35",
-      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
-      "lang": "en",
-      "publishedAt": "2026-11-13T16:38:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "pfbfZKxUEDQ",
-       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
-      },
-      "eventId": "7544c26f6d39ea35",
-      "related": [],
-      "score": {
-       "total": 65.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 57.8,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0446b4f8b26ddb27",
-      "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "From AI Factories to Intelligent Cities",
-      "excerpt": "AI factories, physical AI, and agents, built with local partners are helping cities improve planning, operations, and public services. Learn how shared infrastructure and city-led governance support safer streets, more responsive operations, and stronger local AI innovation. #SCEWC26 #SmartCities #aiagents ➡️ Learn more: https://nvda.ws/3Vb9wWH",
-      "lang": "en",
-      "publishedAt": "2026-11-14T17:48:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-14T19:16:32Z",
-      "day": "2026-11-14",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i1.ytimg.com/vi/ha-gDrDm8Es/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ha-gDrDm8Es",
-       "url": "https://www.youtube.com/watch?v=ha-gDrDm8Es"
-      },
-      "eventId": "0446b4f8b26ddb27",
-      "related": [],
-      "score": {
-       "total": 64.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 73.7,
-        "topic": 70.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از عوامل هوش مصنوعی تا شهرهای هوشمند",
-        "excerpt": "کارخانه های AI، AI فیزیکی و عوامل، ساخته شده با شرکای محلی کمک به شهرها برای بهبود برنامه ریزی، عملیات و خدمات عمومی است. یاد بگیرید که چگونه زیرساخت های مشترک و حمایت از مدیریت شهری امن تر خیابان ها، عملیات پاسخگو تر و نوآوری های قوی تر AI محلی است. #SCEWC26 #SmartCities # aiagents بیشتر یاد می گیرند: https://nvda.ws / 3Vb9wWHwWHW",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-14T19:16:32Z"
-       }
-      }
-     },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -845,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-17T01:30:00Z",
-   "to": "2026-11-16T01:30:00Z",
+   "from": "2026-10-17T11:00:54Z",
+   "to": "2026-11-16T11:00:54Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +875,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 84.3,
+       "total": 83.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 65.0,
+        "recency": 63.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -908,6 +899,57 @@
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "724333834a57d025",
+      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "La Cousinade",
+      "excerpt": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+      "lang": "en",
+      "publishedAt": "2026-11-16T05:00:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T11:40:18Z",
+      "day": "2026-11-16",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "soNLXvgUqNY",
+       "url": "https://www.youtube.com/watch?v=soNLXvgUqNY"
+      },
+      "eventId": "724333834a57d025",
+      "related": [],
+      "score": {
+       "total": 74.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.3,
+        "topic": 100.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-16T11:00:54Z"
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -939,15 +981,15 @@
       "eventId": "87d7014c15ee68a3",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -958,7 +1000,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -994,15 +1036,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 28.0,
+        "recency": 27.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1012,70 +1054,11 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 2,
      "reason": [
       "tier-1",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7544c26f6d39ea35",
-      "url": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
-      "excerpt": "Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.",
-      "lang": "en",
-      "publishedAt": "2026-11-13T16:38:23Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-13T17:51:16Z",
-      "day": "2026-11-13",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/pfbfZKxUEDQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "pfbfZKxUEDQ",
-       "url": "https://www.youtube.com/watch?v=pfbfZKxUEDQ"
-      },
-      "eventId": "7544c26f6d39ea35",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.9,
-        "topic": 100.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-16T01:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه موزیلا امنیت فایرفاکس را با GPT-6 سایبری تقویت می کند",
-        "excerpt": "Brian Grinstead موزیلا به اشتراک می گذارد که چگونه آزمایش های اولیه با GPT-6 Cyber آسیب پذیری ها و فرصت های جدیدی را برای تقویت دفاع از فایرفاکس شناسایی کرد و به تیم کمک کرد تا به سمت یک هدف بلند پروازانه کار کند: باگ های صفر. نگاهی به گفتگوی کامل با Clint Gibler OpenAI برای یادگیری بیشتر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-13T17:51:16Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1108,15 +1091,15 @@
       "eventId": "4b0fc5b701ffd77d",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 96.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1167,15 +1150,15 @@
        "45da7994669e5304"
       ],
       "score": {
-       "total": 69.7,
+       "total": 69.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 60.7,
+        "recency": 59.0,
         "topic": 85.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1229,15 +1212,15 @@
       "eventId": "46b48e728e810800",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 96.9,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1288,15 +1271,15 @@
       "eventId": "be81354d8a302a35",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.9,
+        "recency": 83.6,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1347,15 +1330,15 @@
       "eventId": "0446b4f8b26ddb27",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.3,
+        "recency": 88.8,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
@@ -1409,15 +1392,15 @@
       "eventId": "606399e29c9ee7e9",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.1,
+        "recency": 79.8,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T01:30:00Z"
+       "asOf": "2026-11-16T11:00:54Z"
       },
       "tr": {
        "fa": {
