@@ -3,6 +3,2534 @@
  "day": "2026-11-16",
  "articles": [
   {
+   "id": "94ec9ff9d4729a9e",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+   "excerpt": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T22:06:08Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "amazon bedrock agentcore",
+    "customer solutions"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-20525-1.png",
+    "alt": "Duco multi-tenant architecture with per-tenant isolation across the infrastructure, security, and agent layers",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "94ec9ff9d4729a9e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه Duco اتوماسیون داده های مالی را با Amazon Bedrock Agent تبدیل می کند",
+     "excerpt": "Duco، یک پلت فرم اتوماسیون داده برای بانک های لایه یک، پشته هوش مصنوعی خود را در آمازون Bedrock و Amazon Bedrock AgentCore بازسازی کرد. با انزوای سفت و سخت، یک استراتژی چند مدل و یک معماری مهارت های MCP که زمینه را تا 90٪ کاهش می دهد، Duco زمان استقرار آشتی 10x و هزینه های قایقرانی 70٪ کاهش می یابد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "51273f0e0cc7ceef",
+   "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+   "excerpt": "Nvidia interim CEO and long-time CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T22:03:02Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "tc",
+    "nvidia"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "51273f0e0cc7ceef",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "تمام سؤالاتی که Nvidia باید در روز سه شنبه پاسخ دهد، اما احتمالاً پاسخ نخواهد داد.",
+     "excerpt": "مدیر عامل موقت Nvidia و CFO Colette Kress مدت زمان طولانی، قرار است یکی از بزرگترین روزهای حرفه ای خود را در روز سه شنبه داشته باشد، زمانی که شرکت نتایج سه ماهه سوم خود را گزارش می دهد. با توجه به آشفتگی Nvidia، تعدادی سوال وجود دارد که Nvidia باید پاسخ دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "0761da68e54fd0db",
+   "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
+   "excerpt": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T21:53:46Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "best practices"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-1-1.png",
+    "alt": "Sequential pipeline: input flows through extract, transform, and validate agents to output",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "0761da68e54fd0db",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "طبقه بندی الگوهای طراحی چند عاملی، ضد مواد مخدر و درس ها از تولید",
+     "excerpt": "هماهنگی چند عامل یک مشکل سیستم های توزیع شده است، نه یک مشکل مدل. این پست ارائه می دهد یک طبقه بندی تجربی از الگوهای طراحی چند عاملی و ضد مواد مخدر، یک چارچوب برای تصمیم گیری زمانی که عوامل متعدد مجاز هستند، و چگونه برای ساخت سیستم های مقرون به صرفه و قابل اعتماد در AWS.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "7d4307f50c7ab9f1",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/california-openai-rogue-agent-hacking-lawsuit",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "California sues OpenAI over safety concerns after rogue agent hacking",
+   "excerpt": "The lawsuit stems from an earlier incident where the tech company’s products hacked into the open-source platform Hugging Face California sued OpenAI on Monday, accusing the artificial intelligence titan of developing its technology without safety or the public’s interest in mind. The lawsuit concerns an incident earlier this year where OpenAI agents – semi-autonomous AI software that can carry…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T21:41:10Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "policy",
+   "tags": [
+    "openai",
+    "california",
+    "ai (artificial intelligence)",
+    "cybercrime",
+    "hacking",
+    "us news"
+   ],
+   "entities": [
+    "huggingface",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/a82ee4985c0d264e0ee6c830a014ad1e4ab73ec0/1050_51_3174_2541/master/3174.jpg?width=700&quality=85&auto=format&fit=max&s=22d027b7cf5fb65a09e727757c18ef7e",
+    "credit": "Photograph: Jae C Hong/AP",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "773cc78ee17a9631",
+   "related": [
+    "773cc78ee17a9631",
+    "d0b83026be95e613"
+   ],
+   "tr": {
+    "fa": {
+     "title": "کالیفرنیا از OpenAI در مورد نگرانی های ایمنی پس از هک شدن عامل سرکش شکایت می کند",
+     "excerpt": "این دادخواست ناشی از یک حادثه قبلی است که در آن محصولات شرکت فناوری به پلت فرم منبع باز Hugging Face California در روز دوشنبه هک شد و اطلاعات مصنوعی را متهم به توسعه فن آوری خود بدون ایمنی یا منافع عمومی در ذهن کرد. این دادخواست مربوط به یک حادثه در اوایل سال جاری است که در آن عوامل OpenAI – نرم افزار هوش مصنوعی نیمه خودکار که می تواند حمل کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "d0b83026be95e613",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "California sues OpenAI over rogue AI hacking incidents",
+   "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:46:01Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "policy",
+   "tags": [
+    "ai",
+    "news",
+    "openai",
+    "policy",
+    "politics"
+   ],
+   "entities": [
+    "huggingface",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK155_OPEN_AI_4_CVirginia_D.png?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "An illustration of the OpenAI logo.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "773cc78ee17a9631",
+   "related": [
+    "773cc78ee17a9631",
+    "7d4307f50c7ab9f1"
+   ],
+   "tr": {
+    "fa": {
+     "title": "کالیفرنیا از OpenAI در مورد حوادث هک شده توسط AI شکایت می کند",
+     "excerpt": "کالیفرنیا در حال انتشار OpenAI پس از اینکه عوامل AI از محیط آزمایش خود خارج شدند و سایر شرکت ها را هک کردند، از جمله Hugging Face. در یک دادخواست روز دوشنبه، راب بونتا، دادستان کل، OpenAI را متهم می کند که قانون ایمنی مصرف کنندگان را نقض می کند و با آگاهی از توسعه یک محصول خطرناک بدون نظارت مناسب، همانطور که قبلا توسط رویترز گزارش شده است. دادخواست ادعا می کند",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "6dc341b82897f439",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+   "excerpt": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is great.\"",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:41:28Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "news",
+    "openai",
+    "tech"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/gettyimages-1778705436.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Sam Altman on a black background.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "6dc341b82897f439",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "سم آلتمن می گوید که می خواهد همه \" رم زیادی داشته باشند\"",
+     "excerpt": "مدیر عامل OpenAI، Sam Altman یک بار دیگر به نظرات بحث برانگیز خود در مورد خرید های PC RAM اشاره می کند. می خواهم روشن باشم، می خواهم مردم رم زیادی داشته باشند، فکر می کنم همه باید بتوانند رم زیادی برای کامپیوتر خود بخرند.» \"من فکر می کنم که خانه بزرگ است.\"",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "0873131c018e5da5",
+   "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+   "excerpt": "Constellation Energy - America's largest operator of nuclear power plants - does not share Wall Street's concerns that the Democrats will slow down data center development. On the company's third-quarter earnings call last week, CEO Joe Dominguez was, for lack of a better word, unbothered as he addressed the blue wave. \"I do think we've",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:29:37Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "energy",
+    "policy",
+    "science"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2227026671.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "0873131c018e5da5",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "هسته ای بزرگ نگران توقف مراکز داده ها نیست",
+     "excerpt": "انرژی هسته ای - بزرگترین اپراتور نیروگاه های هسته ای آمریکا - نگرانی های وال استریت را به اشتراک نمی گذارد که دموکرات ها توسعه مرکز داده را کند می کنند. در سه ماهه سوم درآمد شرکت هفته گذشته تماس گرفت، مدیر عامل شرکت جو دومینوگز، به دلیل فقدان یک کلمه بهتر، بدون هر دو به عنوان او خطاب به موج آبی بود. \"من فکر می کنم که ما داریم",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "94e979efd7382a51",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "US data centers now burn more electricity than a midsized country",
+   "excerpt": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of greenhouse gas emissions. The study homes in on hyperscale facilities - the",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:27:58Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "climate",
+    "energy",
+    "environment",
+    "science"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Photo collage of a data center with data visualizations.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "94e979efd7382a51",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مراکز اطلاعاتی آمریکا اکنون بیش از یک کشور متوسط برق می سوزانند",
+     "excerpt": "سوخت های فسیلی هنوز بزرگترین منبع برق برای مراکز داده های در مقیاس بالا در ایالات متحده هستند، یک مقاله جدید منتشر شده در مجله Nature Sustainability نشان می دهد. آنها احتمالاً از طریق برق بیشتر از بسیاری از کشورها می سوزانند و منجر به انتشار گازهای گلخانه ای می شوند. خانه های مطالعه در امکانات بیش از حد -",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "773cc78ee17a9631",
+   "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "California state AG sues OpenAI over rogue agent incidents",
+   "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:07:13Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "policy",
+   "tags": [
+    "ai",
+    "tc"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/policy.svg",
+    "kind": "fallback"
+   },
+   "eventId": "773cc78ee17a9631",
+   "related": [
+    "7d4307f50c7ab9f1",
+    "d0b83026be95e613"
+   ],
+   "tr": {
+    "fa": {
+     "title": "ایالت کالیفرنیا AG از OpenAI در مورد حوادث عامل سرکش شکایت می کند",
+     "excerpt": "دادخواست کالیفرنیا نشان دهنده یکی از اولین تلاش ها برای برگزاری یک آزمایشگاه AI است که به طور قانونی برای یک حادثه نماینده سرکش پاسخگو است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "2453547dcede7e6e",
+   "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+   "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the",
+   "lang": "en",
+   "publishedAt": "2026-11-16T20:00:37Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai infrastructure",
+    "ai",
+    "ai factory",
+    "artificial intelligence",
+    "corporate",
+    "economic development"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "eventId": "2453547dcede7e6e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه پیشرفته ترین زنجیره تامین زیرساخت های هوش مصنوعی جهان، آینده را اختراع می کند",
+     "excerpt": "دب شوست منجر به عملیات در NVIDIA، نظارت بر زنجیره تامین و تولید پشت سیستم عامل های AI آن است. این توصیف کار را به پایان می رساند، اما شروع به پوشش آنچه که شویست در طول دهه ها ممکن کرده است، نمی کند. Shuquist، تیم او و شبکه جهانی شرکای تولیدی آنها NVIDIA را قادر می سازد تا فن آوری های پیشرو در سراسر جهان را معرفی کند. بسیاری از",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "885a2252df28ac5b",
+   "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+   "excerpt": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. The article Google warns that fully automated cyberattacks have arrived and…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:42:13Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai and safety",
+    "ai and security",
+    "cybersecurity"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "885a2252df28ac5b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل هشدار می دهد که حملات سایبری کاملا خودکار وارد شده و سریع تر بدتر خواهد شد",
+     "excerpt": "گروه اطلاعات تهدید گوگل برای اولین بار مهاجمان را پیدا کرده و از آسیب پذیری های امنیتی بدون دخالت انسان بهره برداری می کند. یک چارچوب AI به نام “exploit_agent” در یک سرور در معرض یافت، به طور خودکار کد را قبل و بعد از پچ ها، بهره برداری های ساخته شده و آنها را به تنهایی مقایسه کرد. گوگل هشدار می دهد که حملات سایبری کاملا خودکار وارد شده و...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "cd9a297fa8a4dcbf",
+   "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+   "excerpt": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:24:40Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "ai",
+    "apple",
+    "ios",
+    "ipad",
+    "news",
+    "tech"
+   ],
+   "entities": [
+    "apple"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/siri-ai.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Siri responding to a request on an iPhone.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "cd9a297fa8a4dcbf",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "اپل محدودیت های استفاده روزانه را برای تعاملات پیچیده تر Siri AI آزمایش می کند",
+     "excerpt": "اپل نسخه های بتای iOS 27.3، iPadOS 27.3 و macOS 27.3 را امروز منتشر کرد و این شرکت با استفاده از به روز رسانی برای تست محدودیت های استفاده جدید برای برخی از ویژگی های هوش مصنوعی سیری و اپل، با توجه به MacRumors. دستورات و درخواست های اولیه سیری رایگان و نامحدود باقی خواهند ماند، اما ویژگی های پیشرفته تر که به آن متکی هستند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "5f72fbdc79b9385d",
+   "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+   "excerpt": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:23:45Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "ai",
+    "openai",
+    "policy",
+    "report"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK155_OPEN_AI_CVirginia_C-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "5f72fbdc79b9385d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI می خواهد از سوء استفاده از کودکان جلوگیری کند",
+     "excerpt": "OpenAI ابزاری را معرفی می کند که می گوید به محققان آزار جنسی کودکان کمک می کند تا به سرعت مواد مضر را پیدا کنند. در یک گزارش مطبوعاتی روز دوشنبه در واشنگتن، دی سی، OpenAI اعلام کرد که می تواند تصاویر سوء استفاده از کودکان را بهتر تشخیص دهد، از جمله اینکه آیا آن را AI تولید شده است. همچنین ارائه می دهد",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "75df91af27d861e0",
+   "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+   "excerpt": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot of work remains before realistic simulations are possible. The article OpenAI's GPT-6 Astra tackles the Standard Model's…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:19:56Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "ai research",
+    "artificial intelligence",
+    "gpt-6-astra",
+    "openai",
+    "physics"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/openai_standard_model.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "75df91af27d861e0",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI’s GPT-6 Astra با سخت ترین مشکل ریاضی مدل استاندارد در یک شبکه",
+     "excerpt": "فیزیکدان OpenAI، ناتانیل کریگ، از GPT-6 Astra برای مقابله با مشکلی که فیزیکدانان ذرات را بیش از 25 سال از بین برد، استفاده کرد. مدل AI استراتژی کریگ را برای تعریف مدل استاندارد کامل بر روی یک شبکه محاسباتی و تبدیل آن به یک اثبات کار به دست آورد. کریگ می گوید قبل از اینکه شبیه سازی های واقعی امکان پذیر باشند، کارهای زیادی باقی مانده است. مقاله OpenAI’s GPT-6 Astra با مدل استاندارد مطابقت دارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "668b96b1a1259e1f",
+   "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+   "excerpt": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:12:02Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "government & policy",
+    "jensen huang",
+    "nvidia",
+    "trump"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "668b96b1a1259e1f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ترامپ می گوید که مدیرعامل سابق سازمان ملل متحد، جنسن هوانگ با جاسوسی چین که ادعا می شود امنیت ملی را تهدید نمی کند",
+     "excerpt": "ترامپ با مقامات اطلاعاتی دولت خود مخالفت کرد و گزارش داد که آلیس هوانگ یک جاسوس چینی است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "6fd4401d69f58eab",
+   "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+   "sourceId": "ars-ai",
+   "sourceName": "Ars Technica — AI",
+   "title": "US moves to cut China’s remote access to AI chips",
+   "excerpt": "Trump bets China won’t mind US blocking remote access to AI chips.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T19:10:09Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "policy",
+    "ai chips",
+    "ai infrastructure",
+    "data centers",
+    "donald trump"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
+    "alt": "This aerial picture shows the Nongsa Digital Park (NDP) area, a hub for AI data center development, in Indonesia.",
+    "credit": "ANDARU / Contributor | AFP",
+    "kind": "feed",
+    "sourceUrl": "https://arstechnica.com/ai/feed/"
+   },
+   "eventId": "6fd4401d69f58eab",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایالات متحده برای کاهش دسترسی از راه دور چین به تراشه های AI حرکت می کند",
+     "excerpt": "ترامپ شرط می کند که چین دسترسی از راه دور آمریکا به تراشه های AI را مسدود نکند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ebff97034b293e5f",
+   "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+   "excerpt": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten appeared first on The Decoder.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:52:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "ai research",
+    "artificial intelligence",
+    "short news",
+    "ai and science",
+    "moonshot ai"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/moonshot_ai_sciences.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "ebff97034b293e5f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Moonshot AI مدل های کیمی را از برنامه نویسی به علم تبدیل می کند، به عنوان معیار به دست می آورد",
+     "excerpt": "Moonshot AI به دنبال معیارهای برنامه نویسی است، می گوید. استارت آپ پکن مدل های زبان کیمی خود را به سمت زیست شناسی، شیمی و تحقیقات دارویی هدایت می کند و استدلال می کند که علم به هوش مصنوعی هوشمندتر از قانون، امور مالی یا کد نیاز دارد. مقاله Moonshot AI مدل های کیمی را از برنامه نویسی به علم به عنوان سود معیار در ابتدا در Decoder ظاهر شد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "bd7cc537cd570a59",
+   "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+   "excerpt": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week, tech executives, along with current and former Nvidia employees,",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:43:35Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "news",
+    "nvidia",
+    "tech"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Digital photo collage of Nvidia CEO Jensen Huang.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "bd7cc537cd570a59",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گزارش شده است که هیئت مدیره Nvidia \"بدون توجه به استخدام جنسن هوانگ\"",
+     "excerpt": "هیئت مدیره Nvidia با توجه به گزارش CNBC به عنوان مدیر عامل بازگشت می کند. یک منبع به خروجی می گوید: \"بر روی تحقیقات در مورد هوانگ متمرکز شده است و در بحث برای بازگرداندن او نیست.\"از زمان استعفای هوانگ در هفته گذشته، مدیران فناوری، همراه با کارمندان فعلی و سابق Nvidia،",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "21a6fc2b55ffdb4f",
+   "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back",
+   "sourceId": "mit-tech-review-ai",
+   "sourceName": "MIT Technology Review — AI",
+   "title": "The open-source movement wants Jensen Huang back",
+   "excerpt": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:38:47Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "open-source",
+   "tags": [
+    "artificial intelligence",
+    "app",
+    "the algorithm"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/open-source.svg",
+    "kind": "fallback"
+   },
+   "eventId": "21a6fc2b55ffdb4f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنبش منبع باز می خواهد Jensen Huang برگردد",
+     "excerpt": "این داستان در ابتدا در الگوریتم، خبرنامه هفتگی ما در AI ظاهر شد. برای دریافت داستان هایی مانند این در جعبه اول خود، اینجا را ثبت کنید. در روز جمعه، یک درخواست برای بازگرداندن جنسن هوانگ به عنوان مدیر عامل Nvidia شروع به گردش در رسانه های اجتماعی کرد و روز دوشنبه برخی از امضاکنندگان قابل توجه از جمله ایلان ماسک و چندین شرکت تأثیرگذار Nvidia را ذکر کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "49a1ce094a2bb655",
+   "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+   "excerpt": "As tech industry pushes for return, US president says he thinks Huang ‘learned a big lesson’ Donald Trump has expressed support for the return of Jensen Huang as the chief executive of Nvidia, joining Silicon Valley heavyweights in backing the reinstatement of the AI figurehead. The US president referred to a tech industry campaign for Huang’s rehabilitation, saying a “big group” of people would…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:30:57Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "nvidia",
+    "jensen huang",
+    "donald trump",
+    "technology sector",
+    "ai (artificial intelligence)",
+    "business"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/7f67412f0366dc2ae41bf00eadde0fe0b8e1c6d0/817_89_6141_4914/master/6141.jpg?width=700&quality=85&auto=format&fit=max&s=66a9b2bf3bc1da452db630c79b27049c",
+    "credit": "Photograph: Jim Lo Scalzo/EPA",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "49a1ce094a2bb655",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ترامپ خواستار تجدید نظر Jensen Huang به عنوان مدیرعامل Nvidia است",
+     "excerpt": "همانطور که صنعت فناوری برای بازگشت فشار می آورد، رئیس جمهور ایالات متحده می گوید که فکر می کند هوانگ \"یک درس بزرگ را یاد می گیرد\" دونالد ترامپ از بازگشت جنسن هوانگ به عنوان مدیر ارشد Nvidia حمایت کرده و به وزنه های سنگین سیلیکون سیلیکون در حمایت از تجدید نظر چهره AIhead ملحق شده است. رئیس جمهور آمریکا به کمپین صنعت فناوری برای توانبخشی هوانگ اشاره کرد و گفت: «گروه بزرگ» مردم...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "eea13b12d8e0c566",
+   "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
+   "sourceId": "nvidia-youtube",
+   "sourceName": "NVIDIA (YouTube)",
+   "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
+   "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:30:41Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "uGZO6I-CJtM",
+    "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
+   },
+   "eventId": "eea13b12d8e0c566",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
+     "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "cf8497c0eb711955",
+   "url": "https://www.theguardian.com/business/nils-pratley-on-finance/2026/nov/16/anthropic-claude-risks-to-humanity-governance-ai",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Anthropic recognises the risks to humanity – but is its governance really up to the job? | Nils Pratley",
+   "excerpt": "The Claude AI developer’s unique setup is supposedly high-minded, but still represents extraordinary power concentration Boardroom governance matters, even in the world of big tech, it turns out. The business of how companies are run, investors are discovering, can be more complicated than handing the founder or superstar chief executive as much control as he wants (it’s usually a he) and…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:18:57Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "business",
+    "anthropic",
+    "technology",
+    "ai (artificial intelligence)",
+    "corporate governance",
+    "technology sector"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/4ce1d62a943c0a858adb74474c7448ca415c876e/484_0_4840_3872/master/4840.jpg?width=700&quality=85&auto=format&fit=max&s=af180b8dbbb5836e53717e734b7ddd06",
+    "credit": "Photograph: Contributor/VCG/Getty Images",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "cf8497c0eb711955",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Anthropic خطرات بشریت را به رسمیت می شناسد، اما آیا حکومت آن واقعا به کار بستگی دارد؟ Nils Pratley",
+     "excerpt": "راه اندازی منحصر به فرد توسعه دهنده کلود AI ظاهرا با ذهنیت بالا است، اما هنوز هم نشان دهنده مسائل فوق العاده قدرت تمرکز هیئت مدیره، حتی در جهان از تکنولوژی بزرگ، آن را به نظر می رسد. کسب و کار اینکه شرکت ها چگونه اداره می شوند، سرمایه گذاران کشف می کنند، می تواند پیچیده تر از دست دادن مؤسس یا مدیر ارشد فوق ستاره به همان اندازه که می خواهد باشد (معمولاً او است) و ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "9567fc17c1fdcddf",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
+   "excerpt": "MoEngage built Merlin AI, a set of AI agents on Amazon Bedrock and Amazon Bedrock AgentCore that let marketing and product teams draft, analyze, and adjust campaigns from a single conversation. Learn how MoEngage turned its existing APIs into MCP tools and kept each tenant's data isolated while giving agents secure access to live platform data.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:16:07Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "amazon bedrock agentcore",
+    "customer solutions"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/06/ML-21091-1-1.png",
+    "alt": "Four-layer Merlin AI architecture: clients, the MCP server on AgentCore runtime, MoEngage platform APIs, and foundation models in Amazon Bedrock",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "9567fc17c1fdcddf",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه MoEngage ایجاد تعامل مشتری عامل در آمازون Bedrock AgentCore",
+     "excerpt": "MoEngage ساخت مرلین AI، مجموعه ای از عوامل AI در آمازون Bedrock و Amazon Bedrock AgentCore که اجازه می دهد تا بازاریابی و تیم های محصول پیش نویس، تجزیه و تحلیل و تنظیم کمپین ها از یک مکالمه واحد. یاد بگیرید که چگونه MoEngage API های موجود خود را به ابزارهای MCP تبدیل کرد و داده های هر مستاجر را در حالی که به عوامل دسترسی امن به داده های پلت فرم زنده را فراهم می کند، نگه داشت.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "adc690e60e2014e6",
+   "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+   "excerpt": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:11:10Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "jensen huang",
+    "nvidia",
+    "openai",
+    "sam altman"
+   ],
+   "entities": [
+    "nvidia",
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "adc690e60e2014e6",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Sam Altman در Nvidia بدون Jensen Huang: این صنعت \"fine\" خواهد بود",
+     "excerpt": "سام آلتمن، مدیر عامل OpenAI، نقش ویژه مدیر عامل Nvidia Jensen Huang را در رونق هوش مصنوعی ایفا کرده است، اما در نهایت فکر می کند که این صنعت بدون او در هلم “fine” خواهد بود.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "a0a2e3af861db46b",
+   "url": "https://www.youtube.com/watch?v=v2I4vqz87fk",
+   "sourceId": "nvidia-youtube",
+   "sourceName": "NVIDIA (YouTube)",
+   "title": "20 Years of CUDA: Honoring the Architects of Progress",
+   "excerpt": "For 20 years, pioneers, researchers, developers, and creators have changed the world with CUDA. NVIDIA announced CUDA in 2006 as a different way to compute - giving developers direct access to the parallel power of the GPU. Two decades later, the CUDA platform is enabling work in scientific computing, professional visualization, autonomous vehicles, drug discovery and healthcare, generative AI…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:09:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i3.ytimg.com/vi/v2I4vqz87fk/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "v2I4vqz87fk",
+    "url": "https://www.youtube.com/watch?v=v2I4vqz87fk"
+   },
+   "eventId": "a0a2e3af861db46b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "20 سال CUDA: افتخار معماران پیشرفت",
+     "excerpt": "برای 20 سال، پیشگامان، محققان، توسعه دهندگان و سازندگان جهان را با CUDA تغییر داده اند. NVIDIA در سال 2006 CUDA را به عنوان یک روش مختلف برای محاسبه معرفی کرد و به توسعه دهندگان امکان دسترسی مستقیم به قدرت موازی GPU را داد. دو دهه بعد، پلت فرم CUDA قادر به کار در محاسبات علمی، تجسم حرفه ای، وسایل نقلیه مستقل، کشف مواد مخدر و مراقبت های بهداشتی، هوش مصنوعی عمومی است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "8649fa40eb995e09",
+   "url": "https://www.datacenterdynamics.com/en/news/us-dept-of-commerce-issues-rule-to-restrict-remote-access-to-advanced-ai-chips",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "US Dep’t of Commerce issues rule to restrict remote access to advanced AI chips",
+   "excerpt": "Adds five new countries to its export restriction list, including Malaysia and Singapore",
+   "lang": "en",
+   "publishedAt": "2026-11-16T18:01:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/GettyImages-1421857347.2e16d0ba.fill-750x500.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "8649fa40eb995e09",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایالات متحده از مسائل تجاری برای محدود کردن دسترسی از راه دور به تراشه های پیشرفته AI",
+     "excerpt": "اضافه کردن پنج کشور جدید به فهرست محدودیت صادرات خود، از جمله مالزی و سنگاپور",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "030a040e02b27922",
+   "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+   "excerpt": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:36:43Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "open-source",
+   "tags": [
+    "ai",
+    "security",
+    "artex",
+    "cyberattacks",
+    "cybersecurity",
+    "penetration testing"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/open-source.svg",
+    "kind": "fallback"
+   },
+   "eventId": "030a040e02b27922",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "FBI می گوید ابزار هک منبع باز Artex AI که برای نفوذ در شبکه های زیر سه ساعت استفاده می شود",
+     "excerpt": "اف بی آی می گوید که ابزار هک منبع باز در حملات سایبری مورد استفاده قرار گرفته است و هدف قرار دادن ایالات متحده است. غول فناوری اطلاعات و صنعت مالی کره جنوبی",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "cb92355813608365",
+   "url": "https://www.datacenterdynamics.com/en/news/ai-cloud-startup-luminal-secures-25m-in-series-a-funding",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "AI cloud startup Luminal secures $25m in Series A funding",
+   "excerpt": "Company offers search compiler and inference cloud services",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:36:07Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/1794505092145.2e16d0ba.fill-750x500.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "cb92355813608365",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "استارتاپ ابر AI Luminal 25 میلیون دلار در بودجه سری A را تأمین می کند",
+     "excerpt": "شرکت ارائه می دهد کامپایلر جستجو و Inference Cloud Services",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "b4d0f21c2c604500",
+   "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
+   "excerpt": "Legacy mainframe Assembler applications are costly to maintain and hard to staff. This post presents a multi-stage, AI-powered methodology using Amazon Bedrock, Kiro IDE, and AWS Transform to extract business rules, convert Assembler through an intermediate COBOL stage, and deploy modernized Java Spring Boot applications on AWS.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:29:29Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "aws transform",
+    "best practices",
+    "intermediate (200)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-20283-1-1.png",
+    "alt": "Mainframe architecture with JCL-triggered Assembler batch programs accessing VSAM files and IBM Db2 for z/OS",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "b4d0f21c2c604500",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مدرن سازی غول پیکر به جاوا با استفاده از Amazon Bedrock و AWS Transform",
+     "excerpt": "برنامه های Assembler سیستم میراث برای حفظ و سخت برای کارکنان گران است. این پست یک روش چند مرحله ای، AI با استفاده از Amazon Bedrock، Kiro IDE و Transform AWS برای استخراج قوانین کسب و کار، تبدیل Assembler از طریق یک مرحله COBOL متوسط، و استقرار برنامه های مدرن Java Spring Boot در AWS.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "59f9c5d9cb789e8e",
+   "url": "https://www.datacenterdynamics.com/en/news/nvidia-unveils-rubin-hpc-gpu-for-agentic-ai-powered-science-and-engineering-workloads",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "Nvidia unveils Rubin HPC GPU for agentic AI-powered science and engineering workloads",
+   "excerpt": "New GPU features more than 50,000 CUDA cores",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:26:26Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/hpc-blog-rubin-hpc-gpu-1920x1080-5.2e16d0ba.fill-750x500.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "59f9c5d9cb789e8e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Nvidia از Rubin HPC GPU برای کارهای علمی و مهندسی استفاده می کند",
+     "excerpt": "GPU جدید دارای بیش از 50000 هسته CUDA است",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "fb61f9802b0e4c21",
+   "url": "https://www.datacenterdynamics.com/en/news/openai-signs-on-for-457mw-ai-capacity-with-tensorwave",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "OpenAI signs on for 457MW AI capacity with TensorWave",
+   "excerpt": "Will cover multiple sites over six years",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:21:19Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/TensorWave.2e16d0ba.fill-750x500.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "fb61f9802b0e4c21",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "نشانه های OpenAI برای ظرفیت 457 مگاوات AI با TensorWave",
+     "excerpt": "چندین سایت را در طول شش سال پوشش می دهد",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "d3a67d4f7f1ae331",
+   "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+   "excerpt": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:10:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "ai voice"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "d3a67d4f7f1ae331",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "استارت آپ صوتی هوش مصنوعی جدید جردن بلفورت، تورن، می خواهد مانند “Wolf of Wall Street” بفروشد.",
+     "excerpt": "بلفورت ادعا می کند که صدای فروش هوش مصنوعی او در حال حاضر می تواند تقریبا به عنوان بهترین فروشندگان انسانی معامله کند و او فکر می کند که آن را در یک سال دریافت خواهد کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "7157ce3b54a8a376",
+   "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
+   "excerpt": "Novo Nordisk's Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:04:11Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "amazon bedrock agentcore",
+    "customer solutions"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21325-1.png",
+    "alt": "End-to-end architecture of the process-intelligence assistant on Amazon Bedrock AgentCore, with hybrid retrieval across Amazon OpenSearch Serverless and Amazon Neptune",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "7157ce3b54a8a376",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Novo Nordisk اسناد تولید را با Amazon Bedrock AgentCore مدرن می کند",
+     "excerpt": "تیم فناوری تولید Novo Nordisk در تیم منطقه قرص ساخت یک دستیار پردازش اطلاعات در Amazon Bedrock AgentCore، با استفاده از معماری GraphRAG که یک نمودار دانش را در آمازون نپتون با جستجوی هیبریدی در Amazon OpenSearch Serverless برای تبدیل میلیون ها سند تولید کنترل شده به پاسخ های ذکر شده است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "99f66f454c3bc11f",
+   "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "OpenAI will embed safety researchers to investigate AI subversion",
+   "excerpt": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:02:43Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "ai",
+    "openai",
+    "ai safety research"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/research.svg",
+    "kind": "fallback"
+   },
+   "eventId": "99f66f454c3bc11f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI محققان ایمنی را برای بررسی انحراف هوش مصنوعی تعبیه خواهد کرد",
+     "excerpt": "OpenAI شش evaluators تحقیقاتی آپولو را برای بررسی اینکه آیا مدل های AI آن در رفتار غیرمستقیم شرکت می کنند، اما محدودیت های دسترسی و افشای سوالات مربوط به استقلال خود را مطرح می کند، جاسازی خواهد کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "8c824024c9147b94",
+   "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+   "excerpt": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "policy",
+   "tags": [
+    "ai",
+    "apps",
+    "tc",
+    "chatgpt",
+    "csam",
+    "openai"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/policy.svg",
+    "kind": "fallback"
+   },
+   "eventId": "8c824024c9147b94",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI یک هشدار تصویری جدید را برای مبارزه با CSAM منتشر می کند",
+     "excerpt": "ChatGPT یک حساب کاربری را برای دسترسی به محتوای CSAM به مدت 24 ساعت به عنوان یک هشدار ممنوع خواهد کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "b1c71d07875ac772",
+   "url": "https://openai.com/index/strengthening-online-child-safety",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+   "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "safety"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b1c71d07875ac772",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "تقویت مبارزه با سوء استفاده جنسی کودکان آنلاین با ابزارهای جدید و پشتیبانی",
+     "excerpt": "ابزار جدید، راهنمایی عملی و مشارکت کمک خواهد کرد تا جلوگیری، شناسایی و پاسخ به بهره برداری جنسی و سوء استفاده آنلاین کودک.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "f26f2a4dfd6b9b95",
+   "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Broadening access to AI for scientists",
+   "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T17:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "research"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/research.svg",
+    "kind": "fallback"
+   },
+   "eventId": "f26f2a4dfd6b9b95",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گسترش دسترسی به AI برای دانشمندان",
+     "excerpt": "ما در حال گسترش چتGPT برای برنامه محققان علمی برای ارائه 200 هزار محقق در سراسر جهان دسترسی آزاد به مدل های مرزی ما.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "daa2f3055cf909ab",
+   "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+   "excerpt": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release smaller Qwen4 models as open source. The article Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:56:04Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "alibaba",
+    "qwen"
+   ],
+   "entities": [
+    "alibaba",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/07/qwen_logo-1.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "daa2f3055cf909ab",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Qwen4-Max Alibaba در Opus 5.5، GPT-6 و Kimi K3.1 Pro با قیمت های بسیار پایین تر",
+     "excerpt": "علی بابا Qwen4-Max را راه اندازی کرد، یک مدل پرچم دار جدید با 2.4 تریلیون پارامتر که تنها 71 میلیارد دلار در هر توکن فعال می کند. معماری ترکیبی به شدت هزینه ها را در زمینه های طولانی کاهش می دهد. Qwen4-Max فقط در پشت کیمی K3.1 Pro در شاخص هوش مصنوعی قرار دارد و علی بابا قصد دارد مدل های کوچکتر Qwen4 را به عنوان منبع باز منتشر کند. مقاله علی بابا Qwen4-Max در Opus 5.5، GPT-6 و ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "5d66058a84859542",
+   "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA",
+   "sourceId": "openai-youtube",
+   "sourceName": "OpenAI (YouTube)",
+   "title": "How Check Point speeds up vulnerability research with Daybreak | OpenAI for Cybersecurity",
+   "excerpt": "Check Point CTO Jonathan Zanger explains how his team uses OpenAI Daybreak to analyze vulnerabilities and turn findings into protections for customers. A vulnerability research workflow that once took hours can now be completed in minutes, according to Zanger. Read the full customer story: https://openai.com/index/check-point-daybreak/",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:55:56Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i3.ytimg.com/vi/vVVdxMwPBuA/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "vVVdxMwPBuA",
+    "url": "https://www.youtube.com/watch?v=vVVdxMwPBuA"
+   },
+   "eventId": "5d66058a84859542",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه Check Point تحقیقات آسیب پذیری را با Daybreak تسریع می کند؟ OpenAI برای امنیت سایبری",
+     "excerpt": "Check Point CTO جاناتان Zanger توضیح می دهد که چگونه تیم او از OpenAI Daybreak برای تجزیه و تحلیل آسیب پذیری ها و تبدیل یافته ها به حفاظت از مشتریان استفاده می کند. جریان کار تحقیقاتی آسیب پذیر که زمانی ساعت ها طول کشید، اکنون می تواند در عرض چند دقیقه تکمیل شود. داستان مشتری کامل را بخوانید: https://openai.com/index/check-point-daybreak/check",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "7026b06cbdceb5af",
+   "url": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang",
+   "sourceId": "wired-ai",
+   "sourceName": "WIRED — AI",
+   "title": "Jensen Huang Is Gone. Now What?",
+   "excerpt": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:12:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "the big story",
+    "business",
+    "business / artificial intelligence",
+    "big interview",
+    "uncanny valley podcast",
+    "podcasts"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.wired.com/photos/6af78c75239676948e926fc2/master/pass/Big-Interview-UV-Solo-Katie-Lauren-Business.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+   },
+   "eventId": "7026b06cbdceb5af",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوا رفته است. حالا چی؟",
+     "excerpt": "پس از یک سقوط تکان دهنده، مدیر عامل Nvidia از یک شغل خارج می شود. لورن گود توضیح می دهد که چه معنایی برای مهم ترین شرکت تراشه جهان، صنعت AI و Jensen Huang خود دارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "cc69239e629b14a0",
+   "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
+   "excerpt": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combines the results with facts from related documents to answer multi-step analytical questions.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:12:16Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "amazon bedrock knowledge bases",
+    "intermediate (200)",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22293-1.png",
+    "alt": "Your application, outside the AWS Cloud, sends a question to agentic retrieval and receives an answer with citations and trace events. Inside the AWS Cloud, agentic retrieval contains Retrieval, Plann",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "cc69239e629b14a0",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "پاسخ از جداول با جستجوی زبانه در پایگاه دانش مدیریت شده آمازون",
+     "excerpt": "پایگاه دانش مدیریت شده آمازون در حال حاضر از جستجوی زبانه پشتیبانی می کند، بنابراین بازیابی عامل می تواند به سوالات در مورد فایل های CSV، XLSX و XLS پاسخ دهد. به نظر می رسد ارزش ها را بالا می برد و محاسبات را در هر ردیف مربوطه اجرا می کند، سپس نتایج را با حقایق از اسناد مرتبط ترکیب می کند تا به سوالات تحلیلی چند مرحله ای پاسخ دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "8806a70ae484f167",
+   "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+   "excerpt": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:10:22Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai and coding",
+    "anthropic",
+    "claude"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/claude_gemini_pro-scaled.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "8806a70ae484f167",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "کلود در حال حاضر وب سایت های تعاملی را در داخل گرافیک بوم ایجاد می کند، بازسازی دوره فلش با HTML واقعی",
+     "excerpt": "کلود اکنون می تواند متن، دکمه ها و دیگر عناصر وب را به گرافیک پیچیده و اثرات 3D جاسازی کند. مقاله کلود در حال حاضر ایجاد وب سایت های تعاملی در داخل گرافیک بوم، بازسازی دوره فلش با HTML واقعی در ابتدا در Decoder ظاهر شد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "e4d77f6933461102",
+   "url": "https://www.rockpapershotgun.com/intel-are-being-sued-for-misleading-investors-about-a-massive-glut-of-unwanted-pc-inventory-thanks-to-ai-fuelled-price-hikes",
+   "sourceId": "rock-paper-shotgun",
+   "sourceName": "Rock Paper Shotgun",
+   "title": "Intel are being sued for \"misleading\" investors about \"a massive glut of unwanted PC inventory\" thanks to AI-fuelled price hikes",
+   "excerpt": "Tech giant Intel are being taken to court for allegedly \"misleading\" their investors about the sheer scale of the impact of generative AI-fuelled component price hikes on PC sales. The class action lawsuit in question claims that Intel's distribution and manufacturing partners have had to deal with \"a massive glut of unwanted PC inventory\", and that the gains from Intel's investments in AI…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:10:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://assetsio.gnwcdn.com/Intel-Core-Ultra-7-270K-installed-alt-2.JPG?width=690&quality=85&format=jpg&auto=webp",
+    "kind": "feed",
+    "sourceUrl": "https://www.rockpapershotgun.com/feed"
+   },
+   "eventId": "e4d77f6933461102",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "اینتل برای سرمایه گذاران \"بدراهه\" در مورد \"تخر عظیم از موجودی رایانه ای ناخواسته\" به لطف افزایش قیمت سوخت AI",
+     "excerpt": "غول فناوری اینتل به دادگاه منتقل می شود زیرا ادعا می شود سرمایه گذاران خود را در مورد مقیاس مطلق تاثیر افزایش قیمت قطعات سوخت دهنده هوش مصنوعی بر فروش کامپیوتر هدایت می کند. دادخواست اقدام طبقاتی در پرسش ادعا می کند که شرکای توزیع و تولید اینتل باید با «تخر عظیم موجودی رایانه ای ناخواسته» مقابله کنند و دستاوردهای سرمایه گذاری های اینتل در AI...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ddcd7a9ae2443227",
+   "url": "https://www.theguardian.com/environment/2026/nov/16/ai-models-fallible-denial-climate-science-unesco-cop31",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "AI models ‘weak and fallible’ on climate science, UN-backed study reports",
+   "excerpt": "While mostly accurate describing simple facts, models pivoted to denial and wrong answers when challenged Cop31 live – latest updates Artificial intelligence models can quickly turn into climate crisis deniers at the mildest challenge from users, according to a new UN-backed study. While AI models can accurately confirm simple facts about climate change, eight times out of 10 when they pivoted…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:05:58Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "cop31",
+    "ai (artificial intelligence)",
+    "unesco",
+    "united nations",
+    "environment",
+    "turkey"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/8a8dda7a7c4cd1ba14ec104f348c597ef0af837d/158_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=3e9e174be887538f15fe009131ad6820",
+    "credit": "Photograph: Mehmet Ali Ozcan/Anadolu/Getty Images",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "ddcd7a9ae2443227",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مدل های AI \"ضعیف و غیر قابل سقوط\" در علوم آب و هوا، گزارش های مطالعه مورد حمایت سازمان ملل",
+     "excerpt": "در حالی که بیشتر دقیق توصیف واقعیت های ساده، مدل ها به انکار و پاسخ های اشتباه در هنگام به چالش کشیدن Cop31 زندگی می کنند - آخرین مدل های هوش مصنوعی به سرعت می توانند به بحران آب و هوا در خفیف ترین چالش از کاربران تبدیل شوند، با توجه به یک مطالعه جدید سازمان ملل متحد. در حالی که مدل های AI می توانند به طور دقیق حقایق ساده در مورد تغییرات آب و هوایی را تأیید کنند، هشت بار از ۱۰ برابر زمانی که آنها در حال چرخش هستند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ea6ee25fa2b6781e",
+   "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+   "sourceId": "mit-tech-review-ai",
+   "sourceName": "MIT Technology Review — AI",
+   "title": "Building trustworthy AI by fencing it in, not predicting it",
+   "excerpt": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:04:28Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "artificial intelligence",
+    "sponsored"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://wp.technologyreview.com/wp-content/uploads/2026/11/BA5098150_Post-NEXUS_MIT_1920x1080.jpg?w=840",
+    "kind": "feed",
+    "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+   },
+   "eventId": "ea6ee25fa2b6781e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایجاد هوش مصنوعی قابل اعتماد توسط حصار آن، نه پیش بینی آن",
+     "excerpt": "در ماه اکتبر سال جاری، OpenAI اعلام کرد که دو عامل هوش مصنوعی آن سیستم هایی را که برای نظارت بر آنها ساخته شده بودند، خاموش کرده اند. یکی از هشدارهای ایمنی خود را پس از اشتباه خواندن دستورالعمل برای ارسال پیام، دیگری ادغام نظارت خود را در طول مهاجرت حذف کرد، سپس گفت که آن را انجام نداده است. هیچ قانونی به مامورین نگفته بود که باید...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "aafc20d9f2a085c9",
+   "url": "https://blogs.nvidia.com/blog/lambda-photonics",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+   "excerpt": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connect NVIDIA GB300 NVL72 racks with more than 10,000 GPUs, delivering",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:00:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "networking",
+    "supercomputing",
+    "ai factory",
+    "artificial intelligence",
+    "hardware"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ethernet-lambda-blog-1920x1080-1.jpeg",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "_SuSm8tu5AY",
+    "url": "https://www.youtube.com/watch?v=_SuSm8tu5AY"
+   },
+   "eventId": "aafc20d9f2a085c9",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "لوتلا تقویت ایمنی کارخانه هوش مصنوعی و بهره وری با NVIDIA Photo",
+     "excerpt": "برای آموزش یک مدل AI، هزاران GPU باید با هم کار کنند و به شبکه ای نیاز دارند که سریع، کارآمد و انعطاف پذیر باشد. ادل در حال مقابله با قطعه شبکه پازل با سوئیچ های Co-package اپتیک NVIDIA (CPO) است. ارائه دهنده ابر از سوئیچ ها برای اتصال قفسه های NVIDIA GB300 NVL72 با بیش از ۱۰۰۰۰ GPU استفاده می کند، تحویل می دهد",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "0f2a855bc6a8fcf2",
+   "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+   "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:00:25Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "ai",
+    "ai infrastructure",
+    "hardware",
+    "networking",
+    "software",
+    "agentic ai"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/vera-rubin-mlperf-training-endpoints.png",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "eventId": "0f2a855bc6a8fcf2",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "NVIDIA آموزش MLPerf و نقاط پایانی را به عنوان Vera Rubin Debuts با هدایت عملکرد",
+     "excerpt": "در اولین رتبه MLPerf خود، با نتایج منتشر شده امروز، پلت فرم NVIDIA Vera Rubin عملکرد پیشرو را در سراسر آموزش، آموزش پس از تمرین و مداخله نمایندگی ارائه می دهد. NVIDIA هر معیار آموزش MLPerf v6.1 را در بر گرفت و در اولین ارسال MLPerf Endpoint، بیش از 10x سود نسلی را در هر وات برای AI عامل ارائه داد - اندازه گیری اینکه چه مقدار نمایندگی",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "8192f1094925b873",
+   "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+   "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:00:16Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "ai infrastructure",
+    "hardware",
+    "software",
+    "supercomputing",
+    "cuda-x",
+    "dgx spark"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "E3Hy-WRJbXE",
+    "url": "https://www.youtube.com/watch?v=E3Hy-WRJbXE"
+   },
+   "eventId": "8192f1094925b873",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "کتابخانه های NVIDIA CUDA-X ابزار را برای تسریع کشف علمی ارائه می دهند",
+     "excerpt": "با کتابخانه های توسعه یافته NVIDIA CUDA-X، از جمله PiPhoton، PiPotential و cuSpa، محققان می توانند از طریق مقادیر زیادی از داده ها برای تسریع تحقیقات، از Astro Physics و علوم مواد به زیست شناسی تک سلول. سرعت ها به دانشمندان کمک می کنند تا مجموعه داده های بزرگتر را تجزیه و تحلیل کنند و سیستم های پیچیده تر را مدل کنند. کتابخانه های جدید ابزار AI را برای کمک به محققان برای اکتشافات ارائه می دهند",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "f96db6736bc3d96a",
+   "url": "https://blogs.nvidia.com/blog/20-years-cuda",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+   "excerpt": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who wrote the very first CUDA programs to the AI developers",
+   "lang": "en",
+   "publishedAt": "2026-11-16T16:00:11Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "software",
+    "supercomputing",
+    "artificial intelligence",
+    "cuda",
+    "developer program"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/cuda-at-20-1920x1080-1.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "v2I4vqz87fk",
+    "url": "https://www.youtube.com/watch?v=v2I4vqz87fk"
+   },
+   "eventId": "f96db6736bc3d96a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "CUDA در 20: چگونه پلت فرم تبدیل محاسبات علمی",
+     "excerpt": "این هفته در SC26، NVIDIA دو دهه از CUDA را با افتخار محققان، توسعه دهندگان و مهندسان که کمک به محاسبات GPU پایه ای برای علوم مدرن و AI است، نشان می دهد. ۲۰ سالگی CUDA فرصتی برای انعکاس در دوره های محاسباتی از افرادی که اولین برنامه های CUDA را به توسعه دهندگان AI نوشتند، ارائه می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "6516c66961953bb6",
+   "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Audible turns to AI to help users discover audiobooks",
+   "excerpt": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:52:19Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "apps",
+    "media & entertainment",
+    "amazon",
+    "audible",
+    "audiobooks"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "6516c66961953bb6",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Audible به AI تبدیل می شود تا به کاربران در کشف کتاب های صوتی کمک کند",
+     "excerpt": "پیش نمایش های صوتی جدید تولید شده توسط AI خلاصه ای از موضوعات کتاب و آنچه خوانندگان در مورد آن دوست داشتند، علاوه بر بازی نمونه روایت شده.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "f978b1cf70930b8f",
+   "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
+   "excerpt": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:48:01Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "safety",
+   "tags": [
+    "amazon bedrock guardrails",
+    "best practices",
+    "intermediate (200)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/safety.svg",
+    "kind": "fallback"
+   },
+   "eventId": "f978b1cf70930b8f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "بهترین شیوه ها برای نوشتن موضوعات انکار شده در Amazon Bedrock Guardrail",
+     "excerpt": "با موضوعات انکار شده در Amazon Bedrock Guardrails، شما یک دسته محتوا را با توصیف آن در زبان ساده مسدود می کنید و Guardrail به جای کلمه کلیدی مطابقت دارد که می تواند بیش از آنچه شما قصد دارید را مسدود کند. این پست هشت بهترین شیوه برای نوشتن یک موضوع را دقیقاً به اندازه کافی ارائه می دهد که Guardrail آنچه را که منظور شما است را مسدود می کند و آنچه را که نمی خواهید انجام می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "c636885b9662b9ce",
+   "url": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Customize answers per tenant in Amazon Bedrock Managed Knowledge Base",
+   "excerpt": "Retrieval instructions in Amazon Bedrock Managed Knowledge Base set the voice, format, retrieval guidance, and answer policy for each tenant on shared knowledge bases. This post shows how to give each tenant its own answers, keep tenant data apart with metadata filters, scope access with IAM tags, and roll out changes one tenant at a time.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:46:28Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "policy",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22295-1.png",
+    "alt": "Backend maps each authenticated tenant to a per-tenant instruction version and metadata filter, then calls AgenticRetrieveStream on one shared managed knowledge base",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "c636885b9662b9ce",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "سفارشی کردن پاسخ به هر مستاجر در آمازون Bedrock مدیریت دانش",
+     "excerpt": "دستورالعمل های Retrieval در پایگاه دانش مدیریت شده آمازون، صدا، فرمت، هدایت بازیابی و پاسخ به سیاست برای هر مستاجر در پایگاه های دانش مشترک. این پست نشان می دهد که چگونه به هر ده پاسخ خود را، نگه داشتن داده های مستاجر جدا با فیلترهای متاداده، دسترسی دامنه با تگ های IAM، و رول تغییرات یک مستاجر در یک زمان.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "7381db88317ca659",
+   "url": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Use prompt caching with open-weight models on Amazon Bedrock",
+   "excerpt": "Many generative AI applications resend the same long context on every request. Prompt caching lets open-weight models on Amazon Bedrock reuse it to reduce input cost and latency. This post shows implicit and explicit caching through the Chat Completions API and applies caching to an OpenCode coding agent session.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:42:41Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "open-source",
+   "tags": [
+    "amazon bedrock",
+    "intermediate (200)",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-22160-1.gif",
+    "alt": "Conversation turns reusing each previous request as the cached prefix, and rebuilding the cache when an early turn changes",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "7381db88317ca659",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "استفاده از Caching سریع با مدل های باز وزن در آمازون Bedrock",
+     "excerpt": "بسیاری از برنامه های عمومی AI همان زمینه طولانی را در هر درخواست باز می کنند. Caching سریع اجازه می دهد تا مدل های باز وزن در Amazon Bedrock از آن برای کاهش هزینه های ورودی و تاخیر استفاده کنند. این پست نشان می دهد ضمنی و صریح Caching از طریق Chat Completions API و Caching به یک جلسه نماینده کد باز اعمال می شود.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ab086a66f465eda3",
+   "url": "https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Anthropic says the key to agent memory is knowing what to forget, not how much to store",
+   "excerpt": "Anthropic studied how Claude retains knowledge across sessions. Selective notes beat exhaustive archives by a wide margin. In a Pokémon Red test, the newer Claude Fable 5 got four times as far as the older Sonnet 3.7 by keeping just a handful of strategy files instead of more than 400. A \"Dreaming\" process retroactively corrects faulty memories. The article Anthropic says the key to agent memory…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:25:48Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "ai research",
+    "artificial intelligence",
+    "anthropic",
+    "claude"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude-2.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "ab086a66f465eda3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Anthropic می گوید کلید حافظه عامل این است که بدانید چه چیزی را فراموش کنید، نه اینکه چقدر ذخیره کنید.",
+     "excerpt": "Anthropic مطالعه کرد که چگونه کلود حفظ دانش در سراسر جلسات. یادداشت های انتخابی آرشیو های اگزوز را با یک حاشیه گسترده ضرب می کنند. در یک آزمایش Red Pokémon، کلود Fable 5 جدید چهار برابر بیشتر از Sonnet 3.7 قدیمی تر با نگه داشتن تعداد انگشت شماری از فایل های استراتژی به جای بیش از 400. یک فرایند \"روروی\" به طور پیوسته خاطرات معیوب را تصحیح می کند. مقاله Anthropic می گوید کلید عامل حافظه ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "772ccdf8e8c79868",
+   "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+   "excerpt": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T15:02:34Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "government & policy",
+    "hardware",
+    "ai chips",
+    "export controls",
+    "semiconductor export ban"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/hardware.svg",
+    "kind": "fallback"
+   },
+   "eventId": "772ccdf8e8c79868",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایالات متحده کنترل صادرات تراشه AI را برای جلوگیری از دسترسی شرکت های چینی از راه دور",
+     "excerpt": "بر اساس قانون موقت، ایالات متحده به شرکت ها نیاز خواهد داشت تا مجوز صادرات تراشه های AI را دریافت کنند، در صورتی که بتوانند برای چین یا دیگر کشورهای محدود محاسبه کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "5c136724c0dea211",
+   "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Google Maps can now build trip itineraries with real-time details about each stop",
+   "excerpt": "You could use Ask Maps to plan a holiday shopping day trip or something more complex, like a three-day road trip featuring coastal hikes and oceanfront dining.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:48:13Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "apps",
+    "google",
+    "google maps"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "5c136724c0dea211",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Google Maps اکنون می تواند با جزئیات زمان واقعی در مورد هر توقف سفر کند",
+     "excerpt": "شما می توانید از Ask Maps برای برنامه ریزی سفر روزانه تعطیلات یا چیزی پیچیده تر مانند یک سفر جاده ای سه روزه با پیاده روی های ساحلی و ناهار خوری در اقیانوس استفاده کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ca1899ca16809729",
+   "url": "https://arstechnica.com/ai/2026/11/jensen-huang-allies-build-a-war-room-to-get-him-back-at-nvidia",
+   "sourceId": "ars-ai",
+   "sourceName": "Ars Technica — AI",
+   "title": "Jensen Huang allies build a \"war room\" to get him back at Nvidia",
+   "excerpt": "Huang is weighing a return just days after resigning amid a deepening scandal.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:06:16Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "ai",
+    "tech",
+    "jensen huang",
+    "nvidia",
+    "syndication"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/2024/06/huang_computex_2024-1152x648.jpg",
+    "alt": "Nvidia's CEO Jensen Huang delivers his keystone speech ahead of Computex 2024 in Taipei on June 2, 2024.",
+    "credit": "SAM YEH/AFP via Getty Images",
+    "kind": "feed",
+    "sourceUrl": "https://arstechnica.com/ai/feed/"
+   },
+   "eventId": "ca1899ca16809729",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "متحدان جنسن هوانگ یک \"اتاق جنگی\" برای بازگشت به Nvidia ساختند.",
+     "excerpt": "هوانگ فقط چند روز پس از استعفا در میان یک رسوایی عمیق وزن می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "bba064722f19850f",
+   "url": "https://www.pcgamer.com/games/rts/ashes-of-the-singularity-2-review",
+   "sourceId": "pc-gamer",
+   "sourceName": "PC Gamer",
+   "title": "Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI",
+   "excerpt": "Ashes of the Singularity 2 delivers on gigantic battles, but not much else.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:01:32Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "rts",
+    "games"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://cdn.mos.cms.futurecdn.net/rYxAXFKHCxrG3NcDcXa2sj-1920-80.png",
+    "alt": "Ashes 2 key art",
+    "credit": "Stardock",
+    "kind": "feed",
+    "sourceUrl": "https://www.pcgamer.com/rss/"
+   },
+   "eventId": "bba064722f19850f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Ashes of the Singularity 2 Review: برخی از ایده های شسته و رفته توسط یک کمپین زباله و هوش مصنوعی عمومی مزاحم",
+     "excerpt": "Ashes of the Singularity 2 در جنگ های غول پیکر، اما نه خیلی دیگر.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "0bc322583e6f0775",
+   "url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
+   "sourceId": "google-ai-blog",
+   "sourceName": "Google — The Keyword (AI)",
+   "title": "New Ask Maps features to help with holiday travel and prep",
+   "excerpt": "tbd",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "travel",
+    "maps",
+    "ai"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Maps_November_herosocial.max-600x600.format-webp.webp",
+    "kind": "feed",
+    "sourceUrl": "https://blog.google/technology/ai/rss/"
+   },
+   "eventId": "0bc322583e6f0775",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ویژگی های جدید Ask Maps برای کمک به سفر تعطیلات و prep",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "29a19e1aacc64ded",
+   "url": "https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Audible is trying to make it easier to find audiobooks you’ll actually like",
+   "excerpt": "Audible is introducing an AI-assisted synopsis feature that's designed to help users determine whether they'll enjoy an audiobook before they jump in and start listening to it. The new audio discovery feature combines audiobook samples, AI overviews, and author commentary to give users more information before choosing their next story, in addition to recommended audiobook",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "ai",
+    "amazon",
+    "audio",
+    "news",
+    "tech"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Audible-audio-discovery-hero-.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "29a19e1aacc64ded",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Audible تلاش می کند تا آن را آسان تر برای پیدا کردن کتاب های صوتی شما در واقع مانند",
+     "excerpt": "Audible معرفی یک ویژگی synopsis با کمک AI است که برای کمک به کاربران طراحی شده است تا تعیین کنند که آیا آنها از یک کتاب صوتی قبل از پریدن و شروع به گوش دادن به آن لذت می برند. ویژگی جدید کشف صدا ترکیبی از نمونه های کتاب صوتی، مرور هوش مصنوعی و تفسیر نویسنده برای ارائه اطلاعات بیشتر قبل از انتخاب داستان بعدی خود، علاوه بر کتاب صوتی توصیه شده است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "dd02c35afc864bbe",
+   "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Google Maps can now create trip itineraries for you",
+   "excerpt": "Google is launching a new AI trip-planning feature for Maps that allows the app to create custom itineraries for you and provide real-time details about each stop. The update, which is rolling out to the Gemini-powered Ask Maps chatbot inside the app, lets you plan a one-day outing or a trip spanning several days. As",
+   "lang": "en",
+   "publishedAt": "2026-11-16T14:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [
+    "ai",
+    "apps",
+    "google",
+    "news",
+    "tech"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472454/STK270_GOOGLE_MAPS_D.png?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Vector illustration of the Google Maps logo.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "dd02c35afc864bbe",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Google Maps اکنون می تواند برنامه های سفر را برای شما ایجاد کند",
+     "excerpt": "گوگل در حال راه اندازی یک ویژگی جدید برنامه ریزی سفر AI برای Maps است که به برنامه اجازه می دهد تا آندرهای سفارشی را برای شما ایجاد کند و جزئیات زمان واقعی را در مورد هر توقف ارائه دهد. به روز رسانی، که به ابزار Ask Maps chatbot در داخل برنامه ارسال می شود، به شما اجازه می دهد یک روز را برنامه ریزی کنید یا یک سفر چند روز طول بکشد. همانطور که",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "2b2bb87b4857660b",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "The Nvidia scandal isn’t slowing down",
+   "excerpt": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading AI CEOs to essentially bow at",
+   "lang": "en",
+   "publishedAt": "2026-11-16T13:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "analysis",
+    "chips",
+    "gadgets",
+    "nvidia",
+    "policy"
+   ],
+   "entities": [
+    "amazon",
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STKP210_JENSEN_HUANG_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "A black-and-white photo of Jensen Huang against a multicolored background. ",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "2b2bb87b4857660b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "رسوایی Nvidia کاهش نمی یابد",
+     "excerpt": "برای سال ها، Jensen Huang دارای قدرت تقریبا بی سابقه ای برای شکل دادن به پیشرفت AI به عنوان مدیر عامل Nvidia، بنیانگذار و رئیس جمهور است. همانطور که Verge در هفته گذشته نوشت، تراشه های Nvidia \"که بر اساس آن تکنولوژی پیشرفته AI در ایالات متحده ساخته شده است\" هستند، تقاضای روزافزون به طور مداوم از عرضه خارج شده است، مدیران ارشد AI به طور اساسی در برابر آن مقاومت می کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "ef28afd6608b538d",
+   "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+   "sourceId": "mit-tech-review-ai",
+   "sourceName": "MIT Technology Review — AI",
+   "title": "Building AI that can work across the enterprise",
+   "excerpt": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+   "lang": "en",
+   "publishedAt": "2026-11-16T13:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "artificial intelligence",
+    "sponsored"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/research.svg",
+    "kind": "fallback"
+   },
+   "eventId": "ef28afd6608b538d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ساخت AI که می تواند در سراسر شرکت کار کند",
+     "excerpt": "سالهاست که شرکت ها به هوش مصنوعی به عنوان یک سری از آزمایشات گسسته نزدیک شده اند. در حال حاضر، به عنوان عوامل AI شروع به حرکت به جریان های کاری که کسب و کار را اجرا می کنند، این مدل شروع به نگاه ناکافی است. سازمان هایی که از خلبانان جدا شده به سمت عوامل هوش مصنوعی و جریان های کاری مستقل حرکت می کنند با یک چالش عمیق تر مواجه می شوند: تجدید نظر در مورد چگونگی داده ها، فرایندهای کسب و کار، حکومت، ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "fcbaf2152a3da36d",
+   "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+   "excerpt": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T12:30:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "business",
+   "tags": [
+    "ai",
+    "enterprise",
+    "startups",
+    "accel",
+    "crm",
+    "exclusive"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "fcbaf2152a3da36d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Alum های تازه کار 53 میلیون دلار برای گرفتن در Salesforce، HubSpot با CRM مصنوعی افزایش می یابد",
+     "excerpt": "تیم خواب بیش از ۱۰۰ مشتری را در ۱۳ کشور ثبت کرده است و برخی از کسب و کارها از CRM های تاسیس شده تغییر می کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "f891bd93f3d21469",
+   "url": "https://openai.com/index/science-at-the-frontier",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Science at the Frontier: How scientists use ChatGPT",
+   "excerpt": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T12:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "research",
+   "tags": [
+    "research"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/research.svg",
+    "kind": "fallback"
+   },
+   "eventId": "f891bd93f3d21469",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "علم در مرز: چگونه دانشمندان از ChatGPT استفاده می کنند",
+     "excerpt": "بررسی کنید که چگونه بیش از 1800 دانشمند از ChatGPT در تحقیقات استفاده می کنند. یافته های مربوط به گردش کار روزانه، بهره وری گزارش شده و انتظارات برای کشف.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
    "id": "79caadf21db82388",
    "url": "https://www.datacenterdynamics.com/en/news/core-scientific-to-exit-bitcoin-mining-by-end-of-2026-as-it-grows-ai-colo-business",
    "sourceId": "datacenter-dynamics",
@@ -185,6 +2713,41 @@
    }
   },
   {
+   "id": "ebd9eb94963902d2",
+   "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Our first phase of embedded assessments",
+   "excerpt": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T08:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "safety",
+   "tags": [
+    "safety"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/safety.svg",
+    "kind": "fallback"
+   },
+   "eventId": "ebd9eb94963902d2",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "اولین مرحله ارزیابی های جاسازی شده",
+     "excerpt": "OpenAI شروع به ارزیابی های جاسازی شده با تحقیقات آپولو، METR و Transluce و Goodfire برای ارزیابی مستقل تراز مدل، حفاظت و سیستم های نظارت می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
    "id": "022551b4aa7642dc",
    "url": "https://www.theguardian.com/society/2026/nov/16/uk-exposed-to-polycrisis-of-threats-amid-government-complacency",
    "sourceId": "guardian-ai",
@@ -221,6 +2784,75 @@
      "excerpt": "لردها گزارش می دهند که خواستار رویکرد فوری جدید برای برنامه ریزی در برابر حملات سایبری، خرابکاری و وزرای بحران آب و هوا هستند در مواجهه با تهدیدات سریع در حال تغییر و به طور فزاینده ای به بریتانیا، و باید به سرعت برای افزایش انعطاف پذیری ملی به احتمال زیاد بحران های بزرگ، یک گزارش پارلمانی پیدا کرده است. در حالی که حزب کارگر به تازگی کمپین «آماده باش» را راه اندازی کرد...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-16T11:40:18Z"
+    }
+   }
+  },
+  {
+   "id": "b0ded74e06b06613",
+   "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Advancing computer-use agents for healthcare teams",
+   "excerpt": "",
+   "lang": "en",
+   "publishedAt": "2026-11-16T06:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "product"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b0ded74e06b06613",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "بهبود عوامل استفاده از کامپیوتر برای تیم های بهداشتی",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "cfcc7acb02e9ca79",
+   "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "More ways to move care forward with ChatGPT for Healthcare",
+   "excerpt": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T06:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "models",
+   "tags": [
+    "product"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "cfcc7acb02e9ca79",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "راه های بیشتر برای حرکت به جلو با ChatGPT برای مراقبت های بهداشتی",
+     "excerpt": "معرفی عوامل استفاده از کامپیوتر، بهبود پاسخ های بالینی و پلاگین های بهداشتی جدید که در سراسر نرم افزار مراقبت های بهداشتی کار می کنند تا کار واقعی انجام شود.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
     }
    }
   },
@@ -608,6 +3240,72 @@
      "excerpt": "بیش از دو روز در COEX، بیش از ۲۰۰۰ شرکت کننده برای روز AI سئول گرد هم آمدند و رهبران صنعت کره، استارت آپ ها و جوامع توسعه دهنده را در حال پیشرفت عوامل هوش مصنوعی و AI هستند. در جلسات پر زرق و برق، Deepu Talla، معاون رئیس رباتیک و هوش مصنوعی لبه در NVIDIA، گفت که کره \"به مراتب بالاتر از وزن خود\" است، با Doosan Robotics، هیوندای",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-16T02:49:57Z"
+    }
+   }
+  },
+  {
+   "id": "3899b6e8ee3cc1f1",
+   "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "At Holiday Extras, dots get to work before anyone asks",
+   "excerpt": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+   "lang": "en",
+   "publishedAt": "2026-11-16T00:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "products",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "3899b6e8ee3cc1f1",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "در تعطیلات اضافی، نقاط به کار قبل از هر کسی که می پرسد",
+     "excerpt": "دو گزارش های راه اندازی را ارائه می دهند، مسائل پرچمی که مردم ممکن است از دست بدهند و از طریق جلسات آینده در رفت و آمد به محل کار صحبت کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
+    }
+   }
+  },
+  {
+   "id": "853b24ff0d6ecd3f",
+   "url": "https://huggingface.co/blog/openrouter",
+   "sourceId": "huggingface-blog",
+   "sourceName": "Hugging Face Blog",
+   "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+   "excerpt": "",
+   "lang": "en",
+   "publishedAt": "2026-11-16T00:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-16T22:16:59Z",
+   "day": "2026-11-16",
+   "category": "open-source",
+   "tags": [],
+   "entities": [
+    "huggingface"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://huggingface.co/blog/assets/openrouter/thumbnail.jpg",
+    "kind": "og",
+    "sourceUrl": "https://huggingface.co/blog/openrouter"
+   },
+   "eventId": "853b24ff0d6ecd3f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "عقب کشیدن صورت و OpenRouter به نیروها ملحق می شود تا مدل های باز وزن را آسان کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-16T22:16:59Z"
     }
    }
   },
