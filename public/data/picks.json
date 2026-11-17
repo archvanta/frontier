@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-16T22:06:08Z",
+ "asOf": "2026-11-17T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-15T22:06:08Z",
-   "to": "2026-11-16T22:06:08Z",
+   "from": "2026-11-16T00:00:00Z",
+   "to": "2026-11-17T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 82.2,
+       "total": 80.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 89.2,
+        "recency": 79.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -105,15 +105,15 @@
       "eventId": "0761da68e54fd0db",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 88.6,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -160,15 +160,15 @@
       "eventId": "b1c71d07875ac772",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.5,
+        "recency": 66.7,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -221,15 +221,15 @@
       "eventId": "2453547dcede7e6e",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
+        "recency": 79.4,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -241,65 +241,6 @@
       }
      },
      "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "94ec9ff9d4729a9e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
-      "excerpt": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
-      "lang": "en",
-      "publishedAt": "2026-11-16T22:06:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "products",
-      "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "customer solutions"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-20525-1.png",
-       "alt": "Duco multi-tenant architecture with per-tenant isolation across the infrastructure, security, and agent layers",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "94ec9ff9d4729a9e",
-      "related": [],
-      "score": {
-       "total": 66.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 70.0
-       },
-       "asOf": "2026-11-16T22:06:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه Duco اتوماسیون داده های مالی را با Amazon Bedrock Agent تبدیل می کند",
-        "excerpt": "Duco، یک پلت فرم اتوماسیون داده برای بانک های لایه یک، پشته هوش مصنوعی خود را در آمازون Bedrock و Amazon Bedrock AgentCore بازسازی کرد. با انزوای سفت و سخت، یک استراتژی چند مدل و یک معماری مهارت های MCP که زمینه را تا 90٪ کاهش می دهد، Duco زمان استقرار آشتی 10x و هزینه های قایقرانی 70٪ کاهش می یابد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -339,20 +280,79 @@
       "eventId": "eea13b12d8e0c566",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.3,
+        "recency": 72.8,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
         "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T22:16:59Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "94ec9ff9d4729a9e",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+      "excerpt": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+      "lang": "en",
+      "publishedAt": "2026-11-16T22:06:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T22:16:59Z",
+      "day": "2026-11-16",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "amazon bedrock agentcore",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-20525-1.png",
+       "alt": "Duco multi-tenant architecture with per-tenant isolation across the infrastructure, security, and agent layers",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "94ec9ff9d4729a9e",
+      "related": [],
+      "score": {
+       "total": 64.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.6,
+        "topic": 65.0,
+        "novelty": 70.0
+       },
+       "asOf": "2026-11-17T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه Duco اتوماسیون داده های مالی را با Amazon Bedrock Agent تبدیل می کند",
+        "excerpt": "Duco، یک پلت فرم اتوماسیون داده برای بانک های لایه یک، پشته هوش مصنوعی خود را در آمازون Bedrock و Amazon Bedrock AgentCore بازسازی کرد. با انزوای سفت و سخت، یک استراتژی چند مدل و یک معماری مهارت های MCP که زمینه را تا 90٪ کاهش می دهد، Duco زمان استقرار آشتی 10x و هزینه های قایقرانی 70٪ کاهش می یابد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-16T22:16:59Z"
        }
@@ -369,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-09T22:06:08Z",
-   "to": "2026-11-16T22:06:08Z",
+   "from": "2026-11-10T00:00:00Z",
+   "to": "2026-11-17T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +405,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 83.9,
+       "total": 83.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 98.1,
+        "recency": 96.3,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -461,15 +461,15 @@
       "eventId": "b1c71d07875ac772",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 93.5,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -520,15 +520,15 @@
       "eventId": "724333834a57d025",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 83.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       }
      },
      "rank": 3,
@@ -569,15 +569,15 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 92.4,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -628,15 +628,15 @@
       "eventId": "eea13b12d8e0c566",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 94.9,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -689,15 +689,15 @@
       "eventId": "0f2a855bc6a8fcf2",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 92.6,
         "topic": 80.0,
         "novelty": 85.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -755,15 +755,15 @@
       "eventId": "8192f1094925b873",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 92.6,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -813,15 +813,15 @@
       "eventId": "0761da68e54fd0db",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 98.0,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -843,8 +843,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-17T22:06:08Z",
-   "to": "2026-11-16T22:06:08Z",
+   "from": "2026-10-18T00:00:00Z",
+   "to": "2026-11-17T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -879,15 +879,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 84.2,
+       "total": 84.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 99.4,
+        "recency": 98.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -942,15 +942,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 83.5,
+       "total": 83.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 61.2,
+        "recency": 60.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1001,15 +1001,15 @@
       "eventId": "724333834a57d025",
       "related": [],
       "score": {
-       "total": 74.0,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       }
      },
      "rank": 3,
@@ -1048,15 +1048,15 @@
       "eventId": "b1c71d07875ac772",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 98.0,
         "topic": 100.0,
         "novelty": 82.4
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1105,15 +1105,15 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 71.1,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.2,
+        "recency": 97.7,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1164,11 +1164,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 26.4,
+        "recency": 26.3,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1183,6 +1183,65 @@
      "reason": [
       "tier-1",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "eea13b12d8e0c566",
+      "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
+      "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
+      "lang": "en",
+      "publishedAt": "2026-11-16T18:30:41Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T22:16:59Z",
+      "day": "2026-11-16",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "uGZO6I-CJtM",
+       "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
+      },
+      "eventId": "eea13b12d8e0c566",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-17T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
+        "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T22:16:59Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1221,79 +1280,20 @@
       "eventId": "0f2a855bc6a8fcf2",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.7,
         "topic": 80.0,
         "novelty": 85.0
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA آموزش MLPerf و نقاط پایانی را به عنوان Vera Rubin Debuts با هدایت عملکرد",
         "excerpt": "در اولین رتبه MLPerf خود، با نتایج منتشر شده امروز، پلت فرم NVIDIA Vera Rubin عملکرد پیشرو را در سراسر آموزش، آموزش پس از تمرین و مداخله نمایندگی ارائه می دهد. NVIDIA هر معیار آموزش MLPerf v6.1 را در بر گرفت و در اولین ارسال MLPerf Endpoint، بیش از 10x سود نسلی را در هر وات برای AI عامل ارائه داد - اندازه گیری اینکه چه مقدار نمایندگی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "eea13b12d8e0c566",
-      "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
-      "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
-      "lang": "en",
-      "publishedAt": "2026-11-16T18:30:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "uGZO6I-CJtM",
-       "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
-      },
-      "eventId": "eea13b12d8e0c566",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.0,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-16T22:06:08Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
-        "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-16T22:16:59Z"
        }
@@ -1346,15 +1346,15 @@
       "eventId": "8192f1094925b873",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.7,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1404,15 +1404,15 @@
       "eventId": "0761da68e54fd0db",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.4,
         "topic": 65.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-16T22:06:08Z"
+       "asOf": "2026-11-17T00:00:00Z"
       },
       "tr": {
        "fa": {
