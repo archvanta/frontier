@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-17T00:00:00Z",
+ "asOf": "2026-11-17T14:28:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-16T00:00:00Z",
-   "to": "2026-11-17T00:00:00Z",
+   "from": "2026-11-16T14:28:00Z",
+   "to": "2026-11-17T14:28:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 80.3,
+       "total": 71.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 79.9,
+        "recency": 34.7,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -76,51 +76,52 @@
     },
     {
      "article": {
-      "id": "0761da68e54fd0db",
-      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
-      "excerpt": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
+      "id": "5ef1b55f85180917",
+      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+      "excerpt": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
       "lang": "en",
-      "publishedAt": "2026-11-16T21:53:46Z",
+      "publishedAt": "2026-11-17T09:45:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "best practices"
-      ],
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "models",
+      "tags": [],
       "entities": [
-       "amazon"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-1-1.png",
-       "alt": "Sequential pipeline: input flows through extract, transform, and validate agents to output",
+       "url": "https://i2.ytimg.com/vi/-O0tMcyH4Wo/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "0761da68e54fd0db",
+      "video": {
+       "provider": "youtube",
+       "id": "-O0tMcyH4Wo",
+       "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo"
+      },
+      "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.6,
-        "topic": 65.0,
-        "novelty": 91.7
+        "recency": 76.2,
+        "topic": 100.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "طبقه بندی الگوهای طراحی چند عاملی، ضد مواد مخدر و درس ها از تولید",
-        "excerpt": "هماهنگی چند عامل یک مشکل سیستم های توزیع شده است، نه یک مشکل مدل. این پست ارائه می دهد یک طبقه بندی تجربی از الگوهای طراحی چند عاملی و ضد مواد مخدر، یک چارچوب برای تصمیم گیری زمانی که عوامل متعدد مجاز هستند، و چگونه برای ساخت سیستم های مقرون به صرفه و قابل اعتماد در AWS.",
+        "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
+        "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
@@ -134,109 +135,113 @@
     },
     {
      "article": {
-      "id": "b1c71d07875ac772",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "id": "059a57273e09bea5",
+      "url": "https://www.theguardian.com/technology/2026/nov/18/paul-kelly-albanese-ai-copyright-protections-creatives-campaign",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
+      "excerpt": "Music legend is joined by Jimmy Barnes and Peter Garrett in backing Not AI’s To Take campaign ahead of Aria awards Get our breaking news email, free app or daily news podcast Australia’s creative community has launched a major campaign pleading with the Albanese government not to water down copyright law amid furious lobbying from AI companies, ahead of Wednesday night’s Aria awards. Music…",
       "lang": "en",
-      "publishedAt": "2026-11-16T17:00:00Z",
+      "publishedAt": "2026-11-17T14:00:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "models",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "policy",
       "tags": [
-       "safety"
+       "ai (artificial intelligence)",
+       "australian music",
+       "australia news",
+       "music industry",
+       "aria awards",
+       "anthony albanese"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/ddddc08ad72395f7299f5323a3c7f7e0de4c7df7/1465_349_5469_4376/master/5469.jpg?width=700&quality=85&auto=format&fit=max&s=98539631aaa64d95443a2a4f89d06bc9",
+       "credit": "Photograph: Ellen Smith/The Guardian",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "b1c71d07875ac772",
+      "eventId": "059a57273e09bea5",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 65.2,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 66.7,
-        "topic": 100.0,
-        "novelty": 82.4
+        "recency": 97.4,
+        "topic": 85.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تقویت مبارزه با سوء استفاده جنسی کودکان آنلاین با ابزارهای جدید و پشتیبانی",
-        "excerpt": "ابزار جدید، راهنمایی عملی و مشارکت کمک خواهد کرد تا جلوگیری، شناسایی و پاسخ به بهره برداری جنسی و سوء استفاده آنلاین کودک.",
+        "title": "پل کلی از آلبانز برای \"نشان دادن برخی از ستون فقرات\" بر روی AI به عنوان کمپین خلاقانه برای حفاظت از حق کپی رایت",
+        "excerpt": "افسانه موسیقی توسط جیمی بارنز و پیتر گرت در حمایت از نه AI برای گرفتن کمپین پیش از آری جوایز دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا جامعه خلاق پادکست خبری روزانه استرالیا یک کمپین بزرگ درخواست با دولت آلبانز به آب قانون کپی رایت در میان لابی خشمگین از شرکت های AI، پیش از جوایز شب چهارشنبه آری آغاز شده است. موسیقی ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "2453547dcede7e6e",
-      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufacturing partners enable NVIDIA to introduce world-leading technologies year-round. Much of the",
+      "id": "1ac3744caa9c0983",
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learning the language of machine learning",
+      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
       "lang": "en",
-      "publishedAt": "2026-11-16T20:00:37Z",
+      "publishedAt": "2026-11-17T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "hardware",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "research",
       "tags": [
-       "ai infrastructure",
-       "ai",
-       "ai factory",
+       "faculty",
+       "profile",
+       "research",
+       "computer science and technology",
        "artificial intelligence",
-       "corporate",
-       "economic development"
+       "machine learning"
       ],
-      "entities": [
-       "nvidia"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/IMG_9825-1-scaled.jpeg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-andreas-jacob-A1-Press.jpg?itok=e6BsL8Iz",
+       "credit": "Credit: Bryce Vickmark",
        "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "2453547dcede7e6e",
+      "eventId": "1ac3744caa9c0983",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 62.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 70.0,
-        "novelty": 90.9
+        "recency": 57.9,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه پیشرفته ترین زنجیره تامین زیرساخت های هوش مصنوعی جهان، آینده را اختراع می کند",
-        "excerpt": "دب شوست منجر به عملیات در NVIDIA، نظارت بر زنجیره تامین و تولید پشت سیستم عامل های AI آن است. این توصیف کار را به پایان می رساند، اما شروع به پوشش آنچه که شویست در طول دهه ها ممکن کرده است، نمی کند. Shuquist، تیم او و شبکه جهانی شرکای تولیدی آنها NVIDIA را قادر می سازد تا فن آوری های پیشرو در سراسر جهان را معرفی کند. بسیاری از",
+        "title": "یادگیری زبان یادگیری ماشین",
+        "excerpt": "با مطالعه پایه های محاسباتی یادگیری زبان، پروفسور Jacob آندریاس سیستم های هوشمندی ایجاد می کند که می تواند به طور موثر با انسان ارتباط برقرار کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
@@ -250,118 +255,118 @@
     },
     {
      "article": {
-      "id": "eea13b12d8e0c566",
-      "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
-      "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
+      "id": "82a0f3f376656399",
+      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+      "excerpt": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
       "lang": "en",
-      "publishedAt": "2026-11-16T18:30:41Z",
+      "publishedAt": "2026-11-17T14:00:29Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [],
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "products",
+      "tags": [
+       "ai",
+       "biz & it",
+       "security",
+       "check-ins",
+       "grok bot",
+       "prompts"
+      ],
       "entities": [
-       "nvidia"
+       "xai"
       ],
       "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
+       "credit": "Aurich Lawson",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "uGZO6I-CJtM",
-       "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
-      },
-      "eventId": "eea13b12d8e0c566",
+      "eventId": "82a0f3f376656399",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 62.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 72.8,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 97.4,
+        "topic": 65.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
-        "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
+        "title": "Grok Bot اقدامات تایید نشده ای را انجام داد و دستورات را نادیده گرفت و سپس آن را رد کرد.",
+        "excerpt": "عامل AI اقدامات تایید نشده را حتی زمانی که درب لپ تاپ بسته شده و به آن گفته نشده است، انجام می دهد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "94ec9ff9d4729a9e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
-      "excerpt": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
+      "id": "47464bcdd529060b",
+      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
+      "excerpt": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
       "lang": "en",
-      "publishedAt": "2026-11-16T22:06:08Z",
+      "publishedAt": "2026-11-17T14:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
       "category": "products",
       "tags": [
-       "amazon bedrock",
-       "amazon bedrock agentcore",
-       "customer solutions"
+       "media & entertainment",
+       "ai",
+       "apps",
+       "spotify"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-20525-1.png",
-       "alt": "Duco multi-tenant architecture with per-tenant isolation across the infrastructure, security, and agent layers",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "94ec9ff9d4729a9e",
+      "eventId": "47464bcdd529060b",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 61.8,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 97.3,
         "topic": 65.0,
-        "novelty": 70.0
+        "novelty": 85.7
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه Duco اتوماسیون داده های مالی را با Amazon Bedrock Agent تبدیل می کند",
-        "excerpt": "Duco، یک پلت فرم اتوماسیون داده برای بانک های لایه یک، پشته هوش مصنوعی خود را در آمازون Bedrock و Amazon Bedrock AgentCore بازسازی کرد. با انزوای سفت و سخت، یک استراتژی چند مدل و یک معماری مهارت های MCP که زمینه را تا 90٪ کاهش می دهد، Duco زمان استقرار آشتی 10x و هزینه های قایقرانی 70٪ کاهش می یابد.",
+        "title": "ابزار جدید Spotify با هدف متوقف کردن عمیق از نسبت به هنرمندان واقعی",
+        "excerpt": "به روز رسانی در ماه گذشته به عنوان بیلبورد گزارش شده است که Sony Music درخواست حذف بیش از ۲۶۰۰۰۰ آهنگ عمیق از پلتفرم های دیجیتال را کرده است، تقریبا دو برابر تعداد برچسب افشا شده در ماه مارس.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -369,8 +374,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-10T00:00:00Z",
-   "to": "2026-11-17T00:00:00Z",
+   "from": "2026-11-10T14:28:00Z",
+   "to": "2026-11-17T14:28:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +410,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 83.6,
+       "total": 81.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 96.3,
+        "recency": 83.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -435,48 +440,52 @@
     },
     {
      "article": {
-      "id": "b1c71d07875ac772",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "id": "5ef1b55f85180917",
+      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+      "excerpt": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
       "lang": "en",
-      "publishedAt": "2026-11-16T17:00:00Z",
+      "publishedAt": "2026-11-17T09:45:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
       "category": "models",
-      "tags": [
-       "safety"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/-O0tMcyH4Wo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b1c71d07875ac772",
+      "video": {
+       "provider": "youtube",
+       "id": "-O0tMcyH4Wo",
+       "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo"
+      },
+      "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 95.6,
         "topic": 100.0,
-        "novelty": 82.4
+        "novelty": 92.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تقویت مبارزه با سوء استفاده جنسی کودکان آنلاین با ابزارهای جدید و پشتیبانی",
-        "excerpt": "ابزار جدید، راهنمایی عملی و مشارکت کمک خواهد کرد تا جلوگیری، شناسایی و پاسخ به بهره برداری جنسی و سوء استفاده آنلاین کودک.",
+        "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
+        "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
@@ -490,17 +499,17 @@
     },
     {
      "article": {
-      "id": "724333834a57d025",
-      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+      "id": "9c409e1fafefcc9f",
+      "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
       "sourceId": "openai-youtube",
       "sourceName": "OpenAI (YouTube)",
-      "title": "La Cousinade",
-      "excerpt": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+      "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
+      "excerpt": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
       "lang": "en",
-      "publishedAt": "2026-11-16T05:00:26Z",
+      "publishedAt": "2026-11-17T09:45:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T11:40:18Z",
-      "day": "2026-11-16",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
       "category": "models",
       "tags": [],
       "entities": [
@@ -508,30 +517,98 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
+       "url": "https://i1.ytimg.com/vi/hAASMPKkaXA/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "soNLXvgUqNY",
-       "url": "https://www.youtube.com/watch?v=soNLXvgUqNY"
+       "id": "hAASMPKkaXA",
+       "url": "https://www.youtube.com/watch?v=hAASMPKkaXA"
       },
-      "eventId": "724333834a57d025",
+      "eventId": "9c409e1fafefcc9f",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.3,
+        "recency": 95.6,
         "topic": 100.0,
-        "novelty": 100.0
+        "novelty": 92.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساخت هفت سال مستند سازی AI قابل خواندن در یک روز",
+        "excerpt": "طراحان Revolut هفت سال را صرف مستندسازی نحوه عملکرد سیستم طراحی خود کرده بودند. طراح ارشد Dmytro پاولوف به اشتراک می گذارد که چگونه تیم او از Codex برای تبدیل آن مواد به یک فرمت AI می تواند در یک روز بخواند. در طول مسیر، آنها شکاف هایی را در قالب های خود مشاهده کردند و راهنمایی را برای طراحانی که از آن استفاده می کنند، روشن تر کردند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T14:36:37Z"
+       }
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1ac3744caa9c0983",
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learning the language of machine learning",
+      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "research",
+      "tags": [
+       "faculty",
+       "profile",
+       "research",
+       "computer science and technology",
+       "artificial intelligence",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-andreas-jacob-A1-Press.jpg?itok=e6BsL8Iz",
+       "credit": "Credit: Bryce Vickmark",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "1ac3744caa9c0983",
+      "related": [],
+      "score": {
+       "total": 69.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.3,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-17T14:28:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یادگیری زبان یادگیری ماشین",
+        "excerpt": "با مطالعه پایه های محاسباتی یادگیری زبان، پروفسور Jacob آندریاس سیستم های هوشمندی ایجاد می کند که می تواند به طور موثر با انسان ارتباط برقرار کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T14:36:37Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -569,15 +646,15 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 67.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 80.4,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -588,7 +665,67 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ffe4b9c88a23c6ca",
+      "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Q&A: Why building math muscles remains important in the AI era",
+      "excerpt": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "products",
+      "tags": [
+       "interview",
+       "faculty",
+       "mathematics",
+       "artificial intelligence",
+       "education, teaching, academics",
+       "technology and society"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-3Q-AI-Math-01-press.jpg?itok=KY31Nuxq",
+       "credit": "Credit: MIT News; Getty Images; portrait courtesy of MIT Department of Mathematics",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "ffe4b9c88a23c6ca",
+      "related": [],
+      "score": {
+       "total": 66.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.3,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-17T14:28:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Q&A: چرا ساخت عضلات ریاضی در عصر AI مهم است",
+        "excerpt": "پروفسور جان اوشل توضیح می دهد که چرا یادگیری مهارت های اساسی ریاضیات با وجود تکامل ابزارهای هوش مصنوعی ضروری است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T14:36:37Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -628,15 +765,15 @@
       "eventId": "eea13b12d8e0c566",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 82.5,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -647,7 +784,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -689,144 +826,20 @@
       "eventId": "0f2a855bc6a8fcf2",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 80.6,
         "topic": 80.0,
         "novelty": 85.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
         "title": "NVIDIA آموزش MLPerf و نقاط پایانی را به عنوان Vera Rubin Debuts با هدایت عملکرد",
         "excerpt": "در اولین رتبه MLPerf خود، با نتایج منتشر شده امروز، پلت فرم NVIDIA Vera Rubin عملکرد پیشرو را در سراسر آموزش، آموزش پس از تمرین و مداخله نمایندگی ارائه می دهد. NVIDIA هر معیار آموزش MLPerf v6.1 را در بر گرفت و در اولین ارسال MLPerf Endpoint، بیش از 10x سود نسلی را در هر وات برای AI عامل ارائه داد - اندازه گیری اینکه چه مقدار نمایندگی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8192f1094925b873",
-      "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries",
-      "lang": "en",
-      "publishedAt": "2026-11-16T16:00:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [
-       "ai infrastructure",
-       "hardware",
-       "software",
-       "supercomputing",
-       "cuda-x",
-       "dgx spark"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "E3Hy-WRJbXE",
-       "url": "https://www.youtube.com/watch?v=E3Hy-WRJbXE"
-      },
-      "eventId": "8192f1094925b873",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.6,
-        "topic": 80.0,
-        "novelty": 84.6
-       },
-       "asOf": "2026-11-17T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کتابخانه های NVIDIA CUDA-X ابزار را برای تسریع کشف علمی ارائه می دهند",
-        "excerpt": "با کتابخانه های توسعه یافته NVIDIA CUDA-X، از جمله PiPhoton، PiPotential و cuSpa، محققان می توانند از طریق مقادیر زیادی از داده ها برای تسریع تحقیقات، از Astro Physics و علوم مواد به زیست شناسی تک سلول. سرعت ها به دانشمندان کمک می کنند تا مجموعه داده های بزرگتر را تجزیه و تحلیل کنند و سیستم های پیچیده تر را مدل کنند. کتابخانه های جدید ابزار AI را برای کمک به محققان برای اکتشافات ارائه می دهند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0761da68e54fd0db",
-      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
-      "excerpt": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
-      "lang": "en",
-      "publishedAt": "2026-11-16T21:53:46Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "best practices"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-1-1.png",
-       "alt": "Sequential pipeline: input flows through extract, transform, and validate agents to output",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0761da68e54fd0db",
-      "related": [],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-17T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "طبقه بندی الگوهای طراحی چند عاملی، ضد مواد مخدر و درس ها از تولید",
-        "excerpt": "هماهنگی چند عامل یک مشکل سیستم های توزیع شده است، نه یک مشکل مدل. این پست ارائه می دهد یک طبقه بندی تجربی از الگوهای طراحی چند عاملی و ضد مواد مخدر، یک چارچوب برای تصمیم گیری زمانی که عوامل متعدد مجاز هستند، و چگونه برای ساخت سیستم های مقرون به صرفه و قابل اعتماد در AWS.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-16T22:16:59Z"
        }
@@ -843,8 +856,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-18T00:00:00Z",
-   "to": "2026-11-17T00:00:00Z",
+   "from": "2026-10-18T14:28:00Z",
+   "to": "2026-11-17T14:28:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -879,15 +892,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 84.1,
+       "total": 83.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 98.9,
+        "recency": 94.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -942,15 +955,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 83.4,
+       "total": 82.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 60.9,
+        "recency": 58.4,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -971,17 +984,17 @@
     },
     {
      "article": {
-      "id": "724333834a57d025",
-      "url": "https://www.youtube.com/watch?v=soNLXvgUqNY",
+      "id": "5ef1b55f85180917",
+      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
       "sourceId": "openai-youtube",
       "sourceName": "OpenAI (YouTube)",
-      "title": "La Cousinade",
-      "excerpt": "Une cousinade avec 63 cousins. Un site créé avec ChatGPT.",
+      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
+      "excerpt": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
       "lang": "en",
-      "publishedAt": "2026-11-16T05:00:26Z",
+      "publishedAt": "2026-11-17T09:45:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T11:40:18Z",
-      "day": "2026-11-16",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
       "category": "models",
       "tags": [],
       "entities": [
@@ -989,27 +1002,35 @@
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i4.ytimg.com/vi/soNLXvgUqNY/hqdefault.jpg",
+       "url": "https://i2.ytimg.com/vi/-O0tMcyH4Wo/hqdefault.jpg",
        "kind": "feed",
        "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
       "video": {
        "provider": "youtube",
-       "id": "soNLXvgUqNY",
-       "url": "https://www.youtube.com/watch?v=soNLXvgUqNY"
+       "id": "-O0tMcyH4Wo",
+       "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo"
       },
-      "eventId": "724333834a57d025",
+      "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 98.6,
         "topic": 100.0,
-        "novelty": 100.0
+        "novelty": 92.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
+        "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T14:36:37Z"
+       }
       }
      },
      "rank": 3,
@@ -1022,52 +1043,116 @@
     },
     {
      "article": {
-      "id": "b1c71d07875ac772",
-      "url": "https://openai.com/index/strengthening-online-child-safety",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "id": "9c409e1fafefcc9f",
+      "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
+      "excerpt": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
       "lang": "en",
-      "publishedAt": "2026-11-16T17:00:00Z",
+      "publishedAt": "2026-11-17T09:45:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
       "category": "models",
-      "tags": [
-       "safety"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/hAASMPKkaXA/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "b1c71d07875ac772",
+      "video": {
+       "provider": "youtube",
+       "id": "hAASMPKkaXA",
+       "url": "https://www.youtube.com/watch?v=hAASMPKkaXA"
+      },
+      "eventId": "9c409e1fafefcc9f",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 98.6,
         "topic": 100.0,
-        "novelty": 82.4
+        "novelty": 92.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
-        "title": "تقویت مبارزه با سوء استفاده جنسی کودکان آنلاین با ابزارهای جدید و پشتیبانی",
-        "excerpt": "ابزار جدید، راهنمایی عملی و مشارکت کمک خواهد کرد تا جلوگیری، شناسایی و پاسخ به بهره برداری جنسی و سوء استفاده آنلاین کودک.",
+        "title": "ساخت هفت سال مستند سازی AI قابل خواندن در یک روز",
+        "excerpt": "طراحان Revolut هفت سال را صرف مستندسازی نحوه عملکرد سیستم طراحی خود کرده بودند. طراح ارشد Dmytro پاولوف به اشتراک می گذارد که چگونه تیم او از Codex برای تبدیل آن مواد به یک فرمت AI می تواند در یک روز بخواند. در طول مسیر، آنها شکاف هایی را در قالب های خود مشاهده کردند و راهنمایی را برای طراحانی که از آن استفاده می کنند، روشن تر کردند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T14:36:37Z"
        }
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "1ac3744caa9c0983",
+      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Learning the language of machine learning",
+      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T14:36:37Z",
+      "day": "2026-11-17",
+      "category": "research",
+      "tags": [
+       "faculty",
+       "profile",
+       "research",
+       "computer science and technology",
+       "artificial intelligence",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-andreas-jacob-A1-Press.jpg?itok=e6BsL8Iz",
+       "credit": "Credit: Bryce Vickmark",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "1ac3744caa9c0983",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.3,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-17T14:28:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یادگیری زبان یادگیری ماشین",
+        "excerpt": "با مطالعه پایه های محاسباتی یادگیری زبان، پروفسور Jacob آندریاس سیستم های هوشمندی ایجاد می کند که می تواند به طور موثر با انسان ارتباط برقرار کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T14:36:37Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1105,15 +1190,15 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 93.7,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -1124,7 +1209,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1160,15 +1245,15 @@
        "41e0dc889e76cc16"
       ],
       "score": {
-       "total": 70.3,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 50.0,
-        "recency": 26.3,
+        "recency": 25.2,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -1178,7 +1263,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 2,
      "reason": [
       "tier-1",
@@ -1219,15 +1304,15 @@
       "eventId": "eea13b12d8e0c566",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 94.4,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -1238,7 +1323,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1280,15 +1365,15 @@
       "eventId": "0f2a855bc6a8fcf2",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 93.7,
         "topic": 80.0,
         "novelty": 85.0
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
@@ -1299,7 +1384,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1346,78 +1431,20 @@
       "eventId": "8192f1094925b873",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 93.7,
         "topic": 80.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-17T00:00:00Z"
+       "asOf": "2026-11-17T14:28:00Z"
       },
       "tr": {
        "fa": {
         "title": "کتابخانه های NVIDIA CUDA-X ابزار را برای تسریع کشف علمی ارائه می دهند",
         "excerpt": "با کتابخانه های توسعه یافته NVIDIA CUDA-X، از جمله PiPhoton، PiPotential و cuSpa، محققان می توانند از طریق مقادیر زیادی از داده ها برای تسریع تحقیقات، از Astro Physics و علوم مواد به زیست شناسی تک سلول. سرعت ها به دانشمندان کمک می کنند تا مجموعه داده های بزرگتر را تجزیه و تحلیل کنند و سیستم های پیچیده تر را مدل کنند. کتابخانه های جدید ابزار AI را برای کمک به محققان برای اکتشافات ارائه می دهند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0761da68e54fd0db",
-      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
-      "excerpt": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
-      "lang": "en",
-      "publishedAt": "2026-11-16T21:53:46Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "products",
-      "tags": [
-       "advanced (300)",
-       "best practices"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21577-1-1.png",
-       "alt": "Sequential pipeline: input flows through extract, transform, and validate agents to output",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "0761da68e54fd0db",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.4,
-        "topic": 65.0,
-        "novelty": 91.7
-       },
-       "asOf": "2026-11-17T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "طبقه بندی الگوهای طراحی چند عاملی، ضد مواد مخدر و درس ها از تولید",
-        "excerpt": "هماهنگی چند عامل یک مشکل سیستم های توزیع شده است، نه یک مشکل مدل. این پست ارائه می دهد یک طبقه بندی تجربی از الگوهای طراحی چند عاملی و ضد مواد مخدر، یک چارچوب برای تصمیم گیری زمانی که عوامل متعدد مجاز هستند، و چگونه برای ساخت سیستم های مقرون به صرفه و قابل اعتماد در AWS.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-16T22:16:59Z"
        }
