@@ -3,6 +3,1913 @@
  "day": "2026-11-17",
  "articles": [
   {
+   "id": "2c0a64e08e41f662",
+   "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+   "excerpt": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T22:44:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock agentcore",
+    "customer solutions"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ml-21786-Figure-1.png",
+    "alt": "Architecture diagram: the optimization workflow outputs request, response, and validation report JSON, which an AI agent reads to answer user questions through a chat interface",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "2c0a64e08e41f662",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "کاهش هزینه های توکن و تاخیر در Amazon Bedrock AgentCore JSONs",
+     "excerpt": "به عنوان عوامل تولید در Amazon Bedrock AgentCore Process multi-megabyte JSON، هزینه های توکن و صعود تاخیر. این پست سه استراتژی ترکیبی را به اشتراک می گذارد: بارگذاری مصنوعات سنگین به آمازون S3، در صورت تقاضا، و جمع آوری فرهنگ لغت. آنها با هم استفاده از توکن را به میزان 71 درصد کاهش داده و تا 80 درصد تاخیر دارند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "01ad01e5cd4126d0",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+   "excerpt": "The former CEO offered to return to his top role at the company after his resignation last week.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T22:42:27Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "hardware",
+    "jensen huang",
+    "nvidia"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "01ad01e5cd4126d0",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Nvidia می گوید که برنامه ای برای به دست آوردن امتیاز Jensen Huang به عنوان مدیر عامل ندارد.",
+     "excerpt": "مدیر عامل سابق پیشنهاد کرد پس از استعفای خود در هفته گذشته به نقش برتر خود در شرکت بازگردد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "b397f013e77fa481",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "excerpt": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T22:29:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "tc",
+    "amazon",
+    "anthropic",
+    "google",
+    "ipo"
+   ],
+   "entities": [
+    "amazon",
+    "anthropic",
+    "google"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b397f013e77fa481",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "آمازون و گوگل پس از IPO تقریبا 30 درصد از Anthropic را با هم خواهند داشت.",
+     "excerpt": "آمازون پس از IPO فقط 15 درصد از Anthropic را در اختیار خواهد داشت و گزینه ای برای بالاتر رفتن دارد. گوگل یک ثانیه نزدیک با حدود 14 درصد است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "daa9959cb12cf974",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Nvidia doubles revenue as board says it does not intend to reinstate Jensen Huang",
+   "excerpt": "The company reported doubling revenue in its first earnings report after the ouster of CEO over allegations of affair with suspected Chinese spy Nvidia “does not intend to reinstate Jensen as CEO”, the chairman of the company’s board said Tuesday. Harvey Jones made the remark during Nvidia’s first quarterly earnings report since Jensen Huang’s ouster. Nvidia announced the same day that its…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T22:27:14Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "technology",
+    "nvidia",
+    "jensen huang",
+    "quarterly results",
+    "business",
+    "computing"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/8113a55d4f67088521e43617481262c2f4f3358a/366_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=1c4f7bcc0ec48bb628b7eff29e49067a",
+    "credit": "Photograph: Ann Wang/Reuters",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "daa9959cb12cf974",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Nvidia درآمد خود را به عنوان هیئت مدیره دو برابر می کند، می گوید که قصد ندارد Jensen Huang را بازسازی کند",
+     "excerpt": "این شرکت گزارش درآمد دو برابر را در اولین گزارش درآمد خود پس از برکناری مدیر عامل در مورد اتهامات مربوط به رابطه با مظنونین جاسوسی چینی Nvidia \" قصد ندارد Jensen را به عنوان مدیر عامل معرفی کند\"، رئیس هیئت مدیره شرکت روز سه شنبه گفت. هاروی جونز در اولین گزارش درآمد سه ماهه Nvidia از زمان برکناری جنسن هوانگ، به این نکته اشاره کرد. Nvidia همان روز اعلام کرد که ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "96341578a31ff5b0",
+   "url": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang",
+   "sourceId": "wired-ai",
+   "sourceName": "WIRED — AI",
+   "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+   "excerpt": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T22:19:19Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "business",
+    "business / artificial intelligence",
+    "jensen huang",
+    "nvidia",
+    "ceo",
+    "earnings"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.wired.com/photos/6afccb299b8ae6ebe897d1d7/master/pass/2026-11-12T153402Z_941150596_RC2X6I9AZJQN_RTRMADP_3_NVIDIA-CEO-COLETTE-KRESS.JPG",
+    "kind": "feed",
+    "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+   },
+   "eventId": "96341578a31ff5b0",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "هیئت مدیره Nvidia هیچ برنامه ای برای بازگرداندن Jensen Huang ندارد",
+     "excerpt": "علی رغم فشارهای رئیس جمهور ترامپ، ایلان ماسک و مدیران سیلیکون دره، هیئت مدیره Nvidia می گوید که قصد ندارد مدیر عامل برکنار شده شرکت را دوباره معرفی کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "28fff23dec51a9bb",
+   "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "SEC reportedly investigating Nvidia amid Huang exit",
+   "excerpt": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:48:07Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "government & policy",
+    "nvidia",
+    "sec",
+    "jensen huang",
+    "in brief"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "28fff23dec51a9bb",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "SEC گزارش داده است که بررسی Nvidia در میان خروج هوانگ",
+     "excerpt": "SEC در حال باز کردن یک کاوشگر به Nvidia پس از خروج از مدیر عامل Jensen Huang، که به رابطه با جاسوسی چینی ادعا شده، گزارش وال استریت ژورنال.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "7465bbc4c963251d",
+   "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Nvidia’s Q3 earnings hit the mark, without mentioning the whole Jensen Huang thing",
+   "excerpt": "Interim Nvidia CEO Colette Kress announced the company's Q3 earnings on Tuesday, without initially mentioning former CEO Jensen Huang or the details of his departure, or possible attempt at a return. On the earnings call accompanying the release, board chair Harvey Jones kicked things off by saying the board \"does not intend to reinstate Huang",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:40:59Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "business",
+    "news",
+    "nvidia",
+    "tech"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25835739/STKP210_JENSEN_HUANG_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Digital photo collage of Nvidia CEO Jensen Huang.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "7465bbc4c963251d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "درآمد Q3 Nvidia به این علامت رسید، بدون اشاره به کل شین هوانگ",
+     "excerpt": "مدیر عامل Interim Nvidia Colette Kress سه شنبه درآمد Q3 شرکت را اعلام کرد بدون اشاره به مدیر عامل سابق Jensen Huang یا جزئیات خروج او یا تلاش احتمالی در بازگشت. در مورد درآمد همراه با آزادی، رئیس هیئت مدیره هاروی جونز با گفتن این که \" قصد ندارد هوانگ را دوباره تعریف کند، همه چیز را اخراج کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "f378d4ace0f37459",
+   "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Google joins the tech outage trend by announcing it’s not having one",
+   "excerpt": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:34:50Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "security",
+    "gmail",
+    "google",
+    "outage"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "f378d4ace0f37459",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل با اعلام اینکه یکی از آنها را ندارد، به روند قطع تکنولوژی ملحق می شود.",
+     "excerpt": "با قطع تکنولوژی به نظر می رسد در همه جا، گوگل گام غیر معمول اعلام کرد که Gmail در واقع به خوبی کار می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "0fbd479e146e7e28",
+   "url": "https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage",
+   "sourceId": "game-developer",
+   "sourceName": "Game Developer",
+   "title": "European Game Worker unions publish manifesto warning against unchecked AI usage",
+   "excerpt": "Members in Ireland, Spain, and Milan have come together to outline concerns, grievances, pitfalls, and proposed solutions surrounding Generative AI use.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:21:17Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blta1ce58ce167cc749/6724d424a5a4251f1dbc9b48/IWGB_Game_Workers_Header.png?width=720&quality=80&disable=upscale",
+    "kind": "feed",
+    "sourceUrl": "https://www.gamedeveloper.com/rss.xml"
+   },
+   "eventId": "0fbd479e146e7e28",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "اتحادیه های کارگری اروپایی هشدار مانیفستی علیه استفاده از هوش مصنوعی بدون کنترل منتشر می کنند",
+     "excerpt": "اعضای ایرلند، اسپانیا و میلان گرد هم آمده اند تا نگرانی ها، شکایات، مشکلات و راه حل های پیشنهادی پیرامون استفاده از هوش مصنوعی را تشریح کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "6dbfd2c16f1d581a",
+   "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Cut generative AI costs: Code for rules, models for judgment",
+   "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:14:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "amazon bedrock",
+    "best practices",
+    "intermediate (200)",
+    "strands agents"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png",
+    "alt": "Flowchart that sorts a workflow step into code, a constrained decision call, or a right-sized Amazon Bedrock model",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "6dbfd2c16f1d581a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "کاهش هزینه های هوش مصنوعی: کد برای قوانین، مدل ها برای قضاوت",
+     "excerpt": "بزرگترین اهرم هزینه در یک سیستم هوش مصنوعی عمومی این است که آیا شما به طور کلی یک مدل را می خوانید. یاد بگیرید که چگونه تصمیم بگیرید که آیا هر مرحله گردش کار به یک مدل نیاز دارد و هر گزینه را برای AWS نقشه برداری کنید: کد تعیین کننده، یک تماس تصمیم محدود یا یک مدل مناسب در آمازون Bedrock.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "8e21326b778b59c3",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+   "excerpt": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:11:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "amazon sagemaker ai",
+    "announcements",
+    "intermediate (200)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22381-1-1.png",
+    "alt": "KV-aware routing: the router uses the managed cache index to send each request to the instance holding the longest cached match",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "8e21326b778b59c3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "نقاط پایانی زمان واقعی آمازون SageMaker AI در حال حاضر از مسیریابی حافظه KV پشتیبانی می کنند",
+     "excerpt": "نقاط پایانی زمان واقعی آمازون در حال حاضر از مسیریابی آگاهانه KV پشتیبانی می کنند، یک استراتژی جدید که هر درخواست را به عنوان مثال نگه داشتن طولانی ترین بازی کش شده برای سرعت آن هدایت می کند. یاد بگیرید که چگونه کار می کند، هنگام استفاده از آن در مقایسه با مسیریابی پیشوند آگاه، و چگونه آن را فعال، فراخوانی، و تأیید آن در مدل واحد و نقاط پایانی جزء استنتاج.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "859fe7425ca0830b",
+   "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+   "excerpt": "Instagram is filled with people posting deepfaked content - including, as of late, from one of Meta's most prominent executives. Earlier in November, Alexandr Wang, Meta's chief AI officer, shared a short clip to promote Muse, the company's consumer AI agent. In the AI-generated clip, Wang, Meta CEO Mark Zuckerberg, OpenAI CEO Sam Altman, and",
+   "lang": "en",
+   "publishedAt": "2026-11-17T21:00:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "meta",
+    "news",
+    "openai",
+    "tech"
+   ],
+   "entities": [
+    "meta",
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2297785644.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "859fe7425ca0830b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "حتی سام آلتمن هم از هوش مصنوعی در اینستاگرام امن نیست",
+     "excerpt": "اینستاگرام پر از افرادی است که محتوای عمیق را منتشر می کنند - از جمله، تا اواخر، از یکی از برجسته ترین مدیران متا. در اوایل ماه نوامبر، الکساندر وانگ، مدیر ارشد هوش مصنوعی متا، یک کلیپ کوتاه برای ارتقاء Muse، عامل AI مصرف کننده شرکت به اشتراک گذاشت. در کلیپ تولید شده توسط AI، وانگ، مدیر عامل متا مارک زاکربرگ، مدیر عامل OpenAI، Sam Altman، و",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "f38228c9ef565932",
+   "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+   "sourceId": "mit-news-ai",
+   "sourceName": "MIT News — Artificial intelligence",
+   "title": "Putting a spotlight on AI, society, and humanity",
+   "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T20:40:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "research",
+   "tags": [
+    "collaboration",
+    "funding",
+    "technology and society",
+    "artificial intelligence",
+    "special events and guest speakers",
+    "anthropology"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
+    "credit": "Photo: Hanley Valentin",
+    "kind": "feed",
+    "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+   },
+   "eventId": "f38228c9ef565932",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
+     "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "407420f377abe1ed",
+   "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia",
+   "sourceId": "ars-ai",
+   "sourceName": "Ars Technica — AI",
+   "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+   "excerpt": "“I love our country”: Jensen Huang’s apology comes amid escalating Nvidia probes.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T20:32:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "research",
+   "tags": [
+    "ai",
+    "policy",
+    "ai chips",
+    "china",
+    "donald trump",
+    "jensen huang"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Huang-Trump-billboard-via-TOP-1100x648.jpg",
+    "alt": "Billboard campaign in Washington, DC, calling on Congress to investigate Donald Trump's ties to Jensen Huang.",
+    "credit": "via Tech Oversight Project",
+    "kind": "feed",
+    "sourceUrl": "https://arstechnica.com/ai/feed/"
+   },
+   "eventId": "407420f377abe1ed",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "\"ترامپ در رختخواب با جنسن بود\": منتقدان در آرزوی هوانگ برای بازگشت به Nvidia",
+     "excerpt": "\"من کشور ما را دوست دارم\": عذرخواهی جنسن هوانگ در میان افزایش تحقیقات Nvidia است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "1796857b9a1b2f79",
+   "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Govern and discover records with common metadata in AWS Agent Registry",
+   "excerpt": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T20:31:04Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock agentcore",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-22167-1.png",
+    "alt": "Swimlane diagram showing how a record moves through AWS Agent Registry across the administrator, publisher, approver, and consumer roles",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "1796857b9a1b2f79",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "دولت و کشف سوابق با متاداده مشترک در AWS Agent Registry",
+     "excerpt": "طرح های داده سفارشی در AWS Agent Registry اجازه می دهد تا یک مدیر زمینه های تایپ شده، معتبر را تعریف کند که هر عامل، سرور MCP و مهارت باید حمل کند. این پست یک رکورد MCP را از تعریف طرح از طریق ثبت نام، غنی سازی، تایید و کشف دنبال می کند، بنابراین تیم ها مدیریت و پیدا کردن منابع با یک مجموعه از حقایق مشترک.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "eea4039d51a0b325",
+   "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+   "excerpt": "OpenAI releases GPT-6.2 Astra and Sol, two new models that are more capable and cheaper than their predecessors. In the independent Artificial Analysis Intelligence Index, Astra ranks second behind Claude Fable 5.2, and it is the first released model to reach the High threshold for AI self-improvement on OpenAI's own scale. OpenAI itself classifies that as a risk. The article OpenAI launches…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T20:30:50Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "research",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "gpt-6",
+    "gpt-6 sol",
+    "gpt-6-astra",
+    "openai"
+   ],
+   "entities": [
+    "anthropic",
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/openai_vals_sol.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "eea4039d51a0b325",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI راه اندازی GPT-6.2 Astra و Sol با قیمت های پایین API و برخی از مزایای معیار",
+     "excerpt": "OpenAI GPT-6.2 Astra و Sol را آزاد می کند، دو مدل جدید که قادرتر و ارزان تر از پیشینیان خود هستند. در شاخص مستقل تجزیه و تحلیل هوش مصنوعی، Astra رتبه دوم در پشت کلود Fable 5.2، و این اولین مدل آزاد برای رسیدن به آستانه بالا برای ارتقاء خود AI در مقیاس خود OpenAI است. OpenAI خود این را به عنوان یک خطر طبقه بندی می کند. مقاله OpenAI راه اندازی شد ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "3a6ddd65cb94a929",
+   "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+   "excerpt": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization's identity, audit, and compliance needs.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T20:25:23Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock agentcore",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21095-1-2.png",
+    "alt": "Architecture diagram: users reach an AI application that invokes a Strands agent on Amazon Bedrock AgentCore runtime, which uses Amazon Bedrock with Guardrails and Amazon Bedrock Knowledge Bases and c",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "3a6ddd65cb94a929",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Secure OAuth Pattern for Snowflake AI از طریق Amazon Bedrock AgentCore",
+     "excerpt": "هنگامی که یک عامل AI در Amazon Bedrock AgentCore به نام Snowflake Cortex AI بر روی MCP، چگونه معتبر است؟ این پست از طریق سه الگوی OAuth که ما در هویت AgentCore تست کردیم: Snowflake OAuth، سه پا OAuth با یک شرکت IdP و OAuth دو پا، بنابراین شما می توانید هویت، حسابرسی و نیازهای انطباق سازمان خود را مطابقت دهید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "2052af3031ae30d9",
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+   "excerpt": "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T19:40:01Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "amazon sagemaker ai",
+    "announcements",
+    "foundational (100)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "2052af3031ae30d9",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "قابلیت های آماده سازی داده های AI در Amazon SageMaker: ساخت مجموعه داده های با کیفیت بالا برای گردش کار مدل",
+     "excerpt": "آمازون SageMaker AI در حال حاضر ارائه می دهد قابلیت های آماده سازی داده های AI برای ساخت آموزش و ارزیابی با کیفیت بالا. نمونه های مصنوعی، ارزیابی و بهبود مجموعه داده ها، برچسب خودکار در مقیاس، و بررسی تخصصی از طریق Python SDK APIs و یک مهارت عامل، همه از نوت بوک یا IDE خود را.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "776157cf22e3ea27",
+   "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Model ML raises $250M to automate investment banking grunt work",
+   "excerpt": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T19:32:11Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "fintech",
+    "general atlantic",
+    "in brief",
+    "investment banking"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "776157cf22e3ea27",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مدل ML 250 میلیون دلار برای خودکار کردن کار بانکی سرمایه گذاری افزایش می دهد",
+     "excerpt": "این استارت آپ می گوید که نمایندگان آن زمینه کامل معاملات را درک می کنند که بانکداران و مشاوران بر روی آن کار می کنند و می توانند به طور خودکار مدل ها و سخنرانی های مالی را به روز کنند، زمانی که تحولات جدید بر تجزیه و تحلیل آنها تأثیر می گذارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "1e308b5aafc025fe",
+   "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Getting AI out of the demo and into businesses globally",
+   "excerpt": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T19:05:22Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "customer solutions",
+    "foundational (100)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "1e308b5aafc025fe",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "دریافت AI از دموی و کسب و کار در سطح جهانی",
+     "excerpt": "اکثر شرکت ها هوش مصنوعی دارند که در یک نسخه آزمایشی کار می کند اما قبل از تولید متوقف می شود. AWS Forward Deployed Engineering این شکاف را بسته است. مهندسان AWS با تیم های مشتری تعبیه می کنند تا جریان های کاری با ارزش بالا را به تولید در 45 روزه، ترک یک پایه، گردش کار و حکمرانی مشتری بپردازند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "3aa0c6065ac07d71",
+   "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+   "excerpt": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T19:02:20Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "ai",
+    "gemini",
+    "google",
+    "in brief"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": "gemini",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "3aa0c6065ac07d71",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل دسترسی به وظایف Gemini را گسترش می دهد که می تواند به تماس ها، خریدها کمک کند.",
+     "excerpt": "حالت کار Gemini می تواند به کاربران کمک کند تا تماس ها را هماهنگ کنند، به وب سایت ها وارد شوند و حتی از طرف کاربر خرید کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "72284a47c9d975a2",
+   "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+   "excerpt": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:58:01Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "ai",
+    "google",
+    "news",
+    "tech"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "An image showing the Tasks toggle in Gemini",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "72284a47c9d975a2",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "عامل Google’s Spark AI به “Tasks” تبدیل می شود و اکنون آزاد است.",
+     "excerpt": "گوگل عامل هوش مصنوعی اسپارک خود را به عنوان “Tasks” و استفاده از آن آزاد می کند. این ویژگی، که توسط مدل جدید AI Gemini 4 گوگل طراحی شده است، می تواند کارهایی مانند ایجاد برنامه های غذایی، مدیریت تقویم شما، و حفاری از طریق ایمیل های خود را برای پیدا کردن هزینه های تکراری که ممکن است لازم نباشد انجام دهد. کاربران در آمریکا",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "dfdee5b6b2fccda4",
+   "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+   "excerpt": "SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingestion, media, conversation memory, scheduling, and Meta message templates.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:48:50Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "open-source",
+   "tags": [
+    "advanced (300)",
+    "amazon bedrock agentcore",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon",
+    "meta"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-21698-1.png",
+    "alt": "SMART architecture showing a WhatsApp message flowing through AWS End User Messaging, AWS Lambda, and Amazon Bedrock AgentCore across the message, agent, and service layers",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "dfdee5b6b2fccda4",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ساخت WhatsApp AI Agent با Amazon Bedrock Agent",
+     "excerpt": "SMART، یک منبع باز پایتون SDK و Terraform پشته، لایه کانال کامل WhatsApp را به حساب AWS خود با یک دستور اعمال می کند. هر نماینده ای را که بر روی Amazon Bedrock AgentCore اجرا می شود، وارد کنید و SMART وب سایت را به کار می برد، رسانه ها، حافظه مکالمه، زمان بندی و قالب های پیام متا.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "3a4b135687e309c5",
+   "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+   "excerpt": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:48:23Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "ai",
+    "gemini",
+    "google",
+    "google gemini"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": "gemini",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "3a4b135687e309c5",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل برای نگه داشتن چت Gemini به مدت 2 ماه، تا 72 ساعت، حتی با تاریخ خاموش",
+     "excerpt": "به روز رسانی Google Gemini گسترش حفظ چت در سراسر جهان طی هفته های آینده گسترش خواهد یافت.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "bd91f8351850a9ee",
+   "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+   "sourceId": "openai-youtube",
+   "sourceName": "OpenAI (YouTube)",
+   "title": "Building 3D video sets with GPT-6.2 Astra",
+   "excerpt": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:41:32Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i1.ytimg.com/vi/tKoDPOrLMX0/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "tKoDPOrLMX0",
+    "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0"
+   },
+   "eventId": "bd91f8351850a9ee",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ساخت 3D ویدیو با GPT-6.2 Astra",
+     "excerpt": "GPT-6.2 Astra مدل پرچم دار جدید ما است، ارائه یک گام در توانایی با کد پاک تر، جلو بهتر و مدل های 3D و استفاده از ابزار کارآمد تر است. ایجاد یک اتاق از دو فریم ویدیو با GPT-6.2 Astra در Codex ببینید که چگونه این مجموعه را در Blender ایجاد می کند، دکوراسیون و نورپردازی را تغییر می دهد و صحنه را به یک فضای تعاملی و یک پس زمینه وب مجازی تبدیل می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "027b06d66aa2428c",
+   "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "As decision model use skyrockets, is customization the next frontier?",
+   "excerpt": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:10:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "exclusive",
+    "microsoft"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "027b06d66aa2428c",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "به عنوان مدل تصمیم گیری استفاده از صخره، سفارشی سازی مرز بعدی است؟",
+     "excerpt": "آزمایشگاه های FPS دارای یک چروک جدید در مدل تصمیم گیری هستند: آن را با داده های خود به حداکثر قابلیت های آن آموزش دهید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "0f81d901dab588c1",
+   "url": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+   "excerpt": "OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a SageMaker training job.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:06:44Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "open-source",
+   "tags": [
+    "advanced (300)",
+    "amazon sagemaker jumpstart",
+    "technical how-to"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-21774-1.png",
+    "alt": "Diagram: numerical time series and a question with context go into OpenTSLM, where a time-series encoder feeds a language model. OpenTSLM returns natural-language output that describes patterns, answe",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "0f81d901dab588c1",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "دلیل در مورد داده های سری زمان با OpenTSLM در Amazon SageMaker JumpStart",
+     "excerpt": "OpenTSLM، یک خانواده متن باز از مدل های زبان سری زمان، در آمازون SageMaker JumpStart در دسترس است. ببینید که چگونه آزمایشگاه های بعدی و Aionic آن را برای پشتیبانی فعال IT اعمال می کنند، سپس OpenTSLM را به یک نقطه پایانی زمان واقعی و آن را در داده های خود با TimeNet و یک کار آموزش SageMaker قرار دهید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "48c46304656078a6",
+   "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+   "excerpt": "The company uses agentic AI to make supply chains faster and more reliable.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T18:04:16Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "startups",
+    "ai agents"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "48c46304656078a6",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Pedestal AI افزایش 4.7 میلیون دلار برای نمایندگی زنجیره تامین",
+     "excerpt": "این شرکت از AI Agentic برای ساخت زنجیره تامین سریع تر و قابل اعتماد تر استفاده می کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "574f499b55a7cf42",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Jensen Huang to testify before Congress on ‘potential breach of national security’",
+   "excerpt": "High-stakes hearing comes in wake of resignation from Nvidia after alleged affair with suspected Chinese spy Nvidia’s former CEO Jensen Huang will testify before several congressional committees on 1 December, setting the stage for a high-stakes hearing in the wake of his resignation following an affair with a suspected Chinese spy. Tim Teter, Nvidia’s general counsel, has also agreed to appear…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:58:05Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "policy",
+   "tags": [
+    "jensen huang",
+    "nvidia",
+    "house of representatives",
+    "technology",
+    "trump administration",
+    "us politics"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/fea99f9d4b797af26b13a23bec5d015fdb40ae5a/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=7a027b1f34b392f064b2ea75c698b14e",
+    "credit": "Photograph: Bloomberg/Getty Images",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "574f499b55a7cf42",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ برای شهادت قبل از کنگره در مورد \"تحقق امنیتی ملی\"",
+     "excerpt": "شنوایی بالا در پی استعفای Nvidia پس از رابطه ادعایی با مظنونین مدیر عامل سابق شرکت Nvidia، Jensen Huang، قبل از چندین کمیته کنگره در 1 دسامبر، مرحله را برای شنیدن صدای بلند در پی استعفای خود پس از یک رابطه با جاسوسی چینی مشکوک، شهادت خواهد داد. Tim Teter، مشاور عمومی Nvidia نیز موافقت کرده است که ظاهر شود.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "51e5a7d67945356a",
+   "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4",
+   "sourceId": "openai-youtube",
+   "sourceName": "OpenAI (YouTube)",
+   "title": "GPT-6.2 Astra and GPT-6.2 Sol—Models built for the real world",
+   "excerpt": "We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. Both models deliver better results on demanding tasks with fewer output tokens, so you can get more done within your usage limits. For businesses and developers, that means frontier performance at costs that make sense at scale. GPT‑6.2 Astra sets…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:55:40Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://i4.ytimg.com/vi/C1zYX5jwqq4/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "C1zYX5jwqq4",
+    "url": "https://www.youtube.com/watch?v=C1zYX5jwqq4"
+   },
+   "eventId": "51e5a7d67945356a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "GPT-6.2 Astra و GPT-6.2 Sol – مدل های ساخته شده برای دنیای واقعی",
+     "excerpt": "ما GPT-6.2 Astra، مدل جدید مرزی برای سخت ترین پروژه های شما و GPT-6.2 Sol، مدل کارآمد و همه کاره ما برای کار روزمره معرفی می کنیم. هر دو مدل نتایج بهتری در مورد درخواست وظایف با توکن های خروجی کمتر ارائه می دهند، بنابراین شما می توانید در محدوده استفاده خود بیشتر انجام دهید. برای کسب و کارها و توسعه دهندگان، این به معنای عملکرد مرزی با هزینه هایی است که در مقیاس قابل درک است. GPT-6.2 Astra مجموعه ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "549a77347d5e1e5f",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:45:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "product"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "549a77347d5e1e5f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "معرفی GPT-6.2 Astra و Sol",
+     "excerpt": "معرفی GPT-6.2 Astra و Sol با خروجی های حرفه ای بهتر، برنامه نویسی، استفاده از کامپیوتر و بهره وری در هزینه های پایین تر در چت GPT کار، Codex و API.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "9775fff4b2849085",
+   "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
+   "excerpt": "Huang resigned last week over affairs with an alleged Chinese spy and multiple employees who reported to him Jensen Huang said he would be willing to return to Nvidia as CEO in his first remarks since resigning from the company on Thursday. “If the Board of Directors decides that my return is in the best interest of our shareholders, our employees, the company, and America, I would be honored to…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:35:26Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "technology",
+    "nvidia",
+    "jensen huang",
+    "computing",
+    "ai (artificial intelligence)",
+    "us news"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/f9ace1b4322ee936b135f2312f39c6839623e581/780_0_4668_3734/master/4668.jpg?width=700&quality=85&auto=format&fit=max&s=a5f4532d7b9b20599a9bd896474e933e",
+    "credit": "Photograph: Manami Yamada/Reuters",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "950a39f90ba9c1a9",
+   "related": [
+    "950a39f90ba9c1a9"
+   ],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ می گوید که او به عنوان مدیر عامل به Nvidia بازگشت خواهد کرد.",
+     "excerpt": "هوانگ هفته گذشته در مورد مسائل مربوط به جاسوسی چینی و چندین کارمند که به او جنسن هوانگ گزارش دادند استعفا داد و گفت که مایل است در اولین سخنرانی خود از زمان استعفا از شرکت در روز پنجشنبه به Nvidia بازگردد. اگر هیئت مدیره تصمیم بگیرد که بازگشت من به نفع سهامداران، کارکنان ما، شرکت و آمریکا است، افتخار می کنم.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "6ab4eb3121ad6e12",
+   "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+   "excerpt": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:32:25Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "ai",
+    "apps",
+    "security",
+    "cybersecurity",
+    "privacy",
+    "proton"
+   ],
+   "entities": [
+    "anthropic",
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "6ab4eb3121ad6e12",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Proton’s Lumo، یک جایگزین مبتنی بر حریم خصوصی برای ChatGPT و کلود، به دسکتاپ می رسد",
+     "excerpt": "برنامه جدید Lumo Desktop برای ویندوز، مک و لینوکس به کاربران اجازه می دهد تا وظایف خود را در سراسر فایل ها و برنامه های متصل، با کنترل دانه بر آنچه که AI می تواند دسترسی داشته باشد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "b20533735bac1c5f",
+   "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+   "excerpt": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:20:41Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "anthropic",
+    "defense",
+    "openai"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b20533735bac1c5f",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مدل های AI را می توان در شناسایی غیرنظامیان به عنوان اهداف نظامی فریب داد و گفت که این یک بازی است.",
+     "excerpt": "Vals، یک استارت آپ ارزیابی هوش مصنوعی مستقر در سان فرانسیسکو، آزمایش کرد که آیا مدل های پیشرو AI می توانند در شرکت در جنگ های مستقل دستکاری شوند. معمولا جمع آوری می کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "38c4a38bd61908e3",
+   "url": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
+   "excerpt": "AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to find the sessions that fit your goals.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:08:21Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "aws quick",
+    "foundational (100)",
+    "uncategorized"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "38c4a38bd61908e3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "راهنمای کامل شما برای AWS Quick در AWS Re: Invent 2026",
+     "excerpt": "AWS Quick به تمام سازمان شما AI می دهد که کسب و کار شما را می شناسد، به قوانین امنیتی شما احترام می گذارد و از طرف شما عمل می کند. در AWS Re: Invent 2026، مشتریان از جمله Allianz، Cox، و خطوط هوایی جنوب غربی به اشتراک می گذارند که چگونه آنها مدیریت، گسترش و مقیاس سریع. از این راهنما برای پیدا کردن جلساتی که متناسب با اهداف شما هستند استفاده کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "14be83114a93e54e",
+   "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0",
+   "sourceId": "google-developers-youtube",
+   "sourceName": "Google for Developers (YouTube)",
+   "title": "EmbeddingGemma 2: How natively multimodal embeddings work",
+   "excerpt": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. * The two-stage training recipe: initializing from Gemma 4 and distilling from Gemini Embedding 2…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:00:29Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://i2.ytimg.com/vi/aRIFzzr_Mi0/hqdefault.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+   },
+   "video": {
+    "provider": "youtube",
+    "id": "aRIFzzr_Mi0",
+    "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0"
+   },
+   "eventId": "14be83114a93e54e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "EmbeddingGemma 2: چگونه بومی چند منظوره کار می کند",
+     "excerpt": "یاد بگیرید که چگونه EmbeddingGemma 2، Google باز، سبک چند منظوره، مدل جاسازی، نقشه، متن، کد، تصاویر، ویدیو و صدا را به یک فضای جاسازی یکپارچه واحد. این ویدیو پوشش می دهد: * چگونه تنظیم کننده های خاص و یک مبدل دو طرفه تبدیل داده های چند منظوره را به یک نمایندگی واحد تبدیل می کند - دستورالعمل آموزش دو مرحله ای: اولیه از Gemma 4 و تقطیر از Gemini Embedding 2 ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "cb1d8f8bc84f7e6a",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+   "sourceId": "google-ai-blog",
+   "sourceName": "Google — The Keyword (AI)",
+   "title": "Put Gemini to work for you",
+   "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+   "lang": "en",
+   "publishedAt": "2026-11-17T17:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "gemini app",
+    "google labs",
+    "ai"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": "gemini",
+   "image": {
+    "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+    "kind": "feed",
+    "sourceUrl": "https://blog.google/technology/ai/rss/"
+   },
+   "eventId": "cb1d8f8bc84f7e6a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Gemini را برای شما کار کنید",
+     "excerpt": "یک رابط کاربری نشان می دهد که \"چه کاری می توانم برای شما انجام دهم؟\" بالاتر از یک جعبه ورودی حاوی متن کاربری \"یک کار\" است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "c45e75136865f95a",
+   "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+   "excerpt": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each. Companies including CVS Health and Cigna Healthcare are already deploying the technology. The article AI agents are starting…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:55:47Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "ai in healthcare",
+    "openai"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/openai_healthcare_agents.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "c45e75136865f95a",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "عوامل AI شروع به پر کردن فرم های پزشکی و درخواست های بیمه فایل در جای کارکنان انسانی می کنند",
+     "excerpt": "OpenAI می خواهد GPT-6 Astra و GPT-6 Luna به طور خودکار وظایف اداری را در مراقبت های بهداشتی ایالات متحده از طریق عوامل استفاده از کامپیوتر که نرم افزار کلینیک موجود و پورتال های بیمه کار می کنند، به طور خودکار انجام دهد. ماه وظایفی مانند مجوز های قبلی را برای حدود 8.5 سنت هر کدام اداره می کند. شرکت هایی از جمله CVS Health و Cigna Healthcare در حال حاضر از این تکنولوژی استفاده می کنند. مقاله ای که عوامل AI شروع می کنند...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "bfe144881fd661a3",
+   "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+   "sourceId": "ars-ai",
+   "sourceName": "Ars Technica — AI",
+   "title": "Google makes it easier to use Gemini without training AI on your data",
+   "excerpt": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:50:10Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "models",
+   "tags": [
+    "ai",
+    "google",
+    "artificial intelligence",
+    "gemini",
+    "privacy"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": "gemini",
+   "image": {
+    "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+    "credit": "Aurich Lawson",
+    "kind": "feed",
+    "sourceUrl": "https://arstechnica.com/ai/feed/"
+   },
+   "eventId": "bfe144881fd661a3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گوگل استفاده از Gemini را بدون آموزش AI در داده های شما آسان تر می کند",
+     "excerpt": "آموزش هوش مصنوعی و تاریخ چت در حال حاضر دارای عینک های جداگانه در تنظیمات فعالیت Gemini است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "5a76136e8f2d5ccb",
+   "url": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+   "excerpt": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad. A Reuters investigation also reveals how China offsets its hardware shortage through industrial-scale distillation of US AI models. The article The US wants to block China…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:47:21Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "hardware",
+   "tags": [
+    "ai and society",
+    "artificial intelligence",
+    "ai training",
+    "amd",
+    "anthropic",
+    "china"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/03/Datacenter-Remote.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "5a76136e8f2d5ccb",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایالات متحده می خواهد چین را از اجاره قدرت AI در خارج از کشور مسدود کند، اما چین در حال حاضر یک زنجیره تامین موازی از خروجی هوش مصنوعی ایالات متحده ساخته است",
+     "excerpt": "آمریکا کنترل صادرات تراشه خود را سفت می کند. مراکز داده در کشورهای ثالث مانند سنگاپور و مالزی به زودی نیاز به مجوز ایالات متحده برای خرید تراشه های Nvidia، بستن شکاف است که اجازه می دهد شرکت های چینی Cloud را در خارج از کشور اجاره کنند. تحقیقات رویترز همچنین نشان می دهد که چین چگونه کمبود سخت افزار خود را از طریق تقطیر صنعتی مدل های AI ایالات متحده جبران می کند. مقاله ای که آمریکا می خواهد چین را مسدود کند...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "950a39f90ba9c1a9",
+   "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+   "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:44:15Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "jensen huang",
+    "nvidia"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "950a39f90ba9c1a9",
+   "related": [
+    "9775fff4b2849085"
+   ],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ می گوید که اگر اجازه بازگشت به عنوان مدیر عامل Nvidia را داشته باشد، \"متقاد\" خواهد بود.",
+     "excerpt": "در اولین بیانیه عمومی از زمان استعفای او، بنیانگذار Nvidia Jensen Huang، تمایل خود را به بازگشت به عنوان مدیر عامل اعلام کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "9073920a14eae64d",
+   "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+   "excerpt": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:32:55Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "ai",
+    "apps",
+    "commerce",
+    "ai agent",
+    "daydream",
+    "e-commerce"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "9073920a14eae64d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "عامل جدید هوش مصنوعی Daydream به عنوان سبک شخصی شما عمل می کند و می تواند برای شما نیز خرید کند.",
+     "excerpt": "عامل جدید خرید AI Daydream می تواند سبک شما را به یاد بیاورد، تقریبا سعی کنید لباس ها، لباس های اطراف خود، فروش کمد و خرید کامل را انتخاب کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "cb8293f821d94f0d",
+   "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "The DOJ says it’s investigating Megaspeed",
+   "excerpt": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically comment on ongoing investigations, it is in the public interest to provide the facts and address",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:19:03Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "hardware",
+   "tags": [
+    "ai",
+    "news",
+    "nvidia",
+    "policy",
+    "tech"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25461724/STK432_Government__CVirginia_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "The gavel in front of the DOJ seal.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "cb8293f821d94f0d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "DOJ می گوید که در حال بررسی مگا سرعت است",
+     "excerpt": "وزارت دادگستری و بازرگانی گفت که آنها در حال تحقیق در مورد مگا سرعت، شرکت مرکز داده مبتنی بر سنگاپور با استعفای مدیر عامل Nvidia Jensen Huang، پس از گزارش نشان داد که تحقیقات متوقف شده است. در حالی که ما به طور معمول در مورد تحقیقات مداوم اظهار نظر نمی کنیم، در منافع عمومی برای ارائه حقایق و آدرس است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "e0185595ee6eb2db",
+   "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+   "excerpt": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, business partners, and customers for me",
+   "lang": "en",
+   "publishedAt": "2026-11-17T16:09:57Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "news",
+    "nvidia",
+    "tech"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "e0185595ee6eb2db",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "جنسن هوانگ می گوید که مایل به بازگشت به عنوان مدیرعامل Nvidia است",
+     "excerpt": "جنسن هوانگ، که هفته گذشته به عنوان مدیر عامل Nvidia استعفا داد، مایل به بازگشت به عنوان مدیر عامل اگر هیئت مدیره شرکت آن را می خواست، او در بیانیه ای که توسط وال استریت ژورنال گزارش شده است، گفت. از زمان خروجم، از کارکنان Nvidia، سرمایه گذاران، شرکای تجاری و مشتریانی که برای من هستند، استقبال کرده ام.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "fc9b59ba8c7a508b",
+   "url": "https://www.datacenterdynamics.com/en/news/intersect-signs-15gw-transformer-supply-deal-with-heron-power",
+   "sourceId": "datacenter-dynamics",
+   "sourceName": "DatacenterDynamics",
+   "title": "Intersect signs 1.5GW transformer supply deal with Heron Power",
+   "excerpt": "Deliveries expected to commence in 2028",
+   "lang": "en",
+   "publishedAt": "2026-11-17T15:26:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://media.datacenterdynamics.com/media/images/6af5cdf82645f14fc6bfc2cf_Heron_x_I.2e16d0ba.fill-750x500.png",
+    "kind": "feed",
+    "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
+   },
+   "eventId": "fc9b59ba8c7a508b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "نشانه های 1.5GW تبدیل کننده معامله با قدرت Heron",
+     "excerpt": "تحویل ها انتظار می رود در سال 2028 آغاز شود",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "e1a87f9f921d4b9e",
+   "url": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "OpenAI opens its cybersecurity tool Daybreak to NATO and European governments",
+   "excerpt": "OpenAI is opening its cybersecurity tool Daybreak to NATO and several European governments, including Germany, France, and Poland. The EU's cybersecurity agency ENISA has already used it to find real vulnerabilities in EU software. The NATO Communications and Information Agency (NCIA) says it's already making heavy use of the underlying models. The article OpenAI opens its cybersecurity tool…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T15:02:03Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai and warfare",
+    "cybersecurity",
+    "openai"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/10/russian_influence_campaigns.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "e1a87f9f921d4b9e",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "OpenAI ابزار امنیت سایبری خود را به ناتو و دولت های اروپایی باز می کند",
+     "excerpt": "OpenAI در حال باز کردن ابزار امنیت سایبری خود به ناتو و چندین دولت اروپایی از جمله آلمان، فرانسه و لهستان است. آژانس امنیت سایبری اتحادیه اروپا، ENISA از آن برای پیدا کردن آسیب پذیری های واقعی در نرم افزار اتحادیه اروپا استفاده کرده است. آژانس ارتباطات و اطلاعات ناتو (NCIA) می گوید که در حال حاضر استفاده سنگین از مدل های اصلی را انجام می دهد. مقاله OpenAI ابزار امنیت سایبری خود را باز می کند...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "df92921082e9f46d",
+   "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+   "excerpt": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T15:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai",
+    "ai assistant",
+    "google maps",
+    "travel"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "df92921082e9f46d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "آزمایشگاه های Voyage برای یک دستیار مسافرتی تخصصی AI 12 میلیون دلار افزایش می یابد",
+     "excerpt": "محصول پرچمدار Voyage Labs به نام Atlas نامیده می شود، به معنای کار به عنوان یک دستیار شخصی برای برنامه ریزی سفر شما، در دسترس امروز در بتا خصوصی است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "de54dba0191d0c13",
+   "url": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years",
+   "excerpt": "Edinburgh's Childlight Institute reports a more than 8,400 percent increase in AI-generated child sexual abuse material over two years, from about 4,700 reports in 2023 to over 400,000 in 2025. Abusers are using tools like nudify apps for blackmail. Childlight CEO Paul Stanfield wants governments to classify the problem as a preventable public health emergency. The article Reports of…",
+   "lang": "en",
+   "publishedAt": "2026-11-17T14:59:50Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai and society",
+    "artificial intelligence",
+    "short news",
+    "ai abuse",
+    "deepfakes"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/ai_generated_abuse.png",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "de54dba0191d0c13",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گزارش های مواد سوء استفاده جنسی کودک تولید شده توسط AI در دو سال بیش از 8400 درصد افزایش یافته است.",
+     "excerpt": "موسسه Childlight ادینبورگ گزارش می دهد که بیش از 8400 درصد افزایش در مواد سوء استفاده جنسی کودک تولید شده در AI بیش از دو سال، از حدود 4700 گزارش در سال 2023 به بیش از 400،000 در 2025. سوء استفاده ها از ابزارهایی مانند اپلیکیشن های nudify برای ایمیل های سیاه استفاده می کنند. Paul Stanfield، مدیر عامل کودک، از دولت ها می خواهد این مشکل را به عنوان یک وضعیت اضطراری بهداشت عمومی قابل پیشگیری طبقه بندی کنند. گزارش های مقاله از ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
+   "id": "f7e4a9ce098ef38c",
+   "url": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months",
+   "sourceId": "the-decoder",
+   "sourceName": "The Decoder",
+   "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+   "excerpt": "Isomorphic Labs has raised $5 billion, just six months after a $2.1 billion round. Alphabet's AI drug discovery company, led by Demis Hassabis, plans to use the funding to push its drug pipeline toward clinical trials. The company has no approved drugs yet. The article Isomorphic Labs raises $5 billion in its second mega-round within six months appeared first on The Decoder.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T14:57:02Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "business",
+   "tags": [
+    "ai in practice",
+    "artificial intelligence",
+    "short news",
+    "ai and medicine",
+    "isomorphic labs"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://the-decoder.com/wp-content/uploads/2026/11/Isomorphic-Labs-Funding.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://the-decoder.com/feed/"
+   },
+   "eventId": "f7e4a9ce098ef38c",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "آزمایشگاه های Isomorphic 5 میلیارد دلار در سراسر دوم خود را در شش ماه افزایش می دهد",
+     "excerpt": "آزمایشگاه های Isomorphic 5 میلیارد دلار، فقط شش ماه پس از یک دور 2.1 میلیارد دلار افزایش یافته است. شرکت کشف مواد مخدر آلفابت، به رهبری Demis Hassabis، قصد دارد از بودجه برای فشار دادن خط لوله دارو به سمت کارآزمایی های بالینی استفاده کند. این شرکت هنوز هیچ داروی تایید شده ای ندارد. مقاله Isomorphic Labs 5 میلیارد دلار در طول دوم خود را در شش ماه اول در Decoder ظاهر شد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
    "id": "64497aa5406ed410",
    "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face",
    "sourceId": "the-decoder",
@@ -123,6 +2030,40 @@
      "excerpt": "خروج هوانگ بحث در مورد موضع ایالات متحده نسبت به پکن را تشدید می کند و با افزایش قطع برق، آیا شما احساس می کنید که هیچ چیز کار نمی کند؟ این در ابتدا در TechScape منتشر شد، خبرنامه ای در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا دریافت کنید. سلام و خوش آمدید به TechScape من میزبان شما هستم، بلیک مونتگومری، سردبیر فناوری ایالات متحده در گاردین، نوشتن به شما از یک هواپیما از یک اجلاس وب در ...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-17T14:56:34Z"
+    }
+   }
+  },
+  {
+   "id": "a127bdd6bea974b0",
+   "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports",
+   "sourceId": "mit-tech-review-ai",
+   "sourceName": "MIT Technology Review — AI",
+   "title": "Research Reports",
+   "excerpt": "To access a report, click on the corresponding image below.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T14:39:46Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "research",
+   "tags": [
+    "artificial intelligence"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Screenshot-2026-11-09-at-3.15.07-PM-edited.png",
+    "kind": "feed",
+    "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+   },
+   "eventId": "a127bdd6bea974b0",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "گزارش های تحقیقاتی",
+     "excerpt": "برای دسترسی به یک گزارش، روی تصویر متناظر زیر کلیک کنید.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
     }
    }
   },
@@ -315,6 +2256,44 @@
      "excerpt": "افسانه موسیقی توسط جیمی بارنز و پیتر گرت در حمایت از نه AI برای گرفتن کمپین پیش از آری جوایز دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا جامعه خلاق پادکست خبری روزانه استرالیا یک کمپین بزرگ درخواست با دولت آلبانز به آب قانون کپی رایت در میان لابی خشمگین از شرکت های AI، پیش از جوایز شب چهارشنبه آری آغاز شده است. موسیقی ...",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-17T14:36:37Z"
+    }
+   }
+  },
+  {
+   "id": "dec08682255b4b65",
+   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+   "sourceId": "nvidia-blog",
+   "sourceName": "NVIDIA Blog",
+   "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+   "excerpt": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance",
+   "lang": "en",
+   "publishedAt": "2026-11-17T14:00:10Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "hardware",
+   "tags": [
+    "supercomputing",
+    "events",
+    "sc26"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
+    "kind": "feed",
+    "sourceUrl": "https://blogs.nvidia.com/feed/"
+   },
+   "eventId": "dec08682255b4b65",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایان باک Kicks Off NVIDIA در SC26 به عنوان علم وارد عصر نمایندگان",
+     "excerpt": "ایان باک NVIDIA هفته شرکت را در SC26 در شیکاگو در روز دوشنبه با ابزارهای جدید برای عوامل هوش مصنوعی، نرم افزار که می تواند آزمایشات را برنامه ریزی، اجرای کد و بررسی نتایج در سیستم های خود محققان آغاز کرد. در آدرس ویژه NVIDIA، باک Nemotron را برای علم، Rubin HPC GPU و یک پلتفرم CPU Vera برای عملکرد بالا معرفی کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
     }
    }
   },
@@ -897,6 +2876,41 @@
    }
   },
   {
+   "id": "c6c361c53bc4ce2d",
+   "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Introducing ChatGPT for Sales",
+   "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T08:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "products",
+   "tags": [
+    "product"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "eventId": "c6c361c53bc4ce2d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "معرفی ChatGPT برای فروش",
+     "excerpt": "کاوش پلاگین فروش جدید و 30 + پلاگین های شریک جدید و گسترش یافته در ChatGPT برای چشم انداز های تحقیقاتی، آماده سازی زمین، به روز رسانی CRM خود و حرکت به جلو.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
+    }
+   }
+  },
+  {
    "id": "71566e5ba7c129a7",
    "url": "https://www.theguardian.com/business/2026/nov/17/millionaire-factory-anthropic-ipo-set-to-fuel-ai-gold-rush-in-londons-high-end-property-market",
    "sourceId": "guardian-ai",
@@ -1193,6 +3207,41 @@
      "excerpt": "مدل های بنیاد نشان داده اند که قابلیت های استخراج ویژگی قوی در سراسر وظایف تصویربرداری پزشکی مختلف، با این حال پتانسیل آنها برای بازسازی MRI به طور عمده ناشناخته باقی مانده است، به ویژه در شبکه های بازسازی بدون ثبت نام و ورودی های مصنوعی. در این کار، ما بررسی می کنیم که آیا و چگونه ویژگی های مدل های پایه از پیش آموزش دیده می تواند از MRI قلب تسریع بهره مند شود.",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-17T14:36:37Z"
+    }
+   }
+  },
+  {
+   "id": "0604bc2b50fc0c3b",
+   "url": "https://openai.com/index/astra-law-6-2",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Astra for Law leads in legal intelligence",
+   "excerpt": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+   "lang": "en",
+   "publishedAt": "2026-11-17T00:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-17T22:58:11Z",
+   "day": "2026-11-17",
+   "category": "policy",
+   "tags": [
+    "company"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/policy.svg",
+    "kind": "fallback"
+   },
+   "eventId": "0604bc2b50fc0c3b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Astra برای قانون منجر به هوش قانونی می شود",
+     "excerpt": "Astra for Law اولین بار در یک ارزیابی راه اندازی قرار گرفت که شامل 24 حوزه قانون است. هر مشتری شرکت ChatGPT اکنون می تواند درخواست دسترسی کند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-17T22:58:11Z"
     }
    }
   },

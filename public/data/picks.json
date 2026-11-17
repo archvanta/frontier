@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-17T14:54:10Z",
+ "asOf": "2026-11-17T22:44:51Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,118 +10,114 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-16T14:54:10Z",
-   "to": "2026-11-17T14:54:10Z",
+   "from": "2026-11-16T22:44:51Z",
+   "to": "2026-11-17T22:44:51Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "773cc78ee17a9631",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+      "id": "f38228c9ef565932",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Putting a spotlight on AI, society, and humanity",
+      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
       "lang": "en",
-      "publishedAt": "2026-11-16T20:07:13Z",
+      "publishedAt": "2026-11-17T20:40:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "policy",
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "research",
       "tags": [
-       "ai",
-       "tc"
+       "collaboration",
+       "funding",
+       "technology and society",
+       "artificial intelligence",
+       "special events and guest speakers",
+       "anthropology"
       ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
+       "credit": "Photo: Hanley Valentin",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "773cc78ee17a9631",
-      "related": [
-       "7d4307f50c7ab9f1",
-       "d0b83026be95e613"
-      ],
+      "eventId": "f38228c9ef565932",
+      "related": [],
       "score": {
-       "total": 71.1,
+       "total": 68.8,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 33.8,
-        "topic": 85.0,
-        "novelty": 88.2
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 88.7,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "ایالت کالیفرنیا AG از OpenAI در مورد حوادث عامل سرکش شکایت می کند",
-        "excerpt": "دادخواست کالیفرنیا نشان دهنده یکی از اولین تلاش ها برای برگزاری یک آزمایشگاه AI است که به طور قانونی برای یک حادثه نماینده سرکش پاسخگو است.",
+        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
+        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
      "rank": 1,
-     "sources": 3,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-3",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "5ef1b55f85180917",
-      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
-      "excerpt": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "id": "549a77347d5e1e5f",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "lang": "en",
-      "publishedAt": "2026-11-17T09:45:26Z",
+      "publishedAt": "2026-11-17T17:45:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "product"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i2.ytimg.com/vi/-O0tMcyH4Wo/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "-O0tMcyH4Wo",
-       "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo"
-      },
-      "eventId": "5ef1b55f85180917",
+      "eventId": "549a77347d5e1e5f",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.3,
+        "recency": 74.9,
         "topic": 100.0,
-        "novelty": 92.3
+        "novelty": 85.7
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
-        "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
+        "title": "معرفی GPT-6.2 Astra و Sol",
+        "excerpt": "معرفی GPT-6.2 Astra و Sol با خروجی های حرفه ای بهتر، برنامه نویسی، استفاده از کامپیوتر و بهره وری در هزینه های پایین تر در چت GPT کار، Codex و API.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
@@ -135,113 +131,111 @@
     },
     {
      "article": {
-      "id": "059a57273e09bea5",
-      "url": "https://www.theguardian.com/technology/2026/nov/18/paul-kelly-albanese-ai-copyright-protections-creatives-campaign",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Paul Kelly pleads for Albanese to ‘show some backbone’ over AI as creatives campaign for copyright protections",
-      "excerpt": "Music legend is joined by Jimmy Barnes and Peter Garrett in backing Not AI’s To Take campaign ahead of Aria awards Get our breaking news email, free app or daily news podcast Australia’s creative community has launched a major campaign pleading with the Albanese government not to water down copyright law amid furious lobbying from AI companies, ahead of Wednesday night’s Aria awards. Music…",
+      "id": "bd91f8351850a9ee",
+      "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Building 3D video sets with GPT-6.2 Astra",
+      "excerpt": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
       "lang": "en",
-      "publishedAt": "2026-11-17T14:00:15Z",
+      "publishedAt": "2026-11-17T18:41:32Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "australian music",
-       "australia news",
-       "music industry",
-       "aria awards",
-       "anthony albanese"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/ddddc08ad72395f7299f5323a3c7f7e0de4c7df7/1465_349_5469_4376/master/5469.jpg?width=700&quality=85&auto=format&fit=max&s=98539631aaa64d95443a2a4f89d06bc9",
-       "credit": "Photograph: Ellen Smith/The Guardian",
+       "url": "https://i1.ytimg.com/vi/tKoDPOrLMX0/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "059a57273e09bea5",
+      "video": {
+       "provider": "youtube",
+       "id": "tKoDPOrLMX0",
+       "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0"
+      },
+      "eventId": "bd91f8351850a9ee",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 68.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
-        "topic": 85.0,
-        "novelty": 90.0
+        "recency": 79.1,
+        "topic": 100.0,
+        "novelty": 71.4
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "پل کلی از آلبانز برای \"نشان دادن برخی از ستون فقرات\" بر روی AI به عنوان کمپین خلاقانه برای حفاظت از حق کپی رایت",
-        "excerpt": "افسانه موسیقی توسط جیمی بارنز و پیتر گرت در حمایت از نه AI برای گرفتن کمپین پیش از آری جوایز دریافت ایمیل اخبار شکستن ما، برنامه آزاد و یا جامعه خلاق پادکست خبری روزانه استرالیا یک کمپین بزرگ درخواست با دولت آلبانز به آب قانون کپی رایت در میان لابی خشمگین از شرکت های AI، پیش از جوایز شب چهارشنبه آری آغاز شده است. موسیقی ...",
+        "title": "ساخت 3D ویدیو با GPT-6.2 Astra",
+        "excerpt": "GPT-6.2 Astra مدل پرچم دار جدید ما است، ارائه یک گام در توانایی با کد پاک تر، جلو بهتر و مدل های 3D و استفاده از ابزار کارآمد تر است. ایجاد یک اتاق از دو فریم ویدیو با GPT-6.2 Astra در Codex ببینید که چگونه این مجموعه را در Blender ایجاد می کند، دکوراسیون و نورپردازی را تغییر می دهد و صحنه را به یک فضای تعاملی و یک پس زمینه وب مجازی تبدیل می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "1ac3744caa9c0983",
-      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Learning the language of machine learning",
-      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
+      "id": "14be83114a93e54e",
+      "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "EmbeddingGemma 2: How natively multimodal embeddings work",
+      "excerpt": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. * The two-stage training recipe: initializing from Gemma 4 and distilling from Gemini Embedding 2…",
       "lang": "en",
-      "publishedAt": "2026-11-17T05:00:00Z",
+      "publishedAt": "2026-11-17T17:00:29Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "research",
-      "tags": [
-       "faculty",
-       "profile",
-       "research",
-       "computer science and technology",
-       "artificial intelligence",
-       "machine learning"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-andreas-jacob-A1-Press.jpg?itok=e6BsL8Iz",
-       "credit": "Credit: Bryce Vickmark",
+       "url": "https://i2.ytimg.com/vi/aRIFzzr_Mi0/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
-      "eventId": "1ac3744caa9c0983",
+      "video": {
+       "provider": "youtube",
+       "id": "aRIFzzr_Mi0",
+       "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0"
+      },
+      "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 62.3,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.4,
-        "topic": 80.0,
-        "novelty": 90.0
+        "recency": 71.8,
+        "topic": 100.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "یادگیری زبان یادگیری ماشین",
-        "excerpt": "با مطالعه پایه های محاسباتی یادگیری زبان، پروفسور Jacob آندریاس سیستم های هوشمندی ایجاد می کند که می تواند به طور موثر با انسان ارتباط برقرار کند.",
+        "title": "EmbeddingGemma 2: چگونه بومی چند منظوره کار می کند",
+        "excerpt": "یاد بگیرید که چگونه EmbeddingGemma 2، Google باز، سبک چند منظوره، مدل جاسازی، نقشه، متن، کد، تصاویر، ویدیو و صدا را به یک فضای جاسازی یکپارچه واحد. این ویدیو پوشش می دهد: * چگونه تنظیم کننده های خاص و یک مبدل دو طرفه تبدیل داده های چند منظوره را به یک نمایندگی واحد تبدیل می کند - دستورالعمل آموزش دو مرحله ای: اولیه از Gemma 4 و تقطیر از Gemini Embedding 2 ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
@@ -255,122 +249,119 @@
     },
     {
      "article": {
-      "id": "82a0f3f376656399",
-      "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
-      "excerpt": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+      "id": "2c0a64e08e41f662",
+      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+      "excerpt": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
       "lang": "en",
-      "publishedAt": "2026-11-17T14:00:29Z",
+      "publishedAt": "2026-11-17T22:44:51Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
       "category": "products",
       "tags": [
-       "ai",
-       "biz & it",
-       "security",
-       "check-ins",
-       "grok bot",
-       "prompts"
+       "advanced (300)",
+       "amazon bedrock agentcore",
+       "customer solutions"
       ],
       "entities": [
-       "xai"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-bot-barfs-code-1152x648.jpg",
-       "credit": "Aurich Lawson",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ml-21786-Figure-1.png",
+       "alt": "Architecture diagram: the optimization workflow outputs request, response, and validation report JSON, which an AI agent reads to answer user questions through a chat interface",
        "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "82a0f3f376656399",
+      "eventId": "2c0a64e08e41f662",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 67.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 100.0,
         "topic": 65.0,
-        "novelty": 92.9
+        "novelty": 75.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "Grok Bot اقدامات تایید نشده ای را انجام داد و دستورات را نادیده گرفت و سپس آن را رد کرد.",
-        "excerpt": "عامل AI اقدامات تایید نشده را حتی زمانی که درب لپ تاپ بسته شده و به آن گفته نشده است، انجام می دهد.",
+        "title": "کاهش هزینه های توکن و تاخیر در Amazon Bedrock AgentCore JSONs",
+        "excerpt": "به عنوان عوامل تولید در Amazon Bedrock AgentCore Process multi-megabyte JSON، هزینه های توکن و صعود تاخیر. این پست سه استراتژی ترکیبی را به اشتراک می گذارد: بارگذاری مصنوعات سنگین به آمازون S3، در صورت تقاضا، و جمع آوری فرهنگ لغت. آنها با هم استفاده از توکن را به میزان 71 درصد کاهش داده و تا 80 درصد تاخیر دارند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "ed47f6db4915840c",
-      "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Isomorphic Labs raises $5B as it looks to take drug candidates to clinical trials",
-      "excerpt": "Isomorphic Labs, the AI drug-discovery platform that was spun out of Google’s DeepMind in 2021, has raised $5 Billion in a Series C funding round.",
+      "id": "6dbfd2c16f1d581a",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
       "lang": "en",
-      "publishedAt": "2026-11-17T14:50:58Z",
+      "publishedAt": "2026-11-17T21:14:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:56:34Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "business",
+      "category": "products",
       "tags": [
-       "ai",
-       "biotech & health",
-       "fundraising",
-       "ai drug discovery",
-       "deepmind",
-       "drug research"
+       "amazon bedrock",
+       "best practices",
+       "intermediate (200)",
+       "strands agents"
       ],
       "entities": [
-       "google"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png",
+       "alt": "Flowchart that sorts a workflow step into code, a constrained decision call, or a right-sized Amazon Bedrock model",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "ed47f6db4915840c",
+      "eventId": "6dbfd2c16f1d581a",
       "related": [],
       "score": {
-       "total": 61.5,
+       "total": 67.1,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
-        "topic": 55.0,
-        "novelty": 92.9
+        "recency": 91.7,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "آزمایشگاه های Isomorphic 5B را افزایش می دهند، زیرا به نظر می رسد که متقاضیان مواد مخدر برای آزمایشات بالینی",
-        "excerpt": "آزمایشگاه های Isomorphic، پلت فرم کشف مواد مخدر AI که از DeepMind گوگل در سال 2021 منتشر شد، 5 میلیارد دلار در یک دور بودجه سری C افزایش یافته است.",
+        "title": "کاهش هزینه های هوش مصنوعی: کد برای قوانین، مدل ها برای قضاوت",
+        "excerpt": "بزرگترین اهرم هزینه در یک سیستم هوش مصنوعی عمومی این است که آیا شما به طور کلی یک مدل را می خوانید. یاد بگیرید که چگونه تصمیم بگیرید که آیا هر مرحله گردش کار به یک مدل نیاز دارد و هر گزینه را برای AWS نقشه برداری کنید: کد تعیین کننده، یک تماس تصمیم محدود یا یک مدل مناسب در آمازون Bedrock.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:56:34Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -378,8 +369,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-10T14:54:10Z",
-   "to": "2026-11-17T14:54:10Z",
+   "from": "2026-11-10T22:44:51Z",
+   "to": "2026-11-17T22:44:51Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -414,15 +405,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 81.0,
+       "total": 79.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 83.5,
+        "recency": 77.4,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -438,6 +429,120 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "549a77347d5e1e5f",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T17:45:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "models",
+      "tags": [
+       "product"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "549a77347d5e1e5f",
+      "related": [],
+      "score": {
+       "total": 72.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.3,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-17T22:44:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی GPT-6.2 Astra و Sol",
+        "excerpt": "معرفی GPT-6.2 Astra و Sol با خروجی های حرفه ای بهتر، برنامه نویسی، استفاده از کامپیوتر و بهره وری در هزینه های پایین تر در چت GPT کار، Codex و API.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T22:58:11Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "14be83114a93e54e",
+      "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "EmbeddingGemma 2: How natively multimodal embeddings work",
+      "excerpt": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. * The two-stage training recipe: initializing from Gemma 4 and distilling from Gemini Embedding 2…",
+      "lang": "en",
+      "publishedAt": "2026-11-17T17:00:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/aRIFzzr_Mi0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "aRIFzzr_Mi0",
+       "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0"
+      },
+      "eventId": "14be83114a93e54e",
+      "related": [],
+      "score": {
+       "total": 72.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.6,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-17T22:44:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "EmbeddingGemma 2: چگونه بومی چند منظوره کار می کند",
+        "excerpt": "یاد بگیرید که چگونه EmbeddingGemma 2، Google باز، سبک چند منظوره، مدل جاسازی، نقشه، متن، کد، تصاویر، ویدیو و صدا را به یک فضای جاسازی یکپارچه واحد. این ویدیو پوشش می دهد: * چگونه تنظیم کننده های خاص و یک مبدل دو طرفه تبدیل داده های چند منظوره را به یک نمایندگی واحد تبدیل می کند - دستورالعمل آموزش دو مرحله ای: اولیه از Gemma 4 و تقطیر از Gemini Embedding 2 ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T22:58:11Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -474,139 +579,20 @@
       "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
         "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
         "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9c409e1fafefcc9f",
-      "url": "https://www.youtube.com/watch?v=hAASMPKkaXA",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Making seven years of design documentation AI-readable in a day | Revolut’s Dmytro Pavlov",
-      "excerpt": "Revolut’s designers had spent seven years documenting how their design system works. Senior Designer Dmytro Pavlov shares how his team used Codex to turn that material into a format AI could read in a single day. Along the way, they spotted gaps in their templates and made the guidance clearer for the designers who use it. Read the full story: https://openai.com/business/customer-stories/revolut/",
-      "lang": "en",
-      "publishedAt": "2026-11-17T09:45:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
-      "day": "2026-11-17",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/hAASMPKkaXA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "hAASMPKkaXA",
-       "url": "https://www.youtube.com/watch?v=hAASMPKkaXA"
-      },
-      "eventId": "9c409e1fafefcc9f",
-      "related": [],
-      "score": {
-       "total": 73.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 100.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-17T14:54:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ساخت هفت سال مستند سازی AI قابل خواندن در یک روز",
-        "excerpt": "طراحان Revolut هفت سال را صرف مستندسازی نحوه عملکرد سیستم طراحی خود کرده بودند. طراح ارشد Dmytro پاولوف به اشتراک می گذارد که چگونه تیم او از Codex برای تبدیل آن مواد به یک فرمت AI می تواند در یک روز بخواند. در طول مسیر، آنها شکاف هایی را در قالب های خود مشاهده کردند و راهنمایی را برای طراحانی که از آن استفاده می کنند، روشن تر کردند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1ac3744caa9c0983",
-      "url": "https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Learning the language of machine learning",
-      "excerpt": "By studying the computational foundations of language learning, Associate Professor Jacob Andreas builds intelligent systems that can communicate effectively with humans.",
-      "lang": "en",
-      "publishedAt": "2026-11-17T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
-      "day": "2026-11-17",
-      "category": "research",
-      "tags": [
-       "faculty",
-       "profile",
-       "research",
-       "computer science and technology",
-       "artificial intelligence",
-       "machine learning"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-andreas-jacob-A1-Press.jpg?itok=e6BsL8Iz",
-       "credit": "Credit: Bryce Vickmark",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "1ac3744caa9c0983",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-17T14:54:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یادگیری زبان یادگیری ماشین",
-        "excerpt": "با مطالعه پایه های محاسباتی یادگیری زبان، پروفسور Jacob آندریاس سیستم های هوشمندی ایجاد می کند که می تواند به طور موثر با انسان ارتباط برقرار کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-17T14:36:37Z"
        }
@@ -622,50 +608,53 @@
     },
     {
      "article": {
-      "id": "f978b1cf70930b8f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
-      "excerpt": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't.",
+      "id": "f38228c9ef565932",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Putting a spotlight on AI, society, and humanity",
+      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
       "lang": "en",
-      "publishedAt": "2026-11-16T15:48:01Z",
+      "publishedAt": "2026-11-17T20:40:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "safety",
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "research",
       "tags": [
-       "amazon bedrock guardrails",
-       "best practices",
-       "intermediate (200)"
+       "collaboration",
+       "funding",
+       "technology and society",
+       "artificial intelligence",
+       "special events and guest speakers",
+       "anthropology"
       ],
-      "entities": [
-       "amazon"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
+       "credit": "Photo: Hanley Valentin",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "f978b1cf70930b8f",
+      "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.1,
-        "topic": 90.0,
-        "novelty": 80.0
+        "recency": 98.0,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "بهترین شیوه ها برای نوشتن موضوعات انکار شده در Amazon Bedrock Guardrail",
-        "excerpt": "با موضوعات انکار شده در Amazon Bedrock Guardrails، شما یک دسته محتوا را با توصیف آن در زبان ساده مسدود می کنید و Guardrail به جای کلمه کلیدی مطابقت دارد که می تواند بیش از آنچه شما قصد دارید را مسدود کند. این پست هشت بهترین شیوه برای نوشتن یک موضوع را دقیقاً به اندازه کافی ارائه می دهد که Guardrail آنچه را که منظور شما است را مسدود می کند و آنچه را که نمی خواهید انجام می دهد.",
+        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
+        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
@@ -679,112 +668,113 @@
     },
     {
      "article": {
-      "id": "ffe4b9c88a23c6ca",
-      "url": "https://news.mit.edu/2026/qa-why-building-math-muscles-remains-important-ai-era-1117",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Why building math muscles remains important in the AI era",
-      "excerpt": "Assistant Professor John Urschel explains why learning the fundamental skills of mathematics is still essential despite the evolution of AI tools.",
+      "id": "950a39f90ba9c1a9",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
       "lang": "en",
-      "publishedAt": "2026-11-17T05:00:00Z",
+      "publishedAt": "2026-11-17T16:44:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
+      "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "products",
+      "category": "business",
       "tags": [
-       "interview",
-       "faculty",
-       "mathematics",
-       "artificial intelligence",
-       "education, teaching, academics",
-       "technology and society"
+       "ai",
+       "jensen huang",
+       "nvidia"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-3Q-AI-Math-01-press.jpg?itok=KY31Nuxq",
-       "credit": "Credit: MIT News; Getty Images; portrait courtesy of MIT Department of Mathematics",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "ffe4b9c88a23c6ca",
-      "related": [],
+      "eventId": "950a39f90ba9c1a9",
+      "related": [
+       "9775fff4b2849085"
+      ],
       "score": {
-       "total": 66.8,
+       "total": 69.1,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 65.0,
-        "novelty": 88.9
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 94.4,
+        "topic": 55.0,
+        "novelty": 54.5
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "Q&A: چرا ساخت عضلات ریاضی در عصر AI مهم است",
-        "excerpt": "پروفسور جان اوشل توضیح می دهد که چرا یادگیری مهارت های اساسی ریاضیات با وجود تکامل ابزارهای هوش مصنوعی ضروری است.",
+        "title": "جنسن هوانگ می گوید که اگر اجازه بازگشت به عنوان مدیر عامل Nvidia را داشته باشد، \"متقاد\" خواهد بود.",
+        "excerpt": "در اولین بیانیه عمومی از زمان استعفای او، بنیانگذار Nvidia Jensen Huang، تمایل خود را به بازگشت به عنوان مدیر عامل اعلام کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
      "rank": 6,
-     "sources": 1,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "eea13b12d8e0c566",
-      "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
-      "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
+      "id": "6dbfd2c16f1d581a",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cut generative AI costs: Code for rules, models for judgment",
+      "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
       "lang": "en",
-      "publishedAt": "2026-11-16T18:30:41Z",
+      "publishedAt": "2026-11-17T21:14:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [],
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "products",
+      "tags": [
+       "amazon bedrock",
+       "best practices",
+       "intermediate (200)",
+       "strands agents"
+      ],
       "entities": [
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png",
+       "alt": "Flowchart that sorts a workflow step into code, a constrained decision call, or a right-sized Amazon Bedrock model",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "uGZO6I-CJtM",
-       "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
-      },
-      "eventId": "eea13b12d8e0c566",
+      "eventId": "6dbfd2c16f1d581a",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.2,
-        "topic": 80.0,
-        "novelty": 83.3
+        "recency": 98.6,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
-        "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
+        "title": "کاهش هزینه های هوش مصنوعی: کد برای قوانین، مدل ها برای قضاوت",
+        "excerpt": "بزرگترین اهرم هزینه در یک سیستم هوش مصنوعی عمومی این است که آیا شما به طور کلی یک مدل را می خوانید. یاد بگیرید که چگونه تصمیم بگیرید که آیا هر مرحله گردش کار به یک مدل نیاز دارد و هر گزینه را برای AWS نقشه برداری کنید: کد تعیین کننده، یک تماس تصمیم محدود یا یک مدل مناسب در آمازون Bedrock.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
@@ -798,54 +788,49 @@
     },
     {
      "article": {
-      "id": "0f2a855bc6a8fcf2",
-      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic",
+      "id": "1e308b5aafc025fe",
+      "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Getting AI out of the demo and into businesses globally",
+      "excerpt": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
       "lang": "en",
-      "publishedAt": "2026-11-16T16:00:25Z",
+      "publishedAt": "2026-11-17T19:05:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "products",
       "tags": [
-       "ai",
-       "ai infrastructure",
-       "hardware",
-       "networking",
-       "software",
-       "agentic ai"
+       "customer solutions",
+       "foundational (100)"
       ],
       "entities": [
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/vera-rubin-mlperf-training-endpoints.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "eventId": "0f2a855bc6a8fcf2",
+      "eventId": "1e308b5aafc025fe",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.2,
-        "topic": 80.0,
-        "novelty": 85.0
+        "recency": 96.5,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "NVIDIA آموزش MLPerf و نقاط پایانی را به عنوان Vera Rubin Debuts با هدایت عملکرد",
-        "excerpt": "در اولین رتبه MLPerf خود، با نتایج منتشر شده امروز، پلت فرم NVIDIA Vera Rubin عملکرد پیشرو را در سراسر آموزش، آموزش پس از تمرین و مداخله نمایندگی ارائه می دهد. NVIDIA هر معیار آموزش MLPerf v6.1 را در بر گرفت و در اولین ارسال MLPerf Endpoint، بیش از 10x سود نسلی را در هر وات برای AI عامل ارائه داد - اندازه گیری اینکه چه مقدار نمایندگی",
+        "title": "دریافت AI از دموی و کسب و کار در سطح جهانی",
+        "excerpt": "اکثر شرکت ها هوش مصنوعی دارند که در یک نسخه آزمایشی کار می کند اما قبل از تولید متوقف می شود. AWS Forward Deployed Engineering این شکاف را بسته است. مهندسان AWS با تیم های مشتری تعبیه می کنند تا جریان های کاری با ارزش بالا را به تولید در 45 روزه، ترک یک پایه، گردش کار و حکمرانی مشتری بپردازند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
@@ -860,8 +845,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-18T14:54:10Z",
-   "to": "2026-11-17T14:54:10Z",
+   "from": "2026-10-18T22:44:51Z",
+   "to": "2026-11-17T22:44:51Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -896,15 +881,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 83.3,
+       "total": 82.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 94.7,
+        "recency": 92.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -959,15 +944,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 82.9,
+       "total": 82.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 58.3,
+        "recency": 57.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -1018,15 +1003,15 @@
       "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -1077,15 +1062,15 @@
       "eventId": "9c409e1fafefcc9f",
       "related": [],
       "score": {
-       "total": 73.9,
+       "total": 73.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 96.3,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -1097,6 +1082,125 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "14be83114a93e54e",
+      "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "EmbeddingGemma 2: How natively multimodal embeddings work",
+      "excerpt": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. * The two-stage training recipe: initializing from Gemma 4 and distilling from Gemini Embedding 2…",
+      "lang": "en",
+      "publishedAt": "2026-11-17T17:00:29Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/aRIFzzr_Mi0/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "aRIFzzr_Mi0",
+       "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0"
+      },
+      "eventId": "14be83114a93e54e",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.4,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-17T22:44:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "EmbeddingGemma 2: چگونه بومی چند منظوره کار می کند",
+        "excerpt": "یاد بگیرید که چگونه EmbeddingGemma 2، Google باز، سبک چند منظوره، مدل جاسازی، نقشه، متن، کد، تصاویر، ویدیو و صدا را به یک فضای جاسازی یکپارچه واحد. این ویدیو پوشش می دهد: * چگونه تنظیم کننده های خاص و یک مبدل دو طرفه تبدیل داده های چند منظوره را به یک نمایندگی واحد تبدیل می کند - دستورالعمل آموزش دو مرحله ای: اولیه از Gemma 4 و تقطیر از Gemini Embedding 2 ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T22:58:11Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f38228c9ef565932",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Putting a spotlight on AI, society, and humanity",
+      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T20:40:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "research",
+      "tags": [
+       "collaboration",
+       "funding",
+       "technology and society",
+       "artificial intelligence",
+       "special events and guest speakers",
+       "anthropology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
+       "credit": "Photo: Hanley Valentin",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "f38228c9ef565932",
+      "related": [],
+      "score": {
+       "total": 71.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.4,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-17T22:44:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
+        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T22:58:11Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1137,15 +1241,15 @@
       "eventId": "1ac3744caa9c0983",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 95.0,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
@@ -1156,10 +1260,70 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "950a39f90ba9c1a9",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "lang": "en",
+      "publishedAt": "2026-11-17T16:44:15Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "business",
+      "tags": [
+       "ai",
+       "jensen huang",
+       "nvidia"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "950a39f90ba9c1a9",
+      "related": [
+       "9775fff4b2849085"
+      ],
+      "score": {
+       "total": 69.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.3,
+        "topic": 55.0,
+        "novelty": 54.5
+       },
+       "asOf": "2026-11-17T22:44:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جنسن هوانگ می گوید که اگر اجازه بازگشت به عنوان مدیر عامل Nvidia را داشته باشد، \"متقاد\" خواهد بود.",
+        "excerpt": "در اولین بیانیه عمومی از زمان استعفای او، بنیانگذار Nvidia Jensen Huang، تمایل خود را به بازگشت به عنوان مدیر عامل اعلام کرد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-17T22:58:11Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1194,195 +1358,20 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 91.4,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
         "title": "بهترین شیوه ها برای نوشتن موضوعات انکار شده در Amazon Bedrock Guardrail",
         "excerpt": "با موضوعات انکار شده در Amazon Bedrock Guardrails، شما یک دسته محتوا را با توصیف آن در زبان ساده مسدود می کنید و Guardrail به جای کلمه کلیدی مطابقت دارد که می تواند بیش از آنچه شما قصد دارید را مسدود کند. این پست هشت بهترین شیوه برای نوشتن یک موضوع را دقیقاً به اندازه کافی ارائه می دهد که Guardrail آنچه را که منظور شما است را مسدود می کند و آنچه را که نمی خواهید انجام می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "34b0bf3f94c3851e",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
-      "sourceId": "google-deepmind",
-      "sourceName": "Google DeepMind Blog",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-10-28T18:55:11Z",
-      "day": "2026-10-28",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "34b0bf3f94c3851e",
-      "related": [
-       "41e0dc889e76cc16"
-      ],
-      "score": {
-       "total": 70.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 50.0,
-        "recency": 25.2,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-17T14:54:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Gemini 4 Carbon: مدل مرزی بعدی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-10-28T18:55:11Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 2,
-     "reason": [
-      "tier-1",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "eea13b12d8e0c566",
-      "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Real-Time Discovery Starts With NVIDIA DAQIRI",
-      "excerpt": "Every discovery begins with a signal. NVIDIA DAQIRI connects high-bandwidth instrument data to accelerated computing, so AI can process live sensor streams while an experiment or industrial process is still underway. Instead of capturing data, writing it to disk, and analyzing it later, workflows can sense, reason, and respond in real time. - Streams hundreds to thousands of gigabits of…",
-      "lang": "en",
-      "publishedAt": "2026-11-16T18:30:41Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/uGZO6I-CJtM/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "uGZO6I-CJtM",
-       "url": "https://www.youtube.com/watch?v=uGZO6I-CJtM"
-      },
-      "eventId": "eea13b12d8e0c566",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.3,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-17T14:54:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Real-Time Discovery با NVIDIA DAQIRI آغاز می شود",
-        "excerpt": "هر کشف با یک سیگنال آغاز می شود. NVIDIA DAQIRI داده های ابزار با پهنای باند بالا را به محاسبات سریع متصل می کند، بنابراین AI می تواند جریان های سنسور زنده را پردازش کند در حالی که یک آزمایش یا فرایند صنعتی هنوز در حال انجام است. به جای ثبت اطلاعات، نوشتن آن به دیسک و تجزیه و تحلیل آن بعدا، جریان کار می تواند حس، دلیل و پاسخ در زمان واقعی. - جریان صدها تا هزاران گیگاوات ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0f2a855bc6a8fcf2",
-      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
-      "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, delivered more than 10x generational gains in throughput per watt for agentic AI — measuring how much agentic",
-      "lang": "en",
-      "publishedAt": "2026-11-16T16:00:25Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
-      "tags": [
-       "ai",
-       "ai infrastructure",
-       "hardware",
-       "networking",
-       "software",
-       "agentic ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/vera-rubin-mlperf-training-endpoints.png",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "0f2a855bc6a8fcf2",
-      "related": [],
-      "score": {
-       "total": 69.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.6,
-        "topic": 80.0,
-        "novelty": 85.0
-       },
-       "asOf": "2026-11-17T14:54:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "NVIDIA آموزش MLPerf و نقاط پایانی را به عنوان Vera Rubin Debuts با هدایت عملکرد",
-        "excerpt": "در اولین رتبه MLPerf خود، با نتایج منتشر شده امروز، پلت فرم NVIDIA Vera Rubin عملکرد پیشرو را در سراسر آموزش، آموزش پس از تمرین و مداخله نمایندگی ارائه می دهد. NVIDIA هر معیار آموزش MLPerf v6.1 را در بر گرفت و در اولین ارسال MLPerf Endpoint، بیش از 10x سود نسلی را در هر وات برای AI عامل ارائه داد - اندازه گیری اینکه چه مقدار نمایندگی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-16T22:16:59Z"
        }
@@ -1398,59 +1387,51 @@
     },
     {
      "article": {
-      "id": "8192f1094925b873",
-      "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+      "id": "dec08682255b4b65",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
       "sourceId": "nvidia-blog",
       "sourceName": "NVIDIA Blog",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets and model more complex systems. The new libraries give AI agents the tools to help researchers make discoveries",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "excerpt": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance",
       "lang": "en",
-      "publishedAt": "2026-11-16T16:00:16Z",
+      "publishedAt": "2026-11-17T14:00:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "research",
+      "fetchedAt": "2026-11-17T22:58:11Z",
+      "day": "2026-11-17",
+      "category": "hardware",
       "tags": [
-       "ai infrastructure",
-       "hardware",
-       "software",
        "supercomputing",
-       "cuda-x",
-       "dgx spark"
+       "events",
+       "sc26"
       ],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/hpc-for-dev-tech-blog-cuda-x-sc26-1920x1080-5818376.jpg",
+       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
        "kind": "feed",
        "sourceUrl": "https://blogs.nvidia.com/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "E3Hy-WRJbXE",
-       "url": "https://www.youtube.com/watch?v=E3Hy-WRJbXE"
-      },
-      "eventId": "8192f1094925b873",
+      "eventId": "dec08682255b4b65",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
-        "topic": 80.0,
-        "novelty": 84.6
+        "recency": 97.5,
+        "topic": 70.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-17T14:54:10Z"
+       "asOf": "2026-11-17T22:44:51Z"
       },
       "tr": {
        "fa": {
-        "title": "کتابخانه های NVIDIA CUDA-X ابزار را برای تسریع کشف علمی ارائه می دهند",
-        "excerpt": "با کتابخانه های توسعه یافته NVIDIA CUDA-X، از جمله PiPhoton، PiPotential و cuSpa، محققان می توانند از طریق مقادیر زیادی از داده ها برای تسریع تحقیقات، از Astro Physics و علوم مواد به زیست شناسی تک سلول. سرعت ها به دانشمندان کمک می کنند تا مجموعه داده های بزرگتر را تجزیه و تحلیل کنند و سیستم های پیچیده تر را مدل کنند. کتابخانه های جدید ابزار AI را برای کمک به محققان برای اکتشافات ارائه می دهند",
+        "title": "ایان باک Kicks Off NVIDIA در SC26 به عنوان علم وارد عصر نمایندگان",
+        "excerpt": "ایان باک NVIDIA هفته شرکت را در SC26 در شیکاگو در روز دوشنبه با ابزارهای جدید برای عوامل هوش مصنوعی، نرم افزار که می تواند آزمایشات را برنامه ریزی، اجرای کد و بررسی نتایج در سیستم های خود محققان آغاز کرد. در آدرس ویژه NVIDIA، باک Nemotron را برای علم، Rubin HPC GPU و یک پلتفرم CPU Vera برای عملکرد بالا معرفی کرد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
+        "at": "2026-11-17T22:58:11Z"
        }
       }
      },
