@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-17T23:04:35Z",
+ "asOf": "2026-11-18T01:44:21Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,59 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-16T23:04:35Z",
-   "to": "2026-11-17T23:04:35Z",
+   "from": "2026-11-17T01:44:21Z",
+   "to": "2026-11-18T01:44:21Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "f38228c9ef565932",
-      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Putting a spotlight on AI, society, and humanity",
-      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+      "id": "373a6b7477c9354d",
+      "url": "https://www.youtube.com/shorts/2pdF52EVlbM",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "An underrated way to use ChatGPT: Life admin",
+      "excerpt": "Even ChatGPT researchers need a little help with life admin. Isa F. shares an underrated way she uses ChatGPT: keeping track of the details and making time for her next haircut.",
       "lang": "en",
-      "publishedAt": "2026-11-17T20:40:00Z",
+      "publishedAt": "2026-11-18T00:06:39Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
+      "fetchedAt": "2026-11-18T04:30:41Z",
+      "day": "2026-11-18",
       "category": "research",
-      "tags": [
-       "collaboration",
-       "funding",
-       "technology and society",
-       "artificial intelligence",
-       "special events and guest speakers",
-       "anthropology"
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
-       "credit": "Photo: Hanley Valentin",
+       "url": "https://i3.ytimg.com/vi/2pdF52EVlbM/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "f38228c9ef565932",
+      "video": {
+       "provider": "youtube",
+       "id": "2pdF52EVlbM",
+       "url": "https://www.youtube.com/watch?v=2pdF52EVlbM"
+      },
+      "eventId": "373a6b7477c9354d",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 91.0,
         "topic": 80.0,
-        "novelty": 90.9
+        "novelty": 66.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
-        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
-        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
+        "title": "یک راه مشخص برای استفاده از ChatGPT: Life Manager",
+        "excerpt": "حتی محققان ChatGPT نیاز به کمک کمی با مدیریت زندگی دارند. Isa F. به اشتراک می گذارد یک روش ضعیف او استفاده از ChatGPT: پیگیری جزئیات و زمان برای موهای بعدی خود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T04:30:41Z"
        }
       }
      },
@@ -102,15 +101,15 @@
       "eventId": "549a77347d5e1e5f",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 66.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.5,
+        "recency": 63.0,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -131,50 +130,51 @@
     },
     {
      "article": {
-      "id": "bd91f8351850a9ee",
-      "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Building 3D video sets with GPT-6.2 Astra",
-      "excerpt": "GPT-6.2 Astra is our new flagship model, delivering a step up in capability with cleaner code, better frontends and 3D models, and more efficient tool use. Recreate a room from just two video frames with GPT-6.2 Astra in Codex. See how it builds the set in Blender, changes the decor and lighting, and turns the scene into an interactive space and a virtual webcam background.",
+      "id": "f38228c9ef565932",
+      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Putting a spotlight on AI, society, and humanity",
+      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
       "lang": "en",
-      "publishedAt": "2026-11-17T18:41:32Z",
+      "publishedAt": "2026-11-17T20:40:00Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "category": "research",
+      "tags": [
+       "collaboration",
+       "funding",
+       "technology and society",
+       "artificial intelligence",
+       "special events and guest speakers",
+       "anthropology"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/tKoDPOrLMX0/hqdefault.jpg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
+       "credit": "Photo: Hanley Valentin",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "tKoDPOrLMX0",
-       "url": "https://www.youtube.com/watch?v=tKoDPOrLMX0"
-      },
-      "eventId": "bd91f8351850a9ee",
+      "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.6,
-        "topic": 100.0,
-        "novelty": 71.4
+        "recency": 74.6,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
-        "title": "ساخت 3D ویدیو با GPT-6.2 Astra",
-        "excerpt": "GPT-6.2 Astra مدل پرچم دار جدید ما است، ارائه یک گام در توانایی با کد پاک تر، جلو بهتر و مدل های 3D و استفاده از ابزار کارآمد تر است. ایجاد یک اتاق از دو فریم ویدیو با GPT-6.2 Astra در Codex ببینید که چگونه این مجموعه را در Blender ایجاد می کند، دکوراسیون و نورپردازی را تغییر می دهد و صحنه را به یک فضای تعاملی و یک پس زمینه وب مجازی تبدیل می کند.",
+        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
+        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-17T22:58:11Z"
        }
@@ -220,15 +220,15 @@
       "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 65.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 70.4,
+        "recency": 60.4,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -249,52 +249,53 @@
     },
     {
      "article": {
-      "id": "2c0a64e08e41f662",
-      "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads",
+      "id": "206b86c970ea91d6",
+      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
-      "excerpt": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
+      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+      "excerpt": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
       "lang": "en",
-      "publishedAt": "2026-11-17T22:44:51Z",
+      "publishedAt": "2026-11-17T23:33:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
+      "fetchedAt": "2026-11-18T04:30:41Z",
       "day": "2026-11-17",
       "category": "products",
       "tags": [
        "advanced (300)",
-       "amazon bedrock agentcore",
-       "customer solutions"
+       "amazon sagemaker hyperpod",
+       "announcements"
       ],
       "entities": [
-       "amazon"
+       "amazon",
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ml-21786-Figure-1.png",
-       "alt": "Architecture diagram: the optimization workflow outputs request, response, and validation report JSON, which an AI agent reads to answer user questions through a chat interface",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-1.png",
+       "alt": "Architecture diagram of NVIDIA Dynamo on SageMaker HyperPod with the frontend routing to prefill and decode workers over EFA",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "2c0a64e08e41f662",
+      "eventId": "206b86c970ea91d6",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 88.2,
         "topic": 65.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
-        "title": "کاهش هزینه های توکن و تاخیر در Amazon Bedrock AgentCore JSONs",
-        "excerpt": "به عنوان عوامل تولید در Amazon Bedrock AgentCore Process multi-megabyte JSON، هزینه های توکن و صعود تاخیر. این پست سه استراتژی ترکیبی را به اشتراک می گذارد: بارگذاری مصنوعات سنگین به آمازون S3، در صورت تقاضا، و جمع آوری فرهنگ لغت. آنها با هم استفاده از توکن را به میزان 71 درصد کاهش داده و تا 80 درصد تاخیر دارند.",
+        "title": "مدیریت NVIDIA Dynamo در Amazon SageMaker HyperPod Inference",
+        "excerpt": "Amazon SageMaker HyperPod Inference در حال حاضر از NVIDIA Dynamo برای نفوذ توزیع شده، با خدمات چند گره ای و غیر رسمی، مسیریابی KV آگاهانه و بازیابی خودکار خطا پشتیبانی می کند. ارائه مدل های بزرگ در بسیاری از گره ها بدون ساخت لایه ارکستر خود را.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T04:30:41Z"
        }
       }
      },
@@ -308,51 +309,49 @@
     },
     {
      "article": {
-      "id": "6dbfd2c16f1d581a",
-      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Cut generative AI costs: Code for rules, models for judgment",
-      "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
+      "id": "cb1d8f8bc84f7e6a",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "sourceId": "google-ai-blog",
+      "sourceName": "Google — The Keyword (AI)",
+      "title": "Put Gemini to work for you",
+      "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
       "lang": "en",
-      "publishedAt": "2026-11-17T21:14:55Z",
+      "publishedAt": "2026-11-17T17:00:00Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-17T22:58:11Z",
       "day": "2026-11-17",
-      "category": "products",
+      "category": "models",
       "tags": [
-       "amazon bedrock",
-       "best practices",
-       "intermediate (200)",
-       "strands agents"
+       "gemini app",
+       "google labs",
+       "ai"
       ],
       "entities": [
-       "amazon"
+       "google"
       ],
-      "brand": null,
+      "brand": "gemini",
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png",
-       "alt": "Flowchart that sorts a workflow step into code, a constrained decision call, or a right-sized Amazon Bedrock model",
+       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://blog.google/technology/ai/rss/"
       },
-      "eventId": "6dbfd2c16f1d581a",
+      "eventId": "cb1d8f8bc84f7e6a",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 64.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.0,
-        "topic": 65.0,
-        "novelty": 90.0
+        "recency": 60.4,
+        "topic": 100.0,
+        "novelty": 75.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
-        "title": "کاهش هزینه های هوش مصنوعی: کد برای قوانین، مدل ها برای قضاوت",
-        "excerpt": "بزرگترین اهرم هزینه در یک سیستم هوش مصنوعی عمومی این است که آیا شما به طور کلی یک مدل را می خوانید. یاد بگیرید که چگونه تصمیم بگیرید که آیا هر مرحله گردش کار به یک مدل نیاز دارد و هر گزینه را برای AWS نقشه برداری کنید: کد تعیین کننده، یک تماس تصمیم محدود یا یک مدل مناسب در آمازون Bedrock.",
+        "title": "Gemini را برای شما کار کنید",
+        "excerpt": "یک رابط کاربری نشان می دهد که \"چه کاری می توانم برای شما انجام دهم؟\" بالاتر از یک جعبه ورودی حاوی متن کاربری \"یک کار\" است.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-17T22:58:11Z"
        }
@@ -369,8 +368,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-10T23:04:35Z",
-   "to": "2026-11-17T23:04:35Z",
+   "from": "2026-11-11T01:44:21Z",
+   "to": "2026-11-18T01:44:21Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -405,15 +404,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 79.7,
+       "total": 79.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 77.1,
+        "recency": 75.2,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -461,15 +460,15 @@
       "eventId": "549a77347d5e1e5f",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 92.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -520,15 +519,15 @@
       "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 91.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -579,15 +578,15 @@
       "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 85.7,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -639,15 +638,15 @@
       "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 95.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -698,15 +697,15 @@
        "9775fff4b2849085"
       ],
       "score": {
-       "total": 69.0,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.1,
+        "recency": 91.7,
         "topic": 55.0,
         "novelty": 54.5
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -759,15 +758,15 @@
       "eventId": "6dbfd2c16f1d581a",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 95.8,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -815,15 +814,15 @@
       "eventId": "1e308b5aafc025fe",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 93.8,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -845,8 +844,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-18T23:04:35Z",
-   "to": "2026-11-17T23:04:35Z",
+   "from": "2026-10-19T01:44:21Z",
+   "to": "2026-11-18T01:44:21Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -881,15 +880,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 82.8,
+       "total": 82.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 92.5,
+        "recency": 91.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -948,11 +947,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 56.9,
+        "recency": 56.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1003,15 +1002,15 @@
       "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1062,15 +1061,15 @@
       "eventId": "9c409e1fafefcc9f",
       "related": [],
       "score": {
-       "total": 73.5,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.5,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1121,15 +1120,15 @@
       "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.3,
+        "recency": 97.5,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1181,15 +1180,15 @@
       "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 98.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1241,15 +1240,15 @@
       "eventId": "1ac3744caa9c0983",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 94.2,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1300,15 +1299,15 @@
        "9775fff4b2849085"
       ],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 98.2,
+        "recency": 97.4,
         "topic": 55.0,
         "novelty": 54.5
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1358,15 +1357,15 @@
       "eventId": "f978b1cf70930b8f",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 90.7,
         "topic": 90.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
@@ -1416,15 +1415,15 @@
       "eventId": "dec08682255b4b65",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.4,
+        "recency": 96.7,
         "topic": 70.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-17T23:04:35Z"
+       "asOf": "2026-11-18T01:44:21Z"
       },
       "tr": {
        "fa": {
