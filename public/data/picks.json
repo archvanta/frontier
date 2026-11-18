@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-18T21:35:43Z",
+ "asOf": "2026-11-18T22:00:09Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,69 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-17T21:35:43Z",
-   "to": "2026-11-18T21:35:43Z",
+   "from": "2026-11-17T22:00:09Z",
+   "to": "2026-11-18T22:00:09Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "a8eb0ed9ef435798",
+      "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+      "excerpt": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T21:38:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T22:05:53Z",
+      "day": "2026-11-18",
+      "category": "safety",
+      "tags": [
+       "advanced (300)",
+       "amazon aurora",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/20463-1.png",
+       "alt": "Architecture diagram showing a user question flowing through API Gateway to Lambda inside a VPC. Lambda converts the question into a vector with Aurora ML and Titan Text Embeddings, runs a pgvector si",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "a8eb0ed9ef435798",
+      "related": [],
+      "score": {
+       "total": 71.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.9,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-18T22:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کنترل های AI مسئول آمازون Aurora PostgreSQL",
+        "excerpt": "یاد بگیرید که چگونه به پاسخ RAG چت با بوت قابل ردیابی با آمازون Aurora PostgreSQL، pgvector، و Amazon Bedrock Guardrails، منابع ورود، نمرات و رد های محافظ در SQL.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T22:05:53Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "b898a1b2127c5756",
@@ -40,15 +99,15 @@
       "eventId": "b898a1b2127c5756",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.7,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -58,7 +117,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -98,15 +157,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.2,
+        "recency": 80.3,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -117,7 +176,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -156,15 +215,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.7,
+        "recency": 74.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -175,7 +234,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -221,15 +280,15 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.1,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -240,7 +299,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -281,73 +340,20 @@
       "eventId": "5acad36ebc3580ac",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 89.1,
         "topic": 70.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
         "title": "AI در درک اینکه چگونه نرم افزار کار می کند، بهتر می شود. حتی زمانی که کد پنهان است.",
         "excerpt": "این چه معنایی برای امنیت دارد؟ Hugging Face و Service Now در پادکست AI NVIDIA وارد آن می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f689168723dc030d",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-18T19:54:56Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
-      "day": "2026-11-18",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6aeabf9f2efd990530425e58/faP4Su889q_DIgN3wmU9M.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin"
-      },
-      "eventId": "f689168723dc030d",
-      "related": [],
-      "score": {
-       "total": 67.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.8,
-        "topic": 75.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-18T21:35:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دنیRose-27B: Pushing Frontier of Post-Training راندمان",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
        }
@@ -364,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-11T21:35:43Z",
-   "to": "2026-11-18T21:35:43Z",
+   "from": "2026-11-11T22:00:09Z",
+   "to": "2026-11-18T22:00:09Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,11 +410,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 62.1,
+        "recency": 61.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -460,15 +466,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 73.8,
+       "total": 73.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
+        "recency": 96.4,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -518,15 +524,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 95.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -538,6 +544,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a8eb0ed9ef435798",
+      "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+      "excerpt": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T21:38:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T22:05:53Z",
+      "day": "2026-11-18",
+      "category": "safety",
+      "tags": [
+       "advanced (300)",
+       "amazon aurora",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/20463-1.png",
+       "alt": "Architecture diagram showing a user question flowing through API Gateway to Lambda inside a VPC. Lambda converts the question into a vector with Aurora ML and Titan Text Embeddings, runs a pgvector si",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "a8eb0ed9ef435798",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-18T22:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کنترل های AI مسئول آمازون Aurora PostgreSQL",
+        "excerpt": "یاد بگیرید که چگونه به پاسخ RAG چت با بوت قابل ردیابی با آمازون Aurora PostgreSQL، pgvector، و Amazon Bedrock Guardrails، منابع ورود، نمرات و رد های محافظ در SQL.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T22:05:53Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -571,15 +636,15 @@
       "eventId": "b898a1b2127c5756",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.6,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -589,7 +654,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -630,15 +695,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 93.2,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -649,7 +714,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -695,15 +760,15 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 97.2,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -714,7 +779,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -754,73 +819,20 @@
       "eventId": "dec874679452a3bf",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 96.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
         "title": "آدرس ویژه NVIDIA SC26",
         "excerpt": "محاسبات علمی وارد عصر هوش مصنوعی می شود. جمع آوری شبیه سازی، AI و عوامل با هم روش های جدیدی برای مقابله با مشکلات پیچیده و تسریع کشف علمی ارائه می دهد. Watch Ian Buck، معاون Hyperscale و HPC در NVIDIA، برجسته آخرین پیشرفت های پیشرفته انقلابی در جامعه محاسبات علمی است. https://blogs.nvidia.com/blog/ian-buck-sc26 / ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "75623b38e68bd27d",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-18T18:53:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
-      "day": "2026-11-18",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6a725daa5ca641a21ab61956/J6DIf4Len_31Tj-CQlQXY.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
-      },
-      "eventId": "75623b38e68bd27d",
-      "related": [],
-      "score": {
-       "total": 69.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 75.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-18T21:35:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا شغل خوب شما طولانی تر از FLOP می شود",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
        }
@@ -837,8 +849,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-19T21:35:43Z",
-   "to": "2026-11-18T21:35:43Z",
+   "from": "2026-10-19T22:00:09Z",
+   "to": "2026-11-18T22:00:09Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -880,11 +892,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 53.4,
+        "recency": 53.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -935,15 +947,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 81.7,
+       "total": 81.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 86.7,
+        "recency": 86.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -999,11 +1011,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.9,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1057,11 +1069,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 98.6,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1112,14 +1124,73 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 93.8,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "a8eb0ed9ef435798",
+      "url": "https://aws.amazon.com/blogs/machine-learning/design-responsible-ai-controls-for-amazon-aurora-postgresql",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Design responsible AI controls for Amazon Aurora PostgreSQL",
+      "excerpt": "Learn how to make RAG chatbot answers traceable with Amazon Aurora PostgreSQL, pgvector, and Amazon Bedrock Guardrails, logging sources, scores, and guardrail traces in SQL.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T21:38:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T22:05:53Z",
+      "day": "2026-11-18",
+      "category": "safety",
+      "tags": [
+       "advanced (300)",
+       "amazon aurora",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/20463-1.png",
+       "alt": "Architecture diagram showing a user question flowing through API Gateway to Lambda inside a VPC. Lambda converts the question into a vector with Aurora ML and Titan Text Embeddings, runs a pgvector si",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "a8eb0ed9ef435798",
+      "related": [],
+      "score": {
+       "total": 71.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.9,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-18T22:00:09Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کنترل های AI مسئول آمازون Aurora PostgreSQL",
+        "excerpt": "یاد بگیرید که چگونه به پاسخ RAG چت با بوت قابل ردیابی با آمازون Aurora PostgreSQL، pgvector، و Amazon Bedrock Guardrails، منابع ورود، نمرات و رد های محافظ در SQL.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T22:05:53Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1164,11 +1235,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 97.9,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1179,7 +1250,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1229,11 +1300,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 99.1,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1244,7 +1315,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1280,15 +1351,15 @@
       "eventId": "8b6ac2940fdc0d0e",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.6,
+        "recency": 95.5,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1299,7 +1370,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1343,11 +1414,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 99.0,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T21:35:43Z"
+       "asOf": "2026-11-18T22:00:09Z"
       },
       "tr": {
        "fa": {
@@ -1355,66 +1426,6 @@
         "excerpt": "محاسبات علمی وارد عصر هوش مصنوعی می شود. جمع آوری شبیه سازی، AI و عوامل با هم روش های جدیدی برای مقابله با مشکلات پیچیده و تسریع کشف علمی ارائه می دهد. Watch Ian Buck، معاون Hyperscale و HPC در NVIDIA، برجسته آخرین پیشرفت های پیشرفته انقلابی در جامعه محاسبات علمی است. https://blogs.nvidia.com/blog/ian-buck-sc26 / ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "461a1fe87414da12",
-      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Helping AI text detectors keep up with changing conditions",
-      "excerpt": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
-      "lang": "en",
-      "publishedAt": "2026-11-18T05:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-18T13:30:29Z",
-      "day": "2026-11-18",
-      "category": "research",
-      "tags": [
-       "research",
-       "artificial intelligence",
-       "machine learning",
-       "human-computer interaction",
-       "writing",
-       "language"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-movingtarget-01-press.jpg?itok=As8TOTUK",
-       "credit": "Credit: Jose-Luis Olivares, MIT; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "461a1fe87414da12",
-      "related": [],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.3,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-18T21:35:43Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کمک به ردیاب های متن AI با تغییر شرایط",
-        "excerpt": "یک روش آموزش انعطاف پذیر تر می تواند آشکارسازهای متن هوش مصنوعی را قوی تر کند زمانی که مدل های جدید ظاهر می شوند یا متن تولید شده توسط AI به نظر می رسد انسان است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
