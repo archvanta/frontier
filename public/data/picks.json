@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-18T01:44:21Z",
+ "asOf": "2026-11-18T13:28:49Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,58 +10,59 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-17T01:44:21Z",
-   "to": "2026-11-18T01:44:21Z",
+   "from": "2026-11-17T13:28:49Z",
+   "to": "2026-11-18T13:28:49Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "373a6b7477c9354d",
-      "url": "https://www.youtube.com/shorts/2pdF52EVlbM",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "An underrated way to use ChatGPT: Life admin",
-      "excerpt": "Even ChatGPT researchers need a little help with life admin. Isa F. shares an underrated way she uses ChatGPT: keeping track of the details and making time for her next haircut.",
+      "id": "3f15df67cf1381d1",
+      "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Can Open Source Make AI Agents Safer?",
+      "excerpt": "Hugging Face co-founder Thomas Wolf and ServiceNow’s Amanda Grady, SVP of AI Platform Security, join the NVIDIA AI Podcast to explain how to keep AI agents safe when telling a model “please don’t” is no longer enough. They cover why firm boundaries beat persuadable models, what happened when Hugging Face was attacked by a swarm of AI agents, and why security is what lets companies put agents to…",
       "lang": "en",
-      "publishedAt": "2026-11-18T00:06:39Z",
+      "publishedAt": "2026-11-18T11:00:32Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-18T04:30:41Z",
+      "fetchedAt": "2026-11-18T13:30:29Z",
       "day": "2026-11-18",
-      "category": "research",
+      "category": "open-source",
       "tags": [],
       "entities": [
-       "openai"
+       "huggingface",
+       "nvidia"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "https://i3.ytimg.com/vi/2pdF52EVlbM/hqdefault.jpg",
+       "url": "https://i2.ytimg.com/vi/y9AALMeAeGI/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
       "video": {
        "provider": "youtube",
-       "id": "2pdF52EVlbM",
-       "url": "https://www.youtube.com/watch?v=2pdF52EVlbM"
+       "id": "y9AALMeAeGI",
+       "url": "https://www.youtube.com/watch?v=y9AALMeAeGI"
       },
-      "eventId": "373a6b7477c9354d",
+      "eventId": "3f15df67cf1381d1",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
-        "topic": 80.0,
-        "novelty": 66.7
+        "recency": 86.7,
+        "topic": 75.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "یک راه مشخص برای استفاده از ChatGPT: Life Manager",
-        "excerpt": "حتی محققان ChatGPT نیاز به کمک کمی با مدیریت زندگی دارند. Isa F. به اشتراک می گذارد یک روش ضعیف او استفاده از ChatGPT: پیگیری جزئیات و زمان برای موهای بعدی خود.",
+        "title": "آیا Open Source می تواند عامل های AI را امن تر کند؟",
+        "excerpt": "عقب نشینی Face- Thomas Wolf و ServiceNow’s آماندا Grady، SVP of AI Platform Security، به پادکست AI NVIDIA بپیوندید تا توضیح دهد که چگونه عوامل AI را در هنگام گفتن یک مدل \"لطفا\" ایمن نگه دارید، دیگر کافی نیست. آنها پوشش می دهند که چرا مرزهای محکم مدل های متقاعد کننده را شکست می دهند، چه اتفاقی می افتد زمانی که Hugging Face توسط انبوهی از عوامل هوش مصنوعی مورد حمله قرار گرفت و چرا امنیت چیزی است که به شرکت ها اجازه می دهد تا عوامل را به ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T04:30:41Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
@@ -75,108 +76,115 @@
     },
     {
      "article": {
-      "id": "549a77347d5e1e5f",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "id": "231a189cb27a66f1",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "excerpt": "US secretary of state’s comments come as vulnerability in programming language Java highlighted There is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work of malign actors, according to the US secretary of state. Marco Rubio said the…",
       "lang": "en",
-      "publishedAt": "2026-11-17T17:45:00Z",
+      "publishedAt": "2026-11-18T11:35:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
-      "category": "models",
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "policy",
       "tags": [
-       "product"
+       "technology sector",
+       "us news",
+       "marco rubio",
+       "business",
+       "ai (artificial intelligence)",
+       "technology"
       ],
       "entities": [
-       "openai"
+       "apple"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i.guim.co.uk/img/media/d8053b9038ce3a18aaa3b2cbcffef1cb0d77b18b/475_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=4c8d3c89763413fdafc3e95f4e662516",
+       "credit": "Photograph: Mark Schiefelbein/AP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "549a77347d5e1e5f",
+      "eventId": "231a189cb27a66f1",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 64.0,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 63.0,
-        "topic": 100.0,
-        "novelty": 85.7
+        "recency": 89.7,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی GPT-6.2 Astra و Sol",
-        "excerpt": "معرفی GPT-6.2 Astra و Sol با خروجی های حرفه ای بهتر، برنامه نویسی، استفاده از کامپیوتر و بهره وری در هزینه های پایین تر در چت GPT کار، Codex و API.",
+        "title": "شواهد \"Zero\" حاکی از آن است که آبشار اخیر قطع کننده های تکنولوژی مرتبط است، Rubio می گوید",
+        "excerpt": "اظهارات وزیر خارجه آمریکا به عنوان آسیب پذیری در زبان برنامه نویسی جاوا برجسته شده است \"شواهد صفر\" وجود دارد که موجی از قطع نامه های فناوری اطلاعات - که دارای پروازهای پایه، قطع دسترسی به کار، دسترسی بانک محدود، تحت تاثیر اپل و ارتباطات طبقه بندی شده - مربوط به یکدیگر یا کار بازیگران بدخیم، با توجه به وزیر خارجه ایالات متحده است. مارکو روبیو گفت: ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
      "rank": 2,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "f38228c9ef565932",
-      "url": "https://news.mit.edu/2026/putting-spotlight-ai-society-humanity-1117",
+      "id": "461a1fe87414da12",
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
       "sourceId": "mit-news-ai",
       "sourceName": "MIT News — Artificial intelligence",
-      "title": "Putting a spotlight on AI, society, and humanity",
-      "excerpt": "Supported by the MIT Human Insight Collaborative, scholars are exploring how AI is impacting the human experience and reshaping higher education.",
+      "title": "Helping AI text detectors keep up with changing conditions",
+      "excerpt": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
       "lang": "en",
-      "publishedAt": "2026-11-17T20:40:00Z",
+      "publishedAt": "2026-11-18T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
       "category": "research",
       "tags": [
-       "collaboration",
-       "funding",
-       "technology and society",
+       "research",
        "artificial intelligence",
-       "special events and guest speakers",
-       "anthropology"
+       "machine learning",
+       "human-computer interaction",
+       "writing",
+       "language"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mithic-ai-brain.jpg?itok=dvcp2Kew",
-       "credit": "Photo: Hanley Valentin",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-movingtarget-01-press.jpg?itok=As8TOTUK",
+       "credit": "Credit: Jose-Luis Olivares, MIT; Getty Images",
        "kind": "feed",
        "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "f38228c9ef565932",
+      "eventId": "461a1fe87414da12",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 63.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.6,
+        "recency": 61.3,
         "topic": 80.0,
-        "novelty": 90.9
+        "novelty": 90.0
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "قرار دادن توجه به هوش مصنوعی، جامعه و انسانیت",
-        "excerpt": "محققان با حمایت MIT Human Insightive، در حال بررسی چگونگی تأثیر هوش مصنوعی بر تجربه انسانی و تغییر آموزش عالی هستند.",
+        "title": "کمک به ردیاب های متن AI با تغییر شرایط",
+        "excerpt": "یک روش آموزش انعطاف پذیر تر می تواند آشکارسازهای متن هوش مصنوعی را قوی تر کند زمانی که مدل های جدید ظاهر می شوند یا متن تولید شده توسط AI به نظر می رسد انسان است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
@@ -190,52 +198,48 @@
     },
     {
      "article": {
-      "id": "14be83114a93e54e",
-      "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "EmbeddingGemma 2: How natively multimodal embeddings work",
-      "excerpt": "Learn how EmbeddingGemma 2, Google's open, lightweight multimodal embedding model, maps text, code, images, video, and audio into a single, unified embedding space. The video covers: * How modality-specific encoders and a bidirectional transformer turn multimodal data into a single representation. * The two-stage training recipe: initializing from Gemma 4 and distilling from Gemini Embedding 2…",
+      "id": "6cab9c8cd38347e3",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "lang": "en",
-      "publishedAt": "2026-11-17T17:00:29Z",
+      "publishedAt": "2026-11-18T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
       "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
+      "tags": [
+       "company"
       ],
-      "brand": null,
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "https://i2.ytimg.com/vi/aRIFzzr_Mi0/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "aRIFzzr_Mi0",
-       "url": "https://www.youtube.com/watch?v=aRIFzzr_Mi0"
-      },
-      "eventId": "14be83114a93e54e",
+      "eventId": "6cab9c8cd38347e3",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 62.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 60.4,
+        "recency": 45.9,
         "topic": 100.0,
-        "novelty": 85.7
+        "novelty": 83.3
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "EmbeddingGemma 2: چگونه بومی چند منظوره کار می کند",
-        "excerpt": "یاد بگیرید که چگونه EmbeddingGemma 2، Google باز، سبک چند منظوره، مدل جاسازی، نقشه، متن، کد، تصاویر، ویدیو و صدا را به یک فضای جاسازی یکپارچه واحد. این ویدیو پوشش می دهد: * چگونه تنظیم کننده های خاص و یک مبدل دو طرفه تبدیل داده های چند منظوره را به یک نمایندگی واحد تبدیل می کند - دستورالعمل آموزش دو مرحله ای: اولیه از Gemma 4 و تقطیر از Gemini Embedding 2 ...",
+        "title": "Le Groupearo Fig و OpenAI شریک برای آوردن روزنامه نگاری Le Figaro به ChatGPT",
+        "excerpt": "Le Groupearo Fig و OpenAI شریک برای آوردن روزنامه نگاری Le Figaro به ChatGPT از طریق خلاصه و خلاصه، با لینک به داستان های اصلی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
@@ -249,118 +253,116 @@
     },
     {
      "article": {
-      "id": "206b86c970ea91d6",
-      "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
-      "excerpt": "Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself.",
+      "id": "5e888bac8f86cebe",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia clarifies when it will — and won’t —keep financing neoclouds",
+      "excerpt": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
       "lang": "en",
-      "publishedAt": "2026-11-17T23:33:26Z",
+      "publishedAt": "2026-11-18T13:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-18T04:30:41Z",
-      "day": "2026-11-17",
-      "category": "products",
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "hardware",
       "tags": [
-       "advanced (300)",
-       "amazon sagemaker hyperpod",
-       "announcements"
+       "tc",
+       "ai",
+       "nvidia"
       ],
       "entities": [
-       "amazon",
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/14/ML-22230-1.png",
-       "alt": "Architecture diagram of NVIDIA Dynamo on SageMaker HyperPod with the frontend routing to prefill and decode workers over EFA",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
       },
-      "eventId": "206b86c970ea91d6",
+      "eventId": "5e888bac8f86cebe",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 61.7,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 88.2,
-        "topic": 65.0,
-        "novelty": 75.0
+        "recency": 97.3,
+        "topic": 70.0,
+        "novelty": 77.8
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "مدیریت NVIDIA Dynamo در Amazon SageMaker HyperPod Inference",
-        "excerpt": "Amazon SageMaker HyperPod Inference در حال حاضر از NVIDIA Dynamo برای نفوذ توزیع شده، با خدمات چند گره ای و غیر رسمی، مسیریابی KV آگاهانه و بازیابی خودکار خطا پشتیبانی می کند. ارائه مدل های بزرگ در بسیاری از گره ها بدون ساخت لایه ارکستر خود را.",
+        "title": "Nvidia زمانی که این کار را انجام می دهد، اعلام می کند - و ادامه نخواهد داد - منابع مالی نئونی",
+        "excerpt": "اگر Nvidia یک وام مرکز داده را متوقف کند، آن را در قلاب نخواهد بود مگر اینکه نئون می تواند تامین مالی مستقل داشته باشد و تاسیسات ساخته شده با تجهیزات Nvidia نصب شده، مدیر عامل موقت Colette Kress توضیح داد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T04:30:41Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "cb1d8f8bc84f7e6a",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Put Gemini to work for you",
-      "excerpt": "A user interface displaying the prompt \"What can I get done for you?\" above an input box containing placeholder text \"Describe a task\".",
+      "id": "ce416493dbd77e39",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Nvidia isn’t selling any more AI chips to China",
+      "excerpt": "Nvidia has stopped sending its advanced AI chips to China, despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang,",
       "lang": "en",
-      "publishedAt": "2026-11-17T17:00:00Z",
+      "publishedAt": "2026-11-18T13:01:05Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
-      "category": "models",
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "hardware",
       "tags": [
-       "gemini app",
-       "google labs",
-       "ai"
+       "ai",
+       "news",
+       "nvidia",
+       "tech"
       ],
       "entities": [
-       "google"
+       "nvidia"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566.max-600x600.format-webp.webp",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK083_NVIDIA_C.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "cb1d8f8bc84f7e6a",
+      "eventId": "ce416493dbd77e39",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 61.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 60.4,
-        "topic": 100.0,
+        "recency": 97.4,
+        "topic": 70.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "Gemini را برای شما کار کنید",
-        "excerpt": "یک رابط کاربری نشان می دهد که \"چه کاری می توانم برای شما انجام دهم؟\" بالاتر از یک جعبه ورودی حاوی متن کاربری \"یک کار\" است.",
+        "title": "Nvidia هیچ تراشه AI بیشتری به چین نمی فروشد",
+        "excerpt": "Nvidia ارسال تراشه های پیشرفته AI خود را به چین متوقف کرده است، با وجود تایید آن از کاخ سفید برای انجام این کار در دسامبر سال گذشته. این اعلامیه توسط مدیر عامل موقت Nvidia Colette Kress در طول یک تماس درآمد در روز سه شنبه، نشان دادن یک تغییر قابل توجه برای شرکت است که تحت مدیر عامل سابق Jensen Huang،",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -368,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-11T01:44:21Z",
-   "to": "2026-11-18T01:44:21Z",
+   "from": "2026-11-11T13:28:49Z",
+   "to": "2026-11-18T13:28:49Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -404,15 +406,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 79.4,
+       "total": 77.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 75.2,
+        "recency": 67.2,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -428,6 +430,61 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6cab9c8cd38347e3",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "models",
+      "tags": [
+       "company"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "6cab9c8cd38347e3",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.8,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-18T13:28:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Le Groupearo Fig و OpenAI شریک برای آوردن روزنامه نگاری Le Figaro به ChatGPT",
+        "excerpt": "Le Groupearo Fig و OpenAI شریک برای آوردن روزنامه نگاری Le Figaro به ChatGPT از طریق خلاصه و خلاصه، با لینک به داستان های اصلی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T13:30:29Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -460,15 +517,15 @@
       "eventId": "549a77347d5e1e5f",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.6,
+        "recency": 82.7,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -479,7 +536,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -519,15 +576,15 @@
       "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 82.1,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -538,7 +595,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -548,56 +605,117 @@
     },
     {
      "article": {
-      "id": "5ef1b55f85180917",
-      "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Faster fraud response for safer shopping | Revolut’s David Abitbol",
-      "excerpt": "OpenAI helps Revolut’s financial crime team investigate flagged payments and respond faster to make shopping safer. David Abitbol, AI Lead at Revolut, explains how his team tests AI systems before putting them to work. He also shares how Codex gives engineers more time to weigh up different designs and decide what to build. Read the full story: https://openai.com/business/customer-stories/revolut/",
+      "id": "461a1fe87414da12",
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping AI text detectors keep up with changing conditions",
+      "excerpt": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
       "lang": "en",
-      "publishedAt": "2026-11-17T09:45:26Z",
+      "publishedAt": "2026-11-18T05:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-17T14:36:37Z",
-      "day": "2026-11-17",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "artificial intelligence",
+       "machine learning",
+       "human-computer interaction",
+       "writing",
+       "language"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/-O0tMcyH4Wo/hqdefault.jpg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-movingtarget-01-press.jpg?itok=As8TOTUK",
+       "credit": "Credit: Jose-Luis Olivares, MIT; Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "-O0tMcyH4Wo",
-       "url": "https://www.youtube.com/watch?v=-O0tMcyH4Wo"
-      },
-      "eventId": "5ef1b55f85180917",
+      "eventId": "461a1fe87414da12",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
-        "topic": 100.0,
-        "novelty": 92.3
+        "recency": 92.2,
+        "topic": 80.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
-        "title": "پاسخ سریع تر تقلب برای خرید امن تر | Revolut’s David Abitbol",
-        "excerpt": "OpenAI به تیم جرایم مالی Revolut کمک می کند تا پرداخت های پرچم دار را بررسی کرده و سریع تر پاسخ دهد تا خرید را امن تر کند. دیوید اکبول، AI پیشرو در Revolut، توضیح می دهد که چگونه تیم او سیستم های AI را قبل از قرار دادن آنها برای کار آزمایش می کند. او همچنین به اشتراک می گذارد که چگونه Codex به مهندسان زمان بیشتری می دهد تا طرح های مختلف را وزن کنند و تصمیم بگیرند چه چیزی بسازند. داستان کامل را بخوانید: https://openai.com/business/stories/revolut//revolut",
+        "title": "کمک به ردیاب های متن AI با تغییر شرایط",
+        "excerpt": "یک روش آموزش انعطاف پذیر تر می تواند آشکارسازهای متن هوش مصنوعی را قوی تر کند زمانی که مدل های جدید ظاهر می شوند یا متن تولید شده توسط AI به نظر می رسد انسان است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T14:36:37Z"
+        "at": "2026-11-18T13:30:29Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3f15df67cf1381d1",
+      "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Can Open Source Make AI Agents Safer?",
+      "excerpt": "Hugging Face co-founder Thomas Wolf and ServiceNow’s Amanda Grady, SVP of AI Platform Security, join the NVIDIA AI Podcast to explain how to keep AI agents safe when telling a model “please don’t” is no longer enough. They cover why firm boundaries beat persuadable models, what happened when Hugging Face was attacked by a swarm of AI agents, and why security is what lets companies put agents to…",
+      "lang": "en",
+      "publishedAt": "2026-11-18T11:00:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/y9AALMeAeGI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "y9AALMeAeGI",
+       "url": "https://www.youtube.com/watch?v=y9AALMeAeGI"
+      },
+      "eventId": "3f15df67cf1381d1",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.6,
+        "topic": 75.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-18T13:28:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا Open Source می تواند عامل های AI را امن تر کند؟",
+        "excerpt": "عقب نشینی Face- Thomas Wolf و ServiceNow’s آماندا Grady، SVP of AI Platform Security، به پادکست AI NVIDIA بپیوندید تا توضیح دهد که چگونه عوامل AI را در هنگام گفتن یک مدل \"لطفا\" ایمن نگه دارید، دیگر کافی نیست. آنها پوشش می دهند که چرا مرزهای محکم مدل های متقاعد کننده را شکست می دهند، چه اتفاقی می افتد زمانی که Hugging Face توسط انبوهی از عوامل هوش مصنوعی مورد حمله قرار گرفت و چرا امنیت چیزی است که به شرکت ها اجازه می دهد تا عوامل را به ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T13:30:29Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -638,15 +756,15 @@
       "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 85.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -657,7 +775,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -697,15 +815,15 @@
        "9775fff4b2849085"
       ],
       "score": {
-       "total": 68.5,
+       "total": 66.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 91.7,
+        "recency": 81.9,
         "topic": 55.0,
         "novelty": 54.5
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -716,7 +834,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 8,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -724,190 +842,14 @@
       "first-report",
       "top-factor-reliability"
      ]
-    },
-    {
-     "article": {
-      "id": "6dbfd2c16f1d581a",
-      "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Cut generative AI costs: Code for rules, models for judgment",
-      "excerpt": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
-      "lang": "en",
-      "publishedAt": "2026-11-17T21:14:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
-      "category": "products",
-      "tags": [
-       "amazon bedrock",
-       "best practices",
-       "intermediate (200)",
-       "strands agents"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22259-1.png",
-       "alt": "Flowchart that sorts a workflow step into code, a constrained decision call, or a right-sized Amazon Bedrock model",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "6dbfd2c16f1d581a",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.8,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-18T01:44:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کاهش هزینه های هوش مصنوعی: کد برای قوانین، مدل ها برای قضاوت",
-        "excerpt": "بزرگترین اهرم هزینه در یک سیستم هوش مصنوعی عمومی این است که آیا شما به طور کلی یک مدل را می خوانید. یاد بگیرید که چگونه تصمیم بگیرید که آیا هر مرحله گردش کار به یک مدل نیاز دارد و هر گزینه را برای AWS نقشه برداری کنید: کد تعیین کننده، یک تماس تصمیم محدود یا یک مدل مناسب در آمازون Bedrock.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1e308b5aafc025fe",
-      "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Getting AI out of the demo and into businesses globally",
-      "excerpt": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
-      "lang": "en",
-      "publishedAt": "2026-11-17T19:05:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
-      "category": "products",
-      "tags": [
-       "customer solutions",
-       "foundational (100)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "1e308b5aafc025fe",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.8,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-18T01:44:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دریافت AI از دموی و کسب و کار در سطح جهانی",
-        "excerpt": "اکثر شرکت ها هوش مصنوعی دارند که در یک نسخه آزمایشی کار می کند اما قبل از تولید متوقف می شود. AWS Forward Deployed Engineering این شکاف را بسته است. مهندسان AWS با تیم های مشتری تعبیه می کنند تا جریان های کاری با ارزش بالا را به تولید در 45 روزه، ترک یک پایه، گردش کار و حکمرانی مشتری بپردازند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
     }
    ]
   },
   "monthly": {
-   "from": "2026-10-19T01:44:21Z",
-   "to": "2026-11-18T01:44:21Z",
+   "from": "2026-10-19T13:28:49Z",
+   "to": "2026-11-18T13:28:49Z",
    "halfLifeHours": 240,
    "picks": [
-    {
-     "article": {
-      "id": "773cc78ee17a9631",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
-      "lang": "en",
-      "publishedAt": "2026-11-16T20:07:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "policy",
-      "tags": [
-       "ai",
-       "tc"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/policy.svg",
-       "kind": "fallback"
-      },
-      "eventId": "773cc78ee17a9631",
-      "related": [
-       "7d4307f50c7ab9f1",
-       "d0b83026be95e613"
-      ],
-      "score": {
-       "total": 82.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 91.8,
-        "topic": 85.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-18T01:44:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایالت کالیفرنیا AG از OpenAI در مورد حوادث عامل سرکش شکایت می کند",
-        "excerpt": "دادخواست کالیفرنیا نشان دهنده یکی از اولین تلاش ها برای برگزاری یک آزمایشگاه AI است که به طور قانونی برای یک حادثه نماینده سرکش پاسخگو است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 3,
-     "reason": [
-      "tier-2",
-      "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "2e186972ef6cdfd3",
@@ -943,15 +885,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 82.6,
+       "total": 82.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 56.5,
+        "recency": 54.6,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -962,11 +904,71 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 1,
      "sources": 4,
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "773cc78ee17a9631",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+      "lang": "en",
+      "publishedAt": "2026-11-16T20:07:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-16T22:16:59Z",
+      "day": "2026-11-16",
+      "category": "policy",
+      "tags": [
+       "ai",
+       "tc"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/policy.svg",
+       "kind": "fallback"
+      },
+      "eventId": "773cc78ee17a9631",
+      "related": [
+       "7d4307f50c7ab9f1",
+       "d0b83026be95e613"
+      ],
+      "score": {
+       "total": 82.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 88.7,
+        "topic": 85.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-18T13:28:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ایالت کالیفرنیا AG از OpenAI در مورد حوادث عامل سرکش شکایت می کند",
+        "excerpt": "دادخواست کالیفرنیا نشان دهنده یکی از اولین تلاش ها برای برگزاری یک آزمایشگاه AI است که به طور قانونی برای یک حادثه نماینده سرکش پاسخگو است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-16T22:16:59Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -1002,15 +1004,15 @@
       "eventId": "5ef1b55f85180917",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 92.3,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1061,15 +1063,15 @@
       "eventId": "9c409e1fafefcc9f",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 92.3,
         "topic": 100.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1120,15 +1122,15 @@
       "eventId": "14be83114a93e54e",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1140,6 +1142,66 @@
       }
      },
      "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "461a1fe87414da12",
+      "url": "https://news.mit.edu/2026/helping-ai-text-detectors-keep-up-with-changing-conditions-1118",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Helping AI text detectors keep up with changing conditions",
+      "excerpt": "A more flexible training method can make AI text detectors more robust when new models emerge or AI-generated text is disguised to appear human.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "research",
+      "tags": [
+       "research",
+       "artificial intelligence",
+       "machine learning",
+       "human-computer interaction",
+       "writing",
+       "language"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-movingtarget-01-press.jpg?itok=As8TOTUK",
+       "credit": "Credit: Jose-Luis Olivares, MIT; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "461a1fe87414da12",
+      "related": [],
+      "score": {
+       "total": 70.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.6,
+        "topic": 80.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-18T13:28:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کمک به ردیاب های متن AI با تغییر شرایط",
+        "excerpt": "یک روش آموزش انعطاف پذیر تر می تواند آشکارسازهای متن هوش مصنوعی را قوی تر کند زمانی که مدل های جدید ظاهر می شوند یا متن تولید شده توسط AI به نظر می رسد انسان است.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T13:30:29Z"
+       }
+      }
+     },
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1180,15 +1242,15 @@
       "eventId": "f38228c9ef565932",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 95.3,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1199,7 +1261,67 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3f15df67cf1381d1",
+      "url": "https://www.youtube.com/watch?v=y9AALMeAeGI",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "Can Open Source Make AI Agents Safer?",
+      "excerpt": "Hugging Face co-founder Thomas Wolf and ServiceNow’s Amanda Grady, SVP of AI Platform Security, join the NVIDIA AI Podcast to explain how to keep AI agents safe when telling a model “please don’t” is no longer enough. They cover why firm boundaries beat persuadable models, what happened when Hugging Face was attacked by a swarm of AI agents, and why security is what lets companies put agents to…",
+      "lang": "en",
+      "publishedAt": "2026-11-18T11:00:32Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-18T13:30:29Z",
+      "day": "2026-11-18",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/y9AALMeAeGI/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "y9AALMeAeGI",
+       "url": "https://www.youtube.com/watch?v=y9AALMeAeGI"
+      },
+      "eventId": "3f15df67cf1381d1",
+      "related": [],
+      "score": {
+       "total": 69.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 75.0,
+        "novelty": 81.8
+       },
+       "asOf": "2026-11-18T13:28:49Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آیا Open Source می تواند عامل های AI را امن تر کند؟",
+        "excerpt": "عقب نشینی Face- Thomas Wolf و ServiceNow’s آماندا Grady، SVP of AI Platform Security، به پادکست AI NVIDIA بپیوندید تا توضیح دهد که چگونه عوامل AI را در هنگام گفتن یک مدل \"لطفا\" ایمن نگه دارید، دیگر کافی نیست. آنها پوشش می دهند که چرا مرزهای محکم مدل های متقاعد کننده را شکست می دهند، چه اتفاقی می افتد زمانی که Hugging Face توسط انبوهی از عوامل هوش مصنوعی مورد حمله قرار گرفت و چرا امنیت چیزی است که به شرکت ها اجازه می دهد تا عوامل را به ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-18T13:30:29Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1240,15 +1362,15 @@
       "eventId": "1ac3744caa9c0983",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 91.0,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1259,7 +1381,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1299,15 +1421,15 @@
        "9775fff4b2849085"
       ],
       "score": {
-       "total": 69.7,
+       "total": 69.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 97.4,
+        "recency": 94.2,
         "topic": 55.0,
         "novelty": 54.5
        },
-       "asOf": "2026-11-18T01:44:21Z"
+       "asOf": "2026-11-18T13:28:49Z"
       },
       "tr": {
        "fa": {
@@ -1318,126 +1440,11 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 10,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f978b1cf70930b8f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
-      "excerpt": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don't.",
-      "lang": "en",
-      "publishedAt": "2026-11-16T15:48:01Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-16T22:16:59Z",
-      "day": "2026-11-16",
-      "category": "safety",
-      "tags": [
-       "amazon bedrock guardrails",
-       "best practices",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
-      },
-      "eventId": "f978b1cf70930b8f",
-      "related": [],
-      "score": {
-       "total": 69.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 90.7,
-        "topic": 90.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-18T01:44:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بهترین شیوه ها برای نوشتن موضوعات انکار شده در Amazon Bedrock Guardrail",
-        "excerpt": "با موضوعات انکار شده در Amazon Bedrock Guardrails، شما یک دسته محتوا را با توصیف آن در زبان ساده مسدود می کنید و Guardrail به جای کلمه کلیدی مطابقت دارد که می تواند بیش از آنچه شما قصد دارید را مسدود کند. این پست هشت بهترین شیوه برای نوشتن یک موضوع را دقیقاً به اندازه کافی ارائه می دهد که Guardrail آنچه را که منظور شما است را مسدود می کند و آنچه را که نمی خواهید انجام می دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-16T22:16:59Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dec08682255b4b65",
-      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
-      "sourceId": "nvidia-blog",
-      "sourceName": "NVIDIA Blog",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "excerpt": "NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform for high-performance",
-      "lang": "en",
-      "publishedAt": "2026-11-17T14:00:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-17T22:58:11Z",
-      "day": "2026-11-17",
-      "category": "hardware",
-      "tags": [
-       "supercomputing",
-       "events",
-       "sc26"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://blogs.nvidia.com/wp-content/uploads/2026/11/Buck-Talk-SC26-scaled.jpeg",
-       "kind": "feed",
-       "sourceUrl": "https://blogs.nvidia.com/feed/"
-      },
-      "eventId": "dec08682255b4b65",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.7,
-        "topic": 70.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-18T01:44:21Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایان باک Kicks Off NVIDIA در SC26 به عنوان علم وارد عصر نمایندگان",
-        "excerpt": "ایان باک NVIDIA هفته شرکت را در SC26 در شیکاگو در روز دوشنبه با ابزارهای جدید برای عوامل هوش مصنوعی، نرم افزار که می تواند آزمایشات را برنامه ریزی، اجرای کد و بررسی نتایج در سیستم های خود محققان آغاز کرد. در آدرس ویژه NVIDIA، باک Nemotron را برای علم، Rubin HPC GPU و یک پلتفرم CPU Vera برای عملکرد بالا معرفی کرد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-17T22:58:11Z"
-       }
-      }
-     },
-     "rank": 10,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
