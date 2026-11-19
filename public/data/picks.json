@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-19T20:34:17Z",
+ "asOf": "2026-11-19T21:58:06Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,132 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-18T20:34:17Z",
-   "to": "2026-11-19T20:34:17Z",
+   "from": "2026-11-18T21:58:06Z",
+   "to": "2026-11-19T21:58:06Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "61227606dad56f68",
+      "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+      "sourceId": "anthropic-youtube",
+      "sourceName": "Anthropic (YouTube)",
+      "title": "Why we built Anthropic",
+      "excerpt": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah.",
+      "lang": "en",
+      "publishedAt": "2026-11-19T21:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T22:15:10Z",
+      "day": "2026-11-19",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "sof3vW4mHTs",
+       "url": "https://www.youtube.com/watch?v=sof3vW4mHTs"
+      },
+      "eventId": "61227606dad56f68",
+      "related": [],
+      "score": {
+       "total": 72.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.9,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-19T21:58:06Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا Anthropic ساخته ایم",
+        "excerpt": "بنیانگذاران Anthropic در مورد چرا آنها شروع شرکت، آنچه که آنها آموخته اند، و کار هنوز پیش رو است. نوشته شده توسط Dario Amodei، دانیلا Amodei، تام براون، جک کلارک، جارد کاپلان، Sam McCandlish و کریس Olah.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T22:15:10Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b0341a0ae375085e",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Meta’s Muse Charm might cost $300",
+      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
+      "lang": "en",
+      "publishedAt": "2026-11-19T20:22:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T21:00:34Z",
+      "day": "2026-11-19",
+      "category": "business",
+      "tags": [
+       "ai",
+       "meta",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "b0341a0ae375085e",
+      "related": [
+       "e60f4e5e7cf4b021"
+      ],
+      "score": {
+       "total": 71.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 91.2,
+        "topic": 55.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-19T21:58:06Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
+        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T21:00:34Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "0befceefd071cd5c",
@@ -46,74 +168,18 @@
       "eventId": "0befceefd071cd5c",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       }
      },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "44d231d9ee488f2d",
-      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "A game you cannot win unless you have a quantum computer",
-      "excerpt": "Quantum",
-      "lang": "en",
-      "publishedAt": "2026-11-19T20:03:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "research",
-      "tags": [
-       "quantum"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumContextuality1-MagicSquareGame.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "44d231d9ee488f2d",
-      "related": [],
-      "score": {
-       "total": 70.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.0,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-19T20:34:17Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک بازی که نمی توانید برنده شوید مگر اینکه یک کامپیوتر کوانتومی داشته باشید",
-        "excerpt": "کوانتومی کوانتومی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
-       }
-      }
-     },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -151,79 +217,20 @@
       "eventId": "b00f82b6db94c2e5",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.2,
+        "recency": 79.5,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
         "title": "معرفی ابزار Retrieval در سیستم Gemini",
         "excerpt": "جرقه Gemini در یک پس زمینه فضایی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f9730375d00ba37a",
-      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
-      "sourceId": "anthropic-youtube",
-      "sourceName": "Anthropic (YouTube)",
-      "title": "What we make of this moment, will make this moment.",
-      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T15:02:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "JDsFHmq9hlA",
-       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
-      },
-      "eventId": "f9730375d00ba37a",
-      "related": [],
-      "score": {
-       "total": 69.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 72.7,
-        "topic": 100.0,
-        "novelty": 94.1
-       },
-       "asOf": "2026-11-19T20:34:17Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
-        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-19T21:00:34Z"
        }
@@ -239,48 +246,47 @@
     },
     {
      "article": {
-      "id": "ebd75882b3d9e79b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
-      "excerpt": "Amazon Bedrock AgentCore harness now runs on the open-source Strands harness, bringing a recommended model, task-oriented defaults, automatic prompt caching, proactive context management, and new built-in tools. It also adds lifecycle hooks so you can run deterministic allow or deny checks at defined points in the agent loop.",
+      "id": "44d231d9ee488f2d",
+      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "A game you cannot win unless you have a quantum computer",
+      "excerpt": "Quantum",
       "lang": "en",
-      "publishedAt": "2026-11-19T20:01:06Z",
+      "publishedAt": "2026-11-19T20:03:00Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-19T21:00:34Z",
       "day": "2026-11-19",
-      "category": "open-source",
+      "category": "research",
       "tags": [
-       "advanced (300)",
-       "amazon bedrock agentcore",
-       "announcements"
+       "quantum"
       ],
       "entities": [
-       "amazon"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/open-source.svg",
-       "kind": "fallback"
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumContextuality1-MagicSquareGame.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "ebd75882b3d9e79b",
+      "eventId": "44d231d9ee488f2d",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
-        "topic": 75.0,
-        "novelty": 78.6
+        "recency": 89.5,
+        "topic": 80.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
-        "title": "Amazon Bedrock AgentCore Shield به طور پیش فرض، ابزار داخلی و قلاب های چرخه عمر اضافه می کند.",
-        "excerpt": "Amazon Bedrock AgentCore در حال حاضر بر روی گزینه open source Strands اجرا می شود، یک مدل توصیه شده، پیش فرض های وظیفه گرا، خودکار Caching، مدیریت زمینه فعال و ابزار جدید داخلی. این همچنین قلاب های چرخه عمر را اضافه می کند، بنابراین شما می توانید اجازه تعیین کننده را اجرا کنید یا چک ها را در نقاط تعریف شده در حلقه عامل انکار کنید.",
+        "title": "یک بازی که نمی توانید برنده شوید مگر اینکه یک کامپیوتر کوانتومی داشته باشید",
+        "excerpt": "کوانتومی کوانتومی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-19T21:00:34Z"
        }
@@ -296,52 +302,52 @@
     },
     {
      "article": {
-      "id": "5590d4d47ed2184b",
-      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand",
+      "id": "2fc66815c5be68f1",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Amazon Polly launches voice cloning: A unique voice for your brand",
-      "excerpt": "Voice cloning in Amazon Polly is now generally available. Give Amazon Polly a few minutes of recordings from a consenting speaker, and it builds a custom voice that reads new text in that speaker's voice. Cloned voices run on the Amazon Polly generative engine and support seven languages.",
+      "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+      "excerpt": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternatives in SageMaker Studio before you apply any change.",
       "lang": "en",
-      "publishedAt": "2026-11-19T19:53:32Z",
+      "publishedAt": "2026-11-19T21:28:18Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
+      "fetchedAt": "2026-11-19T22:15:10Z",
       "day": "2026-11-19",
-      "category": "products",
+      "category": "hardware",
       "tags": [
-       "amazon polly",
-       "announcements",
-       "intermediate (200)"
+       "advanced (300)",
+       "amazon sagemaker ai",
+       "announcements"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22432-1.png",
-       "alt": "The voice cloning lifecycle: record, create, wait, use",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22416-1-1.png",
+       "alt": "AWS Health latency drift event showing time to first token rose about 200 ms week over week",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "5590d4d47ed2184b",
+      "eventId": "2fc66815c5be68f1",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
-        "topic": 65.0,
-        "novelty": 81.8
+        "recency": 97.2,
+        "topic": 70.0,
+        "novelty": 80.0
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
-        "title": "Amazon Polly راه اندازی صدا: یک صدای منحصر به فرد برای نام تجاری شما",
-        "excerpt": "پخش صدا در Amazon Polly در حال حاضر به طور کلی در دسترس است. به آمازون پوللی چند دقیقه ضبط از یک سخنران رضایت بخش بدهید و یک صدای سفارشی ایجاد می کند که متن جدید را در صدای بلندگو می خواند. صدای بلند شده در موتور عمومی آمازون Polly اجرا می شود و از هفت زبان پشتیبانی می کند.",
+        "title": "آمازون SageMaker AI در حال حاضر تاخیر را تشخیص می دهد، GPU های بیکار و بهینه سازی های از دست رفته در نقاط پایانی",
+        "excerpt": "آمازون SageMaker AI در حال حاضر نقاط عطف هوش مصنوعی را به طور پیش فرض نظارت می کند و به شما می گوید که زمانی که یک تغییر می تواند عملکرد یا هزینه پایین را بهبود بخشد. این تاخیر، استفاده از GPU و پیکربندی را ردیابی می کند، سپس یک یافته را از طریق AWS Health با یک مسیر یک کلیکی به گزینه های معیار در SageMaker Studio قبل از اعمال هر گونه تغییر ارسال می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
+        "at": "2026-11-19T22:15:10Z"
        }
       }
      },
@@ -356,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-12T20:34:17Z",
-   "to": "2026-11-19T20:34:17Z",
+   "from": "2026-11-12T21:58:06Z",
+   "to": "2026-11-19T21:58:06Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -392,15 +398,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 74.3,
+       "total": 74.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 49.8,
+        "recency": 49.1,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -416,6 +422,65 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61227606dad56f68",
+      "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+      "sourceId": "anthropic-youtube",
+      "sourceName": "Anthropic (YouTube)",
+      "title": "Why we built Anthropic",
+      "excerpt": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah.",
+      "lang": "en",
+      "publishedAt": "2026-11-19T21:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T22:15:10Z",
+      "day": "2026-11-19",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "sof3vW4mHTs",
+       "url": "https://www.youtube.com/watch?v=sof3vW4mHTs"
+      },
+      "eventId": "61227606dad56f68",
+      "related": [],
+      "score": {
+       "total": 73.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-19T21:58:06Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا Anthropic ساخته ایم",
+        "excerpt": "بنیانگذاران Anthropic در مورد چرا آنها شروع شرکت، آنچه که آنها آموخته اند، و کار هنوز پیش رو است. نوشته شده توسط Dario Amodei، دانیلا Amodei، تام براون، جک کلارک، جارد کاپلان، Sam McCandlish و کریس Olah.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T22:15:10Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -452,15 +517,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 93.6,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -471,7 +536,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -511,18 +576,18 @@
       "eventId": "0befceefd071cd5c",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.4,
+        "recency": 98.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -532,57 +597,63 @@
     },
     {
      "article": {
-      "id": "b00f82b6db94c2e5",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "Introducing Tool Retrieval in the Gemini API",
-      "excerpt": "Gemini spark on a space background",
+      "id": "b0341a0ae375085e",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Meta’s Muse Charm might cost $300",
+      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
       "lang": "en",
-      "publishedAt": "2026-11-19T18:00:00Z",
+      "publishedAt": "2026-11-19T20:22:17Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-19T21:00:34Z",
       "day": "2026-11-19",
-      "category": "models",
+      "category": "business",
       "tags": [
-       "developer tools",
-       "ai"
+       "ai",
+       "meta",
+       "news",
+       "tech"
       ],
       "entities": [
-       "google"
+       "meta"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "b00f82b6db94c2e5",
-      "related": [],
+      "eventId": "b0341a0ae375085e",
+      "related": [
+       "e60f4e5e7cf4b021"
+      ],
       "score": {
-       "total": 72.5,
+       "total": 72.8,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.6,
-        "topic": 100.0,
-        "novelty": 80.0
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.5,
+        "topic": 55.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی ابزار Retrieval در سیستم Gemini",
-        "excerpt": "جرقه Gemini در یک پس زمینه فضایی",
+        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
+        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-19T21:00:34Z"
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
+     "rank": 5,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -616,15 +687,15 @@
       "eventId": "44d231d9ee488f2d",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.2,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -635,7 +706,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -673,15 +744,15 @@
       "eventId": "ebd75882b3d9e79b",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.1,
         "topic": 75.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -692,7 +763,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -733,85 +804,20 @@
       "eventId": "38166bf069dfa033",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.3,
         "topic": 70.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
         "title": "کودک را در معرض خطر قرار دهید، اما برای AI.",
         "excerpt": "توماس ولف، بنیانگذار Face، توضیح می دهد که چرا دستیاران AI به محدودیت هایی در مورد آنچه که می توانند دسترسی داشته باشند و انجام دهند، نیاز دارند. به پادکست هوش مصنوعی NVIDIA با سرویس Now آماندا Grady و NVIDIA’s کارتر عبدالعزیز گوش دهید:",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e04b4e930bcdca98",
-      "url": "https://aws.amazon.com/blogs/machine-learning/from-learning-to-leaderboard-how-cisco-upskilled-1200-engineers-in-agentic-ai-with-aws-ai-league",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "From learning to leaderboard: How Cisco upskilled 1,200 engineers in agentic AI with AWS AI League",
-      "excerpt": "Cisco and AWS used Cisco Transformation Fest and AWS AI League to turn hands-on AI learning into a culture of building. A Cisco engineer won the 2025 AWS AI League global title and 1,200 engineers competed in 2026. This post shares Cisco's journey, lessons from the 2026 winning agent built on Amazon Bedrock AgentCore, and how to host your own league.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T18:26:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "products",
-      "tags": [
-       "amazon bedrock agentcore",
-       "amazon sagemaker ai",
-       "customer solutions",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-22161-1.png",
-       "alt": "AWS AI League champion on stage at AWS re:Invent 2025",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "Hsdy43aYBXE",
-       "url": "https://www.youtube.com/watch?v=Hsdy43aYBXE"
-      },
-      "eventId": "e04b4e930bcdca98",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 65.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-19T20:34:17Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "از یادگیری به رهبری: چگونه سیسکو تا 1200 مهندس متخصص در AI عامل با AWS AI League",
-        "excerpt": "سیسکو و AWS از سیسکو تحول Fest و AWS AI League استفاده کردند تا یادگیری هوش مصنوعی را به یک فرهنگ ساختمان تبدیل کنند. یک مهندس سیسکو برنده جایزه جهانی لیگ AI 2025 و 1200 مهندس در سال 2026 رقابت کردند. این پست سفر سیسکو، درس هایی از نماینده برنده 2026 ساخته شده در Amazon Bedrock AgentCore و چگونگی میزبانی لیگ خود را به اشتراک می گذارد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-19T21:00:34Z"
        }
@@ -828,8 +834,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-20T20:34:17Z",
-   "to": "2026-11-19T20:34:17Z",
+   "from": "2026-10-20T21:58:06Z",
+   "to": "2026-11-19T21:58:06Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -871,11 +877,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 49.9,
+        "recency": 49.7,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -930,11 +936,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 81.1,
+        "recency": 80.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -986,15 +992,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 74.1,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 98.0,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -1006,6 +1012,65 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "61227606dad56f68",
+      "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
+      "sourceId": "anthropic-youtube",
+      "sourceName": "Anthropic (YouTube)",
+      "title": "Why we built Anthropic",
+      "excerpt": "Anthropic’s co-founders on why they started the company, what they’ve learned, and the work still ahead. Told by Dario Amodei, Daniela Amodei, Tom Brown, Jack Clark, Jared Kaplan, Sam McCandlish, and Chris Olah.",
+      "lang": "en",
+      "publishedAt": "2026-11-19T21:03:23Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T22:15:10Z",
+      "day": "2026-11-19",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/sof3vW4mHTs/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "sof3vW4mHTs",
+       "url": "https://www.youtube.com/watch?v=sof3vW4mHTs"
+      },
+      "eventId": "61227606dad56f68",
+      "related": [],
+      "score": {
+       "total": 73.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-19T21:58:06Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چرا Anthropic ساخته ایم",
+        "excerpt": "بنیانگذاران Anthropic در مورد چرا آنها شروع شرکت، آنچه که آنها آموخته اند، و کار هنوز پیش رو است. نوشته شده توسط Dario Amodei، دانیلا Amodei، تام براون، جک کلارک، جارد کاپلان، Sam McCandlish و کریس Olah.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T22:15:10Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1045,18 +1110,18 @@
       "eventId": "0befceefd071cd5c",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1066,59 +1131,63 @@
     },
     {
      "article": {
-      "id": "b53b872a0923d70d",
-      "url": "https://www.youtube.com/watch?v=EDp4IoAUsXY",
-      "sourceId": "deepmind-youtube",
-      "sourceName": "Google DeepMind (YouTube)",
-      "title": "Introducing the new Project Genie, powered by Genie 4",
-      "excerpt": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your browser: • Shape worlds in real time with Genie 4: Trigger dynamic events using natural language—like…",
+      "id": "b0341a0ae375085e",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Meta’s Muse Charm might cost $300",
+      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
       "lang": "en",
-      "publishedAt": "2026-11-18T18:12:21Z",
+      "publishedAt": "2026-11-19T20:22:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
-      "day": "2026-11-18",
-      "category": "models",
-      "tags": [],
+      "fetchedAt": "2026-11-19T21:00:34Z",
+      "day": "2026-11-19",
+      "category": "business",
+      "tags": [
+       "ai",
+       "meta",
+       "news",
+       "tech"
+      ],
       "entities": [
-       "google"
+       "meta"
       ],
       "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/EDp4IoAUsXY/hqdefault.jpg",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7jMXSY2xbc3KCAE0MHQ-A"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "EDp4IoAUsXY",
-       "url": "https://www.youtube.com/watch?v=EDp4IoAUsXY"
-      },
-      "eventId": "b53b872a0923d70d",
-      "related": [],
+      "eventId": "b0341a0ae375085e",
+      "related": [
+       "e60f4e5e7cf4b021"
+      ],
       "score": {
        "total": 73.0,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.7,
-        "topic": 100.0,
-        "novelty": 94.1
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 99.5,
+        "topic": 55.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی پروژه جدید Genie، توسط Genie 4",
-        "excerpt": "قدم در داخل تخیل خود را با پروژه Genie، در حال حاضر توسط Google DeepMind واقع بینانه ترین و تعاملی ترین مدل جهان هنوز، Genie 4. Project Genie پیشرفته ترین مدل های جهان و چند منظوره را همراه با Gemini به ارمغان می آورد، بنابراین شما می توانید ایده ها را به جهان های قابل توجه و قابل اشتراک درست در مرورگر خود تبدیل کنید: • جهان های شکل در زمان واقعی با Genie 4: حوادث پویا را با استفاده از زبان طبیعی تحریک کنید.",
+        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
+        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
+        "at": "2026-11-19T21:00:34Z"
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
+     "rank": 6,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1156,11 +1225,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.4,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -1171,7 +1240,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1215,11 +1284,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 93.2,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -1230,7 +1299,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1271,15 +1340,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 91.4,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
@@ -1290,7 +1359,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1336,75 +1405,20 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.9,
+        "recency": 92.5,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-19T20:34:17Z"
+       "asOf": "2026-11-19T21:58:06Z"
       },
       "tr": {
        "fa": {
         "title": "این پر وزن، ربات پرنده سنسور ها و رایانه های خود را حمل می کند",
         "excerpt": "میکرو ربات سریع بدون سیستم حمل و نقل متصل پرواز می کند و آن را به برنامه هایی مانند کشاورزی یا نظارت صنعتی نزدیک تر می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "8b6ac2940fdc0d0e",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
-      "lang": "en",
-      "publishedAt": "2026-11-18T06:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
-      "day": "2026-11-18",
-      "category": "safety",
-      "tags": [
-       "safety"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/safety.svg",
-       "kind": "fallback"
-      },
-      "eventId": "8b6ac2940fdc0d0e",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.5,
-        "topic": 90.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-19T20:34:17Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مدیریت ریسک امنیتی مرزی: از آموزش تا استقرار",
-        "excerpt": "OpenAI توضیح می دهد که چگونه این خطر را از آموزش از طریق استقرار با تراز مدل، Sandbox، مسدود کردن حفاظت و نظارت مدیریت می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
        }
