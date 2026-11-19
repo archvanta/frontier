@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-18T22:00:09Z",
+ "asOf": "2026-11-19T00:42:56Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-17T22:00:09Z",
-   "to": "2026-11-18T22:00:09Z",
+   "from": "2026-11-18T00:42:56Z",
+   "to": "2026-11-19T00:42:56Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "6f8f17530b912bd5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+      "excerpt": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.",
+      "lang": "en",
+      "publishedAt": "2026-11-18T23:58:22Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T02:50:59Z",
+      "day": "2026-11-18",
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "aws inferentia",
+       "aws trainium",
+       "customer solutions"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-22138-1-1.png",
+       "alt": "Exa stack showing web data flowing from crawlers through parse, moderate, and embed stages into a vector database",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "6f8f17530b912bd5",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.8,
+        "topic": 70.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-19T00:42:56Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Exa باعث می شود تا 50٪ از طریق نفوذ جاسازی شود تا میلیاردها سند در تراشه های AWS AI را فهرست کند",
+        "excerpt": "موتور جستجوی عصبی Exa توسط یک پایگاه داده داخلی پشتیبانی می شود، بنابراین اقتصاد واحد برای جاسازی ده ها میلیارد سند وب کسب و کار را هدایت می کند. این پست به اشتراک می گذارد که چگونه Exa بهینه سازی نفوذ در سخت افزار Neuron AWS (Inferentia2 و Trainium2) با هسته های سفارشی NKI، رسیدن به 47٪ در عملکرد و هزینه هر میلیون اسناد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T02:50:59Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "a8eb0ed9ef435798",
@@ -46,15 +106,15 @@
       "eventId": "a8eb0ed9ef435798",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 83.7,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +125,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -99,15 +159,15 @@
       "eventId": "b898a1b2127c5756",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.7,
+        "recency": 83.5,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -117,7 +177,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -157,15 +217,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.3,
+        "recency": 68.7,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -176,7 +236,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -215,15 +275,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 64.0,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -234,7 +294,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -280,80 +340,20 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 71.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
         "title": "این پر وزن، ربات پرنده سنسور ها و رایانه های خود را حمل می کند",
         "excerpt": "میکرو ربات سریع بدون سیستم حمل و نقل متصل پرواز می کند و آن را به برنامه هایی مانند کشاورزی یا نظارت صنعتی نزدیک تر می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5acad36ebc3580ac",
-      "url": "https://www.youtube.com/shorts/2Y3e3RYNjFk",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "AI is getting better at figuring out how software works. Even when the code is hidden.",
-      "excerpt": "So what does that mean for security? Hugging Face and ServiceNow get into it on the NVIDIA AI Podcast.",
-      "lang": "en",
-      "publishedAt": "2026-11-18T20:00:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
-      "day": "2026-11-18",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i3.ytimg.com/vi/2Y3e3RYNjFk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "2Y3e3RYNjFk",
-       "url": "https://www.youtube.com/watch?v=2Y3e3RYNjFk"
-      },
-      "eventId": "5acad36ebc3580ac",
-      "related": [],
-      "score": {
-       "total": 67.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 89.1,
-        "topic": 70.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-18T22:00:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI در درک اینکه چگونه نرم افزار کار می کند، بهتر می شود. حتی زمانی که کد پنهان است.",
-        "excerpt": "این چه معنایی برای امنیت دارد؟ Hugging Face و Service Now در پادکست AI NVIDIA وارد آن می شود.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
        }
@@ -370,8 +370,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-11T22:00:09Z",
-   "to": "2026-11-18T22:00:09Z",
+   "from": "2026-11-12T00:42:56Z",
+   "to": "2026-11-19T00:42:56Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -406,15 +406,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 76.7,
+       "total": 76.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 61.9,
+        "recency": 60.3,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -466,15 +466,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 73.7,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 93.9,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -524,15 +524,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 92.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -583,15 +583,15 @@
       "eventId": "a8eb0ed9ef435798",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 97.1,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -636,15 +636,15 @@
       "eventId": "b898a1b2127c5756",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 97.0,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -695,15 +695,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.2,
+        "recency": 90.8,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -760,15 +760,15 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 94.6,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -789,52 +789,53 @@
     },
     {
      "article": {
-      "id": "dec874679452a3bf",
-      "url": "https://www.youtube.com/watch?v=uJG53ligJt4",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "NVIDIA SC26 Special Address",
-      "excerpt": "Scientific computing is entering the era of agentic AI. Bringing simulation, AI, and agents together gives researchers new ways to tackle complex problems and accelerate scientific discovery. Watch Ian Buck, VP of Hyperscale and HPC at NVIDIA, highlight the latest cutting-edge breakthroughs revolutionizing the scientific computing community. https://blogs.nvidia.com/blog/ian-buck-sc26/…",
+      "id": "6f8f17530b912bd5",
+      "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+      "excerpt": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.",
       "lang": "en",
-      "publishedAt": "2026-11-18T18:36:18Z",
+      "publishedAt": "2026-11-18T23:58:22Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-18T21:37:56Z",
+      "fetchedAt": "2026-11-19T02:50:59Z",
       "day": "2026-11-18",
-      "category": "research",
-      "tags": [],
+      "category": "hardware",
+      "tags": [
+       "advanced (300)",
+       "aws inferentia",
+       "aws trainium",
+       "customer solutions"
+      ],
       "entities": [
-       "nvidia"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/uJG53ligJt4/hqdefault.jpg",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-22138-1-1.png",
+       "alt": "Exa stack showing web data flowing from crawlers through parse, moderate, and embed stages into a vector database",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "uJG53ligJt4",
-       "url": "https://www.youtube.com/watch?v=uJG53ligJt4"
-      },
-      "eventId": "dec874679452a3bf",
+      "eventId": "6f8f17530b912bd5",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.8,
-        "topic": 80.0,
-        "novelty": 85.7
+        "recency": 99.3,
+        "topic": 70.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
-        "title": "آدرس ویژه NVIDIA SC26",
-        "excerpt": "محاسبات علمی وارد عصر هوش مصنوعی می شود. جمع آوری شبیه سازی، AI و عوامل با هم روش های جدیدی برای مقابله با مشکلات پیچیده و تسریع کشف علمی ارائه می دهد. Watch Ian Buck، معاون Hyperscale و HPC در NVIDIA، برجسته آخرین پیشرفت های پیشرفته انقلابی در جامعه محاسبات علمی است. https://blogs.nvidia.com/blog/ian-buck-sc26 / ...",
+        "title": "Exa باعث می شود تا 50٪ از طریق نفوذ جاسازی شود تا میلیاردها سند در تراشه های AWS AI را فهرست کند",
+        "excerpt": "موتور جستجوی عصبی Exa توسط یک پایگاه داده داخلی پشتیبانی می شود، بنابراین اقتصاد واحد برای جاسازی ده ها میلیارد سند وب کسب و کار را هدایت می کند. این پست به اشتراک می گذارد که چگونه Exa بهینه سازی نفوذ در سخت افزار Neuron AWS (Inferentia2 و Trainium2) با هسته های سفارشی NKI، رسیدن به 47٪ در عملکرد و هزینه هر میلیون اسناد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-18T21:37:56Z"
+        "at": "2026-11-19T02:50:59Z"
        }
       }
      },
@@ -849,8 +850,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-19T22:00:09Z",
-   "to": "2026-11-18T22:00:09Z",
+   "from": "2026-10-20T00:42:56Z",
+   "to": "2026-11-19T00:42:56Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -888,15 +889,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 81.9,
+       "total": 81.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 53.3,
+        "recency": 52.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -947,15 +948,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 81.6,
+       "total": 81.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 86.6,
+        "recency": 85.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1007,15 +1008,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 74.2,
+       "total": 74.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.9,
+        "recency": 98.1,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1065,15 +1066,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 97.8,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1120,15 +1121,15 @@
       "eventId": "e683d40fba103b5f",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.8,
+        "recency": 93.1,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       }
      },
      "rank": 5,
@@ -1171,15 +1172,15 @@
       "eventId": "a8eb0ed9ef435798",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.1,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1231,15 +1232,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 71.7,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 97.1,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1296,15 +1297,15 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.4,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1351,15 +1352,15 @@
       "eventId": "8b6ac2940fdc0d0e",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 94.7,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {
@@ -1410,15 +1411,15 @@
       "eventId": "dec874679452a3bf",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.3,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-18T22:00:09Z"
+       "asOf": "2026-11-19T00:42:56Z"
       },
       "tr": {
        "fa": {

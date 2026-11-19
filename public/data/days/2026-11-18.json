@@ -3,6 +3,437 @@
  "day": "2026-11-18",
  "articles": [
   {
+   "id": "6f8f17530b912bd5",
+   "url": "https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Exa boosts embedding throughput by 50% to index billions of documents on AWS AI chips",
+   "excerpt": "Exa's neural search engine is backed by an in-house vector database, so the unit economics of embedding tens of billions of web documents drive the business. This post shares how Exa optimized embedding inference on AWS Neuron hardware (Inferentia2 and Trainium2) with custom NKI kernels, reaching a 47% gain in performance and cost per million documents.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:58:22Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "hardware",
+   "tags": [
+    "advanced (300)",
+    "aws inferentia",
+    "aws trainium",
+    "customer solutions"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/13/ML-22138-1-1.png",
+    "alt": "Exa stack showing web data flowing from crawlers through parse, moderate, and embed stages into a vector database",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "6f8f17530b912bd5",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Exa باعث می شود تا 50٪ از طریق نفوذ جاسازی شود تا میلیاردها سند در تراشه های AWS AI را فهرست کند",
+     "excerpt": "موتور جستجوی عصبی Exa توسط یک پایگاه داده داخلی پشتیبانی می شود، بنابراین اقتصاد واحد برای جاسازی ده ها میلیارد سند وب کسب و کار را هدایت می کند. این پست به اشتراک می گذارد که چگونه Exa بهینه سازی نفوذ در سخت افزار Neuron AWS (Inferentia2 و Trainium2) با هسته های سفارشی NKI، رسیدن به 47٪ در عملکرد و هزینه هر میلیون اسناد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "d2cb25e8bf7044cb",
+   "url": "https://www.theguardian.com/us-news/2026/nov/18/maryland-baltimore-county-doritos-gun-ai-lawsuit",
+   "sourceId": "guardian-ai",
+   "sourceName": "The Guardian — Artificial intelligence",
+   "title": "Four Maryland high school students sue after AI mistakes Doritos bag for gun",
+   "excerpt": "Football players say they are ‘traumatized’ after being handcuffed and detained by police while waiting for rides home Four current and former students at a Maryland high school have filed a lawsuit a year after armed police detained them, prompted by an AI alert that mistook a bag of Doritos for a gun, in an incident that left them “fearing for their lives”. The plaintiffs sued Omnilert, the…",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:53:51Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "policy",
+   "tags": [
+    "maryland",
+    "children",
+    "ai (artificial intelligence)",
+    "law (us)",
+    "us news",
+    "us justice system"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/55b30b78210b9de9b6079a003a575537c1f083f7/340_0_2178_1744/master/2178.jpg?width=700&quality=85&auto=format&fit=max&s=1374bb2cf305375405f9442e5e21db48",
+    "credit": "Photograph: Baltimore County Police Department",
+    "kind": "feed",
+    "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+   },
+   "eventId": "d2cb25e8bf7044cb",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چهار دانش آموز دبیرستانی در مریلند پس از اشتباهات هوش مصنوعی کیف برای اسلحه شکایت می کنند",
+     "excerpt": "بازیکنان فوتبال می گویند که آنها پس از تسلیم شدن و بازداشت توسط پلیس در حالی که منتظر سوار شدن چهار دانشجوی فعلی و سابق در یک دبیرستان مریلند هستند یک شکایت یک سال پس از پلیس مسلح بازداشت آنها، توسط یک هشدار AI که یک کیسه از Doritos برای یک اسلحه را به اشتباه گرفته است، در یک حادثه که آنها را برای زندگی خود را ترک کرده است. شکایت کنندگان از Omnilert، ...",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "2cf389d7c377c9cf",
+   "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+   "excerpt": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:45:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "ai",
+    "cyberattacks",
+    "microsoft",
+    "outlook"
+   ],
+   "entities": [
+    "microsoft"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "2cf389d7c377c9cf",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "در میان ترس از حملات سایبری AI، Satya Nadella می گوید که بسیاری از زیرساخت های حیاتی \"غیر قابل کنترل\" هستند.",
+     "excerpt": "مدیر عامل مایکروسافت قطع چشم انداز اخیر را کاهش داد و اشاره کرد که AI هر دو فرصت و چالش های جدیدی را برای تضمین بسیاری از جهان متصل ایجاد کرده است.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "74ced337548159bc",
+   "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+   "excerpt": "“I don’t think [Huang is] disloyal to the United States,\" Musk said.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:25:17Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "ai",
+    "elon musk",
+    "jensen huang",
+    "nvidia"
+   ],
+   "entities": [],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "74ced337548159bc",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "ایلان ماسک می گوید که از بین بردن جنسن هوانگ مانند \"کینگ مایکل جردن از تیم شما\" است.",
+     "excerpt": "او گفت: «من فکر نمی کنم [هانگ] برای ایالات متحده بی تحرک باشد.»",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "b429cb510b698793",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+   "sourceId": "verge-ai",
+   "sourceName": "The Verge — AI",
+   "title": "The nation’s largest school districts consider ditching Google Search",
+   "excerpt": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times. Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Chris Phillips, Google's vice",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:18:35Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "products",
+   "tags": [
+    "ai",
+    "google",
+    "news",
+    "policy",
+    "politics",
+    "tech"
+   ],
+   "entities": [
+    "google"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/STK255_Google_Gemini_D.jpg?quality=90&strip=all&crop=0,0,100,100",
+    "alt": "Vector illustration of the Gemini logo.",
+    "kind": "feed",
+    "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   },
+   "eventId": "b429cb510b698793",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "بزرگترین بخش های مدرسه ای این کشور در نظر دارند که گوگل را جستجو کنند",
+     "excerpt": "نیویورک، لس آنجلس و مدارس شیکاگو در حال بررسی گزینه های گوگل پس از این شرکت اعلام کرد که جستجو برای مدارسی که از ویژگی های AI خود انتخاب می کنند را غیر فعال خواهد کرد. با شروع سال آینده، مدارس گزینه ای برای غیرفعال کردن ویژگی های قدرت Gemini بدون جستجو از راه دور نخواهند داشت. کریس فیلیپس، معاون گوگل",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "0e23395eb73494cf",
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+   "excerpt": "Microsoft CEO Satya Nadella expressed confidence in Jensen Huang's successor Colette Kress, who is serving as Nvidia's interim CEO.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:17:28Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "ai",
+    "jensen huang",
+    "microsoft",
+    "satya nadella"
+   ],
+   "entities": [
+    "microsoft",
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "0e23395eb73494cf",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "مدیر عامل مایکروسافت Satya Nadella پس از خروج هوانگ همچنان به Nvidia اعتماد دارد",
+     "excerpt": "مدیر عامل مایکروسافت، Satya Nadella، اعتماد به نفس را به جانشین Jensen Huang، Colette Kress، که به عنوان مدیر عامل موقت Nvidia خدمت می کند، ابراز کرد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "eacbd26a911f6855",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-workload-recovery-and-expanded-infrastructure-checks-on-amazon-sagemaker-hyperpod",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Introducing workload recovery and expanded infrastructure checks on Amazon SageMaker HyperPod",
+   "excerpt": "Large training jobs can stall or compute wrong results even when every node looks healthy. Amazon SageMaker HyperPod now adds workload recovery and expanded infrastructure checks that catch these failures sooner and raise the goodput of your training workloads.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T23:03:29Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "amazon sagemaker hyperpod",
+    "announcements"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "eacbd26a911f6855",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "معرفی حجم کار و بررسی زیرساخت های گسترده در Amazon SageMaker HyperPod",
+     "excerpt": "مشاغل آموزش بزرگ می توانند نتایج اشتباه را متوقف یا محاسبه کنند، حتی زمانی که هر گره سالم به نظر می رسد. Amazon SageMaker HyperPod در حال حاضر بهبود کار و بررسی های گسترده زیرساخت ها را که این شکست ها را زودتر دریافت می کنند، افزایش می دهد و بهترین عملکرد آموزشی شما را افزایش می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "acb7f96633bb0398",
+   "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+   "excerpt": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T22:58:11Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "ai",
+    "commerce",
+    "ai agents",
+    "in brief",
+    "microsoft",
+    "satya nadella"
+   ],
+   "entities": [
+    "amazon",
+    "microsoft"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "acb7f96633bb0398",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Satya Nadella پیش بینی می کند که عوامل هوش مصنوعی اقتصاد وب را از بین می برند",
+     "excerpt": "مدیر عامل مایکروسافت می گوید که عوامل AI می توانند مدل های تجاری مبتنی بر تبلیغات را مختل کنند و شرکت هایی مانند آمازون را مجبور به تجدید نظر در مورد چگونگی رقابت برای مشتریان کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "663fa60cff593cd5",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Introducing the Amazon SageMaker JumpStart Model Leaderboard",
+   "excerpt": "The Amazon SageMaker JumpStart Model Leaderboard compares 70+ foundation models side by side on quality, speed, and cost, directly in SageMaker Studio. Learn what the leaderboard shows, how AWS benchmarks models, and how to go from a shortlist to a deployed model.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T22:31:04Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "products",
+   "tags": [
+    "amazon sagemaker",
+    "amazon sagemaker jumpstart",
+    "announcements",
+    "foundational (100)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22496-1-1.png",
+    "alt": "SageMaker JumpStart Model Leaderboard in SageMaker Studio showing benchmark scores, performance metrics, and estimated cost per model",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "eventId": "663fa60cff593cd5",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "معرفی بازی Amazon SageMaker JumpStart Model",
+     "excerpt": "Amazon SageMaker JumpStart Model Leaderboard 70+ مدل پایه را در کنار کیفیت، سرعت و هزینه، به طور مستقیم در SageMaker Studio مقایسه می کند. یاد بگیرید که صفحه راهنما نشان می دهد، چگونه مدل های AWS و چگونه از یک لیست کوتاه به یک مدل مستقر.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "5af34f378ba5907d",
+   "url": "https://www.wired.com/story/guys-really-we-got-this",
+   "sourceId": "wired-ai",
+   "sourceName": "WIRED — AI",
+   "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
+   "excerpt": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T22:16:23Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "business",
+    "business / artificial intelligence",
+    "jensen huang",
+    "nvidia",
+    "chips",
+    "corporate"
+   ],
+   "entities": [
+    "nvidia"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://media.wired.com/photos/6afe216b809613f3f77a2770/master/pass/Does-NVIDIA-Got-This-Business.jpg",
+    "kind": "feed",
+    "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+   },
+   "eventId": "5af34f378ba5907d",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "آیا Nvidia این کار را کرده است؟ مدیر عامل Interim Colette Kress می گوید که این را دارد",
+     "excerpt": "WIRED بلند مدت است که چند بار مدیر عامل موقت Nvidia به همه اطمینان داده است که این شرکت همه چیز را تحت کنترل دارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "b7121aa7617648f3",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+   "sourceId": "techcrunch-ai",
+   "sourceName": "TechCrunch AI",
+   "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+   "excerpt": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T22:11:15Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [
+    "ai",
+    "anthropic",
+    "anthropic ipo",
+    "ipo"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b7121aa7617648f3",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "Anthropic گزارش می دهد قیمت IPO با $ 83، بالاتر از حد پیش بینی شده",
+     "excerpt": "IPO در انتظار طولانی، شرکت را با 1.5 تریلیون دلار به صورت کاملا رقیق ارزش می دهد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
    "id": "ab19112d85005e9c",
    "url": "https://www.theguardian.com/commentisfree/2026/nov/19/australia-has-a-reputation-for-being-the-most-secretive-democracy-in-the-world-new-laws-could-make-it-worse",
    "sourceId": "guardian-ai",
@@ -3375,6 +3806,74 @@
    }
   },
   {
+   "id": "9fa731b0ef6c1da9",
+   "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "Research acceleration: The jagged frontier",
+   "excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T08:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "models",
+   "tags": [
+    "research"
+   ],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/models.svg",
+    "kind": "fallback"
+   },
+   "eventId": "9fa731b0ef6c1da9",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "شتاب تحقیقات: مرز jagged",
+     "excerpt": "OpenAI اندازه گیری می کند که چگونه عوامل برنامه نویسی به سرعت تحقیقات AI را تسریع می کنند، جایی که عملکرد آنها ناهموار باقی می ماند و چه سیگنال هایی در مورد ارتقاء مجدد خود.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
+   "id": "b527b6f0ddceafec",
+   "url": "https://openai.com/business/customer-stories/sumitomo-life",
+   "sourceId": "openai-news",
+   "sourceName": "OpenAI News",
+   "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+   "excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+   "lang": "en",
+   "publishedAt": "2026-11-18T08:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "business",
+   "tags": [],
+   "entities": [
+    "openai"
+   ],
+   "brand": "openai",
+   "image": {
+    "url": "images/fallbacks/business.svg",
+    "kind": "fallback"
+   },
+   "eventId": "b527b6f0ddceafec",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه رهبران زندگی Sumitomo به تیم ها کمک کرد تا شرکت ChatGPT را انتخاب کنند",
+     "excerpt": "Sumitomo Life از ChatGPT Enterprise برای تحقیق بیمه گران، آماده سازی پیشنهادات و پیش نویس کد برای تجزیه و تحلیل سرمایه گذاری استفاده می کند. استفاده اولیه توسط مدیران کمک به تصویب.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
+    }
+   }
+  },
+  {
    "id": "8b6ac2940fdc0d0e",
    "url": "https://openai.com/index/managing-frontier-ai-risk",
    "sourceId": "openai-news",
@@ -3926,6 +4425,42 @@
      "excerpt": "Le Groupearo Fig و OpenAI شریک برای آوردن روزنامه نگاری Le Figaro به ChatGPT از طریق خلاصه و خلاصه، با لینک به داستان های اصلی.",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-18T13:30:29Z"
+    }
+   }
+  },
+  {
+   "id": "909b75797cd1319b",
+   "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+   "sourceId": "anthropic-news",
+   "sourceName": "Anthropic News (community mirror)",
+   "title": "Anthropic prices initial public offering",
+   "excerpt": "",
+   "lang": "en",
+   "publishedAt": "2026-11-18T00:00:00Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-19T02:50:59Z",
+   "day": "2026-11-18",
+   "category": "models",
+   "tags": [
+    "news"
+   ],
+   "entities": [
+    "anthropic"
+   ],
+   "brand": "claude",
+   "image": {
+    "url": "https://assets.claude.com/6d4a0d28992ade92d6fa63646fd9c9d318245c6c.jpg",
+    "alt": "Anthropic logo",
+    "kind": "og",
+    "sourceUrl": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+   },
+   "eventId": "909b75797cd1319b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "قیمت های اولیه عمومی",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-19T02:50:59Z"
     }
    }
   },
