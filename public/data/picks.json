@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-19T12:05:09Z",
+ "asOf": "2026-11-19T13:08:35Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,69 +10,10 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-18T12:05:09Z",
-   "to": "2026-11-19T12:05:09Z",
+   "from": "2026-11-18T13:08:35Z",
+   "to": "2026-11-19T13:08:35Z",
    "halfLifeHours": 12,
    "picks": [
-    {
-     "article": {
-      "id": "5712ac5365ff0d28",
-      "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
-      "excerpt": "David Lee, Director of Innovation & Growth at Holiday Extras, calls his dot, Brian, on his morning commute. They talk through the meetings ahead, and Brian can have a report ready by the time David gets to his desk. His colleague Liam Thompson, VP of AI Innovation, calls his dot Beast. The day after Holiday Extras launched a new app feature, Beast checked how it was performing and brought Liam…",
-      "lang": "en",
-      "publishedAt": "2026-11-19T11:38:57Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T12:14:08Z",
-      "day": "2026-11-19",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/ikNf7eW8CHk/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "ikNf7eW8CHk",
-       "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk"
-      },
-      "eventId": "5712ac5365ff0d28",
-      "related": [],
-      "score": {
-       "total": 64.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.5,
-        "topic": 65.0,
-        "novelty": 55.6
-       },
-       "asOf": "2026-11-19T12:05:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ملاقات با Brian و Beast، نقاط در محل کار در تعطیلات اضافی",
-        "excerpt": "دیوید لی، مدیر نوآوری و رشد در تعطیلات اضافی، نام dot، Brian، در رفت و آمد صبحگاهی خود را. آنها از طریق جلسات پیش رو صحبت می کنند و برایان می تواند گزارش آماده ای را تا زمانی که دیوید به میز خود می رود، داشته باشد. همکار او، لیام تامپسون، معاون نوآوری AI، نام Dot Beast او است. روز پس از تعطیلات اضافی یک ویژگی برنامه جدید را راه اندازی کرد، وحش بررسی کرد که چگونه آن را اجرا و به ارمغان آورد لیام.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T12:14:08Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "03b14489ed8fece5",
@@ -108,15 +49,15 @@
       "eventId": "03b14489ed8fece5",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 63.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 88.4,
         "topic": 85.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -127,7 +68,125 @@
        }
       }
      },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5712ac5365ff0d28",
+      "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Meet Brian and Beast, the dots at work at Holiday Extras",
+      "excerpt": "David Lee, Director of Innovation & Growth at Holiday Extras, calls his dot, Brian, on his morning commute. They talk through the meetings ahead, and Brian can have a report ready by the time David gets to his desk. His colleague Liam Thompson, VP of AI Innovation, calls his dot Beast. The day after Holiday Extras launched a new app feature, Beast checked how it was performing and brought Liam…",
+      "lang": "en",
+      "publishedAt": "2026-11-19T11:38:57Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T12:14:08Z",
+      "day": "2026-11-19",
+      "category": "products",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/ikNf7eW8CHk/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "ikNf7eW8CHk",
+       "url": "https://www.youtube.com/watch?v=ikNf7eW8CHk"
+      },
+      "eventId": "5712ac5365ff0d28",
+      "related": [],
+      "score": {
+       "total": 63.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.7,
+        "topic": 65.0,
+        "novelty": 55.6
+       },
+       "asOf": "2026-11-19T13:08:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ملاقات با Brian و Beast، نقاط در محل کار در تعطیلات اضافی",
+        "excerpt": "دیوید لی، مدیر نوآوری و رشد در تعطیلات اضافی، نام dot، Brian، در رفت و آمد صبحگاهی خود را. آنها از طریق جلسات پیش رو صحبت می کنند و برایان می تواند گزارش آماده ای را تا زمانی که دیوید به میز خود می رود، داشته باشد. همکار او، لیام تامپسون، معاون نوآوری AI، نام Dot Beast او است. روز پس از تعطیلات اضافی یک ویژگی برنامه جدید را راه اندازی کرد، وحش بررسی کرد که چگونه آن را اجرا و به ارمغان آورد لیام.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T12:14:08Z"
+       }
+      }
+     },
      "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fdfefb89d61360e3",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Canva adds an AI ‘off’ button",
+      "excerpt": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered",
+      "lang": "en",
+      "publishedAt": "2026-11-19T12:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T13:26:41Z",
+      "day": "2026-11-19",
+      "category": "products",
+      "tags": [
+       "ai",
+       "apps",
+       "creators",
+       "news",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25355957/STK263_CANVA_D.png?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Illustration of the Canva logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "fdfefb89d61360e3",
+      "related": [],
+      "score": {
+       "total": 63.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.4,
+        "topic": 65.0,
+        "novelty": 100.0
+       },
+       "asOf": "2026-11-19T13:08:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Canva اضافه کردن دکمه “off” AI",
+        "excerpt": "Canva اکنون به شما اجازه می دهد تا ویژگی های هوش مصنوعی عمومی خود را خاموش کنید. با این تغییر، شما می توانید آرایه ای از ابزارهای AI پلت فرم گرافیک را غیرفعال کنید، مانند ویژگی گسترش جادویی عکس هوش مصنوعی آن، و همچنین توانایی تولید تصاویر با Canva chatbot آن. این ضرب و شتم هر AI را خاموش نمی کند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T13:26:41Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -169,15 +228,15 @@
       "eventId": "2c4cba7482f3f6af",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 63.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 88.4,
         "topic": 85.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -188,7 +247,70 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "029ded4e9a8f172f",
+      "url": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "excerpt": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can",
+      "lang": "en",
+      "publishedAt": "2026-11-19T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-19T13:26:41Z",
+      "day": "2026-11-19",
+      "category": "products",
+      "tags": [
+       "ai",
+       "apple",
+       "gadgets",
+       "hands-on",
+       "reviews",
+       "smartwatch"
+      ],
+      "entities": [
+       "amazon",
+       "apple"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268874_siri_recaps_AKrales_0070.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A close up of the Siri Recap quick menu option on an Apple Watch Ultra 4. ",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "029ded4e9a8f172f",
+      "related": [],
+      "score": {
+       "total": 62.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-19T13:08:35Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اجازه می دهم اپل همیشه لیست هوش مصنوعی را برای دو هفته خلاصه کند",
+        "excerpt": "ارزشش را داشت؟ من در ماه گذشته از خودم این سوال را مطرح کرده ام و یا به همین دلیل در حال آزمایش هر دو ایستگاه بیت آمازون و Siri Recap در Apple Watch Ultra 4 هستم. هر دو قابلیت پوشیدنی را برای گوش دادن به مکالمات شما فراهم می کنند و با استفاده از AI، آنها را برای شما خلاصه می کنند. چرا؟ شما می توانید",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-19T13:26:41Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -228,15 +350,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 61.5,
+       "total": 61.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 35.6,
+        "recency": 33.5,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -247,141 +369,19 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
-    },
-    {
-     "article": {
-      "id": "576d950a58a68b6f",
-      "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
-      "excerpt": "Investors betting a barnstorming $107 billion will weigh whether the company’s AI safety strategy and growing public anger towards data centers could impact its growth.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T12:14:08Z",
-      "day": "2026-11-19",
-      "category": "business",
-      "tags": [
-       "business",
-       "business / artificial intelligence",
-       "anthropic",
-       "ipos",
-       "artificial intelligence",
-       "chatbots"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://media.wired.com/photos/6afdeccab8b6cf0d23988257/master/pass/Anthropic-IPO-Business-2297744238.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "576d950a58a68b6f",
-      "related": [],
-      "score": {
-       "total": 61.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.5,
-        "topic": 55.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-19T12:05:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دانلود آهنگ Anthropic’s Record-Breaking IPO Highlights The AI Giant’s Most Enemy – Itself",
-        "excerpt": "سرمایه گذاران شرط بندی 107 میلیارد دلار را می پردازند که آیا استراتژی ایمنی AI شرکت و افزایش خشم عمومی نسبت به مراکز داده می تواند بر رشد آن تأثیر بگذارد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T12:14:08Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2b8784d0dd7924c0",
-      "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
-      "excerpt": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago appeared first on The Decoder.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T11:18:18Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T12:14:08Z",
-      "day": "2026-11-19",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "gemini",
-       "gemini 4",
-       "gemini 4 neon",
-       "google"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "2b8784d0dd7924c0",
-      "related": [],
-      "score": {
-       "total": 60.8,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 95.6,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-19T12:05:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آخرین مدل AI گوگل سریع تر، ارزان تر و باهوش تر از مدل پرچمدار خود از هفته های پیش است.",
-        "excerpt": "گوگل DeepMind Gemini 4 نئون، مدل چهارم آن را در هفت هفته منتشر کرده است که نزدیک به 2 برابر سریعتر از همتای خود کربن است، آن را در اکثر معیارها و قیمت های بسیار پایین تر می آید. آخرین مدل هوش مصنوعی گوگل سریع تر، ارزان تر و باهوش تر از مدل پرچمدار خود از چند هفته پیش در Decoder ظاهر شد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T12:14:08Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-11-12T12:05:09Z",
-   "to": "2026-11-19T12:05:09Z",
+   "from": "2026-11-12T13:08:35Z",
+   "to": "2026-11-19T13:08:35Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -416,15 +416,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 75.1,
+       "total": 75.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 54.0,
+        "recency": 53.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -476,15 +476,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.2,
+        "recency": 83.3,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -534,15 +534,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.2,
+        "recency": 82.4,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -593,15 +593,15 @@
       "eventId": "a8eb0ed9ef435798",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 86.1,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -646,15 +646,15 @@
       "eventId": "b898a1b2127c5756",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 86.1,
         "topic": 100.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -705,15 +705,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.4,
+        "recency": 80.6,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -770,15 +770,15 @@
       "eventId": "62626f8cbcfd5bbe",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 84.0,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -830,15 +830,15 @@
       "eventId": "6f8f17530b912bd5",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 88.1,
         "topic": 70.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -860,8 +860,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-20T12:05:09Z",
-   "to": "2026-11-19T12:05:09Z",
+   "from": "2026-10-20T13:08:35Z",
+   "to": "2026-11-19T13:08:35Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -903,11 +903,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 51.2,
+        "recency": 51.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -962,11 +962,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 83.1,
+        "recency": 82.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1018,15 +1018,15 @@
       "eventId": "b53b872a0923d70d",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 94.7,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1076,15 +1076,15 @@
       "eventId": "8e6075d168e06821",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1131,15 +1131,15 @@
       "eventId": "e683d40fba103b5f",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.1,
+        "recency": 89.8,
         "topic": 100.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       }
      },
      "rank": 5,
@@ -1186,11 +1186,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 95.6,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1242,15 +1242,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 93.7,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1311,11 +1311,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 94.9,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1362,15 +1362,15 @@
       "eventId": "8b6ac2940fdc0d0e",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 91.4,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
@@ -1421,15 +1421,15 @@
       "eventId": "dec874679452a3bf",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 94.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-19T12:05:09Z"
+       "asOf": "2026-11-19T13:08:35Z"
       },
       "tr": {
        "fa": {
