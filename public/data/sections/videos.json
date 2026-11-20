@@ -2,8 +2,94 @@
  "schemaVersion": 3,
  "section": "videos",
  "windowDays": 90,
- "total": 227,
+ "total": 229,
  "articles": [
+  {
+   "id": "50979d7393a8f30c",
+   "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+   "excerpt": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
+   "lang": "en",
+   "publishedAt": "2026-11-19T22:20:23Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-20T02:39:57Z",
+   "day": "2026-11-19",
+   "category": "products",
+   "tags": [
+    "automotive",
+    "best practices",
+    "intermediate (200)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/16/ML-20698-1.png",
+    "alt": "Figure 1: Three-tier system to build composable agents",
+    "kind": "feed",
+    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20698/20698-3.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "50979d7393a8f30c",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "چگونه گروه BMW صدها عامل را در هزاران توسعه دهنده اداره می کند",
+     "excerpt": "هنگامی که صدها عامل به هزاران توسعه دهنده خدمت می کنند، حکومتداری نمی تواند یک تفکر پس از آن باشد. گروه BMW شیوه ها و الگوهای تیم های R&D خود را برای ساخت، مدیریت و اجرای عوامل AI در مقیاس سازمانی بدون قربانی سرعت، کیفیت و یا انطباق به اشتراک می گذارد.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-20T02:39:57Z"
+    }
+   }
+  },
+  {
+   "id": "b555cb95b60d6e2b",
+   "url": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick",
+   "sourceId": "aws-ml",
+   "sourceName": "AWS Machine Learning Blog",
+   "title": "Run your whole selling business in AWS Quick",
+   "excerpt": "Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.",
+   "lang": "en",
+   "publishedAt": "2026-11-19T22:16:22Z",
+   "dateEstimated": false,
+   "fetchedAt": "2026-11-20T02:39:57Z",
+   "day": "2026-11-19",
+   "category": "products",
+   "tags": [
+    "announcements",
+    "aws quick",
+    "foundational (100)"
+   ],
+   "entities": [
+    "amazon"
+   ],
+   "brand": null,
+   "image": {
+    "url": "images/fallbacks/products.svg",
+    "kind": "fallback"
+   },
+   "video": {
+    "provider": "file",
+    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22255/1_permissions_setup.mp4",
+    "type": "video/mp4"
+   },
+   "eventId": "b555cb95b60d6e2b",
+   "related": [],
+   "tr": {
+    "fa": {
+     "title": "اجرای کل کسب و کار خود را در AWS Quick",
+     "excerpt": "اکثر فروشندگان به یک محصول AI دیگر برای یادگیری نیاز ندارند. آنها نیاز به ابزار و اطلاعاتی دارند که در حال حاضر از آنها استفاده می کنند، بنابراین می توانند ببینند که در کسب و کار خود چه اتفاقی می افتد و بر روی آن عمل می کنند.",
+     "engine": "argos-en_fa-1.5",
+     "at": "2026-11-20T02:39:57Z"
+    }
+   }
+  },
   {
    "id": "61227606dad56f68",
    "url": "https://www.youtube.com/watch?v=sof3vW4mHTs",
@@ -2291,90 +2377,6 @@
      "excerpt": "چه اتفاقی می افتد وقتی افرادی که مشتریان شما را درک می کنند می توانند نرم افزار را برای کمک به آنها بسازند؟ در تعطیلات اضافی، Codex کمک می کند تا این جاه طلبی را به واقعیت تبدیل کند - از بازسازی برنامه اصلی آن در دو هفته برای پاسخ سریع تر به بازخورد مشتری. بشنوید که چگونه مدیر عامل Matthew Pack، دیوید لی و لی تامپسون به همکاران اعتماد به نفس برای ساخت، بهبود تجربه سفر و تجدید نظر می دهند.",
      "engine": "argos-en_fa-1.5",
      "at": "2026-11-12T12:52:52Z"
-    }
-   }
-  },
-  {
-   "id": "0566809c65753b53",
-   "url": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock",
-   "sourceId": "aws-ml",
-   "sourceName": "AWS Machine Learning Blog",
-   "title": "OpenAI Codex on Amazon Bedrock",
-   "excerpt": "A practical guide for enterprises rolling out OpenAI Codex to developers on AWS, with Amazon Bedrock as the model backend, covering the access, governance, and cost decisions that platform, security, and finance teams need to align on.",
-   "lang": "en",
-   "publishedAt": "2026-11-11T23:35:47Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-11-12T03:52:53Z",
-   "day": "2026-11-11",
-   "category": "products",
-   "tags": [
-    "advanced (300)",
-    "amazon bedrock",
-    "technical how-to"
-   ],
-   "entities": [
-    "amazon",
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21633-1.png",
-    "alt": "Architecture diagram comparing Native AWS Access, AgentCore Gateway, and LLM Gateway paths from Codex to Amazon Bedrock.",
-    "kind": "feed",
-    "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-   },
-   "video": {
-    "provider": "file",
-    "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21633/OpenAI_Codex_on_Bedrock_Pilot_Walkthrough.mp4",
-    "type": "video/mp4"
-   },
-   "eventId": "0566809c65753b53",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "OpenAI Codex در Amazon Bedrock",
-     "excerpt": "یک راهنمای عملی برای شرکت هایی که از OpenAI Codex برای توسعه دهندگان در AWS استفاده می کنند، با آمازون Bedrock به عنوان مدل Backend، پوشش دسترسی، حکومت و تصمیمات هزینه ای که پلت فرم، امنیت و تیم های مالی باید در آن هماهنگ شوند.",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-11-12T03:52:53Z"
-    }
-   }
-  },
-  {
-   "id": "f66f5f0e819eac3c",
-   "url": "https://www.youtube.com/watch?v=NS220dAaRMo",
-   "sourceId": "openai-youtube",
-   "sourceName": "OpenAI (YouTube)",
-   "title": "How to request and enable Daybreak Blue",
-   "excerpt": "Learn how to request access to Daybreak Blue and enable it for your workspace and API organization. This walkthrough covers business verification, workspace permissions, role-based access controls, and confirming access in Codex. You’ll also see how to set up a project and API key for automation.",
-   "lang": "en",
-   "publishedAt": "2026-11-11T21:10:28Z",
-   "dateEstimated": false,
-   "fetchedAt": "2026-11-11T22:46:06Z",
-   "day": "2026-11-11",
-   "category": "products",
-   "tags": [],
-   "entities": [
-    "openai"
-   ],
-   "brand": "openai",
-   "image": {
-    "url": "https://i3.ytimg.com/vi/NS220dAaRMo/hqdefault.jpg",
-    "kind": "feed",
-    "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-   },
-   "video": {
-    "provider": "youtube",
-    "id": "NS220dAaRMo",
-    "url": "https://www.youtube.com/watch?v=NS220dAaRMo"
-   },
-   "eventId": "f66f5f0e819eac3c",
-   "related": [],
-   "tr": {
-    "fa": {
-     "title": "چگونه برای درخواست و فعال کردن Daybreak Blue",
-     "excerpt": "یاد بگیرید که چگونه به Daybreak Blue دسترسی داشته باشید و آن را برای فضای کاری و سازمان API خود فعال کنید. این پیاده روی شامل تایید کسب و کار، مجوز های فضای کاری، کنترل دسترسی مبتنی بر نقش و تأیید دسترسی در Codex است. شما همچنین خواهید دید که چگونه یک پروژه و کلید API را برای اتوماسیون تنظیم کنید.",
-     "engine": "argos-en_fa-1.5",
-     "at": "2026-11-11T22:46:06Z"
     }
    }
   }
