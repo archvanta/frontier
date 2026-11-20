@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-20T10:21:10Z",
+ "asOf": "2026-11-20T12:40:28Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-19T10:21:10Z",
-   "to": "2026-11-20T10:21:10Z",
+   "from": "2026-11-19T12:40:28Z",
+   "to": "2026-11-20T12:40:28Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.8,
+        "recency": 66.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -69,6 +69,68 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "53f2410e3ea1cc17",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy | Bruce Schneier",
+      "excerpt": "Our tech infrastructure is riddled with problems. But they’re all downstream of the incentives baked into shareholder capitalism It’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA network, and Apple. People should be forgiven for suspecting a coordinated cyber-attack, a common cause…",
+      "lang": "en",
+      "publishedAt": "2026-11-20T11:00:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T13:06:39Z",
+      "day": "2026-11-20",
+      "category": "policy",
+      "tags": [
+       "technology",
+       "us economy",
+       "ai (artificial intelligence)",
+       "computing",
+       "microsoft"
+      ],
+      "entities": [
+       "apple",
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/06367e7fdfd0f05a668d10411818299d34910160/656_0_6561_5249/master/6561.jpg?width=700&quality=85&auto=format&fit=max&s=1eabc0f0a1c808740338bde9e0a0ad25",
+       "credit": "Photograph: Seth Wenig/AP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "53f2410e3ea1cc17",
+      "related": [],
+      "score": {
+       "total": 63.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 90.8,
+        "topic": 85.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-20T12:40:28Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "حملات سایبری را برای قطعی های اخیر سرزنش نکنید. شرور واقعی اقتصاد ایالات متحده است - بروس شییر",
+        "excerpt": "زیرساخت های تکنولوژی ما با مشکلات مواجه است. اما همه آنها از انگیزه های پخته شده در سرمایه داری سهامدار هستند که هفته بدی برای زیرساخت های کامپیوتری ما بوده است. ما شاهد قطع برق در مایکروسافت، FAA، تعدادی از بانک ها، خطوط هوایی ایالات متحده، یک شبکه بی نام NSA و اپل هستیم. مردم باید به خاطر مظنون شدن به یک حمله سایبری هماهنگ، یک علت مشترک ببخشند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T13:06:39Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -105,15 +167,15 @@
       "eventId": "b4606f809401affa",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 63.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.4,
+        "recency": 68.5,
         "topic": 100.0,
         "novelty": 50.0
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -124,7 +186,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -134,58 +196,118 @@
     },
     {
      "article": {
-      "id": "c1fe6e4cca9dd9e0",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/20/ai-internet-outages-apocalypse",
+      "id": "dc4abeffea47e7ab",
+      "url": "https://www.theguardian.com/technology/2026/nov/20/ai-low-paid-workers-cognitive-tax",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Will AI break the internet? | Garrison Lovely",
-      "excerpt": "Frontier models can exploit software flaws faster than the world can fix them. And the risks extend far beyond the cyber realm You’re not crazy to feel the world is coming apart at the seams. Within the last week, outages took down core services at Microsoft, United Airlines and JPMorgan Chase. On Friday, all US domestic departures were grounded for the second time since 9/11. And on Tuesday…",
+      "title": "AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers",
+      "excerpt": "It’s time to rethink welfare as AI reshapes the economy and wears down the brains of some of the most vulnerable workers AI is adding to the cognitive load of workers already stretched thin by unpredictable pay, insecure housing and mounting debt – and the lowest paid feel it most. We need to rethink welfare for an economy being reshaped by AI. Throughout the history of the study of economics…",
       "lang": "en",
-      "publishedAt": "2026-11-20T10:00:31Z",
+      "publishedAt": "2026-11-20T11:00:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T10:35:30Z",
+      "fetchedAt": "2026-11-20T13:06:39Z",
       "day": "2026-11-20",
-      "category": "policy",
+      "category": "research",
       "tags": [
        "ai (artificial intelligence)",
+       "work & careers",
        "technology",
-       "computing",
-       "openai",
-       "anthropic"
+       "money",
+       "benefits",
+       "welfare"
       ],
-      "entities": [
-       "microsoft"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/d0d3e01dd99c16399c8dbc88cf6f6b915811600d/333_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=4ad28defc224f824dfee63fb4b98139b",
-       "credit": "Photograph: Dado Ruvić/Reuters",
+       "url": "https://i.guim.co.uk/img/media/b71c923b07b403bdaf953194f3dfdf7229e4b7c6/492_0_3408_2727/master/3408.jpg?width=700&quality=85&auto=format&fit=max&s=68dba17b0315348b9382c17e0c8356ba",
+       "credit": "Photograph: Bevan Goldswain/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "c1fe6e4cca9dd9e0",
+      "eventId": "dc4abeffea47e7ab",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 63.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 85.0,
-        "novelty": 91.7
+        "recency": 90.8,
+        "topic": 80.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا هوش مصنوعی اینترنت را می شکند؟ گارسون دوست داشتنی",
-        "excerpt": "مدل های مرزی می توانند از نقص های نرم افزاری سریع تر از جهان بهره برداری کنند. و خطرات بسیار فراتر از قلمرو سایبری است که شما دیوانه نیستید که احساس کنید جهان در حال جدا شدن در دریا است. در هفته گذشته، قطع برق خدمات اصلی را در مایکروسافت، خطوط هوایی یونایتد و JPMorgan Chase به دست آورد. در روز جمعه، تمام سفرهای داخلی آمریکا برای دومین بار پس از ۱۱ سپتامبر پایه گذاری شد. و روز سه شنبه ...",
+        "title": "AI یک \"مالیات شناختی\" پنهان را در پایین ترین کارگران پرداخت می کند",
+        "excerpt": "وقت آن است که به رفاه تجدید نظر کنیم، زیرا AI اقتصاد را تغییر می دهد و مغز برخی از آسیب پذیرترین کارگران AI به بار شناختی کارگران اضافه می کند که در حال حاضر با پرداخت های غیر قابل پیش بینی، مسکن ناامن و بدهی افزایش یافته نازک شده اند و پایین ترین احساس آن بیشتر است. ما باید رفاه را تجدید نظر کنیم تا یک اقتصاد توسط AI تغییر کند. در طول تاریخ مطالعه اقتصاد ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T10:35:30Z"
+        "at": "2026-11-20T13:06:39Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "b9c4bcb3a317103a",
+      "url": "https://www.wired.com/story/muse-is-unleashing-a-world-of-pettiness-on-instagram",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "Muse Is Unleashing a World of Pettiness on Instagram",
+      "excerpt": "Meta’s AI assistant can track and unfollow Instagram users who don’t follow you back—and some people are taking full advantage.",
+      "lang": "en",
+      "publishedAt": "2026-11-20T12:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T13:06:39Z",
+      "day": "2026-11-20",
+      "category": "products",
+      "tags": [
+       "culture",
+       "culture / digital culture",
+       "muse",
+       "meta",
+       "instagram",
+       "artificial intelligence"
+      ],
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6aff9abb37d7793ac7889730/master/pass/Meta-Muse-Pettiness-Culture.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "b9c4bcb3a317103a",
+      "related": [],
+      "score": {
+       "total": 61.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.2,
+        "topic": 65.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-20T12:40:28Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Muse یک جهان از Pettiness در اینستاگرام است",
+        "excerpt": "دستیار هوش مصنوعی متا می تواند کاربران اینستاگرام را ردیابی و بدون پیگیری کند که شما را دنبال نمی کنند و برخی افراد از مزایای کامل استفاده می کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T13:06:39Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -225,15 +347,15 @@
       "eventId": "61227606dad56f68",
       "related": [],
       "score": {
-       "total": 62.6,
+       "total": 61.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 46.4,
+        "recency": 40.6,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -244,133 +366,10 @@
        }
       }
      },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b0341a0ae375085e",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Meta’s Muse Charm might cost $300",
-      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
-      "lang": "en",
-      "publishedAt": "2026-11-19T20:22:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "business",
-      "tags": [
-       "ai",
-       "meta",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b0341a0ae375085e",
-      "related": [
-       "e60f4e5e7cf4b021"
-      ],
-      "score": {
-       "total": 62.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 44.6,
-        "topic": 55.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-20T10:21:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
-        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "0abd9fbdec95bfa4",
-      "url": "https://www.theguardian.com/music/2026/nov/20/peter-gabriel-interview-ai-music-bonobo-ape-duets-jurassic-park-plants",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘We will become cyborgs!’ Peter Gabriel on bonobo ape duets, building a Jurassic Park for plants – and why AI will make great music",
-      "excerpt": "From sampling to streaming, the rock legend has always been in thrall to technology – but is superintelligence a step too far? Back with an epic new album, he unpacks his remarkable ideas Peter Gabriel asks me to fetch my laptop: he wants to show me a video of himself playing a keyboard duet with a bonobo called Kanzi. In fairness, said footage is, as Gabriel suggests, “extraordinary”. Working…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T05:00:22Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T10:35:30Z",
-      "day": "2026-11-20",
-      "category": "policy",
-      "tags": [
-       "peter gabriel",
-       "music",
-       "pop and rock",
-       "culture",
-       "ai (artificial intelligence)",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/124bc29050c7da765c91e3c9121b3b2ab887ffa0/0_715_4126_3300/master/4126.jpg?width=700&quality=85&auto=format&fit=max&s=121a8ece068ab5d5c164873573155bcc",
-       "credit": "Photograph: Nadav Kander",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "0abd9fbdec95bfa4",
-      "related": [],
-      "score": {
-       "total": 60.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 73.4,
-        "topic": 85.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-20T10:21:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "\"ما به سایبورگ تبدیل خواهیم شد\" پیتر گابریل در قلعه های میمون، ساخت یک پارک ژوراسیک برای گیاهان - و چرا AI موسیقی عالی خواهد ساخت",
-        "excerpt": "از نمونه برداری تا جریان، اسطوره سنگ همیشه به تکنولوژی تبدیل شده است - اما فوق العاده هوشی یک قدم خیلی دور است؟ بازگشت به یک آلبوم جدید حماسی، او ایده های قابل توجه خود را پیتر گابریل از من می خواهد تا لپ تاپ من را به دست آورد: او می خواهد به من یک ویدیو از خود را به بازی یک صفحه کلید با یک bonobo به نام کانزی. در عدالت، گفته می شود که فیلم همان گونه است که جبرئیل می گوید: «عالی» کار ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T10:35:30Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -378,8 +377,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-13T10:21:10Z",
-   "to": "2026-11-20T10:21:10Z",
+   "from": "2026-11-13T12:40:28Z",
+   "to": "2026-11-20T12:40:28Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -414,15 +413,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 73.0,
+       "total": 72.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 43.6,
+        "recency": 42.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -474,15 +473,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
+        "recency": 93.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -533,15 +532,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.0,
+        "recency": 81.2,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -592,15 +591,15 @@
       "eventId": "61227606dad56f68",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.0,
+        "recency": 86.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -654,15 +653,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.4,
+        "recency": 85.5,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -711,15 +710,15 @@
       "eventId": "44d231d9ee488f2d",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.1,
+        "recency": 85.2,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -771,15 +770,15 @@
       "eventId": "4665289b81f88c7a",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.0,
+        "recency": 87.0,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -830,15 +829,15 @@
       "eventId": "540cdc8b57cfc1ea",
       "related": [],
       "score": {
-       "total": 67.9,
+       "total": 67.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 93.9,
         "topic": 80.0,
         "novelty": 66.7
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -860,8 +859,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-21T10:21:10Z",
-   "to": "2026-11-20T10:21:10Z",
+   "from": "2026-10-21T12:40:28Z",
+   "to": "2026-11-20T12:40:28Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -899,15 +898,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.9,
+       "total": 80.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 48.0,
+        "recency": 47.7,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -958,15 +957,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 79.9,
+       "total": 79.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 78.0,
+        "recency": 77.4,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1018,15 +1017,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.6,
+        "recency": 93.9,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1077,15 +1076,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.6,
+        "recency": 98.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1136,15 +1135,15 @@
       "eventId": "61227606dad56f68",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 95.6,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1198,15 +1197,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 96.0,
+        "recency": 95.4,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1255,15 +1254,15 @@
       "eventId": "44d231d9ee488f2d",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 95.3,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1314,15 +1313,15 @@
       "eventId": "a8eb0ed9ef435798",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.9,
+        "recency": 89.3,
         "topic": 90.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1334,66 +1333,6 @@
       }
      },
      "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "4665289b81f88c7a",
-      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI helps researchers investigate how thousands of medical studies share code",
-      "excerpt": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T22:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T02:39:57Z",
-      "day": "2026-11-19",
-      "category": "research",
-      "tags": [
-       "research",
-       "data",
-       "artificial intelligence",
-       "medicine",
-       "science communications",
-       "institute for medical engineering and sc"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/medical-code-pollard-research-00.jpeg?itok=otuCAojQ",
-       "credit": "Image: Wing Ngan",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "4665289b81f88c7a",
-      "related": [],
-      "score": {
-       "total": 69.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.6,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-20T10:21:10Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI به محققان کمک می کند تا بررسی کنند که چگونه هزاران مطالعه پزشکی کد را به اشتراک می گذارند",
-        "excerpt": "یک تیم تحت رهبری MIT و دانا فاربر از مدل های زبان بزرگ برای بررسی نزدیک به 4000 مطالعه و صدها مخازن کد استفاده کردند و شکاف های موجود در اطلاعات مورد نیاز برای بررسی و استفاده مجدد از تحقیقات منتشر شده را آشکار کردند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T02:39:57Z"
-       }
-      }
-     },
-     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1434,15 +1373,15 @@
       "eventId": "3ffa8549c4df510b",
       "related": [],
       "score": {
-       "total": 69.7,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.6,
         "topic": 90.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-20T10:21:10Z"
+       "asOf": "2026-11-20T12:40:28Z"
       },
       "tr": {
        "fa": {
@@ -1450,6 +1389,66 @@
         "excerpt": "پادکست AI بازگشته است. دانلود موسیقی متن فیلم The Thomas Wolf و ServiceNow’s آماندا Grady به ما ملحق می شود تا در مورد اینکه چرا ساختمان در مسائل باز برای ایمنی هوش مصنوعی است، بحث کنیم. از آنجا که به اشتراک گذاری کد به این معنی است که افراد بیشتری می توانند به شناسایی مشکلات و حل آن ها کمک کنند. به پلت فرم پادکست مورد علاقه خود گوش دهید یا در YouTube تماشا کنید: HTTPSyoutu.be/y9AALMeAeGI؟si=zARxzOBGTaG28Jql",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-18T21:37:56Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4665289b81f88c7a",
+      "url": "https://news.mit.edu/2026/ai-helps-researchers-investigate-how-medical-studies-share-code-1119",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "AI helps researchers investigate how thousands of medical studies share code",
+      "excerpt": "An MIT and Dana-Farber Institute-led team used large language models to examine nearly 4,000 studies and hundreds of code repositories, revealing gaps in the information needed to scrutinize and reuse published research.",
+      "lang": "en",
+      "publishedAt": "2026-11-19T22:15:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T02:39:57Z",
+      "day": "2026-11-19",
+      "category": "research",
+      "tags": [
+       "research",
+       "data",
+       "artificial intelligence",
+       "medicine",
+       "science communications",
+       "institute for medical engineering and sc"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/medical-code-pollard-research-00.jpeg?itok=otuCAojQ",
+       "credit": "Image: Wing Ngan",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "4665289b81f88c7a",
+      "related": [],
+      "score": {
+       "total": 69.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.9,
+        "topic": 80.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-20T12:40:28Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "AI به محققان کمک می کند تا بررسی کنند که چگونه هزاران مطالعه پزشکی کد را به اشتراک می گذارند",
+        "excerpt": "یک تیم تحت رهبری MIT و دانا فاربر از مدل های زبان بزرگ برای بررسی نزدیک به 4000 مطالعه و صدها مخازن کد استفاده کردند و شکاف های موجود در اطلاعات مورد نیاز برای بررسی و استفاده مجدد از تحقیقات منتشر شده را آشکار کردند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T02:39:57Z"
        }
       }
      },
