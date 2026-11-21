@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-20T21:00:00Z",
+ "asOf": "2026-11-21T00:14:26Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,128 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-19T21:00:00Z",
-   "to": "2026-11-20T21:00:00Z",
+   "from": "2026-11-20T00:14:26Z",
+   "to": "2026-11-21T00:14:26Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "565159543ba42dea",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "publishedAt": "2026-11-20T23:30:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-20",
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "machine intelligence",
+       "natural language processing",
+       "speech processing"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "565159543ba42dea",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.9,
+        "topic": 80.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-11-21T00:14:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه گوگل دوپل برای تماس با کسب و کار برای شما در Gemini",
+        "excerpt": "هوش مصنوعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-21T00:58:07Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1b0c4ede4d1eb3f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+      "lang": "en",
+      "publishedAt": "2026-11-21T00:14:26Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-21",
+      "category": "products",
+      "tags": [
+       "amazon elasticache",
+       "expert (400)",
+       "technical how-to"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22449-1.png",
+       "alt": "Diagram of the agent’s diagnosis and the proposed distributed KV caching architecture for the legal assistant",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "e1b0c4ede4d1eb3f",
+      "related": [],
+      "score": {
+       "total": 68.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-21T00:14:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کاهش هزینه و تاخیر خود میزبان LLM با مهارت عامل KV توزیع شده",
+        "excerpt": "خود میزبانی LLM در GPUs به معنای پرداخت هزینه برای بازنویسی همان زمینه در هر نوبت است. شکاف توزیع شده KV با Amazon ElastiCache می تواند هزینه استنتاج را تا 40٪ و زمان به توکن اول تا 80٪ کاهش دهد. این پست از طریق مهارت ذخیره سازی KV توزیع شده در ابزار عامل AWS پیاده سازی می کند که حافظه را از عامل برنامه نویسی شما ارزیابی و تنظیم می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-21T00:58:07Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "cedca3bd6777efe2",
@@ -46,15 +164,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 78.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +183,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -104,15 +222,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 81.2,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -123,7 +241,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -164,136 +282,20 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 82.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
         "title": "Q&A: ایجاد تعاملات انسانی بیشتر و درک در مدل های چند منظوره",
         "excerpt": "دانشمند ارشد تحقیقاتی جیم گلس در مورد چگونگی همکاری آزمایشگاه تحقیقاتی MIT-IBM بحث می کند که درک و زبان را به هم متصل می کند و به کوتاه شدن مدل های فعلی می پردازد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e9ec780811f7fd6e",
-      "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
-      "excerpt": "Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:22:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "products",
-      "tags": [
-       "amazon textract",
-       "announcements",
-       "intermediate (200)"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
-      },
-      "eventId": "e9ec780811f7fd6e",
-      "related": [],
-      "score": {
-       "total": 67.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.4,
-        "topic": 65.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-20T21:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی Amazon Textract Insights: Verifified Creative AI برای اسناد",
-        "excerpt": "تایید دسترسی عمومی Amazon textract Insights، یک ویژگی جدید هوش مصنوعی از Amazon textract. فیلدهای مورد نیاز در زبان طبیعی را توصیف کنید، یک سند یا یک بسته مخلوط را ارسال کنید و نتایج ساختاری را با نمره اعتماد به نفس و سطح صفحه برای هر مقدار دریافت کنید، بدون هیچ آموزش مدل مورد نیاز.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "774b05fa8bf3d7ed",
-      "url": "https://www.youtube.com/watch?v=mX7wHNnsghs",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How to claim your business in ChatGPT with Shopify",
-      "excerpt": "Claim your business in ChatGPT by connecting your Shopify store. This demo shows how to start in Business Hub or the Shopify App Store, then connect your store directly to ChatGPT. After that, you can manage your business information to shape how you show up in ChatGPT. Claim your business in Business Hub https://chatgpt.com/business-hub Connect through the Shopify App Store…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:48:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "products",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/mX7wHNnsghs/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "mX7wHNnsghs",
-       "url": "https://www.youtube.com/watch?v=mX7wHNnsghs"
-      },
-      "eventId": "774b05fa8bf3d7ed",
-      "related": [],
-      "score": {
-       "total": 67.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.9,
-        "topic": 65.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-20T21:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه کسب و کار خود را در ChatGPT با Shopify",
-        "excerpt": "کسب و کار خود را در ChatGPT با اتصال فروشگاه Shopify خود را. این نسخه نشان می دهد که چگونه در Business Hub یا Shopify App Store شروع کنید، سپس فروشگاه خود را به طور مستقیم به ChatGPT متصل کنید. پس از آن، شما می توانید اطلاعات کسب و کار خود را مدیریت کنید تا چگونگی نمایش در ChatGPT را شکل دهید. ادعای کسب و کار خود را در کسب و کار Hub://chatgpt.com / Business-hub Connect از طریق فروشگاه App Shopify",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T21:15:12Z"
        }
@@ -309,52 +311,53 @@
     },
     {
      "article": {
-      "id": "e56c8a71f46f2f17",
-      "url": "https://www.youtube.com/shorts/X19Q12hmRjY",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "An underrated way to use ChatGPT: Finding a doctor",
-      "excerpt": "Your yearly checkups start with finding the right doctor. Magan Chin shares how she uses ChatGPT to find highly rated doctors nearby. Tip by 💡: Instagram @genzbestie · TikTok @genzbestie_",
+      "id": "480a8b723958aa8d",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
       "lang": "en",
-      "publishedAt": "2026-11-20T17:22:23Z",
+      "publishedAt": "2026-11-20T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T18:52:19Z",
+      "fetchedAt": "2026-11-21T00:58:07Z",
       "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "category": "research",
+      "tags": [
+       "school of engineering",
+       "mit schwarzman college of computing",
+       "aeronautical and astronautical engineeri",
+       "electrical engineering and computer scie",
+       "mechanical engineering",
+       "idss"
       ],
-      "brand": "openai",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i1.ytimg.com/vi/X19Q12hmRjY/hqdefault.jpg",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
+       "credit": "Image courtesy of Sunbochen Tang.",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "X19Q12hmRjY",
-       "url": "https://www.youtube.com/watch?v=X19Q12hmRjY"
-      },
-      "eventId": "e56c8a71f46f2f17",
+      "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.1,
-        "topic": 100.0,
-        "novelty": 57.1
+        "recency": 78.3,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
-        "title": "یک راه مشخص برای استفاده از ChatGPT: پیدا کردن یک دکتر",
-        "excerpt": "بررسی های سالانه شما با پیدا کردن پزشک مناسب شروع می شود. Magan Chin به اشتراک می گذارد که چگونه از ChatGPT برای پیدا کردن پزشکان بسیار رتبه در نزدیکی استفاده می کند. نکته: اینستاگرام @genzbestie @ TikTok @genzbestie",
+        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
+        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T18:52:19Z"
+        "at": "2026-11-21T00:58:07Z"
        }
       }
      },
@@ -369,8 +372,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-13T21:00:00Z",
-   "to": "2026-11-20T21:00:00Z",
+   "from": "2026-11-14T00:14:26Z",
+   "to": "2026-11-21T00:14:26Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -399,15 +402,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 73.0,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.0,
+        "recency": 87.2,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -458,15 +461,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 96.0,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -517,15 +520,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 72.2,
+       "total": 71.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 39.4,
+        "recency": 38.1,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -576,15 +579,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.6,
+        "recency": 96.6,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -596,6 +599,66 @@
       }
      },
      "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "480a8b723958aa8d",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-20",
+      "category": "research",
+      "tags": [
+       "school of engineering",
+       "mit schwarzman college of computing",
+       "aeronautical and astronautical engineeri",
+       "electrical engineering and computer scie",
+       "mechanical engineering",
+       "idss"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
+       "credit": "Image courtesy of Sunbochen Tang.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "480a8b723958aa8d",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.0,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-21T00:14:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
+        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-21T00:58:07Z"
+       }
+      }
+     },
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -636,15 +699,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -655,7 +718,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -695,15 +758,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.2,
+        "recency": 83.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -711,66 +774,6 @@
         "excerpt": "به تیم خود گزارشی بدهید که می توانند بخوانند، بحث کنند و با هم کار کنند. در این پیاده روی، تجزیه و تحلیل فروش داستانی Acme را به یک صفحه در فضا تبدیل کنید، با برجسته ها، مقایسه های فصلی و نمودارها در یک مکان. ببینید چگونه انتخاب کنید که چه کسی می تواند به گزارش دسترسی داشته باشد، یک لینک برای جلسه خود کپی کنید، یک عنوان را به طور مستقیم ویرایش کنید، از سوالات ChatGPT در مورد گزارش بپرسید و نظرات را در کنار ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T10:35:30Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9be98e73c6c88adf",
-      "url": "https://news.mit.edu/2026/following-mathocalypse-mathematicians-consider-future-1120",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Following the “mathocalypse,” mathematicians consider the future",
-      "excerpt": "A panel discussion at MIT explored AI’s implications for mathematical discovery and the people who make it their profession.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T15:20:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T18:52:19Z",
-      "day": "2026-11-20",
-      "category": "research",
-      "tags": [
-       "special events and guest speakers",
-       "artificial intelligence",
-       "community",
-       "technology and society",
-       "mathematics",
-       "school of humanities arts and social sci"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Math-AI-01-press.jpg?itok=kKHwiUOm",
-       "credit": "Credit: Hanley Valentin",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "9be98e73c6c88adf",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.7,
-        "topic": 80.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-20T21:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پس از \"ماتولیپس\"، ریاضیدانان آینده را در نظر می گیرند",
-        "excerpt": "بحث پانل در MIT بررسی مفاهیم AI برای کشف ریاضی و افرادی که آن را حرفه خود را.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T18:52:19Z"
        }
       }
      },
@@ -784,63 +787,59 @@
     },
     {
      "article": {
-      "id": "b0341a0ae375085e",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Meta’s Muse Charm might cost $300",
-      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
+      "id": "565159543ba42dea",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "excerpt": "Generative AI",
       "lang": "en",
-      "publishedAt": "2026-11-19T20:22:17Z",
+      "publishedAt": "2026-11-20T23:30:30Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "business",
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-20",
+      "category": "research",
       "tags": [
-       "ai",
-       "meta",
-       "news",
-       "tech"
+       "generative ai",
+       "machine intelligence",
+       "natural language processing",
+       "speech processing"
       ],
       "entities": [
-       "meta"
+       "google"
       ],
-      "brand": null,
+      "brand": "gemini",
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "b0341a0ae375085e",
-      "related": [
-       "e60f4e5e7cf4b021"
-      ],
+      "eventId": "565159543ba42dea",
+      "related": [],
       "score": {
-       "total": 68.9,
+       "total": 69.6,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 78.9,
-        "topic": 55.0,
-        "novelty": 83.3
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.3,
+        "topic": 80.0,
+        "novelty": 77.8
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
-        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
-        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
+        "title": "چگونه گوگل دوپل برای تماس با کسب و کار برای شما در Gemini",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
+        "at": "2026-11-21T00:58:07Z"
        }
       }
      },
      "rank": 8,
-     "sources": 2,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -848,8 +847,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-21T21:00:00Z",
-   "to": "2026-11-20T21:00:00Z",
+   "from": "2026-10-22T00:14:26Z",
+   "to": "2026-11-21T00:14:26Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,15 +886,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.6,
+       "total": 80.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 46.5,
+        "recency": 46.1,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +945,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 79.4,
+       "total": 79.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 75.6,
+        "recency": 74.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1000,15 +999,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 74.4,
+       "total": 74.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.0,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1059,15 +1058,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 98.8,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1118,15 +1117,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 90.9,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1176,15 +1175,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 99.0,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1238,15 +1237,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 71.7,
+       "total": 71.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.1,
+        "recency": 92.3,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1262,6 +1261,66 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "480a8b723958aa8d",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-20",
+      "category": "research",
+      "tags": [
+       "school of engineering",
+       "mit schwarzman college of computing",
+       "aeronautical and astronautical engineeri",
+       "electrical engineering and computer scie",
+       "mechanical engineering",
+       "idss"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
+       "credit": "Image courtesy of Sunbochen Tang.",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "480a8b723958aa8d",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.8,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-21T00:14:26Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
+        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-21T00:58:07Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1299,15 +1358,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1318,7 +1377,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1359,15 +1418,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.5,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-20T21:00:00Z"
+       "asOf": "2026-11-21T00:14:26Z"
       },
       "tr": {
        "fa": {
@@ -1375,62 +1434,6 @@
         "excerpt": "بحث پانل در MIT بررسی مفاهیم AI برای کشف ریاضی و افرادی که آن را حرفه خود را.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T18:52:19Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "44d231d9ee488f2d",
-      "url": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "A game you cannot win unless you have a quantum computer",
-      "excerpt": "Quantum",
-      "lang": "en",
-      "publishedAt": "2026-11-19T20:03:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "research",
-      "tags": [
-       "quantum"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/QuantumContextuality1-MagicSquareGame.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "44d231d9ee488f2d",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.0,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-20T21:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک بازی که نمی توانید برنده شوید مگر اینکه یک کامپیوتر کوانتومی داشته باشید",
-        "excerpt": "کوانتومی کوانتومی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
        }
       }
      },
