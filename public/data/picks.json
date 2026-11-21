@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-21T00:14:26Z",
+ "asOf": "2026-11-21T01:06:42Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,69 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-20T00:14:26Z",
-   "to": "2026-11-21T00:14:26Z",
+   "from": "2026-11-20T01:06:42Z",
+   "to": "2026-11-21T01:06:42Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "3628ce26a7979362",
+      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+      "excerpt": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+      "lang": "en",
+      "publishedAt": "2026-11-21T01:06:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-21T02:32:01Z",
+      "day": "2026-11-21",
+      "category": "products",
+      "tags": [
+       "announcements",
+       "aws quick",
+       "foundational (100)"
+      ],
+      "entities": [
+       "amazon",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/Screenshot-2026-11-20-at-4.58.42%E2%80%AFPM.png",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "3628ce26a7979362",
+      "related": [],
+      "score": {
+       "total": 68.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-21T01:06:42Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جدید در AWS Quick: جریان های توانمندتر، یک تجربه وب به روز شده و عوامل که با هم کار می کنند",
+        "excerpt": "AWS Quick فضای کاری AI است که فقط برای کار ساخته شده است. امروز ما به روز رسانی هایی را منتشر می کنیم که به تیم شما کمک می کند تا بیشتر انجام شود: ساخت و اجرای جریان های کسب و کار در چت، روز خود را در برنامه به روز رسانی وب، پاسخ کامل تر از عوامل متعدد در یک زمان، و اتصال منابع داده جدید مانند تبلیغات متا و Amplitude.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-21T02:32:01Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "565159543ba42dea",
@@ -46,79 +105,20 @@
       "eventId": "565159543ba42dea",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 91.2,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه گوگل دوپل برای تماس با کسب و کار برای شما در Gemini",
         "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T00:58:07Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1b0c4ede4d1eb3f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
-      "excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
-      "lang": "en",
-      "publishedAt": "2026-11-21T00:14:26Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-21T00:58:07Z",
-      "day": "2026-11-21",
-      "category": "products",
-      "tags": [
-       "amazon elasticache",
-       "expert (400)",
-       "technical how-to"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22449-1.png",
-       "alt": "Diagram of the agent’s diagnosis and the proposed distributed KV caching architecture for the legal assistant",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "e1b0c4ede4d1eb3f",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-21T00:14:26Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کاهش هزینه و تاخیر خود میزبان LLM با مهارت عامل KV توزیع شده",
-        "excerpt": "خود میزبانی LLM در GPUs به معنای پرداخت هزینه برای بازنویسی همان زمینه در هر نوبت است. شکاف توزیع شده KV با Amazon ElastiCache می تواند هزینه استنتاج را تا 40٪ و زمان به توکن اول تا 80٪ کاهش دهد. این پست از طریق مهارت ذخیره سازی KV توزیع شده در ابزار عامل AWS پیاده سازی می کند که حافظه را از عامل برنامه نویسی شما ارزیابی و تنظیم می کند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-21T00:58:07Z"
        }
@@ -164,15 +164,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.3,
+        "recency": 74.4,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -193,51 +193,52 @@
     },
     {
      "article": {
-      "id": "dc26abff63441211",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
+      "id": "e1b0c4ede4d1eb3f",
+      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
-      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+      "excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
       "lang": "en",
-      "publishedAt": "2026-11-20T20:37:31Z",
+      "publishedAt": "2026-11-21T00:14:26Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "policy",
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-21",
+      "category": "products",
       "tags": [
-       "intermediate (200)",
-       "thought leadership"
+       "amazon elasticache",
+       "expert (400)",
+       "technical how-to"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
-       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22449-1.png",
+       "alt": "Diagram of the agent’s diagnosis and the proposed distributed KV caching architecture for the legal assistant",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "dc26abff63441211",
+      "eventId": "e1b0c4ede4d1eb3f",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.2,
-        "topic": 85.0,
-        "novelty": 90.9
+        "recency": 95.1,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
-        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
+        "title": "کاهش هزینه و تاخیر خود میزبان LLM با مهارت عامل KV توزیع شده",
+        "excerpt": "خود میزبانی LLM در GPUs به معنای پرداخت هزینه برای بازنویسی همان زمینه در هر نوبت است. شکاف توزیع شده KV با Amazon ElastiCache می تواند هزینه استنتاج را تا 40٪ و زمان به توکن اول تا 80٪ کاهش دهد. این پست از طریق مهارت ذخیره سازی KV توزیع شده در ابزار عامل AWS پیاده سازی می کند که حافظه را از عامل برنامه نویسی شما ارزیابی و تنظیم می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-21T00:58:07Z"
        }
       }
      },
@@ -282,15 +283,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 66.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.9,
+        "recency": 78.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -342,15 +343,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 66.8,
+       "total": 66.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.3,
+        "recency": 74.4,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -372,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-14T00:14:26Z",
-   "to": "2026-11-21T00:14:26Z",
+   "from": "2026-11-14T01:06:42Z",
+   "to": "2026-11-21T01:06:42Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -402,15 +403,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 72.4,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 86.5,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -461,15 +462,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 95.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -524,11 +525,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 38.1,
+        "recency": 37.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -579,15 +580,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.6,
+        "recency": 95.8,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -639,15 +640,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 95.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -699,15 +700,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 96.1,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -758,15 +759,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.5,
+        "recency": 82.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -817,15 +818,15 @@
       "eventId": "565159543ba42dea",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.3,
+        "recency": 98.5,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -847,8 +848,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-22T00:14:26Z",
-   "to": "2026-11-21T00:14:26Z",
+   "from": "2026-10-22T01:06:42Z",
+   "to": "2026-11-21T01:06:42Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -890,11 +891,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 46.1,
+        "recency": 46.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -949,11 +950,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 74.9,
+        "recency": 74.7,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -999,15 +1000,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 74.2,
+       "total": 74.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 95.7,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1058,15 +1059,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.5,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1117,15 +1118,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.9,
+        "recency": 90.6,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1179,11 +1180,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.0,
+        "recency": 98.7,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1241,11 +1242,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.3,
+        "recency": 92.0,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1298,15 +1299,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 98.5,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1358,15 +1359,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 98.8,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
@@ -1418,15 +1419,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.5,
+        "recency": 97.2,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-21T00:14:26Z"
+       "asOf": "2026-11-21T01:06:42Z"
       },
       "tr": {
        "fa": {
