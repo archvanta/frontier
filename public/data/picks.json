@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-21T01:06:42Z",
+ "asOf": "2026-11-21T06:00:52Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,62 +10,124 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-20T01:06:42Z",
-   "to": "2026-11-21T01:06:42Z",
+   "from": "2026-11-20T06:00:52Z",
+   "to": "2026-11-21T06:00:52Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "3628ce26a7979362",
-      "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
-      "excerpt": "AWS Quick is the AI workspace built only for work. Today we're releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+      "id": "3bd15573705779b6",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/robot-hands-future-of-humanity-ai",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘The doom of humanity’: will the quest to make robotic hands render us obsolete?",
+      "excerpt": "The one thing stopping AI taking over the world – or at least everyone’s jobs? Dexterity. Human hands are anatomical marvels that engineers have struggled for years to replicate. Experts are racing to change that Just outside Luton, in an Amazon warehouse the size of four football pitches, yellow shelving units pirouette in a digitally choreographed dance. Tubs containing a Lego Spider-Man kit…",
       "lang": "en",
-      "publishedAt": "2026-11-21T01:06:42Z",
+      "publishedAt": "2026-11-21T06:00:52Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-21T02:32:01Z",
+      "fetchedAt": "2026-11-21T08:51:04Z",
       "day": "2026-11-21",
-      "category": "products",
+      "category": "policy",
       "tags": [
-       "announcements",
-       "aws quick",
-       "foundational (100)"
+       "ai (artificial intelligence)",
+       "robots",
+       "work & careers",
+       "technology",
+       "amazon",
+       "research and development"
       ],
       "entities": [
-       "amazon",
-       "meta"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/Screenshot-2026-11-20-at-4.58.42%E2%80%AFPM.png",
+       "url": "https://i.guim.co.uk/img/media/23b370295e6a0451fe53a38aba2282045f215272/1054_0_6677_5342/master/6677.jpg?width=700&quality=85&auto=format&fit=max&s=80ee42f61eddca00a29cb77df45c109c",
+       "credit": "Photograph: David Vintiner/The Guardian",
        "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "3628ce26a7979362",
+      "eventId": "3bd15573705779b6",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 65.8,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
         "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 85.7
+        "topic": 85.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
-        "title": "جدید در AWS Quick: جریان های توانمندتر، یک تجربه وب به روز شده و عوامل که با هم کار می کنند",
-        "excerpt": "AWS Quick فضای کاری AI است که فقط برای کار ساخته شده است. امروز ما به روز رسانی هایی را منتشر می کنیم که به تیم شما کمک می کند تا بیشتر انجام شود: ساخت و اجرای جریان های کسب و کار در چت، روز خود را در برنامه به روز رسانی وب، پاسخ کامل تر از عوامل متعدد در یک زمان، و اتصال منابع داده جدید مانند تبلیغات متا و Amplitude.",
+        "title": "«بیماری بشریت»: آیا تلاش برای ایجاد دست های رباتیک ما را منسوخ خواهد کرد؟",
+        "excerpt": "یکی از چیزهایی که متوقف کردن هوش مصنوعی در سراسر جهان یا حداقل شغل همه افراد است؟ اختلاف دست های انسانی شگفتی های آناتومیک هستند که مهندسان سال ها برای تکرار آن تلاش کرده اند. کارشناسان در حال رقابت برای تغییر هستند که فقط در خارج از لوتون، در یک انبار آمازون، اندازه چهار زمین فوتبال، واحدهای اسکیت زرد در یک رقص دیجیتال است. حمام های حاوی یک کیت مرد عنکبوتی لگو",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T02:32:01Z"
+        "at": "2026-11-21T08:51:04Z"
        }
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cedca3bd6777efe2",
+      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
+      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:00:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "WN-JK-hMAyg",
+       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
+      },
+      "eventId": "cedca3bd6777efe2",
+      "related": [],
+      "score": {
+       "total": 64.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 56.1,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-21T06:00:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
+        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T21:15:12Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -105,15 +167,15 @@
       "eventId": "565159543ba42dea",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 63.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 68.7,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -121,65 +183,6 @@
         "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-21T00:58:07Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cedca3bd6777efe2",
-      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
-      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "WN-JK-hMAyg",
-       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
-      },
-      "eventId": "cedca3bd6777efe2",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.4,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-21T01:06:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
-        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
        }
       }
      },
@@ -193,52 +196,51 @@
     },
     {
      "article": {
-      "id": "e1b0c4ede4d1eb3f",
-      "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill",
+      "id": "dc26abff63441211",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
       "sourceId": "aws-ml",
       "sourceName": "AWS Machine Learning Blog",
-      "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
-      "excerpt": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
       "lang": "en",
-      "publishedAt": "2026-11-21T00:14:26Z",
+      "publishedAt": "2026-11-20T20:37:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-21T00:58:07Z",
-      "day": "2026-11-21",
-      "category": "products",
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
+      "category": "policy",
       "tags": [
-       "amazon elasticache",
-       "expert (400)",
-       "technical how-to"
+       "intermediate (200)",
+       "thought leadership"
       ],
       "entities": [
        "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/20/ML-22449-1.png",
-       "alt": "Diagram of the agent’s diagnosis and the proposed distributed KV caching architecture for the legal assistant",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
+       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
        "kind": "feed",
        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "e1b0c4ede4d1eb3f",
+      "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 67.8,
+       "total": 63.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.1,
-        "topic": 65.0,
-        "novelty": 90.0
+        "recency": 58.1,
+        "topic": 85.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
-        "title": "کاهش هزینه و تاخیر خود میزبان LLM با مهارت عامل KV توزیع شده",
-        "excerpt": "خود میزبانی LLM در GPUs به معنای پرداخت هزینه برای بازنویسی همان زمینه در هر نوبت است. شکاف توزیع شده KV با Amazon ElastiCache می تواند هزینه استنتاج را تا 40٪ و زمان به توکن اول تا 80٪ کاهش دهد. این پست از طریق مهارت ذخیره سازی KV توزیع شده در ابزار عامل AWS پیاده سازی می کند که حافظه را از عامل برنامه نویسی شما ارزیابی و تنظیم می کند.",
+        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
+        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T00:58:07Z"
+        "at": "2026-11-20T21:15:12Z"
        }
       }
      },
@@ -283,15 +285,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 66.5,
+       "total": 62.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.9,
+        "recency": 59.4,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -343,15 +345,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 66.0,
+       "total": 62.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.4,
+        "recency": 56.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -373,8 +375,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-14T01:06:42Z",
-   "to": "2026-11-21T01:06:42Z",
+   "from": "2026-11-14T06:00:52Z",
+   "to": "2026-11-21T06:00:52Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -403,15 +405,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 82.5,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -423,65 +425,6 @@
       }
      },
      "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cedca3bd6777efe2",
-      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
-      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "WN-JK-hMAyg",
-       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
-      },
-      "eventId": "cedca3bd6777efe2",
-      "related": [],
-      "score": {
-       "total": 72.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 100.0,
-        "novelty": 80.0
-       },
-       "asOf": "2026-11-21T01:06:42Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
-        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -521,15 +464,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 37.8,
+        "recency": 36.1,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -540,11 +483,70 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 2,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "cedca3bd6777efe2",
+      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
+      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:00:04Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "WN-JK-hMAyg",
+       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
+      },
+      "eventId": "cedca3bd6777efe2",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 90.8,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-21T06:00:52Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
+        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T21:15:12Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -580,15 +582,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 91.4,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -640,15 +642,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 70.1,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
+        "recency": 90.8,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -700,15 +702,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.1,
+        "recency": 91.7,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -759,15 +761,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.8,
+        "recency": 79.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -818,15 +820,15 @@
       "eventId": "565159543ba42dea",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 93.9,
         "topic": 80.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -848,8 +850,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-22T01:06:42Z",
-   "to": "2026-11-21T01:06:42Z",
+   "from": "2026-10-22T06:00:52Z",
+   "to": "2026-11-21T06:00:52Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -887,15 +889,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 80.5,
+       "total": 80.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 46.0,
+        "recency": 45.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +948,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 79.3,
+       "total": 79.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 74.7,
+        "recency": 73.7,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1000,15 +1002,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 74.1,
+       "total": 73.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.7,
+        "recency": 94.4,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1059,15 +1061,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 97.1,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1118,15 +1120,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.6,
+        "recency": 89.4,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1176,15 +1178,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 97.3,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1238,15 +1240,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 71.5,
+       "total": 71.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 92.0,
+        "recency": 90.7,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1299,15 +1301,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
+        "recency": 97.1,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1359,15 +1361,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.8,
+        "recency": 97.4,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
@@ -1419,15 +1421,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 95.8,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-21T01:06:42Z"
+       "asOf": "2026-11-21T06:00:52Z"
       },
       "tr": {
        "fa": {
