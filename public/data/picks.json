@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-22T21:14:07Z",
+ "asOf": "2026-11-22T22:48:02Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-21T21:14:07Z",
-   "to": "2026-11-22T21:14:07Z",
+   "from": "2026-11-21T22:48:02Z",
+   "to": "2026-11-22T22:48:02Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -44,15 +44,15 @@
       "eventId": "05744626c0d61baf",
       "related": [],
       "score": {
-       "total": 65.2,
+       "total": 63.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 91.4,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -64,6 +64,64 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e7090200216ed533",
+      "url": "https://www.theverge.com/tech/1039851/major-tech-outages",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "We haven’t seen the last of the major tech outages",
+      "excerpt": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase. But the consensus is that there are more to come. Director of National Intelligence Jay Clayton told CNN: \"The American people should be",
+      "lang": "en",
+      "publishedAt": "2026-11-22T22:48:02Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T23:53:48Z",
+      "day": "2026-11-22",
+      "category": "products",
+      "tags": [
+       "ai",
+       "news",
+       "security",
+       "tech"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A number of cursors point toward an unhappy face on a laptop",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "e7090200216ed533",
+      "related": [],
+      "score": {
+       "total": 61.8,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-22T22:48:02Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ما تا به حال شاهد آخرین قطعی های تکنولوژی نبودیم.",
+        "excerpt": "در طول هفته گذشته یا بیشتر، ما شاهد توقف زمینی FAA در سراسر کشور، یک قطع چشم انداز چند روزه هستیم که کل شرکت ها را به حالت ایستاده و قطع بانکی در JPMorgan Chase به ارمغان آورد. اما اجماع این است که بیشتر برای آمدن وجود دارد. جی کلیتون، مدیر اطلاعات ملی به سی ان گفت: «مردم آمریکا باید باشند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T23:53:48Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -106,15 +164,15 @@
       "eventId": "fb61cc4234e2e4e6",
       "related": [],
       "score": {
-       "total": 62.1,
+       "total": 60.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 87.0,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -125,7 +183,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -166,15 +224,15 @@
       "eventId": "adb0aabaaa02f91c",
       "related": [],
       "score": {
-       "total": 61.6,
+       "total": 60.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.9,
+        "recency": 80.3,
         "topic": 70.0,
         "novelty": 94.7
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -185,7 +243,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -221,15 +279,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 59.2,
+       "total": 58.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 29.3,
+        "recency": 26.8,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -240,7 +298,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -280,15 +338,15 @@
       "eventId": "265c68ec3a4cc76b",
       "related": [],
       "score": {
-       "total": 58.8,
+       "total": 57.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 80.2,
+        "recency": 73.3,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -296,62 +354,6 @@
         "excerpt": "بنینگ اسحاق: پشیمانی پلاس چند روز گذشته را صرف بررسی بمب در Steam پس از کشف شد که بخش خاصی از بازی استفاده از موسیقی AI کرده است. کاربر Reddit ShweetsStuff آهنگ های مورد استفاده در بخش Grand Theft Auto-themed را کشف کرد. آنها چندین فایل صوتی را با Sunodata پیدا کردند که به آن اشاره کردند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-22T18:04:57Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bed82431ae1f061b",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "excerpt": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
-      "lang": "en",
-      "publishedAt": "2026-11-22T18:08:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T22:31:14Z",
-      "day": "2026-11-22",
-      "category": "hardware",
-      "tags": [
-       "ai",
-       "government & policy",
-       "media & entertainment",
-       "data centers"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "bed82431ae1f061b",
-      "related": [],
-      "score": {
-       "total": 58.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 83.7,
-        "topic": 70.0,
-        "novelty": 72.7
-       },
-       "asOf": "2026-11-22T21:14:07Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا مراکز داده در مرکز واکنش های بزرگ تکنولوژی قرار دارند",
-        "excerpt": "روزنامه نگار پاریس مارکس کتاب جدید خود را با عنوان «پر مقیاس» منتشر می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T22:31:14Z"
        }
       }
      },
@@ -366,8 +368,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-15T21:14:07Z",
-   "to": "2026-11-22T21:14:07Z",
+   "from": "2026-11-15T22:48:02Z",
+   "to": "2026-11-22T22:48:02Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +400,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.5,
+        "recency": 80.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -457,15 +459,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 24.7,
+        "recency": 24.4,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -511,15 +513,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 66.3,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 56.5,
+        "recency": 55.7,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -570,15 +572,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 65.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.3,
+        "recency": 61.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -629,15 +631,15 @@
       "eventId": "640048dd8d426256",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 64.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 93.3,
+        "recency": 91.9,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -687,15 +689,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 64.4,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 62.6,
+        "recency": 61.7,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -750,15 +752,15 @@
       "eventId": "26e2979e9c83fed2",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 63.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.1,
+        "recency": 81.8,
         "topic": 65.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -809,15 +811,15 @@
       "eventId": "99186935d9c1d9b4",
       "related": [],
       "score": {
-       "total": 63.9,
+       "total": 63.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 95.1,
+        "recency": 93.7,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -839,8 +841,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-23T21:14:07Z",
-   "to": "2026-11-22T21:14:07Z",
+   "from": "2026-10-23T22:48:02Z",
+   "to": "2026-11-22T22:48:02Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -878,15 +880,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.4,
+       "total": 79.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 40.5,
+        "recency": 40.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -937,15 +939,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 77.5,
+       "total": 77.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 65.8,
+        "recency": 65.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -993,15 +995,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.1,
+        "recency": 93.6,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1046,15 +1048,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 71.9,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
+        "recency": 83.9,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1075,52 +1077,52 @@
     },
     {
      "article": {
-      "id": "f9730375d00ba37a",
-      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
-      "sourceId": "anthropic-youtube",
-      "sourceName": "Anthropic (YouTube)",
-      "title": "What we make of this moment, will make this moment.",
-      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
+      "id": "cedca3bd6777efe2",
+      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
+      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
       "lang": "en",
-      "publishedAt": "2026-11-19T15:02:49Z",
+      "publishedAt": "2026-11-20T20:00:04Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
       "category": "models",
       "tags": [],
       "entities": [
-       "anthropic"
+       "google"
       ],
-      "brand": "claude",
+      "brand": "gemini",
       "image": {
-       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
+       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
       "video": {
        "provider": "youtube",
-       "id": "JDsFHmq9hlA",
-       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
+       "id": "WN-JK-hMAyg",
+       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
       },
-      "eventId": "f9730375d00ba37a",
+      "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.8,
+        "recency": 86.4,
         "topic": 100.0,
-        "novelty": 94.1
+        "novelty": 80.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
-        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
-        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
+        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
+        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
+        "at": "2026-11-20T21:15:12Z"
        }
       }
      },
@@ -1167,15 +1169,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 69.3,
+       "total": 69.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.0,
+        "recency": 80.7,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1226,15 +1228,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.5,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1290,11 +1292,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.7,
+        "recency": 86.4,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1346,15 +1348,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 68.2,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 86.6,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
@@ -1406,15 +1408,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.6,
+        "recency": 85.2,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T21:14:07Z"
+       "asOf": "2026-11-22T22:48:02Z"
       },
       "tr": {
        "fa": {
