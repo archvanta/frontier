@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-22T18:00:00Z",
+ "asOf": "2026-11-22T21:14:07Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,58 +10,56 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-21T18:00:00Z",
-   "to": "2026-11-22T18:00:00Z",
+   "from": "2026-11-21T21:14:07Z",
+   "to": "2026-11-22T21:14:07Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "99186935d9c1d9b4",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
-      "excerpt": "What have I learned from my experiment with outsourcing? That I’m easily replaced – and awful I’ve just ventured deeper into my phone’s settings than anybody has ever been before. A software update is always discombobulating, but the latest one brought a lot of unwanted AI nonsense (that mental image you just got of me waving my fist at the sky: spot on). Even when you manually switch off Apple…",
+      "id": "05744626c0d61baf",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "excerpt": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
       "lang": "en",
-      "publishedAt": "2026-11-22T16:00:31Z",
+      "publishedAt": "2026-11-22T21:14:07Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
+      "fetchedAt": "2026-11-22T22:31:14Z",
       "day": "2026-11-22",
       "category": "research",
       "tags": [
-       "technology",
-       "mobile phones",
-       "ai (artificial intelligence)"
+       "ai",
+       "openai",
+       "sam altman"
       ],
       "entities": [
-       "apple"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/8de114b421ebe5837795f62e223317d67e4528bd/719_0_6156_4923/master/6156.jpg?width=700&quality=85&auto=format&fit=max&s=ec3aae18e38776ddc8d4aefaed0d736d",
-       "credit": "Photograph: Issarawat Tattong/Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "images/fallbacks/research.svg",
+       "kind": "fallback"
       },
-      "eventId": "99186935d9c1d9b4",
+      "eventId": "05744626c0d61baf",
       "related": [],
       "score": {
-       "total": 62.7,
+       "total": 65.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 100.0,
         "topic": 80.0,
-        "novelty": 88.9
+        "novelty": 91.7
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "من صحبت کردن با همسرم را متوقف کردم و اجازه دادم که AI این کار را انجام دهد. او حتی متوجه نشد که پوللی هادسون",
-        "excerpt": "از آزمایشم با برون سپاری چه آموختم؟ من به راحتی جایگزین می شوم - و وحشتناک است که من فقط به تنظیمات تلفن خود عمیق تر از هر کسی که قبلا بوده است. به روز رسانی نرم افزار همیشه گیج کننده است، اما آخرین چیزی که بسیاری از بی معنی های ناخواسته AI را به ارمغان آورد (تصویر ذهنی که شما فقط از من به تکان دادن مشت من در آسمان: نقطه در). حتی زمانی که به صورت دستی Apple را خاموش می کنید...",
+        "title": "دانشمند ارشد OpenAI در مورد چگونگی محدود کردن توسعه هوش مصنوعی فکر می کند",
+        "excerpt": "برای ایجاد محدودیت سرعت در توسعه AI، شما باید در مورد چگونگی اندازه گیری سرعت توافق کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-22T22:31:14Z"
        }
       }
      },
@@ -75,52 +73,55 @@
     },
     {
      "article": {
-      "id": "265c68ec3a4cc76b",
-      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
-      "excerpt": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to",
+      "id": "fb61cc4234e2e4e6",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+      "excerpt": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang’s reported affair with a suspected Chinese spy as “the most expensive sex since Helen of Troy”. The Louisiana Republican’s allusion to the legendary figure whose…",
       "lang": "en",
-      "publishedAt": "2026-11-22T17:25:20Z",
+      "publishedAt": "2026-11-22T20:23:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T18:04:57Z",
+      "fetchedAt": "2026-11-22T22:31:14Z",
       "day": "2026-11-22",
-      "category": "products",
+      "category": "hardware",
       "tags": [
-       "ai",
-       "entertainment",
-       "gaming",
-       "music",
-       "news"
+       "us politics",
+       "nvidia",
+       "jensen huang",
+       "us news",
+       "technology",
+       "republicans"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Binding of Isaac: Repenentance Plus thumbnail.",
+       "url": "https://i.guim.co.uk/img/media/4c4701470b09edcfeba9cbda93c6910a248a274b/0_116_6218_4975/master/6218.jpg?width=700&quality=85&auto=format&fit=max&s=0ce74b5525126b4a655a92cda2bfc6b5",
+       "credit": "Photograph: Edgar Su/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "265c68ec3a4cc76b",
+      "eventId": "fb61cc4234e2e4e6",
       "related": [],
       "score": {
        "total": 62.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.7,
-        "topic": 65.0,
-        "novelty": 90.0
+        "recency": 95.3,
+        "topic": 70.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "رد کردن توسعه دهنده اسحاق، موسیقی AI را از پشیمانی به علاوه حذف می کند",
-        "excerpt": "بنینگ اسحاق: پشیمانی پلاس چند روز گذشته را صرف بررسی بمب در Steam پس از کشف شد که بخش خاصی از بازی استفاده از موسیقی AI کرده است. کاربر Reddit ShweetsStuff آهنگ های مورد استفاده در بخش Grand Theft Auto-themed را کشف کرد. آنها چندین فایل صوتی را با Sunodata پیدا کردند که به آن اشاره کردند.",
+        "title": "گزارش های جنسن هوانگ «از زمان هلن تروی، گران ترین رابطه جنسی بود»، سناتور آمریکایی می گوید",
+        "excerpt": "جان کندی به رهبران Trump نگاه می کند، زیرا می پرسد که چگونه چین به وضوح کنترل صادرات را برای تراشه های برتر هوش مصنوعی Nvidia که اسطوره یونانی را تقویت می کنند، دور انداخته است، سناتور ایالات متحده جان کندی، افسر ارشد اجرایی سابق Nvidia Jensen Huang را با یک جاسوسی چینی مشکوک به عنوان \" گران ترین جنس از زمان هلن تروی\" توصیف کرده است. تمامیت جمهوری خواه لوئیزیانا به شخصیت افسانه ای که...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T18:04:57Z"
+        "at": "2026-11-22T22:31:14Z"
        }
       }
      },
@@ -134,52 +135,53 @@
     },
     {
      "article": {
-      "id": "640048dd8d426256",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/will-fragile-bipartisanship-on-ai-survive-silly-season-or-is-parliament-heading-for-a-holiday-meltdown-the-agenda",
+      "id": "adb0aabaaa02f91c",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Will fragile bipartisanship on AI survive the silly season, or is parliament heading for a holiday meltdown? | Josh Butler",
-      "excerpt": "A joint select committee report on Monday should signal where Labor is headed on issues including datacentres and copyright – and whether they’ll go it alone Get our daily political email, free app or daily news podcast The final four days of parliament for 2026 begin on Monday, and the government has a clutch of key reforms, budget hangovers and savings measures it wants to pass. But how many…",
+      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
+      "excerpt": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email, free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is “just the tip of the iceberg”. Analysis…",
       "lang": "en",
-      "publishedAt": "2026-11-22T14:00:32Z",
+      "publishedAt": "2026-11-22T19:00:34Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
+      "fetchedAt": "2026-11-22T22:31:14Z",
       "day": "2026-11-22",
-      "category": "policy",
+      "category": "hardware",
       "tags": [
+       "datacentres - australia",
+       "queensland",
        "australia news",
-       "australian politics",
-       "ai (artificial intelligence)",
-       "penny wong",
-       "datacentres - australia"
+       "new south wales",
+       "tasmania",
+       "victoria"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/0703852cd8009754ed16a9c2bbad6d2d80b6fedd/864_0_6880_5504/master/6880.jpg?width=700&quality=85&auto=format&fit=max&s=3e6f0d1866fee0d4d1770840ce80c859",
-       "credit": "Photograph: Lukas Coch/AAP",
+       "url": "https://i.guim.co.uk/img/media/7c9ca8255b51e9604fa64118322f08bb4d19c764/475_0_3640_2912/master/3640.jpg?width=700&quality=85&auto=format&fit=max&s=010dd370e77d5c889271f1998e597721",
+       "credit": "Photograph: Darren England/AAP",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "640048dd8d426256",
+      "eventId": "adb0aabaaa02f91c",
       "related": [],
       "score": {
-       "total": 62.0,
+       "total": 61.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.4,
-        "topic": 85.0,
-        "novelty": 93.3
+        "recency": 87.9,
+        "topic": 70.0,
+        "novelty": 94.7
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا دو حزب شکننده در AI زنده ماندن در فصل احمقانه و یا پارلمان به دنبال یک تعطیلات ذوب می شود؟ جاش باتلر",
-        "excerpt": "یک گزارش کمیته انتخاب مشترک در روز دوشنبه باید نشان دهد که در آن کار بر سر مسائل از جمله پایگاه های داده و حق کپی رایت قرار دارد و اینکه آیا آنها به تنهایی ایمیل سیاسی روزانه، برنامه رایگان یا پادکست خبری روزانه ما را دریافت می کنند که چهار روز آخر پارلمان برای 2026 روز دوشنبه شروع می شود و دولت دارای مجموعه ای از اصلاحات کلیدی، بودجه و اقدامات پس انداز است که می خواهد از آن عبور کند. اما چه تعداد...",
+        "title": "کارفرمایان مرکز داده با نخست وزیر ها و وزرای دولتی استرالیا در حدود 120 بار در سه سال ملاقات کردند، تجزیه و تحلیل ها نشان می دهد",
+        "excerpt": "شفافیت بین المللی می گوید دیوید کریستینایلی، رهبر دولتی اغلب قابل دسترسی است، با ۱۳ جلسه ایمیل اخبار شکستن ما، برنامه رایگان یا پادکست خبری روزانه را که در ۱۰ شرکت مرکز داده تقریبا ۱۲۰ جلسه با نخست وزیر ها و وزرا در پنج ایالت در یک دوره سه ساله، با کارشناسان اعلام کردند که این \"فقط نوک یخبرگ\" است. تحلیل ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-22T22:31:14Z"
        }
       }
      },
@@ -219,15 +221,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 60.4,
+       "total": 59.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 35.4,
+        "recency": 29.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -248,107 +250,108 @@
     },
     {
      "article": {
-      "id": "ea4ec8bb42c1fcbf",
-      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
-      "excerpt": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far short, solving fewer than one in ten tasks completely. The models finish clear, standalone assignments quickly, but…",
+      "id": "265c68ec3a4cc76b",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "excerpt": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to",
       "lang": "en",
-      "publishedAt": "2026-11-22T15:15:48Z",
+      "publishedAt": "2026-11-22T17:25:20Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
+      "fetchedAt": "2026-11-22T18:04:57Z",
       "day": "2026-11-22",
-      "category": "models",
+      "category": "products",
       "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "anthropic"
+       "ai",
+       "entertainment",
+       "gaming",
+       "music",
+       "news"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/cowork-benchmark-chatgpt-5-6.jpg",
-       "alt": "Illustration: A glowing mouse pointer navigates through a maze of folders, chats, and data toward a laptop.",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Binding of Isaac: Repenentance Plus thumbnail.",
        "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "ea4ec8bb42c1fcbf",
+      "eventId": "265c68ec3a4cc76b",
       "related": [],
       "score": {
-       "total": 59.0,
+       "total": 58.8,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 85.4,
-        "topic": 100.0,
-        "novelty": 89.5
+        "recency": 80.2,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "عوامل برنامه نویسی AI تست های جدا شده را انجام می دهند اما کمتر از یک در ده کار در محل کار شبیه سازی شده تکمیل می شوند.",
-        "excerpt": "یک آزمایش جدید در دنیای واقعی، عوامل برنامه نویسی AI را در یک کار توسعه دهنده شبیه سازی شده با همکاران، تخته های پروژه و دست های ناقص قرار می دهد، جایی که آنها مجبور به نگه داشتن نرم افزار در حال توسعه به صورت خودکار و قابل اعتماد بلیط های باز در یک گردش کاری روزانه آشفته هستند. حتی Opus 5.5 و Astra بسیار کوتاه هستند و کمتر از یک مورد را در ده کار به طور کامل حل می کنند. این مدل ها به سرعت تکالیف شفاف و مستقل را به پایان می رسانند، اما ...",
+        "title": "رد کردن توسعه دهنده اسحاق، موسیقی AI را از پشیمانی به علاوه حذف می کند",
+        "excerpt": "بنینگ اسحاق: پشیمانی پلاس چند روز گذشته را صرف بررسی بمب در Steam پس از کشف شد که بخش خاصی از بازی استفاده از موسیقی AI کرده است. کاربر Reddit ShweetsStuff آهنگ های مورد استفاده در بخش Grand Theft Auto-themed را کشف کرد. آنها چندین فایل صوتی را با Sunodata پیدا کردند که به آن اشاره کردند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-22T18:04:57Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "0f50037c76f25ff3",
-      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "The vibe-coding revolution is coming to all the gadgets",
-      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it's not",
+      "id": "bed82431ae1f061b",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "excerpt": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
       "lang": "en",
-      "publishedAt": "2026-11-22T13:00:00Z",
+      "publishedAt": "2026-11-22T18:08:43Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
+      "fetchedAt": "2026-11-22T22:31:14Z",
       "day": "2026-11-22",
-      "category": "products",
+      "category": "hardware",
       "tags": [
        "ai",
-       "column",
-       "tech",
-       "the stepback"
+       "government & policy",
+       "media & entertainment",
+       "data centers"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/AI_vibe_coding_hacker_hardware.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
       },
-      "eventId": "0f50037c76f25ff3",
+      "eventId": "bed82431ae1f061b",
       "related": [],
       "score": {
-       "total": 57.3,
+       "total": 58.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 74.9,
-        "topic": 65.0,
-        "novelty": 85.7
+        "recency": 83.7,
+        "topic": 70.0,
+        "novelty": 72.7
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "انقلاب ساخت و ساز به تمام گجت ها می آید",
-        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای کسب اطلاعات بیشتر از همه چیز، دیوید پیرس را دنبال کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه آن را مانند بسیاری از چیزها با AI شروع کرد، آن را نه",
+        "title": "چرا مراکز داده در مرکز واکنش های بزرگ تکنولوژی قرار دارند",
+        "excerpt": "روزنامه نگار پاریس مارکس کتاب جدید خود را با عنوان «پر مقیاس» منتشر می کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-22T22:31:14Z"
        }
       }
      },
@@ -363,8 +366,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-15T18:00:00Z",
-   "to": "2026-11-22T18:00:00Z",
+   "from": "2026-11-15T21:14:07Z",
+   "to": "2026-11-22T21:14:07Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -395,15 +398,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.1,
+        "recency": 81.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -454,15 +457,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 25.5,
+        "recency": 24.7,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -508,15 +511,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 66.7,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.3,
+        "recency": 56.5,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -567,15 +570,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.2,
+        "recency": 62.3,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -626,15 +629,15 @@
       "eventId": "640048dd8d426256",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 96.2,
+        "recency": 93.3,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -684,15 +687,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 64.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 64.6,
+        "recency": 62.6,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -747,15 +750,15 @@
       "eventId": "26e2979e9c83fed2",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 64.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.7,
+        "recency": 83.1,
         "topic": 65.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -806,15 +809,15 @@
       "eventId": "99186935d9c1d9b4",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 63.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 95.1,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -836,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-23T18:00:00Z",
-   "to": "2026-11-22T18:00:00Z",
+   "from": "2026-10-23T21:14:07Z",
+   "to": "2026-11-22T21:14:07Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -879,11 +882,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 40.9,
+        "recency": 40.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -934,15 +937,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 77.6,
+       "total": 77.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 66.4,
+        "recency": 65.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -990,15 +993,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.9,
+        "recency": 94.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -1043,15 +1046,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.1,
+        "recency": 84.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -1072,114 +1075,56 @@
     },
     {
      "article": {
-      "id": "cedca3bd6777efe2",
-      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
-      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
+      "id": "f9730375d00ba37a",
+      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
+      "sourceId": "anthropic-youtube",
+      "sourceName": "Anthropic (YouTube)",
+      "title": "What we make of this moment, will make this moment.",
+      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
       "lang": "en",
-      "publishedAt": "2026-11-20T20:00:04Z",
+      "publishedAt": "2026-11-19T15:02:49Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
+      "fetchedAt": "2026-11-19T21:00:34Z",
+      "day": "2026-11-19",
       "category": "models",
       "tags": [],
       "entities": [
-       "google"
+       "anthropic"
       ],
-      "brand": "gemini",
+      "brand": "claude",
       "image": {
-       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
       },
       "video": {
        "provider": "youtube",
-       "id": "WN-JK-hMAyg",
-       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
+       "id": "JDsFHmq9hlA",
+       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
       },
-      "eventId": "cedca3bd6777efe2",
+      "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.6,
+        "recency": 79.8,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 94.1
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
-        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
-        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
+        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
+        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-19T21:00:34Z"
        }
       }
      },
      "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dc26abff63441211",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
-      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:37:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "policy",
-      "tags": [
-       "intermediate (200)",
-       "thought leadership"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
-       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "dc26abff63441211",
-      "related": [],
-      "score": {
-       "total": 69.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 87.7,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-22T18:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
-        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1222,15 +1167,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 69.4,
+       "total": 69.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.8,
+        "recency": 81.0,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -1241,11 +1186,69 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "dc26abff63441211",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
+      "lang": "en",
+      "publishedAt": "2026-11-20T20:37:31Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
+      "category": "policy",
+      "tags": [
+       "intermediate (200)",
+       "thought leadership"
+      ],
+      "entities": [
+       "amazon"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
+       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
+       "kind": "feed",
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
+      },
+      "eventId": "dc26abff63441211",
+      "related": [],
+      "score": {
+       "total": 69.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 86.9,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-22T21:14:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
+        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-20T21:15:12Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1283,15 +1286,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.6,
+        "recency": 86.7,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -1343,15 +1346,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.8,
+        "recency": 87.0,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
@@ -1403,15 +1406,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.4,
+        "recency": 85.6,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T18:00:00Z"
+       "asOf": "2026-11-22T21:14:07Z"
       },
       "tr": {
        "fa": {
