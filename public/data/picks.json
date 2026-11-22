@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-22T16:00:31Z",
+ "asOf": "2026-11-22T18:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-21T16:00:31Z",
-   "to": "2026-11-22T16:00:31Z",
+   "from": "2026-11-21T18:00:00Z",
+   "to": "2026-11-22T18:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "99186935d9c1d9b4",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 62.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 89.1,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -66,6 +66,65 @@
       }
      },
      "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "265c68ec3a4cc76b",
+      "url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+      "excerpt": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to",
+      "lang": "en",
+      "publishedAt": "2026-11-22T17:25:20Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T18:04:57Z",
+      "day": "2026-11-22",
+      "category": "products",
+      "tags": [
+       "ai",
+       "entertainment",
+       "gaming",
+       "music",
+       "news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/j7yPmbNCP4I-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Binding of Isaac: Repenentance Plus thumbnail.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "265c68ec3a4cc76b",
+      "related": [],
+      "score": {
+       "total": 62.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.7,
+        "topic": 65.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-22T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "رد کردن توسعه دهنده اسحاق، موسیقی AI را از پشیمانی به علاوه حذف می کند",
+        "excerpt": "بنینگ اسحاق: پشیمانی پلاس چند روز گذشته را صرف بررسی بمب در Steam پس از کشف شد که بخش خاصی از بازی استفاده از موسیقی AI کرده است. کاربر Reddit ShweetsStuff آهنگ های مورد استفاده در بخش Grand Theft Auto-themed را کشف کرد. آنها چندین فایل صوتی را با Sunodata پیدا کردند که به آن اشاره کردند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T18:04:57Z"
+       }
+      }
+     },
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -105,15 +164,15 @@
       "eventId": "640048dd8d426256",
       "related": [],
       "score": {
-       "total": 63.9,
+       "total": 62.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 79.4,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -124,10 +183,65 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de5cd1a6d51dc917",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T18:04:57Z",
+      "day": "2026-11-22",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de5cd1a6d51dc917",
+      "related": [],
+      "score": {
+       "total": 60.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 35.4,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-22T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پیچیدگی و هوش",
+        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T18:04:57Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -162,15 +276,15 @@
       "eventId": "ea4ec8bb42c1fcbf",
       "related": [],
       "score": {
-       "total": 61.1,
+       "total": 59.0,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 85.4,
         "topic": 100.0,
         "novelty": 89.5
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -181,12 +295,12 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-3",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
@@ -219,140 +333,20 @@
       "eventId": "0f50037c76f25ff3",
       "related": [],
       "score": {
-       "total": 59.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 84.0,
-        "topic": 65.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-22T16:00:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "انقلاب ساخت و ساز به تمام گجت ها می آید",
-        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای کسب اطلاعات بیشتر از همه چیز، دیوید پیرس را دنبال کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه آن را مانند بسیاری از چیزها با AI شروع کرد، آن را نه",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b014e723007fa87f",
-      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
-      "excerpt": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestimate what the models can actually do. The article AI is getting better faster than experts can reliably test whether new…",
-      "lang": "en",
-      "publishedAt": "2026-11-22T13:00:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
-      "day": "2026-11-22",
-      "category": "models",
-      "tags": [
-       "ai research",
-       "artificial intelligence",
-       "short news",
-       "ai and safety",
-       "ai safety",
-       "cybersecurity"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/06/metr_logo.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "b014e723007fa87f",
-      "related": [],
-      "score": {
-       "total": 58.6,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 100.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-22T16:00:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "هوش مصنوعی سریع تر از کارشناسان می تواند آزمایش کند که آیا سیستم های جدید ایمن هستند یا خیر.",
-        "excerpt": "METR گزارش می دهد که مدل های پیشرو AI مانند Opus 5.5 و GPT-6 Astra به سرعت در کارهای تحقیقاتی بهبود می یابند اما اندازه گیری آن سخت تر است. داده های فعلی نمی توانند شتاب خطرناکی در توسعه هوش مصنوعی را رد کنند، اما سازمان هشدار می دهد که آزمایش های مشترک ممکن است بیش از آنچه که مدل ها در واقع می توانند انجام دهند، بی اهمیت باشند. مقاله AI سریعتر از کارشناسان می تواند به طور قابل اطمینان آزمایش کند که آیا جدید ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5077f698fa6ffaf4",
-      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "Banks Have Had It Up to Here With Your AI Agent",
-      "excerpt": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
-      "lang": "en",
-      "publishedAt": "2026-11-22T11:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
-      "day": "2026-11-22",
-      "category": "products",
-      "tags": [
-       "gear",
-       "gear / gear news and events",
-       "artificial intelligence",
-       "agentic ai",
-       "banks",
-       "finance"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/pass/GettyImages-2285133719.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
-      },
-      "eventId": "5077f698fa6ffaf4",
-      "related": [],
-      "score": {
-       "total": 57.5,
+       "total": 57.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
         "recency": 74.9,
         "topic": 65.0,
-        "novelty": 87.5
+        "novelty": 85.7
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "بانک ها این را در اینجا با آژانس هوش مصنوعی خود داشته اند",
-        "excerpt": "موسسات مالی عمده ایالات متحده، ربات های شخص ثالث را از ورود به حساب های شما منع می کنند و هشدار می دهند که هر گونه خطای گران قیمت ربات به شدت مشکل شما هستند.",
+        "title": "انقلاب ساخت و ساز به تمام گجت ها می آید",
+        "excerpt": "این مرحله بازگشت است، خبرنامه هفتگی که یک داستان ضروری از دنیای تکنولوژی را از بین می برد. برای کسب اطلاعات بیشتر از همه چیز، دیوید پیرس را دنبال کنید. بازگشت به صندوق های مشترک ما در یکشنبه 8AM ET می رسد. در اینجا برای عقب نشینی انتخاب کنید. چگونه آن را مانند بسیاری از چیزها با AI شروع کرد، آن را نه",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-22T16:22:53Z"
        }
@@ -369,10 +363,65 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-15T16:00:31Z",
-   "to": "2026-11-22T16:00:31Z",
+   "from": "2026-11-15T18:00:00Z",
+   "to": "2026-11-22T18:00:00Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "de5cd1a6d51dc917",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T18:04:57Z",
+      "day": "2026-11-22",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de5cd1a6d51dc917",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.1,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-22T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پیچیدگی و هوش",
+        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T18:04:57Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "773cc78ee17a9631",
@@ -405,15 +454,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 26.0,
+        "recency": 25.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -424,7 +473,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -459,15 +508,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 66.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 59.5,
+        "recency": 58.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -478,7 +527,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -518,15 +567,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.5,
+        "recency": 64.2,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -537,7 +586,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -577,15 +626,15 @@
       "eventId": "640048dd8d426256",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 65.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 96.2,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -596,7 +645,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -606,60 +655,58 @@
     },
     {
      "article": {
-      "id": "4c0021c18a94ec58",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/why-i-wont-leave-mathematics-despite-ai-solving-centuries-old-problems",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Why I won’t leave mathematics, despite AI solving centuries-old problems | Ken Ono",
-      "excerpt": "I believe human judgment remains essential Last year, I nearly quit mathematics. On 20 November, Levent Alpöge announced that, working with Claude, he had proved the Riemann hypothesis, a 167-year-old problem about the distribution of prime numbers. The Lean and Mathlib communities have since certified the formal proof. We are only beginning to understand the argument. What kind of future awaits…",
+      "id": "dc26abff63441211",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
+      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
       "lang": "en",
-      "publishedAt": "2026-11-22T11:00:26Z",
+      "publishedAt": "2026-11-20T20:37:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
-      "day": "2026-11-22",
+      "fetchedAt": "2026-11-20T21:15:12Z",
+      "day": "2026-11-20",
       "category": "policy",
       "tags": [
-       "us news",
-       "ai (artificial intelligence)",
-       "mathematics",
-       "chatgpt"
+       "intermediate (200)",
+       "thought leadership"
       ],
       "entities": [
-       "anthropic"
+       "amazon"
       ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/df6c16bf913288657abe83afff8969abdd383bad/581_0_4307_3445/master/4307.jpg?width=700&quality=85&auto=format&fit=max&s=c8b780cba654a1f82281f363ef71a42b",
-       "credit": "Photograph: Trish Gant/Alamy",
+       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
+       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
       },
-      "eventId": "4c0021c18a94ec58",
+      "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 64.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.3,
+        "recency": 64.6,
         "topic": 85.0,
-        "novelty": 92.9
+        "novelty": 90.9
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "چرا ریاضیات را ترک نخواهم کرد، علی رغم مشکلات قرن ها حل هوش مصنوعی",
-        "excerpt": "من معتقدم که قضاوت انسان در سال گذشته ضروری است، من تقریبا ریاضیات را ترک می کنم. در 20 نوامبر، لونت آلپژ اعلام کرد که با کلود کار می کند، فرضیه ریمان را اثبات کرده بود، یک مشکل 167 ساله در مورد توزیع اعداد اول. جوامع ناب و ریاضیات از آن زمان اثبات رسمی را تایید کرده اند. ما فقط شروع به درک استدلال می کنیم. چه آینده ای در انتظار ...",
+        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
+        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-20T21:15:12Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -700,15 +747,15 @@
       "eventId": "26e2979e9c83fed2",
       "related": [],
       "score": {
-       "total": 65.0,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 87.4,
+        "recency": 85.7,
         "topic": 65.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -716,65 +763,6 @@
         "excerpt": "AWS Quick در حال حاضر دارای یک کانکتور متا تبلیغات AI است. تبلیغ کنندگان متا می توانند از زبان طبیعی به سرعت برای ایجاد، مدیریت و تجزیه و تحلیل کمپین ها در حالی که متصل به شبکه مدیریت تبلیغات متا، و ترکیب داده های تبلیغات متا با منابع اول و شخص ثالث برای ساخت داشبورد، اسناد، عرشه اسلاید و جریان های کار خودکار استفاده کنند.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-22T02:41:27Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "27db4f2d4b5e105d",
-      "url": "https://www.youtube.com/watch?v=3_fayTbZrW8",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Create and Share a Report in ChatGPT Space",
-      "excerpt": "Give your team a report they can read, discuss, and work on together. In this walkthrough, turn the fictional Acme sales analysis into a Page in Space, with the highlights, quarterly comparisons, and charts in one place. See how to choose who can access the report, copy a link for your meeting, edit a heading directly, ask ChatGPT questions about the report, and leave comments beside the…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T05:32:52Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T10:35:30Z",
-      "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/3_fayTbZrW8/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "3_fayTbZrW8",
-       "url": "https://www.youtube.com/watch?v=3_fayTbZrW8"
-      },
-      "eventId": "27db4f2d4b5e105d",
-      "related": [],
-      "score": {
-       "total": 64.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 57.0,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-22T16:00:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ایجاد و به اشتراک گذاری یک گزارش در ChatGPT Space",
-        "excerpt": "به تیم خود گزارشی بدهید که می توانند بخوانند، بحث کنند و با هم کار کنند. در این پیاده روی، تجزیه و تحلیل فروش داستانی Acme را به یک صفحه در فضا تبدیل کنید، با برجسته ها، مقایسه های فصلی و نمودارها در یک مکان. ببینید چگونه انتخاب کنید که چه کسی می تواند به گزارش دسترسی داشته باشد، یک لینک برای جلسه خود کپی کنید، یک عنوان را به طور مستقیم ویرایش کنید، از سوالات ChatGPT در مورد گزارش بپرسید و نظرات را در کنار ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T10:35:30Z"
        }
       }
      },
@@ -788,60 +776,59 @@
     },
     {
      "article": {
-      "id": "480a8b723958aa8d",
-      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New approach enables physically consistent AI models of chaotic systems",
-      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
+      "id": "99186935d9c1d9b4",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
+      "excerpt": "What have I learned from my experiment with outsourcing? That I’m easily replaced – and awful I’ve just ventured deeper into my phone’s settings than anybody has ever been before. A software update is always discombobulating, but the latest one brought a lot of unwanted AI nonsense (that mental image you just got of me waving my fist at the sky: spot on). Even when you manually switch off Apple…",
       "lang": "en",
-      "publishedAt": "2026-11-20T20:00:00Z",
+      "publishedAt": "2026-11-22T16:00:31Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-21T00:58:07Z",
-      "day": "2026-11-20",
+      "fetchedAt": "2026-11-22T16:22:53Z",
+      "day": "2026-11-22",
       "category": "research",
       "tags": [
-       "school of engineering",
-       "mit schwarzman college of computing",
-       "aeronautical and astronautical engineeri",
-       "electrical engineering and computer scie",
-       "mechanical engineering",
-       "idss"
+       "technology",
+       "mobile phones",
+       "ai (artificial intelligence)"
       ],
-      "entities": [],
+      "entities": [
+       "apple"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
-       "credit": "Image courtesy of Sunbochen Tang.",
+       "url": "https://i.guim.co.uk/img/media/8de114b421ebe5837795f62e223317d67e4528bd/719_0_6156_4923/master/6156.jpg?width=700&quality=85&auto=format&fit=max&s=ec3aae18e38776ddc8d4aefaed0d736d",
+       "credit": "Photograph: Issarawat Tattong/Getty Images",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "480a8b723958aa8d",
+      "eventId": "99186935d9c1d9b4",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 64.5,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 65.5,
+        "recency": 98.1,
         "topic": 80.0,
-        "novelty": 90.9
+        "novelty": 88.9
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
-        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
+        "title": "من صحبت کردن با همسرم را متوقف کردم و اجازه دادم که AI این کار را انجام دهد. او حتی متوجه نشد که پوللی هادسون",
+        "excerpt": "از آزمایشم با برون سپاری چه آموختم؟ من به راحتی جایگزین می شوم - و وحشتناک است که من فقط به تنظیمات تلفن خود عمیق تر از هر کسی که قبلا بوده است. به روز رسانی نرم افزار همیشه گیج کننده است، اما آخرین چیزی که بسیاری از بی معنی های ناخواسته AI را به ارمغان آورد (تصویر ذهنی که شما فقط از من به تکان دادن مشت من در آسمان: نقطه در). حتی زمانی که به صورت دستی Apple را خاموش می کنید...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T00:58:07Z"
+        "at": "2026-11-22T16:22:53Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -849,8 +836,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-23T16:00:31Z",
-   "to": "2026-11-22T16:00:31Z",
+   "from": "2026-10-23T18:00:00Z",
+   "to": "2026-11-22T18:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -888,15 +875,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.5,
+       "total": 79.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 41.1,
+        "recency": 40.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -947,15 +934,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 77.7,
+       "total": 77.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 66.8,
+        "recency": 66.4,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -971,6 +958,61 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de5cd1a6d51dc917",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T18:04:57Z",
+      "day": "2026-11-22",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de5cd1a6d51dc917",
+      "related": [],
+      "score": {
+       "total": 72.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.9,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-22T18:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پیچیدگی و هوش",
+        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T18:04:57Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1001,15 +1043,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 72.1,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.6,
+        "recency": 85.1,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1020,7 +1062,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1060,15 +1102,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 87.6,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1076,65 +1118,6 @@
         "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f9730375d00ba37a",
-      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
-      "sourceId": "anthropic-youtube",
-      "sourceName": "Anthropic (YouTube)",
-      "title": "What we make of this moment, will make this moment.",
-      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
-      "lang": "en",
-      "publishedAt": "2026-11-19T15:02:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "JDsFHmq9hlA",
-       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
-      },
-      "eventId": "f9730375d00ba37a",
-      "related": [],
-      "score": {
-       "total": 70.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 81.0,
-        "topic": 100.0,
-        "novelty": 94.1
-       },
-       "asOf": "2026-11-22T16:00:31Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
-        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
        }
       }
      },
@@ -1177,15 +1160,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 87.7,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1239,15 +1222,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 82.3,
+        "recency": 81.8,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1300,15 +1283,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.1,
+        "recency": 87.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1360,15 +1343,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 87.8,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1420,15 +1403,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.9,
+        "recency": 86.4,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T16:00:31Z"
+       "asOf": "2026-11-22T18:00:00Z"
       },
       "tr": {
        "fa": {
