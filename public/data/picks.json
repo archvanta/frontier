@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-22T00:00:00Z",
+ "asOf": "2026-11-22T01:59:13Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,73 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-21T00:00:00Z",
-   "to": "2026-11-22T00:00:00Z",
+   "from": "2026-11-21T01:59:13Z",
+   "to": "2026-11-22T01:59:13Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "26e2979e9c83fed2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Meta ads is now available in AWS Quick",
+      "excerpt": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T01:59:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T02:41:27Z",
+      "day": "2026-11-22",
+      "category": "products",
+      "tags": [
+       "announcements",
+       "aws quick",
+       "foundational (100)"
+      ],
+      "entities": [
+       "amazon",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "video": {
+       "provider": "file",
+       "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22411/b46d9e222b1ec27f572a3e2ba0fc06ab8c1447b3be0e8fd10a7e101091d9191d.mp4",
+       "type": "video/mp4"
+      },
+      "eventId": "26e2979e9c83fed2",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-11-22T01:59:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات متا در AWS Quick در دسترس است",
+        "excerpt": "AWS Quick در حال حاضر دارای یک کانکتور متا تبلیغات AI است. تبلیغ کنندگان متا می توانند از زبان طبیعی به سرعت برای ایجاد، مدیریت و تجزیه و تحلیل کمپین ها در حالی که متصل به شبکه مدیریت تبلیغات متا، و ترکیب داده های تبلیغات متا با منابع اول و شخص ثالث برای ساخت داشبورد، اسناد، عرشه اسلاید و جریان های کار خودکار استفاده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T02:41:27Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "234da3fc18675af9",
@@ -47,15 +110,15 @@
       "eventId": "234da3fc18675af9",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 60.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.6,
+        "recency": 71.0,
         "topic": 85.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +129,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -107,15 +170,15 @@
       "eventId": "faad3d069958a330",
       "related": [],
       "score": {
-       "total": 60.9,
+       "total": 59.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 74.9,
+        "recency": 66.8,
         "topic": 85.0,
         "novelty": 91.3
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -126,7 +189,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -136,109 +199,51 @@
     },
     {
      "article": {
-      "id": "a422d7d4ef283286",
-      "url": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers",
-      "sourceId": "pc-gamer",
-      "sourceName": "PC Gamer",
-      "title": "Wizards of the Coast to pass full AI copyright payout to D&D writers",
-      "excerpt": "You gotta hand it to them, but the payout sounds like it would have been small potatoes to the company.",
+      "id": "158994b8ae4ecd45",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "excerpt": "Week-long efforts fail to establish negotiating mandate on AI warfare after Russian ‘filibustering’ Week-long efforts to agree a negotiating mandate for a legally binding international treaty to control the use of autonomous weapons collapsed just before 5am after all-night talks failed to overcome Russian objections. Despite an overwhelming majority of states at the UN’s Convention on Certain…",
       "lang": "en",
-      "publishedAt": "2026-11-21T23:40:42Z",
+      "publishedAt": "2026-11-21T16:36:11Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T00:25:08Z",
+      "fetchedAt": "2026-11-21T16:58:32Z",
       "day": "2026-11-21",
       "category": "policy",
       "tags": [
-       "rpg",
-       "games"
+       "weapons technology",
+       "ai (artificial intelligence)",
+       "russia",
+       "united nations",
+       "world news",
+       "science"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn.mos.cms.futurecdn.net/iVnpcXYQRt6vWcgUKCQZg7-1920-80.jpg",
-       "alt": "Dark Elf holding up sword wearing leather armor spider lady approaching from behind Drizzt Do&#039;Urden inset of cover of Lolth&#039;s Warrior by R.A. Salvatore.",
-       "credit": "Wizards of the Coast",
-       "kind": "feed",
-       "sourceUrl": "https://www.pcgamer.com/rss/"
-      },
-      "eventId": "a422d7d4ef283286",
-      "related": [],
-      "score": {
-       "total": 59.6,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 98.2,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-22T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جادوگرهای ساحل برای انتقال کامل حق کپی رایت AI به نویسندگان D&D",
-        "excerpt": "شما باید آن را به آنها تحویل دهید، اما به نظر می رسد که پرداخت آن سیب زمینی کوچک برای شرکت بوده است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T00:25:08Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "3500af305ed03afd",
-      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Anthropic mathematician claims he used Claude to prove 19th-century Riemann hypothesis",
-      "excerpt": "Levent Alpöge says it took six weeks for him using the AI tool to solve the math problem involving prime numbers A mathematician at Anthropic is contending that the San Francisco-based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in mathematics. Levent Alpöge, a Turkish American mathematician, on Friday posted a note on his personal…",
-      "lang": "en",
-      "publishedAt": "2026-11-21T16:39:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-21T16:58:32Z",
-      "day": "2026-11-21",
-      "category": "models",
-      "tags": [
-       "anthropic",
-       "mathematics",
-       "ai (artificial intelligence)",
-       "technology",
-       "us news"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/d3154f68df589c297fc3d173e2bb3d95faca05c9/530_0_4678_3742/master/4678.jpg?width=700&quality=85&auto=format&fit=max&s=ab96c8a55f88ac0c0ea5a6c5056c0f24",
-       "credit": "Photograph: Brendan McDermid/Reuters",
+       "url": "https://i.guim.co.uk/img/media/247601abada695f09f302253178bbc8f6e58cd42/415_0_4165_3333/master/4165.jpg?width=700&quality=85&auto=format&fit=max&s=53e5333670bc5c7e1cdca1ffee1bca36",
+       "credit": "Photograph: Fabrice Coffrini/AFP/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "3500af305ed03afd",
+      "eventId": "158994b8ae4ecd45",
       "related": [],
       "score": {
-       "total": 58.8,
+       "total": 57.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 65.5,
-        "topic": 100.0,
-        "novelty": 66.7
+        "recency": 58.2,
+        "topic": 85.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
-        "title": "ریاضیدان Anthropic ادعا می کند که او از کلود برای اثبات فرضیه ریمن قرن نوزدهم استفاده کرد",
-        "excerpt": "Levent Alpöge می گوید شش هفته طول کشید تا او از ابزار AI برای حل مشکل ریاضی شامل اعداد اول ریاضیدان در Anthropic استفاده کند و ادعا می کند که نرم افزار شرکت سان فرانسیسکو (AI) به شکستن یکی از مهمترین مشکلات حل نشده در ریاضیات کمک کرده است. Levent Alpöge، ریاضیدان آمریکایی ترکیه، در روز جمعه یادداشتی در مورد شخصی خود منتشر کرد.",
+        "title": "مذاکرات بین المللی سازمان ملل درباره کنترل استفاده از سلاح های مستقل",
+        "excerpt": "تلاش های طولانی مدت برای ایجاد مجوز مذاکره در مورد جنگ AI پس از تلاش های هفته ای روسیه برای موافقت با یک دستور مذاکره برای یک معاهده بین المللی الزام آور قانونی برای کنترل استفاده از سلاح های مستقل، درست قبل از ۵ صبح، پس از اینکه مذاکرات تمام شب نتوانست بر اعتراض های روسیه غلبه کند، شکست خورد. با وجود اکثریت قریب به اتفاق دولت ها در کنوانسیون سازمان ملل در خصوص برخی موارد ...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-21T16:58:32Z"
        }
@@ -283,15 +288,15 @@
       "eventId": "f3487ac9886e909d",
       "related": [],
       "score": {
-       "total": 58.5,
+       "total": 56.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.2,
+        "recency": 77.7,
         "topic": 55.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -342,15 +347,15 @@
       "eventId": "a1abc1ba2744afcb",
       "related": [],
       "score": {
-       "total": 57.2,
+       "total": 55.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.7,
+        "recency": 75.5,
         "topic": 55.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -372,8 +377,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-15T00:00:00Z",
-   "to": "2026-11-22T00:00:00Z",
+   "from": "2026-11-15T01:59:13Z",
+   "to": "2026-11-22T01:59:13Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +413,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 30.3,
+        "recency": 29.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -462,15 +467,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 69.4,
+        "recency": 68.0,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -521,15 +526,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 68.3,
+       "total": 68.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.4,
+        "recency": 74.9,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -541,6 +546,69 @@
       }
      },
      "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "26e2979e9c83fed2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
+      "sourceId": "aws-ml",
+      "sourceName": "AWS Machine Learning Blog",
+      "title": "Meta ads is now available in AWS Quick",
+      "excerpt": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T01:59:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T02:41:27Z",
+      "day": "2026-11-22",
+      "category": "products",
+      "tags": [
+       "announcements",
+       "aws quick",
+       "foundational (100)"
+      ],
+      "entities": [
+       "amazon",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
+      },
+      "video": {
+       "provider": "file",
+       "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22411/b46d9e222b1ec27f572a3e2ba0fc06ab8c1447b3be0e8fd10a7e101091d9191d.mp4",
+       "type": "video/mp4"
+      },
+      "eventId": "26e2979e9c83fed2",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 77.8
+       },
+       "asOf": "2026-11-22T01:59:13Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تبلیغات متا در AWS Quick در دسترس است",
+        "excerpt": "AWS Quick در حال حاضر دارای یک کانکتور متا تبلیغات AI است. تبلیغ کنندگان متا می توانند از زبان طبیعی به سرعت برای ایجاد، مدیریت و تجزیه و تحلیل کمپین ها در حالی که متصل به شبکه مدیریت تبلیغات متا، و ترکیب داده های تبلیغات متا با منابع اول و شخص ثالث برای ساخت داشبورد، اسناد، عرشه اسلاید و جریان های کار خودکار استفاده کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T02:41:27Z"
+       }
+      }
+     },
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -579,15 +647,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.8,
+        "recency": 75.4,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -598,7 +666,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -638,15 +706,15 @@
       "eventId": "27db4f2d4b5e105d",
       "related": [],
       "score": {
-       "total": 66.6,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 66.5,
+        "recency": 65.2,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -657,7 +725,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -698,15 +766,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 66.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 76.4,
+        "recency": 74.9,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -717,7 +785,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -758,15 +826,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 65.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.1,
+        "recency": 75.6,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -774,65 +842,6 @@
         "excerpt": "دانشمند ارشد تحقیقاتی جیم گلس در مورد چگونگی همکاری آزمایشگاه تحقیقاتی MIT-IBM بحث می کند که درک و زبان را به هم متصل می کند و به کوتاه شدن مدل های فعلی می پردازد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "565159543ba42dea",
-      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-11-20T23:30:30Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-21T00:58:07Z",
-      "day": "2026-11-20",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "machine intelligence",
-       "natural language processing",
-       "speech processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "565159543ba42dea",
-      "related": [],
-      "score": {
-       "total": 65.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 79.0,
-        "topic": 80.0,
-        "novelty": 77.8
-       },
-       "asOf": "2026-11-22T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه گوگل دوپل برای تماس با کسب و کار برای شما در Gemini",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T00:58:07Z"
        }
       }
      },
@@ -847,8 +856,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-23T00:00:00Z",
-   "to": "2026-11-22T00:00:00Z",
+   "from": "2026-10-23T01:59:13Z",
+   "to": "2026-11-22T01:59:13Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -886,15 +895,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.9,
+       "total": 79.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 43.0,
+        "recency": 42.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -945,15 +954,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 78.3,
+       "total": 78.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 69.9,
+        "recency": 69.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -999,15 +1008,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 72.9,
+       "total": 72.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.6,
+        "recency": 89.1,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1058,15 +1067,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1117,15 +1126,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 71.4,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.8,
+        "recency": 84.3,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1175,15 +1184,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 91.9,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1237,15 +1246,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 70.3,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 86.1,
+        "recency": 85.7,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1298,15 +1307,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 69.5,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 91.7,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1362,11 +1371,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.5,
+        "recency": 92.0,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
@@ -1418,15 +1427,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.0,
+        "recency": 90.5,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T00:00:00Z"
+       "asOf": "2026-11-22T01:59:13Z"
       },
       "tr": {
        "fa": {
