@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-23T08:00:50Z",
+ "asOf": "2026-11-23T14:43:23Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,118 +10,121 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-22T08:00:50Z",
-   "to": "2026-11-23T08:00:50Z",
+   "from": "2026-11-22T14:43:23Z",
+   "to": "2026-11-23T14:43:23Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "315fb775dc30231e",
-      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
-      "excerpt": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "id": "ecab1061c917e910",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
       "lang": "en",
-      "publishedAt": "2026-11-23T05:00:00Z",
+      "publishedAt": "2026-11-23T14:21:59Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
-      "category": "hardware",
+      "category": "business",
       "tags": [
-       "research",
-       "computer chips",
-       "electronics",
-       "artificial intelligence",
-       "computer science and technology",
-       "machine learning"
+       "ai",
+       "hardware",
+       "jensen huang",
+       "nvidia"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-AnalogOptimize-01-Press.jpg?itok=826Fvg7c",
-       "credit": "Image: Jose-Luis Olivares, MIT; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "315fb775dc30231e",
-      "related": [],
+      "eventId": "ecab1061c917e910",
+      "related": [
+       "7e93ff39fd333740"
+      ],
       "score": {
-       "total": 66.6,
+       "total": 70.7,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.0,
-        "topic": 70.0,
-        "novelty": 92.9
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.0,
+        "topic": 55.0,
+        "novelty": 63.6
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "تکنیک مبتنی بر هوش مصنوعی می تواند به مهندسان کمک کند تا تراشه های آنالوگ را سریعتر و با هزینه کمتر طراحی کنند.",
-        "excerpt": "روش آموزش \"SLIC\" LLM کوچک را قادر می سازد تا با مدل های بسیار بیشتر منابع فشرده در وظایف طراحی مدار پیچیده رقابت کند.",
+        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
+        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 1,
-     "sources": 1,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "14e60f88bfa3dc18",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
+      "id": "bab5470813fe16df",
+      "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
-      "excerpt": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop everything changing,’ he says “I hate AI,” says Rankin. “A lot of people think I’m an evangelical twat about it, and I’m not. I think it’s disgusting. I think the people who run it are disgusting…",
+      "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
+      "excerpt": "Australian dictionary’s committee of word experts says winning term is ‘a succinct reflection of the state of the world in 2026’ Get our breaking news email, free app or daily news podcast The backlash to “pervert glasses” has been swift and severe. Smartglasses such as Meta’s Ray-Bans, which have built-in cameras, microphones, and AI assistants have been banned at some Australian swimming pools…",
       "lang": "en",
-      "publishedAt": "2026-11-23T08:00:50Z",
+      "publishedAt": "2026-11-23T13:55:40Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
       "category": "policy",
       "tags": [
-       "rankin",
-       "photography",
-       "ai (artificial intelligence)",
-       "art and design",
-       "culture"
+       "language",
+       "australian books",
+       "australia news",
+       "linguistics",
+       "ai (artificial intelligence)"
       ],
-      "entities": [],
+      "entities": [
+       "meta"
+      ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/0ea2ef6c794663a88261eeaa216cc1c9f547aa65/154_3_2211_1768/master/2211.jpg?width=700&quality=85&auto=format&fit=max&s=5c5682857ad5b20747f18c43201b6b22",
-       "credit": "Illustration: Rankin",
+       "url": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=1fcf73a8c489c1580ee8a0facae13340",
+       "credit": "Photograph: Carlos Barría/Reuters",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "14e60f88bfa3dc18",
+      "eventId": "bab5470813fe16df",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 95.5,
         "topic": 85.0,
-        "novelty": 95.0
+        "novelty": 92.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "داپر لیام و نول، Björk آزمایشی، و Bowie \" خود را مداخله\": رنین نشان می دهد شات های هرگز قبل از آن ستاره ها",
-        "excerpt": "پس از برخی از آزمایش های طنز با AI “disgusting”، عکاس به اولین عشق خود با یک کتاب از ورق های تماس از عکس های مشهور خود بازگشته است. “من آرزو می کنم که ما بتوانیم برگردیم و همه چیز را تغییر دهیم” او می گوید “من از AI متنفرم”، رنین می گوید. بسیاری از مردم فکر می کنند که من در مورد آن یک فریب انجیلی هستم و من نیستم. فکر می کنم نفرت انگیز است. من فکر می کنم کسانی که آن را اجرا می کنند نفرت انگیز هستند ...",
+        "title": "عینک های پرورت به نام کلمه سال توسط فرهنگ لغت Macquarie، پیش از \"nudify\" و \"AI؛DR\"",
+        "excerpt": "کمیته کارشناسان کلمه فرهنگ لغت استرالیا می گوید: \"یک انعکاس مختصر از وضعیت جهان در سال 2026\" ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه است که واکنش به \" عینک های اضافی\" سریع و شدید بوده است. عینک های هوشمند مانند Ray-Bans Meta که دوربین های داخلی، میکروفون و دستیار های AI در برخی از استخر های شنا استرالیا ممنوع شده اند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
@@ -135,53 +138,52 @@
     },
     {
      "article": {
-      "id": "edc60acd0eeb6720",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
+      "id": "5154af66482df5ff",
+      "url": "https://www.theguardian.com/stage/2026/nov/23/dylan-moran-looking-for-trouble-review",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
-      "excerpt": "Exclusive: Statement on death of Australian music industry legend drafted using search and AI but ‘fact checked and edited’ before approval, party says Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary A statement on the death of Molly Meldrum attributed to the Victorian…",
+      "title": "Dylan Moran goes looking for trouble and disappears off the beaten track in this baffling comedy show",
+      "excerpt": "Royal & Derngate, Northampton The Black Books star gets off to a promising start as he contemplates ‘the burning ball of what you don’t understand’ but his search for levity leads to half-baked ditties Is Dylan Moran joking when he opens his show by telling Northampton’s audience “I didn’t write anything, or prepare”? By the end, you wouldn’t bet on it. Bleary directionlessness may be par for…",
       "lang": "en",
-      "publishedAt": "2026-11-23T03:23:44Z",
+      "publishedAt": "2026-11-23T13:32:49Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T03:46:02Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
       "category": "policy",
       "tags": [
-       "victorian politics",
-       "ai (artificial intelligence)",
-       "jess wilson",
-       "victoria state election 2026",
-       "victoria",
-       "australia news"
+       "comedy",
+       "dylan moran",
+       "stage",
+       "culture",
+       "technology"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/f8400eec13a4a86627b0f0ba9608b2ae5afe8080/1714_12_4846_3878/master/4846.jpg?width=700&quality=85&auto=format&fit=max&s=465e2d51ccd570a0e1d50ceb7df0fc5f",
-       "credit": "Photograph: James Ross/AAP",
+       "url": "https://i.guim.co.uk/img/media/06cdcd75701ea082b0e53f418adb0a889c35729a/1653_754_2048_1639/master/2048.jpg?width=700&quality=85&auto=format&fit=max&s=c1aade06a7fadef3a0409e2d2993ba7a",
+       "credit": "Photograph: Andrea Vopičková",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "edc60acd0eeb6720",
+      "eventId": "5154af66482df5ff",
       "related": [],
       "score": {
-       "total": 61.5,
+       "total": 64.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 76.6,
+        "recency": 93.4,
         "topic": 85.0,
-        "novelty": 93.8
+        "novelty": 94.7
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "حزب لیبرال ویکتوریا از AI برای نوشتن ادای احترام جس ویلسون به مولودرام استفاده می کند",
-        "excerpt": "منحصر به فرد: بیانیه مرگ اسطوره صنعت موسیقی استرالیا با استفاده از جستجو و AI، اما \"واقعیت بررسی و ویرایش\" قبل از تصویب، حزب می گوید Tributes جریان برای مالی Meldrum: طبیعت انسانی، جیسون دانو و دیگران صنعت موسیقی بزرگ مولودروم - زندگی در عکس های ای از ایان \"Molly\" Meldrum - بیانیه ای در مورد مرگ مولود به مل ویکتوریا.",
+        "title": "دیلن موران به دنبال مشکل و ناپدید شدن مسیر شکست خورده در این نمایش کمدی است",
+        "excerpt": "Royal & Derngate، Northampton ستاره کتاب های سیاه به یک شروع امیدوار کننده تبدیل می شود، زیرا او فکر می کند \"توپ سوزان چیزی که شما درک نمی کنید\" اما جستجوی او برای levity منجر به دیتیست نیمه پخته شده است زمانی که او نمایش خود را با گفتن مخاطب Northampton \"من چیزی ننوشته ام یا آماده نیستم؟\" در پایان، شما روی آن شرط نمی گذارید. بی طرفی ممکن است برای ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T03:46:02Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
@@ -195,237 +197,250 @@
     },
     {
      "article": {
-      "id": "67462e15f01fe542",
-      "url": "https://www.youtube.com/watch?v=1jPdehG3Hms",
-      "sourceId": "two-minute-papers",
-      "sourceName": "Two Minute Papers (YouTube)",
-      "title": "Claude AI Solved The Secret Of Black Holes",
-      "excerpt": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The paper is available here: https://www.anthropic.com/research/claude-black-hole-physics https://hexagonmath.org/2611.00175v1 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, B Shang, Carlos Galarza, Christian Ahlin, Eric Tyson, Juan Benet, Lukas…",
+      "id": "1793f4fe05b13a1c",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
       "lang": "en",
-      "publishedAt": "2026-11-23T07:37:52Z",
+      "publishedAt": "2026-11-23T12:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "anthropic"
+      "category": "research",
+      "tags": [
+       "ai",
+       "features",
+       "reviews",
+       "asus",
+       "local ai",
+       "rtx spark"
       ],
-      "brand": "claude",
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/1jPdehG3Hms/hqdefault.jpg",
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
+       "alt": "The Asus ProArt P16 looks like any high-end laptop, but it's got serious AI chops.",
+       "credit": "Ryan Whitwam",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "1jPdehG3Hms",
-       "url": "https://www.youtube.com/watch?v=1jPdehG3Hms"
-      },
-      "eventId": "67462e15f01fe542",
+      "eventId": "1793f4fe05b13a1c",
       "related": [],
       "score": {
-       "total": 61.0,
+       "total": 62.2,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 97.8,
-        "topic": 100.0,
-        "novelty": 84.6
+        "recency": 85.4,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "کلود هوش مصنوعی راز سیاه چاله ها را حل کرد",
-        "excerpt": "❤️ اینجا را بررسی کنید و برای Cloud GPU خود ثبت نام کنید: https://lambda.com/papers 📝 این مقاله در دسترس است: https://www.humanic.com/research/claude-Black-hole-trophy-فیزیکی @ Joagonmath.org/26.00175v1 🙏 ما دوست داریم از طرفداران بخشنده مان که دو دقیقه کاغذ می سازند تشکر کنیم.",
+        "title": "Asus ProArt P16 ارائه می دهد یک نگاه اجمالی از آینده توسط AI محلی",
+        "excerpt": "لپ تاپ Asus ProArt جدید تا 7000 دلار هزینه دارد، اما می تواند مجموعه ای از عوامل هوش مصنوعی محلی را اجرا کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "fb355679c486e951",
-      "url": "https://arxiv.org/abs/2611.01648",
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI (new submissions)",
-      "title": "dKV Forcing: Separating Generation and Memory Representations through a Differentiable KV Cache",
-      "excerpt": "A causal video generator writes every segment it produces into a key--value (KV) cache, and later segments know the past only through it. Self-rollout training stops the gradient at this cache, and Self Gradient Forcing (SGF) restores it, but applies it to the same weights that generate the current segment. We find that writing and generating are different roles: in a pretrained generator the…",
+      "id": "dfb0304cbd0815ca",
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "excerpt": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
       "lang": "en",
-      "publishedAt": "2026-11-23T05:00:00Z",
+      "publishedAt": "2026-11-23T11:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
-      "category": "models",
+      "category": "policy",
       "tags": [
-       "cs.cv",
-       "cs.ai"
+       "security",
+       "security / privacy",
+       "security / security news",
+       "grok",
+       "xai",
+       "x"
       ],
-      "entities": [],
+      "entities": [
+       "xai"
+      ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://media.wired.com/photos/6b00c213fb286bb31d23bec0/master/pass/Security_Virginia%20and%20Oregon%20Sue%20Grok%20Over%20Nonconsensual%20Intimate%20Imagery_v1.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
       },
-      "eventId": "fb355679c486e951",
+      "eventId": "dfb0304cbd0815ca",
       "related": [],
       "score": {
-       "total": 58.6,
+       "total": 61.9,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 84.0,
-        "topic": 100.0,
-        "novelty": 88.2
+        "recency": 80.6,
+        "topic": 85.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "dKV Forcing: نمایندگی از نسل و حافظه از طریق یک KV مختلف",
-        "excerpt": "یک ژنراتور ویدئویی علی هر بخش را که در یک حافظه کلیدی تولید می کند می نویسد و بخش های بعدی تنها از طریق آن می دانند. آموزش Self-rollout گرادیان را در این کش متوقف می کند و خود Gradientcing (SGF) آن را بازسازی می کند، اما آن را به همان وزنه هایی که بخش فعلی را تولید می کنند، اعمال می کند. ما متوجه می شویم که نوشتن و تولید نقش های مختلفی دارند: در یک ژنراتور پیش آموزش دیده...",
+        "title": "کشورهای سو اسپیس ایکس بیش از Grok Deepfake",
+        "excerpt": "دادستان های کل اورگان و ویرجینیا چندین شرکت الون ماسک را صادر می کنند و ادعا می کنند که آنها در برابر تصاویر جنسی از افراد واقعی، از جمله کودکان، محافظت ضعیف انجام می دهند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "05744626c0d61baf",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "excerpt": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "id": "341c9475d1b971f0",
+      "url": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
+      "excerpt": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder.",
       "lang": "en",
-      "publishedAt": "2026-11-22T21:14:07Z",
+      "publishedAt": "2026-11-23T13:59:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T22:31:14Z",
-      "day": "2026-11-22",
-      "category": "research",
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "models",
       "tags": [
-       "ai",
-       "openai",
-       "sam altman"
+       "ai and society",
+       "artificial intelligence",
+       "agi",
+       "meta",
+       "meta ai"
       ],
       "entities": [
-       "openai"
+       "meta"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
+       "url": "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
       },
-      "eventId": "05744626c0d61baf",
+      "eventId": "341c9475d1b971f0",
       "related": [],
       "score": {
-       "total": 55.9,
+       "total": 61.4,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 53.7,
-        "topic": 80.0,
-        "novelty": 91.7
+        "recency": 95.9,
+        "topic": 100.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "دانشمند ارشد OpenAI در مورد چگونگی محدود کردن توسعه هوش مصنوعی فکر می کند",
-        "excerpt": "برای ایجاد محدودیت سرعت در توسعه AI، شما باید در مورد چگونگی اندازه گیری سرعت توافق کنید.",
+        "title": "الکساندر وانگ متا هشدار می دهد که صنعت AI برای آنچه که پس از پیشرفت Riemann اتفاق می افتد آماده نیست.",
+        "excerpt": "مدیر ارشد هوش مصنوعی متا، الکساندر وانگ، طرح اثبات کمک اخیر AI از فرضیه Riemann را به عنوان یک نشانه روشن می بیند که فوق العاده در اطراف گوشه است. الکساندر وانگ، مقاله Meta's الکساندر وانگ هشدار می دهد که صنعت AI برای آنچه که پس از پیشرفت Riemann در ابتدا در Decoder ظاهر شد، آماده نیست.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T22:31:14Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-3",
       "first-report",
-      "top-factor-reliability"
+      "top-factor-recency"
      ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-11-16T08:00:50Z",
-   "to": "2026-11-23T08:00:50Z",
+   "from": "2026-11-16T14:43:23Z",
+   "to": "2026-11-23T14:43:23Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "315fb775dc30231e",
-      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
-      "excerpt": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "id": "ecab1061c917e910",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
       "lang": "en",
-      "publishedAt": "2026-11-23T05:00:00Z",
+      "publishedAt": "2026-11-23T14:21:59Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
-      "category": "hardware",
+      "category": "business",
       "tags": [
-       "research",
-       "computer chips",
-       "electronics",
-       "artificial intelligence",
-       "computer science and technology",
-       "machine learning"
+       "ai",
+       "hardware",
+       "jensen huang",
+       "nvidia"
       ],
-      "entities": [],
+      "entities": [
+       "nvidia"
+      ],
       "brand": null,
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-AnalogOptimize-01-Press.jpg?itok=826Fvg7c",
-       "credit": "Image: Jose-Luis Olivares, MIT; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
       },
-      "eventId": "315fb775dc30231e",
-      "related": [],
+      "eventId": "ecab1061c917e910",
+      "related": [
+       "7e93ff39fd333740"
+      ],
       "score": {
-       "total": 69.2,
+       "total": 71.0,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 97.1,
-        "topic": 70.0,
-        "novelty": 92.9
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 99.7,
+        "topic": 55.0,
+        "novelty": 63.6
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "تکنیک مبتنی بر هوش مصنوعی می تواند به مهندسان کمک کند تا تراشه های آنالوگ را سریعتر و با هزینه کمتر طراحی کنند.",
-        "excerpt": "روش آموزش \"SLIC\" LLM کوچک را قادر می سازد تا با مدل های بسیار بیشتر منابع فشرده در وظایف طراحی مدار پیچیده رقابت کند.",
+        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
+        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 1,
-     "sources": 1,
+     "sources": 2,
      "reason": [
-      "tier-1",
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -462,15 +477,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 68.8,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 22.3,
+        "recency": 20.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -486,6 +501,66 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "315fb775dc30231e",
+      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
+      "excerpt": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "lang": "en",
+      "publishedAt": "2026-11-23T05:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T08:19:15Z",
+      "day": "2026-11-23",
+      "category": "hardware",
+      "tags": [
+       "research",
+       "computer chips",
+       "electronics",
+       "artificial intelligence",
+       "computer science and technology",
+       "machine learning"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-AnalogOptimize-01-Press.jpg?itok=826Fvg7c",
+       "credit": "Image: Jose-Luis Olivares, MIT; Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "315fb775dc30231e",
+      "related": [],
+      "score": {
+       "total": 68.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 91.1,
+        "topic": 70.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-23T14:43:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "تکنیک مبتنی بر هوش مصنوعی می تواند به مهندسان کمک کند تا تراشه های آنالوگ را سریعتر و با هزینه کمتر طراحی کنند.",
+        "excerpt": "روش آموزش \"SLIC\" LLM کوچک را قادر می سازد تا با مدل های بسیار بیشتر منابع فشرده در وظایف طراحی مدار پیچیده رقابت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T08:19:15Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -518,15 +593,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 73.5,
+        "recency": 68.9,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -537,7 +612,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -547,118 +622,111 @@
     },
     {
      "article": {
-      "id": "14e60f88bfa3dc18",
-      "url": "https://www.theguardian.com/artanddesign/2026/nov/23/rankin-photographer-interview-contact-david-bowie-oasis",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dapper Liam and Noel, experimental Björk, and Bowie ‘cuddling himself’: Rankin reveals his never-before-seen shots of the stars",
-      "excerpt": "After some satirical experiments with the ‘disgusting’ AI, the photographer has returned to his first love with a book of contact sheets from his celebrity shoots. ‘I wish we could go back and stop everything changing,’ he says “I hate AI,” says Rankin. “A lot of people think I’m an evangelical twat about it, and I’m not. I think it’s disgusting. I think the people who run it are disgusting…",
+      "id": "6fd4c32fe34a4cba",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How to build and maintain an agentic evaluation",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-23T08:00:50Z",
+      "publishedAt": "2026-11-23T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T14:51:56Z",
       "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "rankin",
-       "photography",
-       "ai (artificial intelligence)",
-       "art and design",
-       "culture"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/0ea2ef6c794663a88261eeaa216cc1c9f547aa65/154_3_2211_1768/master/2211.jpg?width=700&quality=85&auto=format&fit=max&s=5c5682857ad5b20747f18c43201b6b22",
-       "credit": "Illustration: Rankin",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/agentic-evals"
       },
-      "eventId": "14e60f88bfa3dc18",
+      "eventId": "6fd4c32fe34a4cba",
       "related": [],
       "score": {
-       "total": 66.2,
+       "total": 66.9,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 85.0,
-        "novelty": 95.0
+        "recency": 86.8,
+        "topic": 75.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "داپر لیام و نول، Björk آزمایشی، و Bowie \" خود را مداخله\": رنین نشان می دهد شات های هرگز قبل از آن ستاره ها",
-        "excerpt": "پس از برخی از آزمایش های طنز با AI “disgusting”، عکاس به اولین عشق خود با یک کتاب از ورق های تماس از عکس های مشهور خود بازگشته است. “من آرزو می کنم که ما بتوانیم برگردیم و همه چیز را تغییر دهیم” او می گوید “من از AI متنفرم”، رنین می گوید. بسیاری از مردم فکر می کنند که من در مورد آن یک فریب انجیلی هستم و من نیستم. فکر می کنم نفرت انگیز است. من فکر می کنم کسانی که آن را اجرا می کنند نفرت انگیز هستند ...",
+        "title": "چگونه برای ساخت و نگهداری ارزیابی نمایندگی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "edc60acd0eeb6720",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
-      "excerpt": "Exclusive: Statement on death of Australian music industry legend drafted using search and AI but ‘fact checked and edited’ before approval, party says Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary A statement on the death of Molly Meldrum attributed to the Victorian…",
-      "lang": "en",
-      "publishedAt": "2026-11-23T03:23:44Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T03:46:02Z",
-      "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "victorian politics",
-       "ai (artificial intelligence)",
-       "jess wilson",
-       "victoria state election 2026",
-       "victoria",
-       "australia news"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/f8400eec13a4a86627b0f0ba9608b2ae5afe8080/1714_12_4846_3878/master/4846.jpg?width=700&quality=85&auto=format&fit=max&s=465e2d51ccd570a0e1d50ceb7df0fc5f",
-       "credit": "Photograph: James Ross/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "edc60acd0eeb6720",
-      "related": [],
-      "score": {
-       "total": 65.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 95.7,
-        "topic": 85.0,
-        "novelty": 93.8
-       },
-       "asOf": "2026-11-23T08:00:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "حزب لیبرال ویکتوریا از AI برای نوشتن ادای احترام جس ویلسون به مولودرام استفاده می کند",
-        "excerpt": "منحصر به فرد: بیانیه مرگ اسطوره صنعت موسیقی استرالیا با استفاده از جستجو و AI، اما \"واقعیت بررسی و ویرایش\" قبل از تصویب، حزب می گوید Tributes جریان برای مالی Meldrum: طبیعت انسانی، جیسون دانو و دیگران صنعت موسیقی بزرگ مولودروم - زندگی در عکس های ای از ایان \"Molly\" Meldrum - بیانیه ای در مورد مرگ مولود به مل ویکتوریا.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T03:46:02Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 5,
      "sources": 1,
      "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "5154af66482df5ff",
+      "url": "https://www.theguardian.com/stage/2026/nov/23/dylan-moran-looking-for-trouble-review",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Dylan Moran goes looking for trouble and disappears off the beaten track in this baffling comedy show",
+      "excerpt": "Royal & Derngate, Northampton The Black Books star gets off to a promising start as he contemplates ‘the burning ball of what you don’t understand’ but his search for levity leads to half-baked ditties Is Dylan Moran joking when he opens his show by telling Northampton’s audience “I didn’t write anything, or prepare”? By the end, you wouldn’t bet on it. Bleary directionlessness may be par for…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T13:32:49Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "policy",
+      "tags": [
+       "comedy",
+       "dylan moran",
+       "stage",
+       "culture",
+       "technology"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/06cdcd75701ea082b0e53f418adb0a889c35729a/1653_754_2048_1639/master/2048.jpg?width=700&quality=85&auto=format&fit=max&s=c1aade06a7fadef3a0409e2d2993ba7a",
+       "credit": "Photograph: Andrea Vopičková",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "5154af66482df5ff",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.9,
+        "topic": 85.0,
+        "novelty": 94.7
+       },
+       "asOf": "2026-11-23T14:43:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دیلن موران به دنبال مشکل و ناپدید شدن مسیر شکست خورده در این نمایش کمدی است",
+        "excerpt": "Royal & Derngate، Northampton ستاره کتاب های سیاه به یک شروع امیدوار کننده تبدیل می شود، زیرا او فکر می کند \"توپ سوزان چیزی که شما درک نمی کنید\" اما جستجوی او برای levity منجر به دیتیست نیمه پخته شده است زمانی که او نمایش خود را با گفتن مخاطب Northampton \"من چیزی ننوشته ام یا آماده نیستم؟\" در پایان، شما روی آن شرط نمی گذارید. بی طرفی ممکن است برای ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T14:51:56Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
       "tier-2",
       "first-report",
       "top-factor-reliability"
@@ -666,175 +734,122 @@
     },
     {
      "article": {
-      "id": "3ea993db7e3c60d1",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Combatting adversarial distillation",
-      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "id": "bab5470813fe16df",
+      "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
+      "excerpt": "Australian dictionary’s committee of word experts says winning term is ‘a succinct reflection of the state of the world in 2026’ Get our breaking news email, free app or daily news podcast The backlash to “pervert glasses” has been swift and severe. Smartglasses such as Meta’s Ray-Bans, which have built-in cameras, microphones, and AI assistants have been banned at some Australian swimming pools…",
       "lang": "en",
-      "publishedAt": "2026-11-20T10:00:00Z",
+      "publishedAt": "2026-11-23T13:55:40Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "policy",
+      "tags": [
+       "language",
+       "australian books",
+       "australia news",
+       "linguistics",
+       "ai (artificial intelligence)"
       ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "3ea993db7e3c60d1",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 51.0,
-        "topic": 100.0,
-        "novelty": 100.0
-       },
-       "asOf": "2026-11-23T08:00:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مبارزه با تقطیر مجاور",
-        "excerpt": "رویکرد لایه ای OpenAI به تقطیر مجاور ترکیبی از آموزش مدل، حفاظت، تشخیص و اجرای برای محافظت در برابر استخراج قابلیت است.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "cedca3bd6777efe2",
-      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
-      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:00:04Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "models",
-      "tags": [],
       "entities": [
-       "google"
+       "meta"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
+       "url": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=1fcf73a8c489c1580ee8a0facae13340",
+       "credit": "Photograph: Carlos Barría/Reuters",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "WN-JK-hMAyg",
-       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
-      },
-      "eventId": "cedca3bd6777efe2",
+      "eventId": "bab5470813fe16df",
       "related": [],
       "score": {
-       "total": 64.2,
+       "total": 65.8,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 56.1,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 99.2,
+        "topic": 85.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
-        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
+        "title": "عینک های پرورت به نام کلمه سال توسط فرهنگ لغت Macquarie، پیش از \"nudify\" و \"AI؛DR\"",
+        "excerpt": "کمیته کارشناسان کلمه فرهنگ لغت استرالیا می گوید: \"یک انعکاس مختصر از وضعیت جهان در سال 2026\" ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه است که واکنش به \" عینک های اضافی\" سریع و شدید بوده است. عینک های هوشمند مانند Ray-Bans Meta که دوربین های داخلی، میکروفون و دستیار های AI در برخی از استخر های شنا استرالیا ممنوع شده اند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 7,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "26e2979e9c83fed2",
-      "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "Meta ads is now available in AWS Quick",
-      "excerpt": "AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.",
+      "id": "1793f4fe05b13a1c",
+      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "sourceId": "ars-ai",
+      "sourceName": "Ars Technica — AI",
+      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+      "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
       "lang": "en",
-      "publishedAt": "2026-11-22T01:59:13Z",
+      "publishedAt": "2026-11-23T12:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T02:41:27Z",
-      "day": "2026-11-22",
-      "category": "products",
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "research",
       "tags": [
-       "announcements",
-       "aws quick",
-       "foundational (100)"
+       "ai",
+       "features",
+       "reviews",
+       "asus",
+       "local ai",
+       "rtx spark"
       ],
-      "entities": [
-       "amazon",
-       "meta"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/products.svg",
-       "kind": "fallback"
+       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
+       "alt": "The Asus ProArt P16 looks like any high-end laptop, but it's got serious AI chops.",
+       "credit": "Ryan Whitwam",
+       "kind": "feed",
+       "sourceUrl": "https://arstechnica.com/ai/feed/"
       },
-      "video": {
-       "provider": "file",
-       "url": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22411/b46d9e222b1ec27f572a3e2ba0fc06ab8c1447b3be0e8fd10a7e101091d9191d.mp4",
-       "type": "video/mp4"
-      },
-      "eventId": "26e2979e9c83fed2",
+      "eventId": "1793f4fe05b13a1c",
       "related": [],
       "score": {
-       "total": 62.5,
+       "total": 64.6,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 74.9,
-        "topic": 65.0,
-        "novelty": 77.8
+        "recency": 97.4,
+        "topic": 80.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
-        "title": "تبلیغات متا در AWS Quick در دسترس است",
-        "excerpt": "AWS Quick در حال حاضر دارای یک کانکتور متا تبلیغات AI است. تبلیغ کنندگان متا می توانند از زبان طبیعی به سرعت برای ایجاد، مدیریت و تجزیه و تحلیل کمپین ها در حالی که متصل به شبکه مدیریت تبلیغات متا، و ترکیب داده های تبلیغات متا با منابع اول و شخص ثالث برای ساخت داشبورد، اسناد، عرشه اسلاید و جریان های کار خودکار استفاده کنند.",
+        "title": "Asus ProArt P16 ارائه می دهد یک نگاه اجمالی از آینده توسط AI محلی",
+        "excerpt": "لپ تاپ Asus ProArt جدید تا 7000 دلار هزینه دارد، اما می تواند مجموعه ای از عوامل هوش مصنوعی محلی را اجرا کند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T02:41:27Z"
+        "at": "2026-11-23T14:51:56Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -842,8 +857,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-24T08:00:50Z",
-   "to": "2026-11-23T08:00:50Z",
+   "from": "2026-10-24T14:43:23Z",
+   "to": "2026-11-23T14:43:23Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -881,15 +896,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.1,
+       "total": 79.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 39.2,
+        "recency": 38.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -940,15 +955,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 77.1,
+       "total": 76.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 63.7,
+        "recency": 62.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -996,15 +1011,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.2,
+        "recency": 89.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -1019,6 +1034,67 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ecab1061c917e910",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
+      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "lang": "en",
+      "publishedAt": "2026-11-23T14:21:59Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "business",
+      "tags": [
+       "ai",
+       "hardware",
+       "jensen huang",
+       "nvidia"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "ecab1061c917e910",
+      "related": [
+       "7e93ff39fd333740"
+      ],
+      "score": {
+       "total": 71.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 99.9,
+        "topic": 55.0,
+        "novelty": 63.6
+       },
+       "asOf": "2026-11-23T14:43:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
+        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T14:51:56Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1049,15 +1125,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 71.3,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.7,
+        "recency": 80.1,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -1068,7 +1144,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1108,15 +1184,15 @@
       "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.3,
+        "recency": 75.9,
         "topic": 100.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -1127,7 +1203,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1168,15 +1244,15 @@
       "eventId": "315fb775dc30231e",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 97.2,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -1187,7 +1263,60 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "6fd4c32fe34a4cba",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "How to build and maintain an agentic evaluation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-23T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T14:51:56Z",
+      "day": "2026-11-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/agentic-evals"
+      },
+      "eventId": "6fd4c32fe34a4cba",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 95.8,
+        "topic": 75.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-23T14:43:23Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه برای ساخت و نگهداری ارزیابی نمایندگی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T14:51:56Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1230,15 +1359,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 68.8,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 78.5,
+        "recency": 77.0,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
@@ -1249,7 +1378,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1289,140 +1418,20 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.2,
+        "recency": 82.6,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-23T08:00:50Z"
+       "asOf": "2026-11-23T14:43:23Z"
       },
       "tr": {
        "fa": {
         "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
         "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "480a8b723958aa8d",
-      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "New approach enables physically consistent AI models of chaotic systems",
-      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-21T00:58:07Z",
-      "day": "2026-11-20",
-      "category": "research",
-      "tags": [
-       "school of engineering",
-       "mit schwarzman college of computing",
-       "aeronautical and astronautical engineeri",
-       "electrical engineering and computer scie",
-       "mechanical engineering",
-       "idss"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
-       "credit": "Image courtesy of Sunbochen Tang.",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "480a8b723958aa8d",
-      "related": [],
-      "score": {
-       "total": 67.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.1,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-23T08:00:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
-        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-21T00:58:07Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "33a61caea8aae9aa",
-      "url": "https://news.mit.edu/2026/qa-enabling-more-human-interactions-understanding-multimodal-foundation-models-1120",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Q&A: Enabling more human-like interactions and understanding in multimodal foundation models",
-      "excerpt": "Senior Research Scientist Jim Glass discusses how his MIT-IBM Computing Research Lab collaboration connects perception and language, and addresses the shortcoming of current models.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T21:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "research",
-      "tags": [
-       "interview",
-       "staff",
-       "research",
-       "machine learning",
-       "algorithms",
-       "artificial intelligence"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-ibm-multimodal.jpg?itok=5RCVRMBS",
-       "credit": "Image: AdobeStock",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "33a61caea8aae9aa",
-      "related": [],
-      "score": {
-       "total": 67.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.3,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-23T08:00:50Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Q&A: ایجاد تعاملات انسانی بیشتر و درک در مدل های چند منظوره",
-        "excerpt": "دانشمند ارشد تحقیقاتی جیم گلس در مورد چگونگی همکاری آزمایشگاه تحقیقاتی MIT-IBM بحث می کند که درک و زبان را به هم متصل می کند و به کوتاه شدن مدل های فعلی می پردازد.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-20T21:15:12Z"
        }
