@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-23T14:43:23Z",
+ "asOf": "2026-11-23T20:02:15Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,302 +10,299 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-22T14:43:23Z",
-   "to": "2026-11-23T14:43:23Z",
+   "from": "2026-11-22T20:02:15Z",
+   "to": "2026-11-23T20:02:15Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "ecab1061c917e910",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "id": "47b1648bdb930a3d",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "excerpt": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago co-founded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife",
       "lang": "en",
-      "publishedAt": "2026-11-23T14:21:59Z",
+      "publishedAt": "2026-11-23T19:57:18Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
       "category": "business",
       "tags": [
        "ai",
-       "hardware",
-       "jensen huang",
-       "nvidia"
+       "analysis",
+       "news",
+       "nvidia",
+       "policy",
+       "politics"
       ],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_04.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
       "eventId": "ecab1061c917e910",
       "related": [
-       "7e93ff39fd333740"
+       "09afcc847896cde3",
+       "4fb306f1bad28bc9",
+       "7e93ff39fd333740",
+       "ecab1061c917e910"
       ],
       "score": {
-       "total": 70.7,
+       "total": 73.7,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 98.0,
+        "corroboration": 75.0,
+        "recency": 99.5,
         "topic": 55.0,
-        "novelty": 63.6
+        "novelty": 27.8
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
-        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
+        "title": "چگونه Jensen Huang دوباره به عنوان مدیر عامل Nvidia به پایان رسید",
+        "excerpt": "عصر Jensen Huang از Nvidia نزدیک به پایان ماه جاری رسید. هوانگ، که سه دهه پیش آنچه را که به نظر می رسد یکی از مهم ترین شرکت های AI در نظر گرفته شده است، از نقش خود در 12 نوامبر بر سر بررسی دقیق در مورد امور ادعایی خود استعفا داد. هوانگ اعتراف کرد که او به همسر خود \"ناشاد\" بوده است.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 1,
-     "sources": 2,
+     "sources": 3,
      "reason": [
       "tier-2",
-      "voices-2",
-      "first-report",
+      "voices-3",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "bab5470813fe16df",
-      "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
-      "excerpt": "Australian dictionary’s committee of word experts says winning term is ‘a succinct reflection of the state of the world in 2026’ Get our breaking news email, free app or daily news podcast The backlash to “pervert glasses” has been swift and severe. Smartglasses such as Meta’s Ray-Bans, which have built-in cameras, microphones, and AI assistants have been banned at some Australian swimming pools…",
+      "id": "bfa457749df18b36",
+      "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "excerpt": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked…",
       "lang": "en",
-      "publishedAt": "2026-11-23T13:55:40Z",
+      "publishedAt": "2026-11-23T20:02:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "language",
-       "australian books",
-       "australia news",
-       "linguistics",
-       "ai (artificial intelligence)"
-      ],
+      "category": "models",
+      "tags": [],
       "entities": [
-       "meta"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=1fcf73a8c489c1580ee8a0facae13340",
-       "credit": "Photograph: Carlos Barría/Reuters",
+       "url": "https://i2.ytimg.com/vi/MpsO8Ds8uyo/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "bab5470813fe16df",
+      "video": {
+       "provider": "youtube",
+       "id": "MpsO8Ds8uyo",
+       "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo"
+      },
+      "eventId": "bfa457749df18b36",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 73.6,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.5,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 85.7
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "عینک های پرورت به نام کلمه سال توسط فرهنگ لغت Macquarie، پیش از \"nudify\" و \"AI؛DR\"",
-        "excerpt": "کمیته کارشناسان کلمه فرهنگ لغت استرالیا می گوید: \"یک انعکاس مختصر از وضعیت جهان در سال 2026\" ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه است که واکنش به \" عینک های اضافی\" سریع و شدید بوده است. عینک های هوشمند مانند Ray-Bans Meta که دوربین های داخلی، میکروفون و دستیار های AI در برخی از استخر های شنا استرالیا ممنوع شده اند.",
+        "title": "بررسی آسیب پذیری های لینوکس با GPT-6 Cyber",
+        "excerpt": "AI می تواند به تیم های امنیتی کمک کند تا سریع تر از پیدا کردن آسیب پذیری ها برای اصلاح افراد نرم افزاری که به آن متکی هستند، حرکت کنند. در یک اجرا، GPT-6 Cyber به اعتباربخشی به 948 آسیب پذیری هسته لینوکس و ایجاد پچ های کاندید برای بررسی انسان کمک کرد. محقق سایبری کایل Zeng با Clint Gibler نشسته است، رهبری تحقیقات سایبری را به بحث در مورد چگونگی ساخت خط لوله تحقیق آسیب پذیری و کار ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 2,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "5154af66482df5ff",
-      "url": "https://www.theguardian.com/stage/2026/nov/23/dylan-moran-looking-for-trouble-review",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dylan Moran goes looking for trouble and disappears off the beaten track in this baffling comedy show",
-      "excerpt": "Royal & Derngate, Northampton The Black Books star gets off to a promising start as he contemplates ‘the burning ball of what you don’t understand’ but his search for levity leads to half-baked ditties Is Dylan Moran joking when he opens his show by telling Northampton’s audience “I didn’t write anything, or prepare”? By the end, you wouldn’t bet on it. Bleary directionlessness may be par for…",
+      "id": "d63bcf0febf7f91d",
+      "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity in action: Building an offline wildlife field guide",
+      "excerpt": "Creative technologist and hardware builder Arden Schager demonstrates how he built GemmaDex - a pocket-sized, 100% offline wildlife and plant field guide running on a Raspberry Pi 5, using the power of Antigravity and Gemma 4. Watch to learn more! Let us know what offline hardware you'd build using Antigravity and Gemini 4 models in the comments. 🔗 Resources: Build with the Antigravity →…",
       "lang": "en",
-      "publishedAt": "2026-11-23T13:32:49Z",
+      "publishedAt": "2026-11-23T20:00:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "comedy",
-       "dylan moran",
-       "stage",
-       "culture",
-       "technology"
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/06cdcd75701ea082b0e53f418adb0a889c35729a/1653_754_2048_1639/master/2048.jpg?width=700&quality=85&auto=format&fit=max&s=c1aade06a7fadef3a0409e2d2993ba7a",
-       "credit": "Photograph: Andrea Vopičková",
+       "url": "https://i3.ytimg.com/vi/fpQcDQJQLhg/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
-      "eventId": "5154af66482df5ff",
+      "video": {
+       "provider": "youtube",
+       "id": "fpQcDQJQLhg",
+       "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg"
+      },
+      "eventId": "d63bcf0febf7f91d",
       "related": [],
       "score": {
-       "total": 64.9,
+       "total": 72.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.4,
-        "topic": 85.0,
-        "novelty": 94.7
+        "recency": 99.8,
+        "topic": 100.0,
+        "novelty": 78.6
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "دیلن موران به دنبال مشکل و ناپدید شدن مسیر شکست خورده در این نمایش کمدی است",
-        "excerpt": "Royal & Derngate، Northampton ستاره کتاب های سیاه به یک شروع امیدوار کننده تبدیل می شود، زیرا او فکر می کند \"توپ سوزان چیزی که شما درک نمی کنید\" اما جستجوی او برای levity منجر به دیتیست نیمه پخته شده است زمانی که او نمایش خود را با گفتن مخاطب Northampton \"من چیزی ننوشته ام یا آماده نیستم؟\" در پایان، شما روی آن شرط نمی گذارید. بی طرفی ممکن است برای ...",
+        "title": "گوگل ضد جاذبه در عمل: ایجاد یک راهنمای میدان وحشی آفلاین",
+        "excerpt": "تکنسین خلاق و سازنده سخت افزار Arden Schager نشان می دهد که چگونه او ساخته شده است GemmaDex - یک راهنمای حیات وحش 100٪ آفلاین و مزرعه گیاه در حال اجرا بر روی یک Raspberry Pi 5 با استفاده از قدرت ضد جاذبه و سنگما 4. تماشا کنید تا بیشتر یاد بگیرید! بیایید بدانیم که چه سخت افزار آفلاین را با استفاده از مدل های ضد گرانش و Gemini 4 در نظرات ایجاد می کنید. 🔗 Resources: Build with the Antigravzer",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 3,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "1793f4fe05b13a1c",
-      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-      "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+      "id": "77ab3d65a27896e8",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Supercharging transformer residual connections",
+      "excerpt": "Algorithms & Theory",
       "lang": "en",
-      "publishedAt": "2026-11-23T12:00:00Z",
+      "publishedAt": "2026-11-23T17:21:12Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
       "category": "research",
       "tags": [
-       "ai",
-       "features",
-       "reviews",
-       "asus",
-       "local ai",
-       "rtx spark"
+       "algorithms & theory"
       ],
-      "entities": [],
+      "entities": [
+       "google"
+      ],
       "brand": null,
       "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
-       "alt": "The Asus ProArt P16 looks like any high-end laptop, but it's got serious AI chops.",
-       "credit": "Ryan Whitwam",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
        "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "1793f4fe05b13a1c",
+      "eventId": "77ab3d65a27896e8",
       "related": [],
       "score": {
-       "total": 62.2,
+       "total": 68.2,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.4,
+        "recency": 85.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "Asus ProArt P16 ارائه می دهد یک نگاه اجمالی از آینده توسط AI محلی",
-        "excerpt": "لپ تاپ Asus ProArt جدید تا 7000 دلار هزینه دارد، اما می تواند مجموعه ای از عوامل هوش مصنوعی محلی را اجرا کند.",
+        "title": "Supercharging تبدیل اتصالات باقی مانده",
+        "excerpt": "الگوریتم ها و نظریه",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "dfb0304cbd0815ca",
-      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes",
-      "sourceId": "wired-ai",
-      "sourceName": "WIRED — AI",
-      "title": "States Sue SpaceX Over Grok Deepfakes",
-      "excerpt": "The attorneys general of Oregon and Virginia are suing several of Elon Musk’s companies, alleging they implemented weak safeguards against sexualized imagery of real people, including children.",
+      "id": "49ef9cf5084cd81b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
       "lang": "en",
-      "publishedAt": "2026-11-23T11:00:00Z",
+      "publishedAt": "2026-11-23T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "policy",
+      "category": "models",
       "tags": [
-       "security",
-       "security / privacy",
-       "security / security news",
-       "grok",
-       "xai",
-       "x"
+       "ai",
+       "anthropic",
+       "news",
+       "tech"
       ],
       "entities": [
-       "xai"
+       "anthropic"
       ],
-      "brand": null,
+      "brand": "claude",
       "image": {
-       "url": "https://media.wired.com/photos/6b00c213fb286bb31d23bec0/master/pass/Security_Virginia%20and%20Oregon%20Sue%20Grok%20Over%20Nonconsensual%20Intimate%20Imagery_v1.jpg",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A robot with the Claude logo on its face.",
        "kind": "feed",
-       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "dfb0304cbd0815ca",
+      "eventId": "49ef9cf5084cd81b",
       "related": [],
       "score": {
-       "total": 61.9,
+       "total": 68.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 80.6,
-        "topic": 85.0,
-        "novelty": 90.0
+        "recency": 99.8,
+        "topic": 100.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "کشورهای سو اسپیس ایکس بیش از Grok Deepfake",
-        "excerpt": "دادستان های کل اورگان و ویرجینیا چندین شرکت الون ماسک را صادر می کنند و ادعا می کنند که آنها در برابر تصاویر جنسی از افراد واقعی، از جمله کودکان، محافظت ضعیف انجام می دهند.",
+        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
+        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
@@ -319,128 +316,408 @@
     },
     {
      "article": {
-      "id": "341c9475d1b971f0",
-      "url": "https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough",
-      "excerpt": "Meta's Chief AI Officer Alexandr Wang sees the recent AI-assisted proof sketch of the Riemann Hypothesis as a clear sign that superintelligence is right around the corner. The article Meta's Alexandr Wang warns the AI industry isn't ready for what's coming after Riemann breakthrough appeared first on The Decoder.",
+      "id": "ca38829e73128713",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-23T13:59:36Z",
+      "publishedAt": "2026-11-23T17:20:37Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "models",
-      "tags": [
-       "ai and society",
-       "artificial intelligence",
-       "agi",
-       "meta",
-       "meta ai"
-      ],
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "meta"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/07/meta_logo-2.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/robotrack"
       },
-      "eventId": "341c9475d1b971f0",
+      "eventId": "ca38829e73128713",
       "related": [],
       "score": {
-       "total": 61.4,
+       "total": 67.6,
        "parts": {
-        "reliability": 60.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
-        "topic": 100.0,
+        "recency": 85.6,
+        "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "الکساندر وانگ متا هشدار می دهد که صنعت AI برای آنچه که پس از پیشرفت Riemann اتفاق می افتد آماده نیست.",
-        "excerpt": "مدیر ارشد هوش مصنوعی متا، الکساندر وانگ، طرح اثبات کمک اخیر AI از فرضیه Riemann را به عنوان یک نشانه روشن می بیند که فوق العاده در اطراف گوشه است. الکساندر وانگ، مقاله Meta's الکساندر وانگ هشدار می دهد که صنعت AI برای آنچه که پس از پیشرفت Riemann در ابتدا در Decoder ظاهر شد، آماده نیست.",
+        "title": "RoboTrack: ردیابی نقطه برای دستکاری رباتیک در دنیای واقعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-1",
       "first-report",
-      "top-factor-recency"
+      "top-factor-reliability"
      ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-11-16T14:43:23Z",
-   "to": "2026-11-23T14:43:23Z",
+   "from": "2026-11-16T20:02:15Z",
+   "to": "2026-11-23T20:02:15Z",
    "halfLifeHours": 72,
    "picks": [
     {
      "article": {
-      "id": "ecab1061c917e910",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "id": "09afcc847896cde3",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board",
       "lang": "en",
-      "publishedAt": "2026-11-23T14:21:59Z",
+      "publishedAt": "2026-11-23T14:04:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
       "category": "business",
       "tags": [
        "ai",
-       "hardware",
-       "jensen huang",
-       "nvidia"
+       "news",
+       "nvidia",
+       "policy",
+       "tech"
       ],
       "entities": [
        "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_05.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
       "eventId": "ecab1061c917e910",
       "related": [
-       "7e93ff39fd333740"
+       "47b1648bdb930a3d",
+       "4fb306f1bad28bc9",
+       "7e93ff39fd333740",
+       "ecab1061c917e910"
       ],
       "score": {
-       "total": 71.0,
+       "total": 75.4,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 99.7,
+        "corroboration": 75.0,
+        "recency": 94.4,
         "topic": 55.0,
-        "novelty": 63.6
+        "novelty": 55.6
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
-        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
+        "title": "Jensen Huang به عنوان مدیر عامل Nvidia بازگشت",
+        "excerpt": "Nvidia Jensen Huang را به عنوان مدیرعامل خود معرفی کرده است. این شرکت روز دوشنبه صبح اعلام کرد که این هیئت مدیره \"به طور قاطع برای بازگرداندن آقای به توافق رسیده است. هوانگ پس از یک سری بحث ها و جلسات با آقای هوانگ، پس از آن هیئت مدیره از احترام به آقای راضی بود. توانایی و توانایی هوا برای رهبری NVIDIA",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 1,
-     "sources": 2,
+     "sources": 3,
      "reason": [
       "tier-2",
-      "voices-2",
+      "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bfa457749df18b36",
+      "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "excerpt": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T20:02:15Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/MpsO8Ds8uyo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "MpsO8Ds8uyo",
+       "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo"
+      },
+      "eventId": "bfa457749df18b36",
+      "related": [],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 85.7
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "بررسی آسیب پذیری های لینوکس با GPT-6 Cyber",
+        "excerpt": "AI می تواند به تیم های امنیتی کمک کند تا سریع تر از پیدا کردن آسیب پذیری ها برای اصلاح افراد نرم افزاری که به آن متکی هستند، حرکت کنند. در یک اجرا، GPT-6 Cyber به اعتباربخشی به 948 آسیب پذیری هسته لینوکس و ایجاد پچ های کاندید برای بررسی انسان کمک کرد. محقق سایبری کایل Zeng با Clint Gibler نشسته است، رهبری تحقیقات سایبری را به بحث در مورد چگونگی ساخت خط لوله تحقیق آسیب پذیری و کار ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d63bcf0febf7f91d",
+      "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity in action: Building an offline wildlife field guide",
+      "excerpt": "Creative technologist and hardware builder Arden Schager demonstrates how he built GemmaDex - a pocket-sized, 100% offline wildlife and plant field guide running on a Raspberry Pi 5, using the power of Antigravity and Gemma 4. Watch to learn more! Let us know what offline hardware you'd build using Antigravity and Gemini 4 models in the comments. 🔗 Resources: Build with the Antigravity →…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T20:00:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i3.ytimg.com/vi/fpQcDQJQLhg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "fpQcDQJQLhg",
+       "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg"
+      },
+      "eventId": "d63bcf0febf7f91d",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 100.0,
+        "novelty": 78.6
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گوگل ضد جاذبه در عمل: ایجاد یک راهنمای میدان وحشی آفلاین",
+        "excerpt": "تکنسین خلاق و سازنده سخت افزار Arden Schager نشان می دهد که چگونه او ساخته شده است GemmaDex - یک راهنمای حیات وحش 100٪ آفلاین و مزرعه گیاه در حال اجرا بر روی یک Raspberry Pi 5 با استفاده از قدرت ضد جاذبه و سنگما 4. تماشا کنید تا بیشتر یاد بگیرید! بیایید بدانیم که چه سخت افزار آفلاین را با استفاده از مدل های ضد گرانش و Gemini 4 در نظرات ایجاد می کنید. 🔗 Resources: Build with the Antigravzer",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "77ab3d65a27896e8",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Supercharging transformer residual connections",
+      "excerpt": "Algorithms & Theory",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:21:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "research",
+      "tags": [
+       "algorithms & theory"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "77ab3d65a27896e8",
+      "related": [],
+      "score": {
+       "total": 70.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.4,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Supercharging تبدیل اتصالات باقی مانده",
+        "excerpt": "الگوریتم ها و نظریه",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ca38829e73128713",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:20:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/robotrack"
+      },
+      "eventId": "ca38829e73128713",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.4,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "RoboTrack: ردیابی نقطه برای دستکاری رباتیک در دنیای واقعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "f8a4e02f42124693",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Connected intelligence for in-house legal",
+      "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "lang": "en",
+      "publishedAt": "2026-11-23T08:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [
+       "webinars"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "f8a4e02f42124693",
+      "related": [],
+      "score": {
+       "total": 70.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.1,
+        "topic": 100.0,
+        "novelty": 71.4
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "اطلاعات مرتبط برای قانونی داخلی",
+        "excerpt": "Watch OpenAI’s Stacey Wang و Craig Bruney، Mary O'carroll از LECG، و Richard Segal Cooley بررسی کنید که چگونه AI می تواند به تیم های حقوقی داخلی کمک کند تا زمینه کسب و کار را متصل کنند، جریان های کار قابل استفاده مجدد را بسازند و بیشتر از مشاوره خارجی دریافت کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -477,15 +754,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 68.5,
+       "total": 68.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 20.9,
+        "recency": 19.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
@@ -496,7 +773,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 7,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -507,349 +784,54 @@
     },
     {
      "article": {
-      "id": "315fb775dc30231e",
-      "url": "https://news.mit.edu/2026/ai-driven-technique-could-help-engineers-design-analog-chips-faster-and-less-expensive-1123",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "AI-driven technique could help engineers design analog chips faster and with less expense",
-      "excerpt": "The “SLIC” training method enables a small LLM to compete with much more resource-intensive models in complex circuit design tasks.",
+      "id": "61dcf1169479ac82",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "lang": "en",
-      "publishedAt": "2026-11-23T05:00:00Z",
+      "publishedAt": "2026-11-23T16:59:40Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T08:19:15Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "hardware",
-      "tags": [
-       "research",
-       "computer chips",
-       "electronics",
-       "artificial intelligence",
-       "computer science and technology",
-       "machine learning"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-AnalogOptimize-01-Press.jpg?itok=826Fvg7c",
-       "credit": "Image: Jose-Luis Olivares, MIT; Getty Images",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "315fb775dc30231e",
-      "related": [],
-      "score": {
-       "total": 68.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.1,
-        "topic": 70.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "تکنیک مبتنی بر هوش مصنوعی می تواند به مهندسان کمک کند تا تراشه های آنالوگ را سریعتر و با هزینه کمتر طراحی کنند.",
-        "excerpt": "روش آموزش \"SLIC\" LLM کوچک را قادر می سازد تا با مدل های بسیار بیشتر منابع فشرده در وظایف طراحی مدار پیچیده رقابت کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T08:19:15Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de5cd1a6d51dc917",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Perplexity and Intelligence",
-      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "lang": "en",
-      "publishedAt": "2026-11-22T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T18:04:57Z",
-      "day": "2026-11-22",
-      "category": "models",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "de5cd1a6d51dc917",
-      "related": [],
-      "score": {
-       "total": 67.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 68.9,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیچیدگی و هوش",
-        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T18:04:57Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "6fd4c32fe34a4cba",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "How to build and maintain an agentic evaluation",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-23T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
-      "day": "2026-11-23",
-      "category": "open-source",
+      "category": "products",
       "tags": [],
       "entities": [
-       "huggingface"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/agentic-evals"
+       "url": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
       },
-      "eventId": "6fd4c32fe34a4cba",
+      "eventId": "61dcf1169479ac82",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.8,
-        "topic": 75.0,
-        "novelty": 83.3
+        "recency": 97.1,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه برای ساخت و نگهداری ارزیابی نمایندگی",
+        "title": "پیدا کردن الگوریتم های کوانتومی سریع تر با عوامل و تایید رسمی",
+        "excerpt": "استفاده از تیم های عامل و تأیید رسمی برای بهبود الگوریتم های کوانتومی برای همجوشی و شیمی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "5154af66482df5ff",
-      "url": "https://www.theguardian.com/stage/2026/nov/23/dylan-moran-looking-for-trouble-review",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dylan Moran goes looking for trouble and disappears off the beaten track in this baffling comedy show",
-      "excerpt": "Royal & Derngate, Northampton The Black Books star gets off to a promising start as he contemplates ‘the burning ball of what you don’t understand’ but his search for levity leads to half-baked ditties Is Dylan Moran joking when he opens his show by telling Northampton’s audience “I didn’t write anything, or prepare”? By the end, you wouldn’t bet on it. Bleary directionlessness may be par for…",
-      "lang": "en",
-      "publishedAt": "2026-11-23T13:32:49Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
-      "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "comedy",
-       "dylan moran",
-       "stage",
-       "culture",
-       "technology"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/06cdcd75701ea082b0e53f418adb0a889c35729a/1653_754_2048_1639/master/2048.jpg?width=700&quality=85&auto=format&fit=max&s=c1aade06a7fadef3a0409e2d2993ba7a",
-       "credit": "Photograph: Andrea Vopičková",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "5154af66482df5ff",
-      "related": [],
-      "score": {
-       "total": 66.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 98.9,
-        "topic": 85.0,
-        "novelty": 94.7
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دیلن موران به دنبال مشکل و ناپدید شدن مسیر شکست خورده در این نمایش کمدی است",
-        "excerpt": "Royal & Derngate، Northampton ستاره کتاب های سیاه به یک شروع امیدوار کننده تبدیل می شود، زیرا او فکر می کند \"توپ سوزان چیزی که شما درک نمی کنید\" اما جستجوی او برای levity منجر به دیتیست نیمه پخته شده است زمانی که او نمایش خود را با گفتن مخاطب Northampton \"من چیزی ننوشته ام یا آماده نیستم؟\" در پایان، شما روی آن شرط نمی گذارید. بی طرفی ممکن است برای ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bab5470813fe16df",
-      "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
-      "excerpt": "Australian dictionary’s committee of word experts says winning term is ‘a succinct reflection of the state of the world in 2026’ Get our breaking news email, free app or daily news podcast The backlash to “pervert glasses” has been swift and severe. Smartglasses such as Meta’s Ray-Bans, which have built-in cameras, microphones, and AI assistants have been banned at some Australian swimming pools…",
-      "lang": "en",
-      "publishedAt": "2026-11-23T13:55:40Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
-      "day": "2026-11-23",
-      "category": "policy",
-      "tags": [
-       "language",
-       "australian books",
-       "australia news",
-       "linguistics",
-       "ai (artificial intelligence)"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/157cb03ca11449508590bbb8b23daca70b5a59ce/418_0_4164_3333/master/4164.jpg?width=700&quality=85&auto=format&fit=max&s=1fcf73a8c489c1580ee8a0facae13340",
-       "credit": "Photograph: Carlos Barría/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "bab5470813fe16df",
-      "related": [],
-      "score": {
-       "total": 65.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.2,
-        "topic": 85.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "عینک های پرورت به نام کلمه سال توسط فرهنگ لغت Macquarie، پیش از \"nudify\" و \"AI؛DR\"",
-        "excerpt": "کمیته کارشناسان کلمه فرهنگ لغت استرالیا می گوید: \"یک انعکاس مختصر از وضعیت جهان در سال 2026\" ایمیل اخبار شکستن ما، برنامه رایگان و یا پادکست اخبار روزانه است که واکنش به \" عینک های اضافی\" سریع و شدید بوده است. عینک های هوشمند مانند Ray-Bans Meta که دوربین های داخلی، میکروفون و دستیار های AI در برخی از استخر های شنا استرالیا ممنوع شده اند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "1793f4fe05b13a1c",
-      "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
-      "excerpt": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
-      "lang": "en",
-      "publishedAt": "2026-11-23T12:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
-      "day": "2026-11-23",
-      "category": "research",
-      "tags": [
-       "ai",
-       "features",
-       "reviews",
-       "asus",
-       "local ai",
-       "rtx spark"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Asus-P16-3-1152x648.jpg",
-       "alt": "The Asus ProArt P16 looks like any high-end laptop, but it's got serious AI chops.",
-       "credit": "Ryan Whitwam",
-       "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
-      },
-      "eventId": "1793f4fe05b13a1c",
-      "related": [],
-      "score": {
-       "total": 64.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.4,
-        "topic": 80.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Asus ProArt P16 ارائه می دهد یک نگاه اجمالی از آینده توسط AI محلی",
-        "excerpt": "لپ تاپ Asus ProArt جدید تا 7000 دلار هزینه دارد، اما می تواند مجموعه ای از عوامل هوش مصنوعی محلی را اجرا کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -857,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-24T14:43:23Z",
-   "to": "2026-11-23T14:43:23Z",
+   "from": "2026-10-24T20:02:15Z",
+   "to": "2026-11-23T20:02:15Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -896,15 +878,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.0,
+       "total": 78.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 38.5,
+        "recency": 37.9,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
@@ -955,15 +937,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 76.8,
+       "total": 76.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 62.5,
+        "recency": 61.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
@@ -985,52 +967,122 @@
     },
     {
      "article": {
-      "id": "de5cd1a6d51dc917",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Perplexity and Intelligence",
-      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "id": "09afcc847896cde3",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board",
       "lang": "en",
-      "publishedAt": "2026-11-22T00:00:00Z",
+      "publishedAt": "2026-11-23T14:04:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T18:04:57Z",
-      "day": "2026-11-22",
-      "category": "models",
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "business",
       "tags": [
-       "research"
+       "ai",
+       "news",
+       "nvidia",
+       "policy",
+       "tech"
       ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_05.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "ecab1061c917e910",
+      "related": [
+       "47b1648bdb930a3d",
+       "4fb306f1bad28bc9",
+       "7e93ff39fd333740",
+       "ecab1061c917e910"
+      ],
+      "score": {
+       "total": 76.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 75.0,
+        "recency": 98.3,
+        "topic": 55.0,
+        "novelty": 55.6
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Jensen Huang به عنوان مدیر عامل Nvidia بازگشت",
+        "excerpt": "Nvidia Jensen Huang را به عنوان مدیرعامل خود معرفی کرده است. این شرکت روز دوشنبه صبح اعلام کرد که این هیئت مدیره \"به طور قاطع برای بازگرداندن آقای به توافق رسیده است. هوانگ پس از یک سری بحث ها و جلسات با آقای هوانگ، پس از آن هیئت مدیره از احترام به آقای راضی بود. توانایی و توانایی هوا برای رهبری NVIDIA",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 3,
+     "reason": [
+      "tier-2",
+      "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "bfa457749df18b36",
+      "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "excerpt": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T20:02:15Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/MpsO8Ds8uyo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "de5cd1a6d51dc917",
+      "video": {
+       "provider": "youtube",
+       "id": "MpsO8Ds8uyo",
+       "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo"
+      },
+      "eventId": "bfa457749df18b36",
       "related": [],
       "score": {
-       "total": 71.2,
+       "total": 73.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 89.4,
+        "recency": 100.0,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 85.7
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "پیچیدگی و هوش",
-        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
+        "title": "بررسی آسیب پذیری های لینوکس با GPT-6 Cyber",
+        "excerpt": "AI می تواند به تیم های امنیتی کمک کند تا سریع تر از پیدا کردن آسیب پذیری ها برای اصلاح افراد نرم افزاری که به آن متکی هستند، حرکت کنند. در یک اجرا، GPT-6 Cyber به اعتباربخشی به 948 آسیب پذیری هسته لینوکس و ایجاد پچ های کاندید برای بررسی انسان کمک کرد. محقق سایبری کایل Zeng با Clint Gibler نشسته است، رهبری تحقیقات سایبری را به بحث در مورد چگونگی ساخت خط لوله تحقیق آسیب پذیری و کار ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T18:04:57Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1040,107 +1092,52 @@
     },
     {
      "article": {
-      "id": "ecab1061c917e910",
-      "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia reverses course and brings Jensen Huang back as CEO",
-      "excerpt": "The stunning reversal was supported by senior officials in the U.S. government.",
+      "id": "d63bcf0febf7f91d",
+      "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "Google Antigravity in action: Building an offline wildlife field guide",
+      "excerpt": "Creative technologist and hardware builder Arden Schager demonstrates how he built GemmaDex - a pocket-sized, 100% offline wildlife and plant field guide running on a Raspberry Pi 5, using the power of Antigravity and Gemma 4. Watch to learn more! Let us know what offline hardware you'd build using Antigravity and Gemini 4 models in the comments. 🔗 Resources: Build with the Antigravity →…",
       "lang": "en",
-      "publishedAt": "2026-11-23T14:21:59Z",
+      "publishedAt": "2026-11-23T20:00:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "business",
-      "tags": [
-       "ai",
-       "hardware",
-       "jensen huang",
-       "nvidia"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/business.svg",
-       "kind": "fallback"
-      },
-      "eventId": "ecab1061c917e910",
-      "related": [
-       "7e93ff39fd333740"
-      ],
-      "score": {
-       "total": 71.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 99.9,
-        "topic": 55.0,
-        "novelty": 63.6
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia مسیر را معکوس می کند و Jensen Huang را به عنوان مدیر عامل به ارمغان می آورد",
-        "excerpt": "بازگشت خیره کننده توسط مقامات ارشد در دولت ایالات متحده حمایت شد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3ea993db7e3c60d1",
-      "url": "https://openai.com/index/combatting-adversarial-distillation",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Combatting adversarial distillation",
-      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
       "category": "models",
       "tags": [],
       "entities": [
-       "openai"
+       "google"
       ],
-      "brand": "openai",
+      "brand": null,
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i3.ytimg.com/vi/fpQcDQJQLhg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
-      "eventId": "3ea993db7e3c60d1",
+      "video": {
+       "provider": "youtube",
+       "id": "fpQcDQJQLhg",
+       "url": "https://www.youtube.com/watch?v=fpQcDQJQLhg"
+      },
+      "eventId": "d63bcf0febf7f91d",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 72.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.1,
+        "recency": 100.0,
         "topic": 100.0,
-        "novelty": 100.0
+        "novelty": 78.6
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "مبارزه با تقطیر مجاور",
-        "excerpt": "رویکرد لایه ای OpenAI به تقطیر مجاور ترکیبی از آموزش مدل، حفاظت، تشخیص و اجرای برای محافظت در برابر استخراج قابلیت است.",
+        "title": "گوگل ضد جاذبه در عمل: ایجاد یک راهنمای میدان وحشی آفلاین",
+        "excerpt": "تکنسین خلاق و سازنده سخت افزار Arden Schager نشان می دهد که چگونه او ساخته شده است GemmaDex - یک راهنمای حیات وحش 100٪ آفلاین و مزرعه گیاه در حال اجرا بر روی یک Raspberry Pi 5 با استفاده از قدرت ضد جاذبه و سنگما 4. تماشا کنید تا بیشتر یاد بگیرید! بیایید بدانیم که چه سخت افزار آفلاین را با استفاده از مدل های ضد گرانش و Gemini 4 در نظرات ایجاد می کنید. 🔗 Resources: Build with the Antigravzer",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
@@ -1154,56 +1151,161 @@
     },
     {
      "article": {
-      "id": "f9730375d00ba37a",
-      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
-      "sourceId": "anthropic-youtube",
-      "sourceName": "Anthropic (YouTube)",
-      "title": "What we make of this moment, will make this moment.",
-      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
+      "id": "f8a4e02f42124693",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Connected intelligence for in-house legal",
+      "excerpt": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
       "lang": "en",
-      "publishedAt": "2026-11-19T15:02:49Z",
+      "publishedAt": "2026-11-23T08:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
       "category": "models",
-      "tags": [],
-      "entities": [
-       "anthropic"
+      "tags": [
+       "webinars"
       ],
-      "brand": "claude",
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
       "image": {
-       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "JDsFHmq9hlA",
-       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
-      },
-      "eventId": "f9730375d00ba37a",
+      "eventId": "f8a4e02f42124693",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 71.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.9,
+        "recency": 96.6,
         "topic": 100.0,
-        "novelty": 94.1
+        "novelty": 71.4
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
-        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
+        "title": "اطلاعات مرتبط برای قانونی داخلی",
+        "excerpt": "Watch OpenAI’s Stacey Wang و Craig Bruney، Mary O'carroll از LECG، و Richard Segal Cooley بررسی کنید که چگونه AI می تواند به تیم های حقوقی داخلی کمک کند تا زمینه کسب و کار را متصل کنند، جریان های کار قابل استفاده مجدد را بسازند و بیشتر از مشاوره خارجی دریافت کنند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "77ab3d65a27896e8",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Supercharging transformer residual connections",
+      "excerpt": "Algorithms & Theory",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:21:12Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "research",
+      "tags": [
+       "algorithms & theory"
+      ],
+      "entities": [
+       "google"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
+      },
+      "eventId": "77ab3d65a27896e8",
+      "related": [],
+      "score": {
+       "total": 70.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 80.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Supercharging تبدیل اتصالات باقی مانده",
+        "excerpt": "الگوریتم ها و نظریه",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ca38829e73128713",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-23T17:20:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/0KlbITzhyUGtGPyvi09um.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/robotrack"
+      },
+      "eventId": "ca38829e73128713",
+      "related": [],
+      "score": {
+       "total": 70.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.2,
+        "topic": 75.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-23T20:02:15Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "RoboTrack: ردیابی نقطه برای دستکاری رباتیک در دنیای واقعی",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1244,15 +1346,15 @@
       "eventId": "315fb775dc30231e",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 95.7,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
@@ -1263,7 +1365,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1273,167 +1375,47 @@
     },
     {
      "article": {
-      "id": "6fd4c32fe34a4cba",
-      "url": "https://huggingface.co/blog/agentic-evals",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "How to build and maintain an agentic evaluation",
-      "excerpt": "",
+      "id": "61dcf1169479ac82",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "sourceId": "google-deepmind",
+      "sourceName": "Google DeepMind Blog",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "excerpt": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
       "lang": "en",
-      "publishedAt": "2026-11-23T00:00:00Z",
+      "publishedAt": "2026-11-23T16:59:40Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T14:51:56Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
-      "category": "open-source",
+      "category": "products",
       "tags": [],
       "entities": [
-       "huggingface"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://huggingface.co/blog/assets/agentic-evals/thumbnail.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/agentic-evals"
+       "url": "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w528-h297-n-nu-rw-lo",
+       "kind": "feed",
+       "sourceUrl": "https://deepmind.google/blog/rss.xml"
       },
-      "eventId": "6fd4c32fe34a4cba",
+      "eventId": "61dcf1169479ac82",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
-        "topic": 75.0,
-        "novelty": 83.3
+        "recency": 99.1,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-23T14:43:23Z"
+       "asOf": "2026-11-23T20:02:15Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه برای ساخت و نگهداری ارزیابی نمایندگی",
+        "title": "پیدا کردن الگوریتم های کوانتومی سریع تر با عوامل و تایید رسمی",
+        "excerpt": "استفاده از تیم های عامل و تأیید رسمی برای بهبود الگوریتم های کوانتومی برای همجوشی و شیمی.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T14:51:56Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "b0341a0ae375085e",
-      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Meta’s Muse Charm might cost $300",
-      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the holidays in December,\" but",
-      "lang": "en",
-      "publishedAt": "2026-11-19T20:22:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-19T21:00:34Z",
-      "day": "2026-11-19",
-      "category": "business",
-      "tags": [
-       "ai",
-       "meta",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/lcimg-3879511d-dd3d-430c-8072-616e2dfb3484.jpeg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A photo from Meta Connect 2026 of the Muse Charm gadget.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "b0341a0ae375085e",
-      "related": [
-       "e60f4e5e7cf4b021"
-      ],
-      "score": {
-       "total": 68.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 77.0,
-        "topic": 55.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "محبوب متا ممکن است 300 دلار هزینه داشته باشد",
-        "excerpt": "Meta در حال برنامه ریزی برای قیمت گذاری محبوب Muse، یک ابزار کوچک با یک صفحه نمایش است که به شما اجازه می دهد با عامل Muse AI در 300 دلار، با توجه به اطلاعات چت کنید. مارک زوکربرگ، مدیر عامل این ابزار را در اوایل سال جاری فاش کرد و گفت که این شرکت انتظار دارد تا \"در زمان تعطیلات در ماه دسامبر\"، اما ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-19T21:00:34Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dc26abff63441211",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
-      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:37:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "policy",
-      "tags": [
-       "intermediate (200)",
-       "thought leadership"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
-       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "dc26abff63441211",
-      "related": [],
-      "score": {
-       "total": 68.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.6,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-23T14:43:23Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
-        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
