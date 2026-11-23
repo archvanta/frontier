@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-22T22:48:02Z",
+ "asOf": "2026-11-23T03:23:44Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,70 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-21T22:48:02Z",
-   "to": "2026-11-22T22:48:02Z",
+   "from": "2026-11-22T03:23:44Z",
+   "to": "2026-11-23T03:23:44Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "edc60acd0eeb6720",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
+      "excerpt": "Exclusive: Statement on death of Australian music industry legend drafted using search and AI but ‘fact checked and edited’ before approval, party says Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary A statement on the death of Molly Meldrum attributed to the Victorian…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T03:23:44Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T03:46:02Z",
+      "day": "2026-11-23",
+      "category": "policy",
+      "tags": [
+       "victorian politics",
+       "ai (artificial intelligence)",
+       "jess wilson",
+       "victoria state election 2026",
+       "victoria",
+       "australia news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/f8400eec13a4a86627b0f0ba9608b2ae5afe8080/1714_12_4846_3878/master/4846.jpg?width=700&quality=85&auto=format&fit=max&s=465e2d51ccd570a0e1d50ceb7df0fc5f",
+       "credit": "Photograph: James Ross/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "edc60acd0eeb6720",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-23T03:23:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "حزب لیبرال ویکتوریا از AI برای نوشتن ادای احترام جس ویلسون به مولودرام استفاده می کند",
+        "excerpt": "منحصر به فرد: بیانیه مرگ اسطوره صنعت موسیقی استرالیا با استفاده از جستجو و AI، اما \"واقعیت بررسی و ویرایش\" قبل از تصویب، حزب می گوید Tributes جریان برای مالی Meldrum: طبیعت انسانی، جیسون دانو و دیگران صنعت موسیقی بزرگ مولودروم - زندگی در عکس های ای از ایان \"Molly\" Meldrum - بیانیه ای در مورد مرگ مولود به مل ویکتوریا.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T03:46:02Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "05744626c0d61baf",
@@ -44,15 +104,15 @@
       "eventId": "05744626c0d61baf",
       "related": [],
       "score": {
-       "total": 63.5,
+       "total": 59.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 70.1,
         "topic": 80.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -63,7 +123,67 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "914bb147d0bf37ce",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "excerpt": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "lang": "en",
+      "publishedAt": "2026-11-23T01:25:53Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T03:46:02Z",
+      "day": "2026-11-23",
+      "category": "business",
+      "tags": [
+       "ai",
+       "venture",
+       "anthropic",
+       "anthropic ipo",
+       "baillie gifford",
+       "ggv capital"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "914bb147d0bf37ce",
+      "related": [],
+      "score": {
+       "total": 58.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 89.3,
+        "topic": 55.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-23T03:23:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سرمایه، GIC و Baillie Gifford چقدر در Anthropic قبل از IPO آن بزرگ است",
+        "excerpt": "سه پشتیبان مهم به اشتراک می گذارند که چه چیزی به آنها اطمینان می دهد که میلیاردها دلار روی آنتروپیک شرط بندی کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T03:46:02Z"
+       }
+      }
+     },
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -102,15 +222,15 @@
       "eventId": "e7090200216ed533",
       "related": [],
       "score": {
-       "total": 61.8,
+       "total": 57.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 76.7,
         "topic": 65.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -121,7 +241,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -164,15 +284,15 @@
       "eventId": "fb61cc4234e2e4e6",
       "related": [],
       "score": {
-       "total": 60.5,
+       "total": 56.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 87.0,
+        "recency": 66.7,
         "topic": 70.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -183,125 +303,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "adb0aabaaa02f91c",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/23/datacentre-bosses-met-australian-state-premiers-and-ministers-almost-120-times-in-three-years-analysis-finds",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Datacentre bosses met Australian state premiers and ministers almost 120 times in three years, analysis finds",
-      "excerpt": "Transparency International says Queensland’s David Crisafulli was ‘by far the most frequently accessed’ state leader, with 13 meetings Get our breaking news email, free app or daily news podcast Bosses at 10 datacentre companies secured almost 120 meetings with premiers and ministers in five states over a three-year period, with experts declaring this is “just the tip of the iceberg”. Analysis…",
-      "lang": "en",
-      "publishedAt": "2026-11-22T19:00:34Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T22:31:14Z",
-      "day": "2026-11-22",
-      "category": "hardware",
-      "tags": [
-       "datacentres - australia",
-       "queensland",
-       "australia news",
-       "new south wales",
-       "tasmania",
-       "victoria"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/7c9ca8255b51e9604fa64118322f08bb4d19c764/475_0_3640_2912/master/3640.jpg?width=700&quality=85&auto=format&fit=max&s=010dd370e77d5c889271f1998e597721",
-       "credit": "Photograph: Darren England/AAP",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "adb0aabaaa02f91c",
-      "related": [],
-      "score": {
-       "total": 60.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 80.3,
-        "topic": 70.0,
-        "novelty": 94.7
-       },
-       "asOf": "2026-11-22T22:48:02Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کارفرمایان مرکز داده با نخست وزیر ها و وزرای دولتی استرالیا در حدود 120 بار در سه سال ملاقات کردند، تجزیه و تحلیل ها نشان می دهد",
-        "excerpt": "شفافیت بین المللی می گوید دیوید کریستینایلی، رهبر دولتی اغلب قابل دسترسی است، با ۱۳ جلسه ایمیل اخبار شکستن ما، برنامه رایگان یا پادکست خبری روزانه را که در ۱۰ شرکت مرکز داده تقریبا ۱۲۰ جلسه با نخست وزیر ها و وزرا در پنج ایالت در یک دوره سه ساله، با کارشناسان اعلام کردند که این \"فقط نوک یخبرگ\" است. تحلیل ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T22:31:14Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "de5cd1a6d51dc917",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Perplexity and Intelligence",
-      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "lang": "en",
-      "publishedAt": "2026-11-22T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T18:04:57Z",
-      "day": "2026-11-22",
-      "category": "models",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "de5cd1a6d51dc917",
-      "related": [],
-      "score": {
-       "total": 58.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 26.8,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-22T22:48:02Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیچیدگی و هوش",
-        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T18:04:57Z"
-       }
-      }
-     },
      "rank": 5,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -338,15 +343,15 @@
       "eventId": "265c68ec3a4cc76b",
       "related": [],
       "score": {
-       "total": 57.4,
+       "total": 54.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 73.3,
+        "recency": 56.2,
         "topic": 65.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -368,65 +373,10 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-15T22:48:02Z",
-   "to": "2026-11-22T22:48:02Z",
+   "from": "2026-11-16T03:23:44Z",
+   "to": "2026-11-23T03:23:44Z",
    "halfLifeHours": 72,
    "picks": [
-    {
-     "article": {
-      "id": "de5cd1a6d51dc917",
-      "url": "https://openai.com/index/perplexity-and-intelligence",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Perplexity and Intelligence",
-      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
-      "lang": "en",
-      "publishedAt": "2026-11-22T00:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-22T18:04:57Z",
-      "day": "2026-11-22",
-      "category": "models",
-      "tags": [
-       "research"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
-      },
-      "eventId": "de5cd1a6d51dc917",
-      "related": [],
-      "score": {
-       "total": 69.4,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 80.3,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-22T22:48:02Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "پیچیدگی و هوش",
-        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T18:04:57Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "773cc78ee17a9631",
@@ -459,15 +409,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 24.4,
+        "recency": 23.3,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -478,11 +428,126 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 1,
      "sources": 3,
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "de5cd1a6d51dc917",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "publishedAt": "2026-11-22T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-22T18:04:57Z",
+      "day": "2026-11-22",
+      "category": "models",
+      "tags": [
+       "research"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "de5cd1a6d51dc917",
+      "related": [],
+      "score": {
+       "total": 68.7,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 76.8,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-23T03:23:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پیچیدگی و هوش",
+        "excerpt": "چگونه پیچیدگی پیشرفت در مدل های AI را اندازه گیری می کند و چرا می تواند به توسعه دهندگان کمک کند تا یک رویکرد مشترک برای ارزیابی قابلیت های نوظهور ایجاد کنند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-22T18:04:57Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "edc60acd0eeb6720",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/23/victorian-liberal-party-uses-ai-to-write-jess-wilsons-tribute-to-molly-meldrum",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Victorian Liberal party uses AI to write Jess Wilson’s tribute to Molly Meldrum",
+      "excerpt": "Exclusive: Statement on death of Australian music industry legend drafted using search and AI but ‘fact checked and edited’ before approval, party says Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary A statement on the death of Molly Meldrum attributed to the Victorian…",
+      "lang": "en",
+      "publishedAt": "2026-11-23T03:23:44Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T03:46:02Z",
+      "day": "2026-11-23",
+      "category": "policy",
+      "tags": [
+       "victorian politics",
+       "ai (artificial intelligence)",
+       "jess wilson",
+       "victoria state election 2026",
+       "victoria",
+       "australia news"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/f8400eec13a4a86627b0f0ba9608b2ae5afe8080/1714_12_4846_3878/master/4846.jpg?width=700&quality=85&auto=format&fit=max&s=465e2d51ccd570a0e1d50ceb7df0fc5f",
+       "credit": "Photograph: James Ross/AAP",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "edc60acd0eeb6720",
+      "related": [],
+      "score": {
+       "total": 66.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-23T03:23:44Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "حزب لیبرال ویکتوریا از AI برای نوشتن ادای احترام جس ویلسون به مولودرام استفاده می کند",
+        "excerpt": "منحصر به فرد: بیانیه مرگ اسطوره صنعت موسیقی استرالیا با استفاده از جستجو و AI، اما \"واقعیت بررسی و ویرایش\" قبل از تصویب، حزب می گوید Tributes جریان برای مالی Meldrum: طبیعت انسانی، جیسون دانو و دیگران صنعت موسیقی بزرگ مولودروم - زندگی در عکس های ای از ایان \"Molly\" Meldrum - بیانیه ای در مورد مرگ مولود به مل ویکتوریا.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T03:46:02Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -513,15 +578,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 65.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.7,
+        "recency": 53.3,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -532,7 +597,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -572,15 +637,15 @@
       "eventId": "cedca3bd6777efe2",
       "related": [],
       "score": {
-       "total": 65.3,
+       "total": 64.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.3,
+        "recency": 58.7,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -591,7 +656,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -631,15 +696,15 @@
       "eventId": "640048dd8d426256",
       "related": [],
       "score": {
-       "total": 64.5,
+       "total": 63.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.9,
+        "recency": 87.9,
         "topic": 85.0,
         "novelty": 93.3
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -650,68 +715,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "dc26abff63441211",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai",
-      "sourceId": "aws-ml",
-      "sourceName": "AWS Machine Learning Blog",
-      "title": "How Standard Bank Group automates AI risk assessment for generative AI",
-      "excerpt": "Standard Bank Group automated the evidence behind its generative AI approval gates. Working with AWS Professional Services, the bank built an assessment in its own AWS account that scores each use case against international AI standards and its own policies using LLM-as-a-judge on Amazon Bedrock, giving risk committees consistent, traceable evidence.",
-      "lang": "en",
-      "publishedAt": "2026-11-20T20:37:31Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
-      "category": "policy",
-      "tags": [
-       "intermediate (200)",
-       "thought leadership"
-      ],
-      "entities": [
-       "amazon"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22493-1.png",
-       "alt": "Architecture diagram of the automated AI risk assessment running in Standard Bank Group’s AWS account",
-       "kind": "feed",
-       "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/feed/"
-      },
-      "eventId": "dc26abff63441211",
-      "related": [],
-      "score": {
-       "total": 64.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 61.7,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-22T22:48:02Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه گروه بانک استاندارد ارزیابی ریسک AI را برای هوش مصنوعی عمومی خودکار می کند",
-        "excerpt": "گروه بانک استاندارد شواهد را در پشت دروازه های تأیید هوش مصنوعی عمومی خود خودکار می کند. با کار با AWS خدمات حرفه ای، بانک یک ارزیابی را در حساب AWS خود ایجاد کرد که هر مورد را در برابر استانداردهای بین المللی AI و سیاست های خود با استفاده از LLM به عنوان یک قضاوت در آمازون Bedrock، ارائه کمیته های خطر ثابت، شواهد قابل ردیابی.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -752,15 +759,15 @@
       "eventId": "26e2979e9c83fed2",
       "related": [],
       "score": {
-       "total": 63.9,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.8,
+        "recency": 78.3,
         "topic": 65.0,
         "novelty": 77.8
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -781,59 +788,60 @@
     },
     {
      "article": {
-      "id": "99186935d9c1d9b4",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/22/stopped-talking-to-husband-let-ai-do-it-instead",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I stopped talking to my husband and let AI do it instead. He didn’t even notice | Polly Hudson",
-      "excerpt": "What have I learned from my experiment with outsourcing? That I’m easily replaced – and awful I’ve just ventured deeper into my phone’s settings than anybody has ever been before. A software update is always discombobulating, but the latest one brought a lot of unwanted AI nonsense (that mental image you just got of me waving my fist at the sky: spot on). Even when you manually switch off Apple…",
+      "id": "480a8b723958aa8d",
+      "url": "https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "New approach enables physically consistent AI models of chaotic systems",
+      "excerpt": "Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.",
       "lang": "en",
-      "publishedAt": "2026-11-22T16:00:31Z",
+      "publishedAt": "2026-11-20T20:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-22T16:22:53Z",
-      "day": "2026-11-22",
+      "fetchedAt": "2026-11-21T00:58:07Z",
+      "day": "2026-11-20",
       "category": "research",
       "tags": [
-       "technology",
-       "mobile phones",
-       "ai (artificial intelligence)"
+       "school of engineering",
+       "mit schwarzman college of computing",
+       "aeronautical and astronautical engineeri",
+       "electrical engineering and computer scie",
+       "mechanical engineering",
+       "idss"
       ],
-      "entities": [
-       "apple"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/8de114b421ebe5837795f62e223317d67e4528bd/719_0_6156_4923/master/6156.jpg?width=700&quality=85&auto=format&fit=max&s=ec3aae18e38776ddc8d4aefaed0d736d",
-       "credit": "Photograph: Issarawat Tattong/Getty Images",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-lids-stable_chaos.jpg?itok=yDuaaSB5",
+       "credit": "Image courtesy of Sunbochen Tang.",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "99186935d9c1d9b4",
+      "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 63.6,
+       "total": 62.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.7,
+        "recency": 58.7,
         "topic": 80.0,
-        "novelty": 88.9
+        "novelty": 90.9
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
-        "title": "من صحبت کردن با همسرم را متوقف کردم و اجازه دادم که AI این کار را انجام دهد. او حتی متوجه نشد که پوللی هادسون",
-        "excerpt": "از آزمایشم با برون سپاری چه آموختم؟ من به راحتی جایگزین می شوم - و وحشتناک است که من فقط به تنظیمات تلفن خود عمیق تر از هر کسی که قبلا بوده است. به روز رسانی نرم افزار همیشه گیج کننده است، اما آخرین چیزی که بسیاری از بی معنی های ناخواسته AI را به ارمغان آورد (تصویر ذهنی که شما فقط از من به تکان دادن مشت من در آسمان: نقطه در). حتی زمانی که به صورت دستی Apple را خاموش می کنید...",
+        "title": "رویکرد جدید، مدل های AI سازگار با فیزیکی سیستم های هرج و مرج را فعال می کند",
+        "excerpt": "محدودیت های مبتنی بر فیزیک مانع از تولید پیش بینی های غیر خطی برای سیستم های پیچیده غیر خطی در آب و هوا، آب و هوا و جریان های آشفته می شود.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-22T16:22:53Z"
+        "at": "2026-11-21T00:58:07Z"
        }
       }
      },
      "rank": 8,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -841,8 +849,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-23T22:48:02Z",
-   "to": "2026-11-22T22:48:02Z",
+   "from": "2026-10-24T03:23:44Z",
+   "to": "2026-11-23T03:23:44Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -880,15 +888,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 79.3,
+       "total": 79.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 40.3,
+        "recency": 39.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -939,15 +947,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 77.4,
+       "total": 77.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 65.5,
+        "recency": 64.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -995,15 +1003,15 @@
       "eventId": "de5cd1a6d51dc917",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 92.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1048,15 +1056,15 @@
       "eventId": "3ea993db7e3c60d1",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 82.8,
         "topic": 100.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1077,52 +1085,52 @@
     },
     {
      "article": {
-      "id": "cedca3bd6777efe2",
-      "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "Google Antigravity and Gemini 4: Creating an interactive MIDI mapped 3D world",
-      "excerpt": "Tune in to learn how creative technologist Tiago Aragona orchestrates modular 3D modeling, custom synthesizer design, and MIDI mapping into an interactive, real time audio-reactive Unity world using Antigravity and Gemini 4. Watch to explore the build! What will you create with Google Antigravity and Gemini 4 models? Drop your ideas in the comments, and subscribe for more hands-on build demos! 🔗…",
+      "id": "f9730375d00ba37a",
+      "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA",
+      "sourceId": "anthropic-youtube",
+      "sourceName": "Anthropic (YouTube)",
+      "title": "What we make of this moment, will make this moment.",
+      "excerpt": "What we* make of this moment, will make this moment. *a food bank in Texas, a PhD student in Tokyo with a floating cuttlefish robot, a first-time builder mapping 800 years of Indian history, a developer tracking potholes in Slovenia, and millions more.",
       "lang": "en",
-      "publishedAt": "2026-11-20T20:00:04Z",
+      "publishedAt": "2026-11-19T15:02:49Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-20T21:15:12Z",
-      "day": "2026-11-20",
+      "fetchedAt": "2026-11-19T21:00:34Z",
+      "day": "2026-11-19",
       "category": "models",
       "tags": [],
       "entities": [
-       "google"
+       "anthropic"
       ],
-      "brand": "gemini",
+      "brand": "claude",
       "image": {
-       "url": "https://i4.ytimg.com/vi/WN-JK-hMAyg/hqdefault.jpg",
+       "url": "https://i3.ytimg.com/vi/JDsFHmq9hlA/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCrDwWp7EBBv4NwvScIpBDOA"
       },
       "video": {
        "provider": "youtube",
-       "id": "WN-JK-hMAyg",
-       "url": "https://www.youtube.com/watch?v=WN-JK-hMAyg"
+       "id": "JDsFHmq9hlA",
+       "url": "https://www.youtube.com/watch?v=JDsFHmq9hlA"
       },
-      "eventId": "cedca3bd6777efe2",
+      "eventId": "f9730375d00ba37a",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.4,
+        "recency": 78.4,
         "topic": 100.0,
-        "novelty": 80.0
+        "novelty": 94.1
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
-        "title": "گوگل ضد جاذبه و Gemini 4: ایجاد یک جهان تعاملی MIDI 3D",
-        "excerpt": "Tune در یادگیری چگونه تکنسین خلاق Tiago Aragona مدل سازی 3D مدولار، طراحی سنتز سفارشی، و نقشه برداری MIDI به یک جهان تعاملی، زمان واقعی صدا فعال وحدت با استفاده از ضد گرانش و 4. Gemini مراقب باشید تا ساختار را کشف کنید! با مدل های ضد جاذبه گوگل و Gemini 4 چه خواهید کرد؟ ایده های خود را در نظرات رها کنید و برای دموی های دستی بیشتر مشترک شوید!",
+        "title": "آنچه از این لحظه می سازیم این لحظه را خواهد ساخت.",
+        "excerpt": "آنچه ما از این لحظه می سازیم، این لحظه را می سازد. *یک بانک غذایی در تگزاس، دانشجوی دکترا در توکیو با یک ربات ماهی شناور، یک نقشه برداری اولین بار سازنده ۸۰۰ سال از تاریخ هند، یک گلدان ردیاب توسعه دهنده در اسلوونی و میلیون ها نفر دیگر.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-20T21:15:12Z"
+        "at": "2026-11-19T21:00:34Z"
        }
       }
      },
@@ -1169,15 +1177,15 @@
        "e60f4e5e7cf4b021"
       ],
       "score": {
-       "total": 69.2,
+       "total": 69.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.7,
+        "recency": 79.6,
         "topic": 55.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1228,15 +1236,15 @@
       "eventId": "dc26abff63441211",
       "related": [],
       "score": {
-       "total": 69.1,
+       "total": 68.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.5,
+        "recency": 85.4,
         "topic": 85.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1288,15 +1296,15 @@
       "eventId": "480a8b723958aa8d",
       "related": [],
       "score": {
-       "total": 68.4,
+       "total": 68.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.4,
+        "recency": 85.2,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1348,15 +1356,15 @@
       "eventId": "33a61caea8aae9aa",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.6,
+        "recency": 85.5,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
@@ -1408,15 +1416,15 @@
       "eventId": "9be98e73c6c88adf",
       "related": [],
       "score": {
-       "total": 68.0,
+       "total": 67.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.2,
+        "recency": 84.1,
         "topic": 80.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-22T22:48:02Z"
+       "asOf": "2026-11-23T03:23:44Z"
       },
       "tr": {
        "fa": {
