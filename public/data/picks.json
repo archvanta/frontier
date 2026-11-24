@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-24T16:30:00Z",
+ "asOf": "2026-11-24T23:22:51Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,128 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-23T16:30:00Z",
-   "to": "2026-11-24T16:30:00Z",
+   "from": "2026-11-23T23:22:51Z",
+   "to": "2026-11-24T23:22:51Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "2656001821696312",
+      "url": "https://www.youtube.com/watch?v=p8lvQQebvpg",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How to Search for Exoplanets",
+      "excerpt": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in starlight that an orbiting planet can cause. Both found signals worth a second look…",
+      "lang": "en",
+      "publishedAt": "2026-11-24T20:00:45Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/p8lvQQebvpg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "p8lvQQebvpg",
+       "url": "https://www.youtube.com/watch?v=p8lvQQebvpg"
+      },
+      "eventId": "2656001821696312",
+      "related": [],
+      "score": {
+       "total": 69.0,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 82.3,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه برای جستجو برای Exoplanets",
+        "excerpt": "دو ستاره شناس آماتور، کوین باند و ایتان Byrd، به طور مستقل سیگنال هایی را پیدا کردند که می تواند به سیارات اطراف ستاره های دور اشاره کند. آنها می دانستند که برای شکار به تلسکوپ خود نیاز ندارید. کوین از Codex استفاده کرد و ایتان از Astra برای جستجوی داده های تلسکوپ عمومی برای شیب های کوچک و تکراری در نور ستاره ای استفاده کرد که یک سیاره مداری می تواند ایجاد کند. هر دو سیگنال را به ارزش نگاه دوم پیدا کردند...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "31d37d4ac5ebf469",
+      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
+      "excerpt": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in…",
+      "lang": "en",
+      "publishedAt": "2026-11-24T21:32:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/1u0hTd86_HU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "1u0hTd86_HU",
+       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU"
+      },
+      "eventId": "31d37d4ac5ebf469",
+      "related": [],
+      "score": {
+       "total": 67.5,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.9,
+        "topic": 80.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آزمایش SVG و طراحی 3D با افزونه Codex",
+        "excerpt": "کریگ دنیس هرگز SVG را با دست یا استفاده از Blender جذب نکرد. با افزونه SVG و طراحی 3D برای Codex، او نشان می دهد که چگونه یک تصویر مرجع را به یک گرافیک قابل ویرایش یا مدل 3D تبدیل کند، سپس تغییرات در زبان ساده را درخواست کند. ببینید که چگونه یک تغییر کوچک در کد SVG می تواند چشم های یک کاراکتر را از نمای شما دنبال کند و چگونه Codex از Blender برای بررسی یک مدل از زاویه دیگر استفاده می کند. گزینه SVG & 3D Design در ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "e2544bc1aeb2953e",
@@ -45,15 +163,15 @@
       "eventId": "e2544bc1aeb2953e",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.2,
+        "recency": 65.3,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -64,7 +182,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -74,174 +192,118 @@
     },
     {
      "article": {
-      "id": "f10242ef986efb04",
-      "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Conheça o novíssimo ChatGPT Modo Voz.",
-      "excerpt": "De uma simples pergunta a uma tarefa resolvida. É só falar com o ChatGPT Modo Voz. Ele te escuta e faz com você.",
+      "id": "362875b7948a317f",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/anthony-albanese-approval-rating-poll-results",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Is Albo terminal? No – but the world is in chaos and he will need to find his way through wicked problems | Peter Lewis",
+      "excerpt": "Anthony Albanese is ending the final week of parliament at his lowest ebb – it’s a chance for him to rebuild public confidence in his leadership Guardian Essential poll: Albanese’s disapproval rating hits highest level as problems mount for Labor The prime minister, Anthony Albanese, ends the final week of parliament for 2026 at his lowest ebb, with global dysfunction lapping on our shorelines…",
       "lang": "en",
-      "publishedAt": "2026-11-24T13:14:46Z",
+      "publishedAt": "2026-11-24T23:22:51Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
+      "fetchedAt": "2026-11-24T23:30:28Z",
       "day": "2026-11-24",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/5p8CdiQGqV4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "5p8CdiQGqV4",
-       "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4"
-      },
-      "eventId": "f10242ef986efb04",
-      "related": [],
-      "score": {
-       "total": 69.9,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 82.9,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-24T16:30:00Z"
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f8cdc496b0bc8f98",
-      "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back",
-      "sourceId": "ars-ai",
-      "sourceName": "Ars Technica — AI",
-      "title": "How Trump and Silicon Valley forced Nvidia to take Jensen Huang back",
-      "excerpt": "Huang’s allies enlisted Trump and Vance to pressure Nvidia’s board into taking him back.",
-      "lang": "en",
-      "publishedAt": "2026-11-24T14:56:50Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
-      "day": "2026-11-24",
-      "category": "research",
+      "category": "policy",
       "tags": [
-       "ai",
-       "policy",
-       "corporate governance",
-       "jensen huang",
-       "nvidia",
-       "syndication"
+       "essential poll",
+       "australia news",
+       "ai (artificial intelligence)",
+       "anthony albanese",
+       "labor party"
       ],
-      "entities": [
-       "nvidia"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2297759490-1024x648.jpg",
-       "alt": "Nvidia CEO Jensen Huang (seated-L) speaks with US President Donald Trump during a meeting with AI executives at the White House.",
-       "credit": "Kevin Dietsch / Staff | Getty Images News",
+       "url": "https://i.guim.co.uk/img/media/49813722733e3256b224c80b9415ef87acfff9f6/645_0_6448_5159/master/6448.jpg?width=700&quality=85&auto=format&fit=max&s=267159728084551b4495be7978f76e2a",
+       "credit": "Photograph: Mick Tsikas/AAP",
        "kind": "feed",
-       "sourceUrl": "https://arstechnica.com/ai/feed/"
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "374eafd5e478c4e8",
-      "related": [
-       "374eafd5e478c4e8"
-      ],
+      "eventId": "362875b7948a317f",
+      "related": [],
       "score": {
-       "total": 69.8,
+       "total": 66.0,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 91.4,
-        "topic": 80.0,
-        "novelty": 30.0
-       },
-       "asOf": "2026-11-24T16:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه ترامپ و سیلیکون دره، Nvidia را مجبور به بازگشت Jensen Huang کردند",
-        "excerpt": "متحدان هوانگ ترامپ و Vance را به فشار بر هیئت مدیره Nvidia برای بازگشت او دعوت کردند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "82086e69cdab0aa7",
-      "url": "https://www.youtube.com/shorts/kTJ8NDNYua8",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "“Governance is what made us go faster.”",
-      "excerpt": "Red Hat CTO Chris Wright explains how clear rules help teams put AI agents to work with confidence.",
-      "lang": "en",
-      "publishedAt": "2026-11-24T14:21:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
-      "day": "2026-11-24",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i4.ytimg.com/vi/kTJ8NDNYua8/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "kTJ8NDNYua8",
-       "url": "https://www.youtube.com/watch?v=kTJ8NDNYua8"
-      },
-      "eventId": "82086e69cdab0aa7",
-      "related": [],
-      "score": {
-       "total": 66.7,
-       "parts": {
-        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
-        "topic": 70.0,
-        "novelty": 85.7
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
-        "title": "تحمل چیزی است که ما را سریع تر می کند.»",
-        "excerpt": "Red Hat CTO کریس رایت توضیح می دهد که چگونه قوانین روشن به تیم ها کمک می کند تا با اعتماد به نفس کار کنند.",
+        "title": "آیا ترمینال آلبو است؟ نه - اما جهان در هرج و مرج است و او باید راه خود را از طریق مشکلات بد پیدا کند - پیتر لوئیس",
+        "excerpt": "آنتونی آلبانز هفته آخر پارلمان را در پایین ترین ebb خود به پایان می رساند - این فرصتی است برای او برای بازسازی اعتماد عمومی در نظرسنجی اساسی رهبری خود: رتبه بندی بی نظیر آلکس به بالاترین سطح به عنوان مشکلات برای نخست وزیر کار، آنتونی آلباکس، پایان هفته نهایی پارلمان برای 2026 در پایین ترین ebb خود، با اختلال عملکرد جهانی در ساحل ما.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
+        "at": "2026-11-24T23:30:28Z"
        }
       }
      },
      "rank": 4,
      "sources": 1,
      "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "58c64dd3bfb5f2ac",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "excerpt": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
+      "lang": "en",
+      "publishedAt": "2026-11-24T19:30:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "products",
+      "tags": [
+       "research",
+       "invention",
+       "design",
+       "human-computer interaction",
+       "arts",
+       "software"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-csail-TangiMap.jpg?itok=eoPhYjUD",
+       "credit": "Image: Alex Shipps/MIT CSAIL",
+       "kind": "feed",
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      },
+      "eventId": "58c64dd3bfb5f2ac",
+      "related": [],
+      "score": {
+       "total": 64.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 79.9,
+        "topic": 65.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "سیستم عامل کنترل های فیزیکی را شخصی می کند تا به کاربران کمک کند \"هنر خود را\"",
+        "excerpt": "“TangiMap” از یک عامل هوش مصنوعی برای برنامه ریزی مجدد نحوه استفاده دکمه ها، knobs و لغزنده ها استفاده می شود و به کاربران کمک می کند تا کارهایی مانند ویرایش عکس ها را انجام دهند و موسیقی را به روشی پویا تر و لمسی تر انجام دهند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
       "tier-1",
       "first-report",
       "top-factor-reliability"
@@ -249,118 +311,53 @@
     },
     {
      "article": {
-      "id": "49ef9cf5084cd81b",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
+      "id": "16565a3f5dc091b0",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-23T20:00:00Z",
+      "publishedAt": "2026-11-24T16:34:13Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A robot with the Claude logo on its face.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "49ef9cf5084cd81b",
-      "related": [
-       "92c709b4dedffefa"
-      ],
-      "score": {
-       "total": 66.7,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 30.6,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-24T16:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
-        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "7765d9882542ae27",
-      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "Raising the stakes for enterprise networks with AI modernization",
-      "excerpt": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T15:15:16Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
+      "fetchedAt": "2026-11-24T23:30:28Z",
       "day": "2026-11-24",
-      "category": "research",
-      "tags": [
-       "artificial intelligence",
-       "sponsored"
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://wp.technologyreview.com/wp-content/uploads/2026/11/MITTR-Tata-report-cover.jpg?w=840",
-       "kind": "feed",
-       "sourceUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
       },
-      "eventId": "7765d9882542ae27",
+      "eventId": "16565a3f5dc091b0",
       "related": [],
       "score": {
-       "total": 63.7,
+       "total": 64.0,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
-        "topic": 80.0,
-        "novelty": 90.9
+        "recency": 67.5,
+        "topic": 75.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
-        "title": "افزایش سهام برای شبکه های سازمانی با مدرن سازی AI",
-        "excerpt": "شبکه های سازمانی تحت فشار شدید هستند. از آنجایی که شرکت ها برای استقرار هوش مصنوعی عجله دارند، تکنولوژی به سرعت به بزرگترین منبع تقاضا در شبکه تبدیل می شود. در حال حاضر، AI عامل به بار اضافه می شود. وظایف انجام شده توسط عوامل AI باعث ایجاد حدود ۴۵۰٪ ترافیک شبکه بیشتر از همان وظایف انجام شده توسط کارگران انسانی می شود. همانطور که ...",
+        "title": "جلوگیری از موانع Microduck: جریان کار واقعی Sim2 با آزمایشگاه آیزاک و نیوتن",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
+        "at": "2026-11-24T23:30:28Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -368,8 +365,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-17T16:30:00Z",
-   "to": "2026-11-24T16:30:00Z",
+   "from": "2026-11-17T23:22:51Z",
+   "to": "2026-11-24T23:22:51Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -407,15 +404,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 77.0,
+       "total": 76.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 82.1,
+        "recency": 76.8,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -466,15 +463,15 @@
       "eventId": "e2544bc1aeb2953e",
       "related": [],
       "score": {
-       "total": 73.7,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 93.1,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -495,45 +492,49 @@
     },
     {
      "article": {
-      "id": "f10242ef986efb04",
-      "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Conheça o novíssimo ChatGPT Modo Voz.",
-      "excerpt": "De uma simples pergunta a uma tarefa resolvida. É só falar com o ChatGPT Modo Voz. Ele te escuta e faz com você.",
+      "id": "3c6728c1bfd19879",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
       "lang": "en",
-      "publishedAt": "2026-11-24T13:14:46Z",
+      "publishedAt": "2026-11-24T13:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
+      "fetchedAt": "2026-11-24T23:30:28Z",
       "day": "2026-11-24",
       "category": "models",
-      "tags": [],
+      "tags": [
+       "science"
+      ],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "https://i2.ytimg.com/vi/5p8CdiQGqV4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "5p8CdiQGqV4",
-       "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4"
-      },
-      "eventId": "f10242ef986efb04",
+      "eventId": "3c6728c1bfd19879",
       "related": [],
       "score": {
-       "total": 72.7,
+       "total": 72.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.9,
+        "recency": 90.5,
         "topic": 100.0,
-        "novelty": 83.3
+        "novelty": 90.0
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های GPT-6 توانایی های ذاتی طراحی پروتئین را نشان می دهند",
+        "excerpt": "مدل های GPT-6 ساختارهای پروتئین و توالی ها را با استفاده از استدلال و کد طراحی می کنند. تست های آزمایشگاهی شواهدی از اتصال در پنج هدف را پیدا کردند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
       }
      },
      "rank": 3,
@@ -582,15 +583,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 72.1,
+       "total": 71.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 77.5,
+        "recency": 72.6,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -647,15 +648,15 @@
        "f8cdc496b0bc8f98"
       ],
       "score": {
-       "total": 71.5,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 97.2,
+        "recency": 91.0,
         "topic": 55.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -677,52 +678,46 @@
     },
     {
      "article": {
-      "id": "82086e69cdab0aa7",
-      "url": "https://www.youtube.com/shorts/kTJ8NDNYua8",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "“Governance is what made us go faster.”",
-      "excerpt": "Red Hat CTO Chris Wright explains how clear rules help teams put AI agents to work with confidence.",
+      "id": "16565a3f5dc091b0",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-24T14:21:00Z",
+      "publishedAt": "2026-11-24T16:34:13Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
+      "fetchedAt": "2026-11-24T23:30:28Z",
       "day": "2026-11-24",
-      "category": "hardware",
+      "category": "open-source",
       "tags": [],
       "entities": [
-       "nvidia"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://i4.ytimg.com/vi/kTJ8NDNYua8/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "kTJ8NDNYua8",
-       "url": "https://www.youtube.com/watch?v=kTJ8NDNYua8"
-      },
-      "eventId": "82086e69cdab0aa7",
+      "eventId": "16565a3f5dc091b0",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
-        "topic": 70.0,
-        "novelty": 85.7
+        "recency": 93.7,
+        "topic": 75.0,
+        "novelty": 92.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
-        "title": "تحمل چیزی است که ما را سریع تر می کند.»",
-        "excerpt": "Red Hat CTO کریس رایت توضیح می دهد که چگونه قوانین روشن به تیم ها کمک می کند تا با اعتماد به نفس کار کنند.",
+        "title": "جلوگیری از موانع Microduck: جریان کار واقعی Sim2 با آزمایشگاه آیزاک و نیوتن",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
+        "at": "2026-11-24T23:30:28Z"
        }
       }
      },
@@ -736,53 +731,52 @@
     },
     {
      "article": {
-      "id": "f82e2058d3bb9c30",
-      "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Many languages, one common neural code",
-      "excerpt": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
+      "id": "31d37d4ac5ebf469",
+      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
+      "excerpt": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in…",
       "lang": "en",
-      "publishedAt": "2026-11-23T21:15:00Z",
+      "publishedAt": "2026-11-24T21:32:42Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T02:18:24Z",
-      "day": "2026-11-23",
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
       "category": "research",
-      "tags": [
-       "research",
-       "language",
-       "neuroscience",
-       "machine learning",
-       "brain and cognitive sciences",
-       "artificial intelligence"
+      "tags": [],
+      "entities": [
+       "openai"
       ],
-      "entities": [],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-mcgovern-languages.jpg?itok=wMLbQvpF",
-       "credit": "Image: iStock",
+       "url": "https://i2.ytimg.com/vi/1u0hTd86_HU/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "f82e2058d3bb9c30",
+      "video": {
+       "provider": "youtube",
+       "id": "1u0hTd86_HU",
+       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU"
+      },
+      "eventId": "31d37d4ac5ebf469",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.1,
+        "recency": 98.2,
         "topic": 80.0,
-        "novelty": 85.7
+        "novelty": 75.0
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
-        "title": "بسیاری از زبان ها، یک کد عصبی مشترک",
-        "excerpt": "تجزیه و تحلیل سخنرانان 21 زبان، یک مطالعه MIT با استفاده از AI چند زبانه، مغز انسان ممکن است به همان شیوه نشان دهد.",
+        "title": "آزمایش SVG و طراحی 3D با افزونه Codex",
+        "excerpt": "کریگ دنیس هرگز SVG را با دست یا استفاده از Blender جذب نکرد. با افزونه SVG و طراحی 3D برای Codex، او نشان می دهد که چگونه یک تصویر مرجع را به یک گرافیک قابل ویرایش یا مدل 3D تبدیل کند، سپس تغییرات در زبان ساده را درخواست کند. ببینید که چگونه یک تغییر کوچک در کد SVG می تواند چشم های یک کاراکتر را از نمای شما دنبال کند و چگونه Codex از Blender برای بررسی یک مدل از زاویه دیگر استفاده می کند. گزینه SVG & 3D Design در ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T02:18:24Z"
+        "at": "2026-11-24T23:30:28Z"
        }
       }
      },
@@ -796,49 +790,53 @@
     },
     {
      "article": {
-      "id": "77ab3d65a27896e8",
-      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Supercharging transformer residual connections",
-      "excerpt": "Algorithms & Theory",
+      "id": "58c64dd3bfb5f2ac",
+      "url": "https://news.mit.edu/2026/tangimap-agentic-system-personalizes-physical-controls-help-users-dj-their-art-1124",
+      "sourceId": "mit-news-ai",
+      "sourceName": "MIT News — Artificial intelligence",
+      "title": "Agentic system personalizes physical controls to help users “DJ their art”",
+      "excerpt": "“TangiMap” uses an AI agent to reprogram how buttons, knobs, and sliders are used, helping users do things like edit photos and perform music in a more dynamic, tactile way.",
       "lang": "en",
-      "publishedAt": "2026-11-23T17:21:12Z",
+      "publishedAt": "2026-11-24T19:30:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
-      "category": "research",
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "products",
       "tags": [
-       "algorithms & theory"
+       "research",
+       "invention",
+       "design",
+       "human-computer interaction",
+       "arts",
+       "software"
       ],
-      "entities": [
-       "google"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-csail-TangiMap.jpg?itok=eoPhYjUD",
+       "credit": "Image: Alex Shipps/MIT CSAIL",
        "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
       },
-      "eventId": "77ab3d65a27896e8",
+      "eventId": "58c64dd3bfb5f2ac",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 80.0,
-        "topic": 80.0,
-        "novelty": 90.9
+        "recency": 96.3,
+        "topic": 65.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
-        "title": "Supercharging تبدیل اتصالات باقی مانده",
-        "excerpt": "الگوریتم ها و نظریه",
+        "title": "سیستم عامل کنترل های فیزیکی را شخصی می کند تا به کاربران کمک کند \"هنر خود را\"",
+        "excerpt": "“TangiMap” از یک عامل هوش مصنوعی برای برنامه ریزی مجدد نحوه استفاده دکمه ها، knobs و لغزنده ها استفاده می شود و به کاربران کمک می کند تا کارهایی مانند ویرایش عکس ها را انجام دهند و موسیقی را به روشی پویا تر و لمسی تر انجام دهند.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
+        "at": "2026-11-24T23:30:28Z"
        }
       }
      },
@@ -853,8 +851,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-25T16:30:00Z",
-   "to": "2026-11-24T16:30:00Z",
+   "from": "2026-10-25T23:22:51Z",
+   "to": "2026-11-24T23:22:51Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -892,15 +890,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 79.5,
+       "total": 79.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.3,
+        "recency": 92.4,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -955,15 +953,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 78.4,
+       "total": 78.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 35.7,
+        "recency": 35.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1014,15 +1012,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 75.9,
+       "total": 75.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 58.0,
+        "recency": 56.9,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1080,15 +1078,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 75.1,
+       "total": 74.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 92.7,
+        "recency": 90.8,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1104,6 +1102,61 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "3c6728c1bfd19879",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "sourceId": "openai-news",
+      "sourceName": "OpenAI News",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "lang": "en",
+      "publishedAt": "2026-11-24T13:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "models",
+      "tags": [
+       "science"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "images/fallbacks/models.svg",
+       "kind": "fallback"
+      },
+      "eventId": "3c6728c1bfd19879",
+      "related": [],
+      "score": {
+       "total": 73.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدل های GPT-6 توانایی های ذاتی طراحی پروتئین را نشان می دهند",
+        "excerpt": "مدل های GPT-6 ساختارهای پروتئین و توالی ها را با استفاده از استدلال و کد طراحی می کنند. تست های آزمایشگاهی شواهدی از اتصال در پنج هدف را پیدا کردند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1139,15 +1192,15 @@
       "eventId": "e2544bc1aeb2953e",
       "related": [],
       "score": {
-       "total": 73.7,
+       "total": 73.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 97.9,
         "topic": 100.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1156,57 +1209,6 @@
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-24T16:30:40Z"
        }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f10242ef986efb04",
-      "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Conheça o novíssimo ChatGPT Modo Voz.",
-      "excerpt": "De uma simples pergunta a uma tarefa resolvida. É só falar com o ChatGPT Modo Voz. Ele te escuta e faz com você.",
-      "lang": "en",
-      "publishedAt": "2026-11-24T13:14:46Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
-      "day": "2026-11-24",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/5p8CdiQGqV4/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "5p8CdiQGqV4",
-       "url": "https://www.youtube.com/watch?v=5p8CdiQGqV4"
-      },
-      "eventId": "f10242ef986efb04",
-      "related": [],
-      "score": {
-       "total": 73.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 99.1,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-24T16:30:00Z"
       }
      },
      "rank": 6,
@@ -1254,15 +1256,15 @@
        "f8cdc496b0bc8f98"
       ],
       "score": {
-       "total": 71.9,
+       "total": 71.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 99.2,
+        "recency": 97.2,
         "topic": 55.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1278,6 +1280,118 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "16565a3f5dc091b0",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-24T16:34:13Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+      },
+      "eventId": "16565a3f5dc091b0",
+      "related": [],
+      "score": {
+       "total": 70.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 98.1,
+        "topic": 75.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جلوگیری از موانع Microduck: جریان کار واقعی Sim2 با آزمایشگاه آیزاک و نیوتن",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 8,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "31d37d4ac5ebf469",
+      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
+      "excerpt": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in…",
+      "lang": "en",
+      "publishedAt": "2026-11-24T21:32:42Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T23:30:28Z",
+      "day": "2026-11-24",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/1u0hTd86_HU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "1u0hTd86_HU",
+       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU"
+      },
+      "eventId": "31d37d4ac5ebf469",
+      "related": [],
+      "score": {
+       "total": 69.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 80.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-24T23:22:51Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آزمایش SVG و طراحی 3D با افزونه Codex",
+        "excerpt": "کریگ دنیس هرگز SVG را با دست یا استفاده از Blender جذب نکرد. با افزونه SVG و طراحی 3D برای Codex، او نشان می دهد که چگونه یک تصویر مرجع را به یک گرافیک قابل ویرایش یا مدل 3D تبدیل کند، سپس تغییرات در زبان ساده را درخواست کند. ببینید که چگونه یک تغییر کوچک در کد SVG می تواند چشم های یک کاراکتر را از نمای شما دنبال کند و چگونه Codex از Blender برای بررسی یک مدل از زاویه دیگر استفاده می کند. گزینه SVG & 3D Design در ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T23:30:28Z"
+       }
+      }
+     },
+     "rank": 9,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1311,15 +1425,15 @@
       "eventId": "77ab3d65a27896e8",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.5,
+        "recency": 91.7,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-24T16:30:00Z"
+       "asOf": "2026-11-24T23:22:51Z"
       },
       "tr": {
        "fa": {
@@ -1327,125 +1441,6 @@
         "excerpt": "الگوریتم ها و نظریه",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-23T20:37:19Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "f82e2058d3bb9c30",
-      "url": "https://news.mit.edu/2026/many-languages-one-common-neural-code-1123",
-      "sourceId": "mit-news-ai",
-      "sourceName": "MIT News — Artificial intelligence",
-      "title": "Many languages, one common neural code",
-      "excerpt": "Analyzing speakers of 21 languages, an MIT study using multilingual AI finds the human brain may represent meaning in much the same way.",
-      "lang": "en",
-      "publishedAt": "2026-11-23T21:15:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T02:18:24Z",
-      "day": "2026-11-23",
-      "category": "research",
-      "tags": [
-       "research",
-       "language",
-       "neuroscience",
-       "machine learning",
-       "brain and cognitive sciences",
-       "artificial intelligence"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-mcgovern-languages.jpg?itok=wMLbQvpF",
-       "credit": "Image: iStock",
-       "kind": "feed",
-       "sourceUrl": "https://news.mit.edu/rss/topic/artificial-intelligence2"
-      },
-      "eventId": "f82e2058d3bb9c30",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.6,
-        "topic": 80.0,
-        "novelty": 85.7
-       },
-       "asOf": "2026-11-24T16:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "بسیاری از زبان ها، یک کد عصبی مشترک",
-        "excerpt": "تجزیه و تحلیل سخنرانان 21 زبان، یک مطالعه MIT با استفاده از AI چند زبانه، مغز انسان ممکن است به همان شیوه نشان دهد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T02:18:24Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "aa4e63b2fc580ca3",
-      "url": "https://www.youtube.com/watch?v=aAbtjH0-oQQ",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "Why Transparency Matters for AI Security",
-      "excerpt": "Red Hat CTO Chris Wright joins the NVIDIA AI Podcast at GTC Berlin to explain why open source is the foundation for secure AI agents. From Linux in the 1990s to agent security today, he shares what has changed, what hasn’t, and why “governance is what made us go faster.” Guest: Chris Wright, CTO, Red Hat Listen to the NVIDIA AI Podcast: https://ai-podcast.nvidia.com/ Follow on Spotify…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T11:00:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
-      "day": "2026-11-24",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/aAbtjH0-oQQ/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "aAbtjH0-oQQ",
-       "url": "https://www.youtube.com/watch?v=aAbtjH0-oQQ"
-      },
-      "eventId": "aa4e63b2fc580ca3",
-      "related": [],
-      "score": {
-       "total": 69.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 75.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-24T16:30:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چرا شفافیت برای امنیت هوش مصنوعی اهمیت دارد",
-        "excerpt": "Red Hat CTO کریس رایت به پادکست هوش مصنوعی NVIDIA در GTC برلین ملحق می شود تا توضیح دهد که چرا منبع باز پایه و اساس برای عوامل امن AI است. از لینوکس در دهه ۱۹۹۰ تا امنیت امروز، او آنچه را که تغییر کرده است، به اشتراک می گذارد، چه چیزی تغییر نکرده است، و چرا \"گوتر چیزی است که ما را سریع تر می کند\" مهمان: کریس رایت، CTO، Red Hat به پادکست هوش مصنوعی NVIDIA گوش می دهد: https://ai-podcast.nvidia.com/ Follow on Spotify.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T13:54:38Z"
        }
       }
      },
