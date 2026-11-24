@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-24T01:36:38Z",
+ "asOf": "2026-11-24T04:47:11Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,8 +10,8 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-23T01:36:38Z",
-   "to": "2026-11-24T01:36:38Z",
+   "from": "2026-11-23T04:47:11Z",
+   "to": "2026-11-24T04:47:11Z",
    "halfLifeHours": 12,
    "picks": [
     {
@@ -46,15 +46,15 @@
       "eventId": "91e27f3842dcaec2",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 83.2,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -69,6 +69,64 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "165f0f74b59e8cf8",
+      "url": "https://www.theguardian.com/world/2026/nov/24/produce-a-good-result-by-any-means-how-ai-is-testing-south-koreas-exam-obsession",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘Produce a good result by any means’: how AI is testing South Korea’s exam obsession",
+      "excerpt": "South Korea has made exams a career-defining way to level the playing field, but AI has plunged the system into chaos “I have never worn glasses in my life,” Yun Jeong-hu says to the camera, holding up a tax law textbook, and flipping through pages plastered with notes and dotted with highlighted sections. In the 22-minute video, the 25-year-old talks viewers through his study methods, naming…",
+      "lang": "en",
+      "publishedAt": "2026-11-24T04:47:11Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-24T05:01:19Z",
+      "day": "2026-11-24",
+      "category": "policy",
+      "tags": [
+       "south korea",
+       "asia pacific",
+       "education",
+       "ai (artificial intelligence)"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/2b6c87a01bd912db0c91b0dcdbdb57f20f8c7712/613_125_6357_5087/master/6357.jpg?width=700&quality=85&auto=format&fit=max&s=9b5814586418b3ea3d3d1cad02c1703b",
+       "credit": "Photograph: Kim Hong-Ji/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "165f0f74b59e8cf8",
+      "related": [],
+      "score": {
+       "total": 66.0,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 85.0,
+        "novelty": 92.9
+       },
+       "asOf": "2026-11-24T04:47:11Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "نتیجه خوبی از هر وسیله ای تهیه کنید: چگونه AI در حال آزمایش وسواس امتحان کره جنوبی است",
+        "excerpt": "کره جنوبی امتحان یک راه حل حرفه ای برای سطح میدان بازی را انجام داده است، اما AI سیستم را به هرج و مرج فرو برده است \"من هرگز عینک در زندگی خود را پوشیده ام\"، یون Jeong-hu می گوید به دوربین، نگه داشتن یک کتاب حقوقی مالیاتی، و از طریق صفحات پر شده با یادداشت ها و بخش های برجسته. در ویدیوی 22 دقیقه ای، بینندگان 25 ساله از طریق روش های مطالعه خود، نام گذاری ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-24T05:01:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -112,15 +170,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 68.2,
+       "total": 65.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 72.1,
+        "recency": 60.0,
         "topic": 55.0,
         "novelty": 27.8
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -131,7 +189,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -171,15 +229,15 @@
       "eventId": "bfa457749df18b36",
       "related": [],
       "score": {
-       "total": 68.1,
+       "total": 65.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.5,
+        "recency": 60.3,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -190,7 +248,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -230,15 +288,15 @@
       "eventId": "d63bcf0febf7f91d",
       "related": [],
       "score": {
-       "total": 67.3,
+       "total": 64.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 72.4,
+        "recency": 60.2,
         "topic": 100.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -249,7 +307,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -290,15 +348,15 @@
       "eventId": "f82e2058d3bb9c30",
       "related": [],
       "score": {
-       "total": 66.1,
+       "total": 63.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.7,
+        "recency": 64.7,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -309,71 +367,10 @@
        }
       }
      },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "9b0b258cccd78480",
-      "url": "https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap",
-      "excerpt": "Huang receives hero’s welcome at firm’s Silicon Valley headquarters as return cements role as key AI figure Jensen Huang made his return to Nvidia’s headquarters with a hero’s welcome on Monday. Hours earlier he’d been reinstated as the CEO of the world’s most valuable chip company, following a whiplash series of events that involved a romantic affair with a suspected Chinese spy, a drastic…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T01:34:39Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T02:18:24Z",
-      "day": "2026-11-24",
-      "category": "policy",
-      "tags": [
-       "nvidia",
-       "ai (artificial intelligence)",
-       "jensen huang",
-       "technology",
-       "computing"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/acc6b55b5a2588de1743b839ccdd4877f7978618/463_0_4821_3856/master/4821.jpg?width=700&quality=85&auto=format&fit=max&s=d9127cbd754038384df74c05eeb6f6d1",
-       "credit": "Photograph: Carlos Barría/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "9b0b258cccd78480",
-      "related": [],
-      "score": {
-       "total": 64.6,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 99.8,
-        "topic": 85.0,
-        "novelty": 78.6
-       },
-       "asOf": "2026-11-24T01:36:38Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia در دومین آمدن Jensen Huang خوشحال می شود زیرا کاخ سفید به پیروزی می رسد",
-        "excerpt": "هوانگ استقبال قهرمان را در مقر سیلیکون ولی شرکت به عنوان نقش سیمان بازگشت به عنوان شخصیت کلیدی AI Jensen Huang بازگشت خود را به دفتر مرکزی Nvidia با استقبال یک قهرمان در روز دوشنبه. چند ساعت پیش او به عنوان مدیر عامل شرکت تراشه با ارزش ترین جهان، پس از یک سری حوادث شلاق که درگیر یک رابطه عاشقانه با یک جاسوسی چینی مشکوک، جدی ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T02:18:24Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -381,8 +378,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-17T01:36:38Z",
-   "to": "2026-11-24T01:36:38Z",
+   "from": "2026-11-17T04:47:11Z",
+   "to": "2026-11-24T04:47:11Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -423,15 +420,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 74.5,
+       "total": 73.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 89.5,
+        "recency": 86.8,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -483,15 +480,15 @@
       "eventId": "91e27f3842dcaec2",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 97.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -542,15 +539,15 @@
       "eventId": "bfa457749df18b36",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 91.9,
         "topic": 100.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -601,15 +598,15 @@
       "eventId": "d63bcf0febf7f91d",
       "related": [],
       "score": {
-       "total": 71.8,
+       "total": 71.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 91.9,
         "topic": 100.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -661,15 +658,15 @@
       "eventId": "f82e2058d3bb9c30",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.9,
+        "recency": 93.0,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -717,15 +714,15 @@
       "eventId": "77ab3d65a27896e8",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.4,
+        "recency": 89.6,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -771,15 +768,15 @@
       "eventId": "ca38829e73128713",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.3,
+        "recency": 89.6,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -825,15 +822,15 @@
       "eventId": "1d0c151fefed0dea",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.0,
+        "recency": 93.1,
         "topic": 75.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -855,8 +852,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-25T01:36:38Z",
-   "to": "2026-11-24T01:36:38Z",
+   "from": "2026-10-25T04:47:11Z",
+   "to": "2026-11-24T04:47:11Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -898,11 +895,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 37.3,
+        "recency": 37.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -953,15 +950,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 76.4,
+       "total": 76.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 60.6,
+        "recency": 60.0,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1019,15 +1016,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 75.9,
+       "total": 75.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 96.7,
+        "recency": 95.8,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1079,15 +1076,15 @@
       "eventId": "91e27f3842dcaec2",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1108,48 +1105,52 @@
     },
     {
      "article": {
-      "id": "680b35173b971311",
-      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "Richpanel helps companies automate 50% of support in 30 days",
-      "excerpt": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "id": "bfa457749df18b36",
+      "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "excerpt": "AI can help security teams move faster from finding vulnerabilities to getting fixes into the software people rely on. In one run, GPT-6 Cyber helped validate 948 Linux kernel vulnerabilities and generate candidate patches for human review. Cyber researcher Kyle Zeng sits down with Clint Gibler, applied cyber research lead, to discuss how he built the vulnerability research pipeline and worked…",
       "lang": "en",
-      "publishedAt": "2026-11-23T08:00:00Z",
+      "publishedAt": "2026-11-23T20:02:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T02:18:24Z",
+      "fetchedAt": "2026-11-23T20:37:19Z",
       "day": "2026-11-23",
       "category": "models",
-      "tags": [
-       "startup"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i2.ytimg.com/vi/MpsO8Ds8uyo/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "680b35173b971311",
+      "video": {
+       "provider": "youtube",
+       "id": "MpsO8Ds8uyo",
+       "url": "https://www.youtube.com/watch?v=MpsO8Ds8uyo"
+      },
+      "eventId": "bfa457749df18b36",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 97.5,
         "topic": 100.0,
-        "novelty": 92.9
+        "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
-        "title": "پنل های غنی به شرکت ها کمک می کند تا 50 درصد از پشتیبانی خود را در 30 روز خودکار کنند.",
-        "excerpt": "پنل های غنی از GPT-6 Astra و GPT-6.1 Sol برای تجهیز عوامل پشتیبانی AI خود با ابزار و روش ها و GPT-6 Luna برای مکالمات خود استفاده می کنند.",
+        "title": "بررسی آسیب پذیری های لینوکس با GPT-6 Cyber",
+        "excerpt": "AI می تواند به تیم های امنیتی کمک کند تا سریع تر از پیدا کردن آسیب پذیری ها برای اصلاح افراد نرم افزاری که به آن متکی هستند، حرکت کنند. در یک اجرا، GPT-6 Cyber به اعتباربخشی به 948 آسیب پذیری هسته لینوکس و ایجاد پچ های کاندید برای بررسی انسان کمک کرد. محقق سایبری کایل Zeng با Clint Gibler نشسته است، رهبری تحقیقات سایبری را به بحث در مورد چگونگی ساخت خط لوله تحقیق آسیب پذیری و کار ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T02:18:24Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
@@ -1193,15 +1194,15 @@
       "eventId": "d63bcf0febf7f91d",
       "related": [],
       "score": {
-       "total": 72.5,
+       "total": 72.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.5,
         "topic": 100.0,
         "novelty": 78.6
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1249,15 +1250,15 @@
       "eventId": "77ab3d65a27896e8",
       "related": [],
       "score": {
-       "total": 70.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 96.8,
         "topic": 80.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1309,15 +1310,15 @@
       "eventId": "f82e2058d3bb9c30",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.7,
+        "recency": 97.8,
         "topic": 80.0,
         "novelty": 85.7
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1363,15 +1364,15 @@
       "eventId": "ca38829e73128713",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 96.7,
         "topic": 75.0,
         "novelty": 92.3
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
@@ -1422,15 +1423,15 @@
       "eventId": "315fb775dc30231e",
       "related": [],
       "score": {
-       "total": 68.6,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.2,
+        "recency": 93.4,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-24T01:36:38Z"
+       "asOf": "2026-11-24T04:47:11Z"
       },
       "tr": {
        "fa": {
