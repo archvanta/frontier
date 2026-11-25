@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-25T18:52:55Z",
+ "asOf": "2026-11-25T20:03:27Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,69 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-24T18:52:55Z",
-   "to": "2026-11-25T18:52:55Z",
+   "from": "2026-11-24T20:03:27Z",
+   "to": "2026-11-25T20:03:27Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "ee90a7582173521e",
+      "url": "https://www.youtube.com/watch?v=WN5O4vWCa54",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "5 developer tips for working with Gemini 4",
+      "excerpt": "Google DeepMind's Patrick Löber and Geneviève Huskens share five practical tips for handing off long, complex engineering tasks to Gemini 4. Try Gemini 4 today in Google AI Studio through the Gemini API and in Google Antigravity. What the video covers: *Aligning on intent before a long run, using plan mode in Google AI Studio *Giving the model a concrete way to verify its work, like a test suite…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T20:00:15Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T20:14:08Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "google"
+      ],
+      "brand": "gemini",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/WN5O4vWCa54/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "WN5O4vWCa54",
+       "url": "https://www.youtube.com/watch?v=WN5O4vWCa54"
+      },
+      "eventId": "ee90a7582173521e",
+      "related": [],
+      "score": {
+       "total": 72.9,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 100.0,
+        "novelty": 80.0
+       },
+       "asOf": "2026-11-25T20:03:27Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "5 راهنمایی توسعه دهنده برای کار با Gemini 4",
+        "excerpt": "Google DeepMind’s Patrick Löber و Geneviève Huskens پنج راهنمایی عملی را برای انجام کارهای مهندسی طولانی و پیچیده به Gemini 4 به اشتراک می گذارند. سعی کنید Gemini 4 امروز در Google AI Studio از طریق API Gemini و در Google ضد جاذبه. آنچه که این ویدیو پوشش می دهد: * تنظیم قصد قبل از یک دوره طولانی، با استفاده از حالت برنامه در Google AI Studio * تشویق مدل یک راه مشخص برای تأیید کار خود، مانند یک مجموعه آزمایشی ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T20:14:08Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "ec8743068e332d96",
@@ -46,15 +105,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 73.1,
+       "total": 71.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.0,
+        "recency": 90.6,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -65,7 +124,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -100,15 +159,15 @@
       "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 93.4,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -118,7 +177,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -158,15 +217,15 @@
       "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 67.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 90.6,
+        "recency": 84.7,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -177,7 +236,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -217,15 +276,15 @@
       "eventId": "01f58d7014fd3047",
       "related": [],
       "score": {
-       "total": 67.6,
+       "total": 66.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.5,
+        "recency": 70.5,
         "topic": 100.0,
         "novelty": 75.0
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -236,7 +295,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -282,15 +341,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 66.4,
+       "total": 65.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 76.3,
+        "recency": 71.3,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -301,7 +360,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -309,71 +368,12 @@
       "first-report",
       "top-factor-reliability"
      ]
-    },
-    {
-     "article": {
-      "id": "d988ee3798474df2",
-      "url": "https://www.youtube.com/shorts/5_peDo1mukg",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
-      "excerpt": "When principal software systems engineer Rez Nemati set out to scale Alpamayo, the famed pyramidal peak in the Peruvian Andes, he realized the mountain shares more than just a name with NVIDIA’s open ecosystem of reasoning vision-language-action AI models, simulation tools, and datasets for autonomous vehicles and robotaxis. Both demand preparation, careful decisions, and layers of protection…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T16:00:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/5_peDo1mukg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "5_peDo1mukg",
-       "url": "https://www.youtube.com/watch?v=5_peDo1mukg"
-      },
-      "eventId": "d988ee3798474df2",
-      "related": [],
-      "score": {
-       "total": 66.3,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 84.7,
-        "topic": 70.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-25T18:52:55Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک نام دو جهان تعهد مشترک به امنیت",
-        "excerpt": "هنگامی که مهندس سیستم های نرم افزار اصلی Rez Nemati تصمیم گرفت که Alpamayo را اندازه گیری کند، اوج مشهور هرمال در Andes، او متوجه شد که سهام کوه بیش از یک نام با اکوسیستم باز NVIDIA از مدل های هوش مصنوعی منطقی زبان، ابزارهای شبیه سازی و مجموعه داده ها برای وسایل نقلیه مستقل و بسته بندی ربات است. هر دو آماده سازی، تصمیم گیری دقیق و لایه های حفاظت...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
     }
    ]
   },
   "weekly": {
-   "from": "2026-11-18T18:52:55Z",
-   "to": "2026-11-25T18:52:55Z",
+   "from": "2026-11-18T20:03:27Z",
+   "to": "2026-11-25T20:03:27Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -408,15 +408,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 73.6,
+       "total": 73.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 98.4,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -470,15 +470,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 73.3,
+       "total": 73.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 63.7,
+        "recency": 63.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -500,52 +500,52 @@
     },
     {
      "article": {
-      "id": "01f58d7014fd3047",
-      "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Finances in ChatGPT: A Beginner’s Guide",
-      "excerpt": "Finances in ChatGPT can help you get a clearer picture of your spending and find ways to make progress toward your financial goals. In this video, we'll get you up to speed with the basics of Finances in ChatGPT: connect your bank account, review your recurring subscriptions, and build a budget around what matters to you. Get started with Finances in ChatGPT…",
+      "id": "ee90a7582173521e",
+      "url": "https://www.youtube.com/watch?v=WN5O4vWCa54",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "5 developer tips for working with Gemini 4",
+      "excerpt": "Google DeepMind's Patrick Löber and Geneviève Huskens share five practical tips for handing off long, complex engineering tasks to Gemini 4. Try Gemini 4 today in Google AI Studio through the Gemini API and in Google Antigravity. What the video covers: *Aligning on intent before a long run, using plan mode in Google AI Studio *Giving the model a concrete way to verify its work, like a test suite…",
       "lang": "en",
-      "publishedAt": "2026-11-25T14:00:28Z",
+      "publishedAt": "2026-11-25T20:00:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
+      "fetchedAt": "2026-11-25T20:14:08Z",
       "day": "2026-11-25",
       "category": "models",
       "tags": [],
       "entities": [
-       "openai"
+       "google"
       ],
-      "brand": "openai",
+      "brand": "gemini",
       "image": {
-       "url": "https://i1.ytimg.com/vi/hwKct_1ilEQ/hqdefault.jpg",
+       "url": "https://i4.ytimg.com/vi/WN5O4vWCa54/hqdefault.jpg",
        "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
       "video": {
        "provider": "youtube",
-       "id": "hwKct_1ilEQ",
-       "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ"
+       "id": "WN5O4vWCa54",
+       "url": "https://www.youtube.com/watch?v=WN5O4vWCa54"
       },
-      "eventId": "01f58d7014fd3047",
+      "eventId": "ee90a7582173521e",
       "related": [],
       "score": {
-       "total": 71.6,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.4,
+        "recency": 99.9,
         "topic": 100.0,
-        "novelty": 75.0
+        "novelty": 80.0
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
-        "title": "دارایی در ChatGPT: راهنمای مبتدی",
-        "excerpt": "امور مالی در ChatGPT می تواند به شما کمک کند تا تصویری واضح تر از هزینه های خود داشته باشید و راه هایی برای پیشرفت در اهداف مالی خود پیدا کنید. در این ویدئو، ما شما را به سرعت با اصول مالی در ChatGPT: حساب بانکی خود را متصل کنید، اشتراک های تکراری خود را بررسی کنید و بودجه ای در مورد آنچه که برای شما مهم است، ایجاد کنید. شروع با دارایی در ChatGPT",
+        "title": "5 راهنمایی توسعه دهنده برای کار با Gemini 4",
+        "excerpt": "Google DeepMind’s Patrick Löber و Geneviève Huskens پنج راهنمایی عملی را برای انجام کارهای مهندسی طولانی و پیچیده به Gemini 4 به اشتراک می گذارند. سعی کنید Gemini 4 امروز در Google AI Studio از طریق API Gemini و در Google ضد جاذبه. آنچه که این ویدیو پوشش می دهد: * تنظیم قصد قبل از یک دوره طولانی، با استفاده از حالت برنامه در Google AI Studio * تشویق مدل یک راه مشخص برای تأیید کار خود، مانند یک مجموعه آزمایشی ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
+        "at": "2026-11-25T20:14:08Z"
        }
       }
      },
@@ -584,15 +584,15 @@
       "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 98.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -648,15 +648,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 70.2,
+       "total": 70.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 95.6,
+        "recency": 94.5,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -708,15 +708,15 @@
       "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 97.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -767,15 +767,15 @@
       "eventId": "d988ee3798474df2",
       "related": [],
       "score": {
-       "total": 68.8,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.3,
+        "recency": 96.2,
         "topic": 70.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -824,15 +824,15 @@
       "eventId": "b45d58e25dc6779d",
       "related": [],
       "score": {
-       "total": 67.2,
+       "total": 67.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 95.2,
         "topic": 65.0,
         "novelty": 81.8
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -854,8 +854,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-26T18:52:55Z",
-   "to": "2026-11-25T18:52:55Z",
+   "from": "2026-10-26T20:03:27Z",
+   "to": "2026-11-25T20:03:27Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -897,11 +897,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 87.3,
+        "recency": 87.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -960,11 +960,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 33.1,
+        "recency": 33.0,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1015,15 +1015,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 75.1,
+       "total": 75.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 53.8,
+        "recency": 53.6,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1085,11 +1085,11 @@
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 85.9,
+        "recency": 85.6,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1145,11 +1145,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 99.5,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1170,48 +1170,52 @@
     },
     {
      "article": {
-      "id": "3c6728c1bfd19879",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "id": "ee90a7582173521e",
+      "url": "https://www.youtube.com/watch?v=WN5O4vWCa54",
+      "sourceId": "google-developers-youtube",
+      "sourceName": "Google for Developers (YouTube)",
+      "title": "5 developer tips for working with Gemini 4",
+      "excerpt": "Google DeepMind's Patrick Löber and Geneviève Huskens share five practical tips for handing off long, complex engineering tasks to Gemini 4. Try Gemini 4 today in Google AI Studio through the Gemini API and in Google Antigravity. What the video covers: *Aligning on intent before a long run, using plan mode in Google AI Studio *Giving the model a concrete way to verify its work, like a test suite…",
       "lang": "en",
-      "publishedAt": "2026-11-24T13:00:00Z",
+      "publishedAt": "2026-11-25T20:00:15Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
+      "fetchedAt": "2026-11-25T20:14:08Z",
+      "day": "2026-11-25",
       "category": "models",
-      "tags": [
-       "science"
-      ],
+      "tags": [],
       "entities": [
-       "openai"
+       "google"
       ],
-      "brand": "openai",
+      "brand": "gemini",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i4.ytimg.com/vi/WN5O4vWCa54/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
       },
-      "eventId": "3c6728c1bfd19879",
+      "video": {
+       "provider": "youtube",
+       "id": "WN5O4vWCa54",
+       "url": "https://www.youtube.com/watch?v=WN5O4vWCa54"
+      },
+      "eventId": "ee90a7582173521e",
       "related": [],
       "score": {
-       "total": 72.3,
+       "total": 73.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 100.0,
         "topic": 100.0,
-        "novelty": 90.0
+        "novelty": 80.0
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل های GPT-6 توانایی های ذاتی طراحی پروتئین را نشان می دهند",
-        "excerpt": "مدل های GPT-6 ساختارهای پروتئین و توالی ها را با استفاده از استدلال و کد طراحی می کنند. تست های آزمایشگاهی شواهدی از اتصال در پنج هدف را پیدا کردند.",
+        "title": "5 راهنمایی توسعه دهنده برای کار با Gemini 4",
+        "excerpt": "Google DeepMind’s Patrick Löber و Geneviève Huskens پنج راهنمایی عملی را برای انجام کارهای مهندسی طولانی و پیچیده به Gemini 4 به اشتراک می گذارند. سعی کنید Gemini 4 امروز در Google AI Studio از طریق API Gemini و در Google ضد جاذبه. آنچه که این ویدیو پوشش می دهد: * تنظیم قصد قبل از یک دوره طولانی، با استفاده از حالت برنامه در Google AI Studio * تشویق مدل یک راه مشخص برای تأیید کار خود، مانند یک مجموعه آزمایشی ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
+        "at": "2026-11-25T20:14:08Z"
        }
       }
      },
@@ -1261,15 +1265,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 70.9,
+       "total": 70.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 98.7,
+        "recency": 98.3,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1316,15 +1320,15 @@
       "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 99.7,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1379,15 +1383,15 @@
        "f8cdc496b0bc8f98"
       ],
       "score": {
-       "total": 70.4,
+       "total": 70.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 91.9,
+        "recency": 91.6,
         "topic": 55.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
@@ -1443,11 +1447,11 @@
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.5,
+        "recency": 99.2,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-25T18:52:55Z"
+       "asOf": "2026-11-25T20:03:27Z"
       },
       "tr": {
        "fa": {
