@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-25T10:22:09Z",
+ "asOf": "2026-11-25T18:52:55Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,52 +10,58 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-24T10:22:09Z",
-   "to": "2026-11-25T10:22:09Z",
+   "from": "2026-11-24T18:52:55Z",
+   "to": "2026-11-25T18:52:55Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "d0a3a7f662b58965",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "An Indic Voice Agent with CUGA",
-      "excerpt": "",
+      "id": "ec8743068e332d96",
+      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How your dot can keep work moving while you’re away",
+      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
       "lang": "en",
-      "publishedAt": "2026-11-25T10:22:09Z",
+      "publishedAt": "2026-11-25T18:21:11Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T10:32:55Z",
+      "fetchedAt": "2026-11-25T19:24:12Z",
       "day": "2026-11-25",
-      "category": "products",
+      "category": "models",
       "tags": [],
       "entities": [
-       "huggingface"
+       "openai"
       ],
-      "brand": null,
+      "brand": "openai",
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "d0a3a7f662b58965",
+      "video": {
+       "provider": "youtube",
+       "id": "A4UNP-axGHU",
+       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
+      },
+      "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 73.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 77.8
+        "recency": 97.0,
+        "topic": 100.0,
+        "novelty": 86.7
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "یک عامل صوتی Indic Voice با CUGA",
+        "title": "چگونه می توانید کار خود را در حالی که شما دور",
+        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T10:32:55Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -69,232 +75,50 @@
     },
     {
      "article": {
-      "id": "6561960315992124",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/25/ai-mathematics-human-knowledge-progress-technology-industry",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "AI's shock-and-awe raid on maths looks like pride before a fall | Rafael Behr",
-      "excerpt": "Machines are bulldozing through hard problems to assert the power of their tech bro creators, not to advance human knowledge In most walks of life, trying something 12,363,153,437,138 times and getting the same result is reason enough to assume it works every time. Not in maths, where a conjecture that holds up more than 12tn times looks very probably true but doesn’t qualify as proven. That was…",
+      "id": "37b5c9ba93266751",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Where scientists draw the line on AI agents",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-25T10:05:15Z",
+      "publishedAt": "2026-11-25T18:52:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T10:32:55Z",
+      "fetchedAt": "2026-11-25T19:24:12Z",
       "day": "2026-11-25",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "mathematics",
-       "science",
-       "computing",
-       "technology",
-       "openai"
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface"
       ],
-      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/cdd7dbf6b2851930cbc2eb7bcc23473a0b6d999f/493_4_4048_3242/master/4048.jpg?width=700&quality=85&auto=format&fit=max&s=4d0106e1dd863fb789e06d4fbd9e30e3",
-       "credit": "Photograph: Pitinan Piyavatin/Alamy",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
       },
-      "eventId": "6561960315992124",
+      "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 70.8,
        "parts": {
-        "reliability": 80.0,
+        "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
-        "topic": 85.0,
-        "novelty": 93.3
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "حمله تکان دهنده و ما به ریاضی به نظر می رسد مانند غرور قبل از سقوط است. رافائل Behr",
-        "excerpt": "ماشین ها از طریق مشکلات سخت برای اثبات قدرت سازندگان فن آوری خود، نه برای پیشبرد دانش انسانی در بسیاری از جنبه های زندگی، تلاش چیزی 12363،437،138 بار و به دست آوردن همان نتیجه به اندازه کافی به فرض آن را هر بار کار می کند. نه در ریاضی، که در آن یک حدس و گمان که بیش از 12 بار نگه می دارد به نظر می رسد بسیار واقعی است، اما به عنوان اثبات شده است. این بود ...",
+        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T10:32:55Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
      "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "570b39bfa866a172",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems",
-      "sourceId": "mit-tech-review-ai",
-      "sourceName": "MIT Technology Review — AI",
-      "title": "AI is straining America’s open records systems",
-      "excerpt": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T10:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T10:32:55Z",
-      "day": "2026-11-25",
-      "category": "research",
-      "tags": [
-       "artificial intelligence",
-       "app"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/research.svg",
-       "kind": "fallback"
-      },
-      "eventId": "570b39bfa866a172",
-      "related": [],
-      "score": {
-       "total": 64.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 97.9,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "AI سیستم های رکورد باز آمریکا را تحت فشار قرار می دهد",
-        "excerpt": "در Panton، ورمونت، جمعیت 660، کارمند شهر کایل رو، همه چیز را انجام داد. او بودجه ها، فروشندگان پرداخت شده، اختلافات مالیاتی اموال را اداره می کرد و به عنوان سرپرست منطقه ای شهر و افسر انتخابات ریاست می کرد. در ساعات اداری صبح در سالن شهر – یک ساختار قاب چوبی که در سال 1858 به عنوان کلیسا ساخته شده است – او همچنین درخواست های ثبت عمومی را مطرح کرد. به تازگی، او ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T10:32:55Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bede548f512c8e9f",
-      "url": "https://www.theguardian.com/technology/2026/nov/25/meta-insiders-concerned-push-to-ai-content-moderation",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "‘It’s been really a mess’: Meta insiders concerned over push to AI content moderation",
-      "excerpt": "Several employees say rapid speed at which algorithms work means mistakes can happen at greater scale Meta employees have expressed concern at the company’s push to replace human moderators with artificial intelligence, claiming the technology is leading to mistakes with the potential for sweeping political consequences. The social media company, which owns Facebook and Instagram, has been…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T07:00:08Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T08:48:02Z",
-      "day": "2026-11-25",
-      "category": "policy",
-      "tags": [
-       "meta",
-       "ai (artificial intelligence)",
-       "facebook",
-       "instagram",
-       "social media",
-       "internet"
-      ],
-      "entities": [
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/87e75a9e8fcfa797fd2a9d4b195d62ca54837f53/375_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=6da30a2ee1f4dc394db6f53b2c2a78d5",
-       "credit": "Photograph: Dado Ruvić/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "bede548f512c8e9f",
-      "related": [],
-      "score": {
-       "total": 62.3,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 82.3,
-        "topic": 85.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "\"این واقعا یک آشفتگی بوده است\": Meta Insiders نگران فشار به اعتدال محتوای AI",
-        "excerpt": "چندین کارمند می گویند سرعت سریع که الگوریتم ها کار می کنند به این معنی است که اشتباهات می تواند در مقیاس بزرگ تر اتفاق بیفتد، کارکنان متا نسبت به فشار شرکت ابراز نگرانی کرده اند تا جایگزین تعدیل کننده های انسانی با هوش مصنوعی شوند و ادعا می کنند که این تکنولوژی منجر به اشتباه با پتانسیل عواقب گسترده سیاسی می شود. شرکت رسانه های اجتماعی که مالک فیس بوک و اینستاگرام است...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T08:48:02Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "2656001821696312",
-      "url": "https://www.youtube.com/watch?v=p8lvQQebvpg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How to Search for Exoplanets",
-      "excerpt": "Two amateur astronomers, Kevin Bond and Ethan Byrd, independently found signals that could point to planets around distant stars. They knew you didn't need your own telescope for this kind of hunt. Kevin used Codex and Ethan used Astra to search public telescope data for tiny, recurring dips in starlight that an orbiting planet can cause. Both found signals worth a second look…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T20:00:45Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i1.ytimg.com/vi/p8lvQQebvpg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "p8lvQQebvpg",
-       "url": "https://www.youtube.com/watch?v=p8lvQQebvpg"
-      },
-      "eventId": "2656001821696312",
-      "related": [],
-      "score": {
-       "total": 61.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 43.6,
-        "topic": 100.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه برای جستجو برای Exoplanets",
-        "excerpt": "دو ستاره شناس آماتور، کوین باند و ایتان Byrd، به طور مستقل سیگنال هایی را پیدا کردند که می تواند به سیارات اطراف ستاره های دور اشاره کند. آنها می دانستند که برای شکار به تلسکوپ خود نیاز ندارید. کوین از Codex استفاده کرد و ایتان از Astra برای جستجوی داده های تلسکوپ عمومی برای شیب های کوچک و تکراری در نور ستاره ای استفاده کرد که یک سیاره مداری می تواند ایجاد کند. هر دو سیگنال را به ارزش نگاه دوم پیدا کردند...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
-       }
-      }
-     },
-     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -304,51 +128,236 @@
     },
     {
      "article": {
-      "id": "e2544bc1aeb2953e",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "id": "e2ee4ad335699ba8",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "excerpt": "Generative AI",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:00:00Z",
+      "publishedAt": "2026-11-25T17:10:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
-      "day": "2026-11-24",
-      "category": "models",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "research",
       "tags": [
-       "gemini app",
-       "gemini",
-       "ai"
+       "generative ai",
+       "human-computer interaction and visualiza",
+       "machine intelligence",
+       "natural language processing"
       ],
       "entities": [
        "google"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "e2544bc1aeb2953e",
+      "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 60.7,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 34.6,
-        "topic": 100.0,
-        "novelty": 87.5
+        "recency": 90.6,
+        "topic": 80.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه Gemini در حال تغییر بازی برای سازمان و طرفداران دولت طلایی است.",
-        "excerpt": "شرکای Google Gemini با دولت طلایی برای تجربه های فن و عملیات کسب و کار برای جنگجویان، Valkyries و Chase Center. اخبار را ببینید.",
+        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "01f58d7014fd3047",
+      "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Finances in ChatGPT: A Beginner’s Guide",
+      "excerpt": "Finances in ChatGPT can help you get a clearer picture of your spending and find ways to make progress toward your financial goals. In this video, we'll get you up to speed with the basics of Finances in ChatGPT: connect your bank account, review your recurring subscriptions, and build a budget around what matters to you. Get started with Finances in ChatGPT…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T14:00:28Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i1.ytimg.com/vi/hwKct_1ilEQ/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "hwKct_1ilEQ",
+       "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ"
+      },
+      "eventId": "01f58d7014fd3047",
+      "related": [],
+      "score": {
+       "total": 67.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 75.5,
+        "topic": 100.0,
+        "novelty": 75.0
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "دارایی در ChatGPT: راهنمای مبتدی",
+        "excerpt": "امور مالی در ChatGPT می تواند به شما کمک کند تا تصویری واضح تر از هزینه های خود داشته باشید و راه هایی برای پیشرفت در اهداف مالی خود پیدا کنید. در این ویدئو، ما شما را به سرعت با اصول مالی در ChatGPT: حساب بانکی خود را متصل کنید، اشتراک های تکراری خود را بررسی کنید و بودجه ای در مورد آنچه که برای شما مهم است، ایجاد کنید. شروع با دارایی در ChatGPT",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 4,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "e1845ee0b548d25f",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune,",
+      "lang": "en",
+      "publishedAt": "2026-11-25T14:12:33Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "business",
+      "tags": [
+       "ai",
+       "amazon",
+       "meta",
+       "news",
+       "online shopping",
+       "tech"
+      ],
+      "entities": [
+       "amazon",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Muse AI mascot and logo.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "e1845ee0b548d25f",
+      "related": [
+       "3a2027e2694465cf"
+      ],
+      "score": {
+       "total": 66.4,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 76.3,
+        "topic": 55.0,
+        "novelty": 63.6
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آمازون در حال مذاکره برای پایان دادن به بلوک خرید Muse AI است",
+        "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d988ee3798474df2",
+      "url": "https://www.youtube.com/shorts/5_peDo1mukg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
+      "excerpt": "When principal software systems engineer Rez Nemati set out to scale Alpamayo, the famed pyramidal peak in the Peruvian Andes, he realized the mountain shares more than just a name with NVIDIA’s open ecosystem of reasoning vision-language-action AI models, simulation tools, and datasets for autonomous vehicles and robotaxis. Both demand preparation, careful decisions, and layers of protection…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T16:00:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "hardware",
+      "tags": [],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i2.ytimg.com/vi/5_peDo1mukg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "5_peDo1mukg",
+       "url": "https://www.youtube.com/watch?v=5_peDo1mukg"
+      },
+      "eventId": "d988ee3798474df2",
+      "related": [],
+      "score": {
+       "total": 66.3,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 84.7,
+        "topic": 70.0,
+        "novelty": 88.2
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک نام دو جهان تعهد مشترک به امنیت",
+        "excerpt": "هنگامی که مهندس سیستم های نرم افزار اصلی Rez Nemati تصمیم گرفت که Alpamayo را اندازه گیری کند، اوج مشهور هرمال در Andes، او متوجه شد که سهام کوه بیش از یک نام با اکوسیستم باز NVIDIA از مدل های هوش مصنوعی منطقی زبان، ابزارهای شبیه سازی و مجموعه داده ها برای وسایل نقلیه مستقل و بسته بندی ربات است. هر دو آماده سازی، تصمیم گیری دقیق و لایه های حفاظت...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -363,10 +372,69 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-18T10:22:09Z",
-   "to": "2026-11-25T10:22:09Z",
+   "from": "2026-11-18T18:52:55Z",
+   "to": "2026-11-25T18:52:55Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "ec8743068e332d96",
+      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How your dot can keep work moving while you’re away",
+      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:21:11Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "A4UNP-axGHU",
+       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
+      },
+      "eventId": "ec8743068e332d96",
+      "related": [],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.5,
+        "topic": 100.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه می توانید کار خود را در حالی که شما دور",
+        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "49ef9cf5084cd81b",
@@ -402,15 +470,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 74.4,
+       "total": 73.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 69.1,
+        "recency": 63.7,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -421,7 +489,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -432,106 +500,52 @@
     },
     {
      "article": {
-      "id": "e2544bc1aeb2953e",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "id": "01f58d7014fd3047",
+      "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "Finances in ChatGPT: A Beginner’s Guide",
+      "excerpt": "Finances in ChatGPT can help you get a clearer picture of your spending and find ways to make progress toward your financial goals. In this video, we'll get you up to speed with the basics of Finances in ChatGPT: connect your bank account, review your recurring subscriptions, and build a budget around what matters to you. Get started with Finances in ChatGPT…",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:00:00Z",
+      "publishedAt": "2026-11-25T14:00:28Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
-      "day": "2026-11-24",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
       "category": "models",
-      "tags": [
-       "gemini app",
-       "gemini",
-       "ai"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
-       "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
-      },
-      "eventId": "e2544bc1aeb2953e",
-      "related": [],
-      "score": {
-       "total": 70.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 83.8,
-        "topic": 100.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه Gemini در حال تغییر بازی برای سازمان و طرفداران دولت طلایی است.",
-        "excerpt": "شرکای Google Gemini با دولت طلایی برای تجربه های فن و عملیات کسب و کار برای جنگجویان، Valkyries و Chase Center. اخبار را ببینید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "3c6728c1bfd19879",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
-      "sourceId": "openai-news",
-      "sourceName": "OpenAI News",
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "excerpt": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
-      "lang": "en",
-      "publishedAt": "2026-11-24T13:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "models",
-      "tags": [
-       "science"
-      ],
+      "tags": [],
       "entities": [
        "openai"
       ],
       "brand": "openai",
       "image": {
-       "url": "images/fallbacks/models.svg",
-       "kind": "fallback"
+       "url": "https://i1.ytimg.com/vi/hwKct_1ilEQ/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
       },
-      "eventId": "3c6728c1bfd19879",
+      "video": {
+       "provider": "youtube",
+       "id": "hwKct_1ilEQ",
+       "url": "https://www.youtube.com/watch?v=hwKct_1ilEQ"
+      },
+      "eventId": "01f58d7014fd3047",
       "related": [],
       "score": {
-       "total": 70.3,
+       "total": 71.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 81.4,
+        "recency": 95.4,
         "topic": 100.0,
-        "novelty": 90.0
+        "novelty": 75.0
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "مدل های GPT-6 توانایی های ذاتی طراحی پروتئین را نشان می دهند",
-        "excerpt": "مدل های GPT-6 ساختارهای پروتئین و توالی ها را با استفاده از استدلال و کد طراحی می کنند. تست های آزمایشگاهی شواهدی از اتصال در پنج هدف را پیدا کردند.",
+        "title": "دارایی در ChatGPT: راهنمای مبتدی",
+        "excerpt": "امور مالی در ChatGPT می تواند به شما کمک کند تا تصویری واضح تر از هزینه های خود داشته باشید و راه هایی برای پیشرفت در اهداف مالی خود پیدا کنید. در این ویدئو، ما شما را به سرعت با اصول مالی در ChatGPT: حساب بانکی خود را متصل کنید، اشتراک های تکراری خود را بررسی کنید و بودجه ای در مورد آنچه که برای شما مهم است، ایجاد کنید. شروع با دارایی در ChatGPT",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -545,123 +559,111 @@
     },
     {
      "article": {
-      "id": "09afcc847896cde3",
-      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Jensen Huang is back as Nvidia’s CEO",
-      "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board",
+      "id": "37b5c9ba93266751",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Where scientists draw the line on AI agents",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-23T14:04:24Z",
+      "publishedAt": "2026-11-25T18:52:55Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
-      "category": "business",
-      "tags": [
-       "ai",
-       "news",
-       "nvidia",
-       "policy",
-       "tech"
-      ],
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "research",
+      "tags": [],
       "entities": [
-       "nvidia"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_05.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
       },
-      "eventId": "ecab1061c917e910",
-      "related": [
-       "47b1648bdb930a3d",
-       "4fb306f1bad28bc9",
-       "7e93ff39fd333740",
-       "ecab1061c917e910"
-      ],
+      "eventId": "37b5c9ba93266751",
+      "related": [],
       "score": {
-       "total": 69.6,
+       "total": 70.8,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 75.0,
-        "recency": 65.3,
-        "topic": 55.0,
-        "novelty": 55.6
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 87.5
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "Jensen Huang به عنوان مدیر عامل Nvidia بازگشت",
-        "excerpt": "Nvidia Jensen Huang را به عنوان مدیرعامل خود معرفی کرده است. این شرکت روز دوشنبه صبح اعلام کرد که این هیئت مدیره \"به طور قاطع برای بازگرداندن آقای به توافق رسیده است. هوانگ پس از یک سری بحث ها و جلسات با آقای هوانگ، پس از آن هیئت مدیره از احترام به آقای راضی بود. توانایی و توانایی هوا برای رهبری NVIDIA",
+        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
      "rank": 4,
-     "sources": 3,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-3",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "374eafd5e478c4e8",
-      "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
-      "excerpt": "The Nvidia CEO’s faces mounting scrutiny, while Silicon Valley’s biggest names attempt to repair relationships with Democrats after years of backing the president This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here Hello, and welcome to TechScape. I’m your host, Blake Montgomery, writing to you while dreaming of the pear…",
+      "id": "e1845ee0b548d25f",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune,",
       "lang": "en",
-      "publishedAt": "2026-11-24T13:33:44Z",
+      "publishedAt": "2026-11-25T14:12:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
-      "day": "2026-11-24",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
       "category": "business",
       "tags": [
-       "nvidia",
-       "jensen huang",
-       "elon musk",
-       "trump administration",
-       "donald trump",
-       "technology"
+       "ai",
+       "amazon",
+       "meta",
+       "news",
+       "online shopping",
+       "tech"
       ],
       "entities": [
-       "nvidia"
+       "amazon",
+       "meta"
       ],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/ddea062f231e51eabed66481d5ba36e81630f60a/0_0_3000_2399/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=0a2e9da9a71cc3235aa37772435ab9ff",
-       "credit": "Illustration: Guardian Design",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Muse AI mascot and logo.",
        "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "374eafd5e478c4e8",
+      "eventId": "e1845ee0b548d25f",
       "related": [
-       "f8cdc496b0bc8f98"
+       "3a2027e2694465cf"
       ],
       "score": {
-       "total": 68.4,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.8,
+        "recency": 95.6,
         "topic": 55.0,
-        "novelty": 72.7
+        "novelty": 63.6
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "Jensen Huang بازگشت به Nvidia به عنوان سیلیکون دره تجدید نظر اتحاد خود را با Trump",
-        "excerpt": "بررسی چهره های مدیرعامل Nvidia، در حالی که بزرگترین نام های سیلیکون دره تلاش برای تعمیر روابط با دموکرات ها پس از سال ها حمایت از رئیس جمهور این است که در ابتدا در TechScape منتشر شد، یک خبرنامه در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا Hello دریافت کنید و به TechScape خوش آمدید. من میزبان شما هستم، بلیک مونتگومری، نوشتن به شما در هنگام خواب دیدن گلابی...",
+        "title": "آمازون در حال مذاکره برای پایان دادن به بلوک خرید Muse AI است",
+        "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T13:54:38Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -676,46 +678,52 @@
     },
     {
      "article": {
-      "id": "d0a3a7f662b58965",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "An Indic Voice Agent with CUGA",
-      "excerpt": "",
+      "id": "e2ee4ad335699ba8",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
+      "sourceId": "google-research",
+      "sourceName": "Google Research Blog",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "excerpt": "Generative AI",
       "lang": "en",
-      "publishedAt": "2026-11-25T10:22:09Z",
+      "publishedAt": "2026-11-25T17:10:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T10:32:55Z",
+      "fetchedAt": "2026-11-25T19:24:12Z",
       "day": "2026-11-25",
-      "category": "products",
-      "tags": [],
+      "category": "research",
+      "tags": [
+       "generative ai",
+       "human-computer interaction and visualiza",
+       "machine intelligence",
+       "natural language processing"
+      ],
       "entities": [
-       "huggingface"
+       "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67fe070a4e8cc28ba346f53c/-QNcrxSDbjI8VOCBlhi-C.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
+       "kind": "feed",
+       "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "d0a3a7f662b58965",
+      "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 65.0,
-        "novelty": 77.8
+        "recency": 98.4,
+        "topic": 80.0,
+        "novelty": 83.3
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "یک عامل صوتی Indic Voice با CUGA",
+        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T10:32:55Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -729,46 +737,52 @@
     },
     {
      "article": {
-      "id": "16565a3f5dc091b0",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "excerpt": "",
+      "id": "d988ee3798474df2",
+      "url": "https://www.youtube.com/shorts/5_peDo1mukg",
+      "sourceId": "nvidia-youtube",
+      "sourceName": "NVIDIA (YouTube)",
+      "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
+      "excerpt": "When principal software systems engineer Rez Nemati set out to scale Alpamayo, the famed pyramidal peak in the Peruvian Andes, he realized the mountain shares more than just a name with NVIDIA’s open ecosystem of reasoning vision-language-action AI models, simulation tools, and datasets for autonomous vehicles and robotaxis. Both demand preparation, careful decisions, and layers of protection…",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:34:13Z",
+      "publishedAt": "2026-11-25T16:00:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "open-source",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "hardware",
       "tags": [],
       "entities": [
-       "huggingface"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
+       "url": "https://i2.ytimg.com/vi/5_peDo1mukg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
       },
-      "eventId": "16565a3f5dc091b0",
+      "video": {
+       "provider": "youtube",
+       "id": "5_peDo1mukg",
+       "url": "https://www.youtube.com/watch?v=5_peDo1mukg"
+      },
+      "eventId": "d988ee3798474df2",
       "related": [],
       "score": {
-       "total": 67.4,
+       "total": 68.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 84.3,
-        "topic": 75.0,
-        "novelty": 92.9
+        "recency": 97.3,
+        "topic": 70.0,
+        "novelty": 88.2
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "جلوگیری از موانع Microduck: جریان کار واقعی Sim2 با آزمایشگاه آیزاک و نیوتن",
+        "title": "یک نام دو جهان تعهد مشترک به امنیت",
+        "excerpt": "هنگامی که مهندس سیستم های نرم افزار اصلی Rez Nemati تصمیم گرفت که Alpamayo را اندازه گیری کند، اوج مشهور هرمال در Andes، او متوجه شد که سهام کوه بیش از یک نام با اکوسیستم باز NVIDIA از مدل های هوش مصنوعی منطقی زبان، ابزارهای شبیه سازی و مجموعه داده ها برای وسایل نقلیه مستقل و بسته بندی ربات است. هر دو آماده سازی، تصمیم گیری دقیق و لایه های حفاظت...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -782,52 +796,50 @@
     },
     {
      "article": {
-      "id": "31d37d4ac5ebf469",
-      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
-      "excerpt": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in…",
+      "id": "b45d58e25dc6779d",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization",
+      "sourceId": "github-blog-ai",
+      "sourceName": "GitHub Blog — AI & ML",
+      "title": "How to choose the next safe step in application modernization",
+      "excerpt": "Learn how to assess a legacy application, choose a bounded modernization step, and reuse the method with a GitHub Copilot agent skill.",
       "lang": "en",
-      "publishedAt": "2026-11-24T21:32:42Z",
+      "publishedAt": "2026-11-25T15:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "openai"
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "products",
+      "tags": [
+       "ai & ml",
+       "github copilot",
+       "application modernization"
       ],
-      "brand": "openai",
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
       "image": {
-       "url": "https://i2.ytimg.com/vi/1u0hTd86_HU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+       "url": "images/fallbacks/products.svg",
+       "kind": "fallback"
       },
-      "video": {
-       "provider": "youtube",
-       "id": "1u0hTd86_HU",
-       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU"
-      },
-      "eventId": "31d37d4ac5ebf469",
+      "eventId": "b45d58e25dc6779d",
       "related": [],
       "score": {
        "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.4,
-        "topic": 80.0,
-        "novelty": 75.0
+        "recency": 96.3,
+        "topic": 65.0,
+        "novelty": 81.8
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "آزمایش SVG و طراحی 3D با افزونه Codex",
-        "excerpt": "کریگ دنیس هرگز SVG را با دست یا استفاده از Blender جذب نکرد. با افزونه SVG و طراحی 3D برای Codex، او نشان می دهد که چگونه یک تصویر مرجع را به یک گرافیک قابل ویرایش یا مدل 3D تبدیل کند، سپس تغییرات در زبان ساده را درخواست کند. ببینید که چگونه یک تغییر کوچک در کد SVG می تواند چشم های یک کاراکتر را از نمای شما دنبال کند و چگونه Codex از Blender برای بررسی یک مدل از زاویه دیگر استفاده می کند. گزینه SVG & 3D Design در ...",
+        "title": "چگونگی انتخاب گام امن بعدی در مدرن سازی برنامه",
+        "excerpt": "یاد بگیرید که چگونه یک برنامه میراثی را ارزیابی کنید، یک گام مدرن سازی محدود را انتخاب کنید و روش را با مهارت عامل GitHub Copilot استفاده کنید.",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -842,8 +854,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-26T10:22:09Z",
-   "to": "2026-11-25T10:22:09Z",
+   "from": "2026-10-26T18:52:55Z",
+   "to": "2026-11-25T18:52:55Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -881,15 +893,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 78.5,
+       "total": 78.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 89.5,
+        "recency": 87.3,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -944,15 +956,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 78.0,
+       "total": 77.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 33.9,
+        "recency": 33.1,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -1003,15 +1015,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 75.3,
+       "total": 75.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 55.1,
+        "recency": 53.8,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -1069,15 +1081,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 74.2,
+       "total": 73.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 88.0,
+        "recency": 85.9,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -1093,6 +1105,65 @@
      "reason": [
       "tier-2",
       "voices-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ec8743068e332d96",
+      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How your dot can keep work moving while you’re away",
+      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:21:11Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "A4UNP-axGHU",
+       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
+      },
+      "eventId": "ec8743068e332d96",
+      "related": [],
+      "score": {
+       "total": 73.6,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 100.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه می توانید کار خود را در حالی که شما دور",
+        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1125,15 +1196,15 @@
       "eventId": "3c6728c1bfd19879",
       "related": [],
       "score": {
-       "total": 72.8,
+       "total": 72.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.0,
+        "recency": 91.7,
         "topic": 100.0,
         "novelty": 90.0
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -1144,7 +1215,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1154,55 +1225,116 @@
     },
     {
      "article": {
-      "id": "e2544bc1aeb2953e",
-      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state",
-      "sourceId": "google-ai-blog",
-      "sourceName": "Google — The Keyword (AI)",
-      "title": "How Gemini is changing the game for Golden State's organization and fans.",
-      "excerpt": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+      "id": "e1845ee0b548d25f",
+      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune,",
       "lang": "en",
-      "publishedAt": "2026-11-24T16:00:00Z",
+      "publishedAt": "2026-11-25T14:12:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T16:30:40Z",
-      "day": "2026-11-24",
-      "category": "models",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "business",
       "tags": [
-       "gemini app",
-       "gemini",
-       "ai"
+       "ai",
+       "amazon",
+       "meta",
+       "news",
+       "online shopping",
+       "tech"
       ],
       "entities": [
-       "google"
+       "amazon",
+       "meta"
       ],
-      "brand": "gemini",
+      "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "The Muse AI mascot and logo.",
        "kind": "feed",
-       "sourceUrl": "https://blog.google/technology/ai/rss/"
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "e2544bc1aeb2953e",
-      "related": [],
+      "eventId": "e1845ee0b548d25f",
+      "related": [
+       "3a2027e2694465cf"
+      ],
       "score": {
-       "total": 72.7,
+       "total": 70.9,
        "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.8,
-        "topic": 100.0,
-        "novelty": 87.5
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 98.7,
+        "topic": 55.0,
+        "novelty": 63.6
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "چگونه Gemini در حال تغییر بازی برای سازمان و طرفداران دولت طلایی است.",
-        "excerpt": "شرکای Google Gemini با دولت طلایی برای تجربه های فن و عملیات کسب و کار برای جنگجویان، Valkyries و Chase Center. اخبار را ببینید.",
+        "title": "آمازون در حال مذاکره برای پایان دادن به بلوک خرید Muse AI است",
+        "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T16:30:40Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
-     "rank": 6,
+     "rank": 7,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "37b5c9ba93266751",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Where scientists draw the line on AI agents",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:52:55Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      "eventId": "37b5c9ba93266751",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 80.0,
+        "novelty": 87.5
+       },
+       "asOf": "2026-11-25T18:52:55Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
+       }
+      }
+     },
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1247,15 +1379,15 @@
        "f8cdc496b0bc8f98"
       ],
       "score": {
-       "total": 70.9,
+       "total": 70.4,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 94.2,
+        "recency": 91.9,
         "topic": 55.0,
         "novelty": 72.7
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
@@ -1266,7 +1398,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 9,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -1277,161 +1409,52 @@
     },
     {
      "article": {
-      "id": "16565a3f5dc091b0",
-      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-24T16:34:13Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6847ab8c06094fa4afb6ee38/M70tUMNd7N4KO5QGI37YZ.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance"
-      },
-      "eventId": "16565a3f5dc091b0",
-      "related": [],
-      "score": {
-       "total": 69.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 95.0,
-        "topic": 75.0,
-        "novelty": 92.9
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جلوگیری از موانع Microduck: جریان کار واقعی Sim2 با آزمایشگاه آیزاک و نیوتن",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "77ab3d65a27896e8",
-      "url": "https://research.google/blog/supercharging-transformer-residual-connections",
+      "id": "e2ee4ad335699ba8",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
       "sourceId": "google-research",
       "sourceName": "Google Research Blog",
-      "title": "Supercharging transformer residual connections",
-      "excerpt": "Algorithms & Theory",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "excerpt": "Generative AI",
       "lang": "en",
-      "publishedAt": "2026-11-23T17:21:12Z",
+      "publishedAt": "2026-11-25T17:10:27Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
       "category": "research",
       "tags": [
-       "algorithms & theory"
+       "generative ai",
+       "human-computer interaction and visualiza",
+       "machine intelligence",
+       "natural language processing"
       ],
       "entities": [
        "google"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/DeepCrossAttention1_Banner.gif",
+       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
        "kind": "feed",
        "sourceUrl": "https://research.google/blog/rss/"
       },
-      "eventId": "77ab3d65a27896e8",
+      "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.8,
+        "recency": 99.5,
         "topic": 80.0,
-        "novelty": 90.9
+        "novelty": 83.3
        },
-       "asOf": "2026-11-25T10:22:09Z"
+       "asOf": "2026-11-25T18:52:55Z"
       },
       "tr": {
        "fa": {
-        "title": "Supercharging تبدیل اتصالات باقی مانده",
-        "excerpt": "الگوریتم ها و نظریه",
+        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
+        "excerpt": "هوش مصنوعی",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
-       }
-      }
-     },
-     "rank": 9,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "31d37d4ac5ebf469",
-      "url": "https://www.youtube.com/watch?v=1u0hTd86_HU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "Experiment with SVG & 3D Design with the Codex Plugin",
-      "excerpt": "Craig Dennis had never drawn an SVG by hand or used Blender. With the SVG & 3D Design plugin for Codex, he shows how to turn a reference image into an editable graphic or 3D model, then ask for changes in plain language. See how a small change in SVG code can make a character’s eyes follow your cursor, and how Codex uses Blender to check a model from another angle. Enable SVG & 3D Design in…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T21:32:42Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T23:30:28Z",
-      "day": "2026-11-24",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/1u0hTd86_HU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "1u0hTd86_HU",
-       "url": "https://www.youtube.com/watch?v=1u0hTd86_HU"
-      },
-      "eventId": "31d37d4ac5ebf469",
-      "related": [],
-      "score": {
-       "total": 68.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 96.4,
-        "topic": 80.0,
-        "novelty": 75.0
-       },
-       "asOf": "2026-11-25T10:22:09Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آزمایش SVG و طراحی 3D با افزونه Codex",
-        "excerpt": "کریگ دنیس هرگز SVG را با دست یا استفاده از Blender جذب نکرد. با افزونه SVG و طراحی 3D برای Codex، او نشان می دهد که چگونه یک تصویر مرجع را به یک گرافیک قابل ویرایش یا مدل 3D تبدیل کند، سپس تغییرات در زبان ساده را درخواست کند. ببینید که چگونه یک تغییر کوچک در کد SVG می تواند چشم های یک کاراکتر را از نمای شما دنبال کند و چگونه Codex از Blender برای بررسی یک مدل از زاویه دیگر استفاده می کند. گزینه SVG & 3D Design در ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T23:30:28Z"
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
