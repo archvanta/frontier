@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-26T12:33:07Z",
+ "asOf": "2026-11-26T20:03:54Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,65 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-25T12:33:07Z",
-   "to": "2026-11-26T12:33:07Z",
+   "from": "2026-11-25T20:03:54Z",
+   "to": "2026-11-26T20:03:54Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "c881f1e7111092b0",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "lang": "en",
+      "publishedAt": "2026-11-26T20:03:54Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T22:25:04Z",
+      "day": "2026-11-26",
+      "category": "hardware",
+      "tags": [
+       "ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "c881f1e7111092b0",
+      "related": [],
+      "score": {
+       "total": 63.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 70.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-26T20:03:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia با توقف محموله های تراشه به جنوب شرق آسیا",
+        "excerpt": "Nvidia به شرکای تولیدی گفته است که محموله های سرور را به مالزی، سنگاپور، تایلند و اندونزی متوقف کنند زیرا ایالات متحده فشار خود را برای نگه داشتن تراشه های AI از چین سخت می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T22:25:04Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "02a088434703556c",
@@ -42,15 +97,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.8,
+        "recency": 61.4,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -60,7 +115,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -70,56 +125,57 @@
     },
     {
      "article": {
-      "id": "4a218a47efce6d99",
-      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "id": "c29798d3b13c86f3",
+      "url": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
-      "excerpt": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed. Proceedings where judges have been…",
+      "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
+      "excerpt": "The Trump administration has approved Elon Musk’s plan to create datacentres in space. US federal regulators have authorised the launch of one million Starmind orbital satellites, which are built by Musk’s SpaceX, to process data in space. Supporters argue the project will be more energy-efficient and reduce the environmental impact of datacentres on Earth as the AI industry grows. But how…",
       "lang": "en",
-      "publishedAt": "2026-11-26T12:19:37Z",
+      "publishedAt": "2026-11-26T18:34:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
+      "fetchedAt": "2026-11-26T22:25:04Z",
       "day": "2026-11-26",
-      "category": "policy",
+      "category": "hardware",
       "tags": [
-       "ai (artificial intelligence)",
-       "law",
+       "elon musk",
+       "donald trump",
+       "us news",
+       "world news",
        "technology",
-       "uk criminal justice",
-       "judiciary"
+       "space"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=d3aecd1e7c4beeb196cd2ba96b59da9d",
-       "credit": "Photograph: Henry Nicholls/AFP/Getty Images",
+       "url": "https://i.guim.co.uk/img/media/7da230064c1eaf9ac951b3f7766a1a4a840051b7/933_0_4663_3731/master/4663.jpg?width=700&quality=85&auto=format&fit=max&s=e48cee8a12cc84a702a89d6a7319fc1c",
+       "credit": "Photograph: Reuters",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "4a218a47efce6d99",
+      "eventId": "c29798d3b13c86f3",
       "related": [],
       "score": {
-       "total": 65.7,
+       "total": 61.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.7,
-        "topic": 85.0,
-        "novelty": 92.3
+        "recency": 91.7,
+        "topic": 70.0,
+        "novelty": 84.6
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
-        "title": "ده ها پرونده دادگاه در انگلستان و ولز تحت تاثیر استفاده از هوش مصنوعی در سال 2026",
-        "excerpt": "منحصر به فرد: تحقیقات نشان می دهد که حداقل 25 مورد تحت تاثیر اظهارات شهودی AI، قانون پرونده ساختگی و قوانین غیر قابل موجود استفاده از AI در سال جاری بیش از دو ده مورد دادگاه را تحت تاثیر قرار داده است و قضات را مجبور به شکایت در مورد اظهارات شهود تولید شده AI، قانون پرونده ساختگی و قوانین غیر موجود، تحقیقات نشان داده است. داورانی که در آن قاضی بوده اند...",
+        "title": "آیا ایلان ماسک واقعا می تواند پایگاه داده های AI را در فضا قرار دهد؟ - آخرین",
+        "excerpt": "دولت ترامپ طرح ایلان ماسک را برای ایجاد پایگاه های داده در فضا تایید کرده است. رگولاتورهای فدرال ایالات متحده اعلام کرده اند که پرتاب یک میلیون ماهواره مدار ستاره را که توسط اسپیس ایکس ماسک ساخته شده اند تا داده ها را در فضا پردازش کنند. حامیان استدلال می کنند که این پروژه کارآمد تر خواهد بود و تاثیر زیست محیطی مراکز داده بر زمین را کاهش می دهد زیرا صنعت AI رشد می کند. اما چگونه ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
+        "at": "2026-11-26T22:25:04Z"
        }
       }
      },
-     "rank": 2,
+     "rank": 3,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -129,53 +185,60 @@
     },
     {
      "article": {
-      "id": "d3aa48daa62df585",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-      "excerpt": "",
+      "id": "ce7382d8a686ec9c",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
+      "excerpt": "We’re developing the most powerful tech in history – but trust, safeguarding and privacy are being sidelined in favour of huge profit I’m a senior AI leader at one of the world’s biggest tech companies, and the products we put out into the world are increasingly being recklessly rushed, without proper consideration. The tech industry used to take safety and privacy seriously, but lately I have…",
       "lang": "en",
-      "publishedAt": "2026-11-26T05:05:36Z",
+      "publishedAt": "2026-11-26T14:06:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
+      "fetchedAt": "2026-11-26T22:25:04Z",
       "day": "2026-11-26",
-      "category": "open-source",
-      "tags": [],
-      "entities": [
-       "huggingface"
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "technology",
+       "uk news",
+       "ethical business",
+       "business",
+       "money"
       ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+       "url": "https://i.guim.co.uk/img/media/8cc6bbd0024f4ba8485616485bd55f9c34d98452/458_0_4167_3333/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=5fa3df245cd1549abd6d4d894f4b8fef",
+       "credit": "Photograph: Aly Song/Reuters",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "d3aa48daa62df585",
+      "eventId": "ce7382d8a686ec9c",
       "related": [],
       "score": {
-       "total": 63.4,
+       "total": 60.0,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 65.0,
-        "topic": 75.0,
-        "novelty": 91.7
+        "recency": 70.9,
+        "topic": 85.0,
+        "novelty": 90.5
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
-        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
+        "title": "من یک رهبر هوش مصنوعی در یک غول تکنولوژی هستم. صنعت ما متوقف شده است به طور جدی ایمنی",
+        "excerpt": "ما در حال توسعه قوی ترین تکنولوژی در تاریخ هستیم - اما اعتماد، حفاظت و حریم خصوصی به نفع سود بزرگ من یک رهبر ارشد AI در یکی از بزرگترین شرکت های تکنولوژی جهان است و محصولاتی که ما در جهان قرار می دهیم به طور فزاینده ای بدون توجه مناسب است. صنعت تکنولوژی به طور جدی امنیت و حریم خصوصی را به دست آورد، اما اخیرا...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
+        "at": "2026-11-26T22:25:04Z"
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -212,15 +275,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 62.9,
+       "total": 59.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 48.0,
+        "recency": 31.1,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -231,7 +294,7 @@
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -241,111 +304,46 @@
     },
     {
      "article": {
-      "id": "fa2f0df7cd764ef2",
-      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
-      "excerpt": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but…",
+      "id": "d3aa48daa62df585",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-26T11:30:06Z",
+      "publishedAt": "2026-11-26T05:05:36Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-26T12:49:12Z",
       "day": "2026-11-26",
-      "category": "models",
-      "tags": [
-       "ai and society",
-       "artificial intelligence",
-       "cybersecurity",
-       "microsoft"
-      ],
+      "category": "open-source",
+      "tags": [],
       "entities": [
-       "microsoft"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
       },
-      "eventId": "fa2f0df7cd764ef2",
+      "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 61.0,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 94.1,
-        "topic": 100.0,
-        "novelty": 92.3
-       },
-       "asOf": "2026-11-26T12:33:07Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "مایکروسافت جزئیات چگونگی استفاده هکرهای تحت حمایت دولت از چارچوب AI ARTEX برای خودکار سازی حملات سایبری",
-        "excerpt": "مایکروسافت معماری فنی ARTEX را منتشر کرده است، چارچوب AI در استفاده گسترده از ژوئیه 2026 که حملات سایبری را با عوامل تخصصی و تقریبا هیچ دخالت انسانی انجام می دهد. گروه های تحت حمایت دولت از چین و کره شمالی، همراه با سازمان های جنایی، از این سیستم استفاده می کنند. مایکروسافت توصیه می کند تکنیک های فریب مانند Honeypots و سیگنال های موفقیت جعلی به عنوان دفاع، اما ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-recency"
-     ]
-    },
-    {
-     "article": {
-      "id": "ee90a7582173521e",
-      "url": "https://www.youtube.com/watch?v=WN5O4vWCa54",
-      "sourceId": "google-developers-youtube",
-      "sourceName": "Google for Developers (YouTube)",
-      "title": "5 developer tips for working with Gemini 4",
-      "excerpt": "Google DeepMind's Patrick Löber and Geneviève Huskens share five practical tips for handing off long, complex engineering tasks to Gemini 4. Try Gemini 4 today in Google AI Studio through the Gemini API and in Google Antigravity. What the video covers: *Aligning on intent before a long run, using plan mode in Google AI Studio *Giving the model a concrete way to verify its work, like a test suite…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T20:00:15Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T20:14:08Z",
-      "day": "2026-11-25",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "google"
-      ],
-      "brand": "gemini",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/WN5O4vWCa54/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "WN5O4vWCa54",
-       "url": "https://www.youtube.com/watch?v=WN5O4vWCa54"
-      },
-      "eventId": "ee90a7582173521e",
-      "related": [],
-      "score": {
-       "total": 60.7,
+       "total": 58.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 38.4,
-        "topic": 100.0,
-        "novelty": 80.0
+        "recency": 42.1,
+        "topic": 75.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
-        "title": "5 راهنمایی توسعه دهنده برای کار با Gemini 4",
-        "excerpt": "Google DeepMind’s Patrick Löber و Geneviève Huskens پنج راهنمایی عملی را برای انجام کارهای مهندسی طولانی و پیچیده به Gemini 4 به اشتراک می گذارند. سعی کنید Gemini 4 امروز در Google AI Studio از طریق API Gemini و در Google ضد جاذبه. آنچه که این ویدیو پوشش می دهد: * تنظیم قصد قبل از یک دوره طولانی، با استفاده از حالت برنامه در Google AI Studio * تشویق مدل یک راه مشخص برای تأیید کار خود، مانند یک مجموعه آزمایشی ...",
+        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T20:14:08Z"
+        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
@@ -360,8 +358,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-19T12:33:07Z",
-   "to": "2026-11-26T12:33:07Z",
+   "from": "2026-11-19T20:03:54Z",
+   "to": "2026-11-26T20:03:54Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -399,15 +397,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 71.3,
+       "total": 70.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 53.7,
+        "recency": 50.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -459,15 +457,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 71.0,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.5,
+        "recency": 82.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -514,15 +512,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 70.7,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 92.2,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -572,15 +570,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 78.1,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -626,15 +624,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 67.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.1,
+        "recency": 86.6,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -690,15 +688,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 67.2,
+       "total": 66.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.6,
+        "recency": 75.0,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -750,15 +748,15 @@
       "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 66.9,
+       "total": 65.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.0,
+        "recency": 77.2,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -779,52 +777,53 @@
     },
     {
      "article": {
-      "id": "4a218a47efce6d99",
-      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "id": "ce7382d8a686ec9c",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
-      "excerpt": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed. Proceedings where judges have been…",
+      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
+      "excerpt": "We’re developing the most powerful tech in history – but trust, safeguarding and privacy are being sidelined in favour of huge profit I’m a senior AI leader at one of the world’s biggest tech companies, and the products we put out into the world are increasingly being recklessly rushed, without proper consideration. The tech industry used to take safety and privacy seriously, but lately I have…",
       "lang": "en",
-      "publishedAt": "2026-11-26T12:19:37Z",
+      "publishedAt": "2026-11-26T14:06:10Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
+      "fetchedAt": "2026-11-26T22:25:04Z",
       "day": "2026-11-26",
       "category": "policy",
       "tags": [
        "ai (artificial intelligence)",
-       "law",
        "technology",
-       "uk criminal justice",
-       "judiciary"
+       "uk news",
+       "ethical business",
+       "business",
+       "money"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=d3aecd1e7c4beeb196cd2ba96b59da9d",
-       "credit": "Photograph: Henry Nicholls/AFP/Getty Images",
+       "url": "https://i.guim.co.uk/img/media/8cc6bbd0024f4ba8485616485bd55f9c34d98452/458_0_4167_3333/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=5fa3df245cd1549abd6d4d894f4b8fef",
+       "credit": "Photograph: Aly Song/Reuters",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "4a218a47efce6d99",
+      "eventId": "ce7382d8a686ec9c",
       "related": [],
       "score": {
-       "total": 65.9,
+       "total": 64.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 99.8,
+        "recency": 94.4,
         "topic": 85.0,
-        "novelty": 92.3
+        "novelty": 90.5
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
-        "title": "ده ها پرونده دادگاه در انگلستان و ولز تحت تاثیر استفاده از هوش مصنوعی در سال 2026",
-        "excerpt": "منحصر به فرد: تحقیقات نشان می دهد که حداقل 25 مورد تحت تاثیر اظهارات شهودی AI، قانون پرونده ساختگی و قوانین غیر قابل موجود استفاده از AI در سال جاری بیش از دو ده مورد دادگاه را تحت تاثیر قرار داده است و قضات را مجبور به شکایت در مورد اظهارات شهود تولید شده AI، قانون پرونده ساختگی و قوانین غیر موجود، تحقیقات نشان داده است. داورانی که در آن قاضی بوده اند...",
+        "title": "من یک رهبر هوش مصنوعی در یک غول تکنولوژی هستم. صنعت ما متوقف شده است به طور جدی ایمنی",
+        "excerpt": "ما در حال توسعه قوی ترین تکنولوژی در تاریخ هستیم - اما اعتماد، حفاظت و حریم خصوصی به نفع سود بزرگ من یک رهبر ارشد AI در یکی از بزرگترین شرکت های تکنولوژی جهان است و محصولاتی که ما در جهان قرار می دهیم به طور فزاینده ای بدون توجه مناسب است. صنعت تکنولوژی به طور جدی امنیت و حریم خصوصی را به دست آورد، اما اخیرا...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
+        "at": "2026-11-26T22:25:04Z"
        }
       }
      },
@@ -839,8 +838,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-27T12:33:07Z",
-   "to": "2026-11-26T12:33:07Z",
+   "from": "2026-10-27T20:03:54Z",
+   "to": "2026-11-26T20:03:54Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -878,15 +877,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.6,
+       "total": 77.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 31.5,
+        "recency": 30.8,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -940,15 +939,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 77.2,
+       "total": 76.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 83.0,
+        "recency": 81.2,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1000,15 +999,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 74.5,
+       "total": 74.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 51.1,
+        "recency": 50.0,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1066,15 +1065,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 72.9,
+       "total": 72.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 81.6,
+        "recency": 79.8,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1090,65 +1089,6 @@
      "reason": [
       "tier-2",
       "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ec8743068e332d96",
-      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How your dot can keep work moving while you’re away",
-      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T18:21:11Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "A4UNP-axGHU",
-       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
-      },
-      "eventId": "ec8743068e332d96",
-      "related": [],
-      "score": {
-       "total": 72.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 94.9,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-26T12:33:07Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه می توانید کار خود را در حالی که شما دور",
-        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1185,15 +1125,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 72.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.4,
+        "recency": 94.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1201,6 +1141,65 @@
         "excerpt": "شما ما را در محل استقرار قرار داده اید. ❤️ ما از مشتریان و همه چیزهایی که ما با هم می سازیم سپاسگزار هستیم. با تشکر از شما برای اعتماد به ما و به اشتراک گذاری آنچه شما در طول راه یاد می گیرید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-26T02:53:49Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "ec8743068e332d96",
+      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "How your dot can keep work moving while you’re away",
+      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
+      "lang": "en",
+      "publishedAt": "2026-11-25T18:21:11Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-25T19:24:12Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "A4UNP-axGHU",
+       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
+      },
+      "eventId": "ec8743068e332d96",
+      "related": [],
+      "score": {
+       "total": 72.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 92.8,
+        "topic": 100.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-26T20:03:54Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "چگونه می توانید کار خود را در حالی که شما دور",
+        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-25T19:24:12Z"
        }
       }
      },
@@ -1240,15 +1239,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 70.8,
+       "total": 70.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.7,
+        "recency": 97.6,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1293,15 +1292,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 70.0,
+       "total": 69.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.9,
+        "recency": 95.8,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1357,15 +1356,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 69.9,
+       "total": 69.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 93.8,
+        "recency": 91.7,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
@@ -1412,15 +1411,15 @@
       "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.0,
+        "recency": 93.0,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-26T12:33:07Z"
+       "asOf": "2026-11-26T20:03:54Z"
       },
       "tr": {
        "fa": {
