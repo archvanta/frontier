@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-26T00:00:00Z",
+ "asOf": "2026-11-26T12:33:07Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,176 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-25T00:00:00Z",
-   "to": "2026-11-26T00:00:00Z",
+   "from": "2026-11-25T12:33:07Z",
+   "to": "2026-11-26T12:33:07Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "02a088434703556c",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-26T11:37:17Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      "eventId": "02a088434703556c",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 94.8,
+        "topic": 80.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T12:49:12Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "4a218a47efce6d99",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "excerpt": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed. Proceedings where judges have been…",
+      "lang": "en",
+      "publishedAt": "2026-11-26T12:19:37Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "policy",
+      "tags": [
+       "ai (artificial intelligence)",
+       "law",
+       "technology",
+       "uk criminal justice",
+       "judiciary"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=d3aecd1e7c4beeb196cd2ba96b59da9d",
+       "credit": "Photograph: Henry Nicholls/AFP/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "4a218a47efce6d99",
+      "related": [],
+      "score": {
+       "total": 65.7,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.7,
+        "topic": 85.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ده ها پرونده دادگاه در انگلستان و ولز تحت تاثیر استفاده از هوش مصنوعی در سال 2026",
+        "excerpt": "منحصر به فرد: تحقیقات نشان می دهد که حداقل 25 مورد تحت تاثیر اظهارات شهودی AI، قانون پرونده ساختگی و قوانین غیر قابل موجود استفاده از AI در سال جاری بیش از دو ده مورد دادگاه را تحت تاثیر قرار داده است و قضات را مجبور به شکایت در مورد اظهارات شهود تولید شده AI، قانون پرونده ساختگی و قوانین غیر موجود، تحقیقات نشان داده است. داورانی که در آن قاضی بوده اند...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T12:49:12Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d3aa48daa62df585",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-26T05:05:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      },
+      "eventId": "d3aa48daa62df585",
+      "related": [],
+      "score": {
+       "total": 63.4,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 65.0,
+        "topic": 75.0,
+        "novelty": 91.7
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T12:49:12Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "726045a047c880b6",
@@ -46,15 +212,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 73.2,
+       "total": 62.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.1,
+        "recency": 48.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -65,12 +231,71 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
       "first-report",
       "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "fa2f0df7cd764ef2",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+      "excerpt": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system. Microsoft recommends deception techniques like honeypots and faked success signals as defenses, but…",
+      "lang": "en",
+      "publishedAt": "2026-11-26T11:30:06Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "models",
+      "tags": [
+       "ai and society",
+       "artificial intelligence",
+       "cybersecurity",
+       "microsoft"
+      ],
+      "entities": [
+       "microsoft"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "fa2f0df7cd764ef2",
+      "related": [],
+      "score": {
+       "total": 61.0,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 94.1,
+        "topic": 100.0,
+        "novelty": 92.3
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مایکروسافت جزئیات چگونگی استفاده هکرهای تحت حمایت دولت از چارچوب AI ARTEX برای خودکار سازی حملات سایبری",
+        "excerpt": "مایکروسافت معماری فنی ARTEX را منتشر کرده است، چارچوب AI در استفاده گسترده از ژوئیه 2026 که حملات سایبری را با عوامل تخصصی و تقریبا هیچ دخالت انسانی انجام می دهد. گروه های تحت حمایت دولت از چین و کره شمالی، همراه با سازمان های جنایی، از این سیستم استفاده می کنند. مایکروسافت توصیه می کند تکنیک های فریب مانند Honeypots و سیگنال های موفقیت جعلی به عنوان دفاع، اما ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T12:49:12Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
      ]
     },
     {
@@ -105,15 +330,15 @@
       "eventId": "ee90a7582173521e",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 60.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.4,
+        "recency": 38.4,
         "topic": 100.0,
         "novelty": 80.0
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -124,247 +349,10 @@
        }
       }
      },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ec8743068e332d96",
-      "url": "https://www.youtube.com/watch?v=A4UNP-axGHU",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "How your dot can keep work moving while you’re away",
-      "excerpt": "Even when you step away for the holidays, work doesn’t always stop. Your dot can help. Raymond walks through how his dot keeps an eye on ongoing projects, flags what needs his attention, and helps move work forward so he can review and approve next steps on the go. Steal Raymond’s workflow. Try these prompts with your dot and make them your own: \"I’m stepping away until [time + time zone]. Watch…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T18:21:11Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i2.ytimg.com/vi/A4UNP-axGHU/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "A4UNP-axGHU",
-       "url": "https://www.youtube.com/watch?v=A4UNP-axGHU"
-      },
-      "eventId": "ec8743068e332d96",
-      "related": [],
-      "score": {
-       "total": 68.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 72.2,
-        "topic": 100.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "چگونه می توانید کار خود را در حالی که شما دور",
-        "excerpt": "حتی زمانی که برای تعطیلات قدم می گذارید، کار همیشه متوقف نمی شود. شما نمی توانید کمک کنید. ریموند از طریق چگونگی نگه داشتن یک چشم در پروژه های مداوم، پرچم آنچه که نیاز به توجه خود را، و کمک به حرکت به جلو به طوری که او می تواند بررسی و تایید گام های بعدی در ادامه. جریان کاری ریموند سعی کنید این موارد را با خود امتحان کنید و آنها را به خود اختصاص دهید: \"من تا زمان + منطقه زمانی از بین می روم.\" تماشا کنید ...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "37b5c9ba93266751",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Where scientists draw the line on AI agents",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-25T18:52:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
-      },
-      "eventId": "37b5c9ba93266751",
-      "related": [],
-      "score": {
-       "total": 65.6,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.4,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e2ee4ad335699ba8",
-      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-11-25T17:10:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "human-computer interaction and visualiza",
-       "machine intelligence",
-       "natural language processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "e2ee4ad335699ba8",
-      "related": [],
-      "score": {
-       "total": 63.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 67.4,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "e1845ee0b548d25f",
-      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune,",
-      "lang": "en",
-      "publishedAt": "2026-11-25T14:12:33Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "business",
-      "tags": [
-       "ai",
-       "amazon",
-       "meta",
-       "news",
-       "online shopping",
-       "tech"
-      ],
-      "entities": [
-       "amazon",
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Muse AI mascot and logo.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "e1845ee0b548d25f",
-      "related": [
-       "3a2027e2694465cf"
-      ],
-      "score": {
-       "total": 62.5,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 56.8,
-        "topic": 55.0,
-        "novelty": 63.6
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "آمازون در حال مذاکره برای پایان دادن به بلوک خرید Muse AI است",
-        "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
      "rank": 6,
-     "sources": 2,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,10 +360,73 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-19T00:00:00Z",
-   "to": "2026-11-26T00:00:00Z",
+   "from": "2026-11-19T12:33:07Z",
+   "to": "2026-11-26T12:33:07Z",
    "halfLifeHours": 72,
    "picks": [
+    {
+     "article": {
+      "id": "49ef9cf5084cd81b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
+      "lang": "en",
+      "publishedAt": "2026-11-23T20:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A robot with the Claude logo on its face.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "49ef9cf5084cd81b",
+      "related": [
+       "92c709b4dedffefa"
+      ],
+      "score": {
+       "total": 71.3,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 53.7,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
+        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "726045a047c880b6",
@@ -408,15 +459,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 71.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 99.9,
+        "recency": 88.5,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -427,7 +478,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 2,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -437,63 +488,54 @@
     },
     {
      "article": {
-      "id": "49ef9cf5084cd81b",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
+      "id": "02a088434703556c",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-23T20:00:00Z",
+      "publishedAt": "2026-11-26T11:37:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "news",
-       "tech"
-      ],
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "research",
+      "tags": [],
       "entities": [
-       "anthropic"
+       "huggingface",
+       "meta"
       ],
-      "brand": "claude",
+      "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A robot with the Claude logo on its face.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
       },
-      "eventId": "49ef9cf5084cd81b",
-      "related": [
-       "92c709b4dedffefa"
-      ],
+      "eventId": "02a088434703556c",
+      "related": [],
       "score": {
-       "total": 72.7,
+       "total": 70.7,
        "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 60.6,
-        "topic": 100.0,
-        "novelty": 90.9
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.1,
+        "topic": 80.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
-        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
-        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
+        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
+        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
-     "rank": 2,
-     "sources": 2,
+     "rank": 3,
+     "sources": 1,
      "reason": [
-      "tier-2",
-      "voices-2",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -530,15 +572,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 72.6,
+       "total": 70.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 83.9,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -549,7 +591,7 @@
        }
       }
      },
-     "rank": 3,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -559,50 +601,50 @@
     },
     {
      "article": {
-      "id": "37b5c9ba93266751",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "id": "d3aa48daa62df585",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "Where scientists draw the line on AI agents",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-25T18:52:55Z",
+      "publishedAt": "2026-11-26T05:05:36Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "research",
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "open-source",
       "tags": [],
       "entities": [
        "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
       },
-      "eventId": "37b5c9ba93266751",
+      "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.2,
-        "topic": 80.0,
-        "novelty": 87.5
+        "recency": 93.1,
+        "topic": 75.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
-        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
+        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
+        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
-     "rank": 4,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -648,15 +690,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 69.3,
+       "total": 67.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 91.0,
+        "recency": 80.6,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -667,7 +709,7 @@
        }
       }
      },
-     "rank": 5,
+     "rank": 6,
      "sources": 2,
      "reason": [
       "tier-2",
@@ -708,79 +750,20 @@
       "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 66.9,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.6,
+        "recency": 83.0,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
         "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
         "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 6,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d988ee3798474df2",
-      "url": "https://www.youtube.com/shorts/5_peDo1mukg",
-      "sourceId": "nvidia-youtube",
-      "sourceName": "NVIDIA (YouTube)",
-      "title": "One name. Two worlds. A shared commitment to safety. 🏔️🚗",
-      "excerpt": "When principal software systems engineer Rez Nemati set out to scale Alpamayo, the famed pyramidal peak in the Peruvian Andes, he realized the mountain shares more than just a name with NVIDIA’s open ecosystem of reasoning vision-language-action AI models, simulation tools, and datasets for autonomous vehicles and robotaxis. Both demand preparation, careful decisions, and layers of protection…",
-      "lang": "en",
-      "publishedAt": "2026-11-25T16:00:36Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "hardware",
-      "tags": [],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i2.ytimg.com/vi/5_peDo1mukg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHuiy8bXnmK5nisYHUd1J5g"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "5_peDo1mukg",
-       "url": "https://www.youtube.com/watch?v=5_peDo1mukg"
-      },
-      "eventId": "d988ee3798474df2",
-      "related": [],
-      "score": {
-       "total": 67.8,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 92.6,
-        "topic": 70.0,
-        "novelty": 88.2
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "یک نام دو جهان تعهد مشترک به امنیت",
-        "excerpt": "هنگامی که مهندس سیستم های نرم افزار اصلی Rez Nemati تصمیم گرفت که Alpamayo را اندازه گیری کند، اوج مشهور هرمال در Andes، او متوجه شد که سهام کوه بیش از یک نام با اکوسیستم باز NVIDIA از مدل های هوش مصنوعی منطقی زبان، ابزارهای شبیه سازی و مجموعه داده ها برای وسایل نقلیه مستقل و بسته بندی ربات است. هر دو آماده سازی، تصمیم گیری دقیق و لایه های حفاظت...",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-25T19:24:12Z"
        }
@@ -796,65 +779,59 @@
     },
     {
      "article": {
-      "id": "374eafd5e478c4e8",
-      "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump",
+      "id": "4a218a47efce6d99",
+      "url": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
-      "excerpt": "The Nvidia CEO’s faces mounting scrutiny, while Silicon Valley’s biggest names attempt to repair relationships with Democrats after years of backing the president This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here Hello, and welcome to TechScape. I’m your host, Blake Montgomery, writing to you while dreaming of the pear…",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026",
+      "excerpt": "Exclusive: Investigation finds at least 25 cases affected by AI-generated witness statements, fictitious case law and nonexistent statutes Undisclosed AI use has affected more than two dozen court cases this year, prompting judges to complain about AI-generated witness statements, fictitious case law and nonexistent statutes, an investigation has revealed. Proceedings where judges have been…",
       "lang": "en",
-      "publishedAt": "2026-11-24T13:33:44Z",
+      "publishedAt": "2026-11-26T12:19:37Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
-      "day": "2026-11-24",
-      "category": "business",
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "policy",
       "tags": [
-       "nvidia",
-       "jensen huang",
-       "elon musk",
-       "trump administration",
-       "donald trump",
-       "technology"
+       "ai (artificial intelligence)",
+       "law",
+       "technology",
+       "uk criminal justice",
+       "judiciary"
       ],
-      "entities": [
-       "nvidia"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/ddea062f231e51eabed66481d5ba36e81630f60a/0_0_3000_2399/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=0a2e9da9a71cc3235aa37772435ab9ff",
-       "credit": "Illustration: Guardian Design",
+       "url": "https://i.guim.co.uk/img/media/18a0e7b9f66bc93973a6114fb4fac2215545e754/415_0_4167_3335/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=d3aecd1e7c4beeb196cd2ba96b59da9d",
+       "credit": "Photograph: Henry Nicholls/AFP/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "374eafd5e478c4e8",
-      "related": [
-       "f8cdc496b0bc8f98"
-      ],
+      "eventId": "4a218a47efce6d99",
+      "related": [],
       "score": {
-       "total": 66.4,
+       "total": 65.9,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 71.8,
-        "topic": 55.0,
-        "novelty": 72.7
+        "corroboration": 0.0,
+        "recency": 99.8,
+        "topic": 85.0,
+        "novelty": 92.3
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
-        "title": "Jensen Huang بازگشت به Nvidia به عنوان سیلیکون دره تجدید نظر اتحاد خود را با Trump",
-        "excerpt": "بررسی چهره های مدیرعامل Nvidia، در حالی که بزرگترین نام های سیلیکون دره تلاش برای تعمیر روابط با دموکرات ها پس از سال ها حمایت از رئیس جمهور این است که در ابتدا در TechScape منتشر شد، یک خبرنامه در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا Hello دریافت کنید و به TechScape خوش آمدید. من میزبان شما هستم، بلیک مونتگومری، نوشتن به شما در هنگام خواب دیدن گلابی...",
+        "title": "ده ها پرونده دادگاه در انگلستان و ولز تحت تاثیر استفاده از هوش مصنوعی در سال 2026",
+        "excerpt": "منحصر به فرد: تحقیقات نشان می دهد که حداقل 25 مورد تحت تاثیر اظهارات شهودی AI، قانون پرونده ساختگی و قوانین غیر قابل موجود استفاده از AI در سال جاری بیش از دو ده مورد دادگاه را تحت تاثیر قرار داده است و قضات را مجبور به شکایت در مورد اظهارات شهود تولید شده AI، قانون پرونده ساختگی و قوانین غیر موجود، تحقیقات نشان داده است. داورانی که در آن قاضی بوده اند...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T13:54:38Z"
+        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
      "rank": 8,
-     "sources": 2,
+     "sources": 1,
      "reason": [
       "tier-2",
-      "voices-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -862,73 +839,10 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-27T00:00:00Z",
-   "to": "2026-11-26T00:00:00Z",
+   "from": "2026-10-27T12:33:07Z",
+   "to": "2026-11-26T12:33:07Z",
    "halfLifeHours": 240,
    "picks": [
-    {
-     "article": {
-      "id": "49ef9cf5084cd81b",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Claude AI can review pull requests and ship fixes on its own now",
-      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
-      "lang": "en",
-      "publishedAt": "2026-11-23T20:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-23T20:37:19Z",
-      "day": "2026-11-23",
-      "category": "models",
-      "tags": [
-       "ai",
-       "anthropic",
-       "news",
-       "tech"
-      ],
-      "entities": [
-       "anthropic"
-      ],
-      "brand": "claude",
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "A robot with the Claude logo on its face.",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "49ef9cf5084cd81b",
-      "related": [
-       "92c709b4dedffefa"
-      ],
-      "score": {
-       "total": 77.8,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 86.1,
-        "topic": 100.0,
-        "novelty": 90.9
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
-        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-23T20:37:19Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "2e186972ef6cdfd3",
@@ -964,15 +878,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.8,
+       "total": 77.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 32.6,
+        "recency": 31.5,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -983,11 +897,74 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 1,
      "sources": 4,
      "reason": [
       "tier-1",
       "voices-4",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "49ef9cf5084cd81b",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "excerpt": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was",
+      "lang": "en",
+      "publishedAt": "2026-11-23T20:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
+      "category": "models",
+      "tags": [
+       "ai",
+       "anthropic",
+       "news",
+       "tech"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKB364_CLAUDE_2_C_96d15c-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "A robot with the Claude logo on its face.",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+      },
+      "eventId": "49ef9cf5084cd81b",
+      "related": [
+       "92c709b4dedffefa"
+      ],
+      "score": {
+       "total": 77.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 50.0,
+        "recency": 83.0,
+        "topic": 100.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کلود AI می تواند درخواست ها و اصلاحات کشتی را به تنهایی بررسی کند",
+        "excerpt": "Anthropic راه اندازی برخی از ویژگی های جدید کلود AI برای کمک به مهندسان نرم افزار کشتی کد. به عنوان بخشی از یک محصول جدید کشتی کلود که امروز معرفی می شود، کلود اکنون می تواند درخواست های کششی را بررسی، اصلاح و تایید کند. مهندسان در حال حاضر قادر به استفاده از قابلیت های بررسی کد کلود به لطف ویژگی بررسی کد، که بود.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-23T20:37:19Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 2,
+     "reason": [
+      "tier-2",
+      "voices-2",
+      "first-report",
       "top-factor-reliability"
      ]
     },
@@ -1023,15 +1000,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 74.9,
+       "total": 74.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 53.0,
+        "recency": 51.1,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -1089,15 +1066,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 73.5,
+       "total": 72.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 84.6,
+        "recency": 81.6,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -1149,15 +1126,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 73.4,
+       "total": 72.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.4,
+        "recency": 94.9,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -1208,15 +1185,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 73.3,
+       "total": 72.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 100.0,
+        "recency": 96.4,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -1237,50 +1214,104 @@
     },
     {
      "article": {
-      "id": "37b5c9ba93266751",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "id": "02a088434703556c",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "Where scientists draw the line on AI agents",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-25T18:52:55Z",
+      "publishedAt": "2026-11-26T11:37:17Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
       "category": "research",
+      "tags": [],
+      "entities": [
+       "huggingface",
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      "eventId": "02a088434703556c",
+      "related": [],
+      "score": {
+       "total": 70.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 99.7,
+        "topic": 80.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-26T12:33:07Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T12:49:12Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "d3aa48daa62df585",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-26T05:05:36Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T12:49:12Z",
+      "day": "2026-11-26",
+      "category": "open-source",
       "tags": [],
       "entities": [
        "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
       },
-      "eventId": "37b5c9ba93266751",
+      "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.5,
-        "topic": 80.0,
-        "novelty": 87.5
+        "recency": 97.9,
+        "topic": 75.0,
+        "novelty": 91.7
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
-        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
+        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
+        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1326,15 +1357,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 70.5,
+       "total": 69.9,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 97.2,
+        "recency": 93.8,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
@@ -1342,71 +1373,6 @@
         "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 2,
-     "reason": [
-      "tier-2",
-      "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "374eafd5e478c4e8",
-      "url": "https://www.theguardian.com/global/2026/nov/24/jensen-huang-nvidia-return-silicon-valley-trump",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Jensen Huang returns to Nvidia as Silicon Valley rethinks its alliance with Trump",
-      "excerpt": "The Nvidia CEO’s faces mounting scrutiny, while Silicon Valley’s biggest names attempt to repair relationships with Democrats after years of backing the president This was originally published in TechScape, a newsletter about how technology shapes our lives. Sign up to receive it here Hello, and welcome to TechScape. I’m your host, Blake Montgomery, writing to you while dreaming of the pear…",
-      "lang": "en",
-      "publishedAt": "2026-11-24T13:33:44Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-24T13:54:38Z",
-      "day": "2026-11-24",
-      "category": "business",
-      "tags": [
-       "nvidia",
-       "jensen huang",
-       "elon musk",
-       "trump administration",
-       "donald trump",
-       "technology"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/ddea062f231e51eabed66481d5ba36e81630f60a/0_0_3000_2399/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=0a2e9da9a71cc3235aa37772435ab9ff",
-       "credit": "Illustration: Guardian Design",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "374eafd5e478c4e8",
-      "related": [
-       "f8cdc496b0bc8f98"
-      ],
-      "score": {
-       "total": 70.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 90.5,
-        "topic": 55.0,
-        "novelty": 72.7
-       },
-       "asOf": "2026-11-26T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Jensen Huang بازگشت به Nvidia به عنوان سیلیکون دره تجدید نظر اتحاد خود را با Trump",
-        "excerpt": "بررسی چهره های مدیرعامل Nvidia، در حالی که بزرگترین نام های سیلیکون دره تلاش برای تعمیر روابط با دموکرات ها پس از سال ها حمایت از رئیس جمهور این است که در ابتدا در TechScape منتشر شد، یک خبرنامه در مورد چگونگی شکل گیری تکنولوژی زندگی ما. ثبت نام کنید تا آن را در اینجا Hello دریافت کنید و به TechScape خوش آمدید. من میزبان شما هستم، بلیک مونتگومری، نوشتن به شما در هنگام خواب دیدن گلابی...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-24T13:54:38Z"
        }
       }
      },
@@ -1421,50 +1387,44 @@
     },
     {
      "article": {
-      "id": "e2ee4ad335699ba8",
-      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "excerpt": "Generative AI",
+      "id": "37b5c9ba93266751",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Where scientists draw the line on AI agents",
+      "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-25T17:10:27Z",
+      "publishedAt": "2026-11-25T18:52:55Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-25T19:24:12Z",
       "day": "2026-11-25",
       "category": "research",
-      "tags": [
-       "generative ai",
-       "human-computer interaction and visualiza",
-       "machine intelligence",
-       "natural language processing"
-      ],
+      "tags": [],
       "entities": [
-       "google"
+       "huggingface"
       ],
       "brand": null,
       "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
       },
-      "eventId": "e2ee4ad335699ba8",
+      "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 69.9,
+       "total": 69.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 98.0,
+        "recency": 95.0,
         "topic": 80.0,
-        "novelty": 83.3
+        "novelty": 87.5
        },
-       "asOf": "2026-11-26T00:00:00Z"
+       "asOf": "2026-11-26T12:33:07Z"
       },
       "tr": {
        "fa": {
-        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
-        "excerpt": "هوش مصنوعی",
+        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-25T19:24:12Z"
        }
