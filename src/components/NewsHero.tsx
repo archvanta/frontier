@@ -9,7 +9,6 @@ import { iconArt } from '../lib/iconArt';
 import { href } from '../lib/router';
 import type { Article } from '../lib/types';
 import { Icon } from './Icon';
-import { StoryCard } from './StoryCard';
 import { resolveImageUrl } from './StoryImage';
 
 /** Time each story stays on screen. */
@@ -172,17 +171,24 @@ export function fitSlides(stage: HTMLElement, viewportH: number, top: number): v
   // The stage pads its two frames; the slider frame is that much shorter than the stage.
   const cs = getComputedStyle(stage);
   const pad = (parseFloat(cs.paddingBlockStart) || 0) + (parseFloat(cs.paddingBlockEnd) || 0);
-  const room = Math.max(MIN_STAGE_PX, viewportH - top) - pad;
+  // The slider frame's own border (the framed card on the homepage) takes a little more.
+  const main = stage.querySelector<HTMLElement>('.nh-main');
+  const ms = main ? getComputedStyle(main) : null;
+  const border = ms ? (parseFloat(ms.borderTopWidth) || 0) + (parseFloat(ms.borderBottomWidth) || 0) : 0;
+  const room = Math.max(MIN_STAGE_PX, viewportH - top) - pad - border;
   stage.querySelectorAll<HTMLElement>('.nh-slide').forEach((slide) => {
     const inner = slide.querySelector<HTMLElement>('.nh-inner');
     if (!inner) return;
     slide.style.removeProperty('--nh-scale');
+    // The slide keeps room above the copy and a band below it for the dots and arrows: the copy gets what is left.
+    const ss = getComputedStyle(slide);
+    const fit = room - (parseFloat(ss.paddingBlockStart) || 0) - (parseFloat(ss.paddingBlockEnd) || 0);
     // The template stretches to fill the slide; measure its natural height instead.
     // No transition while measuring: a transitioning `flex` would keep reporting the stretched size.
     inner.style.transition = 'none';
     inner.style.flex = 'none';
     let scale = 1;
-    while (scale > MIN_COPY_SCALE && inner.offsetHeight > room) {
+    while (scale > MIN_COPY_SCALE && inner.offsetHeight > fit) {
       scale = Math.round((scale - COPY_SCALE_STEP) * 100) / 100;
       slide.style.setProperty('--nh-scale', String(scale));
     }
@@ -223,9 +229,6 @@ export function NewsHero({ stories, standalone = true }: { stories: Article[] | 
   const autoplay = total > 1 && (userPaused === null ? !reduced : !userPaused);
   const running = autoplay && onScreen && tabVisible;
 
-  // The side card shows the story that comes next, so the reader sees what is queued behind the one on screen.
-  const sideIndex = total > 1 ? (current + 1) % total : -1;
-  const side = sideIndex >= 0 ? list[sideIndex]! : null;
 
   const fitCopy = useCallback(() => {
     const el = stage.current;
@@ -351,7 +354,7 @@ export function NewsHero({ stories, standalone = true }: { stories: Article[] | 
       onPointerUp={onPointerUp}
       onPointerCancel={() => (swipe.current = null)}
     >
-      <div ref={stage} className={`nh-stage ${side ? 'has-side' : ''}`}>
+      <div ref={stage} className="nh-stage">
         <div className="nh-main">
           <div className="nh-backdrop" aria-hidden="true" />
           {total > 0 && (
@@ -435,11 +438,6 @@ export function NewsHero({ stories, standalone = true }: { stories: Article[] | 
             </div>
           )}
         </div>
-        {side && (
-          <aside className="nh-side" aria-label={t('hero_up_next')}>
-            <StoryCard key={side.id} article={side} variant="split" rank={sideIndex + 1} tone="crimson" still eagerImage headingLevel={3} />
-          </aside>
-        )}
       </div>
     </section>
   );

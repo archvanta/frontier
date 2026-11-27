@@ -194,7 +194,7 @@ html[data-motion='reduced'] [data-reveal] .story-media img {
 }
 
 .lang-switch.has-indicator {
-  --ind-bg: #2458bd;
+  --ind-bg: var(--accent-strong);
 }
 
 .lang-switch.has-indicator::before {

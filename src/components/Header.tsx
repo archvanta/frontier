@@ -31,18 +31,26 @@ function isTyping(target: EventTarget | null): boolean {
   return !!el && (el.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName));
 }
 
-/** The FRONTIER monogram, shared visually with the browser-tab icon. */
-export function BrandMark({ size = 20 }: { size?: number }) {
+/** The FRONTIER mark: a bare rising-arrow glyph drawn in the accent colour (the browser-tab icon puts the same glyph on a black tile). */
+export function BrandMark({ size = 22 }: { size?: number }) {
   return (
-    <img
+    <svg
       className="icon brand-mark"
-      src={`${import.meta.env.BASE_URL}favicon.svg?v=3`}
+      viewBox="0 0 24 24"
       width={size}
       height={size}
-      alt=""
-      decoding="async"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2.2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
       aria-hidden="true"
-    />
+      focusable="false"
+    >
+      <path d="M4 19h16" />
+      <path d="M6 15l4.5-4.5 3 3L19 8" />
+      <path d="M15 8h4v4" />
+    </svg>
   );
 }
 
@@ -409,7 +417,7 @@ export function Header({ route }: { route: Route }) {
                 {t('nav_saved')}
               </a>
             </li>
-            <li className="nav-item nav-phone-only">
+            <li className="nav-item nav-mobile-only">
               <a className="nav-link" href={REPO_URL} target="_blank" rel="noopener noreferrer">
                 {t('nav_source_short')}
                 <GitHubMark />

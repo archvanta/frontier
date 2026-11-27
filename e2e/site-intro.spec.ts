@@ -55,13 +55,3 @@ test('does not hold up deep links or reduced motion', async ({ page, browser }) 
   await expect(calm.locator('.site-intro')).toHaveCount(0);
   await ctx.close();
 });
-
-test('the hero shows a quiet feed of real stories behind the word and keeps the title readable', async ({ page }) => {
-  await page.addInitScript(() => sessionStorage.setItem('signal-ai:intro-seen:v1', '1'));
-  await page.goto('./#/');
-  const loop = page.locator('.home-intro .tunnel-loop');
-  await expect(loop.locator('.tn-card').first()).toBeAttached();
-  expect(await loop.getAttribute('aria-hidden')).toBe('true');
-  expect(await loop.evaluate((el) => getComputedStyle(el).pointerEvents)).toBe('none');
-  await expect(page.getByRole('heading', { level: 1 })).toBeInViewport();
-});

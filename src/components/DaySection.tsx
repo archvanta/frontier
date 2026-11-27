@@ -3,7 +3,6 @@ import { formatDay, formatNumber } from '../lib/dates';
 import { useI18n } from '../lib/i18n';
 import { useReveal } from '../lib/motion';
 import type { Article, SectionId } from '../lib/types';
-import { EmptyState } from './States';
 import { StoryCard } from './StoryCard';
 
 const MORE_STEP = 24;
@@ -56,7 +55,7 @@ export function DaySection({
         </p>
       </header>
       {!lead ? (
-        <EmptyState title={emptyText ?? t('day_empty')} />
+        <p className="day-empty">{emptyText ?? t('day_empty')}</p>
       ) : (
         <div className="day-body">
           <StoryCard article={lead} variant="lead" timeOnly headingLevel={cardLevel} section={sectionOf?.get(lead.id)} />
