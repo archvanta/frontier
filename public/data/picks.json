@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-26T20:03:54Z",
+ "asOf": "2026-11-27T00:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,65 +10,10 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-25T20:03:54Z",
-   "to": "2026-11-26T20:03:54Z",
+   "from": "2026-11-26T00:00:00Z",
+   "to": "2026-11-27T00:00:00Z",
    "halfLifeHours": 12,
    "picks": [
-    {
-     "article": {
-      "id": "c881f1e7111092b0",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
-      "lang": "en",
-      "publishedAt": "2026-11-26T20:03:54Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "hardware",
-      "tags": [
-       "ai"
-      ],
-      "entities": [
-       "nvidia"
-      ],
-      "brand": null,
-      "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
-      },
-      "eventId": "c881f1e7111092b0",
-      "related": [],
-      "score": {
-       "total": 63.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 100.0,
-        "topic": 70.0,
-        "novelty": 86.7
-       },
-       "asOf": "2026-11-26T20:03:54Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "Nvidia با توقف محموله های تراشه به جنوب شرق آسیا",
-        "excerpt": "Nvidia به شرکای تولیدی گفته است که محموله های سرور را به مالزی، سنگاپور، تایلند و اندونزی متوقف کنند زیرا ایالات متحده فشار خود را برای نگه داشتن تراشه های AI از چین سخت می کند.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
-       }
-      }
-     },
-     "rank": 1,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
     {
      "article": {
       "id": "02a088434703556c",
@@ -97,15 +42,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 63.2,
+       "total": 60.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 61.4,
+        "recency": 48.9,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -115,10 +60,65 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 1,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "c881f1e7111092b0",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "lang": "en",
+      "publishedAt": "2026-11-26T20:03:54Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T22:25:04Z",
+      "day": "2026-11-26",
+      "category": "hardware",
+      "tags": [
+       "ai"
+      ],
+      "entities": [
+       "nvidia"
+      ],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/hardware.svg",
+       "kind": "fallback"
+      },
+      "eventId": "c881f1e7111092b0",
+      "related": [],
+      "score": {
+       "total": 59.1,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 79.7,
+        "topic": 70.0,
+        "novelty": 86.7
+       },
+       "asOf": "2026-11-27T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "Nvidia با توقف محموله های تراشه به جنوب شرق آسیا",
+        "excerpt": "Nvidia به شرکای تولیدی گفته است که محموله های سرور را به مالزی، سنگاپور، تایلند و اندونزی متوقف کنند زیرا ایالات متحده فشار خود را برای نگه داشتن تراشه های AI از چین سخت می کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T22:25:04Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -156,15 +156,15 @@
       "eventId": "c29798d3b13c86f3",
       "related": [],
       "score": {
-       "total": 61.3,
+       "total": 57.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 91.7,
+        "recency": 73.1,
         "topic": 70.0,
         "novelty": 84.6
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -216,15 +216,15 @@
       "eventId": "ce7382d8a686ec9c",
       "related": [],
       "score": {
-       "total": 60.0,
+       "total": 57.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 70.9,
+        "recency": 56.5,
         "topic": 85.0,
         "novelty": 90.5
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -239,65 +239,6 @@
      "sources": 1,
      "reason": [
       "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "726045a047c880b6",
-      "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "You had us at Deployed",
-      "excerpt": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
-      "lang": "en",
-      "publishedAt": "2026-11-25T23:50:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T02:53:49Z",
-      "day": "2026-11-25",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/C6DENY3rgqg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "C6DENY3rgqg",
-       "url": "https://www.youtube.com/watch?v=C6DENY3rgqg"
-      },
-      "eventId": "726045a047c880b6",
-      "related": [],
-      "score": {
-       "total": 59.5,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 31.1,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-26T20:03:54Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ما را در Deployed",
-        "excerpt": "شما ما را در محل استقرار قرار داده اید. ❤️ ما از مشتریان و همه چیزهایی که ما با هم می سازیم سپاسگزار هستیم. با تشکر از شما برای اعتماد به ما و به اشتراک گذاری آنچه شما در طول راه یاد می گیرید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T02:53:49Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -329,15 +270,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 58.8,
+       "total": 57.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 42.1,
+        "recency": 33.6,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -347,10 +288,70 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "27f35f09a947a507",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+      "excerpt": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger. The article GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a…",
+      "lang": "en",
+      "publishedAt": "2026-11-26T17:28:56Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T22:25:04Z",
+      "day": "2026-11-26",
+      "category": "models",
+      "tags": [
+       "ai in practice",
+       "artificial intelligence",
+       "short news",
+       "chatgpt",
+       "openai"
+      ],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "27f35f09a947a507",
+      "related": [],
+      "score": {
+       "total": 54.4,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 68.6,
+        "topic": 100.0,
+        "novelty": 76.5
+       },
+       "asOf": "2026-11-27T00:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "کاربران GPT-6.2 Astra در حال حاضر 40٪ سریعتر از زمانی که OpenAI یک خطای قیمت گذاری را قطع کرد، دچار محدودیت می شوند.",
+        "excerpt": "OpenAI می گوید که یک اشکال صورتحساب به کاربران GPT-6.2 تخفیف های نادرست می دهد. پس از تعمیر، کاربران آسترا و سول به محدودیت های ۴۰ و ۲۵ درصد سریع تر از هفته گذشته دست پیدا کردند. به عنوان یک عذرخواهی، مشترکین یک تنظیم مجدد اضافی دریافت می کنند و کاربران کسب و کار از طریق سال به حالت سریع آزاد می رسند. OpenAI همچنین یک ادغام حالت چت و کار را آزمایش می کند. کاربران GPT-6.2 Astra در حال حاضر 40 درصد سریع تر از زمانی که OpenAI یک ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T22:25:04Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -358,8 +359,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-19T20:03:54Z",
-   "to": "2026-11-26T20:03:54Z",
+   "from": "2026-11-20T00:00:00Z",
+   "to": "2026-11-27T00:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -397,15 +398,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 70.6,
+       "total": 70.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 50.0,
+        "recency": 48.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -457,15 +458,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 69.8,
+       "total": 69.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 82.3,
+        "recency": 79.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -512,15 +513,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.2,
+        "recency": 88.8,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -570,15 +571,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 78.1,
+        "recency": 75.2,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -624,15 +625,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.6,
+        "recency": 83.4,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -652,66 +653,66 @@
     },
     {
      "article": {
-      "id": "e1845ee0b548d25f",
-      "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+      "id": "09afcc847896cde3",
+      "url": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated",
       "sourceId": "verge-ai",
       "sourceName": "The Verge — AI",
-      "title": "Amazon is reportedly in talks to end Muse AI shopping block",
-      "excerpt": "Amazon has held talks about letting Meta's Muse AI agent shop on its online marketplace, according to a report from Fortune. The discussions, which could end Amazon's block on Muse, reportedly center on the kinds of products the AI agent recommends and the potential impact on the ecommerce giant's advertising revenue. As reported by Fortune,",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
+      "excerpt": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr. Huang following a series of discussions and meetings with Mr. Huang, after which the Board was satisfied with respect to Mr. Huang's candor and ability to lead NVIDIA.\" In its statement, the board",
       "lang": "en",
-      "publishedAt": "2026-11-25T14:12:33Z",
+      "publishedAt": "2026-11-23T14:04:24Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
+      "fetchedAt": "2026-11-23T20:37:19Z",
+      "day": "2026-11-23",
       "category": "business",
       "tags": [
        "ai",
-       "amazon",
-       "meta",
        "news",
-       "online shopping",
+       "nvidia",
+       "policy",
        "tech"
       ],
       "entities": [
-       "amazon",
-       "meta"
+       "nvidia"
       ],
       "brand": null,
       "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "The Muse AI mascot and logo.",
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_05.jpg?quality=90&strip=all&crop=0,0,100,100",
        "kind": "feed",
        "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "e1845ee0b548d25f",
+      "eventId": "ecab1061c917e910",
       "related": [
-       "3a2027e2694465cf"
+       "47b1648bdb930a3d",
+       "4fb306f1bad28bc9",
+       "7e93ff39fd333740",
+       "ecab1061c917e910"
       ],
       "score": {
-       "total": 66.1,
+       "total": 65.6,
        "parts": {
         "reliability": 80.0,
-        "corroboration": 50.0,
-        "recency": 75.0,
+        "corroboration": 75.0,
+        "recency": 45.4,
         "topic": 55.0,
-        "novelty": 63.6
+        "novelty": 55.6
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "آمازون در حال مذاکره برای پایان دادن به بلوک خرید Muse AI است",
-        "excerpt": "آمازون در مورد اجازه دادن به فروشگاه عامل متا در بازار آنلاین خود، با توجه به یک گزارش از Fortune، مذاکره کرده است. این بحث ها که می تواند بلوک آمازون را بر روی Muse به پایان برساند، گزارش شده است که مرکز انواع محصولاتی است که عامل AI توصیه می کند و تاثیر بالقوه بر درآمد تبلیغات غول تجارت الکترونیک. گزارش شده توسط Fortune",
+        "title": "Jensen Huang به عنوان مدیر عامل Nvidia بازگشت",
+        "excerpt": "Nvidia Jensen Huang را به عنوان مدیرعامل خود معرفی کرده است. این شرکت روز دوشنبه صبح اعلام کرد که این هیئت مدیره \"به طور قاطع برای بازگرداندن آقای به توافق رسیده است. هوانگ پس از یک سری بحث ها و جلسات با آقای هوانگ، پس از آن هیئت مدیره از احترام به آقای راضی بود. توانایی و توانایی هوا برای رهبری NVIDIA",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
+        "at": "2026-11-23T20:37:19Z"
        }
       }
      },
      "rank": 6,
-     "sources": 2,
+     "sources": 3,
      "reason": [
       "tier-2",
-      "voices-2",
+      "voices-3",
       "first-report",
       "top-factor-reliability"
      ]
@@ -748,15 +749,15 @@
       "eventId": "e2ee4ad335699ba8",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 65.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 77.2,
+        "recency": 74.3,
         "topic": 80.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -808,15 +809,15 @@
       "eventId": "ce7382d8a686ec9c",
       "related": [],
       "score": {
-       "total": 64.7,
+       "total": 64.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 94.4,
+        "recency": 90.9,
         "topic": 85.0,
         "novelty": 90.5
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -838,8 +839,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-27T20:03:54Z",
-   "to": "2026-11-26T20:03:54Z",
+   "from": "2026-10-28T00:00:00Z",
+   "to": "2026-11-27T00:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -877,15 +878,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.4,
+       "total": 77.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 30.8,
+        "recency": 30.4,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -939,15 +940,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 76.8,
+       "total": 76.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 81.2,
+        "recency": 80.3,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -999,15 +1000,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 74.3,
+       "total": 74.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 50.0,
+        "recency": 49.4,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1065,15 +1066,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 72.5,
+       "total": 72.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 79.8,
+        "recency": 78.9,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1125,15 +1126,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.3,
+        "recency": 93.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1184,15 +1185,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 72.2,
+       "total": 72.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 92.8,
+        "recency": 91.8,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1239,15 +1240,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 97.6,
+        "recency": 96.5,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1292,15 +1293,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 69.6,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 95.8,
+        "recency": 94.7,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1356,15 +1357,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 69.5,
+       "total": 69.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 91.7,
+        "recency": 90.7,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1411,15 +1412,15 @@
       "eventId": "37b5c9ba93266751",
       "related": [],
       "score": {
-       "total": 69.3,
+       "total": 69.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 93.0,
+        "recency": 91.9,
         "topic": 80.0,
         "novelty": 87.5
        },
-       "asOf": "2026-11-26T20:03:54Z"
+       "asOf": "2026-11-27T00:00:00Z"
       },
       "tr": {
        "fa": {
