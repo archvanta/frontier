@@ -49,8 +49,12 @@ def test_collector_schedule_dispatch_and_minimal_write_scope():
 
 def test_deploy_uses_official_pages_actions_with_scoped_permissions():
     wf = load("deploy.yml")
-    assert {"push", "workflow_dispatch", "workflow_call"} <= set(wf["on"])
-    assert wf["on"]["push"]["branches"] == ["main"]
+    assert {"workflow_run", "workflow_dispatch", "workflow_call"} <= set(wf["on"])
+    # Code reaches Pages only after CI passed on main: no direct push trigger.
+    assert "push" not in wf["on"]
+    assert wf["on"]["workflow_run"]["workflows"] == ["CI"]
+    assert wf["on"]["workflow_run"]["branches"] == ["main"]
+    assert "workflow_run.conclusion == 'success'" in wf["jobs"]["build"]["if"]
     assert wf["jobs"]["build"]["permissions"] == {"contents": "read"}
     assert wf["jobs"]["deploy"]["permissions"] == {"pages": "write", "id-token": "write"}
     assert wf["jobs"]["deploy"]["environment"]["name"] == "github-pages"
