@@ -1,8 +1,6 @@
 /* Shared editorial rhythm for news, discovery and reading. */
-.nh-stage.has-side { grid-template-columns: minmax(0,1fr); max-inline-size: 82rem; margin-inline:auto; }
-.nh-side { display:none; }
 .nh-title { text-wrap: balance; }
-html[lang='fa'] .nh-title { font-size: clamp(1.8rem,3.4vw,3.25rem); line-height:1.6; }
+html[lang='fa'] .nh-title { font-size: calc(clamp(1.6rem, 0.9rem + 2.4vw, 3.1rem) * var(--nh-scale, 1)); line-height: 1.5; }
 .story-title, .result-title { text-wrap: pretty; }
 .picks-grid { align-items: start; }
 .picks-grid .story-card.is-feature { min-block-size:0; }

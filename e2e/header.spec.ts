@@ -125,13 +125,23 @@ test.describe('theme', () => {
     await expect(page.getByTestId('hero-slide').first()).toBeAttached();
     // The hero stays a dark stage in the light theme: its title is white.
     expect(await page.locator('.nh-slide.is-active .nh-title').evaluate((el) => getComputedStyle(el).color)).toBe('rgb(255, 255, 255)');
-    // Gradient cards keep white type.
-    expect(
-      await page
-        .locator('.story-card.is-feature .story-title a')
-        .first()
-        .evaluate((el) => getComputedStyle(el).color),
-    ).toBe('rgb(255, 255, 255)');
+    // Cards turn to paper in the light theme: their type is dark ink with strong contrast against the card.
+    const ink = await page
+      .locator('.story-card.is-feature .story-title a')
+      .first()
+      .evaluate((el) => getComputedStyle(el).color);
+    const lum = (c: string) => {
+      const [r, g, b] = c
+        .match(/\d+(\.\d+)?/g)!
+        .slice(0, 3)
+        .map((v) => {
+          const x = Number(v) / 255;
+          return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4;
+        });
+      return 0.2126 * r! + 0.7152 * g! + 0.0722 * b!;
+    };
+    // The light card is a white-to-#f6f6f4 paper gradient; check against its darker end.
+    expect((lum('rgb(246,246,244)') + 0.05) / (lum(ink) + 0.05)).toBeGreaterThan(7);
   });
 });
 
@@ -191,29 +201,17 @@ for (const theme of ['dark', 'light'] as const) {
   });
 }
 
-test('the GitHub button opens the source repository in a new tab, in both languages, and moves into the menu on the narrowest phones', async ({ page }) => {
+test('the source code link opens the repository in a new tab from the footer and the phone menu, in both languages', async ({ page }) => {
   const repo = 'https://github.com/sadeghimohammadamin83-ship-it/frontier';
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  const button = page.getByRole('link', { name: 'View source on GitHub' });
-  await expect(button).toBeVisible();
-  await expect(button).toHaveAttribute('href', repo);
-  await expect(button).toHaveAttribute('target', '_blank');
-  await expect(button).toHaveAttribute('rel', 'noopener noreferrer');
-  // It sits beside Sign in, at the same height as the other header controls.
-  const gh = (await button.boundingBox())!;
-  const signIn = (await page.locator('.user-signin').boundingBox())!;
-  expect(signIn.x - (gh.x + gh.width)).toBeLessThanOrEqual(12);
-  expect(gh.height).toBe(signIn.height);
+  const footer = page.locator('.site-footer').getByRole('link', { name: 'GitHub' });
+  await expect(footer).toHaveAttribute('href', repo);
+  await expect(footer).toHaveAttribute('target', '_blank');
+  await expect(footer).toHaveAttribute('rel', 'noopener noreferrer');
 
   await page.getByRole('button', { name: 'فارسی (Persian)' }).click();
-  await expect(page.getByRole('link', { name: 'مشاهده کد منبع در گیت‌هاب' })).toHaveAttribute('href', repo);
-
   await page.setViewportSize({ width: 390, height: 800 });
-  await expect(page.getByRole('link', { name: 'مشاهده کد منبع در گیت‌هاب' })).toBeVisible();
-
-  await page.setViewportSize({ width: 360, height: 800 });
-  await expect(page.locator('.header-github')).toBeHidden();
   await page.getByRole('button', { name: 'منو' }).click();
   const item = page.locator('#primary-nav').getByRole('link', { name: 'کد منبع سایت' });
   await expect(item).toBeVisible();

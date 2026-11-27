@@ -27,8 +27,8 @@
 }
 
 .wordmark-glyph .icon {
-  inline-size: 1.6rem;
-  block-size: 1.6rem;
+  inline-size: 1.875rem;
+  block-size: 1.875rem;
   filter: none;
 }
 
@@ -145,6 +145,17 @@
   }
   .header-search {
     flex: none;
+  }
+}
+
+/* Phones: the open search spans the whole header bar (the bar is the positioned box here, not the actions group). */
+@media (max-width: 480px) {
+  .header-actions {
+    position: static;
+  }
+  .header-actions .header-search:focus-within {
+    inset-inline: var(--gutter);
+    inline-size: auto;
   }
 }
 
@@ -640,13 +651,9 @@ html[dir='rtl'] .nh-bg::after {
 }
 
 /* ---------- Story rows (carousels) ----------
-   A story without a usable photo fills its tile with the excerpt instead of an empty gap. */
+   A story without a usable photo fills its tile with the excerpt (stored excerpts are short, and card text is never cut). */
 .carousel-item .story-card.is-tile.is-text-only .story-excerpt {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6;
-  line-clamp: 6;
-  overflow: hidden;
+  display: block;
   color: var(--text-2);
   font-size: var(--fs-sm);
   line-height: 1.55;

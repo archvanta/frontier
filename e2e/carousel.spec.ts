@@ -57,13 +57,14 @@ test('story rows on a phone swipe without arrows or page overflow', async ({ pag
   expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
 });
 
-test('the Persian intro scene has the same size and spacing as the English one', async ({ page }) => {
+test('the Persian masthead has the same size and spacing as the English one', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   const measure = async () => {
     await page.reload();
-    await expect(page.locator('.hi-title')).toBeVisible();
+    await expect(page.locator('.hm-title')).toBeVisible();
+    await page.evaluate(() => document.fonts.ready);
     return page.evaluate(() =>
-      ['.hi-status', '.hi-kicker', '.hi-title', '.hi-body', '.hi-links', '.hi-meta', '.hi-signals'].map((s) => {
+      ['.hm-card', '.hm-title', '.hm-stats', '.hm-desks'].map((s) => {
         const r = document.querySelector(s)!.getBoundingClientRect();
         return Math.round(r.height);
       }),

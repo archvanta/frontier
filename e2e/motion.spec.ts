@@ -75,7 +75,8 @@ test('language and theme changes cross-fade; the language indicator follows the 
   await recordTransitions(page);
   await page.goto('./#/');
   await expect(page.getByTestId('story-card').first()).toBeVisible();
-  const track = page.locator('.lang-switch');
+  // The header's switch (the menu holds a second one that only shows on small screens).
+  const track = page.getByRole('group', { name: 'Language / زبان' });
   await expect(track).toHaveClass(/has-indicator/);
   // The highlight sits exactly under the active language (the pair swaps sides with the reading direction).
   const under = () =>

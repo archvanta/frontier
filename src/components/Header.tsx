@@ -417,7 +417,7 @@ export function Header({ route }: { route: Route }) {
                 {t('nav_saved')}
               </a>
             </li>
-            <li className="nav-item nav-phone-only">
+            <li className="nav-item nav-mobile-only">
               <a className="nav-link" href={REPO_URL} target="_blank" rel="noopener noreferrer">
                 {t('nav_source_short')}
                 <GitHubMark />

@@ -65,7 +65,8 @@ test('gradient cards: photo fills a rounded frame that sits inside the card with
         variant: Array.from(c.classList).find((k) => k.startsWith('is-') && k !== 'is-text-only'),
         origin: getComputedStyle(c).backgroundOrigin,
         gapBelow: mr ? cr.bottom - mr.bottom : null,
-        fit: img ? getComputedStyle(img).objectFit : 'cover',
+        // A category fallback is an icon placed whole inside the frame; story photos fill it.
+        fit: img && !media!.classList.contains('is-fallback') ? getComputedStyle(img).objectFit : 'cover',
         frameInside: mr ? mr.left >= cr.left - 0.5 && mr.right <= cr.right + 0.5 : true,
         inside: cr.left >= -0.5 && cr.right <= document.documentElement.clientWidth + 0.5,
       };
@@ -73,7 +74,8 @@ test('gradient cards: photo fills a rounded frame that sits inside the card with
   );
   expect(cards.length).toBeGreaterThan(4);
   for (const c of cards) {
-    expect(c.origin, c.variant).toBe('border-box');
+    // Every background layer (a feature card adds a shade over its tone) spans the border box.
+    expect(c.origin.split(',').every((o) => o.trim() === 'border-box'), `${c.variant}: ${c.origin}`).toBe(true);
     expect(c.inside, c.variant).toBe(true);
     expect(c.fit, c.variant).toBe('cover');
     expect(c.frameInside, c.variant).toBe(true);
@@ -90,7 +92,7 @@ const SCREENS: [number, number][] = [
 
 for (const locale of ['en', 'fa'] as const) {
   for (const [w, h] of SCREENS) {
-    test(`hero fills the first screen and every headline fits under the header — ${locale} @${w}x${h}`, async ({ page }) => {
+    test(`hero fits the screen and every headline fits under the header — ${locale} @${w}x${h}`, async ({ page }) => {
       await page.emulateMedia({ reducedMotion: 'reduce' });
       await open(page, locale, w, h);
       await revealHero(page);
@@ -124,7 +126,6 @@ for (const locale of ['en', 'fa'] as const) {
             controlsTop: box('.nh-controls').top,
             controlsBottom: box('.nh-controls').bottom,
             stageBottom: box('.nh-stage').bottom,
-            picks: box('#top-signals').top,
             clamp: getComputedStyle(title).webkitLineClamp,
             frameBottom: slide.querySelector('.nh-frame')!.getBoundingClientRect().bottom,
             mainBottom: box('.nh-main').bottom,
@@ -135,8 +136,8 @@ for (const locale of ['en', 'fa'] as const) {
         expect(m.actions, `slide ${k}: buttons run into the controls`).toBeLessThanOrEqual(m.controlsTop + 1);
         expect(m.controlsBottom, `slide ${k}: controls below the fold`).toBeLessThanOrEqual(m.vh);
         if (w >= 900) {
-          expect(m.stageBottom, `slide ${k}: hero shorter than the screen`).toBeGreaterThanOrEqual(m.vh - 1);
-          expect(m.picks, `slide ${k}: Top Signals peeks into the first screen`).toBeGreaterThanOrEqual(m.vh - 1);
+          // Below the masthead the hero is a large card, not a second full screen: brought under the header it fits whole.
+          expect(m.stageBottom, `slide ${k}: hero taller than the screen`).toBeLessThanOrEqual(m.vh + 1);
         } else {
           // Stacked (phones, tablets): the copy follows the photo frame directly and the slider is only as tall as its content.
           expect(m.cat - m.frameBottom, `slide ${k}: dead space between the photo and the text`).toBeLessThanOrEqual(48);
@@ -144,6 +145,43 @@ for (const locale of ['en', 'fa'] as const) {
         }
         expect(m.clamp === '' || m.clamp === 'none').toBe(true);
       }
+    });
+  }
+}
+
+/**
+ * The masthead is short on purpose: without scrolling, the lead story's headline and its Read button are on the first screen
+ * (the review of 2026-11-27 found the first story below the fold on every screen size).
+ */
+const FIRST_SCREENS: [number, number][] = [
+  [390, 844],
+  [360, 740],
+  [1366, 768],
+  [1440, 900],
+];
+for (const locale of ['en', 'fa'] as const) {
+  for (const [w, h] of FIRST_SCREENS) {
+    test(`the lead story starts in the first screen without scrolling — ${locale} @${w}x${h}`, async ({ page }) => {
+      await page.emulateMedia({ reducedMotion: 'reduce' });
+      await open(page, locale, w, h);
+      await page.evaluate(() => document.fonts.ready);
+      await page.evaluate(() => window.scrollTo(0, 0));
+      const m = await page.evaluate(() => {
+        const slide = document.querySelector('.nh-slide.is-active')!;
+        const range = document.createRange();
+        range.selectNodeContents(slide.querySelector('.nh-title')!);
+        const lines = range.getClientRects();
+        return {
+          vh: window.innerHeight,
+          firstLine: lines[0]!.bottom,
+          title: slide.querySelector('.nh-title')!.getBoundingClientRect().top,
+          h1: document.querySelector('h1')!.getBoundingClientRect().top,
+          scrollY: window.scrollY,
+        };
+      });
+      expect(m.scrollY).toBe(0);
+      expect(m.h1, 'the masthead title is on screen').toBeGreaterThanOrEqual(0);
+      expect(m.firstLine, 'the first line of the lead headline is in the first screen').toBeLessThanOrEqual(m.vh);
     });
   }
 }

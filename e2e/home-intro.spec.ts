@@ -2,14 +2,14 @@ import { expect, test } from '@playwright/test';
 
 const KEY = 'signal-ai:followed-topics:v1';
 
-test('homepage order: intro, hero, signal wall, story rows, topics to follow, Latest News', async ({ page }) => {
+test('homepage order: short masthead, hero, story rows, topics to follow, Latest News', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
   const h1 = page.getByRole('heading', { level: 1 });
   await expect(h1).toHaveText('FRONTIER');
   await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
   await expect(h1).toBeInViewport();
-  const sels = ['.home-intro', '#news-hero', '[data-testid=signal-wall]', '.carousel', '#follow', '#latest'];
+  const sels = ['.home-masthead', '#news-hero', '.carousel', '#follow', '#latest'];
   const boxes = await page.evaluate(
     (ss) =>
       ss.map((s) => {
@@ -22,24 +22,24 @@ test('homepage order: intro, hero, signal wall, story rows, topics to follow, La
     sels,
   );
   expect(boxes.map((b) => b.top)).toEqual(boxes.map((b) => b.top).sort((a, b) => a - b));
-  // The intro fills the first screen.
-  expect(boxes[1]!.top).toBeGreaterThanOrEqual(899);
+  // The masthead is short: the news starts inside the first screen.
+  expect(boxes[1]!.top).toBeLessThan(900 * 0.75);
   // The topic panel sits between the story rows and Latest News with the same spacing above and below.
   const lastRow = await page.evaluate(() => {
     const rows = document.querySelectorAll('.carousel');
     return rows[rows.length - 1]!.getBoundingClientRect().bottom + window.scrollY;
   });
-  const above = boxes[4]!.top - lastRow;
-  const below = boxes[5]!.top - boxes[4]!.bottom;
+  const above = boxes[3]!.top - lastRow;
+  const below = boxes[4]!.top - boxes[3]!.bottom;
   expect(above).toBeGreaterThan(20);
   expect(Math.abs(above - below)).toBeLessThan(2);
 });
 
-test('"scroll" on the intro brings the hero into view', async ({ page }) => {
+test('"Today’s top stories" on the masthead brings the hero into view', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('./#/');
-  await page.locator('.hi-scroll').click();
+  await page.locator('.hm-cta').click();
   await expect(page.locator('.nh-main')).toBeInViewport({ ratio: 0.8 });
 });
 
@@ -59,6 +59,7 @@ test('choosing topics is saved on this device and puts those stories first', asy
     page
       .locator('.day-section [data-testid=story-card]')
       .evaluateAll((els) => els.map((e) => `${e.getAttribute('data-id')}:${e.querySelector('.kicker-cat, .chip')?.textContent}`));
+  await expect(page.locator('.day-section [data-testid=story-card]').first()).toBeAttached();
   const before = await order();
 
   const chip = page.locator('#follow [data-topic=hardware]');
@@ -92,45 +93,38 @@ test('Persian: intro and topics are right-to-left with a Latin wordmark', async 
   await expect(h1).toHaveAttribute('dir', 'ltr');
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   expect(overflow).toBeLessThanOrEqual(0);
-  await expect(page.locator('.home-intro')).toBeVisible();
+  await expect(page.locator('.home-masthead')).toBeVisible();
 });
 
-test('three ways in sit under the intro text: AI Games with a tiny character thumbnail, Data Centers, AI News', async ({ page }) => {
+test('four desks sit under the masthead, each with a small icon, and lead to their pages', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  const links = page.locator('.hi-links .hi-link');
-  await expect(links).toHaveCount(3);
-  await expect(links.nth(0)).toContainText('AI Games');
-  await expect(links.nth(1)).toContainText('Data Centers');
-  await expect(links.nth(2)).toContainText('AI News');
+  const desks = page.locator('.hm-desks .hm-desk');
+  await expect(desks).toHaveCount(4);
+  await expect(desks.nth(0)).toContainText('AI News');
+  await expect(desks.nth(1)).toContainText('AI Games');
+  await expect(desks.nth(2)).toContainText('Data Centers');
+  await expect(desks.nth(3)).toContainText('Videos');
   const m = await page.evaluate(() => {
-    const body = document.querySelector('.hi-body')!.getBoundingClientRect();
-    const nav = document.querySelector('.hi-links')!.getBoundingClientRect();
-    const img = document.querySelector<HTMLImageElement>('.hi-link-art')!;
-    const r = img.getBoundingClientRect();
-    return {
-      below: nav.top >= body.bottom,
-      gap: nav.top - body.bottom,
-      w: r.width,
-      natural: img.naturalWidth,
-      loaded: img.complete,
-    };
+    const card = document.querySelector('.hm-card')!.getBoundingClientRect();
+    const nav = document.querySelector('.hm-desks')!.getBoundingClientRect();
+    const img = document.querySelector<HTMLImageElement>('.hm-desk-art')!;
+    return { below: nav.top >= card.bottom, gap: nav.top - card.bottom, w: img.getBoundingClientRect().width, inView: nav.bottom <= window.innerHeight };
   });
   expect(m.below).toBe(true);
-  expect(m.gap).toBeLessThan(60);
+  expect(m.gap).toBeLessThan(40);
   expect(m.w).toBeLessThanOrEqual(40);
-  expect(m.loaded && m.natural > 0).toBe(true);
-  // The thumbnail is a small file, not the original artwork.
-  const res = await page.request.get(await page.locator('.hi-link-art').evaluate((i: HTMLImageElement) => i.src));
-  expect((await res.body()).length).toBeLessThan(10_000);
-  await links.nth(0).click();
-  await expect(page).toHaveURL(/#\/ai-games$/);
-  await page.goBack();
-  await page.locator('.hi-link[data-entry=data-centers]').click();
-  await expect(page).toHaveURL(/#\/data-centers$/);
-  await page.goBack();
-  await page.locator('.hi-link[data-entry=ai-news]').click();
-  await expect(page).toHaveURL(/#\/ai-news$/);
+  expect(m.inView).toBe(true);
+  for (const [desk, route] of [
+    ['ai-news', 'ai-news'],
+    ['ai-games', 'ai-games'],
+    ['data-centers', 'data-centers'],
+    ['videos', 'videos'],
+  ] as const) {
+    await page.locator(`.hm-desk[data-desk=${desk}]`).click();
+    await expect(page).toHaveURL(new RegExp(`#/${route}$`));
+    await page.goBack();
+  }
 });
 
 test('the Sections menu also lists AI News', async ({ page }) => {
@@ -144,38 +138,26 @@ test('the Sections menu also lists AI News', async ({ page }) => {
   await expect(page).toHaveURL(/#\/ai-news$/);
 });
 
-test('animated intro backdrop: moves in full motion, pauses off-screen, stands still under reduced motion', async ({ page }) => {
+test('masthead film: loads nothing up front, has a poster, and stands still under reduced motion', async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 800 });
-  await page.goto('./#/');
-  const state = () =>
-    page.evaluate(() => {
-      const names = ['.hi-glow-a', '.hi-glow-b', '.hi-glow-c', '.hi-grid', '.hi-beam', '.hi-specks i'].map((s) => {
-        const cs = getComputedStyle(document.querySelector(s)!);
-        return `${cs.animationName}:${cs.animationPlayState}`;
-      });
-      return names;
-    });
-  const html = page.locator('html');
-  const mode = await html.getAttribute('data-motion');
-  if (mode === 'full') {
-    for (const s of await state()) expect(s).toMatch(/^hi-.*:running$/);
-    await page.evaluate(() => window.scrollTo(0, 2400));
-    await expect.poll(async () => (await state())[0]).toMatch(/:paused$/);
-  }
   await page.emulateMedia({ reducedMotion: 'reduce' });
-  await page.reload();
-  await page.evaluate(() => window.scrollTo(0, 0));
-  for (const s of await state()) expect(s.startsWith('none')).toBe(true);
+  await page.goto('./#/');
+  const film = page.locator('.hm-film');
+  await expect(film).toHaveAttribute('preload', 'none');
+  await expect(film).toHaveAttribute('aria-hidden', 'true');
+  expect(await film.getAttribute('poster')).toMatch(/frontier-hero-poster\.webp$/);
+  expect(await film.getAttribute('autoplay')).toBeNull();
+  await page.waitForTimeout(900);
+  expect(await film.evaluate((v: HTMLVideoElement) => v.paused)).toBe(true);
 });
 
-test('AI News page is the news front page: slideshow with the red card, then the feed, no intro', async ({ page }) => {
+test('AI News page is the news front page: slideshow, then the feed, no masthead', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/ai-news');
-  await expect(page.locator('.home-intro')).toHaveCount(0);
+  await expect(page.locator('.home-masthead')).toHaveCount(0);
   await expect(page.locator('#follow')).toHaveCount(0);
   await expect(page.getByRole('heading', { level: 1 })).toHaveCount(1);
   await expect(page.locator('#news-hero .nh-main')).toBeVisible();
-  await expect(page.locator('#news-hero .nh-side')).toBeVisible();
   await expect(page.locator('#latest .day-section').first()).toBeVisible();
   await page.getByRole('button', { name: 'Sections' }).click();
   await expect(page.locator('.site-header').getByRole('link', { name: /AI News/ })).toHaveAttribute('aria-current', 'page');
@@ -199,39 +181,41 @@ test('home feed labels stories of AI Games, Data Centers and Videos and can filt
   await expect(cards).toHaveCount(all);
 });
 
-test('intro shows live status and the top three signals from the stored feed, with real links', async ({ page }) => {
+test('masthead numbers come from the stored feed: last update, stories in 24 hours, active sources', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  const status = page.locator('.hi-status');
-  await expect(status).toHaveClass(/is-ready/);
-  await expect(status).toContainText('sources monitored');
-  await expect(status).toContainText('Last signal');
-  const cards = page.locator('.hi-signal');
-  await expect(cards).toHaveCount(3);
-  await expect(page.locator('.hi-signals-title')).toHaveText('Top signals right now');
-  // Same stories, same order as the Weekly Brief / picks list: the first card is the top-ranked story.
-  const first = cards.first();
-  await expect(first.locator('.hi-signal-score')).toHaveText(/^\d+$/);
-  await expect(first.locator('.hi-signal-meta')).toContainText(' · ');
-  await first.click();
-  await expect(page).toHaveURL(/#\/story\/\d{4}-\d{2}-\d{2}\/[a-f0-9]+$/);
+  const stats = page.locator('.hm-stats .hm-stat');
+  await expect(stats).toHaveCount(3);
+  await expect(stats.nth(0).locator('dt')).toHaveText('Updated');
+  await expect(stats.nth(1).locator('dt')).toHaveText('New in 24h');
+  await expect(stats.nth(2).locator('dt')).toHaveText('Sources');
+  await expect(stats.nth(1).locator('dd')).toHaveText(/^\d[\d,]*$/);
+  await expect(stats.nth(2).locator('dd')).toHaveText(/^\d[\d,]*$/);
+  await expect(stats.nth(0).locator('dd')).not.toHaveText('—');
+  await expect(stats.nth(0)).toHaveAttribute('data-live', /^(true|false)$/);
 });
 
-test('intro chips carry the count of stories from the last 24 hours, and nothing is shown when there are none', async ({ page }) => {
+test('desks carry the count of stories from the last 24 hours, and nothing is shown when there are none', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  await expect(page.locator('.hi-status')).toHaveClass(/is-ready/);
-  const news = page.locator('.hi-link[data-entry=ai-news] .hi-link-count');
+  await expect(page.locator('.hm-stats .hm-stat').nth(1).locator('dd')).toHaveText(/\d/);
+  const news = page.locator('.hm-desk[data-desk=ai-news] .hm-desk-count');
   await expect(news).toHaveText(/^\+\d+/);
-  expect(await page.locator('.hi-link-count').evaluateAll((els) => els.every((e) => !/\+0\b/.test(e.textContent ?? '')))).toBe(true);
+  expect(await page.locator('.hm-desk-count').evaluateAll((els) => els.every((e) => !/\+0\b/.test(e.textContent ?? '')))).toBe(true);
 });
 
-test('Persian intro: status and signals are RTL, on a phone without sideways scroll', async ({ page }) => {
+test('Persian masthead: right-to-left numbers and desks, on a phone without sideways scroll', async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('signal-ai:locale', 'fa'));
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('./#/');
-  await expect(page.locator('.hi-status')).toHaveClass(/is-ready/);
-  await expect(page.locator('.hi-signals-title')).toHaveText('سیگنال‌های برتر همین حالا');
-  await expect(page.locator('.hi-signal')).toHaveCount(3);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)).toBeLessThanOrEqual(0);
+  await expect(page.locator('.hm-stats .hm-stat').nth(1).locator('dt')).toHaveText('تازهٔ ۲۴ ساعت');
+  await expect(page.locator('.hm-stats .hm-stat').nth(1).locator('dd')).toHaveText(/^[۰-۹٬,]+$/);
+  await expect(page.locator('.hm-desk')).toHaveCount(4);
+  const d = await page.evaluate(() => {
+    const desks = Array.from(document.querySelectorAll('.hm-desk'), (e) => e.getBoundingClientRect());
+    return { firstRight: desks[0]!.right, lastRight: desks[3]!.right, sideways: document.documentElement.scrollWidth - document.documentElement.clientWidth };
+  });
+  // The first desk (AI News) sits on the right in RTL.
+  expect(d.firstRight).toBeGreaterThan(d.lastRight);
+  expect(d.sideways).toBeLessThanOrEqual(0);
 });

@@ -19,24 +19,29 @@ for (const locale of ['en', 'fa'] as const) {
   }
 }
 
-test('hero is a full-bleed carousel that fills the first screen under the header bar, Top Signals below the fold', async ({ page }) => {
+test('hero is a framed card in the page column under the masthead, and fits the screen once scrolled to', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto('./#/');
-  const stage = page.locator('.nh-stage');
   await revealHero(page);
-  const header = await page.locator('.site-header').boundingBox();
-  const hero = await stage.boundingBox();
-  const picks = await page.locator('#top-signals').boundingBox();
-  expect(header && hero && picks).toBeTruthy();
-  expect(hero!.x).toBeLessThanOrEqual(0.5);
-  expect(hero!.width).toBeGreaterThanOrEqual(1430);
-  expect(hero!.y).toBeGreaterThanOrEqual(header!.y + header!.height - 1);
-  expect(hero!.y).toBeLessThanOrEqual(header!.y + header!.height + 1);
-  // The first screen is the hero and nothing else: it reaches the bottom of the viewport and Top Signals starts below the fold.
-  expect(hero!.y + hero!.height).toBeGreaterThanOrEqual(899);
-  expect(hero!.y + hero!.height).toBeLessThanOrEqual(901);
-  expect(picks!.y).toBeGreaterThan(hero!.y + hero!.height - 1);
-  expect(picks!.y).toBeGreaterThanOrEqual(900);
+  const m = await page.evaluate(() => {
+    const box = (s: string) => document.querySelector(s)!.getBoundingClientRect();
+    const main = box('.nh-main');
+    const card = box('.hm-card');
+    return {
+      header: box('.site-header').bottom,
+      main: { left: main.left, right: main.right, top: main.top, bottom: main.bottom },
+      card: { left: card.left, right: card.right },
+      picks: box('#top-signals').top,
+      radius: parseFloat(getComputedStyle(document.querySelector('.nh-main')!).borderTopLeftRadius),
+    };
+  });
+  // Same column as the masthead card, with rounded corners: not a second full-bleed screen.
+  expect(Math.abs(m.main.left - m.card.left)).toBeLessThan(2);
+  expect(Math.abs(m.main.right - m.card.right)).toBeLessThan(2);
+  expect(m.radius).toBeGreaterThan(8);
+  expect(m.main.top).toBeGreaterThanOrEqual(m.header - 1);
+  expect(m.main.bottom).toBeLessThanOrEqual(900);
+  expect(m.picks).toBeGreaterThan(m.main.bottom - 1);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('FRONTIER');
 });
 
@@ -142,7 +147,9 @@ for (const locale of ['en', 'fa'] as const) {
           const a = document.querySelector<HTMLElement>('.nh-slide.is-active')!;
           const content = a.querySelector('.nh-content')!.getBoundingClientRect();
           const frame = a.querySelector('.nh-frame')!.getBoundingClientRect();
-          const stage = document.querySelector('.nh-main')!.getBoundingClientRect();
+          // The framed stage has a hairline border; the background fills the inside of it.
+          const main = document.querySelector<HTMLElement>('.nh-main')!;
+          const stage = { width: main.clientWidth, height: main.clientHeight };
           const bg = a.querySelector('.nh-bg')?.getBoundingClientRect();
           return {
             bg: a.dataset.bg ?? null,
@@ -242,14 +249,14 @@ test('hero never stops for the mouse or focus; only the pause button stops it', 
   await page.goto('./#/');
   await revealHero(page);
   await expect(counter(page)).toContainText('01');
-  // Mouse parked on the slide and on the side card, and keyboard focus inside the hero: every story still leaves after 5 seconds.
+  // Mouse parked on the slide, and keyboard focus inside the hero: every story still leaves after 5 seconds.
   await page.mouse.move(700, 300);
   await page.mouse.move(700, 400);
   await page.getByRole('button', { name: 'Next story' }).focus();
   const t0 = Date.now();
   await expect(counter(page)).toContainText('02', { timeout: 8000 });
   expect(Date.now() - t0).toBeLessThan(6500);
-  await page.mouse.move(1350, 400); // over the side card
+  await page.mouse.move(1300, 400); // over the photo frame
   await expect(counter(page)).toContainText('03', { timeout: 8000 });
   await page.getByRole('button', { name: 'Pause slideshow' }).click();
   await expect(page.getByRole('button', { name: 'Start slideshow' })).toHaveAttribute('aria-pressed', 'true');
@@ -285,42 +292,16 @@ test('hero swipes on touch and follows the reading direction in RTL', async ({ p
   await expect(page.locator('.nh-dot[aria-current="true"]')).toHaveAttribute('aria-label', 'خبر 2 از 3');
 });
 
-test('reduced motion: no autoplay, static wall', async ({ browser }) => {
+test('reduced motion: no autoplay until asked', async ({ browser }) => {
   const ctx = await browser.newContext({ reducedMotion: 'reduce', viewport: { width: 1440, height: 900 } });
   const page = await ctx.newPage();
   await page.goto('./#/');
   await expect(page.getByRole('button', { name: 'Start slideshow' })).toBeVisible();
   await page.waitForTimeout(6000);
   await expect(counter(page)).toContainText('01');
-  await expect(page.locator('.wall-static')).toBeVisible();
-  await expect(page.locator('.marquee')).toHaveCount(0);
   await page.getByRole('button', { name: 'Start slideshow' }).click();
   await expect(counter(page)).toContainText('02', { timeout: 8000 });
   await ctx.close();
-});
-
-test('signal wall shows real story cards in tilted drifting columns', async ({ page }) => {
-  await page.setViewportSize({ width: 1440, height: 900 });
-  await page.goto('./#/');
-  const wall = page.getByTestId('signal-wall');
-  await expect(wall.getByRole('heading', { name: 'Signal wall' })).toBeVisible();
-  await wall.scrollIntoViewIfNeeded();
-  await expect(wall.locator('.wall-stage')).toHaveAttribute('aria-hidden', 'true');
-  expect(await wall.locator('.marquee').count()).toBe(4);
-  // Only the first copy of each column carries links, and they are out of the tab order.
-  const tabbable = await wall.locator('a[href]:not([tabindex="-1"])').count();
-  expect(tabbable).toBe(0);
-  const first = await wall.getByTestId('wall-card').first().getAttribute('href');
-  expect(first).toMatch(/#\/story\/\d{4}-\d{2}-\d{2}\//);
-  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-  await expect
-    .poll(() =>
-      wall
-        .locator('.marquee')
-        .first()
-        .evaluate((m) => getComputedStyle(m.querySelector('.marquee-track')!).animationPlayState),
-    )
-    .toBe('paused'); // paused while off-screen
 });
 
 test('keyboard: skip link and picks tabs are operable', async ({ page }) => {
@@ -331,56 +312,6 @@ test('keyboard: skip link and picks tabs are operable', async ({ page }) => {
   await tab.focus();
   await page.keyboard.press('ArrowRight');
   await expect(page.getByRole('tab', { name: 'Weekly' })).toHaveAttribute('aria-selected', 'true');
-});
-
-test('hero side card: about 30% wide beside the slider, shows the next story and changes with it every 5 seconds', async ({ page }) => {
-  await page.setViewportSize({ width: 1440, height: 900 });
-  await page.goto('./#/');
-  await revealHero(page);
-  const side = page.locator('.nh-side .story-card');
-  await expect(side).toHaveCount(1);
-  const box = await page.evaluate(() => {
-    const m = document.querySelector('.nh-main')!.getBoundingClientRect();
-    const s = document.querySelector('.nh-side')!.getBoundingClientRect();
-    return { main: m.width, side: s.width, mainH: m.height, sideH: s.height, gap: s.left - m.right };
-  });
-  expect(box.main / (box.main + box.side)).toBeGreaterThan(0.68);
-  expect(box.main / (box.main + box.side)).toBeLessThan(0.72);
-  expect(Math.abs(box.mainH - box.sideH)).toBeLessThan(2);
-  expect(box.gap).toBeGreaterThan(4);
-  await expect(side).toHaveAttribute('data-tone', 'crimson');
-  // Rank badge = position of the story, one ahead of the slide on screen; the title is a real, different story from the active slide.
-  await expect(counter(page)).toContainText('01');
-  await expect(side.locator('.rank')).toContainText('02');
-  const first = await side.getAttribute('data-id');
-  const activeTitle = await activeSlide(page).locator('.nh-title').innerText();
-  expect(await side.locator('.story-title').innerText()).not.toBe(activeTitle);
-  // In step with the slider: when the slide moves on, the card shows the one after it.
-  await expect(counter(page)).toContainText('02', { timeout: 8000 });
-  await expect(side.locator('.rank')).toContainText('03');
-  expect(await side.getAttribute('data-id')).not.toBe(first);
-  // The slide that was queued is now the one on screen.
-  const nowActive = await activeSlide(page).locator('.nh-title').innerText();
-  expect(nowActive.length).toBeGreaterThan(0);
-  await page.getByRole('button', { name: 'Next story' }).click();
-  await expect(counter(page)).toContainText('03');
-  await expect(side.locator('.rank')).toContainText('01');
-});
-
-test('hero side card stacks right under the slider on a phone', async ({ page }) => {
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto('./#/');
-  await revealHero(page);
-  const m = await page.evaluate(() => {
-    const main = document.querySelector('.nh-main')!.getBoundingClientRect();
-    const side = document.querySelector('.nh-side')!.getBoundingClientRect();
-    return { mainBottom: main.bottom, sideTop: side.top, vh: window.innerHeight, sideW: side.width, mainW: main.width };
-  });
-  expect(m.sideTop).toBeGreaterThanOrEqual(m.mainBottom);
-  expect(m.sideTop - m.mainBottom).toBeLessThan(40);
-  expect(m.sideW).toBeCloseTo(m.mainW, 0);
-  const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
-  expect(overflow).toBeLessThanOrEqual(0);
 });
 
 for (const locale of ['en', 'fa'] as const) {
@@ -413,7 +344,7 @@ for (const locale of ['en', 'fa'] as const) {
     expect(m.shown).toBe(true);
     expect(m.fills).toBe(true);
     // The even dark overlay keeps white text readable over any photo.
-    expect(m.overlay).toMatch(/rgba\(5, 3, 15, 0\.7/);
+    expect(m.overlay).toMatch(/rgba\(4, 4, 6, 0\.7/);
     expect(m.gap).toBeLessThan(40);
     expect(m.below).toBeLessThan(110);
   });

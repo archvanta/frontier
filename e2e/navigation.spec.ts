@@ -56,7 +56,7 @@ test('archive index links to day pages', async ({ page }) => {
 
 test('unknown routes show a not-found state with a way home', async ({ page }) => {
   await page.goto('./#/nope/nothing');
-  await expect(page.getByRole('link', { name: 'Go to Top Signals' })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Go to the homepage' })).toBeVisible();
 });
 
 test('home category chips filter the latest feed in place', async ({ page }) => {
@@ -67,6 +67,8 @@ test('home category chips filter the latest feed in place', async ({ page }) => 
   const chips = page.getByRole('group', { name: 'Filter stories by category' });
   const chip = chips.getByRole('button').nth(1);
   const label = (await chip.textContent())!.trim();
+  await chip.scrollIntoViewIfNeeded();
+  await expect(chip).toBeInViewport();
   await chip.click();
   await expect(chip).toHaveAttribute('aria-pressed', 'true');
   const filtered = await cards.count();
@@ -98,6 +100,7 @@ test('Persian Explore offers ready-made date ranges instead of a Gregorian date 
   await page.addInitScript(() => localStorage.setItem('signal-ai:locale', 'fa'));
   await page.goto('./#/explore');
   await expect(page.locator('input[type=date]')).toHaveCount(0);
+  await page.getByText('فیلترهای بیشتر').click();
   const week = page.getByRole('button', { name: /۷ روز اخیر/ });
   await expect(week).toHaveAttribute('aria-pressed', 'false');
   await week.click();
@@ -120,7 +123,8 @@ test('on a phone the header search rests as an icon and opens over the header', 
   expect((await form.boundingBox())!.width).toBeLessThanOrEqual(44);
   await form.click();
   await expect(page.locator('#site-search')).toBeFocused();
-  expect((await form.boundingBox())!.width).toBeGreaterThan(250);
+  // The field opens over the header, wide enough to type a query.
+  expect((await page.locator('#site-search').boundingBox())!.width).toBeGreaterThan(250);
   await page.locator('#site-search').fill('claude');
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL(/explore\?.*q=claude/);
