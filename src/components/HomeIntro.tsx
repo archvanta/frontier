@@ -132,7 +132,8 @@ export function HomeIntro({ onContinue, data }: { onContinue: () => void; data: 
               <span className="hm-desk-label">{d.label}</span>
               {d.fresh != null && d.fresh > 0 && (
                 <span className="hm-desk-count" title={t('intro_new_24h', { n: formatNumber(d.fresh, locale) })}>
-                  +{formatNumber(d.fresh, locale)}
+                  {/* The plus sign stays in front of the number in Persian too. */}
+                  <span dir="ltr">+{formatNumber(d.fresh, locale)}</span>
                   <span className="visually-hidden"> {t('intro_new_24h', { n: formatNumber(d.fresh, locale) })}</span>
                 </span>
               )}
