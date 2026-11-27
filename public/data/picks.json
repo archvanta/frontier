@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-27T00:00:00Z",
+ "asOf": "2026-11-27T14:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,108 +10,120 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-26T00:00:00Z",
-   "to": "2026-11-27T00:00:00Z",
+   "from": "2026-11-26T14:00:00Z",
+   "to": "2026-11-27T14:00:00Z",
    "halfLifeHours": 12,
    "picks": [
     {
      "article": {
-      "id": "02a088434703556c",
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "excerpt": "",
+      "id": "dcf9162e5162c383",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+      "excerpt": "Sarah Wynn-Williams says tech insiders with concerns about AI are being silenced in system reminiscent of George Orwell’s 1984 The Meta whistleblower who made allegations about the social media company’s treatment of teenagers has urged Andy Burnham to go further in banning non-disclosure agreements, warning that tech insiders with concerns about AI development need to be protected. Sarah…",
       "lang": "en",
-      "publishedAt": "2026-11-26T11:37:17Z",
+      "publishedAt": "2026-11-27T12:30:08Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
-      "day": "2026-11-26",
-      "category": "research",
-      "tags": [],
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "policy",
+      "tags": [
+       "meta",
+       "technology",
+       "ai (artificial intelligence)",
+       "politics",
+       "law",
+       "uk news"
+      ],
       "entities": [
-       "huggingface",
        "meta"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+       "url": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=1b7325600b3b1908c85fc4426891d39f",
+       "credit": "Photograph: Bloomberg/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "02a088434703556c",
+      "eventId": "dcf9162e5162c383",
       "related": [],
       "score": {
-       "total": 60.7,
+       "total": 64.2,
        "parts": {
-        "reliability": 100.0,
+        "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 48.9,
-        "topic": 80.0,
-        "novelty": 88.9
+        "recency": 91.7,
+        "topic": 85.0,
+        "novelty": 90.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
+        "title": "متا سوتیر از برنهام خواست تا با ممنوعیت NDAs ادامه دهد",
+        "excerpt": "سارا Wynn-Williams می گوید که سازندگان تکنولوژی با نگرانی در مورد AI در سیستم یادآور 1984 جورج اورول سکوت می کنند، هشدار می دهد که در مورد درمان شرکت رسانه های اجتماعی نوجوانان از اندی برنزم خواسته شده است تا بیشتر در ممنوعیت توافق نامه های غیر محرمانه ادامه دهد، هشدار می دهد که فن آوری های داخلی با نگرانی در مورد توسعه AI نیاز به محافظت از آن دارند. سارا ...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
+        "at": "2026-11-27T14:26:30Z"
        }
       }
      },
      "rank": 1,
      "sources": 1,
      "reason": [
-      "tier-1",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
     },
     {
      "article": {
-      "id": "c881f1e7111092b0",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia",
-      "sourceId": "techcrunch-ai",
-      "sourceName": "TechCrunch AI",
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "excerpt": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "id": "24644713102c0e39",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge — AI",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "excerpt": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and",
       "lang": "en",
-      "publishedAt": "2026-11-26T20:03:54Z",
+      "publishedAt": "2026-11-27T14:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "hardware",
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "products",
       "tags": [
-       "ai"
+       "ai",
+       "android",
+       "google",
+       "google pixel",
+       "tech"
       ],
-      "entities": [
-       "nvidia"
-      ],
+      "entities": [],
       "brand": null,
       "image": {
-       "url": "images/fallbacks/hardware.svg",
-       "kind": "fallback"
+       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04405_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
+       "alt": "Pixel 11 Pro on a desk showing widgets on home screen",
+       "kind": "feed",
+       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
       },
-      "eventId": "c881f1e7111092b0",
+      "eventId": "24644713102c0e39",
       "related": [],
       "score": {
-       "total": 59.1,
+       "total": 62.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 79.7,
-        "topic": 70.0,
-        "novelty": 86.7
+        "recency": 100.0,
+        "topic": 65.0,
+        "novelty": 90.0
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "Nvidia با توقف محموله های تراشه به جنوب شرق آسیا",
-        "excerpt": "Nvidia به شرکای تولیدی گفته است که محموله های سرور را به مالزی، سنگاپور، تایلند و اندونزی متوقف کنند زیرا ایالات متحده فشار خود را برای نگه داشتن تراشه های AI از چین سخت می کند.",
+        "title": "ویجت های DIY اندروید کمی سرگرم کننده هستند",
+        "excerpt": "گذشته از معامله با تقویم من، یک چیز وجود دارد که من می خواهم AI انجام دهد: به من بگویید که آیا قصد دارم اتوبوس را از دست بدهم. چیزی که من نیاز دارم یک ویجت است. باید به من بگوید که زمان واقعی برای توقف اتوبوس در نزدیکی خانه ام. در اطراف صفحه تلفن من برای باز کردن برنامه درست و",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
+        "at": "2026-11-27T14:26:30Z"
        }
       }
      },
@@ -125,53 +137,53 @@
     },
     {
      "article": {
-      "id": "c29798d3b13c86f3",
-      "url": "https://www.theguardian.com/news/video/2026/nov/26/can-elon-musk-really-put-ai-datacentres-in-space-the-latest",
+      "id": "21800f865bba1aea",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
       "sourceId": "guardian-ai",
       "sourceName": "The Guardian — Artificial intelligence",
-      "title": "Can Elon Musk really put AI datacentres in space? - The Latest",
-      "excerpt": "The Trump administration has approved Elon Musk’s plan to create datacentres in space. US federal regulators have authorised the launch of one million Starmind orbital satellites, which are built by Musk’s SpaceX, to process data in space. Supporters argue the project will be more energy-efficient and reduce the environmental impact of datacentres on Earth as the AI industry grows. But how…",
+      "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+      "excerpt": "Labor leaders and advocates urge protections for workers and consumers as AI use becomes more commonplace As millions of Americans begin holiday shopping this Black Friday, consumers and workers alike are already seeing how artificial intelligence is reshaping the retail landscape. Anna, a cashier in a southern Oregon Walmart and leader with United for Respect, who requested to remain anonymous…",
       "lang": "en",
-      "publishedAt": "2026-11-26T18:34:17Z",
+      "publishedAt": "2026-11-27T10:00:02Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "hardware",
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "safety",
       "tags": [
-       "elon musk",
-       "donald trump",
        "us news",
-       "world news",
+       "ai (artificial intelligence)",
        "technology",
-       "space"
+       "walmart",
+       "retail industry",
+       "surveillance"
       ],
       "entities": [],
       "brand": null,
       "image": {
-       "url": "https://i.guim.co.uk/img/media/7da230064c1eaf9ac951b3f7766a1a4a840051b7/933_0_4663_3731/master/4663.jpg?width=700&quality=85&auto=format&fit=max&s=e48cee8a12cc84a702a89d6a7319fc1c",
-       "credit": "Photograph: Reuters",
+       "url": "https://i.guim.co.uk/img/media/b00b5e8e8d672e254701571ca7a06b5d31716990/950_531_4337_3469/master/4337.jpg?width=700&quality=85&auto=format&fit=max&s=18b294ad1e35f50b602ad98e01b24f79",
+       "credit": "Photograph: Joe Raedle/Getty Images",
        "kind": "feed",
        "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
       },
-      "eventId": "c29798d3b13c86f3",
+      "eventId": "21800f865bba1aea",
       "related": [],
       "score": {
-       "total": 57.6,
+       "total": 62.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 73.1,
-        "topic": 70.0,
-        "novelty": 84.6
+        "recency": 79.4,
+        "topic": 90.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "آیا ایلان ماسک واقعا می تواند پایگاه داده های AI را در فضا قرار دهد؟ - آخرین",
-        "excerpt": "دولت ترامپ طرح ایلان ماسک را برای ایجاد پایگاه های داده در فضا تایید کرده است. رگولاتورهای فدرال ایالات متحده اعلام کرده اند که پرتاب یک میلیون ماهواره مدار ستاره را که توسط اسپیس ایکس ماسک ساخته شده اند تا داده ها را در فضا پردازش کنند. حامیان استدلال می کنند که این پروژه کارآمد تر خواهد بود و تاثیر زیست محیطی مراکز داده بر زمین را کاهش می دهد زیرا صنعت AI رشد می کند. اما چگونه ...",
+        "title": "\"این کمک نمی کند\": تماس برای محافظان و مقررات به عنوان استفاده از AI در خرده فروشان ایالات متحده افزایش می یابد",
+        "excerpt": "رهبران کارگری و طرفداران حمایت از کارگران و مصرف کنندگان را تشویق می کنند، زیرا میلیون ها آمریکایی شروع به خرید تعطیلات این جمعه سیاه می کنند، مصرف کنندگان و کارگران در حال حاضر می بینند که چگونه هوش مصنوعی چشم انداز خرده فروشی را تغییر می دهد. آنا، یک پول نقد در یک وال مارت و رهبر جنوب اورگان با یونایتد برای احترام، که درخواست ناشناس ماندن...",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
+        "at": "2026-11-27T14:26:30Z"
        }
       }
      },
@@ -185,77 +197,17 @@
     },
     {
      "article": {
-      "id": "ce7382d8a686ec9c",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
-      "excerpt": "We’re developing the most powerful tech in history – but trust, safeguarding and privacy are being sidelined in favour of huge profit I’m a senior AI leader at one of the world’s biggest tech companies, and the products we put out into the world are increasingly being recklessly rushed, without proper consideration. The tech industry used to take safety and privacy seriously, but lately I have…",
-      "lang": "en",
-      "publishedAt": "2026-11-26T14:06:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "technology",
-       "uk news",
-       "ethical business",
-       "business",
-       "money"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/8cc6bbd0024f4ba8485616485bd55f9c34d98452/458_0_4167_3333/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=5fa3df245cd1549abd6d4d894f4b8fef",
-       "credit": "Photograph: Aly Song/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "ce7382d8a686ec9c",
-      "related": [],
-      "score": {
-       "total": 57.1,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 56.5,
-        "topic": 85.0,
-        "novelty": 90.5
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "من یک رهبر هوش مصنوعی در یک غول تکنولوژی هستم. صنعت ما متوقف شده است به طور جدی ایمنی",
-        "excerpt": "ما در حال توسعه قوی ترین تکنولوژی در تاریخ هستیم - اما اعتماد، حفاظت و حریم خصوصی به نفع سود بزرگ من یک رهبر ارشد AI در یکی از بزرگترین شرکت های تکنولوژی جهان است و محصولاتی که ما در جهان قرار می دهیم به طور فزاینده ای بدون توجه مناسب است. صنعت تکنولوژی به طور جدی امنیت و حریم خصوصی را به دست آورد، اما اخیرا...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "d3aa48daa62df585",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "id": "2d7f8b4f8454af31",
+      "url": "https://huggingface.co/blog/video-trainium3",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-26T05:05:36Z",
+      "publishedAt": "2026-11-27T00:00:00Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
-      "day": "2026-11-26",
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
       "category": "open-source",
       "tags": [],
       "entities": [
@@ -263,32 +215,32 @@
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+       "url": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+       "sourceUrl": "https://huggingface.co/blog/video-trainium3"
       },
-      "eventId": "d3aa48daa62df585",
+      "eventId": "2d7f8b4f8454af31",
       "related": [],
       "score": {
-       "total": 57.1,
+       "total": 59.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 33.6,
+        "recency": 44.5,
         "topic": 75.0,
-        "novelty": 91.7
+        "novelty": 93.8
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
+        "title": "گرفتن قطار 3 به آهنگ: تولید فیلم با LTX-2.5",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
+        "at": "2026-11-27T14:26:30Z"
        }
       }
      },
-     "rank": 5,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -298,60 +250,111 @@
     },
     {
      "article": {
-      "id": "27f35f09a947a507",
-      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
-      "excerpt": "OpenAI says a billing bug gave GPT-6.2 users incorrect discounts. After the fix, Astra and Sol users hit their limits 40 and 25 percent faster than last week. As an apology, subscribers get an extra reset, and business users get free Fast Mode through year-end. OpenAI is also testing a Chat and Work mode merger. The article GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a…",
+      "id": "17e4cf414252efc8",
+      "url": "https://www.datacenterdynamics.com/en/news/bt-in-british-ai-ran-first-with-ericsson",
+      "sourceId": "datacenter-dynamics",
+      "sourceName": "DatacenterDynamics",
+      "title": "BT in British AI-RAN 'first' with Ericsson",
+      "excerpt": "EE arm deploys Ericsson's AI-native Scheduler for Link Adaptation across London",
       "lang": "en",
-      "publishedAt": "2026-11-26T17:28:56Z",
+      "publishedAt": "2026-11-27T13:20:33Z",
       "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "models",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "chatgpt",
-       "openai"
-      ],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "hardware",
+      "tags": [],
+      "entities": [],
+      "brand": null,
       "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/10/openai.png",
+       "url": "https://media.datacenterdynamics.com/media/images/PXL_20260205_132541071_1.2e16d0ba.fill-750x500.jpg",
        "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
+       "sourceUrl": "https://www.datacenterdynamics.com/en/rss/"
       },
-      "eventId": "27f35f09a947a507",
+      "eventId": "17e4cf414252efc8",
       "related": [],
       "score": {
-       "total": 54.4,
+       "total": 57.8,
        "parts": {
         "reliability": 60.0,
         "corroboration": 0.0,
-        "recency": 68.6,
-        "topic": 100.0,
-        "novelty": 76.5
+        "recency": 96.3,
+        "topic": 70.0,
+        "novelty": 100.0
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "کاربران GPT-6.2 Astra در حال حاضر 40٪ سریعتر از زمانی که OpenAI یک خطای قیمت گذاری را قطع کرد، دچار محدودیت می شوند.",
-        "excerpt": "OpenAI می گوید که یک اشکال صورتحساب به کاربران GPT-6.2 تخفیف های نادرست می دهد. پس از تعمیر، کاربران آسترا و سول به محدودیت های ۴۰ و ۲۵ درصد سریع تر از هفته گذشته دست پیدا کردند. به عنوان یک عذرخواهی، مشترکین یک تنظیم مجدد اضافی دریافت می کنند و کاربران کسب و کار از طریق سال به حالت سریع آزاد می رسند. OpenAI همچنین یک ادغام حالت چت و کار را آزمایش می کند. کاربران GPT-6.2 Astra در حال حاضر 40 درصد سریع تر از زمانی که OpenAI یک ...",
+        "title": "BT در AI-RAN \"اول\" با اریکسون",
+        "excerpt": "EE بازو برنامه نویس AI اریکسون را برای Link Adaptation در سراسر لندن مستقر می کند",
         "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
+        "at": "2026-11-27T14:26:30Z"
+       }
+      }
+     },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "a73645a794d11335",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light",
+      "sourceId": "wired-ai",
+      "sourceName": "WIRED — AI",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "excerpt": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "lang": "en",
+      "publishedAt": "2026-11-27T07:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "hardware",
+      "tags": [
+       "business",
+       "business / artificial intelligence",
+       "data centers",
+       "chips",
+       "computing",
+       "artificial intelligence"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://media.wired.com/photos/6b073e1d34813a006d725bef/master/pass/QANT-CEO-QandA-Business.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.wired.com/feed/tag/ai/latest/rss"
+      },
+      "eventId": "a73645a794d11335",
+      "related": [],
+      "score": {
+       "total": 56.9,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 66.7,
+        "topic": 70.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "یک مدل جدید از Chip Runs AI با استفاده از امواج نور",
+        "excerpt": "شرکت آلمانی Q.ANT سعی دارد مقدار انرژی لازم برای اجرای مدل های AI را با استفاده از نور برای انجام سخت ترین محاسبات کاهش دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-27T14:26:30Z"
        }
       }
      },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -359,8 +362,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-20T00:00:00Z",
-   "to": "2026-11-27T00:00:00Z",
+   "from": "2026-11-20T14:00:00Z",
+   "to": "2026-11-27T14:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -398,15 +401,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 70.2,
+       "total": 69.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 48.1,
+        "recency": 42.0,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -422,6 +425,59 @@
      "reason": [
       "tier-2",
       "voices-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d7f8b4f8454af31",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/video-trainium3"
+      },
+      "eventId": "2d7f8b4f8454af31",
+      "related": [],
+      "score": {
+       "total": 68.1,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 87.4,
+        "topic": 75.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گرفتن قطار 3 به آهنگ: تولید فیلم با LTX-2.5",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-27T14:26:30Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -458,15 +514,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 69.2,
+       "total": 67.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 79.3,
+        "recency": 69.3,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -474,60 +530,6 @@
         "excerpt": "شما ما را در محل استقرار قرار داده اید. ❤️ ما از مشتریان و همه چیزهایی که ما با هم می سازیم سپاسگزار هستیم. با تشکر از شما برای اعتماد به ما و به اشتراک گذاری آنچه شما در طول راه یاد می گیرید.",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-26T02:53:49Z"
-       }
-      }
-     },
-     "rank": 2,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "02a088434703556c",
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-26T11:37:17Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T12:49:12Z",
-      "day": "2026-11-26",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "huggingface",
-       "meta"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
-      },
-      "eventId": "02a088434703556c",
-      "related": [],
-      "score": {
-       "total": 68.7,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 88.8,
-        "topic": 80.0,
-        "novelty": 88.9
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T12:49:12Z"
        }
       }
      },
@@ -571,15 +573,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 68.7,
+       "total": 66.8,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 75.2,
+        "recency": 65.7,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -600,44 +602,45 @@
     },
     {
      "article": {
-      "id": "d3aa48daa62df585",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "id": "02a088434703556c",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "sourceId": "huggingface-blog",
       "sourceName": "Hugging Face Blog",
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "excerpt": "",
       "lang": "en",
-      "publishedAt": "2026-11-26T05:05:36Z",
+      "publishedAt": "2026-11-26T11:37:17Z",
       "dateEstimated": false,
       "fetchedAt": "2026-11-26T12:49:12Z",
       "day": "2026-11-26",
-      "category": "open-source",
+      "category": "research",
       "tags": [],
       "entities": [
-       "huggingface"
+       "huggingface",
+       "meta"
       ],
       "brand": null,
       "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/6365c3f398da81987e2753f2/zArpuP9uLsLz9luMW0K2g.png",
+       "url": "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
        "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+       "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
       },
-      "eventId": "d3aa48daa62df585",
+      "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 67.1,
+       "total": 66.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.4,
-        "topic": 75.0,
-        "novelty": 91.7
+        "recency": 77.6,
+        "topic": 80.0,
+        "novelty": 88.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
-        "title": "ساختمان بر روی Nemotron 3.5 Parse: Open Data، Fine-Tuning و Quick Inference",
+        "title": "معرفی داشبورد llama.cpp برای AMD Ryzen و Radeon",
         "engine": "argos-en_fa-1.5",
         "at": "2026-11-26T12:49:12Z"
        }
@@ -647,6 +650,128 @@
      "sources": 1,
      "reason": [
       "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "dcf9162e5162c383",
+      "url": "https://www.theguardian.com/technology/2026/nov/27/meta-whistleblower-sarah-wynn-williams-calls-on-burnham-to-go-further-with-ban-on-non-disclosure-agreements",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "Meta whistleblower calls on Burnham to go further with ban on NDAs",
+      "excerpt": "Sarah Wynn-Williams says tech insiders with concerns about AI are being silenced in system reminiscent of George Orwell’s 1984 The Meta whistleblower who made allegations about the social media company’s treatment of teenagers has urged Andy Burnham to go further in banning non-disclosure agreements, warning that tech insiders with concerns about AI development need to be protected. Sarah…",
+      "lang": "en",
+      "publishedAt": "2026-11-27T12:30:08Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "policy",
+      "tags": [
+       "meta",
+       "technology",
+       "ai (artificial intelligence)",
+       "politics",
+       "law",
+       "uk news"
+      ],
+      "entities": [
+       "meta"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/f277f364251690f43120ef6a9b54a085d1c66319/245_0_3333_2667/master/3333.jpg?width=700&quality=85&auto=format&fit=max&s=1b7325600b3b1908c85fc4426891d39f",
+       "credit": "Photograph: Bloomberg/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "dcf9162e5162c383",
+      "related": [],
+      "score": {
+       "total": 65.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 98.6,
+        "topic": 85.0,
+        "novelty": 90.9
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "متا سوتیر از برنهام خواست تا با ممنوعیت NDAs ادامه دهد",
+        "excerpt": "سارا Wynn-Williams می گوید که سازندگان تکنولوژی با نگرانی در مورد AI در سیستم یادآور 1984 جورج اورول سکوت می کنند، هشدار می دهد که در مورد درمان شرکت رسانه های اجتماعی نوجوانان از اندی برنزم خواسته شده است تا بیشتر در ممنوعیت توافق نامه های غیر محرمانه ادامه دهد، هشدار می دهد که فن آوری های داخلی با نگرانی در مورد توسعه AI نیاز به محافظت از آن دارند. سارا ...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-27T14:26:30Z"
+       }
+      }
+     },
+     "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "21800f865bba1aea",
+      "url": "https://www.theguardian.com/us-news/2026/nov/27/ai-retailer-consumer-guardrails",
+      "sourceId": "guardian-ai",
+      "sourceName": "The Guardian — Artificial intelligence",
+      "title": "‘It’s not helping’: calls for guardrails and regulations as AI use rises at US retailers",
+      "excerpt": "Labor leaders and advocates urge protections for workers and consumers as AI use becomes more commonplace As millions of Americans begin holiday shopping this Black Friday, consumers and workers alike are already seeing how artificial intelligence is reshaping the retail landscape. Anna, a cashier in a southern Oregon Walmart and leader with United for Respect, who requested to remain anonymous…",
+      "lang": "en",
+      "publishedAt": "2026-11-27T10:00:02Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "safety",
+      "tags": [
+       "us news",
+       "ai (artificial intelligence)",
+       "technology",
+       "walmart",
+       "retail industry",
+       "surveillance"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "https://i.guim.co.uk/img/media/b00b5e8e8d672e254701571ca7a06b5d31716990/950_531_4337_3469/master/4337.jpg?width=700&quality=85&auto=format&fit=max&s=18b294ad1e35f50b602ad98e01b24f79",
+       "credit": "Photograph: Joe Raedle/Getty Images",
+       "kind": "feed",
+       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
+      },
+      "eventId": "21800f865bba1aea",
+      "related": [],
+      "score": {
+       "total": 65.6,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 96.2,
+        "topic": 90.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "\"این کمک نمی کند\": تماس برای محافظان و مقررات به عنوان استفاده از AI در خرده فروشان ایالات متحده افزایش می یابد",
+        "excerpt": "رهبران کارگری و طرفداران حمایت از کارگران و مصرف کنندگان را تشویق می کنند، زیرا میلیون ها آمریکایی شروع به خرید تعطیلات این جمعه سیاه می کنند، مصرف کنندگان و کارگران در حال حاضر می بینند که چگونه هوش مصنوعی چشم انداز خرده فروشی را تغییر می دهد. آنا، یک پول نقد در یک وال مارت و رهبر جنوب اورگان با یونایتد برای احترام، که درخواست ناشناس ماندن...",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-27T14:26:30Z"
+       }
+      }
+     },
+     "rank": 7,
+     "sources": 1,
+     "reason": [
+      "tier-2",
       "first-report",
       "top-factor-reliability"
      ]
@@ -689,15 +814,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 65.6,
+       "total": 64.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 45.4,
+        "recency": 39.7,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -708,7 +833,7 @@
        }
       }
      },
-     "rank": 6,
+     "rank": 8,
      "sources": 3,
      "reason": [
       "tier-2",
@@ -716,131 +841,12 @@
       "first-report",
       "top-factor-reliability"
      ]
-    },
-    {
-     "article": {
-      "id": "e2ee4ad335699ba8",
-      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants",
-      "sourceId": "google-research",
-      "sourceName": "Google Research Blog",
-      "title": "Verifiable Social Reasoning for LLM Assistants",
-      "excerpt": "Generative AI",
-      "lang": "en",
-      "publishedAt": "2026-11-25T17:10:27Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "research",
-      "tags": [
-       "generative ai",
-       "human-computer interaction and visualiza",
-       "machine intelligence",
-       "natural language processing"
-      ],
-      "entities": [
-       "google"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png",
-       "kind": "feed",
-       "sourceUrl": "https://research.google/blog/rss/"
-      },
-      "eventId": "e2ee4ad335699ba8",
-      "related": [],
-      "score": {
-       "total": 65.2,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 74.3,
-        "topic": 80.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "دلیل اجتماعی قابل اعتماد برای دستیارهای LLM",
-        "excerpt": "هوش مصنوعی",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 7,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "ce7382d8a686ec9c",
-      "url": "https://www.theguardian.com/commentisfree/2026/nov/26/ai-leader-tech-giant-trust-safeguarding-privacy-profit",
-      "sourceId": "guardian-ai",
-      "sourceName": "The Guardian — Artificial intelligence",
-      "title": "I’m an AI leader at a tech giant. Our industry has stopped taking safety seriously | Anonymous",
-      "excerpt": "We’re developing the most powerful tech in history – but trust, safeguarding and privacy are being sidelined in favour of huge profit I’m a senior AI leader at one of the world’s biggest tech companies, and the products we put out into the world are increasingly being recklessly rushed, without proper consideration. The tech industry used to take safety and privacy seriously, but lately I have…",
-      "lang": "en",
-      "publishedAt": "2026-11-26T14:06:10Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T22:25:04Z",
-      "day": "2026-11-26",
-      "category": "policy",
-      "tags": [
-       "ai (artificial intelligence)",
-       "technology",
-       "uk news",
-       "ethical business",
-       "business",
-       "money"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://i.guim.co.uk/img/media/8cc6bbd0024f4ba8485616485bd55f9c34d98452/458_0_4167_3333/master/4167.jpg?width=700&quality=85&auto=format&fit=max&s=5fa3df245cd1549abd6d4d894f4b8fef",
-       "credit": "Photograph: Aly Song/Reuters",
-       "kind": "feed",
-       "sourceUrl": "https://www.theguardian.com/technology/artificialintelligenceai/rss"
-      },
-      "eventId": "ce7382d8a686ec9c",
-      "related": [],
-      "score": {
-       "total": 64.0,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 90.9,
-        "topic": 85.0,
-        "novelty": 90.5
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "من یک رهبر هوش مصنوعی در یک غول تکنولوژی هستم. صنعت ما متوقف شده است به طور جدی ایمنی",
-        "excerpt": "ما در حال توسعه قوی ترین تکنولوژی در تاریخ هستیم - اما اعتماد، حفاظت و حریم خصوصی به نفع سود بزرگ من یک رهبر ارشد AI در یکی از بزرگترین شرکت های تکنولوژی جهان است و محصولاتی که ما در جهان قرار می دهیم به طور فزاینده ای بدون توجه مناسب است. صنعت تکنولوژی به طور جدی امنیت و حریم خصوصی را به دست آورد، اما اخیرا...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T22:25:04Z"
-       }
-      }
-     },
-     "rank": 8,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
     }
    ]
   },
   "monthly": {
-   "from": "2026-10-28T00:00:00Z",
-   "to": "2026-11-27T00:00:00Z",
+   "from": "2026-10-28T14:00:00Z",
+   "to": "2026-11-27T14:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -878,15 +884,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 77.3,
+       "total": 77.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 30.4,
+        "recency": 29.2,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -940,15 +946,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 76.7,
+       "total": 76.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 80.3,
+        "recency": 77.1,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1000,15 +1006,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 74.2,
+       "total": 73.8,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 49.4,
+        "recency": 47.5,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1066,15 +1072,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 72.3,
+       "total": 71.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 78.9,
+        "recency": 75.8,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1090,65 +1096,6 @@
      "reason": [
       "tier-2",
       "voices-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "726045a047c880b6",
-      "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
-      "sourceId": "openai-youtube",
-      "sourceName": "OpenAI (YouTube)",
-      "title": "You had us at Deployed",
-      "excerpt": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
-      "lang": "en",
-      "publishedAt": "2026-11-25T23:50:43Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-26T02:53:49Z",
-      "day": "2026-11-25",
-      "category": "models",
-      "tags": [],
-      "entities": [
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://i4.ytimg.com/vi/C6DENY3rgqg/hqdefault.jpg",
-       "kind": "feed",
-       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
-      },
-      "video": {
-       "provider": "youtube",
-       "id": "C6DENY3rgqg",
-       "url": "https://www.youtube.com/watch?v=C6DENY3rgqg"
-      },
-      "eventId": "726045a047c880b6",
-      "related": [],
-      "score": {
-       "total": 72.0,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 93.3,
-        "topic": 100.0,
-        "novelty": 83.3
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ما را در Deployed",
-        "excerpt": "شما ما را در محل استقرار قرار داده اید. ❤️ ما از مشتریان و همه چیزهایی که ما با هم می سازیم سپاسگزار هستیم. با تشکر از شما برای اعتماد به ما و به اشتراک گذاری آنچه شما در طول راه یاد می گیرید.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-26T02:53:49Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -1185,15 +1132,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 72.0,
+       "total": 71.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.8,
+        "recency": 88.2,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1204,7 +1151,119 @@
        }
       }
      },
+     "rank": 5,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "726045a047c880b6",
+      "url": "https://www.youtube.com/watch?v=C6DENY3rgqg",
+      "sourceId": "openai-youtube",
+      "sourceName": "OpenAI (YouTube)",
+      "title": "You had us at Deployed",
+      "excerpt": "You had us at deployed. ❤️ We’re thankful for our customers and everything we’re building together. Thank you for trusting us and sharing what you’re learning along the way.",
+      "lang": "en",
+      "publishedAt": "2026-11-25T23:50:43Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-26T02:53:49Z",
+      "day": "2026-11-25",
+      "category": "models",
+      "tags": [],
+      "entities": [
+       "openai"
+      ],
+      "brand": "openai",
+      "image": {
+       "url": "https://i4.ytimg.com/vi/C6DENY3rgqg/hqdefault.jpg",
+       "kind": "feed",
+       "sourceUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXZCJLdBC09xxGZ6gcdrc6A"
+      },
+      "video": {
+       "provider": "youtube",
+       "id": "C6DENY3rgqg",
+       "url": "https://www.youtube.com/watch?v=C6DENY3rgqg"
+      },
+      "eventId": "726045a047c880b6",
+      "related": [],
+      "score": {
+       "total": 71.2,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 89.6,
+        "topic": 100.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "ما را در Deployed",
+        "excerpt": "شما ما را در محل استقرار قرار داده اید. ❤️ ما از مشتریان و همه چیزهایی که ما با هم می سازیم سپاسگزار هستیم. با تشکر از شما برای اعتماد به ما و به اشتراک گذاری آنچه شما در طول راه یاد می گیرید.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-26T02:53:49Z"
+       }
+      }
+     },
      "rank": 6,
+     "sources": 1,
+     "reason": [
+      "tier-1",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d7f8b4f8454af31",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "sourceId": "huggingface-blog",
+      "sourceName": "Hugging Face Blog",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "excerpt": "",
+      "lang": "en",
+      "publishedAt": "2026-11-27T00:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-27T14:26:30Z",
+      "day": "2026-11-27",
+      "category": "open-source",
+      "tags": [],
+      "entities": [
+       "huggingface"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://huggingface.co/blog/assets/video-trainium3/thumbnail.jpg",
+       "kind": "og",
+       "sourceUrl": "https://huggingface.co/blog/video-trainium3"
+      },
+      "eventId": "2d7f8b4f8454af31",
+      "related": [],
+      "score": {
+       "total": 69.8,
+       "parts": {
+        "reliability": 100.0,
+        "corroboration": 0.0,
+        "recency": 96.0,
+        "topic": 75.0,
+        "novelty": 93.8
+       },
+       "asOf": "2026-11-27T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "گرفتن قطار 3 به آهنگ: تولید فیلم با LTX-2.5",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-27T14:26:30Z"
+       }
+      }
+     },
+     "rank": 7,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1240,15 +1299,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 70.2,
+       "total": 69.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.5,
+        "recency": 92.7,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1258,7 +1317,7 @@
        }
       }
      },
-     "rank": 7,
+     "rank": 8,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1293,15 +1352,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 69.4,
+       "total": 68.6,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 94.7,
+        "recency": 90.9,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1311,7 +1370,7 @@
        }
       }
      },
-     "rank": 8,
+     "rank": 9,
      "sources": 1,
      "reason": [
       "tier-1",
@@ -1357,15 +1416,15 @@
        "3a2027e2694465cf"
       ],
       "score": {
-       "total": 69.2,
+       "total": 68.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 90.7,
+        "recency": 87.1,
         "topic": 55.0,
         "novelty": 63.6
        },
-       "asOf": "2026-11-27T00:00:00Z"
+       "asOf": "2026-11-27T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1376,64 +1435,11 @@
        }
       }
      },
-     "rank": 9,
+     "rank": 10,
      "sources": 2,
      "reason": [
       "tier-2",
       "voices-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "37b5c9ba93266751",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "sourceId": "huggingface-blog",
-      "sourceName": "Hugging Face Blog",
-      "title": "Where scientists draw the line on AI agents",
-      "excerpt": "",
-      "lang": "en",
-      "publishedAt": "2026-11-25T18:52:55Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-25T19:24:12Z",
-      "day": "2026-11-25",
-      "category": "research",
-      "tags": [],
-      "entities": [
-       "huggingface"
-      ],
-      "brand": null,
-      "image": {
-       "url": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
-       "kind": "og",
-       "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
-      },
-      "eventId": "37b5c9ba93266751",
-      "related": [],
-      "score": {
-       "total": 69.1,
-       "parts": {
-        "reliability": 100.0,
-        "corroboration": 0.0,
-        "recency": 91.9,
-        "topic": 80.0,
-        "novelty": 87.5
-       },
-       "asOf": "2026-11-27T00:00:00Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "جایی که دانشمندان خط را بر روی عوامل هوش مصنوعی ترسیم می کنند",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-25T19:24:12Z"
-       }
-      }
-     },
-     "rank": 10,
-     "sources": 1,
-     "reason": [
-      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
