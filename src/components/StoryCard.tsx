@@ -170,7 +170,7 @@ export function StoryCard({ article, variant = 'grid', timeOnly = false, rank, e
           <a href={link}>{title.text}</a>
         </H>
         {title.translated && <span className="mt-label">{t('translation_machine')}</span>}
-        {WITH_EXCERPT.includes(variant) && excerpt.text && (
+        {(WITH_EXCERPT.includes(variant) || (variant === 'tile' && noPhoto)) && excerpt.text && (
           <p className="story-excerpt" lang={excerpt.lang} dir="auto">
             {excerpt.text}
           </p>

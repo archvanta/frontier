@@ -1,6 +1,6 @@
 /* FRONTIER design tokens. See docs/DESIGN-SYSTEM.md.
    Dark (true black) is the default; `html[data-theme='light']` below redefines the surface, line and text tokens.
-   Gradient story cards, the hero and imagery stay deep and dark in both themes, so their white type needs no variant. */
+   Story cards follow the theme (graphite in dark, paper in light); only the hero and the masthead film stay dark in both themes. */
 :root {
   color-scheme: dark;
 
@@ -41,16 +41,17 @@
   --btn-primary-bg: #ffffff;
   --btn-primary-ink: #0a0a0d;
   --btn-primary-hover: #e9eaf0;
-  --btn-secondary-bg: rgba(122, 86, 200, 0.34);
-  --btn-secondary-hover: rgba(138, 100, 220, 0.46);
-  --btn-secondary-line: rgba(190, 160, 255, 0.22);
+  --btn-secondary-bg: rgba(255, 255, 255, 0.08);
+  --btn-secondary-hover: rgba(255, 255, 255, 0.14);
+  --btn-secondary-line: rgba(255, 255, 255, 0.16);
   --btn-secondary-ink: #ffffff;
   --btn-dark-bg: #202024;
   --btn-dark-hover: #2b2b31;
   --btn-dark-ink: #f5f6f8;
 
   /* Header bar and drop-down panels */
-  --header-bg: radial-gradient(42% 220% at 34% -70%, rgba(132, 111, 255, 0.15), transparent 72%), linear-gradient(180deg, #0b0b0d 0%, #030304 100%);
+  --header-bg: rgba(0, 0, 0, 0.72);
+  --header-bg-solid: #050506;
   --header-line: rgba(255, 255, 255, 0.07);
   --header-shadow: 0 18px 40px -28px rgba(0, 0, 0, 0.9);
   --panel-bg: linear-gradient(180deg, #1a1a1f 0%, #0b0b0d 100%);
@@ -59,19 +60,25 @@
   --panel-divider: rgba(255, 255, 255, 0.07);
   --panel-hover: rgba(255, 255, 255, 0.05);
 
-  /* Editorial card tones: the deeper, quieter palette used before the dashboard experiment. */
-  --tone-violet: linear-gradient(180deg, #1b0d3f 0%, #2a1466 46%, #5a2fbd 100%);
-  --tone-blue: linear-gradient(180deg, #0a1233 0%, #11246b 46%, #1f4fcf 100%);
-  --tone-indigo: linear-gradient(180deg, #0c0a2c 0%, #1b1566 46%, #4231b4 100%);
-  --tone-teal: linear-gradient(180deg, #07191c 0%, #0b3a3f 46%, #0f8272 100%);
-  --tone-crimson: linear-gradient(180deg, #1a0707 0%, #3a0d10 46%, #8a1f24 100%);
-  --card-rim: rgba(255, 255, 255, 0.1);
+  /* Editorial card tones: graphite cards with one faint category tint in a corner. The tint only hints at the
+     category; the type, the photo and the single lime accent carry the page. */
+  --tone-base: linear-gradient(180deg, #141417 0%, #0c0c0e 100%);
+  --tone-violet: radial-gradient(120% 90% at 100% 0%, rgba(139, 112, 255, 0.2), transparent 62%), var(--tone-base);
+  --tone-blue: radial-gradient(120% 90% at 100% 0%, rgba(88, 140, 255, 0.18), transparent 62%), var(--tone-base);
+  --tone-indigo: radial-gradient(120% 90% at 100% 0%, rgba(110, 118, 255, 0.17), transparent 62%), var(--tone-base);
+  --tone-teal: radial-gradient(120% 90% at 100% 0%, rgba(45, 200, 180, 0.15), transparent 62%), var(--tone-base);
+  --tone-crimson: radial-gradient(120% 90% at 100% 0%, rgba(255, 96, 86, 0.15), transparent 62%), var(--tone-base);
+  --tone-lime: radial-gradient(120% 90% at 100% 0%, rgba(232, 255, 31, 0.13), transparent 62%), var(--tone-base);
+  --card-rim: rgba(255, 255, 255, 0.09);
+  --card-rim-hover: rgba(255, 255, 255, 0.22);
   --card-ink: #ffffff;
-  --card-ink-2: rgba(255, 255, 255, 0.72);
+  --card-ink-2: rgba(255, 255, 255, 0.74);
   --card-ink-3: rgba(255, 255, 255, 0.6);
   --card-tile: rgba(255, 255, 255, 0.1);
   --card-pill: rgba(255, 255, 255, 0.12);
   --card-line: rgba(255, 255, 255, 0.14);
+  --card-hover: rgba(255, 255, 255, 0.12);
+  --card-well: rgba(0, 0, 0, 0.28);
 
   /* Hero: dark stage in both themes */
   --hero-fade: var(--bg);
@@ -176,24 +183,28 @@ html[data-theme='light'] {
   --ov-line-strong: rgba(10, 10, 20, 0.32);
   --well: rgba(10, 10, 20, 0.05);
 
-  --accent: #2459d6;
-  --accent-strong: #2459d6;
-  --accent-soft: rgba(36, 89, 214, 0.09);
-  --accent-line: rgba(36, 89, 214, 0.45);
-  --accent-glow: rgba(36, 89, 214, 0.28);
+  /* The same lime brand in light: lime stays the fill (with black ink); text, lines and focus use a deep olive
+     from the same hue, because lime type on white would be unreadable (olive #4a5c00 is 7:1 on white). */
+  --accent: #4a5c00;
+  --accent-strong: #d9f50a;
+  --accent-soft: rgba(120, 150, 0, 0.12);
+  --accent-line: rgba(74, 92, 0, 0.42);
+  --accent-glow: rgba(150, 185, 0, 0.3);
+  --accent-ink: #0b0c05;
 
   --btn-primary-bg: #0b0b10;
   --btn-primary-ink: #ffffff;
   --btn-primary-hover: #26262e;
-  --btn-secondary-bg: rgba(110, 76, 190, 0.12);
-  --btn-secondary-hover: rgba(110, 76, 190, 0.2);
-  --btn-secondary-line: rgba(110, 76, 190, 0.25);
-  --btn-secondary-ink: #2d1b69;
+  --btn-secondary-bg: rgba(10, 10, 20, 0.05);
+  --btn-secondary-hover: rgba(10, 10, 20, 0.1);
+  --btn-secondary-line: rgba(10, 10, 20, 0.14);
+  --btn-secondary-ink: #0b0b10;
   --btn-dark-bg: #ececf1;
   --btn-dark-hover: #e0e0e8;
   --btn-dark-ink: #0b0b10;
 
-  --header-bg: radial-gradient(36% 220% at 34% -40%, rgba(255, 150, 120, 0.16), transparent 70%), linear-gradient(180deg, #ffffff 0%, #f6f6f9 100%);
+  --header-bg: rgba(255, 255, 255, 0.78);
+  --header-bg-solid: #ffffff;
   --header-line: rgba(10, 10, 20, 0.1);
   --header-shadow: 0 18px 40px -30px rgba(20, 20, 40, 0.35);
   --panel-bg: linear-gradient(180deg, #ffffff 0%, #f4f4f8 100%);
@@ -202,7 +213,23 @@ html[data-theme='light'] {
   --panel-divider: rgba(10, 10, 20, 0.09);
   --panel-hover: rgba(10, 10, 20, 0.045);
 
-  --card-rim: rgba(10, 10, 20, 0.12);
+  --tone-base: linear-gradient(180deg, #ffffff 0%, #f6f6f4 100%);
+  --tone-violet: radial-gradient(120% 90% at 100% 0%, rgba(124, 92, 255, 0.1), transparent 62%), var(--tone-base);
+  --tone-blue: radial-gradient(120% 90% at 100% 0%, rgba(60, 110, 240, 0.09), transparent 62%), var(--tone-base);
+  --tone-indigo: radial-gradient(120% 90% at 100% 0%, rgba(90, 96, 240, 0.09), transparent 62%), var(--tone-base);
+  --tone-teal: radial-gradient(120% 90% at 100% 0%, rgba(20, 160, 140, 0.09), transparent 62%), var(--tone-base);
+  --tone-crimson: radial-gradient(120% 90% at 100% 0%, rgba(230, 70, 60, 0.08), transparent 62%), var(--tone-base);
+  --tone-lime: radial-gradient(120% 90% at 100% 0%, rgba(190, 220, 0, 0.16), transparent 62%), var(--tone-base);
+  --card-rim: rgba(10, 10, 20, 0.1);
+  --card-rim-hover: rgba(10, 10, 20, 0.24);
+  --card-ink: #0b0b10;
+  --card-ink-2: #3f4250;
+  --card-ink-3: #5c5f6e;
+  --card-tile: rgba(10, 10, 20, 0.06);
+  --card-pill: rgba(10, 10, 20, 0.06);
+  --card-line: rgba(10, 10, 20, 0.12);
+  --card-hover: rgba(10, 10, 20, 0.07);
+  --card-well: rgba(10, 10, 20, 0.04);
   --shadow-1: 0 1px 0 rgba(255, 255, 255, 0.6) inset, 0 18px 40px -26px rgba(20, 20, 40, 0.35);
   --shadow-card: 0 30px 60px -36px rgba(30, 20, 80, 0.55);
 
@@ -213,9 +240,9 @@ html[data-theme='light'] {
   --ok: #1b7a2b;
 }
 
-/* Surfaces that stay dark in the light theme (hero over photos, gradient cards, wall cards) re-declare the dark values,
+/* Surfaces that stay dark in the light theme (the hero and the masthead, both over photos or film) re-declare the dark values,
    so type, hairlines, accent and buttons inside them need no light variant. Keep in sync with :root above. */
-html[data-theme='light'] :is(.news-hero, .story-card[data-tone], .wall-card[data-tone]) {
+html[data-theme='light'] :is(.news-hero, .hm-card) {
   color-scheme: dark;
   --text: #f5f6f8;
   --text-2: #b7bac4;
@@ -235,10 +262,20 @@ html[data-theme='light'] :is(.news-hero, .story-card[data-tone], .wall-card[data
   --btn-primary-bg: #ffffff;
   --btn-primary-ink: #0a0a0d;
   --btn-primary-hover: #e9eaf0;
-  --btn-secondary-bg: rgba(122, 86, 200, 0.34);
-  --btn-secondary-hover: rgba(138, 100, 220, 0.46);
-  --btn-secondary-line: rgba(190, 160, 255, 0.22);
+  --btn-secondary-bg: rgba(255, 255, 255, 0.08);
+  --btn-secondary-hover: rgba(255, 255, 255, 0.14);
+  --btn-secondary-line: rgba(255, 255, 255, 0.16);
   --btn-secondary-ink: #ffffff;
+  --card-rim: rgba(255, 255, 255, 0.09);
+  --card-rim-hover: rgba(255, 255, 255, 0.22);
+  --card-ink: #ffffff;
+  --card-ink-2: rgba(255, 255, 255, 0.74);
+  --card-ink-3: rgba(255, 255, 255, 0.6);
+  --card-tile: rgba(255, 255, 255, 0.1);
+  --card-pill: rgba(255, 255, 255, 0.12);
+  --card-line: rgba(255, 255, 255, 0.14);
+  --card-hover: rgba(255, 255, 255, 0.12);
+  --card-well: rgba(0, 0, 0, 0.28);
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -1375,164 +1375,10 @@ html[dir='rtl'] .nh-brand {
   }
 }
 
-/* ---------- Signal wall ---------- */
 .section-sub {
   max-inline-size: 44ch;
   font-size: var(--fs-sm);
   color: var(--text-3);
-}
-
-.wall-stage {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  block-size: clamp(440px, 46vw, 640px);
-  overflow: hidden;
-  perspective: 300px;
-}
-
-.wall-plane {
-  flex: none;
-  display: flex;
-  gap: 1rem;
-  inline-size: 120%;
-  block-size: 150%;
-  transform: translateX(-210px) translateY(-30px) translateZ(-100px) rotateX(20deg) rotateY(-10deg) rotateZ(20deg);
-}
-
-[dir='rtl'] .wall-plane {
-  transform: translateX(210px) translateY(-30px) translateZ(-100px) rotateX(20deg) rotateY(10deg) rotateZ(-20deg);
-}
-
-.wall-col {
-  flex: 1 1 0;
-  min-inline-size: 0;
-  block-size: 100%;
-}
-
-.wall-fade {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    linear-gradient(to bottom, var(--bg) 0%, transparent 24%, transparent 76%, var(--bg) 100%),
-    linear-gradient(to right, var(--bg) 0%, transparent 14%, transparent 86%, var(--bg) 100%);
-}
-
-/* Light theme: a white overlay on dark cards washes them grey and leaves the side edges hard. Instead the stage itself is masked on both axes, so the cards
-   dissolve into whatever the page colour is. Eased stops, wide side margins. */
-html[data-theme='light'] .wall-fade {
-  display: none;
-}
-
-html[data-theme='light'] .wall-stage {
-  --wall-mask-y: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.18) 7%, rgba(0, 0, 0, 0.55) 14%, #000 26%, #000 72%, rgba(0, 0, 0, 0.55) 86%, rgba(0, 0, 0, 0.15) 94%, transparent 100%);
-  --wall-mask-x: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.2) 6%, rgba(0, 0, 0, 0.6) 13%, #000 24%, #000 76%, rgba(0, 0, 0, 0.6) 87%, rgba(0, 0, 0, 0.2) 94%, transparent 100%);
-  -webkit-mask-image: var(--wall-mask-y), var(--wall-mask-x);
-  -webkit-mask-composite: source-in;
-  mask-image: var(--wall-mask-y), var(--wall-mask-x);
-  mask-composite: intersect;
-}
-
-.wall-card {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--s-3);
-  padding: 0.85rem;
-  border: 1px solid var(--card-rim);
-  border-radius: 18px;
-  background: var(--tone-violet);
-  color: var(--card-ink);
-  text-decoration: none;
-  transition: border-color var(--dur) var(--ease);
-}
-
-.wall-card[data-tone='blue'] {
-  background: var(--tone-blue);
-}
-.wall-card[data-tone='indigo'] {
-  background: var(--tone-indigo);
-}
-.wall-card[data-tone='teal'] {
-  background: var(--tone-teal);
-}
-.wall-card[data-tone='crimson'] {
-  background: var(--tone-crimson);
-}
-
-.wall-card {
-  background-origin: border-box;
-}
-
-a.wall-card:hover {
-  border-color: rgba(255, 255, 255, 0.3);
-  color: var(--card-ink);
-}
-
-.wall-thumb {
-  flex: none;
-  inline-size: 64px;
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.wall-thumb img {
-  inline-size: 100%;
-  block-size: 100%;
-  object-fit: cover;
-}
-
-.wall-text {
-  display: grid;
-  gap: 0.2rem;
-  min-inline-size: 0;
-}
-
-.wall-cat {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--card-ink-3);
-}
-
-html[lang='fa'] .wall-cat {
-  font-family: var(--font-fa);
-  letter-spacing: 0;
-}
-
-.wall-title {
-  font-size: var(--fs-sm);
-  font-weight: 600;
-  line-height: 1.4;
-  color: var(--card-ink);
-  overflow-wrap: anywhere;
-}
-
-.wall-meta {
-  font-size: var(--fs-xs);
-  color: var(--card-ink-3);
-}
-
-.wall-static {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr));
-  gap: var(--s-3);
-}
-
-@media (max-width: 760px) {
-  .wall-stage {
-    block-size: 420px;
-  }
-  .wall-plane {
-    inline-size: 230%;
-  }
-  .wall-thumb {
-    display: none;
-  }
 }
 
 /* ---------- Section heads, tabs and chips ---------- */
@@ -2040,12 +1886,12 @@ html[lang='fa'] .story-card .story-title {
 }
 
 .story-card[data-tone]:hover {
-  border-color: rgba(255, 255, 255, 0.28);
+  border-color: var(--card-rim-hover);
 }
 
 .story-card[data-tone] .story-media {
-  background: rgba(0, 0, 0, 0.28);
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
+  background: var(--card-well);
+  box-shadow: 0 0 0 1px var(--card-line);
 }
 
 .story-card[data-tone] .kicker-cat {
@@ -2077,33 +1923,33 @@ html[lang='fa'] .story-card .story-title {
 }
 
 .story-card[data-tone] .story-meta .icon-btn:hover {
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
+  background: var(--card-hover);
+  color: var(--card-ink);
 }
 
 .story-card[data-tone] .bookmark.is-on {
-  color: #fff;
+  color: var(--card-ink);
 }
 
 .story-card[data-tone] .src-mark {
-  background: rgba(255, 255, 255, 0.18);
+  background: var(--card-pill);
 }
 
 .story-card[data-tone] .score-pill {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: var(--card-line);
   color: var(--card-ink-2);
 }
 
 .story-card[data-tone] .score-bar {
-  background: rgba(255, 255, 255, 0.16);
+  background: var(--card-line);
 }
 
 .story-card[data-tone] .rank {
-  color: #fff;
+  color: var(--card-ink);
 }
 
 .story-card[data-tone] .story-title a {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55));
+  background-image: linear-gradient(var(--card-ink-3), var(--card-ink-3));
 }
 
 .story-card[data-tone] .mt-label {
@@ -2131,8 +1977,7 @@ html[lang='fa'] .story-card .story-title {
   border-radius: 14px;
   background: var(--card-tile);
   border: 1px solid var(--card-rim);
-  color: #fff;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  color: var(--card-ink);
 }
 
 .story-tile img {
@@ -2149,7 +1994,7 @@ html[lang='fa'] .story-card .story-title {
   padding: 0.45rem 0.95rem;
   border-radius: 12px;
   background: var(--card-pill);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--card-rim);
   color: var(--card-ink);
   font-size: var(--fs-sm);
   font-weight: 500;
@@ -2157,7 +2002,7 @@ html[lang='fa'] .story-card .story-title {
 }
 
 .story-card.is-grid:hover .story-pill {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--card-hover);
 }
 
 .story-card.is-grid .story-body {
@@ -4925,395 +4770,7 @@ html[data-motion='full'] .nh-slide.is-active .nh-bg-img {
   }
 }
 
-/* ---------- Homepage intro scene and "choose what you follow" ---------- */
-/* First screen: what the site is, in one calm scene (the look of the owner's studio-site reference: a huge condensed word, a short line, a scroll
-   cue). Always dark, like the news hero below it. */
-.home-intro {
-  --hi-fade: 6.5rem;
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  min-block-size: max(30rem, calc(100vh - var(--header-h)));
-  min-block-size: max(30rem, calc(100svh - var(--header-h)));
-  padding-block: var(--s-6) var(--hi-fade);
-  background: #05030f;
-  color: #fff;
-  text-align: center;
-  /* Same rhythm in both languages (Persian would otherwise inherit the taller page line-height). */
-  line-height: 1.55;
-}
-
-.hi-backdrop {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  overflow: hidden;
-  pointer-events: none;
-}
-
-.hi-glow {
-  position: absolute;
-  inline-size: 60vmax;
-  block-size: 60vmax;
-  border-radius: 50%;
-  filter: blur(70px);
-  opacity: 0.55;
-}
-
-.hi-glow-a {
-  inset-block-start: -22vmax;
-  inset-inline-start: -14vmax;
-  background: radial-gradient(circle, rgba(58, 90, 240, 0.55), transparent 65%);
-}
-
-.hi-glow-b {
-  inset-block-end: -30vmax;
-  inset-inline-end: -16vmax;
-  background: radial-gradient(circle, rgba(109, 61, 240, 0.5), transparent 65%);
-}
-
-.hi-grid {
-  position: absolute;
-  inset: 0;
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
-  background-size: 64px 64px;
-  -webkit-mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, transparent 70%);
-  mask-image: radial-gradient(ellipse at 50% 45%, #000 0%, transparent 70%);
-}
-
-.hi-glow-c {
-  inset-block-start: 22%;
-  inset-inline-start: 38%;
-  inline-size: 34vmax;
-  block-size: 34vmax;
-  background: radial-gradient(circle, rgba(40, 190, 230, 0.34), transparent 65%);
-  opacity: 0.45;
-}
-
-/* Moving backdrop, full-motion mode only. Everything animates transform or opacity (compositor only), and it all pauses while the scene is
-   scrolled out of view. */
-html[data-motion='full'] .hi-glow-a {
-  animation: hi-drift-a 18s ease-in-out infinite alternate;
-}
-
-html[data-motion='full'] .hi-glow-b {
-  animation: hi-drift-b 22s ease-in-out infinite alternate;
-}
-
-html[data-motion='full'] .hi-glow-c {
-  animation: hi-drift-c 15s ease-in-out infinite alternate;
-}
-
-@keyframes hi-drift-a {
-  to {
-    transform: translate3d(22vmax, 12vmax, 0) scale(1.2);
-  }
-}
-
-@keyframes hi-drift-b {
-  to {
-    transform: translate3d(-20vmax, -10vmax, 0) scale(1.15);
-  }
-}
-
-@keyframes hi-drift-c {
-  from {
-    transform: translate3d(-16vmax, 6vmax, 0) scale(0.9);
-  }
-  to {
-    transform: translate3d(18vmax, -8vmax, 0) scale(1.25);
-  }
-}
-
-/* The grid is drawn on a layer one tile larger than the scene and slid by exactly one tile, so the loop has no seam. */
-.hi-grid {
-  inset: -64px;
-}
-
-html[data-motion='full'] .hi-grid {
-  animation: hi-grid 9s linear infinite;
-}
-
-@keyframes hi-grid {
-  to {
-    transform: translate3d(64px, 64px, 0);
-  }
-}
-
-/* A soft diagonal sweep of light. */
-.hi-beam,
-.hi-specks {
-  display: none;
-}
-
-html[data-motion='full'] .hi-beam {
-  display: block;
-  position: absolute;
-  inset-block: -20%;
-  inset-inline-start: -30%;
-  inline-size: 26%;
-  transform: translate3d(0, 0, 0) skewX(-18deg);
-  background: linear-gradient(90deg, transparent, rgba(140, 180, 255, 0.13), transparent);
-  animation: hi-beam 11s ease-in-out infinite;
-}
-
-html[dir='rtl'][data-motion='full'] .hi-beam {
-  inset-inline-start: auto;
-  inset-inline-end: -30%;
-  animation-name: hi-beam-rtl;
-}
-
-@keyframes hi-beam {
-  0%,
-  12% {
-    transform: translate3d(0, 0, 0) skewX(-18deg);
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  88%,
-  100% {
-    transform: translate3d(480%, 0, 0) skewX(-18deg);
-    opacity: 0;
-  }
-}
-
-@keyframes hi-beam-rtl {
-  0%,
-  12% {
-    transform: translate3d(0, 0, 0) skewX(18deg);
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  88%,
-  100% {
-    transform: translate3d(-480%, 0, 0) skewX(18deg);
-    opacity: 0;
-  }
-}
-
-/* A few specks of light rising slowly, like signals. */
-html[data-motion='full'] .hi-specks {
-  display: block;
-  position: absolute;
-  inset: 0;
-}
-
-.hi-specks i {
-  position: absolute;
-  inset-block-end: -4%;
-  inset-inline-start: var(--x);
-  inline-size: var(--s);
-  block-size: var(--s);
-  border-radius: 50%;
-  background: rgba(170, 205, 255, 0.9);
-  box-shadow: 0 0 10px 2px rgba(110, 160, 255, 0.55);
-  opacity: 0;
-  animation: hi-rise var(--d) linear var(--w) infinite;
-}
-
-@keyframes hi-rise {
-  0% {
-    transform: translate3d(0, 0, 0);
-    opacity: 0;
-  }
-  12% {
-    opacity: 0.85;
-  }
-  80% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translate3d(0, -70vmin, 0);
-    opacity: 0;
-  }
-}
-
-.home-intro[data-live='false'] .hi-backdrop * {
-  animation-play-state: paused;
-}
-
-/* Keep the long homepage cheap to lay out until each below-the-fold block nears the viewport. */
-.site-main .picks,
-.site-main .carousel,
-.site-main .follow-topics,
-.site-main .latest-layout {
-  content-visibility: auto;
-  contain-intrinsic-size: auto 560px;
-}
-
-.feed-mount-gate {
-  display: block;
-  block-size: 1px;
-  pointer-events: none;
-}
-
-/* The three ways in, right under the intro text. */
-.hi-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: var(--s-3);
-  margin-block: var(--s-2);
-}
-
-.hi-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  min-block-size: 44px;
-  padding-block: 0.35rem;
-  padding-inline: 0.4rem 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  color: #fff;
-  font-weight: 600;
-  font-size: var(--fs-sm);
-  text-decoration: none;
-  transition:
-    transform var(--dur) var(--ease),
-    background var(--dur) var(--ease),
-    border-color var(--dur) var(--ease);
-}
-
-.hi-link:hover {
-  transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.12);
-  border-color: rgba(140, 180, 255, 0.55);
-}
-
-.hi-link:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.hi-link .icon:last-child {
-  opacity: 0.6;
-}
-
-.hi-link-art,
-.hi-link-icon {
-  flex: none;
-  inline-size: 30px;
-  block-size: 30px;
-  border-radius: 50%;
-}
-
-.hi-link-art {
-  object-fit: cover;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
-}
-
-.hi-link-icon {
-  display: inline-grid;
-  place-items: center;
-  background: linear-gradient(145deg, #6aa8ff 0%, #3a5af0 55%, #6d3df0 100%);
-  color: #fff;
-}
-
-html[lang='fa'] .hi-link {
-  font-weight: 700;
-}
-
-.hi-link-count {
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  font-weight: 700;
-  color: #7fd0ff;
-}
-
-.hi-inner {
-  position: relative;
-  flex: 1;
-  display: grid;
-  align-content: center;
-  justify-items: center;
-  gap: var(--s-4);
-  padding-block: var(--s-4);
-}
-
-/* Live status pill: what the collector actually knows right now (source count, newest story, most-named company). */
-.hi-status {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem 0;
-  margin: 0;
-  padding: 0.4rem 0.4rem;
-  list-style: none;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.05);
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.62);
-  opacity: 0;
-  transition: opacity var(--dur-slow, 0.4s) var(--ease);
-}
-
-.hi-status.is-ready {
-  opacity: 1;
-}
-
-html[lang='fa'] .hi-status {
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.hi-status li {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding-inline: 0.9rem;
-}
-
-.hi-status li + li {
-  border-inline-start: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.hi-status b {
-  font-weight: 700;
-  color: #fff;
-}
-
-.hi-live {
-  font-weight: 700;
-  color: #5ee59a;
-}
-
-.hi-live i {
-  inline-size: 8px;
-  block-size: 8px;
-  border-radius: 50%;
-  background: currentColor;
-  box-shadow: 0 0 10px currentColor;
-}
-
-html[data-motion='full'] .hi-live i {
-  animation: hi-live 2s ease-in-out infinite;
-}
-
-@keyframes hi-live {
-  50% {
-    opacity: 0.35;
-  }
-}
-
+/* ---------- Homepage masthead wordmark (shared .hi-kicker / .hi-title) and "choose what you follow" ---------- */
 .hi-kicker {
   font-family: var(--font-mono);
   font-size: var(--fs-xs);
@@ -5378,243 +4835,6 @@ html[lang] .hi-title {
   opacity: 0;
 }
 
-.hi-body {
-  max-inline-size: 38rem;
-  font-size: var(--fs-md, 1.05rem);
-  line-height: 1.65;
-  color: rgba(255, 255, 255, 0.74);
-}
-
-html[lang='fa'] .hi-body {
-  line-height: 1.65;
-}
-
-.hi-meta {
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.46);
-}
-
-html[lang='fa'] .hi-meta {
-  letter-spacing: 0;
-}
-
-/* The scene dissolves into the page below instead of ending on a hard edge (the page colour follows the theme). */
-.home-intro::after {
-  content: '';
-  position: absolute;
-  inset-inline: 0;
-  inset-block-end: -1px;
-  block-size: var(--hi-fade);
-  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--bg) 60%, transparent) 60%, var(--bg));
-  pointer-events: none;
-}
-
-/* The introduction follows the page theme, including the animated canvas ink. */
-html[data-theme='light'] .home-intro {
-  background: #ffffff;
-  color: #111111;
-}
-
-html[data-theme='light'] .home-intro::after {
-  background: none;
-}
-
-html[data-theme='light'] .hi-title {
-  --hw-ink: #111111;
-  --hw-warm: #111111;
-  color: #111111;
-  background: none;
-  -webkit-text-fill-color: #111111;
-  filter: none;
-}
-
-html[data-theme='light'] .hi-body {
-  color: #41414a;
-}
-
-html[data-theme='light'] .hi-kicker,
-html[data-theme='light'] .hi-scroll {
-  color: #595966;
-}
-
-html[data-theme='light'] .hi-link {
-  color: #17171c;
-  background: #f5f5f8;
-  border-color: #dcdce3;
-}
-
-html[data-theme='light'] .hi-link:hover {
-  background: #eaeaf0;
-  border-color: #9494a4;
-}
-
-html[data-theme='light'] .hi-link-count {
-  color: #2458bd;
-}
-
-.hi-signals {
-  position: relative;
-  z-index: 1;
-  display: grid;
-  gap: var(--s-3);
-}
-
-.hi-signals-head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--s-4);
-}
-
-.hi-signals-title {
-  margin: 0;
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.62);
-}
-
-html[lang='fa'] .hi-signals-title {
-  letter-spacing: 0;
-  text-transform: none;
-  font-weight: 700;
-}
-
-.hi-signal-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--s-3);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* Glass cards: a translucent fill and a hairline border, no backdrop blur (cheap on phones). */
-.hi-signal {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  align-items: start;
-  gap: 0.2rem 0.7rem;
-  block-size: 100%;
-  padding: 0.85rem 1rem;
-  text-align: start;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: var(--radius-lg, 18px);
-  background: linear-gradient(160deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
-  color: #fff;
-  text-decoration: none;
-  transition:
-    transform var(--dur) var(--ease),
-    border-color var(--dur) var(--ease);
-}
-
-.hi-signal:hover {
-  transform: translateY(-2px);
-  border-color: rgba(140, 180, 255, 0.55);
-}
-
-.hi-signal:focus-visible {
-  outline: 2px solid #8fb6ff;
-  outline-offset: 2px;
-}
-
-.hi-signal-rank {
-  font-family: var(--font-mono);
-  font-weight: 700;
-  color: #8fb6ff;
-}
-
-.hi-signal-title {
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  font-weight: 650;
-  font-size: var(--fs-sm);
-  line-height: 1.4;
-}
-
-.hi-signal-score {
-  padding: 0.05rem 0.5rem;
-  border-radius: 999px;
-  background: rgba(94, 229, 154, 0.16);
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  font-weight: 700;
-  color: #7ff0b3;
-}
-
-.hi-signal-meta {
-  grid-column: 2 / -1;
-  overflow: hidden;
-  font-size: var(--fs-xs);
-  color: rgba(255, 255, 255, 0.55);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-@media (max-width: 899px) {
-  /* Phones and tablets: three compact rows instead of three columns. */
-  .hi-signal-list {
-    grid-template-columns: 1fr;
-    gap: var(--s-2);
-  }
-  .hi-signal {
-    padding: 0.65rem 0.8rem;
-  }
-  .hi-status {
-    border-radius: 18px;
-  }
-  .hi-status li {
-    padding-block: 0.1rem;
-  }
-}
-
-.hi-scroll {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.9rem;
-  border: 0;
-  border-radius: 999px;
-  background: none;
-  font-family: var(--font-mono);
-  font-size: var(--fs-xs);
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.5);
-  cursor: pointer;
-  margin-inline-start: auto;
-}
-
-html[lang='fa'] .hi-scroll {
-  letter-spacing: 0.04em;
-}
-
-.hi-scroll:hover {
-  color: #fff;
-}
-
-html[data-motion='full'] .hi-scroll .icon {
-  animation: hi-nudge 2.4s var(--ease-out) infinite;
-}
-
-@keyframes hi-nudge {
-  0%,
-  100% {
-    transform: translateY(0);
-    opacity: 0.6;
-  }
-  50% {
-    transform: translateY(5px);
-    opacity: 1;
-  }
-}
-
 /* A panel of its own between the signal wall and Latest News; the column's section gap spaces it like every other block. */
 .follow-topics {
   scroll-margin-block-start: var(--header-h);
@@ -5656,25 +4876,6 @@ html[lang='fa'] .follow-title {
   flex-wrap: wrap;
   gap: var(--s-3);
   margin-block-start: var(--s-5);
-}
-
-@media (max-width: 899px) {
-  .home-intro {
-    padding-block: var(--s-7) 5rem;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hi-glow,
-  .hi-grid,
-  .hi-beam,
-  .hi-specks i,
-  .hi-scroll .icon {
-    animation: none !important;
-  }
-  .hi-link:hover {
-    transform: none;
-  }
 }
 
 .news-hero,

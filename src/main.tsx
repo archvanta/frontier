@@ -6,6 +6,7 @@ import './styles/motion.css';
 import './styles/account.css';
 import './styles/tunnel.css';
 import './styles/editorial.css';
+import './styles/redesign.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './App';

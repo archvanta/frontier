@@ -1,0 +1,677 @@
+/* FRONTIER redesign layer (2026-11): one header, the news-first masthead and the shared polish that makes every page
+   read as one system. Loaded last. Colours come from tokens.css only; directions use logical properties so Persian mirrors. */
+
+/* ---------- Header ----------
+   One translucent black (or white) bar on every width: the arrow mark and FRONTIER on the inline-start side, the six
+   destinations in the middle, then search, language, theme, account and Saved on the inline-end side. */
+.site-header {
+  background: var(--header-bg);
+  -webkit-backdrop-filter: saturate(1.4) blur(18px);
+  backdrop-filter: saturate(1.4) blur(18px);
+  border-block-end: 1px solid var(--header-line);
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .site-header {
+    background: var(--header-bg-solid);
+  }
+}
+
+.wordmark {
+  gap: 0.5rem;
+  color: var(--text);
+}
+
+.wordmark-glyph {
+  color: var(--accent);
+}
+
+.wordmark-glyph .icon {
+  inline-size: 1.6rem;
+  block-size: 1.6rem;
+  filter: none;
+}
+
+.wordmark-text {
+  font-size: 1.15rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+.lang-option[aria-pressed='true'] {
+  color: var(--accent-ink);
+  background: var(--accent-strong);
+}
+
+.lang-switch.has-indicator {
+  --ind-bg: var(--accent-strong);
+}
+
+.lang-switch.has-indicator > [aria-pressed='true'] {
+  color: var(--accent-ink);
+}
+
+/* Saved: a quiet icon button with its label on wide screens, never the loudest thing in the bar. */
+.header-cta.btn.is-primary {
+  gap: 0.45rem;
+  min-block-size: 40px;
+  padding-inline: 0.85rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-btn);
+  background: transparent;
+  color: var(--text);
+  box-shadow: none;
+}
+
+.header-cta.btn.is-primary:hover,
+.header-cta.btn.is-primary[aria-current='page'] {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+@media (min-width: 1181px) {
+  .header-bar {
+    gap: var(--s-3);
+  }
+  .primary-nav {
+    margin-inline: auto;
+  }
+  .nav-link,
+  .nav-trigger {
+    padding-inline: 0.7rem;
+  }
+}
+
+/* The search stays a 40px button until it is used, then opens over the space beside it (on phones, over the whole bar). */
+.header-actions {
+  position: relative;
+}
+
+.header-search {
+  flex: none;
+  inline-size: 40px;
+  padding: 0;
+  justify-content: center;
+  cursor: text;
+}
+
+.header-search input,
+.header-search .search-kbd {
+  position: absolute;
+  inline-size: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header-search:focus-within {
+  position: absolute;
+  inset-inline-end: calc(100% - 40px);
+  z-index: 5;
+  inline-size: min(22rem, 40vw);
+  padding-inline: 0.8rem 0.5rem;
+  justify-content: flex-start;
+  background: var(--surface-2);
+  box-shadow: var(--panel-shadow);
+}
+
+.header-search:focus-within input,
+.header-search:focus-within .search-kbd {
+  position: static;
+  inline-size: 100%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header-search:focus-within .search-kbd {
+  inline-size: auto;
+}
+
+@media (max-width: 1180px) {
+  .header-search:focus-within {
+    inset-inline-end: 0;
+    inline-size: min(26rem, calc(100vw - 2 * var(--gutter)));
+  }
+}
+
+@media (max-width: 640px) {
+  .wordmark-text {
+    display: inline;
+    font-size: 1.05rem;
+  }
+  .header-actions {
+    flex: none;
+    margin-inline-start: auto;
+  }
+  .header-search {
+    flex: none;
+  }
+}
+
+/* 1181–1359px: six destinations plus the tools only fit when Saved drops its label (the icon keeps its accessible name). */
+@media (min-width: 1181px) and (max-width: 1359px) {
+  .header-cta .cta-label {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  .header-cta.btn.is-primary {
+    inline-size: 40px;
+    padding: 0;
+    justify-content: center;
+  }
+}
+
+/* ---------- Homepage masthead ----------
+   A short film strip with the wordmark, one promise, three real numbers and a call to the lead stories, then the desks.
+   Height is capped so the first headline of the slider starts inside the first screen on every size. */
+.home-masthead {
+  --hm-radius: var(--radius-card);
+  position: relative;
+  min-inline-size: 0;
+}
+
+.hm-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--s-3);
+}
+
+.hm-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--s-6);
+  min-block-size: clamp(14rem, 30svh, 19rem);
+  padding: clamp(1.25rem, 0.8rem + 1.8vw, 2.25rem);
+  border: 1px solid var(--card-rim);
+  border-radius: var(--hm-radius);
+  background: #07080a;
+  color: var(--text);
+  box-shadow: var(--shadow-card);
+}
+
+.hm-film {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: 50% 58%;
+  filter: saturate(0.85) brightness(0.72);
+}
+
+.hm-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.25) 55%, rgba(0, 0, 0, 0.35) 100%),
+    linear-gradient(to right, rgba(0, 0, 0, 0.55), transparent 60%);
+}
+
+html[dir='rtl'] .hm-scrim {
+  background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.25) 55%, rgba(0, 0, 0, 0.35) 100%),
+    linear-gradient(to left, rgba(0, 0, 0, 0.55), transparent 60%);
+}
+
+.hm-copy {
+  display: grid;
+  gap: var(--s-2);
+  min-inline-size: 0;
+}
+
+.hm-kicker {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* The wordmark is always the Latin FRONTIER, left-to-right, at the same size in both languages. */
+.home-masthead .hm-title {
+  justify-self: start;
+  margin: 0;
+  font-size: clamp(3rem, 1.6rem + 5.2vw, 6.25rem);
+  line-height: 0.9;
+  color: #f4f3ea;
+  background: none;
+  -webkit-text-fill-color: currentColor;
+  filter: drop-shadow(0 10px 28px rgba(0, 0, 0, 0.5));
+  --hw-ink: #f4f3ea;
+  --hw-warm: #e8ff1f;
+}
+
+.hm-body {
+  max-inline-size: 34rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: var(--fs-md);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+html[lang='fa'] .hm-body {
+  line-height: 1.9;
+}
+
+.hm-side {
+  display: grid;
+  justify-items: stretch;
+  gap: var(--s-3);
+  inline-size: min(19rem, 100%);
+}
+
+.hm-stats {
+  display: grid;
+  margin: 0;
+  padding: 0.35rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  background: rgba(10, 10, 12, 0.58);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+.hm-stat {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s-4);
+  padding-block: 0.5rem;
+}
+
+.hm-stat + .hm-stat {
+  border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hm-stat dt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: var(--fs-sm);
+}
+
+.hm-stat dd {
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+
+.hm-stat.is-updated i {
+  inline-size: 7px;
+  block-size: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.hm-stat.is-updated[data-live='true'] i {
+  background: #e8ff1f;
+  box-shadow: 0 0 0 3px rgba(232, 255, 31, 0.18);
+}
+
+.hm-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-3);
+  min-block-size: 46px;
+  padding: 0 0.6rem 0 1.15rem;
+  border: 0;
+  border-radius: 999px;
+  background: #e8ff1f;
+  color: #0b0c05;
+  font: inherit;
+  font-size: var(--fs-sm);
+  font-weight: 650;
+  cursor: pointer;
+  transition:
+    transform var(--dur) var(--ease),
+    background var(--dur) var(--ease);
+}
+
+html[dir='rtl'] .hm-cta {
+  padding: 0 1.15rem 0 0.6rem;
+}
+
+.hm-cta .icon {
+  inline-size: 30px;
+  block-size: 30px;
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.hm-cta:hover {
+  background: #f1ff6b;
+  transform: translateY(-1px);
+}
+
+.hm-cta:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Desks: one row of four quiet links with real 24-hour counts. */
+.hm-desks {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--s-3);
+}
+
+.hm-desk {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  min-inline-size: 0;
+  min-block-size: 56px;
+  padding: 0.5rem 1rem 0.5rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface-1);
+  color: var(--text);
+  text-decoration: none;
+  transition:
+    border-color var(--dur) var(--ease),
+    background var(--dur) var(--ease);
+}
+
+html[dir='rtl'] .hm-desk {
+  padding: 0.5rem 0.6rem 0.5rem 1rem;
+}
+
+.hm-desk:hover {
+  border-color: var(--line-strong);
+  background: var(--surface-2);
+  color: var(--text);
+}
+
+.hm-desk-art {
+  flex: none;
+  inline-size: 36px;
+  block-size: 36px;
+  object-fit: contain;
+}
+
+.hm-desk-label {
+  overflow: hidden;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hm-desk-count {
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+}
+
+.hm-desk > .icon {
+  flex: none;
+  margin-inline-start: auto;
+  color: var(--text-3);
+  transition: transform var(--dur) var(--ease);
+}
+
+.hm-desk:hover > .icon {
+  color: var(--accent);
+  transform: translateX(3px);
+}
+
+html[dir='rtl'] .hm-desk:hover > .icon {
+  transform: translateX(-3px);
+}
+
+@media (max-width: 899px) {
+  .hm-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--s-4);
+    min-block-size: 0;
+  }
+  .hm-side {
+    inline-size: 100%;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+  }
+  .hm-stats {
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(0, 1fr);
+    padding: 0.25rem 0;
+  }
+  .hm-stat {
+    display: grid;
+    justify-items: center;
+    gap: 0.1rem;
+    padding: 0.35rem 0.5rem;
+    text-align: center;
+  }
+  .hm-stat + .hm-stat {
+    border-block-start: 0;
+    border-inline-start: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .hm-stat dt {
+    order: 2;
+    font-size: 0.68rem;
+    white-space: nowrap;
+  }
+  .hm-stat dd {
+    order: 1;
+    font-size: var(--fs-sm);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .hm-desks {
+    gap: var(--s-2);
+  }
+  .hm-desk {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.25rem;
+    min-block-size: 64px;
+    padding: 0.5rem 0.25rem;
+    text-align: center;
+  }
+  html[dir='rtl'] .hm-desk {
+    padding: 0.5rem 0.25rem;
+  }
+  .hm-desk-art {
+    inline-size: 26px;
+    block-size: 26px;
+  }
+  .hm-desk-label {
+    max-inline-size: 100%;
+    font-size: 0.72rem;
+  }
+  .hm-desk-count {
+    position: absolute;
+    inset-block-start: 0.3rem;
+    inset-inline-end: 0.3rem;
+    padding: 0 0.3rem;
+    font-size: 0.62rem;
+  }
+  .hm-desk {
+    position: relative;
+  }
+  .hm-desk > .icon {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .hm-card {
+    gap: var(--s-3);
+    padding: 1rem 1rem 0.9rem;
+    border-radius: 22px;
+  }
+  .hm-kicker {
+    display: none;
+  }
+  .hm-body {
+    font-size: 0.875rem;
+    line-height: 1.55;
+  }
+  html[lang='fa'] .hm-body {
+    line-height: 1.8;
+  }
+  .hm-side {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .hm-cta {
+    display: none;
+  }
+}
+
+/* The slider follows the masthead closely; it is the lead of the page, not a second intro. */
+.home-masthead + .news-hero {
+  margin-block-start: var(--s-4);
+}
+
+/* ---------- Feed ----------
+   Day sections below the first screen skip layout and paint until they near the viewport, so the whole feed is in the DOM
+   (find-in-page, deep links and End work) without the cost of rendering it up front. */
+.feed .day-section,
+.carousel,
+.follow-topics,
+.home-video-interlude {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 900px;
+}
+
+.carousel {
+  contain-intrinsic-size: auto 460px;
+}
+
+.day-empty {
+  margin: 0;
+  padding: var(--s-4) 0;
+  border-block-start: 1px solid var(--line);
+  color: var(--text-3);
+  font-size: var(--fs-sm);
+}
+
+/* The video interlude keeps its card but loses the neon glow. */
+.home-video-interlude {
+  box-shadow: none;
+}
+
+/* ---------- News hero ----------
+   The slider lines up with the page column (same edges as the masthead and the feed) and sits on graphite instead of a
+   violet glow, so the publisher's photo is the only colour. */
+.nh-stage {
+  max-inline-size: calc(var(--container));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.nh-stage.has-side {
+  max-inline-size: var(--container);
+}
+
+.nh-main {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-card);
+  background: #08080a;
+}
+
+.nh-backdrop {
+  background:
+    radial-gradient(70% 90% at 100% 0%, rgba(232, 255, 31, 0.07), transparent 60%),
+    radial-gradient(60% 80% at 0% 110%, rgba(120, 130, 160, 0.14), transparent 65%),
+    linear-gradient(180deg, #0b0b0e 0%, #070709 100%);
+}
+
+.nh-frame {
+  background:
+    radial-gradient(80% 90% at 20% 110%, rgba(140, 150, 180, 0.16), transparent 70%),
+    radial-gradient(70% 80% at 100% 0%, rgba(232, 255, 31, 0.06), transparent 70%),
+    #111114;
+}
+
+.nh-bg::after {
+  background:
+    linear-gradient(to top, rgba(4, 4, 6, 0.85) 0%, rgba(4, 4, 6, 0) 34%),
+    linear-gradient(to right, rgba(4, 4, 6, 0.94) 0%, rgba(4, 4, 6, 0.84) 36%, rgba(4, 4, 6, 0.46) 64%, rgba(4, 4, 6, 0.22) 100%);
+}
+
+html[dir='rtl'] .nh-bg::after {
+  background:
+    linear-gradient(to top, rgba(4, 4, 6, 0.85) 0%, rgba(4, 4, 6, 0) 34%),
+    linear-gradient(to left, rgba(4, 4, 6, 0.94) 0%, rgba(4, 4, 6, 0.84) 36%, rgba(4, 4, 6, 0.46) 64%, rgba(4, 4, 6, 0.22) 100%);
+}
+
+@media (max-width: 899px) {
+  .nh-bg::after,
+  html[dir='rtl'] .nh-bg::after {
+    background: rgba(4, 4, 6, 0.76);
+  }
+  .nh-slide .nh-inner {
+    --nh-frame-h: clamp(6rem, 19svh, 12rem);
+  }
+}
+
+@media (max-width: 560px) {
+  .nh-main {
+    border-radius: 22px;
+  }
+}
+
+/* On the homepage the slider is the lead under the masthead, not a second full screen: a fixed, calmer height keeps its
+   headline inside the first screen (the AI News page keeps the full-screen slider). */
+@media (min-width: 900px) {
+  .home-masthead + .news-hero .nh-main {
+    min-block-size: clamp(26rem, 54svh, 34rem);
+  }
+}
+
+/* ---------- Story rows (carousels) ----------
+   A story without a usable photo fills its tile with the excerpt instead of an empty gap. */
+.carousel-item .story-card.is-tile.is-text-only .story-excerpt {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+  color: var(--text-2);
+  font-size: var(--fs-sm);
+  line-height: 1.55;
+}
+
+html[lang='fa'] .carousel-item .story-card.is-tile.is-text-only .story-excerpt {
+  line-height: 1.85;
+}
+
+.carousel-item .story-card.is-tile.is-text-only .story-meta {
+  margin-block-start: auto;
+}
+
+.carousel-item.is-lead .story-card.is-tile {
+  border-color: var(--line-strong);
+  box-shadow: none;
+}
+
+/* ---------- Video interlude ----------
+   A neutral panel like the rest of the feed; the play buttons are the only accent. */
+.home-video-interlude {
+  border-color: var(--line);
+  background: var(--surface-1);
+}
+
+.home-video-interlude::before {
+  opacity: 0.12;
+}
