@@ -1,6 +1,6 @@
 {
  "schemaVersion": 3,
- "asOf": "2026-11-28T07:00:34Z",
+ "asOf": "2026-11-28T14:00:00Z",
  "weights": {
   "reliability": 0.3,
   "corroboration": 0.25,
@@ -10,10 +10,188 @@
  },
  "windows": {
   "daily": {
-   "from": "2026-11-27T07:00:34Z",
-   "to": "2026-11-28T07:00:34Z",
+   "from": "2026-11-27T14:00:00Z",
+   "to": "2026-11-28T14:00:00Z",
    "halfLifeHours": 12,
    "picks": [
+    {
+     "article": {
+      "id": "3973f080fe72e258",
+      "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+      "excerpt": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+      "lang": "en",
+      "publishedAt": "2026-11-28T14:00:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-28T14:34:53Z",
+      "day": "2026-11-28",
+      "category": "business",
+      "tags": [
+       "startups",
+       "ai",
+       "sakana ai"
+      ],
+      "entities": [],
+      "brand": null,
+      "image": {
+       "url": "images/fallbacks/business.svg",
+       "kind": "fallback"
+      },
+      "eventId": "3973f080fe72e258",
+      "related": [],
+      "score": {
+       "total": 61.2,
+       "parts": {
+        "reliability": 80.0,
+        "corroboration": 0.0,
+        "recency": 100.0,
+        "topic": 55.0,
+        "novelty": 90.0
+       },
+       "asOf": "2026-11-28T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "مدیر عامل Saana AI می گوید که مدل های خانگی آن بیش از امنیت ملی ژاپن است.",
+        "excerpt": "Saana AI قصد دارد رقابت صنعتی ژاپن را با مدل های هوش مصنوعی خانگی تقویت کند.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-28T14:34:53Z"
+       }
+      }
+     },
+     "rank": 1,
+     "sources": 1,
+     "reason": [
+      "tier-2",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
+    {
+     "article": {
+      "id": "eb35ff7f0def1417",
+      "url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+      "excerpt": "The UK Parliament is turning up the pressure on Anthropic. Committee chair Liam Byrne is demanding the unredacted METR safety report on AI acceleration by December 4. METR criticized Anthropic for cutting \"most informative\" evidence before publication. The episode raises broader questions about the transparency of voluntary AI safety evaluations and again shows Europe's dependence on US AI labs…",
+      "lang": "en",
+      "publishedAt": "2026-11-28T13:42:00Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-28T14:34:53Z",
+      "day": "2026-11-28",
+      "category": "safety",
+      "tags": [
+       "ai in practice",
+       "artificial intelligence",
+       "short news",
+       "ai and policy",
+       "ai and safety",
+       "ai safety"
+      ],
+      "entities": [
+       "anthropic"
+      ],
+      "brand": "claude",
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/ukflag_blue.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "eb35ff7f0def1417",
+      "related": [],
+      "score": {
+       "total": 59.5,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 98.3,
+        "topic": 90.0,
+        "novelty": 83.3
+       },
+       "asOf": "2026-11-28T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "پارلمان بریتانیا خواستار گزارش ایمنی METR بدون واکنش پس از واکنش های آنتروتیک بیشتر شواهد",
+        "excerpt": "پارلمان بریتانیا فشار بر آنتروپی را بالا می برد. لیام بایرن، رئیس کمیته، خواستار گزارش ایمنی ضعیف METR در مورد شتاب هوش مصنوعی تا ۴ دسامبر است. METR از Anthropic برای برش \"اطلاعات بیشتر\" شواهد قبل از انتشار انتقاد کرد. این قسمت سوالات گسترده تری در مورد شفافیت ارزیابی ایمنی داوطلبانه AI مطرح می کند و دوباره وابستگی اروپا به آزمایشگاه های هوش مصنوعی آمریکا را نشان می دهد.",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-28T14:34:53Z"
+       }
+      }
+     },
+     "rank": 2,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-recency"
+     ]
+    },
+    {
+     "article": {
+      "id": "2d66b9a2f223d46e",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+      "excerpt": "Google Deepmind tests the reliability of 18 AI models with \"Humanity's First Exam.\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent of errors, and more compute time doesn't fix the problem. The article Google Deepmind's \"Humanity's First Exam\" shows…",
+      "lang": "en",
+      "publishedAt": "2026-11-28T11:12:30Z",
+      "dateEstimated": false,
+      "fetchedAt": "2026-11-28T14:34:53Z",
+      "day": "2026-11-28",
+      "category": "models",
+      "tags": [
+       "ai research",
+       "artificial intelligence",
+       "benchmark",
+       "benchmarks",
+       "google",
+       "google deepmind"
+      ],
+      "entities": [
+       "google",
+       "openai"
+      ],
+      "brand": null,
+      "image": {
+       "url": "https://the-decoder.com/wp-content/uploads/2026/11/neural_network_coffee.png",
+       "kind": "feed",
+       "sourceUrl": "https://the-decoder.com/feed/"
+      },
+      "eventId": "2d66b9a2f223d46e",
+      "related": [],
+      "score": {
+       "total": 58.9,
+       "parts": {
+        "reliability": 60.0,
+        "corroboration": 0.0,
+        "recency": 85.1,
+        "topic": 100.0,
+        "novelty": 88.9
+       },
+       "asOf": "2026-11-28T14:00:00Z"
+      },
+      "tr": {
+       "fa": {
+        "title": "آزمون اول انسانی Google Deepmind نشان می دهد که مدل های برتر AI هنوز کارهای روزمره ساده ای را تحت اجراهای مکرر شکست می دهند.",
+        "excerpt": "Google Deepmind قابلیت اطمینان 18 مدل AI را با \"اول آزمون انسانی\" آزمایش می کند، مدل های برتر تقریبا هر خانواده کاری را حداقل یک بار حل می کنند، اما حتی رهبرانی مانند OpenAI GPT-6.2 Astra هنگامی که برای 16 پاسخ مستقیم سوال می شود، دچار مشکل می شوند. ادراک بصری 73 درصد اشتباهات را تشکیل می دهد و زمان محاسبه بیشتر مشکل را حل نمی کند. مقاله Google Deepmind’s First Trial",
+        "engine": "argos-en_fa-1.5",
+        "at": "2026-11-28T14:34:53Z"
+       }
+      }
+     },
+     "rank": 3,
+     "sources": 1,
+     "reason": [
+      "tier-3",
+      "first-report",
+      "top-factor-reliability"
+     ]
+    },
     {
      "article": {
       "id": "256cd61e1a96beca",
@@ -47,15 +225,15 @@
       "eventId": "256cd61e1a96beca",
       "related": [],
       "score": {
-       "total": 64.6,
+       "total": 58.6,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 59.5,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -66,7 +244,7 @@
        }
       }
      },
-     "rank": 1,
+     "rank": 4,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -106,15 +284,15 @@
       "eventId": "1b1ad1135220e483",
       "related": [],
       "score": {
-       "total": 64.0,
+       "total": 58.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 89.1,
+        "recency": 59.5,
         "topic": 85.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -125,7 +303,7 @@
        }
       }
      },
-     "rank": 2,
+     "rank": 5,
      "sources": 1,
      "reason": [
       "tier-2",
@@ -165,15 +343,15 @@
       "eventId": "3de8ad86ef21f8d0",
       "related": [],
       "score": {
-       "total": 59.3,
+       "total": 56.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 47.4,
+        "recency": 31.7,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -184,187 +362,10 @@
        }
       }
      },
-     "rank": 3,
-     "sources": 1,
-     "reason": [
-      "tier-1",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "bad7b4e320a32d28",
-      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
-      "excerpt": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder.",
-      "lang": "en",
-      "publishedAt": "2026-11-27T14:57:25Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-27T15:13:49Z",
-      "day": "2026-11-27",
-      "category": "models",
-      "tags": [
-       "ai and society",
-       "artificial intelligence",
-       "short news",
-       "sap"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "bad7b4e320a32d28",
-      "related": [],
-      "score": {
-       "total": 50.2,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 39.6,
-        "topic": 100.0,
-        "novelty": 93.3
-       },
-       "asOf": "2026-11-28T07:00:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "SAP قصد دارد حداقل ۱۰۰۰۰ شغل را کاهش دهد، زیرا به هوش مصنوعی متصل می شود",
-        "excerpt": "SAP در حال آماده شدن برای از بین بردن حداقل ۱۰۰۰۰ موقعیت به عنوان بخشی از بازسازی گسترده AI، گزارش بلومبرگ، اشاره به افرادی است که با این موضوع آشنا هستند. مقاله SAP قصد دارد حداقل ۱۰۰۰۰ شغل را کاهش دهد زیرا در ابتدا در Decoder ظاهر شد.",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-27T15:13:49Z"
-       }
-      }
-     },
-     "rank": 4,
-     "sources": 1,
-     "reason": [
-      "tier-3",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "24644713102c0e39",
-      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
-      "sourceId": "verge-ai",
-      "sourceName": "The Verge — AI",
-      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
-      "excerpt": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and",
-      "lang": "en",
-      "publishedAt": "2026-11-27T14:00:00Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-27T14:26:30Z",
-      "day": "2026-11-27",
-      "category": "products",
-      "tags": [
-       "ai",
-       "android",
-       "google",
-       "google pixel",
-       "tech"
-      ],
-      "entities": [],
-      "brand": null,
-      "image": {
-       "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/DSC04405_processed.jpg?quality=90&strip=all&crop=0,0,100,100",
-       "alt": "Pixel 11 Pro on a desk showing widgets on home screen",
-       "kind": "feed",
-       "sourceUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
-      },
-      "eventId": "24644713102c0e39",
-      "related": [],
-      "score": {
-       "total": 50.2,
-       "parts": {
-        "reliability": 80.0,
-        "corroboration": 0.0,
-        "recency": 37.4,
-        "topic": 65.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-28T07:00:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "ویجت های DIY اندروید کمی سرگرم کننده هستند",
-        "excerpt": "گذشته از معامله با تقویم من، یک چیز وجود دارد که من می خواهم AI انجام دهد: به من بگویید که آیا قصد دارم اتوبوس را از دست بدهم. چیزی که من نیاز دارم یک ویجت است. باید به من بگوید که زمان واقعی برای توقف اتوبوس در نزدیکی خانه ام. در اطراف صفحه تلفن من برای باز کردن برنامه درست و",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-27T14:26:30Z"
-       }
-      }
-     },
-     "rank": 5,
-     "sources": 1,
-     "reason": [
-      "tier-2",
-      "first-report",
-      "top-factor-reliability"
-     ]
-    },
-    {
-     "article": {
-      "id": "fbf41e8b3541d7cd",
-      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers",
-      "sourceId": "the-decoder",
-      "sourceName": "The Decoder",
-      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
-      "excerpt": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to compete directly with Apple. The article OpenAI countersues Apple over trade secret theft and alleged…",
-      "lang": "en",
-      "publishedAt": "2026-11-27T19:38:37Z",
-      "dateEstimated": false,
-      "fetchedAt": "2026-11-27T22:59:57Z",
-      "day": "2026-11-27",
-      "category": "policy",
-      "tags": [
-       "ai in practice",
-       "artificial intelligence",
-       "short news",
-       "apple",
-       "openai"
-      ],
-      "entities": [
-       "apple",
-       "openai"
-      ],
-      "brand": "openai",
-      "image": {
-       "url": "https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png",
-       "kind": "feed",
-       "sourceUrl": "https://the-decoder.com/feed/"
-      },
-      "eventId": "fbf41e8b3541d7cd",
-      "related": [],
-      "score": {
-       "total": 50.1,
-       "parts": {
-        "reliability": 60.0,
-        "corroboration": 0.0,
-        "recency": 51.9,
-        "topic": 85.0,
-        "novelty": 90.0
-       },
-       "asOf": "2026-11-28T07:00:34Z"
-      },
-      "tr": {
-       "fa": {
-        "title": "OpenAI مخالف اپل در مورد سرقت مخفی تجاری و اجبار ادعا شده برای تامین کنندگان مشترک",
-        "excerpt": "OpenAI در حال صدور اپل در یک دادگاه کالیفرنیا است و آن را به سرقت مخفی تجاری و جمع آوری تامین کنندگان مشترک متهم می کند. شمارنده ها از شکایت خود اپل از تابستان پیروی می کنند. فقط دو سال پیش، این دو شرکت برای آوردن ChatGPT به آیفون همکاری کردند. OpenAI در حال ساخت دستگاه های خود برای رقابت مستقیم با اپل است. این مقاله اپل را در مورد سرقت مخفی تجاری و ادعا...",
-        "engine": "argos-en_fa-1.5",
-        "at": "2026-11-27T22:59:57Z"
-       }
-      }
-     },
      "rank": 6,
      "sources": 1,
      "reason": [
-      "tier-3",
+      "tier-1",
       "first-report",
       "top-factor-reliability"
      ]
@@ -372,8 +373,8 @@
    ]
   },
   "weekly": {
-   "from": "2026-11-21T07:00:34Z",
-   "to": "2026-11-28T07:00:34Z",
+   "from": "2026-11-21T14:00:00Z",
+   "to": "2026-11-28T14:00:00Z",
    "halfLifeHours": 72,
    "picks": [
     {
@@ -411,15 +412,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 67.7,
+       "total": 67.3,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 35.7,
+        "recency": 33.4,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -471,15 +472,15 @@
       "eventId": "3de8ad86ef21f8d0",
       "related": [],
       "score": {
-       "total": 67.5,
+       "total": 66.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.3,
+        "recency": 82.6,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -531,15 +532,15 @@
       "eventId": "256cd61e1a96beca",
       "related": [],
       "score": {
-       "total": 66.4,
+       "total": 65.1,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 91.7,
         "topic": 85.0,
         "novelty": 100.0
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -590,15 +591,15 @@
       "eventId": "1b1ad1135220e483",
       "related": [],
       "score": {
-       "total": 65.8,
+       "total": 64.5,
        "parts": {
         "reliability": 80.0,
         "corroboration": 0.0,
-        "recency": 98.1,
+        "recency": 91.7,
         "topic": 85.0,
         "novelty": 94.1
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -644,15 +645,15 @@
       "eventId": "2d7f8b4f8454af31",
       "related": [],
       "score": {
-       "total": 65.5,
+       "total": 64.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 74.2,
+        "recency": 69.4,
         "topic": 75.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -702,15 +703,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 65.1,
+       "total": 64.3,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 58.8,
+        "recency": 55.0,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -761,15 +762,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 64.8,
+       "total": 64.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 55.8,
+        "recency": 52.1,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -816,15 +817,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 64.1,
+       "total": 63.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 65.9,
+        "recency": 61.6,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -845,8 +846,8 @@
    ]
   },
   "monthly": {
-   "from": "2026-10-29T07:00:34Z",
-   "to": "2026-11-28T07:00:34Z",
+   "from": "2026-10-29T14:00:00Z",
+   "to": "2026-11-28T14:00:00Z",
    "halfLifeHours": 240,
    "picks": [
     {
@@ -884,15 +885,15 @@
        "f1eea0a2781af6aa"
       ],
       "score": {
-       "total": 76.8,
+       "total": 76.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 87.5,
-        "recency": 27.8,
+        "recency": 27.3,
         "topic": 100.0,
         "novelty": 43.8
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -946,15 +947,15 @@
        "92c709b4dedffefa"
       ],
       "score": {
-       "total": 75.3,
+       "total": 75.0,
        "parts": {
         "reliability": 80.0,
         "corroboration": 50.0,
-        "recency": 73.4,
+        "recency": 71.9,
         "topic": 100.0,
         "novelty": 90.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1006,15 +1007,15 @@
        "d0b83026be95e613"
       ],
       "score": {
-       "total": 73.4,
+       "total": 73.2,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 45.2,
+        "recency": 44.3,
         "topic": 85.0,
         "novelty": 88.2
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1072,15 +1073,15 @@
        "ecab1061c917e910"
       ],
       "score": {
-       "total": 71.0,
+       "total": 70.7,
        "parts": {
         "reliability": 80.0,
         "corroboration": 75.0,
-        "recency": 72.2,
+        "recency": 70.7,
         "topic": 55.0,
         "novelty": 55.6
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1132,15 +1133,15 @@
       "eventId": "ec8743068e332d96",
       "related": [],
       "score": {
-       "total": 70.5,
+       "total": 70.1,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 83.9,
+        "recency": 82.3,
         "topic": 100.0,
         "novelty": 86.7
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1191,15 +1192,15 @@
       "eventId": "726045a047c880b6",
       "related": [],
       "score": {
-       "total": 70.4,
+       "total": 70.0,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 85.3,
+        "recency": 83.6,
         "topic": 100.0,
         "novelty": 83.3
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1250,15 +1251,15 @@
       "eventId": "3de8ad86ef21f8d0",
       "related": [],
       "score": {
-       "total": 69.0,
+       "total": 68.7,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 96.3,
+        "recency": 94.4,
         "topic": 70.0,
         "novelty": 92.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1304,15 +1305,15 @@
       "eventId": "2d7f8b4f8454af31",
       "related": [],
       "score": {
-       "total": 68.9,
+       "total": 68.5,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 91.4,
+        "recency": 89.6,
         "topic": 75.0,
         "novelty": 93.8
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1358,15 +1359,15 @@
       "eventId": "02a088434703556c",
       "related": [],
       "score": {
-       "total": 68.5,
+       "total": 68.2,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 88.2,
+        "recency": 86.5,
         "topic": 80.0,
         "novelty": 88.9
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
@@ -1411,15 +1412,15 @@
       "eventId": "d3aa48daa62df585",
       "related": [],
       "score": {
-       "total": 67.7,
+       "total": 67.4,
        "parts": {
         "reliability": 100.0,
         "corroboration": 0.0,
-        "recency": 86.6,
+        "recency": 84.8,
         "topic": 75.0,
         "novelty": 91.7
        },
-       "asOf": "2026-11-28T07:00:34Z"
+       "asOf": "2026-11-28T14:00:00Z"
       },
       "tr": {
        "fa": {
